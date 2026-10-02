@@ -1,0 +1,200 @@
+<view class="page">
+  <!-- 用户卡片 -->
+  <view class="user-card">
+    <view class="card-bg"></view>
+    <view class="card-content">
+      <!-- 已登录 -->
+      <block wx:if="{{isLoggedIn && userInfo}}">
+        <view class="user-main">
+          <view class="avatar-box" bindtap="chooseAvatar" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+            <image wx:if="{{userInfo.avatarUrl}}" class="avatar" src="{{userInfo.avatarUrl}}" mode="aspectFill"></image><view wx:else class="avatar image-placeholder">同</view>
+            <view class="avatar-edit">
+              <text class="edit-icon">📷</text>
+            </view>
+          </view>
+          <view class="user-detail">
+            <view class="nickname-box" bindtap="editNickname" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+              <text class="nickname">{{userInfo.nickName}}</text>
+              <text class="edit-badge">编辑</text>
+            </view>
+            <view class="user-id" wx:if="{{userId}}">ID: {{userId}}</view>
+          </view>
+        </view>
+        
+        <!-- 运动数据 -->
+        <view class="stats-row" wx:if="{{modulesState === 'ready' && modules.running}}">
+          <view class="stat-item">
+            <text class="stat-num">{{runStats.totalDistance}}</text>
+            <text class="stat-label">总里程(米)</text>
+          </view>
+          <view class="stat-divider"></view>
+          <view class="stat-item">
+            <text class="stat-num">{{runStats.totalRuns}}</text>
+            <text class="stat-label">跑步次数</text>
+          </view>
+          <view class="stat-divider"></view>
+          <view class="stat-item">
+            <text class="stat-num">{{friendCount}}</text>
+            <text class="stat-label">好友数</text>
+          </view>
+        </view>
+
+        <!-- 我的奖章 -->
+        <view class="medals-section" wx:if="{{modulesState === 'ready' && modules.running && runStats.totalDistance >= 1000}}">
+          <view class="medals-title">🏅 我的奖章</view>
+          <view class="medals-list">
+            <view class="medal-item" wx:if="{{runStats.totalDistance >= 1000}}">
+              <view class="medal-icon bronze">🥉</view>
+              <text class="medal-name">1公里破风</text>
+            </view>
+            <view class="medal-item" wx:if="{{runStats.totalDistance >= 5000}}">
+              <view class="medal-icon silver">🥈</view>
+              <text class="medal-name">5公里达人</text>
+            </view>
+            <view class="medal-item" wx:if="{{runStats.totalDistance >= 10000}}">
+              <view class="medal-icon gold">🥇</view>
+              <text class="medal-name">10公里大神</text>
+            </view>
+            <view class="medal-item" wx:if="{{runStats.totalDistance >= 42195}}">
+              <view class="medal-icon platinum">👑</view>
+              <text class="medal-name">全马王者</text>
+            </view>
+          </view>
+        </view>
+      </block>
+      
+      <!-- 未登录 -->
+      <block wx:else>
+        <view class="user-main">
+          <view class="avatar-box">
+            <view class="avatar image-placeholder">同</view>
+          </view>
+          <view class="user-detail">
+            <view class="nickname">未登录</view>
+            <view class="login-hint">登录后查看更多功能</view>
+          </view>
+        </view>
+        <view class="login-btn-box">
+          <view class="login-btn tech-control" bindtap="goToLogin" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">立即登录</view>
+        </view>
+      </block>
+    </view>
+  </view>
+
+  <!-- 功能分区（按来源动态排序：running/forum/food） -->
+        <view class="menu-section tech-card" wx:if="{{modulesState === 'ready' && modules.food}}">
+          <view class="section-title">我的资产</view>
+          <view class="menu-card">
+            <view class="menu-item" bindtap="goToCoupons" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+              <view class="menu-icon-wrap" style="background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);">
+                <text class="menu-icon">🎟️</text>
+              </view>
+              <view class="menu-content">
+                <text class="menu-title">外卖优惠券</text>
+                <text class="menu-desc">跑步里程兑换的配送费抵扣券</text>
+              </view>
+              <text class="menu-arrow">›</text>
+            </view>
+          </view>
+        </view>
+  <view class="menu-section tech-card" wx:if="{{modulesState === 'loading'}}">正在加载校园服务…</view>
+  <view class="menu-section tech-card" wx:elif="{{modulesState === 'error'}}">
+    <text>校园服务暂时无法加载</text>
+    <button bindtap="loadModules" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100" class="tech-control">重新加载</button>
+  </view>
+  <view class="menu-section tech-card" wx:elif="{{!hasOpenModules}}">暂无开放的校园服务</view>
+  <block wx:if="{{modulesState === 'ready'}}" wx:for="{{menuGroups}}" wx:for-item="group" wx:key="key">
+    <view class="menu-section tech-card">
+      <view class="section-title">{{group.title}}</view>
+      <view class="menu-card">
+        <block wx:for="{{group.items}}" wx:for-item="menu" wx:key="id">
+          <view
+            class="menu-item"
+            wx:if="{{(!menu.needLogin || isLoggedIn) && (!menu.onlyWhenLoggedIn || isLoggedIn)}}"
+            bindtap="onMenuTap"
+            data-action="{{menu.action}}"
+           hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+            <view class="menu-icon-wrap" style="background: {{menu.bg}};">
+              <text class="menu-icon">{{menu.icon}}</text>
+            </view>
+            <view class="menu-content">
+              <text class="menu-title">{{menu.title}}</text>
+              <text class="menu-desc">{{menu.desc}}</text>
+            </view>
+            <text class="menu-arrow">›</text>
+          </view>
+        </block>
+      </view>
+    </view>
+  </block>
+
+  <!-- 搜索好友弹窗 -->
+  <view class="modal-overlay" wx:if="{{showSearchModal}}" bindtap="hideSearchModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+    <view class="modal-box tech-card" catchtap="catchTapPrevent" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+      <view class="modal-header">
+        <text class="modal-title">🔍 搜索好友</text>
+        <view class="modal-close tap-action" bindtap="hideSearchModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">×</view>
+      </view>
+      <view class="modal-body">
+        <view class="search-tabs">
+          <view class="search-tab {{searchType === 'name' ? 'active' : ''}}" bindtap="switchSearchType" data-type="name" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">按昵称</view>
+          <view class="search-tab {{searchType === 'id' ? 'active' : ''}}" bindtap="switchSearchType" data-type="id" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">按ID</view>
+        </view>
+        <view class="search-box">
+          <tech-search class="tech-search-host"><input 
+            class="search-input tech-input" 
+            placeholder="{{searchType === 'name' ? '输入好友昵称' : '输入6位用户ID'}}" 
+            value="{{searchKeyword}}"
+            bindinput="onSearchInput"
+            bindconfirm="searchFriend"
+            confirm-type="search"
+            adjust-position="false"
+            cursor-spacing="40"
+          placeholder-style="color:#8597ad" /></tech-search>
+          <view class="search-btn tech-control" bindtap="searchFriend" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">搜索</view>
+        </view>
+        <scroll-view scroll-y class="results-scroll">
+          <block wx:if="{{searchResults.length > 0}}">
+            <view class="result-item" wx:for="{{searchResults}}" wx:key="openid">
+              <image wx:if="{{item.avatarUrl}}" class="result-avatar" src="{{item.avatarUrl}}" mode="aspectFill"></image><view wx:else class="result-avatar image-placeholder">同</view>
+              <view class="result-info">
+                <text class="result-name">{{item.nickName}}</text>
+                <text class="result-id">ID: {{item.userId}}</text>
+              </view>
+              <view class="result-action" data-user="{{item}}" bindtap="addFriend" wx:if="{{!item.isFriend}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">添加</view>
+              <view class="result-action disabled" wx:else>已添加</view>
+            </view>
+          </block>
+          <view class="empty-result" wx:elif="{{hasSearched}}">
+            <text>未找到匹配的好友</text>
+          </view>
+        </scroll-view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 二维码弹窗 -->
+  <view class="modal-overlay" wx:if="{{showQrModal}}" bindtap="hideQrModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+    <view class="modal-box qr-modal tech-card" catchtap="" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+      <view class="modal-header">
+        <text class="modal-title">📱 我的二维码</text>
+        <view class="modal-close tap-action" bindtap="hideQrModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">×</view>
+      </view>
+      <view class="modal-body">
+        <view class="qr-content">
+          <image class="qr-image" src="{{qrCodeUrl}}" mode="aspectFit" wx:if="{{qrCodeUrl}}"></image>
+          <view class="qr-placeholder" wx:else>
+            <text class="qr-loading">生成中...</text>
+          </view>
+        </view>
+        <view class="qr-tip">让好友扫描此二维码添加你</view>
+        <view class="qr-actions">
+          <view class="qr-btn tech-control" bindtap="saveQrCode" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">保存到相册</view>
+          <view class="qr-btn share" open-type="share">分享给好友</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <run-tabbar selected="{{2}}"></run-tabbar>
+</view>

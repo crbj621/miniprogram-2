@@ -1,0 +1,31 @@
+@import "../../styles/campus-ui.wxss";
+.portal-page { min-height: 100vh; padding-bottom: calc(24rpx + env(safe-area-inset-bottom)); }
+button { margin: 0; padding: 0; text-align: left; line-height: normal; background: transparent; color: inherit; }
+.hero { padding: 16rpx 32rpx 36rpx; background: #fff; border-bottom: 2rpx solid #e1e8e1; }
+.hero-top,.brand,.welcome-row { display: flex; align-items: center; justify-content: space-between; }
+.brand { gap: 10rpx; }.brand-flower { color: #be7056; font-size: 36rpx; }.brand-name { font-size: 23rpx; font-weight: 650; color: #71665e; }
+.admin-entry { min-height: 88rpx; display: flex; align-items: center; padding: 0 16rpx; color: #796a5d; font-size: 24rpx; }
+.welcome-row { gap: 16rpx; margin-top: 18rpx; }.welcome-copy { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.eyebrow { font-size: 24rpx; color: #796e64; }.hero-title { font-size: 39rpx; font-weight: 750; line-height: 1.4; margin-top: 10rpx; }.hero-subtitle { font-size: 23rpx; line-height: 1.5; color: #847568; margin-top: 14rpx; }
+.user-avatar { flex-shrink: 0; width: 112rpx; height: 112rpx; border-radius: 34rpx; overflow: hidden; }.user-avatar image { width: 100%; height: 100%; }
+.portal-content { padding: 28rpx; }.section-heading { display: flex; justify-content: space-between; align-items: center; gap: 12rpx; margin: 6rpx 0 22rpx; }.section-title { font-size: 31rpx; font-weight: 700; }.section-note { font-size: 21rpx; color: #7e94a6; }
+.service-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 20rpx; }
+.service-card { display: flex; flex-direction: column; width: 100%; min-width: 0; min-height: 316rpx; border-radius: 30rpx; padding: 24rpx; border: 2rpx solid #dbe7f1; box-shadow: 0 10rpx 28rpx #1831490b; color: #193449; position: relative; overflow: hidden; }
+.service-card--run { background: #e9f5fc; }.service-card--food { background: #edf2ff; }.service-card--canteen { background: #eaf7f5; }.service-card--forum { background: #f2effb; }
+.service-top { display: flex; align-items: flex-start; justify-content: space-between; width: 100%; }.service-tag { font-size: 19rpx; line-height: 1.5; color: #6d8ba2; padding: 8rpx 12rpx; background: #ffffffb3; border-radius: 16rpx; white-space: nowrap; }
+.service-title { font-size: 34rpx; font-weight: 800; line-height: 1.4; margin-top: 18rpx; }.service-desc { font-size: 23rpx; color: #758da0; line-height: 1.6; margin-top: 8rpx; min-height: 74rpx; }
+.service-footer { display: flex; align-items: center; justify-content: space-between; width: 100%; margin-top: auto; padding-top: 18rpx; font-size: 23rpx; font-weight: 600; }.service-arrow { display: flex; align-items: center; justify-content: center; width: 44rpx; height: 44rpx; border-radius: 50%; background: rgba(255,255,255,.7); font-size: 28rpx; }
+.profile-card { display: flex; align-items: center; width: 100%; gap: 20rpx; padding: 24rpx; border-radius: 28rpx; background: #fff; border: 2rpx solid #dee8f0; margin-top: 24rpx; }.profile-symbol { display: flex; align-items: center; justify-content: center; width: 74rpx; height: 74rpx; border-radius: 24rpx; background: #f4ede4; color: #8a7159; font-size: 27rpx; font-weight: 700; }.profile-info { flex: 1; min-width: 0; }.profile-title { display: block; font-size: 28rpx; font-weight: 650; }.profile-desc { display: block; margin-top: 7rpx; color: #7e94a6; font-size: 23rpx; }.profile-arrow { font-size: 34rpx; color: #a39182; }
+.logout-btn { width: 100%; min-height: 88rpx; text-align: center; padding: 28rpx; font-size: 23rpx; color: #8e7f71; }.module-status { padding: 32rpx; background: #fff; border-radius: 28rpx; font-size: 26rpx; line-height: 1.6; text-align: center; }.module-retry { min-height: 88rpx; text-align: center; color: #48785c; }
+
+.page-refresh-scroll { height: 100vh; display: block; }
+
+@import "../../styles/uiverse.wxss";
+
+.service-card .uiverse-card-content { width: 100%; display: flex; flex-direction: column; gap: 12rpx; }
+
+@import "../../styles/tech-ui.wxss";
+
+.welcome-copy .eyebrow,.welcome-copy .hero-subtitle { color:inherit; }
+.user-avatar.tech-control { width:112rpx; height:112rpx; border-radius:50%; display:flex; align-items:center; justify-content:center; }
+.user-avatar image { display:block; border-radius:50%; }

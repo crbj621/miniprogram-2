@@ -1,0 +1,11 @@
+/* Lakshay-art/curvy-earwig-22. Original layers retained; responsive native slot. */
+:host { display:block; min-width:0; }
+.poda { position:relative; display:flex; align-items:center; justify-content:center; width:100%; min-height:88rpx; isolation:isolate; }
+.white,.border,.dark-border,.glow { position:absolute; inset:-4rpx; overflow:hidden; border-radius:18rpx; pointer-events:none; }
+.glow { inset:-12rpx; filter:blur(18rpx); opacity:.45; }.dark-border { inset:-7rpx; filter:blur(3rpx); }.white { inset:-2rpx; filter:blur(1rpx); }
+.white::before,.border::before,.dark-border::before,.glow::before { content:""; position:absolute; top:50%; left:50%; width:760rpx; height:760rpx; background-repeat:no-repeat; transform:translate(-50%,-50%) rotate(70deg); animation:search-rotate 8s linear infinite; pointer-events:none; }
+.white::before { background-image:conic-gradient(transparent 0%,#a099d8,transparent 8%,transparent 50%,#dfa2da,transparent 58%); animation-delay:-1s; }.border::before { background-image:conic-gradient(#1c191c,#402fb5 5%,#1c191c 14%,#1c191c 50%,#cf30aa 60%,#1c191c 64%); }
+.dark-border::before { background-image:conic-gradient(transparent,#18116a,transparent 10%,transparent 50%,#6e1b60,transparent 60%); animation-delay:-2s; }.glow::before { background-image:conic-gradient(#000,#402fb5 5%,#000 38%,#000 50%,#cf30aa 60%,#000 87%); animation-delay:-3s; }
+.main { position:relative; z-index:1; width:100%; min-width:0; min-height:88rpx; background:#070b16; border-radius:14rpx; overflow:hidden; }
+@keyframes search-rotate { 0% { transform:translate(-50%,-50%) rotate(70deg); } 100% { transform:translate(-50%,-50%) rotate(430deg); } }
+@media (prefers-reduced-motion:reduce) { .white::before,.border::before,.dark-border::before,.glow::before { animation:none; } }

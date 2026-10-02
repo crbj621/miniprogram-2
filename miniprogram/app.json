@@ -1,0 +1,116 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/portal/portal",
+    "pages/index/index",
+    "pages/rank/rank",
+    "pages/profile/profile",
+    "pages/friends/friends",
+    "pages/admin/login/login",
+    "pages/admin/index/index",
+    "pages/admin/rank/rank",
+    "pages/admin/audit/audit",
+    "pages/admin/shops/shops",
+    "pages/admin/riders/riders",
+    "pages/admin/logs/logs",
+    "pages/admin/announcements/announcements",
+    "pages/admin/admins/admins",
+    "pages/admin/oplogs/oplogs"
+  ],
+  "subpackages": [
+    {
+      "root": "packageFood",
+      "name": "foodPackage",
+      "pages": [
+        "pages/login/login",
+        "pages/index/index",
+        "pages/shop/shop",
+        "pages/order/order",
+        "pages/order_list/order_list",
+        "pages/order_detail/order_detail",
+        "pages/mine/mine",
+        "pages/shop_login/shop_login",
+        "pages/shop_index/shop_index",
+        "pages/shop_dish/shop_dish",
+        "pages/shop_settings/shop_settings",
+        "pages/shop_register/shop_register",
+        "pages/adminOrder/adminOrder",
+        "pages/adminMenu/adminMenu"
+      ]
+    },
+    {
+      "root": "packageCanteen",
+      "name": "canteenReviews",
+      "pages": [
+        "pages/index/index",
+        "pages/stall/stall",
+        "pages/dish/dish",
+        "pages/submit/submit",
+        "pages/admin/admin"
+      ]
+    },
+    {
+      "root": "packageProfile",
+      "name": "profile",
+      "pages": [
+        "pages/history/history",
+        "pages/settings/settings",
+        "pages/team/team",
+        "pages/coupons/coupons"
+      ]
+    },
+    {
+      "root": "packageForum",
+      "name": "forum",
+      "pages": [
+        "pages/index/index",
+        "pages/list/list",
+        "pages/post/post",
+        "pages/detail/detail",
+        "pages/mine/mine",
+        "pages/notifications/notifications",
+        "pages/messages/messages",
+        "pages/chat/chat",
+        "pages/admin_posts/admin_posts",
+        "pages/admin_reports/admin_reports",
+        "pages/admin_users/admin_users",
+        "pages/admin_logs/admin_logs"
+      ]
+    },
+    {
+      "root": "packageRider",
+      "name": "rider",
+      "pages": [
+        "pages/register/register",
+        "pages/hall/hall",
+        "pages/my/my"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "校园跑",
+    "navigationBarTextStyle": "black"
+  },
+  "requiredBackgroundModes": [
+    "location"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于校园跑记录跑步距离"
+    },
+    "scope.userLocationBackground": {
+      "desc": "允许后台定位以便锁屏/切后台时继续记录跑步轨迹"
+    }
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "requiredPrivateInfos": [
+    "getLocation",
+    "onLocationChange",
+    "startLocationUpdate",
+    "startLocationUpdateBackground"
+  ]
+}

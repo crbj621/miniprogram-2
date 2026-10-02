@@ -1,0 +1,20 @@
+@import "styles/uiverse.wxss";
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+/* Native hover feedback shared by every tappable card and button. */
+.tap-feedback { transform: translateY(3rpx) scale(.98); opacity: .82; }
+button { transition: transform 120ms ease, opacity 120ms ease; }
+button[disabled] { opacity: .5; }
+@media (prefers-reduced-motion: reduce) { .tap-feedback { transform: none; } button { transition: none; } }
+
+.image-placeholder { display: flex; align-items: center; justify-content: center; flex-shrink: 0; background: #eaf3fc; color: #6d91ac; font-size: 28rpx; font-weight: 700; }
+
+.tap-action { display: inline-flex; align-items: center; justify-content: center; min-height: 64rpx; }

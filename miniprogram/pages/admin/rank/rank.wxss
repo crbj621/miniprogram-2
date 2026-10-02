@@ -1,0 +1,156 @@
+@import "../../../styles/admin-ui.wxss";
+.container {
+  min-height: 100vh;
+  background-color: #f2f6fa;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-bar {
+  padding: 20rpx 30rpx;
+  background-color: #fff;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  border-radius: 30rpx;
+  padding: 16rpx 24rpx;
+}
+
+.search-box icon {
+  margin-right: 10rpx;
+}
+
+.search-box input {
+  flex: 1;
+  font-size: 28rpx;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx 30rpx;
+  background-color: #fff;
+  border-bottom: 1rpx solid #eee;
+}
+
+.select-all {
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+  color: #666;
+}
+
+.checkbox {
+  width: 40rpx;
+  height: 40rpx;
+  border: 2rpx solid #ddd;
+  border-radius: 8rpx;
+  margin-right: 16rpx;
+  position: relative;
+}
+
+.checkbox.checked {
+  background-color: #338ac7;
+  border-color: #338ac7;
+}
+
+.checkbox.checked::after {
+  content: '✓';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 24rpx;
+}
+
+.action-btn {
+  background-color: #ff4d4f;
+  color: #fff;
+  font-size: 26rpx;
+  padding: 12rpx 24rpx;
+  border-radius: 30rpx;
+}
+
+.list-container {
+  flex: 1;
+}
+
+.list {
+  padding: 20rpx;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 24rpx;
+  padding: 24rpx;
+  margin-bottom: 20rpx;
+}
+
+.item .checkbox {
+  flex-shrink: 0;
+}
+
+.item-content {
+  flex: 1;
+  margin-left: 20rpx;
+}
+
+.item-header {
+  display: flex;
+  align-items: center;
+}
+
+.rank {
+  background-color: #faad14;
+  color: #fff;
+  font-size: 22rpx;
+  padding: 4rpx 12rpx;
+  border-radius: 8rpx;
+  margin-right: 16rpx;
+}
+
+.username {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #333;
+}
+
+.item-info {
+  font-size: 24rpx;
+  color: #666;
+  margin-top: 10rpx;
+}
+
+.divider {
+  margin: 0 10rpx;
+  color: #ddd;
+}
+
+.item-time {
+  font-size: 22rpx;
+  color: #7e94a6;
+  margin-top: 8rpx;
+}
+
+.delete-btn {
+  color: #ff4d4f;
+  font-size: 26rpx;
+  padding: 10rpx 20rpx;
+}
+
+.empty, .loading {
+  text-align: center;
+  padding: 100rpx 0;
+  color: #7e94a6;
+  font-size: 28rpx;
+}
+.demo-tools { display: grid; grid-template-columns: 1fr 1fr; gap: 16rpx; padding: 24rpx 28rpx 0; }.demo-tools button { margin: 0; width: 100%; font-size: 24rpx; background: #edf6fc; color: #6a93ae; border-radius: 20rpx; min-height: 82rpx; }
+
+@import "../../../styles/tech-ui.wxss";

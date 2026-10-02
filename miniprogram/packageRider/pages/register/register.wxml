@@ -1,0 +1,32 @@
+<view class="container">
+  <view class="card tech-card" wx:if="{{existingRider}}">
+    <view class="title">骑手申请状态</view>
+    <view class="desc" wx:if="{{existingRider.status === 'pending'}}">资料已提交，正在等待管理员审核</view>
+    <view class="desc" wx:elif="{{existingRider.status === 'rejected'}}">申请未通过：{{existingRider.rejectReason || '请联系管理员了解详情'}}</view>
+    <view class="desc" wx:else>审核已通过，可以进入接单大厅</view>
+  </view>
+
+  <view class="card tech-card" wx:if="{{!existingRider || existingRider.status === 'rejected'}}">
+    <view class="title">{{existingRider ? '修改骑手资料' : '兼职骑手注册'}}</view>
+    <view class="desc">{{existingRider ? '修改资料后可重新提交审核' : '用于接单与配送，请填写真实信息'}}</view>
+
+    <view class="field">
+      <view class="label">姓名</view>
+      <input class="input tech-input" placeholder="请输入姓名" value="{{form.realName}}" data-field="realName" bindinput="onInput" placeholder-style="color:#8597ad" />
+    </view>
+
+    <view class="field">
+      <view class="label">手机号</view>
+      <input class="input tech-input" placeholder="请输入手机号" value="{{form.phone}}" data-field="phone" bindinput="onInput" placeholder-style="color:#8597ad" />
+    </view>
+
+    <view class="field">
+      <view class="label">学号</view>
+      <input class="input tech-input" placeholder="请输入学号" value="{{form.studentId}}" data-field="studentId" bindinput="onInput" placeholder-style="color:#8597ad" />
+    </view>
+
+    <button class="btn tech-control" loading="{{loading}}" bindtap="submit" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+      {{loading ? '提交中...' : (existingRider ? '重新提交审核' : '提交注册')}}
+    </button>
+  </view>
+</view>

@@ -1,0 +1,72 @@
+<view class="container">
+  <view class="topbar">
+    <view class="title">公告管理</view>
+    <view class="actions">
+      <view class="btn primary tech-control tech-primary" bindtap="openCreate" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">发布公告</view>
+    </view>
+  </view>
+
+  <view class="filters">
+    <view class="chip {{status==='published'?'active':''}}" data-status="published" bindtap="switchStatus" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">已发布</view>
+    <view class="chip {{status==='draft'?'active':''}}" data-status="draft" bindtap="switchStatus" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">草稿</view>
+    <view class="chip {{status==='all'?'active':''}}" data-status="all" bindtap="switchStatus" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">全部</view>
+  </view>
+
+  <view class="list">
+    <view class="item" wx:for="{{list}}" wx:key="_id">
+      <view class="row">
+        <view class="item-title">{{item.title}}</view>
+        <view class="badge {{item.status}}">{{item.status === 'published' ? '已发布' : '草稿'}}</view>
+      </view>
+      <view class="content">{{item.content}}</view>
+      <view class="row bottom">
+        <view class="meta">浏览 {{item.views || 0}}</view>
+        <view class="ops">
+          <view class="op" data-item="{{item}}" bindtap="edit" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">编辑</view>
+          <view class="op danger" data-id="{{item._id}}" bindtap="remove" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">删除</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="empty" wx:if="{{!loading && list.length === 0}}">
+    <text>暂无公告</text>
+  </view>
+
+  <view class="loading" wx:if="{{loading}}"><view class="uiverse-dots"><view class="uiverse-dot" /><view class="uiverse-dot" /><view class="uiverse-dot" /></view>
+    <text>加载中...</text>
+  </view>
+
+  <!-- 发布/编辑弹窗 -->
+  <view class="mask" wx:if="{{showModal}}" catchtouchmove="preventTouchMove" bindtap="closeModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"></view>
+  <view class="modal-wrap" wx:if="{{showModal}}" catchtouchmove="preventTouchMove">
+    <view class="modal tech-card" catchtap="" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+      <view class="modal-header">
+        <view class="modal-title">{{editingId ? '编辑公告' : '发布公告'}}</view>
+        <view class="modal-close" bindtap="closeModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">✕</view>
+      </view>
+
+      <view class="modal-body">
+        <view class="field">
+          <view class="label">标题</view>
+          <input class="input tech-input" value="{{form.title}}" placeholder="请输入公告标题" bindinput="onInput" data-field="title" placeholder-style="color:#8597ad" />
+        </view>
+        <view class="field">
+          <view class="label">内容</view>
+          <textarea class="textarea tech-input" value="{{form.content}}" placeholder="请输入公告内容" bindinput="onInput" data-field="content" placeholder-style="color:#8597ad"></textarea>
+        </view>
+        <view class="field row-inline">
+          <view class="label">状态</view>
+          <picker mode="selector" range="{{statusOptions}}" range-key="name" value="{{statusIndex}}" bindchange="onStatusPicker">
+            <view class="picker">{{statusOptions[statusIndex].name}}</view>
+          </picker>
+        </view>
+      </view>
+
+      <view class="modal-footer">
+        <button class="btn ghost tech-control" bindtap="closeModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">取消</button>
+        <button class="btn primary uiverse-sweep uiverse-sweep--tint tech-control tech-primary" bindtap="submit" loading="{{submitting}}" hover-class="uiverse-sweep-pressed tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"><view class="uiverse-sweep-plane" />保存</button>
+      </view>
+    </view>
+  </view>
+</view>

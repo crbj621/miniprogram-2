@@ -1,0 +1,85 @@
+<view class="page">
+  <view class="header">
+    <view class="header-bg"></view>
+    <view class="header-content">
+      <view class="back-btn tech-control" bindtap="goBack" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+        <text class="back-icon">←</text>
+      </view>
+      <text class="header-title">消息通知</text>
+      <view class="header-right"></view>
+    </view>
+  </view>
+
+  <view class="tab-bar">
+    <view class="tab-item {{activeTab === 'notifications' ? 'active' : ''}}" bindtap="onTabTap" data-tab="notifications" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+      <text class="tab-icon">🔔</text>
+      <text class="tab-name">通知</text>
+      <view class="tab-badge" wx:if="{{unreadNotifications > 0}}">{{unreadNotifications}}</view>
+    </view>
+    <view class="tab-item {{activeTab === 'chats' ? 'active' : ''}}" bindtap="onTabTap" data-tab="chats" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+      <text class="tab-icon">💬</text>
+      <text class="tab-name">私信</text>
+      <view class="tab-badge" wx:if="{{unreadChats > 0}}">{{unreadChats}}</view>
+    </view>
+  </view>
+
+  <scroll-view scroll-y class="content-area">
+    <view wx:if="{{activeTab === 'notifications'}}" class="notification-section">
+      <view class="notification-item {{item.isRead ? '' : 'unread'}}" 
+        wx:for="{{notifications}}" 
+        wx:key="_id" 
+        bindtap="onNotificationTap" 
+        data-item="{{item}}"
+       hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+        <view class="notification-icon">
+          <text wx:if="{{item.type === 'comment'}}">💬</text>
+          <text wx:elif="{{item.type === 'reply'}}">↩️</text>
+          <text wx:elif="{{item.type === 'like'}}">👍</text>
+          <text wx:else>🔔</text>
+        </view>
+        <view class="notification-content">
+          <view class="notification-title">
+            <text wx:if="{{item.type === 'comment'}}">评论了你的动态</text>
+            <text wx:elif="{{item.type === 'reply'}}">回复了你的评论</text>
+            <text wx:elif="{{item.type === 'like'}}">赞了你的动态</text>
+            <text wx:else>新消息</text>
+          </view>
+          <view class="notification-post">《{{item.postTitle}}》</view>
+          <view class="notification-preview">{{item.commentContent}}...</view>
+          <view class="notification-time">{{item.createTimeText}}</view>
+        </view>
+        <view class="notification-dot" wx:if="{{!item.isRead}}"></view>
+      </view>
+      
+      <view class="empty-state" wx:if="{{notifications.length === 0}}">
+        <text class="empty-icon">📭</text>
+        <text class="empty-text">暂无通知</text>
+        <text class="empty-tip">有人回复你时会在这里提醒</text>
+      </view>
+    </view>
+
+    <view wx:if="{{activeTab === 'chats'}}" class="chat-section">
+      <view class="chat-item" wx:for="{{conversations}}" wx:key="_id" bindtap="onChatTap" data-item="{{item}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+        <image wx:if="{{item.toAvatar}}" class="chat-avatar" src="{{item.toAvatar}}" mode="aspectFill"></image><view wx:else class="chat-avatar image-placeholder">同</view>
+        <view class="chat-info">
+          <view class="chat-header">
+            <text class="chat-name">{{item.toName}}</text>
+            <text class="chat-time">{{item.lastTimeText}}</text>
+          </view>
+          <view class="chat-preview">
+            <text class="chat-msg">{{item.lastMessage}}</text>
+            <view class="chat-badge" wx:if="{{item.unreadCount > 0}}">{{item.unreadCount}}</view>
+          </view>
+        </view>
+      </view>
+      
+      <view class="empty-state" wx:if="{{conversations.length === 0}}">
+        <text class="empty-icon">💬</text>
+        <text class="empty-text">暂无私信</text>
+        <text class="empty-tip">点击他人头像开始聊天</text>
+      </view>
+    </view>
+    
+    <view class="bottom-space"></view>
+  </scroll-view>
+</view>

@@ -1,0 +1,82 @@
+<view class="container">
+  <view class="team-page-heading"><view><text class="team-eyebrow">CAMPUS / TEAM</text><text class="team-page-title">与伙伴并肩出发</text></view><button bindtap="loadTeamInfo" hover-class="tap-feedback tech-pressed" class="tech-control">↻</button></view>
+  <view wx:if="{{!hasTeam}}" class="no-team">
+    <view class="empty-icon">🏃‍♂️</view>
+    <text class="empty-text">寻找你的跑步搭子</text>
+    <view class="action-buttons">
+      <button class="btn primary uiverse-sweep uiverse-sweep--tint tech-control tech-primary" bindtap="showCreateModal" hover-class="uiverse-sweep-pressed tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"><view class="uiverse-sweep-plane" />创建队伍</button>
+      <button class="btn secondary tech-control" bindtap="showJoinModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">输入邀请码加入</button>
+    </view>
+  </view>
+
+  <view wx:else class="team-info">
+    <view class="team-header">
+      <view class="team-title-row">
+        <text class="team-name">{{teamInfo.teamName || '我的跑团'}}</text>
+        <text class="team-tag">组队模式</text>
+      </view>
+    </view>
+
+    <view class="pending-team" wx:if="{{teamInfo.status === 'pending'}}"><text>搭档邀请等待确认</text><view wx:if="{{!isLeader}}"><button data-accept="{{false}}" bindtap="answerInvite" hover-class="tap-feedback tech-pressed" class="tech-control">婉拒邀请</button><button data-accept="{{true}}" bindtap="answerInvite" hover-class="tap-feedback tech-pressed" class="tech-control">接受邀请</button></view></view>
+    <view class="invite-section" wx:if="{{teamInfo.teamType !== 'couple'}}">
+      <view class="invite-code-box">
+        <text class="invite-label">邀请码</text>
+        <text class="invite-code">{{inviteCode}}</text>
+        <text class="invite-expire">{{expireText}}</text>
+      </view>
+      <view class="invite-actions">
+        <button class="btn small tech-control" bindtap="copyInviteCode" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">复制邀请码</button>
+        <button class="btn small secondary tech-control" wx:if="{{isLeader}}" bindtap="refreshCode" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">刷新邀请码</button>
+      </view>
+    </view>
+
+    <view class="member-list">
+      <view class="section-title">队伍成员 ({{teamInfo.memberCount}}/{{teamInfo.teamType === 'couple' ? 2 : 3}})</view>
+      <view class="member-item">
+        <view class="avatar-placeholder">👤</view>
+        <text class="nickname">{{leaderDetail.nickName || '队长'}}{{isLeader ? '（我）' : ''}}</text>
+        <text class="role">队长</text>
+      </view>
+      <view class="member-item" wx:for="{{members}}" wx:key="openid">
+        <view class="avatar-placeholder">👤</view>
+        <text class="nickname">{{item.nickName}}{{item.openid === currentOpenid ? '（我）' : ''}}</text>
+        <text class="role">队员</text>
+      </view>
+      <view class="member-item empty" wx:if="{{teamInfo.teamType !== 'couple' && members.length < 2}}">
+        <view class="avatar-placeholder empty">+</view>
+        <text class="nickname">等待加入...</text>
+      </view>
+    </view>
+
+    <view class="team-actions">
+      <button class="btn primary uiverse-sweep uiverse-sweep--tint tech-control tech-primary" wx:if="{{teamInfo.status === 'active'}}" bindtap="goRun" hover-class="uiverse-sweep-pressed tap-feedback tech-pressed"><view class="uiverse-sweep-plane" />进入运动地图</button>
+      <button class="btn danger tech-control tech-danger" bindtap="leaveTeam" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">{{isLeader ? '解散队伍' : '退出队伍'}}</button>
+    </view>
+  </view>
+
+  <view class="modal-mask" wx:if="{{createModalVisible}}" bindtap="hideCreateModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"></view>
+  <view class="modal-content tech-card" wx:if="{{createModalVisible}}">
+    <view class="modal-header">创建队伍</view>
+    <view class="modal-body">
+      <input class="modal-input tech-input" type="text" placeholder="请输入队伍名称（可选）" bindinput="onTeamNameInput" value="{{newTeamName}}" placeholder-style="color:#8597ad" />
+      <text class="modal-tip">创建后将生成3位邀请码，有效期10分钟</text>
+    </view>
+    <view class="modal-footer">
+      <button class="btn cancel tech-control" bindtap="hideCreateModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">取消</button>
+      <button class="btn confirm uiverse-sweep uiverse-sweep--tint tech-control tech-primary" bindtap="createTeam" hover-class="uiverse-sweep-pressed tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"><view class="uiverse-sweep-plane" />创建</button>
+    </view>
+  </view>
+
+  <view class="modal-mask" wx:if="{{joinModalVisible}}" bindtap="hideJoinModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"></view>
+  <view class="modal-content tech-card" wx:if="{{joinModalVisible}}">
+    <view class="modal-header">加入队伍</view>
+    <view class="modal-body">
+      <input class="modal-input tech-input" type="number" maxlength="3" placeholder="请输入3位邀请码" bindinput="onInviteCodeInput" value="{{inviteCode}}" placeholder-style="color:#8597ad" />
+      <text class="modal-tip">向队长获取邀请码</text>
+    </view>
+    <view class="modal-footer">
+      <button class="btn cancel tech-control" bindtap="hideJoinModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">取消</button>
+      <button class="btn confirm uiverse-sweep uiverse-sweep--tint tech-control tech-primary" bindtap="joinTeam" hover-class="uiverse-sweep-pressed tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"><view class="uiverse-sweep-plane" />加入</button>
+    </view>
+  </view>
+</view>

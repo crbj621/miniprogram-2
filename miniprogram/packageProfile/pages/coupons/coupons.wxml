@@ -1,0 +1,70 @@
+<!--pages/profile/coupons/coupons.wxml-->
+<view class="container">
+  <view class="header">
+    <view class="total-title">当前可用优惠</view>
+    <view class="total-amount">
+      <text class="symbol">¥</text>
+      <text class="num">{{totalValue}}</text>
+    </view>
+    <view class="header-desc">今日每跑 1000 米可抵 0.1 元，每日最多 1 元</view>
+  </view>
+
+  <view class="coupon-list" wx:if="{{showNewUserCoupon || userCoupons.length > 0 || coupons.length > 0}}">
+    <!-- 新手领券专区 -->
+    <view class="coupon-item new-user-coupon" wx:if="{{showNewUserCoupon}}">
+      <view class="coupon-left">
+        <text class="symbol">¥</text>
+        <text class="amount">1.00</text>
+      </view>
+      <view class="coupon-mid">
+        <view class="title">新用户专享券</view>
+        <view class="desc">下单抵扣，每人限领1张</view>
+        <view class="time">领取后7天内有效</view>
+      </view>
+      <view class="coupon-right">
+        <view class="use-btn claim-btn tech-control" bindtap="claimNewUserCoupon" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">点击领取</view>
+      </view>
+    </view>
+
+    <!-- 已领取的专享券 -->
+    <view class="coupon-item" wx:for="{{userCoupons}}" wx:key="_id">
+      <view class="coupon-left {{item.used || item.expired ? 'used' : ''}}">
+        <text class="symbol">¥</text>
+        <text class="amount">{{item.value}}</text>
+      </view>
+      <view class="coupon-mid">
+        <view class="title">{{item.name}}</view>
+        <view class="desc">无门槛外卖抵扣</view>
+        <view class="time">有效期至: {{item.expireTimeFormatted}}</view>
+      </view>
+      <view class="coupon-right">
+        <view class="use-btn {{item.used || item.expired ? 'used-btn' : ''}} tech-control" bindtap="{{item.used || item.expired ? '' : 'goOrder'}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+          {{item.used ? '已使用' : (item.expired ? '已过期' : '去使用')}}
+        </view>
+      </view>
+    </view>
+
+    <!-- 跑步里程抵扣券 -->
+    <view class="coupon-item" wx:for="{{coupons}}" wx:key="index">
+      <view class="coupon-left">
+        <text class="symbol">¥</text>
+        <text class="amount">{{item.value}}</text>
+      </view>
+      <view class="coupon-mid">
+        <view class="title">{{item.name}}</view>
+        <view class="desc">{{item.desc}}</view>
+        <view class="time">仅限今日已完成里程，取消订单后自动退回</view>
+      </view>
+      <view class="coupon-right">
+        <view class="use-btn tech-control" bindtap="goOrder" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">去使用</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="empty-state" wx:else>
+    <view class="empty-icon">🎟️</view>
+    <view class="empty-text">暂无优惠券</view>
+    <view class="empty-desc">快去跑步积累里程吧！</view>
+    <view class="go-run-btn tech-control" bindtap="goRun" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">去跑步</view>
+  </view>
+</view>

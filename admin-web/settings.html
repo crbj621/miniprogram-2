@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>系统设置 - 校园小程序管理后台</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="admin-container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2><i class="fas fa-school"></i> 校园小程序</h2>
+                <p>管理后台</p>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="dashboard.html"><i class="fas fa-home"></i> 控制台</a>
+                <a href="posts.html"><i class="fas fa-file-alt"></i> 动态管理</a>
+                <a href="orders.html"><i class="fas fa-shopping-cart"></i> 订单管理</a>
+                <a href="menus.html"><i class="fas fa-utensils"></i> 菜单管理</a>
+                <a href="users.html"><i class="fas fa-users"></i> 用户管理</a>
+                <a href="admins.html"><i class="fas fa-user-shield"></i> 管理员</a>
+                <a href="announcements.html"><i class="fas fa-bullhorn"></i> 公告管理</a>
+                <a href="logs.html"><i class="fas fa-history"></i> 操作日志</a>
+                <a href="cleanup.html"><i class="fas fa-broom"></i> 数据清理</a>
+                <a href="settings.html" class="active"><i class="fas fa-cog"></i> 系统设置</a>
+            </nav>
+            <div class="sidebar-footer">
+                <button onclick="logout()"><i class="fas fa-sign-out-alt"></i> 退出登录</button>
+            </div>
+        </aside>
+        
+        <main class="main-content">
+            <header class="page-header">
+                <h1><i class="fas fa-cog"></i> 系统设置</h1>
+                <div class="user-info">
+                    <span id="adminName">管理员</span>
+                    <span class="badge super" id="adminRole">超级管理员</span>
+                </div>
+            </header>
+            
+            <div class="settings-container">
+                <div class="settings-section">
+                    <div class="section-header">
+                        <h3><i class="fas fa-globe"></i> 基础设置</h3>
+                    </div>
+                    <div class="section-content">
+                        <div class="form-group">
+                            <label>小程序名称</label>
+                            <input type="text" id="appName" placeholder="请输入小程序名称">
+                        </div>
+                        <div class="form-group">
+                            <label>联系邮箱</label>
+                            <input type="email" id="contactEmail" placeholder="请输入联系邮箱">
+                        </div>
+                        <div class="form-group">
+                            <label>联系电话</label>
+                            <input type="tel" id="contactPhone" placeholder="请输入联系电话">
+                        </div>
+                        <div class="form-group">
+                            <label>版权信息</label>
+                            <input type="text" id="copyright" placeholder="请输入版权信息">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="settings-section">
+                    <div class="section-header">
+                        <h3><i class="fas fa-th-large"></i> 模块管理</h3>
+                    </div>
+                    <div class="section-content">
+                        <p id="settingsState" role="status">正在读取设置…</p>
+                        <button type="button" onclick="loadSettings()">重新读取</button>
+                        <fieldset id="settingsControls" disabled style="border:0;padding:0;margin:0;">
+                        <p>关闭后，同学端将隐藏该模块入口和相关菜单；保存后重新进入页面生效。</p>
+                        <button type="button" onclick="setModulePreset('reviews')">仅开放跑步和评分</button>
+                        <button type="button" onclick="setModulePreset('all')">全部开启</button>
+                        <button type="button" onclick="setModulePreset('none')">全部隐藏</button>
+                        <div class="module-list">
+                            <div class="module-item">
+                                <div class="module-info">
+                                    <i class="fas fa-running"></i>
+                                    <div><h4>校园跑</h4><p>跑步记录、排行榜</p><small id="statusRunning">待加载</small></div>
+                                </div>
+                                <label class="switch">
+                                    <input type="checkbox" id="moduleRunning" onchange="updateModuleLabels()">
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-info">
+                                    <i class="fas fa-star"></i>
+                                    <div><h4>食堂饭菜评价</h4><p>档口与菜品评分、评论、排名、随机选餐</p><small id="statusCanteen">待加载</small></div>
+                                </div>
+                                <label class="switch">
+                                    <input type="checkbox" id="moduleCanteen" onchange="updateModuleLabels()">
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-info">
+                                    <i class="fas fa-utensils"></i>
+                                    <div><h4>食堂点餐</h4><p>在线点餐、订单管理</p><small id="statusFood">待加载</small></div>
+                                </div>
+                                <label class="switch">
+                                    <input type="checkbox" id="moduleFood" onchange="updateModuleLabels()">
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-info">
+                                    <i class="fas fa-comments"></i>
+                                    <div><h4>校园动态</h4><p>动态发布、评论互动</p><small id="statusForum">待加载</small></div>
+                                </div>
+                                <label class="switch">
+                                    <input type="checkbox" id="moduleForum" onchange="updateModuleLabels()">
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-info">
+                                    <i class="fas fa-bicycle"></i>
+                                    <div><h4>骑手兼职</h4><p>骑手申请、接单配送</p><small id="statusRider">待加载</small></div>
+                                </div>
+                                <label class="switch">
+                                    <input type="checkbox" id="moduleRider" onchange="updateModuleLabels()">
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                        </div>
+                        </fieldset>
+                    </div>
+                </div>
+                
+                <div class="settings-section">
+                    <div class="section-header">
+                        <h3><i class="fas fa-shield-alt"></i> 安全设置</h3>
+                    </div>
+                    <div class="section-content">
+                        <div class="form-group">
+                            <label>动态审核</label>
+                            <div class="radio-group">
+                                <label class="radio-item">
+                                    <input type="radio" name="postReview" value="auto" checked>
+                                    <span>自动发布</span>
+                                </label>
+                                <label class="radio-item">
+                                    <input type="radio" name="postReview" value="manual">
+                                    <span>需要审核</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>敏感词过滤</label>
+                            <textarea id="sensitiveWords" rows="4" placeholder="每行一个敏感词"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label>用户注册</label>
+                            <div class="radio-group">
+                                <label class="radio-item">
+                                    <input type="radio" name="userRegister" value="open" checked>
+                                    <span>开放注册</span>
+                                </label>
+                                <label class="radio-item">
+                                    <input type="radio" name="userRegister" value="close">
+                                    <span>关闭注册</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="settings-section">
+                    <div class="section-header">
+                        <h3><i class="fas fa-bell"></i> 通知设置</h3>
+                    </div>
+                    <div class="section-content">
+                        <div class="form-group">
+                            <label>新订单通知</label>
+                            <label class="switch">
+                                <input type="checkbox" id="notifyOrder" checked>
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label>新动态通知</label>
+                            <label class="switch">
+                                <input type="checkbox" id="notifyPost" checked>
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label>用户举报通知</label>
+                            <label class="switch">
+                                <input type="checkbox" id="notifyReport" checked>
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="settings-section">
+                    <div class="section-header">
+                        <h3><i class="fas fa-database"></i> 存储设置</h3>
+                    </div>
+                    <div class="section-content">
+                        <div class="form-group">
+                            <label>动态自动清理</label>
+                            <select id="autoCleanup">
+                                <option value="0">关闭</option>
+                                <option value="30">保留30天</option>
+                                <option value="60">保留60天</option>
+                                <option value="90">保留90天</option>
+                                <option value="180">保留180天</option>
+                                <option value="365">保留365天</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>图片存储上限(MB)</label>
+                            <input type="number" id="imageLimit" placeholder="请输入图片存储上限">
+                        </div>
+                        <div class="storage-info">
+                            <div class="storage-bar">
+                                <div class="storage-used" id="storageUsed" style="width: 0%"></div>
+                            </div>
+                            <div class="storage-text">
+                                <span>已使用: <strong id="usedSpace">0 MB</strong></span>
+                                <span>总容量: <strong id="totalSpace">0 MB</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="settings-section">
+                    <div class="section-header">
+                        <h3><i class="fas fa-palette"></i> 界面设置</h3>
+                    </div>
+                    <div class="section-content">
+                        <div class="form-group">
+                            <label>主题色</label>
+                            <div class="color-picker">
+                                <label class="color-option">
+                                    <input type="radio" name="themeColor" value="#667eea" checked>
+                                    <span style="background: #667eea;"></span>
+                                </label>
+                                <label class="color-option">
+                                    <input type="radio" name="themeColor" value="#3498db">
+                                    <span style="background: #3498db;"></span>
+                                </label>
+                                <label class="color-option">
+                                    <input type="radio" name="themeColor" value="#2ecc71">
+                                    <span style="background: #2ecc71;"></span>
+                                </label>
+                                <label class="color-option">
+                                    <input type="radio" name="themeColor" value="#e74c3c">
+                                    <span style="background: #e74c3c;"></span>
+                                </label>
+                                <label class="color-option">
+                                    <input type="radio" name="themeColor" value="#f39c12">
+                                    <span style="background: #f39c12;"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>首页轮播图</label>
+                            <div class="image-upload">
+                                <div class="upload-area" onclick="document.getElementById('bannerInput').click()">
+                                    <i class="fas fa-cloud-upload-alt"></i>
+                                    <p>点击上传图片</p>
+                                    <input type="file" id="bannerInput" accept="image/*" multiple hidden>
+                                </div>
+                                <div class="preview-list" id="bannerPreview"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="settings-actions">
+                    <button id="saveSettingsButton" class="btn-primary" onclick="saveSettings()" disabled><i class="fas fa-save"></i> 保存设置</button>
+                    <button class="btn-secondary" onclick="resetSettings()"><i class="fas fa-undo"></i> 重置默认</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="js/config.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/common.js"></script>
+    <script>
+        let settings = {};
+        let settingsReady = false;
+        let settingsSaving = false;
+        let settingsLoading = false;
+        const moduleControls = { running: 'Running', food: 'Food', canteen: 'Canteen', forum: 'Forum', rider: 'Rider' };
+        function canEditSettings() {
+            return JSON.parse(localStorage.getItem('adminInfo') || '{}').role === 'super';
+        }
+        function setSettingsState(message) {
+            document.getElementById('settingsState').textContent = message;
+            const disabled = !settingsReady || settingsLoading || settingsSaving || !canEditSettings();
+            document.getElementById('settingsControls').disabled = disabled;
+            document.getElementById('saveSettingsButton').disabled = disabled;
+        }
+        function updateModuleLabels() {
+            Object.values(moduleControls).forEach(id => {
+                document.getElementById('status' + id).textContent = document.getElementById('module' + id).checked ? '开启：显示入口' : '关闭：隐藏入口';
+            });
+        }
+        function setModulePreset(preset) {
+            if (!settingsReady || settingsSaving || !canEditSettings()) return;
+            Object.entries(moduleControls).forEach(([key, id]) => {
+                document.getElementById('module' + id).checked = preset === 'all' || (preset === 'reviews' && ['running', 'canteen'].includes(key));
+            });
+            updateModuleLabels();
+            setSettingsState('已调整开关，请点击“保存设置”生效。');
+        }
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            checkLogin();
+            loadAdminInfo();
+            loadSettings();
+            loadStorageInfo();
+        });
+        
+        function loadAdminInfo() {
+            const admin = JSON.parse(localStorage.getItem('adminInfo') || '{}');
+            document.getElementById('adminName').textContent = admin.username || '管理员';
+            if (admin.role === 'super') {
+                document.getElementById('adminRole').textContent = '超级管理员';
+                document.getElementById('adminRole').className = 'badge super';
+            } else {
+                document.getElementById('adminRole').textContent = '普通管理员';
+                document.getElementById('adminRole').className = 'badge normal';
+            }
+        }
+        
+        async function loadSettings() {
+            if (settingsLoading || settingsSaving) return;
+            settingsReady = false;
+            settingsLoading = true;
+            setSettingsState('正在读取设置…');
+            try {
+                const result = await callCloudFunction('globalAdmin', { action: 'getGlobalSettings' });
+                if (result.code !== 0 || !result.data) throw new Error(result.message || '获取设置失败');
+                settings = result.data;
+                applySettings(settings);
+                settingsReady = true;
+                settingsLoading = false;
+                setSettingsState(canEditSettings() ? '已读取当前设置。修改后请保存。' : '仅超级管理员可以修改模块开关。');
+            } catch (error) {
+                settingsLoading = false;
+                setSettingsState('读取失败，请点击“重新读取”。');
+                showNotification(error.message || '加载设置失败', 'error');
+            }
+        }
+
+        function applySettings(data) {
+            if (data.appName) document.getElementById('appName').value = data.appName;
+            if (data.contactEmail) document.getElementById('contactEmail').value = data.contactEmail;
+            if (data.contactPhone) document.getElementById('contactPhone').value = data.contactPhone;
+            if (data.copyright) document.getElementById('copyright').value = data.copyright;
+            
+            Object.entries(moduleControls).forEach(([key, id]) => {
+                document.getElementById('module' + id).checked = !!(data.modules && data.modules[key] && data.modules[key].enabled);
+            });
+            updateModuleLabels();
+
+            if (data.postReview) {
+                document.querySelector(`input[name="postReview"][value="${data.postReview}"]`).checked = true;
+            }
+            if (data.sensitiveWords) {
+                document.getElementById('sensitiveWords').value = data.sensitiveWords.join('\n');
+            }
+            if (data.userRegister) {
+                document.querySelector(`input[name="userRegister"][value="${data.userRegister}"]`).checked = true;
+            }
+            
+            if (data.notifications) {
+                document.getElementById('notifyOrder').checked = data.notifications.order !== false;
+                document.getElementById('notifyPost').checked = data.notifications.post !== false;
+                document.getElementById('notifyReport').checked = data.notifications.report !== false;
+            }
+            
+            if (data.autoCleanup) {
+                document.getElementById('autoCleanup').value = data.autoCleanup;
+            }
+            if (data.imageLimit) {
+                document.getElementById('imageLimit').value = data.imageLimit;
+            }
+            
+            if (data.themeColor) {
+                document.querySelector(`input[name="themeColor"][value="${data.themeColor}"]`).checked = true;
+            }
+        }
+        
+        async function loadStorageInfo() {
+            try {
+                const result = await callCloudFunction('globalAdmin', {
+                    action: 'getStorageInfo'
+                });
+                
+                if (result.code === 0 && result.data) {
+                    const used = result.data.used || 0;
+                    const total = result.data.total || 5120;
+                    const percentage = Math.min((used / total) * 100, 100);
+                    
+                    document.getElementById('storageUsed').style.width = percentage + '%';
+                    document.getElementById('usedSpace').textContent = (used / 1024).toFixed(2) + ' GB';
+                    document.getElementById('totalSpace').textContent = (total / 1024).toFixed(2) + ' GB';
+                    
+                    if (percentage > 80) {
+                        document.getElementById('storageUsed').style.background = '#e74c3c';
+                    } else if (percentage > 60) {
+                        document.getElementById('storageUsed').style.background = '#f39c12';
+                    }
+                }
+            } catch (error) {
+                console.error('加载存储信息失败:', error);
+            }
+        }
+        
+        async function saveSettings() {
+            if (!settingsReady || settingsSaving || settingsLoading || !canEditSettings()) return;
+            const newSettings = {
+                appName: document.getElementById('appName').value,
+                contactEmail: document.getElementById('contactEmail').value,
+                contactPhone: document.getElementById('contactPhone').value,
+                copyright: document.getElementById('copyright').value,
+                modules: Object.fromEntries(Object.entries(moduleControls).map(([key, id]) => [key, { enabled: document.getElementById('module' + id).checked }])),
+                postReview: document.querySelector('input[name="postReview"]:checked').value,
+                sensitiveWords: document.getElementById('sensitiveWords').value.split('\n').filter(w => w.trim()),
+                userRegister: document.querySelector('input[name="userRegister"]:checked').value,
+                notifications: {
+                    order: document.getElementById('notifyOrder').checked,
+                    post: document.getElementById('notifyPost').checked,
+                    report: document.getElementById('notifyReport').checked
+                },
+                autoCleanup: parseInt(document.getElementById('autoCleanup').value),
+                imageLimit: parseInt(document.getElementById('imageLimit').value) || 100,
+                themeColor: document.querySelector('input[name="themeColor"]:checked').value
+            };
+            
+            try {
+                settingsSaving = true;
+                setSettingsState('正在保存设置…');
+                showNotification('正在保存设置...', 'info');
+                
+                const result = await callCloudFunction('globalAdmin', {
+                    action: 'updateGlobalSettings',
+                    data: newSettings
+                });
+                
+                if (result.code === 0) {
+                    settings = newSettings;
+                    showNotification('设置保存成功，同学重新进入页面后生效', 'success');
+                } else {
+                    showNotification(result.message || '保存失败', 'error');
+                }
+            } catch (error) {
+                console.error('保存设置失败:', error);
+                showNotification('保存失败，请重试', 'error');
+            } finally {
+                settingsSaving = false;
+                setSettingsState('修改后请保存；保存成功后，同学重新进入页面生效。');
+            }
+        }
+        
+        function resetSettings() {
+            if (!settingsReady || settingsSaving || !canEditSettings()) return;
+            if (confirm('确定要重置所有设置为默认值吗？')) {
+                document.getElementById('appName').value = '校园小程序';
+                document.getElementById('contactEmail').value = '';
+                document.getElementById('contactPhone').value = '';
+                document.getElementById('copyright').value = '';
+                setModulePreset('all');
+                document.querySelector('input[name="postReview"][value="auto"]').checked = true;
+                document.getElementById('sensitiveWords').value = '';
+                document.querySelector('input[name="userRegister"][value="open"]').checked = true;
+                document.getElementById('notifyOrder').checked = true;
+                document.getElementById('notifyPost').checked = true;
+                document.getElementById('notifyReport').checked = true;
+                document.getElementById('autoCleanup').value = '0';
+                document.getElementById('imageLimit').value = '100';
+                document.querySelector('input[name="themeColor"][value="#667eea"]').checked = true;
+                
+                showNotification('已重置为默认设置，请点击保存', 'info');
+            }
+        }
+        
+        document.getElementById('bannerInput').addEventListener('change', function(e) {
+            const files = e.target.files;
+            const preview = document.getElementById('bannerPreview');
+            
+            for (let file of files) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    const div = document.createElement('div');
+                    div.className = 'preview-item';
+                    div.innerHTML = `
+                        <img src="${e.target.result}" alt="预览">
+                        <button class="remove-btn" onclick="this.parentElement.remove()">×</button>
+                    `;
+                    preview.appendChild(div);
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+    </script>
+    
+    <style>
+        .settings-container {
+            padding: 20px;
+        }
+        
+        .settings-section {
+            background: white;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .section-header {
+            padding: 15px 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .section-header h3 {
+            margin: 0;
+            font-size: 16px;
+            color: #333;
+        }
+        
+        .section-header h3 i {
+            margin-right: 10px;
+            color: #667eea;
+        }
+        
+        .section-content {
+            padding: 20px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group:last-child {
+            margin-bottom: 0;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: #333;
+        }
+        
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group input[type="tel"],
+        .form-group input[type="number"],
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+        
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 50px;
+            height: 26px;
+        }
+        
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+        
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: 0.4s;
+            border-radius: 26px;
+        }
+        
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 20px;
+            width: 20px;
+            left: 3px;
+            bottom: 3px;
+            background-color: white;
+            transition: 0.4s;
+            border-radius: 50%;
+        }
+        
+        input:checked + .slider {
+            background-color: #667eea;
+        }
+        
+        input:checked + .slider:before {
+            transform: translateX(24px);
+        }
+        
+        .radio-group {
+            display: flex;
+            gap: 20px;
+        }
+        
+        .radio-item {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+        
+        .radio-item input {
+            margin-right: 8px;
+        }
+        
+        .module-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        .module-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+        
+        .module-info {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .module-info i {
+            font-size: 24px;
+        }
+        
+        .module-info h4 {
+            margin: 0 0 5px 0;
+            font-size: 15px;
+        }
+        
+        .module-info p {
+            margin: 0;
+            font-size: 13px;
+            color: #666;
+        }
+        
+        .storage-info {
+            margin-top: 15px;
+        }
+        
+        .storage-bar {
+            height: 10px;
+            background: #e9ecef;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .storage-used {
+            height: 100%;
+            background: #667eea;
+            border-radius: 5px;
+            transition: width 0.5s;
+        }
+        
+        .storage-text {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            font-size: 13px;
+            color: #666;
+        }
+        
+        .color-picker {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .color-option {
+            cursor: pointer;
+        }
+        
+        .color-option input {
+            display: none;
+        }
+        
+        .color-option span {
+            display: block;
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+            border: 3px solid transparent;
+            transition: border-color 0.3s;
+        }
+        
+        .color-option input:checked + span {
+            border-color: #333;
+        }
+        
+        .image-upload {
+            margin-top: 10px;
+        }
+        
+        .upload-area {
+            border: 2px dashed #ddd;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            cursor: pointer;
+            transition: border-color 0.3s;
+        }
+        
+        .upload-area:hover {
+            border-color: #667eea;
+        }
+        
+        .upload-area i {
+            font-size: 40px;
+            color: #ddd;
+            margin-bottom: 10px;
+        }
+        
+        .upload-area p {
+            margin: 0;
+            color: #999;
+        }
+        
+        .preview-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .preview-item {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .preview-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .preview-item .remove-btn {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: rgba(0,0,0,0.5);
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            line-height: 1;
+        }
+        
+        .settings-actions {
+            display: flex;
+            gap: 15px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .btn-primary {
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn-secondary {
+            padding: 12px 30px;
+            background: #f8f9fa;
+            color: #333;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        
+        .btn-secondary:hover {
+            background: #e9ecef;
+        }
+    </style>
+</body>
+</html>

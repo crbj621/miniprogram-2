@@ -1,0 +1,7 @@
+/* codebykay101/dull-shrimp-28: the four moving edges and orbiting square. */
+:host { display:block; }
+.loader { height:100rpx; display:flex; align-items:center; justify-content:center; }.square { position:relative; width:64rpx; height:64rpx; border:1rpx solid #d1def2; }.square::before { content:""; position:absolute; width:8rpx; height:8rpx; background:#879edc; box-shadow:0 0 0 5rpx #aebdea22,0 0 12rpx #aebdea66; animation:square-orbit 4s linear infinite; }
+.edge { position:absolute; inset:4rpx; overflow:hidden; }.edge--1 { transform:rotate(90deg); }.edge--2 { transform:rotate(180deg); }.edge--3 { transform:rotate(270deg); }.edge::before { content:""; position:absolute; width:100%; height:2rpx; background:#879edc; transform:translateX(-100%); animation:edge-flow 4s linear infinite; }.edge--1::before { animation-delay:1s; }.edge--2::before { animation-delay:2s; }.edge--3::before { animation-delay:3s; }
+@keyframes square-orbit { 0%,100% { transform:translate(-4rpx,-4rpx); } 25% { transform:translate(60rpx,-4rpx); } 50% { transform:translate(60rpx,60rpx); } 75% { transform:translate(-4rpx,60rpx); } }
+@keyframes edge-flow { 0% { transform:translateX(-100%); } 50%,100% { transform:translateX(100%); } }
+@media (prefers-reduced-motion:reduce) { .square::before,.edge::before { animation:none; } }

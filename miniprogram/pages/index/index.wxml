@@ -1,0 +1,224 @@
+<view class="page {{isRunning ? 'page--running' : ''}}">
+  <view class="map-section">
+    <map
+      id="myMap"
+      class="map"
+      longitude="{{longitude}}"
+      latitude="{{latitude}}"
+      markers="{{markers}}"
+      polyline="{{polyline}}"
+      scale="16"
+      show-location
+      enable-high-accuracy
+      enable-3D="{{false}}"
+      enable-overlooking="{{false}}"
+      enable-zoom
+      enable-scroll
+      enable-rotate="{{false}}"></map>
+    
+</view>
+  <view class="run-top-hud" style="top: {{hudTop}}px"><view><button wx:if="{{!isRunning}}" class="hud-back tech-control" bindtap="goToPortal" hover-class="tap-feedback tech-pressed">‹ 校园首页</button><text class="hud-kicker">CAMPUS / MOTION</text><text class="hud-title">校园跑</text></view><view class="status-chip"><view class="status-dot {{isRunning && !isPaused ? 'status-dot--active' : ''}}" /><text>{{isRunning ? (isPaused ? '已暂停' : '运动中') : '准备出发'}}</text></view></view>
+  <view class="map-signal" style="top: {{hudTop + 60}}px"><view class="signal-bars"><view /><view /><view /></view><text>{{accuracy > 80 ? '弱信号 · 计步估距' : (accuracy > 0 ? 'GPS 已连接' : '等待 GPS')}}</text></view>
+  <button class="map-locate tech-control" style="top: {{hudTop + 60}}px" bindtap="getCurrentLocation" aria-label="定位到我" hover-class="tap-feedback tech-pressed">◎</button>
+  <view class="live-meter" style="top: {{hudTop + 116}}px" wx:if="{{isRunning && sheetCollapsed}}"><view><text class="live-distance">{{totalMeter}}</text><text class="live-unit">m</text></view><text class="live-caption">{{formattedDuration}} · {{formattedPace}} / km</text></view>
+  <view class="run-sheet {{sheetCollapsed ? 'run-sheet--collapsed' : ''}} {{sheetDragging ? 'run-sheet--dragging' : ''}}" style="{{sheetDragging ? 'transform: translateY(' + sheetDragOffset + 'px)' : ''}}">
+    <view class="sheet-grip" catchtouchstart="onSheetTouchStart" catchtouchmove="onSheetTouchMove" catchtouchend="onSheetTouchEnd" catchtouchcancel="onSheetTouchEnd"><view class="grip-line" /><text>{{sheetCollapsed ? '上拉查看运动卡片' : '下拉收起运动卡片'}}</text><button class="sheet-toggle tech-control" catchtap="toggleSheet" hover-class="tap-feedback tech-pressed" aria-label="展开或收起运动卡片">{{sheetCollapsed ? '⌃' : '⌄'}}</button></view>
+    <scroll-view scroll-y class="sheet-content">
+  <view class="run-summary tech-card">
+    <view class="summary-top"><text class="summary-label">{{isRunning ? '本次运动' : '运动数据'}}</text><text class="summary-badge">{{isRunning ? (isPaused ? 'PAUSED' : 'RECORDING') : 'READY'}}</text></view>
+    <view class="main-data"><text class="distance-num">{{totalMeter}}</text><text class="distance-unit">米</text></view>
+    <view class="goal-line"><text>{{targetDistance > 0 ? '目标 · ' + targetDistance + ' 公里' : 'TRACK YOUR EVERY MOVE'}}</text><text>{{distanceSource}}</text></view>
+    <progress wx:if="{{targetDistance > 0}}" percent="{{totalMeter / (targetDistance * 10) > 100 ? 100 : totalMeter / (targetDistance * 10)}}" stroke-width="5" activeColor="#34a8cd" backgroundColor="#d8e8f4" border-radius="6" />
+    <view class="sub-data">
+      <view class="data-item"><text class="data-label">运动时长</text><text class="data-value">{{formattedDuration}}</text></view>
+      <view class="data-item"><text class="data-label">配速 / 公里</text><text class="data-value">{{formattedPace}}</text></view>
+      <view class="data-item"><text class="data-label">传感器估计步数</text><text class="data-value">{{sensorAvailable ? steps : '—'}}</text></view>
+    </view>
+    <text class="werun-subtitle" wx:if="{{estimatedDistance > 0}}">本次含步数估距，仅保留个人记录，不参与排名与组队奖励。</text>
+  </view>
+  <view class="werun-card tech-card" wx:if="{{!isRunning}}">
+    <view class="werun-heading"><view><text class="werun-title">✿ 今日微信运动</text><text class="werun-subtitle">日步数独立记录，不计入跑步排名</text></view><text class="werun-number">{{weRunSteps === null ? '—' : weRunSteps}}<text class="werun-unit"> 步</text></text></view>
+    <view class="werun-actions"><text class="werun-subtitle">{{weRunUpdated ? '更新于 ' + weRunUpdated : '点击同步后授权读取'}}</text><button class="tech-control" bindtap="syncWeRun" loading="{{weRunSyncing}}" disabled="{{weRunSyncing}}" hover-class="tap-feedback tech-pressed">{{weRunSyncing ? '同步中' : '同步步数'}}</button></view>
+    <view class="werun-error" wx:if="{{weRunError}}"><text>{{weRunError}}</text><button class="tech-control" bindtap="openWeRunSettings" hover-class="tap-feedback tech-pressed">授权设置</button></view>
+  </view>
+  <button wx:if="{{pendingUploads > 0 && !isRunning}}" class="upload-retry tech-control" bindtap="retryUploads" loading="{{savingRun}}" disabled="{{savingRun}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">{{pendingUploads}} 条记录待同步 · 点击重试</button>
+  <view wx:if="{{pendingUploads > 0 && pendingUploadError && !isRunning}}" class="werun-error">{{pendingUploadError}}</view>
+  <!-- 情侣模式面板 -->
+  <scroll-view scroll-y wx:if="{{isCoupleMode && (isRunning || (currentTeam && (currentTeam.status === 'active' || currentTeam.status === 'pending')))}}" class="couple-panel tech-card">
+    <view class="couple-header">
+      <text class="couple-icon">💑</text>
+      <text class="couple-title">搭子和情侣 · 双人模式</text>
+    </view>
+    
+    <view wx:if="{{currentTeam.status === 'pending'}}" class="couple-waiting">
+      <image wx:if="{{couplePartner.avatarUrl}}" class="couple-avatar waiting-avatar" src="{{couplePartner.avatarUrl}}" mode="aspectFill" binderror="onPartnerAvatarError"></image><view wx:else class="couple-avatar waiting-avatar avatar-fallback">同</view>
+      <text class="waiting-text">等待 {{couplePartner.nickName || '对方'}} 同意邀请中...</text>
+      <view class="waiting-spinner"></view>
+      <view class="waiting-actions">
+        <view class="action-btn refresh tech-control" bindtap="manualRefreshTeam" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">{{teamRefreshing ? '刷新中…' : '刷新状态'}}</view>
+        <view class="action-btn cancel tech-control" bindtap="cancelTeam" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">取消邀请</view>
+      </view>
+    </view>
+    
+    <view wx:else class="couple-vs-box">
+      <view class="quit-team-btn tech-control" wx:if="{{currentTeam.status === 'active' && !isRunning}}" bindtap="cancelTeam" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">退出组队</view>
+      <view class="couple-user">
+        <image wx:if="{{userInfo.avatarUrl}}" class="couple-avatar" src="{{userInfo.avatarUrl}}" mode="aspectFill" binderror="onMyAvatarError"></image><view wx:else class="couple-avatar avatar-fallback">同</view>
+        <text class="couple-name">{{userInfo.nickName || '我'}}</text>
+        <text class="couple-dist">{{totalMeter}}m</text>
+      </view>
+      <view class="couple-vs">
+        <text>VS</text>
+      </view>
+      <view class="couple-user">
+        <image wx:if="{{couplePartner.avatarUrl}}" class="couple-avatar" src="{{couplePartner.avatarUrl}}" mode="aspectFill" binderror="onPartnerAvatarError"></image><view wx:else class="couple-avatar avatar-fallback">同</view>
+        <text class="couple-name">{{couplePartner.nickName || '队友'}}</text>
+        <text class="couple-dist">{{couplePartner.distance || 0}}m</text>
+      </view>
+    </view>
+  </scroll-view>
+  <view class="run-tools" wx:if="{{!isRunning}}">
+    <button class="tool-card tech-control tech-card" bindtap="showPlanModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"><text class="tool-symbol">◎</text><view><text class="tool-title">运动目标</text><text class="tool-note">{{targetDistance > 0 ? targetDistance + ' 公里 · 去修改' : '设定距离，查看进度'}}</text></view><text>›</text></button>
+    <button class="tool-card tool-card--pink tech-control tech-card" bindtap="toggleMode" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"><text class="tool-symbol">✿</text><view><text class="tool-title">组队模式</text><text class="tool-note">{{currentTeam ? '查看我的队伍' : '邀请搭档 / 加入小队'}}</text></view><text>›</text></button>
+  </view>
+
+      <view class="sheet-footer-tools" wx:if="{{!isRunning}}"><button bindtap="showSearch" hover-class="tap-feedback tech-pressed" class="tech-control">搜索跑步搭子 ↗</button><button bindtap="goToRank" hover-class="tap-feedback tech-pressed" class="tech-control">查看排行榜 ↗</button></view>
+      <view class="team-summary" wx:if="{{currentTeam && !isCoupleMode}}"><text>{{currentTeam.teamName || '我的跑团'}} · {{currentTeam.memberCount || 1}} 人</text><text>队员各完成 500 米后结算奖励</text></view>
+      <view class="invite-notification" wx:if="{{pendingInvite && !isRunning}}"><text class="invite-title">{{pendingInvite.inviterName}} 邀请你一起跑</text><view class="invite-actions"><button bindtap="rejectInvite" hover-class="tap-feedback tech-pressed" class="tech-control">暂不加入</button><button bindtap="acceptInvite" hover-class="tap-feedback tech-pressed" class="tech-control">接受邀请</button></view></view>
+    </scroll-view>
+  </view>
+  <!-- 底部数据面板 -->
+  <view class="bottom-panel">
+    <!-- 控制按钮 -->
+    <view class="control-section">
+      <block wx:if="{{!isRunning}}">
+        <button class="start-btn tech-control tech-primary" bindtap="startRun" loading="{{startingRun || savingRun}}" disabled="{{startingRun || savingRun}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+          <view class="btn-inner">
+            <text class="btn-icon">▶</text>
+            <text class="btn-text">{{savingRun ? '正在保存记录' : (startingRun ? '正在准备' : '开始运动')}}</text>
+          </view>
+        </button>
+      </block>
+      <block wx:else>
+        <view class="running-btns">
+          <view class="pause-btn {{isPaused ? 'resume' : ''}} tech-control" bindtap="pauseRun" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+            <text class="btn-icon">{{isPaused ? '▶' : 'Ⅱ'}}</text>
+            <text class="btn-text">{{isPaused ? '继续' : '暂停'}}</text>
+          </view>
+          <view class="stop-btn tech-control tech-danger" bindtap="stopRun" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+            <text class="btn-icon">■</text>
+            <text class="btn-text">结束</text>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+
+
+
+  <!-- 设定目标弹窗 -->
+  <view wx:if="{{showPlanModal}}" class="modal-overlay">
+    <view class="modal-box tech-card">
+      <view class="modal-header">
+        <text class="modal-title">🎯 设定今日目标</text>
+        <button class="modal-close tech-control" bindtap="closePlanModal" hover-class="tap-feedback tech-pressed">×</button>
+      </view>
+      <view class="modal-body">
+        <view class="plan-input-wrap">
+          <input type="digit" class="plan-input tech-input" placeholder="输入目标距离" value="{{targetDistanceInput}}" bindinput="onPlanInput" placeholder-style="color:#8597ad" />
+          <text class="plan-unit">km</text>
+        </view>
+        <view class="plan-tips">设定后，未完成目标结束跑步会提示是否继续或保存记录。</view>
+        <view class="plan-actions">
+          <view class="plan-btn cancel tech-control" bindtap="closePlanModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">取消</view>
+          <view class="plan-btn confirm tech-control tech-primary" bindtap="setPlan" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">确定</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 搜索好友弹窗 -->
+  <view wx:if="{{showSearchModal}}" class="modal-overlay">
+    <view class="modal-box tech-card">
+      <view class="modal-header">
+        <text class="modal-title">🔍 搜索好友</text>
+        <button class="modal-close tech-control" bindtap="closeSearch" hover-class="tap-feedback tech-pressed">×</button>
+      </view>
+      <view class="modal-body">
+        <view class="search-box">
+          <tech-search class="tech-search-host"><input 
+            class="search-input tech-input" 
+            placeholder="输入好友昵称" 
+            value="{{searchKeyword}}"
+            bindinput="onSearchInput"
+            bindconfirm="searchFriends"
+          placeholder-style="color:#8597ad" /></tech-search>
+          <view class="search-action" bindtap="searchFriends" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+            <text>{{isSearching ? '...' : '搜索'}}</text>
+          </view>
+        </view>
+        <scroll-view scroll-y class="results-scroll">
+          <block wx:if="{{searchResults.length > 0}}">
+            <view wx:for="{{searchResults}}" wx:key="openid" class="result-item">
+              <image wx:if="{{item.avatarUrl}}" class="result-avatar" src="{{item.avatarUrl}}" mode="aspectFill" binderror="onSearchAvatarError" data-index="{{index}}"></image><view wx:else class="result-avatar avatar-fallback">同</view>
+              <view class="result-info">
+                <text class="result-name">{{item.nickName || '好友'}}</text>
+              </view>
+              <view class="result-action {{item.isFriend ? 'disabled' : ''}}" data-openid="{{item.openid}}" data-is-friend="{{item.isFriend}}" bindtap="addFriend" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+                <text>{{item.isFriend ? '已添加' : '添加'}}</text>
+              </view>
+            </view>
+          </block>
+          <view wx:elif="{{hasSearched}}" class="empty-result">
+            <text>未找到匹配的好友</text>
+          </view>
+          <view wx:else class="search-tip">
+            <text>输入昵称搜索好友</text>
+          </view>
+        </scroll-view>
+      </view>
+    </view>
+  </view>
+  
+  <!-- 组队弹窗 -->
+  <view wx:if="{{showTeamModal}}" class="modal-overlay">
+    <view class="modal-box team-modal tech-card">
+      <view class="modal-header">
+        <text class="modal-title">创建组队跑</text>
+        <button class="modal-close tech-control" bindtap="closeTeamModal" hover-class="tap-feedback tech-pressed">×</button>
+      </view>
+      <view class="modal-body">
+        <view class="team-subtitle">邀请1位好友组成双人搭档；双方各完成至少500米后，每人获得 ¥0.5 奖励券。三人小队请在“我的 → 组队管理”创建邀请码。</view>
+        <scroll-view scroll-y class="friends-scroll">
+          <block wx:if="{{friendsList.length > 0}}">
+            <view 
+              wx:for="{{friendsList}}" 
+              wx:key="openid" 
+              wx:for-item="friend"
+              class="friend-item {{friend.selected ? 'selected' : ''}}"
+              bindtap="toggleFriendSelection"
+              data-openid="{{friend.openid}}"
+             hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+              <image wx:if="{{friend.avatarUrl}}" class="friend-avatar" src="{{friend.avatarUrl}}" mode="aspectFill" binderror="onFriendAvatarError" data-index="{{index}}"></image><view wx:else class="friend-avatar avatar-fallback">同</view>
+              <text class="friend-name">{{friend.nickName || '好友'}}</text>
+              <view class="friend-check">
+                <text wx:if="{{friend.selected}}">✓</text>
+              </view>
+            </view>
+          </block>
+          <view wx:else class="empty-friends">
+            <text>暂无好友，请先添加</text>
+          </view>
+        </scroll-view>
+        <view class="team-actions">
+          <view class="team-btn cancel tech-control" bindtap="closeTeamModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">取消</view>
+          <view class="team-btn confirm {{selectedFriends.length > 0 ? '' : 'disabled'}} tech-control tech-primary" bindtap="createTeam" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+            发送邀请 ({{selectedFriends.length}})
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  
+  <run-tabbar wx:if="{{!isRunning}}" selected="{{0}}"></run-tabbar>
+</view>

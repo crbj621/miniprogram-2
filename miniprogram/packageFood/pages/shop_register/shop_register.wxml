@@ -1,0 +1,84 @@
+<view class="container">
+  <view class="header">
+    <view class="header-icon">🏪</view>
+    <view class="header-title">商家入驻申请</view>
+    <view class="header-desc">填写以下信息，提交后等待审核</view>
+  </view>
+
+  <view class="form-section tech-card">
+    <view class="form-item">
+      <text class="form-label">店铺名称 <text class="required">*</text></text>
+      <input class="form-input tech-input" placeholder="请输入店铺名称" value="{{form.name}}" data-field="name" bindinput="onInputChange" placeholder-style="color:#8597ad" />
+    </view>
+
+    <view class="form-item">
+      <text class="form-label">联系人 <text class="required">*</text></text>
+      <input class="form-input tech-input" placeholder="请输入联系人姓名" value="{{form.contact}}" data-field="contact" bindinput="onInputChange" placeholder-style="color:#8597ad" />
+    </view>
+
+    <view class="form-item">
+      <text class="form-label">联系电话 <text class="required">*</text></text>
+      <input class="form-input tech-input" type="number" placeholder="请输入联系电话" value="{{form.phone}}" data-field="phone" bindinput="onInputChange" placeholder-style="color:#8597ad" />
+    </view>
+
+    <view class="form-item">
+      <text class="form-label">登录账号 <text class="required">*</text></text>
+      <input class="form-input tech-input" placeholder="4-32位字母、数字或下划线" value="{{form.username}}" data-field="username" bindinput="onInputChange" maxlength="32" placeholder-style="color:#8597ad" />
+      <text class="form-tip">审核通过后使用此账号登录</text>
+    </view>
+
+    <view class="form-item">
+      <text class="form-label">登录密码 <text class="required">*</text></text>
+      <input class="form-input tech-input" type="password" placeholder="至少8位字符" value="{{form.password}}" data-field="password" bindinput="onInputChange" placeholder-style="color:#8597ad" />
+    </view>
+
+    <view class="form-item">
+      <text class="form-label">确认密码 <text class="required">*</text></text>
+      <input class="form-input tech-input" type="password" placeholder="再次输入密码" value="{{form.confirmPassword}}" data-field="confirmPassword" bindinput="onInputChange" placeholder-style="color:#8597ad" />
+    </view>
+
+    <view class="form-item">
+      <text class="form-label">是否支持配送</text>
+      <view class="switch-row">
+        <text class="switch-label">{{form.supportDelivery ? '支持配送' : '仅自取'}}</text>
+        <tech-switch checked="{{form.supportDelivery}}" bindchange="onDeliveryChange" />
+      </view>
+    </view>
+
+    <view class="form-item">
+      <text class="form-label">门店封面图 <text class="required">*</text></text>
+      <view class="image-upload" bindtap="chooseCoverImage" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+        <image wx:if="{{form.coverImage}}" src="{{form.coverImage}}" mode="aspectFill" class="preview-img" bindtap="previewImage" data-url="{{form.coverImage}}"></image>
+        <view wx:else class="upload-placeholder">
+          <text class="upload-icon">📷</text>
+          <text class="upload-text">{{uploadingCover ? '上传中...' : '点击上传'}}</text>
+        </view>
+      </view>
+      <text class="upload-tip">建议尺寸: 750x400px</text>
+    </view>
+
+    <view class="form-item">
+      <text class="form-label">营业执照 <text class="required">*</text></text>
+      <view class="image-upload" bindtap="chooseLicenseImage" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+        <image wx:if="{{form.licenseImage}}" src="{{form.licenseImage}}" mode="aspectFill" class="preview-img" bindtap="previewImage" data-url="{{form.licenseImage}}"></image>
+        <view wx:else class="upload-placeholder">
+          <text class="upload-icon">📄</text>
+          <text class="upload-text">{{uploadingLicense ? '上传中...' : '点击上传'}}</text>
+        </view>
+      </view>
+      <text class="upload-tip">请上传清晰的营业执照照片</text>
+    </view>
+  </view>
+
+  <view class="submit-btn {{submitting ? 'disabled' : ''}} tech-control tech-primary" bindtap="submitRegister" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+    {{submitting ? '提交中...' : '提交申请'}}
+  </view>
+
+  <view class="tips">
+    <view class="tips-title">📝 入驻须知</view>
+    <view class="tips-item">1. 提交申请后，管理员将在1-3个工作日内审核</view>
+    <view class="tips-item">2. 审核通过后，使用您设置的账号密码登录</view>
+    <view class="tips-item">3. 请确保上传的营业执照真实有效</view>
+    <view class="tips-item">4. 如有疑问，请联系客服咨询</view>
+  </view>
+</view>

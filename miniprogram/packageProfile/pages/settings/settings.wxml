@@ -1,0 +1,56 @@
+<view class="container">
+  <!-- 设置项列表 -->
+  <view class="settings-list">
+    <!-- 定位设置 -->
+    <view class="setting-section">
+      <text class="section-title">定位设置</text>
+      <view class="setting-item">
+        <text class="setting-label">高精度定位</text>
+        <text class="setting-desc">开启后定位更准确，但会增加电量消耗</text>
+        <tech-switch 
+          class="setting-switch" 
+          checked="{{settings.highAccuracy}}" 
+          bindchange="toggleHighAccuracy" />
+      </view>
+    </view>
+
+    <!-- 记录设置 -->
+    <view class="setting-section">
+      <text class="section-title">记录设置</text>
+      <view class="setting-item">
+        <text class="setting-label">自动保存</text>
+        <text class="setting-desc">跑步结束后自动保存记录</text>
+        <tech-switch 
+          class="setting-switch" 
+          checked="{{settings.autoSave}}" 
+          bindchange="toggleAutoSave" />
+      </view>
+    </view>
+
+    <!-- 通知设置 -->
+    <view class="setting-section">
+      <text class="section-title">通知设置</text>
+      <view class="setting-item">
+        <text class="setting-label">跑步提醒</text>
+        <text class="setting-desc">接收跑步相关的通知</text>
+        <tech-switch 
+          class="setting-switch" 
+          checked="{{settings.notifications}}" 
+          bindchange="toggleNotifications" />
+      </view>
+    </view>
+
+    <!-- 其他设置 -->
+    <view class="setting-section">
+      <text class="section-title">其他设置</text>
+      <view class="setting-item" bindtap="clearCache" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+        <text class="setting-label">清除缓存</text>
+        <text class="setting-arrow">›</text>
+      </view>
+      <view class="setting-item" bindtap="aboutUs" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+        <text class="setting-label">关于我们</text>
+        <text class="setting-arrow">›</text>
+      </view>
+    </view>
+  </view>
+</view>

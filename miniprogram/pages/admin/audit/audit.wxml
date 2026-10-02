@@ -1,0 +1,68 @@
+<view class="container">
+  <view class="filter-bar">
+    <picker mode="selector" range="{{['待审核', '已通过', '已拒绝', '全部']}}" range-key="" value="{{filterStatus === 'pending' ? 0 : filterStatus === 'approved' ? 1 : filterStatus === 'rejected' ? 2 : 3}}" bindchange="onFilterStatus">
+      <view class="picker-btn">
+        <text>{{filterStatus === 'pending' ? '待审核' : filterStatus === 'approved' ? '已通过' : filterStatus === 'rejected' ? '已拒绝' : '全部'}}</text>
+        <text class="arrow">▼</text>
+      </view>
+    </picker>
+    <view class="search-input">
+      <tech-search class="tech-search-host"><input type="text" placeholder="搜索商家名称" value="{{filterName}}" bindinput="onFilterName" bindconfirm="onSearch" placeholder-style="color:#8597ad" class="tech-input" /></tech-search>
+    </view>
+  </view>
+
+  <scroll-view scroll-y class="list-container">
+    <view class="list">
+      <view class="item" wx:for="{{list}}" wx:key="_id">
+        <view class="item-header">
+          <text class="shop-name">{{item.name}}</text>
+          <view class="status-tag {{item.auditStatus}}">{{item.auditStatus === 'pending' ? '待审核' : item.auditStatus === 'approved' ? '已通过' : '已拒绝'}}</view>
+        </view>
+        
+        <view class="item-info">
+          <view class="info-row">
+            <text class="label">联系人：</text>
+            <text>{{item.contact}}</text>
+          </view>
+          <view class="info-row">
+            <text class="label">联系电话：</text>
+            <text>{{item.phone}}</text>
+          </view>
+          <view class="info-row">
+            <text class="label">申请时间：</text>
+            <text>{{item.createTimeText}}</text>
+          </view>
+        </view>
+
+        <view class="images-row">
+          <view class="image-item" bindtap="previewImage" data-url="{{item.logo}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+            <image src="{{item.logo}}" mode="aspectFill"></image>
+            <text>门店封面</text>
+          </view>
+          <view class="image-item" bindtap="previewImage" data-url="{{item.licenseImage}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+            <image src="{{item.licenseImage}}" mode="aspectFill"></image>
+            <text>营业执照</text>
+          </view>
+        </view>
+
+        <view class="reject-reason" wx:if="{{item.auditStatus === 'rejected' && item.rejectReason}}">
+          <text class="label">拒绝原因：</text>
+          <text>{{item.rejectReason}}</text>
+        </view>
+
+        <view class="action-row" wx:if="{{item.auditStatus === 'pending'}}">
+          <view class="btn approve tech-control" catchtap="approve" data-id="{{item._id}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">通过</view>
+          <view class="btn reject tech-control tech-danger" catchtap="reject" data-id="{{item._id}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">拒绝</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="empty" wx:if="{{list.length === 0 && !loading}}">
+      <text>暂无审核记录</text>
+    </view>
+
+    <view class="loading" wx:if="{{loading}}"><view class="uiverse-dots"><view class="uiverse-dot" /><view class="uiverse-dot" /><view class="uiverse-dot" /></view>
+      <text>加载中...</text>
+    </view>
+  </scroll-view>
+</view>

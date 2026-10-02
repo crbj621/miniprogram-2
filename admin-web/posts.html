@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>动态管理 - 智慧校园管理后台</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="layout">
+    <div class="sidebar" id="sidebar"></div>
+    <div class="main-content">
+      <div class="page-header">
+        <h1 class="page-title">动态管理</h1>
+        <div class="btn-group">
+          <button class="btn btn-danger" onclick="batchDelete()">批量删除</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <div class="search-bar">
+            <input type="text" class="search-input" id="searchInput" placeholder="搜索动态标题或内容...">
+            <select class="filter-select" id="categoryFilter">
+              <option value="">全部分类</option>
+              <option value="gossip">灌水区</option>
+              <option value="confession">表白墙</option>
+              <option value="melon">吃瓜</option>
+              <option value="job">兼职</option>
+              <option value="lost">失物招领</option>
+              <option value="study">学习互助</option>
+            </select>
+            <select class="filter-select" id="statusFilter">
+              <option value="">全部状态</option>
+              <option value="normal">正常</option>
+              <option value="deleted">已删除</option>
+              <option value="hidden">已隐藏</option>
+            </select>
+            <button class="btn btn-primary" onclick="searchPosts()">搜索</button>
+          </div>
+
+          <div class="table-container">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th><input type="checkbox" id="selectAll" onchange="toggleSelectAll()"></th>
+                  <th>标题</th>
+                  <th>分类</th>
+                  <th>作者</th>
+                  <th>互动</th>
+                  <th>状态</th>
+                  <th>发布时间</th>
+                  <th>操作</th>
+                </tr>
+              </thead>
+              <tbody id="postList">
+                <tr>
+                  <td colspan="8" class="empty-state">
+                    <div class="icon">📭</div>
+                    <div class="text">暂无动态</div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="pagination" id="pagination"></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title">数据统计</h3>
+        </div>
+        <div class="card-body">
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-value" id="totalPosts">0</div>
+              <div class="stat-label">总动态数</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-value" id="todayPosts">0</div>
+              <div class="stat-label">今日新增</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-value" id="totalComments">0</div>
+              <div class="stat-label">总评论数</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-value" id="deletedPosts">0</div>
+              <div class="stat-label">已删除</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/config.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/common.js"></script>
+  <script>
+    let currentPage = 1;
+    let totalPages = 1;
+    let posts = [];
+    let selectedIds = [];
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      const admin = checkAuth();
+      if (!admin) return;
+      
+      initSidebar('posts');
+      await loadPosts();
+      await loadStats();
+    });
+
+    async function loadPosts(page = 1) {
+      try {
+        showLoading();
+        currentPage = page;
+
+        const keyword = document.getElementById('searchInput').value;
+        const category = document.getElementById('categoryFilter').value;
+        const status = document.getElementById('statusFilter').value;
+
+        let query = {};
+        if (category) query.category = category;
+        if (status) query.status = status;
+
+        const countRes = await db.collection('forum_post').where(query).count();
+        totalPages = Math.ceil(countRes.total / CONFIG.pageSize);
+
+        let postsQuery = db.collection('forum_post')
+          .where(query)
+          .orderBy('createTime', 'desc')
+          .skip((page - 1) * CONFIG.pageSize)
+          .limit(CONFIG.pageSize);
+
+        const res = await postsQuery.get();
+        posts = res.data;
+
+        if (keyword) {
+          posts = posts.filter(p => 
+            (p.title && p.title.includes(keyword)) || 
+            (p.content && p.content.includes(keyword))
+          );
+        }
+
+        renderPosts();
+        renderPagination(document.getElementById('pagination'), page, totalPages, loadPosts);
+        
+        hideLoading();
+      } catch (err) {
+        hideLoading();
+        console.error('加载动态失败:', err);
+        showToast('加载失败', 'error');
+      }
+    }
+
+    async function loadStats() {
+      try {
+        const [total, today, comments, deleted] = await Promise.all([
+          db.collection('forum_post').count(),
+          db.collection('forum_post').where({
+            createTime: db.command.gte(new Date(new Date().setHours(0,0,0,0)))
+          }).count(),
+          db.collection('forum_comment').count(),
+          db.collection('forum_post').where({ status: 'deleted' }).count()
+        ]);
+
+        document.getElementById('totalPosts').textContent = total.total || 0;
+        document.getElementById('todayPosts').textContent = today.total || 0;
+        document.getElementById('totalComments').textContent = comments.total || 0;
+        document.getElementById('deletedPosts').textContent = deleted.total || 0;
+      } catch (err) {
+        console.error('加载统计失败:', err);
+      }
+    }
+
+    function renderPosts() {
+      const tbody = document.getElementById('postList');
+      
+      if (posts.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="8" class="empty-state"><div class="icon">📭</div><div class="text">暂无动态</div></td></tr>';
+        return;
+      }
+
+      tbody.innerHTML = posts.map(post => `
+        <tr>
+          <td><input type="checkbox" class="post-checkbox" value="${post._id}" onchange="toggleSelect('${post._id}')"></td>
+          <td>
+            <div class="post-title">${escapeHtml(truncate(post.title, 30))}</div>
+            <div class="post-preview">${escapeHtml(truncate(post.content, 50))}</div>
+          </td>
+          <td>${getCategoryName(post.category)}</td>
+          <td>${post.isAnonymous ? '匿名用户' : (post.authorInfo && post.authorInfo.nickname ? post.authorInfo.nickname : '用户')}</td>
+          <td>👍${post.likeCount || 0} 💬${post.commentCount || 0} ⭐${post.collectCount || 0}</td>
+          <td><span class="status-tag ${getStatusClass(post.status)}">${POST_STATUS[post.status] || '正常'}</span></td>
+          <td>${formatDate(post.createTime)}</td>
+          <td>
+            <div class="btn-group">
+              <button class="btn btn-secondary btn-sm" onclick="viewPost('${post._id}')">查看</button>
+              ${post.status !== 'deleted' ? `<button class="btn btn-danger btn-sm" onclick="deletePost('${post._id}')">删除</button>` : ''}
+              ${post.status === 'deleted' ? `<button class="btn btn-success btn-sm" onclick="restorePost('${post._id}')">恢复</button>` : ''}
+            </div>
+          </td>
+        </tr>
+      `).join('');
+    }
+
+    function getCategoryName(category) {
+      const map = {
+        'gossip': '灌水区',
+        'confession': '表白墙',
+        'melon': '吃瓜',
+        'job': '兼职',
+        'lost': '失物招领',
+        'study': '学习互助'
+      };
+      return map[category] || category;
+    }
+
+    function getStatusClass(status) {
+      const map = {
+        'normal': 'success',
+        'deleted': 'danger',
+        'hidden': 'warning'
+      };
+      return map[status] || 'info';
+    }
+
+    function toggleSelectAll() {
+      const selectAll = document.getElementById('selectAll');
+      const checkboxes = document.querySelectorAll('.post-checkbox');
+      
+      checkboxes.forEach(cb => {
+        cb.checked = selectAll.checked;
+        const id = cb.value;
+        if (selectAll.checked && !selectedIds.includes(id)) {
+          selectedIds.push(id);
+        } else if (!selectAll.checked) {
+          selectedIds = [];
+        }
+      });
+    }
+
+    function toggleSelect(id) {
+      const index = selectedIds.indexOf(id);
+      if (index > -1) {
+        selectedIds.splice(index, 1);
+      } else {
+        selectedIds.push(id);
+      }
+    }
+
+    function searchPosts() {
+      loadPosts(1);
+    }
+
+    async function deletePost(id) {
+      const confirmed = await showConfirm('确定要删除这篇动态吗？');
+      if (!confirmed) return;
+
+      try {
+        showLoading();
+        await db.collection('forum_post').doc(id).update({
+          status: 'deleted'
+        });
+        showToast('删除成功', 'success');
+        await loadPosts(currentPage);
+        await loadStats();
+      } catch (err) {
+        hideLoading();
+        showToast('删除失败', 'error');
+      }
+    }
+
+    async function restorePost(id) {
+      try {
+        showLoading();
+        await db.collection('forum_post').doc(id).update({
+          status: 'normal'
+        });
+        showToast('恢复成功', 'success');
+        await loadPosts(currentPage);
+        await loadStats();
+      } catch (err) {
+        hideLoading();
+        showToast('恢复失败', 'error');
+      }
+    }
+
+    async function batchDelete() {
+      if (selectedIds.length === 0) {
+        showToast('请先选择要删除的动态', 'warning');
+        return;
+      }
+
+      const confirmed = await showConfirm(`确定要删除选中的 ${selectedIds.length} 篇动态吗？`);
+      if (!confirmed) return;
+
+      try {
+        showLoading();
+        
+        for (const id of selectedIds) {
+          await db.collection('forum_post').doc(id).update({
+            status: 'deleted'
+          });
+        }
+
+        showToast(`成功删除 ${selectedIds.length} 篇动态`, 'success');
+        selectedIds = [];
+        await loadPosts(currentPage);
+        await loadStats();
+      } catch (err) {
+        hideLoading();
+        showToast('批量删除失败', 'error');
+      }
+    }
+
+    function viewPost(id) {
+      const post = posts.find(p => p._id === id);
+      if (!post) return;
+
+      showModal({
+        title: '动态详情',
+        content: `
+          <div class="form-group">
+            <label>标题</label>
+            <p>${escapeHtml(post.title)}</p>
+          </div>
+          <div class="form-group">
+            <label>内容</label>
+            <p style="white-space: pre-wrap;">${escapeHtml(post.content)}</p>
+          </div>
+          <div class="form-group">
+            <label>分类</label>
+            <p>${getCategoryName(post.category)}</p>
+          </div>
+          <div class="form-group">
+            <label>发布时间</label>
+            <p>${formatDate(post.createTime)}</p>
+          </div>
+          ${post.imgList && post.imgList.length > 0 ? `
+            <div class="form-group">
+              <label>图片</label>
+              <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+                ${post.imgList.map(img => `<img src="${img}" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px;">`).join('')}
+              </div>
+            </div>
+          ` : ''}
+        `,
+        footer: false
+      });
+    }
+  </script>
+</body>
+</html>

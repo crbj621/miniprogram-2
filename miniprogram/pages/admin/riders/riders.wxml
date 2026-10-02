@@ -1,0 +1,28 @@
+<view class="page">
+  <view class="tabs">
+    <view class="tab {{activeStatus === 'pending' ? 'active' : ''}}" data-status="pending" bindtap="switchStatus" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">待审核</view>
+    <view class="tab {{activeStatus === 'approved' ? 'active' : ''}}" data-status="approved" bindtap="switchStatus" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">已通过</view>
+    <view class="tab {{activeStatus === 'rejected' ? 'active' : ''}}" data-status="rejected" bindtap="switchStatus" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">已拒绝</view>
+  </view>
+
+  <view class="loading" wx:if="{{loading}}"><view class="uiverse-dots"><view class="uiverse-dot" /><view class="uiverse-dot" /><view class="uiverse-dot" /></view>正在加载...</view>
+  <view class="empty" wx:elif="{{list.length === 0}}">当前没有骑手申请</view>
+
+  <view class="card tech-card" wx:for="{{list}}" wx:key="_id">
+    <view class="card-head">
+      <view>
+        <view class="name">{{item.realName}}</view>
+        <view class="student-id">学号：{{item.studentId}}</view>
+      </view>
+      <view class="status status-{{item.status}}">
+        {{item.status === 'pending' ? '待审核' : (item.status === 'approved' ? '已通过' : '已拒绝')}}
+      </view>
+    </view>
+    <view class="info">手机号：{{item.phone}}</view>
+    <view class="reason" wx:if="{{item.rejectReason}}">拒绝原因：{{item.rejectReason}}</view>
+    <view class="actions" wx:if="{{item.status === 'pending'}}">
+      <button class="button reject tech-control tech-danger" data-rider="{{item}}" bindtap="reject" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">拒绝</button>
+      <button class="button approve tech-control" data-rider="{{item}}" bindtap="approve" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">通过</button>
+    </view>
+  </view>
+</view>

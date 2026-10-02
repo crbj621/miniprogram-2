@@ -1,0 +1,16 @@
+<view class="container">
+  <scroll-view scroll-y class="log-list" bindscrolltolower="loadMore">
+    <view class="log-item" wx:for="{{logs}}" wx:key="_id">
+      <view class="log-header">
+        <view class="log-admin">{{item.adminAccount}}</view>
+        <view class="log-time">{{item.createTimeText}}</view>
+      </view>
+      <view class="log-operation">{{item.operation}}</view>
+      <view class="log-content">{{item.content}}</view>
+    </view>
+
+    <view class="loading" wx:if="{{loading}}"><view class="uiverse-dots"><view class="uiverse-dot" /><view class="uiverse-dot" /><view class="uiverse-dot" /></view>加载中...</view>
+    <view class="no-more" wx:if="{{!hasMore && logs.length > 0}}">没有更多了</view>
+    <view class="empty" wx:if="{{!loading && logs.length === 0}}">暂无操作日志</view>
+  </scroll-view>
+</view>

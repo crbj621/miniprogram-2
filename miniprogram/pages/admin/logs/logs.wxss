@@ -1,0 +1,59 @@
+@import "../../../styles/admin-ui.wxss";
+.container {
+  min-height: 100vh;
+  background-color: #f2f6fa;
+  padding: 20rpx;
+}
+
+.log-list {
+  padding-bottom: 40rpx;
+}
+
+.log-item {
+  background-color: #fff;
+  border-radius: 24rpx;
+  padding: 24rpx;
+  margin-bottom: 20rpx;
+}
+
+.log-time {
+  font-size: 24rpx;
+  color: #7e94a6;
+  margin-bottom: 16rpx;
+}
+
+.log-content {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 16rpx;
+}
+
+.log-type {
+  background-color: #e6f7ff;
+  color: #1890ff;
+  font-size: 24rpx;
+  padding: 4rpx 12rpx;
+  border-radius: 8rpx;
+  margin-right: 16rpx;
+  flex-shrink: 0;
+}
+
+.log-desc {
+  font-size: 28rpx;
+  color: #333;
+  flex: 1;
+}
+
+.log-operator {
+  font-size: 24rpx;
+  color: #7e94a6;
+}
+
+.empty, .loading {
+  text-align: center;
+  padding: 100rpx 0;
+  color: #7e94a6;
+  font-size: 28rpx;
+}
+
+@import "../../../styles/tech-ui.wxss";

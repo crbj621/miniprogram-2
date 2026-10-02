@@ -1,0 +1,128 @@
+<view class="page">
+  <view class="header">
+    <view class="header-bg"></view>
+    <view class="header-content">
+      <view class="header-top">
+        <view class="back-btn tech-control" bindtap="goBack" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+          <text class="back-icon">←</text>
+        </view>
+        <view class="header-title">
+          <text class="title-text">{{categoryName || '校园动态'}}</text>
+        </view>
+        <view class="header-actions" wx:if="{{mode === 'all'}}">
+          <view class="action-btn tech-control" bindtap="toggleSearch" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+            <text class="action-icon">🔍</text>
+          </view>
+        </view>
+      </view>
+      
+      <view class="search-bar" wx:if="{{showSearch}}">
+        <text class="search-icon">🔍</text>
+        <tech-search class="tech-search-host"><input 
+          class="search-input tech-input" 
+          placeholder="搜索校园动态..." 
+          value="{{keyword}}" 
+          bindinput="onSearchInput" 
+          bindconfirm="onSearch" 
+          focus="{{showSearch}}" 
+          placeholder-class="search-placeholder" 
+        placeholder-style="color:#8597ad" /></tech-search>
+        <view class="search-btn tech-control" bindtap="onSearch" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">搜索</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="filter-section" wx:if="{{mode === 'all'}}">
+    <view class="filter-tabs">
+      <view class="filter-tab {{orderBy === 'latest' ? 'active' : ''}}" bindtap="changeOrder" data-order="latest" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+        <text class="tab-icon">✨</text>
+        <text class="tab-name">最新</text>
+      </view>
+      <view class="filter-tab {{orderBy === 'hot' ? 'active' : ''}}" bindtap="changeOrder" data-order="hot" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+        <text class="tab-icon">🔥</text>
+        <text class="tab-name">热门</text>
+      </view>
+    </view>
+  </view>
+
+  <scroll-view scroll-y class="post-scroll" bindscrolltolower="loadMore" lower-threshold="100">
+    <view class="post-list">
+      <view class="post-card {{item.isCommentRecord ? 'comment-card' : ''}} tech-card" wx:for="{{posts}}" wx:key="_id" bindtap="goToDetail" data-id="{{item._targetId}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+        <view class="post-header">
+          <image wx:if="{{item.authorAvatar}}" class="post-avatar" src="{{item.authorAvatar}}" mode="aspectFill"></image><view wx:else class="post-avatar image-placeholder">同</view>
+          <view class="post-author-info">
+            <text class="post-author-name">{{item.authorName || '匿名用户'}}</text>
+            <text class="post-time">{{item.createTimeText}}</text>
+          </view>
+          <view class="post-badges">
+            <text class="badge top" wx:if="{{item.isTop}}">置顶</text>
+            <text class="badge essence" wx:if="{{item.isEssence}}">精华</text>
+          </view>
+        </view>
+        
+        <view class="post-body">
+          <view class="comment-kicker" wx:if="{{item.isCommentRecord}}">评论于动态</view>
+          <text class="post-title">{{item.title}}</text>
+          <text class="post-content">{{item.content}}</text>
+          <view class="post-images" wx:if="{{item.imgList.length > 0}}">
+            <image 
+              class="post-img {{item.imgList.length === 1 ? 'single' : ''}}" 
+              wx:for="{{item.imgList}}" 
+              wx:for-item="img" 
+              wx:key="index"
+              wx:if="{{index < 3}}"
+              src="{{img}}" 
+              mode="aspectFill"
+              catchtap="previewImage" 
+              data-url="{{img}}" 
+              data-urls="{{item.imgList}}"></image>
+            <view class="img-more" wx:if="{{item.imgList.length > 3}}">
+              <text>+{{item.imgList.length - 3}}</text>
+            </view>
+          </view>
+        </view>
+        
+        <view class="post-footer">
+          <view class="post-category-tag">
+            <text>{{item.categoryName}}</text>
+          </view>
+          <view class="comment-link {{item.postDeleted ? 'disabled' : ''}}" wx:if="{{item.isCommentRecord}}">
+            {{item.postDeleted ? '原动态已删除' : '查看原动态 ›'}}
+          </view>
+          <view class="post-stats" wx:else>
+            <view class="stat-item">
+              <text class="stat-icon">💬</text>
+              <text class="stat-num">{{item.commentCount}}</text>
+            </view>
+            <view class="stat-item">
+              <text class="stat-icon">👍</text>
+              <text class="stat-num">{{item.likeCount}}</text>
+            </view>
+            <view class="stat-item">
+              <text class="stat-icon">⭐</text>
+              <text class="stat-num">{{item.collectCount}}</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class="load-status">
+      <view class="loading" wx:if="{{loading}}"><view class="uiverse-dots"><view class="uiverse-dot" /><view class="uiverse-dot" /><view class="uiverse-dot" /></view>
+        <view class="loading-spinner"></view>
+        <text>加载中...</text>
+      </view>
+      <text wx:elif="{{!hasMore && posts.length > 0}}">— 没有更多了 —</text>
+    </view>
+
+    <view class="empty-state" wx:if="{{!loading && posts.length === 0}}">
+      <text class="empty-icon">📭</text>
+      <text class="empty-text">暂无动态</text>
+      <text class="empty-tip">{{emptyTip}}</text>
+    </view>
+  </scroll-view>
+
+  <view class="fab-btn tech-control" bindtap="goToPost" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+    <text class="fab-icon">✏️</text>
+  </view>
+</view>

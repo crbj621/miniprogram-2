@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>管理员管理 - 智慧校园管理后台</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="layout">
+    <div class="sidebar" id="sidebar"></div>
+    <div class="main-content">
+      <div class="page-header">
+        <h1 class="page-title">管理员管理</h1>
+        <button class="btn btn-primary" onclick="showAddAdmin()">添加管理员</button>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <div class="table-container">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>账号</th>
+                  <th>姓名</th>
+                  <th>角色</th>
+                  <th>状态</th>
+                  <th>最后登录</th>
+                  <th>创建时间</th>
+                  <th>操作</th>
+                </tr>
+              </thead>
+              <tbody id="adminList">
+                <tr>
+                  <td colspan="7" class="empty-state">
+                    <div class="icon">👤</div>
+                    <div class="text">暂无管理员</div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/config.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/common.js"></script>
+  <script>
+    let admins = [];
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      const admin = checkAuth();
+      if (!admin) return;
+      
+      if (admin.role !== 'super') {
+        showToast('无权限访问此页面', 'error');
+        setTimeout(() => window.location.href = 'dashboard.html', 1500);
+        return;
+      }
+      
+      initSidebar('admins');
+      await loadAdmins();
+    });
+
+    async function loadAdmins() {
+      try {
+        showLoading();
+        const res = await callCloudFunction('globalAdmin', { action: 'getAdminList' });
+        if (res.code !== 0) throw new Error(res.message);
+        admins = res.data.list;
+        renderAdmins();
+        hideLoading();
+      } catch (err) {
+        hideLoading();
+        console.error('加载管理员失败:', err);
+        showToast('加载失败', 'error');
+      }
+    }
+
+    function renderAdmins() {
+      const tbody = document.getElementById('adminList');
+      
+      if (admins.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="7" class="empty-state"><div class="icon">👤</div><div class="text">暂无管理员</div></td></tr>';
+        return;
+      }
+
+      tbody.innerHTML = admins.map(admin => `
+        <tr>
+          <td><strong>${admin.account}</strong></td>
+          <td>${admin.username}</td>
+          <td><span class="status-tag ${admin.role === 'super' ? 'info' : ''}">${ADMIN_ROLE[admin.role] || admin.role}</span></td>
+          <td><span class="status-tag ${admin.status === 'active' ? 'success' : 'danger'}">${admin.status === 'active' ? '正常' : '禁用'}</span></td>
+          <td>${admin.lastLoginTime ? formatDate(admin.lastLoginTime) : '从未登录'}</td>
+          <td>${formatDate(admin.createTime)}</td>
+          <td>
+            <div class="btn-group">
+              ${admin.role !== 'super' ? `
+                <button class="btn btn-secondary btn-sm" onclick="editAdmin('${admin._id}')">编辑</button>
+                <button class="btn btn-warning btn-sm" onclick="resetPassword('${admin._id}')">重置密码</button>
+                ${admin.status === 'active' ? 
+                  `<button class="btn btn-danger btn-sm" onclick="toggleStatus('${admin._id}', 'disabled')">禁用</button>` :
+                  `<button class="btn btn-success btn-sm" onclick="toggleStatus('${admin._id}', 'active')">启用</button>`
+                }
+                <button class="btn btn-danger btn-sm" onclick="deleteAdmin('${admin._id}')">删除</button>
+              ` : '<span style="color: #999;">超级管理员</span>'}
+            </div>
+          </td>
+        </tr>
+      `).join('');
+    }
+
+    async function showAddAdmin() {
+      const result = await showModal({
+        title: '添加管理员',
+        content: `
+          <div class="form-group">
+            <label>账号</label>
+            <input type="text" class="form-input" id="newAccount" placeholder="请输入账号" required>
+          </div>
+          <div class="form-group">
+            <label>姓名</label>
+            <input type="text" class="form-input" id="newName" placeholder="请输入姓名" required>
+          </div>
+          <div class="form-group">
+            <label>密码</label>
+            <input type="password" class="form-input" id="newPassword" placeholder="请输入密码" required>
+          </div>
+          <div class="form-group">
+            <label>角色</label>
+            <select class="form-input" id="newRole">
+              <option value="normal">普通管理员</option>
+            </select>
+          </div>
+        `
+      });
+
+      if (result) {
+        const account = document.getElementById('newAccount').value;
+        const name = document.getElementById('newName').value;
+        const password = document.getElementById('newPassword').value;
+        const role = document.getElementById('newRole').value;
+
+        if (!account || !name || !password) {
+          showToast('请填写完整信息', 'warning');
+          return;
+        }
+
+        try {
+          showLoading();
+          
+          const saved = await callCloudFunction('globalAdmin', { action: 'createAdmin', data: { account, username: name, password, role, permissions: [] } });
+          if (saved.code !== 0) throw new Error(saved.message);
+
+          showToast('添加成功', 'success');
+          await loadAdmins();
+        } catch (err) {
+          hideLoading();
+          showToast('添加失败', 'error');
+        }
+      }
+    }
+
+    async function editAdmin(id) {
+      const admin = admins.find(a => a._id === id);
+      if (!admin) return;
+
+      const result = await showModal({
+        title: '编辑管理员',
+        content: `
+          <div class="form-group">
+            <label>账号</label>
+            <input type="text" class="form-input" id="editAccount" value="${admin.account}" disabled>
+          </div>
+          <div class="form-group">
+            <label>姓名</label>
+            <input type="text" class="form-input" id="editName" value="${admin.username}" required>
+          </div>
+          <div class="form-group">
+            <label>角色</label>
+            <select class="form-input" id="editRole">
+              <option value="normal" ${admin.role === 'normal' ? 'selected' : ''}>普通管理员</option>
+            </select>
+          </div>
+        `
+      });
+
+      if (result) {
+        const name = document.getElementById('editName').value;
+        const role = document.getElementById('editRole').value;
+
+        try {
+          showLoading();
+          const saved = await callCloudFunction('globalAdmin', { action: 'updateAdmin', data: { id, username: name, role } });
+          if (saved.code !== 0) throw new Error(saved.message);
+          showToast('更新成功', 'success');
+          await loadAdmins();
+        } catch (err) {
+          hideLoading();
+          showToast('更新失败', 'error');
+        }
+      }
+    }
+
+    async function resetPassword(id) {
+      const result = await showModal({
+        title: '重置密码',
+        content: `
+          <div class="form-group">
+            <label>新密码</label>
+            <input type="password" class="form-input" id="resetPwd" placeholder="请输入新密码" required>
+          </div>
+          <div class="form-group">
+            <label>确认密码</label>
+            <input type="password" class="form-input" id="resetPwdConfirm" placeholder="请再次输入新密码" required>
+          </div>
+        `
+      });
+
+      if (result) {
+        const pwd = document.getElementById('resetPwd').value;
+        const pwdConfirm = document.getElementById('resetPwdConfirm').value;
+
+        if (!pwd || pwd !== pwdConfirm) {
+          showToast('两次密码输入不一致', 'error');
+          return;
+        }
+
+        try {
+          showLoading();
+          const saved = await callCloudFunction('globalAdmin', { action: 'resetAdminPassword', data: { id, newPassword: pwd } });
+          if (saved.code !== 0) throw new Error(saved.message);
+          showToast('密码已重置', 'success');
+        } catch (err) {
+          hideLoading();
+          showToast('重置失败', 'error');
+        }
+      }
+    }
+
+    async function toggleStatus(id, status) {
+      try {
+        showLoading();
+        const saved = await callCloudFunction('globalAdmin', { action: 'updateAdmin', data: { id, status } });
+        if (saved.code !== 0) throw new Error(saved.message);
+        showToast(status === 'active' ? '已启用' : '已禁用', 'success');
+        await loadAdmins();
+      } catch (err) {
+        hideLoading();
+        showToast('操作失败', 'error');
+      }
+    }
+
+    async function deleteAdmin(id) {
+      const confirmed = await showConfirm('确定要删除此管理员吗？');
+      if (!confirmed) return;
+
+      try {
+        showLoading();
+        const saved = await callCloudFunction('globalAdmin', { action: 'deleteAdmin', data: { id } });
+        if (saved.code !== 0) throw new Error(saved.message);
+        showToast('删除成功', 'success');
+        await loadAdmins();
+      } catch (err) {
+        hideLoading();
+        showToast('删除失败', 'error');
+      }
+    }
+  </script>
+</body>
+</html>

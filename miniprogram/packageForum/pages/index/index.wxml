@@ -1,0 +1,130 @@
+<view class="page" bindtap="closeCategoryMenu">
+  <view wx:if="{{categoryExpanded}}" class="category-mask" catchtap="closeCategoryMenu"></view>
+  <view class="hero">
+    <view class="campus-heading">
+      <view class="campus-heading-copy"><text class="campus-kicker">收集校园里的小美好</text><text class="campus-title">校园动态</text><text class="campus-subtitle">分享日常 · 失物招领 · 学习互助</text></view>
+      <campus-sticker kind="forum" />
+    </view>
+    <view class="header-actions">
+      <button class="action-btn tech-control" bindtap="goToSearch" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">搜索动态</button>
+      <button class="action-btn tech-control" bindtap="goToMessages" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">我的消息<view class="unread-badge" wx:if="{{unreadCount > 0}}">{{unreadCount > 99 ? '99+' : unreadCount}}</view></button>
+      <button class="action-btn tech-control" bindtap="goToMine" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">我的主页</button>
+    </view>
+    <view class="category-dropdown">
+      <button class="category-select" catchtap="toggleCategoryMenu" disabled="{{categoriesLoading}}" hover-class="tech-pressed" aria-label="选择动态分区" aria-expanded="{{categoryExpanded}}"><text class="category-select-label">动态分区</text><text class="category-select-value">{{categoriesLoading ? '读取分区…' : categoryOptions[categoryIndex].name}}</text><text class="category-select-arrow {{categoryExpanded ? 'is-open' : ''}}">⌄</text></button>
+      <scroll-view wx:if="{{categoryExpanded}}" class="category-menu" style="height:{{categoryOptions.length > 4 ? 420 : categoryOptions.length * 88}}rpx" scroll-y scroll-into-view="category-{{categoryIndex}}">
+        <button wx:for="{{categoryOptions}}" wx:key="key" id="category-{{index}}" class="category-option {{index === categoryIndex ? 'is-selected' : ''}}" data-index="{{index}}" catchtap="onCategoryChange" hover-class="tech-pressed"><text>{{item.name}}</text><text wx:if="{{index === categoryIndex}}" class="category-check">✓</text></button>
+      </scroll-view>
+      <button wx:if="{{categoriesError}}" bindtap="loadCategories" hover-class="tech-pressed" hover-start-time="0" hover-stay-time="140" class="tech-control">分区读取失败 · 重试</button>
+    </view>
+  </view>
+
+  <view class="content-shell">
+    <view class="feed-heading">
+      <view>
+        <text class="feed-kicker">动态广场</text>
+        <text class="feed-title">{{activeTab === 'latest' ? '刚刚发生的新鲜事' : '大家都在看的故事'}}</text>
+      </view>
+      <view class="tab-bar">
+        <button class="tab-item {{activeTab === 'latest' ? 'active' : ''}} tech-control" bindtap="onTabTap" data-tab="latest" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">最新</button>
+        <button class="tab-item {{activeTab === 'hot' ? 'active' : ''}} tech-control" bindtap="onTabTap" data-tab="hot" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">热门</button>
+      </view>
+    </view>
+
+    <mahiro-scroll id="page-refresh" class="post-scroll" bindrefresh="refreshPage" bindmore="onLoadMore">
+      <view class="post-list">
+        <view
+          class="post-card tech-card"
+          wx:for="{{posts}}"
+          wx:key="_id"
+          bindtap="goToDetail"
+          data-id="{{item._id}}"
+         hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+          <view class="card-tape"></view>
+          <view class="post-header">
+            <view class="avatar-ring" wx:if="{{item.authorAvatar}}">
+              <image
+                class="post-avatar"
+                src="{{item.authorAvatar}}"
+                mode="aspectFill"
+                catchtap="onAvatarTap"
+                data-openid="{{item._openid}}"
+                data-name="{{item.authorName}}"
+                data-avatar="{{item.authorAvatar}}"></image>
+            </view>
+            <view wx:else class="avatar-placeholder" catchtap="onAvatarTap" data-openid="{{item._openid}}" data-name="{{item.authorName}}" data-avatar="{{item.authorAvatar}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">同</view>
+            <view class="post-author-info">
+              <text class="post-author-name">{{item.authorName || '匿名同学'}}</text>
+              <text class="post-time">{{item.createTimeText}}</text>
+            </view>
+            <view class="post-badges">
+              <text class="badge top" wx:if="{{item.isTop}}">置顶</text>
+              <text class="badge essence" wx:if="{{item.isEssence}}">精选</text>
+            </view>
+          </view>
+
+          <view class="post-body">
+            <text class="post-title">{{item.title}}</text>
+            <text class="post-content">{{item.content}}</text>
+            <view class="post-images image-count-{{item.imgList.length}}" wx:if="{{item.imgList && item.imgList.length > 0}}">
+              <image
+                class="post-img"
+                wx:for="{{item.imgList}}"
+                wx:for-item="img"
+                wx:key="*this"
+                wx:if="{{index < 3}}"
+                src="{{img}}"
+                mode="aspectFill"></image>
+              <view class="image-more" wx:if="{{item.imgList.length > 3}}">+{{item.imgList.length - 3}}</view>
+            </view>
+          </view>
+
+          <view class="post-footer">
+            <view class="post-category-tag">
+              <text class="tag-dot"></text>
+              <text>{{item.categoryName}}</text>
+            </view>
+            <view class="post-stats">
+              <view class="stat-item"><text>评论</text><text class="stat-num">{{item.commentCount || 0}}</text></view>
+              <view class="stat-item"><text>喜欢</text><text class="stat-num">{{item.likeCount || 0}}</text></view>
+              <view class="stat-item"><text>收藏</text><text class="stat-num">{{item.collectCount || 0}}</text></view>
+            </view>
+          </view>
+        </view>
+      </view>
+
+      <view class="load-status">
+        <tech-loader wx:if="{{loading}}"/>
+        <text wx:elif="{{!hasMore && posts.length > 0}}">今天的故事先看到这里啦</text>
+      </view>
+
+      <view class="empty-state" wx:if="{{posts.length === 0 && !loading}}">
+        <campus-sticker kind="forum" />
+        <text class="empty-text">这里还安安静静的</text>
+        <text class="empty-tip">来发布第一条校园动态吧</text>
+      </view>
+
+      <view class="bottom-space"></view>
+    </mahiro-scroll>
+  </view>
+
+  <button class="fab-btn tech-control tech-primary" bindtap="goToPost" hover-class="fab-btn-pressed tap-feedback tech-pressed" aria-label="发布校园动态">
+    <text class="fab-plus">＋</text>
+    <text>发布动态</text>
+  </button>
+</view>
+
+<view class="announcement-modal" wx:if="{{showAnnouncement}}">
+  <view class="announcement-mask" bindtap="onCloseAnnouncement" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"></view>
+  <view class="announcement-content tech-card">
+    <view class="announcement-sticker">NOTICE</view>
+    <view class="announcement-header">
+      <text class="announcement-kicker">校园广播站</text>
+      <text class="announcement-title">{{announcement.title}}</text>
+    </view>
+    <view class="announcement-body"><text>{{announcement.content}}</text></view>
+    <view class="announcement-footer">
+      <button class="announcement-btn tech-control" bindtap="onCloseAnnouncement" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">收到啦</button>
+    </view>
+  </view>
+</view>

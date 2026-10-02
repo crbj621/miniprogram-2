@@ -1,0 +1,40 @@
+<view class="container">
+  <view class="filter-bar">
+    <picker mode="selector" range="{{statusList}}" range-key="name" value="{{statusIndex}}" bindchange="onStatusChange">
+      <view class="picker-btn">{{statusList[statusIndex].name}} ▼</view>
+    </picker>
+    <picker mode="selector" range="{{categoryList}}" range-key="name" value="{{categoryIndex}}" bindchange="onCategoryChange">
+      <view class="picker-btn">{{categoryList[categoryIndex].name}} ▼</view>
+    </picker>
+  </view>
+
+  <scroll-view scroll-y class="post-list" bindscrolltolower="loadMore">
+    <view class="post-item" wx:for="{{posts}}" wx:key="_id">
+      <view class="post-header">
+        <view class="post-title">{{item.title}}</view>
+        <view class="post-status {{item.status}}">{{item.status === 'normal' ? '正常' : item.status === 'deleted' ? '已删除' : '其他'}}</view>
+      </view>
+      <view class="post-info">
+        <text>{{item.categoryName}}</text>
+        <text>{{item.createTimeText}}</text>
+        <text>👍{{item.likeCount}} 💬{{item.commentCount}}</text>
+      </view>
+      <view class="post-author">
+        <text>作者：{{item.authorInfo.nickname}}</text>
+      </view>
+      <view class="post-actions">
+        <view class="action-btn tech-control" wx:if="{{item.status !== 'deleted'}}" bindtap="deletePost" data-id="{{item._id}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">删除</view>
+        <view class="action-btn tech-control" bindtap="toggleTop" data-id="{{item._id}}" data-top="{{item.isTop}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+          {{item.isTop ? '取消置顶' : '置顶'}}
+        </view>
+        <view class="action-btn tech-control" bindtap="toggleEssence" data-id="{{item._id}}" data-essence="{{item.isEssence}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+          {{item.isEssence ? '取消精华' : '精华'}}
+        </view>
+      </view>
+    </view>
+
+    <view class="loading" wx:if="{{loading}}"><view class="uiverse-dots"><view class="uiverse-dot" /><view class="uiverse-dot" /><view class="uiverse-dot" /></view>加载中...</view>
+    <view class="no-more" wx:if="{{!hasMore && posts.length > 0}}">没有更多了</view>
+    <view class="empty" wx:if="{{!loading && posts.length === 0}}">暂无动态</view>
+  </scroll-view>
+</view>

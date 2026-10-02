@@ -1,0 +1,111 @@
+<wxs module="utils">
+module.exports = {
+  isFeatured: function(featuredDishes, dishId) {
+    if (!featuredDishes || featuredDishes.length === 0) {
+      return false
+    }
+    for (var i = 0; i < featuredDishes.length; i++) {
+      if (featuredDishes[i]._id === dishId) {
+        return true
+      }
+    }
+    return false
+  }
+}
+</wxs>
+
+<view class="container">
+  <view class="header">
+    <view class="title">菜品管理</view>
+    <view class="add-btn tech-control" bindtap="showAddModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">+ 添加菜品</view>
+  </view>
+
+  <view class="featured-tip" wx:if="{{featuredDishes.length > 0}}">
+    <text class="tip-icon">⭐</text>
+    <text>已设置 {{featuredDishes.length}} 个推荐菜品（最多2个）</text>
+  </view>
+
+  <view class="dish-list">
+    <view class="dish-item" wx:for="{{dishes}}" wx:key="_id">
+      <image wx:if="{{item.image}}" class="dish-img" src="{{item.image}}" mode="aspectFill"></image><view wx:else class="dish-img image-placeholder">菜</view>
+      <view class="dish-info">
+        <view class="dish-name">
+          {{item.name}}
+          <text class="featured-tag" wx:if="{{utils.isFeatured(featuredDishes, item._id)}}">推荐</text>
+        </view>
+        <view class="dish-meta">
+          <text class="dish-price">¥{{item.price}}</text>
+          <text class="dish-category">{{item.category}}</text>
+        </view>
+        <view class="dish-stock">库存: {{item.stock}} | 销量: {{item.sales || 0}}</view>
+      </view>
+      <view class="dish-actions">
+        <view class="action-btn {{item.isAvailable ? 'on' : 'off'}} tech-control" bindtap="toggleAvailable" data-id="{{item._id}}" data-available="{{item.isAvailable}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+          {{item.isAvailable ? '上架中' : '已下架'}}
+        </view>
+        <view class="action-btn {{utils.isFeatured(featuredDishes, item._id) ? 'featured' : 'feature'}} tech-control" bindtap="toggleFeatured" data-item="{{item}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+          {{utils.isFeatured(featuredDishes, item._id) ? '已推荐' : '推荐'}}
+        </view>
+        <view class="action-btn edit tech-control" bindtap="showEditModal" data-item="{{item}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">编辑</view>
+        <view class="action-btn delete tech-control tech-danger" bindtap="deleteDish" data-id="{{item._id}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">删除</view>
+      </view>
+    </view>
+    <view class="empty" wx:if="{{dishes.length === 0}}">
+      <text class="empty-icon">🍽️</text>
+      <text class="empty-text">暂无菜品，点击上方添加</text>
+    </view>
+  </view>
+
+  <view class="modal-mask" wx:if="{{showModal}}" bindtap="hideModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"></view>
+  <view class="modal-content tech-card" wx:if="{{showModal}}">
+    <view class="modal-header">
+      <text class="modal-title">{{isEdit ? '编辑菜品' : '添加菜品'}}</text>
+      <view class="modal-close tap-action" bindtap="hideModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">×</view>
+    </view>
+    <scroll-view scroll-y class="modal-body">
+      <view class="form-item">
+        <text class="form-label">菜品名称 <text class="required">*</text></text>
+        <input class="form-input large tech-input" placeholder="请输入菜品名称" value="{{form.name}}" data-field="name" bindinput="onInputChange" placeholder-style="color:#8597ad" />
+      </view>
+
+      <view class="form-item">
+        <text class="form-label">菜品分类 <text class="required">*</text></text>
+        <input class="form-input tech-input" placeholder="如：热销、主食、饮品" value="{{form.category}}" data-field="category" bindinput="onInputChange" placeholder-style="color:#8597ad" />
+      </view>
+
+      <view class="form-row">
+        <view class="form-item half">
+          <text class="form-label">价格 <text class="required">*</text></text>
+          <view class="input-with-unit">
+            <input class="form-input tech-input" type="digit" placeholder="0.00" value="{{form.price}}" data-field="price" bindinput="onInputChange" placeholder-style="color:#8597ad" />
+            <text class="unit">元</text>
+          </view>
+        </view>
+        <view class="form-item half">
+          <text class="form-label">库存</text>
+          <input class="form-input tech-input" type="number" placeholder="999" value="{{form.stock}}" data-field="stock" bindinput="onInputChange" placeholder-style="color:#8597ad" />
+        </view>
+      </view>
+
+      <view class="form-item">
+        <text class="form-label">菜品描述</text>
+        <textarea class="form-textarea tech-input" placeholder="请输入菜品描述（选填）" value="{{form.description}}" data-field="description" bindinput="onInputChange" placeholder-style="color:#8597ad"></textarea>
+      </view>
+
+      <view class="form-item">
+        <text class="form-label">菜品图片</text>
+        <view class="image-upload" bindtap="chooseImage" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+          <image wx:if="{{form.image}}" src="{{form.image}}" mode="aspectFill" class="preview-img"></image>
+          <view wx:else class="upload-placeholder">
+            <text class="upload-icon">📷</text>
+            <text class="upload-text">{{uploading ? '上传中...' : '点击上传'}}</text>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+    <view class="modal-footer">
+      <button class="cancel-btn tech-control" bindtap="hideModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">取消</button>
+      <button class="confirm-btn tech-control tech-primary" bindtap="saveDish" loading="{{saving}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">{{saving ? '保存中...' : '保存'}}</button>
+    </view>
+  </view>
+</view>

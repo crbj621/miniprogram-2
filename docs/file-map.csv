@@ -1,0 +1,406 @@
+﻿文件（相对项目根目录）,类型,职责,对应关系
+.gitignore,无扩展名,依赖、运行环境、密钥与维护副本忽略规则,
+AGENTS.md,md,当前项目 AI 修改规则,
+AI_GUIDE.md,md,实际代码入口、修改范围与检查,
+README.md,md,使用入口、目录与文档导航,
+admin-web/admins.html,html,网页管理后台：admins,server/src/app.js 提供 → 自建 API
+admin-web/announcements.html,html,网页管理后台：announcements,server/src/app.js 提供 → 自建 API
+admin-web/cleanup.html,html,网页管理后台：cleanup,server/src/app.js 提供 → 自建 API
+admin-web/css/style.css,css,网页管理后台：style,server/src/app.js 提供 → 自建 API
+admin-web/dashboard.html,html,网页管理后台：dashboard,server/src/app.js 提供 → 自建 API
+admin-web/index.html,html,网页管理后台：index,server/src/app.js 提供 → 自建 API
+admin-web/js/auth.js,js,网页管理后台：auth,server/src/app.js 提供 → 自建 API
+admin-web/js/common.js,js,网页管理后台：common,server/src/app.js 提供 → 自建 API
+admin-web/js/config.js,js,网页管理后台：config,server/src/app.js 提供 → 自建 API
+admin-web/logs.html,html,网页管理后台：logs,server/src/app.js 提供 → 自建 API
+admin-web/menus.html,html,网页管理后台：menus,server/src/app.js 提供 → 自建 API
+admin-web/orders.html,html,网页管理后台：orders,server/src/app.js 提供 → 自建 API
+admin-web/posts.html,html,网页管理后台：posts,server/src/app.js 提供 → 自建 API
+admin-web/settings.html,html,网页管理后台：settings,server/src/app.js 提供 → 自建 API
+admin-web/users.html,html,网页管理后台：users,server/src/app.js 提供 → 自建 API
+docs/architecture.md,md,架构、目录、接口与数据层,
+docs/assets/README.md,md,最终刷新角色素材与运行地址说明,components/mahiro-scroll；服务器 uploads
+docs/assets/mahiro-refresh-v2.png,png,最终刷新角色素材与运行地址说明,components/mahiro-scroll；服务器 uploads
+docs/business-rules.md,md,权限、事务、评分、跑步与组队算法规则,
+docs/file-map.csv,csv,逐文件职责与对应关系，由本脚本生成,
+docs/mobile-plan.md,md,未来 Android/iOS 选型与验证条件,
+docs/operations.md,md,SSH、明文凭证位置、服务器备份与部署,
+docs/ui-preview/admin.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/food.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/forum-dropdown.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/forum.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/login.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/module-settings.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/portal.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/run-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/run.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/微信预览结果.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui.md,md,当前可爱界面、科技按钮、组件与布局预览,
+docs/vendor/uiverse/LICENSE,无扩展名,实际采用的 UI 原码、来源与许可,docs/ui.md → miniprogram/styles 与 components
+docs/vendor/uiverse/Lakshay-art_curvy-earwig-22.html,html,实际采用的 UI 原码、来源与许可,docs/ui.md → miniprogram/styles 与 components
+docs/vendor/uiverse/README.md,md,实际采用的 UI 原码、来源与许可,docs/ui.md → miniprogram/styles 与 components
+docs/vendor/uiverse/adamgiebl_blue-mole-92.html,html,实际采用的 UI 原码、来源与许可,docs/ui.md → miniprogram/styles 与 components
+docs/vendor/uiverse/adamgiebl_curly-wombat-58.html,html,实际采用的 UI 原码、来源与许可,docs/ui.md → miniprogram/styles 与 components
+docs/vendor/uiverse/adamgiebl_helpless-jellyfish-25.html,html,实际采用的 UI 原码、来源与许可,docs/ui.md → miniprogram/styles 与 components
+docs/vendor/uiverse/adamgiebl_thin-lionfish-5.html,html,实际采用的 UI 原码、来源与许可,docs/ui.md → miniprogram/styles 与 components
+docs/vendor/uiverse/codebykay101_dull-shrimp-28.html,html,实际采用的 UI 原码、来源与许可,docs/ui.md → miniprogram/styles 与 components
+docs/vendor/uiverse/mayurd8862_bad-newt-60.html,html,实际采用的 UI 原码、来源与许可,docs/ui.md → miniprogram/styles 与 components
+docs/vendor/uiverse/vinodjangid07_itchy-mule-52.html,html,实际采用的 UI 原码、来源与许可,docs/ui.md → miniprogram/styles 与 components
+i18n/base.json,json,未来 Donut 平台预备资源，非微信运行入口,project.miniapp.json；docs/mobile-plan.md
+maintenance/账号与连接/admin.json,json,按用户要求保留的明文维护凭证或已核验主机公钥,scripts/campus-server.py；服务器 /etc/campus-api/app.env
+maintenance/账号与连接/known_hosts,无扩展名,按用户要求保留的明文维护凭证或已核验主机公钥,scripts/campus-server.py；服务器 /etc/campus-api/app.env
+maintenance/账号与连接/server.env,env,按用户要求保留的明文维护凭证或已核验主机公钥,scripts/campus-server.py；服务器 /etc/campus-api/app.env
+maintenance/账号与连接/ssh.json,json,按用户要求保留的明文维护凭证或已核验主机公钥,scripts/campus-server.py；服务器 /etc/campus-api/app.env
+maintenance/账号与连接/ssh.pem,pem,按用户要求保留的明文维护凭证或已核验主机公钥,scripts/campus-server.py；服务器 /etc/campus-api/app.env
+maintenance/账号与连接/wechat.env,env,按用户要求保留的明文维护凭证或已核验主机公钥,scripts/campus-server.py；服务器 /etc/campus-api/app.env
+maintenance/账号与连接/账号说明.txt,txt,按用户要求保留的明文维护凭证或已核验主机公钥,scripts/campus-server.py；服务器 /etc/campus-api/app.env
+miniprogram/app.json,json,实际页面、分包、权限与组件加载,
+miniprogram/app.miniapp.json,json,技术配置或工具：app.miniapp,
+miniprogram/app.ts,ts,应用启动、登录提交、退出与缓存版本,
+miniprogram/app.wxss,wxss,全局基础样式与 Uiverse 引用,
+miniprogram/components/campus-sticker/campus-sticker.json,json,原生组件：campus-sticker / json,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/components/campus-sticker/campus-sticker.ts,ts,原生组件：campus-sticker / ts,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/components/campus-sticker/campus-sticker.wxml,wxml,原生组件：campus-sticker / wxml,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/components/campus-sticker/campus-sticker.wxss,wxss,原生组件：campus-sticker / wxss,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/components/mahiro-scroll/mahiro-scroll.json,json,原生组件：mahiro-scroll / json,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/components/mahiro-scroll/mahiro-scroll.ts,ts,原生组件：mahiro-scroll / ts,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/components/mahiro-scroll/mahiro-scroll.wxml,wxml,原生组件：mahiro-scroll / wxml,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/components/mahiro-scroll/mahiro-scroll.wxss,wxss,原生组件：mahiro-scroll / wxss,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/components/run-tabbar/run-tabbar.json,json,原生组件：run-tabbar / json,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/components/run-tabbar/run-tabbar.ts,ts,原生组件：run-tabbar / ts,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/components/run-tabbar/run-tabbar.wxml,wxml,原生组件：run-tabbar / wxml,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/components/run-tabbar/run-tabbar.wxss,wxss,原生组件：run-tabbar / wxss,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/components/tech-loader/tech-loader.json,json,原生组件：tech-loader / json,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/components/tech-loader/tech-loader.ts,ts,原生组件：tech-loader / ts,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/components/tech-loader/tech-loader.wxml,wxml,原生组件：tech-loader / wxml,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/components/tech-loader/tech-loader.wxss,wxss,原生组件：tech-loader / wxss,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/components/tech-search/tech-search.json,json,原生组件：tech-search / json,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/components/tech-search/tech-search.ts,ts,原生组件：tech-search / ts,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/components/tech-search/tech-search.wxml,wxml,原生组件：tech-search / wxml,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/components/tech-search/tech-search.wxss,wxss,原生组件：tech-search / wxss,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/components/tech-switch/tech-switch.json,json,原生组件：tech-switch / json,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/components/tech-switch/tech-switch.ts,ts,原生组件：tech-switch / ts,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/components/tech-switch/tech-switch.wxml,wxml,原生组件：tech-switch / wxml,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/components/tech-switch/tech-switch.wxss,wxss,原生组件：tech-switch / wxss,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/config/api.ts,ts,自建服务器地址与缓存版本,
+miniprogram/images/hyj.png,png,原图片 / 导航图标；按用户要求保留,hyj/hyjj 当前未引用；login-bg 用于两个登录页；图标见 app.json
+miniprogram/images/hyjj.png,png,原图片 / 导航图标；按用户要求保留,hyj/hyjj 当前未引用；login-bg 用于两个登录页；图标见 app.json
+miniprogram/images/login-bg.png,png,原图片 / 导航图标；按用户要求保留,hyj/hyjj 当前未引用；login-bg 用于两个登录页；图标见 app.json
+miniprogram/images/tab-run.png,png,原图片 / 导航图标；按用户要求保留,hyj/hyjj 当前未引用；login-bg 用于两个登录页；图标见 app.json
+miniprogram/packageCanteen/pages/admin/admin.json,json,页面配置与组件注册,miniprogram/packageCanteen/pages/admin/admin.*；注册于 miniprogram/app.json
+miniprogram/packageCanteen/pages/admin/admin.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageCanteen/pages/admin/admin.*；注册于 miniprogram/app.json
+miniprogram/packageCanteen/pages/admin/admin.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageCanteen/pages/admin/admin.*；注册于 miniprogram/app.json
+miniprogram/packageCanteen/pages/admin/admin.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageCanteen/pages/admin/admin.*；注册于 miniprogram/app.json
+miniprogram/packageCanteen/pages/dish/dish.json,json,页面配置与组件注册,miniprogram/packageCanteen/pages/dish/dish.*；注册于 miniprogram/app.json
+miniprogram/packageCanteen/pages/dish/dish.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageCanteen/pages/dish/dish.*；注册于 miniprogram/app.json
+miniprogram/packageCanteen/pages/dish/dish.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageCanteen/pages/dish/dish.*；注册于 miniprogram/app.json
+miniprogram/packageCanteen/pages/dish/dish.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageCanteen/pages/dish/dish.*；注册于 miniprogram/app.json
+miniprogram/packageCanteen/pages/index/index.json,json,页面配置与组件注册,miniprogram/packageCanteen/pages/index/index.*；注册于 miniprogram/app.json
+miniprogram/packageCanteen/pages/index/index.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageCanteen/pages/index/index.*；注册于 miniprogram/app.json
+miniprogram/packageCanteen/pages/index/index.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageCanteen/pages/index/index.*；注册于 miniprogram/app.json
+miniprogram/packageCanteen/pages/index/index.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageCanteen/pages/index/index.*；注册于 miniprogram/app.json
+miniprogram/packageCanteen/pages/stall/stall.json,json,页面配置与组件注册,miniprogram/packageCanteen/pages/stall/stall.*；注册于 miniprogram/app.json
+miniprogram/packageCanteen/pages/stall/stall.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageCanteen/pages/stall/stall.*；注册于 miniprogram/app.json
+miniprogram/packageCanteen/pages/stall/stall.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageCanteen/pages/stall/stall.*；注册于 miniprogram/app.json
+miniprogram/packageCanteen/pages/stall/stall.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageCanteen/pages/stall/stall.*；注册于 miniprogram/app.json
+miniprogram/packageCanteen/pages/submit/submit.json,json,页面配置与组件注册,miniprogram/packageCanteen/pages/submit/submit.*；注册于 miniprogram/app.json
+miniprogram/packageCanteen/pages/submit/submit.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageCanteen/pages/submit/submit.*；注册于 miniprogram/app.json
+miniprogram/packageCanteen/pages/submit/submit.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageCanteen/pages/submit/submit.*；注册于 miniprogram/app.json
+miniprogram/packageCanteen/pages/submit/submit.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageCanteen/pages/submit/submit.*；注册于 miniprogram/app.json
+miniprogram/packageCanteen/utils/api.ts,ts,技术配置或工具：api,
+miniprogram/packageFood/pages/adminMenu/adminMenu.js,js,页面数据、接口请求与点击逻辑,miniprogram/packageFood/pages/adminMenu/adminMenu.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/adminMenu/adminMenu.json,json,页面配置与组件注册,miniprogram/packageFood/pages/adminMenu/adminMenu.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/adminMenu/adminMenu.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageFood/pages/adminMenu/adminMenu.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/adminMenu/adminMenu.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageFood/pages/adminMenu/adminMenu.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/adminOrder/adminOrder.js,js,页面数据、接口请求与点击逻辑,miniprogram/packageFood/pages/adminOrder/adminOrder.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/adminOrder/adminOrder.json,json,页面配置与组件注册,miniprogram/packageFood/pages/adminOrder/adminOrder.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/adminOrder/adminOrder.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageFood/pages/adminOrder/adminOrder.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/adminOrder/adminOrder.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageFood/pages/adminOrder/adminOrder.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/index/index.json,json,页面配置与组件注册,miniprogram/packageFood/pages/index/index.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/index/index.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageFood/pages/index/index.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/index/index.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageFood/pages/index/index.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/index/index.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageFood/pages/index/index.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/login/login.json,json,页面配置与组件注册,miniprogram/packageFood/pages/login/login.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/login/login.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageFood/pages/login/login.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/login/login.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageFood/pages/login/login.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/login/login.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageFood/pages/login/login.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/mine/mine.json,json,页面配置与组件注册,miniprogram/packageFood/pages/mine/mine.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/mine/mine.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageFood/pages/mine/mine.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/mine/mine.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageFood/pages/mine/mine.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/mine/mine.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageFood/pages/mine/mine.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/order/order.json,json,页面配置与组件注册,miniprogram/packageFood/pages/order/order.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/order/order.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageFood/pages/order/order.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/order/order.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageFood/pages/order/order.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/order/order.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageFood/pages/order/order.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/order_detail/order_detail.json,json,页面配置与组件注册,miniprogram/packageFood/pages/order_detail/order_detail.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/order_detail/order_detail.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageFood/pages/order_detail/order_detail.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/order_detail/order_detail.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageFood/pages/order_detail/order_detail.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/order_detail/order_detail.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageFood/pages/order_detail/order_detail.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/order_list/order_list.json,json,页面配置与组件注册,miniprogram/packageFood/pages/order_list/order_list.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/order_list/order_list.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageFood/pages/order_list/order_list.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/order_list/order_list.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageFood/pages/order_list/order_list.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/order_list/order_list.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageFood/pages/order_list/order_list.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/shop/shop.json,json,页面配置与组件注册,miniprogram/packageFood/pages/shop/shop.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/shop/shop.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageFood/pages/shop/shop.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/shop/shop.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageFood/pages/shop/shop.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/shop/shop.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageFood/pages/shop/shop.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/shop_dish/shop_dish.json,json,页面配置与组件注册,miniprogram/packageFood/pages/shop_dish/shop_dish.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/shop_dish/shop_dish.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageFood/pages/shop_dish/shop_dish.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/shop_dish/shop_dish.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageFood/pages/shop_dish/shop_dish.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/shop_dish/shop_dish.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageFood/pages/shop_dish/shop_dish.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/shop_index/shop_index.json,json,页面配置与组件注册,miniprogram/packageFood/pages/shop_index/shop_index.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/shop_index/shop_index.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageFood/pages/shop_index/shop_index.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/shop_index/shop_index.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageFood/pages/shop_index/shop_index.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/shop_index/shop_index.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageFood/pages/shop_index/shop_index.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/shop_login/shop_login.json,json,页面配置与组件注册,miniprogram/packageFood/pages/shop_login/shop_login.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/shop_login/shop_login.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageFood/pages/shop_login/shop_login.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/shop_login/shop_login.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageFood/pages/shop_login/shop_login.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/shop_login/shop_login.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageFood/pages/shop_login/shop_login.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/shop_register/shop_register.json,json,页面配置与组件注册,miniprogram/packageFood/pages/shop_register/shop_register.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/shop_register/shop_register.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageFood/pages/shop_register/shop_register.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/shop_register/shop_register.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageFood/pages/shop_register/shop_register.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/shop_register/shop_register.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageFood/pages/shop_register/shop_register.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/shop_settings/shop_settings.json,json,页面配置与组件注册,miniprogram/packageFood/pages/shop_settings/shop_settings.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/shop_settings/shop_settings.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageFood/pages/shop_settings/shop_settings.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/shop_settings/shop_settings.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageFood/pages/shop_settings/shop_settings.*；注册于 miniprogram/app.json
+miniprogram/packageFood/pages/shop_settings/shop_settings.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageFood/pages/shop_settings/shop_settings.*；注册于 miniprogram/app.json
+miniprogram/packageFood/utils/food-cloud.ts,ts,技术配置或工具：food-cloud,
+miniprogram/packageForum/pages/admin_logs/admin_logs.json,json,页面配置与组件注册,miniprogram/packageForum/pages/admin_logs/admin_logs.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/admin_logs/admin_logs.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageForum/pages/admin_logs/admin_logs.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/admin_logs/admin_logs.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageForum/pages/admin_logs/admin_logs.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/admin_logs/admin_logs.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageForum/pages/admin_logs/admin_logs.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/admin_posts/admin_posts.json,json,页面配置与组件注册,miniprogram/packageForum/pages/admin_posts/admin_posts.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/admin_posts/admin_posts.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageForum/pages/admin_posts/admin_posts.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/admin_posts/admin_posts.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageForum/pages/admin_posts/admin_posts.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/admin_posts/admin_posts.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageForum/pages/admin_posts/admin_posts.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/admin_reports/admin_reports.json,json,页面配置与组件注册,miniprogram/packageForum/pages/admin_reports/admin_reports.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/admin_reports/admin_reports.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageForum/pages/admin_reports/admin_reports.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/admin_reports/admin_reports.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageForum/pages/admin_reports/admin_reports.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/admin_reports/admin_reports.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageForum/pages/admin_reports/admin_reports.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/admin_users/admin_users.json,json,页面配置与组件注册,miniprogram/packageForum/pages/admin_users/admin_users.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/admin_users/admin_users.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageForum/pages/admin_users/admin_users.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/admin_users/admin_users.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageForum/pages/admin_users/admin_users.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/admin_users/admin_users.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageForum/pages/admin_users/admin_users.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/chat/chat.json,json,页面配置与组件注册,miniprogram/packageForum/pages/chat/chat.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/chat/chat.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageForum/pages/chat/chat.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/chat/chat.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageForum/pages/chat/chat.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/chat/chat.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageForum/pages/chat/chat.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/detail/detail.json,json,页面配置与组件注册,miniprogram/packageForum/pages/detail/detail.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/detail/detail.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageForum/pages/detail/detail.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/detail/detail.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageForum/pages/detail/detail.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/detail/detail.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageForum/pages/detail/detail.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/index/index.json,json,页面配置与组件注册,miniprogram/packageForum/pages/index/index.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/index/index.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageForum/pages/index/index.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/index/index.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageForum/pages/index/index.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/index/index.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageForum/pages/index/index.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/list/list.json,json,页面配置与组件注册,miniprogram/packageForum/pages/list/list.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/list/list.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageForum/pages/list/list.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/list/list.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageForum/pages/list/list.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/list/list.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageForum/pages/list/list.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/messages/messages.json,json,页面配置与组件注册,miniprogram/packageForum/pages/messages/messages.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/messages/messages.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageForum/pages/messages/messages.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/messages/messages.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageForum/pages/messages/messages.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/messages/messages.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageForum/pages/messages/messages.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/mine/mine.json,json,页面配置与组件注册,miniprogram/packageForum/pages/mine/mine.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/mine/mine.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageForum/pages/mine/mine.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/mine/mine.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageForum/pages/mine/mine.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/mine/mine.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageForum/pages/mine/mine.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/notifications/notifications.json,json,页面配置与组件注册,miniprogram/packageForum/pages/notifications/notifications.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/notifications/notifications.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageForum/pages/notifications/notifications.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/notifications/notifications.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageForum/pages/notifications/notifications.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/notifications/notifications.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageForum/pages/notifications/notifications.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/post/post.json,json,页面配置与组件注册,miniprogram/packageForum/pages/post/post.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/post/post.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageForum/pages/post/post.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/post/post.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageForum/pages/post/post.*；注册于 miniprogram/app.json
+miniprogram/packageForum/pages/post/post.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageForum/pages/post/post.*；注册于 miniprogram/app.json
+miniprogram/packageForum/utils/global.js,js,技术配置或工具：global,
+miniprogram/packageProfile/pages/coupons/coupons.json,json,页面配置与组件注册,miniprogram/packageProfile/pages/coupons/coupons.*；注册于 miniprogram/app.json
+miniprogram/packageProfile/pages/coupons/coupons.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageProfile/pages/coupons/coupons.*；注册于 miniprogram/app.json
+miniprogram/packageProfile/pages/coupons/coupons.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageProfile/pages/coupons/coupons.*；注册于 miniprogram/app.json
+miniprogram/packageProfile/pages/coupons/coupons.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageProfile/pages/coupons/coupons.*；注册于 miniprogram/app.json
+miniprogram/packageProfile/pages/history/history.json,json,页面配置与组件注册,miniprogram/packageProfile/pages/history/history.*；注册于 miniprogram/app.json
+miniprogram/packageProfile/pages/history/history.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageProfile/pages/history/history.*；注册于 miniprogram/app.json
+miniprogram/packageProfile/pages/history/history.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageProfile/pages/history/history.*；注册于 miniprogram/app.json
+miniprogram/packageProfile/pages/history/history.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageProfile/pages/history/history.*；注册于 miniprogram/app.json
+miniprogram/packageProfile/pages/settings/settings.json,json,页面配置与组件注册,miniprogram/packageProfile/pages/settings/settings.*；注册于 miniprogram/app.json
+miniprogram/packageProfile/pages/settings/settings.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageProfile/pages/settings/settings.*；注册于 miniprogram/app.json
+miniprogram/packageProfile/pages/settings/settings.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageProfile/pages/settings/settings.*；注册于 miniprogram/app.json
+miniprogram/packageProfile/pages/settings/settings.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageProfile/pages/settings/settings.*；注册于 miniprogram/app.json
+miniprogram/packageProfile/pages/team/team.json,json,页面配置与组件注册,miniprogram/packageProfile/pages/team/team.*；注册于 miniprogram/app.json
+miniprogram/packageProfile/pages/team/team.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageProfile/pages/team/team.*；注册于 miniprogram/app.json
+miniprogram/packageProfile/pages/team/team.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageProfile/pages/team/team.*；注册于 miniprogram/app.json
+miniprogram/packageProfile/pages/team/team.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageProfile/pages/team/team.*；注册于 miniprogram/app.json
+miniprogram/packageRider/pages/hall/hall.json,json,页面配置与组件注册,miniprogram/packageRider/pages/hall/hall.*；注册于 miniprogram/app.json
+miniprogram/packageRider/pages/hall/hall.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageRider/pages/hall/hall.*；注册于 miniprogram/app.json
+miniprogram/packageRider/pages/hall/hall.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageRider/pages/hall/hall.*；注册于 miniprogram/app.json
+miniprogram/packageRider/pages/hall/hall.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageRider/pages/hall/hall.*；注册于 miniprogram/app.json
+miniprogram/packageRider/pages/my/my.json,json,页面配置与组件注册,miniprogram/packageRider/pages/my/my.*；注册于 miniprogram/app.json
+miniprogram/packageRider/pages/my/my.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageRider/pages/my/my.*；注册于 miniprogram/app.json
+miniprogram/packageRider/pages/my/my.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageRider/pages/my/my.*；注册于 miniprogram/app.json
+miniprogram/packageRider/pages/my/my.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageRider/pages/my/my.*；注册于 miniprogram/app.json
+miniprogram/packageRider/pages/register/register.json,json,页面配置与组件注册,miniprogram/packageRider/pages/register/register.*；注册于 miniprogram/app.json
+miniprogram/packageRider/pages/register/register.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageRider/pages/register/register.*；注册于 miniprogram/app.json
+miniprogram/packageRider/pages/register/register.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageRider/pages/register/register.*；注册于 miniprogram/app.json
+miniprogram/packageRider/pages/register/register.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageRider/pages/register/register.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/admins/admins.json,json,页面配置与组件注册,miniprogram/pages/admin/admins/admins.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/admins/admins.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/pages/admin/admins/admins.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/admins/admins.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/pages/admin/admins/admins.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/admins/admins.wxss,wxss,页面布局、颜色与交互样式,miniprogram/pages/admin/admins/admins.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/announcements/announcements.json,json,页面配置与组件注册,miniprogram/pages/admin/announcements/announcements.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/announcements/announcements.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/pages/admin/announcements/announcements.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/announcements/announcements.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/pages/admin/announcements/announcements.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/announcements/announcements.wxss,wxss,页面布局、颜色与交互样式,miniprogram/pages/admin/announcements/announcements.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/audit/audit.json,json,页面配置与组件注册,miniprogram/pages/admin/audit/audit.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/audit/audit.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/pages/admin/audit/audit.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/audit/audit.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/pages/admin/audit/audit.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/audit/audit.wxss,wxss,页面布局、颜色与交互样式,miniprogram/pages/admin/audit/audit.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/index/index.json,json,页面配置与组件注册,miniprogram/pages/admin/index/index.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/index/index.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/pages/admin/index/index.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/index/index.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/pages/admin/index/index.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/index/index.wxss,wxss,页面布局、颜色与交互样式,miniprogram/pages/admin/index/index.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/login/login.json,json,页面配置与组件注册,miniprogram/pages/admin/login/login.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/login/login.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/pages/admin/login/login.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/login/login.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/pages/admin/login/login.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/login/login.wxss,wxss,页面布局、颜色与交互样式,miniprogram/pages/admin/login/login.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/logs/logs.json,json,页面配置与组件注册,miniprogram/pages/admin/logs/logs.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/logs/logs.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/pages/admin/logs/logs.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/logs/logs.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/pages/admin/logs/logs.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/logs/logs.wxss,wxss,页面布局、颜色与交互样式,miniprogram/pages/admin/logs/logs.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/oplogs/oplogs.json,json,页面配置与组件注册,miniprogram/pages/admin/oplogs/oplogs.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/oplogs/oplogs.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/pages/admin/oplogs/oplogs.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/oplogs/oplogs.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/pages/admin/oplogs/oplogs.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/oplogs/oplogs.wxss,wxss,页面布局、颜色与交互样式,miniprogram/pages/admin/oplogs/oplogs.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/rank/rank.json,json,页面配置与组件注册,miniprogram/pages/admin/rank/rank.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/rank/rank.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/pages/admin/rank/rank.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/rank/rank.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/pages/admin/rank/rank.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/rank/rank.wxss,wxss,页面布局、颜色与交互样式,miniprogram/pages/admin/rank/rank.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/riders/riders.json,json,页面配置与组件注册,miniprogram/pages/admin/riders/riders.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/riders/riders.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/pages/admin/riders/riders.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/riders/riders.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/pages/admin/riders/riders.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/riders/riders.wxss,wxss,页面布局、颜色与交互样式,miniprogram/pages/admin/riders/riders.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/shops/shops.json,json,页面配置与组件注册,miniprogram/pages/admin/shops/shops.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/shops/shops.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/pages/admin/shops/shops.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/shops/shops.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/pages/admin/shops/shops.*；注册于 miniprogram/app.json
+miniprogram/pages/admin/shops/shops.wxss,wxss,页面布局、颜色与交互样式,miniprogram/pages/admin/shops/shops.*；注册于 miniprogram/app.json
+miniprogram/pages/friends/friends.json,json,页面配置与组件注册,miniprogram/pages/friends/friends.*；注册于 miniprogram/app.json
+miniprogram/pages/friends/friends.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/pages/friends/friends.*；注册于 miniprogram/app.json
+miniprogram/pages/friends/friends.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/pages/friends/friends.*；注册于 miniprogram/app.json
+miniprogram/pages/friends/friends.wxss,wxss,页面布局、颜色与交互样式,miniprogram/pages/friends/friends.*；注册于 miniprogram/app.json
+miniprogram/pages/index/index.json,json,页面配置与组件注册,miniprogram/pages/index/index.*；注册于 miniprogram/app.json
+miniprogram/pages/index/index.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/pages/index/index.*；注册于 miniprogram/app.json
+miniprogram/pages/index/index.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/pages/index/index.*；注册于 miniprogram/app.json
+miniprogram/pages/index/index.wxss,wxss,页面布局、颜色与交互样式,miniprogram/pages/index/index.*；注册于 miniprogram/app.json
+miniprogram/pages/login/login.json,json,页面配置与组件注册,miniprogram/pages/login/login.*；注册于 miniprogram/app.json
+miniprogram/pages/login/login.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/pages/login/login.*；注册于 miniprogram/app.json
+miniprogram/pages/login/login.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/pages/login/login.*；注册于 miniprogram/app.json
+miniprogram/pages/login/login.wxss,wxss,页面布局、颜色与交互样式,miniprogram/pages/login/login.*；注册于 miniprogram/app.json
+miniprogram/pages/portal/portal.json,json,页面配置与组件注册,miniprogram/pages/portal/portal.*；注册于 miniprogram/app.json
+miniprogram/pages/portal/portal.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/pages/portal/portal.*；注册于 miniprogram/app.json
+miniprogram/pages/portal/portal.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/pages/portal/portal.*；注册于 miniprogram/app.json
+miniprogram/pages/portal/portal.wxss,wxss,页面布局、颜色与交互样式,miniprogram/pages/portal/portal.*；注册于 miniprogram/app.json
+miniprogram/pages/profile/profile.json,json,页面配置与组件注册,miniprogram/pages/profile/profile.*；注册于 miniprogram/app.json
+miniprogram/pages/profile/profile.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/pages/profile/profile.*；注册于 miniprogram/app.json
+miniprogram/pages/profile/profile.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/pages/profile/profile.*；注册于 miniprogram/app.json
+miniprogram/pages/profile/profile.wxss,wxss,页面布局、颜色与交互样式,miniprogram/pages/profile/profile.*；注册于 miniprogram/app.json
+miniprogram/pages/rank/rank.json,json,页面配置与组件注册,miniprogram/pages/rank/rank.*；注册于 miniprogram/app.json
+miniprogram/pages/rank/rank.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/pages/rank/rank.*；注册于 miniprogram/app.json
+miniprogram/pages/rank/rank.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/pages/rank/rank.*；注册于 miniprogram/app.json
+miniprogram/pages/rank/rank.wxss,wxss,页面布局、颜色与交互样式,miniprogram/pages/rank/rank.*；注册于 miniprogram/app.json
+miniprogram/styles/admin-ui.wxss,wxss,技术配置或工具：admin-ui,
+miniprogram/styles/campus-ui.wxss,wxss,技术配置或工具：campus-ui,
+miniprogram/styles/tech-ui.wxss,wxss,技术配置或工具：tech-ui,
+miniprogram/styles/uiverse.wxss,wxss,技术配置或工具：uiverse,
+miniprogram/utils/api-client.ts,ts,请求、身份、上传下载与组队轮询,
+miniprogram/utils/auth-storage.ts,ts,技术配置或工具：auth-storage,
+miniprogram/utils/portal-daily.ts,ts,北京时间按日轮换首页文案与颜色,
+miniprogram/utils/public-modules.ts,ts,技术配置或工具：public-modules,
+miniprogram/utils/run-metrics.ts,ts,跑步连续 GPS 路段、跳点 / 静止 / 折返过滤与归一化传感器计步,
+package-lock.json,json,固定本机依赖版本,
+package.json,json,本机检查工具依赖与 npm 命令,
+project.config.json,json,微信项目 AppID、源码目录与编译设置,
+project.miniapp.json,json,未来 Donut App 占位配置，未验证构建,
+project.private.config.json,json,当前电脑的开发者工具设置,
+scripts/campus-server.py,py,本机检查、回归或维护：campus-server,package.json；miniprogram 或 SSH
+scripts/check-wxml.js,js,本机检查、回归或维护：check-wxml,package.json；miniprogram 或 SSH
+scripts/check-wxss.js,js,本机检查、回归或维护：check-wxss,package.json；miniprogram 或 SSH
+scripts/test-admin-login.js,js,本机检查、回归或维护：test-admin-login,package.json；miniprogram 或 SSH
+scripts/test-admin-server.js,js,本机检查、回归或维护：test-admin-server,package.json；miniprogram 或 SSH
+scripts/test-canteen-reviews.js,js,本机检查、回归或维护：test-canteen-reviews,package.json；miniprogram 或 SSH
+scripts/test-login-state.js,js,本机检查、回归或维护：test-login-state,package.json；miniprogram 或 SSH
+scripts/test-module-loading.js,js,本机检查、回归或维护：test-module-loading,package.json；miniprogram 或 SSH
+scripts/test-module-settings-ui.js,js,本机检查、回归或维护：test-module-settings-ui,package.json；miniprogram 或 SSH
+scripts/test-module-settings.js,js,本机检查、回归或维护：test-module-settings,package.json；miniprogram 或 SSH
+scripts/test-public-modules-bridge.js,js,本机检查、回归或维护：test-public-modules-bridge,package.json；miniprogram 或 SSH
+scripts/test-refresh-ranking.js,js,本机检查、回归或维护：test-refresh-ranking,package.json；miniprogram 或 SSH
+scripts/test-run-interactions.js,js,本机检查、回归或维护：test-run-interactions,package.json；miniprogram 或 SSH
+scripts/test-run-metrics.js,js,本机检查、回归或维护：test-run-metrics,package.json；miniprogram 或 SSH
+scripts/test-tech-ui.js,js,本机检查、回归或维护：test-tech-ui,package.json；miniprogram 或 SSH
+scripts/update-file-map.py,py,本机检查、回归或维护：update-file-map,package.json；miniprogram 或 SSH
+scripts/verify-project.js,js,本机检查、回归或维护：verify-project,package.json；miniprogram 或 SSH
+server/.env.example,example,技术配置或工具：.env,
+server/data/portfolio-content.json,json,当前个人网站路由使用的内容数据,
+server/deploy/campus-api.service,service,systemd 服务启动配置,
+server/package-lock.json,json,固定服务器部署依赖版本,
+server/package.json,json,服务器启动、检查与部署依赖,
+server/scripts/backup-server.sh,sh,服务器维护 / 真实数据库回归：backup-server,docs/operations.md；运行环境与 MariaDB
+server/scripts/bootstrap-app.js,js,服务器维护 / 真实数据库回归：bootstrap-app,docs/operations.md；运行环境与 MariaDB
+server/scripts/bootstrap-server.sh,sh,服务器维护 / 真实数据库回归：bootstrap-server,docs/operations.md；运行环境与 MariaDB
+server/scripts/configure-api-path.py,py,服务器维护 / 真实数据库回归：configure-api-path,docs/operations.md；运行环境与 MariaDB
+server/scripts/configure-server.sh,sh,服务器维护 / 真实数据库回归：configure-server,docs/operations.md；运行环境与 MariaDB
+server/scripts/deploy-server.sh,sh,服务器维护 / 真实数据库回归：deploy-server,docs/operations.md；运行环境与 MariaDB
+server/scripts/init-server.py,py,服务器维护 / 真实数据库回归：init-server,docs/operations.md；运行环境与 MariaDB
+server/scripts/reset-admin.js,js,服务器维护 / 真实数据库回归：reset-admin,docs/operations.md；运行环境与 MariaDB
+server/scripts/server-status.sh,sh,服务器维护 / 真实数据库回归：server-status,docs/operations.md；运行环境与 MariaDB
+server/scripts/set-wechat-secret.py,py,服务器维护 / 真实数据库回归：set-wechat-secret,docs/operations.md；运行环境与 MariaDB
+server/scripts/smoke-functions.js,js,服务器维护 / 真实数据库回归：smoke-functions,docs/operations.md；运行环境与 MariaDB
+server/scripts/smoke-test.js,js,服务器维护 / 真实数据库回归：smoke-test,docs/operations.md；运行环境与 MariaDB
+server/scripts/test-admin-dashboard.js,js,服务器维护 / 真实数据库回归：test-admin-dashboard,docs/operations.md；运行环境与 MariaDB
+server/scripts/test-admin-food.js,js,服务器维护 / 真实数据库回归：test-admin-food,docs/operations.md；运行环境与 MariaDB
+server/scripts/test-admin-serving.js,js,服务器维护 / 真实数据库回归：test-admin-serving,docs/operations.md；运行环境与 MariaDB
+server/scripts/test-canteen-submissions.js,js,服务器维护 / 真实数据库回归：test-canteen-submissions,docs/operations.md；运行环境与 MariaDB
+server/scripts/test-portfolio-store.js,js,服务器维护 / 真实数据库回归：test-portfolio-store,docs/operations.md；运行环境与 MariaDB
+server/scripts/test-run-demo.js,js,服务器维护 / 真实数据库回归：test-run-demo,docs/operations.md；运行环境与 MariaDB
+server/scripts/test-run-http.js,js,服务器维护 / 真实数据库回归：test-run-http,docs/operations.md；运行环境与 MariaDB
+server/scripts/test-run-upgrade.js,js,服务器维护 / 真实数据库回归：test-run-upgrade,docs/operations.md；运行环境与 MariaDB
+server/scripts/test-running.js,js,服务器维护 / 真实数据库回归：test-running,docs/operations.md；运行环境与 MariaDB
+server/scripts/test-selfhost.js,js,服务器维护 / 真实数据库回归：test-selfhost,docs/operations.md；运行环境与 MariaDB
+server/scripts/verify-wechat.js,js,服务器维护 / 真实数据库回归：verify-wechat,docs/operations.md；运行环境与 MariaDB
+server/services/addFriend/index.js,js,业务服务：addFriend,server/src/app.js → campus-server-sdk → MariaDB
+server/services/canteen_reviews/index.js,js,业务服务：canteen_reviews,server/src/app.js → campus-server-sdk → MariaDB
+server/services/coupon_manager/index.js,js,业务服务：coupon_manager,server/src/app.js → campus-server-sdk → MariaDB
+server/services/deleteFriend/index.js,js,业务服务：deleteFriend,server/src/app.js → campus-server-sdk → MariaDB
+server/services/food_manager/index.js,js,业务服务：food_manager,server/src/app.js → campus-server-sdk → MariaDB
+server/services/forum/index.js,js,业务服务：forum,server/src/app.js → campus-server-sdk → MariaDB
+server/services/getFriends/index.js,js,业务服务：getFriends,server/src/app.js → campus-server-sdk → MariaDB
+server/services/getOpenid/index.js,js,业务服务：getOpenid,server/src/app.js → campus-server-sdk → MariaDB
+server/services/getQrCode/index.js,js,业务服务：getQrCode,server/src/app.js → campus-server-sdk → MariaDB
+server/services/getRankList/index.js,js,业务服务：getRankList,server/src/app.js → campus-server-sdk → MariaDB
+server/services/getTempFileURL/index.js,js,业务服务：getTempFileURL,server/src/app.js → campus-server-sdk → MariaDB
+server/services/getUserRunStats/index.js,js,业务服务：getUserRunStats,server/src/app.js → campus-server-sdk → MariaDB
+server/services/globalAdmin/index.js,js,业务服务：globalAdmin,server/src/app.js → campus-server-sdk → MariaDB
+server/services/login/index.js,js,业务服务：login,server/src/app.js → campus-server-sdk → MariaDB
+server/services/notification/index.js,js,业务服务：notification,server/src/app.js → campus-server-sdk → MariaDB
+server/services/rider/index.js,js,业务服务：rider,server/src/app.js → campus-server-sdk → MariaDB
+server/services/saveRunData/index.js,js,业务服务：saveRunData,server/src/app.js → campus-server-sdk → MariaDB
+server/services/saveUserInfo/index.js,js,业务服务：saveUserInfo,server/src/app.js → campus-server-sdk → MariaDB
+server/services/searchUser/index.js,js,业务服务：searchUser,server/src/app.js → campus-server-sdk → MariaDB
+server/services/teamManager/index.js,js,业务服务：teamManager,server/src/app.js → campus-server-sdk → MariaDB
+server/sql/schema.sql,sql,MariaDB 兼容数据表初始化,
+server/src/app.js,js,HTTP 路由、身份、文件上传和网页后台,
+server/src/data-store/index.js,js,MariaDB 兼容层、事务、行锁与身份上下文,
+server/src/data-store/package.json,json,技术配置或工具：package,
+server/src/portfolio-store.js,js,当前 HTTP 路由使用的原个人网站内容存取,
+server/src/run-records.js,js,运动成绩校验、北京时间、SQL 历史分页 / 统计 / 榜单聚合,
+server/src/we-run.js,js,微信会话关联、微信运动数据解密校验与按用户按日保存,
+tsconfig.json,json,TypeScript 检查与 ES2017 输出,
+typings/index.d.ts,ts,微信 TypeScript 类型声明,tsconfig.json → TypeScript
+typings/types/index.d.ts,ts,微信 TypeScript 类型声明,tsconfig.json → TypeScript
+typings/types/wx/index.d.ts,ts,微信 TypeScript 类型声明,tsconfig.json → TypeScript
+typings/types/wx/lib.wx.api.d.ts,ts,微信 TypeScript 类型声明,tsconfig.json → TypeScript
+typings/types/wx/lib.wx.app.d.ts,ts,微信 TypeScript 类型声明,tsconfig.json → TypeScript
+typings/types/wx/lib.wx.behavior.d.ts,ts,微信 TypeScript 类型声明,tsconfig.json → TypeScript
+typings/types/wx/lib.wx.cloud.d.ts,ts,微信 TypeScript 类型声明,tsconfig.json → TypeScript
+typings/types/wx/lib.wx.component.d.ts,ts,微信 TypeScript 类型声明,tsconfig.json → TypeScript
+typings/types/wx/lib.wx.event.d.ts,ts,微信 TypeScript 类型声明,tsconfig.json → TypeScript
+typings/types/wx/lib.wx.page.d.ts,ts,微信 TypeScript 类型声明,tsconfig.json → TypeScript

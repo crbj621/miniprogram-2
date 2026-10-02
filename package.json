@@ -1,0 +1,18 @@
+{
+  "name": "campus-miniprogram",
+  "version": "1.0.0",
+  "description": "校园小程序和自建服务器 API",
+  "scripts": {
+    "check": "tsc --noEmit --pretty false && node scripts/verify-project.js && npm --prefix server run check",
+    "test": "node scripts/test-canteen-reviews.js && node scripts/test-module-loading.js && node scripts/test-public-modules-bridge.js && node scripts/test-admin-server.js && node scripts/test-module-settings.js && node scripts/test-module-settings-ui.js && node scripts/test-login-state.js && node scripts/test-admin-login.js && node scripts/test-run-interactions.js && node scripts/test-run-metrics.js && node scripts/test-refresh-ranking.js && node scripts/test-tech-ui.js",
+    "check:wxss": "node scripts/check-wxss.js",
+    "check:wxml": "node scripts/check-wxml.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "miniprogram-api-typings": "^2.8.3-1",
+    "typescript": "^5.9.3"
+  }
+}

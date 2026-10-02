@@ -1,0 +1,69 @@
+<view class="container" wx:if="{{order}}">
+  <view class="status-card status-{{order.status}}">
+    <view class="status-icon">
+      {{order.status === 'pending' ? '⏳' : order.status === 'processing' ? '👨‍🍳' : order.status === 'ready' ? '✅' : order.status === 'completed' ? '🎉' : '❌'}}
+    </view>
+    <view class="status-text">
+      {{order.status === 'pending' ? '等待商家接单' : order.status === 'processing' ? '商家正在制作' : order.status === 'ready' ? '请前往取餐' : order.status === 'completed' ? '订单已完成' : '订单已取消'}}
+    </view>
+    <view class="pickup-code" wx:if="{{order.type === 'pickup' && order.pickupCode}}">
+      取餐码：<text class="code">{{order.pickupCode}}</text>
+    </view>
+  </view>
+
+  <view class="section">
+    <view class="section-title">订单信息</view>
+    <view class="info-row">
+      <text class="label">订单编号</text>
+      <text class="value">{{order._id}}</text>
+    </view>
+    <view class="info-row">
+      <text class="label">下单时间</text>
+      <text class="value">{{order.createTimeText}}</text>
+    </view>
+    <view class="info-row">
+      <text class="label">订单类型</text>
+      <text class="value">{{order.type === 'pickup' ? '到店自提' : '外卖配送'}}</text>
+    </view>
+    <view class="info-row" wx:if="{{order.type === 'pickup'}}">
+      <text class="label">取餐时间</text>
+      <text class="value">{{order.pickupTime}}</text>
+    </view>
+    <view class="info-row" wx:if="{{order.type === 'delivery'}}">
+      <text class="label">配送地址</text>
+      <text class="value">{{order.address}}</text>
+    </view>
+    <view class="info-row">
+      <text class="label">联系电话</text>
+      <text class="value">{{order.phone}}</text>
+    </view>
+  </view>
+
+  <view class="section">
+    <view class="section-title">商品明细</view>
+    <view class="shop-info">
+      <image class="shop-logo" src="{{order.shopLogo}}" mode="aspectFill"></image>
+      <text class="shop-name">{{order.shopName}}</text>
+    </view>
+    <view class="order-items">
+      <view class="item-row" wx:for="{{order.items}}" wx:key="_id">
+        <text class="item-name">{{item.name}}</text>
+        <text class="item-count">x{{item.count}}</text>
+        <text class="item-price">¥{{item.price * item.count}}</text>
+      </view>
+    </view>
+    <view class="order-total">
+      <text>合计</text>
+      <text class="total-price">¥{{order.totalPrice}}</text>
+    </view>
+  </view>
+
+  <view class="section" wx:if="{{order.remark}}">
+    <view class="section-title">备注</view>
+    <view class="remark">{{order.remark}}</view>
+  </view>
+
+  <view class="action-bar" wx:if="{{order.status === 'pending'}}">
+    <view class="btn cancel tech-control" bindtap="cancelOrder" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">取消订单</view>
+  </view>
+</view>

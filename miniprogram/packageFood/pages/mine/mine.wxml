@@ -1,0 +1,77 @@
+<view class="container">
+  <view class="user-header">
+    <view class="user-info" wx:if="{{isLoggedIn}}">
+      <image wx:if="{{userInfo.avatarUrl}}" class="avatar" src="{{userInfo.avatarUrl}}" mode="aspectFill"></image><view wx:else class="avatar image-placeholder">同</view>
+      <view class="nickname-container">
+        <text class="nickname">{{userInfo.nickName || '用户'}}</text>
+        <text class="user-id" wx:if="{{userId}}">ID: {{userId}}</text>
+        <text class="user-id" wx:else>已登录</text>
+      </view>
+    </view>
+    <view class="user-info" wx:else bindtap="goToLogin" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+      <view class="avatar image-placeholder">同</view>
+      <view class="nickname-container">
+        <text class="nickname">点击登录</text>
+        <text class="user-id">登录后享受更多功能</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="menu-section tech-card">
+    <view class="section-title">常用功能</view>
+    <view class="menu-list">
+      <view class="menu-item" bindtap="goToOrderList" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+        <view class="menu-icon">📋</view>
+        <text>我的订单</text>
+        <text class="arrow">›</text>
+      </view>
+      <view class="menu-item" bindtap="goToShopLogin" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+        <view class="menu-icon">🏪</view>
+        <text>商家入口</text>
+        <text class="arrow">›</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="merchant-section">
+    <block wx:if="{{isMerchant}}">
+      <block wx:if="{{shopStatus === 'pending'}}">
+        <view class="pending-card">
+          <view class="pending-icon">⏳</view>
+          <view class="pending-text">您的商家申请正在审核中...</view>
+        </view>
+      </block>
+      <block wx:else>
+        <view class="section-title">商家管理</view>
+        <view class="grid-menu">
+          <view class="grid-item" bindtap="goToShopManage" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+            <view class="grid-icon">🏪</view>
+            <text>店铺管理</text>
+          </view>
+          <view class="grid-item" bindtap="goToProductManage" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+            <view class="grid-icon">📦</view>
+            <text>商品管理</text>
+          </view>
+          <view class="grid-item" bindtap="goToShopOrders" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+            <view class="grid-icon">📊</view>
+            <text>订单管理</text>
+          </view>
+        </view>
+      </block>
+    </block>
+    <block wx:else>
+      <view class="become-merchant-card">
+        <view class="bm-header">
+          <view class="bm-icon">🏪</view>
+          <view class="bm-title">成为商家</view>
+        </view>
+        <view class="bm-desc">入驻平台，开启您的美食事业</view>
+        <button class="become-btn tech-control" bindtap="goToRegister" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">立即入驻</button>
+      </view>
+    </block>
+  </view>
+
+  <view class="logout-section" wx:if="{{isLoggedIn}}">
+    <button class="logout-btn tech-control" bindtap="logout" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">退出登录</button>
+  </view>
+</view>

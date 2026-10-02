@@ -1,0 +1,26 @@
+<view class="container">
+  <view class="filter-bar">
+    <picker mode="selector" range="{{statusList}}" range-key="name" value="{{statusIndex}}" bindchange="onStatusChange">
+      <view class="picker-btn">{{statusList[statusIndex].name}} ▼</view>
+    </picker>
+  </view>
+
+  <scroll-view scroll-y class="report-list" bindscrolltolower="loadMore">
+    <view class="report-item" wx:for="{{reports}}" wx:key="_id">
+      <view class="report-header">
+        <view class="report-title">举报动态：{{item.postTitle}}</view>
+        <view class="report-status {{item.status}}">{{item.status === 'pending' ? '待处理' : '已处理'}}</view>
+      </view>
+      <view class="report-reason">举报理由：{{item.reason}}</view>
+      <view class="report-time">举报时间：{{item.createTimeText}}</view>
+      <view class="report-actions" wx:if="{{item.status === 'pending'}}">
+        <view class="action-btn delete tech-control tech-danger" bindtap="handleReport" data-id="{{item._id}}" data-action="delete" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">删除动态</view>
+        <view class="action-btn ignore tech-control" bindtap="handleReport" data-id="{{item._id}}" data-action="ignore" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">忽略</view>
+      </view>
+    </view>
+
+    <view class="loading" wx:if="{{loading}}"><view class="uiverse-dots"><view class="uiverse-dot" /><view class="uiverse-dot" /><view class="uiverse-dot" /></view>加载中...</view>
+    <view class="no-more" wx:if="{{!hasMore && reports.length > 0}}">没有更多了</view>
+    <view class="empty" wx:if="{{!loading && reports.length === 0}}">暂无举报</view>
+  </scroll-view>
+</view>

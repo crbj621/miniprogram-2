@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>菜单管理 - 校园小程序管理后台</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="admin-container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2><i class="fas fa-school"></i> 校园小程序</h2>
+                <p>管理后台</p>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="dashboard.html"><i class="fas fa-home"></i> 控制台</a>
+                <a href="posts.html"><i class="fas fa-file-alt"></i> 动态管理</a>
+                <a href="orders.html"><i class="fas fa-shopping-cart"></i> 订单管理</a>
+                <a href="menus.html" class="active"><i class="fas fa-utensils"></i> 菜单管理</a>
+                <a href="users.html"><i class="fas fa-users"></i> 用户管理</a>
+                <a href="admins.html"><i class="fas fa-user-shield"></i> 管理员</a>
+                <a href="announcements.html"><i class="fas fa-bullhorn"></i> 公告管理</a>
+                <a href="logs.html"><i class="fas fa-history"></i> 操作日志</a>
+                <a href="cleanup.html"><i class="fas fa-broom"></i> 数据清理</a>
+                <a href="settings.html"><i class="fas fa-cog"></i> 系统设置</a>
+            </nav>
+            <div class="sidebar-footer">
+                <button onclick="logout()"><i class="fas fa-sign-out-alt"></i> 退出登录</button>
+            </div>
+        </aside>
+        
+        <main class="main-content">
+            <header class="page-header">
+                <h1><i class="fas fa-utensils"></i> 菜单管理</h1>
+                <div class="user-info">
+                    <span id="adminName">管理员</span>
+                    <span class="badge super" id="adminRole">超级管理员</span>
+                </div>
+            </header>
+            
+            <div class="content-card">
+                <div class="card-header">
+                    <h3>菜品分类</h3>
+                    <button class="btn-primary" onclick="showCategoryModal()"><i class="fas fa-plus"></i> 添加分类</button>
+                </div>
+                <div class="category-list" id="categoryList">
+                    <div class="loading">加载中...</div>
+                </div>
+            </div>
+            
+            <div class="content-card">
+                <div class="card-header">
+                    <h3>菜品列表</h3>
+                    <div class="header-actions">
+                        <select id="categoryFilter" onchange="loadMenus()">
+                            <option value="">全部分类</option>
+                        </select>
+                        <select id="statusFilter" onchange="loadMenus()">
+                            <option value="">全部状态</option>
+                            <option value="available">上架中</option>
+                            <option value="unavailable">已下架</option>
+                        </select>
+                        <button class="btn-primary" onclick="showMenuModal()"><i class="fas fa-plus"></i> 添加菜品</button>
+                    </div>
+                </div>
+                
+                <div class="table-container">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>图片</th>
+                                <th>菜品名称</th>
+                                <th>分类</th>
+                                <th>价格</th>
+                                <th>库存</th>
+                                <th>销量</th>
+                                <th>状态</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody id="menusTable">
+                            <tr>
+                                <td colspan="8" class="loading">加载中...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="pagination" id="pagination"></div>
+            </div>
+        </main>
+    </div>
+    
+    <div class="modal" id="categoryModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="categoryModalTitle">添加分类</h3>
+                <button class="close-btn" onclick="closeCategoryModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <input type="hidden" id="categoryId">
+                <div class="form-group">
+                    <label>分类名称</label>
+                    <input type="text" id="categoryName" placeholder="请输入分类名称">
+                </div>
+                <div class="form-group">
+                    <label>排序</label>
+                    <input type="number" id="categorySort" value="0" placeholder="数字越小越靠前">
+                </div>
+                <div class="form-group">
+                    <label>状态</label>
+                    <label class="switch">
+                        <input type="checkbox" id="categoryStatus" checked>
+                        <span class="slider"></span>
+                    </label>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-secondary" onclick="closeCategoryModal()">取消</button>
+                <button class="btn-primary" onclick="saveCategory()">保存</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal" id="menuModal">
+        <div class="modal-content modal-large">
+            <div class="modal-header">
+                <h3 id="menuModalTitle">添加菜品</h3>
+                <button class="close-btn" onclick="closeMenuModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <input type="hidden" id="menuId">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>菜品名称</label>
+                        <input type="text" id="menuName" placeholder="请输入菜品名称">
+                    </div>
+                    <div class="form-group">
+                        <label>分类</label>
+                        <select id="menuCategory">
+                            <option value="">请选择分类</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>价格(元)</label>
+                        <input type="number" id="menuPrice" step="0.01" placeholder="0.00">
+                    </div>
+                    <div class="form-group">
+                        <label>原价(元)</label>
+                        <input type="number" id="menuOriginalPrice" step="0.01" placeholder="可选">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>库存</label>
+                        <input type="number" id="menuStock" value="999" placeholder="库存数量">
+                    </div>
+                    <div class="form-group">
+                        <label>排序</label>
+                        <input type="number" id="menuSort" value="0" placeholder="数字越小越靠前">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>菜品图片</label>
+                    <div class="image-upload">
+                        <div class="upload-area" onclick="document.getElementById('menuImageInput').click()">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                            <p>点击上传图片</p>
+                            <input type="file" id="menuImageInput" accept="image/*" hidden>
+                        </div>
+                        <div class="image-preview" id="menuImagePreview"></div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>菜品描述</label>
+                    <textarea id="menuDescription" rows="3" placeholder="请输入菜品描述"></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>推荐</label>
+                        <label class="switch">
+                            <input type="checkbox" id="menuRecommend">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>上架</label>
+                        <label class="switch">
+                            <input type="checkbox" id="menuStatus" checked>
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-secondary" onclick="closeMenuModal()">取消</button>
+                <button class="btn-primary" onclick="saveMenu()">保存</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/config.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/common.js"></script>
+    <script>
+        let categories = [];
+        let currentPage = 1;
+        const pageSize = 10;
+        let menuImageUrl = '';
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            checkLogin();
+            loadAdminInfo();
+            loadCategories();
+            loadMenus();
+        });
+        
+        function loadAdminInfo() {
+            const admin = JSON.parse(localStorage.getItem('adminInfo') || '{}');
+            document.getElementById('adminName').textContent = admin.username || '管理员';
+            if (admin.role === 'super') {
+                document.getElementById('adminRole').textContent = '超级管理员';
+                document.getElementById('adminRole').className = 'badge super';
+            } else {
+                document.getElementById('adminRole').textContent = '普通管理员';
+                document.getElementById('adminRole').className = 'badge normal';
+            }
+        }
+        
+        async function loadCategories() {
+            try {
+                const result = await callCloudFunction('globalAdmin', {
+                    action: 'getFoodCategories'
+                });
+                
+                if (result.code === 0) {
+                    categories = result.data || [];
+                    renderCategories();
+                    updateCategorySelects();
+                }
+            } catch (error) {
+                console.error('加载分类失败:', error);
+            }
+        }
+        
+        function renderCategories() {
+            const container = document.getElementById('categoryList');
+            
+            if (categories.length === 0) {
+                container.innerHTML = '<div class="empty">暂无分类，请添加</div>';
+                return;
+            }
+            
+            container.innerHTML = categories.map(cat => `
+                <div class="category-item ${cat.status === false ? 'disabled' : ''}">
+                    <span class="category-name">${cat.name}</span>
+                    <span class="category-count">${cat.count || 0} 个菜品</span>
+                    <div class="category-actions">
+                        <button onclick="editCategory('${cat._id}')"><i class="fas fa-edit"></i></button>
+                        <button onclick="deleteCategory('${cat._id}')"><i class="fas fa-trash"></i></button>
+                    </div>
+                </div>
+            `).join('');
+        }
+        
+        function updateCategorySelects() {
+            const filterSelect = document.getElementById('categoryFilter');
+            const menuSelect = document.getElementById('menuCategory');
+            
+            const options = categories.map(cat => `<option value="${cat._id}">${cat.name}</option>`).join('');
+            
+            filterSelect.innerHTML = '<option value="">全部分类</option>' + options;
+            menuSelect.innerHTML = '<option value="">请选择分类</option>' + options;
+        }
+        
+        async function loadMenus() {
+            const categoryFilter = document.getElementById('categoryFilter').value;
+            const statusFilter = document.getElementById('statusFilter').value;
+            
+            try {
+                const result = await callCloudFunction('globalAdmin', {
+                    action: 'getFoodMenus',
+                    data: {
+                        categoryId: categoryFilter,
+                        status: statusFilter,
+                        page: currentPage,
+                        pageSize: pageSize
+                    }
+                });
+                
+                if (result.code === 0) {
+                    renderMenusTable(result.data.list);
+                    renderPagination(result.data.total);
+                }
+            } catch (error) {
+                console.error('加载菜品失败:', error);
+                document.getElementById('menusTable').innerHTML = '<tr><td colspan="8" class="error">加载失败</td></tr>';
+            }
+        }
+        
+        function renderMenusTable(menus) {
+            const tbody = document.getElementById('menusTable');
+            
+            if (!menus || menus.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="8" class="empty">暂无菜品</td></tr>';
+                return;
+            }
+            
+            tbody.innerHTML = menus.map(menu => {
+                const category = categories.find(c => c._id === menu.categoryId);
+                return `
+                    <tr>
+                        <td><img src="${menu.image || 'https://via.placeholder.com/60'}" alt="${menu.name}" class="menu-image"></td>
+                        <td><strong>${menu.name}</strong></td>
+                        <td>${category ? category.name : '-'}</td>
+                        <td>¥${menu.price.toFixed(2)}</td>
+                        <td>${menu.stock}</td>
+                        <td>${menu.sales || 0}</td>
+                        <td><span class="status-badge ${menu.status !== false ? 'active' : 'inactive'}">${menu.status !== false ? '上架中' : '已下架'}</span></td>
+                        <td>
+                            <div class="action-btns">
+                                <button onclick="editMenu('${menu._id}')" title="编辑"><i class="fas fa-edit"></i></button>
+                                <button onclick="toggleMenuStatus('${menu._id}', ${menu.status !== false})" title="${menu.status !== false ? '下架' : '上架'}">
+                                    <i class="fas fa-${menu.status !== false ? 'eye-slash' : 'eye'}"></i>
+                                </button>
+                                <button onclick="deleteMenu('${menu._id}')" title="删除"><i class="fas fa-trash"></i></button>
+                            </div>
+                        </td>
+                    </tr>
+                `;
+            }).join('');
+        }
+        
+        function renderPagination(total) {
+            const totalPages = Math.ceil(total / pageSize);
+            const pagination = document.getElementById('pagination');
+            
+            if (totalPages <= 1) {
+                pagination.innerHTML = '';
+                return;
+            }
+            
+            let html = '';
+            if (currentPage > 1) {
+                html += `<button onclick="goToPage(${currentPage - 1})"><i class="fas fa-chevron-left"></i></button>`;
+            }
+            
+            for (let i = 1; i <= totalPages; i++) {
+                if (i === 1 || i === totalPages || (i >= currentPage - 2 && i <= currentPage + 2)) {
+                    html += `<button class="${i === currentPage ? 'active' : ''}" onclick="goToPage(${i})">${i}</button>`;
+                } else if (i === currentPage - 3 || i === currentPage + 3) {
+                    html += '<span>...</span>';
+                }
+            }
+            
+            if (currentPage < totalPages) {
+                html += `<button onclick="goToPage(${currentPage + 1})"><i class="fas fa-chevron-right"></i></button>`;
+            }
+            
+            pagination.innerHTML = html;
+        }
+        
+        function goToPage(page) {
+            currentPage = page;
+            loadMenus();
+        }
+        
+        function showCategoryModal(id = null) {
+            document.getElementById('categoryId').value = '';
+            document.getElementById('categoryName').value = '';
+            document.getElementById('categorySort').value = '0';
+            document.getElementById('categoryStatus').checked = true;
+            document.getElementById('categoryModalTitle').textContent = '添加分类';
+            document.getElementById('categoryModal').classList.add('show');
+        }
+        
+        function closeCategoryModal() {
+            document.getElementById('categoryModal').classList.remove('show');
+        }
+        
+        function editCategory(id) {
+            const category = categories.find(c => c._id === id);
+            if (category) {
+                document.getElementById('categoryId').value = category._id;
+                document.getElementById('categoryName').value = category.name;
+                document.getElementById('categorySort').value = category.sort || 0;
+                document.getElementById('categoryStatus').checked = category.status !== false;
+                document.getElementById('categoryModalTitle').textContent = '编辑分类';
+                document.getElementById('categoryModal').classList.add('show');
+            }
+        }
+        
+        async function saveCategory() {
+            const id = document.getElementById('categoryId').value;
+            const name = document.getElementById('categoryName').value.trim();
+            const sort = parseInt(document.getElementById('categorySort').value) || 0;
+            const status = document.getElementById('categoryStatus').checked;
+            
+            if (!name) {
+                showNotification('请输入分类名称', 'error');
+                return;
+            }
+            
+            try {
+                const action = id ? 'updateFoodCategory' : 'createFoodCategory';
+                const result = await callCloudFunction('globalAdmin', {
+                    action: action,
+                    data: id ? { id, name, sort, status } : { name, sort, status }
+                });
+                
+                if (result.code === 0) {
+                    showNotification(id ? '分类更新成功' : '分类添加成功', 'success');
+                    closeCategoryModal();
+                    loadCategories();
+                } else {
+                    showNotification(result.message, 'error');
+                }
+            } catch (error) {
+                showNotification('操作失败，请重试', 'error');
+            }
+        }
+        
+        async function deleteCategory(id) {
+            if (!confirm('确定要删除这个分类吗？分类下的菜品将变为未分类状态。')) return;
+            
+            try {
+                const result = await callCloudFunction('globalAdmin', {
+                    action: 'deleteFoodCategory',
+                    data: { id }
+                });
+                
+                if (result.code === 0) {
+                    showNotification('分类删除成功', 'success');
+                    loadCategories();
+                } else {
+                    showNotification(result.message, 'error');
+                }
+            } catch (error) {
+                showNotification('删除失败，请重试', 'error');
+            }
+        }
+        
+        function showMenuModal() {
+            document.getElementById('menuId').value = '';
+            document.getElementById('menuName').value = '';
+            document.getElementById('menuCategory').value = '';
+            document.getElementById('menuPrice').value = '';
+            document.getElementById('menuOriginalPrice').value = '';
+            document.getElementById('menuStock').value = '999';
+            document.getElementById('menuSort').value = '0';
+            document.getElementById('menuDescription').value = '';
+            document.getElementById('menuRecommend').checked = false;
+            document.getElementById('menuStatus').checked = true;
+            document.getElementById('menuImagePreview').innerHTML = '';
+            menuImageUrl = '';
+            document.getElementById('menuModalTitle').textContent = '添加菜品';
+            document.getElementById('menuModal').classList.add('show');
+        }
+        
+        function closeMenuModal() {
+            document.getElementById('menuModal').classList.remove('show');
+        }
+        
+        async function editMenu(id) {
+            try {
+                const result = await callCloudFunction('globalAdmin', {
+                    action: 'getFoodMenus',
+                    data: { id }
+                });
+                
+                if (result.code === 0 && result.data) {
+                    const menu = result.data;
+                    document.getElementById('menuId').value = menu._id;
+                    document.getElementById('menuName').value = menu.name;
+                    document.getElementById('menuCategory').value = menu.categoryId || '';
+                    document.getElementById('menuPrice').value = menu.price;
+                    document.getElementById('menuOriginalPrice').value = menu.originalPrice || '';
+                    document.getElementById('menuStock').value = menu.stock;
+                    document.getElementById('menuSort').value = menu.sort || 0;
+                    document.getElementById('menuDescription').value = menu.description || '';
+                    document.getElementById('menuRecommend').checked = menu.recommend === true;
+                    document.getElementById('menuStatus').checked = menu.status !== false;
+                    menuImageUrl = menu.image || '';
+                    
+                    if (menu.image) {
+                        document.getElementById('menuImagePreview').innerHTML = `
+                            <img src="${menu.image}" alt="预览">
+                            <button class="remove-btn" onclick="removeMenuImage()">×</button>
+                        `;
+                    } else {
+                        document.getElementById('menuImagePreview').innerHTML = '';
+                    }
+                    
+                    document.getElementById('menuModalTitle').textContent = '编辑菜品';
+                    document.getElementById('menuModal').classList.add('show');
+                }
+            } catch (error) {
+                showNotification('获取菜品信息失败', 'error');
+            }
+        }
+        
+        async function saveMenu() {
+            const id = document.getElementById('menuId').value;
+            const name = document.getElementById('menuName').value.trim();
+            const categoryId = document.getElementById('menuCategory').value;
+            const price = parseFloat(document.getElementById('menuPrice').value);
+            const originalPrice = parseFloat(document.getElementById('menuOriginalPrice').value) || null;
+            const stock = parseInt(document.getElementById('menuStock').value) || 999;
+            const sort = parseInt(document.getElementById('menuSort').value) || 0;
+            const description = document.getElementById('menuDescription').value.trim();
+            const recommend = document.getElementById('menuRecommend').checked;
+            const status = document.getElementById('menuStatus').checked;
+            
+            if (!name) {
+                showNotification('请输入菜品名称', 'error');
+                return;
+            }
+            if (!price || price <= 0) {
+                showNotification('请输入有效价格', 'error');
+                return;
+            }
+            
+            try {
+                const action = id ? 'updateFoodMenu' : 'createFoodMenu';
+                const result = await callCloudFunction('globalAdmin', {
+                    action: action,
+                    data: {
+                        id: id || undefined,
+                        name,
+                        categoryId,
+                        price,
+                        originalPrice,
+                        stock,
+                        sort,
+                        description,
+                        recommend,
+                        status,
+                        image: menuImageUrl
+                    }
+                });
+                
+                if (result.code === 0) {
+                    showNotification(id ? '菜品更新成功' : '菜品添加成功', 'success');
+                    closeMenuModal();
+                    loadMenus();
+                    loadCategories();
+                } else {
+                    showNotification(result.message, 'error');
+                }
+            } catch (error) {
+                showNotification('操作失败，请重试', 'error');
+            }
+        }
+        
+        async function toggleMenuStatus(id, currentStatus) {
+            try {
+                const result = await callCloudFunction('globalAdmin', {
+                    action: 'updateFoodMenu',
+                    data: {
+                        id,
+                        status: !currentStatus
+                    }
+                });
+                
+                if (result.code === 0) {
+                    showNotification(currentStatus ? '菜品已下架' : '菜品已上架', 'success');
+                    loadMenus();
+                } else {
+                    showNotification(result.message, 'error');
+                }
+            } catch (error) {
+                showNotification('操作失败，请重试', 'error');
+            }
+        }
+        
+        async function deleteMenu(id) {
+            if (!confirm('确定要删除这个菜品吗？')) return;
+            
+            try {
+                const result = await callCloudFunction('globalAdmin', {
+                    action: 'deleteFoodMenu',
+                    data: { id }
+                });
+                
+                if (result.code === 0) {
+                    showNotification('菜品删除成功', 'success');
+                    loadMenus();
+                    loadCategories();
+                } else {
+                    showNotification(result.message, 'error');
+                }
+            } catch (error) {
+                showNotification('删除失败，请重试', 'error');
+            }
+        }
+        
+        function removeMenuImage() {
+            menuImageUrl = '';
+            document.getElementById('menuImagePreview').innerHTML = '';
+        }
+        
+        document.getElementById('menuImageInput').addEventListener('change', async function(e) {
+            const file = e.target.files[0];
+            if (!file) return;
+            
+            showNotification('正在上传图片...', 'info');
+            
+            try {
+                const result = await uploadImage(file);
+                if (result.fileID) {
+                    menuImageUrl = result.fileID;
+                    document.getElementById('menuImagePreview').innerHTML = `
+                        <img src="${result.tempFileURL || result.fileID}" alt="预览">
+                        <button class="remove-btn" onclick="removeMenuImage()">×</button>
+                    `;
+                    showNotification('图片上传成功', 'success');
+                }
+            } catch (error) {
+                showNotification('图片上传失败', 'error');
+            }
+        });
+    </script>
+    
+    <style>
+        .category-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 20px;
+        }
+        
+        .category-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border: 1px solid #e9ecef;
+        }
+        
+        .category-item.disabled {
+            opacity: 0.5;
+        }
+        
+        .category-name {
+            font-weight: 500;
+        }
+        
+        .category-count {
+            font-size: 12px;
+            color: #666;
+        }
+        
+        .category-actions {
+            display: flex;
+            gap: 5px;
+        }
+        
+        .category-actions button {
+            width: 28px;
+            height: 28px;
+            border: none;
+            background: transparent;
+            color: #666;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        
+        .category-actions button:hover {
+            background: #e9ecef;
+            color: #333;
+        }
+        
+        .menu-image {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        
+        .status-badge {
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+        
+        .status-badge.active {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        .status-badge.inactive {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        
+        .modal-large {
+            max-width: 600px;
+        }
+        
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+            color: #333;
+        }
+        
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+        
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 50px;
+            height: 26px;
+        }
+        
+        .switch input {
+            opacity: 0;
+        }
+        
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: 0.4s;
+            border-radius: 26px;
+        }
+        
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 20px;
+            width: 20px;
+            left: 3px;
+            bottom: 3px;
+            background-color: white;
+            transition: 0.4s;
+            border-radius: 50%;
+        }
+        
+        input:checked + .slider {
+            background-color: #667eea;
+        }
+        
+        input:checked + .slider:before {
+            transform: translateX(24px);
+        }
+        
+        .image-upload {
+            margin-top: 10px;
+        }
+        
+        .upload-area {
+            border: 2px dashed #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: border-color 0.3s;
+        }
+        
+        .upload-area:hover {
+            border-color: #667eea;
+        }
+        
+        .upload-area i {
+            font-size: 30px;
+            color: #ddd;
+        }
+        
+        .upload-area p {
+            margin: 5px 0 0;
+            color: #999;
+            font-size: 13px;
+        }
+        
+        .image-preview {
+            position: relative;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        
+        .image-preview img {
+            max-width: 150px;
+            max-height: 150px;
+            border-radius: 8px;
+        }
+        
+        .image-preview .remove-btn {
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: #e74c3c;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        
+        .action-btns {
+            display: flex;
+            gap: 5px;
+        }
+        
+        .action-btns button {
+            width: 32px;
+            height: 32px;
+            border: none;
+            background: #f8f9fa;
+            color: #666;
+            cursor: pointer;
+            border-radius: 6px;
+            transition: all 0.3s;
+        }
+        
+        .action-btns button:hover {
+            background: #667eea;
+            color: white;
+        }
+        
+        .empty, .loading {
+            padding: 40px;
+            text-align: center;
+            color: #999;
+        }
+        
+        .error {
+            padding: 40px;
+            text-align: center;
+            color: #e74c3c;
+        }
+    </style>
+</body>
+</html>

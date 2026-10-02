@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>控制台 - 智慧校园管理后台</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="admin-container">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h2><i class="fas fa-school"></i> 校园小程序</h2>
+        <p>管理后台</p>
+      </div>
+      <nav class="sidebar-nav">
+        <a href="dashboard.html" class="active"><i class="fas fa-home"></i> 控制台</a>
+        <a href="posts.html"><i class="fas fa-file-alt"></i> 动态管理</a>
+        <a href="orders.html"><i class="fas fa-shopping-cart"></i> 订单管理</a>
+        <a href="menus.html"><i class="fas fa-utensils"></i> 菜单管理</a>
+        <a href="users.html"><i class="fas fa-users"></i> 用户管理</a>
+        <a href="admins.html" id="adminLink"><i class="fas fa-user-shield"></i> 管理员</a>
+        <a href="announcements.html"><i class="fas fa-bullhorn"></i> 公告管理</a>
+        <a href="logs.html" id="logLink"><i class="fas fa-history"></i> 操作日志</a>
+        <a href="cleanup.html" id="cleanupLink"><i class="fas fa-broom"></i> 数据清理</a>
+        <a href="settings.html" id="settingsLink"><i class="fas fa-cog"></i> 系统设置</a>
+      </nav>
+      <div class="sidebar-footer">
+        <button onclick="logout()"><i class="fas fa-sign-out-alt"></i> 退出登录</button>
+      </div>
+    </aside>
+    
+    <main class="main-content">
+      <header class="page-header">
+        <h1><i class="fas fa-home"></i> 控制台</h1>
+        <div class="user-info">
+          <span id="adminName">管理员</span>
+          <span class="badge super" id="adminRole">超级管理员</span>
+        </div>
+      </header>
+      
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-icon" style="background: #667eea;">
+            <i class="fas fa-file-alt"></i>
+          </div>
+          <div class="stat-info">
+            <span class="stat-value" id="postCount">0</span>
+            <span class="stat-label">动态总数</span>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon" style="background: #e74c3c;">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+          <div class="stat-info">
+            <span class="stat-value" id="orderCount">0</span>
+            <span class="stat-label">订单总数</span>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon" style="background: #2ecc71;">
+            <i class="fas fa-users"></i>
+          </div>
+          <div class="stat-info">
+            <span class="stat-value" id="userCount">0</span>
+            <span class="stat-label">用户总数</span>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon" style="background: #f39c12;">
+            <i class="fas fa-calendar-day"></i>
+          </div>
+          <div class="stat-info">
+            <span class="stat-value" id="todayPosts">0</span>
+            <span class="stat-label">今日新帖</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="content-card">
+        <div class="card-header">
+          <h3>今日统计</h3>
+        </div>
+        <div class="stats-row">
+          <div class="stat-box">
+            <i class="fas fa-shopping-cart"></i>
+            <div class="stat-content">
+              <span class="stat-value" id="todayOrders">0</span>
+              <span class="stat-label">今日订单</span>
+            </div>
+          </div>
+          <div class="stat-box">
+            <i class="fas fa-yen-sign"></i>
+            <div class="stat-content">
+              <span class="stat-value" id="todayRevenue">¥0</span>
+              <span class="stat-label">今日营收</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="js/config.js"></script>
+  <script src="js/auth.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var admin = checkLogin();
+      if (!admin) return;
+      
+      loadAdminInfo(admin);
+      loadStats();
+    });
+    
+    function loadAdminInfo(admin) {
+      document.getElementById('adminName').textContent = admin.username || '管理员';
+      if (admin.role === 'super') {
+        document.getElementById('adminRole').textContent = '超级管理员';
+        document.getElementById('adminRole').className = 'badge super';
+      } else {
+        document.getElementById('adminRole').textContent = '普通管理员';
+        document.getElementById('adminRole').className = 'badge normal';
+        document.getElementById('adminLink').style.display = 'none';
+        document.getElementById('logLink').style.display = 'none';
+        document.getElementById('cleanupLink').style.display = 'none';
+        document.getElementById('settingsLink').style.display = 'none';
+      }
+    }
+    
+    async function loadStats() {
+      try {
+        var result = await callCloudFunction('globalAdmin', {
+          action: 'getDashboardStats'
+        });
+        
+        if (result.code === 0) {
+          document.getElementById('postCount').textContent = result.data.postCount || 0;
+          document.getElementById('orderCount').textContent = result.data.orderCount || 0;
+          document.getElementById('userCount').textContent = result.data.userCount || 0;
+          document.getElementById('todayPosts').textContent = result.data.todayPosts || 0;
+          document.getElementById('todayOrders').textContent = result.data.todayOrders || 0;
+          document.getElementById('todayRevenue').textContent = '¥' + (result.data.todayRevenue || 0);
+        }
+      } catch (error) {
+        console.error('加载统计失败:', error);
+      }
+    }
+  </script>
+  
+  <style>
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      padding: 20px;
+    }
+    
+    .stat-card {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    
+    .stat-icon {
+      width: 50px;
+      height: 50px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 20px;
+    }
+    
+    .stat-info {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .stat-value {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+    }
+    
+    .stat-label {
+      font-size: 13px;
+      color: #666;
+    }
+    
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      padding: 20px;
+    }
+    
+    .stat-box {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      padding: 20px;
+      background: #f8f9fa;
+      border-radius: 10px;
+    }
+    
+    .stat-box i {
+      font-size: 30px;
+      color: #667eea;
+    }
+    
+    .stat-content {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .badge {
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 12px;
+    }
+    
+    .badge.super { background: #667eea; color: white; }
+    .badge.normal { background: #a0aec0; color: white; }
+    
+    @media (max-width: 1200px) {
+      .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    
+    @media (max-width: 768px) {
+      .stats-grid {
+        grid-template-columns: 1fr;
+      }
+      .stats-row {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</body>
+</html>

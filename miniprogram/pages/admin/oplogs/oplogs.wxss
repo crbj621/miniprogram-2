@@ -1,0 +1,77 @@
+@import "../../../styles/admin-ui.wxss";
+.container {
+  min-height: 100vh;
+  background: #f2f6fa;
+  padding: 20rpx;
+}
+
+.filters {
+  display: flex;
+  gap: 14rpx;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 14rpx;
+}
+
+.picker {
+  background: #fff;
+  border-radius: 999rpx;
+  padding: 12rpx 18rpx;
+  font-size: 24rpx;
+  color: #333;
+  box-shadow: 0 6rpx 18rpx rgba(17, 24, 39, 0.06);
+}
+
+.btn {
+  background: #338ac7;
+  color: #fff;
+  border-radius: 999rpx;
+  padding: 12rpx 18rpx;
+  font-size: 24rpx;
+}
+
+.item {
+  background: #fff;
+  border-radius: 24rpx;
+  padding: 20rpx;
+  margin-bottom: 14rpx;
+  box-shadow: 0 10rpx 30rpx rgba(17, 24, 39, 0.06);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tag {
+  font-size: 24rpx;
+  color: #338ac7;
+}
+
+.time {
+  font-size: 22rpx;
+  color: #7e94a6;
+}
+
+.detail {
+  margin-top: 10rpx;
+  font-size: 26rpx;
+  color: #333;
+  line-height: 1.5;
+}
+
+.meta {
+  margin-top: 10rpx;
+  font-size: 22rpx;
+  color: #7e94a6;
+}
+
+.empty, .loading {
+  text-align: center;
+  color: #7e94a6;
+  padding: 80rpx 0;
+}
+
+
+@import "../../../styles/tech-ui.wxss";

@@ -1,0 +1,20 @@
+:host { display: block; height: 100%; min-height: 0; }
+.scroll { height: 100%; width: 100%; }
+.refresh { width: 100%; height: 80px; display: flex; align-items: center; justify-content: center; gap: 18rpx; background: #f2f6fa; }
+.character { width: 128rpx; height: 144rpx; position: relative; flex-shrink: 0; }
+.mahiro { width: 100%; height: 100%; transform-origin: 50% 85%; transition: transform .2s; }
+.sparkle { position: absolute; right: -8rpx; top: 22rpx; color: #b091dc; font-size: 25rpx; }
+.fallback { display: block; line-height: 144rpx; text-align: center; color: #b091dc; font-size: 72rpx; }
+.copy { display: flex; flex-direction: column; gap: 10rpx; min-width: 0; }
+.title { font-size: 25rpx; color: #685680; font-weight: 650; }
+.note { font-size: 18rpx; color: #a096af; letter-spacing: 1rpx; }
+.refresh--ready .mahiro { transform: rotate(-8deg) translateY(-5rpx); }
+.refresh--loading .mahiro { animation: mahiro-bounce .65s ease-in-out infinite; }
+.refresh--loading .sparkle { animation: mahiro-sparkle .8s ease-in-out infinite; }
+.refresh--success .mahiro { animation: mahiro-cheer .6s ease-out; }
+.refresh--error .mahiro { transform: rotate(6deg); }
+.refresh--error .title { color: #a96982; }
+@keyframes mahiro-bounce { 0%,100% { transform: translateY(0) rotate(-4deg); } 50% { transform: translateY(-10rpx) rotate(4deg); } }
+@keyframes mahiro-sparkle { 0%,100% { opacity: .35; transform: scale(.7); } 50% { opacity: 1; transform: scale(1.2); } }
+@keyframes mahiro-cheer { 0%,100% { transform: translateY(0); } 40% { transform: translateY(-16rpx) rotate(-8deg); } 70% { transform: rotate(6deg); } }
+@media (prefers-reduced-motion: reduce) { .mahiro,.sparkle { animation: none !important; transition: none; } }

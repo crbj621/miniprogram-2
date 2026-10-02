@@ -1,0 +1,182 @@
+.container {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs {
+  display: flex;
+  background-color: #fff;
+  padding: 0 20rpx;
+  border-bottom: 1rpx solid #f0f0f0;
+}
+
+.tab {
+  flex: 1;
+  text-align: center;
+  padding: 24rpx 0;
+  font-size: 28rpx;
+  color: #666;
+  position: relative;
+}
+
+.tab.active {
+  color: #667eea;
+  font-weight: bold;
+}
+
+.tab.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60rpx;
+  height: 4rpx;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 2rpx;
+}
+
+.order-list {
+  flex: 1;
+  padding: 20rpx;
+}
+
+.order-item {
+  background-color: #fff;
+  border-radius: 16rpx;
+  padding: 24rpx;
+  margin-bottom: 20rpx;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+
+.shop-name {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #333;
+}
+
+.order-status {
+  font-size: 24rpx;
+  padding: 6rpx 16rpx;
+  border-radius: 8rpx;
+}
+
+.status-pending {
+  background-color: #fff7e6;
+  color: #fa8c16;
+}
+
+.status-processing {
+  background-color: #e6f7ff;
+  color: #1890ff;
+}
+
+.status-ready {
+  background-color: #f6ffed;
+  color: #52c41a;
+}
+
+.status-completed {
+  background-color: #f0f0f0;
+  color: #999;
+}
+
+.status-cancelled {
+  background-color: #fff1f0;
+  color: #ff4d4f;
+}
+
+.order-items {
+  border-top: 1rpx solid #f0f0f0;
+  padding-top: 16rpx;
+  margin-bottom: 16rpx;
+}
+
+.item-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8rpx 0;
+  font-size: 26rpx;
+}
+
+.item-name {
+  color: #666;
+}
+
+.item-count {
+  color: #999;
+}
+
+.order-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-time {
+  font-size: 24rpx;
+  color: #999;
+}
+
+.order-total {
+  font-size: 26rpx;
+  color: #666;
+}
+
+.total-price {
+  font-weight: bold;
+  color: #ff4d4f;
+  margin-left: 10rpx;
+}
+
+.order-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16rpx;
+  margin-top: 16rpx;
+  padding-top: 16rpx;
+  border-top: 1rpx solid #f0f0f0;
+}
+
+.btn {
+  padding: 12rpx 32rpx;
+  font-size: 26rpx;
+  border-radius: 8rpx;
+}
+
+.btn.cancel {
+  background-color: #fff1f0;
+  color: #ff4d4f;
+}
+
+.empty {
+  text-align: center;
+  padding: 100rpx 0;
+}
+
+.empty-icon {
+  font-size: 80rpx;
+  margin-bottom: 20rpx;
+}
+
+.empty-text {
+  color: #999;
+  font-size: 28rpx;
+}
+
+.loading {
+  text-align: center;
+  padding: 60rpx 0;
+  color: #999;
+  font-size: 26rpx;
+}
+
+@import "../../../styles/tech-ui.wxss";

@@ -1,0 +1,54 @@
+<view class="container">
+  <view class="form-section tech-card">
+    <view class="form-item">
+      <text class="form-label">选择分类</text>
+      <view class="category-grid">
+        <view 
+          class="category-btn {{categoryIndex === index ? 'active' : ''}} tech-control" 
+          wx:for="{{categoryList}}" 
+          wx:key="key" 
+          bindtap="onCategoryTap" 
+          data-index="{{index}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+          {{item.name}}
+        </view>
+      </view>
+    </view>
+
+    <view class="form-item">
+      <text class="form-label">标题</text>
+      <input class="form-input tech-input" placeholder="请输入标题（必填）" value="{{title}}" bindinput="onTitleInput" maxlength="50" placeholder-class="input-placeholder" placeholder-style="color:#8597ad" />
+      <text class="char-count">{{title.length}}/50</text>
+    </view>
+
+    <view class="form-item">
+      <text class="form-label">内容</text>
+      <textarea class="form-textarea tech-input" placeholder="请输入内容（必填）" value="{{content}}" bindinput="onContentInput" maxlength="2000" placeholder-class="input-placeholder" placeholder-style="color:#8597ad" />
+      <text class="char-count">{{content.length}}/2000</text>
+    </view>
+
+    <view class="form-item">
+      <text class="form-label">图片（最多9张）</text>
+      <view class="image-grid">
+        <view class="image-item" wx:for="{{imgList}}" wx:key="*this">
+          <image class="preview-img" src="{{item}}" mode="aspectFill"></image>
+          <view class="delete-btn tech-control" catchtap="deleteImage" data-index="{{index}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">×</view>
+        </view>
+        <view class="add-image" wx:if="{{imgList.length < 9}}" bindtap="chooseImage" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+          <text class="add-icon">+</text>
+          <text class="add-text">添加图片</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="form-item switch-item">
+      <text class="form-label">匿名发布</text>
+      <tech-switch checked="{{isAnonymous}}" bindchange="onAnonymousChange" />
+    </view>
+  </view>
+
+  <view class="submit-section">
+    <button class="submit-btn uiverse-sweep uiverse-sweep--tint tech-control tech-primary" bindtap="submitPost" loading="{{submitting}}" disabled="{{submitting}}" hover-class="uiverse-sweep-pressed tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"><view class="uiverse-sweep-plane" />
+      发布动态
+    </button>
+  </view>
+</view>

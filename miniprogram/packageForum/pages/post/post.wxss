@@ -1,0 +1,213 @@
+.container {
+  height: 100vh;
+  background-color: #f5f5f5;
+  padding: 10rpx 16rpx;
+  padding-bottom: 130rpx;
+  box-sizing: border-box;
+}
+
+.form-section {
+  background-color: #fff;
+  border-radius: 16rpx;
+  padding: 24rpx 20rpx;
+}
+
+.form-item {
+  margin-bottom: 30rpx;
+}
+
+.form-item:last-child {
+  margin-bottom: 0;
+}
+
+.form-label {
+  display: block;
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 16rpx;
+}
+
+.category-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20rpx;
+  width: 100%;
+}
+
+.category-btn {
+  width: calc(50% - 10rpx);
+  height: 80rpx;
+  background-color: #f5f5f5;
+  border-radius: 12rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+  color: #666;
+  border: 2rpx solid transparent;
+  box-sizing: border-box;
+}
+
+.category-btn.active {
+  background-color: #f0f3ff;
+  color: #667eea;
+  border-color: #667eea;
+  font-weight: 600;
+}
+
+.form-input {
+  width: 100%;
+  height: 80rpx;
+  background-color: #f8f8f8;
+  border-radius: 12rpx;
+  padding: 0 24rpx;
+  font-size: 30rpx;
+  box-sizing: border-box;
+  border: 2rpx solid #e8e8e8;
+}
+
+.form-input:focus {
+  border-color: #667eea;
+}
+
+.input-placeholder {
+  font-size: 28rpx;
+  color: #bbb;
+}
+
+.form-textarea {
+  width: 100%;
+  min-height: 300rpx;
+  background-color: #f8f8f8;
+  border-radius: 12rpx;
+  padding: 20rpx 24rpx;
+  font-size: 30rpx;
+  box-sizing: border-box;
+  line-height: 1.6;
+  border: 2rpx solid #e8e8e8;
+}
+
+.form-textarea:focus {
+  border-color: #667eea;
+}
+
+.char-count {
+  display: block;
+  text-align: right;
+  font-size: 24rpx;
+  color: #999;
+  margin-top: 10rpx;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16rpx;
+  width: 100%;
+}
+
+.image-item {
+  position: relative;
+  width: calc(33.33% - 11rpx);
+  height: 0;
+  padding-bottom: calc(33.33% - 11rpx);
+}
+
+.preview-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12rpx;
+  object-fit: cover;
+}
+
+.delete-btn {
+  position: absolute;
+  top: -12rpx;
+  right: -12rpx;
+  width: 44rpx;
+  height: 44rpx;
+  background-color: #ff4d4f;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32rpx;
+  z-index: 10;
+}
+
+.add-image {
+  width: calc(33.33% - 11rpx);
+  height: 0;
+  padding-bottom: calc(33.33% - 11rpx);
+  position: relative;
+  background-color: #f8f8f8;
+  border-radius: 12rpx;
+  border: 2rpx dashed #ddd;
+  box-sizing: border-box;
+}
+
+.add-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  font-size: 60rpx;
+  color: #999;
+}
+
+.add-text {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24rpx;
+  color: #999;
+}
+
+.switch-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10rpx 0;
+}
+
+.switch-item .form-label {
+  margin-bottom: 0;
+  font-size: 30rpx;
+}
+
+.submit-section {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20rpx 16rpx;
+  background-color: #fff;
+  box-shadow: 0 -4rpx 20rpx rgba(0, 0, 0, 0.08);
+  z-index: 100;
+}
+
+.submit-btn {
+  width: 100%;
+  height: 90rpx;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  font-size: 32rpx;
+  font-weight: bold;
+  border-radius: 45rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.submit-btn[disabled] {
+  opacity: 0.6;
+}
+
+@import "../../../styles/tech-ui.wxss";

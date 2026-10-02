@@ -1,0 +1,46 @@
+<view class="container">
+  <view class="demo-tools" wx:if="{{isSuper}}"><button bindtap="demoAction" data-remove="{{false}}" disabled="{{demoBusy}}" loading="{{demoBusy}}" hover-class="tap-feedback tech-pressed" class="tech-control">生成示例成绩</button><button bindtap="demoAction" data-remove="{{true}}" disabled="{{demoBusy}}" hover-class="tap-feedback tech-pressed" class="tech-control">移除示例成绩</button></view>
+  <view class="search-bar">
+    <view class="search-box">
+      <icon type="search" size="14"></icon>
+      <tech-search class="tech-search-host"><input type="text" placeholder="搜索用户名" value="{{keyword}}" bindinput="onSearchInput" bindconfirm="onSearch" placeholder-style="color:#8597ad" class="tech-input" /></tech-search>
+    </view>
+  </view>
+
+  <view class="toolbar">
+    <view class="select-all" bindtap="toggleSelectAll" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+      <view class="checkbox {{selectAll ? 'checked' : ''}}"></view>
+      <text>全选</text>
+    </view>
+    <view class="action-btn tech-control" bindtap="clearSelected" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">批量删除 ({{selectedIds.length}})</view>
+  </view>
+
+  <scroll-view scroll-y class="list-container">
+    <view class="list">
+      <view class="item" wx:for="{{list}}" wx:key="_id">
+        <view class="checkbox {{item.selected ? 'checked' : ''}}" bindtap="toggleSelect" data-id="{{item._id}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"></view>
+        <view class="item-content">
+          <view class="item-header">
+            <text class="rank">记录 {{index + 1}}</text>
+            <text class="username">{{item.nickName || '未知用户'}}</text>
+          </view>
+          <view class="item-info">
+            <text>距离: {{item.totalDistance || 0}}km</text>
+            <text class="divider">|</text>
+            <text>单次成绩 · {{item.date}}</text>
+          </view>
+          <view class="item-time">{{item.updateTimeText || ''}}</view>
+        </view>
+        <view class="delete-btn tech-control" catchtap="clearSingle" data-id="{{item._id}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">删除</view>
+      </view>
+    </view>
+
+    <view class="empty" wx:if="{{list.length === 0 && !loading}}">
+      <text>暂无排行榜记录</text>
+    </view>
+
+    <view class="loading" wx:if="{{loading}}"><view class="uiverse-dots"><view class="uiverse-dot" /><view class="uiverse-dot" /><view class="uiverse-dot" /></view>
+      <text>加载中...</text>
+    </view>
+  </scroll-view>
+</view>

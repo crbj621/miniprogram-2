@@ -1,0 +1,34 @@
+<view class="login-container">
+  <image class="bg-image" src="/images/login-bg.png" mode="aspectFill"></image>
+  <view class="bg-overlay"></view>
+  
+  <view class="login-content">
+    <view class="login-logo">
+      <text class="logo-text">食堂点餐</text>
+      <text class="slogan">美味直达，轻松点餐</text>
+    </view>
+    
+    <view class="form-section tech-card">
+      <view class="form-item">
+        <text class="form-label">头像</text>
+        <button class="avatar-btn tech-control" open-type="chooseAvatar" bindchooseavatar="onChooseAvatar" hover-class="tech-pressed" hover-start-time="0" hover-stay-time="140">
+          <image wx:if="{{userInfo.avatarUrl}}" class="avatar-img" src="{{userInfo.avatarUrl}}" mode="aspectFill"></image><view wx:else class="avatar-img image-placeholder">同</view>
+          <text class="avatar-tip">点击选择头像</text>
+        </button>
+      </view>
+      
+      <view class="form-item">
+        <text class="form-label">昵称</text>
+        <input class="nickname-input tech-input" type="nickname" placeholder="请输入昵称" bindinput="onNicknameInput" bindblur="onNicknameBlur" value="{{userInfo.nickName}}" placeholder-style="color:#8597ad" />
+      </view>
+    </view>
+    
+    <button class="login-btn uiverse-sweep uiverse-sweep--tint tech-control tech-primary" bindtap="doLogin" loading="{{isLoading}}" disabled="{{isLoading}}" hover-class="uiverse-sweep-pressed tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"><view class="uiverse-sweep-plane" />
+      <text class="login-btn-text">确认登录</text>
+    </button>
+
+    <view class="skip-login" bindtap="skipLogin" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+      <text>跳过登录，先逛逛</text>
+    </view>
+  </view>
+</view>

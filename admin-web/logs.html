@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>操作日志 - 校园小程序管理后台</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="admin-container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2><i class="fas fa-school"></i> 校园小程序</h2>
+                <p>管理后台</p>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="dashboard.html"><i class="fas fa-home"></i> 控制台</a>
+                <a href="posts.html"><i class="fas fa-file-alt"></i> 动态管理</a>
+                <a href="orders.html"><i class="fas fa-shopping-cart"></i> 订单管理</a>
+                <a href="menus.html"><i class="fas fa-utensils"></i> 菜单管理</a>
+                <a href="users.html"><i class="fas fa-users"></i> 用户管理</a>
+                <a href="admins.html"><i class="fas fa-user-shield"></i> 管理员</a>
+                <a href="announcements.html"><i class="fas fa-bullhorn"></i> 公告管理</a>
+                <a href="logs.html" class="active"><i class="fas fa-history"></i> 操作日志</a>
+                <a href="cleanup.html"><i class="fas fa-broom"></i> 数据清理</a>
+                <a href="settings.html"><i class="fas fa-cog"></i> 系统设置</a>
+            </nav>
+            <div class="sidebar-footer">
+                <button onclick="logout()"><i class="fas fa-sign-out-alt"></i> 退出登录</button>
+            </div>
+        </aside>
+        
+        <main class="main-content">
+            <header class="page-header">
+                <h1><i class="fas fa-history"></i> 操作日志</h1>
+                <div class="user-info">
+                    <span id="adminName">管理员</span>
+                    <span class="badge super" id="adminRole">超级管理员</span>
+                </div>
+            </header>
+            
+            <div class="content-card">
+                <div class="card-header">
+                    <h3>日志列表</h3>
+                    <div class="header-actions">
+                        <select id="moduleFilter" onchange="loadLogs()">
+                            <option value="">全部模块</option>
+                            <option value="forum">校园动态</option>
+                            <option value="food">食堂点餐</option>
+                            <option value="run">校园跑</option>
+                            <option value="admin">管理员</option>
+                            <option value="system">系统</option>
+                        </select>
+                        <select id="actionFilter" onchange="loadLogs()">
+                            <option value="">全部操作</option>
+                            <option value="create">创建</option>
+                            <option value="update">更新</option>
+                            <option value="delete">删除</option>
+                            <option value="login">登录</option>
+                            <option value="logout">登出</option>
+                            <option value="export">导出</option>
+                            <option value="cleanup">清理</option>
+                        </select>
+                        <input type="date" id="dateFilter" onchange="loadLogs()">
+                        <button class="btn-secondary" onclick="exportLogs()"><i class="fas fa-download"></i> 导出日志</button>
+                    </div>
+                </div>
+                
+                <div class="table-container">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>时间</th>
+                                <th>操作人</th>
+                                <th>模块</th>
+                                <th>操作类型</th>
+                                <th>操作详情</th>
+                                <th>IP地址</th>
+                            </tr>
+                        </thead>
+                        <tbody id="logsTable">
+                            <tr>
+                                <td colspan="6" class="loading">加载中...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="pagination" id="pagination">
+                </div>
+            </div>
+            
+            <div class="content-card">
+                <div class="card-header">
+                    <h3>操作统计</h3>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-icon" style="background: #3498db;">
+                            <i class="fas fa-list"></i>
+                        </div>
+                        <div class="stat-info">
+                            <span class="stat-value" id="totalLogs">0</span>
+                            <span class="stat-label">总操作数</span>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon" style="background: #e74c3c;">
+                            <i class="fas fa-trash"></i>
+                        </div>
+                        <div class="stat-info">
+                            <span class="stat-value" id="deleteLogs">0</span>
+                            <span class="stat-label">删除操作</span>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon" style="background: #2ecc71;">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        <div class="stat-info">
+                            <span class="stat-value" id="createLogs">0</span>
+                            <span class="stat-label">创建操作</span>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon" style="background: #f39c12;">
+                            <i class="fas fa-edit"></i>
+                        </div>
+                        <div class="stat-info">
+                            <span class="stat-value" id="updateLogs">0</span>
+                            <span class="stat-label">更新操作</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="js/config.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/common.js"></script>
+    <script>
+        let currentPage = 1;
+        const pageSize = 20;
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            checkLogin();
+            loadAdminInfo();
+            loadLogs();
+            loadLogStats();
+        });
+        
+        function loadAdminInfo() {
+            const admin = JSON.parse(localStorage.getItem('adminInfo') || '{}');
+            document.getElementById('adminName').textContent = admin.username || '管理员';
+            if (admin.role === 'super') {
+                document.getElementById('adminRole').textContent = '超级管理员';
+                document.getElementById('adminRole').className = 'badge super';
+            } else {
+                document.getElementById('adminRole').textContent = '普通管理员';
+                document.getElementById('adminRole').className = 'badge normal';
+            }
+        }
+        
+        async function loadLogs() {
+            const moduleFilter = document.getElementById('moduleFilter').value;
+            const actionFilter = document.getElementById('actionFilter').value;
+            const dateFilter = document.getElementById('dateFilter').value;
+            
+            try {
+                const result = await callCloudFunction('globalAdmin', {
+                    action: 'getOperationLogs',
+                    data: {
+                        module: moduleFilter,
+                        action: actionFilter,
+                        date: dateFilter,
+                        page: currentPage,
+                        pageSize: pageSize
+                    }
+                });
+                
+                if (result.code === 0) {
+                    renderLogsTable(result.data.list);
+                    renderPagination(result.data.total);
+                } else {
+                    showNotification(result.message, 'error');
+                }
+            } catch (error) {
+                console.error('加载日志失败:', error);
+                document.getElementById('logsTable').innerHTML = '<tr><td colspan="6" class="error">加载失败，请重试</td></tr>';
+            }
+        }
+        
+        function renderLogsTable(logs) {
+            const tbody = document.getElementById('logsTable');
+            
+            if (!logs || logs.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="6" class="empty">暂无日志记录</td></tr>';
+                return;
+            }
+            
+            tbody.innerHTML = logs.map(log => `
+                <tr>
+                    <td>${formatTime(log.createTime)}</td>
+                    <td>${log.adminName || '系统'}</td>
+                    <td><span class="badge ${getModuleBadgeClass(log.module)}">${getModuleName(log.module)}</span></td>
+                    <td><span class="badge ${getActionBadgeClass(log.action)}">${getActionName(log.action)}</span></td>
+                    <td class="detail-cell">${log.detail || '-'}</td>
+                    <td>${log.ip || '-'}</td>
+                </tr>
+            `).join('');
+        }
+        
+        function getModuleName(module) {
+            const names = {
+                'forum': '校园动态',
+                'food': '食堂点餐',
+                'run': '校园跑',
+                'admin': '管理员',
+                'system': '系统'
+            };
+            return names[module] || module;
+        }
+        
+        function getModuleBadgeClass(module) {
+            const classes = {
+                'forum': 'info',
+                'food': 'success',
+                'run': 'warning',
+                'admin': 'primary',
+                'system': 'secondary'
+            };
+            return classes[module] || 'secondary';
+        }
+        
+        function getActionName(action) {
+            const names = {
+                'create': '创建',
+                'update': '更新',
+                'delete': '删除',
+                'login': '登录',
+                'logout': '登出',
+                'export': '导出',
+                'cleanup': '清理'
+            };
+            return names[action] || action;
+        }
+        
+        function getActionBadgeClass(action) {
+            const classes = {
+                'create': 'success',
+                'update': 'warning',
+                'delete': 'danger',
+                'login': 'info',
+                'logout': 'secondary',
+                'export': 'primary',
+                'cleanup': 'warning'
+            };
+            return classes[action] || 'secondary';
+        }
+        
+        function renderPagination(total) {
+            const totalPages = Math.ceil(total / pageSize);
+            const pagination = document.getElementById('pagination');
+            
+            if (totalPages <= 1) {
+                pagination.innerHTML = '';
+                return;
+            }
+            
+            let html = '';
+            
+            if (currentPage > 1) {
+                html += `<button onclick="goToPage(${currentPage - 1})"><i class="fas fa-chevron-left"></i></button>`;
+            }
+            
+            for (let i = 1; i <= totalPages; i++) {
+                if (i === 1 || i === totalPages || (i >= currentPage - 2 && i <= currentPage + 2)) {
+                    html += `<button class="${i === currentPage ? 'active' : ''}" onclick="goToPage(${i})">${i}</button>`;
+                } else if (i === currentPage - 3 || i === currentPage + 3) {
+                    html += '<span>...</span>';
+                }
+            }
+            
+            if (currentPage < totalPages) {
+                html += `<button onclick="goToPage(${currentPage + 1})"><i class="fas fa-chevron-right"></i></button>`;
+            }
+            
+            pagination.innerHTML = html;
+        }
+        
+        function goToPage(page) {
+            currentPage = page;
+            loadLogs();
+        }
+        
+        async function loadLogStats() {
+            try {
+                const result = await callCloudFunction('globalAdmin', {
+                    action: 'getOperationLogs',
+                    data: {
+                        stats: true
+                    }
+                });
+                
+                if (result.code === 0 && result.data.stats) {
+                    document.getElementById('totalLogs').textContent = result.data.stats.total || 0;
+                    document.getElementById('deleteLogs').textContent = result.data.stats.delete || 0;
+                    document.getElementById('createLogs').textContent = result.data.stats.create || 0;
+                    document.getElementById('updateLogs').textContent = result.data.stats.update || 0;
+                }
+            } catch (error) {
+                console.error('加载统计失败:', error);
+            }
+        }
+        
+        async function exportLogs() {
+            showNotification('正在导出日志...', 'info');
+            
+            try {
+                const moduleFilter = document.getElementById('moduleFilter').value;
+                const actionFilter = document.getElementById('actionFilter').value;
+                const dateFilter = document.getElementById('dateFilter').value;
+                
+                const result = await callCloudFunction('globalAdmin', {
+                    action: 'getOperationLogs',
+                    data: {
+                        module: moduleFilter,
+                        action: actionFilter,
+                        date: dateFilter,
+                        export: true
+                    }
+                });
+                
+                if (result.code === 0 && result.data.list) {
+                    const logs = result.data.list;
+                    const csv = generateLogsCSV(logs);
+                    downloadFile(csv, '操作日志_' + new Date().toISOString().split('T')[0] + '.csv', 'text/csv;charset=utf-8');
+                    showNotification('日志导出成功', 'success');
+                } else {
+                    showNotification(result.message, 'error');
+                }
+            } catch (error) {
+                console.error('导出日志失败:', error);
+                showNotification('导出失败，请重试', 'error');
+            }
+        }
+        
+        function generateLogsCSV(logs) {
+            const headers = ['时间', '操作人', '模块', '操作类型', '操作详情', 'IP地址'];
+            const rows = logs.map(log => [
+                formatTime(log.createTime),
+                log.adminName || '系统',
+                getModuleName(log.module),
+                getActionName(log.action),
+                log.detail || '',
+                log.ip || ''
+            ]);
+            
+            const BOM = '\uFEFF';
+            const csvContent = BOM + [headers, ...rows].map(row => 
+                row.map(cell => `"${String(cell).replace(/"/g, '""')}"`).join(',')
+            ).join('\n');
+            
+            return csvContent;
+        }
+        
+        function formatTime(timestamp) {
+            if (!timestamp) return '-';
+            const date = new Date(timestamp);
+            return date.toLocaleString('zh-CN', {
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit',
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit'
+            });
+        }
+    </script>
+    
+    <style>
+        .detail-cell {
+            max-width: 300px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        
+        .stat-item {
+            display: flex;
+            align-items: center;
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        
+        .stat-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 20px;
+            margin-right: 15px;
+        }
+        
+        .stat-info {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .stat-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .stat-label {
+            font-size: 14px;
+            color: #666;
+        }
+        
+        .badge {
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+        
+        .badge.success { background: #d4edda; color: #155724; }
+        .badge.danger { background: #f8d7da; color: #721c24; }
+        .badge.warning { background: #fff3cd; color: #856404; }
+        .badge.info { background: #d1ecf1; color: #0c5460; }
+        .badge.primary { background: #cce5ff; color: #004085; }
+        .badge.secondary { background: #e2e3e5; color: #383d41; }
+        .badge.super { background: #667eea; color: white; }
+        .badge.normal { background: #a0aec0; color: white; }
+        
+        @media (max-width: 1200px) {
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</body>
+</html>

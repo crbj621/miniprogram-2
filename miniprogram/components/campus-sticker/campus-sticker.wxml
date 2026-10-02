@@ -1,0 +1,8 @@
+<view class="sticker sticker--{{kind}}" aria-hidden="true">
+  <view wx:if="{{kind === 'run'}}" class="shoe"><view class="lace lace-one"></view><view class="lace lace-two"></view><view class="sole"></view></view>
+  <view wx:elif="{{kind === 'food'}}" class="bowl"><view class="rice"></view><view class="bowl-body"></view><view class="chopstick chopstick-one"></view><view class="chopstick chopstick-two"></view></view>
+  <view wx:elif="{{kind === 'canteen'}}" class="star"><text>★</text></view>
+  <view wx:else class="cat"><view class="ear ear-left"></view><view class="ear ear-right"></view><view class="cat-head"></view></view>
+  <view class="face"><view class="eye eye-left"></view><view class="eye eye-right"></view><view class="smile"></view><view class="cheek cheek-left"></view><view class="cheek cheek-right"></view></view>
+  <view class="spark">✦</view>
+</view>

@@ -1,0 +1,29 @@
+:host { display: inline-block; width: 112rpx; height: 112rpx; flex-shrink: 0; }
+.sticker { position: relative; width: 112rpx; height: 112rpx; border-radius: 34rpx; background: #f9eadf; }
+.sticker--run { background: #e2efdf; }
+.sticker--food { background: #ffe5cf; }
+.sticker--canteen { background: #fff0bd; }
+.sticker--forum { background: #f9deea; }
+.shoe { position: absolute; top: 35rpx; left: 21rpx; width: 70rpx; height: 39rpx; background: #76a583; border: 3rpx solid #4a7656; border-radius: 12rpx 30rpx 12rpx 12rpx; transform: rotate(-10deg); box-sizing: border-box; }
+.lace { position: absolute; top: -3rpx; left: 20rpx; width: 3rpx; height: 16rpx; border-radius: 3rpx; background: #fff8e7; transform: rotate(-25deg); }
+.lace-two { left: 31rpx; top: 0; }
+.sole { position: absolute; bottom: -5rpx; left: -3rpx; width: 70rpx; height: 10rpx; border: 3rpx solid #4a7656; border-radius: 6rpx; background: #fffcf2; box-sizing: border-box; }
+.bowl { position: absolute; left: 25rpx; top: 29rpx; width: 62rpx; height: 60rpx; }
+.rice { position: absolute; left: 5rpx; top: 0; width: 52rpx; height: 32rpx; border: 3rpx solid #c38154; border-radius: 30rpx 30rpx 0 0; background: #fffdf6; box-sizing: border-box; }
+.bowl-body { position: absolute; left: 0; top: 21rpx; width: 62rpx; height: 32rpx; border: 3rpx solid #c38154; border-radius: 4rpx 4rpx 25rpx 25rpx; background: #eaae77; box-sizing: border-box; }
+.chopstick { position: absolute; right: 4rpx; top: -12rpx; width: 4rpx; height: 43rpx; border-radius: 4rpx; background: #815538; transform: rotate(22deg); }
+.chopstick-two { right: -6rpx; transform: rotate(30deg); }
+.star { position: absolute; left: 16rpx; top: 5rpx; color: #e4b34a; font-size: 88rpx; line-height: 1; }
+.cat { position: absolute; left: 24rpx; top: 24rpx; width: 64rpx; height: 63rpx; }
+.ear { position: absolute; top: 0; width: 24rpx; height: 30rpx; border: 3rpx solid #ad6e85; background: #edb4ca; border-radius: 6rpx; transform: rotate(25deg); box-sizing: border-box; }
+.ear-left { left: 3rpx; transform: rotate(-25deg); }
+.ear-right { right: 3rpx; }
+.cat-head { position: absolute; bottom: 0; width: 64rpx; height: 49rpx; border: 3rpx solid #ad6e85; border-radius: 24rpx; background: #edb4ca; box-sizing: border-box; }
+.face { position: absolute; top: 52rpx; left: 36rpx; width: 40rpx; height: 22rpx; }
+.sticker--run .face { top: 47rpx; }
+.sticker--food .face { top: 54rpx; }
+.eye { position: absolute; top: 0; width: 4rpx; height: 6rpx; border-radius: 50%; background: #594938; }
+.eye-left { left: 10rpx; }.eye-right { right: 10rpx; }
+.smile { position: absolute; top: 5rpx; left: 15rpx; width: 10rpx; height: 6rpx; border-bottom: 2rpx solid #594938; border-radius: 0 0 50% 50%; }
+.cheek { position: absolute; top: 7rpx; width: 7rpx; height: 4rpx; border-radius: 50%; background: #de8d91; opacity: .8; }.cheek-left { left: 3rpx; }.cheek-right { right: 3rpx; }
+.spark { position: absolute; top: 10rpx; right: 12rpx; font-size: 18rpx; color: #b99366; }

@@ -1,0 +1,198 @@
+.container {
+  min-height: 100vh;
+  background-color: #f6f6f6;
+}
+
+.user-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 60rpx 30rpx 40rpx;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-container {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4rpx solid rgba(255, 255, 255, 0.5);
+  margin-right: 24rpx;
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+}
+
+.nickname-container {
+  flex: 1;
+}
+
+.nickname {
+  color: #fff;
+  font-size: 36rpx;
+  font-weight: bold;
+}
+
+.user-id {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24rpx;
+  margin-top: 8rpx;
+  display: block;
+}
+
+.menu-section {
+  margin: 20rpx;
+  background-color: #fff;
+  border-radius: 16rpx;
+  overflow: hidden;
+}
+
+.section-title {
+  font-size: 28rpx;
+  color: #999;
+  padding: 24rpx 30rpx 16rpx;
+}
+
+.menu-list {
+  padding: 0 10rpx;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 28rpx 20rpx;
+  border-bottom: 1rpx solid #f5f5f5;
+}
+
+.menu-item:last-child {
+  border-bottom: none;
+}
+
+.menu-icon {
+  font-size: 40rpx;
+  margin-right: 20rpx;
+  width: 48rpx;
+  text-align: center;
+}
+
+.menu-item text {
+  flex: 1;
+  font-size: 30rpx;
+  color: #333;
+}
+
+.arrow {
+  color: #ccc;
+  font-size: 32rpx;
+}
+
+.merchant-section {
+  margin: 20rpx;
+  background-color: #fff;
+  border-radius: 16rpx;
+  padding: 30rpx;
+}
+
+.grid-menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20rpx;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20rpx 0;
+}
+
+.grid-icon {
+  font-size: 48rpx;
+  margin-bottom: 12rpx;
+}
+
+.grid-item text {
+  font-size: 24rpx;
+  color: #666;
+}
+
+.pending-card {
+  text-align: center;
+  padding: 40rpx;
+}
+
+.pending-icon {
+  font-size: 60rpx;
+  margin-bottom: 20rpx;
+}
+
+.pending-text {
+  font-size: 30rpx;
+  color: #fa8c16;
+  font-weight: bold;
+}
+
+.become-merchant-card {
+  text-align: center;
+  padding: 40rpx 30rpx;
+}
+
+.bm-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16rpx;
+}
+
+.bm-icon {
+  font-size: 48rpx;
+  margin-right: 16rpx;
+}
+
+.bm-title {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #333;
+}
+
+.bm-desc {
+  font-size: 26rpx;
+  color: #999;
+  margin-bottom: 30rpx;
+}
+
+.become-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  font-size: 30rpx;
+  padding: 24rpx 60rpx;
+  border-radius: 40rpx;
+}
+
+.become-btn::after {
+  border: none;
+}
+
+.logout-section {
+  margin: 40rpx 20rpx;
+  padding-bottom: 40rpx;
+}
+
+.logout-btn {
+  background-color: #fff;
+  color: #ff4d4f;
+  font-size: 30rpx;
+  padding: 24rpx 0;
+  border-radius: 16rpx;
+  border: 2rpx solid #ff4d4f;
+}
+
+.logout-btn::after {
+  border: none;
+}
+
+@import "../../../styles/tech-ui.wxss";

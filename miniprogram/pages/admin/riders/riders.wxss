@@ -1,0 +1,117 @@
+@import "../../../styles/admin-ui.wxss";
+page {
+  background: #f5f7fb;
+  color: #1f2937;
+}
+
+.page {
+  min-height: 100vh;
+  padding: 24rpx;
+  box-sizing: border-box;
+}
+
+.tabs {
+  display: flex;
+  padding: 8rpx;
+  margin-bottom: 24rpx;
+  border: 1rpx solid #e7ebf2;
+  border-radius: 24rpx;
+  background: #fff;
+}
+
+.tab {
+  flex: 1;
+  min-height: 72rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14rpx;
+  color: #6b7280;
+}
+
+.tab.active {
+  color: #fff;
+  background: #2c82df;
+}
+
+.card {
+  padding: 28rpx;
+  margin-bottom: 20rpx;
+  border: 1rpx solid #e7ebf2;
+  border-radius: 22rpx;
+  background: #fff;
+}
+
+.card-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 18rpx;
+}
+
+.name {
+  font-size: 34rpx;
+  font-weight: 700;
+}
+
+.student-id,
+.info,
+.reason {
+  margin-top: 8rpx;
+  color: #6b7280;
+  font-size: 26rpx;
+}
+
+.status {
+  padding: 8rpx 16rpx;
+  border-radius: 999rpx;
+  font-size: 24rpx;
+}
+
+.status-pending {
+  color: #a15c00;
+  background: #fff3d6;
+}
+
+.status-approved {
+  color: #067647;
+  background: #dcfae6;
+}
+
+.status-rejected {
+  color: #b42318;
+  background: #fee4e2;
+}
+
+.actions {
+  display: flex;
+  gap: 18rpx;
+  margin-top: 24rpx;
+}
+
+.button {
+  flex: 1;
+  min-height: 80rpx;
+  border-radius: 24rpx;
+  font-size: 28rpx;
+}
+
+.button.reject {
+  color: #b42318;
+  background: #fff;
+  border: 1rpx solid #fda29b;
+}
+
+.button.approve {
+  color: #fff;
+  background: #2c82df;
+}
+
+.loading,
+.empty {
+  padding: 100rpx 20rpx;
+  color: #8a94a6;
+  text-align: center;
+}
+
+@import "../../../styles/tech-ui.wxss";

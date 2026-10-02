@@ -1,0 +1,5 @@
+@import "campus-ui.wxss";
+/* List screens keep their own layouts; remove inherited tutorial container spacing. */
+.container { align-items: stretch; justify-content: flex-start; padding: 0; }
+button { min-height: 88rpx; display: flex; align-items: center; justify-content: center; box-sizing: border-box; }
+input,textarea { min-width: 0; }

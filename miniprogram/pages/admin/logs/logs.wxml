@@ -1,0 +1,20 @@
+<view class="container">
+  <view class="log-list">
+    <view class="log-item" wx:for="{{logs}}" wx:key="_id">
+      <view class="log-time">{{item.createTimeText}}</view>
+      <view class="log-content">
+        <view class="log-type">{{item.type}}</view>
+        <view class="log-desc">{{item.description}}</view>
+      </view>
+      <view class="log-operator">操作人: {{item.operatorName || '系统'}}</view>
+    </view>
+  </view>
+
+  <view class="empty" wx:if="{{logs.length === 0 && !loading}}">
+    <text>暂无操作日志</text>
+  </view>
+
+  <view class="loading" wx:if="{{loading}}"><view class="uiverse-dots"><view class="uiverse-dot" /><view class="uiverse-dot" /><view class="uiverse-dot" /></view>
+    <text>加载中...</text>
+  </view>
+</view>

@@ -1,0 +1,55 @@
+<view class="container">
+  <view class="search-bar">
+    <view class="search-box">
+      <text class="search-icon">🔎</text>
+      <tech-search class="tech-search-host"><input
+        class="search-input tech-input"
+        placeholder="输入昵称或6位ID搜索"
+        value="{{searchValue}}"
+        bindinput="onSearchInput"
+        bindconfirm="onSearchConfirm"
+        confirm-type="search"
+        adjust-position="false"
+      placeholder-style="color:#8597ad" /></tech-search>
+      <view class="search-clear" wx:if="{{searchValue}}" bindtap="clearSearch" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">×</view>
+      <view class="search-btn tech-control" bindtap="onSearchConfirm" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">搜索</view>
+    </view>
+  </view>
+
+  <!-- 搜索结果 -->
+  <scroll-view class="content" scroll-y wx:if="{{showSearchResults}}">
+    <view class="section-title">搜索结果</view>
+    <view class="user-list">
+      <view class="user-item" wx:for="{{searchResults}}" wx:key="_id">
+        <image wx:if="{{item.avatarUrl}}" class="user-avatar" src="{{item.avatarUrl}}" mode="aspectFill"></image><view wx:else class="user-avatar image-placeholder">同</view>
+        <view class="user-info">
+          <text class="user-name">{{item.nickName || '用户'}}</text>
+          <text class="user-id">ID: {{item.userId || '---'}}</text>
+        </view>
+        <button class="add-btn tech-control" bindtap="addFriend" data-openid="{{item.openid}}" wx:if="{{!item.isFriend}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">添加</button>
+        <view class="added-tag" wx:else>已添加</view>
+      </view>
+    </view>
+    <view class="empty-tip" wx:if="{{searchResults.length === 0}}">
+      未找到相关用户
+    </view>
+  </scroll-view>
+
+  <!-- 好友列表 -->
+  <scroll-view class="content" scroll-y wx:else>
+    <view class="section-title">我的好友 ({{friendsList.length}})</view>
+    <view class="user-list">
+      <view class="user-item" wx:for="{{friendsList}}" wx:key="_id">
+        <image wx:if="{{item.avatarUrl}}" class="user-avatar" src="{{item.avatarUrl}}" mode="aspectFill"></image><view wx:else class="user-avatar image-placeholder">同</view>
+        <view class="user-info">
+          <text class="user-name">{{item.nickName || '用户'}}</text>
+          <text class="user-id">ID: {{item.userId || '---'}}</text>
+        </view>
+        <button class="delete-btn tech-control tech-danger" bindtap="deleteFriend" data-openid="{{item.openid}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">删除</button>
+      </view>
+    </view>
+    <view class="empty-tip" wx:if="{{friendsList.length === 0}}">
+      暂无好友，快去添加吧！
+    </view>
+  </scroll-view>
+</view>

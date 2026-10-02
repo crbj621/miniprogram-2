@@ -1,0 +1,44 @@
+<view class="container">
+  <view class="tabs">
+    <view class="tab {{currentTab === 'all' ? 'active' : ''}}" bindtap="switchTab" data-status="all" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">全部</view>
+    <view class="tab {{currentTab === 'pending' ? 'active' : ''}}" bindtap="switchTab" data-status="pending" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">待处理</view>
+    <view class="tab {{currentTab === 'processing' ? 'active' : ''}}" bindtap="switchTab" data-status="processing" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">进行中</view>
+    <view class="tab {{currentTab === 'completed' ? 'active' : ''}}" bindtap="switchTab" data-status="completed" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">已完成</view>
+  </view>
+
+  <scroll-view scroll-y class="order-list">
+    <view class="order-item" wx:for="{{orders}}" wx:key="_id" bindtap="goToDetail" data-id="{{item._id}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+      <view class="order-header">
+        <view class="shop-name">{{item.shopName}}</view>
+        <view class="order-status status-{{item.status}}">
+          {{item.status === 'pending' ? '待处理' : item.status === 'processing' ? '进行中' : item.status === 'ready' ? '待取餐' : item.status === 'completed' ? '已完成' : '已取消'}}
+        </view>
+      </view>
+      <view class="order-items">
+        <view class="item-row" wx:for="{{item.items}}" wx:for-item="dish" wx:key="_id">
+          <text class="item-name">{{dish.name}}</text>
+          <text class="item-count">x{{dish.count}}</text>
+        </view>
+      </view>
+      <view class="order-footer">
+        <view class="order-time">{{item.createTimeText}}</view>
+        <view class="order-total">
+          <text>共{{item.items.length}}件</text>
+          <text class="total-price">¥{{item.totalPrice}}</text>
+        </view>
+      </view>
+      <view class="order-actions" wx:if="{{item.status === 'pending'}}">
+        <view class="btn cancel tech-control" catchtap="cancelOrder" data-id="{{item._id}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">取消订单</view>
+      </view>
+    </view>
+
+    <view class="empty" wx:if="{{orders.length === 0 && !loading}}">
+      <view class="empty-icon">📭</view>
+      <view class="empty-text">暂无订单</view>
+    </view>
+
+    <view class="loading" wx:if="{{loading}}"><view class="uiverse-dots"><view class="uiverse-dot" /><view class="uiverse-dot" /><view class="uiverse-dot" /></view>
+      <text>加载中...</text>
+    </view>
+  </scroll-view>
+</view>

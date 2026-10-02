@@ -1,0 +1,135 @@
+<view class="container">
+  <view class="search-bar">
+    <view class="search-box">
+      <text class="search-icon">🔍</text>
+      <tech-search class="tech-search-host"><input type="text" placeholder="搜索商家名称" value="{{keyword}}" bindinput="onSearchInput" bindconfirm="onSearch" placeholder-style="color:#8597ad" class="tech-input" /></tech-search>
+    </view>
+    <view class="add-btn tech-control" bindtap="showAddShop" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">添加</view>
+  </view>
+
+  <scroll-view scroll-y class="list-container">
+    <view class="list">
+      <view class="item" wx:for="{{list}}" wx:key="_id">
+        <view class="item-header">
+          <image wx:if="{{item.logo}}" class="shop-logo" bindtap="previewImage" data-url="{{item.logo}}" src="{{item.logo}}" mode="aspectFill"></image><view wx:else class="shop-logo image-placeholder" bindtap="previewImage" data-url="{{item.logo}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">餐</view>
+          <view class="shop-info">
+            <view class="shop-name">{{item.name}}</view>
+            <view class="shop-meta">
+              <text class="rating">⭐ {{item.rating || 5.0}}</text>
+              <text class="sales">月售{{item.monthlySales || 0}}单</text>
+            </view>
+          </view>
+          <view class="status-tag {{item.status}}" bindtap="toggleStatus" data-shop="{{item}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+            {{item.status === 'open' ? '营业中' : item.status === 'closed' ? '已关闭' : '待审核'}}
+          </view>
+        </view>
+
+        <view class="item-body">
+          <view class="info-row">
+            <text class="info-icon">👤</text>
+            <text class="info-label">联系人：</text>
+            <text>{{item.contact || '-'}}</text>
+          </view>
+          <view class="info-row">
+            <text class="info-icon">📞</text>
+            <text class="info-label">联系电话：</text>
+            <text>{{item.phone || '-'}}</text>
+          </view>
+          <view class="info-row">
+            <text class="info-icon">💰</text>
+            <text class="info-label">起送/配送：</text>
+            <text>¥{{item.minPrice || 0}} / ¥{{item.deliveryFee || 0}}</text>
+          </view>
+          <view class="info-row">
+            <text class="info-icon">📅</text>
+            <text class="info-label">入驻时间：</text>
+            <text>{{item.createTimeText || '-'}}</text>
+          </view>
+        </view>
+
+        <view class="action-row">
+          <view class="btn {{item.status === 'open' ? 'disable' : 'enable'}} tech-control" bindtap="toggleStatus" data-shop="{{item}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+            {{item.status === 'open' ? '禁用' : '启用'}}
+          </view>
+          <view class="btn edit tech-control" bindtap="showEdit" data-shop="{{item}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">编辑</view>
+          <view class="btn account tech-control" bindtap="showAccount" data-shop="{{item}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">账号</view>
+          <view class="btn reset tech-control" bindtap="resetPassword" data-shop="{{item}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">密码</view>
+          <view class="btn delete tech-control tech-danger" bindtap="deleteShop" data-shop="{{item}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">删除</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="empty" wx:if="{{list.length === 0 && !loading}}">
+      <view class="empty-icon">🏪</view>
+      <view class="empty-text">暂无商家数据</view>
+    </view>
+
+    <view class="loading" wx:if="{{loading}}"><view class="uiverse-dots"><view class="uiverse-dot" /><view class="uiverse-dot" /><view class="uiverse-dot" /></view>
+      <view class="loading-spinner"></view>
+      <text>加载中...</text>
+    </view>
+  </scroll-view>
+
+  <view class="modal tech-card" wx:if="{{showEditModal}}">
+    <view class="modal-mask" bindtap="hideEdit" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"></view>
+    <view class="modal-content tech-card">
+      <view class="modal-header">
+        <text class="modal-title">编辑商家信息</text>
+        <view class="modal-close tap-action" bindtap="hideEdit" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">×</view>
+      </view>
+      <view class="modal-body">
+        <view class="form-item">
+          <text class="form-label">店铺名称</text>
+          <input class="form-input tech-input" type="text" value="{{editForm.name}}" data-field="name" bindinput="onEditInput" placeholder="请输入店铺名称" placeholder-style="color:#8597ad" />
+        </view>
+        <view class="form-item">
+          <text class="form-label">联系人</text>
+          <input class="form-input tech-input" type="text" value="{{editForm.contact}}" data-field="contact" bindinput="onEditInput" placeholder="请输入联系人" placeholder-style="color:#8597ad" />
+        </view>
+        <view class="form-item">
+          <text class="form-label">联系电话</text>
+          <input class="form-input tech-input" type="text" value="{{editForm.phone}}" data-field="phone" bindinput="onEditInput" placeholder="请输入联系电话" placeholder-style="color:#8597ad" />
+        </view>
+        <view class="form-row">
+          <view class="form-item half">
+            <text class="form-label">起送价</text>
+            <input class="form-input tech-input" type="digit" value="{{editForm.minPrice}}" data-field="minPrice" data-type="number" bindinput="onEditInput" placeholder="0" placeholder-style="color:#8597ad" />
+          </view>
+          <view class="form-item half">
+            <text class="form-label">配送费</text>
+            <input class="form-input tech-input" type="digit" value="{{editForm.deliveryFee}}" data-field="deliveryFee" data-type="number" bindinput="onEditInput" placeholder="0" placeholder-style="color:#8597ad" />
+          </view>
+        </view>
+      </view>
+      <view class="modal-footer">
+        <view class="btn cancel tech-control" bindtap="hideEdit" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">取消</view>
+        <view class="btn confirm tech-control tech-primary" bindtap="saveEdit" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">保存</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="modal tech-card" wx:if="{{showAccountModal}}">
+    <view class="modal-mask" bindtap="hideAccount" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"></view>
+    <view class="modal-content tech-card">
+      <view class="modal-header">
+        <text class="modal-title">修改商家账号</text>
+        <view class="modal-close tap-action" bindtap="hideAccount" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">×</view>
+      </view>
+      <view class="modal-body">
+        <view class="shop-name-tip">商家：{{accountShop.name}}</view>
+        <view class="form-item">
+          <text class="form-label">新账号（留空不修改）</text>
+          <input class="form-input tech-input" type="text" value="{{accountForm.username}}" data-field="username" bindinput="onAccountInput" placeholder="请输入新账号" placeholder-style="color:#8597ad" />
+        </view>
+        <view class="form-item">
+          <text class="form-label">新密码（留空不修改）</text>
+          <input class="form-input tech-input" type="text" value="{{accountForm.password}}" data-field="password" bindinput="onAccountInput" placeholder="请输入新密码" placeholder-style="color:#8597ad" />
+        </view>
+      </view>
+      <view class="modal-footer">
+        <view class="btn cancel tech-control" bindtap="hideAccount" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">取消</view>
+        <view class="btn confirm tech-control tech-primary" bindtap="saveAccount" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">保存</view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,46 @@
+<view class="tab-bar" role="navigation">
+  <view class="tab-bar-border"></view>
+  <button
+    class="tab-bar-item {{selected === 0 ? 'selected' : ''}}"
+    bindtap="switchTab"
+    data-path="/pages/index/index"
+    data-index="0"
+    hover-class="tab-bar-item--pressed tap-feedback tech-pressed"
+    aria-label="跑步">
+    <view class="tab-icon tab-icon-run">
+      <view class="run-head"></view>
+      <view class="run-body"></view>
+      <view class="run-arm"></view>
+      <view class="run-leg run-leg-one"></view>
+      <view class="run-leg run-leg-two"></view>
+    </view>
+    <text class="tab-label">跑步</text>
+  </button>
+  <button
+    class="tab-bar-item {{selected === 1 ? 'selected' : ''}}"
+    bindtap="switchTab"
+    data-path="/pages/rank/rank"
+    data-index="1"
+    hover-class="tab-bar-item--pressed tap-feedback tech-pressed"
+    aria-label="排行榜">
+    <view class="tab-icon tab-icon-rank">
+      <view class="rank-bar rank-bar-one"></view>
+      <view class="rank-bar rank-bar-two"></view>
+      <view class="rank-bar rank-bar-three"></view>
+    </view>
+    <text class="tab-label">排行榜</text>
+  </button>
+  <button
+    class="tab-bar-item {{selected === 2 ? 'selected' : ''}}"
+    bindtap="switchTab"
+    data-path="/pages/profile/profile"
+    data-index="2"
+    hover-class="tab-bar-item--pressed tap-feedback tech-pressed"
+    aria-label="我的">
+    <view class="tab-icon tab-icon-profile">
+      <view class="profile-head"></view>
+      <view class="profile-body"></view>
+    </view>
+    <text class="tab-label">我的</text>
+  </button>
+</view>

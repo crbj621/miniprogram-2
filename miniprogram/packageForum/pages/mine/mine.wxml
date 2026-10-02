@@ -1,0 +1,136 @@
+<view class="page">
+  <view class="header">
+    <view class="header-bg"></view>
+    <view class="header-content">
+      <view class="back-btn tech-control" bindtap="goBack" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+        <text class="back-icon">←</text>
+      </view>
+      <text class="header-title">个人中心</text>
+      <view class="header-right"></view>
+    </view>
+  </view>
+
+  <view class="user-card {{isLoggedIn ? 'logged' : 'not-logged'}}">
+    <block wx:if="{{isLoggedIn && userInfo && userInfo.nickName}}">
+      <view class="user-main">
+        <view class="avatar-wrap" bindtap="chooseAvatar" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+          <image wx:if="{{userInfo.avatarUrl}}" class="user-avatar" src="{{userInfo.avatarUrl}}" mode="aspectFill"></image><view wx:else class="user-avatar image-placeholder">同</view>
+          <view class="avatar-edit">
+            <text class="edit-icon">📷</text>
+          </view>
+        </view>
+        <view class="user-info">
+          <view class="nickname-row" bindtap="showEditNickname" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+            <text class="user-name">{{userInfo.nickName}}</text>
+            <text class="edit-tag">编辑</text>
+          </view>
+          <text class="user-id" wx:if="{{openid}}">ID: {{openidShort}}...</text>
+        </view>
+      </view>
+      
+      <view class="stats-row">
+        <view class="stat-item" bindtap="goToMyPosts" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+          <text class="stat-num">{{userStats.postCount}}</text>
+          <text class="stat-label">动态</text>
+        </view>
+        <view class="stat-divider"></view>
+        <view class="stat-item" bindtap="goToMyCollections" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+          <text class="stat-num">{{userStats.collectCount}}</text>
+          <text class="stat-label">收藏</text>
+        </view>
+        <view class="stat-divider"></view>
+        <view class="stat-item" bindtap="goToMyComments" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+          <text class="stat-num">{{userStats.commentCount}}</text>
+          <text class="stat-label">评论</text>
+        </view>
+      </view>
+    </block>
+    
+    <block wx:else>
+      <view class="user-main">
+        <view class="avatar-wrap">
+          <view class="user-avatar image-placeholder">同</view>
+        </view>
+        <view class="user-info">
+          <text class="user-name">未登录</text>
+          <text class="user-tip">登录后享受更多功能</text>
+        </view>
+      </view>
+      <view class="login-btn tech-control" bindtap="goToLogin" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">立即登录</view>
+    </block>
+  </view>
+
+  <view class="menu-section tech-card">
+    <view class="menu-card">
+      <view class="menu-item" bindtap="goToNotifications" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+        <view class="menu-icon-wrap pink">
+          <text class="menu-icon">🔔</text>
+        </view>
+        <view class="menu-content">
+          <text class="menu-title">消息通知</text>
+          <text class="menu-desc">回复和评论提醒</text>
+        </view>
+        <view class="menu-badge" wx:if="{{unreadCount > 0}}">{{unreadCount}}</view>
+        <text class="menu-arrow">›</text>
+      </view>
+    </view>
+    
+    <view class="menu-card">
+      <view class="menu-item" bindtap="goToMyPosts" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+        <view class="menu-icon-wrap orange">
+          <text class="menu-icon">📝</text>
+        </view>
+        <view class="menu-content">
+          <text class="menu-title">我的动态</text>
+          <text class="menu-desc">查看发布的内容</text>
+        </view>
+        <text class="menu-arrow">›</text>
+      </view>
+      
+      <view class="menu-item" bindtap="goToMyCollections" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+        <view class="menu-icon-wrap yellow">
+          <text class="menu-icon">⭐</text>
+        </view>
+        <view class="menu-content">
+          <text class="menu-title">我的收藏</text>
+          <text class="menu-desc">收藏的精彩内容</text>
+        </view>
+        <text class="menu-arrow">›</text>
+      </view>
+      
+      <view class="menu-item" bindtap="goToMyComments" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+        <view class="menu-icon-wrap green">
+          <text class="menu-icon">💬</text>
+        </view>
+        <view class="menu-content">
+          <text class="menu-title">我的评论</text>
+          <text class="menu-desc">历史评论记录</text>
+        </view>
+        <text class="menu-arrow">›</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="logout-section" wx:if="{{isLoggedIn}}">
+    <view class="logout-btn tech-control" bindtap="logout" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">退出登录</view>
+  </view>
+
+  <view class="modal-overlay" wx:if="{{showNicknameModal}}" bindtap="hideEditNickname" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+    <view class="modal-box tech-card" catchtap="" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+      <view class="modal-header">
+        <text class="modal-title">修改昵称</text>
+        <view class="modal-close tap-action" bindtap="hideEditNickname" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">×</view>
+      </view>
+      <view class="modal-body">
+        <view class="input-wrapper">
+          <input class="nickname-input tech-input" placeholder="请输入新昵称" value="{{newNickname}}" bindinput="onNicknameInput" maxlength="10" focus="{{showNicknameModal}}" placeholder-class="input-placeholder" placeholder-style="color:#8597ad" />
+          <text class="char-count">{{newNickname.length}}/10</text>
+        </view>
+      </view>
+      <view class="modal-footer">
+        <view class="btn-cancel" bindtap="hideEditNickname" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">取消</view>
+        <view class="btn-confirm" bindtap="submitNickname" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">确定</view>
+      </view>
+    </view>
+  </view>
+</view>

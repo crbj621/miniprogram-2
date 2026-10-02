@@ -1,0 +1,29 @@
+<view class="container">
+  <!-- 头部操作栏 -->
+  <view class="header">
+    <text class="title">跑步记录</text>
+    <button class="clear-btn tech-control" bindtap="loadRunHistory" loading="{{loading}}" disabled="{{loading}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">刷新</button>
+  </view>
+
+  <view wx:if="{{error}}" class="empty-subtext">{{error}}</view>
+  <view wx:if="{{loading && isEmpty}}" class="empty-subtext">正在从服务器加载记录…</view>
+  <!-- 空状态 -->
+  <view wx:if="{{isEmpty && !loading && !error}}" class="empty-state">
+    <text class="empty-icon">🏃</text>
+    <text class="empty-text">暂无跑步记录</text>
+    <text class="empty-subtext">开始你的第一次跑步吧！</text>
+    <navigator url="/pages/index/index" class="start-btn">去跑步</navigator>
+  </view>
+
+  <!-- 记录列表 -->
+  <view wx:if="{{!isEmpty}}" class="record-list">
+    <view wx:for="{{runList}}" wx:key="_id" class="record-item">
+      <view class="record-info">
+        <text class="record-distance">{{item.distance}} 米</text>
+        <text class="record-time">{{item.time}}</text>
+      </view>
+      <view class="record-date">{{item.date}}<text wx:if="{{item.rankEligible === false}}"> · 个人估算记录</text></view>
+    </view>
+  </view>
+  <button wx:if="{{hasMore}}" class="tech-control" bindtap="loadMore" loading="{{loading}}" disabled="{{loading}}">加载更多</button>
+</view>

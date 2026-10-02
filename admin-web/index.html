@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>智慧校园管理后台</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .login-tabs {
+      display: flex;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #e9ecef;
+    }
+    .login-tabs button {
+      flex: 1;
+      padding: 12px;
+      border: none;
+      background: transparent;
+      font-size: 15px;
+      color: #666;
+      cursor: pointer;
+      transition: all 0.3s;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -2px;
+    }
+    .login-tabs button.active {
+      color: #667eea;
+      border-bottom-color: #667eea;
+      font-weight: 500;
+    }
+    .form-panel {
+      display: none;
+    }
+    .form-panel.active {
+      display: block;
+    }
+    .login-notice {
+      margin-top: 20px;
+      padding: 15px;
+      background: #fff3cd;
+      border-radius: 8px;
+      font-size: 13px;
+      color: #856404;
+      text-align: center;
+    }
+  </style>
+</head>
+<body class="login-page">
+  <div class="login-container">
+    <div class="login-box">
+      <div class="login-header">
+        <div class="logo">🔐</div>
+        <h1>智慧校园管理后台</h1>
+        <p>统一管理平台</p>
+      </div>
+      
+      <div class="login-tabs" id="loginTabs">
+        <button class="active" onclick="switchTab('login')">账号登录</button>
+        <button onclick="switchTab('forgot')">忘记密码</button>
+      </div>
+      
+      <form id="loginForm" class="login-form form-panel active">
+        <div class="form-group">
+          <label>管理员账号</label>
+          <input type="text" id="account" placeholder="请输入账号" required>
+        </div>
+        <div class="form-group">
+          <label>密码</label>
+          <input type="password" id="password" placeholder="请输入密码" required>
+        </div>
+        <button type="submit" class="login-btn">登 录</button>
+      </form>
+      
+      <form id="forgotForm" class="login-form form-panel">
+        <div class="form-group">
+          <label>管理员账号</label>
+          <input type="text" id="forgotAccount" placeholder="请输入账号" required>
+        </div>
+        <div class="form-group">
+          <label>辅助验证密码</label>
+          <input type="password" id="verifyPassword" placeholder="请输入辅助验证密码" required>
+        </div>
+        <div class="form-group">
+          <label>新密码</label>
+          <input type="password" id="newPassword" placeholder="请输入新密码" required>
+        </div>
+        <div class="form-group">
+          <label>确认新密码</label>
+          <input type="password" id="confirmPassword" placeholder="请再次输入新密码" required>
+        </div>
+        <button type="submit" class="login-btn">重置密码</button>
+      </form>
+      
+      <div class="login-notice">
+        仅限授权管理员使用，请妥善保管账号密码
+      </div>
+    </div>
+  </div>
+  <script src="js/config.js"></script>
+  <script>
+    function switchTab(tab) {
+      var tabs = document.querySelectorAll('#loginTabs button');
+      var panels = document.querySelectorAll('.form-panel');
+      
+      tabs.forEach(function(t) {
+        t.classList.remove('active');
+      });
+      panels.forEach(function(p) {
+        p.classList.remove('active');
+      });
+      
+      if (tab === 'login') {
+        tabs[0].classList.add('active');
+        document.getElementById('loginForm').classList.add('active');
+      } else {
+        tabs[1].classList.add('active');
+        document.getElementById('forgotForm').classList.add('active');
+      }
+    }
+    
+    document.getElementById('loginForm').addEventListener('submit', async function(e) {
+      e.preventDefault();
+      var account = document.getElementById('account').value.trim();
+      var password = document.getElementById('password').value.trim();
+      
+      if (!account) {
+        alert('请输入账号');
+        return;
+      }
+      if (!password) {
+        alert('请输入密码');
+        return;
+      }
+      
+      var btn = e.target.querySelector('.login-btn');
+      btn.textContent = '登录中...';
+      btn.disabled = true;
+      
+      try {
+        var result = await adminLogin(account, password);
+        console.log('登录结果:', result);
+        
+        if (result.code === 0) {
+          localStorage.setItem('adminInfo', JSON.stringify(result.data.admin));
+          alert('登录成功！');
+          window.location.href = 'dashboard.html';
+        } else {
+          alert(result.message || '登录失败');
+          btn.textContent = '登 录';
+          btn.disabled = false;
+        }
+      } catch (err) {
+        console.error('登录错误:', err);
+        alert('登录失败：' + (err.message || '网络错误'));
+        btn.textContent = '登 录';
+        btn.disabled = false;
+      }
+    });
+    
+    document.getElementById('forgotForm').addEventListener('submit', async function(e) {
+      e.preventDefault();
+      var account = document.getElementById('forgotAccount').value.trim();
+      var verifyPassword = document.getElementById('verifyPassword').value.trim();
+      var newPassword = document.getElementById('newPassword').value.trim();
+      var confirmPassword = document.getElementById('confirmPassword').value.trim();
+      
+      if (!account) {
+        alert('请输入账号');
+        return;
+      }
+      if (!verifyPassword) {
+        alert('请输入辅助验证密码');
+        return;
+      }
+      
+      if (newPassword !== confirmPassword) {
+        alert('两次输入的密码不一致');
+        return;
+      }
+      
+      if (newPassword.length < 8 || newPassword.length > 128) {
+        alert('密码长度应为8至128位');
+        return;
+      }
+      
+      var btn = e.target.querySelector('.login-btn');
+      btn.textContent = '重置中...';
+      btn.disabled = true;
+      
+      try {
+        var result = await resetPassword(account, verifyPassword, newPassword);
+        console.log('重置结果:', result);
+        
+        if (result.code === 0) {
+          alert('密码重置成功，请使用新密码登录');
+          switchTab('login');
+          document.getElementById('account').value = account;
+          document.getElementById('password').focus();
+        } else {
+          alert(result.message || '重置失败');
+        }
+      } catch (err) {
+        console.error('重置错误:', err);
+        alert('重置失败：' + (err.message || '网络错误'));
+      }
+      
+      btn.textContent = '重置密码';
+      btn.disabled = false;
+    });
+  </script>
+  <script src="js/auth.js"></script>
+</body>
+</html>

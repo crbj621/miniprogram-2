@@ -1,0 +1,110 @@
+<view class="container" wx:if="{{shop}}">
+  <view class="shop-info">
+    <image class="shop-logo" src="{{shop.logo}}" mode="aspectFill"></image>
+    <view class="shop-name">{{shop.name}}</view>
+  </view>
+
+  <view class="section">
+    <view class="section-title">配送方式</view>
+    <radio-group class="type-group" bindchange="onTypeChange">
+      <label class="type-item">
+        <radio value="pickup" checked="{{type === 'pickup'}}" color="#69e6ff" />
+        <view class="type-content">
+          <view class="type-name">到店自提</view>
+          <view class="type-desc">无需配送费</view>
+        </view>
+      </label>
+      <label class="type-item">
+        <radio value="delivery" checked="{{type === 'delivery'}}" color="#69e6ff" />
+        <view class="type-content">
+          <view class="type-name">外卖配送</view>
+          <view class="type-desc">配送费 ¥{{shop.deliveryFee || 0}}</view>
+        </view>
+      </label>
+    </radio-group>
+  </view>
+
+  <view class="section">
+    <view class="section-title">联系方式</view>
+    <view class="form-item">
+      <text class="form-label">联系电话</text>
+      <input type="number" placeholder="请输入手机号" value="{{phone}}" bindinput="onPhoneInput" placeholder-style="color:#8597ad" class="tech-input" />
+    </view>
+    
+    <view class="form-item" wx:if="{{type === 'delivery'}}">
+      <text class="form-label">配送地址</text>
+      <textarea placeholder="请输入详细地址" value="{{address}}" bindinput="onAddressInput" placeholder-style="color:#8597ad" class="tech-input"></textarea>
+    </view>
+
+    <view class="form-item" wx:if="{{type === 'pickup'}}">
+      <text class="form-label">取餐时间</text>
+      <picker mode="time" value="{{pickupTime}}" bindchange="onPickupTimeChange">
+        <view class="picker">{{pickupTime || '请选择取餐时间'}}</view>
+      </picker>
+    </view>
+  </view>
+
+  <view class="section">
+    <view class="section-title">订单明细</view>
+    <view class="order-items">
+      <view class="order-item" wx:for="{{items}}" wx:key="_id">
+        <text class="item-name">{{item.name}}</text>
+        <text class="item-count">x{{item.count}}</text>
+        <text class="item-price">¥{{item.price * item.count}}</text>
+      </view>
+    </view>
+    <view class="order-total">
+      <text>商品小计</text>
+      <text>¥{{totalPrice}}</text>
+    </view>
+    <view class="order-total" wx:if="{{type === 'delivery'}}">
+      <text>配送费</text>
+      <text>¥{{shop.deliveryFee || 0}}</text>
+    </view>
+    <view class="order-total discount" wx:if="{{useRunDiscount && actualDiscount > 0}}">
+      <text>🏃 跑步里程抵扣</text>
+      <text class="discount-price">-¥{{actualDiscount}}</text>
+    </view>
+    <view class="order-total discount" wx:if="{{useCoupon && coupon && coupon.value}}">
+      <text>🎟️ {{coupon.name || '专享优惠券'}}</text>
+      <text class="discount-price">-¥{{actualCouponDiscount}}</text>
+    </view>
+    <view class="order-total final">
+      <text>合计</text>
+      <text class="final-price">¥{{finalPrice}}</text>
+    </view>
+  </view>
+
+  <view class="section discount-options" wx:if="{{runDiscount > 0 || coupon}}">
+    <view class="discount-item" wx:if="{{runDiscount > 0}}">
+      <view class="discount-info">
+        <text class="title">🏃 跑步里程抵扣</text>
+        <text class="desc">今日跑了 {{todayRunDistance}} 米，可抵 ¥{{runDiscount}}</text>
+        <text class="desc">{{runRule}}</text>
+      </view>
+      <tech-switch checked="{{useRunDiscount}}" bindchange="toggleRunDiscount" />
+    </view>
+    <view class="discount-item" wx:if="{{coupon && coupon.value}}">
+      <view class="discount-info">
+        <text class="title">🎟️ {{coupon.name || '专享优惠券'}}</text>
+        <text class="desc">抵扣 ¥{{coupon.value || '1.00'}}</text>
+      </view>
+      <tech-switch checked="{{useCoupon}}" bindchange="toggleCoupon" />
+    </view>
+  </view>
+
+  <view class="section">
+    <view class="section-title">备注</view>
+    <textarea class="remark-input tech-input" placeholder="口味、忌口等备注信息" value="{{remark}}" bindinput="onRemarkInput" placeholder-style="color:#8597ad"></textarea>
+  </view>
+
+  <view class="submit-bar">
+    <view class="total-info">
+      <text class="total-label">实付：</text>
+      <text class="total-amount">¥{{finalPrice}}</text>
+    </view>
+    <view class="submit-btn {{submitting ? 'disabled' : ''}} tech-control tech-primary" bindtap="submitOrder" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+      {{submitting ? '提交中...' : '提交订单'}}
+    </view>
+  </view>
+</view>

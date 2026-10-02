@@ -1,0 +1,8 @@
+/* vinodjangid07/itchy-mule-52; native controlled change event replaces :checked. */
+:host { display:inline-block; flex-shrink:0; width:120rpx; height:88rpx; }
+.switch { display:flex; align-items:center; justify-content:center; height:88rpx; width:120rpx; margin:0; padding:0; background:transparent; overflow:visible; }.switch::after { border:0; }
+.track { position:relative; width:100rpx; height:34rpx; background:#e2eaf5; border:2rpx solid #c4d1e4; border-radius:40rpx; transition:background .2s,border-color .2s; }
+.thumb { position:absolute; height:44rpx; width:44rpx; left:-2rpx; top:-7rpx; background:#f8fbff; border-radius:50%; border:2rpx solid #a2b5d0; box-sizing:border-box; display:flex; align-items:center; justify-content:center; transition:transform .2s,border-color .2s,box-shadow .2s; }
+.light { width:12rpx; height:12rpx; border-radius:50%; background:#b3c3d8; }
+.switch--on .thumb { transform:translateX(60rpx); border-color:#8cc0e9; box-shadow:0 0 18rpx #6fabe633,inset 0 0 10rpx #b3d6f644; }.switch--on .track { background:#badcf3; border-color:#8ab8dd; }.switch--on .light { background:#5b98c9; box-shadow:0 0 12rpx #8dbeed; }.switch--pressed { opacity:.7; }.switch[disabled] { opacity:.4; }
+@media (prefers-reduced-motion:reduce) { .track,.thumb { transition:none; } }

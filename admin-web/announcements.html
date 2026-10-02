@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>公告管理 - 校园小程序管理后台</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="admin-container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2><i class="fas fa-school"></i> 校园小程序</h2>
+                <p>管理后台</p>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="dashboard.html"><i class="fas fa-home"></i> 控制台</a>
+                <a href="posts.html"><i class="fas fa-file-alt"></i> 动态管理</a>
+                <a href="orders.html"><i class="fas fa-shopping-cart"></i> 订单管理</a>
+                <a href="menus.html"><i class="fas fa-utensils"></i> 菜单管理</a>
+                <a href="users.html"><i class="fas fa-users"></i> 用户管理</a>
+                <a href="admins.html"><i class="fas fa-user-shield"></i> 管理员</a>
+                <a href="announcements.html" class="active"><i class="fas fa-bullhorn"></i> 公告管理</a>
+                <a href="logs.html"><i class="fas fa-history"></i> 操作日志</a>
+                <a href="cleanup.html"><i class="fas fa-broom"></i> 数据清理</a>
+                <a href="settings.html"><i class="fas fa-cog"></i> 系统设置</a>
+            </nav>
+            <div class="sidebar-footer">
+                <button onclick="logout()"><i class="fas fa-sign-out-alt"></i> 退出登录</button>
+            </div>
+        </aside>
+        
+        <main class="main-content">
+            <header class="page-header">
+                <h1><i class="fas fa-bullhorn"></i> 公告管理</h1>
+                <div class="user-info">
+                    <span id="adminName">管理员</span>
+                    <span class="badge super" id="adminRole">超级管理员</span>
+                </div>
+            </header>
+            
+            <div class="content-card">
+                <div class="card-header">
+                    <h3>公告列表</h3>
+                    <div class="header-actions">
+                        <select id="typeFilter" onchange="loadAnnouncements()">
+                            <option value="">全部类型</option>
+                            <option value="system">系统公告</option>
+                            <option value="activity">活动公告</option>
+                            <option value="notice">通知公告</option>
+                            <option value="update">更新公告</option>
+                        </select>
+                        <select id="statusFilter" onchange="loadAnnouncements()">
+                            <option value="">全部状态</option>
+                            <option value="published">已发布</option>
+                            <option value="draft">草稿</option>
+                        </select>
+                        <button class="btn-primary" onclick="showAnnouncementModal()"><i class="fas fa-plus"></i> 发布公告</button>
+                    </div>
+                </div>
+                
+                <div class="table-container">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>标题</th>
+                                <th>类型</th>
+                                <th>发布时间</th>
+                                <th>阅读量</th>
+                                <th>状态</th>
+                                <th>置顶</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody id="announcementsTable">
+                            <tr>
+                                <td colspan="7" class="loading">加载中...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="pagination" id="pagination"></div>
+            </div>
+            
+            <div class="content-card">
+                <div class="card-header">
+                    <h3>公告统计</h3>
+                </div>
+                <div class="stats-row">
+                    <div class="stat-box">
+                        <i class="fas fa-bullhorn"></i>
+                        <div class="stat-content">
+                            <span class="stat-value" id="totalCount">0</span>
+                            <span class="stat-label">公告总数</span>
+                        </div>
+                    </div>
+                    <div class="stat-box">
+                        <i class="fas fa-check-circle"></i>
+                        <div class="stat-content">
+                            <span class="stat-value" id="publishedCount">0</span>
+                            <span class="stat-label">已发布</span>
+                        </div>
+                    </div>
+                    <div class="stat-box">
+                        <i class="fas fa-edit"></i>
+                        <div class="stat-content">
+                            <span class="stat-value" id="draftCount">0</span>
+                            <span class="stat-label">草稿</span>
+                        </div>
+                    </div>
+                    <div class="stat-box">
+                        <i class="fas fa-eye"></i>
+                        <div class="stat-content">
+                            <span class="stat-value" id="totalViews">0</span>
+                            <span class="stat-label">总阅读量</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <div class="modal" id="announcementModal">
+        <div class="modal-content modal-large">
+            <div class="modal-header">
+                <h3 id="modalTitle">发布公告</h3>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <input type="hidden" id="announcementId">
+                <div class="form-group">
+                    <label>公告标题 <span class="required">*</span></label>
+                    <input type="text" id="announcementTitle" placeholder="请输入公告标题">
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>公告类型</label>
+                        <select id="announcementType">
+                            <option value="system">系统公告</option>
+                            <option value="activity">活动公告</option>
+                            <option value="notice">通知公告</option>
+                            <option value="update">更新公告</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>发布状态</label>
+                        <select id="announcementStatus">
+                            <option value="published">立即发布</option>
+                            <option value="draft">保存草稿</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>公告内容 <span class="required">*</span></label>
+                    <textarea id="announcementContent" rows="8" placeholder="请输入公告内容"></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>封面图片</label>
+                        <div class="image-upload-small">
+                            <input type="file" id="coverImageInput" accept="image/*" hidden>
+                            <button type="button" class="btn-secondary" onclick="document.getElementById('coverImageInput').click()">
+                                <i class="fas fa-image"></i> 选择图片
+                            </button>
+                            <div class="image-preview-small" id="coverPreview"></div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>选项</label>
+                        <div class="checkbox-group">
+                            <label class="checkbox-item">
+                                <input type="checkbox" id="isTop">
+                                <span>置顶显示</span>
+                            </label>
+                            <label class="checkbox-item">
+                                <input type="checkbox" id="isImportant">
+                                <span>重要公告</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>生效时间</label>
+                    <div class="form-row">
+                        <input type="datetime-local" id="startTime">
+                        <input type="datetime-local" id="endTime" placeholder="结束时间(可选)">
+                    </div>
+                    <p class="form-hint">不设置则立即生效，永久有效</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-secondary" onclick="closeModal()">取消</button>
+                <button class="btn-secondary" onclick="saveAnnouncement('draft')">保存草稿</button>
+                <button class="btn-primary" onclick="saveAnnouncement('published')">发布公告</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal" id="previewModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>公告预览</h3>
+                <button class="close-btn" onclick="closePreviewModal()">&times;</button>
+            </div>
+            <div class="modal-body preview-body" id="previewContent">
+            </div>
+        </div>
+    </div>
+    <script src="js/config.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/common.js"></script>
+    <script>
+        let currentPage = 1;
+        const pageSize = 10;
+        let coverImageUrl = '';
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            checkLogin();
+            loadAdminInfo();
+            loadAnnouncements();
+            loadStats();
+        });
+        
+        function loadAdminInfo() {
+            const admin = JSON.parse(localStorage.getItem('adminInfo') || '{}');
+            document.getElementById('adminName').textContent = admin.username || '管理员';
+            if (admin.role === 'super') {
+                document.getElementById('adminRole').textContent = '超级管理员';
+                document.getElementById('adminRole').className = 'badge super';
+            } else {
+                document.getElementById('adminRole').textContent = '普通管理员';
+                document.getElementById('adminRole').className = 'badge normal';
+            }
+        }
+        
+        async function loadAnnouncements() {
+            const typeFilter = document.getElementById('typeFilter').value;
+            const statusFilter = document.getElementById('statusFilter').value;
+            
+            try {
+                const result = await callCloudFunction('globalAdmin', {
+                    action: 'getAnnouncementList',
+                    data: {
+                        type: typeFilter,
+                        status: statusFilter,
+                        page: currentPage,
+                        pageSize: pageSize
+                    }
+                });
+                
+                if (result.code === 0) {
+                    renderTable(result.data.list);
+                    renderPagination(result.data.total);
+                }
+            } catch (error) {
+                console.error('加载公告失败:', error);
+                document.getElementById('announcementsTable').innerHTML = '<tr><td colspan="7" class="error">加载失败</td></tr>';
+            }
+        }
+        
+        function renderTable(announcements) {
+            const tbody = document.getElementById('announcementsTable');
+            
+            if (!announcements || announcements.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="7" class="empty">暂无公告</td></tr>';
+                return;
+            }
+            
+            tbody.innerHTML = announcements.map(item => `
+                <tr>
+                    <td>
+                        <div class="title-cell">
+                            ${item.isTop ? '<span class="top-badge">置顶</span>' : ''}
+                            ${item.isImportant ? '<span class="important-badge">重要</span>' : ''}
+                            <span>${item.title}</span>
+                        </div>
+                    </td>
+                    <td><span class="type-badge ${item.type}">${getTypeName(item.type)}</span></td>
+                    <td>${formatTime(item.createTime)}</td>
+                    <td>${item.views || 0}</td>
+                    <td><span class="status-badge ${item.status}">${item.status === 'published' ? '已发布' : '草稿'}</span></td>
+                    <td>${item.isTop ? '<i class="fas fa-check text-success"></i>' : '<i class="fas fa-times text-muted"></i>'}</td>
+                    <td>
+                        <div class="action-btns">
+                            <button onclick="previewAnnouncement('${item._id}')" title="预览"><i class="fas fa-eye"></i></button>
+                            <button onclick="editAnnouncement('${item._id}')" title="编辑"><i class="fas fa-edit"></i></button>
+                            <button onclick="toggleTop('${item._id}', ${!item.isTop})" title="${item.isTop ? '取消置顶' : '置顶'}">
+                                <i class="fas fa-thumbtack"></i>
+                            </button>
+                            <button onclick="deleteAnnouncement('${item._id}')" title="删除"><i class="fas fa-trash"></i></button>
+                        </div>
+                    </td>
+                </tr>
+            `).join('');
+        }
+        
+        function getTypeName(type) {
+            const names = {
+                'system': '系统公告',
+                'activity': '活动公告',
+                'notice': '通知公告',
+                'update': '更新公告'
+            };
+            return names[type] || type;
+        }
+        
+        function renderPagination(total) {
+            const totalPages = Math.ceil(total / pageSize);
+            const pagination = document.getElementById('pagination');
+            
+            if (totalPages <= 1) {
+                pagination.innerHTML = '';
+                return;
+            }
+            
+            let html = '';
+            if (currentPage > 1) {
+                html += `<button onclick="goToPage(${currentPage - 1})"><i class="fas fa-chevron-left"></i></button>`;
+            }
+            
+            for (let i = 1; i <= totalPages; i++) {
+                if (i === 1 || i === totalPages || (i >= currentPage - 2 && i <= currentPage + 2)) {
+                    html += `<button class="${i === currentPage ? 'active' : ''}" onclick="goToPage(${i})">${i}</button>`;
+                } else if (i === currentPage - 3 || i === currentPage + 3) {
+                    html += '<span>...</span>';
+                }
+            }
+            
+            if (currentPage < totalPages) {
+                html += `<button onclick="goToPage(${currentPage + 1})"><i class="fas fa-chevron-right"></i></button>`;
+            }
+            
+            pagination.innerHTML = html;
+        }
+        
+        function goToPage(page) {
+            currentPage = page;
+            loadAnnouncements();
+        }
+        
+        async function loadStats() {
+            try {
+                const result = await callCloudFunction('globalAdmin', {
+                    action: 'getAnnouncementList',
+                    data: { stats: true }
+                });
+                
+                if (result.code === 0 && result.data.stats) {
+                    document.getElementById('totalCount').textContent = result.data.stats.total || 0;
+                    document.getElementById('publishedCount').textContent = result.data.stats.published || 0;
+                    document.getElementById('draftCount').textContent = result.data.stats.draft || 0;
+                    document.getElementById('totalViews').textContent = result.data.stats.views || 0;
+                }
+            } catch (error) {
+                console.error('加载统计失败:', error);
+            }
+        }
+        
+        function showAnnouncementModal() {
+            document.getElementById('announcementId').value = '';
+            document.getElementById('announcementTitle').value = '';
+            document.getElementById('announcementType').value = 'system';
+            document.getElementById('announcementStatus').value = 'published';
+            document.getElementById('announcementContent').value = '';
+            document.getElementById('isTop').checked = false;
+            document.getElementById('isImportant').checked = false;
+            document.getElementById('startTime').value = '';
+            document.getElementById('endTime').value = '';
+            document.getElementById('coverPreview').innerHTML = '';
+            coverImageUrl = '';
+            document.getElementById('modalTitle').textContent = '发布公告';
+            document.getElementById('announcementModal').classList.add('show');
+        }
+        
+        function closeModal() {
+            document.getElementById('announcementModal').classList.remove('show');
+        }
+        
+        async function editAnnouncement(id) {
+            try {
+                const result = await callCloudFunction('globalAdmin', {
+                    action: 'getAnnouncementList',
+                    data: { id }
+                });
+                
+                if (result.code === 0 && result.data) {
+                    const item = result.data;
+                    document.getElementById('announcementId').value = item._id;
+                    document.getElementById('announcementTitle').value = item.title;
+                    document.getElementById('announcementType').value = item.type || 'system';
+                    document.getElementById('announcementStatus').value = item.status || 'published';
+                    document.getElementById('announcementContent').value = item.content || '';
+                    document.getElementById('isTop').checked = item.isTop === true;
+                    document.getElementById('isImportant').checked = item.isImportant === true;
+                    coverImageUrl = item.cover || '';
+                    
+                    if (item.startTime) {
+                        document.getElementById('startTime').value = formatDateTimeLocal(item.startTime);
+                    }
+                    if (item.endTime) {
+                        document.getElementById('endTime').value = formatDateTimeLocal(item.endTime);
+                    }
+                    
+                    if (item.cover) {
+                        document.getElementById('coverPreview').innerHTML = `<img src="${item.cover}" alt="封面">`;
+                    } else {
+                        document.getElementById('coverPreview').innerHTML = '';
+                    }
+                    
+                    document.getElementById('modalTitle').textContent = '编辑公告';
+                    document.getElementById('announcementModal').classList.add('show');
+                }
+            } catch (error) {
+                showNotification('获取公告信息失败', 'error');
+            }
+        }
+        
+        async function saveAnnouncement(status) {
+            const id = document.getElementById('announcementId').value;
+            const title = document.getElementById('announcementTitle').value.trim();
+            const type = document.getElementById('announcementType').value;
+            const content = document.getElementById('announcementContent').value.trim();
+            const isTop = document.getElementById('isTop').checked;
+            const isImportant = document.getElementById('isImportant').checked;
+            const startTime = document.getElementById('startTime').value;
+            const endTime = document.getElementById('endTime').value;
+            
+            if (!title) {
+                showNotification('请输入公告标题', 'error');
+                return;
+            }
+            if (!content) {
+                showNotification('请输入公告内容', 'error');
+                return;
+            }
+            
+            try {
+                const action = id ? 'updateAnnouncement' : 'createAnnouncement';
+                const result = await callCloudFunction('globalAdmin', {
+                    action: action,
+                    data: {
+                        id: id || undefined,
+                        title,
+                        type,
+                        content,
+                        status,
+                        isTop,
+                        isImportant,
+                        cover: coverImageUrl,
+                        startTime: startTime ? new Date(startTime).getTime() : null,
+                        endTime: endTime ? new Date(endTime).getTime() : null
+                    }
+                });
+                
+                if (result.code === 0) {
+                    showNotification(status === 'published' ? '公告发布成功' : '草稿保存成功', 'success');
+                    closeModal();
+                    loadAnnouncements();
+                    loadStats();
+                } else {
+                    showNotification(result.message, 'error');
+                }
+            } catch (error) {
+                showNotification('操作失败，请重试', 'error');
+            }
+        }
+        
+        async function toggleTop(id, isTop) {
+            try {
+                const result = await callCloudFunction('globalAdmin', {
+                    action: 'updateAnnouncement',
+                    data: { id, isTop }
+                });
+                
+                if (result.code === 0) {
+                    showNotification(isTop ? '已置顶' : '已取消置顶', 'success');
+                    loadAnnouncements();
+                } else {
+                    showNotification(result.message, 'error');
+                }
+            } catch (error) {
+                showNotification('操作失败', 'error');
+            }
+        }
+        
+        async function deleteAnnouncement(id) {
+            if (!confirm('确定要删除这条公告吗？')) return;
+            
+            try {
+                const result = await callCloudFunction('globalAdmin', {
+                    action: 'deleteAnnouncement',
+                    data: { id }
+                });
+                
+                if (result.code === 0) {
+                    showNotification('公告删除成功', 'success');
+                    loadAnnouncements();
+                    loadStats();
+                } else {
+                    showNotification(result.message, 'error');
+                }
+            } catch (error) {
+                showNotification('删除失败', 'error');
+            }
+        }
+        
+        async function previewAnnouncement(id) {
+            try {
+                const result = await callCloudFunction('globalAdmin', {
+                    action: 'getAnnouncementList',
+                    data: { id }
+                });
+                
+                if (result.code === 0 && result.data) {
+                    const item = result.data;
+                    document.getElementById('previewContent').innerHTML = `
+                        <div class="preview-header">
+                            ${item.cover ? `<img src="${item.cover}" alt="封面" class="preview-cover">` : ''}
+                            <h2>${item.title}</h2>
+                            <div class="preview-meta">
+                                <span><i class="fas fa-clock"></i> ${formatTime(item.createTime)}</span>
+                                <span><i class="fas fa-eye"></i> ${item.views || 0} 次阅读</span>
+                                <span class="type-badge ${item.type}">${getTypeName(item.type)}</span>
+                            </div>
+                        </div>
+                        <div class="preview-body-content">
+                            ${item.content.replace(/\n/g, '<br>')}
+                        </div>
+                    `;
+                    document.getElementById('previewModal').classList.add('show');
+                }
+            } catch (error) {
+                showNotification('获取公告内容失败', 'error');
+            }
+        }
+        
+        function closePreviewModal() {
+            document.getElementById('previewModal').classList.remove('show');
+        }
+        
+        document.getElementById('coverImageInput').addEventListener('change', async function(e) {
+            const file = e.target.files[0];
+            if (!file) return;
+            
+            showNotification('正在上传图片...', 'info');
+            
+            try {
+                const result = await uploadImage(file);
+                if (result.fileID) {
+                    coverImageUrl = result.fileID;
+                    document.getElementById('coverPreview').innerHTML = `
+                        <img src="${result.tempFileURL || result.fileID}" alt="封面">
+                        <button class="remove-btn" onclick="removeCover()">×</button>
+                    `;
+                    showNotification('图片上传成功', 'success');
+                }
+            } catch (error) {
+                showNotification('图片上传失败', 'error');
+            }
+        });
+        
+        function removeCover() {
+            coverImageUrl = '';
+            document.getElementById('coverPreview').innerHTML = '';
+        }
+        
+        function formatTime(timestamp) {
+            if (!timestamp) return '-';
+            const date = new Date(timestamp);
+            return date.toLocaleString('zh-CN', {
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit',
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+        }
+        
+        function formatDateTimeLocal(timestamp) {
+            if (!timestamp) return '';
+            const date = new Date(timestamp);
+            const year = date.getFullYear();
+            const month = String(date.getMonth() + 1).padStart(2, '0');
+            const day = String(date.getDate()).padStart(2, '0');
+            const hours = String(date.getHours()).padStart(2, '0');
+            const minutes = String(date.getMinutes()).padStart(2, '0');
+            return `${year}-${month}-${day}T${hours}:${minutes}`;
+        }
+    </script>
+    
+    <style>
+        .stats-row {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        
+        .stat-box {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 20px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 10px;
+        }
+        
+        .stat-box i {
+            font-size: 30px;
+            color: #667eea;
+        }
+        
+        .stat-content {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .stat-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .stat-label {
+            font-size: 13px;
+            color: #666;
+        }
+        
+        .title-cell {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .top-badge {
+            background: #e74c3c;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 11px;
+        }
+        
+        .important-badge {
+            background: #f39c12;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 11px;
+        }
+        
+        .type-badge {
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+        
+        .type-badge.system { background: #d1ecf1; color: #0c5460; }
+        .type-badge.activity { background: #d4edda; color: #155724; }
+        .type-badge.notice { background: #fff3cd; color: #856404; }
+        .type-badge.update { background: #cce5ff; color: #004085; }
+        
+        .status-badge {
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+        
+        .status-badge.published { background: #d4edda; color: #155724; }
+        .status-badge.draft { background: #e2e3e5; color: #383d41; }
+        
+        .modal-large {
+            max-width: 700px;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+            color: #333;
+        }
+        
+        .required {
+            color: #e74c3c;
+        }
+        
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+        
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        
+        .form-hint {
+            font-size: 12px;
+            color: #999;
+            margin-top: 5px;
+        }
+        
+        .checkbox-group {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+        }
+        
+        .image-upload-small {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .image-preview-small {
+            position: relative;
+        }
+        
+        .image-preview-small img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+        
+        .remove-btn {
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #e74c3c;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 12px;
+        }
+        
+        .action-btns {
+            display: flex;
+            gap: 5px;
+        }
+        
+        .action-btns button {
+            width: 32px;
+            height: 32px;
+            border: none;
+            background: #f8f9fa;
+            color: #666;
+            cursor: pointer;
+            border-radius: 6px;
+            transition: all 0.3s;
+        }
+        
+        .action-btns button:hover {
+            background: #667eea;
+            color: white;
+        }
+        
+        .text-success { color: #28a745; }
+        .text-muted { color: #999; }
+        
+        .preview-header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+            margin-bottom: 20px;
+        }
+        
+        .preview-cover {
+            max-width: 100%;
+            max-height: 200px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        
+        .preview-header h2 {
+            margin: 0 0 10px;
+            color: #333;
+        }
+        
+        .preview-meta {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            font-size: 13px;
+            color: #666;
+        }
+        
+        .preview-meta i {
+            margin-right: 5px;
+        }
+        
+        .preview-body-content {
+            line-height: 1.8;
+            color: #333;
+        }
+        
+        .preview-body {
+            max-height: 60vh;
+            overflow-y: auto;
+        }
+        
+        .empty, .loading {
+            padding: 40px;
+            text-align: center;
+            color: #999;
+        }
+        
+        .error {
+            padding: 40px;
+            text-align: center;
+            color: #e74c3c;
+        }
+        
+        @media (max-width: 768px) {
+            .stats-row {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</body>
+</html>

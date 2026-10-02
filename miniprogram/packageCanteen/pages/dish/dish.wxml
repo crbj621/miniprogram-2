@@ -1,0 +1,11 @@
+<mahiro-scroll id="page-refresh" class="page-refresh-scroll" bindrefresh="refreshPage">
+<view class="page" wx:if="{{dish}}">
+  <image wx:if="{{dish.image}}" class="cover" src="{{dish.image}}" mode="aspectFill" bindtap="preview"></image><view wx:else class="cover placeholder">🍚</view>
+  <view class="info"><text class="title">{{dish.name}}</text><text class="stall">{{stall.name}} · {{stall.location}}</text><text class="price" wx:if="{{dish.price !== null}}">¥{{dish.price}}</text><text class="desc">{{dish.description}}</text><view class="score">{{count ? score + ' / 5 分' : '暂无评分'}} <text>· {{count}} 条评价</text></view></view>
+  <view class="form"><text class="heading">{{myScore ? '更新我的评价' : '吃过这道菜？来打分'}}</text><view class="stars"><view wx:for="{{stars}}" wx:key="*this" data-score="{{item}}" bindtap="selectScore" class="{{myScore >= item ? 'on' : ''}} tap-action" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">★</view></view><textarea value="{{comment}}" bindinput="onComment" maxlength="500" placeholder="味道、份量、性价比怎么样？写给同学参考" placeholder-style="color:#8597ad" class="tech-input" /><button bindtap="submit" loading="{{saving}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100" class="tech-control">发布评价</button></view>
+  <view class="heading list-heading">同学评价</view>
+  <view class="review" wx:for="{{reviews}}" wx:key="_id"><view class="review-top"><text>{{item.nickname}}{{item.mine ? '（我）' : ''}}</text><text class="review-score">{{item.score}} 分</text></view><text class="review-comment">{{item.comment}}</text><text class="time">{{item.updatedAt}}</text></view>
+  <view class="empty" wx:if="{{!reviews.length}}">还没有评价，欢迎来打第一分</view>
+</view>
+
+</mahiro-scroll>

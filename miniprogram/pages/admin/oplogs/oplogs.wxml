@@ -1,0 +1,30 @@
+<view class="container">
+  <view class="filters">
+    <picker mode="selector" range="{{moduleOptions}}" range-key="name" value="{{moduleIndex}}" bindchange="onModulePicker">
+      <view class="picker">模块：{{moduleOptions[moduleIndex].name}}</view>
+    </picker>
+    <picker mode="selector" range="{{actionOptions}}" range-key="name" value="{{actionIndex}}" bindchange="onActionPicker">
+      <view class="picker">动作：{{actionOptions[actionIndex].name}}</view>
+    </picker>
+    <view class="btn tech-control" bindtap="reload" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">筛选</view>
+  </view>
+
+  <view class="list">
+    <view class="item" wx:for="{{list}}" wx:key="_id">
+      <view class="row">
+        <view class="tag">{{item.module}} / {{item.action}}</view>
+        <view class="time">{{item.createTimeText}}</view>
+      </view>
+      <view class="detail">{{item.detail}}</view>
+      <view class="meta">操作人：{{item.adminName || '系统'}}</view>
+    </view>
+  </view>
+
+  <view class="empty" wx:if="{{!loading && list.length === 0}}">
+    <text>暂无日志</text>
+  </view>
+
+  <view class="loading" wx:if="{{loading}}"><view class="uiverse-dots"><view class="uiverse-dot" /><view class="uiverse-dot" /><view class="uiverse-dot" /></view>
+    <text>加载中...</text>
+  </view>
+</view>

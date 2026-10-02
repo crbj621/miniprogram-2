@@ -1,0 +1,116 @@
+.container {
+  min-height: 100vh;
+  background: #f8f9fb;
+  padding-bottom: 40rpx;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30rpx 40rpx;
+  background: #fff;
+  border-radius: 0 0 40rpx 40rpx;
+  box-shadow: 0 4rpx 20rpx rgba(255, 154, 158, 0.15);
+  margin-bottom: 30rpx;
+}
+
+.title {
+  font-size: 36rpx;
+  font-weight: 800;
+  color: #333;
+}
+
+.actions {
+  display: flex;
+  gap: 20rpx;
+}
+
+.btn-link {
+  color: #ff9a9e;
+  font-size: 28rpx;
+  font-weight: bold;
+  padding: 10rpx 20rpx;
+  background: rgba(255, 154, 158, 0.1);
+  border-radius: 30rpx;
+}
+
+.list {
+  padding: 0 30rpx;
+}
+
+.item {
+  background: #fff;
+  border-radius: 20rpx;
+  padding: 32rpx;
+  margin-bottom: 24rpx;
+  box-shadow: 0 4rpx 16rpx rgba(255, 154, 158, 0.08);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+
+.shop {
+  font-size: 34rpx;
+  font-weight: 800;
+  color: #333;
+}
+
+.price {
+  font-size: 36rpx;
+  font-weight: 900;
+  color: #ff7875;
+}
+
+.sub {
+  font-size: 26rpx;
+  color: #666;
+  margin-bottom: 12rpx;
+  line-height: 1.5;
+}
+
+.bottom {
+  margin-top: 30rpx;
+  margin-bottom: 0;
+  padding-top: 24rpx;
+  border-top: 2rpx dashed #f0f0f0;
+}
+
+.tag {
+  font-size: 26rpx;
+  color: #ff9a9e;
+  font-weight: bold;
+  background: rgba(255, 154, 158, 0.1);
+  padding: 6rpx 16rpx;
+  border-radius: 12rpx;
+}
+
+.btn {
+  margin: 0;
+  background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+  color: #fff;
+  font-size: 26rpx;
+  font-weight: bold;
+  padding: 0 40rpx;
+  line-height: 60rpx;
+  border-radius: 30rpx;
+  box-shadow: 0 4rpx 10rpx rgba(255, 154, 158, 0.3);
+}
+
+.btn::after {
+  border: none;
+}
+
+.empty, .loading {
+  text-align: center;
+  padding: 100rpx 0;
+  color: #999;
+  font-size: 28rpx;
+}
+
+
+@import "../../../styles/tech-ui.wxss";

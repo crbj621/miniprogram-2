@@ -1,0 +1,103 @@
+@import "../../../styles/admin-ui.wxss";
+.container {
+  min-height: 100vh;
+  background-color: #fffbf5;
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-bar {
+  padding: 20rpx;
+  background-color: #fff;
+}
+
+.picker-btn {
+  padding: 16rpx 24rpx;
+  background-color: #fffbf5;
+  border-radius: 8rpx;
+  font-size: 26rpx;
+  color: #666;
+  display: inline-block;
+}
+
+.report-list {
+  flex: 1;
+  padding: 20rpx;
+}
+
+.report-item {
+  background-color: #fff;
+  border-radius: 24rpx;
+  padding: 24rpx;
+  margin-bottom: 20rpx;
+}
+
+.report-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16rpx;
+}
+
+.report-title {
+  flex: 1;
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #333;
+}
+
+.report-status {
+  font-size: 22rpx;
+  padding: 6rpx 12rpx;
+  border-radius: 6rpx;
+  margin-left: 16rpx;
+}
+
+.report-status.pending {
+  background-color: #fff7e6;
+  color: #fa8c16;
+}
+
+.report-status.handled {
+  background-color: #f0fff0;
+  color: #52c41a;
+}
+
+.report-reason, .report-time {
+  font-size: 24rpx;
+  color: #666;
+  margin-bottom: 8rpx;
+}
+
+.report-actions {
+  display: flex;
+  gap: 16rpx;
+  margin-top: 16rpx;
+  padding-top: 16rpx;
+  border-top: 1rpx solid #f0f0f0;
+}
+
+.action-btn {
+  padding: 12rpx 24rpx;
+  border-radius: 8rpx;
+  font-size: 24rpx;
+}
+
+.action-btn.delete {
+  background-color: #ff4d4f;
+  color: #fff;
+}
+
+.action-btn.ignore {
+  background-color: #fffbf5;
+  color: #666;
+}
+
+.loading, .no-more, .empty {
+  text-align: center;
+  padding: 30rpx;
+  color: #81756c;
+  font-size: 26rpx;
+}
+
+@import "../../../styles/tech-ui.wxss";

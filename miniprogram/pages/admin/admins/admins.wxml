@@ -1,0 +1,60 @@
+<view class="container">
+  <view class="topbar">
+    <view class="title">管理员管理</view>
+    <view class="btn primary tech-control tech-primary" bindtap="openCreate" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">添加子管理员</view>
+  </view>
+
+  <view class="list">
+    <view class="item" wx:for="{{list}}" wx:key="_id">
+      <view class="row">
+        <view class="name">{{item.username || item.account}}</view>
+        <view class="tag {{item.role}}">{{item.role === 'super' ? '超级管理员' : '子管理员'}}</view>
+      </view>
+      <view class="meta">账号：{{item.account}}　状态：{{item.status || 'active'}}</view>
+      <view class="ops">
+        <view class="op" data-item="{{item}}" bindtap="toggleStatus" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">{{item.status === 'disabled' ? '启用' : '禁用'}}</view>
+        <view class="op" data-item="{{item}}" bindtap="resetPwd" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">重置密码</view>
+        <view class="op danger" wx:if="{{item.role !== 'super'}}" data-item="{{item}}" bindtap="remove" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">删除</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="empty" wx:if="{{!loading && list.length === 0}}">
+    <text>暂无管理员</text>
+  </view>
+
+  <view class="loading" wx:if="{{loading}}"><view class="uiverse-dots"><view class="uiverse-dot" /><view class="uiverse-dot" /><view class="uiverse-dot" /></view>
+    <text>加载中...</text>
+  </view>
+
+  <!-- 新增子管理员 -->
+  <view class="mask" wx:if="{{showModal}}" catchtouchmove="preventTouchMove" bindtap="closeModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"></view>
+  <view class="modal-wrap" wx:if="{{showModal}}" catchtouchmove="preventTouchMove">
+    <view class="modal tech-card" catchtap="" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+      <view class="modal-header">
+        <view class="modal-title">添加子管理员</view>
+        <view class="modal-close" bindtap="closeModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">✕</view>
+      </view>
+
+      <view class="modal-body">
+        <view class="field">
+          <view class="label">账号</view>
+          <input class="input tech-input" value="{{form.account}}" placeholder="例如：admin001" bindinput="onInput" data-field="account" placeholder-style="color:#8597ad" />
+        </view>
+        <view class="field">
+          <view class="label">姓名</view>
+          <input class="input tech-input" value="{{form.username}}" placeholder="例如：张三" bindinput="onInput" data-field="username" placeholder-style="color:#8597ad" />
+        </view>
+        <view class="field">
+          <view class="label">密码</view>
+          <input class="input tech-input" password value="{{form.password}}" placeholder="请输入8位以上密码" bindinput="onInput" data-field="password" placeholder-style="color:#8597ad" />
+        </view>
+      </view>
+
+      <view class="modal-footer">
+        <button class="btn ghost tech-control" bindtap="closeModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">取消</button>
+        <button class="btn primary uiverse-sweep uiverse-sweep--tint tech-control tech-primary" bindtap="submit" loading="{{submitting}}" hover-class="uiverse-sweep-pressed tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"><view class="uiverse-sweep-plane" />创建</button>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,1 @@
+<button class="switch {{checked ? 'switch--on' : ''}}" bindtap="toggle" disabled="{{disabled}}" hover-class="switch--pressed tech-pressed" hover-start-time="0" hover-stay-time="120" aria-role="switch" aria-checked="{{checked}}" aria-label="{{checked ? '已开启，点击关闭' : '已关闭，点击开启'}}"><view class="track"><view class="thumb"><view class="light"/></view></view></button>

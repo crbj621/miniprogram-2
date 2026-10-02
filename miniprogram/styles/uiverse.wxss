@@ -1,0 +1,26 @@
+/* Adapted from Uiverse.io by adamgiebl: curly-wombat-58 and blue-mole-92.
+ * Original code and MIT license: docs/vendor/uiverse/. */
+.uiverse-sweep { position: relative; overflow: hidden; z-index: 1; border: 2rpx solid #6083c7; background: #f7f8ff; color: #5274b2; transition: color .3s; }
+.uiverse-sweep .uiverse-sweep-plane { position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index: -1; pointer-events: none; }
+.uiverse-sweep-plane::before { content: ""; position: absolute; width: 8%; height: 500%; top: 50%; left: 50%; background: #dae6ff; transform: translate(-50%,-50%) rotate(-60deg); transition: transform .3s,width .3s,background .3s; }
+.uiverse-sweep-pressed .uiverse-sweep-plane::before { transform: translate(-50%,-50%) rotate(-90deg); width: 100%; background: #6083c7; }
+.uiverse-sweep-pressed { color: #fff !important; }
+.uiverse-blob-card { position: relative; overflow: hidden; z-index: 0; border-radius: 28rpx; background: #f4f5ff; box-shadow: 0 10rpx 32rpx -8rpx #9a8ed32b; }
+.uiverse-blob-card .uiverse-blob { position: absolute; z-index: 0; border-radius: 5em; width: 210rpx; height: 210rpx; pointer-events: none; }
+.uiverse-blob-card .uiverse-blob--one { left: -75rpx; top: -110rpx; background: #bde9f7; }
+.uiverse-blob-card .uiverse-blob--two { right: -110rpx; top: -35rpx; background: #e4d8fb; }
+.uiverse-blob-card .uiverse-blob--three { left: -95rpx; bottom: -115rpx; background: #f9dbe8; }
+.uiverse-blob-card .uiverse-blob--four { right: -100rpx; bottom: -170rpx; background: #dbeaff; }
+.uiverse-blob-card .uiverse-card-content { position: relative; z-index: 1; }
+.uiverse-blob-card .uiverse-card-glaze { position: absolute; inset: 0; z-index: 0; background: linear-gradient(135deg,#ffffffb8,#ffffff40); pointer-events: none; }
+@media (prefers-reduced-motion: reduce) { .uiverse-sweep-plane::before,.uiverse-sweep { transition: none; } }
+
+.uiverse-sweep--tint { border: 0; color: inherit; background: inherit; }
+.uiverse-sweep--tint .uiverse-sweep-plane::before { background: #ffffff26; }
+.uiverse-sweep--tint.uiverse-sweep-pressed .uiverse-sweep-plane::before { background: #ffffff50; }
+/* Uiverse adamgiebl/thin-lionfish-5, compact native WXSS adaptation. */
+.uiverse-dots { display: flex; align-items: center; justify-content: center; gap: 10rpx; height: 28rpx; }
+.uiverse-dot { height: 12rpx; width: 12rpx; border-radius: 50%; background: #b3d4fc; animation: uiverse-pulse 1.5s infinite ease-in-out; }
+.uiverse-dot:nth-child(1) { animation-delay: -.3s; }.uiverse-dot:nth-child(2) { animation-delay: -.1s; }.uiverse-dot:nth-child(3) { animation-delay: .1s; }
+@keyframes uiverse-pulse { 0%,100% { transform: scale(.8); background: #b3d4fc; box-shadow: 0 0 0 0 #b2d4fc99; } 50% { transform: scale(1.2); background: #6793fb; box-shadow: 0 0 0 8rpx #b2d4fc00; } }
+@media (prefers-reduced-motion: reduce) { .uiverse-dot { animation: none; } }

@@ -1,0 +1,43 @@
+<view class="page">
+  <view class="header">
+    <view class="header-bg"></view>
+    <view class="header-content">
+      <view class="back-btn tech-control" bindtap="goBack" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+        <text class="back-icon">←</text>
+      </view>
+      <view class="header-center">
+        <image wx:if="{{toAvatar}}" class="header-avatar" src="{{toAvatar}}" mode="aspectFill"></image><view wx:else class="header-avatar image-placeholder">同</view>
+        <text class="header-name">{{toName}}</text>
+      </view>
+      <view class="header-right"></view>
+    </view>
+  </view>
+
+  <scroll-view scroll-y class="message-list" scroll-into-view="{{scrollToView}}" scroll-with-animation>
+    <view class="message-item {{item.isMine ? 'mine' : 'other'}}" wx:for="{{messages}}" wx:key="_id" id="msg-{{index}}">
+      <block wx:if="{{!item.isMine}}"><image wx:if="{{toAvatar}}" class="msg-avatar" src="{{toAvatar}}" mode="aspectFill"></image><view wx:else class="msg-avatar image-placeholder">同</view></block>
+      <view class="msg-bubble">
+        <text class="msg-text">{{item.content}}</text>
+      </view>
+      <block wx:if="{{item.isMine}}"><image wx:if="{{myAvatar}}" class="msg-avatar" src="{{myAvatar}}" mode="aspectFill"></image><view wx:else class="msg-avatar image-placeholder">同</view></block>
+    </view>
+    
+    <view class="empty-state" wx:if="{{messages.length === 0 && !loading}}">
+      <text class="empty-icon">👋</text>
+      <text class="empty-text">开始聊天吧</text>
+      <text class="empty-tip">发送第一条消息给 TA</text>
+    </view>
+    
+    <view class="bottom-space"></view>
+  </scroll-view>
+
+  <view class="input-bar">
+    <view class="input-wrapper">
+      <input class="msg-input tech-input" placeholder="输入消息..." value="{{inputContent}}" bindinput="onInput" bindconfirm="onSend" confirm-type="send" placeholder-style="color:#8597ad" />
+    </view>
+    <view class="send-btn {{inputContent ? 'active' : ''}} tech-control tech-primary" bindtap="onSend" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+      <text class="send-icon">✈️</text>
+      <text>发送</text>
+    </view>
+  </view>
+</view>
