@@ -39,7 +39,7 @@ roles = {
     'docs/ui.md': '当前可爱界面、科技按钮、组件与布局预览',
     'docs/english.md': '四六级内容来源、学习计划、打卡、挑战、金币、伙伴及完整接口',
     'docs/gift-sites.md': '祝福模板、免费实时预览、画布、公示、朋友留言、金币发放、域名和清理',
-    'scripts/test-gift-preview-ui.js': '预览串行最后一写、续期发布生命周期、匿名Cookie、价格、公示刷新和管理员发金币行为回归',
+    'scripts/test-gift-preview-ui.js': '三步制作与草稿保留、视频生命周期、预览串行最后一写、续期发布、匿名Cookie、价格、公示和发金币回归',
     'docs/upgrade-checklist.md': '本次升级验收与仍需用户操作的真实边界',
     'miniprogram/utils/page-share.ts': '全46页好友／朋友圈分享；公开路由参数过滤与单页隐私保护',
     'miniprogram/utils/gifts-api.ts': '祝福服务请求与创建幂等编号；经api-client',

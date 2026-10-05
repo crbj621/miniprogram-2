@@ -16,7 +16,7 @@ function ok(value, label) { assert.ok(value, label); checks++ }
 function harness(pageName, request, publicApi = {}) {
   const timers = new Map(), intervals = new Map(), changes = [], calls = [], storage = new Map(), nextTicks = []
   let timerId = 0, requestId = 0, page
-  const wx = { nextTick: callback => nextTicks.push(callback), createVideoContext: id => ({ play: () => calls.push({ kind: 'video', action: 'play', id }), pause: () => calls.push({ kind: 'video', action: 'pause', id }), stop: () => calls.push({ kind: 'video', action: 'stop', id }) }), showToast: options => calls.push({ kind: 'toast', ...options }), showModal: options => calls.push({ kind: 'modal', ...options }), getStorageSync: key => storage.get(key) || '', setStorageSync: (key, value) => storage.set(key, value), removeStorageSync: key => storage.delete(key), navigateTo() {}, navigateBack() {}, stopPullDownRefresh() {} }
+  const wx = { nextTick: callback => nextTicks.push(callback), createVideoContext: id => ({ play: () => calls.push({ kind: 'video', action: 'play', id }), pause: () => calls.push({ kind: 'video', action: 'pause', id }), stop: () => calls.push({ kind: 'video', action: 'stop', id }) }), showToast: options => calls.push({ kind: 'toast', ...options }), showModal: options => calls.push({ kind: 'modal', ...options }), pageScrollTo: options => calls.push({ kind: 'scroll', ...options }), getStorageSync: key => storage.get(key) || '', setStorageSync: (key, value) => storage.set(key, value), removeStorageSync: key => storage.delete(key), navigateTo() {}, navigateBack() {}, stopPullDownRefresh() {} }
   function load(file) {
     const module = { exports: {} }, code = ts.transpileModule(fs.readFileSync(file, 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2017 } }).outputText
     vm.runInNewContext(code, { module, exports: module.exports, wx, Date, Math, JSON, Promise, Set, console,
@@ -46,8 +46,10 @@ async function readyEditor(request, trialAvailable = false) {
 }
 
 async function pricingAndCanvas() {
-  const { page } = await readyEditor(async () => ({}), true)
-  equal(page.data.layout.elements.length, 4, 'editor starts with an immediately visible four-field canvas')
+  const value = await readyEditor(async () => ({}), true), { page } = value
+  equal([page.data.layout, page.data.advancedOpen], [null, false], 'beginner starts with automatic layout and collapsed advanced settings')
+  page.toggleLayout(); value.flushNextTicks()
+  equal(page.data.layout.elements.length, 4, 'explicit free layout retains the editable four-field canvas')
   equal(page.data.canvasElements[1].text, '给 小雨', 'name changes update the visible canvas')
   equal(page.data.background, catalogSource.templates[0].previewBackground, 'first experience includes the curated premium background')
   ok(page.data.dynamicBackgrounds.every(row => row.posterUrl.startsWith('https://www.crbuj.icu/campus-api/gift-assets/') && fs.existsSync(path.resolve(__dirname, '../server/public/gifts', row.poster))), 'all dynamic choice thumbnails are real server assets')
@@ -64,6 +66,80 @@ async function pricingAndCanvas() {
   page.setData({ id, purchasedEffects: ['fireworks'], purchasedBackgrounds: ['meteors'] }); page.quote()
   equal(page.data.price, 0, 'editing preserves purchased effects and does not buy duration/domain again')
   equal(page.data.listed, false, 'new website defaults to unlisted')
+  const trial = await readyEditor(async () => ({}), true), nextTemplate = catalogSource.templates.find(row => row.previewBackground !== catalogSource.templates[0].previewBackground)
+  trial.page.chooseTemplate({ currentTarget: { dataset: { id: nextTemplate.id } } })
+  equal([trial.page.data.background, trial.page.data.effects], [nextTemplate.previewBackground, nextTemplate.previewEffects], 'new template carries its untouched curated trial media')
+  trial.page.setData({ background: 'mint', effects: [] }); trial.page.chooseTemplate({ currentTarget: { dataset: { id: catalogSource.templates[0].id } } })
+  equal([trial.page.data.background, trial.page.data.effects], ['mint', []], 'template switch preserves manually selected background and effects')
+  trial.unload()
+}
+
+async function editorSteps() {
+  const step = value => ({ currentTarget: { dataset: { step: value } } })
+  for (const [options, expected] of [[{}, 1], [{ template: 'love' }, 2], [{ id }, 2]]) {
+    const entry = harness('editor', async () => ({})); let loads = 0
+    entry.page.load = () => { loads++ }; entry.page.onLoad(options)
+    equal([entry.page.data.editorStep, loads], [expected, 1], 'entry route starts at the correct step: ' + JSON.stringify(options))
+  }
+  const requests = [], value = await readyEditor(async (action, data) => {
+    requests.push({ action, data: clone(data) }); return { site: site(data), coins: 200 }
+  }), { page } = value
+  await page.goToStep(step(2))
+  equal(requests.length, 0, 'moving to writing does not create a preview or spend coins')
+  page.setData({ recipient: '  ', advancedOpen: true })
+  await page.goToStep(step(3))
+  equal([page.data.editorStep, requests.length], [2, 0], 'missing recipient stays on the form without a server request')
+  page.input({ currentTarget: { dataset: { field: 'recipient' } }, detail: { value: '小雨' } })
+  page.chooseBackground({ currentTarget: { dataset: { id: 'video-stars' } } }); value.flushNextTicks()
+  const playerId = page.data.videoPlayers[0].id
+  page.onBackgroundVideoPlay({ currentTarget: { dataset: { player: playerId, src: page.data.backgroundVideoUrl } } })
+  page.toggleBackgroundVideo()
+  await page.goToStep(step(3))
+  equal(requests.map(row => row.action), ['preview'], 'third step automatically creates only a free preview')
+  equal([page.data.editorStep, page.data.advancedOpen, page.data.catalog.coins], [3, false, 200], 'preview step collapses settings and leaves the wallet intact')
+  equal([page.data.videoPlayers[0].id, page.data.videoState], [playerId, 'paused'], 'step switching preserves the unified player and user pause')
+  ok(!('durationId' in requests[0].data) && requests[0].data.layout === null, 'default preview uses automatic layout without paid parameters')
+  page.toggleAdvanced(); page.setData({ domainLabel: 'xiaoyu', sender: '好朋友' }); page.quote()
+  equal(page.data.priceBreakdown.reduce((sum, row) => sum + row.price, 0), page.data.price, 'displayed cost breakdown adds up to the existing total')
+  await page.goToStep(step(2)); page.toggleAdvanced(); page.toggleLayout(); value.flushNextTicks()
+  page.addElement({ currentTarget: { dataset: { type: 'text' } } }); value.flushNextTicks()
+  const content = clone({ recipient: page.data.recipient, sender: page.data.sender, layout: page.data.layout, background: page.data.background, effects: page.data.effects, domainLabel: page.data.domainLabel })
+  page.toggleAdvanced(); await page.goToStep(step(3)); await page.goToStep(step(2))
+  equal({ recipient: page.data.recipient, sender: page.data.sender, layout: page.data.layout, background: page.data.background, effects: page.data.effects, domainLabel: page.data.domainLabel }, content, 'back/next and collapsed settings preserve the complete draft and custom canvas')
+  page.onSceneImageError({ currentTarget: { dataset: { background: 'meteors' } } })
+  equal(page.data.backgroundPosterError, false, 'late error from a previous image cannot damage the current video preview')
+  page.chooseBackground({ currentTarget: { dataset: { id: 'meteors' } } }); page.onSceneImageError({ currentTarget: { dataset: { background: 'meteors' } } })
+  equal(page.data.backgroundPosterError, true, 'failed selected image exposes its fallback')
+  page.retrySceneImage(); equal(page.data.backgroundPosterError, false, 'image retry remounts the selected image without changing the draft')
+  const birthday = catalogSource.templates.find(row => row.id === 'birthday'), other = catalogSource.templates.find(row => row.id !== 'birthday')
+  page.setData({ title: birthday.defaultTitle, message: birthday.defaultMessage })
+  page.chooseTemplate({ currentTarget: { dataset: { id: other.id } } })
+  equal([page.data.title, page.data.message, page.data.templateName], [other.defaultTitle, other.defaultMessage, other.name], 'changing template replaces untouched starter copy')
+  page.setData({ title: '我自己写的标题', message: '这段话不能丢' })
+  page.chooseTemplate({ currentTarget: { dataset: { id: birthday.id } } })
+  equal([page.data.title, page.data.message, page.data.sender], ['我自己写的标题', '这段话不能丢', '好朋友'], 'changing template preserves personalized copy and signature')
+  for (const field of ['saving', 'uploading']) {
+    page.setData({ [field]: true }); await page.goToStep(step(3))
+    equal(page.data.editorStep, 2, field + ' prevents leaving the active form')
+    page.setData({ [field]: false })
+  }
+  page.setData({ id }); await page.goToStep(step(1)); equal(page.data.editorStep, 2, 'existing website cannot change its server-fixed template')
+  value.unload()
+
+  const savedLayout = { height: 800, elements: [{ id: 'custom', type: 'text', value: '保留我的排版', x: 10, y: 30, width: 75, fontSize: 20, color: '#906489' }] }
+  const existing = harness('editor', async () => ({ ...clone(catalogSource), coins: 30, trialAvailable: false, sites: [site({ layout: savedLayout, purchasedEffects: ['fireworks'], purchasedBackgrounds: ['video-stars'] })] }))
+  existing.page.onShow(); existing.page.onLoad({ id }); await settle(); existing.flushNextTicks()
+  equal(existing.page.data.layout, savedLayout, 'editing an existing website never replaces its saved layout with the new automatic default')
+  existing.unload()
+
+  let fail = true; const failedRequests = []
+  const retry = await readyEditor(async (action, data) => { failedRequests.push(action); if (fail) throw Error('连接暂时失败'); return { site: site(data) } })
+  await retry.page.goToStep(step(3))
+  equal([retry.page.data.editorStep, retry.page.data.previewError, retry.page.data.catalog.coins], [3, '连接暂时失败', 200], 'failed preview remains visible and does not charge coins')
+  fail = false; await retry.page.previewWebsite(); await retry.page.submit()
+  equal(retry.calls.filter(row => row.kind === 'modal').length, 1, 'publication still requires an explicit cost confirmation')
+  ok(failedRequests.every(action => action === 'preview'), 'preview, retry and an unconfirmed publish cannot create a formal website')
+  retry.unload()
 }
 
 async function nativeVideoLifecycle() {
@@ -308,7 +384,7 @@ async function adminGrantConfirmation() {
 }
 
 async function run() {
-  sharedHandlerVerification(); await pricingAndCanvas(); await nativeVideoLifecycle(); await serialPreview(); await renewalAndPublish(); await departure(); await viewLifecycleAndMessages(); await galleryRefresh(); await publicCookieJar(); await adminGrantConfirmation()
+  sharedHandlerVerification(); await pricingAndCanvas(); await editorSteps(); await nativeVideoLifecycle(); await serialPreview(); await renewalAndPublish(); await departure(); await viewLifecycleAndMessages(); await galleryRefresh(); await publicCookieJar(); await adminGrantConfirmation()
   console.log('Gift preview UI: ' + checks + ' assertions passed (native video source/control/retry/departure, serial last-write, renewal/publish order, destroyed pages, quiet expiry, anonymous cookie, pricing and refreshed gallery)')
 }
 run().catch(error => { console.error(error); process.exitCode = 1 })

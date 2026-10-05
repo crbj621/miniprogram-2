@@ -4,6 +4,8 @@ GitHub维护与公开检查见docs/github-guide.md、docs/public-release-audit.m
 
 本文件只描述当前实现；不要从历史备份恢复旧方案。开始先看 [架构](docs/architecture.md)，业务见 [规则](docs/business-rules.md)，界面见 [规范](docs/ui.md)，部署见 [运维](docs/operations.md)。
 
+2026-10-06祝福制作页采用“选模板 → 写祝福 → 预览发布”，从已选模板或已有网站直接进入第2步。默认自动排版，高级编辑与分享设置收起；图片和实际视频共用一个原生背景框。返回步骤保留草稿、已购内容与视频暂停状态；第3步自动准备免费网页预览，确认发布前展示费用明细。此后不要恢复默认展开画布或分散的图片／视频卡片。详见docs/gift-sites.md，最新官方预览见docs/ui-preview/gift-editor/preview-result.json；本次前端修改不涉及服务器重启。
+
 点餐、商家、骑手和优惠券及关联接口已移除；只保留旧版公开模块food/rider固定关闭标记与旧身份缓存清理，不能恢复相应业务。当前五个模块与46页以app.json和module-policy为准。
 
 2026-10-05主包超限修复：未引用的hyj.png、hyjj.png原件在docs/assets/originals，不能复制回miniprogram/images；学生登录仍用原login-bg.png。官方预览主包677,638字节／总包1,187,616字节，见docs/ui-preview/package-size/preview-result.json。该记录不等于真机调试成功或正式发布。

@@ -1,0 +1,51 @@
+{
+  "size": {
+    "total": 1201220,
+    "packages": [
+      {
+        "name": "TOTAL",
+        "size": 1201220
+      },
+      {
+        "name": "main",
+        "size": 677636
+      },
+      {
+        "name": "/packageCanteen/",
+        "size": 92319
+      },
+      {
+        "name": "/packageEnglish/",
+        "size": 133756
+      },
+      {
+        "name": "/packageForum/",
+        "size": 153054
+      },
+      {
+        "name": "/packageGifts/",
+        "size": 80682
+      },
+      {
+        "name": "/packageProfile/",
+        "size": 63773
+      }
+    ]
+  },
+  "generatedAt": "2026-10-05T17:23:04.578234+00:00",
+  "kind": "official-wechat-cli-preview",
+  "qrPath": "C:/Users/Administrator/Downloads/campus-gift-editor-preview-20261006.png",
+  "backup": "C:/Users/Administrator/Downloads/campus-before-gift-editor-20261006-005619",
+  "checks": {
+    "registeredPages": 46,
+    "officialWxmlFiles": 55,
+    "officialWxssFiles": 63,
+    "giftServiceMemoryChecks": 215,
+    "giftUiAssertions": 148,
+    "browserLayoutScenarios": 16,
+    "fullNpmTestPassed": true
+  },
+  "formallyPublished": false,
+  "serverDeploymentRequired": false,
+  "note": "Three-step gift editor with collapsed advanced settings and unified image/video preview. Browser conversion and CLI preview do not validate phone keyboard, native video/dragging or formal release."
+}

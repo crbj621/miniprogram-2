@@ -7,12 +7,13 @@ import { backgroundVideoData, backgroundVideoPlayer } from '../../utils/video'
 Page(withSharing({
   ...backgroundVideoPlayer,
   data: { ...backgroundVideoData, loading: false, saving: false, error: '', id: '', templateId: 'birthday', catalog: null as any,
+    editorStep: 1, advancedOpen: false, templateName: '', backgroundName: '', backgroundPosterError: false, priceBreakdown: [] as any[],
     recipient: '', sender: '', title: '', message: '', background: 'peach', backgroundPoster: '', backgroundDescription: '', selectedBackgroundVideo: false, effects: ['balloons', 'sparkles'] as string[],
     effectOptions: [] as any[], purchasedEffects: [] as string[], purchasedBackgrounds: [] as string[], staticBackgrounds: [] as any[], dynamicBackgrounds: [] as any[], suggestions: [] as string[],
     layout: null as any, canvasElements: [] as any[], canvasWidth: 280, canvasHeight: 540, selectedId: '', selectedElement: null as any, uploading: false,
     durationId: '3d', trial: false, domainLabel: '', listed: false, price: 0, published: null as any, preview: null as any, previewSyncing: false, previewError: '', durationText: '3天' },
   previewTimer: 0, leaseTimer: 0, previewWanted: false, previewVisible: false, previewDirty: false, previewDestroyed: false, lastPreviewId: '', previewPromise: null as Promise<void> | null,
-  onLoad(options: any) { this.setData({ id: options.id || '', templateId: options.template || 'birthday' }); this.load() },
+  onLoad(options: any) { this.setData({ id: options.id || '', templateId: options.template || 'birthday', editorStep: options.id || options.template ? 2 : 1 }); this.load() },
   onShow() { this.showBackgroundVideo(); this.previewVisible = true; if (this.previewWanted) this.queuePreview(); clearInterval(this.leaseTimer); this.leaseTimer = setInterval(() => { if (this.previewWanted && !this.data.published) this.renewPreview() }, 45000) as unknown as number },
   onHide() { this.hideBackgroundVideo(); this.stopPreview() },
   onUnload() { this.destroyBackgroundVideo(); this.previewDestroyed = true; this.stopPreview() },
@@ -31,13 +32,43 @@ Page(withSharing({
       if (this.data.id && !site) throw Error('网站已到期或不存在，请返回重新创建')
       const template = catalog.templates.find((row: any) => row.id === (site ? site.templateId : this.data.templateId))
       if (!template) throw Error('模板不存在')
-      this.setData({ catalog, ...(site ? { ...site, published: null } : { title: template.defaultTitle, message: template.defaultMessage, layout: defaultLayout(), background: catalog.trialAvailable ? template.previewBackground : 'peach', effects: catalog.trialAvailable ? template.previewEffects : ['balloons', 'sparkles'], trial: catalog.trialAvailable }), templateId: template.id })
+      this.setData({ catalog, ...(site ? { ...site, published: null } : { title: template.defaultTitle, message: template.defaultMessage, layout: null, background: catalog.trialAvailable ? template.previewBackground : 'peach', effects: catalog.trialAvailable ? template.previewEffects : ['balloons', 'sparkles'], trial: catalog.trialAvailable }), templateId: template.id })
       this.quote()
       this.setData({ suggestions: template.suggestions || [template.defaultMessage] }); this.updateCanvas()
     } catch (error: any) { if (!this.previewDestroyed) this.setData({ error: error.message }) }
     finally { if (!this.previewDestroyed) this.setData({ loading: false }) }
   },
-  input(event: any) { const field = event.currentTarget.dataset.field; if (['recipient', 'sender', 'title', 'message', 'domainLabel'].includes(field)) { this.setData({ [field]: event.detail.value }); this.quote(); this.updateCanvas(); this.queuePreview() } },
+  input(event: any) { const field = event.currentTarget.dataset.field; if (['recipient', 'sender', 'title', 'message', 'domainLabel'].includes(field)) { this.setData({ [field]: event.detail.value, error: '' }); this.quote(); this.updateCanvas(); this.queuePreview() } },
+  async goToStep(event: any) {
+    const step = Number(event.currentTarget.dataset.step)
+    if (![1, 2, 3].includes(step) || this.data.loading || this.data.saving || this.data.uploading || !this.data.catalog || this.data.id && step === 1) return
+    if (step === 3 && !this.validateContent()) return
+    this.setData({ editorStep: step, advancedOpen: false, error: '' })
+    wx.pageScrollTo({ scrollTop: 0, duration: 150 })
+    if (step === 3) await this.previewWebsite()
+  },
+  validateContent() {
+    if (!this.data.recipient.trim() || !this.data.title.trim() || !this.data.message.trim()) {
+      this.setData({ error: '请填写收件人和祝福内容；标题可在更多设置中修改' })
+      wx.showToast({ title: '还有内容没填好', icon: 'none' }); return false
+    }
+    return true
+  },
+  chooseTemplate(event: any) {
+    if (this.data.id || this.data.saving || !this.data.catalog) return
+    const template = this.data.catalog.templates.find((row: any) => row.id === event.currentTarget.dataset.id)
+    if (!template || template.id === this.data.templateId) return
+    const previous = this.data.catalog.templates.find((row: any) => row.id === this.data.templateId)
+    this.setData({ templateId: template.id, templateName: template.name, suggestions: template.suggestions || [template.defaultMessage],
+      ...(this.data.title === previous.defaultTitle ? { title: template.defaultTitle } : {}),
+      ...(this.data.message === previous.defaultMessage ? { message: template.defaultMessage } : {}),
+      ...(this.data.trial && this.data.background === previous.previewBackground ? { background: template.previewBackground } : {}),
+      ...(this.data.trial && this.data.effects.length === previous.previewEffects.length && this.data.effects.every(value => previous.previewEffects.includes(value)) ? { effects: template.previewEffects.slice() } : {}) })
+    this.quote(); this.updateCanvas(); this.queuePreview()
+  },
+  toggleAdvanced() { this.setData({ advancedOpen: !this.data.advancedOpen }); if (this.data.advancedOpen) this.updateCanvas() },
+  onSceneImageError(event: any) { if (event.currentTarget.dataset.background === this.data.background) this.setData({ backgroundPosterError: true }) },
+  retrySceneImage() { this.setData({ backgroundPosterError: false }) },
   chooseListed(event: any) { this.setData({ listed: event.detail.value }); this.queuePreview() },
   chooseBackground(event: any) {
     const background = this.data.catalog.backgrounds.find((row: any) => row.id === event.currentTarget.dataset.id)
@@ -59,7 +90,14 @@ Page(withSharing({
     const backgroundPrice = this.data.purchasedBackgrounds.includes(this.data.background) ? 0 : backgrounds.find((item: any) => item.id === this.data.background).price
     const duration = catalog.durations.find((item: any) => item.id === this.data.durationId) || catalog.durations[0]
     const price = this.data.trial ? 0 : this.data.id ? effectPrice + backgroundPrice : duration.price + (this.data.domainLabel.trim() ? catalog.customDomainPrice : 0) + effectPrice + backgroundPrice
-    this.setData({ effectOptions: effects, staticBackgrounds: backgrounds.filter((row: any) => row.kind === 'static'), dynamicBackgrounds: backgrounds.filter((row: any) => row.kind === 'dynamic'), backgroundPoster: selectedBackground.posterUrl, backgroundDescription: selectedBackground.description || '', selectedBackgroundVideo: Boolean(selectedBackground.video), price, durationText: this.data.trial ? this.data.id ? '首次体验（原到期时间保留）' : '2小时（首次全特效体验）' : duration.name })
+    const priceBreakdown = this.data.trial ? [] : [
+      { name: '保留时长', price: this.data.id ? 0 : duration.price }, { name: '背景', price: backgroundPrice },
+      { name: '特效', price: effectPrice }, { name: '自定义域名', price: !this.data.id && this.data.domainLabel.trim() ? catalog.customDomainPrice : 0 }
+    ].filter(row => row.price > 0)
+    this.setData({ templateName: catalog.templates.find((row: any) => row.id === this.data.templateId).name, backgroundName: selectedBackground.name,
+      backgroundPosterError: this.data.backgroundPoster === selectedBackground.posterUrl ? this.data.backgroundPosterError : false,
+      priceBreakdown,
+      effectOptions: effects, staticBackgrounds: backgrounds.filter((row: any) => row.kind === 'static'), dynamicBackgrounds: backgrounds.filter((row: any) => row.kind === 'dynamic'), backgroundPoster: selectedBackground.posterUrl, backgroundDescription: selectedBackground.description || '', selectedBackgroundVideo: Boolean(selectedBackground.video), price, durationText: this.data.trial ? this.data.id ? '首次体验（原到期时间保留）' : '2小时（首次全特效体验）' : duration.name })
     this.setBackgroundVideo(this.data.published ? null : selectedBackground.video, selectedBackground.widePoster || selectedBackground.nativePoster || selectedBackground.poster || '')
   },
   previewPayload() { const { templateId, recipient, sender, title, message, background, effects, layout, listed } = this.data; return JSON.parse(JSON.stringify({ templateId, recipient, sender, title, message, background, effects, layout, listed })) },
@@ -92,7 +130,7 @@ Page(withSharing({
     await this.previewPromise
   },
   async previewWebsite() {
-    if (!this.data.recipient.trim() || !this.data.title.trim() || !this.data.message.trim()) { this.setData({ error: '请先填写姓名、标题和祝福内容' }); return }
+    if (!this.validateContent()) return
     this.previewWanted = true; this.previewDirty = true; clearTimeout(this.previewTimer); await this.syncPreview()
     if (this.previewDestroyed) return
     this.setData({ error: this.data.previewError })
@@ -149,7 +187,7 @@ Page(withSharing({
   canvasHeight(event: any) { this.data.layout.height = Number(event.detail.value); this.updateCanvas(); this.queuePreview() },
   async submit() {
     if (this.data.saving || this.data.uploading || !this.data.catalog) return
-    if (!this.data.recipient.trim() || !this.data.title.trim() || !this.data.message.trim()) { this.setData({ error: '请填写姓名、标题和祝福内容' }); return }
+    if (!this.validateContent()) return
     if (!this.previewWanted) { await this.previewWebsite(); return }
     this.previewDirty = true; clearTimeout(this.previewTimer); await this.syncPreview()
     if (this.previewDestroyed || !this.previewVisible) return

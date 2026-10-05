@@ -2,7 +2,11 @@
 
 ## 当前实现
 
-同学从首页“祝福小站”进入，选模板、填写姓名与文案、选背景和特效，画布即时显示并可自由拖动。先生成免费临时网页，修改内容自动同步；满意后确认费用，服务器事务保存并立即上线。不为每个用户安装一套依赖或启动一份进程。
+同学从首页“祝福小站”进入，按“选模板 → 写祝福 → 预览发布”三步制作。从模板库选好模板后直接进入第2步，只需填写收件人与祝福语；标题自动带入，推荐祝福可选。默认自动排版，标题、署名、背景、特效和自由拖动画布收进“更多设置”。已有网站直接进入第2步，保留原模板、排版与已购项目。
+
+图片与视频共用一个背景预览框，选择后切换对应媒体；播放器支持暂停、恢复、失败重试，返回上一步不会重置视频或草稿。第3步自动生成免费网页预览，保留“更新免费预览”和“复制网站预览链接”，长文只显示摘要。发布前选择时长、查看费用明细与余额，再确认上线；广场公示和自定义域名放在折叠的“分享设置”中。完整拆信、蛋糕及组合特效通过浏览器链接体验。
+
+修改内容仍自动同步免费预览，确认前不扣金币；编辑中续期、离开2分钟回收的规则保留。服务器事务保存并立即上线，不为每个用户安装一套依赖或启动一份进程。
 
 **域名状态（2026-10-04）：** EO泛域名回源HTTP、HOST使用加速域名已修正，公网HTTPS创建、读取、修改和删除验证通过，祝福入口已启用；www原网站保留。最新发布版本、验证记录和备份见[运维](operations.md)。
 
@@ -59,7 +63,7 @@
 | 路径 | 职责与关系 |
 | --- | --- |
 | miniprogram/packageGifts/pages/index | 高级效果模板库、钱包、已创建网站、祝福广场 |
-| miniprogram/packageGifts/pages/editor | 填写内容、计价、原生movable-area拖动、免费同步预览、公示选择、上传、确认发布 |
+| miniprogram/packageGifts/pages/editor | 三步制作、折叠高级设置、图片／视频统一预览、计价、可选拖动画布、免费同步预览、确认发布 |
 | miniprogram/packageGifts/pages/view | 小程序公开展示、生日互动、链接复制、微信分享；完整版特效在浏览器网页运行 |
 | miniprogram/packageGifts/pages/admin | 查站、下架、超级管理员选人分发金币；首页管理端模块开关控制是否开放 |
 | miniprogram/utils/gifts-api.ts | 通过唯一api-client调用gift_sites |
@@ -92,6 +96,8 @@ HTTP：`/gifts/demo/:template`模板预览、`/gifts/:id`网站、`/gift-domain`
 
 候选[interact.js](https://github.com/taye/interact.js)适用于浏览器DOM拖动；小程序采用微信原生movable-area，减少DOM适配层。Video.js、Vanta、Three.js、Starrysky均作为候选评估：短视频背景只需原生video，不引入播放器或用粒子模拟动态风景。本次打开SkillHub首页未返回可核对的技能内容；使用已安装imagegen技能，未安装社区脚本。
 
+三步制作调研关键词：`WeChat miniprogram native form video steps`、`TDesign miniprogram steps`、`miniprogram-component-plus video-swiper`。复用[微信官方原生视频示例](https://github.com/wechat-miniprogram/miniprogram-demo/blob/master/miniprogram/packageComponent/pages/media/video/video.wxml)的组件方式及项目现有视频生命周期、计价和串行预览同步；步骤只需三个本地状态，不引入整套UI依赖。候选[TDesign](https://github.com/Tencent/tdesign-miniprogram)更适合整体组件库统一；[video-swiper](https://github.com/wechat-miniprogram/miniprogram-component-plus/blob/master/docs/video-swiper.md)要求多视频轮播，仓库已归档，不适合此处单一背景预览。
+
 [GrapesJS](https://github.com/GrapesJS/grapesjs)提供成熟的DOM网站编辑器和存储管理；当前只编辑既有祝福模板和12个受限元素，采用原生画布与共享JSON可覆盖需求，未引入整套DOM框架或任意HTML。参考[Lodash](https://github.com/lodash/lodash)合并延迟调用的行为，串行提交保留最后一次编辑；这里只有一处同步，不新增依赖。
 
 现用特效许可证位于`server/public/gifts/vendor`，视频来源见`server/public/gifts/videos/SOURCES.md`。减少动态设置及页面隐藏释放视频；自动播放受限时保持封面，点击开信尝试播放。实体设备播放能力仍需真机验证。
@@ -104,7 +110,7 @@ HTTP：`/gifts/demo/:template`模板预览、`/gifts/:id`网站、`/gift-domain`
 
 正文信封、信纸与画布使用低透明度面板和轻量玻璃模糊；蛋糕、蜡烛、封蜡、照片及留言便签保留实体外观。网页按视口只选择一个视频源，后台／减少动态／到期释放媒体，恢复或旋转重新选源，拒绝播放或失败保留封面，不能把封面当作已播放证据。视频每次新访问有流量及解码耗电；已下载的循环不会每圈重新创建用户副本。
 
-小程序原生页只显示图片或视频封面，并写明区别；制作页删除「查看小程序排版预览」，保留生成／更新免费预览、复制网页预览链接。模板列表直接复制完整模板网页链接；发布后的微信公开展示与分享入口保留。自由拖动画布属于编辑功能，继续保留。
+小程序制作页用同一个框显示静态图片或实际原生视频，加载／暂停／失败状态明确；不把封面视为视频已播放。制作页保留更新免费预览与复制网站预览链接，完整网页效果在浏览器体验。模板列表直接复制完整模板网页链接；发布后的微信公开展示与分享入口保留。自由拖动画布作为可选高级编辑功能保留。
 
 专项`node scripts/test-gift-landscapes.js`验证4静态风景×320／390／1440的实际像素、构图与无动画引擎；`node scripts/test-gift-videos.js`验证2视频实际解码播放、切换构图、循环、资源释放与回退。来源、大小及生成静态图见[gift-landscape-assets.md](gift-landscape-assets.md)。
 
@@ -119,6 +125,8 @@ HTTP：`/gifts/demo/:template`模板预览、`/gifts/:id`网站、`/gift-domain`
 `miniprogram/utils/page-share.ts`包装全部67个已注册页面，开启好友和朋友圈菜单。公开内容只保留白名单路由参数；答题记录、聊天、订单、管理等私人页面分享对应公开入口。朋友圈单页模式先显示`components/share-intro`，跳过原私密生命周期请求；进入完整小程序后再使用正常登录。浏览器网站链接可直接复制发给朋友。
 
 ## 验证和真实边界
+
+2026-10-06三步制作：`npm run check`、全量`npm test`、微信官方55个WXML／63个WXSS编译通过；祝福服务内存215项、前端148项回归通过，覆盖默认自动布局、步骤返回保留草稿、模板切换保留自写文案与自选媒体、预览失败重试、图片失败重试、计价明细、确认前不扣币、已有网站排版、视频切换／暂停／释放与同步发布顺序。320×568及390×844共16个浏览器转换布局没有脚本错误、断图或横向溢出，见[布局记录](ui-preview/gift-editor/layout-report.json)。最新[微信官方预览](ui-preview/gift-editor/preview-result.json)与浏览器转换均不代表手机原生播放、键盘／拖动或正式发布。本次仅改前端，未重启服务器。
 
 对应回归覆盖时长价格、首次权益、预览续期与到期、并发／防重、钱包事务回滚、金币发放、公开列表过滤、本人权限、匿名留言和图片清理。8种模板、2种视频及4种静态风景、自由画布、实时内容同步及移动端溢出由浏览器检查；结果在`docs/ui-preview/gifts`。最终通过项和数量见`upgrade-checklist.md`，不能使用旧版本的53／62项数字代表新功能已验证。全67页分享结构和隐私参数也有专项回归。
 

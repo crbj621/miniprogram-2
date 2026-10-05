@@ -5,7 +5,7 @@
   <view wx:if="{{loading}}" class="notice">正在整理你的祝福…</view>
   <view wx:if="{{error}}" class="error">{{error}}<button class="tech-control" bindtap="load">重新加载</button></view>
   <block wx:if="{{catalog}}">
-    <view class="notice">{{catalog.trialAvailable ? '首次2小时全特效体验免费。' : '基础版3天免费。'}} 7天5金币、15天10金币、1个月15金币；背景和特效另计，自定义域名加5。先免费预览，满意再确认，最多同时3站。</view>
+    <view class="notice">选模板 → 写祝福 → 免费预览，满意再上线。{{catalog.trialAvailable ? '首次2小时全特效体验免费。' : '基础版3天免费，背景和特效另计。'}} 费用与保留时间会在发布前确认，最多同时3站。</view>
     <view class="section-heading">选一份心意<text>演示完整效果 · 免费试看</text></view>
     <view wx:for="{{catalog.templates}}" wx:key="id" class="template card template-{{item.id}}"><view class="template-icon">{{item.icon}}</view><view class="template-copy"><text class="card-title">{{item.name}}</text><text class="muted">{{item.description}}</text></view><view class="row"><button class="tech-control" data-id="{{item.id}}" bindtap="preview">复制模板预览链接</button><button class="tech-control tech-primary" data-id="{{item.id}}" bindtap="create">为 TA 制作 ↗</button></view></view>
     <view class="section-heading">我的祝福<text>{{sites.length}} 份正在保留</text></view>
