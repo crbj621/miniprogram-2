@@ -8,6 +8,7 @@
     "test:cet": "node scripts/test-cet-nonlistening.js --require-full-coverage",
     "test:gifts": "node server/scripts/test-gift-sites.js && node scripts/test-gift-preview-ui.js && node scripts/test-page-sharing.js",
     "test:campus-rewards": "node server/scripts/test-campus-rewards.js",
+    "test:security": "node server/scripts/test-http-security.js",
     "test:canteen": "node scripts/test-canteen-reviews.js && node scripts/test-canteen-review-ui.js && node scripts/test-canteen-submission-ui.js",
     "check:wxss": "node scripts/check-wxss.js",
     "check:wxml": "node scripts/check-wxml.js"

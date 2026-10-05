@@ -1,0 +1,26 @@
+name: 问题反馈
+description: 报告小程序或服务器问题
+title: '[Bug] '
+body:
+  - type: markdown
+    attributes:
+      value: 不要提交密码、密钥、登录二维码或真实用户数据。疑似安全漏洞请按照 SECURITY.md 私下联系维护者。
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 如何出现
+      description: 哪个页面、点击了什么、出现什么结果，以及期望结果。
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 使用环境
+      placeholder: 安卓 / iPhone / 开发者工具；微信版本、源码版本
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 截图和报错
+      description: 先遮住姓名、头像、联系方式、凭证和私人内容。

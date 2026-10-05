@@ -13,6 +13,7 @@ const weRun = require('./we-run')
 const { installEnglishMedia } = require('./english-media')
 const { installGiftWeb } = require('./gift-web')
 const { createServerStatus } = require('./server-status')
+const { validateImage, imagePath } = require('./image-upload')
 
 const app = express()
 let serverStatus
@@ -36,7 +37,6 @@ const adminCollections = new Set([
   'forum_announcement', 'forum_user', 'forum_notification', 'forum_chat',
   'forum_chat_message', 'forum_collect', 'forum_like'
 ])
-const publicCollections = new Set(['runRecords', 'teams', 'users'])
 
 function rateLimit(scope, limit, windowMs) {
   return (request, response, next) => {
@@ -198,7 +198,7 @@ function buildQuery(collectionName, body) {
   return query
 }
 
-async function executeDatabaseOperation(body, allowedCollections, readOnly) {
+async function executeDatabaseOperation(body, allowedCollections) {
   const collectionName = String((body && body.collection) || '')
   const operation = String((body && body.operation) || '')
   if (!allowedCollections.has(collectionName)) throw new Error('不允许访问此数据集合')
@@ -214,7 +214,6 @@ async function executeDatabaseOperation(body, allowedCollections, readOnly) {
   if (operation === 'count') {
     return buildQuery(collectionName, body || {}).count()
   }
-  if (readOnly) throw new Error('公开接口仅允许读取')
 
   if (operation === 'add') {
     return collection.add({ data: hydrateSpecialValues(body.data || {}) })
@@ -444,8 +443,7 @@ app.post(
       }
       const result = await executeDatabaseOperation(
         request.body || {},
-        adminCollections,
-        false
+        adminCollections
       )
       response.json(result)
     } catch (error) {
@@ -455,26 +453,19 @@ app.post(
 )
 
 app.post(
-  '/api/public/database',
-  rateLimit('public-database', 120, 60000),
-  async (request, response) => {
-    try {
-      const result = await executeDatabaseOperation(
-        request.body || {},
-        publicCollections,
-        true
-      )
-      response.json(result)
-    } catch (error) {
-      response.status(400).json({ code: -1, message: error.message || '数据读取失败' })
-    }
-  }
-)
-
-app.post(
   '/api/functions/:name',
   rateLimit('cloud-function', 600, 60000),
   requireAuth,
+  (request, response, next) => {
+    if (request.params.name !== 'globalAdmin') return next()
+    const action = request.body && request.body.action
+    if (action === 'initDatabase') {
+      return response.status(403).json({ code: -1, message: '请在服务器本地初始化管理员' })
+    }
+    if (action === 'login') return rateLimit('admin-login', 10, 60000)(request, response, next)
+    if (action === 'resetPasswordWithVerify') return rateLimit('admin-reset-password', 5, 60000)(request, response, next)
+    next()
+  },
   async (request, response) => {
     const functionName = String(request.params.name || '')
     if (!/^[A-Za-z][A-Za-z0-9_-]{0,63}$/.test(functionName) || !availableFunctions.has(functionName)) {
@@ -524,7 +515,8 @@ app.post(
   async (request, response) => {
     try {
       if (!request.file) return response.status(400).json({ code: -1, message: '请选择文件' })
-      const extension = path.extname(request.file.originalname || '').toLowerCase() || '.jpg'
+      const image = await validateImage(request.file)
+      request.file.mimetype = image.mime
       const requestedPath = String((request.body && request.body.cloudPath) || '')
       // 与保存器的路径规范化一致，避免别名绕过祝福上传的资格与所有者锁。
       const normalizedPath = requestedPath.replace(/\\/g, '/').replace(/^\/+/, '').split('/').filter(segment => segment && segment !== '.' && segment !== '..').join('/')
@@ -534,12 +526,7 @@ app.post(
         const result = await cloud.__runWithContext(request.auth, () => require('../services/gift_sites').uploadImage(request.file, request.auth.openid))
         return response.json({ code: 0, fileID: result.fileID })
       }
-      const cloudPath = requestedPath || [
-        'uploads',
-        request.auth.openid,
-        new Date().toISOString().slice(0, 10),
-        Date.now() + '-' + crypto.randomBytes(6).toString('hex') + extension
-      ].join('/')
+      const cloudPath = imagePath(request.auth.openid, namespace, image.ext)
       const result = await cloud.__runWithContext(request.auth, () =>
         cloud.__saveFile({ cloudPath, fileContent: request.file.buffer })
       )
@@ -558,7 +545,8 @@ app.use('/uploads', express.static(uploadRoot, {
   fallthrough: false,
   immutable: false,
   maxAge: '1h',
-  dotfiles: 'deny'
+  dotfiles: 'deny',
+  setHeaders(response) { response.setHeader('Content-Security-Policy', "default-src 'none'; sandbox") }
 }))
 
 app.get(/^\/admin$/, (request, response) => {
@@ -615,7 +603,11 @@ async function start() {
   server.once('close', () => serverStatus.close())
 }
 
-start().catch(error => {
-  console.error('startup failed:', error)
-  process.exitCode = 1
-})
+if (require.main === module) {
+  start().catch(error => {
+    console.error('startup failed:', error)
+    process.exitCode = 1
+  })
+}
+
+module.exports = app

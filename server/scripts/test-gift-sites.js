@@ -75,27 +75,31 @@ async function uploadRouting() {
   vm.runInNewContext(source.slice(start, end), {
     app: { post(route, ...handlers) { assert.equal(route, '/api/files/upload'); handler = handlers.at(-1) } },
     multer: require('multer'), maxUploadBytes: 10 * 1024 * 1024, uploadRoot: uploadDir, path, crypto, process: { platform: process.platform },
+    ...require('../src/image-upload'),
     rateLimit: () => () => {}, requireAuth() {}, console: { error() {} },
     cloud: { __runWithContext: sdk.__runWithContext, async __saveFile({ cloudPath }) { ordinaryWrites++; return { fileID: 'ordinary:' + cloudPath } } },
     require(name) { assert.equal(name, '../services/gift_sites'); return service }
   }, { filename: 'actual-gift-upload-route.js' })
   const owner = 'route-owner', ownerHash = crypto.createHash('sha256').update(owner).digest('hex')
+  const png = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+jOqoAAAAASUVORK5CYII=', 'base64')
+  const gif = Buffer.from('R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7', 'base64')
   const aliases = ['gift-sites/known.jpg', '/gift-sites/known.jpg', 'gift-sites\\known.jpg', './gift-sites/known.jpg', '../gift-sites//known.jpg', 'gift-sites']
   if (process.platform === 'win32') aliases.push(path.join(uploadDir, 'gift-sites', 'known.jpg'), 'Gift-Sites/known.jpg')
   for (const cloudPath of aliases) {
     const response = { statusCode: 200, status(value) { this.statusCode = value; return this }, json(value) { this.value = value; return this } }
-    await handler({ body: { cloudPath }, auth: { openid: owner }, file: { mimetype: 'image/png', originalname: 'known.gif', buffer: Buffer.from('png') } }, response)
+    await handler({ body: { cloudPath }, auth: { openid: owner }, file: { mimetype: 'image/png', originalname: 'known.gif', buffer: png } }, response)
     equal(response.value.code, 0, cloudPath + ': normalized gift path uses supported upload')
     equal(response.value.fileID.includes('/uploads/gift-sites/' + ownerHash + '/'), true, 'client cannot choose another owner or filename')
     equal(response.value.fileID.endsWith('.png'), true)
-    await handler({ body: { cloudPath }, auth: { openid: owner }, file: { mimetype: 'image/gif', buffer: Buffer.from('gif') } }, response)
+    await handler({ body: { cloudPath }, auth: { openid: owner }, file: { mimetype: 'image/gif', buffer: gif } }, response)
     equal(response.statusCode, 400, cloudPath + ': GIF alias cannot bypass qualification validation')
   }
   equal(ordinaryWrites, 0, 'all gift aliases stay outside the ordinary save path')
   const response = { json(value) { this.value = value; return this } }
-  await handler({ body: { cloudPath: 'forum/existing.jpg' }, auth: { openid: owner }, file: { mimetype: 'image/jpeg', buffer: Buffer.from('jpg') } }, response)
+  await handler({ body: { cloudPath: 'forum/existing.jpg' }, auth: { openid: owner }, file: { mimetype: 'image/png', buffer: png } }, response)
   equal(ordinaryWrites, 1, 'ordinary module keeps its upload branch')
-  equal(response.value.fileID, 'ordinary:forum/existing.jpg')
+  equal(response.value.fileID.startsWith('ordinary:forum/' + ownerHash + '/'), true, 'ordinary uploads use server-owned paths')
+  equal(response.value.fileID.endsWith('.png'), true, 'extension comes from image content')
 }
 async function sqlPublishCleanupRaces() {
   if (!databaseMode) return

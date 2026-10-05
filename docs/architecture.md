@@ -53,6 +53,8 @@ app.ts 管理启动、登录状态与退出；config/api.ts 维护地址与缓�
 
 这些仍保留在本地，供维护和发布；原微信云函数业务已转为服务器模块，并非无用残留。服务依赖统一由 server/package.json 管理。
 
+2026-10-05本机安全检查移除了未被当前客户端使用的匿名通用/api/public/database。图片上传使用file-type检测真实格式和服务端生成的所有者/随机路径；旧图片URL保留，静态上传文档受CSP sandbox限制。初始管理员只能经本地bootstrap脚本创建，登录/重置服务别名共享限流。代码与验证见public-release-audit.md；尚未部署生产服务器。
+
 ## 数据层
 
 server/src/data-store 是本地 campus-server-sdk，使用 mysql2 连接池与事务。当前业务集合以 app_documents 的 `(collection_name, document_id)` 主键和 JSON 数据保存。SQL 初始化在 server/sql/schema.sql。图片保存在服务器文件目录。

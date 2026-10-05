@@ -1,5 +1,7 @@
 # 当前项目代码入口
 
+GitHub维护与公开检查见docs/github-guide.md、docs/public-release-audit.md。2026-10-05新增HTTP安全回归npm run test:security；server/src/image-upload.js按真实格式保存到服务端生成路径，匿名通用public/database已移除，管理员初始化仅服务器本地脚本可执行；小程序管理员登录/重置与专门认证接口共用限流。该次本机修复不代表已发布服务器，不恢复旧HTTP初始化或客户端可指定完整上传路径的逻辑。仓库仍私有，素材与题库许可未全部确认。
+
 本文件只描述当前实现；不要从历史备份恢复旧方案。开始先看 [架构](docs/architecture.md)，业务见 [规则](docs/business-rules.md)，界面见 [规范](docs/ui.md)，部署见 [运维](docs/operations.md)。
 
 ## 定位修改

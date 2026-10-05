@@ -29,6 +29,8 @@
 - [本次升级验收清单](docs/upgrade-checklist.md)
 - [未来 Android / iOS 方案](docs/mobile-plan.md)
 - [逐文件职责清单](docs/file-map.csv)
+- [GitHub新手设置与维护](docs/github-guide.md)
+- [代码公开审查与素材许可边界](docs/public-release-audit.md)
 - [AI 修改入口](AI_GUIDE.md)
 
 ## 使用与检查
@@ -50,6 +52,8 @@ npm run check:wxss
 ## GitHub 维护
 
 私有仓库：[crbj621/miniprogram-2](https://github.com/crbj621/miniprogram-2)，登录有访问权限的GitHub账号后查看。
+
+自动检查与依赖更新配置见[GitHub维护指南](docs/github-guide.md)。当前尚未给完整项目声明开源许可；程序、真题和原图片的公开范围见[公开审查](docs/public-release-audit.md)。
 
 仓库保存小程序、后端、网页后台、原图片、依赖锁文件、检查脚本和技术文档。`node_modules/`、Python缓存、真实`.env`和`maintenance/账号与连接/`仅保留本机，不提交账号或密钥。
 

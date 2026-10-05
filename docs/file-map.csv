@@ -1,8 +1,12 @@
 ﻿文件（相对项目根目录）,类型,职责,对应关系
+.github/ISSUE_TEMPLATE/bug_report.yml,yml,GitHub问题反馈的环境、步骤与证据表单,
+.github/dependabot.yml,yml,GitHub依赖和Actions每周更新提案；不自动部署,
+.github/workflows/ci.yml,yml,GitHub源码历史扫描、依赖审计、编译和业务自动回归,
 .gitignore,无扩展名,依赖、运行环境、密钥与维护副本忽略规则,
 AGENTS.md,md,当前项目 AI 修改规则,
 AI_GUIDE.md,md,实际代码入口、修改范围与检查,
 README.md,md,使用入口、目录与文档导航,
+SECURITY.md,md,安全问题私下反馈规则与支持范围,
 admin-web/admins.html,html,网页管理后台：admins,server/src/app.js 提供 → 自建 API
 admin-web/announcements.html,html,网页管理后台：announcements,server/src/app.js 提供 → 自建 API
 admin-web/cleanup.html,html,网页管理后台：cleanup,server/src/app.js 提供 → 自建 API
@@ -29,8 +33,10 @@ docs/english.md,md,四六级内容来源、学习计划、打卡、挑战、金�
 docs/file-map.csv,csv,逐文件职责与对应关系，由本脚本生成,
 docs/gift-landscape-assets.md,md,技术配置或工具：gift-landscape-assets,
 docs/gift-sites.md,md,祝福模板、免费实时预览、画布、公示、朋友留言、金币发放、域名和清理,
+docs/github-guide.md,md,GitHub新手设置、术语、日常操作和公开流程,
 docs/mobile-plan.md,md,未来 Android/iOS 选型与验证条件,
 docs/operations.md,md,SSH、明文凭证位置、服务器备份与部署,
+docs/public-release-audit.md,md,代码与历史审查、HTTP修复、内容许可与真实边界,
 docs/ui-preview/admin.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
 docs/ui-preview/canteen.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
 docs/ui-preview/canteen/canteen-admin-dishes-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
@@ -1057,6 +1063,7 @@ server/scripts/test-english-first-users.js,js,服务器维护 / 真实数据库�
 server/scripts/test-english-learning.js,js,服务器维护 / 真实数据库回归：test-english-learning,docs/operations.md；运行环境与 MariaDB
 server/scripts/test-english-media.js,js,服务器维护 / 真实数据库回归：test-english-media,docs/operations.md；运行环境与 MariaDB
 server/scripts/test-gift-sites.js,js,服务器维护 / 真实数据库回归：test-gift-sites,docs/operations.md；运行环境与 MariaDB
+server/scripts/test-http-security.js,js,本地HTTP权限、上传、初始化与管理员限流安全回归,
 server/scripts/test-portfolio-store.js,js,服务器维护 / 真实数据库回归：test-portfolio-store,docs/operations.md；运行环境与 MariaDB
 server/scripts/test-run-demo.js,js,服务器维护 / 真实数据库回归：test-run-demo,docs/operations.md；运行环境与 MariaDB
 server/scripts/test-run-http.js,js,服务器维护 / 真实数据库回归：test-run-http,docs/operations.md；运行环境与 MariaDB
@@ -1099,6 +1106,7 @@ server/src/english-fsrs.js,js,ts-fsrs 按日复习调度与记忆卡片序列化
 server/src/english-media.js,js,同域发音、PDF / 听力白名单下载、格式校验与缓存,
 server/src/gift-layout.js,js,自由画布坐标、元素类型和本人图片引用校验,
 server/src/gift-web.js,js,公开祝福HTML、JSON、签名访客Cookie与留言接口,
+server/src/image-upload.js,js,file-type真实图片格式检测；服务端生成所有者随机上传路径,
 server/src/module-policy.js,js,七模块统一默认值与旧格式兼容；供公开开关和英语门禁复用,
 server/src/portfolio-store.js,js,当前 HTTP 路由使用的原个人网站内容存取,
 server/src/run-records.js,js,运动成绩校验、北京时间、SQL 历史分页 / 统计 / 榜单聚合,
