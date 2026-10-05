@@ -1,0 +1,1949 @@
+{
+  "schemaVersion": 1,
+  "status": "verified_structured",
+  "source": {
+    "id": "cet4-2021-06-2-nonlistening",
+    "textCollection": "https://english-exam.lazynote.cn",
+    "textUrl": "https://english-exam.lazynote.cn/cet4/paper/2021-06-2/",
+    "textSha256": "1b751613a7a807ed63300edaff54170aeccdb9986688c3a791cc246426c0dbe3",
+    "answerSources": [
+      {
+        "section": "part3-section-a",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2021-06-2/part3-section-a/",
+        "sha256": "0e0de7c0248fcc35e9679e657148ff6596f3ae0e127010160756affb478b9563"
+      },
+      {
+        "section": "part3-section-b",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2021-06-2/part3-section-b/",
+        "sha256": "4721ecd63655b840f3d2eb30348bfbed30e26b2375b805ecae2195b2a9ec3804"
+      },
+      {
+        "section": "part3-section-c-1",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2021-06-2/part3-section-c-1/",
+        "sha256": "2d1379c08f01ecfdb6f7c0490b49c00d6f7ab7bd4f9e3b9f35db8b462fb1558a"
+      },
+      {
+        "section": "part3-section-c-2",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2021-06-2/part3-section-c-2/",
+        "sha256": "9f8b86185f02662331a4bbce89ddff39de45a14b8955070a4f885447dd15b607"
+      }
+    ],
+    "rightsUrl": "https://english-exam.lazynote.cn",
+    "rights": "Source footer attributes original papers to the National College English Test Committee. Original materials retain their respective rights; no blanket source license is asserted. Commercial explanatory prose is not copied.",
+    "sourceRightsNotice": "© 2026 懒笔记 · 蜀ICP备2024049450号-1 · 川公网安备51019002006323号 · 增值电信业务经营许可证：川B2-20240301 · 真题版权归全国硕士研究生招生考试 / 全国大学英语四六级考试委员会所有 · 隐私政策 · 用户协议",
+    "sourceTermsUrl": "https://english-exam.lazynote.cn/terms/",
+    "reviewedAt": "2026-10-03",
+    "answerStatus": "public_reference_structural_consistency_verified",
+    "explanations": "Project-generated contextual evidence notes. Close-reading locations are keyword-search candidates, not manually verified detailed explanations.",
+    "referenceEssays": "Project-authored full reference examples bound to the original prompts; not official model answers.",
+    "materialSources": [],
+    "corrections": [],
+    "previousReviewedAnswerSources": [],
+    "sourceEdition": "lazynote public original-paper arrangement; set numbering can differ from other collections.",
+    "independentlyConfirmedSharedSource": "",
+    "readingSourceCorrection": null,
+    "sectionSourceReplacement": null,
+    "independentAnswerChecks": [],
+    "sharedSectionSource": {}
+  },
+  "papers": [
+    {
+      "id": "cet4-2021-06-2-nonlistening",
+      "level": "CET4",
+      "year": 2021,
+      "month": 6,
+      "set": 2,
+      "title": "2021年6月英语四级第2套真题（不含听力）",
+      "authenticity": "past_exam",
+      "questionIds": [
+        "cet4-2021-06-2-nonlistening-writing",
+        "cet4-2021-06-2-nonlistening-q26",
+        "cet4-2021-06-2-nonlistening-q27",
+        "cet4-2021-06-2-nonlistening-q28",
+        "cet4-2021-06-2-nonlistening-q29",
+        "cet4-2021-06-2-nonlistening-q30",
+        "cet4-2021-06-2-nonlistening-q31",
+        "cet4-2021-06-2-nonlistening-q32",
+        "cet4-2021-06-2-nonlistening-q33",
+        "cet4-2021-06-2-nonlistening-q34",
+        "cet4-2021-06-2-nonlistening-q35",
+        "cet4-2021-06-2-nonlistening-q36",
+        "cet4-2021-06-2-nonlistening-q37",
+        "cet4-2021-06-2-nonlistening-q38",
+        "cet4-2021-06-2-nonlistening-q39",
+        "cet4-2021-06-2-nonlistening-q40",
+        "cet4-2021-06-2-nonlistening-q41",
+        "cet4-2021-06-2-nonlistening-q42",
+        "cet4-2021-06-2-nonlistening-q43",
+        "cet4-2021-06-2-nonlistening-q44",
+        "cet4-2021-06-2-nonlistening-q45",
+        "cet4-2021-06-2-nonlistening-q46",
+        "cet4-2021-06-2-nonlistening-q47",
+        "cet4-2021-06-2-nonlistening-q48",
+        "cet4-2021-06-2-nonlistening-q49",
+        "cet4-2021-06-2-nonlistening-q50",
+        "cet4-2021-06-2-nonlistening-q51",
+        "cet4-2021-06-2-nonlistening-q52",
+        "cet4-2021-06-2-nonlistening-q53",
+        "cet4-2021-06-2-nonlistening-q54",
+        "cet4-2021-06-2-nonlistening-q55",
+        "cet4-2021-06-2-nonlistening-translation"
+      ],
+      "durationSeconds": 6000,
+      "description": "写作1题、阅读30题、翻译1题，不含听力。客观题答案与题面、选项完成结构一致性核对。",
+      "sourceId": "cet4-2021-06-2-nonlistening",
+      "coverage": {
+        "fullPaper": false,
+        "fullNonListening": true,
+        "listeningExcluded": true,
+        "objectiveNumbers": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "objectiveCount": 30,
+        "subjectiveCount": 2,
+        "sections": [
+          "writing",
+          "reading_word_bank",
+          "reading_matching",
+          "reading_comprehension",
+          "translation"
+        ],
+        "sharedSectionSource": {},
+        "note": "写作1题、阅读30题、翻译1题，不含听力。",
+        "independentlyConfirmedSharedSource": "",
+        "readingSourceCorrection": null,
+        "sectionSourceReplacement": null,
+        "referenceStatus": "project_authored"
+      },
+      "resources": [
+        {
+          "id": "cet4-2021-06-2-nonlistening-source",
+          "type": "web",
+          "title": "原卷来源与题面核对",
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2021-06-2/"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cet4-2021-06-2-nonlistening-writing",
+      "number": "I",
+      "level": "CET4",
+      "type": "short_text_self_check",
+      "skill": "writing",
+      "section": "writing",
+      "prompt": "Directions: For this part, you are allowed 30 minutes to write an essay titled“Is technology making people lazy?”.The statement given below is for your reference. You should write at least 120 words but no more than 180 words . Many studies claim that computers distract people, make them lazy thinkers and even lower their work efficiency.",
+      "options": [],
+      "correctAnswer": "Is Technology Making People Lazy?\n\nTechnology can reduce effort, but whether it makes people lazy depends largely on how they use it. Saving time on a routine task may support deeper work, while avoiding every challenge can weaken independent thinking.\n\nConsider a student who uses a computer to organize research notes. The tool allows more time for comparing ideas and developing an argument. By contrast, another student may copy an answer found online without checking its meaning. The same technology then becomes a shortcut around learning. Constant entertainment and notifications can also make it harder to concentrate on demanding tasks.\n\nI believe the answer is not to reject technology but to use it purposefully. Before opening an application, we should identify the problem we want to solve and decide which thinking we must do ourselves. Useful tools improve our abilities when they support effort. They encourage laziness only when we let them replace that effort.",
+      "referenceAnswer": "Is Technology Making People Lazy?\n\nTechnology can reduce effort, but whether it makes people lazy depends largely on how they use it. Saving time on a routine task may support deeper work, while avoiding every challenge can weaken independent thinking.\n\nConsider a student who uses a computer to organize research notes. The tool allows more time for comparing ideas and developing an argument. By contrast, another student may copy an answer found online without checking its meaning. The same technology then becomes a shortcut around learning. Constant entertainment and notifications can also make it harder to concentrate on demanding tasks.\n\nI believe the answer is not to reject technology but to use it purposefully. Before opening an application, we should identify the problem we want to solve and decide which thinking we must do ourselves. Useful tools improve our abilities when they support effort. They encourage laziness only when we let them replace that effort.",
+      "hint": "比较科技支持思考与代替思考两种用法，再给出立场。",
+      "explanation": "以下为按题意独立写成的参考范文，作文没有唯一答案。整理笔记和复制答案形成对照；讨论的是使用习惯而非否定计算机。题面研究可以作为讨论背景，不必夸大因果。\n\n开头给条件判断：工具可节约机械劳动，也可能诱发不思考；主体用整理笔记和复制现成答案对照，末段要求主动推理与核查。work efficiency是工作效率，independent thinking是独立思考。while可以并列两种用法，depends on说明关键条件。不能从“电脑让某些人分心”跳到“每个人都变懒”，例子应回到学生怎样使用工具。最后核对论点、例子和建议是否统一。\n\n练习方法：先用提示列三段提纲，在30分钟内独立写作，再按下方标准逐项打分；把失分最多的一段重写。参考范文约155词（缩写、连字符词按一词，含标题或书信称呼落款），满足120–180词要求；评分用于练习自检，不代表官方阅卷分数。",
+      "rubric": [
+        "练习自评总分15分：题目覆盖0–6＋结构0–4＋语言0–5，先独立写完再对照；观点不同于范文也可得满分，只要有合理支持。",
+        "题目覆盖0–6分：该题检查——比较科技支持思考与代替思考两种用法，再给出立场。。6分=任务完整且有具体理由/活动/例证；4–5分=切题但细节偏薄；2–3分=遗漏主要任务；0–1分=基本离题。",
+        "结构0–4分：4分=开头明确任务、主体按逻辑展开、结尾回扣，段间自然；3分=顺序清楚但局部衔接生硬；1–2分=跳跃或机械罗列；0分=内容难以组织理解。",
+        "语言0–5分：5分=语法和用词基本准确、句型有变化；3–4分=少量错误但不影响理解；1–2分=反复出现时态、主谓一致或搭配错误并影响阅读；0分=多数句子不能理解。",
+        "格式与修订：按原题保持120–180词；新闻/书信/提案用对应体裁，明确要求的首句逐字保留。若超限、少写任务或缺必要格式，先修改再评分，不把字数达标当作内容满分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2021-06-2-nonlistening-q26",
+      "canonicalId": "lazynote-cet4-2021-06-2-q26",
+      "number": 26,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 26 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Social isolation poses more health risks than obesity or smoking 15 cigarettes a day, according to research published by Brigham Young University. The [26] ____ is that loneliness is a huge, if silent, risk factor.\n\nLoneliness affects physical health in two ways. First, it produces stress hormones that can lead to many health problems. Second, people who live alone are less likely to go to doctor [27] ____ , to exercise or to eat a healthy diet.\n\nPublic health experts in many countries are [28] ____ how to address widespread loneliness in our society. Last year Britain even appointed a minister for loneliness. \"Loneliness [29] ____ almost every one of us at some point,\" its minister for loneliness Baroness Barran said. \"It can lead to very serious health [30] ____ for individuals who become isolated and disconnected.\"\n\nBarran started a \"Let's Talk Loneliness\" campaign that [31] ____ difficult conversations across Britain. He is now supporting \" [32] ____ benches,\" which are public seating areas where people are encouraged to go and chat with one another. The minister is also [33] ____ to stop public transportation from being cut in ways that leave people isolated.\n\nMore than one-fifth of adults in both the United States and Britain said in a 2018 [34] ____ that they often or always feel lonely. More than half of American adults are unmarried, and researchers have found that even among those who are married, 30% of relationships are [35] ____ strained. A quarter of Americans now live alone, and as the song says, one is the loneliest number.",
+      "options": [
+        {
+          "id": "A",
+          "text": "abruptly"
+        },
+        {
+          "id": "B",
+          "text": "appointments"
+        },
+        {
+          "id": "C",
+          "text": "consequences"
+        },
+        {
+          "id": "D",
+          "text": "debating"
+        },
+        {
+          "id": "E",
+          "text": "dimensions"
+        },
+        {
+          "id": "F",
+          "text": "friendly"
+        },
+        {
+          "id": "G",
+          "text": "hindered"
+        },
+        {
+          "id": "H",
+          "text": "idiom"
+        },
+        {
+          "id": "I",
+          "text": "implication"
+        },
+        {
+          "id": "J",
+          "text": "pushing"
+        },
+        {
+          "id": "K",
+          "text": "severely"
+        },
+        {
+          "id": "L",
+          "text": "sparked"
+        },
+        {
+          "id": "M",
+          "text": "splitting"
+        },
+        {
+          "id": "N",
+          "text": "survey"
+        },
+        {
+          "id": "O",
+          "text": "touches"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "先看第 26 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 I（implication）。本空所在句：The [26] ____ is that loneliness is a huge, if silent, risk factor.\n将本空替换为 implication 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2021-06-2-nonlistening-q27",
+      "canonicalId": "lazynote-cet4-2021-06-2-q27",
+      "number": 27,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 27 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Social isolation poses more health risks than obesity or smoking 15 cigarettes a day, according to research published by Brigham Young University. The [26] ____ is that loneliness is a huge, if silent, risk factor.\n\nLoneliness affects physical health in two ways. First, it produces stress hormones that can lead to many health problems. Second, people who live alone are less likely to go to doctor [27] ____ , to exercise or to eat a healthy diet.\n\nPublic health experts in many countries are [28] ____ how to address widespread loneliness in our society. Last year Britain even appointed a minister for loneliness. \"Loneliness [29] ____ almost every one of us at some point,\" its minister for loneliness Baroness Barran said. \"It can lead to very serious health [30] ____ for individuals who become isolated and disconnected.\"\n\nBarran started a \"Let's Talk Loneliness\" campaign that [31] ____ difficult conversations across Britain. He is now supporting \" [32] ____ benches,\" which are public seating areas where people are encouraged to go and chat with one another. The minister is also [33] ____ to stop public transportation from being cut in ways that leave people isolated.\n\nMore than one-fifth of adults in both the United States and Britain said in a 2018 [34] ____ that they often or always feel lonely. More than half of American adults are unmarried, and researchers have found that even among those who are married, 30% of relationships are [35] ____ strained. A quarter of Americans now live alone, and as the song says, one is the loneliest number.",
+      "options": [
+        {
+          "id": "A",
+          "text": "abruptly"
+        },
+        {
+          "id": "B",
+          "text": "appointments"
+        },
+        {
+          "id": "C",
+          "text": "consequences"
+        },
+        {
+          "id": "D",
+          "text": "debating"
+        },
+        {
+          "id": "E",
+          "text": "dimensions"
+        },
+        {
+          "id": "F",
+          "text": "friendly"
+        },
+        {
+          "id": "G",
+          "text": "hindered"
+        },
+        {
+          "id": "H",
+          "text": "idiom"
+        },
+        {
+          "id": "I",
+          "text": "implication"
+        },
+        {
+          "id": "J",
+          "text": "pushing"
+        },
+        {
+          "id": "K",
+          "text": "severely"
+        },
+        {
+          "id": "L",
+          "text": "sparked"
+        },
+        {
+          "id": "M",
+          "text": "splitting"
+        },
+        {
+          "id": "N",
+          "text": "survey"
+        },
+        {
+          "id": "O",
+          "text": "touches"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "先看第 27 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 B（appointments）。本空所在句：Second, people who live alone are less likely to go to doctor [27] ____ , to exercise or to eat a healthy diet.\n将本空替换为 appointments 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2021-06-2-nonlistening-q28",
+      "canonicalId": "lazynote-cet4-2021-06-2-q28",
+      "number": 28,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 28 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Social isolation poses more health risks than obesity or smoking 15 cigarettes a day, according to research published by Brigham Young University. The [26] ____ is that loneliness is a huge, if silent, risk factor.\n\nLoneliness affects physical health in two ways. First, it produces stress hormones that can lead to many health problems. Second, people who live alone are less likely to go to doctor [27] ____ , to exercise or to eat a healthy diet.\n\nPublic health experts in many countries are [28] ____ how to address widespread loneliness in our society. Last year Britain even appointed a minister for loneliness. \"Loneliness [29] ____ almost every one of us at some point,\" its minister for loneliness Baroness Barran said. \"It can lead to very serious health [30] ____ for individuals who become isolated and disconnected.\"\n\nBarran started a \"Let's Talk Loneliness\" campaign that [31] ____ difficult conversations across Britain. He is now supporting \" [32] ____ benches,\" which are public seating areas where people are encouraged to go and chat with one another. The minister is also [33] ____ to stop public transportation from being cut in ways that leave people isolated.\n\nMore than one-fifth of adults in both the United States and Britain said in a 2018 [34] ____ that they often or always feel lonely. More than half of American adults are unmarried, and researchers have found that even among those who are married, 30% of relationships are [35] ____ strained. A quarter of Americans now live alone, and as the song says, one is the loneliest number.",
+      "options": [
+        {
+          "id": "A",
+          "text": "abruptly"
+        },
+        {
+          "id": "B",
+          "text": "appointments"
+        },
+        {
+          "id": "C",
+          "text": "consequences"
+        },
+        {
+          "id": "D",
+          "text": "debating"
+        },
+        {
+          "id": "E",
+          "text": "dimensions"
+        },
+        {
+          "id": "F",
+          "text": "friendly"
+        },
+        {
+          "id": "G",
+          "text": "hindered"
+        },
+        {
+          "id": "H",
+          "text": "idiom"
+        },
+        {
+          "id": "I",
+          "text": "implication"
+        },
+        {
+          "id": "J",
+          "text": "pushing"
+        },
+        {
+          "id": "K",
+          "text": "severely"
+        },
+        {
+          "id": "L",
+          "text": "sparked"
+        },
+        {
+          "id": "M",
+          "text": "splitting"
+        },
+        {
+          "id": "N",
+          "text": "survey"
+        },
+        {
+          "id": "O",
+          "text": "touches"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "先看第 28 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 D（debating）。本空所在句：Public health experts in many countries are [28] ____ how to address widespread loneliness in our society.\n将本空替换为 debating 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2021-06-2-nonlistening-q29",
+      "canonicalId": "lazynote-cet4-2021-06-2-q29",
+      "number": 29,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 29 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Social isolation poses more health risks than obesity or smoking 15 cigarettes a day, according to research published by Brigham Young University. The [26] ____ is that loneliness is a huge, if silent, risk factor.\n\nLoneliness affects physical health in two ways. First, it produces stress hormones that can lead to many health problems. Second, people who live alone are less likely to go to doctor [27] ____ , to exercise or to eat a healthy diet.\n\nPublic health experts in many countries are [28] ____ how to address widespread loneliness in our society. Last year Britain even appointed a minister for loneliness. \"Loneliness [29] ____ almost every one of us at some point,\" its minister for loneliness Baroness Barran said. \"It can lead to very serious health [30] ____ for individuals who become isolated and disconnected.\"\n\nBarran started a \"Let's Talk Loneliness\" campaign that [31] ____ difficult conversations across Britain. He is now supporting \" [32] ____ benches,\" which are public seating areas where people are encouraged to go and chat with one another. The minister is also [33] ____ to stop public transportation from being cut in ways that leave people isolated.\n\nMore than one-fifth of adults in both the United States and Britain said in a 2018 [34] ____ that they often or always feel lonely. More than half of American adults are unmarried, and researchers have found that even among those who are married, 30% of relationships are [35] ____ strained. A quarter of Americans now live alone, and as the song says, one is the loneliest number.",
+      "options": [
+        {
+          "id": "A",
+          "text": "abruptly"
+        },
+        {
+          "id": "B",
+          "text": "appointments"
+        },
+        {
+          "id": "C",
+          "text": "consequences"
+        },
+        {
+          "id": "D",
+          "text": "debating"
+        },
+        {
+          "id": "E",
+          "text": "dimensions"
+        },
+        {
+          "id": "F",
+          "text": "friendly"
+        },
+        {
+          "id": "G",
+          "text": "hindered"
+        },
+        {
+          "id": "H",
+          "text": "idiom"
+        },
+        {
+          "id": "I",
+          "text": "implication"
+        },
+        {
+          "id": "J",
+          "text": "pushing"
+        },
+        {
+          "id": "K",
+          "text": "severely"
+        },
+        {
+          "id": "L",
+          "text": "sparked"
+        },
+        {
+          "id": "M",
+          "text": "splitting"
+        },
+        {
+          "id": "N",
+          "text": "survey"
+        },
+        {
+          "id": "O",
+          "text": "touches"
+        }
+      ],
+      "correctAnswer": "O",
+      "hint": "先看第 29 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 O（touches）。本空所在句：\"Loneliness [29] ____ almost every one of us at some point,\" its minister for loneliness Baroness Barran said.\n将本空替换为 touches 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2021-06-2-nonlistening-q30",
+      "canonicalId": "lazynote-cet4-2021-06-2-q30",
+      "number": 30,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 30 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Social isolation poses more health risks than obesity or smoking 15 cigarettes a day, according to research published by Brigham Young University. The [26] ____ is that loneliness is a huge, if silent, risk factor.\n\nLoneliness affects physical health in two ways. First, it produces stress hormones that can lead to many health problems. Second, people who live alone are less likely to go to doctor [27] ____ , to exercise or to eat a healthy diet.\n\nPublic health experts in many countries are [28] ____ how to address widespread loneliness in our society. Last year Britain even appointed a minister for loneliness. \"Loneliness [29] ____ almost every one of us at some point,\" its minister for loneliness Baroness Barran said. \"It can lead to very serious health [30] ____ for individuals who become isolated and disconnected.\"\n\nBarran started a \"Let's Talk Loneliness\" campaign that [31] ____ difficult conversations across Britain. He is now supporting \" [32] ____ benches,\" which are public seating areas where people are encouraged to go and chat with one another. The minister is also [33] ____ to stop public transportation from being cut in ways that leave people isolated.\n\nMore than one-fifth of adults in both the United States and Britain said in a 2018 [34] ____ that they often or always feel lonely. More than half of American adults are unmarried, and researchers have found that even among those who are married, 30% of relationships are [35] ____ strained. A quarter of Americans now live alone, and as the song says, one is the loneliest number.",
+      "options": [
+        {
+          "id": "A",
+          "text": "abruptly"
+        },
+        {
+          "id": "B",
+          "text": "appointments"
+        },
+        {
+          "id": "C",
+          "text": "consequences"
+        },
+        {
+          "id": "D",
+          "text": "debating"
+        },
+        {
+          "id": "E",
+          "text": "dimensions"
+        },
+        {
+          "id": "F",
+          "text": "friendly"
+        },
+        {
+          "id": "G",
+          "text": "hindered"
+        },
+        {
+          "id": "H",
+          "text": "idiom"
+        },
+        {
+          "id": "I",
+          "text": "implication"
+        },
+        {
+          "id": "J",
+          "text": "pushing"
+        },
+        {
+          "id": "K",
+          "text": "severely"
+        },
+        {
+          "id": "L",
+          "text": "sparked"
+        },
+        {
+          "id": "M",
+          "text": "splitting"
+        },
+        {
+          "id": "N",
+          "text": "survey"
+        },
+        {
+          "id": "O",
+          "text": "touches"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "先看第 30 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 C（consequences）。本空所在句：\"It can lead to very serious health [30] ____ for individuals who become isolated and disconnected.\"\n将本空替换为 consequences 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2021-06-2-nonlistening-q31",
+      "canonicalId": "lazynote-cet4-2021-06-2-q31",
+      "number": 31,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 31 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Social isolation poses more health risks than obesity or smoking 15 cigarettes a day, according to research published by Brigham Young University. The [26] ____ is that loneliness is a huge, if silent, risk factor.\n\nLoneliness affects physical health in two ways. First, it produces stress hormones that can lead to many health problems. Second, people who live alone are less likely to go to doctor [27] ____ , to exercise or to eat a healthy diet.\n\nPublic health experts in many countries are [28] ____ how to address widespread loneliness in our society. Last year Britain even appointed a minister for loneliness. \"Loneliness [29] ____ almost every one of us at some point,\" its minister for loneliness Baroness Barran said. \"It can lead to very serious health [30] ____ for individuals who become isolated and disconnected.\"\n\nBarran started a \"Let's Talk Loneliness\" campaign that [31] ____ difficult conversations across Britain. He is now supporting \" [32] ____ benches,\" which are public seating areas where people are encouraged to go and chat with one another. The minister is also [33] ____ to stop public transportation from being cut in ways that leave people isolated.\n\nMore than one-fifth of adults in both the United States and Britain said in a 2018 [34] ____ that they often or always feel lonely. More than half of American adults are unmarried, and researchers have found that even among those who are married, 30% of relationships are [35] ____ strained. A quarter of Americans now live alone, and as the song says, one is the loneliest number.",
+      "options": [
+        {
+          "id": "A",
+          "text": "abruptly"
+        },
+        {
+          "id": "B",
+          "text": "appointments"
+        },
+        {
+          "id": "C",
+          "text": "consequences"
+        },
+        {
+          "id": "D",
+          "text": "debating"
+        },
+        {
+          "id": "E",
+          "text": "dimensions"
+        },
+        {
+          "id": "F",
+          "text": "friendly"
+        },
+        {
+          "id": "G",
+          "text": "hindered"
+        },
+        {
+          "id": "H",
+          "text": "idiom"
+        },
+        {
+          "id": "I",
+          "text": "implication"
+        },
+        {
+          "id": "J",
+          "text": "pushing"
+        },
+        {
+          "id": "K",
+          "text": "severely"
+        },
+        {
+          "id": "L",
+          "text": "sparked"
+        },
+        {
+          "id": "M",
+          "text": "splitting"
+        },
+        {
+          "id": "N",
+          "text": "survey"
+        },
+        {
+          "id": "O",
+          "text": "touches"
+        }
+      ],
+      "correctAnswer": "L",
+      "hint": "先看第 31 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 L（sparked）。本空所在句：Barran started a \"Let's Talk Loneliness\" campaign that [31] ____ difficult conversations across Britain.\n将本空替换为 sparked 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2021-06-2-nonlistening-q32",
+      "canonicalId": "lazynote-cet4-2021-06-2-q32",
+      "number": 32,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 32 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Social isolation poses more health risks than obesity or smoking 15 cigarettes a day, according to research published by Brigham Young University. The [26] ____ is that loneliness is a huge, if silent, risk factor.\n\nLoneliness affects physical health in two ways. First, it produces stress hormones that can lead to many health problems. Second, people who live alone are less likely to go to doctor [27] ____ , to exercise or to eat a healthy diet.\n\nPublic health experts in many countries are [28] ____ how to address widespread loneliness in our society. Last year Britain even appointed a minister for loneliness. \"Loneliness [29] ____ almost every one of us at some point,\" its minister for loneliness Baroness Barran said. \"It can lead to very serious health [30] ____ for individuals who become isolated and disconnected.\"\n\nBarran started a \"Let's Talk Loneliness\" campaign that [31] ____ difficult conversations across Britain. He is now supporting \" [32] ____ benches,\" which are public seating areas where people are encouraged to go and chat with one another. The minister is also [33] ____ to stop public transportation from being cut in ways that leave people isolated.\n\nMore than one-fifth of adults in both the United States and Britain said in a 2018 [34] ____ that they often or always feel lonely. More than half of American adults are unmarried, and researchers have found that even among those who are married, 30% of relationships are [35] ____ strained. A quarter of Americans now live alone, and as the song says, one is the loneliest number.",
+      "options": [
+        {
+          "id": "A",
+          "text": "abruptly"
+        },
+        {
+          "id": "B",
+          "text": "appointments"
+        },
+        {
+          "id": "C",
+          "text": "consequences"
+        },
+        {
+          "id": "D",
+          "text": "debating"
+        },
+        {
+          "id": "E",
+          "text": "dimensions"
+        },
+        {
+          "id": "F",
+          "text": "friendly"
+        },
+        {
+          "id": "G",
+          "text": "hindered"
+        },
+        {
+          "id": "H",
+          "text": "idiom"
+        },
+        {
+          "id": "I",
+          "text": "implication"
+        },
+        {
+          "id": "J",
+          "text": "pushing"
+        },
+        {
+          "id": "K",
+          "text": "severely"
+        },
+        {
+          "id": "L",
+          "text": "sparked"
+        },
+        {
+          "id": "M",
+          "text": "splitting"
+        },
+        {
+          "id": "N",
+          "text": "survey"
+        },
+        {
+          "id": "O",
+          "text": "touches"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "先看第 32 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 F（friendly）。本空所在句：He is now supporting \" [32] ____ benches,\" which are public seating areas where people are encouraged to go and chat with one another.\n将本空替换为 friendly 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2021-06-2-nonlistening-q33",
+      "canonicalId": "lazynote-cet4-2021-06-2-q33",
+      "number": 33,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 33 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Social isolation poses more health risks than obesity or smoking 15 cigarettes a day, according to research published by Brigham Young University. The [26] ____ is that loneliness is a huge, if silent, risk factor.\n\nLoneliness affects physical health in two ways. First, it produces stress hormones that can lead to many health problems. Second, people who live alone are less likely to go to doctor [27] ____ , to exercise or to eat a healthy diet.\n\nPublic health experts in many countries are [28] ____ how to address widespread loneliness in our society. Last year Britain even appointed a minister for loneliness. \"Loneliness [29] ____ almost every one of us at some point,\" its minister for loneliness Baroness Barran said. \"It can lead to very serious health [30] ____ for individuals who become isolated and disconnected.\"\n\nBarran started a \"Let's Talk Loneliness\" campaign that [31] ____ difficult conversations across Britain. He is now supporting \" [32] ____ benches,\" which are public seating areas where people are encouraged to go and chat with one another. The minister is also [33] ____ to stop public transportation from being cut in ways that leave people isolated.\n\nMore than one-fifth of adults in both the United States and Britain said in a 2018 [34] ____ that they often or always feel lonely. More than half of American adults are unmarried, and researchers have found that even among those who are married, 30% of relationships are [35] ____ strained. A quarter of Americans now live alone, and as the song says, one is the loneliest number.",
+      "options": [
+        {
+          "id": "A",
+          "text": "abruptly"
+        },
+        {
+          "id": "B",
+          "text": "appointments"
+        },
+        {
+          "id": "C",
+          "text": "consequences"
+        },
+        {
+          "id": "D",
+          "text": "debating"
+        },
+        {
+          "id": "E",
+          "text": "dimensions"
+        },
+        {
+          "id": "F",
+          "text": "friendly"
+        },
+        {
+          "id": "G",
+          "text": "hindered"
+        },
+        {
+          "id": "H",
+          "text": "idiom"
+        },
+        {
+          "id": "I",
+          "text": "implication"
+        },
+        {
+          "id": "J",
+          "text": "pushing"
+        },
+        {
+          "id": "K",
+          "text": "severely"
+        },
+        {
+          "id": "L",
+          "text": "sparked"
+        },
+        {
+          "id": "M",
+          "text": "splitting"
+        },
+        {
+          "id": "N",
+          "text": "survey"
+        },
+        {
+          "id": "O",
+          "text": "touches"
+        }
+      ],
+      "correctAnswer": "J",
+      "hint": "先看第 33 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 J（pushing）。本空所在句：The minister is also [33] ____ to stop public transportation from being cut in ways that leave people isolated.\n将本空替换为 pushing 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2021-06-2-nonlistening-q34",
+      "canonicalId": "lazynote-cet4-2021-06-2-q34",
+      "number": 34,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 34 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Social isolation poses more health risks than obesity or smoking 15 cigarettes a day, according to research published by Brigham Young University. The [26] ____ is that loneliness is a huge, if silent, risk factor.\n\nLoneliness affects physical health in two ways. First, it produces stress hormones that can lead to many health problems. Second, people who live alone are less likely to go to doctor [27] ____ , to exercise or to eat a healthy diet.\n\nPublic health experts in many countries are [28] ____ how to address widespread loneliness in our society. Last year Britain even appointed a minister for loneliness. \"Loneliness [29] ____ almost every one of us at some point,\" its minister for loneliness Baroness Barran said. \"It can lead to very serious health [30] ____ for individuals who become isolated and disconnected.\"\n\nBarran started a \"Let's Talk Loneliness\" campaign that [31] ____ difficult conversations across Britain. He is now supporting \" [32] ____ benches,\" which are public seating areas where people are encouraged to go and chat with one another. The minister is also [33] ____ to stop public transportation from being cut in ways that leave people isolated.\n\nMore than one-fifth of adults in both the United States and Britain said in a 2018 [34] ____ that they often or always feel lonely. More than half of American adults are unmarried, and researchers have found that even among those who are married, 30% of relationships are [35] ____ strained. A quarter of Americans now live alone, and as the song says, one is the loneliest number.",
+      "options": [
+        {
+          "id": "A",
+          "text": "abruptly"
+        },
+        {
+          "id": "B",
+          "text": "appointments"
+        },
+        {
+          "id": "C",
+          "text": "consequences"
+        },
+        {
+          "id": "D",
+          "text": "debating"
+        },
+        {
+          "id": "E",
+          "text": "dimensions"
+        },
+        {
+          "id": "F",
+          "text": "friendly"
+        },
+        {
+          "id": "G",
+          "text": "hindered"
+        },
+        {
+          "id": "H",
+          "text": "idiom"
+        },
+        {
+          "id": "I",
+          "text": "implication"
+        },
+        {
+          "id": "J",
+          "text": "pushing"
+        },
+        {
+          "id": "K",
+          "text": "severely"
+        },
+        {
+          "id": "L",
+          "text": "sparked"
+        },
+        {
+          "id": "M",
+          "text": "splitting"
+        },
+        {
+          "id": "N",
+          "text": "survey"
+        },
+        {
+          "id": "O",
+          "text": "touches"
+        }
+      ],
+      "correctAnswer": "N",
+      "hint": "先看第 34 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 N（survey）。本空所在句：More than one-fifth of adults in both the United States and Britain said in a 2018 [34] ____ that they often or always feel lonely.\n将本空替换为 survey 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2021-06-2-nonlistening-q35",
+      "canonicalId": "lazynote-cet4-2021-06-2-q35",
+      "number": 35,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 35 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Social isolation poses more health risks than obesity or smoking 15 cigarettes a day, according to research published by Brigham Young University. The [26] ____ is that loneliness is a huge, if silent, risk factor.\n\nLoneliness affects physical health in two ways. First, it produces stress hormones that can lead to many health problems. Second, people who live alone are less likely to go to doctor [27] ____ , to exercise or to eat a healthy diet.\n\nPublic health experts in many countries are [28] ____ how to address widespread loneliness in our society. Last year Britain even appointed a minister for loneliness. \"Loneliness [29] ____ almost every one of us at some point,\" its minister for loneliness Baroness Barran said. \"It can lead to very serious health [30] ____ for individuals who become isolated and disconnected.\"\n\nBarran started a \"Let's Talk Loneliness\" campaign that [31] ____ difficult conversations across Britain. He is now supporting \" [32] ____ benches,\" which are public seating areas where people are encouraged to go and chat with one another. The minister is also [33] ____ to stop public transportation from being cut in ways that leave people isolated.\n\nMore than one-fifth of adults in both the United States and Britain said in a 2018 [34] ____ that they often or always feel lonely. More than half of American adults are unmarried, and researchers have found that even among those who are married, 30% of relationships are [35] ____ strained. A quarter of Americans now live alone, and as the song says, one is the loneliest number.",
+      "options": [
+        {
+          "id": "A",
+          "text": "abruptly"
+        },
+        {
+          "id": "B",
+          "text": "appointments"
+        },
+        {
+          "id": "C",
+          "text": "consequences"
+        },
+        {
+          "id": "D",
+          "text": "debating"
+        },
+        {
+          "id": "E",
+          "text": "dimensions"
+        },
+        {
+          "id": "F",
+          "text": "friendly"
+        },
+        {
+          "id": "G",
+          "text": "hindered"
+        },
+        {
+          "id": "H",
+          "text": "idiom"
+        },
+        {
+          "id": "I",
+          "text": "implication"
+        },
+        {
+          "id": "J",
+          "text": "pushing"
+        },
+        {
+          "id": "K",
+          "text": "severely"
+        },
+        {
+          "id": "L",
+          "text": "sparked"
+        },
+        {
+          "id": "M",
+          "text": "splitting"
+        },
+        {
+          "id": "N",
+          "text": "survey"
+        },
+        {
+          "id": "O",
+          "text": "touches"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "先看第 35 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 K（severely）。本空所在句：More than half of American adults are unmarried, and researchers have found that even among those who are married, 30% of relationships are [35] ____ strained.\n将本空替换为 severely 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2021-06-2-nonlistening-q36",
+      "canonicalId": "lazynote-cet4-2021-06-2-q36",
+      "number": 36,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "It is difficult for anumeric people to keep track of the change in numbers even when the total is very small.",
+      "passage": "What happens when a language has no words for numbers?\n\nA) Numbers do not exist in all cultures. There are numberless hunter-gatherers in Amazonia, living along branches of the world's largest river tree. Instead of using words for precise quantities, these people rely exclusively on terms similar to \"a few\" or \"some.\" In contrast, our own lives are governed by numbers. As you read this, you are likely aware of what time it is, how old you are, your checking account balance, your weight and so on. The exact numbers we think with impact everything in our lives.\n\nB) But, in a historical sense, number-conscious people like us are the unusual ones. For the bulk of our species' approximately 200,000-year lifespan, we had no means of precisely representing quantities. What's more, the 7,000 or so languages that exist today vary dramatically in how they utilize numbers.\n\nC) Speakers of anumeric, or numberless, languages offer a window into how the invention of numbers reshaped the human experience. Cultures without numbers, or with only one or two precise numbers, include the Munduruku and Piraha in Amazonia. Researchers have also studied some adults in Nicaragua who were never taught number words. Without numbers, healthy human adults struggle to precisely distinguish and recall quantities as low as four. In an experiment, a researcher will place nuts into a can one at a time and then remove them one by one. The person watching is asked to signal when all the nuts have been removed. Responses suggest that anumeric people have some trouble keeping track of how many nuts remain in the can, even if there are only four or five in total.\n\nD) This and many other experiments have led to a simple conclusion: When people do not have number words, they struggle to make quantitative distinctions that probably seem natural to someone like you or me. While only a small portion of the world's languages are anumeric or nearly anumeric, they demonstrate that number words are not a human universal.\n\nE) It is worth stressing that these anumeric people are cognitively(在认知方面) normal, well-adapted to the surroundings they have dominated for centuries. As a child, I spent some time living with anumeric people, the Piraha who live along the banks of the black Maici River. Like other outsiders, I was continually impressed by their superior understanding of the ecology we shared. Yet numberless people struggle with tasks that require precise discrimination between quantities. Perhaps this should be unsurprising. After all, without counting, how can someone tell whether there are, say, seven or eight coconuts(椰子) in a tree? Such seemingly straightforward distinctions become blurry through numberless eyes.\n\nF) This conclusion is echoed by work with anumeric children in industrialized societies. Prior to being spoon-fed number words, children can only approximately discriminate quantities beyond three. We must be handed the cognitive tools of numbers before we can consistently and easily recognize higher quantities. In fact, acquiring the exact meaning of number words is a painstaking process that takes children years. Initially, kids learn numbers much like they learn letters. They recognize that numbers are organized sequentially, but have little awareness of what each individual number means. With time, they start to understand that a given number represents a quantity greater by one than the number coming before it. This \"successor principle\" is part of the foundation of our numerical(数字的) cognition, but requires extensive practice to understand.\n\nG) None of us, then, is really a \"numbers person.\" We are not born to handle quantitative distinctions skillfully. In the absence of the cultural traditions that fill our lives with numbers from infancy, we would all struggle with even basic quantitative distinctions. Number words and their written forms transform our quantitative reasoning as they are introduced into our cognitive experience by our parents, peers and school teachers. The process seems so normal that we sometimes think of it as a natural part of growing up, but it is not. Human brains come equipped with certain quantitative instincts that are refined with age, but these instincts are very limited.\n\nH) Compared with other mammals, our numerical instincts are not as remarkable as many assume. We even share some basic instinctual quantitative reasoning with distant non-mammalian relatives like birds. Indeed, work with some other species suggests they too can refine their quantitative thought if they are introduced to the cognitive power tools we call numbers.\n\nI) So, how did we ever invent \"unnatural\" numbers in the first place? The answer is, literally, at your fingertips. The bulk of the world's languages use base-10, base-20 or base-5 number systems. That is, these smaller numbers are the basis of larger numbers. English is a base-10 or decimal(十进制的) language, as evidenced by words like 14(\"four\" + \"10\") and 31 (\"three\" x \"10\" + \"one\"). We speak a decimal language because an ancestral tongue, proto-Indo-European, was decimally based. Proto-Indo-European was decimally oriented because, as in so many cultures, our ancestors' hands served as the gateway to the realization that \"five fingers on one hand is the same as five fingers on the other.\" Such momentary thoughts were represented in words and passed down across generations. This is why the word \"five\" in many languages is derived from the word for \"hand.\" Most number systems, then, are the by-product of two key factors: the human capacity for language and our inclination for focusing on our hands and fingers. This manual fixation—an indirect by-product of walking upright on two legs—has helped yield numbers in most cultures, but not all.\n\nJ) Cultures without numbers also offer insight into the cognitive influence of particular numeric traditions. Consider what time it is. Your day is ruled by minutes and seconds, but these concepts are not real in any physical sense and are nonexistent to numberless people. Minutes and seconds are the verbal and written representations of an uncommon base-60 number system used in ancient Mesopotamia. They reside in our minds, numerical artifacts(人工制品) that not all humans inherit conceptually.\n\nK) Research on the language of numbers shows, more and more, that one of our species' key characteristics is tremendous linguistic(语言的) and cognitive diversity. If we are to truly understand how much our cognitive lives differ cross-culturally, we must continually explore the depths of our species' linguistic diversity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 C 段。题干：It is difficult for anumeric people to keep track of the change in numbers even when the total is very small.\n核对该段原文：Speakers of anumeric, or numberless, languages offer a window into how the invention of numbers reshaped the human experience. Cultures without numbers, or with only one or two precise numbers, include the Munduruku and Piraha in Amazonia. Researchers have also studied some adults in Nicaragua who were never taught number words. Without numbers, healthy human adults struggle to precisely distinguish and recall quantities as low as four. In an experiment, a researcher will place nuts into a can one at a time and then remove them one by one. The person watching is asked to signal when all the nuts have been removed. Responses suggest that anumeric people have some trouble keeping track of how many nuts remain in the can, even if there are only four or five in total.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2021-06-2-nonlistening-q37",
+      "canonicalId": "lazynote-cet4-2021-06-2-q37",
+      "number": 37,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Human numerical instincts are not so superior to those of other mammals as is generally believed.",
+      "passage": "What happens when a language has no words for numbers?\n\nA) Numbers do not exist in all cultures. There are numberless hunter-gatherers in Amazonia, living along branches of the world's largest river tree. Instead of using words for precise quantities, these people rely exclusively on terms similar to \"a few\" or \"some.\" In contrast, our own lives are governed by numbers. As you read this, you are likely aware of what time it is, how old you are, your checking account balance, your weight and so on. The exact numbers we think with impact everything in our lives.\n\nB) But, in a historical sense, number-conscious people like us are the unusual ones. For the bulk of our species' approximately 200,000-year lifespan, we had no means of precisely representing quantities. What's more, the 7,000 or so languages that exist today vary dramatically in how they utilize numbers.\n\nC) Speakers of anumeric, or numberless, languages offer a window into how the invention of numbers reshaped the human experience. Cultures without numbers, or with only one or two precise numbers, include the Munduruku and Piraha in Amazonia. Researchers have also studied some adults in Nicaragua who were never taught number words. Without numbers, healthy human adults struggle to precisely distinguish and recall quantities as low as four. In an experiment, a researcher will place nuts into a can one at a time and then remove them one by one. The person watching is asked to signal when all the nuts have been removed. Responses suggest that anumeric people have some trouble keeping track of how many nuts remain in the can, even if there are only four or five in total.\n\nD) This and many other experiments have led to a simple conclusion: When people do not have number words, they struggle to make quantitative distinctions that probably seem natural to someone like you or me. While only a small portion of the world's languages are anumeric or nearly anumeric, they demonstrate that number words are not a human universal.\n\nE) It is worth stressing that these anumeric people are cognitively(在认知方面) normal, well-adapted to the surroundings they have dominated for centuries. As a child, I spent some time living with anumeric people, the Piraha who live along the banks of the black Maici River. Like other outsiders, I was continually impressed by their superior understanding of the ecology we shared. Yet numberless people struggle with tasks that require precise discrimination between quantities. Perhaps this should be unsurprising. After all, without counting, how can someone tell whether there are, say, seven or eight coconuts(椰子) in a tree? Such seemingly straightforward distinctions become blurry through numberless eyes.\n\nF) This conclusion is echoed by work with anumeric children in industrialized societies. Prior to being spoon-fed number words, children can only approximately discriminate quantities beyond three. We must be handed the cognitive tools of numbers before we can consistently and easily recognize higher quantities. In fact, acquiring the exact meaning of number words is a painstaking process that takes children years. Initially, kids learn numbers much like they learn letters. They recognize that numbers are organized sequentially, but have little awareness of what each individual number means. With time, they start to understand that a given number represents a quantity greater by one than the number coming before it. This \"successor principle\" is part of the foundation of our numerical(数字的) cognition, but requires extensive practice to understand.\n\nG) None of us, then, is really a \"numbers person.\" We are not born to handle quantitative distinctions skillfully. In the absence of the cultural traditions that fill our lives with numbers from infancy, we would all struggle with even basic quantitative distinctions. Number words and their written forms transform our quantitative reasoning as they are introduced into our cognitive experience by our parents, peers and school teachers. The process seems so normal that we sometimes think of it as a natural part of growing up, but it is not. Human brains come equipped with certain quantitative instincts that are refined with age, but these instincts are very limited.\n\nH) Compared with other mammals, our numerical instincts are not as remarkable as many assume. We even share some basic instinctual quantitative reasoning with distant non-mammalian relatives like birds. Indeed, work with some other species suggests they too can refine their quantitative thought if they are introduced to the cognitive power tools we call numbers.\n\nI) So, how did we ever invent \"unnatural\" numbers in the first place? The answer is, literally, at your fingertips. The bulk of the world's languages use base-10, base-20 or base-5 number systems. That is, these smaller numbers are the basis of larger numbers. English is a base-10 or decimal(十进制的) language, as evidenced by words like 14(\"four\" + \"10\") and 31 (\"three\" x \"10\" + \"one\"). We speak a decimal language because an ancestral tongue, proto-Indo-European, was decimally based. Proto-Indo-European was decimally oriented because, as in so many cultures, our ancestors' hands served as the gateway to the realization that \"five fingers on one hand is the same as five fingers on the other.\" Such momentary thoughts were represented in words and passed down across generations. This is why the word \"five\" in many languages is derived from the word for \"hand.\" Most number systems, then, are the by-product of two key factors: the human capacity for language and our inclination for focusing on our hands and fingers. This manual fixation—an indirect by-product of walking upright on two legs—has helped yield numbers in most cultures, but not all.\n\nJ) Cultures without numbers also offer insight into the cognitive influence of particular numeric traditions. Consider what time it is. Your day is ruled by minutes and seconds, but these concepts are not real in any physical sense and are nonexistent to numberless people. Minutes and seconds are the verbal and written representations of an uncommon base-60 number system used in ancient Mesopotamia. They reside in our minds, numerical artifacts(人工制品) that not all humans inherit conceptually.\n\nK) Research on the language of numbers shows, more and more, that one of our species' key characteristics is tremendous linguistic(语言的) and cognitive diversity. If we are to truly understand how much our cognitive lives differ cross-culturally, we must continually explore the depths of our species' linguistic diversity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 H 段。题干：Human numerical instincts are not so superior to those of other mammals as is generally believed.\n核对该段原文：Compared with other mammals, our numerical instincts are not as remarkable as many assume. We even share some basic instinctual quantitative reasoning with distant non-mammalian relatives like birds. Indeed, work with some other species suggests they too can refine their quantitative thought if they are introduced to the cognitive power tools we call numbers.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2021-06-2-nonlistening-q38",
+      "canonicalId": "lazynote-cet4-2021-06-2-q38",
+      "number": 38,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The author emphasizes being anumeric does not affect one's cognitive ability.",
+      "passage": "What happens when a language has no words for numbers?\n\nA) Numbers do not exist in all cultures. There are numberless hunter-gatherers in Amazonia, living along branches of the world's largest river tree. Instead of using words for precise quantities, these people rely exclusively on terms similar to \"a few\" or \"some.\" In contrast, our own lives are governed by numbers. As you read this, you are likely aware of what time it is, how old you are, your checking account balance, your weight and so on. The exact numbers we think with impact everything in our lives.\n\nB) But, in a historical sense, number-conscious people like us are the unusual ones. For the bulk of our species' approximately 200,000-year lifespan, we had no means of precisely representing quantities. What's more, the 7,000 or so languages that exist today vary dramatically in how they utilize numbers.\n\nC) Speakers of anumeric, or numberless, languages offer a window into how the invention of numbers reshaped the human experience. Cultures without numbers, or with only one or two precise numbers, include the Munduruku and Piraha in Amazonia. Researchers have also studied some adults in Nicaragua who were never taught number words. Without numbers, healthy human adults struggle to precisely distinguish and recall quantities as low as four. In an experiment, a researcher will place nuts into a can one at a time and then remove them one by one. The person watching is asked to signal when all the nuts have been removed. Responses suggest that anumeric people have some trouble keeping track of how many nuts remain in the can, even if there are only four or five in total.\n\nD) This and many other experiments have led to a simple conclusion: When people do not have number words, they struggle to make quantitative distinctions that probably seem natural to someone like you or me. While only a small portion of the world's languages are anumeric or nearly anumeric, they demonstrate that number words are not a human universal.\n\nE) It is worth stressing that these anumeric people are cognitively(在认知方面) normal, well-adapted to the surroundings they have dominated for centuries. As a child, I spent some time living with anumeric people, the Piraha who live along the banks of the black Maici River. Like other outsiders, I was continually impressed by their superior understanding of the ecology we shared. Yet numberless people struggle with tasks that require precise discrimination between quantities. Perhaps this should be unsurprising. After all, without counting, how can someone tell whether there are, say, seven or eight coconuts(椰子) in a tree? Such seemingly straightforward distinctions become blurry through numberless eyes.\n\nF) This conclusion is echoed by work with anumeric children in industrialized societies. Prior to being spoon-fed number words, children can only approximately discriminate quantities beyond three. We must be handed the cognitive tools of numbers before we can consistently and easily recognize higher quantities. In fact, acquiring the exact meaning of number words is a painstaking process that takes children years. Initially, kids learn numbers much like they learn letters. They recognize that numbers are organized sequentially, but have little awareness of what each individual number means. With time, they start to understand that a given number represents a quantity greater by one than the number coming before it. This \"successor principle\" is part of the foundation of our numerical(数字的) cognition, but requires extensive practice to understand.\n\nG) None of us, then, is really a \"numbers person.\" We are not born to handle quantitative distinctions skillfully. In the absence of the cultural traditions that fill our lives with numbers from infancy, we would all struggle with even basic quantitative distinctions. Number words and their written forms transform our quantitative reasoning as they are introduced into our cognitive experience by our parents, peers and school teachers. The process seems so normal that we sometimes think of it as a natural part of growing up, but it is not. Human brains come equipped with certain quantitative instincts that are refined with age, but these instincts are very limited.\n\nH) Compared with other mammals, our numerical instincts are not as remarkable as many assume. We even share some basic instinctual quantitative reasoning with distant non-mammalian relatives like birds. Indeed, work with some other species suggests they too can refine their quantitative thought if they are introduced to the cognitive power tools we call numbers.\n\nI) So, how did we ever invent \"unnatural\" numbers in the first place? The answer is, literally, at your fingertips. The bulk of the world's languages use base-10, base-20 or base-5 number systems. That is, these smaller numbers are the basis of larger numbers. English is a base-10 or decimal(十进制的) language, as evidenced by words like 14(\"four\" + \"10\") and 31 (\"three\" x \"10\" + \"one\"). We speak a decimal language because an ancestral tongue, proto-Indo-European, was decimally based. Proto-Indo-European was decimally oriented because, as in so many cultures, our ancestors' hands served as the gateway to the realization that \"five fingers on one hand is the same as five fingers on the other.\" Such momentary thoughts were represented in words and passed down across generations. This is why the word \"five\" in many languages is derived from the word for \"hand.\" Most number systems, then, are the by-product of two key factors: the human capacity for language and our inclination for focusing on our hands and fingers. This manual fixation—an indirect by-product of walking upright on two legs—has helped yield numbers in most cultures, but not all.\n\nJ) Cultures without numbers also offer insight into the cognitive influence of particular numeric traditions. Consider what time it is. Your day is ruled by minutes and seconds, but these concepts are not real in any physical sense and are nonexistent to numberless people. Minutes and seconds are the verbal and written representations of an uncommon base-60 number system used in ancient Mesopotamia. They reside in our minds, numerical artifacts(人工制品) that not all humans inherit conceptually.\n\nK) Research on the language of numbers shows, more and more, that one of our species' key characteristics is tremendous linguistic(语言的) and cognitive diversity. If we are to truly understand how much our cognitive lives differ cross-culturally, we must continually explore the depths of our species' linguistic diversity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 E 段。题干：The author emphasizes being anumeric does not affect one's cognitive ability.\n核对该段原文：It is worth stressing that these anumeric people are cognitively(在认知方面) normal, well-adapted to the surroundings they have dominated for centuries. As a child, I spent some time living with anumeric people, the Piraha who live along the banks of the black Maici River. Like other outsiders, I was continually impressed by their superior understanding of the ecology we shared. Yet numberless people struggle with tasks that require precise discrimination between quantities. Perhaps this should be unsurprising. After all, without counting, how can someone tell whether there are, say, seven or eight coconuts(椰子) in a tree? Such seemingly straightforward distinctions become blurry through numberless eyes.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2021-06-2-nonlistening-q39",
+      "canonicalId": "lazynote-cet4-2021-06-2-q39",
+      "number": 39,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "In the long history of mankind, humans who use numbers are a very small minority.",
+      "passage": "What happens when a language has no words for numbers?\n\nA) Numbers do not exist in all cultures. There are numberless hunter-gatherers in Amazonia, living along branches of the world's largest river tree. Instead of using words for precise quantities, these people rely exclusively on terms similar to \"a few\" or \"some.\" In contrast, our own lives are governed by numbers. As you read this, you are likely aware of what time it is, how old you are, your checking account balance, your weight and so on. The exact numbers we think with impact everything in our lives.\n\nB) But, in a historical sense, number-conscious people like us are the unusual ones. For the bulk of our species' approximately 200,000-year lifespan, we had no means of precisely representing quantities. What's more, the 7,000 or so languages that exist today vary dramatically in how they utilize numbers.\n\nC) Speakers of anumeric, or numberless, languages offer a window into how the invention of numbers reshaped the human experience. Cultures without numbers, or with only one or two precise numbers, include the Munduruku and Piraha in Amazonia. Researchers have also studied some adults in Nicaragua who were never taught number words. Without numbers, healthy human adults struggle to precisely distinguish and recall quantities as low as four. In an experiment, a researcher will place nuts into a can one at a time and then remove them one by one. The person watching is asked to signal when all the nuts have been removed. Responses suggest that anumeric people have some trouble keeping track of how many nuts remain in the can, even if there are only four or five in total.\n\nD) This and many other experiments have led to a simple conclusion: When people do not have number words, they struggle to make quantitative distinctions that probably seem natural to someone like you or me. While only a small portion of the world's languages are anumeric or nearly anumeric, they demonstrate that number words are not a human universal.\n\nE) It is worth stressing that these anumeric people are cognitively(在认知方面) normal, well-adapted to the surroundings they have dominated for centuries. As a child, I spent some time living with anumeric people, the Piraha who live along the banks of the black Maici River. Like other outsiders, I was continually impressed by their superior understanding of the ecology we shared. Yet numberless people struggle with tasks that require precise discrimination between quantities. Perhaps this should be unsurprising. After all, without counting, how can someone tell whether there are, say, seven or eight coconuts(椰子) in a tree? Such seemingly straightforward distinctions become blurry through numberless eyes.\n\nF) This conclusion is echoed by work with anumeric children in industrialized societies. Prior to being spoon-fed number words, children can only approximately discriminate quantities beyond three. We must be handed the cognitive tools of numbers before we can consistently and easily recognize higher quantities. In fact, acquiring the exact meaning of number words is a painstaking process that takes children years. Initially, kids learn numbers much like they learn letters. They recognize that numbers are organized sequentially, but have little awareness of what each individual number means. With time, they start to understand that a given number represents a quantity greater by one than the number coming before it. This \"successor principle\" is part of the foundation of our numerical(数字的) cognition, but requires extensive practice to understand.\n\nG) None of us, then, is really a \"numbers person.\" We are not born to handle quantitative distinctions skillfully. In the absence of the cultural traditions that fill our lives with numbers from infancy, we would all struggle with even basic quantitative distinctions. Number words and their written forms transform our quantitative reasoning as they are introduced into our cognitive experience by our parents, peers and school teachers. The process seems so normal that we sometimes think of it as a natural part of growing up, but it is not. Human brains come equipped with certain quantitative instincts that are refined with age, but these instincts are very limited.\n\nH) Compared with other mammals, our numerical instincts are not as remarkable as many assume. We even share some basic instinctual quantitative reasoning with distant non-mammalian relatives like birds. Indeed, work with some other species suggests they too can refine their quantitative thought if they are introduced to the cognitive power tools we call numbers.\n\nI) So, how did we ever invent \"unnatural\" numbers in the first place? The answer is, literally, at your fingertips. The bulk of the world's languages use base-10, base-20 or base-5 number systems. That is, these smaller numbers are the basis of larger numbers. English is a base-10 or decimal(十进制的) language, as evidenced by words like 14(\"four\" + \"10\") and 31 (\"three\" x \"10\" + \"one\"). We speak a decimal language because an ancestral tongue, proto-Indo-European, was decimally based. Proto-Indo-European was decimally oriented because, as in so many cultures, our ancestors' hands served as the gateway to the realization that \"five fingers on one hand is the same as five fingers on the other.\" Such momentary thoughts were represented in words and passed down across generations. This is why the word \"five\" in many languages is derived from the word for \"hand.\" Most number systems, then, are the by-product of two key factors: the human capacity for language and our inclination for focusing on our hands and fingers. This manual fixation—an indirect by-product of walking upright on two legs—has helped yield numbers in most cultures, but not all.\n\nJ) Cultures without numbers also offer insight into the cognitive influence of particular numeric traditions. Consider what time it is. Your day is ruled by minutes and seconds, but these concepts are not real in any physical sense and are nonexistent to numberless people. Minutes and seconds are the verbal and written representations of an uncommon base-60 number system used in ancient Mesopotamia. They reside in our minds, numerical artifacts(人工制品) that not all humans inherit conceptually.\n\nK) Research on the language of numbers shows, more and more, that one of our species' key characteristics is tremendous linguistic(语言的) and cognitive diversity. If we are to truly understand how much our cognitive lives differ cross-culturally, we must continually explore the depths of our species' linguistic diversity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 B 段。题干：In the long history of mankind, humans who use numbers are a very small minority.\n核对该段原文：But, in a historical sense, number-conscious people like us are the unusual ones. For the bulk of our species' approximately 200,000-year lifespan, we had no means of precisely representing quantities. What's more, the 7,000 or so languages that exist today vary dramatically in how they utilize numbers.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2021-06-2-nonlistening-q40",
+      "canonicalId": "lazynote-cet4-2021-06-2-q40",
+      "number": 40,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "An in-depth study of differences between human languages contributes to a true understanding of cognitive differences between cultures.",
+      "passage": "What happens when a language has no words for numbers?\n\nA) Numbers do not exist in all cultures. There are numberless hunter-gatherers in Amazonia, living along branches of the world's largest river tree. Instead of using words for precise quantities, these people rely exclusively on terms similar to \"a few\" or \"some.\" In contrast, our own lives are governed by numbers. As you read this, you are likely aware of what time it is, how old you are, your checking account balance, your weight and so on. The exact numbers we think with impact everything in our lives.\n\nB) But, in a historical sense, number-conscious people like us are the unusual ones. For the bulk of our species' approximately 200,000-year lifespan, we had no means of precisely representing quantities. What's more, the 7,000 or so languages that exist today vary dramatically in how they utilize numbers.\n\nC) Speakers of anumeric, or numberless, languages offer a window into how the invention of numbers reshaped the human experience. Cultures without numbers, or with only one or two precise numbers, include the Munduruku and Piraha in Amazonia. Researchers have also studied some adults in Nicaragua who were never taught number words. Without numbers, healthy human adults struggle to precisely distinguish and recall quantities as low as four. In an experiment, a researcher will place nuts into a can one at a time and then remove them one by one. The person watching is asked to signal when all the nuts have been removed. Responses suggest that anumeric people have some trouble keeping track of how many nuts remain in the can, even if there are only four or five in total.\n\nD) This and many other experiments have led to a simple conclusion: When people do not have number words, they struggle to make quantitative distinctions that probably seem natural to someone like you or me. While only a small portion of the world's languages are anumeric or nearly anumeric, they demonstrate that number words are not a human universal.\n\nE) It is worth stressing that these anumeric people are cognitively(在认知方面) normal, well-adapted to the surroundings they have dominated for centuries. As a child, I spent some time living with anumeric people, the Piraha who live along the banks of the black Maici River. Like other outsiders, I was continually impressed by their superior understanding of the ecology we shared. Yet numberless people struggle with tasks that require precise discrimination between quantities. Perhaps this should be unsurprising. After all, without counting, how can someone tell whether there are, say, seven or eight coconuts(椰子) in a tree? Such seemingly straightforward distinctions become blurry through numberless eyes.\n\nF) This conclusion is echoed by work with anumeric children in industrialized societies. Prior to being spoon-fed number words, children can only approximately discriminate quantities beyond three. We must be handed the cognitive tools of numbers before we can consistently and easily recognize higher quantities. In fact, acquiring the exact meaning of number words is a painstaking process that takes children years. Initially, kids learn numbers much like they learn letters. They recognize that numbers are organized sequentially, but have little awareness of what each individual number means. With time, they start to understand that a given number represents a quantity greater by one than the number coming before it. This \"successor principle\" is part of the foundation of our numerical(数字的) cognition, but requires extensive practice to understand.\n\nG) None of us, then, is really a \"numbers person.\" We are not born to handle quantitative distinctions skillfully. In the absence of the cultural traditions that fill our lives with numbers from infancy, we would all struggle with even basic quantitative distinctions. Number words and their written forms transform our quantitative reasoning as they are introduced into our cognitive experience by our parents, peers and school teachers. The process seems so normal that we sometimes think of it as a natural part of growing up, but it is not. Human brains come equipped with certain quantitative instincts that are refined with age, but these instincts are very limited.\n\nH) Compared with other mammals, our numerical instincts are not as remarkable as many assume. We even share some basic instinctual quantitative reasoning with distant non-mammalian relatives like birds. Indeed, work with some other species suggests they too can refine their quantitative thought if they are introduced to the cognitive power tools we call numbers.\n\nI) So, how did we ever invent \"unnatural\" numbers in the first place? The answer is, literally, at your fingertips. The bulk of the world's languages use base-10, base-20 or base-5 number systems. That is, these smaller numbers are the basis of larger numbers. English is a base-10 or decimal(十进制的) language, as evidenced by words like 14(\"four\" + \"10\") and 31 (\"three\" x \"10\" + \"one\"). We speak a decimal language because an ancestral tongue, proto-Indo-European, was decimally based. Proto-Indo-European was decimally oriented because, as in so many cultures, our ancestors' hands served as the gateway to the realization that \"five fingers on one hand is the same as five fingers on the other.\" Such momentary thoughts were represented in words and passed down across generations. This is why the word \"five\" in many languages is derived from the word for \"hand.\" Most number systems, then, are the by-product of two key factors: the human capacity for language and our inclination for focusing on our hands and fingers. This manual fixation—an indirect by-product of walking upright on two legs—has helped yield numbers in most cultures, but not all.\n\nJ) Cultures without numbers also offer insight into the cognitive influence of particular numeric traditions. Consider what time it is. Your day is ruled by minutes and seconds, but these concepts are not real in any physical sense and are nonexistent to numberless people. Minutes and seconds are the verbal and written representations of an uncommon base-60 number system used in ancient Mesopotamia. They reside in our minds, numerical artifacts(人工制品) that not all humans inherit conceptually.\n\nK) Research on the language of numbers shows, more and more, that one of our species' key characteristics is tremendous linguistic(语言的) and cognitive diversity. If we are to truly understand how much our cognitive lives differ cross-culturally, we must continually explore the depths of our species' linguistic diversity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 K 段。题干：An in-depth study of differences between human languages contributes to a true understanding of cognitive differences between cultures.\n核对该段原文：Research on the language of numbers shows, more and more, that one of our species' key characteristics is tremendous linguistic(语言的) and cognitive diversity. If we are to truly understand how much our cognitive lives differ cross-culturally, we must continually explore the depths of our species' linguistic diversity.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2021-06-2-nonlistening-q41",
+      "canonicalId": "lazynote-cet4-2021-06-2-q41",
+      "number": 41,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "A conclusion has been drawn from many experiments that anumeric people have a hard time distinguishing quantities.",
+      "passage": "What happens when a language has no words for numbers?\n\nA) Numbers do not exist in all cultures. There are numberless hunter-gatherers in Amazonia, living along branches of the world's largest river tree. Instead of using words for precise quantities, these people rely exclusively on terms similar to \"a few\" or \"some.\" In contrast, our own lives are governed by numbers. As you read this, you are likely aware of what time it is, how old you are, your checking account balance, your weight and so on. The exact numbers we think with impact everything in our lives.\n\nB) But, in a historical sense, number-conscious people like us are the unusual ones. For the bulk of our species' approximately 200,000-year lifespan, we had no means of precisely representing quantities. What's more, the 7,000 or so languages that exist today vary dramatically in how they utilize numbers.\n\nC) Speakers of anumeric, or numberless, languages offer a window into how the invention of numbers reshaped the human experience. Cultures without numbers, or with only one or two precise numbers, include the Munduruku and Piraha in Amazonia. Researchers have also studied some adults in Nicaragua who were never taught number words. Without numbers, healthy human adults struggle to precisely distinguish and recall quantities as low as four. In an experiment, a researcher will place nuts into a can one at a time and then remove them one by one. The person watching is asked to signal when all the nuts have been removed. Responses suggest that anumeric people have some trouble keeping track of how many nuts remain in the can, even if there are only four or five in total.\n\nD) This and many other experiments have led to a simple conclusion: When people do not have number words, they struggle to make quantitative distinctions that probably seem natural to someone like you or me. While only a small portion of the world's languages are anumeric or nearly anumeric, they demonstrate that number words are not a human universal.\n\nE) It is worth stressing that these anumeric people are cognitively(在认知方面) normal, well-adapted to the surroundings they have dominated for centuries. As a child, I spent some time living with anumeric people, the Piraha who live along the banks of the black Maici River. Like other outsiders, I was continually impressed by their superior understanding of the ecology we shared. Yet numberless people struggle with tasks that require precise discrimination between quantities. Perhaps this should be unsurprising. After all, without counting, how can someone tell whether there are, say, seven or eight coconuts(椰子) in a tree? Such seemingly straightforward distinctions become blurry through numberless eyes.\n\nF) This conclusion is echoed by work with anumeric children in industrialized societies. Prior to being spoon-fed number words, children can only approximately discriminate quantities beyond three. We must be handed the cognitive tools of numbers before we can consistently and easily recognize higher quantities. In fact, acquiring the exact meaning of number words is a painstaking process that takes children years. Initially, kids learn numbers much like they learn letters. They recognize that numbers are organized sequentially, but have little awareness of what each individual number means. With time, they start to understand that a given number represents a quantity greater by one than the number coming before it. This \"successor principle\" is part of the foundation of our numerical(数字的) cognition, but requires extensive practice to understand.\n\nG) None of us, then, is really a \"numbers person.\" We are not born to handle quantitative distinctions skillfully. In the absence of the cultural traditions that fill our lives with numbers from infancy, we would all struggle with even basic quantitative distinctions. Number words and their written forms transform our quantitative reasoning as they are introduced into our cognitive experience by our parents, peers and school teachers. The process seems so normal that we sometimes think of it as a natural part of growing up, but it is not. Human brains come equipped with certain quantitative instincts that are refined with age, but these instincts are very limited.\n\nH) Compared with other mammals, our numerical instincts are not as remarkable as many assume. We even share some basic instinctual quantitative reasoning with distant non-mammalian relatives like birds. Indeed, work with some other species suggests they too can refine their quantitative thought if they are introduced to the cognitive power tools we call numbers.\n\nI) So, how did we ever invent \"unnatural\" numbers in the first place? The answer is, literally, at your fingertips. The bulk of the world's languages use base-10, base-20 or base-5 number systems. That is, these smaller numbers are the basis of larger numbers. English is a base-10 or decimal(十进制的) language, as evidenced by words like 14(\"four\" + \"10\") and 31 (\"three\" x \"10\" + \"one\"). We speak a decimal language because an ancestral tongue, proto-Indo-European, was decimally based. Proto-Indo-European was decimally oriented because, as in so many cultures, our ancestors' hands served as the gateway to the realization that \"five fingers on one hand is the same as five fingers on the other.\" Such momentary thoughts were represented in words and passed down across generations. This is why the word \"five\" in many languages is derived from the word for \"hand.\" Most number systems, then, are the by-product of two key factors: the human capacity for language and our inclination for focusing on our hands and fingers. This manual fixation—an indirect by-product of walking upright on two legs—has helped yield numbers in most cultures, but not all.\n\nJ) Cultures without numbers also offer insight into the cognitive influence of particular numeric traditions. Consider what time it is. Your day is ruled by minutes and seconds, but these concepts are not real in any physical sense and are nonexistent to numberless people. Minutes and seconds are the verbal and written representations of an uncommon base-60 number system used in ancient Mesopotamia. They reside in our minds, numerical artifacts(人工制品) that not all humans inherit conceptually.\n\nK) Research on the language of numbers shows, more and more, that one of our species' key characteristics is tremendous linguistic(语言的) and cognitive diversity. If we are to truly understand how much our cognitive lives differ cross-culturally, we must continually explore the depths of our species' linguistic diversity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 D 段。题干：A conclusion has been drawn from many experiments that anumeric people have a hard time distinguishing quantities.\n核对该段原文：This and many other experiments have led to a simple conclusion: When people do not have number words, they struggle to make quantitative distinctions that probably seem natural to someone like you or me. While only a small portion of the world's languages are anumeric or nearly anumeric, they demonstrate that number words are not a human universal.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2021-06-2-nonlistening-q42",
+      "canonicalId": "lazynote-cet4-2021-06-2-q42",
+      "number": 42,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Making quantitative distinctions is not an inborn skill.",
+      "passage": "What happens when a language has no words for numbers?\n\nA) Numbers do not exist in all cultures. There are numberless hunter-gatherers in Amazonia, living along branches of the world's largest river tree. Instead of using words for precise quantities, these people rely exclusively on terms similar to \"a few\" or \"some.\" In contrast, our own lives are governed by numbers. As you read this, you are likely aware of what time it is, how old you are, your checking account balance, your weight and so on. The exact numbers we think with impact everything in our lives.\n\nB) But, in a historical sense, number-conscious people like us are the unusual ones. For the bulk of our species' approximately 200,000-year lifespan, we had no means of precisely representing quantities. What's more, the 7,000 or so languages that exist today vary dramatically in how they utilize numbers.\n\nC) Speakers of anumeric, or numberless, languages offer a window into how the invention of numbers reshaped the human experience. Cultures without numbers, or with only one or two precise numbers, include the Munduruku and Piraha in Amazonia. Researchers have also studied some adults in Nicaragua who were never taught number words. Without numbers, healthy human adults struggle to precisely distinguish and recall quantities as low as four. In an experiment, a researcher will place nuts into a can one at a time and then remove them one by one. The person watching is asked to signal when all the nuts have been removed. Responses suggest that anumeric people have some trouble keeping track of how many nuts remain in the can, even if there are only four or five in total.\n\nD) This and many other experiments have led to a simple conclusion: When people do not have number words, they struggle to make quantitative distinctions that probably seem natural to someone like you or me. While only a small portion of the world's languages are anumeric or nearly anumeric, they demonstrate that number words are not a human universal.\n\nE) It is worth stressing that these anumeric people are cognitively(在认知方面) normal, well-adapted to the surroundings they have dominated for centuries. As a child, I spent some time living with anumeric people, the Piraha who live along the banks of the black Maici River. Like other outsiders, I was continually impressed by their superior understanding of the ecology we shared. Yet numberless people struggle with tasks that require precise discrimination between quantities. Perhaps this should be unsurprising. After all, without counting, how can someone tell whether there are, say, seven or eight coconuts(椰子) in a tree? Such seemingly straightforward distinctions become blurry through numberless eyes.\n\nF) This conclusion is echoed by work with anumeric children in industrialized societies. Prior to being spoon-fed number words, children can only approximately discriminate quantities beyond three. We must be handed the cognitive tools of numbers before we can consistently and easily recognize higher quantities. In fact, acquiring the exact meaning of number words is a painstaking process that takes children years. Initially, kids learn numbers much like they learn letters. They recognize that numbers are organized sequentially, but have little awareness of what each individual number means. With time, they start to understand that a given number represents a quantity greater by one than the number coming before it. This \"successor principle\" is part of the foundation of our numerical(数字的) cognition, but requires extensive practice to understand.\n\nG) None of us, then, is really a \"numbers person.\" We are not born to handle quantitative distinctions skillfully. In the absence of the cultural traditions that fill our lives with numbers from infancy, we would all struggle with even basic quantitative distinctions. Number words and their written forms transform our quantitative reasoning as they are introduced into our cognitive experience by our parents, peers and school teachers. The process seems so normal that we sometimes think of it as a natural part of growing up, but it is not. Human brains come equipped with certain quantitative instincts that are refined with age, but these instincts are very limited.\n\nH) Compared with other mammals, our numerical instincts are not as remarkable as many assume. We even share some basic instinctual quantitative reasoning with distant non-mammalian relatives like birds. Indeed, work with some other species suggests they too can refine their quantitative thought if they are introduced to the cognitive power tools we call numbers.\n\nI) So, how did we ever invent \"unnatural\" numbers in the first place? The answer is, literally, at your fingertips. The bulk of the world's languages use base-10, base-20 or base-5 number systems. That is, these smaller numbers are the basis of larger numbers. English is a base-10 or decimal(十进制的) language, as evidenced by words like 14(\"four\" + \"10\") and 31 (\"three\" x \"10\" + \"one\"). We speak a decimal language because an ancestral tongue, proto-Indo-European, was decimally based. Proto-Indo-European was decimally oriented because, as in so many cultures, our ancestors' hands served as the gateway to the realization that \"five fingers on one hand is the same as five fingers on the other.\" Such momentary thoughts were represented in words and passed down across generations. This is why the word \"five\" in many languages is derived from the word for \"hand.\" Most number systems, then, are the by-product of two key factors: the human capacity for language and our inclination for focusing on our hands and fingers. This manual fixation—an indirect by-product of walking upright on two legs—has helped yield numbers in most cultures, but not all.\n\nJ) Cultures without numbers also offer insight into the cognitive influence of particular numeric traditions. Consider what time it is. Your day is ruled by minutes and seconds, but these concepts are not real in any physical sense and are nonexistent to numberless people. Minutes and seconds are the verbal and written representations of an uncommon base-60 number system used in ancient Mesopotamia. They reside in our minds, numerical artifacts(人工制品) that not all humans inherit conceptually.\n\nK) Research on the language of numbers shows, more and more, that one of our species' key characteristics is tremendous linguistic(语言的) and cognitive diversity. If we are to truly understand how much our cognitive lives differ cross-culturally, we must continually explore the depths of our species' linguistic diversity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 G 段。题干：Making quantitative distinctions is not an inborn skill.\n核对该段原文：None of us, then, is really a \"numbers person.\" We are not born to handle quantitative distinctions skillfully. In the absence of the cultural traditions that fill our lives with numbers from infancy, we would all struggle with even basic quantitative distinctions. Number words and their written forms transform our quantitative reasoning as they are introduced into our cognitive experience by our parents, peers and school teachers. The process seems so normal that we sometimes think of it as a natural part of growing up, but it is not. Human brains come equipped with certain quantitative instincts that are refined with age, but these instincts are very limited.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2021-06-2-nonlistening-q43",
+      "canonicalId": "lazynote-cet4-2021-06-2-q43",
+      "number": 43,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Every aspect of our lives is affected by numbers.",
+      "passage": "What happens when a language has no words for numbers?\n\nA) Numbers do not exist in all cultures. There are numberless hunter-gatherers in Amazonia, living along branches of the world's largest river tree. Instead of using words for precise quantities, these people rely exclusively on terms similar to \"a few\" or \"some.\" In contrast, our own lives are governed by numbers. As you read this, you are likely aware of what time it is, how old you are, your checking account balance, your weight and so on. The exact numbers we think with impact everything in our lives.\n\nB) But, in a historical sense, number-conscious people like us are the unusual ones. For the bulk of our species' approximately 200,000-year lifespan, we had no means of precisely representing quantities. What's more, the 7,000 or so languages that exist today vary dramatically in how they utilize numbers.\n\nC) Speakers of anumeric, or numberless, languages offer a window into how the invention of numbers reshaped the human experience. Cultures without numbers, or with only one or two precise numbers, include the Munduruku and Piraha in Amazonia. Researchers have also studied some adults in Nicaragua who were never taught number words. Without numbers, healthy human adults struggle to precisely distinguish and recall quantities as low as four. In an experiment, a researcher will place nuts into a can one at a time and then remove them one by one. The person watching is asked to signal when all the nuts have been removed. Responses suggest that anumeric people have some trouble keeping track of how many nuts remain in the can, even if there are only four or five in total.\n\nD) This and many other experiments have led to a simple conclusion: When people do not have number words, they struggle to make quantitative distinctions that probably seem natural to someone like you or me. While only a small portion of the world's languages are anumeric or nearly anumeric, they demonstrate that number words are not a human universal.\n\nE) It is worth stressing that these anumeric people are cognitively(在认知方面) normal, well-adapted to the surroundings they have dominated for centuries. As a child, I spent some time living with anumeric people, the Piraha who live along the banks of the black Maici River. Like other outsiders, I was continually impressed by their superior understanding of the ecology we shared. Yet numberless people struggle with tasks that require precise discrimination between quantities. Perhaps this should be unsurprising. After all, without counting, how can someone tell whether there are, say, seven or eight coconuts(椰子) in a tree? Such seemingly straightforward distinctions become blurry through numberless eyes.\n\nF) This conclusion is echoed by work with anumeric children in industrialized societies. Prior to being spoon-fed number words, children can only approximately discriminate quantities beyond three. We must be handed the cognitive tools of numbers before we can consistently and easily recognize higher quantities. In fact, acquiring the exact meaning of number words is a painstaking process that takes children years. Initially, kids learn numbers much like they learn letters. They recognize that numbers are organized sequentially, but have little awareness of what each individual number means. With time, they start to understand that a given number represents a quantity greater by one than the number coming before it. This \"successor principle\" is part of the foundation of our numerical(数字的) cognition, but requires extensive practice to understand.\n\nG) None of us, then, is really a \"numbers person.\" We are not born to handle quantitative distinctions skillfully. In the absence of the cultural traditions that fill our lives with numbers from infancy, we would all struggle with even basic quantitative distinctions. Number words and their written forms transform our quantitative reasoning as they are introduced into our cognitive experience by our parents, peers and school teachers. The process seems so normal that we sometimes think of it as a natural part of growing up, but it is not. Human brains come equipped with certain quantitative instincts that are refined with age, but these instincts are very limited.\n\nH) Compared with other mammals, our numerical instincts are not as remarkable as many assume. We even share some basic instinctual quantitative reasoning with distant non-mammalian relatives like birds. Indeed, work with some other species suggests they too can refine their quantitative thought if they are introduced to the cognitive power tools we call numbers.\n\nI) So, how did we ever invent \"unnatural\" numbers in the first place? The answer is, literally, at your fingertips. The bulk of the world's languages use base-10, base-20 or base-5 number systems. That is, these smaller numbers are the basis of larger numbers. English is a base-10 or decimal(十进制的) language, as evidenced by words like 14(\"four\" + \"10\") and 31 (\"three\" x \"10\" + \"one\"). We speak a decimal language because an ancestral tongue, proto-Indo-European, was decimally based. Proto-Indo-European was decimally oriented because, as in so many cultures, our ancestors' hands served as the gateway to the realization that \"five fingers on one hand is the same as five fingers on the other.\" Such momentary thoughts were represented in words and passed down across generations. This is why the word \"five\" in many languages is derived from the word for \"hand.\" Most number systems, then, are the by-product of two key factors: the human capacity for language and our inclination for focusing on our hands and fingers. This manual fixation—an indirect by-product of walking upright on two legs—has helped yield numbers in most cultures, but not all.\n\nJ) Cultures without numbers also offer insight into the cognitive influence of particular numeric traditions. Consider what time it is. Your day is ruled by minutes and seconds, but these concepts are not real in any physical sense and are nonexistent to numberless people. Minutes and seconds are the verbal and written representations of an uncommon base-60 number system used in ancient Mesopotamia. They reside in our minds, numerical artifacts(人工制品) that not all humans inherit conceptually.\n\nK) Research on the language of numbers shows, more and more, that one of our species' key characteristics is tremendous linguistic(语言的) and cognitive diversity. If we are to truly understand how much our cognitive lives differ cross-culturally, we must continually explore the depths of our species' linguistic diversity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 A 段。题干：Every aspect of our lives is affected by numbers.\n核对该段原文：Numbers do not exist in all cultures. There are numberless hunter-gatherers in Amazonia, living along branches of the world's largest river tree. Instead of using words for precise quantities, these people rely exclusively on terms similar to \"a few\" or \"some.\" In contrast, our own lives are governed by numbers. As you read this, you are likely aware of what time it is, how old you are, your checking account balance, your weight and so on. The exact numbers we think with impact everything in our lives.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2021-06-2-nonlistening-q44",
+      "canonicalId": "lazynote-cet4-2021-06-2-q44",
+      "number": 44,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Larger numbers are said to be built upon smaller numbers.",
+      "passage": "What happens when a language has no words for numbers?\n\nA) Numbers do not exist in all cultures. There are numberless hunter-gatherers in Amazonia, living along branches of the world's largest river tree. Instead of using words for precise quantities, these people rely exclusively on terms similar to \"a few\" or \"some.\" In contrast, our own lives are governed by numbers. As you read this, you are likely aware of what time it is, how old you are, your checking account balance, your weight and so on. The exact numbers we think with impact everything in our lives.\n\nB) But, in a historical sense, number-conscious people like us are the unusual ones. For the bulk of our species' approximately 200,000-year lifespan, we had no means of precisely representing quantities. What's more, the 7,000 or so languages that exist today vary dramatically in how they utilize numbers.\n\nC) Speakers of anumeric, or numberless, languages offer a window into how the invention of numbers reshaped the human experience. Cultures without numbers, or with only one or two precise numbers, include the Munduruku and Piraha in Amazonia. Researchers have also studied some adults in Nicaragua who were never taught number words. Without numbers, healthy human adults struggle to precisely distinguish and recall quantities as low as four. In an experiment, a researcher will place nuts into a can one at a time and then remove them one by one. The person watching is asked to signal when all the nuts have been removed. Responses suggest that anumeric people have some trouble keeping track of how many nuts remain in the can, even if there are only four or five in total.\n\nD) This and many other experiments have led to a simple conclusion: When people do not have number words, they struggle to make quantitative distinctions that probably seem natural to someone like you or me. While only a small portion of the world's languages are anumeric or nearly anumeric, they demonstrate that number words are not a human universal.\n\nE) It is worth stressing that these anumeric people are cognitively(在认知方面) normal, well-adapted to the surroundings they have dominated for centuries. As a child, I spent some time living with anumeric people, the Piraha who live along the banks of the black Maici River. Like other outsiders, I was continually impressed by their superior understanding of the ecology we shared. Yet numberless people struggle with tasks that require precise discrimination between quantities. Perhaps this should be unsurprising. After all, without counting, how can someone tell whether there are, say, seven or eight coconuts(椰子) in a tree? Such seemingly straightforward distinctions become blurry through numberless eyes.\n\nF) This conclusion is echoed by work with anumeric children in industrialized societies. Prior to being spoon-fed number words, children can only approximately discriminate quantities beyond three. We must be handed the cognitive tools of numbers before we can consistently and easily recognize higher quantities. In fact, acquiring the exact meaning of number words is a painstaking process that takes children years. Initially, kids learn numbers much like they learn letters. They recognize that numbers are organized sequentially, but have little awareness of what each individual number means. With time, they start to understand that a given number represents a quantity greater by one than the number coming before it. This \"successor principle\" is part of the foundation of our numerical(数字的) cognition, but requires extensive practice to understand.\n\nG) None of us, then, is really a \"numbers person.\" We are not born to handle quantitative distinctions skillfully. In the absence of the cultural traditions that fill our lives with numbers from infancy, we would all struggle with even basic quantitative distinctions. Number words and their written forms transform our quantitative reasoning as they are introduced into our cognitive experience by our parents, peers and school teachers. The process seems so normal that we sometimes think of it as a natural part of growing up, but it is not. Human brains come equipped with certain quantitative instincts that are refined with age, but these instincts are very limited.\n\nH) Compared with other mammals, our numerical instincts are not as remarkable as many assume. We even share some basic instinctual quantitative reasoning with distant non-mammalian relatives like birds. Indeed, work with some other species suggests they too can refine their quantitative thought if they are introduced to the cognitive power tools we call numbers.\n\nI) So, how did we ever invent \"unnatural\" numbers in the first place? The answer is, literally, at your fingertips. The bulk of the world's languages use base-10, base-20 or base-5 number systems. That is, these smaller numbers are the basis of larger numbers. English is a base-10 or decimal(十进制的) language, as evidenced by words like 14(\"four\" + \"10\") and 31 (\"three\" x \"10\" + \"one\"). We speak a decimal language because an ancestral tongue, proto-Indo-European, was decimally based. Proto-Indo-European was decimally oriented because, as in so many cultures, our ancestors' hands served as the gateway to the realization that \"five fingers on one hand is the same as five fingers on the other.\" Such momentary thoughts were represented in words and passed down across generations. This is why the word \"five\" in many languages is derived from the word for \"hand.\" Most number systems, then, are the by-product of two key factors: the human capacity for language and our inclination for focusing on our hands and fingers. This manual fixation—an indirect by-product of walking upright on two legs—has helped yield numbers in most cultures, but not all.\n\nJ) Cultures without numbers also offer insight into the cognitive influence of particular numeric traditions. Consider what time it is. Your day is ruled by minutes and seconds, but these concepts are not real in any physical sense and are nonexistent to numberless people. Minutes and seconds are the verbal and written representations of an uncommon base-60 number system used in ancient Mesopotamia. They reside in our minds, numerical artifacts(人工制品) that not all humans inherit conceptually.\n\nK) Research on the language of numbers shows, more and more, that one of our species' key characteristics is tremendous linguistic(语言的) and cognitive diversity. If we are to truly understand how much our cognitive lives differ cross-culturally, we must continually explore the depths of our species' linguistic diversity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 I 段。题干：Larger numbers are said to be built upon smaller numbers.\n核对该段原文：So, how did we ever invent \"unnatural\" numbers in the first place? The answer is, literally, at your fingertips. The bulk of the world's languages use base-10, base-20 or base-5 number systems. That is, these smaller numbers are the basis of larger numbers. English is a base-10 or decimal(十进制的) language, as evidenced by words like 14(\"four\" + \"10\") and 31 (\"three\" x \"10\" + \"one\"). We speak a decimal language because an ancestral tongue, proto-Indo-European, was decimally based. Proto-Indo-European was decimally oriented because, as in so many cultures, our ancestors' hands served as the gateway to the realization that \"five fingers on one hand is the same as five fingers on the other.\" Such momentary thoughts were represented in words and passed down across generations. This is why the word \"five\" in many languages is derived from the word for \"hand.\" Most number systems, then, are the by-product of two key factors: the human capacity for language and our inclination for focusing on our hands and fingers. This manual fixation—an indirect by-product of walking upright on two legs—has helped yield numbers in most cultures, but not all.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2021-06-2-nonlistening-q45",
+      "canonicalId": "lazynote-cet4-2021-06-2-q45",
+      "number": 45,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "It takes great efforts for children to grasp the concept of number words.",
+      "passage": "What happens when a language has no words for numbers?\n\nA) Numbers do not exist in all cultures. There are numberless hunter-gatherers in Amazonia, living along branches of the world's largest river tree. Instead of using words for precise quantities, these people rely exclusively on terms similar to \"a few\" or \"some.\" In contrast, our own lives are governed by numbers. As you read this, you are likely aware of what time it is, how old you are, your checking account balance, your weight and so on. The exact numbers we think with impact everything in our lives.\n\nB) But, in a historical sense, number-conscious people like us are the unusual ones. For the bulk of our species' approximately 200,000-year lifespan, we had no means of precisely representing quantities. What's more, the 7,000 or so languages that exist today vary dramatically in how they utilize numbers.\n\nC) Speakers of anumeric, or numberless, languages offer a window into how the invention of numbers reshaped the human experience. Cultures without numbers, or with only one or two precise numbers, include the Munduruku and Piraha in Amazonia. Researchers have also studied some adults in Nicaragua who were never taught number words. Without numbers, healthy human adults struggle to precisely distinguish and recall quantities as low as four. In an experiment, a researcher will place nuts into a can one at a time and then remove them one by one. The person watching is asked to signal when all the nuts have been removed. Responses suggest that anumeric people have some trouble keeping track of how many nuts remain in the can, even if there are only four or five in total.\n\nD) This and many other experiments have led to a simple conclusion: When people do not have number words, they struggle to make quantitative distinctions that probably seem natural to someone like you or me. While only a small portion of the world's languages are anumeric or nearly anumeric, they demonstrate that number words are not a human universal.\n\nE) It is worth stressing that these anumeric people are cognitively(在认知方面) normal, well-adapted to the surroundings they have dominated for centuries. As a child, I spent some time living with anumeric people, the Piraha who live along the banks of the black Maici River. Like other outsiders, I was continually impressed by their superior understanding of the ecology we shared. Yet numberless people struggle with tasks that require precise discrimination between quantities. Perhaps this should be unsurprising. After all, without counting, how can someone tell whether there are, say, seven or eight coconuts(椰子) in a tree? Such seemingly straightforward distinctions become blurry through numberless eyes.\n\nF) This conclusion is echoed by work with anumeric children in industrialized societies. Prior to being spoon-fed number words, children can only approximately discriminate quantities beyond three. We must be handed the cognitive tools of numbers before we can consistently and easily recognize higher quantities. In fact, acquiring the exact meaning of number words is a painstaking process that takes children years. Initially, kids learn numbers much like they learn letters. They recognize that numbers are organized sequentially, but have little awareness of what each individual number means. With time, they start to understand that a given number represents a quantity greater by one than the number coming before it. This \"successor principle\" is part of the foundation of our numerical(数字的) cognition, but requires extensive practice to understand.\n\nG) None of us, then, is really a \"numbers person.\" We are not born to handle quantitative distinctions skillfully. In the absence of the cultural traditions that fill our lives with numbers from infancy, we would all struggle with even basic quantitative distinctions. Number words and their written forms transform our quantitative reasoning as they are introduced into our cognitive experience by our parents, peers and school teachers. The process seems so normal that we sometimes think of it as a natural part of growing up, but it is not. Human brains come equipped with certain quantitative instincts that are refined with age, but these instincts are very limited.\n\nH) Compared with other mammals, our numerical instincts are not as remarkable as many assume. We even share some basic instinctual quantitative reasoning with distant non-mammalian relatives like birds. Indeed, work with some other species suggests they too can refine their quantitative thought if they are introduced to the cognitive power tools we call numbers.\n\nI) So, how did we ever invent \"unnatural\" numbers in the first place? The answer is, literally, at your fingertips. The bulk of the world's languages use base-10, base-20 or base-5 number systems. That is, these smaller numbers are the basis of larger numbers. English is a base-10 or decimal(十进制的) language, as evidenced by words like 14(\"four\" + \"10\") and 31 (\"three\" x \"10\" + \"one\"). We speak a decimal language because an ancestral tongue, proto-Indo-European, was decimally based. Proto-Indo-European was decimally oriented because, as in so many cultures, our ancestors' hands served as the gateway to the realization that \"five fingers on one hand is the same as five fingers on the other.\" Such momentary thoughts were represented in words and passed down across generations. This is why the word \"five\" in many languages is derived from the word for \"hand.\" Most number systems, then, are the by-product of two key factors: the human capacity for language and our inclination for focusing on our hands and fingers. This manual fixation—an indirect by-product of walking upright on two legs—has helped yield numbers in most cultures, but not all.\n\nJ) Cultures without numbers also offer insight into the cognitive influence of particular numeric traditions. Consider what time it is. Your day is ruled by minutes and seconds, but these concepts are not real in any physical sense and are nonexistent to numberless people. Minutes and seconds are the verbal and written representations of an uncommon base-60 number system used in ancient Mesopotamia. They reside in our minds, numerical artifacts(人工制品) that not all humans inherit conceptually.\n\nK) Research on the language of numbers shows, more and more, that one of our species' key characteristics is tremendous linguistic(语言的) and cognitive diversity. If we are to truly understand how much our cognitive lives differ cross-culturally, we must continually explore the depths of our species' linguistic diversity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 F 段。题干：It takes great efforts for children to grasp the concept of number words.\n核对该段原文：This conclusion is echoed by work with anumeric children in industrialized societies. Prior to being spoon-fed number words, children can only approximately discriminate quantities beyond three. We must be handed the cognitive tools of numbers before we can consistently and easily recognize higher quantities. In fact, acquiring the exact meaning of number words is a painstaking process that takes children years. Initially, kids learn numbers much like they learn letters. They recognize that numbers are organized sequentially, but have little awareness of what each individual number means. With time, they start to understand that a given number represents a quantity greater by one than the number coming before it. This \"successor principle\" is part of the foundation of our numerical(数字的) cognition, but requires extensive practice to understand.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2021-06-2-nonlistening-q46",
+      "canonicalId": "lazynote-cet4-2021-06-2-q46",
+      "number": 46,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What did Harvard scientists do 50 years ago?",
+      "passage": "Sugar shocked. That describes the reaction of many Americans this week following revelations that, 50 years ago, the sugar industry paid Harvard scientists for research that shifted the focus away from sugar's role in heart disease—and put the spotlight(注意的中心) squarely on dietary fat.\n\nWhat might surprise consumers is just how many present-day nutrition studies are still funded by the food industry. Nutrition scholar Marion Nestle of New York University spent a year informally tracking industry-funded studies on food. \"Roughly 90% of nearly 170 studies favored the sponsor's interest,\" Nestle tells us. Other systematic reviews support her conclusions.\n\nFor instance, studies funded by Welch Foods—the brand behind Welch's 100% Grape Juice—found that drinking Concord grape juice daily may boost brain function. Another, funded by Quaker Oats, concluded, as a Daily Mail story put it, that \"hot oatmeal(燕麦粥) breakfast keeps you full for longer.\"\n\nLast year, The New York Times revealed how Coca-Cola was funding well-known scientists and organizations promoting a message that, in the battle against weight gain, people should pay more attention to exercise and less to what they eat and drink. Coca-Cola also released data detailing its funding of several medical institutions and associations between 2010 and 2015.\n\n\"It's certainly a problem that so much research in nutrition and health is funded by industry,\" says Bonnie Liebman, director of nutrition at the Center for Science in the Public Interest. \"When the food industry pays for research, it often gets what it pays for.\" And what it pays for is often a pro-industry finding.\n\nGiven this environment, consumers should be skeptical(怀疑的) when reading the latest finding in nutrition science and ignore the latest study that pops up on your news feed. \"Rely on health experts who've reviewed all the evidence,\" Liebman says, pointing to the official government Dietary Guidelines, which are based on reviews of hundreds of studies.\n\n\"And that expert advice remains pretty simple,\" says Nestle. \"We know what healthy diets are—lots of vegetables, not too much junk food, balanced calories. Everything else is really difficult to do experimentally.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "They raised public awareness of the possible causes of heart disease."
+        },
+        {
+          "id": "B",
+          "text": "They turned public attention away from the health risks of sugar to fat."
+        },
+        {
+          "id": "C",
+          "text": "They placed the sugar industry in the spotlight with their new findings."
+        },
+        {
+          "id": "D",
+          "text": "They conducted large-scale research on the role of sugar in people's health."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：They turned public attention away from the health risks of sugar to fat.\n关键词检索定位到第 1 段的候选相关句：That describes the reaction of many Americans this week following revelations that, 50 years ago, the sugar industry paid Harvard scientists for research that shifted the focus away from sugar's role in heart disease—and put the spotlight(注意的中心) squarely on dietary fat.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2021-06-2-nonlistening-q47",
+      "canonicalId": "lazynote-cet4-2021-06-2-q47",
+      "number": 47,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does Marion Nestle say about present-day nutrition studies?",
+      "passage": "Sugar shocked. That describes the reaction of many Americans this week following revelations that, 50 years ago, the sugar industry paid Harvard scientists for research that shifted the focus away from sugar's role in heart disease—and put the spotlight(注意的中心) squarely on dietary fat.\n\nWhat might surprise consumers is just how many present-day nutrition studies are still funded by the food industry. Nutrition scholar Marion Nestle of New York University spent a year informally tracking industry-funded studies on food. \"Roughly 90% of nearly 170 studies favored the sponsor's interest,\" Nestle tells us. Other systematic reviews support her conclusions.\n\nFor instance, studies funded by Welch Foods—the brand behind Welch's 100% Grape Juice—found that drinking Concord grape juice daily may boost brain function. Another, funded by Quaker Oats, concluded, as a Daily Mail story put it, that \"hot oatmeal(燕麦粥) breakfast keeps you full for longer.\"\n\nLast year, The New York Times revealed how Coca-Cola was funding well-known scientists and organizations promoting a message that, in the battle against weight gain, people should pay more attention to exercise and less to what they eat and drink. Coca-Cola also released data detailing its funding of several medical institutions and associations between 2010 and 2015.\n\n\"It's certainly a problem that so much research in nutrition and health is funded by industry,\" says Bonnie Liebman, director of nutrition at the Center for Science in the Public Interest. \"When the food industry pays for research, it often gets what it pays for.\" And what it pays for is often a pro-industry finding.\n\nGiven this environment, consumers should be skeptical(怀疑的) when reading the latest finding in nutrition science and ignore the latest study that pops up on your news feed. \"Rely on health experts who've reviewed all the evidence,\" Liebman says, pointing to the official government Dietary Guidelines, which are based on reviews of hundreds of studies.\n\n\"And that expert advice remains pretty simple,\" says Nestle. \"We know what healthy diets are—lots of vegetables, not too much junk food, balanced calories. Everything else is really difficult to do experimentally.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "They took her a full year to track and analyze."
+        },
+        {
+          "id": "B",
+          "text": "Most of them are based on systematic reviews."
+        },
+        {
+          "id": "C",
+          "text": "They depend on funding from the food industries."
+        },
+        {
+          "id": "D",
+          "text": "Nearly all of them serve the purpose of the funders."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：Nearly all of them serve the purpose of the funders.\n关键词检索定位到第 2 段的候选相关句：What might surprise consumers is just how many present-day nutrition studies are still funded by the food industry.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2021-06-2-nonlistening-q48",
+      "canonicalId": "lazynote-cet4-2021-06-2-q48",
+      "number": 48,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What did Coca-Cola-funded studies claim?",
+      "passage": "Sugar shocked. That describes the reaction of many Americans this week following revelations that, 50 years ago, the sugar industry paid Harvard scientists for research that shifted the focus away from sugar's role in heart disease—and put the spotlight(注意的中心) squarely on dietary fat.\n\nWhat might surprise consumers is just how many present-day nutrition studies are still funded by the food industry. Nutrition scholar Marion Nestle of New York University spent a year informally tracking industry-funded studies on food. \"Roughly 90% of nearly 170 studies favored the sponsor's interest,\" Nestle tells us. Other systematic reviews support her conclusions.\n\nFor instance, studies funded by Welch Foods—the brand behind Welch's 100% Grape Juice—found that drinking Concord grape juice daily may boost brain function. Another, funded by Quaker Oats, concluded, as a Daily Mail story put it, that \"hot oatmeal(燕麦粥) breakfast keeps you full for longer.\"\n\nLast year, The New York Times revealed how Coca-Cola was funding well-known scientists and organizations promoting a message that, in the battle against weight gain, people should pay more attention to exercise and less to what they eat and drink. Coca-Cola also released data detailing its funding of several medical institutions and associations between 2010 and 2015.\n\n\"It's certainly a problem that so much research in nutrition and health is funded by industry,\" says Bonnie Liebman, director of nutrition at the Center for Science in the Public Interest. \"When the food industry pays for research, it often gets what it pays for.\" And what it pays for is often a pro-industry finding.\n\nGiven this environment, consumers should be skeptical(怀疑的) when reading the latest finding in nutrition science and ignore the latest study that pops up on your news feed. \"Rely on health experts who've reviewed all the evidence,\" Liebman says, pointing to the official government Dietary Guidelines, which are based on reviews of hundreds of studies.\n\n\"And that expert advice remains pretty simple,\" says Nestle. \"We know what healthy diets are—lots of vegetables, not too much junk food, balanced calories. Everything else is really difficult to do experimentally.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "Exercise is more important to good health than diet."
+        },
+        {
+          "id": "B",
+          "text": "Choosing what to eat and drink is key to weight control."
+        },
+        {
+          "id": "C",
+          "text": "Drinking Coca-Cola does not contribute to weight gain."
+        },
+        {
+          "id": "D",
+          "text": "The food industry plays a major role in fighting obesity."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：Exercise is more important to good health than diet.\n关键词检索定位到第 4 段的候选相关句：Last year, The New York Times revealed how Coca-Cola was funding well-known scientists and organizations promoting a message that, in the battle against weight gain, people should pay more attention to exercise and less to what they eat and drink.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2021-06-2-nonlistening-q49",
+      "canonicalId": "lazynote-cet4-2021-06-2-q49",
+      "number": 49,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does Liebman say about industry-funded research?",
+      "passage": "Sugar shocked. That describes the reaction of many Americans this week following revelations that, 50 years ago, the sugar industry paid Harvard scientists for research that shifted the focus away from sugar's role in heart disease—and put the spotlight(注意的中心) squarely on dietary fat.\n\nWhat might surprise consumers is just how many present-day nutrition studies are still funded by the food industry. Nutrition scholar Marion Nestle of New York University spent a year informally tracking industry-funded studies on food. \"Roughly 90% of nearly 170 studies favored the sponsor's interest,\" Nestle tells us. Other systematic reviews support her conclusions.\n\nFor instance, studies funded by Welch Foods—the brand behind Welch's 100% Grape Juice—found that drinking Concord grape juice daily may boost brain function. Another, funded by Quaker Oats, concluded, as a Daily Mail story put it, that \"hot oatmeal(燕麦粥) breakfast keeps you full for longer.\"\n\nLast year, The New York Times revealed how Coca-Cola was funding well-known scientists and organizations promoting a message that, in the battle against weight gain, people should pay more attention to exercise and less to what they eat and drink. Coca-Cola also released data detailing its funding of several medical institutions and associations between 2010 and 2015.\n\n\"It's certainly a problem that so much research in nutrition and health is funded by industry,\" says Bonnie Liebman, director of nutrition at the Center for Science in the Public Interest. \"When the food industry pays for research, it often gets what it pays for.\" And what it pays for is often a pro-industry finding.\n\nGiven this environment, consumers should be skeptical(怀疑的) when reading the latest finding in nutrition science and ignore the latest study that pops up on your news feed. \"Rely on health experts who've reviewed all the evidence,\" Liebman says, pointing to the official government Dietary Guidelines, which are based on reviews of hundreds of studies.\n\n\"And that expert advice remains pretty simple,\" says Nestle. \"We know what healthy diets are—lots of vegetables, not too much junk food, balanced calories. Everything else is really difficult to do experimentally.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "It simply focuses on nutrition and health."
+        },
+        {
+          "id": "B",
+          "text": "It causes confusion among consumers."
+        },
+        {
+          "id": "C",
+          "text": "It rarely results in objective findings."
+        },
+        {
+          "id": "D",
+          "text": "It runs counter to the public interest."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：It rarely results in objective findings.\n关键词检索定位到第 5 段的候选相关句：\"It's certainly a problem that so much research in nutrition and health is funded by industry,\" says Bonnie Liebman, director of nutrition at the Center for Science in the Public Interest.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2021-06-2-nonlistening-q50",
+      "canonicalId": "lazynote-cet4-2021-06-2-q50",
+      "number": 50,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What is the author's advice to consumers?",
+      "passage": "Sugar shocked. That describes the reaction of many Americans this week following revelations that, 50 years ago, the sugar industry paid Harvard scientists for research that shifted the focus away from sugar's role in heart disease—and put the spotlight(注意的中心) squarely on dietary fat.\n\nWhat might surprise consumers is just how many present-day nutrition studies are still funded by the food industry. Nutrition scholar Marion Nestle of New York University spent a year informally tracking industry-funded studies on food. \"Roughly 90% of nearly 170 studies favored the sponsor's interest,\" Nestle tells us. Other systematic reviews support her conclusions.\n\nFor instance, studies funded by Welch Foods—the brand behind Welch's 100% Grape Juice—found that drinking Concord grape juice daily may boost brain function. Another, funded by Quaker Oats, concluded, as a Daily Mail story put it, that \"hot oatmeal(燕麦粥) breakfast keeps you full for longer.\"\n\nLast year, The New York Times revealed how Coca-Cola was funding well-known scientists and organizations promoting a message that, in the battle against weight gain, people should pay more attention to exercise and less to what they eat and drink. Coca-Cola also released data detailing its funding of several medical institutions and associations between 2010 and 2015.\n\n\"It's certainly a problem that so much research in nutrition and health is funded by industry,\" says Bonnie Liebman, director of nutrition at the Center for Science in the Public Interest. \"When the food industry pays for research, it often gets what it pays for.\" And what it pays for is often a pro-industry finding.\n\nGiven this environment, consumers should be skeptical(怀疑的) when reading the latest finding in nutrition science and ignore the latest study that pops up on your news feed. \"Rely on health experts who've reviewed all the evidence,\" Liebman says, pointing to the official government Dietary Guidelines, which are based on reviews of hundreds of studies.\n\n\"And that expert advice remains pretty simple,\" says Nestle. \"We know what healthy diets are—lots of vegetables, not too much junk food, balanced calories. Everything else is really difficult to do experimentally.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "Follow their intuition in deciding what to eat."
+        },
+        {
+          "id": "B",
+          "text": "Be doubtful of diet experts' recommendations."
+        },
+        {
+          "id": "C",
+          "text": "Ignore irrelevant information on their news feed."
+        },
+        {
+          "id": "D",
+          "text": "Think twice about new nutrition research findings."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：Think twice about new nutrition research findings.\n关键词检索定位到第 6 段的候选相关句：Given this environment, consumers should be skeptical(怀疑的) when reading the latest finding in nutrition science and ignore the latest study that pops up on your news feed.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2021-06-2-nonlistening-q51",
+      "canonicalId": "lazynote-cet4-2021-06-2-q51",
+      "number": 51,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author use the example of his father to illustrate?",
+      "passage": "Success was once defined as being able to stay at a company for a long time and move up the corporate ladder. The goal was to reach the top, accumulate wealth and retire to a life of ease. My father is a successful senior executive. In 35 years, he worked for only three companies.\n\nWhen I started my career, things were already different. If you weren't changing companies every three or four years, you simply weren't getting ahead in your career. But back then, if you were a consultant or freelancer(自由职业者), people would wonder what was wrong with you. They would assume you had problems getting a job.\n\nToday, consulting or freelancing for five businesses at the same time is a badge of honor. It shows how valuable an individual is. Many companies now look to these \"ultimate professionals\" to solve problems their full-time teams can't. Or they save money by hiring \"top-tier(顶尖的) experts\" only for particular projects.\n\nWorking at home or in cafes, starting businesses of their own, and even launching business ventures that eventually may fail, all indicate \"initiative,\" \"creativity,\" and \"adaptability,\" which are desirable qualities in today's workplace. Most important, there is a growing recognition that people who balance work and play, and who work at what they are passionate about, are more focused and productive, delivering greater value to their clients.\n\nWho are these people? They are artists, writers, programmers, providers of office services and career advice. What's needed now is a marketplace platform specifically designed to bring freelancers and clients together. Such platforms then become a place to feature the most experienced, professional, and creative talent. This is where they conduct business, where a sense of community reinforces the culture and values of the gig economy(零工经济), and where success is rewarded with good reviews that encourage more business.\n\nSlowly but surely, these platforms create a bridge between traditional enterprises and this emerging economy. Perhaps more important, as the global economy continues to be disrupted by technology and other massive change, the gig economy will itself become an engine of economic and social transformation.",
+      "options": [
+        {
+          "id": "A",
+          "text": "How long people took to reach the top of their career."
+        },
+        {
+          "id": "B",
+          "text": "How people accumulated wealth in his father's time."
+        },
+        {
+          "id": "C",
+          "text": "How people viewed success in his father's time."
+        },
+        {
+          "id": "D",
+          "text": "How long people usually stayed in a company."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：How people viewed success in his father's time.\n关键词检索定位到第 1 段的候选相关句：Success was once defined as being able to stay at a company for a long time and move up the corporate ladder.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2021-06-2-nonlistening-q52",
+      "canonicalId": "lazynote-cet4-2021-06-2-q52",
+      "number": 52,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "Why did people often change jobs when the author started his career?",
+      "passage": "Success was once defined as being able to stay at a company for a long time and move up the corporate ladder. The goal was to reach the top, accumulate wealth and retire to a life of ease. My father is a successful senior executive. In 35 years, he worked for only three companies.\n\nWhen I started my career, things were already different. If you weren't changing companies every three or four years, you simply weren't getting ahead in your career. But back then, if you were a consultant or freelancer(自由职业者), people would wonder what was wrong with you. They would assume you had problems getting a job.\n\nToday, consulting or freelancing for five businesses at the same time is a badge of honor. It shows how valuable an individual is. Many companies now look to these \"ultimate professionals\" to solve problems their full-time teams can't. Or they save money by hiring \"top-tier(顶尖的) experts\" only for particular projects.\n\nWorking at home or in cafes, starting businesses of their own, and even launching business ventures that eventually may fail, all indicate \"initiative,\" \"creativity,\" and \"adaptability,\" which are desirable qualities in today's workplace. Most important, there is a growing recognition that people who balance work and play, and who work at what they are passionate about, are more focused and productive, delivering greater value to their clients.\n\nWho are these people? They are artists, writers, programmers, providers of office services and career advice. What's needed now is a marketplace platform specifically designed to bring freelancers and clients together. Such platforms then become a place to feature the most experienced, professional, and creative talent. This is where they conduct business, where a sense of community reinforces the culture and values of the gig economy(零工经济), and where success is rewarded with good reviews that encourage more business.\n\nSlowly but surely, these platforms create a bridge between traditional enterprises and this emerging economy. Perhaps more important, as the global economy continues to be disrupted by technology and other massive change, the gig economy will itself become an engine of economic and social transformation.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It was considered a fashion at that time."
+        },
+        {
+          "id": "B",
+          "text": "It was a way to advance in their career."
+        },
+        {
+          "id": "C",
+          "text": "It was a response to the changing job market."
+        },
+        {
+          "id": "D",
+          "text": "It was difficult to keep a job for long."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：It was a way to advance in their career.\n关键词检索定位到第 2 段的候选相关句：When I started my career, things were already different.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2021-06-2-nonlistening-q53",
+      "canonicalId": "lazynote-cet4-2021-06-2-q53",
+      "number": 53,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author say about people now working for several businesses at the same time?",
+      "passage": "Success was once defined as being able to stay at a company for a long time and move up the corporate ladder. The goal was to reach the top, accumulate wealth and retire to a life of ease. My father is a successful senior executive. In 35 years, he worked for only three companies.\n\nWhen I started my career, things were already different. If you weren't changing companies every three or four years, you simply weren't getting ahead in your career. But back then, if you were a consultant or freelancer(自由职业者), people would wonder what was wrong with you. They would assume you had problems getting a job.\n\nToday, consulting or freelancing for five businesses at the same time is a badge of honor. It shows how valuable an individual is. Many companies now look to these \"ultimate professionals\" to solve problems their full-time teams can't. Or they save money by hiring \"top-tier(顶尖的) experts\" only for particular projects.\n\nWorking at home or in cafes, starting businesses of their own, and even launching business ventures that eventually may fail, all indicate \"initiative,\" \"creativity,\" and \"adaptability,\" which are desirable qualities in today's workplace. Most important, there is a growing recognition that people who balance work and play, and who work at what they are passionate about, are more focused and productive, delivering greater value to their clients.\n\nWho are these people? They are artists, writers, programmers, providers of office services and career advice. What's needed now is a marketplace platform specifically designed to bring freelancers and clients together. Such platforms then become a place to feature the most experienced, professional, and creative talent. This is where they conduct business, where a sense of community reinforces the culture and values of the gig economy(零工经济), and where success is rewarded with good reviews that encourage more business.\n\nSlowly but surely, these platforms create a bridge between traditional enterprises and this emerging economy. Perhaps more important, as the global economy continues to be disrupted by technology and other massive change, the gig economy will itself become an engine of economic and social transformation.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They are often regarded as most treasured talents."
+        },
+        {
+          "id": "B",
+          "text": "They are able to bring their potential into fuller play."
+        },
+        {
+          "id": "C",
+          "text": "They have control over their life and work schedules."
+        },
+        {
+          "id": "D",
+          "text": "They feel proud of being outstanding problem solvers."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：They are often regarded as most treasured talents.\n关键词检索定位到第 3 段的候选相关句：Today, consulting or freelancing for five businesses at the same time is a badge of honor.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2021-06-2-nonlistening-q54",
+      "canonicalId": "lazynote-cet4-2021-06-2-q54",
+      "number": 54,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What have businesses come to recognize now?",
+      "passage": "Success was once defined as being able to stay at a company for a long time and move up the corporate ladder. The goal was to reach the top, accumulate wealth and retire to a life of ease. My father is a successful senior executive. In 35 years, he worked for only three companies.\n\nWhen I started my career, things were already different. If you weren't changing companies every three or four years, you simply weren't getting ahead in your career. But back then, if you were a consultant or freelancer(自由职业者), people would wonder what was wrong with you. They would assume you had problems getting a job.\n\nToday, consulting or freelancing for five businesses at the same time is a badge of honor. It shows how valuable an individual is. Many companies now look to these \"ultimate professionals\" to solve problems their full-time teams can't. Or they save money by hiring \"top-tier(顶尖的) experts\" only for particular projects.\n\nWorking at home or in cafes, starting businesses of their own, and even launching business ventures that eventually may fail, all indicate \"initiative,\" \"creativity,\" and \"adaptability,\" which are desirable qualities in today's workplace. Most important, there is a growing recognition that people who balance work and play, and who work at what they are passionate about, are more focused and productive, delivering greater value to their clients.\n\nWho are these people? They are artists, writers, programmers, providers of office services and career advice. What's needed now is a marketplace platform specifically designed to bring freelancers and clients together. Such platforms then become a place to feature the most experienced, professional, and creative talent. This is where they conduct business, where a sense of community reinforces the culture and values of the gig economy(零工经济), and where success is rewarded with good reviews that encourage more business.\n\nSlowly but surely, these platforms create a bridge between traditional enterprises and this emerging economy. Perhaps more important, as the global economy continues to be disrupted by technology and other massive change, the gig economy will itself become an engine of economic and social transformation.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Who is capable of solving problems with ease."
+        },
+        {
+          "id": "B",
+          "text": "How people can be more focused and productive."
+        },
+        {
+          "id": "C",
+          "text": "What kind of people can contribute more to them."
+        },
+        {
+          "id": "D",
+          "text": "Why some people are more passionate about work."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：What kind of people can contribute more to them.\n关键词检索定位到第 3 段的候选相关句：Today, consulting or freelancing for five businesses at the same time is a badge of honor.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2021-06-2-nonlistening-q55",
+      "canonicalId": "lazynote-cet4-2021-06-2-q55",
+      "number": 55,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author say about the gig economy?",
+      "passage": "Success was once defined as being able to stay at a company for a long time and move up the corporate ladder. The goal was to reach the top, accumulate wealth and retire to a life of ease. My father is a successful senior executive. In 35 years, he worked for only three companies.\n\nWhen I started my career, things were already different. If you weren't changing companies every three or four years, you simply weren't getting ahead in your career. But back then, if you were a consultant or freelancer(自由职业者), people would wonder what was wrong with you. They would assume you had problems getting a job.\n\nToday, consulting or freelancing for five businesses at the same time is a badge of honor. It shows how valuable an individual is. Many companies now look to these \"ultimate professionals\" to solve problems their full-time teams can't. Or they save money by hiring \"top-tier(顶尖的) experts\" only for particular projects.\n\nWorking at home or in cafes, starting businesses of their own, and even launching business ventures that eventually may fail, all indicate \"initiative,\" \"creativity,\" and \"adaptability,\" which are desirable qualities in today's workplace. Most important, there is a growing recognition that people who balance work and play, and who work at what they are passionate about, are more focused and productive, delivering greater value to their clients.\n\nWho are these people? They are artists, writers, programmers, providers of office services and career advice. What's needed now is a marketplace platform specifically designed to bring freelancers and clients together. Such platforms then become a place to feature the most experienced, professional, and creative talent. This is where they conduct business, where a sense of community reinforces the culture and values of the gig economy(零工经济), and where success is rewarded with good reviews that encourage more business.\n\nSlowly but surely, these platforms create a bridge between traditional enterprises and this emerging economy. Perhaps more important, as the global economy continues to be disrupted by technology and other massive change, the gig economy will itself become an engine of economic and social transformation.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It may force companies to reform their business practice."
+        },
+        {
+          "id": "B",
+          "text": "It may soon replace the traditional economic model."
+        },
+        {
+          "id": "C",
+          "text": "It will drive technological progress on a global scale."
+        },
+        {
+          "id": "D",
+          "text": "It will bring about radical economic and social changes."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：It will bring about radical economic and social changes.\n关键词检索定位到第 6 段的候选相关句：Perhaps more important, as the global economy continues to be disrupted by technology and other massive change, the gig economy will itself become an engine of economic and social transformation.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2021-06-2-nonlistening-translation",
+      "number": "IV",
+      "level": "CET4",
+      "type": "short_text_self_check",
+      "skill": "translation",
+      "section": "translation",
+      "prompt": "Directions: For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2.\n\n普洱(Pur'er)茶深受中国人喜爱。最好的普洱茶产自云南的西双版纳(Xishuangbanna)，那里的气候和环境为普洱茶树的生长提供了最佳条件。普洱茶颜色较深,味道与其他许多茶截然不同。普洱茶泡(brew)的时间越长越有味道。许多爱喝茶的人尤其喜欢其独特的香味和口感。普洱茶含有多种有益健康的元素,常饮普洱茶有助于保护心脏和血管,还有减肥、消除疲劳和促进消化的功效。",
+      "options": [],
+      "correctAnswer": "Pu'er tea is well loved by Chinese people. The best Pu'er comes from Xishuangbanna in Yunnan, where the climate and environment provide ideal conditions for growing its tea trees. Pu'er is dark in color and tastes quite different from many other teas. The longer it is brewed, the more flavorful it becomes. Many tea lovers especially enjoy its distinctive aroma and taste. Pu'er contains a variety of elements beneficial to health. Drinking it regularly helps protect the heart and blood vessels and also aids weight loss, relieves fatigue and promotes digestion.",
+      "referenceAnswer": "Pu'er tea is well loved by Chinese people. The best Pu'er comes from Xishuangbanna in Yunnan, where the climate and environment provide ideal conditions for growing its tea trees. Pu'er is dark in color and tastes quite different from many other teas. The longer it is brewed, the more flavorful it becomes. Many tea lovers especially enjoy its distinctive aroma and taste. Pu'er contains a variety of elements beneficial to health. Drinking it regularly helps protect the heart and blood vessels and also aids weight loss, relieves fatigue and promotes digestion.",
+      "hint": "注意普洱地名、深色、冲泡比较句和多项作用。",
+      "explanation": "以下译文为原创参考，可使用其他准确表达。the longer…the more表达泡得越久越有味；心脏、血管、体重、疲劳、消化五项均须译出，不能漏掉其中几项。\n\n逐句核对：Xishuangbanna in Yunnan保留云南西双版纳，where引出茶树生长条件；dark in color是颜色深，不是深夜喝茶。The longer it is brewed, the more flavorful…表达两级递进；aroma与taste对应香味口感。健康元素用elements beneficial to health，heart and blood vessels为心脏血管；后续weight loss、fatigue、digestion三项不可并成一个“有益健康”。题面Pur’er拼写可见不规范，译文采用常见Pu’er转写，未变更产地或茶种。",
+      "rubric": [
+        "练习自评总分15分：信息准确0–8＋语法0–5＋表达0–2；允许拆句、换同义词，不要求逐字匹配参考译文。",
+        "信息准确0–8分：逐项检查——普洱喜爱；云南西双版纳条件；色深味不同；越泡越有味；香味口感；元素；心血管、减肥、疲劳、消化。8分=全部关键信息正确；6–7分=少量次要细节遗漏；3–5分=多处遗漏/数字或关系误译；0–2分=核心人物、动作或逻辑严重错误。",
+        "语法0–5分：5分=时态、单复数、主谓一致、从句和介词基本正确；3–4分=少量错误仍易理解；1–2分=多处错误妨碍理解；0分=主要句子结构不可理解。",
+        "表达0–2分：2分=用词搭配自然、因果转折时间衔接清楚；1分=可理解但有中文式生硬表达；0分=词序/词义造成大面积理解困难。",
+        "修订操作：先在中文原题划出时间、数量、地点和连接词，再在自己的译文逐项找对应；为每处漏译或误译写一句修正。此分数是练习估计，不是官方阅卷或机器评分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2021-06-2-nonlistening"
+    }
+  ]
+}

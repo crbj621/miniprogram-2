@@ -1,0 +1,1909 @@
+{
+  "schemaVersion": 1,
+  "status": "verified_structured",
+  "source": {
+    "id": "cet4-2024-06-3-nonlistening",
+    "textCollection": "https://english-exam.lazynote.cn",
+    "textUrl": "https://english-exam.lazynote.cn/cet4/paper/2024-06-3/",
+    "textSha256": "6d0887a1f892c55d4a7b527a6f6918567a8a4f4853272fac1f5e47c3423a23b0",
+    "answerSources": [
+      {
+        "section": "part3-section-a",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2024-06-3/part3-section-a/",
+        "sha256": "ecdc22d7390819198222877935e9575d7e79a99e3fda5488a66c37def5a6d717"
+      },
+      {
+        "section": "part3-section-b",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2024-06-3/part3-section-b/",
+        "sha256": "826ae5ab5e65bec399a564b4e0235173263d445080704c2cc355f68790110392"
+      },
+      {
+        "section": "part3-section-c-1",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2024-06-3/part3-section-c-1/",
+        "sha256": "c644b63ea81b40ba28d60164b4ff38980afce65fb275914c1e6e5373c93049b3"
+      },
+      {
+        "section": "part3-section-c-2",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2024-06-3/part3-section-c-2/",
+        "sha256": "b83ad38e5a4ed9795e2f7e2c0f231a4edb948101df6c051cf41777930307361e"
+      }
+    ],
+    "rightsUrl": "https://english-exam.lazynote.cn",
+    "rights": "Source footer attributes original papers to the National College English Test Committee. Original materials retain their respective rights; no blanket source license is asserted. Commercial explanatory prose is not copied.",
+    "sourceRightsNotice": "© 2026 懒笔记 · 蜀ICP备2024049450号-1 · 川公网安备51019002006323号 · 增值电信业务经营许可证：川B2-20240301 · 真题版权归全国硕士研究生招生考试 / 全国大学英语四六级考试委员会所有 · 隐私政策 · 用户协议",
+    "sourceTermsUrl": "https://english-exam.lazynote.cn/terms/",
+    "reviewedAt": "2026-10-03",
+    "answerStatus": "public_reference_structural_consistency_verified",
+    "explanations": "Project-generated contextual evidence notes. Close-reading locations are keyword-search candidates, not manually verified detailed explanations.",
+    "referenceEssays": "Project-authored full reference examples bound to the original prompts; not official model answers.",
+    "materialSources": [],
+    "corrections": [],
+    "previousReviewedAnswerSources": [],
+    "sourceEdition": "lazynote public original-paper arrangement; set numbering can differ from other collections.",
+    "independentlyConfirmedSharedSource": "",
+    "readingSourceCorrection": null,
+    "sectionSourceReplacement": null,
+    "independentAnswerChecks": [],
+    "sharedSectionSource": {}
+  },
+  "papers": [
+    {
+      "id": "cet4-2024-06-3-nonlistening",
+      "level": "CET4",
+      "year": 2024,
+      "month": 6,
+      "set": 3,
+      "title": "2024年6月英语四级第3套真题（不含听力）",
+      "authenticity": "past_exam",
+      "questionIds": [
+        "cet4-2024-06-3-nonlistening-writing",
+        "cet4-2024-06-3-nonlistening-q26",
+        "cet4-2024-06-3-nonlistening-q27",
+        "cet4-2024-06-3-nonlistening-q28",
+        "cet4-2024-06-3-nonlistening-q29",
+        "cet4-2024-06-3-nonlistening-q30",
+        "cet4-2024-06-3-nonlistening-q31",
+        "cet4-2024-06-3-nonlistening-q32",
+        "cet4-2024-06-3-nonlistening-q33",
+        "cet4-2024-06-3-nonlistening-q34",
+        "cet4-2024-06-3-nonlistening-q35",
+        "cet4-2024-06-3-nonlistening-q36",
+        "cet4-2024-06-3-nonlistening-q37",
+        "cet4-2024-06-3-nonlistening-q38",
+        "cet4-2024-06-3-nonlistening-q39",
+        "cet4-2024-06-3-nonlistening-q40",
+        "cet4-2024-06-3-nonlistening-q41",
+        "cet4-2024-06-3-nonlistening-q42",
+        "cet4-2024-06-3-nonlistening-q43",
+        "cet4-2024-06-3-nonlistening-q44",
+        "cet4-2024-06-3-nonlistening-q45",
+        "cet4-2024-06-3-nonlistening-q46",
+        "cet4-2024-06-3-nonlistening-q47",
+        "cet4-2024-06-3-nonlistening-q48",
+        "cet4-2024-06-3-nonlistening-q49",
+        "cet4-2024-06-3-nonlistening-q50",
+        "cet4-2024-06-3-nonlistening-q51",
+        "cet4-2024-06-3-nonlistening-q52",
+        "cet4-2024-06-3-nonlistening-q53",
+        "cet4-2024-06-3-nonlistening-q54",
+        "cet4-2024-06-3-nonlistening-q55",
+        "cet4-2024-06-3-nonlistening-translation"
+      ],
+      "durationSeconds": 6000,
+      "description": "写作1题、阅读30题、翻译1题，不含听力。客观题答案与题面、选项完成结构一致性核对。",
+      "sourceId": "cet4-2024-06-3-nonlistening",
+      "coverage": {
+        "fullPaper": false,
+        "fullNonListening": true,
+        "listeningExcluded": true,
+        "objectiveNumbers": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "objectiveCount": 30,
+        "subjectiveCount": 2,
+        "sections": [
+          "writing",
+          "reading_word_bank",
+          "reading_matching",
+          "reading_comprehension",
+          "translation"
+        ],
+        "sharedSectionSource": {},
+        "note": "写作1题、阅读30题、翻译1题，不含听力。",
+        "independentlyConfirmedSharedSource": "",
+        "readingSourceCorrection": null,
+        "sectionSourceReplacement": null,
+        "referenceStatus": "project_authored"
+      },
+      "resources": [
+        {
+          "id": "cet4-2024-06-3-nonlistening-source",
+          "type": "web",
+          "title": "原卷来源与题面核对",
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2024-06-3/"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cet4-2024-06-3-nonlistening-writing",
+      "number": "I",
+      "level": "CET4",
+      "type": "short_text_self_check",
+      "skill": "writing",
+      "section": "writing",
+      "prompt": "Directions: Suppose your university is seeking students’ opinions on whether university canteens should be open to the public. You are now to write an essay to express your view. You will have 30 minutes for the task. You will have 30 minutes for the task. You should write at least 120 words but no more than 180 words.",
+      "options": [],
+      "correctAnswer": "In my view, university canteens may serve the public if students' daily needs remain the first consideration. Sharing affordable meals could benefit nearby residents and make better use of kitchens during quiet periods.\n\nNevertheless, lunch hours are already busy on many campuses. The university should therefore begin by welcoming visitors outside the main student meal periods. A limited booking scheme could prevent long queues and help cooks estimate demand. Clear entrance arrangements and food safety standards would also be essential. Any income should support service quality rather than simply encourage more customers.\n\nBefore changing the policy, the university should consult students, kitchen staff and local residents. It could then run a short trial in one canteen and measure waiting times and satisfaction. If student access becomes difficult, the schedule should be adjusted. Carefully planned public access could create community benefits while keeping campus meals reliable.",
+      "referenceAnswer": "In my view, university canteens may serve the public if students' daily needs remain the first consideration. Sharing affordable meals could benefit nearby residents and make better use of kitchens during quiet periods.\n\nNevertheless, lunch hours are already busy on many campuses. The university should therefore begin by welcoming visitors outside the main student meal periods. A limited booking scheme could prevent long queues and help cooks estimate demand. Clear entrance arrangements and food safety standards would also be essential. Any income should support service quality rather than simply encourage more customers.\n\nBefore changing the policy, the university should consult students, kitchen staff and local residents. It could then run a short trial in one canteen and measure waiting times and satisfaction. If student access becomes difficult, the schedule should be adjusted. Carefully planned public access could create community benefits while keeping campus meals reliable.",
+      "hint": "赞成或反对均可；若有条件开放，应围绕高峰排队、饭菜供应、访客安排给出理由。题面重复30分钟不影响任务。",
+      "explanation": "以下为原创参考范文，作文没有唯一答案。审题对象是食堂，范文选择有条件开放。第一段给出居民获益与厨房利用率；第二段承认午餐高峰矛盾，提出错峰、限量预约及食品安全；第三段征求意见、单食堂试行，并用等候时间评估。outside the main student meal periods是避开学生主要就餐时段，estimate demand是估计需求。Nevertheless转入问题，therefore把高峰拥挤和错峰方案连接。题面有重复的“You will have 30 minutes for the task.”，原题保留，写作要求仍为120–180词。不要把给公众开放写成校内新建食堂。\n\n练习方法：先用提示列三段提纲，在30分钟内独立写作，再按下方标准逐项打分；把失分最多的一段重写。参考范文约145词（缩写、连字符词按一词，含标题或书信称呼落款），满足120–180词要求；评分用于练习自检，不代表官方阅卷分数。",
+      "rubric": [
+        "练习自评总分15分：题目覆盖0–6＋结构0–4＋语言0–5，先独立写完再对照；观点不同于范文也可得满分，只要有合理支持。",
+        "题目覆盖0–6分：该题检查——赞成或反对均可；若有条件开放，应围绕高峰排队、饭菜供应、访客安排给出理由。题面重复30分钟不影响任务。。6分=任务完整且有具体理由/活动/例证；4–5分=切题但细节偏薄；2–3分=遗漏主要任务；0–1分=基本离题。",
+        "结构0–4分：4分=开头明确任务、主体按逻辑展开、结尾回扣，段间自然；3分=顺序清楚但局部衔接生硬；1–2分=跳跃或机械罗列；0分=内容难以组织理解。",
+        "语言0–5分：5分=语法和用词基本准确、句型有变化；3–4分=少量错误但不影响理解；1–2分=反复出现时态、主谓一致或搭配错误并影响阅读；0分=多数句子不能理解。",
+        "格式与修订：按原题保持120–180词；新闻/书信/提案用对应体裁，明确要求的首句逐字保留。若超限、少写任务或缺必要格式，先修改再评分，不把字数达标当作内容满分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-06-3-nonlistening-q26",
+      "canonicalId": "lazynote-cet4-2024-06-3-q26",
+      "number": 26,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 26 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Over the coming decades, millions of jobs will be threatened by robotics and artificial intelligence. Despite intensive academic [26] ____ on these developments, there has been little study on how workers [27] ____ to being replaced through technology.\n\nTo find out, business researchers at TUM and Erasmus University Rotterdam conducted 11 studies and surveys with over 2,000 persons from several countries.\n\nThe findings show: In principle, most people view it more [28] ____ when workers are replaced by other people than by robots or intelligent software. This preference [29] ____ , however, when it refers to people's own jobs. When that is the case, the majority of workers find it less upsetting to see their own jobs go to robots than to other employees. In the long term, however, the same people see machines as more threatening to their future role in the workforce. These effects can also be observed among people who have recently become unemployed.\n\nThe researchers were able to identify the causes behind these [30] ____ paradoxical results, too: People tend to [31] ____ themselves less with machines than with other people. Consequently, being replaced by a robot or software [32] ____ less of a threat to their feeling of self-worth. This reduced self-threat could even be observed when participants assumed that they were being replaced by other employees who relied on technological abilities such as artificial intelligence in their work.\n\n\"Even when unemployment results from the [33] ____ of new technologies, people still judge it in a social context,\" says Christoph Fuchs, one of the authors of the study. \"It is important to understand these [34] ____ effects when trying to manage the massive changes in the working world to minimize [35] ____ in society.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "compare"
+        },
+        {
+          "id": "B",
+          "text": "contradicts"
+        },
+        {
+          "id": "C",
+          "text": "conventional"
+        },
+        {
+          "id": "D",
+          "text": "debate"
+        },
+        {
+          "id": "E",
+          "text": "disruptions"
+        },
+        {
+          "id": "F",
+          "text": "drastically"
+        },
+        {
+          "id": "G",
+          "text": "favorably"
+        },
+        {
+          "id": "H",
+          "text": "guarantee"
+        },
+        {
+          "id": "I",
+          "text": "introduction"
+        },
+        {
+          "id": "J",
+          "text": "modifications"
+        },
+        {
+          "id": "K",
+          "text": "poses"
+        },
+        {
+          "id": "L",
+          "text": "psychological"
+        },
+        {
+          "id": "M",
+          "text": "react"
+        },
+        {
+          "id": "N",
+          "text": "reverses"
+        },
+        {
+          "id": "O",
+          "text": "seemingly"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "先看第 26 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 D（debate）。本空所在句：Despite intensive academic [26] ____ on these developments, there has been little study on how workers [27] ____ to being replaced through technology.\n将本空替换为 debate 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-06-3-nonlistening-q27",
+      "canonicalId": "lazynote-cet4-2024-06-3-q27",
+      "number": 27,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 27 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Over the coming decades, millions of jobs will be threatened by robotics and artificial intelligence. Despite intensive academic [26] ____ on these developments, there has been little study on how workers [27] ____ to being replaced through technology.\n\nTo find out, business researchers at TUM and Erasmus University Rotterdam conducted 11 studies and surveys with over 2,000 persons from several countries.\n\nThe findings show: In principle, most people view it more [28] ____ when workers are replaced by other people than by robots or intelligent software. This preference [29] ____ , however, when it refers to people's own jobs. When that is the case, the majority of workers find it less upsetting to see their own jobs go to robots than to other employees. In the long term, however, the same people see machines as more threatening to their future role in the workforce. These effects can also be observed among people who have recently become unemployed.\n\nThe researchers were able to identify the causes behind these [30] ____ paradoxical results, too: People tend to [31] ____ themselves less with machines than with other people. Consequently, being replaced by a robot or software [32] ____ less of a threat to their feeling of self-worth. This reduced self-threat could even be observed when participants assumed that they were being replaced by other employees who relied on technological abilities such as artificial intelligence in their work.\n\n\"Even when unemployment results from the [33] ____ of new technologies, people still judge it in a social context,\" says Christoph Fuchs, one of the authors of the study. \"It is important to understand these [34] ____ effects when trying to manage the massive changes in the working world to minimize [35] ____ in society.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "compare"
+        },
+        {
+          "id": "B",
+          "text": "contradicts"
+        },
+        {
+          "id": "C",
+          "text": "conventional"
+        },
+        {
+          "id": "D",
+          "text": "debate"
+        },
+        {
+          "id": "E",
+          "text": "disruptions"
+        },
+        {
+          "id": "F",
+          "text": "drastically"
+        },
+        {
+          "id": "G",
+          "text": "favorably"
+        },
+        {
+          "id": "H",
+          "text": "guarantee"
+        },
+        {
+          "id": "I",
+          "text": "introduction"
+        },
+        {
+          "id": "J",
+          "text": "modifications"
+        },
+        {
+          "id": "K",
+          "text": "poses"
+        },
+        {
+          "id": "L",
+          "text": "psychological"
+        },
+        {
+          "id": "M",
+          "text": "react"
+        },
+        {
+          "id": "N",
+          "text": "reverses"
+        },
+        {
+          "id": "O",
+          "text": "seemingly"
+        }
+      ],
+      "correctAnswer": "M",
+      "hint": "先看第 27 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 M（react）。本空所在句：Despite intensive academic [26] ____ on these developments, there has been little study on how workers [27] ____ to being replaced through technology.\n将本空替换为 react 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-06-3-nonlistening-q28",
+      "canonicalId": "lazynote-cet4-2024-06-3-q28",
+      "number": 28,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 28 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Over the coming decades, millions of jobs will be threatened by robotics and artificial intelligence. Despite intensive academic [26] ____ on these developments, there has been little study on how workers [27] ____ to being replaced through technology.\n\nTo find out, business researchers at TUM and Erasmus University Rotterdam conducted 11 studies and surveys with over 2,000 persons from several countries.\n\nThe findings show: In principle, most people view it more [28] ____ when workers are replaced by other people than by robots or intelligent software. This preference [29] ____ , however, when it refers to people's own jobs. When that is the case, the majority of workers find it less upsetting to see their own jobs go to robots than to other employees. In the long term, however, the same people see machines as more threatening to their future role in the workforce. These effects can also be observed among people who have recently become unemployed.\n\nThe researchers were able to identify the causes behind these [30] ____ paradoxical results, too: People tend to [31] ____ themselves less with machines than with other people. Consequently, being replaced by a robot or software [32] ____ less of a threat to their feeling of self-worth. This reduced self-threat could even be observed when participants assumed that they were being replaced by other employees who relied on technological abilities such as artificial intelligence in their work.\n\n\"Even when unemployment results from the [33] ____ of new technologies, people still judge it in a social context,\" says Christoph Fuchs, one of the authors of the study. \"It is important to understand these [34] ____ effects when trying to manage the massive changes in the working world to minimize [35] ____ in society.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "compare"
+        },
+        {
+          "id": "B",
+          "text": "contradicts"
+        },
+        {
+          "id": "C",
+          "text": "conventional"
+        },
+        {
+          "id": "D",
+          "text": "debate"
+        },
+        {
+          "id": "E",
+          "text": "disruptions"
+        },
+        {
+          "id": "F",
+          "text": "drastically"
+        },
+        {
+          "id": "G",
+          "text": "favorably"
+        },
+        {
+          "id": "H",
+          "text": "guarantee"
+        },
+        {
+          "id": "I",
+          "text": "introduction"
+        },
+        {
+          "id": "J",
+          "text": "modifications"
+        },
+        {
+          "id": "K",
+          "text": "poses"
+        },
+        {
+          "id": "L",
+          "text": "psychological"
+        },
+        {
+          "id": "M",
+          "text": "react"
+        },
+        {
+          "id": "N",
+          "text": "reverses"
+        },
+        {
+          "id": "O",
+          "text": "seemingly"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "先看第 28 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 G（favorably）。本空所在句：The findings show: In principle, most people view it more [28] ____ when workers are replaced by other people than by robots or intelligent software.\n将本空替换为 favorably 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-06-3-nonlistening-q29",
+      "canonicalId": "lazynote-cet4-2024-06-3-q29",
+      "number": 29,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 29 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Over the coming decades, millions of jobs will be threatened by robotics and artificial intelligence. Despite intensive academic [26] ____ on these developments, there has been little study on how workers [27] ____ to being replaced through technology.\n\nTo find out, business researchers at TUM and Erasmus University Rotterdam conducted 11 studies and surveys with over 2,000 persons from several countries.\n\nThe findings show: In principle, most people view it more [28] ____ when workers are replaced by other people than by robots or intelligent software. This preference [29] ____ , however, when it refers to people's own jobs. When that is the case, the majority of workers find it less upsetting to see their own jobs go to robots than to other employees. In the long term, however, the same people see machines as more threatening to their future role in the workforce. These effects can also be observed among people who have recently become unemployed.\n\nThe researchers were able to identify the causes behind these [30] ____ paradoxical results, too: People tend to [31] ____ themselves less with machines than with other people. Consequently, being replaced by a robot or software [32] ____ less of a threat to their feeling of self-worth. This reduced self-threat could even be observed when participants assumed that they were being replaced by other employees who relied on technological abilities such as artificial intelligence in their work.\n\n\"Even when unemployment results from the [33] ____ of new technologies, people still judge it in a social context,\" says Christoph Fuchs, one of the authors of the study. \"It is important to understand these [34] ____ effects when trying to manage the massive changes in the working world to minimize [35] ____ in society.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "compare"
+        },
+        {
+          "id": "B",
+          "text": "contradicts"
+        },
+        {
+          "id": "C",
+          "text": "conventional"
+        },
+        {
+          "id": "D",
+          "text": "debate"
+        },
+        {
+          "id": "E",
+          "text": "disruptions"
+        },
+        {
+          "id": "F",
+          "text": "drastically"
+        },
+        {
+          "id": "G",
+          "text": "favorably"
+        },
+        {
+          "id": "H",
+          "text": "guarantee"
+        },
+        {
+          "id": "I",
+          "text": "introduction"
+        },
+        {
+          "id": "J",
+          "text": "modifications"
+        },
+        {
+          "id": "K",
+          "text": "poses"
+        },
+        {
+          "id": "L",
+          "text": "psychological"
+        },
+        {
+          "id": "M",
+          "text": "react"
+        },
+        {
+          "id": "N",
+          "text": "reverses"
+        },
+        {
+          "id": "O",
+          "text": "seemingly"
+        }
+      ],
+      "correctAnswer": "N",
+      "hint": "先看第 29 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 N（reverses）。本空所在句：This preference [29] ____ , however, when it refers to people's own jobs.\n将本空替换为 reverses 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-06-3-nonlistening-q30",
+      "canonicalId": "lazynote-cet4-2024-06-3-q30",
+      "number": 30,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 30 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Over the coming decades, millions of jobs will be threatened by robotics and artificial intelligence. Despite intensive academic [26] ____ on these developments, there has been little study on how workers [27] ____ to being replaced through technology.\n\nTo find out, business researchers at TUM and Erasmus University Rotterdam conducted 11 studies and surveys with over 2,000 persons from several countries.\n\nThe findings show: In principle, most people view it more [28] ____ when workers are replaced by other people than by robots or intelligent software. This preference [29] ____ , however, when it refers to people's own jobs. When that is the case, the majority of workers find it less upsetting to see their own jobs go to robots than to other employees. In the long term, however, the same people see machines as more threatening to their future role in the workforce. These effects can also be observed among people who have recently become unemployed.\n\nThe researchers were able to identify the causes behind these [30] ____ paradoxical results, too: People tend to [31] ____ themselves less with machines than with other people. Consequently, being replaced by a robot or software [32] ____ less of a threat to their feeling of self-worth. This reduced self-threat could even be observed when participants assumed that they were being replaced by other employees who relied on technological abilities such as artificial intelligence in their work.\n\n\"Even when unemployment results from the [33] ____ of new technologies, people still judge it in a social context,\" says Christoph Fuchs, one of the authors of the study. \"It is important to understand these [34] ____ effects when trying to manage the massive changes in the working world to minimize [35] ____ in society.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "compare"
+        },
+        {
+          "id": "B",
+          "text": "contradicts"
+        },
+        {
+          "id": "C",
+          "text": "conventional"
+        },
+        {
+          "id": "D",
+          "text": "debate"
+        },
+        {
+          "id": "E",
+          "text": "disruptions"
+        },
+        {
+          "id": "F",
+          "text": "drastically"
+        },
+        {
+          "id": "G",
+          "text": "favorably"
+        },
+        {
+          "id": "H",
+          "text": "guarantee"
+        },
+        {
+          "id": "I",
+          "text": "introduction"
+        },
+        {
+          "id": "J",
+          "text": "modifications"
+        },
+        {
+          "id": "K",
+          "text": "poses"
+        },
+        {
+          "id": "L",
+          "text": "psychological"
+        },
+        {
+          "id": "M",
+          "text": "react"
+        },
+        {
+          "id": "N",
+          "text": "reverses"
+        },
+        {
+          "id": "O",
+          "text": "seemingly"
+        }
+      ],
+      "correctAnswer": "O",
+      "hint": "先看第 30 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 O（seemingly）。本空所在句：The researchers were able to identify the causes behind these [30] ____ paradoxical results, too: People tend to [31] ____ themselves less with machines than with other people.\n将本空替换为 seemingly 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-06-3-nonlistening-q31",
+      "canonicalId": "lazynote-cet4-2024-06-3-q31",
+      "number": 31,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 31 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Over the coming decades, millions of jobs will be threatened by robotics and artificial intelligence. Despite intensive academic [26] ____ on these developments, there has been little study on how workers [27] ____ to being replaced through technology.\n\nTo find out, business researchers at TUM and Erasmus University Rotterdam conducted 11 studies and surveys with over 2,000 persons from several countries.\n\nThe findings show: In principle, most people view it more [28] ____ when workers are replaced by other people than by robots or intelligent software. This preference [29] ____ , however, when it refers to people's own jobs. When that is the case, the majority of workers find it less upsetting to see their own jobs go to robots than to other employees. In the long term, however, the same people see machines as more threatening to their future role in the workforce. These effects can also be observed among people who have recently become unemployed.\n\nThe researchers were able to identify the causes behind these [30] ____ paradoxical results, too: People tend to [31] ____ themselves less with machines than with other people. Consequently, being replaced by a robot or software [32] ____ less of a threat to their feeling of self-worth. This reduced self-threat could even be observed when participants assumed that they were being replaced by other employees who relied on technological abilities such as artificial intelligence in their work.\n\n\"Even when unemployment results from the [33] ____ of new technologies, people still judge it in a social context,\" says Christoph Fuchs, one of the authors of the study. \"It is important to understand these [34] ____ effects when trying to manage the massive changes in the working world to minimize [35] ____ in society.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "compare"
+        },
+        {
+          "id": "B",
+          "text": "contradicts"
+        },
+        {
+          "id": "C",
+          "text": "conventional"
+        },
+        {
+          "id": "D",
+          "text": "debate"
+        },
+        {
+          "id": "E",
+          "text": "disruptions"
+        },
+        {
+          "id": "F",
+          "text": "drastically"
+        },
+        {
+          "id": "G",
+          "text": "favorably"
+        },
+        {
+          "id": "H",
+          "text": "guarantee"
+        },
+        {
+          "id": "I",
+          "text": "introduction"
+        },
+        {
+          "id": "J",
+          "text": "modifications"
+        },
+        {
+          "id": "K",
+          "text": "poses"
+        },
+        {
+          "id": "L",
+          "text": "psychological"
+        },
+        {
+          "id": "M",
+          "text": "react"
+        },
+        {
+          "id": "N",
+          "text": "reverses"
+        },
+        {
+          "id": "O",
+          "text": "seemingly"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "先看第 31 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 A（compare）。本空所在句：The researchers were able to identify the causes behind these [30] ____ paradoxical results, too: People tend to [31] ____ themselves less with machines than with other people.\n将本空替换为 compare 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-06-3-nonlistening-q32",
+      "canonicalId": "lazynote-cet4-2024-06-3-q32",
+      "number": 32,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 32 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Over the coming decades, millions of jobs will be threatened by robotics and artificial intelligence. Despite intensive academic [26] ____ on these developments, there has been little study on how workers [27] ____ to being replaced through technology.\n\nTo find out, business researchers at TUM and Erasmus University Rotterdam conducted 11 studies and surveys with over 2,000 persons from several countries.\n\nThe findings show: In principle, most people view it more [28] ____ when workers are replaced by other people than by robots or intelligent software. This preference [29] ____ , however, when it refers to people's own jobs. When that is the case, the majority of workers find it less upsetting to see their own jobs go to robots than to other employees. In the long term, however, the same people see machines as more threatening to their future role in the workforce. These effects can also be observed among people who have recently become unemployed.\n\nThe researchers were able to identify the causes behind these [30] ____ paradoxical results, too: People tend to [31] ____ themselves less with machines than with other people. Consequently, being replaced by a robot or software [32] ____ less of a threat to their feeling of self-worth. This reduced self-threat could even be observed when participants assumed that they were being replaced by other employees who relied on technological abilities such as artificial intelligence in their work.\n\n\"Even when unemployment results from the [33] ____ of new technologies, people still judge it in a social context,\" says Christoph Fuchs, one of the authors of the study. \"It is important to understand these [34] ____ effects when trying to manage the massive changes in the working world to minimize [35] ____ in society.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "compare"
+        },
+        {
+          "id": "B",
+          "text": "contradicts"
+        },
+        {
+          "id": "C",
+          "text": "conventional"
+        },
+        {
+          "id": "D",
+          "text": "debate"
+        },
+        {
+          "id": "E",
+          "text": "disruptions"
+        },
+        {
+          "id": "F",
+          "text": "drastically"
+        },
+        {
+          "id": "G",
+          "text": "favorably"
+        },
+        {
+          "id": "H",
+          "text": "guarantee"
+        },
+        {
+          "id": "I",
+          "text": "introduction"
+        },
+        {
+          "id": "J",
+          "text": "modifications"
+        },
+        {
+          "id": "K",
+          "text": "poses"
+        },
+        {
+          "id": "L",
+          "text": "psychological"
+        },
+        {
+          "id": "M",
+          "text": "react"
+        },
+        {
+          "id": "N",
+          "text": "reverses"
+        },
+        {
+          "id": "O",
+          "text": "seemingly"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "先看第 32 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 K（poses）。本空所在句：Consequently, being replaced by a robot or software [32] ____ less of a threat to their feeling of self-worth.\n将本空替换为 poses 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-06-3-nonlistening-q33",
+      "canonicalId": "lazynote-cet4-2024-06-3-q33",
+      "number": 33,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 33 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Over the coming decades, millions of jobs will be threatened by robotics and artificial intelligence. Despite intensive academic [26] ____ on these developments, there has been little study on how workers [27] ____ to being replaced through technology.\n\nTo find out, business researchers at TUM and Erasmus University Rotterdam conducted 11 studies and surveys with over 2,000 persons from several countries.\n\nThe findings show: In principle, most people view it more [28] ____ when workers are replaced by other people than by robots or intelligent software. This preference [29] ____ , however, when it refers to people's own jobs. When that is the case, the majority of workers find it less upsetting to see their own jobs go to robots than to other employees. In the long term, however, the same people see machines as more threatening to their future role in the workforce. These effects can also be observed among people who have recently become unemployed.\n\nThe researchers were able to identify the causes behind these [30] ____ paradoxical results, too: People tend to [31] ____ themselves less with machines than with other people. Consequently, being replaced by a robot or software [32] ____ less of a threat to their feeling of self-worth. This reduced self-threat could even be observed when participants assumed that they were being replaced by other employees who relied on technological abilities such as artificial intelligence in their work.\n\n\"Even when unemployment results from the [33] ____ of new technologies, people still judge it in a social context,\" says Christoph Fuchs, one of the authors of the study. \"It is important to understand these [34] ____ effects when trying to manage the massive changes in the working world to minimize [35] ____ in society.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "compare"
+        },
+        {
+          "id": "B",
+          "text": "contradicts"
+        },
+        {
+          "id": "C",
+          "text": "conventional"
+        },
+        {
+          "id": "D",
+          "text": "debate"
+        },
+        {
+          "id": "E",
+          "text": "disruptions"
+        },
+        {
+          "id": "F",
+          "text": "drastically"
+        },
+        {
+          "id": "G",
+          "text": "favorably"
+        },
+        {
+          "id": "H",
+          "text": "guarantee"
+        },
+        {
+          "id": "I",
+          "text": "introduction"
+        },
+        {
+          "id": "J",
+          "text": "modifications"
+        },
+        {
+          "id": "K",
+          "text": "poses"
+        },
+        {
+          "id": "L",
+          "text": "psychological"
+        },
+        {
+          "id": "M",
+          "text": "react"
+        },
+        {
+          "id": "N",
+          "text": "reverses"
+        },
+        {
+          "id": "O",
+          "text": "seemingly"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "先看第 33 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 I（introduction）。本空所在句：\"Even when unemployment results from the [33] ____ of new technologies, people still judge it in a social context,\" says Christoph Fuchs, one of the authors of the study.\n将本空替换为 introduction 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-06-3-nonlistening-q34",
+      "canonicalId": "lazynote-cet4-2024-06-3-q34",
+      "number": 34,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 34 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Over the coming decades, millions of jobs will be threatened by robotics and artificial intelligence. Despite intensive academic [26] ____ on these developments, there has been little study on how workers [27] ____ to being replaced through technology.\n\nTo find out, business researchers at TUM and Erasmus University Rotterdam conducted 11 studies and surveys with over 2,000 persons from several countries.\n\nThe findings show: In principle, most people view it more [28] ____ when workers are replaced by other people than by robots or intelligent software. This preference [29] ____ , however, when it refers to people's own jobs. When that is the case, the majority of workers find it less upsetting to see their own jobs go to robots than to other employees. In the long term, however, the same people see machines as more threatening to their future role in the workforce. These effects can also be observed among people who have recently become unemployed.\n\nThe researchers were able to identify the causes behind these [30] ____ paradoxical results, too: People tend to [31] ____ themselves less with machines than with other people. Consequently, being replaced by a robot or software [32] ____ less of a threat to their feeling of self-worth. This reduced self-threat could even be observed when participants assumed that they were being replaced by other employees who relied on technological abilities such as artificial intelligence in their work.\n\n\"Even when unemployment results from the [33] ____ of new technologies, people still judge it in a social context,\" says Christoph Fuchs, one of the authors of the study. \"It is important to understand these [34] ____ effects when trying to manage the massive changes in the working world to minimize [35] ____ in society.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "compare"
+        },
+        {
+          "id": "B",
+          "text": "contradicts"
+        },
+        {
+          "id": "C",
+          "text": "conventional"
+        },
+        {
+          "id": "D",
+          "text": "debate"
+        },
+        {
+          "id": "E",
+          "text": "disruptions"
+        },
+        {
+          "id": "F",
+          "text": "drastically"
+        },
+        {
+          "id": "G",
+          "text": "favorably"
+        },
+        {
+          "id": "H",
+          "text": "guarantee"
+        },
+        {
+          "id": "I",
+          "text": "introduction"
+        },
+        {
+          "id": "J",
+          "text": "modifications"
+        },
+        {
+          "id": "K",
+          "text": "poses"
+        },
+        {
+          "id": "L",
+          "text": "psychological"
+        },
+        {
+          "id": "M",
+          "text": "react"
+        },
+        {
+          "id": "N",
+          "text": "reverses"
+        },
+        {
+          "id": "O",
+          "text": "seemingly"
+        }
+      ],
+      "correctAnswer": "L",
+      "hint": "先看第 34 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 L（psychological）。本空所在句：\"It is important to understand these [34] ____ effects when trying to manage the massive changes in the working world to minimize [35] ____ in society.\"\n将本空替换为 psychological 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-06-3-nonlistening-q35",
+      "canonicalId": "lazynote-cet4-2024-06-3-q35",
+      "number": 35,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 35 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Over the coming decades, millions of jobs will be threatened by robotics and artificial intelligence. Despite intensive academic [26] ____ on these developments, there has been little study on how workers [27] ____ to being replaced through technology.\n\nTo find out, business researchers at TUM and Erasmus University Rotterdam conducted 11 studies and surveys with over 2,000 persons from several countries.\n\nThe findings show: In principle, most people view it more [28] ____ when workers are replaced by other people than by robots or intelligent software. This preference [29] ____ , however, when it refers to people's own jobs. When that is the case, the majority of workers find it less upsetting to see their own jobs go to robots than to other employees. In the long term, however, the same people see machines as more threatening to their future role in the workforce. These effects can also be observed among people who have recently become unemployed.\n\nThe researchers were able to identify the causes behind these [30] ____ paradoxical results, too: People tend to [31] ____ themselves less with machines than with other people. Consequently, being replaced by a robot or software [32] ____ less of a threat to their feeling of self-worth. This reduced self-threat could even be observed when participants assumed that they were being replaced by other employees who relied on technological abilities such as artificial intelligence in their work.\n\n\"Even when unemployment results from the [33] ____ of new technologies, people still judge it in a social context,\" says Christoph Fuchs, one of the authors of the study. \"It is important to understand these [34] ____ effects when trying to manage the massive changes in the working world to minimize [35] ____ in society.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "compare"
+        },
+        {
+          "id": "B",
+          "text": "contradicts"
+        },
+        {
+          "id": "C",
+          "text": "conventional"
+        },
+        {
+          "id": "D",
+          "text": "debate"
+        },
+        {
+          "id": "E",
+          "text": "disruptions"
+        },
+        {
+          "id": "F",
+          "text": "drastically"
+        },
+        {
+          "id": "G",
+          "text": "favorably"
+        },
+        {
+          "id": "H",
+          "text": "guarantee"
+        },
+        {
+          "id": "I",
+          "text": "introduction"
+        },
+        {
+          "id": "J",
+          "text": "modifications"
+        },
+        {
+          "id": "K",
+          "text": "poses"
+        },
+        {
+          "id": "L",
+          "text": "psychological"
+        },
+        {
+          "id": "M",
+          "text": "react"
+        },
+        {
+          "id": "N",
+          "text": "reverses"
+        },
+        {
+          "id": "O",
+          "text": "seemingly"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "先看第 35 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 E（disruptions）。本空所在句：\"It is important to understand these [34] ____ effects when trying to manage the massive changes in the working world to minimize [35] ____ in society.\"\n将本空替换为 disruptions 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-06-3-nonlistening-q36",
+      "canonicalId": "lazynote-cet4-2024-06-3-q36",
+      "number": 36,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "There is opposition to the practice of giving children assignments to take home before extreme weather forces a school closure.",
+      "passage": "No escape as 'snow day' becomes 'e-learning day'\n\nA) Certain institutions, such as schools, are likely to close when bad weather, such as snow, flooding or extreme heat or cold, causes travel difficulties, power outages(断供), or otherwise endangers public safety. When snowy weather arrives in the US, it means the chance of school children benefiting from the long-standing tradition of the \"snow day\", when schools are forced to close and students get an unexpected day off.\n\nB) The criterion for a snow day is primarily the inability of school buses to operate safely on their routes and danger to children who walk to school. Often, the school remains officially open even though buses do not run and classes are canceled. Severe weather that causes cancellation or delay is more likely in regions that are less able to handle the situation. Snow days are less common in more northern areas of the United States that are used to heavy winter snowfall, because municipalities are well equipped to clear roads and remove snow. In areas less accustomed to snow even small snowfalls of an inch or two may render roads unsafe.\n\nC) Snow days are a familiar theme in American film and TV shows, with children getting the good news and then running outside for some seasonal snowman-building and snowball throwing, against a background of joyful pop music. But the tradition is now over for pupils in several US states such as South Carolina, Nevada, Georgia and Indiana. This academic year, many school boards have introduced policies which require students to work from home if the school is shut by snow or extreme weather. They are known as \"e-learning days\", which certainly sounds less fun than a snow day.\n\nD) Teachers are also losing their snow days and instead will be expected to be on hand to take a virtual register and answer students' questions online. A pilot programme in a school district in Anderson County, South Carolina, has supplied students with electronic tablets loaded with assignments to complete in the event of a school closure. If it is successful, it could be rolled out across the state.\n\nE) But some parents object to the new policy if the vigorous debate on the Facebook page of Anderson County school district is anything to go by. \"When it snows, let the kids enjoy it,\" said one commenter. Another said the decision would \"ruin school even more\", and someone else called snow days \"a fun part of childhood\". But supporters of the policy say it means children will miss fewer days of school. It will also bring to an end a less popular US high school tradition: the \"make-up day\", which requires students in many states to make up the time lost due to weather by working during school holidays.\n\nF) Students in North Carolina already have several make-up days scheduled because of school closures during Hurricane Florence, which struck in September. Tom Wilson, the superintendent(主管) of Anderson County school district, said the change away from snow days makes practical and financial sense. He said technology has changed every profession, so it makes sense to use it to \"eliminate\" make-up days. Adam Baker of the Department of Education in Indiana said e-learning days were proving a \"great success\". He said most Indiana schools already use digital devices during lessons, so it was an \"easy decision\" to extend this to days when schools are closed. He denies the decision is depriving children of the chance to enjoy the snow. \"Students are still able to enjoy snow days and outside time,\" he said. \"Many have PE and science assignments that have them out enjoying the weather.\" But local school superintendents in Ohio are resisting proposals to adopt e-learning days. They fear that students without internet access at home will be disadvantaged by the policy, and superintendent Tom Roth is concerned that e-learning days will offer a lower quality of education.\n\nG) There are also so-called \"blizzard bags\", with assignments that children take home ahead of an expected snow closure. But Mr Roth says it is not sufficient as a replacement. \"I think we still need the class time to give our kids the education that they deserve,\" he said. \"You can't get that with a blizzard bag or doing the work from home like that. It's not going to be as effective.\"\n\nH) There is a long-running debate on whether missing days of school affects attainment. In England, there has been a focus on tackling absenteeism(旷课) from school. The Department for Education (DFE) published research in 2016 arguing that missing any days at school could have a negative impact on results. Even a few days lost in a year could be enough to miss out on getting a good exam grade, the DFE's research concluded. This differed from the findings of a study from Harvard University in the US, which concluded that missing a few occasional days because of the weather did not damage learning.\n\nI) The Harvard study examined seven years of school results data and could not find any impact from snow closures. What caused more disruption was when schools tried to stay open in bad weather, even though many staff and pupils were absent. But weather can make a difference to school results, according to another piece of Harvard research published last summer. It's hot weather that has the negative impact. The results of 10 million school students were examined over 13 years and researchers found a \"significant\" link between years with extremely hot weather and lower results.\n\nJ) It's obvious that students should go to school every day to get the most out of education. In cases of extreme weather students don't always have that option. However, research shows that authorised absences from school such as during extreme weather are less problematic for students than absences that are not authorised. This is because unauthorised absences tend to reflect patterns and behaviours of student disengagement, or the possible negative attitudes of parents towards education that students adopt and carry with them through schooling. The level of impact on students' educational performance is all to do with the length of time that a student is absent from school and how regularly this occurs.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 G 段。题干：There is opposition to the practice of giving children assignments to take home before extreme weather forces a school closure.\n核对该段原文：There are also so-called \"blizzard bags\", with assignments that children take home ahead of an expected snow closure. But Mr Roth says it is not sufficient as a replacement. \"I think we still need the class time to give our kids the education that they deserve,\" he said. \"You can't get that with a blizzard bag or doing the work from home like that. It's not going to be as effective.\"\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-06-3-nonlistening-q37",
+      "canonicalId": "lazynote-cet4-2024-06-3-q37",
+      "number": 37,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "New policies adopted by many US schools require students to do online learning at home in case of a school closure.",
+      "passage": "No escape as 'snow day' becomes 'e-learning day'\n\nA) Certain institutions, such as schools, are likely to close when bad weather, such as snow, flooding or extreme heat or cold, causes travel difficulties, power outages(断供), or otherwise endangers public safety. When snowy weather arrives in the US, it means the chance of school children benefiting from the long-standing tradition of the \"snow day\", when schools are forced to close and students get an unexpected day off.\n\nB) The criterion for a snow day is primarily the inability of school buses to operate safely on their routes and danger to children who walk to school. Often, the school remains officially open even though buses do not run and classes are canceled. Severe weather that causes cancellation or delay is more likely in regions that are less able to handle the situation. Snow days are less common in more northern areas of the United States that are used to heavy winter snowfall, because municipalities are well equipped to clear roads and remove snow. In areas less accustomed to snow even small snowfalls of an inch or two may render roads unsafe.\n\nC) Snow days are a familiar theme in American film and TV shows, with children getting the good news and then running outside for some seasonal snowman-building and snowball throwing, against a background of joyful pop music. But the tradition is now over for pupils in several US states such as South Carolina, Nevada, Georgia and Indiana. This academic year, many school boards have introduced policies which require students to work from home if the school is shut by snow or extreme weather. They are known as \"e-learning days\", which certainly sounds less fun than a snow day.\n\nD) Teachers are also losing their snow days and instead will be expected to be on hand to take a virtual register and answer students' questions online. A pilot programme in a school district in Anderson County, South Carolina, has supplied students with electronic tablets loaded with assignments to complete in the event of a school closure. If it is successful, it could be rolled out across the state.\n\nE) But some parents object to the new policy if the vigorous debate on the Facebook page of Anderson County school district is anything to go by. \"When it snows, let the kids enjoy it,\" said one commenter. Another said the decision would \"ruin school even more\", and someone else called snow days \"a fun part of childhood\". But supporters of the policy say it means children will miss fewer days of school. It will also bring to an end a less popular US high school tradition: the \"make-up day\", which requires students in many states to make up the time lost due to weather by working during school holidays.\n\nF) Students in North Carolina already have several make-up days scheduled because of school closures during Hurricane Florence, which struck in September. Tom Wilson, the superintendent(主管) of Anderson County school district, said the change away from snow days makes practical and financial sense. He said technology has changed every profession, so it makes sense to use it to \"eliminate\" make-up days. Adam Baker of the Department of Education in Indiana said e-learning days were proving a \"great success\". He said most Indiana schools already use digital devices during lessons, so it was an \"easy decision\" to extend this to days when schools are closed. He denies the decision is depriving children of the chance to enjoy the snow. \"Students are still able to enjoy snow days and outside time,\" he said. \"Many have PE and science assignments that have them out enjoying the weather.\" But local school superintendents in Ohio are resisting proposals to adopt e-learning days. They fear that students without internet access at home will be disadvantaged by the policy, and superintendent Tom Roth is concerned that e-learning days will offer a lower quality of education.\n\nG) There are also so-called \"blizzard bags\", with assignments that children take home ahead of an expected snow closure. But Mr Roth says it is not sufficient as a replacement. \"I think we still need the class time to give our kids the education that they deserve,\" he said. \"You can't get that with a blizzard bag or doing the work from home like that. It's not going to be as effective.\"\n\nH) There is a long-running debate on whether missing days of school affects attainment. In England, there has been a focus on tackling absenteeism(旷课) from school. The Department for Education (DFE) published research in 2016 arguing that missing any days at school could have a negative impact on results. Even a few days lost in a year could be enough to miss out on getting a good exam grade, the DFE's research concluded. This differed from the findings of a study from Harvard University in the US, which concluded that missing a few occasional days because of the weather did not damage learning.\n\nI) The Harvard study examined seven years of school results data and could not find any impact from snow closures. What caused more disruption was when schools tried to stay open in bad weather, even though many staff and pupils were absent. But weather can make a difference to school results, according to another piece of Harvard research published last summer. It's hot weather that has the negative impact. The results of 10 million school students were examined over 13 years and researchers found a \"significant\" link between years with extremely hot weather and lower results.\n\nJ) It's obvious that students should go to school every day to get the most out of education. In cases of extreme weather students don't always have that option. However, research shows that authorised absences from school such as during extreme weather are less problematic for students than absences that are not authorised. This is because unauthorised absences tend to reflect patterns and behaviours of student disengagement, or the possible negative attitudes of parents towards education that students adopt and carry with them through schooling. The level of impact on students' educational performance is all to do with the length of time that a student is absent from school and how regularly this occurs.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 C 段。题干：New policies adopted by many US schools require students to do online learning at home in case of a school closure.\n核对该段原文：Snow days are a familiar theme in American film and TV shows, with children getting the good news and then running outside for some seasonal snowman-building and snowball throwing, against a background of joyful pop music. But the tradition is now over for pupils in several US states such as South Carolina, Nevada, Georgia and Indiana. This academic year, many school boards have introduced policies which require students to work from home if the school is shut by snow or extreme weather. They are known as \"e-learning days\", which certainly sounds less fun than a snow day.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-06-3-nonlistening-q38",
+      "canonicalId": "lazynote-cet4-2024-06-3-q38",
+      "number": 38,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "According to some research, extreme hot weather negatively affects students' performance.",
+      "passage": "No escape as 'snow day' becomes 'e-learning day'\n\nA) Certain institutions, such as schools, are likely to close when bad weather, such as snow, flooding or extreme heat or cold, causes travel difficulties, power outages(断供), or otherwise endangers public safety. When snowy weather arrives in the US, it means the chance of school children benefiting from the long-standing tradition of the \"snow day\", when schools are forced to close and students get an unexpected day off.\n\nB) The criterion for a snow day is primarily the inability of school buses to operate safely on their routes and danger to children who walk to school. Often, the school remains officially open even though buses do not run and classes are canceled. Severe weather that causes cancellation or delay is more likely in regions that are less able to handle the situation. Snow days are less common in more northern areas of the United States that are used to heavy winter snowfall, because municipalities are well equipped to clear roads and remove snow. In areas less accustomed to snow even small snowfalls of an inch or two may render roads unsafe.\n\nC) Snow days are a familiar theme in American film and TV shows, with children getting the good news and then running outside for some seasonal snowman-building and snowball throwing, against a background of joyful pop music. But the tradition is now over for pupils in several US states such as South Carolina, Nevada, Georgia and Indiana. This academic year, many school boards have introduced policies which require students to work from home if the school is shut by snow or extreme weather. They are known as \"e-learning days\", which certainly sounds less fun than a snow day.\n\nD) Teachers are also losing their snow days and instead will be expected to be on hand to take a virtual register and answer students' questions online. A pilot programme in a school district in Anderson County, South Carolina, has supplied students with electronic tablets loaded with assignments to complete in the event of a school closure. If it is successful, it could be rolled out across the state.\n\nE) But some parents object to the new policy if the vigorous debate on the Facebook page of Anderson County school district is anything to go by. \"When it snows, let the kids enjoy it,\" said one commenter. Another said the decision would \"ruin school even more\", and someone else called snow days \"a fun part of childhood\". But supporters of the policy say it means children will miss fewer days of school. It will also bring to an end a less popular US high school tradition: the \"make-up day\", which requires students in many states to make up the time lost due to weather by working during school holidays.\n\nF) Students in North Carolina already have several make-up days scheduled because of school closures during Hurricane Florence, which struck in September. Tom Wilson, the superintendent(主管) of Anderson County school district, said the change away from snow days makes practical and financial sense. He said technology has changed every profession, so it makes sense to use it to \"eliminate\" make-up days. Adam Baker of the Department of Education in Indiana said e-learning days were proving a \"great success\". He said most Indiana schools already use digital devices during lessons, so it was an \"easy decision\" to extend this to days when schools are closed. He denies the decision is depriving children of the chance to enjoy the snow. \"Students are still able to enjoy snow days and outside time,\" he said. \"Many have PE and science assignments that have them out enjoying the weather.\" But local school superintendents in Ohio are resisting proposals to adopt e-learning days. They fear that students without internet access at home will be disadvantaged by the policy, and superintendent Tom Roth is concerned that e-learning days will offer a lower quality of education.\n\nG) There are also so-called \"blizzard bags\", with assignments that children take home ahead of an expected snow closure. But Mr Roth says it is not sufficient as a replacement. \"I think we still need the class time to give our kids the education that they deserve,\" he said. \"You can't get that with a blizzard bag or doing the work from home like that. It's not going to be as effective.\"\n\nH) There is a long-running debate on whether missing days of school affects attainment. In England, there has been a focus on tackling absenteeism(旷课) from school. The Department for Education (DFE) published research in 2016 arguing that missing any days at school could have a negative impact on results. Even a few days lost in a year could be enough to miss out on getting a good exam grade, the DFE's research concluded. This differed from the findings of a study from Harvard University in the US, which concluded that missing a few occasional days because of the weather did not damage learning.\n\nI) The Harvard study examined seven years of school results data and could not find any impact from snow closures. What caused more disruption was when schools tried to stay open in bad weather, even though many staff and pupils were absent. But weather can make a difference to school results, according to another piece of Harvard research published last summer. It's hot weather that has the negative impact. The results of 10 million school students were examined over 13 years and researchers found a \"significant\" link between years with extremely hot weather and lower results.\n\nJ) It's obvious that students should go to school every day to get the most out of education. In cases of extreme weather students don't always have that option. However, research shows that authorised absences from school such as during extreme weather are less problematic for students than absences that are not authorised. This is because unauthorised absences tend to reflect patterns and behaviours of student disengagement, or the possible negative attitudes of parents towards education that students adopt and carry with them through schooling. The level of impact on students' educational performance is all to do with the length of time that a student is absent from school and how regularly this occurs.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 I 段。题干：According to some research, extreme hot weather negatively affects students' performance.\n核对该段原文：The Harvard study examined seven years of school results data and could not find any impact from snow closures. What caused more disruption was when schools tried to stay open in bad weather, even though many staff and pupils were absent. But weather can make a difference to school results, according to another piece of Harvard research published last summer. It's hot weather that has the negative impact. The results of 10 million school students were examined over 13 years and researchers found a \"significant\" link between years with extremely hot weather and lower results.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-06-3-nonlistening-q39",
+      "canonicalId": "lazynote-cet4-2024-06-3-q39",
+      "number": 39,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "There is a time-honoured tradition in the US for school kids to stay at home on \"snow days\".",
+      "passage": "No escape as 'snow day' becomes 'e-learning day'\n\nA) Certain institutions, such as schools, are likely to close when bad weather, such as snow, flooding or extreme heat or cold, causes travel difficulties, power outages(断供), or otherwise endangers public safety. When snowy weather arrives in the US, it means the chance of school children benefiting from the long-standing tradition of the \"snow day\", when schools are forced to close and students get an unexpected day off.\n\nB) The criterion for a snow day is primarily the inability of school buses to operate safely on their routes and danger to children who walk to school. Often, the school remains officially open even though buses do not run and classes are canceled. Severe weather that causes cancellation or delay is more likely in regions that are less able to handle the situation. Snow days are less common in more northern areas of the United States that are used to heavy winter snowfall, because municipalities are well equipped to clear roads and remove snow. In areas less accustomed to snow even small snowfalls of an inch or two may render roads unsafe.\n\nC) Snow days are a familiar theme in American film and TV shows, with children getting the good news and then running outside for some seasonal snowman-building and snowball throwing, against a background of joyful pop music. But the tradition is now over for pupils in several US states such as South Carolina, Nevada, Georgia and Indiana. This academic year, many school boards have introduced policies which require students to work from home if the school is shut by snow or extreme weather. They are known as \"e-learning days\", which certainly sounds less fun than a snow day.\n\nD) Teachers are also losing their snow days and instead will be expected to be on hand to take a virtual register and answer students' questions online. A pilot programme in a school district in Anderson County, South Carolina, has supplied students with electronic tablets loaded with assignments to complete in the event of a school closure. If it is successful, it could be rolled out across the state.\n\nE) But some parents object to the new policy if the vigorous debate on the Facebook page of Anderson County school district is anything to go by. \"When it snows, let the kids enjoy it,\" said one commenter. Another said the decision would \"ruin school even more\", and someone else called snow days \"a fun part of childhood\". But supporters of the policy say it means children will miss fewer days of school. It will also bring to an end a less popular US high school tradition: the \"make-up day\", which requires students in many states to make up the time lost due to weather by working during school holidays.\n\nF) Students in North Carolina already have several make-up days scheduled because of school closures during Hurricane Florence, which struck in September. Tom Wilson, the superintendent(主管) of Anderson County school district, said the change away from snow days makes practical and financial sense. He said technology has changed every profession, so it makes sense to use it to \"eliminate\" make-up days. Adam Baker of the Department of Education in Indiana said e-learning days were proving a \"great success\". He said most Indiana schools already use digital devices during lessons, so it was an \"easy decision\" to extend this to days when schools are closed. He denies the decision is depriving children of the chance to enjoy the snow. \"Students are still able to enjoy snow days and outside time,\" he said. \"Many have PE and science assignments that have them out enjoying the weather.\" But local school superintendents in Ohio are resisting proposals to adopt e-learning days. They fear that students without internet access at home will be disadvantaged by the policy, and superintendent Tom Roth is concerned that e-learning days will offer a lower quality of education.\n\nG) There are also so-called \"blizzard bags\", with assignments that children take home ahead of an expected snow closure. But Mr Roth says it is not sufficient as a replacement. \"I think we still need the class time to give our kids the education that they deserve,\" he said. \"You can't get that with a blizzard bag or doing the work from home like that. It's not going to be as effective.\"\n\nH) There is a long-running debate on whether missing days of school affects attainment. In England, there has been a focus on tackling absenteeism(旷课) from school. The Department for Education (DFE) published research in 2016 arguing that missing any days at school could have a negative impact on results. Even a few days lost in a year could be enough to miss out on getting a good exam grade, the DFE's research concluded. This differed from the findings of a study from Harvard University in the US, which concluded that missing a few occasional days because of the weather did not damage learning.\n\nI) The Harvard study examined seven years of school results data and could not find any impact from snow closures. What caused more disruption was when schools tried to stay open in bad weather, even though many staff and pupils were absent. But weather can make a difference to school results, according to another piece of Harvard research published last summer. It's hot weather that has the negative impact. The results of 10 million school students were examined over 13 years and researchers found a \"significant\" link between years with extremely hot weather and lower results.\n\nJ) It's obvious that students should go to school every day to get the most out of education. In cases of extreme weather students don't always have that option. However, research shows that authorised absences from school such as during extreme weather are less problematic for students than absences that are not authorised. This is because unauthorised absences tend to reflect patterns and behaviours of student disengagement, or the possible negative attitudes of parents towards education that students adopt and carry with them through schooling. The level of impact on students' educational performance is all to do with the length of time that a student is absent from school and how regularly this occurs.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 A 段。题干：There is a time-honoured tradition in the US for school kids to stay at home on \"snow days\".\n核对该段原文：Certain institutions, such as schools, are likely to close when bad weather, such as snow, flooding or extreme heat or cold, causes travel difficulties, power outages(断供), or otherwise endangers public safety. When snowy weather arrives in the US, it means the chance of school children benefiting from the long-standing tradition of the \"snow day\", when schools are forced to close and students get an unexpected day off.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-06-3-nonlistening-q40",
+      "canonicalId": "lazynote-cet4-2024-06-3-q40",
+      "number": 40,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Debates on social media show some parents are opposed to ending the \"snow day\" tradition.",
+      "passage": "No escape as 'snow day' becomes 'e-learning day'\n\nA) Certain institutions, such as schools, are likely to close when bad weather, such as snow, flooding or extreme heat or cold, causes travel difficulties, power outages(断供), or otherwise endangers public safety. When snowy weather arrives in the US, it means the chance of school children benefiting from the long-standing tradition of the \"snow day\", when schools are forced to close and students get an unexpected day off.\n\nB) The criterion for a snow day is primarily the inability of school buses to operate safely on their routes and danger to children who walk to school. Often, the school remains officially open even though buses do not run and classes are canceled. Severe weather that causes cancellation or delay is more likely in regions that are less able to handle the situation. Snow days are less common in more northern areas of the United States that are used to heavy winter snowfall, because municipalities are well equipped to clear roads and remove snow. In areas less accustomed to snow even small snowfalls of an inch or two may render roads unsafe.\n\nC) Snow days are a familiar theme in American film and TV shows, with children getting the good news and then running outside for some seasonal snowman-building and snowball throwing, against a background of joyful pop music. But the tradition is now over for pupils in several US states such as South Carolina, Nevada, Georgia and Indiana. This academic year, many school boards have introduced policies which require students to work from home if the school is shut by snow or extreme weather. They are known as \"e-learning days\", which certainly sounds less fun than a snow day.\n\nD) Teachers are also losing their snow days and instead will be expected to be on hand to take a virtual register and answer students' questions online. A pilot programme in a school district in Anderson County, South Carolina, has supplied students with electronic tablets loaded with assignments to complete in the event of a school closure. If it is successful, it could be rolled out across the state.\n\nE) But some parents object to the new policy if the vigorous debate on the Facebook page of Anderson County school district is anything to go by. \"When it snows, let the kids enjoy it,\" said one commenter. Another said the decision would \"ruin school even more\", and someone else called snow days \"a fun part of childhood\". But supporters of the policy say it means children will miss fewer days of school. It will also bring to an end a less popular US high school tradition: the \"make-up day\", which requires students in many states to make up the time lost due to weather by working during school holidays.\n\nF) Students in North Carolina already have several make-up days scheduled because of school closures during Hurricane Florence, which struck in September. Tom Wilson, the superintendent(主管) of Anderson County school district, said the change away from snow days makes practical and financial sense. He said technology has changed every profession, so it makes sense to use it to \"eliminate\" make-up days. Adam Baker of the Department of Education in Indiana said e-learning days were proving a \"great success\". He said most Indiana schools already use digital devices during lessons, so it was an \"easy decision\" to extend this to days when schools are closed. He denies the decision is depriving children of the chance to enjoy the snow. \"Students are still able to enjoy snow days and outside time,\" he said. \"Many have PE and science assignments that have them out enjoying the weather.\" But local school superintendents in Ohio are resisting proposals to adopt e-learning days. They fear that students without internet access at home will be disadvantaged by the policy, and superintendent Tom Roth is concerned that e-learning days will offer a lower quality of education.\n\nG) There are also so-called \"blizzard bags\", with assignments that children take home ahead of an expected snow closure. But Mr Roth says it is not sufficient as a replacement. \"I think we still need the class time to give our kids the education that they deserve,\" he said. \"You can't get that with a blizzard bag or doing the work from home like that. It's not going to be as effective.\"\n\nH) There is a long-running debate on whether missing days of school affects attainment. In England, there has been a focus on tackling absenteeism(旷课) from school. The Department for Education (DFE) published research in 2016 arguing that missing any days at school could have a negative impact on results. Even a few days lost in a year could be enough to miss out on getting a good exam grade, the DFE's research concluded. This differed from the findings of a study from Harvard University in the US, which concluded that missing a few occasional days because of the weather did not damage learning.\n\nI) The Harvard study examined seven years of school results data and could not find any impact from snow closures. What caused more disruption was when schools tried to stay open in bad weather, even though many staff and pupils were absent. But weather can make a difference to school results, according to another piece of Harvard research published last summer. It's hot weather that has the negative impact. The results of 10 million school students were examined over 13 years and researchers found a \"significant\" link between years with extremely hot weather and lower results.\n\nJ) It's obvious that students should go to school every day to get the most out of education. In cases of extreme weather students don't always have that option. However, research shows that authorised absences from school such as during extreme weather are less problematic for students than absences that are not authorised. This is because unauthorised absences tend to reflect patterns and behaviours of student disengagement, or the possible negative attitudes of parents towards education that students adopt and carry with them through schooling. The level of impact on students' educational performance is all to do with the length of time that a student is absent from school and how regularly this occurs.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 E 段。题干：Debates on social media show some parents are opposed to ending the \"snow day\" tradition.\n核对该段原文：But some parents object to the new policy if the vigorous debate on the Facebook page of Anderson County school district is anything to go by. \"When it snows, let the kids enjoy it,\" said one commenter. Another said the decision would \"ruin school even more\", and someone else called snow days \"a fun part of childhood\". But supporters of the policy say it means children will miss fewer days of school. It will also bring to an end a less popular US high school tradition: the \"make-up day\", which requires students in many states to make up the time lost due to weather by working during school holidays.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-06-3-nonlistening-q41",
+      "canonicalId": "lazynote-cet4-2024-06-3-q41",
+      "number": 41,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "In more northern regions of the US, school is less likely to be affected by snowy weather.",
+      "passage": "No escape as 'snow day' becomes 'e-learning day'\n\nA) Certain institutions, such as schools, are likely to close when bad weather, such as snow, flooding or extreme heat or cold, causes travel difficulties, power outages(断供), or otherwise endangers public safety. When snowy weather arrives in the US, it means the chance of school children benefiting from the long-standing tradition of the \"snow day\", when schools are forced to close and students get an unexpected day off.\n\nB) The criterion for a snow day is primarily the inability of school buses to operate safely on their routes and danger to children who walk to school. Often, the school remains officially open even though buses do not run and classes are canceled. Severe weather that causes cancellation or delay is more likely in regions that are less able to handle the situation. Snow days are less common in more northern areas of the United States that are used to heavy winter snowfall, because municipalities are well equipped to clear roads and remove snow. In areas less accustomed to snow even small snowfalls of an inch or two may render roads unsafe.\n\nC) Snow days are a familiar theme in American film and TV shows, with children getting the good news and then running outside for some seasonal snowman-building and snowball throwing, against a background of joyful pop music. But the tradition is now over for pupils in several US states such as South Carolina, Nevada, Georgia and Indiana. This academic year, many school boards have introduced policies which require students to work from home if the school is shut by snow or extreme weather. They are known as \"e-learning days\", which certainly sounds less fun than a snow day.\n\nD) Teachers are also losing their snow days and instead will be expected to be on hand to take a virtual register and answer students' questions online. A pilot programme in a school district in Anderson County, South Carolina, has supplied students with electronic tablets loaded with assignments to complete in the event of a school closure. If it is successful, it could be rolled out across the state.\n\nE) But some parents object to the new policy if the vigorous debate on the Facebook page of Anderson County school district is anything to go by. \"When it snows, let the kids enjoy it,\" said one commenter. Another said the decision would \"ruin school even more\", and someone else called snow days \"a fun part of childhood\". But supporters of the policy say it means children will miss fewer days of school. It will also bring to an end a less popular US high school tradition: the \"make-up day\", which requires students in many states to make up the time lost due to weather by working during school holidays.\n\nF) Students in North Carolina already have several make-up days scheduled because of school closures during Hurricane Florence, which struck in September. Tom Wilson, the superintendent(主管) of Anderson County school district, said the change away from snow days makes practical and financial sense. He said technology has changed every profession, so it makes sense to use it to \"eliminate\" make-up days. Adam Baker of the Department of Education in Indiana said e-learning days were proving a \"great success\". He said most Indiana schools already use digital devices during lessons, so it was an \"easy decision\" to extend this to days when schools are closed. He denies the decision is depriving children of the chance to enjoy the snow. \"Students are still able to enjoy snow days and outside time,\" he said. \"Many have PE and science assignments that have them out enjoying the weather.\" But local school superintendents in Ohio are resisting proposals to adopt e-learning days. They fear that students without internet access at home will be disadvantaged by the policy, and superintendent Tom Roth is concerned that e-learning days will offer a lower quality of education.\n\nG) There are also so-called \"blizzard bags\", with assignments that children take home ahead of an expected snow closure. But Mr Roth says it is not sufficient as a replacement. \"I think we still need the class time to give our kids the education that they deserve,\" he said. \"You can't get that with a blizzard bag or doing the work from home like that. It's not going to be as effective.\"\n\nH) There is a long-running debate on whether missing days of school affects attainment. In England, there has been a focus on tackling absenteeism(旷课) from school. The Department for Education (DFE) published research in 2016 arguing that missing any days at school could have a negative impact on results. Even a few days lost in a year could be enough to miss out on getting a good exam grade, the DFE's research concluded. This differed from the findings of a study from Harvard University in the US, which concluded that missing a few occasional days because of the weather did not damage learning.\n\nI) The Harvard study examined seven years of school results data and could not find any impact from snow closures. What caused more disruption was when schools tried to stay open in bad weather, even though many staff and pupils were absent. But weather can make a difference to school results, according to another piece of Harvard research published last summer. It's hot weather that has the negative impact. The results of 10 million school students were examined over 13 years and researchers found a \"significant\" link between years with extremely hot weather and lower results.\n\nJ) It's obvious that students should go to school every day to get the most out of education. In cases of extreme weather students don't always have that option. However, research shows that authorised absences from school such as during extreme weather are less problematic for students than absences that are not authorised. This is because unauthorised absences tend to reflect patterns and behaviours of student disengagement, or the possible negative attitudes of parents towards education that students adopt and carry with them through schooling. The level of impact on students' educational performance is all to do with the length of time that a student is absent from school and how regularly this occurs.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 B 段。题干：In more northern regions of the US, school is less likely to be affected by snowy weather.\n核对该段原文：The criterion for a snow day is primarily the inability of school buses to operate safely on their routes and danger to children who walk to school. Often, the school remains officially open even though buses do not run and classes are canceled. Severe weather that causes cancellation or delay is more likely in regions that are less able to handle the situation. Snow days are less common in more northern areas of the United States that are used to heavy winter snowfall, because municipalities are well equipped to clear roads and remove snow. In areas less accustomed to snow even small snowfalls of an inch or two may render roads unsafe.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-06-3-nonlistening-q42",
+      "canonicalId": "lazynote-cet4-2024-06-3-q42",
+      "number": 42,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Research indicates absences from school with permission do not cause as many problems as those without permission.",
+      "passage": "No escape as 'snow day' becomes 'e-learning day'\n\nA) Certain institutions, such as schools, are likely to close when bad weather, such as snow, flooding or extreme heat or cold, causes travel difficulties, power outages(断供), or otherwise endangers public safety. When snowy weather arrives in the US, it means the chance of school children benefiting from the long-standing tradition of the \"snow day\", when schools are forced to close and students get an unexpected day off.\n\nB) The criterion for a snow day is primarily the inability of school buses to operate safely on their routes and danger to children who walk to school. Often, the school remains officially open even though buses do not run and classes are canceled. Severe weather that causes cancellation or delay is more likely in regions that are less able to handle the situation. Snow days are less common in more northern areas of the United States that are used to heavy winter snowfall, because municipalities are well equipped to clear roads and remove snow. In areas less accustomed to snow even small snowfalls of an inch or two may render roads unsafe.\n\nC) Snow days are a familiar theme in American film and TV shows, with children getting the good news and then running outside for some seasonal snowman-building and snowball throwing, against a background of joyful pop music. But the tradition is now over for pupils in several US states such as South Carolina, Nevada, Georgia and Indiana. This academic year, many school boards have introduced policies which require students to work from home if the school is shut by snow or extreme weather. They are known as \"e-learning days\", which certainly sounds less fun than a snow day.\n\nD) Teachers are also losing their snow days and instead will be expected to be on hand to take a virtual register and answer students' questions online. A pilot programme in a school district in Anderson County, South Carolina, has supplied students with electronic tablets loaded with assignments to complete in the event of a school closure. If it is successful, it could be rolled out across the state.\n\nE) But some parents object to the new policy if the vigorous debate on the Facebook page of Anderson County school district is anything to go by. \"When it snows, let the kids enjoy it,\" said one commenter. Another said the decision would \"ruin school even more\", and someone else called snow days \"a fun part of childhood\". But supporters of the policy say it means children will miss fewer days of school. It will also bring to an end a less popular US high school tradition: the \"make-up day\", which requires students in many states to make up the time lost due to weather by working during school holidays.\n\nF) Students in North Carolina already have several make-up days scheduled because of school closures during Hurricane Florence, which struck in September. Tom Wilson, the superintendent(主管) of Anderson County school district, said the change away from snow days makes practical and financial sense. He said technology has changed every profession, so it makes sense to use it to \"eliminate\" make-up days. Adam Baker of the Department of Education in Indiana said e-learning days were proving a \"great success\". He said most Indiana schools already use digital devices during lessons, so it was an \"easy decision\" to extend this to days when schools are closed. He denies the decision is depriving children of the chance to enjoy the snow. \"Students are still able to enjoy snow days and outside time,\" he said. \"Many have PE and science assignments that have them out enjoying the weather.\" But local school superintendents in Ohio are resisting proposals to adopt e-learning days. They fear that students without internet access at home will be disadvantaged by the policy, and superintendent Tom Roth is concerned that e-learning days will offer a lower quality of education.\n\nG) There are also so-called \"blizzard bags\", with assignments that children take home ahead of an expected snow closure. But Mr Roth says it is not sufficient as a replacement. \"I think we still need the class time to give our kids the education that they deserve,\" he said. \"You can't get that with a blizzard bag or doing the work from home like that. It's not going to be as effective.\"\n\nH) There is a long-running debate on whether missing days of school affects attainment. In England, there has been a focus on tackling absenteeism(旷课) from school. The Department for Education (DFE) published research in 2016 arguing that missing any days at school could have a negative impact on results. Even a few days lost in a year could be enough to miss out on getting a good exam grade, the DFE's research concluded. This differed from the findings of a study from Harvard University in the US, which concluded that missing a few occasional days because of the weather did not damage learning.\n\nI) The Harvard study examined seven years of school results data and could not find any impact from snow closures. What caused more disruption was when schools tried to stay open in bad weather, even though many staff and pupils were absent. But weather can make a difference to school results, according to another piece of Harvard research published last summer. It's hot weather that has the negative impact. The results of 10 million school students were examined over 13 years and researchers found a \"significant\" link between years with extremely hot weather and lower results.\n\nJ) It's obvious that students should go to school every day to get the most out of education. In cases of extreme weather students don't always have that option. However, research shows that authorised absences from school such as during extreme weather are less problematic for students than absences that are not authorised. This is because unauthorised absences tend to reflect patterns and behaviours of student disengagement, or the possible negative attitudes of parents towards education that students adopt and carry with them through schooling. The level of impact on students' educational performance is all to do with the length of time that a student is absent from school and how regularly this occurs.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        }
+      ],
+      "correctAnswer": "J",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 J 段。题干：Research indicates absences from school with permission do not cause as many problems as those without permission.\n核对该段原文：It's obvious that students should go to school every day to get the most out of education. In cases of extreme weather students don't always have that option. However, research shows that authorised absences from school such as during extreme weather are less problematic for students than absences that are not authorised. This is because unauthorised absences tend to reflect patterns and behaviours of student disengagement, or the possible negative attitudes of parents towards education that students adopt and carry with them through schooling. The level of impact on students' educational performance is all to do with the length of time that a student is absent from school and how regularly this occurs.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-06-3-nonlistening-q43",
+      "canonicalId": "lazynote-cet4-2024-06-3-q43",
+      "number": 43,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "There is objection to e-learning days owing to fear that students with no access to the Internet at home will suffer.",
+      "passage": "No escape as 'snow day' becomes 'e-learning day'\n\nA) Certain institutions, such as schools, are likely to close when bad weather, such as snow, flooding or extreme heat or cold, causes travel difficulties, power outages(断供), or otherwise endangers public safety. When snowy weather arrives in the US, it means the chance of school children benefiting from the long-standing tradition of the \"snow day\", when schools are forced to close and students get an unexpected day off.\n\nB) The criterion for a snow day is primarily the inability of school buses to operate safely on their routes and danger to children who walk to school. Often, the school remains officially open even though buses do not run and classes are canceled. Severe weather that causes cancellation or delay is more likely in regions that are less able to handle the situation. Snow days are less common in more northern areas of the United States that are used to heavy winter snowfall, because municipalities are well equipped to clear roads and remove snow. In areas less accustomed to snow even small snowfalls of an inch or two may render roads unsafe.\n\nC) Snow days are a familiar theme in American film and TV shows, with children getting the good news and then running outside for some seasonal snowman-building and snowball throwing, against a background of joyful pop music. But the tradition is now over for pupils in several US states such as South Carolina, Nevada, Georgia and Indiana. This academic year, many school boards have introduced policies which require students to work from home if the school is shut by snow or extreme weather. They are known as \"e-learning days\", which certainly sounds less fun than a snow day.\n\nD) Teachers are also losing their snow days and instead will be expected to be on hand to take a virtual register and answer students' questions online. A pilot programme in a school district in Anderson County, South Carolina, has supplied students with electronic tablets loaded with assignments to complete in the event of a school closure. If it is successful, it could be rolled out across the state.\n\nE) But some parents object to the new policy if the vigorous debate on the Facebook page of Anderson County school district is anything to go by. \"When it snows, let the kids enjoy it,\" said one commenter. Another said the decision would \"ruin school even more\", and someone else called snow days \"a fun part of childhood\". But supporters of the policy say it means children will miss fewer days of school. It will also bring to an end a less popular US high school tradition: the \"make-up day\", which requires students in many states to make up the time lost due to weather by working during school holidays.\n\nF) Students in North Carolina already have several make-up days scheduled because of school closures during Hurricane Florence, which struck in September. Tom Wilson, the superintendent(主管) of Anderson County school district, said the change away from snow days makes practical and financial sense. He said technology has changed every profession, so it makes sense to use it to \"eliminate\" make-up days. Adam Baker of the Department of Education in Indiana said e-learning days were proving a \"great success\". He said most Indiana schools already use digital devices during lessons, so it was an \"easy decision\" to extend this to days when schools are closed. He denies the decision is depriving children of the chance to enjoy the snow. \"Students are still able to enjoy snow days and outside time,\" he said. \"Many have PE and science assignments that have them out enjoying the weather.\" But local school superintendents in Ohio are resisting proposals to adopt e-learning days. They fear that students without internet access at home will be disadvantaged by the policy, and superintendent Tom Roth is concerned that e-learning days will offer a lower quality of education.\n\nG) There are also so-called \"blizzard bags\", with assignments that children take home ahead of an expected snow closure. But Mr Roth says it is not sufficient as a replacement. \"I think we still need the class time to give our kids the education that they deserve,\" he said. \"You can't get that with a blizzard bag or doing the work from home like that. It's not going to be as effective.\"\n\nH) There is a long-running debate on whether missing days of school affects attainment. In England, there has been a focus on tackling absenteeism(旷课) from school. The Department for Education (DFE) published research in 2016 arguing that missing any days at school could have a negative impact on results. Even a few days lost in a year could be enough to miss out on getting a good exam grade, the DFE's research concluded. This differed from the findings of a study from Harvard University in the US, which concluded that missing a few occasional days because of the weather did not damage learning.\n\nI) The Harvard study examined seven years of school results data and could not find any impact from snow closures. What caused more disruption was when schools tried to stay open in bad weather, even though many staff and pupils were absent. But weather can make a difference to school results, according to another piece of Harvard research published last summer. It's hot weather that has the negative impact. The results of 10 million school students were examined over 13 years and researchers found a \"significant\" link between years with extremely hot weather and lower results.\n\nJ) It's obvious that students should go to school every day to get the most out of education. In cases of extreme weather students don't always have that option. However, research shows that authorised absences from school such as during extreme weather are less problematic for students than absences that are not authorised. This is because unauthorised absences tend to reflect patterns and behaviours of student disengagement, or the possible negative attitudes of parents towards education that students adopt and carry with them through schooling. The level of impact on students' educational performance is all to do with the length of time that a student is absent from school and how regularly this occurs.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 F 段。题干：There is objection to e-learning days owing to fear that students with no access to the Internet at home will suffer.\n核对该段原文：Students in North Carolina already have several make-up days scheduled because of school closures during Hurricane Florence, which struck in September. Tom Wilson, the superintendent(主管) of Anderson County school district, said the change away from snow days makes practical and financial sense. He said technology has changed every profession, so it makes sense to use it to \"eliminate\" make-up days. Adam Baker of the Department of Education in Indiana said e-learning days were proving a \"great success\". He said most Indiana schools already use digital devices during lessons, so it was an \"easy decision\" to extend this to days when schools are closed. He denies the decision is depriving children of the chance to enjoy the snow. \"Students are still able to enjoy snow days and outside time,\" he said. \"Many have PE and science assignments that have them out enjoying the weather.\" But local school superintendents in Ohio are resisting proposals to adopt e-learning days. They fear that students without internet access at home will be disadvantaged by the policy, and superintendent Tom Roth is concerned that e-learning days will offer a lower quality of education.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-06-3-nonlistening-q44",
+      "canonicalId": "lazynote-cet4-2024-06-3-q44",
+      "number": 44,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "In a pilot programme, students are given electronic devices to do assignments when schools are closed.",
+      "passage": "No escape as 'snow day' becomes 'e-learning day'\n\nA) Certain institutions, such as schools, are likely to close when bad weather, such as snow, flooding or extreme heat or cold, causes travel difficulties, power outages(断供), or otherwise endangers public safety. When snowy weather arrives in the US, it means the chance of school children benefiting from the long-standing tradition of the \"snow day\", when schools are forced to close and students get an unexpected day off.\n\nB) The criterion for a snow day is primarily the inability of school buses to operate safely on their routes and danger to children who walk to school. Often, the school remains officially open even though buses do not run and classes are canceled. Severe weather that causes cancellation or delay is more likely in regions that are less able to handle the situation. Snow days are less common in more northern areas of the United States that are used to heavy winter snowfall, because municipalities are well equipped to clear roads and remove snow. In areas less accustomed to snow even small snowfalls of an inch or two may render roads unsafe.\n\nC) Snow days are a familiar theme in American film and TV shows, with children getting the good news and then running outside for some seasonal snowman-building and snowball throwing, against a background of joyful pop music. But the tradition is now over for pupils in several US states such as South Carolina, Nevada, Georgia and Indiana. This academic year, many school boards have introduced policies which require students to work from home if the school is shut by snow or extreme weather. They are known as \"e-learning days\", which certainly sounds less fun than a snow day.\n\nD) Teachers are also losing their snow days and instead will be expected to be on hand to take a virtual register and answer students' questions online. A pilot programme in a school district in Anderson County, South Carolina, has supplied students with electronic tablets loaded with assignments to complete in the event of a school closure. If it is successful, it could be rolled out across the state.\n\nE) But some parents object to the new policy if the vigorous debate on the Facebook page of Anderson County school district is anything to go by. \"When it snows, let the kids enjoy it,\" said one commenter. Another said the decision would \"ruin school even more\", and someone else called snow days \"a fun part of childhood\". But supporters of the policy say it means children will miss fewer days of school. It will also bring to an end a less popular US high school tradition: the \"make-up day\", which requires students in many states to make up the time lost due to weather by working during school holidays.\n\nF) Students in North Carolina already have several make-up days scheduled because of school closures during Hurricane Florence, which struck in September. Tom Wilson, the superintendent(主管) of Anderson County school district, said the change away from snow days makes practical and financial sense. He said technology has changed every profession, so it makes sense to use it to \"eliminate\" make-up days. Adam Baker of the Department of Education in Indiana said e-learning days were proving a \"great success\". He said most Indiana schools already use digital devices during lessons, so it was an \"easy decision\" to extend this to days when schools are closed. He denies the decision is depriving children of the chance to enjoy the snow. \"Students are still able to enjoy snow days and outside time,\" he said. \"Many have PE and science assignments that have them out enjoying the weather.\" But local school superintendents in Ohio are resisting proposals to adopt e-learning days. They fear that students without internet access at home will be disadvantaged by the policy, and superintendent Tom Roth is concerned that e-learning days will offer a lower quality of education.\n\nG) There are also so-called \"blizzard bags\", with assignments that children take home ahead of an expected snow closure. But Mr Roth says it is not sufficient as a replacement. \"I think we still need the class time to give our kids the education that they deserve,\" he said. \"You can't get that with a blizzard bag or doing the work from home like that. It's not going to be as effective.\"\n\nH) There is a long-running debate on whether missing days of school affects attainment. In England, there has been a focus on tackling absenteeism(旷课) from school. The Department for Education (DFE) published research in 2016 arguing that missing any days at school could have a negative impact on results. Even a few days lost in a year could be enough to miss out on getting a good exam grade, the DFE's research concluded. This differed from the findings of a study from Harvard University in the US, which concluded that missing a few occasional days because of the weather did not damage learning.\n\nI) The Harvard study examined seven years of school results data and could not find any impact from snow closures. What caused more disruption was when schools tried to stay open in bad weather, even though many staff and pupils were absent. But weather can make a difference to school results, according to another piece of Harvard research published last summer. It's hot weather that has the negative impact. The results of 10 million school students were examined over 13 years and researchers found a \"significant\" link between years with extremely hot weather and lower results.\n\nJ) It's obvious that students should go to school every day to get the most out of education. In cases of extreme weather students don't always have that option. However, research shows that authorised absences from school such as during extreme weather are less problematic for students than absences that are not authorised. This is because unauthorised absences tend to reflect patterns and behaviours of student disengagement, or the possible negative attitudes of parents towards education that students adopt and carry with them through schooling. The level of impact on students' educational performance is all to do with the length of time that a student is absent from school and how regularly this occurs.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 D 段。题干：In a pilot programme, students are given electronic devices to do assignments when schools are closed.\n核对该段原文：Teachers are also losing their snow days and instead will be expected to be on hand to take a virtual register and answer students' questions online. A pilot programme in a school district in Anderson County, South Carolina, has supplied students with electronic tablets loaded with assignments to complete in the event of a school closure. If it is successful, it could be rolled out across the state.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-06-3-nonlistening-q45",
+      "canonicalId": "lazynote-cet4-2024-06-3-q45",
+      "number": 45,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Along-standing debate is going on over the impact of school absences on students' academic performance.",
+      "passage": "No escape as 'snow day' becomes 'e-learning day'\n\nA) Certain institutions, such as schools, are likely to close when bad weather, such as snow, flooding or extreme heat or cold, causes travel difficulties, power outages(断供), or otherwise endangers public safety. When snowy weather arrives in the US, it means the chance of school children benefiting from the long-standing tradition of the \"snow day\", when schools are forced to close and students get an unexpected day off.\n\nB) The criterion for a snow day is primarily the inability of school buses to operate safely on their routes and danger to children who walk to school. Often, the school remains officially open even though buses do not run and classes are canceled. Severe weather that causes cancellation or delay is more likely in regions that are less able to handle the situation. Snow days are less common in more northern areas of the United States that are used to heavy winter snowfall, because municipalities are well equipped to clear roads and remove snow. In areas less accustomed to snow even small snowfalls of an inch or two may render roads unsafe.\n\nC) Snow days are a familiar theme in American film and TV shows, with children getting the good news and then running outside for some seasonal snowman-building and snowball throwing, against a background of joyful pop music. But the tradition is now over for pupils in several US states such as South Carolina, Nevada, Georgia and Indiana. This academic year, many school boards have introduced policies which require students to work from home if the school is shut by snow or extreme weather. They are known as \"e-learning days\", which certainly sounds less fun than a snow day.\n\nD) Teachers are also losing their snow days and instead will be expected to be on hand to take a virtual register and answer students' questions online. A pilot programme in a school district in Anderson County, South Carolina, has supplied students with electronic tablets loaded with assignments to complete in the event of a school closure. If it is successful, it could be rolled out across the state.\n\nE) But some parents object to the new policy if the vigorous debate on the Facebook page of Anderson County school district is anything to go by. \"When it snows, let the kids enjoy it,\" said one commenter. Another said the decision would \"ruin school even more\", and someone else called snow days \"a fun part of childhood\". But supporters of the policy say it means children will miss fewer days of school. It will also bring to an end a less popular US high school tradition: the \"make-up day\", which requires students in many states to make up the time lost due to weather by working during school holidays.\n\nF) Students in North Carolina already have several make-up days scheduled because of school closures during Hurricane Florence, which struck in September. Tom Wilson, the superintendent(主管) of Anderson County school district, said the change away from snow days makes practical and financial sense. He said technology has changed every profession, so it makes sense to use it to \"eliminate\" make-up days. Adam Baker of the Department of Education in Indiana said e-learning days were proving a \"great success\". He said most Indiana schools already use digital devices during lessons, so it was an \"easy decision\" to extend this to days when schools are closed. He denies the decision is depriving children of the chance to enjoy the snow. \"Students are still able to enjoy snow days and outside time,\" he said. \"Many have PE and science assignments that have them out enjoying the weather.\" But local school superintendents in Ohio are resisting proposals to adopt e-learning days. They fear that students without internet access at home will be disadvantaged by the policy, and superintendent Tom Roth is concerned that e-learning days will offer a lower quality of education.\n\nG) There are also so-called \"blizzard bags\", with assignments that children take home ahead of an expected snow closure. But Mr Roth says it is not sufficient as a replacement. \"I think we still need the class time to give our kids the education that they deserve,\" he said. \"You can't get that with a blizzard bag or doing the work from home like that. It's not going to be as effective.\"\n\nH) There is a long-running debate on whether missing days of school affects attainment. In England, there has been a focus on tackling absenteeism(旷课) from school. The Department for Education (DFE) published research in 2016 arguing that missing any days at school could have a negative impact on results. Even a few days lost in a year could be enough to miss out on getting a good exam grade, the DFE's research concluded. This differed from the findings of a study from Harvard University in the US, which concluded that missing a few occasional days because of the weather did not damage learning.\n\nI) The Harvard study examined seven years of school results data and could not find any impact from snow closures. What caused more disruption was when schools tried to stay open in bad weather, even though many staff and pupils were absent. But weather can make a difference to school results, according to another piece of Harvard research published last summer. It's hot weather that has the negative impact. The results of 10 million school students were examined over 13 years and researchers found a \"significant\" link between years with extremely hot weather and lower results.\n\nJ) It's obvious that students should go to school every day to get the most out of education. In cases of extreme weather students don't always have that option. However, research shows that authorised absences from school such as during extreme weather are less problematic for students than absences that are not authorised. This is because unauthorised absences tend to reflect patterns and behaviours of student disengagement, or the possible negative attitudes of parents towards education that students adopt and carry with them through schooling. The level of impact on students' educational performance is all to do with the length of time that a student is absent from school and how regularly this occurs.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 H 段。题干：Along-standing debate is going on over the impact of school absences on students' academic performance.\n核对该段原文：There is a long-running debate on whether missing days of school affects attainment. In England, there has been a focus on tackling absenteeism(旷课) from school. The Department for Education (DFE) published research in 2016 arguing that missing any days at school could have a negative impact on results. Even a few days lost in a year could be enough to miss out on getting a good exam grade, the DFE's research concluded. This differed from the findings of a study from Harvard University in the US, which concluded that missing a few occasional days because of the weather did not damage learning.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-06-3-nonlistening-q46",
+      "canonicalId": "lazynote-cet4-2024-06-3-q46",
+      "number": 46,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author think of the book Dress Codes: How the Laws of Fashion Made History?",
+      "passage": "It may sound surprising, but you don't have to be interested in fashion, or even in history, to enjoy Dress Codes: How the Laws of Fashion Made History. I happen to be interested in both, and ended up enjoying the book for completely different reasons.\n\nRichard Thompson Ford is a law professor, and you probably won't forget that for even one page. His carefully reasoned arguments, packed with examples, sound almost like reading a court opinion, only maybe wordier. You will probably never think of fashion as a trifle again.\n\nFord's thesis is that the best way to understand what particular fashions meant in any given era is to look at the restrictions placed on them. Through this lens, he shows us that the first laws passed in the 1200s to ensure that only the nobility were allowed to wear certain fabrics, colors and ornaments reflected the rise of the middle class, who were now able to imitate some of these fashions. The status of the upper classes was threatened; fashion was a tool to preserve it.\n\nFord takes the reader through the evolution of fashion while examining the underlying motivations of status, sex, power, and personality, which, he assumes, influenced all innovations in fashion in the past and which continue to influence us today. His writing is more than a little dense—dense with research, clauses, and precise adjectives and nouns. But there's also humor and enough interesting episodes to make the writing appealing. No one is spared his sharp analysis: not the easy targets of 19th century women's crippling(伤害身体的) fashions nor the modern uniforms of Silicon Valley T-shirts\n\nBut the greatest strength of this book (on fashion!) is its intellectual profoundness. Ford asks us to question unconscious beliefs, to realize that we almost never do so, to understand that the simplest choices are charged with meaning, and yet that meaning can and does change all the time. Consider the fact that a 1918 catalog insisted that boys and girls be dressed in the appropriate color. We believe our thinking today is evolved; Ford shows us it's not.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is read by people for entirely different reasons."
+        },
+        {
+          "id": "B",
+          "text": "It is meant for those interested in fashion history."
+        },
+        {
+          "id": "C",
+          "text": "It makes enjoyable as well as informative reading."
+        },
+        {
+          "id": "D",
+          "text": "It converts fashion into something for deliberation."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：It makes enjoyable as well as informative reading.\n关键词检索定位到第 1 段的候选相关句：It may sound surprising, but you don't have to be interested in fashion, or even in history, to enjoy Dress Codes: How the Laws of Fashion Made History.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-06-3-nonlistening-q47",
+      "canonicalId": "lazynote-cet4-2024-06-3-q47",
+      "number": 47,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "How can people best understand a particular fashion in an era, according to Ford?",
+      "passage": "It may sound surprising, but you don't have to be interested in fashion, or even in history, to enjoy Dress Codes: How the Laws of Fashion Made History. I happen to be interested in both, and ended up enjoying the book for completely different reasons.\n\nRichard Thompson Ford is a law professor, and you probably won't forget that for even one page. His carefully reasoned arguments, packed with examples, sound almost like reading a court opinion, only maybe wordier. You will probably never think of fashion as a trifle again.\n\nFord's thesis is that the best way to understand what particular fashions meant in any given era is to look at the restrictions placed on them. Through this lens, he shows us that the first laws passed in the 1200s to ensure that only the nobility were allowed to wear certain fabrics, colors and ornaments reflected the rise of the middle class, who were now able to imitate some of these fashions. The status of the upper classes was threatened; fashion was a tool to preserve it.\n\nFord takes the reader through the evolution of fashion while examining the underlying motivations of status, sex, power, and personality, which, he assumes, influenced all innovations in fashion in the past and which continue to influence us today. His writing is more than a little dense—dense with research, clauses, and precise adjectives and nouns. But there's also humor and enough interesting episodes to make the writing appealing. No one is spared his sharp analysis: not the easy targets of 19th century women's crippling(伤害身体的) fashions nor the modern uniforms of Silicon Valley T-shirts\n\nBut the greatest strength of this book (on fashion!) is its intellectual profoundness. Ford asks us to question unconscious beliefs, to realize that we almost never do so, to understand that the simplest choices are charged with meaning, and yet that meaning can and does change all the time. Consider the fact that a 1918 catalog insisted that boys and girls be dressed in the appropriate color. We believe our thinking today is evolved; Ford shows us it's not.",
+      "options": [
+        {
+          "id": "A",
+          "text": "By examining the restraints imposed on it."
+        },
+        {
+          "id": "B",
+          "text": "By looking at what the nobility were wearing."
+        },
+        {
+          "id": "C",
+          "text": "By glancing at its fabrics, colors and ornaments."
+        },
+        {
+          "id": "D",
+          "text": "By doing a survey of the upper and middle classes"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：By examining the restraints imposed on it.\n关键词检索定位到第 3 段的候选相关句：Ford's thesis is that the best way to understand what particular fashions meant in any given era is to look at the restrictions placed on them.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-06-3-nonlistening-q48",
+      "canonicalId": "lazynote-cet4-2024-06-3-q48",
+      "number": 48,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What was the aim of the first laws passed regarding fashion in the 1200s?",
+      "passage": "It may sound surprising, but you don't have to be interested in fashion, or even in history, to enjoy Dress Codes: How the Laws of Fashion Made History. I happen to be interested in both, and ended up enjoying the book for completely different reasons.\n\nRichard Thompson Ford is a law professor, and you probably won't forget that for even one page. His carefully reasoned arguments, packed with examples, sound almost like reading a court opinion, only maybe wordier. You will probably never think of fashion as a trifle again.\n\nFord's thesis is that the best way to understand what particular fashions meant in any given era is to look at the restrictions placed on them. Through this lens, he shows us that the first laws passed in the 1200s to ensure that only the nobility were allowed to wear certain fabrics, colors and ornaments reflected the rise of the middle class, who were now able to imitate some of these fashions. The status of the upper classes was threatened; fashion was a tool to preserve it.\n\nFord takes the reader through the evolution of fashion while examining the underlying motivations of status, sex, power, and personality, which, he assumes, influenced all innovations in fashion in the past and which continue to influence us today. His writing is more than a little dense—dense with research, clauses, and precise adjectives and nouns. But there's also humor and enough interesting episodes to make the writing appealing. No one is spared his sharp analysis: not the easy targets of 19th century women's crippling(伤害身体的) fashions nor the modern uniforms of Silicon Valley T-shirts\n\nBut the greatest strength of this book (on fashion!) is its intellectual profoundness. Ford asks us to question unconscious beliefs, to realize that we almost never do so, to understand that the simplest choices are charged with meaning, and yet that meaning can and does change all the time. Consider the fact that a 1918 catalog insisted that boys and girls be dressed in the appropriate color. We believe our thinking today is evolved; Ford shows us it's not.",
+      "options": [
+        {
+          "id": "A",
+          "text": "To facilitate the rise of the middle class."
+        },
+        {
+          "id": "B",
+          "text": "To loosen restrictions on dress codes."
+        },
+        {
+          "id": "C",
+          "text": "To help initiate some novel fashions"
+        },
+        {
+          "id": "D",
+          "text": "To preserve the status of the nobles."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：To preserve the status of the nobles.\n关键词检索定位到第 3 段的候选相关句：Through this lens, he shows us that the first laws passed in the 1200s to ensure that only the nobility were allowed to wear certain fabrics, colors and ornaments reflected the rise of the middle class, who were now able to imitate some of these fashions.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-06-3-nonlistening-q49",
+      "canonicalId": "lazynote-cet4-2024-06-3-q49",
+      "number": 49,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author think of Ford's writing?",
+      "passage": "It may sound surprising, but you don't have to be interested in fashion, or even in history, to enjoy Dress Codes: How the Laws of Fashion Made History. I happen to be interested in both, and ended up enjoying the book for completely different reasons.\n\nRichard Thompson Ford is a law professor, and you probably won't forget that for even one page. His carefully reasoned arguments, packed with examples, sound almost like reading a court opinion, only maybe wordier. You will probably never think of fashion as a trifle again.\n\nFord's thesis is that the best way to understand what particular fashions meant in any given era is to look at the restrictions placed on them. Through this lens, he shows us that the first laws passed in the 1200s to ensure that only the nobility were allowed to wear certain fabrics, colors and ornaments reflected the rise of the middle class, who were now able to imitate some of these fashions. The status of the upper classes was threatened; fashion was a tool to preserve it.\n\nFord takes the reader through the evolution of fashion while examining the underlying motivations of status, sex, power, and personality, which, he assumes, influenced all innovations in fashion in the past and which continue to influence us today. His writing is more than a little dense—dense with research, clauses, and precise adjectives and nouns. But there's also humor and enough interesting episodes to make the writing appealing. No one is spared his sharp analysis: not the easy targets of 19th century women's crippling(伤害身体的) fashions nor the modern uniforms of Silicon Valley T-shirts\n\nBut the greatest strength of this book (on fashion!) is its intellectual profoundness. Ford asks us to question unconscious beliefs, to realize that we almost never do so, to understand that the simplest choices are charged with meaning, and yet that meaning can and does change all the time. Consider the fact that a 1918 catalog insisted that boys and girls be dressed in the appropriate color. We believe our thinking today is evolved; Ford shows us it's not.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It uses comparison and contrast in describing fashions of different eras."
+        },
+        {
+          "id": "B",
+          "text": "It makes heavy reading but is not lacking in humor or appeal."
+        },
+        {
+          "id": "C",
+          "text": "It is filled with interesting episodes to spare readers intolerable boredom."
+        },
+        {
+          "id": "D",
+          "text": "It is characteristic of academics in presenting arguments."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：It makes heavy reading but is not lacking in humor or appeal.\n关键词检索定位到第 4 段的候选相关句：But there's also humor and enough interesting episodes to make the writing appealing.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-06-3-nonlistening-q50",
+      "canonicalId": "lazynote-cet4-2024-06-3-q50",
+      "number": 50,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author say is the greatest strength of Ford's book?",
+      "passage": "It may sound surprising, but you don't have to be interested in fashion, or even in history, to enjoy Dress Codes: How the Laws of Fashion Made History. I happen to be interested in both, and ended up enjoying the book for completely different reasons.\n\nRichard Thompson Ford is a law professor, and you probably won't forget that for even one page. His carefully reasoned arguments, packed with examples, sound almost like reading a court opinion, only maybe wordier. You will probably never think of fashion as a trifle again.\n\nFord's thesis is that the best way to understand what particular fashions meant in any given era is to look at the restrictions placed on them. Through this lens, he shows us that the first laws passed in the 1200s to ensure that only the nobility were allowed to wear certain fabrics, colors and ornaments reflected the rise of the middle class, who were now able to imitate some of these fashions. The status of the upper classes was threatened; fashion was a tool to preserve it.\n\nFord takes the reader through the evolution of fashion while examining the underlying motivations of status, sex, power, and personality, which, he assumes, influenced all innovations in fashion in the past and which continue to influence us today. His writing is more than a little dense—dense with research, clauses, and precise adjectives and nouns. But there's also humor and enough interesting episodes to make the writing appealing. No one is spared his sharp analysis: not the easy targets of 19th century women's crippling(伤害身体的) fashions nor the modern uniforms of Silicon Valley T-shirts\n\nBut the greatest strength of this book (on fashion!) is its intellectual profoundness. Ford asks us to question unconscious beliefs, to realize that we almost never do so, to understand that the simplest choices are charged with meaning, and yet that meaning can and does change all the time. Consider the fact that a 1918 catalog insisted that boys and girls be dressed in the appropriate color. We believe our thinking today is evolved; Ford shows us it's not.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Plentiful information."
+        },
+        {
+          "id": "B",
+          "text": "Meaningful choices."
+        },
+        {
+          "id": "C",
+          "text": "Evolved thinking."
+        },
+        {
+          "id": "D",
+          "text": "Intellectual depth"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：Intellectual depth\n关键词检索定位到第 5 段的候选相关句：But the greatest strength of this book (on fashion!) is its intellectual profoundness.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-06-3-nonlistening-q51",
+      "canonicalId": "lazynote-cet4-2024-06-3-q51",
+      "number": 51,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author say about the ability to be persuasive in the first paragraph?",
+      "passage": "The art of persuasion means convincing others to agree with your point of view or to follow your course of action. For some of us, persuasion is an instinctive quality and the power of influencing comes naturally. For the rest of us, persuasion skills can be learned and developed over time.\n\nEmployers place a great value on employees with persuasion skills because they can impact several aspects of job performance. Besides, teamwork and leadership rely heavily on the power of persuasion to get things done. Without persuasion skills, employees may not be as committed to or convinced of the importance of an organization's vision and long-term mission. Effective use of persuasion skills will not only help get your coworkers excited about your ideas, it'll also help you motivate them to achieve a common goal.\n\nIn order to learn the art of persuasion at the workplace, you need to understand how to handle conflicts and reach agreements. Good communication is the first step in effective persuasion, but logic and reasoning are just as important. Before you can get somebody on-board with your goal, you should help them understand why they should pursue it. Using visual aids to back up your ideas can help communicate your ideas better and make compelling arguments so your listeners will come to a logical choice and become fully committed to your ideas and plans.\n\nSuccessful persuasion skills are based on your ability to have positive interactions and maintain meaningful relationships with people. In order to sustain those relationships, you must be able to work in their best interests as well. Your coworkers are more likely to agree with you when they succeed alongside you. The more they achieve and the greater progress they make, the more they trust your judgement and strength.\n\nWe persuade and get persuaded every day—we're either convincing or being convinced. A vast majority of people prefer collaboration and teamwork over traditional organizational structures; no one likes to be told what to do or to be pushed around. Therefore, organizations and leaders should adopt powerful persuasion skills to bring about necessary changes.",
+      "options": [
+        {
+          "id": "A",
+          "text": "People may either be born with it or be able to cultivate it."
+        },
+        {
+          "id": "B",
+          "text": "It proves crucial in making others follow one's course of action."
+        },
+        {
+          "id": "C",
+          "text": "It refers to the natural and instinctive power of influencing one's coworkers."
+        },
+        {
+          "id": "D",
+          "text": "People may view it as both a means to convince others and an art of communication."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：People may either be born with it or be able to cultivate it.\n关键词检索定位到第 2 段的候选相关句：Effective use of persuasion skills will not only help get your coworkers excited about your ideas, it'll also help you motivate them to achieve a common goal.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-06-3-nonlistening-q52",
+      "canonicalId": "lazynote-cet4-2024-06-3-q52",
+      "number": 52,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "Why are persuasion skills greatly valued in the workplace?",
+      "passage": "The art of persuasion means convincing others to agree with your point of view or to follow your course of action. For some of us, persuasion is an instinctive quality and the power of influencing comes naturally. For the rest of us, persuasion skills can be learned and developed over time.\n\nEmployers place a great value on employees with persuasion skills because they can impact several aspects of job performance. Besides, teamwork and leadership rely heavily on the power of persuasion to get things done. Without persuasion skills, employees may not be as committed to or convinced of the importance of an organization's vision and long-term mission. Effective use of persuasion skills will not only help get your coworkers excited about your ideas, it'll also help you motivate them to achieve a common goal.\n\nIn order to learn the art of persuasion at the workplace, you need to understand how to handle conflicts and reach agreements. Good communication is the first step in effective persuasion, but logic and reasoning are just as important. Before you can get somebody on-board with your goal, you should help them understand why they should pursue it. Using visual aids to back up your ideas can help communicate your ideas better and make compelling arguments so your listeners will come to a logical choice and become fully committed to your ideas and plans.\n\nSuccessful persuasion skills are based on your ability to have positive interactions and maintain meaningful relationships with people. In order to sustain those relationships, you must be able to work in their best interests as well. Your coworkers are more likely to agree with you when they succeed alongside you. The more they achieve and the greater progress they make, the more they trust your judgement and strength.\n\nWe persuade and get persuaded every day—we're either convincing or being convinced. A vast majority of people prefer collaboration and teamwork over traditional organizational structures; no one likes to be told what to do or to be pushed around. Therefore, organizations and leaders should adopt powerful persuasion skills to bring about necessary changes.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They enable employees to be convinced of their long-term gains."
+        },
+        {
+          "id": "B",
+          "text": "They enable employees to trust their leaders unconditionally."
+        },
+        {
+          "id": "C",
+          "text": "They help motivate coworkers to strive for a common goal."
+        },
+        {
+          "id": "D",
+          "text": "They help an organization to broaden its vision effectively."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：They help motivate coworkers to strive for a common goal.\n关键词检索定位到第 2 段的候选相关句：Effective use of persuasion skills will not only help get your coworkers excited about your ideas, it'll also help you motivate them to achieve a common goal.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-06-3-nonlistening-q53",
+      "canonicalId": "lazynote-cet4-2024-06-3-q53",
+      "number": 53,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What should people do to learn the art of persuasion at the workplace?",
+      "passage": "The art of persuasion means convincing others to agree with your point of view or to follow your course of action. For some of us, persuasion is an instinctive quality and the power of influencing comes naturally. For the rest of us, persuasion skills can be learned and developed over time.\n\nEmployers place a great value on employees with persuasion skills because they can impact several aspects of job performance. Besides, teamwork and leadership rely heavily on the power of persuasion to get things done. Without persuasion skills, employees may not be as committed to or convinced of the importance of an organization's vision and long-term mission. Effective use of persuasion skills will not only help get your coworkers excited about your ideas, it'll also help you motivate them to achieve a common goal.\n\nIn order to learn the art of persuasion at the workplace, you need to understand how to handle conflicts and reach agreements. Good communication is the first step in effective persuasion, but logic and reasoning are just as important. Before you can get somebody on-board with your goal, you should help them understand why they should pursue it. Using visual aids to back up your ideas can help communicate your ideas better and make compelling arguments so your listeners will come to a logical choice and become fully committed to your ideas and plans.\n\nSuccessful persuasion skills are based on your ability to have positive interactions and maintain meaningful relationships with people. In order to sustain those relationships, you must be able to work in their best interests as well. Your coworkers are more likely to agree with you when they succeed alongside you. The more they achieve and the greater progress they make, the more they trust your judgement and strength.\n\nWe persuade and get persuaded every day—we're either convincing or being convinced. A vast majority of people prefer collaboration and teamwork over traditional organizational structures; no one likes to be told what to do or to be pushed around. Therefore, organizations and leaders should adopt powerful persuasion skills to bring about necessary changes.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Acquire effective communication skills."
+        },
+        {
+          "id": "B",
+          "text": "Avoid getting involved in conflicts with others."
+        },
+        {
+          "id": "C",
+          "text": "Understand the reason for pursuing their goals."
+        },
+        {
+          "id": "D",
+          "text": "Commit themselves fully to their ideas and plans."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：Acquire effective communication skills.\n关键词检索定位到第 3 段的候选相关句：In order to learn the art of persuasion at the workplace, you need to understand how to handle conflicts and reach agreements.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-06-3-nonlistening-q54",
+      "canonicalId": "lazynote-cet4-2024-06-3-q54",
+      "number": 54,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "When are you more likely to succeed in persuading your coworkers?",
+      "passage": "The art of persuasion means convincing others to agree with your point of view or to follow your course of action. For some of us, persuasion is an instinctive quality and the power of influencing comes naturally. For the rest of us, persuasion skills can be learned and developed over time.\n\nEmployers place a great value on employees with persuasion skills because they can impact several aspects of job performance. Besides, teamwork and leadership rely heavily on the power of persuasion to get things done. Without persuasion skills, employees may not be as committed to or convinced of the importance of an organization's vision and long-term mission. Effective use of persuasion skills will not only help get your coworkers excited about your ideas, it'll also help you motivate them to achieve a common goal.\n\nIn order to learn the art of persuasion at the workplace, you need to understand how to handle conflicts and reach agreements. Good communication is the first step in effective persuasion, but logic and reasoning are just as important. Before you can get somebody on-board with your goal, you should help them understand why they should pursue it. Using visual aids to back up your ideas can help communicate your ideas better and make compelling arguments so your listeners will come to a logical choice and become fully committed to your ideas and plans.\n\nSuccessful persuasion skills are based on your ability to have positive interactions and maintain meaningful relationships with people. In order to sustain those relationships, you must be able to work in their best interests as well. Your coworkers are more likely to agree with you when they succeed alongside you. The more they achieve and the greater progress they make, the more they trust your judgement and strength.\n\nWe persuade and get persuaded every day—we're either convincing or being convinced. A vast majority of people prefer collaboration and teamwork over traditional organizational structures; no one likes to be told what to do or to be pushed around. Therefore, organizations and leaders should adopt powerful persuasion skills to bring about necessary changes.",
+      "options": [
+        {
+          "id": "A",
+          "text": "When they are convinced you work in their interests while sacrificing your own"
+        },
+        {
+          "id": "B",
+          "text": "When they become aware of the potential strength of the judgements you make"
+        },
+        {
+          "id": "C",
+          "text": "When they become aware of the meaningful relationships you keep with them."
+        },
+        {
+          "id": "D",
+          "text": "When they are convinced they will make achievements together with you."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：When they are convinced they will make achievements together with you.\n关键词检索定位到第 4 段的候选相关句：Your coworkers are more likely to agree with you when they succeed alongside you.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-06-3-nonlistening-q55",
+      "canonicalId": "lazynote-cet4-2024-06-3-q55",
+      "number": 55,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "Why are organizations and leaders advised to adopt powerful persuasion skills to bring about necessary changes?",
+      "passage": "The art of persuasion means convincing others to agree with your point of view or to follow your course of action. For some of us, persuasion is an instinctive quality and the power of influencing comes naturally. For the rest of us, persuasion skills can be learned and developed over time.\n\nEmployers place a great value on employees with persuasion skills because they can impact several aspects of job performance. Besides, teamwork and leadership rely heavily on the power of persuasion to get things done. Without persuasion skills, employees may not be as committed to or convinced of the importance of an organization's vision and long-term mission. Effective use of persuasion skills will not only help get your coworkers excited about your ideas, it'll also help you motivate them to achieve a common goal.\n\nIn order to learn the art of persuasion at the workplace, you need to understand how to handle conflicts and reach agreements. Good communication is the first step in effective persuasion, but logic and reasoning are just as important. Before you can get somebody on-board with your goal, you should help them understand why they should pursue it. Using visual aids to back up your ideas can help communicate your ideas better and make compelling arguments so your listeners will come to a logical choice and become fully committed to your ideas and plans.\n\nSuccessful persuasion skills are based on your ability to have positive interactions and maintain meaningful relationships with people. In order to sustain those relationships, you must be able to work in their best interests as well. Your coworkers are more likely to agree with you when they succeed alongside you. The more they achieve and the greater progress they make, the more they trust your judgement and strength.\n\nWe persuade and get persuaded every day—we're either convincing or being convinced. A vast majority of people prefer collaboration and teamwork over traditional organizational structures; no one likes to be told what to do or to be pushed around. Therefore, organizations and leaders should adopt powerful persuasion skills to bring about necessary changes.",
+      "options": [
+        {
+          "id": "A",
+          "text": "To convince employees of the value of collaboration"
+        },
+        {
+          "id": "B",
+          "text": "To allow for the preferences of most people of today"
+        },
+        {
+          "id": "C",
+          "text": "To improve on traditional organizational structures"
+        },
+        {
+          "id": "D",
+          "text": "To adapt to employees' ever-changing working styles"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：To allow for the preferences of most people of today\n关键词检索定位到第 5 段的候选相关句：Therefore, organizations and leaders should adopt powerful persuasion skills to bring about necessary changes.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-06-3-nonlistening-translation",
+      "number": "IV",
+      "level": "CET4",
+      "type": "short_text_self_check",
+      "skill": "translation",
+      "section": "translation",
+      "prompt": "Directions : For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2.\n\n汉语中的 \"福\"字 (the character fu)表示幸福和好运,是中国传统文化中最常用的吉祥(auspicious) 符号之一。人们通常将一个大大的福字写在红纸上, 寓意期盼家庭幸福、社会安定、国家昌盛。春节贴福字是民间由来已久的习俗。为了欢庆春节, 家家户户都会将福字贴在门上或墙上, 表达对幸福生活的向往、对美好未来的期待。人们有时还将福字倒过来贴，表示幸福已到、好运已到。",
+      "options": [],
+      "correctAnswer": "The Chinese character fu represents happiness and good fortune and is one of the most commonly used auspicious symbols in traditional Chinese culture. People usually write a large fu on red paper to express their hopes for family happiness, social stability and national prosperity. Putting up the character during the Spring Festival is a long-established folk custom. To celebrate the festival, households paste it on their doors or walls, expressing their desire for a happy life and their expectations for a bright future. Sometimes the character is pasted upside down to indicate that happiness and good fortune have arrived.",
+      "referenceAnswer": "The Chinese character fu represents happiness and good fortune and is one of the most commonly used auspicious symbols in traditional Chinese culture. People usually write a large fu on red paper to express their hopes for family happiness, social stability and national prosperity. Putting up the character during the Spring Festival is a long-established folk custom. To celebrate the festival, households paste it on their doors or walls, expressing their desire for a happy life and their expectations for a bright future. Sometimes the character is pasted upside down to indicate that happiness and good fortune have arrived.",
+      "hint": "福字作为符号用the character fu；三种期盼与门/墙都保留。倒贴的含义应译为幸福、好运已经来到。",
+      "explanation": "以下为原创参考译文，其他准确表达同样可接受。①represents表达象征含义，one of the most commonly used后接复数symbols；题面给出的auspicious可直接复用。②express their hopes for后并列family happiness、social stability、national prosperity，不能只留下家庭幸福。③Putting up…作主语，is a long-established folk custom保留由来已久。④paste it on their doors or walls译贴在门或墙上；desire与expectations分别承接向往和期待。⑤is pasted upside down用被动，to indicate引出寓意，have arrived保留“已到”。准确翻译本题无需增加题外信息。",
+      "rubric": [
+        "练习自评总分15分：信息准确0–8＋语法0–5＋表达0–2；允许拆句、换同义词，不要求逐字匹配参考译文。",
+        "信息准确0–8分：逐项检查——幸福好运吉祥符号；大字红纸；家庭幸福社会安定国家昌盛；春节久俗；门或墙与生活未来；倒贴幸福好运已到。8分=全部关键信息正确；6–7分=少量次要细节遗漏；3–5分=多处遗漏/数字或关系误译；0–2分=核心人物、动作或逻辑严重错误。",
+        "语法0–5分：5分=时态、单复数、主谓一致、从句和介词基本正确；3–4分=少量错误仍易理解；1–2分=多处错误妨碍理解；0分=主要句子结构不可理解。",
+        "表达0–2分：2分=用词搭配自然、因果转折时间衔接清楚；1分=可理解但有中文式生硬表达；0分=词序/词义造成大面积理解困难。",
+        "修订操作：先在中文原题划出时间、数量、地点和连接词，再在自己的译文逐项找对应；为每处漏译或误译写一句修正。此分数是练习估计，不是官方阅卷或机器评分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-06-3-nonlistening"
+    }
+  ]
+}

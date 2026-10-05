@@ -1,0 +1,2149 @@
+{
+  "schemaVersion": 1,
+  "status": "verified_structured",
+  "source": {
+    "id": "cet4-2026-06-2-nonlistening",
+    "textCollection": "https://english-exam.lazynote.cn",
+    "textUrl": "https://english-exam.lazynote.cn/cet4/paper/2026-06-2/",
+    "textSha256": "0134e0fd2e58688e7e90383e976f2441758193689eeb3c42c10d898452bc5517",
+    "answerSources": [
+      {
+        "section": "part3-section-a",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2026-06-2/part3-section-a/",
+        "sha256": "fe0a1e42f42629665c3ba56783ca8ab7ec189176f9727d93b9a39d41522798af"
+      },
+      {
+        "section": "part3-section-b",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2026-06-2/part3-section-b/",
+        "sha256": "067ba7b2e756e40ab2577ee6bcceab09993aa012d82d32125cda169c536e3811"
+      },
+      {
+        "section": "part3-section-c-1",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2026-06-2/part3-section-c/",
+        "sha256": "70ce0653e7ec454dd0d0d3923f06a6c93c0e9349633b99400fc96ae621cbe755"
+      },
+      {
+        "section": "part3-section-c-2",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2026-06-2/part3-section-c-2/",
+        "sha256": "010d1624193c3a7c364e1c1ee3bd7504bca5f816be5f5a0d2bf3f944988c2802"
+      }
+    ],
+    "rightsUrl": "https://english-exam.lazynote.cn",
+    "rights": "Source footer attributes original papers to the National College English Test Committee. Original materials retain their respective rights; no blanket source license is asserted. Commercial explanatory prose is not copied.",
+    "sourceRightsNotice": "© 2026 懒笔记 · 蜀ICP备2024049450号-1 · 川公网安备51019002006323号 · 增值电信业务经营许可证：川B2-20240301 · 真题版权归全国硕士研究生招生考试 / 全国大学英语四六级考试委员会所有 · 隐私政策 · 用户协议",
+    "sourceTermsUrl": "https://english-exam.lazynote.cn/terms/",
+    "reviewedAt": "2026-10-03",
+    "answerStatus": "public_reference_structural_consistency_verified",
+    "explanations": "Project-generated contextual evidence notes. Close-reading locations are keyword-search candidates, not manually verified detailed explanations.",
+    "referenceEssays": "Project-authored full reference examples bound to the original prompts; not official model answers.",
+    "materialSources": [],
+    "corrections": [],
+    "previousReviewedAnswerSources": [],
+    "sourceEdition": "lazynote public original-paper arrangement; set numbering can differ from other collections.",
+    "independentlyConfirmedSharedSource": "",
+    "readingSourceCorrection": null,
+    "sectionSourceReplacement": null,
+    "independentAnswerChecks": [],
+    "sharedSectionSource": {}
+  },
+  "papers": [
+    {
+      "id": "cet4-2026-06-2-nonlistening",
+      "level": "CET4",
+      "year": 2026,
+      "month": 6,
+      "set": 2,
+      "title": "2026年6月英语四级第2套真题（不含听力）",
+      "authenticity": "past_exam",
+      "questionIds": [
+        "cet4-2026-06-2-nonlistening-writing",
+        "cet4-2026-06-2-nonlistening-q26",
+        "cet4-2026-06-2-nonlistening-q27",
+        "cet4-2026-06-2-nonlistening-q28",
+        "cet4-2026-06-2-nonlistening-q29",
+        "cet4-2026-06-2-nonlistening-q30",
+        "cet4-2026-06-2-nonlistening-q31",
+        "cet4-2026-06-2-nonlistening-q32",
+        "cet4-2026-06-2-nonlistening-q33",
+        "cet4-2026-06-2-nonlistening-q34",
+        "cet4-2026-06-2-nonlistening-q35",
+        "cet4-2026-06-2-nonlistening-q36",
+        "cet4-2026-06-2-nonlistening-q37",
+        "cet4-2026-06-2-nonlistening-q38",
+        "cet4-2026-06-2-nonlistening-q39",
+        "cet4-2026-06-2-nonlistening-q40",
+        "cet4-2026-06-2-nonlistening-q41",
+        "cet4-2026-06-2-nonlistening-q42",
+        "cet4-2026-06-2-nonlistening-q43",
+        "cet4-2026-06-2-nonlistening-q44",
+        "cet4-2026-06-2-nonlistening-q45",
+        "cet4-2026-06-2-nonlistening-q46",
+        "cet4-2026-06-2-nonlistening-q47",
+        "cet4-2026-06-2-nonlistening-q48",
+        "cet4-2026-06-2-nonlistening-q49",
+        "cet4-2026-06-2-nonlistening-q50",
+        "cet4-2026-06-2-nonlistening-q51",
+        "cet4-2026-06-2-nonlistening-q52",
+        "cet4-2026-06-2-nonlistening-q53",
+        "cet4-2026-06-2-nonlistening-q54",
+        "cet4-2026-06-2-nonlistening-q55",
+        "cet4-2026-06-2-nonlistening-translation"
+      ],
+      "durationSeconds": 6000,
+      "description": "写作1题、阅读30题、翻译1题，不含听力。客观题答案与题面、选项完成结构一致性核对。",
+      "sourceId": "cet4-2026-06-2-nonlistening",
+      "coverage": {
+        "fullPaper": false,
+        "fullNonListening": true,
+        "listeningExcluded": true,
+        "objectiveNumbers": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "objectiveCount": 30,
+        "subjectiveCount": 2,
+        "sections": [
+          "writing",
+          "reading_word_bank",
+          "reading_matching",
+          "reading_comprehension",
+          "translation"
+        ],
+        "sharedSectionSource": {},
+        "note": "写作1题、阅读30题、翻译1题，不含听力。",
+        "independentlyConfirmedSharedSource": "",
+        "readingSourceCorrection": null,
+        "sectionSourceReplacement": null,
+        "referenceStatus": "project_authored"
+      },
+      "resources": [
+        {
+          "id": "cet4-2026-06-2-nonlistening-source",
+          "type": "web",
+          "title": "原卷来源与题面核对",
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2026-06-2/"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cet4-2026-06-2-nonlistening-writing",
+      "number": "I",
+      "level": "CET4",
+      "type": "short_text_self_check",
+      "skill": "writing",
+      "section": "writing",
+      "prompt": "Directions: Suppose your university newspaper is inviting submissions from the students for its coming edition on future applications of robots on campus. You are now to write an essay for submission. You will have 30 minutes to write the essay. You should write at least 120 words but not more than 180 words.",
+      "options": [],
+      "correctAnswer": "Robots may play a useful role in future campus life if their applications address clear needs. Rather than introducing machines simply for novelty, universities should choose tasks where robots can provide reliable help.\n\nFor example, delivery robots could carry books or equipment between campus buildings. Cleaning robots might support staff in large public areas, while laboratory robots could help students observe precise experimental procedures. These uses would save time and create opportunities to learn about technology. However, machines must be tested carefully so that they do not block paths or create risks for pedestrians.\n\nUniversities should also explain how personal information is handled and provide human support when a robot fails. Students and staff could give feedback during small trials before wider use. Robots would be most valuable as well-managed tools within existing services. Their future on campus should depend on practical benefits, accessibility and safety rather than impressive demonstrations alone.",
+      "referenceAnswer": "Robots may play a useful role in future campus life if their applications address clear needs. Rather than introducing machines simply for novelty, universities should choose tasks where robots can provide reliable help.\n\nFor example, delivery robots could carry books or equipment between campus buildings. Cleaning robots might support staff in large public areas, while laboratory robots could help students observe precise experimental procedures. These uses would save time and create opportunities to learn about technology. However, machines must be tested carefully so that they do not block paths or create risks for pedestrians.\n\nUniversities should also explain how personal information is handled and provide human support when a robot fails. Students and staff could give feedback during small trials before wider use. Robots would be most valuable as well-managed tools within existing services. Their future on campus should depend on practical benefits, accessibility and safety rather than impressive demonstrations alone.",
+      "hint": "future applications要求未来校园场景；至少举两个机器人用途，并配道路安全、故障人工帮助或信息处理条件。",
+      "explanation": "以下为原创参考范文，作文没有唯一答案。第一段明确应用应解决真实需求；第二段配送、清洁、实验观察三种场景用could和might表达未来可能，同时提出行人安全；第三段小试点、反馈、信息处理与人工支援。precise experimental procedures是精确实验流程，pedestrians指行人，accessibility指不同使用者能否便利使用。不能把未来设想写成学校已大规模使用的事实。范文结尾用收益、可用性、安全评价方案，符合校报征文讨论的语气。\n\n练习方法：先用提示列三段提纲，在30分钟内独立写作，再按下方标准逐项打分；把失分最多的一段重写。参考范文约151词（缩写、连字符词按一词，含标题或书信称呼落款），满足120–180词要求；评分用于练习自检，不代表官方阅卷分数。",
+      "rubric": [
+        "练习自评总分15分：题目覆盖0–6＋结构0–4＋语言0–5，先独立写完再对照；观点不同于范文也可得满分，只要有合理支持。",
+        "题目覆盖0–6分：该题检查——future applications要求未来校园场景；至少举两个机器人用途，并配道路安全、故障人工帮助或信息处理条件。。6分=任务完整且有具体理由/活动/例证；4–5分=切题但细节偏薄；2–3分=遗漏主要任务；0–1分=基本离题。",
+        "结构0–4分：4分=开头明确任务、主体按逻辑展开、结尾回扣，段间自然；3分=顺序清楚但局部衔接生硬；1–2分=跳跃或机械罗列；0分=内容难以组织理解。",
+        "语言0–5分：5分=语法和用词基本准确、句型有变化；3–4分=少量错误但不影响理解；1–2分=反复出现时态、主谓一致或搭配错误并影响阅读；0分=多数句子不能理解。",
+        "格式与修订：按原题保持120–180词；新闻/书信/提案用对应体裁，明确要求的首句逐字保留。若超限、少写任务或缺必要格式，先修改再评分，不把字数达标当作内容满分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2026-06-2-nonlistening-q26",
+      "canonicalId": "lazynote-cet4-2026-06-2-q26",
+      "number": 26,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 26 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "It may sound surprising, but people who are supersensitive to coffee's bitter taste actually drink more of it, a new study finds.\n\nThis sensitivity isn't [26] ____ a matter of taste, either, but rather is influenced by a person's genetic makeup, the researchers said in the study.\n\n\"You'd expect that people who are particularly sensitive to the bitter taste of caffeine would drink less coffee,\" said study senior researcher Marilyn Cornelis. \"The [27] ____ results of our study suggest coffee consumers acquire a taste for or an ability to detect the bitterness of caffeine due to the learned positive [28] ____ brought out by caffeine.\"\n\nPut another way, people who have a [29] ____ ability to taste the bitterness of coffee learn to associate \"good things with it,\" Cornelis said. This finding is surprising, given that bitterness often serves as a warning mechanism to [30] ____ people to spit out harmful substances, the scientists said.\n\nResearchers conducted the study to understand how genetics influences people's [31] ____ of tea, coffee and alcohol which tend to taste bitter, said lead researcher Jue Sheng Ong.\n\n\"While all bitter flavors may seem the same, we [32] ____ the bitterness of Brussels sprouts(抱子甘蓝), quinine(奎宁) and caffeine [33] ____ ,\" Ong told Live Science. \"The degree to which we find these flavors bitter is, in part, determined by your genes.\"\n\nPeople with the genes to taste the bitterness of green vegetables are more likely to prefer tea to coffee. In [34] ____ , people who were more sensitive to quinine's bitter flavors and those found in green vegetables tended to [35] ____ coffee.",
+      "options": [
+        {
+          "id": "A",
+          "text": "addition"
+        },
+        {
+          "id": "B",
+          "text": "approximately"
+        },
+        {
+          "id": "C",
+          "text": "avoid"
+        },
+        {
+          "id": "D",
+          "text": "consumption"
+        },
+        {
+          "id": "E",
+          "text": "converted"
+        },
+        {
+          "id": "F",
+          "text": "convince"
+        },
+        {
+          "id": "G",
+          "text": "heightened"
+        },
+        {
+          "id": "H",
+          "text": "omission"
+        },
+        {
+          "id": "I",
+          "text": "opposite"
+        },
+        {
+          "id": "J",
+          "text": "perceive"
+        },
+        {
+          "id": "K",
+          "text": "prospect"
+        },
+        {
+          "id": "L",
+          "text": "reinforcement"
+        },
+        {
+          "id": "M",
+          "text": "separately"
+        },
+        {
+          "id": "N",
+          "text": "simply"
+        },
+        {
+          "id": "O",
+          "text": "targeted"
+        }
+      ],
+      "correctAnswer": "N",
+      "hint": "先看第 26 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 N（simply）。本空所在句：This sensitivity isn't [26] ____ a matter of taste, either, but rather is influenced by a person's genetic makeup, the researchers said in the study.\n将本空替换为 simply 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2026-06-2-nonlistening-q27",
+      "canonicalId": "lazynote-cet4-2026-06-2-q27",
+      "number": 27,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 27 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "It may sound surprising, but people who are supersensitive to coffee's bitter taste actually drink more of it, a new study finds.\n\nThis sensitivity isn't [26] ____ a matter of taste, either, but rather is influenced by a person's genetic makeup, the researchers said in the study.\n\n\"You'd expect that people who are particularly sensitive to the bitter taste of caffeine would drink less coffee,\" said study senior researcher Marilyn Cornelis. \"The [27] ____ results of our study suggest coffee consumers acquire a taste for or an ability to detect the bitterness of caffeine due to the learned positive [28] ____ brought out by caffeine.\"\n\nPut another way, people who have a [29] ____ ability to taste the bitterness of coffee learn to associate \"good things with it,\" Cornelis said. This finding is surprising, given that bitterness often serves as a warning mechanism to [30] ____ people to spit out harmful substances, the scientists said.\n\nResearchers conducted the study to understand how genetics influences people's [31] ____ of tea, coffee and alcohol which tend to taste bitter, said lead researcher Jue Sheng Ong.\n\n\"While all bitter flavors may seem the same, we [32] ____ the bitterness of Brussels sprouts(抱子甘蓝), quinine(奎宁) and caffeine [33] ____ ,\" Ong told Live Science. \"The degree to which we find these flavors bitter is, in part, determined by your genes.\"\n\nPeople with the genes to taste the bitterness of green vegetables are more likely to prefer tea to coffee. In [34] ____ , people who were more sensitive to quinine's bitter flavors and those found in green vegetables tended to [35] ____ coffee.",
+      "options": [
+        {
+          "id": "A",
+          "text": "addition"
+        },
+        {
+          "id": "B",
+          "text": "approximately"
+        },
+        {
+          "id": "C",
+          "text": "avoid"
+        },
+        {
+          "id": "D",
+          "text": "consumption"
+        },
+        {
+          "id": "E",
+          "text": "converted"
+        },
+        {
+          "id": "F",
+          "text": "convince"
+        },
+        {
+          "id": "G",
+          "text": "heightened"
+        },
+        {
+          "id": "H",
+          "text": "omission"
+        },
+        {
+          "id": "I",
+          "text": "opposite"
+        },
+        {
+          "id": "J",
+          "text": "perceive"
+        },
+        {
+          "id": "K",
+          "text": "prospect"
+        },
+        {
+          "id": "L",
+          "text": "reinforcement"
+        },
+        {
+          "id": "M",
+          "text": "separately"
+        },
+        {
+          "id": "N",
+          "text": "simply"
+        },
+        {
+          "id": "O",
+          "text": "targeted"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "先看第 27 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 I（opposite）。本空所在句：\"The [27] ____ results of our study suggest coffee consumers acquire a taste for or an ability to detect the bitterness of caffeine due to the learned positive [28] ____ brought out by caffeine.\"\n将本空替换为 opposite 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2026-06-2-nonlistening-q28",
+      "canonicalId": "lazynote-cet4-2026-06-2-q28",
+      "number": 28,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 28 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "It may sound surprising, but people who are supersensitive to coffee's bitter taste actually drink more of it, a new study finds.\n\nThis sensitivity isn't [26] ____ a matter of taste, either, but rather is influenced by a person's genetic makeup, the researchers said in the study.\n\n\"You'd expect that people who are particularly sensitive to the bitter taste of caffeine would drink less coffee,\" said study senior researcher Marilyn Cornelis. \"The [27] ____ results of our study suggest coffee consumers acquire a taste for or an ability to detect the bitterness of caffeine due to the learned positive [28] ____ brought out by caffeine.\"\n\nPut another way, people who have a [29] ____ ability to taste the bitterness of coffee learn to associate \"good things with it,\" Cornelis said. This finding is surprising, given that bitterness often serves as a warning mechanism to [30] ____ people to spit out harmful substances, the scientists said.\n\nResearchers conducted the study to understand how genetics influences people's [31] ____ of tea, coffee and alcohol which tend to taste bitter, said lead researcher Jue Sheng Ong.\n\n\"While all bitter flavors may seem the same, we [32] ____ the bitterness of Brussels sprouts(抱子甘蓝), quinine(奎宁) and caffeine [33] ____ ,\" Ong told Live Science. \"The degree to which we find these flavors bitter is, in part, determined by your genes.\"\n\nPeople with the genes to taste the bitterness of green vegetables are more likely to prefer tea to coffee. In [34] ____ , people who were more sensitive to quinine's bitter flavors and those found in green vegetables tended to [35] ____ coffee.",
+      "options": [
+        {
+          "id": "A",
+          "text": "addition"
+        },
+        {
+          "id": "B",
+          "text": "approximately"
+        },
+        {
+          "id": "C",
+          "text": "avoid"
+        },
+        {
+          "id": "D",
+          "text": "consumption"
+        },
+        {
+          "id": "E",
+          "text": "converted"
+        },
+        {
+          "id": "F",
+          "text": "convince"
+        },
+        {
+          "id": "G",
+          "text": "heightened"
+        },
+        {
+          "id": "H",
+          "text": "omission"
+        },
+        {
+          "id": "I",
+          "text": "opposite"
+        },
+        {
+          "id": "J",
+          "text": "perceive"
+        },
+        {
+          "id": "K",
+          "text": "prospect"
+        },
+        {
+          "id": "L",
+          "text": "reinforcement"
+        },
+        {
+          "id": "M",
+          "text": "separately"
+        },
+        {
+          "id": "N",
+          "text": "simply"
+        },
+        {
+          "id": "O",
+          "text": "targeted"
+        }
+      ],
+      "correctAnswer": "L",
+      "hint": "先看第 28 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 L（reinforcement）。本空所在句：\"The [27] ____ results of our study suggest coffee consumers acquire a taste for or an ability to detect the bitterness of caffeine due to the learned positive [28] ____ brought out by caffeine.\"\n将本空替换为 reinforcement 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2026-06-2-nonlistening-q29",
+      "canonicalId": "lazynote-cet4-2026-06-2-q29",
+      "number": 29,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 29 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "It may sound surprising, but people who are supersensitive to coffee's bitter taste actually drink more of it, a new study finds.\n\nThis sensitivity isn't [26] ____ a matter of taste, either, but rather is influenced by a person's genetic makeup, the researchers said in the study.\n\n\"You'd expect that people who are particularly sensitive to the bitter taste of caffeine would drink less coffee,\" said study senior researcher Marilyn Cornelis. \"The [27] ____ results of our study suggest coffee consumers acquire a taste for or an ability to detect the bitterness of caffeine due to the learned positive [28] ____ brought out by caffeine.\"\n\nPut another way, people who have a [29] ____ ability to taste the bitterness of coffee learn to associate \"good things with it,\" Cornelis said. This finding is surprising, given that bitterness often serves as a warning mechanism to [30] ____ people to spit out harmful substances, the scientists said.\n\nResearchers conducted the study to understand how genetics influences people's [31] ____ of tea, coffee and alcohol which tend to taste bitter, said lead researcher Jue Sheng Ong.\n\n\"While all bitter flavors may seem the same, we [32] ____ the bitterness of Brussels sprouts(抱子甘蓝), quinine(奎宁) and caffeine [33] ____ ,\" Ong told Live Science. \"The degree to which we find these flavors bitter is, in part, determined by your genes.\"\n\nPeople with the genes to taste the bitterness of green vegetables are more likely to prefer tea to coffee. In [34] ____ , people who were more sensitive to quinine's bitter flavors and those found in green vegetables tended to [35] ____ coffee.",
+      "options": [
+        {
+          "id": "A",
+          "text": "addition"
+        },
+        {
+          "id": "B",
+          "text": "approximately"
+        },
+        {
+          "id": "C",
+          "text": "avoid"
+        },
+        {
+          "id": "D",
+          "text": "consumption"
+        },
+        {
+          "id": "E",
+          "text": "converted"
+        },
+        {
+          "id": "F",
+          "text": "convince"
+        },
+        {
+          "id": "G",
+          "text": "heightened"
+        },
+        {
+          "id": "H",
+          "text": "omission"
+        },
+        {
+          "id": "I",
+          "text": "opposite"
+        },
+        {
+          "id": "J",
+          "text": "perceive"
+        },
+        {
+          "id": "K",
+          "text": "prospect"
+        },
+        {
+          "id": "L",
+          "text": "reinforcement"
+        },
+        {
+          "id": "M",
+          "text": "separately"
+        },
+        {
+          "id": "N",
+          "text": "simply"
+        },
+        {
+          "id": "O",
+          "text": "targeted"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "先看第 29 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 G（heightened）。本空所在句：Put another way, people who have a [29] ____ ability to taste the bitterness of coffee learn to associate \"good things with it,\" Cornelis said.\n将本空替换为 heightened 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2026-06-2-nonlistening-q30",
+      "canonicalId": "lazynote-cet4-2026-06-2-q30",
+      "number": 30,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 30 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "It may sound surprising, but people who are supersensitive to coffee's bitter taste actually drink more of it, a new study finds.\n\nThis sensitivity isn't [26] ____ a matter of taste, either, but rather is influenced by a person's genetic makeup, the researchers said in the study.\n\n\"You'd expect that people who are particularly sensitive to the bitter taste of caffeine would drink less coffee,\" said study senior researcher Marilyn Cornelis. \"The [27] ____ results of our study suggest coffee consumers acquire a taste for or an ability to detect the bitterness of caffeine due to the learned positive [28] ____ brought out by caffeine.\"\n\nPut another way, people who have a [29] ____ ability to taste the bitterness of coffee learn to associate \"good things with it,\" Cornelis said. This finding is surprising, given that bitterness often serves as a warning mechanism to [30] ____ people to spit out harmful substances, the scientists said.\n\nResearchers conducted the study to understand how genetics influences people's [31] ____ of tea, coffee and alcohol which tend to taste bitter, said lead researcher Jue Sheng Ong.\n\n\"While all bitter flavors may seem the same, we [32] ____ the bitterness of Brussels sprouts(抱子甘蓝), quinine(奎宁) and caffeine [33] ____ ,\" Ong told Live Science. \"The degree to which we find these flavors bitter is, in part, determined by your genes.\"\n\nPeople with the genes to taste the bitterness of green vegetables are more likely to prefer tea to coffee. In [34] ____ , people who were more sensitive to quinine's bitter flavors and those found in green vegetables tended to [35] ____ coffee.",
+      "options": [
+        {
+          "id": "A",
+          "text": "addition"
+        },
+        {
+          "id": "B",
+          "text": "approximately"
+        },
+        {
+          "id": "C",
+          "text": "avoid"
+        },
+        {
+          "id": "D",
+          "text": "consumption"
+        },
+        {
+          "id": "E",
+          "text": "converted"
+        },
+        {
+          "id": "F",
+          "text": "convince"
+        },
+        {
+          "id": "G",
+          "text": "heightened"
+        },
+        {
+          "id": "H",
+          "text": "omission"
+        },
+        {
+          "id": "I",
+          "text": "opposite"
+        },
+        {
+          "id": "J",
+          "text": "perceive"
+        },
+        {
+          "id": "K",
+          "text": "prospect"
+        },
+        {
+          "id": "L",
+          "text": "reinforcement"
+        },
+        {
+          "id": "M",
+          "text": "separately"
+        },
+        {
+          "id": "N",
+          "text": "simply"
+        },
+        {
+          "id": "O",
+          "text": "targeted"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "先看第 30 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 F（convince）。本空所在句：This finding is surprising, given that bitterness often serves as a warning mechanism to [30] ____ people to spit out harmful substances, the scientists said.\n将本空替换为 convince 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2026-06-2-nonlistening-q31",
+      "canonicalId": "lazynote-cet4-2026-06-2-q31",
+      "number": 31,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 31 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "It may sound surprising, but people who are supersensitive to coffee's bitter taste actually drink more of it, a new study finds.\n\nThis sensitivity isn't [26] ____ a matter of taste, either, but rather is influenced by a person's genetic makeup, the researchers said in the study.\n\n\"You'd expect that people who are particularly sensitive to the bitter taste of caffeine would drink less coffee,\" said study senior researcher Marilyn Cornelis. \"The [27] ____ results of our study suggest coffee consumers acquire a taste for or an ability to detect the bitterness of caffeine due to the learned positive [28] ____ brought out by caffeine.\"\n\nPut another way, people who have a [29] ____ ability to taste the bitterness of coffee learn to associate \"good things with it,\" Cornelis said. This finding is surprising, given that bitterness often serves as a warning mechanism to [30] ____ people to spit out harmful substances, the scientists said.\n\nResearchers conducted the study to understand how genetics influences people's [31] ____ of tea, coffee and alcohol which tend to taste bitter, said lead researcher Jue Sheng Ong.\n\n\"While all bitter flavors may seem the same, we [32] ____ the bitterness of Brussels sprouts(抱子甘蓝), quinine(奎宁) and caffeine [33] ____ ,\" Ong told Live Science. \"The degree to which we find these flavors bitter is, in part, determined by your genes.\"\n\nPeople with the genes to taste the bitterness of green vegetables are more likely to prefer tea to coffee. In [34] ____ , people who were more sensitive to quinine's bitter flavors and those found in green vegetables tended to [35] ____ coffee.",
+      "options": [
+        {
+          "id": "A",
+          "text": "addition"
+        },
+        {
+          "id": "B",
+          "text": "approximately"
+        },
+        {
+          "id": "C",
+          "text": "avoid"
+        },
+        {
+          "id": "D",
+          "text": "consumption"
+        },
+        {
+          "id": "E",
+          "text": "converted"
+        },
+        {
+          "id": "F",
+          "text": "convince"
+        },
+        {
+          "id": "G",
+          "text": "heightened"
+        },
+        {
+          "id": "H",
+          "text": "omission"
+        },
+        {
+          "id": "I",
+          "text": "opposite"
+        },
+        {
+          "id": "J",
+          "text": "perceive"
+        },
+        {
+          "id": "K",
+          "text": "prospect"
+        },
+        {
+          "id": "L",
+          "text": "reinforcement"
+        },
+        {
+          "id": "M",
+          "text": "separately"
+        },
+        {
+          "id": "N",
+          "text": "simply"
+        },
+        {
+          "id": "O",
+          "text": "targeted"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "先看第 31 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 D（consumption）。本空所在句：Researchers conducted the study to understand how genetics influences people's [31] ____ of tea, coffee and alcohol which tend to taste bitter, said lead researcher Jue Sheng Ong.\n将本空替换为 consumption 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2026-06-2-nonlistening-q32",
+      "canonicalId": "lazynote-cet4-2026-06-2-q32",
+      "number": 32,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 32 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "It may sound surprising, but people who are supersensitive to coffee's bitter taste actually drink more of it, a new study finds.\n\nThis sensitivity isn't [26] ____ a matter of taste, either, but rather is influenced by a person's genetic makeup, the researchers said in the study.\n\n\"You'd expect that people who are particularly sensitive to the bitter taste of caffeine would drink less coffee,\" said study senior researcher Marilyn Cornelis. \"The [27] ____ results of our study suggest coffee consumers acquire a taste for or an ability to detect the bitterness of caffeine due to the learned positive [28] ____ brought out by caffeine.\"\n\nPut another way, people who have a [29] ____ ability to taste the bitterness of coffee learn to associate \"good things with it,\" Cornelis said. This finding is surprising, given that bitterness often serves as a warning mechanism to [30] ____ people to spit out harmful substances, the scientists said.\n\nResearchers conducted the study to understand how genetics influences people's [31] ____ of tea, coffee and alcohol which tend to taste bitter, said lead researcher Jue Sheng Ong.\n\n\"While all bitter flavors may seem the same, we [32] ____ the bitterness of Brussels sprouts(抱子甘蓝), quinine(奎宁) and caffeine [33] ____ ,\" Ong told Live Science. \"The degree to which we find these flavors bitter is, in part, determined by your genes.\"\n\nPeople with the genes to taste the bitterness of green vegetables are more likely to prefer tea to coffee. In [34] ____ , people who were more sensitive to quinine's bitter flavors and those found in green vegetables tended to [35] ____ coffee.",
+      "options": [
+        {
+          "id": "A",
+          "text": "addition"
+        },
+        {
+          "id": "B",
+          "text": "approximately"
+        },
+        {
+          "id": "C",
+          "text": "avoid"
+        },
+        {
+          "id": "D",
+          "text": "consumption"
+        },
+        {
+          "id": "E",
+          "text": "converted"
+        },
+        {
+          "id": "F",
+          "text": "convince"
+        },
+        {
+          "id": "G",
+          "text": "heightened"
+        },
+        {
+          "id": "H",
+          "text": "omission"
+        },
+        {
+          "id": "I",
+          "text": "opposite"
+        },
+        {
+          "id": "J",
+          "text": "perceive"
+        },
+        {
+          "id": "K",
+          "text": "prospect"
+        },
+        {
+          "id": "L",
+          "text": "reinforcement"
+        },
+        {
+          "id": "M",
+          "text": "separately"
+        },
+        {
+          "id": "N",
+          "text": "simply"
+        },
+        {
+          "id": "O",
+          "text": "targeted"
+        }
+      ],
+      "correctAnswer": "J",
+      "hint": "先看第 32 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 J（perceive）。本空所在句：\"While all bitter flavors may seem the same, we [32] ____ the bitterness of Brussels sprouts(抱子甘蓝), quinine(奎宁) and caffeine [33] ____ ,\" Ong told Live Science.\n将本空替换为 perceive 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2026-06-2-nonlistening-q33",
+      "canonicalId": "lazynote-cet4-2026-06-2-q33",
+      "number": 33,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 33 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "It may sound surprising, but people who are supersensitive to coffee's bitter taste actually drink more of it, a new study finds.\n\nThis sensitivity isn't [26] ____ a matter of taste, either, but rather is influenced by a person's genetic makeup, the researchers said in the study.\n\n\"You'd expect that people who are particularly sensitive to the bitter taste of caffeine would drink less coffee,\" said study senior researcher Marilyn Cornelis. \"The [27] ____ results of our study suggest coffee consumers acquire a taste for or an ability to detect the bitterness of caffeine due to the learned positive [28] ____ brought out by caffeine.\"\n\nPut another way, people who have a [29] ____ ability to taste the bitterness of coffee learn to associate \"good things with it,\" Cornelis said. This finding is surprising, given that bitterness often serves as a warning mechanism to [30] ____ people to spit out harmful substances, the scientists said.\n\nResearchers conducted the study to understand how genetics influences people's [31] ____ of tea, coffee and alcohol which tend to taste bitter, said lead researcher Jue Sheng Ong.\n\n\"While all bitter flavors may seem the same, we [32] ____ the bitterness of Brussels sprouts(抱子甘蓝), quinine(奎宁) and caffeine [33] ____ ,\" Ong told Live Science. \"The degree to which we find these flavors bitter is, in part, determined by your genes.\"\n\nPeople with the genes to taste the bitterness of green vegetables are more likely to prefer tea to coffee. In [34] ____ , people who were more sensitive to quinine's bitter flavors and those found in green vegetables tended to [35] ____ coffee.",
+      "options": [
+        {
+          "id": "A",
+          "text": "addition"
+        },
+        {
+          "id": "B",
+          "text": "approximately"
+        },
+        {
+          "id": "C",
+          "text": "avoid"
+        },
+        {
+          "id": "D",
+          "text": "consumption"
+        },
+        {
+          "id": "E",
+          "text": "converted"
+        },
+        {
+          "id": "F",
+          "text": "convince"
+        },
+        {
+          "id": "G",
+          "text": "heightened"
+        },
+        {
+          "id": "H",
+          "text": "omission"
+        },
+        {
+          "id": "I",
+          "text": "opposite"
+        },
+        {
+          "id": "J",
+          "text": "perceive"
+        },
+        {
+          "id": "K",
+          "text": "prospect"
+        },
+        {
+          "id": "L",
+          "text": "reinforcement"
+        },
+        {
+          "id": "M",
+          "text": "separately"
+        },
+        {
+          "id": "N",
+          "text": "simply"
+        },
+        {
+          "id": "O",
+          "text": "targeted"
+        }
+      ],
+      "correctAnswer": "M",
+      "hint": "先看第 33 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 M（separately）。本空所在句：\"While all bitter flavors may seem the same, we [32] ____ the bitterness of Brussels sprouts(抱子甘蓝), quinine(奎宁) and caffeine [33] ____ ,\" Ong told Live Science.\n将本空替换为 separately 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2026-06-2-nonlistening-q34",
+      "canonicalId": "lazynote-cet4-2026-06-2-q34",
+      "number": 34,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 34 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "It may sound surprising, but people who are supersensitive to coffee's bitter taste actually drink more of it, a new study finds.\n\nThis sensitivity isn't [26] ____ a matter of taste, either, but rather is influenced by a person's genetic makeup, the researchers said in the study.\n\n\"You'd expect that people who are particularly sensitive to the bitter taste of caffeine would drink less coffee,\" said study senior researcher Marilyn Cornelis. \"The [27] ____ results of our study suggest coffee consumers acquire a taste for or an ability to detect the bitterness of caffeine due to the learned positive [28] ____ brought out by caffeine.\"\n\nPut another way, people who have a [29] ____ ability to taste the bitterness of coffee learn to associate \"good things with it,\" Cornelis said. This finding is surprising, given that bitterness often serves as a warning mechanism to [30] ____ people to spit out harmful substances, the scientists said.\n\nResearchers conducted the study to understand how genetics influences people's [31] ____ of tea, coffee and alcohol which tend to taste bitter, said lead researcher Jue Sheng Ong.\n\n\"While all bitter flavors may seem the same, we [32] ____ the bitterness of Brussels sprouts(抱子甘蓝), quinine(奎宁) and caffeine [33] ____ ,\" Ong told Live Science. \"The degree to which we find these flavors bitter is, in part, determined by your genes.\"\n\nPeople with the genes to taste the bitterness of green vegetables are more likely to prefer tea to coffee. In [34] ____ , people who were more sensitive to quinine's bitter flavors and those found in green vegetables tended to [35] ____ coffee.",
+      "options": [
+        {
+          "id": "A",
+          "text": "addition"
+        },
+        {
+          "id": "B",
+          "text": "approximately"
+        },
+        {
+          "id": "C",
+          "text": "avoid"
+        },
+        {
+          "id": "D",
+          "text": "consumption"
+        },
+        {
+          "id": "E",
+          "text": "converted"
+        },
+        {
+          "id": "F",
+          "text": "convince"
+        },
+        {
+          "id": "G",
+          "text": "heightened"
+        },
+        {
+          "id": "H",
+          "text": "omission"
+        },
+        {
+          "id": "I",
+          "text": "opposite"
+        },
+        {
+          "id": "J",
+          "text": "perceive"
+        },
+        {
+          "id": "K",
+          "text": "prospect"
+        },
+        {
+          "id": "L",
+          "text": "reinforcement"
+        },
+        {
+          "id": "M",
+          "text": "separately"
+        },
+        {
+          "id": "N",
+          "text": "simply"
+        },
+        {
+          "id": "O",
+          "text": "targeted"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "先看第 34 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 A（addition）。本空所在句：In [34] ____ , people who were more sensitive to quinine's bitter flavors and those found in green vegetables tended to [35] ____ coffee.\n将本空替换为 addition 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2026-06-2-nonlistening-q35",
+      "canonicalId": "lazynote-cet4-2026-06-2-q35",
+      "number": 35,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 35 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "It may sound surprising, but people who are supersensitive to coffee's bitter taste actually drink more of it, a new study finds.\n\nThis sensitivity isn't [26] ____ a matter of taste, either, but rather is influenced by a person's genetic makeup, the researchers said in the study.\n\n\"You'd expect that people who are particularly sensitive to the bitter taste of caffeine would drink less coffee,\" said study senior researcher Marilyn Cornelis. \"The [27] ____ results of our study suggest coffee consumers acquire a taste for or an ability to detect the bitterness of caffeine due to the learned positive [28] ____ brought out by caffeine.\"\n\nPut another way, people who have a [29] ____ ability to taste the bitterness of coffee learn to associate \"good things with it,\" Cornelis said. This finding is surprising, given that bitterness often serves as a warning mechanism to [30] ____ people to spit out harmful substances, the scientists said.\n\nResearchers conducted the study to understand how genetics influences people's [31] ____ of tea, coffee and alcohol which tend to taste bitter, said lead researcher Jue Sheng Ong.\n\n\"While all bitter flavors may seem the same, we [32] ____ the bitterness of Brussels sprouts(抱子甘蓝), quinine(奎宁) and caffeine [33] ____ ,\" Ong told Live Science. \"The degree to which we find these flavors bitter is, in part, determined by your genes.\"\n\nPeople with the genes to taste the bitterness of green vegetables are more likely to prefer tea to coffee. In [34] ____ , people who were more sensitive to quinine's bitter flavors and those found in green vegetables tended to [35] ____ coffee.",
+      "options": [
+        {
+          "id": "A",
+          "text": "addition"
+        },
+        {
+          "id": "B",
+          "text": "approximately"
+        },
+        {
+          "id": "C",
+          "text": "avoid"
+        },
+        {
+          "id": "D",
+          "text": "consumption"
+        },
+        {
+          "id": "E",
+          "text": "converted"
+        },
+        {
+          "id": "F",
+          "text": "convince"
+        },
+        {
+          "id": "G",
+          "text": "heightened"
+        },
+        {
+          "id": "H",
+          "text": "omission"
+        },
+        {
+          "id": "I",
+          "text": "opposite"
+        },
+        {
+          "id": "J",
+          "text": "perceive"
+        },
+        {
+          "id": "K",
+          "text": "prospect"
+        },
+        {
+          "id": "L",
+          "text": "reinforcement"
+        },
+        {
+          "id": "M",
+          "text": "separately"
+        },
+        {
+          "id": "N",
+          "text": "simply"
+        },
+        {
+          "id": "O",
+          "text": "targeted"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "先看第 35 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 C（avoid）。本空所在句：In [34] ____ , people who were more sensitive to quinine's bitter flavors and those found in green vegetables tended to [35] ____ coffee.\n将本空替换为 avoid 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2026-06-2-nonlistening-q36",
+      "canonicalId": "lazynote-cet4-2026-06-2-q36",
+      "number": 36,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "It is typical for dementia to worsen with the passage of time.",
+      "passage": "Exercise and Dementia\n\nA) If this doesn't encourage you to squeeze in a workout today, nothing will: a new study from Sweden shows that women who were highly fit in mid-life were nearly 90% less likely to get dementia(失智) decades later.\n\nB) After initial exercise tests in middle age, researchers followed the women for 44 years. Both groups lived just as long, but those who could ride an exercise bike at a fast rate for 6 minutes in the initial test had a much lower risk of dementia later on than those who couldn't complete the workout.\n\nC) The study, published Wednesday in the journal Neurology, couldn't prove that exercise prevented dementia, and the findings aren't a surprise—it's long been known there's a correlation between exercise and decreased dementia risk—but the results were particularly dramatic. About 5% of the women with the highest peak workload—those who were able to bike the hardest over those 6 minutes—developed dementia, compared to 25% of those with medium fitness and 45% who weren't fit enough to finish the test, the study found. Overall, women who were highly fit compared to those who were moderately fit decreased their risk of dementia by 88%. The few highly fit women who did develop dementia became symptomatic at age 90 on average, 11 years later than the moderately fit.\n\nD) \"I'm very surprised that the finding was so strong,\" said Ingmar Skoog, the paper's senior author and a psychiatry(精神病学) professor at The University of Gothenburg in Sweden. \"It really shows the importance of exercise.\"\n\nE) Dementia, as defined in medical dictionaries, is a broad term that describes a loss of thinking ability, memory, attention, logical reasoning, and other mental abilities. These changes are severe enough to interfere with social or occupational functioning. Dementia isn't a disease. Instead, it's a group of symptoms caused by other conditions. It happens when the parts of your brain used for learning, memory, decision making, and language are damaged or diseased. About 5%-8% of adults over age 65 have some form of dementia. This percentage doubles every 5 years after 65. As many as half of people in their 80s have some form of dementia.\n\nF) Dementia is not temporary confusion or forgetfulness that might result from an infection that heals without treatment. It can also come from an underlying(潜在的) illness or side effects of medications. Dementia typically gets worse over time. People with dementia have problems with thinking and remembering that affect their ability to manage their daily life.\n\nG) Dementia is typically associated with declines in cognitive function. Yet researchers have found an association between dementia and declines in hearing and other basic sensory functions.\n\nH) Though the study mentioned above was fairly small (only 191 women took the initial fitness test, which means it's hard to maintain statistical significance while breaking the group down into sub-categories of more or less fit), it does give us hope that dementia can be prevented or delayed through exercise in one's middle age.\n\nI) Alzheimer's(阿尔茨海默症) and other dementias are believed to begin 15-20 years before symptoms even appear, so it makes sense that exercising in mid-life would affect the risk, Skoog said. Exercise alone is not likely to prevent Alzheimer's, but the study shows people are not helpless in the face of one of the most feared, costliest and common diseases of old age, he added. And the same activities that help prevent Alzheimer's—including avoiding smoking, getting adequate exercise and sleep and eating a healthy diet—also prevent heart disease, he said, making them even more worthwhile. \"You can do something yourself to decrease your odds,\" Skoog said.\n\nJ) Maintaining a healthy lifestyle in mid-life, decades before disease sets in, makes sense, said David Knopman, a fellow of the American Academy of Neurology, who was not involved in the study. \"I suspect it's a dose,\" said Knopman, also associate director of the Alzheimer's Disease Research Center at Mayo Clinic in Rochester, Minnesota. \"Starting in late life is better than not starting at all, but starting in mid-life seems to offer a larger benefit.\"\n\nK) Although it is not entirely clear why exercise helps put off or prevent Alzheimer's, Knopman said it's likely that exercise maintains good blood flow to the brain. \"When the brain is healthier from a vascular(血管的) point of view, it can absorb more Alzheimer's pathogen(病原体) before people become symptomatic,\" he said.\n\nL) The message isn't that everyone needs to run marathons in middle age, Knopman said, but a healthy lifestyle pays off.\n\nM) This type of study can't say exactly what kind of exercise is best, or how much is needed—only a study that has a placebo(安慰剂) group and tracks people going forward can do that, said Keith Fargo, director of scientific programs and outreach at the non-profit Alzheimer's Association. \"The literature has not yet settled on an amount or type of exercise that is going to be key, although the bulk of literature has suggested that aerobic(有氧的) exercise is what you need to be doing,\" he said. That doesn't mean you have to compete in marathons but \"more than a 10-min dog walk\" would be a good idea, Fargo said.\n\nN) Several lifestyle studies are getting underway soon, including one backed by the Alzheimer's Association called the US POINTER study, which will offer at-risk adults, ages 60-79, a series of lifestyle interventions(干预) to see if they impact Alzheimer's risk. That and other Alzheimer's-related studies are always looking for volunteers to participate, he said.\n\nO) In the next three to five years, these studies should allow researchers to provide clearer recommendations for exercise and other lifestyle modifications that might reduce Alzheimer's risk, such as sleep, diet and social activities, Fargo said. But it's already quite clear that exercising at any point in life is better for your brain than not exercising at all, Fargo added.\n\nP) \"If you don't want to have dementia when you're 80, the time to start getting fit is now,\" he said. \"It may not necessarily give you a longer life, but there's a compelling body of work that it will give you more good years.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 F 段。题干：It is typical for dementia to worsen with the passage of time.\n核对该段原文：Dementia is not temporary confusion or forgetfulness that might result from an infection that heals without treatment. It can also come from an underlying(潜在的) illness or side effects of medications. Dementia typically gets worse over time. People with dementia have problems with thinking and remembering that affect their ability to manage their daily life.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2026-06-2-nonlistening-q37",
+      "canonicalId": "lazynote-cet4-2026-06-2-q37",
+      "number": 37,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "According to Knopman, the study gives the message that a healthy lifestyle is beneficial, but not that all the middle-aged need heavy exercise.",
+      "passage": "Exercise and Dementia\n\nA) If this doesn't encourage you to squeeze in a workout today, nothing will: a new study from Sweden shows that women who were highly fit in mid-life were nearly 90% less likely to get dementia(失智) decades later.\n\nB) After initial exercise tests in middle age, researchers followed the women for 44 years. Both groups lived just as long, but those who could ride an exercise bike at a fast rate for 6 minutes in the initial test had a much lower risk of dementia later on than those who couldn't complete the workout.\n\nC) The study, published Wednesday in the journal Neurology, couldn't prove that exercise prevented dementia, and the findings aren't a surprise—it's long been known there's a correlation between exercise and decreased dementia risk—but the results were particularly dramatic. About 5% of the women with the highest peak workload—those who were able to bike the hardest over those 6 minutes—developed dementia, compared to 25% of those with medium fitness and 45% who weren't fit enough to finish the test, the study found. Overall, women who were highly fit compared to those who were moderately fit decreased their risk of dementia by 88%. The few highly fit women who did develop dementia became symptomatic at age 90 on average, 11 years later than the moderately fit.\n\nD) \"I'm very surprised that the finding was so strong,\" said Ingmar Skoog, the paper's senior author and a psychiatry(精神病学) professor at The University of Gothenburg in Sweden. \"It really shows the importance of exercise.\"\n\nE) Dementia, as defined in medical dictionaries, is a broad term that describes a loss of thinking ability, memory, attention, logical reasoning, and other mental abilities. These changes are severe enough to interfere with social or occupational functioning. Dementia isn't a disease. Instead, it's a group of symptoms caused by other conditions. It happens when the parts of your brain used for learning, memory, decision making, and language are damaged or diseased. About 5%-8% of adults over age 65 have some form of dementia. This percentage doubles every 5 years after 65. As many as half of people in their 80s have some form of dementia.\n\nF) Dementia is not temporary confusion or forgetfulness that might result from an infection that heals without treatment. It can also come from an underlying(潜在的) illness or side effects of medications. Dementia typically gets worse over time. People with dementia have problems with thinking and remembering that affect their ability to manage their daily life.\n\nG) Dementia is typically associated with declines in cognitive function. Yet researchers have found an association between dementia and declines in hearing and other basic sensory functions.\n\nH) Though the study mentioned above was fairly small (only 191 women took the initial fitness test, which means it's hard to maintain statistical significance while breaking the group down into sub-categories of more or less fit), it does give us hope that dementia can be prevented or delayed through exercise in one's middle age.\n\nI) Alzheimer's(阿尔茨海默症) and other dementias are believed to begin 15-20 years before symptoms even appear, so it makes sense that exercising in mid-life would affect the risk, Skoog said. Exercise alone is not likely to prevent Alzheimer's, but the study shows people are not helpless in the face of one of the most feared, costliest and common diseases of old age, he added. And the same activities that help prevent Alzheimer's—including avoiding smoking, getting adequate exercise and sleep and eating a healthy diet—also prevent heart disease, he said, making them even more worthwhile. \"You can do something yourself to decrease your odds,\" Skoog said.\n\nJ) Maintaining a healthy lifestyle in mid-life, decades before disease sets in, makes sense, said David Knopman, a fellow of the American Academy of Neurology, who was not involved in the study. \"I suspect it's a dose,\" said Knopman, also associate director of the Alzheimer's Disease Research Center at Mayo Clinic in Rochester, Minnesota. \"Starting in late life is better than not starting at all, but starting in mid-life seems to offer a larger benefit.\"\n\nK) Although it is not entirely clear why exercise helps put off or prevent Alzheimer's, Knopman said it's likely that exercise maintains good blood flow to the brain. \"When the brain is healthier from a vascular(血管的) point of view, it can absorb more Alzheimer's pathogen(病原体) before people become symptomatic,\" he said.\n\nL) The message isn't that everyone needs to run marathons in middle age, Knopman said, but a healthy lifestyle pays off.\n\nM) This type of study can't say exactly what kind of exercise is best, or how much is needed—only a study that has a placebo(安慰剂) group and tracks people going forward can do that, said Keith Fargo, director of scientific programs and outreach at the non-profit Alzheimer's Association. \"The literature has not yet settled on an amount or type of exercise that is going to be key, although the bulk of literature has suggested that aerobic(有氧的) exercise is what you need to be doing,\" he said. That doesn't mean you have to compete in marathons but \"more than a 10-min dog walk\" would be a good idea, Fargo said.\n\nN) Several lifestyle studies are getting underway soon, including one backed by the Alzheimer's Association called the US POINTER study, which will offer at-risk adults, ages 60-79, a series of lifestyle interventions(干预) to see if they impact Alzheimer's risk. That and other Alzheimer's-related studies are always looking for volunteers to participate, he said.\n\nO) In the next three to five years, these studies should allow researchers to provide clearer recommendations for exercise and other lifestyle modifications that might reduce Alzheimer's risk, such as sleep, diet and social activities, Fargo said. But it's already quite clear that exercising at any point in life is better for your brain than not exercising at all, Fargo added.\n\nP) \"If you don't want to have dementia when you're 80, the time to start getting fit is now,\" he said. \"It may not necessarily give you a longer life, but there's a compelling body of work that it will give you more good years.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        }
+      ],
+      "correctAnswer": "L",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 L 段。题干：According to Knopman, the study gives the message that a healthy lifestyle is beneficial, but not that all the middle-aged need heavy exercise.\n核对该段原文：The message isn't that everyone needs to run marathons in middle age, Knopman said, but a healthy lifestyle pays off.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2026-06-2-nonlistening-q38",
+      "canonicalId": "lazynote-cet4-2026-06-2-q38",
+      "number": 38,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The results of a new study will encourage middle-aged women to find time exercising however busy they are.",
+      "passage": "Exercise and Dementia\n\nA) If this doesn't encourage you to squeeze in a workout today, nothing will: a new study from Sweden shows that women who were highly fit in mid-life were nearly 90% less likely to get dementia(失智) decades later.\n\nB) After initial exercise tests in middle age, researchers followed the women for 44 years. Both groups lived just as long, but those who could ride an exercise bike at a fast rate for 6 minutes in the initial test had a much lower risk of dementia later on than those who couldn't complete the workout.\n\nC) The study, published Wednesday in the journal Neurology, couldn't prove that exercise prevented dementia, and the findings aren't a surprise—it's long been known there's a correlation between exercise and decreased dementia risk—but the results were particularly dramatic. About 5% of the women with the highest peak workload—those who were able to bike the hardest over those 6 minutes—developed dementia, compared to 25% of those with medium fitness and 45% who weren't fit enough to finish the test, the study found. Overall, women who were highly fit compared to those who were moderately fit decreased their risk of dementia by 88%. The few highly fit women who did develop dementia became symptomatic at age 90 on average, 11 years later than the moderately fit.\n\nD) \"I'm very surprised that the finding was so strong,\" said Ingmar Skoog, the paper's senior author and a psychiatry(精神病学) professor at The University of Gothenburg in Sweden. \"It really shows the importance of exercise.\"\n\nE) Dementia, as defined in medical dictionaries, is a broad term that describes a loss of thinking ability, memory, attention, logical reasoning, and other mental abilities. These changes are severe enough to interfere with social or occupational functioning. Dementia isn't a disease. Instead, it's a group of symptoms caused by other conditions. It happens when the parts of your brain used for learning, memory, decision making, and language are damaged or diseased. About 5%-8% of adults over age 65 have some form of dementia. This percentage doubles every 5 years after 65. As many as half of people in their 80s have some form of dementia.\n\nF) Dementia is not temporary confusion or forgetfulness that might result from an infection that heals without treatment. It can also come from an underlying(潜在的) illness or side effects of medications. Dementia typically gets worse over time. People with dementia have problems with thinking and remembering that affect their ability to manage their daily life.\n\nG) Dementia is typically associated with declines in cognitive function. Yet researchers have found an association between dementia and declines in hearing and other basic sensory functions.\n\nH) Though the study mentioned above was fairly small (only 191 women took the initial fitness test, which means it's hard to maintain statistical significance while breaking the group down into sub-categories of more or less fit), it does give us hope that dementia can be prevented or delayed through exercise in one's middle age.\n\nI) Alzheimer's(阿尔茨海默症) and other dementias are believed to begin 15-20 years before symptoms even appear, so it makes sense that exercising in mid-life would affect the risk, Skoog said. Exercise alone is not likely to prevent Alzheimer's, but the study shows people are not helpless in the face of one of the most feared, costliest and common diseases of old age, he added. And the same activities that help prevent Alzheimer's—including avoiding smoking, getting adequate exercise and sleep and eating a healthy diet—also prevent heart disease, he said, making them even more worthwhile. \"You can do something yourself to decrease your odds,\" Skoog said.\n\nJ) Maintaining a healthy lifestyle in mid-life, decades before disease sets in, makes sense, said David Knopman, a fellow of the American Academy of Neurology, who was not involved in the study. \"I suspect it's a dose,\" said Knopman, also associate director of the Alzheimer's Disease Research Center at Mayo Clinic in Rochester, Minnesota. \"Starting in late life is better than not starting at all, but starting in mid-life seems to offer a larger benefit.\"\n\nK) Although it is not entirely clear why exercise helps put off or prevent Alzheimer's, Knopman said it's likely that exercise maintains good blood flow to the brain. \"When the brain is healthier from a vascular(血管的) point of view, it can absorb more Alzheimer's pathogen(病原体) before people become symptomatic,\" he said.\n\nL) The message isn't that everyone needs to run marathons in middle age, Knopman said, but a healthy lifestyle pays off.\n\nM) This type of study can't say exactly what kind of exercise is best, or how much is needed—only a study that has a placebo(安慰剂) group and tracks people going forward can do that, said Keith Fargo, director of scientific programs and outreach at the non-profit Alzheimer's Association. \"The literature has not yet settled on an amount or type of exercise that is going to be key, although the bulk of literature has suggested that aerobic(有氧的) exercise is what you need to be doing,\" he said. That doesn't mean you have to compete in marathons but \"more than a 10-min dog walk\" would be a good idea, Fargo said.\n\nN) Several lifestyle studies are getting underway soon, including one backed by the Alzheimer's Association called the US POINTER study, which will offer at-risk adults, ages 60-79, a series of lifestyle interventions(干预) to see if they impact Alzheimer's risk. That and other Alzheimer's-related studies are always looking for volunteers to participate, he said.\n\nO) In the next three to five years, these studies should allow researchers to provide clearer recommendations for exercise and other lifestyle modifications that might reduce Alzheimer's risk, such as sleep, diet and social activities, Fargo said. But it's already quite clear that exercising at any point in life is better for your brain than not exercising at all, Fargo added.\n\nP) \"If you don't want to have dementia when you're 80, the time to start getting fit is now,\" he said. \"It may not necessarily give you a longer life, but there's a compelling body of work that it will give you more good years.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 A 段。题干：The results of a new study will encourage middle-aged women to find time exercising however busy they are.\n核对该段原文：If this doesn't encourage you to squeeze in a workout today, nothing will: a new study from Sweden shows that women who were highly fit in mid-life were nearly 90% less likely to get dementia(失智) decades later.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2026-06-2-nonlistening-q39",
+      "canonicalId": "lazynote-cet4-2026-06-2-q39",
+      "number": 39,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Hopefully, one can postpone or prevent dementia by exercising in their mid-life.",
+      "passage": "Exercise and Dementia\n\nA) If this doesn't encourage you to squeeze in a workout today, nothing will: a new study from Sweden shows that women who were highly fit in mid-life were nearly 90% less likely to get dementia(失智) decades later.\n\nB) After initial exercise tests in middle age, researchers followed the women for 44 years. Both groups lived just as long, but those who could ride an exercise bike at a fast rate for 6 minutes in the initial test had a much lower risk of dementia later on than those who couldn't complete the workout.\n\nC) The study, published Wednesday in the journal Neurology, couldn't prove that exercise prevented dementia, and the findings aren't a surprise—it's long been known there's a correlation between exercise and decreased dementia risk—but the results were particularly dramatic. About 5% of the women with the highest peak workload—those who were able to bike the hardest over those 6 minutes—developed dementia, compared to 25% of those with medium fitness and 45% who weren't fit enough to finish the test, the study found. Overall, women who were highly fit compared to those who were moderately fit decreased their risk of dementia by 88%. The few highly fit women who did develop dementia became symptomatic at age 90 on average, 11 years later than the moderately fit.\n\nD) \"I'm very surprised that the finding was so strong,\" said Ingmar Skoog, the paper's senior author and a psychiatry(精神病学) professor at The University of Gothenburg in Sweden. \"It really shows the importance of exercise.\"\n\nE) Dementia, as defined in medical dictionaries, is a broad term that describes a loss of thinking ability, memory, attention, logical reasoning, and other mental abilities. These changes are severe enough to interfere with social or occupational functioning. Dementia isn't a disease. Instead, it's a group of symptoms caused by other conditions. It happens when the parts of your brain used for learning, memory, decision making, and language are damaged or diseased. About 5%-8% of adults over age 65 have some form of dementia. This percentage doubles every 5 years after 65. As many as half of people in their 80s have some form of dementia.\n\nF) Dementia is not temporary confusion or forgetfulness that might result from an infection that heals without treatment. It can also come from an underlying(潜在的) illness or side effects of medications. Dementia typically gets worse over time. People with dementia have problems with thinking and remembering that affect their ability to manage their daily life.\n\nG) Dementia is typically associated with declines in cognitive function. Yet researchers have found an association between dementia and declines in hearing and other basic sensory functions.\n\nH) Though the study mentioned above was fairly small (only 191 women took the initial fitness test, which means it's hard to maintain statistical significance while breaking the group down into sub-categories of more or less fit), it does give us hope that dementia can be prevented or delayed through exercise in one's middle age.\n\nI) Alzheimer's(阿尔茨海默症) and other dementias are believed to begin 15-20 years before symptoms even appear, so it makes sense that exercising in mid-life would affect the risk, Skoog said. Exercise alone is not likely to prevent Alzheimer's, but the study shows people are not helpless in the face of one of the most feared, costliest and common diseases of old age, he added. And the same activities that help prevent Alzheimer's—including avoiding smoking, getting adequate exercise and sleep and eating a healthy diet—also prevent heart disease, he said, making them even more worthwhile. \"You can do something yourself to decrease your odds,\" Skoog said.\n\nJ) Maintaining a healthy lifestyle in mid-life, decades before disease sets in, makes sense, said David Knopman, a fellow of the American Academy of Neurology, who was not involved in the study. \"I suspect it's a dose,\" said Knopman, also associate director of the Alzheimer's Disease Research Center at Mayo Clinic in Rochester, Minnesota. \"Starting in late life is better than not starting at all, but starting in mid-life seems to offer a larger benefit.\"\n\nK) Although it is not entirely clear why exercise helps put off or prevent Alzheimer's, Knopman said it's likely that exercise maintains good blood flow to the brain. \"When the brain is healthier from a vascular(血管的) point of view, it can absorb more Alzheimer's pathogen(病原体) before people become symptomatic,\" he said.\n\nL) The message isn't that everyone needs to run marathons in middle age, Knopman said, but a healthy lifestyle pays off.\n\nM) This type of study can't say exactly what kind of exercise is best, or how much is needed—only a study that has a placebo(安慰剂) group and tracks people going forward can do that, said Keith Fargo, director of scientific programs and outreach at the non-profit Alzheimer's Association. \"The literature has not yet settled on an amount or type of exercise that is going to be key, although the bulk of literature has suggested that aerobic(有氧的) exercise is what you need to be doing,\" he said. That doesn't mean you have to compete in marathons but \"more than a 10-min dog walk\" would be a good idea, Fargo said.\n\nN) Several lifestyle studies are getting underway soon, including one backed by the Alzheimer's Association called the US POINTER study, which will offer at-risk adults, ages 60-79, a series of lifestyle interventions(干预) to see if they impact Alzheimer's risk. That and other Alzheimer's-related studies are always looking for volunteers to participate, he said.\n\nO) In the next three to five years, these studies should allow researchers to provide clearer recommendations for exercise and other lifestyle modifications that might reduce Alzheimer's risk, such as sleep, diet and social activities, Fargo said. But it's already quite clear that exercising at any point in life is better for your brain than not exercising at all, Fargo added.\n\nP) \"If you don't want to have dementia when you're 80, the time to start getting fit is now,\" he said. \"It may not necessarily give you a longer life, but there's a compelling body of work that it will give you more good years.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 H 段。题干：Hopefully, one can postpone or prevent dementia by exercising in their mid-life.\n核对该段原文：Though the study mentioned above was fairly small (only 191 women took the initial fitness test, which means it's hard to maintain statistical significance while breaking the group down into sub-categories of more or less fit), it does give us hope that dementia can be prevented or delayed through exercise in one's middle age.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2026-06-2-nonlistening-q40",
+      "canonicalId": "lazynote-cet4-2026-06-2-q40",
+      "number": 40,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "In a few years, researchers should be able to offer clearer advice on exercise and other lifestyle changes for reducing the incidence of Alzheimer's.",
+      "passage": "Exercise and Dementia\n\nA) If this doesn't encourage you to squeeze in a workout today, nothing will: a new study from Sweden shows that women who were highly fit in mid-life were nearly 90% less likely to get dementia(失智) decades later.\n\nB) After initial exercise tests in middle age, researchers followed the women for 44 years. Both groups lived just as long, but those who could ride an exercise bike at a fast rate for 6 minutes in the initial test had a much lower risk of dementia later on than those who couldn't complete the workout.\n\nC) The study, published Wednesday in the journal Neurology, couldn't prove that exercise prevented dementia, and the findings aren't a surprise—it's long been known there's a correlation between exercise and decreased dementia risk—but the results were particularly dramatic. About 5% of the women with the highest peak workload—those who were able to bike the hardest over those 6 minutes—developed dementia, compared to 25% of those with medium fitness and 45% who weren't fit enough to finish the test, the study found. Overall, women who were highly fit compared to those who were moderately fit decreased their risk of dementia by 88%. The few highly fit women who did develop dementia became symptomatic at age 90 on average, 11 years later than the moderately fit.\n\nD) \"I'm very surprised that the finding was so strong,\" said Ingmar Skoog, the paper's senior author and a psychiatry(精神病学) professor at The University of Gothenburg in Sweden. \"It really shows the importance of exercise.\"\n\nE) Dementia, as defined in medical dictionaries, is a broad term that describes a loss of thinking ability, memory, attention, logical reasoning, and other mental abilities. These changes are severe enough to interfere with social or occupational functioning. Dementia isn't a disease. Instead, it's a group of symptoms caused by other conditions. It happens when the parts of your brain used for learning, memory, decision making, and language are damaged or diseased. About 5%-8% of adults over age 65 have some form of dementia. This percentage doubles every 5 years after 65. As many as half of people in their 80s have some form of dementia.\n\nF) Dementia is not temporary confusion or forgetfulness that might result from an infection that heals without treatment. It can also come from an underlying(潜在的) illness or side effects of medications. Dementia typically gets worse over time. People with dementia have problems with thinking and remembering that affect their ability to manage their daily life.\n\nG) Dementia is typically associated with declines in cognitive function. Yet researchers have found an association between dementia and declines in hearing and other basic sensory functions.\n\nH) Though the study mentioned above was fairly small (only 191 women took the initial fitness test, which means it's hard to maintain statistical significance while breaking the group down into sub-categories of more or less fit), it does give us hope that dementia can be prevented or delayed through exercise in one's middle age.\n\nI) Alzheimer's(阿尔茨海默症) and other dementias are believed to begin 15-20 years before symptoms even appear, so it makes sense that exercising in mid-life would affect the risk, Skoog said. Exercise alone is not likely to prevent Alzheimer's, but the study shows people are not helpless in the face of one of the most feared, costliest and common diseases of old age, he added. And the same activities that help prevent Alzheimer's—including avoiding smoking, getting adequate exercise and sleep and eating a healthy diet—also prevent heart disease, he said, making them even more worthwhile. \"You can do something yourself to decrease your odds,\" Skoog said.\n\nJ) Maintaining a healthy lifestyle in mid-life, decades before disease sets in, makes sense, said David Knopman, a fellow of the American Academy of Neurology, who was not involved in the study. \"I suspect it's a dose,\" said Knopman, also associate director of the Alzheimer's Disease Research Center at Mayo Clinic in Rochester, Minnesota. \"Starting in late life is better than not starting at all, but starting in mid-life seems to offer a larger benefit.\"\n\nK) Although it is not entirely clear why exercise helps put off or prevent Alzheimer's, Knopman said it's likely that exercise maintains good blood flow to the brain. \"When the brain is healthier from a vascular(血管的) point of view, it can absorb more Alzheimer's pathogen(病原体) before people become symptomatic,\" he said.\n\nL) The message isn't that everyone needs to run marathons in middle age, Knopman said, but a healthy lifestyle pays off.\n\nM) This type of study can't say exactly what kind of exercise is best, or how much is needed—only a study that has a placebo(安慰剂) group and tracks people going forward can do that, said Keith Fargo, director of scientific programs and outreach at the non-profit Alzheimer's Association. \"The literature has not yet settled on an amount or type of exercise that is going to be key, although the bulk of literature has suggested that aerobic(有氧的) exercise is what you need to be doing,\" he said. That doesn't mean you have to compete in marathons but \"more than a 10-min dog walk\" would be a good idea, Fargo said.\n\nN) Several lifestyle studies are getting underway soon, including one backed by the Alzheimer's Association called the US POINTER study, which will offer at-risk adults, ages 60-79, a series of lifestyle interventions(干预) to see if they impact Alzheimer's risk. That and other Alzheimer's-related studies are always looking for volunteers to participate, he said.\n\nO) In the next three to five years, these studies should allow researchers to provide clearer recommendations for exercise and other lifestyle modifications that might reduce Alzheimer's risk, such as sleep, diet and social activities, Fargo said. But it's already quite clear that exercising at any point in life is better for your brain than not exercising at all, Fargo added.\n\nP) \"If you don't want to have dementia when you're 80, the time to start getting fit is now,\" he said. \"It may not necessarily give you a longer life, but there's a compelling body of work that it will give you more good years.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        }
+      ],
+      "correctAnswer": "O",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 O 段。题干：In a few years, researchers should be able to offer clearer advice on exercise and other lifestyle changes for reducing the incidence of Alzheimer's.\n核对该段原文：In the next three to five years, these studies should allow researchers to provide clearer recommendations for exercise and other lifestyle modifications that might reduce Alzheimer's risk, such as sleep, diet and social activities, Fargo said. But it's already quite clear that exercising at any point in life is better for your brain than not exercising at all, Fargo added.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2026-06-2-nonlistening-q41",
+      "canonicalId": "lazynote-cet4-2026-06-2-q41",
+      "number": 41,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Dementia refers to a loss of multiple mental abilities such as memory and logical reasoning.",
+      "passage": "Exercise and Dementia\n\nA) If this doesn't encourage you to squeeze in a workout today, nothing will: a new study from Sweden shows that women who were highly fit in mid-life were nearly 90% less likely to get dementia(失智) decades later.\n\nB) After initial exercise tests in middle age, researchers followed the women for 44 years. Both groups lived just as long, but those who could ride an exercise bike at a fast rate for 6 minutes in the initial test had a much lower risk of dementia later on than those who couldn't complete the workout.\n\nC) The study, published Wednesday in the journal Neurology, couldn't prove that exercise prevented dementia, and the findings aren't a surprise—it's long been known there's a correlation between exercise and decreased dementia risk—but the results were particularly dramatic. About 5% of the women with the highest peak workload—those who were able to bike the hardest over those 6 minutes—developed dementia, compared to 25% of those with medium fitness and 45% who weren't fit enough to finish the test, the study found. Overall, women who were highly fit compared to those who were moderately fit decreased their risk of dementia by 88%. The few highly fit women who did develop dementia became symptomatic at age 90 on average, 11 years later than the moderately fit.\n\nD) \"I'm very surprised that the finding was so strong,\" said Ingmar Skoog, the paper's senior author and a psychiatry(精神病学) professor at The University of Gothenburg in Sweden. \"It really shows the importance of exercise.\"\n\nE) Dementia, as defined in medical dictionaries, is a broad term that describes a loss of thinking ability, memory, attention, logical reasoning, and other mental abilities. These changes are severe enough to interfere with social or occupational functioning. Dementia isn't a disease. Instead, it's a group of symptoms caused by other conditions. It happens when the parts of your brain used for learning, memory, decision making, and language are damaged or diseased. About 5%-8% of adults over age 65 have some form of dementia. This percentage doubles every 5 years after 65. As many as half of people in their 80s have some form of dementia.\n\nF) Dementia is not temporary confusion or forgetfulness that might result from an infection that heals without treatment. It can also come from an underlying(潜在的) illness or side effects of medications. Dementia typically gets worse over time. People with dementia have problems with thinking and remembering that affect their ability to manage their daily life.\n\nG) Dementia is typically associated with declines in cognitive function. Yet researchers have found an association between dementia and declines in hearing and other basic sensory functions.\n\nH) Though the study mentioned above was fairly small (only 191 women took the initial fitness test, which means it's hard to maintain statistical significance while breaking the group down into sub-categories of more or less fit), it does give us hope that dementia can be prevented or delayed through exercise in one's middle age.\n\nI) Alzheimer's(阿尔茨海默症) and other dementias are believed to begin 15-20 years before symptoms even appear, so it makes sense that exercising in mid-life would affect the risk, Skoog said. Exercise alone is not likely to prevent Alzheimer's, but the study shows people are not helpless in the face of one of the most feared, costliest and common diseases of old age, he added. And the same activities that help prevent Alzheimer's—including avoiding smoking, getting adequate exercise and sleep and eating a healthy diet—also prevent heart disease, he said, making them even more worthwhile. \"You can do something yourself to decrease your odds,\" Skoog said.\n\nJ) Maintaining a healthy lifestyle in mid-life, decades before disease sets in, makes sense, said David Knopman, a fellow of the American Academy of Neurology, who was not involved in the study. \"I suspect it's a dose,\" said Knopman, also associate director of the Alzheimer's Disease Research Center at Mayo Clinic in Rochester, Minnesota. \"Starting in late life is better than not starting at all, but starting in mid-life seems to offer a larger benefit.\"\n\nK) Although it is not entirely clear why exercise helps put off or prevent Alzheimer's, Knopman said it's likely that exercise maintains good blood flow to the brain. \"When the brain is healthier from a vascular(血管的) point of view, it can absorb more Alzheimer's pathogen(病原体) before people become symptomatic,\" he said.\n\nL) The message isn't that everyone needs to run marathons in middle age, Knopman said, but a healthy lifestyle pays off.\n\nM) This type of study can't say exactly what kind of exercise is best, or how much is needed—only a study that has a placebo(安慰剂) group and tracks people going forward can do that, said Keith Fargo, director of scientific programs and outreach at the non-profit Alzheimer's Association. \"The literature has not yet settled on an amount or type of exercise that is going to be key, although the bulk of literature has suggested that aerobic(有氧的) exercise is what you need to be doing,\" he said. That doesn't mean you have to compete in marathons but \"more than a 10-min dog walk\" would be a good idea, Fargo said.\n\nN) Several lifestyle studies are getting underway soon, including one backed by the Alzheimer's Association called the US POINTER study, which will offer at-risk adults, ages 60-79, a series of lifestyle interventions(干预) to see if they impact Alzheimer's risk. That and other Alzheimer's-related studies are always looking for volunteers to participate, he said.\n\nO) In the next three to five years, these studies should allow researchers to provide clearer recommendations for exercise and other lifestyle modifications that might reduce Alzheimer's risk, such as sleep, diet and social activities, Fargo said. But it's already quite clear that exercising at any point in life is better for your brain than not exercising at all, Fargo added.\n\nP) \"If you don't want to have dementia when you're 80, the time to start getting fit is now,\" he said. \"It may not necessarily give you a longer life, but there's a compelling body of work that it will give you more good years.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 E 段。题干：Dementia refers to a loss of multiple mental abilities such as memory and logical reasoning.\n核对该段原文：Dementia, as defined in medical dictionaries, is a broad term that describes a loss of thinking ability, memory, attention, logical reasoning, and other mental abilities. These changes are severe enough to interfere with social or occupational functioning. Dementia isn't a disease. Instead, it's a group of symptoms caused by other conditions. It happens when the parts of your brain used for learning, memory, decision making, and language are damaged or diseased. About 5%-8% of adults over age 65 have some form of dementia. This percentage doubles every 5 years after 65. As many as half of people in their 80s have some form of dementia.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2026-06-2-nonlistening-q42",
+      "canonicalId": "lazynote-cet4-2026-06-2-q42",
+      "number": 42,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "One researcher believes that exercise may keep the brain well supplied with blood.",
+      "passage": "Exercise and Dementia\n\nA) If this doesn't encourage you to squeeze in a workout today, nothing will: a new study from Sweden shows that women who were highly fit in mid-life were nearly 90% less likely to get dementia(失智) decades later.\n\nB) After initial exercise tests in middle age, researchers followed the women for 44 years. Both groups lived just as long, but those who could ride an exercise bike at a fast rate for 6 minutes in the initial test had a much lower risk of dementia later on than those who couldn't complete the workout.\n\nC) The study, published Wednesday in the journal Neurology, couldn't prove that exercise prevented dementia, and the findings aren't a surprise—it's long been known there's a correlation between exercise and decreased dementia risk—but the results were particularly dramatic. About 5% of the women with the highest peak workload—those who were able to bike the hardest over those 6 minutes—developed dementia, compared to 25% of those with medium fitness and 45% who weren't fit enough to finish the test, the study found. Overall, women who were highly fit compared to those who were moderately fit decreased their risk of dementia by 88%. The few highly fit women who did develop dementia became symptomatic at age 90 on average, 11 years later than the moderately fit.\n\nD) \"I'm very surprised that the finding was so strong,\" said Ingmar Skoog, the paper's senior author and a psychiatry(精神病学) professor at The University of Gothenburg in Sweden. \"It really shows the importance of exercise.\"\n\nE) Dementia, as defined in medical dictionaries, is a broad term that describes a loss of thinking ability, memory, attention, logical reasoning, and other mental abilities. These changes are severe enough to interfere with social or occupational functioning. Dementia isn't a disease. Instead, it's a group of symptoms caused by other conditions. It happens when the parts of your brain used for learning, memory, decision making, and language are damaged or diseased. About 5%-8% of adults over age 65 have some form of dementia. This percentage doubles every 5 years after 65. As many as half of people in their 80s have some form of dementia.\n\nF) Dementia is not temporary confusion or forgetfulness that might result from an infection that heals without treatment. It can also come from an underlying(潜在的) illness or side effects of medications. Dementia typically gets worse over time. People with dementia have problems with thinking and remembering that affect their ability to manage their daily life.\n\nG) Dementia is typically associated with declines in cognitive function. Yet researchers have found an association between dementia and declines in hearing and other basic sensory functions.\n\nH) Though the study mentioned above was fairly small (only 191 women took the initial fitness test, which means it's hard to maintain statistical significance while breaking the group down into sub-categories of more or less fit), it does give us hope that dementia can be prevented or delayed through exercise in one's middle age.\n\nI) Alzheimer's(阿尔茨海默症) and other dementias are believed to begin 15-20 years before symptoms even appear, so it makes sense that exercising in mid-life would affect the risk, Skoog said. Exercise alone is not likely to prevent Alzheimer's, but the study shows people are not helpless in the face of one of the most feared, costliest and common diseases of old age, he added. And the same activities that help prevent Alzheimer's—including avoiding smoking, getting adequate exercise and sleep and eating a healthy diet—also prevent heart disease, he said, making them even more worthwhile. \"You can do something yourself to decrease your odds,\" Skoog said.\n\nJ) Maintaining a healthy lifestyle in mid-life, decades before disease sets in, makes sense, said David Knopman, a fellow of the American Academy of Neurology, who was not involved in the study. \"I suspect it's a dose,\" said Knopman, also associate director of the Alzheimer's Disease Research Center at Mayo Clinic in Rochester, Minnesota. \"Starting in late life is better than not starting at all, but starting in mid-life seems to offer a larger benefit.\"\n\nK) Although it is not entirely clear why exercise helps put off or prevent Alzheimer's, Knopman said it's likely that exercise maintains good blood flow to the brain. \"When the brain is healthier from a vascular(血管的) point of view, it can absorb more Alzheimer's pathogen(病原体) before people become symptomatic,\" he said.\n\nL) The message isn't that everyone needs to run marathons in middle age, Knopman said, but a healthy lifestyle pays off.\n\nM) This type of study can't say exactly what kind of exercise is best, or how much is needed—only a study that has a placebo(安慰剂) group and tracks people going forward can do that, said Keith Fargo, director of scientific programs and outreach at the non-profit Alzheimer's Association. \"The literature has not yet settled on an amount or type of exercise that is going to be key, although the bulk of literature has suggested that aerobic(有氧的) exercise is what you need to be doing,\" he said. That doesn't mean you have to compete in marathons but \"more than a 10-min dog walk\" would be a good idea, Fargo said.\n\nN) Several lifestyle studies are getting underway soon, including one backed by the Alzheimer's Association called the US POINTER study, which will offer at-risk adults, ages 60-79, a series of lifestyle interventions(干预) to see if they impact Alzheimer's risk. That and other Alzheimer's-related studies are always looking for volunteers to participate, he said.\n\nO) In the next three to five years, these studies should allow researchers to provide clearer recommendations for exercise and other lifestyle modifications that might reduce Alzheimer's risk, such as sleep, diet and social activities, Fargo said. But it's already quite clear that exercising at any point in life is better for your brain than not exercising at all, Fargo added.\n\nP) \"If you don't want to have dementia when you're 80, the time to start getting fit is now,\" he said. \"It may not necessarily give you a longer life, but there's a compelling body of work that it will give you more good years.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 K 段。题干：One researcher believes that exercise may keep the brain well supplied with blood.\n核对该段原文：Although it is not entirely clear why exercise helps put off or prevent Alzheimer's, Knopman said it's likely that exercise maintains good blood flow to the brain. \"When the brain is healthier from a vascular(血管的) point of view, it can absorb more Alzheimer's pathogen(病原体) before people become symptomatic,\" he said.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2026-06-2-nonlistening-q43",
+      "canonicalId": "lazynote-cet4-2026-06-2-q43",
+      "number": 43,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Medical literature has not concluded as to what exercise or how much exercise is crucial, although it generally agrees that people should do aerobic exercise.",
+      "passage": "Exercise and Dementia\n\nA) If this doesn't encourage you to squeeze in a workout today, nothing will: a new study from Sweden shows that women who were highly fit in mid-life were nearly 90% less likely to get dementia(失智) decades later.\n\nB) After initial exercise tests in middle age, researchers followed the women for 44 years. Both groups lived just as long, but those who could ride an exercise bike at a fast rate for 6 minutes in the initial test had a much lower risk of dementia later on than those who couldn't complete the workout.\n\nC) The study, published Wednesday in the journal Neurology, couldn't prove that exercise prevented dementia, and the findings aren't a surprise—it's long been known there's a correlation between exercise and decreased dementia risk—but the results were particularly dramatic. About 5% of the women with the highest peak workload—those who were able to bike the hardest over those 6 minutes—developed dementia, compared to 25% of those with medium fitness and 45% who weren't fit enough to finish the test, the study found. Overall, women who were highly fit compared to those who were moderately fit decreased their risk of dementia by 88%. The few highly fit women who did develop dementia became symptomatic at age 90 on average, 11 years later than the moderately fit.\n\nD) \"I'm very surprised that the finding was so strong,\" said Ingmar Skoog, the paper's senior author and a psychiatry(精神病学) professor at The University of Gothenburg in Sweden. \"It really shows the importance of exercise.\"\n\nE) Dementia, as defined in medical dictionaries, is a broad term that describes a loss of thinking ability, memory, attention, logical reasoning, and other mental abilities. These changes are severe enough to interfere with social or occupational functioning. Dementia isn't a disease. Instead, it's a group of symptoms caused by other conditions. It happens when the parts of your brain used for learning, memory, decision making, and language are damaged or diseased. About 5%-8% of adults over age 65 have some form of dementia. This percentage doubles every 5 years after 65. As many as half of people in their 80s have some form of dementia.\n\nF) Dementia is not temporary confusion or forgetfulness that might result from an infection that heals without treatment. It can also come from an underlying(潜在的) illness or side effects of medications. Dementia typically gets worse over time. People with dementia have problems with thinking and remembering that affect their ability to manage their daily life.\n\nG) Dementia is typically associated with declines in cognitive function. Yet researchers have found an association between dementia and declines in hearing and other basic sensory functions.\n\nH) Though the study mentioned above was fairly small (only 191 women took the initial fitness test, which means it's hard to maintain statistical significance while breaking the group down into sub-categories of more or less fit), it does give us hope that dementia can be prevented or delayed through exercise in one's middle age.\n\nI) Alzheimer's(阿尔茨海默症) and other dementias are believed to begin 15-20 years before symptoms even appear, so it makes sense that exercising in mid-life would affect the risk, Skoog said. Exercise alone is not likely to prevent Alzheimer's, but the study shows people are not helpless in the face of one of the most feared, costliest and common diseases of old age, he added. And the same activities that help prevent Alzheimer's—including avoiding smoking, getting adequate exercise and sleep and eating a healthy diet—also prevent heart disease, he said, making them even more worthwhile. \"You can do something yourself to decrease your odds,\" Skoog said.\n\nJ) Maintaining a healthy lifestyle in mid-life, decades before disease sets in, makes sense, said David Knopman, a fellow of the American Academy of Neurology, who was not involved in the study. \"I suspect it's a dose,\" said Knopman, also associate director of the Alzheimer's Disease Research Center at Mayo Clinic in Rochester, Minnesota. \"Starting in late life is better than not starting at all, but starting in mid-life seems to offer a larger benefit.\"\n\nK) Although it is not entirely clear why exercise helps put off or prevent Alzheimer's, Knopman said it's likely that exercise maintains good blood flow to the brain. \"When the brain is healthier from a vascular(血管的) point of view, it can absorb more Alzheimer's pathogen(病原体) before people become symptomatic,\" he said.\n\nL) The message isn't that everyone needs to run marathons in middle age, Knopman said, but a healthy lifestyle pays off.\n\nM) This type of study can't say exactly what kind of exercise is best, or how much is needed—only a study that has a placebo(安慰剂) group and tracks people going forward can do that, said Keith Fargo, director of scientific programs and outreach at the non-profit Alzheimer's Association. \"The literature has not yet settled on an amount or type of exercise that is going to be key, although the bulk of literature has suggested that aerobic(有氧的) exercise is what you need to be doing,\" he said. That doesn't mean you have to compete in marathons but \"more than a 10-min dog walk\" would be a good idea, Fargo said.\n\nN) Several lifestyle studies are getting underway soon, including one backed by the Alzheimer's Association called the US POINTER study, which will offer at-risk adults, ages 60-79, a series of lifestyle interventions(干预) to see if they impact Alzheimer's risk. That and other Alzheimer's-related studies are always looking for volunteers to participate, he said.\n\nO) In the next three to five years, these studies should allow researchers to provide clearer recommendations for exercise and other lifestyle modifications that might reduce Alzheimer's risk, such as sleep, diet and social activities, Fargo said. But it's already quite clear that exercising at any point in life is better for your brain than not exercising at all, Fargo added.\n\nP) \"If you don't want to have dementia when you're 80, the time to start getting fit is now,\" he said. \"It may not necessarily give you a longer life, but there's a compelling body of work that it will give you more good years.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        }
+      ],
+      "correctAnswer": "M",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 M 段。题干：Medical literature has not concluded as to what exercise or how much exercise is crucial, although it generally agrees that people should do aerobic exercise.\n核对该段原文：This type of study can't say exactly what kind of exercise is best, or how much is needed—only a study that has a placebo(安慰剂) group and tracks people going forward can do that, said Keith Fargo, director of scientific programs and outreach at the non-profit Alzheimer's Association. \"The literature has not yet settled on an amount or type of exercise that is going to be key, although the bulk of literature has suggested that aerobic(有氧的) exercise is what you need to be doing,\" he said. That doesn't mean you have to compete in marathons but \"more than a 10-min dog walk\" would be a good idea, Fargo said.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2026-06-2-nonlistening-q44",
+      "canonicalId": "lazynote-cet4-2026-06-2-q44",
+      "number": 44,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "It has long been common knowledge that exercise correlates with reduced risk of dementia.",
+      "passage": "Exercise and Dementia\n\nA) If this doesn't encourage you to squeeze in a workout today, nothing will: a new study from Sweden shows that women who were highly fit in mid-life were nearly 90% less likely to get dementia(失智) decades later.\n\nB) After initial exercise tests in middle age, researchers followed the women for 44 years. Both groups lived just as long, but those who could ride an exercise bike at a fast rate for 6 minutes in the initial test had a much lower risk of dementia later on than those who couldn't complete the workout.\n\nC) The study, published Wednesday in the journal Neurology, couldn't prove that exercise prevented dementia, and the findings aren't a surprise—it's long been known there's a correlation between exercise and decreased dementia risk—but the results were particularly dramatic. About 5% of the women with the highest peak workload—those who were able to bike the hardest over those 6 minutes—developed dementia, compared to 25% of those with medium fitness and 45% who weren't fit enough to finish the test, the study found. Overall, women who were highly fit compared to those who were moderately fit decreased their risk of dementia by 88%. The few highly fit women who did develop dementia became symptomatic at age 90 on average, 11 years later than the moderately fit.\n\nD) \"I'm very surprised that the finding was so strong,\" said Ingmar Skoog, the paper's senior author and a psychiatry(精神病学) professor at The University of Gothenburg in Sweden. \"It really shows the importance of exercise.\"\n\nE) Dementia, as defined in medical dictionaries, is a broad term that describes a loss of thinking ability, memory, attention, logical reasoning, and other mental abilities. These changes are severe enough to interfere with social or occupational functioning. Dementia isn't a disease. Instead, it's a group of symptoms caused by other conditions. It happens when the parts of your brain used for learning, memory, decision making, and language are damaged or diseased. About 5%-8% of adults over age 65 have some form of dementia. This percentage doubles every 5 years after 65. As many as half of people in their 80s have some form of dementia.\n\nF) Dementia is not temporary confusion or forgetfulness that might result from an infection that heals without treatment. It can also come from an underlying(潜在的) illness or side effects of medications. Dementia typically gets worse over time. People with dementia have problems with thinking and remembering that affect their ability to manage their daily life.\n\nG) Dementia is typically associated with declines in cognitive function. Yet researchers have found an association between dementia and declines in hearing and other basic sensory functions.\n\nH) Though the study mentioned above was fairly small (only 191 women took the initial fitness test, which means it's hard to maintain statistical significance while breaking the group down into sub-categories of more or less fit), it does give us hope that dementia can be prevented or delayed through exercise in one's middle age.\n\nI) Alzheimer's(阿尔茨海默症) and other dementias are believed to begin 15-20 years before symptoms even appear, so it makes sense that exercising in mid-life would affect the risk, Skoog said. Exercise alone is not likely to prevent Alzheimer's, but the study shows people are not helpless in the face of one of the most feared, costliest and common diseases of old age, he added. And the same activities that help prevent Alzheimer's—including avoiding smoking, getting adequate exercise and sleep and eating a healthy diet—also prevent heart disease, he said, making them even more worthwhile. \"You can do something yourself to decrease your odds,\" Skoog said.\n\nJ) Maintaining a healthy lifestyle in mid-life, decades before disease sets in, makes sense, said David Knopman, a fellow of the American Academy of Neurology, who was not involved in the study. \"I suspect it's a dose,\" said Knopman, also associate director of the Alzheimer's Disease Research Center at Mayo Clinic in Rochester, Minnesota. \"Starting in late life is better than not starting at all, but starting in mid-life seems to offer a larger benefit.\"\n\nK) Although it is not entirely clear why exercise helps put off or prevent Alzheimer's, Knopman said it's likely that exercise maintains good blood flow to the brain. \"When the brain is healthier from a vascular(血管的) point of view, it can absorb more Alzheimer's pathogen(病原体) before people become symptomatic,\" he said.\n\nL) The message isn't that everyone needs to run marathons in middle age, Knopman said, but a healthy lifestyle pays off.\n\nM) This type of study can't say exactly what kind of exercise is best, or how much is needed—only a study that has a placebo(安慰剂) group and tracks people going forward can do that, said Keith Fargo, director of scientific programs and outreach at the non-profit Alzheimer's Association. \"The literature has not yet settled on an amount or type of exercise that is going to be key, although the bulk of literature has suggested that aerobic(有氧的) exercise is what you need to be doing,\" he said. That doesn't mean you have to compete in marathons but \"more than a 10-min dog walk\" would be a good idea, Fargo said.\n\nN) Several lifestyle studies are getting underway soon, including one backed by the Alzheimer's Association called the US POINTER study, which will offer at-risk adults, ages 60-79, a series of lifestyle interventions(干预) to see if they impact Alzheimer's risk. That and other Alzheimer's-related studies are always looking for volunteers to participate, he said.\n\nO) In the next three to five years, these studies should allow researchers to provide clearer recommendations for exercise and other lifestyle modifications that might reduce Alzheimer's risk, such as sleep, diet and social activities, Fargo said. But it's already quite clear that exercising at any point in life is better for your brain than not exercising at all, Fargo added.\n\nP) \"If you don't want to have dementia when you're 80, the time to start getting fit is now,\" he said. \"It may not necessarily give you a longer life, but there's a compelling body of work that it will give you more good years.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 C 段。题干：It has long been common knowledge that exercise correlates with reduced risk of dementia.\n核对该段原文：The study, published Wednesday in the journal Neurology, couldn't prove that exercise prevented dementia, and the findings aren't a surprise—it's long been known there's a correlation between exercise and decreased dementia risk—but the results were particularly dramatic. About 5% of the women with the highest peak workload—those who were able to bike the hardest over those 6 minutes—developed dementia, compared to 25% of those with medium fitness and 45% who weren't fit enough to finish the test, the study found. Overall, women who were highly fit compared to those who were moderately fit decreased their risk of dementia by 88%. The few highly fit women who did develop dementia became symptomatic at age 90 on average, 11 years later than the moderately fit.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2026-06-2-nonlistening-q45",
+      "canonicalId": "lazynote-cet4-2026-06-2-q45",
+      "number": 45,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Activities helpful in the prevention of Alzheimer's also prevent heart disease.",
+      "passage": "Exercise and Dementia\n\nA) If this doesn't encourage you to squeeze in a workout today, nothing will: a new study from Sweden shows that women who were highly fit in mid-life were nearly 90% less likely to get dementia(失智) decades later.\n\nB) After initial exercise tests in middle age, researchers followed the women for 44 years. Both groups lived just as long, but those who could ride an exercise bike at a fast rate for 6 minutes in the initial test had a much lower risk of dementia later on than those who couldn't complete the workout.\n\nC) The study, published Wednesday in the journal Neurology, couldn't prove that exercise prevented dementia, and the findings aren't a surprise—it's long been known there's a correlation between exercise and decreased dementia risk—but the results were particularly dramatic. About 5% of the women with the highest peak workload—those who were able to bike the hardest over those 6 minutes—developed dementia, compared to 25% of those with medium fitness and 45% who weren't fit enough to finish the test, the study found. Overall, women who were highly fit compared to those who were moderately fit decreased their risk of dementia by 88%. The few highly fit women who did develop dementia became symptomatic at age 90 on average, 11 years later than the moderately fit.\n\nD) \"I'm very surprised that the finding was so strong,\" said Ingmar Skoog, the paper's senior author and a psychiatry(精神病学) professor at The University of Gothenburg in Sweden. \"It really shows the importance of exercise.\"\n\nE) Dementia, as defined in medical dictionaries, is a broad term that describes a loss of thinking ability, memory, attention, logical reasoning, and other mental abilities. These changes are severe enough to interfere with social or occupational functioning. Dementia isn't a disease. Instead, it's a group of symptoms caused by other conditions. It happens when the parts of your brain used for learning, memory, decision making, and language are damaged or diseased. About 5%-8% of adults over age 65 have some form of dementia. This percentage doubles every 5 years after 65. As many as half of people in their 80s have some form of dementia.\n\nF) Dementia is not temporary confusion or forgetfulness that might result from an infection that heals without treatment. It can also come from an underlying(潜在的) illness or side effects of medications. Dementia typically gets worse over time. People with dementia have problems with thinking and remembering that affect their ability to manage their daily life.\n\nG) Dementia is typically associated with declines in cognitive function. Yet researchers have found an association between dementia and declines in hearing and other basic sensory functions.\n\nH) Though the study mentioned above was fairly small (only 191 women took the initial fitness test, which means it's hard to maintain statistical significance while breaking the group down into sub-categories of more or less fit), it does give us hope that dementia can be prevented or delayed through exercise in one's middle age.\n\nI) Alzheimer's(阿尔茨海默症) and other dementias are believed to begin 15-20 years before symptoms even appear, so it makes sense that exercising in mid-life would affect the risk, Skoog said. Exercise alone is not likely to prevent Alzheimer's, but the study shows people are not helpless in the face of one of the most feared, costliest and common diseases of old age, he added. And the same activities that help prevent Alzheimer's—including avoiding smoking, getting adequate exercise and sleep and eating a healthy diet—also prevent heart disease, he said, making them even more worthwhile. \"You can do something yourself to decrease your odds,\" Skoog said.\n\nJ) Maintaining a healthy lifestyle in mid-life, decades before disease sets in, makes sense, said David Knopman, a fellow of the American Academy of Neurology, who was not involved in the study. \"I suspect it's a dose,\" said Knopman, also associate director of the Alzheimer's Disease Research Center at Mayo Clinic in Rochester, Minnesota. \"Starting in late life is better than not starting at all, but starting in mid-life seems to offer a larger benefit.\"\n\nK) Although it is not entirely clear why exercise helps put off or prevent Alzheimer's, Knopman said it's likely that exercise maintains good blood flow to the brain. \"When the brain is healthier from a vascular(血管的) point of view, it can absorb more Alzheimer's pathogen(病原体) before people become symptomatic,\" he said.\n\nL) The message isn't that everyone needs to run marathons in middle age, Knopman said, but a healthy lifestyle pays off.\n\nM) This type of study can't say exactly what kind of exercise is best, or how much is needed—only a study that has a placebo(安慰剂) group and tracks people going forward can do that, said Keith Fargo, director of scientific programs and outreach at the non-profit Alzheimer's Association. \"The literature has not yet settled on an amount or type of exercise that is going to be key, although the bulk of literature has suggested that aerobic(有氧的) exercise is what you need to be doing,\" he said. That doesn't mean you have to compete in marathons but \"more than a 10-min dog walk\" would be a good idea, Fargo said.\n\nN) Several lifestyle studies are getting underway soon, including one backed by the Alzheimer's Association called the US POINTER study, which will offer at-risk adults, ages 60-79, a series of lifestyle interventions(干预) to see if they impact Alzheimer's risk. That and other Alzheimer's-related studies are always looking for volunteers to participate, he said.\n\nO) In the next three to five years, these studies should allow researchers to provide clearer recommendations for exercise and other lifestyle modifications that might reduce Alzheimer's risk, such as sleep, diet and social activities, Fargo said. But it's already quite clear that exercising at any point in life is better for your brain than not exercising at all, Fargo added.\n\nP) \"If you don't want to have dementia when you're 80, the time to start getting fit is now,\" he said. \"It may not necessarily give you a longer life, but there's a compelling body of work that it will give you more good years.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 I 段。题干：Activities helpful in the prevention of Alzheimer's also prevent heart disease.\n核对该段原文：Alzheimer's(阿尔茨海默症) and other dementias are believed to begin 15-20 years before symptoms even appear, so it makes sense that exercising in mid-life would affect the risk, Skoog said. Exercise alone is not likely to prevent Alzheimer's, but the study shows people are not helpless in the face of one of the most feared, costliest and common diseases of old age, he added. And the same activities that help prevent Alzheimer's—including avoiding smoking, getting adequate exercise and sleep and eating a healthy diet—also prevent heart disease, he said, making them even more worthwhile. \"You can do something yourself to decrease your odds,\" Skoog said.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2026-06-2-nonlistening-q46",
+      "canonicalId": "lazynote-cet4-2026-06-2-q46",
+      "number": 46,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn from the passage about people who suffer from the so-called Impostor Phenomenon?",
+      "passage": "People who systematically underestimate themselves and their own performance suffer from the so-called Impostor Phenomenon. They think that any success is due to external circumstances or just luck and chance. Those people live in constant fear that their \"deception\" will be exposed.\n\nIt is common for people to question their abilities now and again. A healthy amount of reflection and self-doubt can protect a person from acting impulsively. However, there are people who are permanently plagued by a massive amount of self-doubt despite delivering a good performance. They think that all of their successes are not a product of their skill or hard work, instead they attribute their own successes to external circumstances, for example, to luck and chance, or believe that their performance is massively overestimated by others. Failures, on the other hand, are always internalised as the result of their own shortcomings.\n\nPsychologists from Martin Luther University Halle-Wittenberg examined the topic for the first time under real-life conditions. Seventy-six participants completed a range of intelligence tests and received positive feedback on them, regardless of their actual performance. They were then asked why they think they did so well.\n\nThe study showed two things: First, the self-reported degree of Impostor Phenomenon is not related to actual measured intelligence or performance. Secondly, the test supported the assumption that people with a tendency to exhibit the Impostor Phenomenon devalue their objectively measured performance and attribute positive results to external causes such as luck and chance, but not to their own abilities. These results are also completely unrelated to age and gender.\n\nA permanent underestimation of one's own abilities is often accompanied by the fear that this supposed intellectual deception will be exposed sooner or later and that they will pay the price for this. The Impostor Phenomenon was first described in 1978 by US psychologists Pauline Clance and Suzanne Imes. They observed that there is a particularly high number of successful women who do not think they are very intelligent. The Impostor Phenomenon is not defined as a mental illness. However, people who suffer from it show a higher vulnerability to depression.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They systematically underestimate their chances of success."
+        },
+        {
+          "id": "B",
+          "text": "They tend to attribute their achievements to good fortune."
+        },
+        {
+          "id": "C",
+          "text": "They seem to live in constant fear of being deceived."
+        },
+        {
+          "id": "D",
+          "text": "They generally rely on luck and chance for success."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：They tend to attribute their achievements to good fortune.\n关键词检索定位到第 1 段的候选相关句：People who systematically underestimate themselves and their own performance suffer from the so-called Impostor Phenomenon.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2026-06-2-nonlistening-q47",
+      "canonicalId": "lazynote-cet4-2026-06-2-q47",
+      "number": 47,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do people with a healthy amount of reflection and self-doubt tend to do?",
+      "passage": "People who systematically underestimate themselves and their own performance suffer from the so-called Impostor Phenomenon. They think that any success is due to external circumstances or just luck and chance. Those people live in constant fear that their \"deception\" will be exposed.\n\nIt is common for people to question their abilities now and again. A healthy amount of reflection and self-doubt can protect a person from acting impulsively. However, there are people who are permanently plagued by a massive amount of self-doubt despite delivering a good performance. They think that all of their successes are not a product of their skill or hard work, instead they attribute their own successes to external circumstances, for example, to luck and chance, or believe that their performance is massively overestimated by others. Failures, on the other hand, are always internalised as the result of their own shortcomings.\n\nPsychologists from Martin Luther University Halle-Wittenberg examined the topic for the first time under real-life conditions. Seventy-six participants completed a range of intelligence tests and received positive feedback on them, regardless of their actual performance. They were then asked why they think they did so well.\n\nThe study showed two things: First, the self-reported degree of Impostor Phenomenon is not related to actual measured intelligence or performance. Secondly, the test supported the assumption that people with a tendency to exhibit the Impostor Phenomenon devalue their objectively measured performance and attribute positive results to external causes such as luck and chance, but not to their own abilities. These results are also completely unrelated to age and gender.\n\nA permanent underestimation of one's own abilities is often accompanied by the fear that this supposed intellectual deception will be exposed sooner or later and that they will pay the price for this. The Impostor Phenomenon was first described in 1978 by US psychologists Pauline Clance and Suzanne Imes. They observed that there is a particularly high number of successful women who do not think they are very intelligent. The Impostor Phenomenon is not defined as a mental illness. However, people who suffer from it show a higher vulnerability to depression.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Credit all their successes to hard work."
+        },
+        {
+          "id": "B",
+          "text": "Strive hard to perfect their skills."
+        },
+        {
+          "id": "C",
+          "text": "Refrain from acting on impulse."
+        },
+        {
+          "id": "D",
+          "text": "Deliver a better performance."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：Refrain from acting on impulse.\n关键词检索定位到第 2 段的候选相关句：A healthy amount of reflection and self-doubt can protect a person from acting impulsively.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2026-06-2-nonlistening-q48",
+      "canonicalId": "lazynote-cet4-2026-06-2-q48",
+      "number": 48,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do Impostor Phenomenon sufferers often do according to psychologists from Martin Luther University Halle-Wittenberg?",
+      "passage": "People who systematically underestimate themselves and their own performance suffer from the so-called Impostor Phenomenon. They think that any success is due to external circumstances or just luck and chance. Those people live in constant fear that their \"deception\" will be exposed.\n\nIt is common for people to question their abilities now and again. A healthy amount of reflection and self-doubt can protect a person from acting impulsively. However, there are people who are permanently plagued by a massive amount of self-doubt despite delivering a good performance. They think that all of their successes are not a product of their skill or hard work, instead they attribute their own successes to external circumstances, for example, to luck and chance, or believe that their performance is massively overestimated by others. Failures, on the other hand, are always internalised as the result of their own shortcomings.\n\nPsychologists from Martin Luther University Halle-Wittenberg examined the topic for the first time under real-life conditions. Seventy-six participants completed a range of intelligence tests and received positive feedback on them, regardless of their actual performance. They were then asked why they think they did so well.\n\nThe study showed two things: First, the self-reported degree of Impostor Phenomenon is not related to actual measured intelligence or performance. Secondly, the test supported the assumption that people with a tendency to exhibit the Impostor Phenomenon devalue their objectively measured performance and attribute positive results to external causes such as luck and chance, but not to their own abilities. These results are also completely unrelated to age and gender.\n\nA permanent underestimation of one's own abilities is often accompanied by the fear that this supposed intellectual deception will be exposed sooner or later and that they will pay the price for this. The Impostor Phenomenon was first described in 1978 by US psychologists Pauline Clance and Suzanne Imes. They observed that there is a particularly high number of successful women who do not think they are very intelligent. The Impostor Phenomenon is not defined as a mental illness. However, people who suffer from it show a higher vulnerability to depression.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Attribute their accomplishments to others."
+        },
+        {
+          "id": "B",
+          "text": "Deny their actual measured intelligence."
+        },
+        {
+          "id": "C",
+          "text": "Claim to have confidence in their own abilities."
+        },
+        {
+          "id": "D",
+          "text": "Mark down their objectively rated performance."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：Mark down their objectively rated performance.\n关键词检索定位到第 3 段的候选相关句：Psychologists from Martin Luther University Halle-Wittenberg examined the topic for the first time under real-life conditions.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2026-06-2-nonlistening-q49",
+      "canonicalId": "lazynote-cet4-2026-06-2-q49",
+      "number": 49,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What happens when a person permanently underestimates their own abilities?",
+      "passage": "People who systematically underestimate themselves and their own performance suffer from the so-called Impostor Phenomenon. They think that any success is due to external circumstances or just luck and chance. Those people live in constant fear that their \"deception\" will be exposed.\n\nIt is common for people to question their abilities now and again. A healthy amount of reflection and self-doubt can protect a person from acting impulsively. However, there are people who are permanently plagued by a massive amount of self-doubt despite delivering a good performance. They think that all of their successes are not a product of their skill or hard work, instead they attribute their own successes to external circumstances, for example, to luck and chance, or believe that their performance is massively overestimated by others. Failures, on the other hand, are always internalised as the result of their own shortcomings.\n\nPsychologists from Martin Luther University Halle-Wittenberg examined the topic for the first time under real-life conditions. Seventy-six participants completed a range of intelligence tests and received positive feedback on them, regardless of their actual performance. They were then asked why they think they did so well.\n\nThe study showed two things: First, the self-reported degree of Impostor Phenomenon is not related to actual measured intelligence or performance. Secondly, the test supported the assumption that people with a tendency to exhibit the Impostor Phenomenon devalue their objectively measured performance and attribute positive results to external causes such as luck and chance, but not to their own abilities. These results are also completely unrelated to age and gender.\n\nA permanent underestimation of one's own abilities is often accompanied by the fear that this supposed intellectual deception will be exposed sooner or later and that they will pay the price for this. The Impostor Phenomenon was first described in 1978 by US psychologists Pauline Clance and Suzanne Imes. They observed that there is a particularly high number of successful women who do not think they are very intelligent. The Impostor Phenomenon is not defined as a mental illness. However, people who suffer from it show a higher vulnerability to depression.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They will focus their attention on external factors."
+        },
+        {
+          "id": "B",
+          "text": "They will be fearful of potential consequences."
+        },
+        {
+          "id": "C",
+          "text": "They will count on good fortune for success."
+        },
+        {
+          "id": "D",
+          "text": "They will keep improving their own skills."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：They will be fearful of potential consequences.\n关键词检索定位到第 1 段的候选相关句：People who systematically underestimate themselves and their own performance suffer from the so-called Impostor Phenomenon.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2026-06-2-nonlistening-q50",
+      "canonicalId": "lazynote-cet4-2026-06-2-q50",
+      "number": 50,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What did US psychologists Pauline Clance and Suzanne Imes say about Impostor Phenomenon sufferers?",
+      "passage": "People who systematically underestimate themselves and their own performance suffer from the so-called Impostor Phenomenon. They think that any success is due to external circumstances or just luck and chance. Those people live in constant fear that their \"deception\" will be exposed.\n\nIt is common for people to question their abilities now and again. A healthy amount of reflection and self-doubt can protect a person from acting impulsively. However, there are people who are permanently plagued by a massive amount of self-doubt despite delivering a good performance. They think that all of their successes are not a product of their skill or hard work, instead they attribute their own successes to external circumstances, for example, to luck and chance, or believe that their performance is massively overestimated by others. Failures, on the other hand, are always internalised as the result of their own shortcomings.\n\nPsychologists from Martin Luther University Halle-Wittenberg examined the topic for the first time under real-life conditions. Seventy-six participants completed a range of intelligence tests and received positive feedback on them, regardless of their actual performance. They were then asked why they think they did so well.\n\nThe study showed two things: First, the self-reported degree of Impostor Phenomenon is not related to actual measured intelligence or performance. Secondly, the test supported the assumption that people with a tendency to exhibit the Impostor Phenomenon devalue their objectively measured performance and attribute positive results to external causes such as luck and chance, but not to their own abilities. These results are also completely unrelated to age and gender.\n\nA permanent underestimation of one's own abilities is often accompanied by the fear that this supposed intellectual deception will be exposed sooner or later and that they will pay the price for this. The Impostor Phenomenon was first described in 1978 by US psychologists Pauline Clance and Suzanne Imes. They observed that there is a particularly high number of successful women who do not think they are very intelligent. The Impostor Phenomenon is not defined as a mental illness. However, people who suffer from it show a higher vulnerability to depression.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They are more liable to have depression."
+        },
+        {
+          "id": "B",
+          "text": "They seldom realise their potential fully."
+        },
+        {
+          "id": "C",
+          "text": "They will develop mental illnesses."
+        },
+        {
+          "id": "D",
+          "text": "They will pay higher prices one day."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：They are more liable to have depression.\n关键词检索定位到第 5 段的候选相关句：The Impostor Phenomenon was first described in 1978 by US psychologists Pauline Clance and Suzanne Imes.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2026-06-2-nonlistening-q51",
+      "canonicalId": "lazynote-cet4-2026-06-2-q51",
+      "number": 51,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "In what way is music important?",
+      "passage": "Music is a universal language. In every culture and country, you will find music. It is vitally important across the globe and has the potential to bring people together in peace and harmony. One of my favorite experiences in music is seeing musicians from different cultures come together and perform as a group. When each culture brings its own unique qualities to the group, an entirely new sound is achieved. This can create extraordinary results. People can communicate with each other using music as the common language.\n\nOne common musical thread between cultures is known as the pentatonic scale. It is astonishing how many cultures share this tool in approaching music. The pentatonic scale consists of five notes; \"penta-\" meaning 5, and \"tonic\" meaning tone or note. This scale can be found in music everywhere including that of Native Americans, Africans, and Asians. It is also found in popular music, blues, jazz, and rock. Using this five-note scale, musicians from around the globe have a medium through which they can relate, communicate, perform, and ultimately understand each other.\n\nMusic is tied to specific perceptual(感知的), mental, and emotional faculties, including language (all societies put words to their songs), motor control (people in all societies dance), sound analysis (all musical systems have a distinct pitch and quality), and aesthetics(美感) (their tunes and rhythms are balanced between repetitiveness and chaos).\n\nThere is no known society that existed without music. Although each culture has their own specific style and approach to music, you will find that the purposes behind music are very similar across the board. Music essentially serves to express or change emotions. It can cheer you up, sadden you, anger you or excite you. Music is often ceremonial: used in religion, ceremony, and celebration. Music can simply be recreational: entertaining, joyful and fun. Any way you have used music, it is almost certain that every other culture has used music in the very same way. And that is something that bonds all of us. We all share a deep love for music and it has the power to unite us.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is able to create novel and extraordinary emotions."
+        },
+        {
+          "id": "B",
+          "text": "It has the power to unite people throughout the world."
+        },
+        {
+          "id": "C",
+          "text": "It allows different cultural groups to sing in harmony."
+        },
+        {
+          "id": "D",
+          "text": "It is the only language favored by all peoples of the world."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：It has the power to unite people throughout the world.\n关键词检索定位到第 4 段的候选相关句：We all share a deep love for music and it has the power to unite us.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2026-06-2-nonlistening-q52",
+      "canonicalId": "lazynote-cet4-2026-06-2-q52",
+      "number": 52,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "Why does the author like to see musicians from different cultures perform together?",
+      "passage": "Music is a universal language. In every culture and country, you will find music. It is vitally important across the globe and has the potential to bring people together in peace and harmony. One of my favorite experiences in music is seeing musicians from different cultures come together and perform as a group. When each culture brings its own unique qualities to the group, an entirely new sound is achieved. This can create extraordinary results. People can communicate with each other using music as the common language.\n\nOne common musical thread between cultures is known as the pentatonic scale. It is astonishing how many cultures share this tool in approaching music. The pentatonic scale consists of five notes; \"penta-\" meaning 5, and \"tonic\" meaning tone or note. This scale can be found in music everywhere including that of Native Americans, Africans, and Asians. It is also found in popular music, blues, jazz, and rock. Using this five-note scale, musicians from around the globe have a medium through which they can relate, communicate, perform, and ultimately understand each other.\n\nMusic is tied to specific perceptual(感知的), mental, and emotional faculties, including language (all societies put words to their songs), motor control (people in all societies dance), sound analysis (all musical systems have a distinct pitch and quality), and aesthetics(美感) (their tunes and rhythms are balanced between repetitiveness and chaos).\n\nThere is no known society that existed without music. Although each culture has their own specific style and approach to music, you will find that the purposes behind music are very similar across the board. Music essentially serves to express or change emotions. It can cheer you up, sadden you, anger you or excite you. Music is often ceremonial: used in religion, ceremony, and celebration. Music can simply be recreational: entertaining, joyful and fun. Any way you have used music, it is almost certain that every other culture has used music in the very same way. And that is something that bonds all of us. We all share a deep love for music and it has the power to unite us.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Their musical experience can be compared."
+        },
+        {
+          "id": "B",
+          "text": "A novel language can be created."
+        },
+        {
+          "id": "C",
+          "text": "Their unique skills can be displayed."
+        },
+        {
+          "id": "D",
+          "text": "Fantastic results can be achieved."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：Fantastic results can be achieved.\n关键词检索定位到第 1 段的候选相关句：One of my favorite experiences in music is seeing musicians from different cultures come together and perform as a group.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2026-06-2-nonlistening-q53",
+      "canonicalId": "lazynote-cet4-2026-06-2-q53",
+      "number": 53,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the passage say about the pentatonic scale?",
+      "passage": "Music is a universal language. In every culture and country, you will find music. It is vitally important across the globe and has the potential to bring people together in peace and harmony. One of my favorite experiences in music is seeing musicians from different cultures come together and perform as a group. When each culture brings its own unique qualities to the group, an entirely new sound is achieved. This can create extraordinary results. People can communicate with each other using music as the common language.\n\nOne common musical thread between cultures is known as the pentatonic scale. It is astonishing how many cultures share this tool in approaching music. The pentatonic scale consists of five notes; \"penta-\" meaning 5, and \"tonic\" meaning tone or note. This scale can be found in music everywhere including that of Native Americans, Africans, and Asians. It is also found in popular music, blues, jazz, and rock. Using this five-note scale, musicians from around the globe have a medium through which they can relate, communicate, perform, and ultimately understand each other.\n\nMusic is tied to specific perceptual(感知的), mental, and emotional faculties, including language (all societies put words to their songs), motor control (people in all societies dance), sound analysis (all musical systems have a distinct pitch and quality), and aesthetics(美感) (their tunes and rhythms are balanced between repetitiveness and chaos).\n\nThere is no known society that existed without music. Although each culture has their own specific style and approach to music, you will find that the purposes behind music are very similar across the board. Music essentially serves to express or change emotions. It can cheer you up, sadden you, anger you or excite you. Music is often ceremonial: used in religion, ceremony, and celebration. Music can simply be recreational: entertaining, joyful and fun. Any way you have used music, it is almost certain that every other culture has used music in the very same way. And that is something that bonds all of us. We all share a deep love for music and it has the power to unite us.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is present in music all around the world."
+        },
+        {
+          "id": "B",
+          "text": "It is helpful to understanding music."
+        },
+        {
+          "id": "C",
+          "text": "It is the basis for musicians' creation."
+        },
+        {
+          "id": "D",
+          "text": "It is a medium for ordinary people to relate."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：It is present in music all around the world.\n关键词检索定位到第 2 段的候选相关句：One common musical thread between cultures is known as the pentatonic scale.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2026-06-2-nonlistening-q54",
+      "canonicalId": "lazynote-cet4-2026-06-2-q54",
+      "number": 54,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What is the fundamental role of music in people's life?",
+      "passage": "Music is a universal language. In every culture and country, you will find music. It is vitally important across the globe and has the potential to bring people together in peace and harmony. One of my favorite experiences in music is seeing musicians from different cultures come together and perform as a group. When each culture brings its own unique qualities to the group, an entirely new sound is achieved. This can create extraordinary results. People can communicate with each other using music as the common language.\n\nOne common musical thread between cultures is known as the pentatonic scale. It is astonishing how many cultures share this tool in approaching music. The pentatonic scale consists of five notes; \"penta-\" meaning 5, and \"tonic\" meaning tone or note. This scale can be found in music everywhere including that of Native Americans, Africans, and Asians. It is also found in popular music, blues, jazz, and rock. Using this five-note scale, musicians from around the globe have a medium through which they can relate, communicate, perform, and ultimately understand each other.\n\nMusic is tied to specific perceptual(感知的), mental, and emotional faculties, including language (all societies put words to their songs), motor control (people in all societies dance), sound analysis (all musical systems have a distinct pitch and quality), and aesthetics(美感) (their tunes and rhythms are balanced between repetitiveness and chaos).\n\nThere is no known society that existed without music. Although each culture has their own specific style and approach to music, you will find that the purposes behind music are very similar across the board. Music essentially serves to express or change emotions. It can cheer you up, sadden you, anger you or excite you. Music is often ceremonial: used in religion, ceremony, and celebration. Music can simply be recreational: entertaining, joyful and fun. Any way you have used music, it is almost certain that every other culture has used music in the very same way. And that is something that bonds all of us. We all share a deep love for music and it has the power to unite us.",
+      "options": [
+        {
+          "id": "A",
+          "text": "To bring them together."
+        },
+        {
+          "id": "B",
+          "text": "To show their identity."
+        },
+        {
+          "id": "C",
+          "text": "To express their emotions."
+        },
+        {
+          "id": "D",
+          "text": "To keep them entertained."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：To express their emotions.\n关键词检索定位到第 4 段的候选相关句：Music essentially serves to express or change emotions.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2026-06-2-nonlistening-q55",
+      "canonicalId": "lazynote-cet4-2026-06-2-q55",
+      "number": 55,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "In what aspect is music similar throughout the world?",
+      "passage": "Music is a universal language. In every culture and country, you will find music. It is vitally important across the globe and has the potential to bring people together in peace and harmony. One of my favorite experiences in music is seeing musicians from different cultures come together and perform as a group. When each culture brings its own unique qualities to the group, an entirely new sound is achieved. This can create extraordinary results. People can communicate with each other using music as the common language.\n\nOne common musical thread between cultures is known as the pentatonic scale. It is astonishing how many cultures share this tool in approaching music. The pentatonic scale consists of five notes; \"penta-\" meaning 5, and \"tonic\" meaning tone or note. This scale can be found in music everywhere including that of Native Americans, Africans, and Asians. It is also found in popular music, blues, jazz, and rock. Using this five-note scale, musicians from around the globe have a medium through which they can relate, communicate, perform, and ultimately understand each other.\n\nMusic is tied to specific perceptual(感知的), mental, and emotional faculties, including language (all societies put words to their songs), motor control (people in all societies dance), sound analysis (all musical systems have a distinct pitch and quality), and aesthetics(美感) (their tunes and rhythms are balanced between repetitiveness and chaos).\n\nThere is no known society that existed without music. Although each culture has their own specific style and approach to music, you will find that the purposes behind music are very similar across the board. Music essentially serves to express or change emotions. It can cheer you up, sadden you, anger you or excite you. Music is often ceremonial: used in religion, ceremony, and celebration. Music can simply be recreational: entertaining, joyful and fun. Any way you have used music, it is almost certain that every other culture has used music in the very same way. And that is something that bonds all of us. We all share a deep love for music and it has the power to unite us.",
+      "options": [
+        {
+          "id": "A",
+          "text": "The way people respond to it."
+        },
+        {
+          "id": "B",
+          "text": "The role it plays in society."
+        },
+        {
+          "id": "C",
+          "text": "The joy it brings to people."
+        },
+        {
+          "id": "D",
+          "text": "The way it is made use of."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：The way it is made use of.\n关键词检索定位到第 4 段的候选相关句：Although each culture has their own specific style and approach to music, you will find that the purposes behind music are very similar across the board.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    },
+    {
+      "id": "cet4-2026-06-2-nonlistening-translation",
+      "number": "IV",
+      "level": "CET4",
+      "type": "short_text_self_check",
+      "skill": "translation",
+      "section": "translation",
+      "prompt": "Directions: For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2 .\n\n餐桌礼仪 (dining etiquette) 是中华传统文化的重要组成部分，蕴含着热情有礼的待客之道。为了招待客人，主人会根据客人的口味和喜好准备丰富精致的菜肴。就餐座位的安排非常讲究，主人坐在正对大门的位置，在主人身边就座的是最重要的客人。进餐时，主人会不时地为客人添酒加菜。这种独特的餐桌礼仪已延续了数千年，对促进和谐的人际交往起到了重要的作用。",
+      "options": [],
+      "correctAnswer": "Dining etiquette is an important part of traditional Chinese culture and embodies warm and courteous hospitality. To entertain guests, hosts prepare a rich selection of delicate dishes according to their guests' tastes and preferences. Great care is taken over the seating arrangements: the host sits facing the main entrance, with the most important guest seated beside the host. During the meal, the host refills guests' wine glasses and serves them more food from time to time. This distinctive dining etiquette has continued for thousands of years and has played an important role in promoting harmonious interpersonal relations.",
+      "referenceAnswer": "Dining etiquette is an important part of traditional Chinese culture and embodies warm and courteous hospitality. To entertain guests, hosts prepare a rich selection of delicate dishes according to their guests' tastes and preferences. Great care is taken over the seating arrangements: the host sits facing the main entrance, with the most important guest seated beside the host. During the meal, the host refills guests' wine glasses and serves them more food from time to time. This distinctive dining etiquette has continued for thousands of years and has played an important role in promoting harmonious interpersonal relations.",
+      "hint": "按题面译主人正对大门、重要客人坐身边；不要用其他地域习惯替换原文。添酒和加菜都是主人动作。",
+      "explanation": "以下为原创参考译文，其他准确表达同样可接受。①dining etiquette是餐桌礼仪，embodies warm and courteous hospitality表示蕴含热情有礼的待客之道。②according to…tastes and preferences译依据口味和喜好，a rich selection of delicate dishes保留丰富精致。③seating arrangements是座位安排，facing the main entrance说明主人朝向，beside the host保留最重要客人位置。这里忠实翻译题面，不用个人见过的其他座次替换。④refills wine glasses and serves more food分别对应添酒加菜，from time to time译不时。⑤has continued for thousands of years与has played…用完成时表达传统持续和作用，harmonious interpersonal relations是和谐人际交往。",
+      "rubric": [
+        "练习自评总分15分：信息准确0–8＋语法0–5＋表达0–2；允许拆句、换同义词，不要求逐字匹配参考译文。",
+        "信息准确0–8分：逐项检查——礼仪文化热情有礼；依口味喜好丰富精致；主人正对大门、重要客人身边；不时添酒加菜；千年延续与和谐交往。8分=全部关键信息正确；6–7分=少量次要细节遗漏；3–5分=多处遗漏/数字或关系误译；0–2分=核心人物、动作或逻辑严重错误。",
+        "语法0–5分：5分=时态、单复数、主谓一致、从句和介词基本正确；3–4分=少量错误仍易理解；1–2分=多处错误妨碍理解；0分=主要句子结构不可理解。",
+        "表达0–2分：2分=用词搭配自然、因果转折时间衔接清楚；1分=可理解但有中文式生硬表达；0分=词序/词义造成大面积理解困难。",
+        "修订操作：先在中文原题划出时间、数量、地点和连接词，再在自己的译文逐项找对应；为每处漏译或误译写一句修正。此分数是练习估计，不是官方阅卷或机器评分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2026-06-2-nonlistening"
+    }
+  ]
+}

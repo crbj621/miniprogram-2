@@ -1,0 +1,1949 @@
+{
+  "schemaVersion": 1,
+  "status": "verified_structured",
+  "source": {
+    "id": "cet4-2022-12-3-nonlistening",
+    "textCollection": "https://english-exam.lazynote.cn",
+    "textUrl": "https://english-exam.lazynote.cn/cet4/paper/2022-12-3/",
+    "textSha256": "99feec5afb52b46eec47c923f3840d9e63aa168a1029489882d1c8ed0b45763d",
+    "answerSources": [
+      {
+        "section": "part3-section-a",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2022-12-3/part3-section-a/",
+        "sha256": "af5a424ba8dc5bb28f4f7cf11ee07849d816c180c32400d3742d10cf0acfd7eb"
+      },
+      {
+        "section": "part3-section-b",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2022-12-3/part3-section-b/",
+        "sha256": "b971aa86693616f3782f946a046e2431e1444e45ebbb6c37f029b54eb3c62f1c"
+      },
+      {
+        "section": "part3-section-c-1",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2022-12-3/part3-section-c-1/",
+        "sha256": "726c055032787b006b3c752b096f30e7ba9c7842713995d7c76601d21b44a6e0"
+      },
+      {
+        "section": "part3-section-c-2",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2022-12-3/part3-section-c-2/",
+        "sha256": "e7aa5cdd303db32a093c98cc8ba2505711fd2b0b1e76af29a571892b39b2ff79"
+      }
+    ],
+    "rightsUrl": "https://english-exam.lazynote.cn",
+    "rights": "Source footer attributes original papers to the National College English Test Committee. Original materials retain their respective rights; no blanket source license is asserted. Commercial explanatory prose is not copied.",
+    "sourceRightsNotice": "© 2026 懒笔记 · 蜀ICP备2024049450号-1 · 川公网安备51019002006323号 · 增值电信业务经营许可证：川B2-20240301 · 真题版权归全国硕士研究生招生考试 / 全国大学英语四六级考试委员会所有 · 隐私政策 · 用户协议",
+    "sourceTermsUrl": "https://english-exam.lazynote.cn/terms/",
+    "reviewedAt": "2026-10-03",
+    "answerStatus": "public_reference_structural_consistency_verified",
+    "explanations": "Project-generated contextual evidence notes. Close-reading locations are keyword-search candidates, not manually verified detailed explanations.",
+    "referenceEssays": "Project-authored full reference examples bound to the original prompts; not official model answers.",
+    "materialSources": [],
+    "corrections": [],
+    "previousReviewedAnswerSources": [],
+    "sourceEdition": "lazynote public original-paper arrangement; set numbering can differ from other collections.",
+    "independentlyConfirmedSharedSource": "",
+    "readingSourceCorrection": null,
+    "sectionSourceReplacement": null,
+    "independentAnswerChecks": [],
+    "sharedSectionSource": {}
+  },
+  "papers": [
+    {
+      "id": "cet4-2022-12-3-nonlistening",
+      "level": "CET4",
+      "year": 2022,
+      "month": 12,
+      "set": 3,
+      "title": "2022年12月英语四级第3套真题（不含听力）",
+      "authenticity": "past_exam",
+      "questionIds": [
+        "cet4-2022-12-3-nonlistening-writing",
+        "cet4-2022-12-3-nonlistening-q26",
+        "cet4-2022-12-3-nonlistening-q27",
+        "cet4-2022-12-3-nonlistening-q28",
+        "cet4-2022-12-3-nonlistening-q29",
+        "cet4-2022-12-3-nonlistening-q30",
+        "cet4-2022-12-3-nonlistening-q31",
+        "cet4-2022-12-3-nonlistening-q32",
+        "cet4-2022-12-3-nonlistening-q33",
+        "cet4-2022-12-3-nonlistening-q34",
+        "cet4-2022-12-3-nonlistening-q35",
+        "cet4-2022-12-3-nonlistening-q36",
+        "cet4-2022-12-3-nonlistening-q37",
+        "cet4-2022-12-3-nonlistening-q38",
+        "cet4-2022-12-3-nonlistening-q39",
+        "cet4-2022-12-3-nonlistening-q40",
+        "cet4-2022-12-3-nonlistening-q41",
+        "cet4-2022-12-3-nonlistening-q42",
+        "cet4-2022-12-3-nonlistening-q43",
+        "cet4-2022-12-3-nonlistening-q44",
+        "cet4-2022-12-3-nonlistening-q45",
+        "cet4-2022-12-3-nonlistening-q46",
+        "cet4-2022-12-3-nonlistening-q47",
+        "cet4-2022-12-3-nonlistening-q48",
+        "cet4-2022-12-3-nonlistening-q49",
+        "cet4-2022-12-3-nonlistening-q50",
+        "cet4-2022-12-3-nonlistening-q51",
+        "cet4-2022-12-3-nonlistening-q52",
+        "cet4-2022-12-3-nonlistening-q53",
+        "cet4-2022-12-3-nonlistening-q54",
+        "cet4-2022-12-3-nonlistening-q55",
+        "cet4-2022-12-3-nonlistening-translation"
+      ],
+      "durationSeconds": 6000,
+      "description": "写作1题、阅读30题、翻译1题，不含听力。客观题答案与题面、选项完成结构一致性核对。",
+      "sourceId": "cet4-2022-12-3-nonlistening",
+      "coverage": {
+        "fullPaper": false,
+        "fullNonListening": true,
+        "listeningExcluded": true,
+        "objectiveNumbers": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "objectiveCount": 30,
+        "subjectiveCount": 2,
+        "sections": [
+          "writing",
+          "reading_word_bank",
+          "reading_matching",
+          "reading_comprehension",
+          "translation"
+        ],
+        "sharedSectionSource": {},
+        "note": "写作1题、阅读30题、翻译1题，不含听力。",
+        "independentlyConfirmedSharedSource": "",
+        "readingSourceCorrection": null,
+        "sectionSourceReplacement": null,
+        "referenceStatus": "project_authored"
+      },
+      "resources": [
+        {
+          "id": "cet4-2022-12-3-nonlistening-source",
+          "type": "web",
+          "title": "原卷来源与题面核对",
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2022-12-3/"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cet4-2022-12-3-nonlistening-writing",
+      "number": "I",
+      "level": "CET4",
+      "type": "short_text_self_check",
+      "skill": "writing",
+      "section": "writing",
+      "prompt": "Directions: In this task, you are to write an essay on the necessity of developing social skills for college students. You will have 30 minutes for the task. You should write at least 120 words but no more than 180 words.",
+      "options": [],
+      "correctAnswer": "Social skills are necessary for college students because learning and daily life involve constant cooperation. Knowing a subject well is valuable, but we also need to express ideas clearly and understand other people's perspectives.\n\nIn a group project, students must divide tasks, discuss disagreements and share progress. Without respectful communication, even a promising plan may fail. Social skills also help students ask teachers for guidance, build friendships and adapt to unfamiliar situations. These abilities do not require everyone to become extremely outgoing. Careful listening, honest questions and reliable follow-up can make quiet students effective partners as well.\n\nColleges should offer opportunities for discussion and teamwork, while students should practice in ordinary situations rather than wait for a major event. We can begin by listening without interruption and explaining disagreements politely. Developing these habits makes cooperation easier and prepares us for responsibilities that extend far beyond the classroom.",
+      "referenceAnswer": "Social skills are necessary for college students because learning and daily life involve constant cooperation. Knowing a subject well is valuable, but we also need to express ideas clearly and understand other people's perspectives.\n\nIn a group project, students must divide tasks, discuss disagreements and share progress. Without respectful communication, even a promising plan may fail. Social skills also help students ask teachers for guidance, build friendships and adapt to unfamiliar situations. These abilities do not require everyone to become extremely outgoing. Careful listening, honest questions and reliable follow-up can make quiet students effective partners as well.\n\nColleges should offer opportunities for discussion and teamwork, while students should practice in ordinary situations rather than wait for a major event. We can begin by listening without interruption and explaining disagreements politely. Developing these habits makes cooperation easier and prepares us for responsibilities that extend far beyond the classroom.",
+      "hint": "解释社交技能的必要性，重点是沟通合作而非必须外向。",
+      "explanation": "以下为按题意独立写成的参考范文，作文没有唯一答案。小组项目形成具体场景；安静学生也可通过倾听和可靠行动合作，避免将社交等同应酬。\n\n第一段说明社交能力的学习和生活价值；第二段用小组项目举倾听、分工、处理误解的例子；末段给练习建议。social skills是社交能力，resolve misunderstandings是化解误解，reliable teammate是可靠队友。论证“必要”要说明缺少能力会怎样、培养后怎样帮助合作。安静学生也能通过认真倾听和履行承诺交流，不应把技能等同活跃性格或频繁应酬。\n\n练习方法：先用提示列三段提纲，在30分钟内独立写作，再按下方标准逐项打分；把失分最多的一段重写。参考范文约147词（缩写、连字符词按一词，含标题或书信称呼落款），满足120–180词要求；评分用于练习自检，不代表官方阅卷分数。",
+      "rubric": [
+        "练习自评总分15分：题目覆盖0–6＋结构0–4＋语言0–5，先独立写完再对照；观点不同于范文也可得满分，只要有合理支持。",
+        "题目覆盖0–6分：该题检查——解释社交技能的必要性，重点是沟通合作而非必须外向。。6分=任务完整且有具体理由/活动/例证；4–5分=切题但细节偏薄；2–3分=遗漏主要任务；0–1分=基本离题。",
+        "结构0–4分：4分=开头明确任务、主体按逻辑展开、结尾回扣，段间自然；3分=顺序清楚但局部衔接生硬；1–2分=跳跃或机械罗列；0分=内容难以组织理解。",
+        "语言0–5分：5分=语法和用词基本准确、句型有变化；3–4分=少量错误但不影响理解；1–2分=反复出现时态、主谓一致或搭配错误并影响阅读；0分=多数句子不能理解。",
+        "格式与修订：按原题保持120–180词；新闻/书信/提案用对应体裁，明确要求的首句逐字保留。若超限、少写任务或缺必要格式，先修改再评分，不把字数达标当作内容满分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-3-nonlistening-q26",
+      "canonicalId": "lazynote-cet4-2022-12-3-q26",
+      "number": 26,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 26 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Phones influence all aspects of teenage life. Ninety-five percent of Americans ages 13 to 17 have a smartphone or have access to one, and nearly half report using the internet \"almost [26] ____ .\"\n\nBut as recent survey data and interviews have suggested, many teens find much of that time to be unsatisfyingly spent. Continuous [27] ____ shouldn't be mistaken for endless enjoyment. A new [28] ____ representative survey about \"screen time and device distractions\" from the Pew Research Center indicates that it's not just parents who think teenagers are worryingly [29] ____ from their phones—many teens themselves do too. Fifty-four percent of the 13- to 17-year-olds surveyed said they spend too much time [30] ____ in their phones.\n\nVicky Rideout, who runs a research firm that studies children's interactions with media and technology, was not surprised by this finding. She says it's hardly [31] ____ to teenagers. \"They are dealing with the same challenges that adults are, as far as they are living in the [32] ____ of a tech environment designed to suck as much of their time onto their devices as possible,\" Rideout says.\n\nThe way parents interact with technology can [33] ____ the way they interact with their kids. Rideout thus thinks it's up to parents to model good [34] ____ : Kids tend to take note if their parents put their phone away at dinner or charge it in another room while they sleep. Witnessing habits like that can help kids \"realize that they can [35] ____ some more control over their devices,\" she says.",
+      "options": [
+        {
+          "id": "A",
+          "text": "absorbed"
+        },
+        {
+          "id": "B",
+          "text": "addicted"
+        },
+        {
+          "id": "C",
+          "text": "behavior"
+        },
+        {
+          "id": "D",
+          "text": "constantly"
+        },
+        {
+          "id": "E",
+          "text": "context"
+        },
+        {
+          "id": "F",
+          "text": "exercise"
+        },
+        {
+          "id": "G",
+          "text": "inseparable"
+        },
+        {
+          "id": "H",
+          "text": "nationally"
+        },
+        {
+          "id": "I",
+          "text": "recruited"
+        },
+        {
+          "id": "J",
+          "text": "shape"
+        },
+        {
+          "id": "K",
+          "text": "solution"
+        },
+        {
+          "id": "L",
+          "text": "specific"
+        },
+        {
+          "id": "M",
+          "text": "summary"
+        },
+        {
+          "id": "N",
+          "text": "usage"
+        },
+        {
+          "id": "O",
+          "text": "vaguely"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "先看第 26 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 D（constantly）。本空所在句：Ninety-five percent of Americans ages 13 to 17 have a smartphone or have access to one, and nearly half report using the internet \"almost [26] ____ .\"\n将本空替换为 constantly 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-3-nonlistening-q27",
+      "canonicalId": "lazynote-cet4-2022-12-3-q27",
+      "number": 27,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 27 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Phones influence all aspects of teenage life. Ninety-five percent of Americans ages 13 to 17 have a smartphone or have access to one, and nearly half report using the internet \"almost [26] ____ .\"\n\nBut as recent survey data and interviews have suggested, many teens find much of that time to be unsatisfyingly spent. Continuous [27] ____ shouldn't be mistaken for endless enjoyment. A new [28] ____ representative survey about \"screen time and device distractions\" from the Pew Research Center indicates that it's not just parents who think teenagers are worryingly [29] ____ from their phones—many teens themselves do too. Fifty-four percent of the 13- to 17-year-olds surveyed said they spend too much time [30] ____ in their phones.\n\nVicky Rideout, who runs a research firm that studies children's interactions with media and technology, was not surprised by this finding. She says it's hardly [31] ____ to teenagers. \"They are dealing with the same challenges that adults are, as far as they are living in the [32] ____ of a tech environment designed to suck as much of their time onto their devices as possible,\" Rideout says.\n\nThe way parents interact with technology can [33] ____ the way they interact with their kids. Rideout thus thinks it's up to parents to model good [34] ____ : Kids tend to take note if their parents put their phone away at dinner or charge it in another room while they sleep. Witnessing habits like that can help kids \"realize that they can [35] ____ some more control over their devices,\" she says.",
+      "options": [
+        {
+          "id": "A",
+          "text": "absorbed"
+        },
+        {
+          "id": "B",
+          "text": "addicted"
+        },
+        {
+          "id": "C",
+          "text": "behavior"
+        },
+        {
+          "id": "D",
+          "text": "constantly"
+        },
+        {
+          "id": "E",
+          "text": "context"
+        },
+        {
+          "id": "F",
+          "text": "exercise"
+        },
+        {
+          "id": "G",
+          "text": "inseparable"
+        },
+        {
+          "id": "H",
+          "text": "nationally"
+        },
+        {
+          "id": "I",
+          "text": "recruited"
+        },
+        {
+          "id": "J",
+          "text": "shape"
+        },
+        {
+          "id": "K",
+          "text": "solution"
+        },
+        {
+          "id": "L",
+          "text": "specific"
+        },
+        {
+          "id": "M",
+          "text": "summary"
+        },
+        {
+          "id": "N",
+          "text": "usage"
+        },
+        {
+          "id": "O",
+          "text": "vaguely"
+        }
+      ],
+      "correctAnswer": "N",
+      "hint": "先看第 27 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 N（usage）。本空所在句：Continuous [27] ____ shouldn't be mistaken for endless enjoyment.\n将本空替换为 usage 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-3-nonlistening-q28",
+      "canonicalId": "lazynote-cet4-2022-12-3-q28",
+      "number": 28,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 28 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Phones influence all aspects of teenage life. Ninety-five percent of Americans ages 13 to 17 have a smartphone or have access to one, and nearly half report using the internet \"almost [26] ____ .\"\n\nBut as recent survey data and interviews have suggested, many teens find much of that time to be unsatisfyingly spent. Continuous [27] ____ shouldn't be mistaken for endless enjoyment. A new [28] ____ representative survey about \"screen time and device distractions\" from the Pew Research Center indicates that it's not just parents who think teenagers are worryingly [29] ____ from their phones—many teens themselves do too. Fifty-four percent of the 13- to 17-year-olds surveyed said they spend too much time [30] ____ in their phones.\n\nVicky Rideout, who runs a research firm that studies children's interactions with media and technology, was not surprised by this finding. She says it's hardly [31] ____ to teenagers. \"They are dealing with the same challenges that adults are, as far as they are living in the [32] ____ of a tech environment designed to suck as much of their time onto their devices as possible,\" Rideout says.\n\nThe way parents interact with technology can [33] ____ the way they interact with their kids. Rideout thus thinks it's up to parents to model good [34] ____ : Kids tend to take note if their parents put their phone away at dinner or charge it in another room while they sleep. Witnessing habits like that can help kids \"realize that they can [35] ____ some more control over their devices,\" she says.",
+      "options": [
+        {
+          "id": "A",
+          "text": "absorbed"
+        },
+        {
+          "id": "B",
+          "text": "addicted"
+        },
+        {
+          "id": "C",
+          "text": "behavior"
+        },
+        {
+          "id": "D",
+          "text": "constantly"
+        },
+        {
+          "id": "E",
+          "text": "context"
+        },
+        {
+          "id": "F",
+          "text": "exercise"
+        },
+        {
+          "id": "G",
+          "text": "inseparable"
+        },
+        {
+          "id": "H",
+          "text": "nationally"
+        },
+        {
+          "id": "I",
+          "text": "recruited"
+        },
+        {
+          "id": "J",
+          "text": "shape"
+        },
+        {
+          "id": "K",
+          "text": "solution"
+        },
+        {
+          "id": "L",
+          "text": "specific"
+        },
+        {
+          "id": "M",
+          "text": "summary"
+        },
+        {
+          "id": "N",
+          "text": "usage"
+        },
+        {
+          "id": "O",
+          "text": "vaguely"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "先看第 28 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 H（nationally）。本空所在句：A new [28] ____ representative survey about \"screen time and device distractions\" from the Pew Research Center indicates that it's not just parents who think teenagers are worryingly [29] ____ from their phones—many teens themselves do too.\n将本空替换为 nationally 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-3-nonlistening-q29",
+      "canonicalId": "lazynote-cet4-2022-12-3-q29",
+      "number": 29,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 29 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Phones influence all aspects of teenage life. Ninety-five percent of Americans ages 13 to 17 have a smartphone or have access to one, and nearly half report using the internet \"almost [26] ____ .\"\n\nBut as recent survey data and interviews have suggested, many teens find much of that time to be unsatisfyingly spent. Continuous [27] ____ shouldn't be mistaken for endless enjoyment. A new [28] ____ representative survey about \"screen time and device distractions\" from the Pew Research Center indicates that it's not just parents who think teenagers are worryingly [29] ____ from their phones—many teens themselves do too. Fifty-four percent of the 13- to 17-year-olds surveyed said they spend too much time [30] ____ in their phones.\n\nVicky Rideout, who runs a research firm that studies children's interactions with media and technology, was not surprised by this finding. She says it's hardly [31] ____ to teenagers. \"They are dealing with the same challenges that adults are, as far as they are living in the [32] ____ of a tech environment designed to suck as much of their time onto their devices as possible,\" Rideout says.\n\nThe way parents interact with technology can [33] ____ the way they interact with their kids. Rideout thus thinks it's up to parents to model good [34] ____ : Kids tend to take note if their parents put their phone away at dinner or charge it in another room while they sleep. Witnessing habits like that can help kids \"realize that they can [35] ____ some more control over their devices,\" she says.",
+      "options": [
+        {
+          "id": "A",
+          "text": "absorbed"
+        },
+        {
+          "id": "B",
+          "text": "addicted"
+        },
+        {
+          "id": "C",
+          "text": "behavior"
+        },
+        {
+          "id": "D",
+          "text": "constantly"
+        },
+        {
+          "id": "E",
+          "text": "context"
+        },
+        {
+          "id": "F",
+          "text": "exercise"
+        },
+        {
+          "id": "G",
+          "text": "inseparable"
+        },
+        {
+          "id": "H",
+          "text": "nationally"
+        },
+        {
+          "id": "I",
+          "text": "recruited"
+        },
+        {
+          "id": "J",
+          "text": "shape"
+        },
+        {
+          "id": "K",
+          "text": "solution"
+        },
+        {
+          "id": "L",
+          "text": "specific"
+        },
+        {
+          "id": "M",
+          "text": "summary"
+        },
+        {
+          "id": "N",
+          "text": "usage"
+        },
+        {
+          "id": "O",
+          "text": "vaguely"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "先看第 29 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 G（inseparable）。本空所在句：A new [28] ____ representative survey about \"screen time and device distractions\" from the Pew Research Center indicates that it's not just parents who think teenagers are worryingly [29] ____ from their phones—many teens themselves do too.\n将本空替换为 inseparable 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-3-nonlistening-q30",
+      "canonicalId": "lazynote-cet4-2022-12-3-q30",
+      "number": 30,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 30 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Phones influence all aspects of teenage life. Ninety-five percent of Americans ages 13 to 17 have a smartphone or have access to one, and nearly half report using the internet \"almost [26] ____ .\"\n\nBut as recent survey data and interviews have suggested, many teens find much of that time to be unsatisfyingly spent. Continuous [27] ____ shouldn't be mistaken for endless enjoyment. A new [28] ____ representative survey about \"screen time and device distractions\" from the Pew Research Center indicates that it's not just parents who think teenagers are worryingly [29] ____ from their phones—many teens themselves do too. Fifty-four percent of the 13- to 17-year-olds surveyed said they spend too much time [30] ____ in their phones.\n\nVicky Rideout, who runs a research firm that studies children's interactions with media and technology, was not surprised by this finding. She says it's hardly [31] ____ to teenagers. \"They are dealing with the same challenges that adults are, as far as they are living in the [32] ____ of a tech environment designed to suck as much of their time onto their devices as possible,\" Rideout says.\n\nThe way parents interact with technology can [33] ____ the way they interact with their kids. Rideout thus thinks it's up to parents to model good [34] ____ : Kids tend to take note if their parents put their phone away at dinner or charge it in another room while they sleep. Witnessing habits like that can help kids \"realize that they can [35] ____ some more control over their devices,\" she says.",
+      "options": [
+        {
+          "id": "A",
+          "text": "absorbed"
+        },
+        {
+          "id": "B",
+          "text": "addicted"
+        },
+        {
+          "id": "C",
+          "text": "behavior"
+        },
+        {
+          "id": "D",
+          "text": "constantly"
+        },
+        {
+          "id": "E",
+          "text": "context"
+        },
+        {
+          "id": "F",
+          "text": "exercise"
+        },
+        {
+          "id": "G",
+          "text": "inseparable"
+        },
+        {
+          "id": "H",
+          "text": "nationally"
+        },
+        {
+          "id": "I",
+          "text": "recruited"
+        },
+        {
+          "id": "J",
+          "text": "shape"
+        },
+        {
+          "id": "K",
+          "text": "solution"
+        },
+        {
+          "id": "L",
+          "text": "specific"
+        },
+        {
+          "id": "M",
+          "text": "summary"
+        },
+        {
+          "id": "N",
+          "text": "usage"
+        },
+        {
+          "id": "O",
+          "text": "vaguely"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "先看第 30 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 A（absorbed）。本空所在句：Fifty-four percent of the 13- to 17-year-olds surveyed said they spend too much time [30] ____ in their phones.\n将本空替换为 absorbed 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-3-nonlistening-q31",
+      "canonicalId": "lazynote-cet4-2022-12-3-q31",
+      "number": 31,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 31 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Phones influence all aspects of teenage life. Ninety-five percent of Americans ages 13 to 17 have a smartphone or have access to one, and nearly half report using the internet \"almost [26] ____ .\"\n\nBut as recent survey data and interviews have suggested, many teens find much of that time to be unsatisfyingly spent. Continuous [27] ____ shouldn't be mistaken for endless enjoyment. A new [28] ____ representative survey about \"screen time and device distractions\" from the Pew Research Center indicates that it's not just parents who think teenagers are worryingly [29] ____ from their phones—many teens themselves do too. Fifty-four percent of the 13- to 17-year-olds surveyed said they spend too much time [30] ____ in their phones.\n\nVicky Rideout, who runs a research firm that studies children's interactions with media and technology, was not surprised by this finding. She says it's hardly [31] ____ to teenagers. \"They are dealing with the same challenges that adults are, as far as they are living in the [32] ____ of a tech environment designed to suck as much of their time onto their devices as possible,\" Rideout says.\n\nThe way parents interact with technology can [33] ____ the way they interact with their kids. Rideout thus thinks it's up to parents to model good [34] ____ : Kids tend to take note if their parents put their phone away at dinner or charge it in another room while they sleep. Witnessing habits like that can help kids \"realize that they can [35] ____ some more control over their devices,\" she says.",
+      "options": [
+        {
+          "id": "A",
+          "text": "absorbed"
+        },
+        {
+          "id": "B",
+          "text": "addicted"
+        },
+        {
+          "id": "C",
+          "text": "behavior"
+        },
+        {
+          "id": "D",
+          "text": "constantly"
+        },
+        {
+          "id": "E",
+          "text": "context"
+        },
+        {
+          "id": "F",
+          "text": "exercise"
+        },
+        {
+          "id": "G",
+          "text": "inseparable"
+        },
+        {
+          "id": "H",
+          "text": "nationally"
+        },
+        {
+          "id": "I",
+          "text": "recruited"
+        },
+        {
+          "id": "J",
+          "text": "shape"
+        },
+        {
+          "id": "K",
+          "text": "solution"
+        },
+        {
+          "id": "L",
+          "text": "specific"
+        },
+        {
+          "id": "M",
+          "text": "summary"
+        },
+        {
+          "id": "N",
+          "text": "usage"
+        },
+        {
+          "id": "O",
+          "text": "vaguely"
+        }
+      ],
+      "correctAnswer": "L",
+      "hint": "先看第 31 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 L（specific）。本空所在句：She says it's hardly [31] ____ to teenagers.\n将本空替换为 specific 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-3-nonlistening-q32",
+      "canonicalId": "lazynote-cet4-2022-12-3-q32",
+      "number": 32,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 32 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Phones influence all aspects of teenage life. Ninety-five percent of Americans ages 13 to 17 have a smartphone or have access to one, and nearly half report using the internet \"almost [26] ____ .\"\n\nBut as recent survey data and interviews have suggested, many teens find much of that time to be unsatisfyingly spent. Continuous [27] ____ shouldn't be mistaken for endless enjoyment. A new [28] ____ representative survey about \"screen time and device distractions\" from the Pew Research Center indicates that it's not just parents who think teenagers are worryingly [29] ____ from their phones—many teens themselves do too. Fifty-four percent of the 13- to 17-year-olds surveyed said they spend too much time [30] ____ in their phones.\n\nVicky Rideout, who runs a research firm that studies children's interactions with media and technology, was not surprised by this finding. She says it's hardly [31] ____ to teenagers. \"They are dealing with the same challenges that adults are, as far as they are living in the [32] ____ of a tech environment designed to suck as much of their time onto their devices as possible,\" Rideout says.\n\nThe way parents interact with technology can [33] ____ the way they interact with their kids. Rideout thus thinks it's up to parents to model good [34] ____ : Kids tend to take note if their parents put their phone away at dinner or charge it in another room while they sleep. Witnessing habits like that can help kids \"realize that they can [35] ____ some more control over their devices,\" she says.",
+      "options": [
+        {
+          "id": "A",
+          "text": "absorbed"
+        },
+        {
+          "id": "B",
+          "text": "addicted"
+        },
+        {
+          "id": "C",
+          "text": "behavior"
+        },
+        {
+          "id": "D",
+          "text": "constantly"
+        },
+        {
+          "id": "E",
+          "text": "context"
+        },
+        {
+          "id": "F",
+          "text": "exercise"
+        },
+        {
+          "id": "G",
+          "text": "inseparable"
+        },
+        {
+          "id": "H",
+          "text": "nationally"
+        },
+        {
+          "id": "I",
+          "text": "recruited"
+        },
+        {
+          "id": "J",
+          "text": "shape"
+        },
+        {
+          "id": "K",
+          "text": "solution"
+        },
+        {
+          "id": "L",
+          "text": "specific"
+        },
+        {
+          "id": "M",
+          "text": "summary"
+        },
+        {
+          "id": "N",
+          "text": "usage"
+        },
+        {
+          "id": "O",
+          "text": "vaguely"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "先看第 32 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 E（context）。本空所在句：\"They are dealing with the same challenges that adults are, as far as they are living in the [32] ____ of a tech environment designed to suck as much of their time onto their devices as possible,\" Rideout says.\n将本空替换为 context 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-3-nonlistening-q33",
+      "canonicalId": "lazynote-cet4-2022-12-3-q33",
+      "number": 33,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 33 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Phones influence all aspects of teenage life. Ninety-five percent of Americans ages 13 to 17 have a smartphone or have access to one, and nearly half report using the internet \"almost [26] ____ .\"\n\nBut as recent survey data and interviews have suggested, many teens find much of that time to be unsatisfyingly spent. Continuous [27] ____ shouldn't be mistaken for endless enjoyment. A new [28] ____ representative survey about \"screen time and device distractions\" from the Pew Research Center indicates that it's not just parents who think teenagers are worryingly [29] ____ from their phones—many teens themselves do too. Fifty-four percent of the 13- to 17-year-olds surveyed said they spend too much time [30] ____ in their phones.\n\nVicky Rideout, who runs a research firm that studies children's interactions with media and technology, was not surprised by this finding. She says it's hardly [31] ____ to teenagers. \"They are dealing with the same challenges that adults are, as far as they are living in the [32] ____ of a tech environment designed to suck as much of their time onto their devices as possible,\" Rideout says.\n\nThe way parents interact with technology can [33] ____ the way they interact with their kids. Rideout thus thinks it's up to parents to model good [34] ____ : Kids tend to take note if their parents put their phone away at dinner or charge it in another room while they sleep. Witnessing habits like that can help kids \"realize that they can [35] ____ some more control over their devices,\" she says.",
+      "options": [
+        {
+          "id": "A",
+          "text": "absorbed"
+        },
+        {
+          "id": "B",
+          "text": "addicted"
+        },
+        {
+          "id": "C",
+          "text": "behavior"
+        },
+        {
+          "id": "D",
+          "text": "constantly"
+        },
+        {
+          "id": "E",
+          "text": "context"
+        },
+        {
+          "id": "F",
+          "text": "exercise"
+        },
+        {
+          "id": "G",
+          "text": "inseparable"
+        },
+        {
+          "id": "H",
+          "text": "nationally"
+        },
+        {
+          "id": "I",
+          "text": "recruited"
+        },
+        {
+          "id": "J",
+          "text": "shape"
+        },
+        {
+          "id": "K",
+          "text": "solution"
+        },
+        {
+          "id": "L",
+          "text": "specific"
+        },
+        {
+          "id": "M",
+          "text": "summary"
+        },
+        {
+          "id": "N",
+          "text": "usage"
+        },
+        {
+          "id": "O",
+          "text": "vaguely"
+        }
+      ],
+      "correctAnswer": "J",
+      "hint": "先看第 33 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 J（shape）。本空所在句：The way parents interact with technology can [33] ____ the way they interact with their kids.\n将本空替换为 shape 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-3-nonlistening-q34",
+      "canonicalId": "lazynote-cet4-2022-12-3-q34",
+      "number": 34,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 34 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Phones influence all aspects of teenage life. Ninety-five percent of Americans ages 13 to 17 have a smartphone or have access to one, and nearly half report using the internet \"almost [26] ____ .\"\n\nBut as recent survey data and interviews have suggested, many teens find much of that time to be unsatisfyingly spent. Continuous [27] ____ shouldn't be mistaken for endless enjoyment. A new [28] ____ representative survey about \"screen time and device distractions\" from the Pew Research Center indicates that it's not just parents who think teenagers are worryingly [29] ____ from their phones—many teens themselves do too. Fifty-four percent of the 13- to 17-year-olds surveyed said they spend too much time [30] ____ in their phones.\n\nVicky Rideout, who runs a research firm that studies children's interactions with media and technology, was not surprised by this finding. She says it's hardly [31] ____ to teenagers. \"They are dealing with the same challenges that adults are, as far as they are living in the [32] ____ of a tech environment designed to suck as much of their time onto their devices as possible,\" Rideout says.\n\nThe way parents interact with technology can [33] ____ the way they interact with their kids. Rideout thus thinks it's up to parents to model good [34] ____ : Kids tend to take note if their parents put their phone away at dinner or charge it in another room while they sleep. Witnessing habits like that can help kids \"realize that they can [35] ____ some more control over their devices,\" she says.",
+      "options": [
+        {
+          "id": "A",
+          "text": "absorbed"
+        },
+        {
+          "id": "B",
+          "text": "addicted"
+        },
+        {
+          "id": "C",
+          "text": "behavior"
+        },
+        {
+          "id": "D",
+          "text": "constantly"
+        },
+        {
+          "id": "E",
+          "text": "context"
+        },
+        {
+          "id": "F",
+          "text": "exercise"
+        },
+        {
+          "id": "G",
+          "text": "inseparable"
+        },
+        {
+          "id": "H",
+          "text": "nationally"
+        },
+        {
+          "id": "I",
+          "text": "recruited"
+        },
+        {
+          "id": "J",
+          "text": "shape"
+        },
+        {
+          "id": "K",
+          "text": "solution"
+        },
+        {
+          "id": "L",
+          "text": "specific"
+        },
+        {
+          "id": "M",
+          "text": "summary"
+        },
+        {
+          "id": "N",
+          "text": "usage"
+        },
+        {
+          "id": "O",
+          "text": "vaguely"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "先看第 34 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 C（behavior）。本空所在句：Rideout thus thinks it's up to parents to model good [34] ____ : Kids tend to take note if their parents put their phone away at dinner or charge it in another room while they sleep.\n将本空替换为 behavior 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-3-nonlistening-q35",
+      "canonicalId": "lazynote-cet4-2022-12-3-q35",
+      "number": 35,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 35 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Phones influence all aspects of teenage life. Ninety-five percent of Americans ages 13 to 17 have a smartphone or have access to one, and nearly half report using the internet \"almost [26] ____ .\"\n\nBut as recent survey data and interviews have suggested, many teens find much of that time to be unsatisfyingly spent. Continuous [27] ____ shouldn't be mistaken for endless enjoyment. A new [28] ____ representative survey about \"screen time and device distractions\" from the Pew Research Center indicates that it's not just parents who think teenagers are worryingly [29] ____ from their phones—many teens themselves do too. Fifty-four percent of the 13- to 17-year-olds surveyed said they spend too much time [30] ____ in their phones.\n\nVicky Rideout, who runs a research firm that studies children's interactions with media and technology, was not surprised by this finding. She says it's hardly [31] ____ to teenagers. \"They are dealing with the same challenges that adults are, as far as they are living in the [32] ____ of a tech environment designed to suck as much of their time onto their devices as possible,\" Rideout says.\n\nThe way parents interact with technology can [33] ____ the way they interact with their kids. Rideout thus thinks it's up to parents to model good [34] ____ : Kids tend to take note if their parents put their phone away at dinner or charge it in another room while they sleep. Witnessing habits like that can help kids \"realize that they can [35] ____ some more control over their devices,\" she says.",
+      "options": [
+        {
+          "id": "A",
+          "text": "absorbed"
+        },
+        {
+          "id": "B",
+          "text": "addicted"
+        },
+        {
+          "id": "C",
+          "text": "behavior"
+        },
+        {
+          "id": "D",
+          "text": "constantly"
+        },
+        {
+          "id": "E",
+          "text": "context"
+        },
+        {
+          "id": "F",
+          "text": "exercise"
+        },
+        {
+          "id": "G",
+          "text": "inseparable"
+        },
+        {
+          "id": "H",
+          "text": "nationally"
+        },
+        {
+          "id": "I",
+          "text": "recruited"
+        },
+        {
+          "id": "J",
+          "text": "shape"
+        },
+        {
+          "id": "K",
+          "text": "solution"
+        },
+        {
+          "id": "L",
+          "text": "specific"
+        },
+        {
+          "id": "M",
+          "text": "summary"
+        },
+        {
+          "id": "N",
+          "text": "usage"
+        },
+        {
+          "id": "O",
+          "text": "vaguely"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "先看第 35 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 F（exercise）。本空所在句：Witnessing habits like that can help kids \"realize that they can [35] ____ some more control over their devices,\" she says.\n将本空替换为 exercise 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-3-nonlistening-q36",
+      "canonicalId": "lazynote-cet4-2022-12-3-q36",
+      "number": 36,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "A behavior that does not conform to social norms may be described as being deviant.",
+      "passage": "Evil Genius\n\nA) A few years ago I found myself teaching a university class on evil. It was for third-year criminology students to help them contextualize theory and research within controversial current topics. It was a huge success. The debates were heated and interesting. I could see people's views change within the course of a single lecture. Over the past 13 years, as a student, lecturer and researcher, I've enjoyed discussing the science of evil with anyone willing to listen. What I like most is destroying the cliche(陈词滥调) of good and evil, and replacing them with scientific insight. We need a more informed way of discussing behavior that at first we cannot, or should not, begin to understand.\n\nB) Without understanding, we risk dehumanizing others, writing off human beings simply because we don't comprehend them. We must try to understand what we have labeled evil. We tend to think evil is something that other people are. We think of ourselves as \"good people\", and even when we do morally wrong things, we understand the context of our decisions. With others, however, it is far easier to write them off. If their actions deviate(偏离) substantially from what we consider acceptable, we may label them evil. We need to be careful with this. Calling someone evil is often similar to saying they cannot change, and perhaps aren't even a human at all. However, when you actually go monster-hunting, and you look deeply at the people behind shocking behavior, you may be surprised.\n\nC) As a child I used to love the Scooby-Doo cartoons. Arriving in their \"Mystery Machine\", the gang would have to find a monster who was terrorizing a neighborhood. They would run around looking for clues and at the end unmask the bad guy. It was always a normal person in a costume. There were no monsters. Like the Scooby crew, we may find ourselves hunting for an easy fix, one word for people who do bad things. But if we take a good look, the word \"evil\" is insufficient—there are no simple explanations for why humans do bad things: instead there are many, and they are all marvelously different.\n\nD) Evil is typically referred to when there is deviance from social norms: formal deviance is the violation of laws, like theft, murder, and attacks, while informal deviance involves violations of social norms, like lying. Evil behavior is typically thought to embrace one or both forms. However, deviance can also describe a behavior that simply differs from the norm.\n\nE) Perhaps this is where we can find the good side of our bad side. Deviating from the norm can make us villains(恶棍), but it can also make us heroes. A child deviates from social pressures when they stand up for another child being bullied in school. A soldier deviates when they choose not to follow orders to kill an innocent civilian. An employee in a big tech company deviates when they expose its wrongdoings.\n\nF) Creativity is also a deviation. Here, too, things are complex. Thinking creatively has given us modern medicine, technology and modern political structures, but it has also given us poison and nuclear weapons. Great benefit and great harm can come from the same human tendency.\n\nG) In a research paper, Evil Genius, published in 2014, the behavioral scientists Francesca Gino and Scott Wiltermuth wanted to examine whether people who behave unethically in one task are more creative than others on a subsequent task, even after controlling for differences in baseline creative skills. The unethical behavior they chose was dishonesty.\n\nH) Over five experiments, researchers gave participants tasks in which they could cheat. In one study, they were given matrices(矩阵) and had to find two numbers that added up to 10. Participants were asked to self-report how well they did at the end of the study: 59% cheated by saying that they solved more matrices than they actually had.\n\nI) After each task, the researchers measured participants' performance on the Remote Associates Test. This shows participants three words at a time that appear to be unrelated, and the person has to think of a fourth word that is associated with all of them. For example, you might get \"Fox, Man, Peep\", or \"Dust, Cereal, Fish\". In order to find the linking words (\"Hole\" for the first, \"Bowl\" for the second) you need to be creative. The more you get right, the more creative you are thought to be because you have come up with uncommon associations.\n\nJ) For every one of the five studies, they found the same thing—participants who cheated in the first task did better on the creativity task. Why? Like other forms of unethical behavior, lying means breaking rules. It involves being deviant, going against the social principle that people should tell the truth. Similarly, being creative involves \"thinking outside the box\", deviating from expectations. They involve similar thought patterns, so stimulating one stimulates the other. Can we learn from this? Perhaps. To be more creative, we could try lying in a controlled environment. Find online logic games and cheat at them, play Scrabble(拼字游戏) with a dictionary, or write a story about something that is untrue? Such tasks can get our brains thinking flexibly, beyond our normal comfort zone. This is not a call to become a compulsive(强迫性的) liar, but a controlled liar.\n\nK) In addition to benefits for creativity, deviance can be a good thing in other ways. Even Philip Zimbardo, the author of the Stanford prison experiment, who showed how easily we can be led to behave badly, believes that the future of deviance research may lie more in understanding extreme pro-social behavior, such as heroism. Like evil, we often view heroism as only a possibility for outliers—for people who are abnormal. But Zimbardo asks: \"What if the capability to act heroically is also fundamentally ordinary and available to all of us?\" Some say we should never meet our heroes, lest they disappoint us when we find out how normal they are. But this should be liberating, not disappointing. We are all capable of behaving like outliers. It's time for us to understand deviance, and realize its potential for good as well as for harm.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 D 段。题干：A behavior that does not conform to social norms may be described as being deviant.\n核对该段原文：Evil is typically referred to when there is deviance from social norms: formal deviance is the violation of laws, like theft, murder, and attacks, while informal deviance involves violations of social norms, like lying. Evil behavior is typically thought to embrace one or both forms. However, deviance can also describe a behavior that simply differs from the norm.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-3-nonlistening-q37",
+      "canonicalId": "lazynote-cet4-2022-12-3-q37",
+      "number": 37,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Various experiments found that participants who cheated in the initial task performed better in the creativity test.",
+      "passage": "Evil Genius\n\nA) A few years ago I found myself teaching a university class on evil. It was for third-year criminology students to help them contextualize theory and research within controversial current topics. It was a huge success. The debates were heated and interesting. I could see people's views change within the course of a single lecture. Over the past 13 years, as a student, lecturer and researcher, I've enjoyed discussing the science of evil with anyone willing to listen. What I like most is destroying the cliche(陈词滥调) of good and evil, and replacing them with scientific insight. We need a more informed way of discussing behavior that at first we cannot, or should not, begin to understand.\n\nB) Without understanding, we risk dehumanizing others, writing off human beings simply because we don't comprehend them. We must try to understand what we have labeled evil. We tend to think evil is something that other people are. We think of ourselves as \"good people\", and even when we do morally wrong things, we understand the context of our decisions. With others, however, it is far easier to write them off. If their actions deviate(偏离) substantially from what we consider acceptable, we may label them evil. We need to be careful with this. Calling someone evil is often similar to saying they cannot change, and perhaps aren't even a human at all. However, when you actually go monster-hunting, and you look deeply at the people behind shocking behavior, you may be surprised.\n\nC) As a child I used to love the Scooby-Doo cartoons. Arriving in their \"Mystery Machine\", the gang would have to find a monster who was terrorizing a neighborhood. They would run around looking for clues and at the end unmask the bad guy. It was always a normal person in a costume. There were no monsters. Like the Scooby crew, we may find ourselves hunting for an easy fix, one word for people who do bad things. But if we take a good look, the word \"evil\" is insufficient—there are no simple explanations for why humans do bad things: instead there are many, and they are all marvelously different.\n\nD) Evil is typically referred to when there is deviance from social norms: formal deviance is the violation of laws, like theft, murder, and attacks, while informal deviance involves violations of social norms, like lying. Evil behavior is typically thought to embrace one or both forms. However, deviance can also describe a behavior that simply differs from the norm.\n\nE) Perhaps this is where we can find the good side of our bad side. Deviating from the norm can make us villains(恶棍), but it can also make us heroes. A child deviates from social pressures when they stand up for another child being bullied in school. A soldier deviates when they choose not to follow orders to kill an innocent civilian. An employee in a big tech company deviates when they expose its wrongdoings.\n\nF) Creativity is also a deviation. Here, too, things are complex. Thinking creatively has given us modern medicine, technology and modern political structures, but it has also given us poison and nuclear weapons. Great benefit and great harm can come from the same human tendency.\n\nG) In a research paper, Evil Genius, published in 2014, the behavioral scientists Francesca Gino and Scott Wiltermuth wanted to examine whether people who behave unethically in one task are more creative than others on a subsequent task, even after controlling for differences in baseline creative skills. The unethical behavior they chose was dishonesty.\n\nH) Over five experiments, researchers gave participants tasks in which they could cheat. In one study, they were given matrices(矩阵) and had to find two numbers that added up to 10. Participants were asked to self-report how well they did at the end of the study: 59% cheated by saying that they solved more matrices than they actually had.\n\nI) After each task, the researchers measured participants' performance on the Remote Associates Test. This shows participants three words at a time that appear to be unrelated, and the person has to think of a fourth word that is associated with all of them. For example, you might get \"Fox, Man, Peep\", or \"Dust, Cereal, Fish\". In order to find the linking words (\"Hole\" for the first, \"Bowl\" for the second) you need to be creative. The more you get right, the more creative you are thought to be because you have come up with uncommon associations.\n\nJ) For every one of the five studies, they found the same thing—participants who cheated in the first task did better on the creativity task. Why? Like other forms of unethical behavior, lying means breaking rules. It involves being deviant, going against the social principle that people should tell the truth. Similarly, being creative involves \"thinking outside the box\", deviating from expectations. They involve similar thought patterns, so stimulating one stimulates the other. Can we learn from this? Perhaps. To be more creative, we could try lying in a controlled environment. Find online logic games and cheat at them, play Scrabble(拼字游戏) with a dictionary, or write a story about something that is untrue? Such tasks can get our brains thinking flexibly, beyond our normal comfort zone. This is not a call to become a compulsive(强迫性的) liar, but a controlled liar.\n\nK) In addition to benefits for creativity, deviance can be a good thing in other ways. Even Philip Zimbardo, the author of the Stanford prison experiment, who showed how easily we can be led to behave badly, believes that the future of deviance research may lie more in understanding extreme pro-social behavior, such as heroism. Like evil, we often view heroism as only a possibility for outliers—for people who are abnormal. But Zimbardo asks: \"What if the capability to act heroically is also fundamentally ordinary and available to all of us?\" Some say we should never meet our heroes, lest they disappoint us when we find out how normal they are. But this should be liberating, not disappointing. We are all capable of behaving like outliers. It's time for us to understand deviance, and realize its potential for good as well as for harm.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "J",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 J 段。题干：Various experiments found that participants who cheated in the initial task performed better in the creativity test.\n核对该段原文：For every one of the five studies, they found the same thing—participants who cheated in the first task did better on the creativity task. Why? Like other forms of unethical behavior, lying means breaking rules. It involves being deviant, going against the social principle that people should tell the truth. Similarly, being creative involves \"thinking outside the box\", deviating from expectations. They involve similar thought patterns, so stimulating one stimulates the other. Can we learn from this? Perhaps. To be more creative, we could try lying in a controlled environment. Find online logic games and cheat at them, play Scrabble(拼字游戏) with a dictionary, or write a story about something that is untrue? Such tasks can get our brains thinking flexibly, beyond our normal comfort zone. This is not a call to become a compulsive(强迫性的) liar, but a controlled liar.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-3-nonlistening-q38",
+      "canonicalId": "lazynote-cet4-2022-12-3-q38",
+      "number": 38,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "People may be simply considered evil if their behaviors are morally unacceptable to us.",
+      "passage": "Evil Genius\n\nA) A few years ago I found myself teaching a university class on evil. It was for third-year criminology students to help them contextualize theory and research within controversial current topics. It was a huge success. The debates were heated and interesting. I could see people's views change within the course of a single lecture. Over the past 13 years, as a student, lecturer and researcher, I've enjoyed discussing the science of evil with anyone willing to listen. What I like most is destroying the cliche(陈词滥调) of good and evil, and replacing them with scientific insight. We need a more informed way of discussing behavior that at first we cannot, or should not, begin to understand.\n\nB) Without understanding, we risk dehumanizing others, writing off human beings simply because we don't comprehend them. We must try to understand what we have labeled evil. We tend to think evil is something that other people are. We think of ourselves as \"good people\", and even when we do morally wrong things, we understand the context of our decisions. With others, however, it is far easier to write them off. If their actions deviate(偏离) substantially from what we consider acceptable, we may label them evil. We need to be careful with this. Calling someone evil is often similar to saying they cannot change, and perhaps aren't even a human at all. However, when you actually go monster-hunting, and you look deeply at the people behind shocking behavior, you may be surprised.\n\nC) As a child I used to love the Scooby-Doo cartoons. Arriving in their \"Mystery Machine\", the gang would have to find a monster who was terrorizing a neighborhood. They would run around looking for clues and at the end unmask the bad guy. It was always a normal person in a costume. There were no monsters. Like the Scooby crew, we may find ourselves hunting for an easy fix, one word for people who do bad things. But if we take a good look, the word \"evil\" is insufficient—there are no simple explanations for why humans do bad things: instead there are many, and they are all marvelously different.\n\nD) Evil is typically referred to when there is deviance from social norms: formal deviance is the violation of laws, like theft, murder, and attacks, while informal deviance involves violations of social norms, like lying. Evil behavior is typically thought to embrace one or both forms. However, deviance can also describe a behavior that simply differs from the norm.\n\nE) Perhaps this is where we can find the good side of our bad side. Deviating from the norm can make us villains(恶棍), but it can also make us heroes. A child deviates from social pressures when they stand up for another child being bullied in school. A soldier deviates when they choose not to follow orders to kill an innocent civilian. An employee in a big tech company deviates when they expose its wrongdoings.\n\nF) Creativity is also a deviation. Here, too, things are complex. Thinking creatively has given us modern medicine, technology and modern political structures, but it has also given us poison and nuclear weapons. Great benefit and great harm can come from the same human tendency.\n\nG) In a research paper, Evil Genius, published in 2014, the behavioral scientists Francesca Gino and Scott Wiltermuth wanted to examine whether people who behave unethically in one task are more creative than others on a subsequent task, even after controlling for differences in baseline creative skills. The unethical behavior they chose was dishonesty.\n\nH) Over five experiments, researchers gave participants tasks in which they could cheat. In one study, they were given matrices(矩阵) and had to find two numbers that added up to 10. Participants were asked to self-report how well they did at the end of the study: 59% cheated by saying that they solved more matrices than they actually had.\n\nI) After each task, the researchers measured participants' performance on the Remote Associates Test. This shows participants three words at a time that appear to be unrelated, and the person has to think of a fourth word that is associated with all of them. For example, you might get \"Fox, Man, Peep\", or \"Dust, Cereal, Fish\". In order to find the linking words (\"Hole\" for the first, \"Bowl\" for the second) you need to be creative. The more you get right, the more creative you are thought to be because you have come up with uncommon associations.\n\nJ) For every one of the five studies, they found the same thing—participants who cheated in the first task did better on the creativity task. Why? Like other forms of unethical behavior, lying means breaking rules. It involves being deviant, going against the social principle that people should tell the truth. Similarly, being creative involves \"thinking outside the box\", deviating from expectations. They involve similar thought patterns, so stimulating one stimulates the other. Can we learn from this? Perhaps. To be more creative, we could try lying in a controlled environment. Find online logic games and cheat at them, play Scrabble(拼字游戏) with a dictionary, or write a story about something that is untrue? Such tasks can get our brains thinking flexibly, beyond our normal comfort zone. This is not a call to become a compulsive(强迫性的) liar, but a controlled liar.\n\nK) In addition to benefits for creativity, deviance can be a good thing in other ways. Even Philip Zimbardo, the author of the Stanford prison experiment, who showed how easily we can be led to behave badly, believes that the future of deviance research may lie more in understanding extreme pro-social behavior, such as heroism. Like evil, we often view heroism as only a possibility for outliers—for people who are abnormal. But Zimbardo asks: \"What if the capability to act heroically is also fundamentally ordinary and available to all of us?\" Some say we should never meet our heroes, lest they disappoint us when we find out how normal they are. But this should be liberating, not disappointing. We are all capable of behaving like outliers. It's time for us to understand deviance, and realize its potential for good as well as for harm.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 B 段。题干：People may be simply considered evil if their behaviors are morally unacceptable to us.\n核对该段原文：Without understanding, we risk dehumanizing others, writing off human beings simply because we don't comprehend them. We must try to understand what we have labeled evil. We tend to think evil is something that other people are. We think of ourselves as \"good people\", and even when we do morally wrong things, we understand the context of our decisions. With others, however, it is far easier to write them off. If their actions deviate(偏离) substantially from what we consider acceptable, we may label them evil. We need to be careful with this. Calling someone evil is often similar to saying they cannot change, and perhaps aren't even a human at all. However, when you actually go monster-hunting, and you look deeply at the people behind shocking behavior, you may be surprised.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-3-nonlistening-q39",
+      "canonicalId": "lazynote-cet4-2022-12-3-q39",
+      "number": 39,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The research published by two scientists was intended to examine the relationship between dishonesty and creativity.",
+      "passage": "Evil Genius\n\nA) A few years ago I found myself teaching a university class on evil. It was for third-year criminology students to help them contextualize theory and research within controversial current topics. It was a huge success. The debates were heated and interesting. I could see people's views change within the course of a single lecture. Over the past 13 years, as a student, lecturer and researcher, I've enjoyed discussing the science of evil with anyone willing to listen. What I like most is destroying the cliche(陈词滥调) of good and evil, and replacing them with scientific insight. We need a more informed way of discussing behavior that at first we cannot, or should not, begin to understand.\n\nB) Without understanding, we risk dehumanizing others, writing off human beings simply because we don't comprehend them. We must try to understand what we have labeled evil. We tend to think evil is something that other people are. We think of ourselves as \"good people\", and even when we do morally wrong things, we understand the context of our decisions. With others, however, it is far easier to write them off. If their actions deviate(偏离) substantially from what we consider acceptable, we may label them evil. We need to be careful with this. Calling someone evil is often similar to saying they cannot change, and perhaps aren't even a human at all. However, when you actually go monster-hunting, and you look deeply at the people behind shocking behavior, you may be surprised.\n\nC) As a child I used to love the Scooby-Doo cartoons. Arriving in their \"Mystery Machine\", the gang would have to find a monster who was terrorizing a neighborhood. They would run around looking for clues and at the end unmask the bad guy. It was always a normal person in a costume. There were no monsters. Like the Scooby crew, we may find ourselves hunting for an easy fix, one word for people who do bad things. But if we take a good look, the word \"evil\" is insufficient—there are no simple explanations for why humans do bad things: instead there are many, and they are all marvelously different.\n\nD) Evil is typically referred to when there is deviance from social norms: formal deviance is the violation of laws, like theft, murder, and attacks, while informal deviance involves violations of social norms, like lying. Evil behavior is typically thought to embrace one or both forms. However, deviance can also describe a behavior that simply differs from the norm.\n\nE) Perhaps this is where we can find the good side of our bad side. Deviating from the norm can make us villains(恶棍), but it can also make us heroes. A child deviates from social pressures when they stand up for another child being bullied in school. A soldier deviates when they choose not to follow orders to kill an innocent civilian. An employee in a big tech company deviates when they expose its wrongdoings.\n\nF) Creativity is also a deviation. Here, too, things are complex. Thinking creatively has given us modern medicine, technology and modern political structures, but it has also given us poison and nuclear weapons. Great benefit and great harm can come from the same human tendency.\n\nG) In a research paper, Evil Genius, published in 2014, the behavioral scientists Francesca Gino and Scott Wiltermuth wanted to examine whether people who behave unethically in one task are more creative than others on a subsequent task, even after controlling for differences in baseline creative skills. The unethical behavior they chose was dishonesty.\n\nH) Over five experiments, researchers gave participants tasks in which they could cheat. In one study, they were given matrices(矩阵) and had to find two numbers that added up to 10. Participants were asked to self-report how well they did at the end of the study: 59% cheated by saying that they solved more matrices than they actually had.\n\nI) After each task, the researchers measured participants' performance on the Remote Associates Test. This shows participants three words at a time that appear to be unrelated, and the person has to think of a fourth word that is associated with all of them. For example, you might get \"Fox, Man, Peep\", or \"Dust, Cereal, Fish\". In order to find the linking words (\"Hole\" for the first, \"Bowl\" for the second) you need to be creative. The more you get right, the more creative you are thought to be because you have come up with uncommon associations.\n\nJ) For every one of the five studies, they found the same thing—participants who cheated in the first task did better on the creativity task. Why? Like other forms of unethical behavior, lying means breaking rules. It involves being deviant, going against the social principle that people should tell the truth. Similarly, being creative involves \"thinking outside the box\", deviating from expectations. They involve similar thought patterns, so stimulating one stimulates the other. Can we learn from this? Perhaps. To be more creative, we could try lying in a controlled environment. Find online logic games and cheat at them, play Scrabble(拼字游戏) with a dictionary, or write a story about something that is untrue? Such tasks can get our brains thinking flexibly, beyond our normal comfort zone. This is not a call to become a compulsive(强迫性的) liar, but a controlled liar.\n\nK) In addition to benefits for creativity, deviance can be a good thing in other ways. Even Philip Zimbardo, the author of the Stanford prison experiment, who showed how easily we can be led to behave badly, believes that the future of deviance research may lie more in understanding extreme pro-social behavior, such as heroism. Like evil, we often view heroism as only a possibility for outliers—for people who are abnormal. But Zimbardo asks: \"What if the capability to act heroically is also fundamentally ordinary and available to all of us?\" Some say we should never meet our heroes, lest they disappoint us when we find out how normal they are. But this should be liberating, not disappointing. We are all capable of behaving like outliers. It's time for us to understand deviance, and realize its potential for good as well as for harm.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 G 段。题干：The research published by two scientists was intended to examine the relationship between dishonesty and creativity.\n核对该段原文：In a research paper, Evil Genius, published in 2014, the behavioral scientists Francesca Gino and Scott Wiltermuth wanted to examine whether people who behave unethically in one task are more creative than others on a subsequent task, even after controlling for differences in baseline creative skills. The unethical behavior they chose was dishonesty.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-3-nonlistening-q40",
+      "canonicalId": "lazynote-cet4-2022-12-3-q40",
+      "number": 40,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The author's lectures sparked lively discussions in his class.",
+      "passage": "Evil Genius\n\nA) A few years ago I found myself teaching a university class on evil. It was for third-year criminology students to help them contextualize theory and research within controversial current topics. It was a huge success. The debates were heated and interesting. I could see people's views change within the course of a single lecture. Over the past 13 years, as a student, lecturer and researcher, I've enjoyed discussing the science of evil with anyone willing to listen. What I like most is destroying the cliche(陈词滥调) of good and evil, and replacing them with scientific insight. We need a more informed way of discussing behavior that at first we cannot, or should not, begin to understand.\n\nB) Without understanding, we risk dehumanizing others, writing off human beings simply because we don't comprehend them. We must try to understand what we have labeled evil. We tend to think evil is something that other people are. We think of ourselves as \"good people\", and even when we do morally wrong things, we understand the context of our decisions. With others, however, it is far easier to write them off. If their actions deviate(偏离) substantially from what we consider acceptable, we may label them evil. We need to be careful with this. Calling someone evil is often similar to saying they cannot change, and perhaps aren't even a human at all. However, when you actually go monster-hunting, and you look deeply at the people behind shocking behavior, you may be surprised.\n\nC) As a child I used to love the Scooby-Doo cartoons. Arriving in their \"Mystery Machine\", the gang would have to find a monster who was terrorizing a neighborhood. They would run around looking for clues and at the end unmask the bad guy. It was always a normal person in a costume. There were no monsters. Like the Scooby crew, we may find ourselves hunting for an easy fix, one word for people who do bad things. But if we take a good look, the word \"evil\" is insufficient—there are no simple explanations for why humans do bad things: instead there are many, and they are all marvelously different.\n\nD) Evil is typically referred to when there is deviance from social norms: formal deviance is the violation of laws, like theft, murder, and attacks, while informal deviance involves violations of social norms, like lying. Evil behavior is typically thought to embrace one or both forms. However, deviance can also describe a behavior that simply differs from the norm.\n\nE) Perhaps this is where we can find the good side of our bad side. Deviating from the norm can make us villains(恶棍), but it can also make us heroes. A child deviates from social pressures when they stand up for another child being bullied in school. A soldier deviates when they choose not to follow orders to kill an innocent civilian. An employee in a big tech company deviates when they expose its wrongdoings.\n\nF) Creativity is also a deviation. Here, too, things are complex. Thinking creatively has given us modern medicine, technology and modern political structures, but it has also given us poison and nuclear weapons. Great benefit and great harm can come from the same human tendency.\n\nG) In a research paper, Evil Genius, published in 2014, the behavioral scientists Francesca Gino and Scott Wiltermuth wanted to examine whether people who behave unethically in one task are more creative than others on a subsequent task, even after controlling for differences in baseline creative skills. The unethical behavior they chose was dishonesty.\n\nH) Over five experiments, researchers gave participants tasks in which they could cheat. In one study, they were given matrices(矩阵) and had to find two numbers that added up to 10. Participants were asked to self-report how well they did at the end of the study: 59% cheated by saying that they solved more matrices than they actually had.\n\nI) After each task, the researchers measured participants' performance on the Remote Associates Test. This shows participants three words at a time that appear to be unrelated, and the person has to think of a fourth word that is associated with all of them. For example, you might get \"Fox, Man, Peep\", or \"Dust, Cereal, Fish\". In order to find the linking words (\"Hole\" for the first, \"Bowl\" for the second) you need to be creative. The more you get right, the more creative you are thought to be because you have come up with uncommon associations.\n\nJ) For every one of the five studies, they found the same thing—participants who cheated in the first task did better on the creativity task. Why? Like other forms of unethical behavior, lying means breaking rules. It involves being deviant, going against the social principle that people should tell the truth. Similarly, being creative involves \"thinking outside the box\", deviating from expectations. They involve similar thought patterns, so stimulating one stimulates the other. Can we learn from this? Perhaps. To be more creative, we could try lying in a controlled environment. Find online logic games and cheat at them, play Scrabble(拼字游戏) with a dictionary, or write a story about something that is untrue? Such tasks can get our brains thinking flexibly, beyond our normal comfort zone. This is not a call to become a compulsive(强迫性的) liar, but a controlled liar.\n\nK) In addition to benefits for creativity, deviance can be a good thing in other ways. Even Philip Zimbardo, the author of the Stanford prison experiment, who showed how easily we can be led to behave badly, believes that the future of deviance research may lie more in understanding extreme pro-social behavior, such as heroism. Like evil, we often view heroism as only a possibility for outliers—for people who are abnormal. But Zimbardo asks: \"What if the capability to act heroically is also fundamentally ordinary and available to all of us?\" Some say we should never meet our heroes, lest they disappoint us when we find out how normal they are. But this should be liberating, not disappointing. We are all capable of behaving like outliers. It's time for us to understand deviance, and realize its potential for good as well as for harm.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 A 段。题干：The author's lectures sparked lively discussions in his class.\n核对该段原文：A few years ago I found myself teaching a university class on evil. It was for third-year criminology students to help them contextualize theory and research within controversial current topics. It was a huge success. The debates were heated and interesting. I could see people's views change within the course of a single lecture. Over the past 13 years, as a student, lecturer and researcher, I've enjoyed discussing the science of evil with anyone willing to listen. What I like most is destroying the cliche(陈词滥调) of good and evil, and replacing them with scientific insight. We need a more informed way of discussing behavior that at first we cannot, or should not, begin to understand.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-3-nonlistening-q41",
+      "canonicalId": "lazynote-cet4-2022-12-3-q41",
+      "number": 41,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The researchers tested the participants' creativity by asking them to play a word game.",
+      "passage": "Evil Genius\n\nA) A few years ago I found myself teaching a university class on evil. It was for third-year criminology students to help them contextualize theory and research within controversial current topics. It was a huge success. The debates were heated and interesting. I could see people's views change within the course of a single lecture. Over the past 13 years, as a student, lecturer and researcher, I've enjoyed discussing the science of evil with anyone willing to listen. What I like most is destroying the cliche(陈词滥调) of good and evil, and replacing them with scientific insight. We need a more informed way of discussing behavior that at first we cannot, or should not, begin to understand.\n\nB) Without understanding, we risk dehumanizing others, writing off human beings simply because we don't comprehend them. We must try to understand what we have labeled evil. We tend to think evil is something that other people are. We think of ourselves as \"good people\", and even when we do morally wrong things, we understand the context of our decisions. With others, however, it is far easier to write them off. If their actions deviate(偏离) substantially from what we consider acceptable, we may label them evil. We need to be careful with this. Calling someone evil is often similar to saying they cannot change, and perhaps aren't even a human at all. However, when you actually go monster-hunting, and you look deeply at the people behind shocking behavior, you may be surprised.\n\nC) As a child I used to love the Scooby-Doo cartoons. Arriving in their \"Mystery Machine\", the gang would have to find a monster who was terrorizing a neighborhood. They would run around looking for clues and at the end unmask the bad guy. It was always a normal person in a costume. There were no monsters. Like the Scooby crew, we may find ourselves hunting for an easy fix, one word for people who do bad things. But if we take a good look, the word \"evil\" is insufficient—there are no simple explanations for why humans do bad things: instead there are many, and they are all marvelously different.\n\nD) Evil is typically referred to when there is deviance from social norms: formal deviance is the violation of laws, like theft, murder, and attacks, while informal deviance involves violations of social norms, like lying. Evil behavior is typically thought to embrace one or both forms. However, deviance can also describe a behavior that simply differs from the norm.\n\nE) Perhaps this is where we can find the good side of our bad side. Deviating from the norm can make us villains(恶棍), but it can also make us heroes. A child deviates from social pressures when they stand up for another child being bullied in school. A soldier deviates when they choose not to follow orders to kill an innocent civilian. An employee in a big tech company deviates when they expose its wrongdoings.\n\nF) Creativity is also a deviation. Here, too, things are complex. Thinking creatively has given us modern medicine, technology and modern political structures, but it has also given us poison and nuclear weapons. Great benefit and great harm can come from the same human tendency.\n\nG) In a research paper, Evil Genius, published in 2014, the behavioral scientists Francesca Gino and Scott Wiltermuth wanted to examine whether people who behave unethically in one task are more creative than others on a subsequent task, even after controlling for differences in baseline creative skills. The unethical behavior they chose was dishonesty.\n\nH) Over five experiments, researchers gave participants tasks in which they could cheat. In one study, they were given matrices(矩阵) and had to find two numbers that added up to 10. Participants were asked to self-report how well they did at the end of the study: 59% cheated by saying that they solved more matrices than they actually had.\n\nI) After each task, the researchers measured participants' performance on the Remote Associates Test. This shows participants three words at a time that appear to be unrelated, and the person has to think of a fourth word that is associated with all of them. For example, you might get \"Fox, Man, Peep\", or \"Dust, Cereal, Fish\". In order to find the linking words (\"Hole\" for the first, \"Bowl\" for the second) you need to be creative. The more you get right, the more creative you are thought to be because you have come up with uncommon associations.\n\nJ) For every one of the five studies, they found the same thing—participants who cheated in the first task did better on the creativity task. Why? Like other forms of unethical behavior, lying means breaking rules. It involves being deviant, going against the social principle that people should tell the truth. Similarly, being creative involves \"thinking outside the box\", deviating from expectations. They involve similar thought patterns, so stimulating one stimulates the other. Can we learn from this? Perhaps. To be more creative, we could try lying in a controlled environment. Find online logic games and cheat at them, play Scrabble(拼字游戏) with a dictionary, or write a story about something that is untrue? Such tasks can get our brains thinking flexibly, beyond our normal comfort zone. This is not a call to become a compulsive(强迫性的) liar, but a controlled liar.\n\nK) In addition to benefits for creativity, deviance can be a good thing in other ways. Even Philip Zimbardo, the author of the Stanford prison experiment, who showed how easily we can be led to behave badly, believes that the future of deviance research may lie more in understanding extreme pro-social behavior, such as heroism. Like evil, we often view heroism as only a possibility for outliers—for people who are abnormal. But Zimbardo asks: \"What if the capability to act heroically is also fundamentally ordinary and available to all of us?\" Some say we should never meet our heroes, lest they disappoint us when we find out how normal they are. But this should be liberating, not disappointing. We are all capable of behaving like outliers. It's time for us to understand deviance, and realize its potential for good as well as for harm.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 I 段。题干：The researchers tested the participants' creativity by asking them to play a word game.\n核对该段原文：After each task, the researchers measured participants' performance on the Remote Associates Test. This shows participants three words at a time that appear to be unrelated, and the person has to think of a fourth word that is associated with all of them. For example, you might get \"Fox, Man, Peep\", or \"Dust, Cereal, Fish\". In order to find the linking words (\"Hole\" for the first, \"Bowl\" for the second) you need to be creative. The more you get right, the more creative you are thought to be because you have come up with uncommon associations.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-3-nonlistening-q42",
+      "canonicalId": "lazynote-cet4-2022-12-3-q42",
+      "number": 42,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "It is time we realized that deviance may be capable of doing both good and harm to individuals and society.",
+      "passage": "Evil Genius\n\nA) A few years ago I found myself teaching a university class on evil. It was for third-year criminology students to help them contextualize theory and research within controversial current topics. It was a huge success. The debates were heated and interesting. I could see people's views change within the course of a single lecture. Over the past 13 years, as a student, lecturer and researcher, I've enjoyed discussing the science of evil with anyone willing to listen. What I like most is destroying the cliche(陈词滥调) of good and evil, and replacing them with scientific insight. We need a more informed way of discussing behavior that at first we cannot, or should not, begin to understand.\n\nB) Without understanding, we risk dehumanizing others, writing off human beings simply because we don't comprehend them. We must try to understand what we have labeled evil. We tend to think evil is something that other people are. We think of ourselves as \"good people\", and even when we do morally wrong things, we understand the context of our decisions. With others, however, it is far easier to write them off. If their actions deviate(偏离) substantially from what we consider acceptable, we may label them evil. We need to be careful with this. Calling someone evil is often similar to saying they cannot change, and perhaps aren't even a human at all. However, when you actually go monster-hunting, and you look deeply at the people behind shocking behavior, you may be surprised.\n\nC) As a child I used to love the Scooby-Doo cartoons. Arriving in their \"Mystery Machine\", the gang would have to find a monster who was terrorizing a neighborhood. They would run around looking for clues and at the end unmask the bad guy. It was always a normal person in a costume. There were no monsters. Like the Scooby crew, we may find ourselves hunting for an easy fix, one word for people who do bad things. But if we take a good look, the word \"evil\" is insufficient—there are no simple explanations for why humans do bad things: instead there are many, and they are all marvelously different.\n\nD) Evil is typically referred to when there is deviance from social norms: formal deviance is the violation of laws, like theft, murder, and attacks, while informal deviance involves violations of social norms, like lying. Evil behavior is typically thought to embrace one or both forms. However, deviance can also describe a behavior that simply differs from the norm.\n\nE) Perhaps this is where we can find the good side of our bad side. Deviating from the norm can make us villains(恶棍), but it can also make us heroes. A child deviates from social pressures when they stand up for another child being bullied in school. A soldier deviates when they choose not to follow orders to kill an innocent civilian. An employee in a big tech company deviates when they expose its wrongdoings.\n\nF) Creativity is also a deviation. Here, too, things are complex. Thinking creatively has given us modern medicine, technology and modern political structures, but it has also given us poison and nuclear weapons. Great benefit and great harm can come from the same human tendency.\n\nG) In a research paper, Evil Genius, published in 2014, the behavioral scientists Francesca Gino and Scott Wiltermuth wanted to examine whether people who behave unethically in one task are more creative than others on a subsequent task, even after controlling for differences in baseline creative skills. The unethical behavior they chose was dishonesty.\n\nH) Over five experiments, researchers gave participants tasks in which they could cheat. In one study, they were given matrices(矩阵) and had to find two numbers that added up to 10. Participants were asked to self-report how well they did at the end of the study: 59% cheated by saying that they solved more matrices than they actually had.\n\nI) After each task, the researchers measured participants' performance on the Remote Associates Test. This shows participants three words at a time that appear to be unrelated, and the person has to think of a fourth word that is associated with all of them. For example, you might get \"Fox, Man, Peep\", or \"Dust, Cereal, Fish\". In order to find the linking words (\"Hole\" for the first, \"Bowl\" for the second) you need to be creative. The more you get right, the more creative you are thought to be because you have come up with uncommon associations.\n\nJ) For every one of the five studies, they found the same thing—participants who cheated in the first task did better on the creativity task. Why? Like other forms of unethical behavior, lying means breaking rules. It involves being deviant, going against the social principle that people should tell the truth. Similarly, being creative involves \"thinking outside the box\", deviating from expectations. They involve similar thought patterns, so stimulating one stimulates the other. Can we learn from this? Perhaps. To be more creative, we could try lying in a controlled environment. Find online logic games and cheat at them, play Scrabble(拼字游戏) with a dictionary, or write a story about something that is untrue? Such tasks can get our brains thinking flexibly, beyond our normal comfort zone. This is not a call to become a compulsive(强迫性的) liar, but a controlled liar.\n\nK) In addition to benefits for creativity, deviance can be a good thing in other ways. Even Philip Zimbardo, the author of the Stanford prison experiment, who showed how easily we can be led to behave badly, believes that the future of deviance research may lie more in understanding extreme pro-social behavior, such as heroism. Like evil, we often view heroism as only a possibility for outliers—for people who are abnormal. But Zimbardo asks: \"What if the capability to act heroically is also fundamentally ordinary and available to all of us?\" Some say we should never meet our heroes, lest they disappoint us when we find out how normal they are. But this should be liberating, not disappointing. We are all capable of behaving like outliers. It's time for us to understand deviance, and realize its potential for good as well as for harm.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 K 段。题干：It is time we realized that deviance may be capable of doing both good and harm to individuals and society.\n核对该段原文：In addition to benefits for creativity, deviance can be a good thing in other ways. Even Philip Zimbardo, the author of the Stanford prison experiment, who showed how easily we can be led to behave badly, believes that the future of deviance research may lie more in understanding extreme pro-social behavior, such as heroism. Like evil, we often view heroism as only a possibility for outliers—for people who are abnormal. But Zimbardo asks: \"What if the capability to act heroically is also fundamentally ordinary and available to all of us?\" Some say we should never meet our heroes, lest they disappoint us when we find out how normal they are. But this should be liberating, not disappointing. We are all capable of behaving like outliers. It's time for us to understand deviance, and realize its potential for good as well as for harm.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-3-nonlistening-q43",
+      "canonicalId": "lazynote-cet4-2022-12-3-q43",
+      "number": 43,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The reasons for people's evil behaviors can be explained in more ways than one.",
+      "passage": "Evil Genius\n\nA) A few years ago I found myself teaching a university class on evil. It was for third-year criminology students to help them contextualize theory and research within controversial current topics. It was a huge success. The debates were heated and interesting. I could see people's views change within the course of a single lecture. Over the past 13 years, as a student, lecturer and researcher, I've enjoyed discussing the science of evil with anyone willing to listen. What I like most is destroying the cliche(陈词滥调) of good and evil, and replacing them with scientific insight. We need a more informed way of discussing behavior that at first we cannot, or should not, begin to understand.\n\nB) Without understanding, we risk dehumanizing others, writing off human beings simply because we don't comprehend them. We must try to understand what we have labeled evil. We tend to think evil is something that other people are. We think of ourselves as \"good people\", and even when we do morally wrong things, we understand the context of our decisions. With others, however, it is far easier to write them off. If their actions deviate(偏离) substantially from what we consider acceptable, we may label them evil. We need to be careful with this. Calling someone evil is often similar to saying they cannot change, and perhaps aren't even a human at all. However, when you actually go monster-hunting, and you look deeply at the people behind shocking behavior, you may be surprised.\n\nC) As a child I used to love the Scooby-Doo cartoons. Arriving in their \"Mystery Machine\", the gang would have to find a monster who was terrorizing a neighborhood. They would run around looking for clues and at the end unmask the bad guy. It was always a normal person in a costume. There were no monsters. Like the Scooby crew, we may find ourselves hunting for an easy fix, one word for people who do bad things. But if we take a good look, the word \"evil\" is insufficient—there are no simple explanations for why humans do bad things: instead there are many, and they are all marvelously different.\n\nD) Evil is typically referred to when there is deviance from social norms: formal deviance is the violation of laws, like theft, murder, and attacks, while informal deviance involves violations of social norms, like lying. Evil behavior is typically thought to embrace one or both forms. However, deviance can also describe a behavior that simply differs from the norm.\n\nE) Perhaps this is where we can find the good side of our bad side. Deviating from the norm can make us villains(恶棍), but it can also make us heroes. A child deviates from social pressures when they stand up for another child being bullied in school. A soldier deviates when they choose not to follow orders to kill an innocent civilian. An employee in a big tech company deviates when they expose its wrongdoings.\n\nF) Creativity is also a deviation. Here, too, things are complex. Thinking creatively has given us modern medicine, technology and modern political structures, but it has also given us poison and nuclear weapons. Great benefit and great harm can come from the same human tendency.\n\nG) In a research paper, Evil Genius, published in 2014, the behavioral scientists Francesca Gino and Scott Wiltermuth wanted to examine whether people who behave unethically in one task are more creative than others on a subsequent task, even after controlling for differences in baseline creative skills. The unethical behavior they chose was dishonesty.\n\nH) Over five experiments, researchers gave participants tasks in which they could cheat. In one study, they were given matrices(矩阵) and had to find two numbers that added up to 10. Participants were asked to self-report how well they did at the end of the study: 59% cheated by saying that they solved more matrices than they actually had.\n\nI) After each task, the researchers measured participants' performance on the Remote Associates Test. This shows participants three words at a time that appear to be unrelated, and the person has to think of a fourth word that is associated with all of them. For example, you might get \"Fox, Man, Peep\", or \"Dust, Cereal, Fish\". In order to find the linking words (\"Hole\" for the first, \"Bowl\" for the second) you need to be creative. The more you get right, the more creative you are thought to be because you have come up with uncommon associations.\n\nJ) For every one of the five studies, they found the same thing—participants who cheated in the first task did better on the creativity task. Why? Like other forms of unethical behavior, lying means breaking rules. It involves being deviant, going against the social principle that people should tell the truth. Similarly, being creative involves \"thinking outside the box\", deviating from expectations. They involve similar thought patterns, so stimulating one stimulates the other. Can we learn from this? Perhaps. To be more creative, we could try lying in a controlled environment. Find online logic games and cheat at them, play Scrabble(拼字游戏) with a dictionary, or write a story about something that is untrue? Such tasks can get our brains thinking flexibly, beyond our normal comfort zone. This is not a call to become a compulsive(强迫性的) liar, but a controlled liar.\n\nK) In addition to benefits for creativity, deviance can be a good thing in other ways. Even Philip Zimbardo, the author of the Stanford prison experiment, who showed how easily we can be led to behave badly, believes that the future of deviance research may lie more in understanding extreme pro-social behavior, such as heroism. Like evil, we often view heroism as only a possibility for outliers—for people who are abnormal. But Zimbardo asks: \"What if the capability to act heroically is also fundamentally ordinary and available to all of us?\" Some say we should never meet our heroes, lest they disappoint us when we find out how normal they are. But this should be liberating, not disappointing. We are all capable of behaving like outliers. It's time for us to understand deviance, and realize its potential for good as well as for harm.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 C 段。题干：The reasons for people's evil behaviors can be explained in more ways than one.\n核对该段原文：As a child I used to love the Scooby-Doo cartoons. Arriving in their \"Mystery Machine\", the gang would have to find a monster who was terrorizing a neighborhood. They would run around looking for clues and at the end unmask the bad guy. It was always a normal person in a costume. There were no monsters. Like the Scooby crew, we may find ourselves hunting for an easy fix, one word for people who do bad things. But if we take a good look, the word \"evil\" is insufficient—there are no simple explanations for why humans do bad things: instead there are many, and they are all marvelously different.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-3-nonlistening-q44",
+      "canonicalId": "lazynote-cet4-2022-12-3-q44",
+      "number": 44,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The math task in one experiment was designed to test participants' tendency to cheat.",
+      "passage": "Evil Genius\n\nA) A few years ago I found myself teaching a university class on evil. It was for third-year criminology students to help them contextualize theory and research within controversial current topics. It was a huge success. The debates were heated and interesting. I could see people's views change within the course of a single lecture. Over the past 13 years, as a student, lecturer and researcher, I've enjoyed discussing the science of evil with anyone willing to listen. What I like most is destroying the cliche(陈词滥调) of good and evil, and replacing them with scientific insight. We need a more informed way of discussing behavior that at first we cannot, or should not, begin to understand.\n\nB) Without understanding, we risk dehumanizing others, writing off human beings simply because we don't comprehend them. We must try to understand what we have labeled evil. We tend to think evil is something that other people are. We think of ourselves as \"good people\", and even when we do morally wrong things, we understand the context of our decisions. With others, however, it is far easier to write them off. If their actions deviate(偏离) substantially from what we consider acceptable, we may label them evil. We need to be careful with this. Calling someone evil is often similar to saying they cannot change, and perhaps aren't even a human at all. However, when you actually go monster-hunting, and you look deeply at the people behind shocking behavior, you may be surprised.\n\nC) As a child I used to love the Scooby-Doo cartoons. Arriving in their \"Mystery Machine\", the gang would have to find a monster who was terrorizing a neighborhood. They would run around looking for clues and at the end unmask the bad guy. It was always a normal person in a costume. There were no monsters. Like the Scooby crew, we may find ourselves hunting for an easy fix, one word for people who do bad things. But if we take a good look, the word \"evil\" is insufficient—there are no simple explanations for why humans do bad things: instead there are many, and they are all marvelously different.\n\nD) Evil is typically referred to when there is deviance from social norms: formal deviance is the violation of laws, like theft, murder, and attacks, while informal deviance involves violations of social norms, like lying. Evil behavior is typically thought to embrace one or both forms. However, deviance can also describe a behavior that simply differs from the norm.\n\nE) Perhaps this is where we can find the good side of our bad side. Deviating from the norm can make us villains(恶棍), but it can also make us heroes. A child deviates from social pressures when they stand up for another child being bullied in school. A soldier deviates when they choose not to follow orders to kill an innocent civilian. An employee in a big tech company deviates when they expose its wrongdoings.\n\nF) Creativity is also a deviation. Here, too, things are complex. Thinking creatively has given us modern medicine, technology and modern political structures, but it has also given us poison and nuclear weapons. Great benefit and great harm can come from the same human tendency.\n\nG) In a research paper, Evil Genius, published in 2014, the behavioral scientists Francesca Gino and Scott Wiltermuth wanted to examine whether people who behave unethically in one task are more creative than others on a subsequent task, even after controlling for differences in baseline creative skills. The unethical behavior they chose was dishonesty.\n\nH) Over five experiments, researchers gave participants tasks in which they could cheat. In one study, they were given matrices(矩阵) and had to find two numbers that added up to 10. Participants were asked to self-report how well they did at the end of the study: 59% cheated by saying that they solved more matrices than they actually had.\n\nI) After each task, the researchers measured participants' performance on the Remote Associates Test. This shows participants three words at a time that appear to be unrelated, and the person has to think of a fourth word that is associated with all of them. For example, you might get \"Fox, Man, Peep\", or \"Dust, Cereal, Fish\". In order to find the linking words (\"Hole\" for the first, \"Bowl\" for the second) you need to be creative. The more you get right, the more creative you are thought to be because you have come up with uncommon associations.\n\nJ) For every one of the five studies, they found the same thing—participants who cheated in the first task did better on the creativity task. Why? Like other forms of unethical behavior, lying means breaking rules. It involves being deviant, going against the social principle that people should tell the truth. Similarly, being creative involves \"thinking outside the box\", deviating from expectations. They involve similar thought patterns, so stimulating one stimulates the other. Can we learn from this? Perhaps. To be more creative, we could try lying in a controlled environment. Find online logic games and cheat at them, play Scrabble(拼字游戏) with a dictionary, or write a story about something that is untrue? Such tasks can get our brains thinking flexibly, beyond our normal comfort zone. This is not a call to become a compulsive(强迫性的) liar, but a controlled liar.\n\nK) In addition to benefits for creativity, deviance can be a good thing in other ways. Even Philip Zimbardo, the author of the Stanford prison experiment, who showed how easily we can be led to behave badly, believes that the future of deviance research may lie more in understanding extreme pro-social behavior, such as heroism. Like evil, we often view heroism as only a possibility for outliers—for people who are abnormal. But Zimbardo asks: \"What if the capability to act heroically is also fundamentally ordinary and available to all of us?\" Some say we should never meet our heroes, lest they disappoint us when we find out how normal they are. But this should be liberating, not disappointing. We are all capable of behaving like outliers. It's time for us to understand deviance, and realize its potential for good as well as for harm.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 H 段。题干：The math task in one experiment was designed to test participants' tendency to cheat.\n核对该段原文：Over five experiments, researchers gave participants tasks in which they could cheat. In one study, they were given matrices(矩阵) and had to find two numbers that added up to 10. Participants were asked to self-report how well they did at the end of the study: 59% cheated by saying that they solved more matrices than they actually had.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-3-nonlistening-q45",
+      "canonicalId": "lazynote-cet4-2022-12-3-q45",
+      "number": 45,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Some creative ideas have turned out to do harm to human society.",
+      "passage": "Evil Genius\n\nA) A few years ago I found myself teaching a university class on evil. It was for third-year criminology students to help them contextualize theory and research within controversial current topics. It was a huge success. The debates were heated and interesting. I could see people's views change within the course of a single lecture. Over the past 13 years, as a student, lecturer and researcher, I've enjoyed discussing the science of evil with anyone willing to listen. What I like most is destroying the cliche(陈词滥调) of good and evil, and replacing them with scientific insight. We need a more informed way of discussing behavior that at first we cannot, or should not, begin to understand.\n\nB) Without understanding, we risk dehumanizing others, writing off human beings simply because we don't comprehend them. We must try to understand what we have labeled evil. We tend to think evil is something that other people are. We think of ourselves as \"good people\", and even when we do morally wrong things, we understand the context of our decisions. With others, however, it is far easier to write them off. If their actions deviate(偏离) substantially from what we consider acceptable, we may label them evil. We need to be careful with this. Calling someone evil is often similar to saying they cannot change, and perhaps aren't even a human at all. However, when you actually go monster-hunting, and you look deeply at the people behind shocking behavior, you may be surprised.\n\nC) As a child I used to love the Scooby-Doo cartoons. Arriving in their \"Mystery Machine\", the gang would have to find a monster who was terrorizing a neighborhood. They would run around looking for clues and at the end unmask the bad guy. It was always a normal person in a costume. There were no monsters. Like the Scooby crew, we may find ourselves hunting for an easy fix, one word for people who do bad things. But if we take a good look, the word \"evil\" is insufficient—there are no simple explanations for why humans do bad things: instead there are many, and they are all marvelously different.\n\nD) Evil is typically referred to when there is deviance from social norms: formal deviance is the violation of laws, like theft, murder, and attacks, while informal deviance involves violations of social norms, like lying. Evil behavior is typically thought to embrace one or both forms. However, deviance can also describe a behavior that simply differs from the norm.\n\nE) Perhaps this is where we can find the good side of our bad side. Deviating from the norm can make us villains(恶棍), but it can also make us heroes. A child deviates from social pressures when they stand up for another child being bullied in school. A soldier deviates when they choose not to follow orders to kill an innocent civilian. An employee in a big tech company deviates when they expose its wrongdoings.\n\nF) Creativity is also a deviation. Here, too, things are complex. Thinking creatively has given us modern medicine, technology and modern political structures, but it has also given us poison and nuclear weapons. Great benefit and great harm can come from the same human tendency.\n\nG) In a research paper, Evil Genius, published in 2014, the behavioral scientists Francesca Gino and Scott Wiltermuth wanted to examine whether people who behave unethically in one task are more creative than others on a subsequent task, even after controlling for differences in baseline creative skills. The unethical behavior they chose was dishonesty.\n\nH) Over five experiments, researchers gave participants tasks in which they could cheat. In one study, they were given matrices(矩阵) and had to find two numbers that added up to 10. Participants were asked to self-report how well they did at the end of the study: 59% cheated by saying that they solved more matrices than they actually had.\n\nI) After each task, the researchers measured participants' performance on the Remote Associates Test. This shows participants three words at a time that appear to be unrelated, and the person has to think of a fourth word that is associated with all of them. For example, you might get \"Fox, Man, Peep\", or \"Dust, Cereal, Fish\". In order to find the linking words (\"Hole\" for the first, \"Bowl\" for the second) you need to be creative. The more you get right, the more creative you are thought to be because you have come up with uncommon associations.\n\nJ) For every one of the five studies, they found the same thing—participants who cheated in the first task did better on the creativity task. Why? Like other forms of unethical behavior, lying means breaking rules. It involves being deviant, going against the social principle that people should tell the truth. Similarly, being creative involves \"thinking outside the box\", deviating from expectations. They involve similar thought patterns, so stimulating one stimulates the other. Can we learn from this? Perhaps. To be more creative, we could try lying in a controlled environment. Find online logic games and cheat at them, play Scrabble(拼字游戏) with a dictionary, or write a story about something that is untrue? Such tasks can get our brains thinking flexibly, beyond our normal comfort zone. This is not a call to become a compulsive(强迫性的) liar, but a controlled liar.\n\nK) In addition to benefits for creativity, deviance can be a good thing in other ways. Even Philip Zimbardo, the author of the Stanford prison experiment, who showed how easily we can be led to behave badly, believes that the future of deviance research may lie more in understanding extreme pro-social behavior, such as heroism. Like evil, we often view heroism as only a possibility for outliers—for people who are abnormal. But Zimbardo asks: \"What if the capability to act heroically is also fundamentally ordinary and available to all of us?\" Some say we should never meet our heroes, lest they disappoint us when we find out how normal they are. But this should be liberating, not disappointing. We are all capable of behaving like outliers. It's time for us to understand deviance, and realize its potential for good as well as for harm.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 F 段。题干：Some creative ideas have turned out to do harm to human society.\n核对该段原文：Creativity is also a deviation. Here, too, things are complex. Thinking creatively has given us modern medicine, technology and modern political structures, but it has also given us poison and nuclear weapons. Great benefit and great harm can come from the same human tendency.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-3-nonlistening-q46",
+      "canonicalId": "lazynote-cet4-2022-12-3-q46",
+      "number": 46,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What has Bill Thomas been doing for a quarter of a century?",
+      "passage": "Even though we are living in an age where growing old is thought of as an inevitable misery, this doctor has been changing the game for seniors over the last 25 years.\n\nIt all started in 1991 when the Harvard-educated physician was transferred from working in a stressful emergency room to being the medical director of a nursing home in upstate New York. The depressing and regimented(严格管制的) environment got him thinking on what exactly could improve the residents' conditions.\n\nEven though animals in nursing homes were illegal at the time, Dr. Bill Thomas took a chance. Based on a hunch(直觉), he brought in two dogs, four cats, hens, rabbits, 100 birds, a multitude of plants, a flower garden, and a vegetable patch.\n\nThe change was dramatic. There was a 50% drop in medical prescriptions along with a dramatic decrease in death rates—but most importantly, the residents were simply happier.\n\nDr. Thomas's approach, named the Eden Alternative, has driven nursing homes to allow a more autonomous(自主的) and creative living space for their elderly. It erases the belief that growing old means growing useless. He encourages residents to think of their age as an enriching new phase of life rather than the end of it.\n\nThomas, now a speaker and author of several books, also created small, independently-run residences with their own bedrooms and bathrooms, and he has been preaching a singular message that getting old is not a bad thing.\n\n\"Within six weeks, they had to send a truck around to pick up all the wheelchairs,\" Thomas told the Washington Post. \"You know why most people in nursing homes use wheelchairs? Because the buildings are so big.\"\n\nThe 56-year-old doctor's methods have been adopted in Australia, Japan, Canada, and America with enormous success. Last year he published Second Wind: Navigating the Passage to a Slower, Deeper, and More Connected Life, a guide on how to shift our perspectives on aging and growth.\n\nHe is currently traveling through North America performing with his guitar and his enthusiasm on his Age of Disruption Tour.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transforming people's lifestyle."
+        },
+        {
+          "id": "B",
+          "text": "Honoring his Harvard education."
+        },
+        {
+          "id": "C",
+          "text": "Changing people's philosophy of life."
+        },
+        {
+          "id": "D",
+          "text": "Shifting people's perspective on aging."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：Shifting people's perspective on aging.\n关键词检索定位到第 3 段的候选相关句：Bill Thomas took a chance.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-3-nonlistening-q47",
+      "canonicalId": "lazynote-cet4-2022-12-3-q47",
+      "number": 47,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "Why did Bill Thomas try something different in the nursing home?",
+      "passage": "Even though we are living in an age where growing old is thought of as an inevitable misery, this doctor has been changing the game for seniors over the last 25 years.\n\nIt all started in 1991 when the Harvard-educated physician was transferred from working in a stressful emergency room to being the medical director of a nursing home in upstate New York. The depressing and regimented(严格管制的) environment got him thinking on what exactly could improve the residents' conditions.\n\nEven though animals in nursing homes were illegal at the time, Dr. Bill Thomas took a chance. Based on a hunch(直觉), he brought in two dogs, four cats, hens, rabbits, 100 birds, a multitude of plants, a flower garden, and a vegetable patch.\n\nThe change was dramatic. There was a 50% drop in medical prescriptions along with a dramatic decrease in death rates—but most importantly, the residents were simply happier.\n\nDr. Thomas's approach, named the Eden Alternative, has driven nursing homes to allow a more autonomous(自主的) and creative living space for their elderly. It erases the belief that growing old means growing useless. He encourages residents to think of their age as an enriching new phase of life rather than the end of it.\n\nThomas, now a speaker and author of several books, also created small, independently-run residences with their own bedrooms and bathrooms, and he has been preaching a singular message that getting old is not a bad thing.\n\n\"Within six weeks, they had to send a truck around to pick up all the wheelchairs,\" Thomas told the Washington Post. \"You know why most people in nursing homes use wheelchairs? Because the buildings are so big.\"\n\nThe 56-year-old doctor's methods have been adopted in Australia, Japan, Canada, and America with enormous success. Last year he published Second Wind: Navigating the Passage to a Slower, Deeper, and More Connected Life, a guide on how to shift our perspectives on aging and growth.\n\nHe is currently traveling through North America performing with his guitar and his enthusiasm on his Age of Disruption Tour.",
+      "options": [
+        {
+          "id": "A",
+          "text": "He wanted to make it more pleasant for seniors."
+        },
+        {
+          "id": "B",
+          "text": "He wanted to apply his Harvard training to practice."
+        },
+        {
+          "id": "C",
+          "text": "He felt it his duty to revolutionize its management."
+        },
+        {
+          "id": "D",
+          "text": "He felt disappointed working in the environment."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：He wanted to make it more pleasant for seniors.\n关键词检索定位到第 5 段的候选相关句：Thomas's approach, named the Eden Alternative, has driven nursing homes to allow a more autonomous(自主的) and creative living space for their elderly.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-3-nonlistening-q48",
+      "canonicalId": "lazynote-cet4-2022-12-3-q48",
+      "number": 48,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn about Bill Thomas bringing animals and plants into the nursing home?",
+      "passage": "Even though we are living in an age where growing old is thought of as an inevitable misery, this doctor has been changing the game for seniors over the last 25 years.\n\nIt all started in 1991 when the Harvard-educated physician was transferred from working in a stressful emergency room to being the medical director of a nursing home in upstate New York. The depressing and regimented(严格管制的) environment got him thinking on what exactly could improve the residents' conditions.\n\nEven though animals in nursing homes were illegal at the time, Dr. Bill Thomas took a chance. Based on a hunch(直觉), he brought in two dogs, four cats, hens, rabbits, 100 birds, a multitude of plants, a flower garden, and a vegetable patch.\n\nThe change was dramatic. There was a 50% drop in medical prescriptions along with a dramatic decrease in death rates—but most importantly, the residents were simply happier.\n\nDr. Thomas's approach, named the Eden Alternative, has driven nursing homes to allow a more autonomous(自主的) and creative living space for their elderly. It erases the belief that growing old means growing useless. He encourages residents to think of their age as an enriching new phase of life rather than the end of it.\n\nThomas, now a speaker and author of several books, also created small, independently-run residences with their own bedrooms and bathrooms, and he has been preaching a singular message that getting old is not a bad thing.\n\n\"Within six weeks, they had to send a truck around to pick up all the wheelchairs,\" Thomas told the Washington Post. \"You know why most people in nursing homes use wheelchairs? Because the buildings are so big.\"\n\nThe 56-year-old doctor's methods have been adopted in Australia, Japan, Canada, and America with enormous success. Last year he published Second Wind: Navigating the Passage to a Slower, Deeper, and More Connected Life, a guide on how to shift our perspectives on aging and growth.\n\nHe is currently traveling through North America performing with his guitar and his enthusiasm on his Age of Disruption Tour.",
+      "options": [
+        {
+          "id": "A",
+          "text": "He made a mess of the nursing home."
+        },
+        {
+          "id": "B",
+          "text": "He did something all professionals would do."
+        },
+        {
+          "id": "C",
+          "text": "He won instant support from the state authorities."
+        },
+        {
+          "id": "D",
+          "text": "He acted in violation of the state law."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：He acted in violation of the state law.\n关键词检索定位到第 3 段的候选相关句：Even though animals in nursing homes were illegal at the time, Dr.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-3-nonlistening-q49",
+      "canonicalId": "lazynote-cet4-2022-12-3-q49",
+      "number": 49,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What has Bill Thomas been persistently advocating?",
+      "passage": "Even though we are living in an age where growing old is thought of as an inevitable misery, this doctor has been changing the game for seniors over the last 25 years.\n\nIt all started in 1991 when the Harvard-educated physician was transferred from working in a stressful emergency room to being the medical director of a nursing home in upstate New York. The depressing and regimented(严格管制的) environment got him thinking on what exactly could improve the residents' conditions.\n\nEven though animals in nursing homes were illegal at the time, Dr. Bill Thomas took a chance. Based on a hunch(直觉), he brought in two dogs, four cats, hens, rabbits, 100 birds, a multitude of plants, a flower garden, and a vegetable patch.\n\nThe change was dramatic. There was a 50% drop in medical prescriptions along with a dramatic decrease in death rates—but most importantly, the residents were simply happier.\n\nDr. Thomas's approach, named the Eden Alternative, has driven nursing homes to allow a more autonomous(自主的) and creative living space for their elderly. It erases the belief that growing old means growing useless. He encourages residents to think of their age as an enriching new phase of life rather than the end of it.\n\nThomas, now a speaker and author of several books, also created small, independently-run residences with their own bedrooms and bathrooms, and he has been preaching a singular message that getting old is not a bad thing.\n\n\"Within six weeks, they had to send a truck around to pick up all the wheelchairs,\" Thomas told the Washington Post. \"You know why most people in nursing homes use wheelchairs? Because the buildings are so big.\"\n\nThe 56-year-old doctor's methods have been adopted in Australia, Japan, Canada, and America with enormous success. Last year he published Second Wind: Navigating the Passage to a Slower, Deeper, and More Connected Life, a guide on how to shift our perspectives on aging and growth.\n\nHe is currently traveling through North America performing with his guitar and his enthusiasm on his Age of Disruption Tour.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Good health is not just a privilege of the young."
+        },
+        {
+          "id": "B",
+          "text": "Nursing homes should be strictly limited in size."
+        },
+        {
+          "id": "C",
+          "text": "Getting old is by no means something miserable."
+        },
+        {
+          "id": "D",
+          "text": "Residences for seniors should be run independently."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：Getting old is by no means something miserable.\n关键词检索定位到第 6 段的候选相关句：Thomas, now a speaker and author of several books, also created small, independently-run residences with their own bedrooms and bathrooms, and he has been preaching a singular message that getting old is not a bad thing.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-3-nonlistening-q50",
+      "canonicalId": "lazynote-cet4-2022-12-3-q50",
+      "number": 50,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "How is Bill Thomas's new concept received?",
+      "passage": "Even though we are living in an age where growing old is thought of as an inevitable misery, this doctor has been changing the game for seniors over the last 25 years.\n\nIt all started in 1991 when the Harvard-educated physician was transferred from working in a stressful emergency room to being the medical director of a nursing home in upstate New York. The depressing and regimented(严格管制的) environment got him thinking on what exactly could improve the residents' conditions.\n\nEven though animals in nursing homes were illegal at the time, Dr. Bill Thomas took a chance. Based on a hunch(直觉), he brought in two dogs, four cats, hens, rabbits, 100 birds, a multitude of plants, a flower garden, and a vegetable patch.\n\nThe change was dramatic. There was a 50% drop in medical prescriptions along with a dramatic decrease in death rates—but most importantly, the residents were simply happier.\n\nDr. Thomas's approach, named the Eden Alternative, has driven nursing homes to allow a more autonomous(自主的) and creative living space for their elderly. It erases the belief that growing old means growing useless. He encourages residents to think of their age as an enriching new phase of life rather than the end of it.\n\nThomas, now a speaker and author of several books, also created small, independently-run residences with their own bedrooms and bathrooms, and he has been preaching a singular message that getting old is not a bad thing.\n\n\"Within six weeks, they had to send a truck around to pick up all the wheelchairs,\" Thomas told the Washington Post. \"You know why most people in nursing homes use wheelchairs? Because the buildings are so big.\"\n\nThe 56-year-old doctor's methods have been adopted in Australia, Japan, Canada, and America with enormous success. Last year he published Second Wind: Navigating the Passage to a Slower, Deeper, and More Connected Life, a guide on how to shift our perspectives on aging and growth.\n\nHe is currently traveling through North America performing with his guitar and his enthusiasm on his Age of Disruption Tour.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is gaining ground in many countries."
+        },
+        {
+          "id": "B",
+          "text": "It is being heatedly debated worldwide."
+        },
+        {
+          "id": "C",
+          "text": "It is considered revolutionary everywhere."
+        },
+        {
+          "id": "D",
+          "text": "It is winning approval from the government."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：It is gaining ground in many countries.\n关键词检索定位到第 3 段的候选相关句：Bill Thomas took a chance.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-3-nonlistening-q51",
+      "canonicalId": "lazynote-cet4-2022-12-3-q51",
+      "number": 51,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What can we learn from research on diets in developed countries?",
+      "passage": "Research shows that in developed countries, more affluent and educated people tend to consume higher-quality diets—including more fruits and vegetables, fish and whole grains. On the contrary, economically disadvantaged people report diets that are nutrient-poor and energy-dense. They are less likely to have food-purchasing habits that conform to public health recommendations.\n\nThese dietary differences are often accompanied by higher rates of obesity and diabetes among lower-income people. This relationship between social class and diet quality and health is extensively documented. However, the research does not explain why this is the case—a question that has significant implications for designing effective policies and initiatives to improve diets and prevent chronic diseases.\n\nPublic-health initiatives to promote healthy diets often focus on providing nutrition education and recipes(食谱). These approaches, however, often presume less food literacy (i.e., food knowledge and skills) among low-income people. Are unhealthy diets really the result of poor choices, limited food skills and knowledge?\n\nResearch suggests that adults in food-insecure households are just as likely as those in food-secure households to adjust recipes to make them more healthy. They are also just as proficient in food preparation and cooking skills. There is no indication that increasing food skills or budgeting skills will reduce food insecurity.\n\nInstead, disadvantaged groups are constrained by their economic, material and social circumstances. For example, low income is the strongest predictor of food insecurity in Canada, where one in eight households experiences insufficient access to nutritious foods.\n\nIt's well-established that food prices are an important determinant of food choice. Low-income households report that they find it difficult to adopt dietary guidelines because food prices are a barrier to improving their diets.\n\nWhen researchers estimate the cost of diets people actually eat, higher-quality diets are typically more costly.\n\nWhile this may be so, it does not, in itself, prove that healthy diets are necessarily more expensive or cost-prohibitive. After all, not all socioeconomically disadvantaged people consume poor diets.\n\nWe can easily think of a number of foods and recipes that are both inexpensive and nutritious. The internet is full of recipes for \"eating well on a budget.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dietary recommendations are not fit for underprivileged people."
+        },
+        {
+          "id": "B",
+          "text": "People from different social groups vary in their dietary habits."
+        },
+        {
+          "id": "C",
+          "text": "People's choice of food depends on their individual taste"
+        },
+        {
+          "id": "D",
+          "text": "There is no consensus on what high-quality diets are."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：People from different social groups vary in their dietary habits.\n关键词检索定位到第 1 段的候选相关句：Research shows that in developed countries, more affluent and educated people tend to consume higher-quality diets—including more fruits and vegetables, fish and whole grains.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-3-nonlistening-q52",
+      "canonicalId": "lazynote-cet4-2022-12-3-q52",
+      "number": 52,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author say is important in formulating policies to improve diets and health?",
+      "passage": "Research shows that in developed countries, more affluent and educated people tend to consume higher-quality diets—including more fruits and vegetables, fish and whole grains. On the contrary, economically disadvantaged people report diets that are nutrient-poor and energy-dense. They are less likely to have food-purchasing habits that conform to public health recommendations.\n\nThese dietary differences are often accompanied by higher rates of obesity and diabetes among lower-income people. This relationship between social class and diet quality and health is extensively documented. However, the research does not explain why this is the case—a question that has significant implications for designing effective policies and initiatives to improve diets and prevent chronic diseases.\n\nPublic-health initiatives to promote healthy diets often focus on providing nutrition education and recipes(食谱). These approaches, however, often presume less food literacy (i.e., food knowledge and skills) among low-income people. Are unhealthy diets really the result of poor choices, limited food skills and knowledge?\n\nResearch suggests that adults in food-insecure households are just as likely as those in food-secure households to adjust recipes to make them more healthy. They are also just as proficient in food preparation and cooking skills. There is no indication that increasing food skills or budgeting skills will reduce food insecurity.\n\nInstead, disadvantaged groups are constrained by their economic, material and social circumstances. For example, low income is the strongest predictor of food insecurity in Canada, where one in eight households experiences insufficient access to nutritious foods.\n\nIt's well-established that food prices are an important determinant of food choice. Low-income households report that they find it difficult to adopt dietary guidelines because food prices are a barrier to improving their diets.\n\nWhen researchers estimate the cost of diets people actually eat, higher-quality diets are typically more costly.\n\nWhile this may be so, it does not, in itself, prove that healthy diets are necessarily more expensive or cost-prohibitive. After all, not all socioeconomically disadvantaged people consume poor diets.\n\nWe can easily think of a number of foods and recipes that are both inexpensive and nutritious. The internet is full of recipes for \"eating well on a budget.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A better understanding of the relationship between social class and health."
+        },
+        {
+          "id": "B",
+          "text": "A greater emphasis on studying the cause of obesity and chronic diseases."
+        },
+        {
+          "id": "C",
+          "text": "Prioritizing the provision of better nutrition for lower classes."
+        },
+        {
+          "id": "D",
+          "text": "Designing education programs and initiatives on public health."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：A better understanding of the relationship between social class and health.\n关键词检索定位到第 2 段的候选相关句：This relationship between social class and diet quality and health is extensively documented.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-3-nonlistening-q53",
+      "canonicalId": "lazynote-cet4-2022-12-3-q53",
+      "number": 53,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does research reveal about adults in food-insecure households?",
+      "passage": "Research shows that in developed countries, more affluent and educated people tend to consume higher-quality diets—including more fruits and vegetables, fish and whole grains. On the contrary, economically disadvantaged people report diets that are nutrient-poor and energy-dense. They are less likely to have food-purchasing habits that conform to public health recommendations.\n\nThese dietary differences are often accompanied by higher rates of obesity and diabetes among lower-income people. This relationship between social class and diet quality and health is extensively documented. However, the research does not explain why this is the case—a question that has significant implications for designing effective policies and initiatives to improve diets and prevent chronic diseases.\n\nPublic-health initiatives to promote healthy diets often focus on providing nutrition education and recipes(食谱). These approaches, however, often presume less food literacy (i.e., food knowledge and skills) among low-income people. Are unhealthy diets really the result of poor choices, limited food skills and knowledge?\n\nResearch suggests that adults in food-insecure households are just as likely as those in food-secure households to adjust recipes to make them more healthy. They are also just as proficient in food preparation and cooking skills. There is no indication that increasing food skills or budgeting skills will reduce food insecurity.\n\nInstead, disadvantaged groups are constrained by their economic, material and social circumstances. For example, low income is the strongest predictor of food insecurity in Canada, where one in eight households experiences insufficient access to nutritious foods.\n\nIt's well-established that food prices are an important determinant of food choice. Low-income households report that they find it difficult to adopt dietary guidelines because food prices are a barrier to improving their diets.\n\nWhen researchers estimate the cost of diets people actually eat, higher-quality diets are typically more costly.\n\nWhile this may be so, it does not, in itself, prove that healthy diets are necessarily more expensive or cost-prohibitive. After all, not all socioeconomically disadvantaged people consume poor diets.\n\nWe can easily think of a number of foods and recipes that are both inexpensive and nutritious. The internet is full of recipes for \"eating well on a budget.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "Their eating habits need to be changed."
+        },
+        {
+          "id": "B",
+          "text": "Their food literacy has been improving."
+        },
+        {
+          "id": "C",
+          "text": "They do not pay much attention to their food recipes."
+        },
+        {
+          "id": "D",
+          "text": "They do not lack food knowledge or budgeting skills."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：They do not lack food knowledge or budgeting skills.\n关键词检索定位到第 4 段的候选相关句：Research suggests that adults in food-insecure households are just as likely as those in food-secure households to adjust recipes to make them more healthy.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-3-nonlistening-q54",
+      "canonicalId": "lazynote-cet4-2022-12-3-q54",
+      "number": 54,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What would help improve food security among the disadvantaged groups in Canada?",
+      "passage": "Research shows that in developed countries, more affluent and educated people tend to consume higher-quality diets—including more fruits and vegetables, fish and whole grains. On the contrary, economically disadvantaged people report diets that are nutrient-poor and energy-dense. They are less likely to have food-purchasing habits that conform to public health recommendations.\n\nThese dietary differences are often accompanied by higher rates of obesity and diabetes among lower-income people. This relationship between social class and diet quality and health is extensively documented. However, the research does not explain why this is the case—a question that has significant implications for designing effective policies and initiatives to improve diets and prevent chronic diseases.\n\nPublic-health initiatives to promote healthy diets often focus on providing nutrition education and recipes(食谱). These approaches, however, often presume less food literacy (i.e., food knowledge and skills) among low-income people. Are unhealthy diets really the result of poor choices, limited food skills and knowledge?\n\nResearch suggests that adults in food-insecure households are just as likely as those in food-secure households to adjust recipes to make them more healthy. They are also just as proficient in food preparation and cooking skills. There is no indication that increasing food skills or budgeting skills will reduce food insecurity.\n\nInstead, disadvantaged groups are constrained by their economic, material and social circumstances. For example, low income is the strongest predictor of food insecurity in Canada, where one in eight households experiences insufficient access to nutritious foods.\n\nIt's well-established that food prices are an important determinant of food choice. Low-income households report that they find it difficult to adopt dietary guidelines because food prices are a barrier to improving their diets.\n\nWhen researchers estimate the cost of diets people actually eat, higher-quality diets are typically more costly.\n\nWhile this may be so, it does not, in itself, prove that healthy diets are necessarily more expensive or cost-prohibitive. After all, not all socioeconomically disadvantaged people consume poor diets.\n\nWe can easily think of a number of foods and recipes that are both inexpensive and nutritious. The internet is full of recipes for \"eating well on a budget.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "Teaching them budgeting skills."
+        },
+        {
+          "id": "B",
+          "text": "Increasing their food choices."
+        },
+        {
+          "id": "C",
+          "text": "Enabling them to have more access to nutritious foods."
+        },
+        {
+          "id": "D",
+          "text": "Taking more effective measures to increase food supplies."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：Enabling them to have more access to nutritious foods.\n关键词检索定位到第 5 段的候选相关句：For example, low income is the strongest predictor of food insecurity in Canada, where one in eight households experiences insufficient access to nutritious foods.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-3-nonlistening-q55",
+      "canonicalId": "lazynote-cet4-2022-12-3-q55",
+      "number": 55,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author suggest disadvantaged people do to improve their health?",
+      "passage": "Research shows that in developed countries, more affluent and educated people tend to consume higher-quality diets—including more fruits and vegetables, fish and whole grains. On the contrary, economically disadvantaged people report diets that are nutrient-poor and energy-dense. They are less likely to have food-purchasing habits that conform to public health recommendations.\n\nThese dietary differences are often accompanied by higher rates of obesity and diabetes among lower-income people. This relationship between social class and diet quality and health is extensively documented. However, the research does not explain why this is the case—a question that has significant implications for designing effective policies and initiatives to improve diets and prevent chronic diseases.\n\nPublic-health initiatives to promote healthy diets often focus on providing nutrition education and recipes(食谱). These approaches, however, often presume less food literacy (i.e., food knowledge and skills) among low-income people. Are unhealthy diets really the result of poor choices, limited food skills and knowledge?\n\nResearch suggests that adults in food-insecure households are just as likely as those in food-secure households to adjust recipes to make them more healthy. They are also just as proficient in food preparation and cooking skills. There is no indication that increasing food skills or budgeting skills will reduce food insecurity.\n\nInstead, disadvantaged groups are constrained by their economic, material and social circumstances. For example, low income is the strongest predictor of food insecurity in Canada, where one in eight households experiences insufficient access to nutritious foods.\n\nIt's well-established that food prices are an important determinant of food choice. Low-income households report that they find it difficult to adopt dietary guidelines because food prices are a barrier to improving their diets.\n\nWhen researchers estimate the cost of diets people actually eat, higher-quality diets are typically more costly.\n\nWhile this may be so, it does not, in itself, prove that healthy diets are necessarily more expensive or cost-prohibitive. After all, not all socioeconomically disadvantaged people consume poor diets.\n\nWe can easily think of a number of foods and recipes that are both inexpensive and nutritious. The internet is full of recipes for \"eating well on a budget.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "Adopt a positive attitude towards dietary guidelines."
+        },
+        {
+          "id": "B",
+          "text": "Choose diets that are both healthy and affordable."
+        },
+        {
+          "id": "C",
+          "text": "Make sure to purchase healthy foods on the internet."
+        },
+        {
+          "id": "D",
+          "text": "Change their eating habits and consumption patterns."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：Choose diets that are both healthy and affordable.\n关键词检索定位到第 3 段的候选相关句：Public-health initiatives to promote healthy diets often focus on providing nutrition education and recipes(食谱).\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-3-nonlistening-translation",
+      "number": "IV",
+      "level": "CET4",
+      "type": "short_text_self_check",
+      "skill": "translation",
+      "section": "translation",
+      "prompt": "Directions: For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2.\n\n冬至(Winter Solstice)是全年白昼最短、黑夜最长的一天，标志着一年中最寒冷时节的开始。冬至过后，气温越来越低，人们的户外活动逐渐减少。农民地里活儿不多，主要忙于灌溉系统的维护和农作物的防冻，同时为来年春天播种做准备。 中国人历来很重视冬至，许多地方都把冬至当作一个节日，庆祝方式各地不尽相同。北方人有冬至吃饺子(jiaozi)的习俗，南方人有冬至吃汤圆(tangyuan)的传统。",
+      "options": [],
+      "correctAnswer": "Winter Solstice is the day with the shortest daylight and the longest night of the year, marking the beginning of its coldest period. After it, temperatures fall further and people gradually reduce outdoor activities. Farmers have little fieldwork to do and mainly maintain irrigation systems, protect crops from freezing and prepare for sowing the following spring. Chinese people have always attached importance to Winter Solstice. Many places celebrate it as a festival, although the customs differ from region to region. Northerners traditionally eat jiaozi on this day, while southerners have a tradition of eating tangyuan.",
+      "referenceAnswer": "Winter Solstice is the day with the shortest daylight and the longest night of the year, marking the beginning of its coldest period. After it, temperatures fall further and people gradually reduce outdoor activities. Farmers have little fieldwork to do and mainly maintain irrigation systems, protect crops from freezing and prepare for sowing the following spring. Chinese people have always attached importance to Winter Solstice. Many places celebrate it as a festival, although the customs differ from region to region. Northerners traditionally eat jiaozi on this day, while southerners have a tradition of eating tangyuan.",
+      "hint": "最短白昼、最长黑夜、农事维护和南北饮食分别对应。",
+      "explanation": "以下译文为原创参考，可使用其他准确表达。shortest daylight不是日历中时间最短的一天；防冻、灌溉、翌春播种三个工作不可漏；jiaozi与tangyuan方向别反。\n\n逐句核对：shortest daylight、longest night两个最高程度保留，marking引出最冷时节开始。fall further与reduce outdoor activities对应气温更低及活动减少。maintain irrigation systems、protect crops from freezing、prepare for sowing并列农民三项工作；following spring为来年春天。attached importance用完成时表历来重视，customs differ解释庆祝方式不同。North用jiaozi、South用tangyuan，两类食物需与方向对应。",
+      "rubric": [
+        "练习自评总分15分：信息准确0–8＋语法0–5＋表达0–2；允许拆句、换同义词，不要求逐字匹配参考译文。",
+        "信息准确0–8分：逐项检查——冬至最短昼最长夜与最冷时节；气温活动；灌溉、防冻、翌春播种；历来重视且各地不同；北饺子南汤圆。8分=全部关键信息正确；6–7分=少量次要细节遗漏；3–5分=多处遗漏/数字或关系误译；0–2分=核心人物、动作或逻辑严重错误。",
+        "语法0–5分：5分=时态、单复数、主谓一致、从句和介词基本正确；3–4分=少量错误仍易理解；1–2分=多处错误妨碍理解；0分=主要句子结构不可理解。",
+        "表达0–2分：2分=用词搭配自然、因果转折时间衔接清楚；1分=可理解但有中文式生硬表达；0分=词序/词义造成大面积理解困难。",
+        "修订操作：先在中文原题划出时间、数量、地点和连接词，再在自己的译文逐项找对应；为每处漏译或误译写一句修正。此分数是练习估计，不是官方阅卷或机器评分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-3-nonlistening"
+    }
+  ]
+}

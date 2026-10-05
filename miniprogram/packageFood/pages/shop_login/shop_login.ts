@@ -1,5 +1,6 @@
+import { withSharing } from '../../../utils/page-share'
 import { api } from '../../../utils/api-client'
-Page({
+Page(withSharing({
   data: {
     username: '',
     password: '',
@@ -177,4 +178,4 @@ Page({
       wx.showToast({ title: '重置失败', icon: 'none' })
     }
   }
-})
+}))

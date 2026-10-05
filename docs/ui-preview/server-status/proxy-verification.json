@@ -1,0 +1,61 @@
+{
+  "generatedAt": "2026-10-05T03:54:17.472646+08:00",
+  "backup": "/etc/mihomo/backup-20261005-035402",
+  "mode": "rule",
+  "tunEnabled": false,
+  "configUnchanged": true,
+  "selectedBefore": {
+    "🚀节点选择": "♻️自动选择",
+    "🎬媒体解锁": "🚀节点选择"
+  },
+  "selectedAfterRestart": {
+    "🚀节点选择": "🇺🇸美国节点",
+    "🎬媒体解锁": "🚀节点选择"
+  },
+  "automaticNode": "🇺🇸美国01-0.1倍 | 电信联通移动推荐",
+  "service": "Restart=on-failure\nNRestarts=0\nUnitFileState=enabled",
+  "probes": [
+    {
+      "round": 1,
+      "site": "google",
+      "httpStatus": "200",
+      "success": true,
+      "error": ""
+    },
+    {
+      "round": 1,
+      "site": "youtube",
+      "httpStatus": "200",
+      "success": true,
+      "error": ""
+    },
+    {
+      "round": 2,
+      "site": "google",
+      "httpStatus": "200",
+      "success": true,
+      "error": ""
+    },
+    {
+      "round": 2,
+      "site": "youtube",
+      "httpStatus": "200",
+      "success": true,
+      "error": ""
+    },
+    {
+      "round": 3,
+      "site": "google",
+      "httpStatus": "200",
+      "success": true,
+      "error": ""
+    },
+    {
+      "round": 3,
+      "site": "youtube",
+      "httpStatus": "200",
+      "success": true,
+      "error": ""
+    }
+  ]
+}

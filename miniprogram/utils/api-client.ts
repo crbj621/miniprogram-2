@@ -291,4 +291,108 @@ function syncWeRun(): Promise<any> {
   }))
 }
 
-export const api = { call: callFunction, uploadFile, downloadFile, watchTeams, syncWeRun }
+function getPublic(path: string): Promise<any> {
+  return publicRequest(path, 'GET')
+}
+function publicRequest(path: string, method: 'GET' | 'POST', data?: any): Promise<any> {
+  const giftRequest = /^\/api\/gifts\/[a-f0-9]{24}(\/messages)?$/.test(path)
+  if (method === 'POST' && !/^\/api\/gifts\/[a-f0-9]{24}\/messages$/.test(path)) return Promise.reject(new Error('公开写入路径无效'))
+  const cookieKey = 'gift_visitor_cookie:' + API_BASE_URL, cookie = giftRequest ? wx.getStorageSync(cookieKey) : ''
+  return new Promise((resolve, reject) => {
+    wx.request({ url: apiUrl(path), timeout: 15000, method, data, header: { 'Content-Type': 'application/json', ...(cookie ? { Cookie: cookie } : {}) }, success(response: any) {
+      if (giftRequest) {
+        const headers = response.header || {}, values = [].concat(response.cookies || [], headers['Set-Cookie'] || headers['set-cookie'] || []).join(';')
+        const found = values.match(/gift_visitor=[a-f0-9]{32}\.[a-f0-9]{64}/)
+        if (found) wx.setStorageSync(cookieKey, found[0])
+      }
+      const body = parseResponseData(response.data)
+      if (response.statusCode !== 200) { const error: any = new Error(body && (body.message || body.msg) || '内容已到期或暂不可用'); error.statusCode = response.statusCode; error.responseData = body; reject(error); return }
+      resolve(body)
+    }, fail: error => reject(connectionError(error)) })
+  })
+}
+export interface ServerHealth {
+  state: 'online' | 'error' | 'unconfirmed'
+  database: 'ok' | 'error' | 'unconfirmed'
+  elapsedMs: number | null
+  checkedAt: number
+}
+
+async function getHealth(): Promise<ServerHealth> {
+  const startedAt = Date.now()
+  let body: any, statusCode = 200
+  try {
+    // Each check reads the current health response instead of a cached GET.
+    body = await getPublic('/health?_=' + startedAt)
+  } catch (error) {
+    if (!error.statusCode) return { state: 'unconfirmed', database: 'unconfirmed', elapsedMs: null, checkedAt: Date.now() }
+    statusCode = error.statusCode
+    body = error.responseData
+  }
+  const database = body && body.database === 'ok' ? 'ok' : body && body.database === 'error' ? 'error' : 'unconfirmed'
+  const failed = statusCode !== 200 || body && (body.status === 'error' || body.status === 'degraded' || body.degraded === true || database === 'error')
+  const state = failed ? 'error' : body && body.status === 'ok' && database === 'ok' ? 'online' : 'unconfirmed'
+  return { state, database, elapsedMs: Math.max(0, Date.now() - startedAt), checkedAt: Date.now() }
+}
+
+export interface ServerExternalStatus {
+  state: 'reachable' | 'unreachable' | 'restricted' | 'unconfirmed'
+  checkedAt: number | null
+  route: 'direct' | 'proxy' | null
+}
+export interface ServerStatus extends ServerHealth {
+  sampledAt: number | null
+  cpuUsagePercent: number | null
+  memoryUsedBytes: number | null
+  memoryTotalBytes: number | null
+  memoryUsagePercent: number | null
+  diskTotalBytes: number | null
+  diskUsedBytes: number | null
+  diskAvailableBytes: number | null
+  diskUsagePercent: number | null
+  websiteStorageUsedBytes: number | null
+  websiteStorageCheckedAt: number | null
+  uptimeSeconds: number | null
+  bootedAt: number | null
+  giftActiveCount: number | null
+  giftPublicCount: number | null
+  external: { google: ServerExternalStatus; youtube: ServerExternalStatus }
+}
+
+function statusNumber(value: any, maximum = Infinity): number | null {
+  return typeof value === 'number' && Number.isFinite(value) && value >= 0 && value <= maximum ? value : null
+}
+function statusTime(value: any): number | null {
+  const time = typeof value === 'string' ? Date.parse(value) : NaN
+  return Number.isFinite(time) ? time : null
+}
+function externalStatus(value: any): ServerExternalStatus {
+  const state = value && ['reachable', 'unreachable', 'restricted'].includes(value.state) ? value.state : 'unconfirmed'
+  return { state, checkedAt: statusTime(value && value.checkedAt), route: value && (value.route === 'direct' || value.route === 'proxy') ? value.route : null }
+}
+async function getServerStatus(): Promise<ServerStatus> {
+  const startedAt = Date.now()
+  let body: any, statusCode = 0
+  try { body = await getPublic('/api/public/server-status?_=' + startedAt); statusCode = 200 }
+  catch (error) { statusCode = error.statusCode || 0; body = error.responseData }
+  body = body && typeof body === 'object' ? body : {}
+  const database = body.database === 'ok' ? 'ok' : body.database === 'error' ? 'error' : 'unconfirmed'
+  const failed = statusCode !== 0 && statusCode !== 200 || body.status === 'error' || database === 'error'
+  const state = failed ? 'error' : statusCode === 200 && body.status === 'ok' && database === 'ok' ? 'online' : 'unconfirmed'
+  const checkedAt = Date.now(), memory = body.memory || {}, disk = body.disk || {}, website = body.websiteStorage || {}, gifts = body.giftSites || {}
+  const diskTotalBytes = statusNumber(disk.totalBytes) || null, storageTime = statusTime(website.checkedAt)
+  const websiteStorageCheckedAt = storageTime !== null && storageTime <= checkedAt ? storageTime : null
+  return {
+    state, database, elapsedMs: statusCode ? Math.max(0, checkedAt - startedAt) : null, checkedAt,
+    sampledAt: statusTime(body.sampledAt), cpuUsagePercent: statusNumber(body.cpu && body.cpu.usagePercent, 100),
+    memoryUsedBytes: statusNumber(memory.usedBytes), memoryTotalBytes: statusNumber(memory.totalBytes) || null,
+    memoryUsagePercent: statusNumber(memory.usagePercent, 100), uptimeSeconds: statusNumber(body.uptimeSeconds), bootedAt: statusTime(body.bootedAt),
+    diskTotalBytes, diskUsedBytes: statusNumber(disk.usedBytes, diskTotalBytes || Infinity), diskAvailableBytes: statusNumber(disk.availableBytes, diskTotalBytes || Infinity), diskUsagePercent: statusNumber(disk.usagePercent, 100),
+    websiteStorageUsedBytes: websiteStorageCheckedAt === null ? null : statusNumber(website.usedBytes), websiteStorageCheckedAt,
+    giftActiveCount: Number.isInteger(gifts.activeCount) ? statusNumber(gifts.activeCount) : null,
+    giftPublicCount: Number.isInteger(gifts.publicCount) ? statusNumber(gifts.publicCount) : null,
+    external: { google: externalStatus(body.external && body.external.google), youtube: externalStatus(body.external && body.external.youtube) }
+  }
+}
+
+export const api = { call: callFunction, uploadFile, downloadFile, watchTeams, syncWeRun, getPublic, getHealth, getServerStatus, postPublic: (path: string, data: any) => publicRequest(path, 'POST', data) }

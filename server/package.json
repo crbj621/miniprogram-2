@@ -6,16 +6,20 @@
   "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",
-    "check": "node --check src/app.js && node --check src/portfolio-store.js && node --check src/data-store/index.js && node --check src/run-records.js && node --check src/we-run.js",
-    "test:portfolio": "node scripts/test-portfolio-store.js"
+    "check": "node --check src/app.js && node --check src/server-status.js && node --check src/portfolio-store.js && node --check src/data-store/index.js && node --check src/run-records.js && node --check src/we-run.js && node --check src/english-content.js && node --check src/english-fsrs.js && node --check src/english-media.js && node --check services/english_learning/index.js && node --check src/module-policy.js && node --check src/campus-rewards.js && node --check services/canteen_reviews/index.js && node --check services/english_learning/companion-ranking.js && node --check src/campus-wallet.js && node --check src/gift-layout.js && node --check src/gift-web.js && node --check services/gift_sites/index.js && node --check public/gifts/gift.js && node --check public/gifts/background.js",
+    "test:portfolio": "node scripts/test-portfolio-store.js",
+    "test:gifts": "node scripts/test-gift-sites.js",
+    "test:english": "node scripts/test-english-learning.js",
+    "test:campus-rewards": "node scripts/test-campus-rewards.js"
   },
   "dependencies": {
+    "campus-server-sdk": "file:src/data-store",
     "express": "5.2.1",
     "helmet": "8.3.0",
     "jsonwebtoken": "9.0.3",
     "multer": "2.2.0",
     "mysql2": "3.23.1",
-    "campus-server-sdk": "file:src/data-store"
+    "ts-fsrs": "5.4.2"
   },
   "engines": {
     "node": ">=24"

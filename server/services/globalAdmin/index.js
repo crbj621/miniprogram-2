@@ -6,25 +6,7 @@ cloud.init({ env: cloud.DYNAMIC_CURRENT_ENV })
 const db = cloud.database()
 const cmd = db.command
 
-const moduleDefinitions = {
-  running: { name: '校园跑', icon: 'running' },
-  food: { name: '食堂点餐', icon: 'utensils' },
-  canteen: { name: '食堂饭菜评价', icon: 'star' },
-  forum: { name: '校园动态', icon: 'comments' },
-  rider: { name: '骑手兼职', icon: 'bicycle' }
-}
-
-function normalizeModules(saved = {}) {
-  const modules = {}
-  for (const [key, definition] of Object.entries(moduleDefinitions)) {
-    const value = saved[key] === undefined && key === 'running' ? saved.run : saved[key]
-    modules[key] = {
-      name: definition.name,
-      enabled: typeof value === 'boolean' ? value : !value || value.enabled !== false
-    }
-  }
-  return modules
-}
+const { moduleDefinitions, normalizeModules } = require('../../src/module-policy')
 
 function modulePatch(input) {
   if (!input || typeof input !== 'object' || Array.isArray(input)) throw new Error('模块设置格式错误')
@@ -363,7 +345,9 @@ async function initDatabase(openid, data) {
           food: { enabled: true, name: '食堂点餐' },
           canteen: { enabled: true, name: '食堂饭菜评价' },
           forum: { enabled: true, name: '校园动态' },
-          rider: { enabled: true, name: '骑手兼职' }
+          rider: { enabled: true, name: '骑手兼职' },
+          english: { enabled: true, name: '四六级学习' },
+          gifts: { enabled: true, name: '祝福小站' }
         },
         announcements: [],
         createTime: db.serverDate(),
@@ -1680,6 +1664,7 @@ async function getDashboardStats(openid) {
   var pendingReports = await db.collection('forum_report').where({ status: 'pending' }).count()
   var pendingRiders = await db.collection('food_rider').where({ status: 'pending' }).count()
   var pendingCanteen = await db.collection('canteen_submissions').where({ status: 'pending' }).count()
+  var canteenReports = await db.collection('canteen_report_cases').where({ status: 'pending' }).count()
 
   var chinaDay = new Date(Date.now() + 8 * 60 * 60 * 1000).toISOString().slice(0, 10)
   var todayStart = new Date(chinaDay + 'T00:00:00+08:00').getTime()
@@ -1713,6 +1698,7 @@ async function getDashboardStats(openid) {
       pendingReports: pendingReports.total,
       pendingRiders: pendingRiders.total,
       pendingCanteen: pendingCanteen.total,
+      canteenReports: canteenReports.total,
       todayPosts: todayPosts.total,
       todayOrders: todayOrders.total,
       todayRevenue: todayRevenue / 100

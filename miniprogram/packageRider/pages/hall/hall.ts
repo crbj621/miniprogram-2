@@ -1,5 +1,6 @@
+import { withSharing } from '../../../utils/page-share'
 import { api } from '../../../utils/api-client'
-Page({
+Page(withSharing({
   data: {
     loading: false,
     list: [] as any[]
@@ -67,4 +68,4 @@ Page({
   goMy() {
     wx.navigateTo({ url: '/packageRider/pages/my/my' })
   }
-})
+}))

@@ -1,3 +1,4 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="container">
   <view class="team-page-heading"><view><text class="team-eyebrow">CAMPUS / TEAM</text><text class="team-page-title">与伙伴并肩出发</text></view><button bindtap="loadTeamInfo" hover-class="tap-feedback tech-pressed" class="tech-control">↻</button></view>
   <view wx:if="{{!hasTeam}}" class="no-team">
@@ -54,11 +55,11 @@
     </view>
   </view>
 
-  <view class="modal-mask" wx:if="{{createModalVisible}}" bindtap="hideCreateModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"></view>
-  <view class="modal-content tech-card" wx:if="{{createModalVisible}}">
+  <view class="modal-mask" wx:if="{{createModalVisible}}" bindtap="hideCreateModal">
+  <view class="modal-content tech-card" catchtap="">
     <view class="modal-header">创建队伍</view>
     <view class="modal-body">
-      <input class="modal-input tech-input" type="text" placeholder="请输入队伍名称（可选）" bindinput="onTeamNameInput" value="{{newTeamName}}" placeholder-style="color:#8597ad" />
+      <input class="modal-input tech-input" type="text" placeholder="请输入队伍名称（可选）" bindinput="onTeamNameInput" value="{{newTeamName}}" adjust-position="{{true}}" cursor-spacing="24" placeholder-style="color:#8597ad" />
       <text class="modal-tip">创建后将生成3位邀请码，有效期10分钟</text>
     </view>
     <view class="modal-footer">
@@ -66,12 +67,13 @@
       <button class="btn confirm uiverse-sweep uiverse-sweep--tint tech-control tech-primary" bindtap="createTeam" hover-class="uiverse-sweep-pressed tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"><view class="uiverse-sweep-plane" />创建</button>
     </view>
   </view>
+  </view>
 
-  <view class="modal-mask" wx:if="{{joinModalVisible}}" bindtap="hideJoinModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"></view>
-  <view class="modal-content tech-card" wx:if="{{joinModalVisible}}">
+  <view class="modal-mask" wx:if="{{joinModalVisible}}" bindtap="hideJoinModal">
+  <view class="modal-content tech-card" catchtap="">
     <view class="modal-header">加入队伍</view>
     <view class="modal-body">
-      <input class="modal-input tech-input" type="number" maxlength="3" placeholder="请输入3位邀请码" bindinput="onInviteCodeInput" value="{{inviteCode}}" placeholder-style="color:#8597ad" />
+      <input class="modal-input tech-input" type="number" maxlength="3" placeholder="请输入3位邀请码" bindinput="onInviteCodeInput" value="{{inviteCode}}" adjust-position="{{true}}" cursor-spacing="24" placeholder-style="color:#8597ad" />
       <text class="modal-tip">向队长获取邀请码</text>
     </view>
     <view class="modal-footer">
@@ -79,4 +81,7 @@
       <button class="btn confirm uiverse-sweep uiverse-sweep--tint tech-control tech-primary" bindtap="joinTeam" hover-class="uiverse-sweep-pressed tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"><view class="uiverse-sweep-plane" />加入</button>
     </view>
   </view>
+  </view>
 </view>
+
+</block>

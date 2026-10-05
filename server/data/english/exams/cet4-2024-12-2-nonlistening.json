@@ -1,0 +1,1989 @@
+{
+  "schemaVersion": 1,
+  "status": "verified_structured",
+  "source": {
+    "id": "cet4-2024-12-2-nonlistening",
+    "textCollection": "https://english-exam.lazynote.cn",
+    "textUrl": "https://english-exam.lazynote.cn/cet4/paper/2024-12-2/",
+    "textSha256": "3b87b04130449338c2b7bfc0a81097bdeac00f221d0bef2d61fe0dc62395fb3a",
+    "answerSources": [
+      {
+        "section": "part3-section-a",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2024-12-2/part3-section-a/",
+        "sha256": "bf2228e6cc0a2f5bd5b03c2c7229823c9a905c9835e4e52c6ca7fd44dcb35442"
+      },
+      {
+        "section": "part3-section-b",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2024-12-2/part3-section-b/",
+        "sha256": "0a83bf5d2e0cfad43f3f4ae6d258f6e77e9d6116dc5f8a01a5eb3162d617b7bc"
+      },
+      {
+        "section": "part3-section-c-1",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2024-12-2/part3-section-c-1/",
+        "sha256": "822c2eb5ea81bf10c8f77bbe192d51c71a970b30297a9e6705b816a8eac71b0c"
+      },
+      {
+        "section": "part3-section-c-2",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2024-12-2/part3-section-c-2/",
+        "sha256": "e3fcd517dd3cb028970f662c3ea9ec6d0e66bb9978e4724f4bda5521be43f872"
+      }
+    ],
+    "rightsUrl": "https://english-exam.lazynote.cn",
+    "rights": "Source footer attributes original papers to the National College English Test Committee. Original materials retain their respective rights; no blanket source license is asserted. Commercial explanatory prose is not copied.",
+    "sourceRightsNotice": "© 2026 懒笔记 · 蜀ICP备2024049450号-1 · 川公网安备51019002006323号 · 增值电信业务经营许可证：川B2-20240301 · 真题版权归全国硕士研究生招生考试 / 全国大学英语四六级考试委员会所有 · 隐私政策 · 用户协议",
+    "sourceTermsUrl": "https://english-exam.lazynote.cn/terms/",
+    "reviewedAt": "2026-10-03",
+    "answerStatus": "public_reference_structural_consistency_verified",
+    "explanations": "Project-generated contextual evidence notes. Close-reading locations are keyword-search candidates, not manually verified detailed explanations.",
+    "referenceEssays": "Project-authored full reference examples bound to the original prompts; not official model answers.",
+    "materialSources": [],
+    "corrections": [],
+    "previousReviewedAnswerSources": [],
+    "sourceEdition": "lazynote public original-paper arrangement; set numbering can differ from other collections.",
+    "independentlyConfirmedSharedSource": "",
+    "readingSourceCorrection": null,
+    "sectionSourceReplacement": null,
+    "independentAnswerChecks": [],
+    "sharedSectionSource": {}
+  },
+  "papers": [
+    {
+      "id": "cet4-2024-12-2-nonlistening",
+      "level": "CET4",
+      "year": 2024,
+      "month": 12,
+      "set": 2,
+      "title": "2024年12月英语四级第2套真题（不含听力）",
+      "authenticity": "past_exam",
+      "questionIds": [
+        "cet4-2024-12-2-nonlistening-writing",
+        "cet4-2024-12-2-nonlistening-q26",
+        "cet4-2024-12-2-nonlistening-q27",
+        "cet4-2024-12-2-nonlistening-q28",
+        "cet4-2024-12-2-nonlistening-q29",
+        "cet4-2024-12-2-nonlistening-q30",
+        "cet4-2024-12-2-nonlistening-q31",
+        "cet4-2024-12-2-nonlistening-q32",
+        "cet4-2024-12-2-nonlistening-q33",
+        "cet4-2024-12-2-nonlistening-q34",
+        "cet4-2024-12-2-nonlistening-q35",
+        "cet4-2024-12-2-nonlistening-q36",
+        "cet4-2024-12-2-nonlistening-q37",
+        "cet4-2024-12-2-nonlistening-q38",
+        "cet4-2024-12-2-nonlistening-q39",
+        "cet4-2024-12-2-nonlistening-q40",
+        "cet4-2024-12-2-nonlistening-q41",
+        "cet4-2024-12-2-nonlistening-q42",
+        "cet4-2024-12-2-nonlistening-q43",
+        "cet4-2024-12-2-nonlistening-q44",
+        "cet4-2024-12-2-nonlistening-q45",
+        "cet4-2024-12-2-nonlistening-q46",
+        "cet4-2024-12-2-nonlistening-q47",
+        "cet4-2024-12-2-nonlistening-q48",
+        "cet4-2024-12-2-nonlistening-q49",
+        "cet4-2024-12-2-nonlistening-q50",
+        "cet4-2024-12-2-nonlistening-q51",
+        "cet4-2024-12-2-nonlistening-q52",
+        "cet4-2024-12-2-nonlistening-q53",
+        "cet4-2024-12-2-nonlistening-q54",
+        "cet4-2024-12-2-nonlistening-q55",
+        "cet4-2024-12-2-nonlistening-translation"
+      ],
+      "durationSeconds": 6000,
+      "description": "写作1题、阅读30题、翻译1题，不含听力。客观题答案与题面、选项完成结构一致性核对。",
+      "sourceId": "cet4-2024-12-2-nonlistening",
+      "coverage": {
+        "fullPaper": false,
+        "fullNonListening": true,
+        "listeningExcluded": true,
+        "objectiveNumbers": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "objectiveCount": 30,
+        "subjectiveCount": 2,
+        "sections": [
+          "writing",
+          "reading_word_bank",
+          "reading_matching",
+          "reading_comprehension",
+          "translation"
+        ],
+        "sharedSectionSource": {},
+        "note": "写作1题、阅读30题、翻译1题，不含听力。",
+        "independentlyConfirmedSharedSource": "",
+        "readingSourceCorrection": null,
+        "sectionSourceReplacement": null,
+        "referenceStatus": "project_authored"
+      },
+      "resources": [
+        {
+          "id": "cet4-2024-12-2-nonlistening-source",
+          "type": "web",
+          "title": "原卷来源与题面核对",
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2024-12-2/"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cet4-2024-12-2-nonlistening-writing",
+      "number": "I",
+      "level": "CET4",
+      "type": "short_text_self_check",
+      "skill": "writing",
+      "section": "writing",
+      "prompt": "Directions: Suppose the university newspaper is inviting submissions from the students for its coming edition on how to enrich students' knowledge of traditional Chinese culture. You are now to write an essay for submission. You will have 30 minutes to write the essay. You should write at least 120 words but no more than 180 words.",
+      "options": [],
+      "correctAnswer": "Students can deepen their knowledge of traditional Chinese culture by combining careful reading with direct experience. Culture becomes more meaningful when we understand both its background and its connection with everyday life.\n\nFirst, universities could organize small reading groups on classical literature, traditional festivals and local history. Teachers or knowledgeable volunteers could explain unfamiliar ideas and help students distinguish reliable information from attractive but inaccurate stories. Second, practical activities would bring this knowledge to life. A calligraphy workshop or a museum visit can encourage students to ask questions that a textbook alone may not answer.\n\nStudents should also share what they learn. Short campus exhibitions and discussions with international classmates would require us to explain cultural practices clearly and respectfully. Regular participation is more useful than memorizing a few impressive phrases. Through reading, experience and reflection, we can develop a richer understanding of our cultural traditions.",
+      "referenceAnswer": "Students can deepen their knowledge of traditional Chinese culture by combining careful reading with direct experience. Culture becomes more meaningful when we understand both its background and its connection with everyday life.\n\nFirst, universities could organize small reading groups on classical literature, traditional festivals and local history. Teachers or knowledgeable volunteers could explain unfamiliar ideas and help students distinguish reliable information from attractive but inaccurate stories. Second, practical activities would bring this knowledge to life. A calligraphy workshop or a museum visit can encourage students to ask questions that a textbook alone may not answer.\n\nStudents should also share what they learn. Short campus exhibitions and discussions with international classmates would require us to explain cultural practices clearly and respectfully. Regular participation is more useful than memorizing a few impressive phrases. Through reading, experience and reflection, we can develop a richer understanding of our cultural traditions.",
+      "hint": "how要求具体方法；按阅读求知、体验求证、交流反思安排三层，并解释每层怎样增进传统文化知识。",
+      "explanation": "以下为原创参考范文，作文没有唯一答案。首段主张阅读与亲身体验结合。主体先写经典、节日和地方史阅读小组，同时说明可靠来源；随后以书法工作坊、博物馆参观实现理论联系体验；末段用展示和跨文化讨论促进理解。distinguish A from B表示区分两类信息，bring this knowledge to life表示让知识具体可感。每项活动后都有目的，避免只列传统文化名称。traditional Chinese culture应贯穿全文，不能换成只训练英语口语。范文是独立撰写的参考，可换成真实参加的文化活动。\n\n练习方法：先用提示列三段提纲，在30分钟内独立写作，再按下方标准逐项打分；把失分最多的一段重写。参考范文约146词（缩写、连字符词按一词，含标题或书信称呼落款），满足120–180词要求；评分用于练习自检，不代表官方阅卷分数。",
+      "rubric": [
+        "练习自评总分15分：题目覆盖0–6＋结构0–4＋语言0–5，先独立写完再对照；观点不同于范文也可得满分，只要有合理支持。",
+        "题目覆盖0–6分：该题检查——how要求具体方法；按阅读求知、体验求证、交流反思安排三层，并解释每层怎样增进传统文化知识。。6分=任务完整且有具体理由/活动/例证；4–5分=切题但细节偏薄；2–3分=遗漏主要任务；0–1分=基本离题。",
+        "结构0–4分：4分=开头明确任务、主体按逻辑展开、结尾回扣，段间自然；3分=顺序清楚但局部衔接生硬；1–2分=跳跃或机械罗列；0分=内容难以组织理解。",
+        "语言0–5分：5分=语法和用词基本准确、句型有变化；3–4分=少量错误但不影响理解；1–2分=反复出现时态、主谓一致或搭配错误并影响阅读；0分=多数句子不能理解。",
+        "格式与修订：按原题保持120–180词；新闻/书信/提案用对应体裁，明确要求的首句逐字保留。若超限、少写任务或缺必要格式，先修改再评分，不把字数达标当作内容满分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-2-nonlistening-q26",
+      "canonicalId": "lazynote-cet4-2024-12-2-q26",
+      "number": 26,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 26 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Scientists have known that depriving adult mice of vision can increase the sensitivity of individual neurons(神经元) in the part of the brain devoted to hearing. New research from biologists at the University of Maryland [26] ____ that sight deprivation also changes the way brain cells [27] ____ with one another, shifting the mice's sensitivity to different frequencies.\n\n\"This study [28] ____ what we are learning about how manipulating vision can have a [29] ____ effect on the ability of an animal to hear long after the window for auditory(听觉的) learning was thought to have [30] ____ ,\" said Patrick Kanold, senior author of the study.\n\nIt was once thought that the sensory regions of the brain were not [31] ____ after a critical period in childhood. This is why children learn languages much more [32] ____ than adults. Kanold's earlier research disproved this idea by showing that depriving adult mice of vision for a short period increased the sensitivity of individual neurons in the auditory cortex(皮质), which is devoted to hearing.\n\nYoung brains wire themselves according to the sounds they hear frequently, assigning areas of the auditory cortex to [33] ____ frequencies based on what they are used to hearing. The researchers found that, in adult mice, a week in the dark also changed the [34] ____ of space to different frequencies.\n\n\"We don't know why we are seeing these patterns,\" Kanold said. \"We [35] ____ that it may have to do with what the mice are paying attention to while they are in the dark.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "adaptable"
+        },
+        {
+          "id": "B",
+          "text": "closed"
+        },
+        {
+          "id": "C",
+          "text": "distribution"
+        },
+        {
+          "id": "D",
+          "text": "interact"
+        },
+        {
+          "id": "E",
+          "text": "narration"
+        },
+        {
+          "id": "F",
+          "text": "neutral"
+        },
+        {
+          "id": "G",
+          "text": "permanently"
+        },
+        {
+          "id": "H",
+          "text": "prescribes"
+        },
+        {
+          "id": "I",
+          "text": "readily"
+        },
+        {
+          "id": "J",
+          "text": "registered"
+        },
+        {
+          "id": "K",
+          "text": "reinforces"
+        },
+        {
+          "id": "L",
+          "text": "revealed"
+        },
+        {
+          "id": "M",
+          "text": "significant"
+        },
+        {
+          "id": "N",
+          "text": "specific"
+        },
+        {
+          "id": "O",
+          "text": "speculate"
+        }
+      ],
+      "correctAnswer": "L",
+      "hint": "先看第 26 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 L（revealed）。本空所在句：New research from biologists at the University of Maryland [26] ____ that sight deprivation also changes the way brain cells [27] ____ with one another, shifting the mice's sensitivity to different frequencies.\n将本空替换为 revealed 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-2-nonlistening-q27",
+      "canonicalId": "lazynote-cet4-2024-12-2-q27",
+      "number": 27,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 27 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Scientists have known that depriving adult mice of vision can increase the sensitivity of individual neurons(神经元) in the part of the brain devoted to hearing. New research from biologists at the University of Maryland [26] ____ that sight deprivation also changes the way brain cells [27] ____ with one another, shifting the mice's sensitivity to different frequencies.\n\n\"This study [28] ____ what we are learning about how manipulating vision can have a [29] ____ effect on the ability of an animal to hear long after the window for auditory(听觉的) learning was thought to have [30] ____ ,\" said Patrick Kanold, senior author of the study.\n\nIt was once thought that the sensory regions of the brain were not [31] ____ after a critical period in childhood. This is why children learn languages much more [32] ____ than adults. Kanold's earlier research disproved this idea by showing that depriving adult mice of vision for a short period increased the sensitivity of individual neurons in the auditory cortex(皮质), which is devoted to hearing.\n\nYoung brains wire themselves according to the sounds they hear frequently, assigning areas of the auditory cortex to [33] ____ frequencies based on what they are used to hearing. The researchers found that, in adult mice, a week in the dark also changed the [34] ____ of space to different frequencies.\n\n\"We don't know why we are seeing these patterns,\" Kanold said. \"We [35] ____ that it may have to do with what the mice are paying attention to while they are in the dark.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "adaptable"
+        },
+        {
+          "id": "B",
+          "text": "closed"
+        },
+        {
+          "id": "C",
+          "text": "distribution"
+        },
+        {
+          "id": "D",
+          "text": "interact"
+        },
+        {
+          "id": "E",
+          "text": "narration"
+        },
+        {
+          "id": "F",
+          "text": "neutral"
+        },
+        {
+          "id": "G",
+          "text": "permanently"
+        },
+        {
+          "id": "H",
+          "text": "prescribes"
+        },
+        {
+          "id": "I",
+          "text": "readily"
+        },
+        {
+          "id": "J",
+          "text": "registered"
+        },
+        {
+          "id": "K",
+          "text": "reinforces"
+        },
+        {
+          "id": "L",
+          "text": "revealed"
+        },
+        {
+          "id": "M",
+          "text": "significant"
+        },
+        {
+          "id": "N",
+          "text": "specific"
+        },
+        {
+          "id": "O",
+          "text": "speculate"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "先看第 27 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 D（interact）。本空所在句：New research from biologists at the University of Maryland [26] ____ that sight deprivation also changes the way brain cells [27] ____ with one another, shifting the mice's sensitivity to different frequencies.\n将本空替换为 interact 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-2-nonlistening-q28",
+      "canonicalId": "lazynote-cet4-2024-12-2-q28",
+      "number": 28,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 28 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Scientists have known that depriving adult mice of vision can increase the sensitivity of individual neurons(神经元) in the part of the brain devoted to hearing. New research from biologists at the University of Maryland [26] ____ that sight deprivation also changes the way brain cells [27] ____ with one another, shifting the mice's sensitivity to different frequencies.\n\n\"This study [28] ____ what we are learning about how manipulating vision can have a [29] ____ effect on the ability of an animal to hear long after the window for auditory(听觉的) learning was thought to have [30] ____ ,\" said Patrick Kanold, senior author of the study.\n\nIt was once thought that the sensory regions of the brain were not [31] ____ after a critical period in childhood. This is why children learn languages much more [32] ____ than adults. Kanold's earlier research disproved this idea by showing that depriving adult mice of vision for a short period increased the sensitivity of individual neurons in the auditory cortex(皮质), which is devoted to hearing.\n\nYoung brains wire themselves according to the sounds they hear frequently, assigning areas of the auditory cortex to [33] ____ frequencies based on what they are used to hearing. The researchers found that, in adult mice, a week in the dark also changed the [34] ____ of space to different frequencies.\n\n\"We don't know why we are seeing these patterns,\" Kanold said. \"We [35] ____ that it may have to do with what the mice are paying attention to while they are in the dark.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "adaptable"
+        },
+        {
+          "id": "B",
+          "text": "closed"
+        },
+        {
+          "id": "C",
+          "text": "distribution"
+        },
+        {
+          "id": "D",
+          "text": "interact"
+        },
+        {
+          "id": "E",
+          "text": "narration"
+        },
+        {
+          "id": "F",
+          "text": "neutral"
+        },
+        {
+          "id": "G",
+          "text": "permanently"
+        },
+        {
+          "id": "H",
+          "text": "prescribes"
+        },
+        {
+          "id": "I",
+          "text": "readily"
+        },
+        {
+          "id": "J",
+          "text": "registered"
+        },
+        {
+          "id": "K",
+          "text": "reinforces"
+        },
+        {
+          "id": "L",
+          "text": "revealed"
+        },
+        {
+          "id": "M",
+          "text": "significant"
+        },
+        {
+          "id": "N",
+          "text": "specific"
+        },
+        {
+          "id": "O",
+          "text": "speculate"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "先看第 28 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 K（reinforces）。本空所在句：\"This study [28] ____ what we are learning about how manipulating vision can have a [29] ____ effect on the ability of an animal to hear long after the window for auditory(听觉的) learning was thought to have [30] ____ ,\" said Patrick Kanold, senior author of the study.\n将本空替换为 reinforces 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-2-nonlistening-q29",
+      "canonicalId": "lazynote-cet4-2024-12-2-q29",
+      "number": 29,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 29 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Scientists have known that depriving adult mice of vision can increase the sensitivity of individual neurons(神经元) in the part of the brain devoted to hearing. New research from biologists at the University of Maryland [26] ____ that sight deprivation also changes the way brain cells [27] ____ with one another, shifting the mice's sensitivity to different frequencies.\n\n\"This study [28] ____ what we are learning about how manipulating vision can have a [29] ____ effect on the ability of an animal to hear long after the window for auditory(听觉的) learning was thought to have [30] ____ ,\" said Patrick Kanold, senior author of the study.\n\nIt was once thought that the sensory regions of the brain were not [31] ____ after a critical period in childhood. This is why children learn languages much more [32] ____ than adults. Kanold's earlier research disproved this idea by showing that depriving adult mice of vision for a short period increased the sensitivity of individual neurons in the auditory cortex(皮质), which is devoted to hearing.\n\nYoung brains wire themselves according to the sounds they hear frequently, assigning areas of the auditory cortex to [33] ____ frequencies based on what they are used to hearing. The researchers found that, in adult mice, a week in the dark also changed the [34] ____ of space to different frequencies.\n\n\"We don't know why we are seeing these patterns,\" Kanold said. \"We [35] ____ that it may have to do with what the mice are paying attention to while they are in the dark.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "adaptable"
+        },
+        {
+          "id": "B",
+          "text": "closed"
+        },
+        {
+          "id": "C",
+          "text": "distribution"
+        },
+        {
+          "id": "D",
+          "text": "interact"
+        },
+        {
+          "id": "E",
+          "text": "narration"
+        },
+        {
+          "id": "F",
+          "text": "neutral"
+        },
+        {
+          "id": "G",
+          "text": "permanently"
+        },
+        {
+          "id": "H",
+          "text": "prescribes"
+        },
+        {
+          "id": "I",
+          "text": "readily"
+        },
+        {
+          "id": "J",
+          "text": "registered"
+        },
+        {
+          "id": "K",
+          "text": "reinforces"
+        },
+        {
+          "id": "L",
+          "text": "revealed"
+        },
+        {
+          "id": "M",
+          "text": "significant"
+        },
+        {
+          "id": "N",
+          "text": "specific"
+        },
+        {
+          "id": "O",
+          "text": "speculate"
+        }
+      ],
+      "correctAnswer": "M",
+      "hint": "先看第 29 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 M（significant）。本空所在句：\"This study [28] ____ what we are learning about how manipulating vision can have a [29] ____ effect on the ability of an animal to hear long after the window for auditory(听觉的) learning was thought to have [30] ____ ,\" said Patrick Kanold, senior author of the study.\n将本空替换为 significant 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-2-nonlistening-q30",
+      "canonicalId": "lazynote-cet4-2024-12-2-q30",
+      "number": 30,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 30 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Scientists have known that depriving adult mice of vision can increase the sensitivity of individual neurons(神经元) in the part of the brain devoted to hearing. New research from biologists at the University of Maryland [26] ____ that sight deprivation also changes the way brain cells [27] ____ with one another, shifting the mice's sensitivity to different frequencies.\n\n\"This study [28] ____ what we are learning about how manipulating vision can have a [29] ____ effect on the ability of an animal to hear long after the window for auditory(听觉的) learning was thought to have [30] ____ ,\" said Patrick Kanold, senior author of the study.\n\nIt was once thought that the sensory regions of the brain were not [31] ____ after a critical period in childhood. This is why children learn languages much more [32] ____ than adults. Kanold's earlier research disproved this idea by showing that depriving adult mice of vision for a short period increased the sensitivity of individual neurons in the auditory cortex(皮质), which is devoted to hearing.\n\nYoung brains wire themselves according to the sounds they hear frequently, assigning areas of the auditory cortex to [33] ____ frequencies based on what they are used to hearing. The researchers found that, in adult mice, a week in the dark also changed the [34] ____ of space to different frequencies.\n\n\"We don't know why we are seeing these patterns,\" Kanold said. \"We [35] ____ that it may have to do with what the mice are paying attention to while they are in the dark.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "adaptable"
+        },
+        {
+          "id": "B",
+          "text": "closed"
+        },
+        {
+          "id": "C",
+          "text": "distribution"
+        },
+        {
+          "id": "D",
+          "text": "interact"
+        },
+        {
+          "id": "E",
+          "text": "narration"
+        },
+        {
+          "id": "F",
+          "text": "neutral"
+        },
+        {
+          "id": "G",
+          "text": "permanently"
+        },
+        {
+          "id": "H",
+          "text": "prescribes"
+        },
+        {
+          "id": "I",
+          "text": "readily"
+        },
+        {
+          "id": "J",
+          "text": "registered"
+        },
+        {
+          "id": "K",
+          "text": "reinforces"
+        },
+        {
+          "id": "L",
+          "text": "revealed"
+        },
+        {
+          "id": "M",
+          "text": "significant"
+        },
+        {
+          "id": "N",
+          "text": "specific"
+        },
+        {
+          "id": "O",
+          "text": "speculate"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "先看第 30 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 B（closed）。本空所在句：\"This study [28] ____ what we are learning about how manipulating vision can have a [29] ____ effect on the ability of an animal to hear long after the window for auditory(听觉的) learning was thought to have [30] ____ ,\" said Patrick Kanold, senior author of the study.\n将本空替换为 closed 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-2-nonlistening-q31",
+      "canonicalId": "lazynote-cet4-2024-12-2-q31",
+      "number": 31,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 31 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Scientists have known that depriving adult mice of vision can increase the sensitivity of individual neurons(神经元) in the part of the brain devoted to hearing. New research from biologists at the University of Maryland [26] ____ that sight deprivation also changes the way brain cells [27] ____ with one another, shifting the mice's sensitivity to different frequencies.\n\n\"This study [28] ____ what we are learning about how manipulating vision can have a [29] ____ effect on the ability of an animal to hear long after the window for auditory(听觉的) learning was thought to have [30] ____ ,\" said Patrick Kanold, senior author of the study.\n\nIt was once thought that the sensory regions of the brain were not [31] ____ after a critical period in childhood. This is why children learn languages much more [32] ____ than adults. Kanold's earlier research disproved this idea by showing that depriving adult mice of vision for a short period increased the sensitivity of individual neurons in the auditory cortex(皮质), which is devoted to hearing.\n\nYoung brains wire themselves according to the sounds they hear frequently, assigning areas of the auditory cortex to [33] ____ frequencies based on what they are used to hearing. The researchers found that, in adult mice, a week in the dark also changed the [34] ____ of space to different frequencies.\n\n\"We don't know why we are seeing these patterns,\" Kanold said. \"We [35] ____ that it may have to do with what the mice are paying attention to while they are in the dark.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "adaptable"
+        },
+        {
+          "id": "B",
+          "text": "closed"
+        },
+        {
+          "id": "C",
+          "text": "distribution"
+        },
+        {
+          "id": "D",
+          "text": "interact"
+        },
+        {
+          "id": "E",
+          "text": "narration"
+        },
+        {
+          "id": "F",
+          "text": "neutral"
+        },
+        {
+          "id": "G",
+          "text": "permanently"
+        },
+        {
+          "id": "H",
+          "text": "prescribes"
+        },
+        {
+          "id": "I",
+          "text": "readily"
+        },
+        {
+          "id": "J",
+          "text": "registered"
+        },
+        {
+          "id": "K",
+          "text": "reinforces"
+        },
+        {
+          "id": "L",
+          "text": "revealed"
+        },
+        {
+          "id": "M",
+          "text": "significant"
+        },
+        {
+          "id": "N",
+          "text": "specific"
+        },
+        {
+          "id": "O",
+          "text": "speculate"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "先看第 31 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 A（adaptable）。本空所在句：It was once thought that the sensory regions of the brain were not [31] ____ after a critical period in childhood.\n将本空替换为 adaptable 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-2-nonlistening-q32",
+      "canonicalId": "lazynote-cet4-2024-12-2-q32",
+      "number": 32,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 32 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Scientists have known that depriving adult mice of vision can increase the sensitivity of individual neurons(神经元) in the part of the brain devoted to hearing. New research from biologists at the University of Maryland [26] ____ that sight deprivation also changes the way brain cells [27] ____ with one another, shifting the mice's sensitivity to different frequencies.\n\n\"This study [28] ____ what we are learning about how manipulating vision can have a [29] ____ effect on the ability of an animal to hear long after the window for auditory(听觉的) learning was thought to have [30] ____ ,\" said Patrick Kanold, senior author of the study.\n\nIt was once thought that the sensory regions of the brain were not [31] ____ after a critical period in childhood. This is why children learn languages much more [32] ____ than adults. Kanold's earlier research disproved this idea by showing that depriving adult mice of vision for a short period increased the sensitivity of individual neurons in the auditory cortex(皮质), which is devoted to hearing.\n\nYoung brains wire themselves according to the sounds they hear frequently, assigning areas of the auditory cortex to [33] ____ frequencies based on what they are used to hearing. The researchers found that, in adult mice, a week in the dark also changed the [34] ____ of space to different frequencies.\n\n\"We don't know why we are seeing these patterns,\" Kanold said. \"We [35] ____ that it may have to do with what the mice are paying attention to while they are in the dark.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "adaptable"
+        },
+        {
+          "id": "B",
+          "text": "closed"
+        },
+        {
+          "id": "C",
+          "text": "distribution"
+        },
+        {
+          "id": "D",
+          "text": "interact"
+        },
+        {
+          "id": "E",
+          "text": "narration"
+        },
+        {
+          "id": "F",
+          "text": "neutral"
+        },
+        {
+          "id": "G",
+          "text": "permanently"
+        },
+        {
+          "id": "H",
+          "text": "prescribes"
+        },
+        {
+          "id": "I",
+          "text": "readily"
+        },
+        {
+          "id": "J",
+          "text": "registered"
+        },
+        {
+          "id": "K",
+          "text": "reinforces"
+        },
+        {
+          "id": "L",
+          "text": "revealed"
+        },
+        {
+          "id": "M",
+          "text": "significant"
+        },
+        {
+          "id": "N",
+          "text": "specific"
+        },
+        {
+          "id": "O",
+          "text": "speculate"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "先看第 32 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 I（readily）。本空所在句：This is why children learn languages much more [32] ____ than adults.\n将本空替换为 readily 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-2-nonlistening-q33",
+      "canonicalId": "lazynote-cet4-2024-12-2-q33",
+      "number": 33,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 33 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Scientists have known that depriving adult mice of vision can increase the sensitivity of individual neurons(神经元) in the part of the brain devoted to hearing. New research from biologists at the University of Maryland [26] ____ that sight deprivation also changes the way brain cells [27] ____ with one another, shifting the mice's sensitivity to different frequencies.\n\n\"This study [28] ____ what we are learning about how manipulating vision can have a [29] ____ effect on the ability of an animal to hear long after the window for auditory(听觉的) learning was thought to have [30] ____ ,\" said Patrick Kanold, senior author of the study.\n\nIt was once thought that the sensory regions of the brain were not [31] ____ after a critical period in childhood. This is why children learn languages much more [32] ____ than adults. Kanold's earlier research disproved this idea by showing that depriving adult mice of vision for a short period increased the sensitivity of individual neurons in the auditory cortex(皮质), which is devoted to hearing.\n\nYoung brains wire themselves according to the sounds they hear frequently, assigning areas of the auditory cortex to [33] ____ frequencies based on what they are used to hearing. The researchers found that, in adult mice, a week in the dark also changed the [34] ____ of space to different frequencies.\n\n\"We don't know why we are seeing these patterns,\" Kanold said. \"We [35] ____ that it may have to do with what the mice are paying attention to while they are in the dark.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "adaptable"
+        },
+        {
+          "id": "B",
+          "text": "closed"
+        },
+        {
+          "id": "C",
+          "text": "distribution"
+        },
+        {
+          "id": "D",
+          "text": "interact"
+        },
+        {
+          "id": "E",
+          "text": "narration"
+        },
+        {
+          "id": "F",
+          "text": "neutral"
+        },
+        {
+          "id": "G",
+          "text": "permanently"
+        },
+        {
+          "id": "H",
+          "text": "prescribes"
+        },
+        {
+          "id": "I",
+          "text": "readily"
+        },
+        {
+          "id": "J",
+          "text": "registered"
+        },
+        {
+          "id": "K",
+          "text": "reinforces"
+        },
+        {
+          "id": "L",
+          "text": "revealed"
+        },
+        {
+          "id": "M",
+          "text": "significant"
+        },
+        {
+          "id": "N",
+          "text": "specific"
+        },
+        {
+          "id": "O",
+          "text": "speculate"
+        }
+      ],
+      "correctAnswer": "N",
+      "hint": "先看第 33 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 N（specific）。本空所在句：Young brains wire themselves according to the sounds they hear frequently, assigning areas of the auditory cortex to [33] ____ frequencies based on what they are used to hearing.\n将本空替换为 specific 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-2-nonlistening-q34",
+      "canonicalId": "lazynote-cet4-2024-12-2-q34",
+      "number": 34,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 34 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Scientists have known that depriving adult mice of vision can increase the sensitivity of individual neurons(神经元) in the part of the brain devoted to hearing. New research from biologists at the University of Maryland [26] ____ that sight deprivation also changes the way brain cells [27] ____ with one another, shifting the mice's sensitivity to different frequencies.\n\n\"This study [28] ____ what we are learning about how manipulating vision can have a [29] ____ effect on the ability of an animal to hear long after the window for auditory(听觉的) learning was thought to have [30] ____ ,\" said Patrick Kanold, senior author of the study.\n\nIt was once thought that the sensory regions of the brain were not [31] ____ after a critical period in childhood. This is why children learn languages much more [32] ____ than adults. Kanold's earlier research disproved this idea by showing that depriving adult mice of vision for a short period increased the sensitivity of individual neurons in the auditory cortex(皮质), which is devoted to hearing.\n\nYoung brains wire themselves according to the sounds they hear frequently, assigning areas of the auditory cortex to [33] ____ frequencies based on what they are used to hearing. The researchers found that, in adult mice, a week in the dark also changed the [34] ____ of space to different frequencies.\n\n\"We don't know why we are seeing these patterns,\" Kanold said. \"We [35] ____ that it may have to do with what the mice are paying attention to while they are in the dark.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "adaptable"
+        },
+        {
+          "id": "B",
+          "text": "closed"
+        },
+        {
+          "id": "C",
+          "text": "distribution"
+        },
+        {
+          "id": "D",
+          "text": "interact"
+        },
+        {
+          "id": "E",
+          "text": "narration"
+        },
+        {
+          "id": "F",
+          "text": "neutral"
+        },
+        {
+          "id": "G",
+          "text": "permanently"
+        },
+        {
+          "id": "H",
+          "text": "prescribes"
+        },
+        {
+          "id": "I",
+          "text": "readily"
+        },
+        {
+          "id": "J",
+          "text": "registered"
+        },
+        {
+          "id": "K",
+          "text": "reinforces"
+        },
+        {
+          "id": "L",
+          "text": "revealed"
+        },
+        {
+          "id": "M",
+          "text": "significant"
+        },
+        {
+          "id": "N",
+          "text": "specific"
+        },
+        {
+          "id": "O",
+          "text": "speculate"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "先看第 34 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 C（distribution）。本空所在句：The researchers found that, in adult mice, a week in the dark also changed the [34] ____ of space to different frequencies.\n将本空替换为 distribution 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-2-nonlistening-q35",
+      "canonicalId": "lazynote-cet4-2024-12-2-q35",
+      "number": 35,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 35 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Scientists have known that depriving adult mice of vision can increase the sensitivity of individual neurons(神经元) in the part of the brain devoted to hearing. New research from biologists at the University of Maryland [26] ____ that sight deprivation also changes the way brain cells [27] ____ with one another, shifting the mice's sensitivity to different frequencies.\n\n\"This study [28] ____ what we are learning about how manipulating vision can have a [29] ____ effect on the ability of an animal to hear long after the window for auditory(听觉的) learning was thought to have [30] ____ ,\" said Patrick Kanold, senior author of the study.\n\nIt was once thought that the sensory regions of the brain were not [31] ____ after a critical period in childhood. This is why children learn languages much more [32] ____ than adults. Kanold's earlier research disproved this idea by showing that depriving adult mice of vision for a short period increased the sensitivity of individual neurons in the auditory cortex(皮质), which is devoted to hearing.\n\nYoung brains wire themselves according to the sounds they hear frequently, assigning areas of the auditory cortex to [33] ____ frequencies based on what they are used to hearing. The researchers found that, in adult mice, a week in the dark also changed the [34] ____ of space to different frequencies.\n\n\"We don't know why we are seeing these patterns,\" Kanold said. \"We [35] ____ that it may have to do with what the mice are paying attention to while they are in the dark.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "adaptable"
+        },
+        {
+          "id": "B",
+          "text": "closed"
+        },
+        {
+          "id": "C",
+          "text": "distribution"
+        },
+        {
+          "id": "D",
+          "text": "interact"
+        },
+        {
+          "id": "E",
+          "text": "narration"
+        },
+        {
+          "id": "F",
+          "text": "neutral"
+        },
+        {
+          "id": "G",
+          "text": "permanently"
+        },
+        {
+          "id": "H",
+          "text": "prescribes"
+        },
+        {
+          "id": "I",
+          "text": "readily"
+        },
+        {
+          "id": "J",
+          "text": "registered"
+        },
+        {
+          "id": "K",
+          "text": "reinforces"
+        },
+        {
+          "id": "L",
+          "text": "revealed"
+        },
+        {
+          "id": "M",
+          "text": "significant"
+        },
+        {
+          "id": "N",
+          "text": "specific"
+        },
+        {
+          "id": "O",
+          "text": "speculate"
+        }
+      ],
+      "correctAnswer": "O",
+      "hint": "先看第 35 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 O（speculate）。本空所在句：\"We [35] ____ that it may have to do with what the mice are paying attention to while they are in the dark.\"\n将本空替换为 speculate 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-2-nonlistening-q36",
+      "canonicalId": "lazynote-cet4-2024-12-2-q36",
+      "number": 36,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Judging from the slowing rate of sales growth, there is still hope to combat bottled water.",
+      "passage": "If we care about plastic waste, why won't we stop drinking bottled water? We have all seen the damage plastic waste is doing around the world, but sales of bottled water have continued to grow.\n\nA) For all the innovation and choice that define the food and drink industries, if you want to make money, you could do a lot worse than fill a bottle with water and sell it. A litre of tap water, the stuff we have cleverly piped into our homes, costs less than half a penny. A litre of bottled water can cost well over a pound, especially for something fancy that has been sucked through a mountain.\n\nB) Yet the bottled water market is livelier than ever. It defies our increasing awareness of the harm plastics do to the environment and a broader, growing sense that something has to change. Sales in the UK were worth a record £558.4 million this past year, an increase of 7%, according to the latest figures from the market analyst Kantar. Separate data from other analysts show that last year the British consumed more than 2.2 billion litres of bottled water, including \"take-home\" and \"on-the-go\" products. That's an annual rise in volume of 8.5%.\n\nC) Environmental campaigners are struggling to understand why nations blessed with clean tap water grow only fonder of the bottle. \"It's very surprising to me,\" says Sam Chetan-Walsh, a political adviser at Greenpeace and campaigner against ocean plastic. \"Public awareness has never been higher, but the message is not quite reaching all the people it needs to.\" Where it is heard, the message is causing concern. Plastic water bottles require oceans of fossil fuels to make and ship. Additionally, single-use plastics of all types are polluting our cities and seas. Numerous documentaries have shown how plastic is ultimately killing wildlife.\n\nD) Moves against various plastics have gathered pace, from shopping bags to straws and plastic-lined coffee cups. Chetan-Walsh argues that bottled water is different because the alternatives are so obvious. \"If a product that is so nakedly unnecessary can exist, then the whole system is failing,\" he says.\n\nE) Hope is not entirely out of reach. The rate of growth has begun to ease (sales were up 7% in the year, compared with 8% the previous year).\n\nF) But even if large numbers of people are quitting bottled water because of care for the environment, others are taking it up. The introduction of the \"sugar tax\" on juices and soda drinks has pushed more people to bottled water, while health awareness has boosted its desirability. Tap water consumption is growing at roughly the same pace (UK consumers still drink almost three times as much tap water as bottled water).\n\nG) So the plastic tide only creeps higher. The industry is quick to point out that all its bottles are recyclable. \"But collection rates are, at the most generous estimates, 56%, so the actual recycling rate will be lower than that,\" Chetan-Walsh says. And while bottles may be recyclable, very few are made of recycled plastic. One water bottle company launched recycled half-litre \"eco\" bottles alongside its standard bottles. Another has pledged to use only recycled plastic across its range by 2025. Chetan-Walsh believes in a ban on single-use bottles. Bans do exist in some places. Organisers of a famous music festival announced that water bottles will not be sold this summer. San Francisco has banned them from city property and events. Last year, the UK government set out plans to ban single-use plastic from its estate.\n\nH) Water bottlers, unsurprisingly, don't support bans. But they raise concerns about health rather than profit margins. Last month one chief executive of a water bottling company said that bans would \"result in greater consumption of sugary drinks, adding to all the health dangers of obesity, diabetes and tooth decay\". Kinvara Carey, general manager of an association of the biggest bottled water manufacturers, cites a survey in which people were asked what they would do if bottled water were not available. \"Forty-four per cent would buy another drink, which is not great, 14% would go without and 4.5% said they would find a fountain,\" she says. \"The choice is important.\"\n\nI) What if fountains were more numerous, and tap water more clearly available in cafes, restaurants and elsewhere? Dozens of fountains are being installed in London. There are similar initiatives elsewhere. Before plastic and the marketing that made people think they needed bottled water in the first place, fountains were an urban fixture. Greenpeace, among others, is also pushing for a \"deposit return\" scheme. This would mean tax on bottled water would be refunded to customers who returned the plastic for recycling.\n\nJ) Even if bottled water sales are growing slightly more slowly, the industry is racing to adapt to changing concerns and tastes. Flavoured water is booming: sales of the sparkling variety shot up by 20%, according to the latest analyst data. Meanwhile, international water brands, as well as a range of new companies, are selling high-end reusable bottles. And if you must fill them with tap water, why not add flavouring?\n\nK) As the owner of multiple sugary drink brands and bottled water, PepsiCo is facing challenges on health and environmental fronts. Last year, the company bought SodaStream (a drinks company that sells machines for making tap water bubbly and then consumers add flavours) for $3.2 billion. It also launched a range of fancy bottles that work with tap water and flavour packets. The bottle is reusable. The packets? Not so much, and, yes, they are made of plastic, although the company invites users to post them back for recycling.\n\nL) As is so often the case, clever marketing can beat reason; awareness is rarely enough. \"There is always this kind of slip between concern, intent and changed behaviour,\" says Giles Quick, an analyst of bottled water. \"The best example is five a day, the recommendation to have at least five portions of fruit and vegetables every day. Almost everyone is aware of this, but something like 15% of us achieve it.\" Unless a far-reaching bottle ban does come into force, it will be up to consumers to not only demand change—but to act themselves.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 E 段。题干：Judging from the slowing rate of sales growth, there is still hope to combat bottled water.\n核对该段原文：Hope is not entirely out of reach. The rate of growth has begun to ease (sales were up 7% in the year, compared with 8% the previous year).\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-2-nonlistening-q37",
+      "canonicalId": "lazynote-cet4-2024-12-2-q37",
+      "number": 37,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Bottled water manufacturers base their arguments against bans of plastic bottles on health concerns rather than on profits.",
+      "passage": "If we care about plastic waste, why won't we stop drinking bottled water? We have all seen the damage plastic waste is doing around the world, but sales of bottled water have continued to grow.\n\nA) For all the innovation and choice that define the food and drink industries, if you want to make money, you could do a lot worse than fill a bottle with water and sell it. A litre of tap water, the stuff we have cleverly piped into our homes, costs less than half a penny. A litre of bottled water can cost well over a pound, especially for something fancy that has been sucked through a mountain.\n\nB) Yet the bottled water market is livelier than ever. It defies our increasing awareness of the harm plastics do to the environment and a broader, growing sense that something has to change. Sales in the UK were worth a record £558.4 million this past year, an increase of 7%, according to the latest figures from the market analyst Kantar. Separate data from other analysts show that last year the British consumed more than 2.2 billion litres of bottled water, including \"take-home\" and \"on-the-go\" products. That's an annual rise in volume of 8.5%.\n\nC) Environmental campaigners are struggling to understand why nations blessed with clean tap water grow only fonder of the bottle. \"It's very surprising to me,\" says Sam Chetan-Walsh, a political adviser at Greenpeace and campaigner against ocean plastic. \"Public awareness has never been higher, but the message is not quite reaching all the people it needs to.\" Where it is heard, the message is causing concern. Plastic water bottles require oceans of fossil fuels to make and ship. Additionally, single-use plastics of all types are polluting our cities and seas. Numerous documentaries have shown how plastic is ultimately killing wildlife.\n\nD) Moves against various plastics have gathered pace, from shopping bags to straws and plastic-lined coffee cups. Chetan-Walsh argues that bottled water is different because the alternatives are so obvious. \"If a product that is so nakedly unnecessary can exist, then the whole system is failing,\" he says.\n\nE) Hope is not entirely out of reach. The rate of growth has begun to ease (sales were up 7% in the year, compared with 8% the previous year).\n\nF) But even if large numbers of people are quitting bottled water because of care for the environment, others are taking it up. The introduction of the \"sugar tax\" on juices and soda drinks has pushed more people to bottled water, while health awareness has boosted its desirability. Tap water consumption is growing at roughly the same pace (UK consumers still drink almost three times as much tap water as bottled water).\n\nG) So the plastic tide only creeps higher. The industry is quick to point out that all its bottles are recyclable. \"But collection rates are, at the most generous estimates, 56%, so the actual recycling rate will be lower than that,\" Chetan-Walsh says. And while bottles may be recyclable, very few are made of recycled plastic. One water bottle company launched recycled half-litre \"eco\" bottles alongside its standard bottles. Another has pledged to use only recycled plastic across its range by 2025. Chetan-Walsh believes in a ban on single-use bottles. Bans do exist in some places. Organisers of a famous music festival announced that water bottles will not be sold this summer. San Francisco has banned them from city property and events. Last year, the UK government set out plans to ban single-use plastic from its estate.\n\nH) Water bottlers, unsurprisingly, don't support bans. But they raise concerns about health rather than profit margins. Last month one chief executive of a water bottling company said that bans would \"result in greater consumption of sugary drinks, adding to all the health dangers of obesity, diabetes and tooth decay\". Kinvara Carey, general manager of an association of the biggest bottled water manufacturers, cites a survey in which people were asked what they would do if bottled water were not available. \"Forty-four per cent would buy another drink, which is not great, 14% would go without and 4.5% said they would find a fountain,\" she says. \"The choice is important.\"\n\nI) What if fountains were more numerous, and tap water more clearly available in cafes, restaurants and elsewhere? Dozens of fountains are being installed in London. There are similar initiatives elsewhere. Before plastic and the marketing that made people think they needed bottled water in the first place, fountains were an urban fixture. Greenpeace, among others, is also pushing for a \"deposit return\" scheme. This would mean tax on bottled water would be refunded to customers who returned the plastic for recycling.\n\nJ) Even if bottled water sales are growing slightly more slowly, the industry is racing to adapt to changing concerns and tastes. Flavoured water is booming: sales of the sparkling variety shot up by 20%, according to the latest analyst data. Meanwhile, international water brands, as well as a range of new companies, are selling high-end reusable bottles. And if you must fill them with tap water, why not add flavouring?\n\nK) As the owner of multiple sugary drink brands and bottled water, PepsiCo is facing challenges on health and environmental fronts. Last year, the company bought SodaStream (a drinks company that sells machines for making tap water bubbly and then consumers add flavours) for $3.2 billion. It also launched a range of fancy bottles that work with tap water and flavour packets. The bottle is reusable. The packets? Not so much, and, yes, they are made of plastic, although the company invites users to post them back for recycling.\n\nL) As is so often the case, clever marketing can beat reason; awareness is rarely enough. \"There is always this kind of slip between concern, intent and changed behaviour,\" says Giles Quick, an analyst of bottled water. \"The best example is five a day, the recommendation to have at least five portions of fruit and vegetables every day. Almost everyone is aware of this, but something like 15% of us achieve it.\" Unless a far-reaching bottle ban does come into force, it will be up to consumers to not only demand change—but to act themselves.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 H 段。题干：Bottled water manufacturers base their arguments against bans of plastic bottles on health concerns rather than on profits.\n核对该段原文：Water bottlers, unsurprisingly, don't support bans. But they raise concerns about health rather than profit margins. Last month one chief executive of a water bottling company said that bans would \"result in greater consumption of sugary drinks, adding to all the health dangers of obesity, diabetes and tooth decay\". Kinvara Carey, general manager of an association of the biggest bottled water manufacturers, cites a survey in which people were asked what they would do if bottled water were not available. \"Forty-four per cent would buy another drink, which is not great, 14% would go without and 4.5% said they would find a fountain,\" she says. \"The choice is important.\"\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-2-nonlistening-q38",
+      "canonicalId": "lazynote-cet4-2024-12-2-q38",
+      "number": 38,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Sales of bottled water in Britain hit a record high last year even though people are increasingly aware that plastics are environmentally unfriendly.",
+      "passage": "If we care about plastic waste, why won't we stop drinking bottled water? We have all seen the damage plastic waste is doing around the world, but sales of bottled water have continued to grow.\n\nA) For all the innovation and choice that define the food and drink industries, if you want to make money, you could do a lot worse than fill a bottle with water and sell it. A litre of tap water, the stuff we have cleverly piped into our homes, costs less than half a penny. A litre of bottled water can cost well over a pound, especially for something fancy that has been sucked through a mountain.\n\nB) Yet the bottled water market is livelier than ever. It defies our increasing awareness of the harm plastics do to the environment and a broader, growing sense that something has to change. Sales in the UK were worth a record £558.4 million this past year, an increase of 7%, according to the latest figures from the market analyst Kantar. Separate data from other analysts show that last year the British consumed more than 2.2 billion litres of bottled water, including \"take-home\" and \"on-the-go\" products. That's an annual rise in volume of 8.5%.\n\nC) Environmental campaigners are struggling to understand why nations blessed with clean tap water grow only fonder of the bottle. \"It's very surprising to me,\" says Sam Chetan-Walsh, a political adviser at Greenpeace and campaigner against ocean plastic. \"Public awareness has never been higher, but the message is not quite reaching all the people it needs to.\" Where it is heard, the message is causing concern. Plastic water bottles require oceans of fossil fuels to make and ship. Additionally, single-use plastics of all types are polluting our cities and seas. Numerous documentaries have shown how plastic is ultimately killing wildlife.\n\nD) Moves against various plastics have gathered pace, from shopping bags to straws and plastic-lined coffee cups. Chetan-Walsh argues that bottled water is different because the alternatives are so obvious. \"If a product that is so nakedly unnecessary can exist, then the whole system is failing,\" he says.\n\nE) Hope is not entirely out of reach. The rate of growth has begun to ease (sales were up 7% in the year, compared with 8% the previous year).\n\nF) But even if large numbers of people are quitting bottled water because of care for the environment, others are taking it up. The introduction of the \"sugar tax\" on juices and soda drinks has pushed more people to bottled water, while health awareness has boosted its desirability. Tap water consumption is growing at roughly the same pace (UK consumers still drink almost three times as much tap water as bottled water).\n\nG) So the plastic tide only creeps higher. The industry is quick to point out that all its bottles are recyclable. \"But collection rates are, at the most generous estimates, 56%, so the actual recycling rate will be lower than that,\" Chetan-Walsh says. And while bottles may be recyclable, very few are made of recycled plastic. One water bottle company launched recycled half-litre \"eco\" bottles alongside its standard bottles. Another has pledged to use only recycled plastic across its range by 2025. Chetan-Walsh believes in a ban on single-use bottles. Bans do exist in some places. Organisers of a famous music festival announced that water bottles will not be sold this summer. San Francisco has banned them from city property and events. Last year, the UK government set out plans to ban single-use plastic from its estate.\n\nH) Water bottlers, unsurprisingly, don't support bans. But they raise concerns about health rather than profit margins. Last month one chief executive of a water bottling company said that bans would \"result in greater consumption of sugary drinks, adding to all the health dangers of obesity, diabetes and tooth decay\". Kinvara Carey, general manager of an association of the biggest bottled water manufacturers, cites a survey in which people were asked what they would do if bottled water were not available. \"Forty-four per cent would buy another drink, which is not great, 14% would go without and 4.5% said they would find a fountain,\" she says. \"The choice is important.\"\n\nI) What if fountains were more numerous, and tap water more clearly available in cafes, restaurants and elsewhere? Dozens of fountains are being installed in London. There are similar initiatives elsewhere. Before plastic and the marketing that made people think they needed bottled water in the first place, fountains were an urban fixture. Greenpeace, among others, is also pushing for a \"deposit return\" scheme. This would mean tax on bottled water would be refunded to customers who returned the plastic for recycling.\n\nJ) Even if bottled water sales are growing slightly more slowly, the industry is racing to adapt to changing concerns and tastes. Flavoured water is booming: sales of the sparkling variety shot up by 20%, according to the latest analyst data. Meanwhile, international water brands, as well as a range of new companies, are selling high-end reusable bottles. And if you must fill them with tap water, why not add flavouring?\n\nK) As the owner of multiple sugary drink brands and bottled water, PepsiCo is facing challenges on health and environmental fronts. Last year, the company bought SodaStream (a drinks company that sells machines for making tap water bubbly and then consumers add flavours) for $3.2 billion. It also launched a range of fancy bottles that work with tap water and flavour packets. The bottle is reusable. The packets? Not so much, and, yes, they are made of plastic, although the company invites users to post them back for recycling.\n\nL) As is so often the case, clever marketing can beat reason; awareness is rarely enough. \"There is always this kind of slip between concern, intent and changed behaviour,\" says Giles Quick, an analyst of bottled water. \"The best example is five a day, the recommendation to have at least five portions of fruit and vegetables every day. Almost everyone is aware of this, but something like 15% of us achieve it.\" Unless a far-reaching bottle ban does come into force, it will be up to consumers to not only demand change—but to act themselves.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 B 段。题干：Sales of bottled water in Britain hit a record high last year even though people are increasingly aware that plastics are environmentally unfriendly.\n核对该段原文：Yet the bottled water market is livelier than ever. It defies our increasing awareness of the harm plastics do to the environment and a broader, growing sense that something has to change. Sales in the UK were worth a record £558.4 million this past year, an increase of 7%, according to the latest figures from the market analyst Kantar. Separate data from other analysts show that last year the British consumed more than 2.2 billion litres of bottled water, including \"take-home\" and \"on-the-go\" products. That's an annual rise in volume of 8.5%.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-2-nonlistening-q39",
+      "canonicalId": "lazynote-cet4-2024-12-2-q39",
+      "number": 39,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "It often happens that people can lack reason when faced with skillful marketing.",
+      "passage": "If we care about plastic waste, why won't we stop drinking bottled water? We have all seen the damage plastic waste is doing around the world, but sales of bottled water have continued to grow.\n\nA) For all the innovation and choice that define the food and drink industries, if you want to make money, you could do a lot worse than fill a bottle with water and sell it. A litre of tap water, the stuff we have cleverly piped into our homes, costs less than half a penny. A litre of bottled water can cost well over a pound, especially for something fancy that has been sucked through a mountain.\n\nB) Yet the bottled water market is livelier than ever. It defies our increasing awareness of the harm plastics do to the environment and a broader, growing sense that something has to change. Sales in the UK were worth a record £558.4 million this past year, an increase of 7%, according to the latest figures from the market analyst Kantar. Separate data from other analysts show that last year the British consumed more than 2.2 billion litres of bottled water, including \"take-home\" and \"on-the-go\" products. That's an annual rise in volume of 8.5%.\n\nC) Environmental campaigners are struggling to understand why nations blessed with clean tap water grow only fonder of the bottle. \"It's very surprising to me,\" says Sam Chetan-Walsh, a political adviser at Greenpeace and campaigner against ocean plastic. \"Public awareness has never been higher, but the message is not quite reaching all the people it needs to.\" Where it is heard, the message is causing concern. Plastic water bottles require oceans of fossil fuels to make and ship. Additionally, single-use plastics of all types are polluting our cities and seas. Numerous documentaries have shown how plastic is ultimately killing wildlife.\n\nD) Moves against various plastics have gathered pace, from shopping bags to straws and plastic-lined coffee cups. Chetan-Walsh argues that bottled water is different because the alternatives are so obvious. \"If a product that is so nakedly unnecessary can exist, then the whole system is failing,\" he says.\n\nE) Hope is not entirely out of reach. The rate of growth has begun to ease (sales were up 7% in the year, compared with 8% the previous year).\n\nF) But even if large numbers of people are quitting bottled water because of care for the environment, others are taking it up. The introduction of the \"sugar tax\" on juices and soda drinks has pushed more people to bottled water, while health awareness has boosted its desirability. Tap water consumption is growing at roughly the same pace (UK consumers still drink almost three times as much tap water as bottled water).\n\nG) So the plastic tide only creeps higher. The industry is quick to point out that all its bottles are recyclable. \"But collection rates are, at the most generous estimates, 56%, so the actual recycling rate will be lower than that,\" Chetan-Walsh says. And while bottles may be recyclable, very few are made of recycled plastic. One water bottle company launched recycled half-litre \"eco\" bottles alongside its standard bottles. Another has pledged to use only recycled plastic across its range by 2025. Chetan-Walsh believes in a ban on single-use bottles. Bans do exist in some places. Organisers of a famous music festival announced that water bottles will not be sold this summer. San Francisco has banned them from city property and events. Last year, the UK government set out plans to ban single-use plastic from its estate.\n\nH) Water bottlers, unsurprisingly, don't support bans. But they raise concerns about health rather than profit margins. Last month one chief executive of a water bottling company said that bans would \"result in greater consumption of sugary drinks, adding to all the health dangers of obesity, diabetes and tooth decay\". Kinvara Carey, general manager of an association of the biggest bottled water manufacturers, cites a survey in which people were asked what they would do if bottled water were not available. \"Forty-four per cent would buy another drink, which is not great, 14% would go without and 4.5% said they would find a fountain,\" she says. \"The choice is important.\"\n\nI) What if fountains were more numerous, and tap water more clearly available in cafes, restaurants and elsewhere? Dozens of fountains are being installed in London. There are similar initiatives elsewhere. Before plastic and the marketing that made people think they needed bottled water in the first place, fountains were an urban fixture. Greenpeace, among others, is also pushing for a \"deposit return\" scheme. This would mean tax on bottled water would be refunded to customers who returned the plastic for recycling.\n\nJ) Even if bottled water sales are growing slightly more slowly, the industry is racing to adapt to changing concerns and tastes. Flavoured water is booming: sales of the sparkling variety shot up by 20%, according to the latest analyst data. Meanwhile, international water brands, as well as a range of new companies, are selling high-end reusable bottles. And if you must fill them with tap water, why not add flavouring?\n\nK) As the owner of multiple sugary drink brands and bottled water, PepsiCo is facing challenges on health and environmental fronts. Last year, the company bought SodaStream (a drinks company that sells machines for making tap water bubbly and then consumers add flavours) for $3.2 billion. It also launched a range of fancy bottles that work with tap water and flavour packets. The bottle is reusable. The packets? Not so much, and, yes, they are made of plastic, although the company invites users to post them back for recycling.\n\nL) As is so often the case, clever marketing can beat reason; awareness is rarely enough. \"There is always this kind of slip between concern, intent and changed behaviour,\" says Giles Quick, an analyst of bottled water. \"The best example is five a day, the recommendation to have at least five portions of fruit and vegetables every day. Almost everyone is aware of this, but something like 15% of us achieve it.\" Unless a far-reaching bottle ban does come into force, it will be up to consumers to not only demand change—but to act themselves.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "L",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 L 段。题干：It often happens that people can lack reason when faced with skillful marketing.\n核对该段原文：As is so often the case, clever marketing can beat reason; awareness is rarely enough. \"There is always this kind of slip between concern, intent and changed behaviour,\" says Giles Quick, an analyst of bottled water. \"The best example is five a day, the recommendation to have at least five portions of fruit and vegetables every day. Almost everyone is aware of this, but something like 15% of us achieve it.\" Unless a far-reaching bottle ban does come into force, it will be up to consumers to not only demand change—but to act themselves.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-2-nonlistening-q40",
+      "canonicalId": "lazynote-cet4-2024-12-2-q40",
+      "number": 40,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "One city on the west coast of America has banned single-use bottles from its property and events.",
+      "passage": "If we care about plastic waste, why won't we stop drinking bottled water? We have all seen the damage plastic waste is doing around the world, but sales of bottled water have continued to grow.\n\nA) For all the innovation and choice that define the food and drink industries, if you want to make money, you could do a lot worse than fill a bottle with water and sell it. A litre of tap water, the stuff we have cleverly piped into our homes, costs less than half a penny. A litre of bottled water can cost well over a pound, especially for something fancy that has been sucked through a mountain.\n\nB) Yet the bottled water market is livelier than ever. It defies our increasing awareness of the harm plastics do to the environment and a broader, growing sense that something has to change. Sales in the UK were worth a record £558.4 million this past year, an increase of 7%, according to the latest figures from the market analyst Kantar. Separate data from other analysts show that last year the British consumed more than 2.2 billion litres of bottled water, including \"take-home\" and \"on-the-go\" products. That's an annual rise in volume of 8.5%.\n\nC) Environmental campaigners are struggling to understand why nations blessed with clean tap water grow only fonder of the bottle. \"It's very surprising to me,\" says Sam Chetan-Walsh, a political adviser at Greenpeace and campaigner against ocean plastic. \"Public awareness has never been higher, but the message is not quite reaching all the people it needs to.\" Where it is heard, the message is causing concern. Plastic water bottles require oceans of fossil fuels to make and ship. Additionally, single-use plastics of all types are polluting our cities and seas. Numerous documentaries have shown how plastic is ultimately killing wildlife.\n\nD) Moves against various plastics have gathered pace, from shopping bags to straws and plastic-lined coffee cups. Chetan-Walsh argues that bottled water is different because the alternatives are so obvious. \"If a product that is so nakedly unnecessary can exist, then the whole system is failing,\" he says.\n\nE) Hope is not entirely out of reach. The rate of growth has begun to ease (sales were up 7% in the year, compared with 8% the previous year).\n\nF) But even if large numbers of people are quitting bottled water because of care for the environment, others are taking it up. The introduction of the \"sugar tax\" on juices and soda drinks has pushed more people to bottled water, while health awareness has boosted its desirability. Tap water consumption is growing at roughly the same pace (UK consumers still drink almost three times as much tap water as bottled water).\n\nG) So the plastic tide only creeps higher. The industry is quick to point out that all its bottles are recyclable. \"But collection rates are, at the most generous estimates, 56%, so the actual recycling rate will be lower than that,\" Chetan-Walsh says. And while bottles may be recyclable, very few are made of recycled plastic. One water bottle company launched recycled half-litre \"eco\" bottles alongside its standard bottles. Another has pledged to use only recycled plastic across its range by 2025. Chetan-Walsh believes in a ban on single-use bottles. Bans do exist in some places. Organisers of a famous music festival announced that water bottles will not be sold this summer. San Francisco has banned them from city property and events. Last year, the UK government set out plans to ban single-use plastic from its estate.\n\nH) Water bottlers, unsurprisingly, don't support bans. But they raise concerns about health rather than profit margins. Last month one chief executive of a water bottling company said that bans would \"result in greater consumption of sugary drinks, adding to all the health dangers of obesity, diabetes and tooth decay\". Kinvara Carey, general manager of an association of the biggest bottled water manufacturers, cites a survey in which people were asked what they would do if bottled water were not available. \"Forty-four per cent would buy another drink, which is not great, 14% would go without and 4.5% said they would find a fountain,\" she says. \"The choice is important.\"\n\nI) What if fountains were more numerous, and tap water more clearly available in cafes, restaurants and elsewhere? Dozens of fountains are being installed in London. There are similar initiatives elsewhere. Before plastic and the marketing that made people think they needed bottled water in the first place, fountains were an urban fixture. Greenpeace, among others, is also pushing for a \"deposit return\" scheme. This would mean tax on bottled water would be refunded to customers who returned the plastic for recycling.\n\nJ) Even if bottled water sales are growing slightly more slowly, the industry is racing to adapt to changing concerns and tastes. Flavoured water is booming: sales of the sparkling variety shot up by 20%, according to the latest analyst data. Meanwhile, international water brands, as well as a range of new companies, are selling high-end reusable bottles. And if you must fill them with tap water, why not add flavouring?\n\nK) As the owner of multiple sugary drink brands and bottled water, PepsiCo is facing challenges on health and environmental fronts. Last year, the company bought SodaStream (a drinks company that sells machines for making tap water bubbly and then consumers add flavours) for $3.2 billion. It also launched a range of fancy bottles that work with tap water and flavour packets. The bottle is reusable. The packets? Not so much, and, yes, they are made of plastic, although the company invites users to post them back for recycling.\n\nL) As is so often the case, clever marketing can beat reason; awareness is rarely enough. \"There is always this kind of slip between concern, intent and changed behaviour,\" says Giles Quick, an analyst of bottled water. \"The best example is five a day, the recommendation to have at least five portions of fruit and vegetables every day. Almost everyone is aware of this, but something like 15% of us achieve it.\" Unless a far-reaching bottle ban does come into force, it will be up to consumers to not only demand change—but to act themselves.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 G 段。题干：One city on the west coast of America has banned single-use bottles from its property and events.\n核对该段原文：So the plastic tide only creeps higher. The industry is quick to point out that all its bottles are recyclable. \"But collection rates are, at the most generous estimates, 56%, so the actual recycling rate will be lower than that,\" Chetan-Walsh says. And while bottles may be recyclable, very few are made of recycled plastic. One water bottle company launched recycled half-litre \"eco\" bottles alongside its standard bottles. Another has pledged to use only recycled plastic across its range by 2025. Chetan-Walsh believes in a ban on single-use bottles. Bans do exist in some places. Organisers of a famous music festival announced that water bottles will not be sold this summer. San Francisco has banned them from city property and events. Last year, the UK government set out plans to ban single-use plastic from its estate.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-2-nonlistening-q41",
+      "canonicalId": "lazynote-cet4-2024-12-2-q41",
+      "number": 41,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Manufacturing and shipping of plastic water bottles consume a tremendous amount of fossil fuels.",
+      "passage": "If we care about plastic waste, why won't we stop drinking bottled water? We have all seen the damage plastic waste is doing around the world, but sales of bottled water have continued to grow.\n\nA) For all the innovation and choice that define the food and drink industries, if you want to make money, you could do a lot worse than fill a bottle with water and sell it. A litre of tap water, the stuff we have cleverly piped into our homes, costs less than half a penny. A litre of bottled water can cost well over a pound, especially for something fancy that has been sucked through a mountain.\n\nB) Yet the bottled water market is livelier than ever. It defies our increasing awareness of the harm plastics do to the environment and a broader, growing sense that something has to change. Sales in the UK were worth a record £558.4 million this past year, an increase of 7%, according to the latest figures from the market analyst Kantar. Separate data from other analysts show that last year the British consumed more than 2.2 billion litres of bottled water, including \"take-home\" and \"on-the-go\" products. That's an annual rise in volume of 8.5%.\n\nC) Environmental campaigners are struggling to understand why nations blessed with clean tap water grow only fonder of the bottle. \"It's very surprising to me,\" says Sam Chetan-Walsh, a political adviser at Greenpeace and campaigner against ocean plastic. \"Public awareness has never been higher, but the message is not quite reaching all the people it needs to.\" Where it is heard, the message is causing concern. Plastic water bottles require oceans of fossil fuels to make and ship. Additionally, single-use plastics of all types are polluting our cities and seas. Numerous documentaries have shown how plastic is ultimately killing wildlife.\n\nD) Moves against various plastics have gathered pace, from shopping bags to straws and plastic-lined coffee cups. Chetan-Walsh argues that bottled water is different because the alternatives are so obvious. \"If a product that is so nakedly unnecessary can exist, then the whole system is failing,\" he says.\n\nE) Hope is not entirely out of reach. The rate of growth has begun to ease (sales were up 7% in the year, compared with 8% the previous year).\n\nF) But even if large numbers of people are quitting bottled water because of care for the environment, others are taking it up. The introduction of the \"sugar tax\" on juices and soda drinks has pushed more people to bottled water, while health awareness has boosted its desirability. Tap water consumption is growing at roughly the same pace (UK consumers still drink almost three times as much tap water as bottled water).\n\nG) So the plastic tide only creeps higher. The industry is quick to point out that all its bottles are recyclable. \"But collection rates are, at the most generous estimates, 56%, so the actual recycling rate will be lower than that,\" Chetan-Walsh says. And while bottles may be recyclable, very few are made of recycled plastic. One water bottle company launched recycled half-litre \"eco\" bottles alongside its standard bottles. Another has pledged to use only recycled plastic across its range by 2025. Chetan-Walsh believes in a ban on single-use bottles. Bans do exist in some places. Organisers of a famous music festival announced that water bottles will not be sold this summer. San Francisco has banned them from city property and events. Last year, the UK government set out plans to ban single-use plastic from its estate.\n\nH) Water bottlers, unsurprisingly, don't support bans. But they raise concerns about health rather than profit margins. Last month one chief executive of a water bottling company said that bans would \"result in greater consumption of sugary drinks, adding to all the health dangers of obesity, diabetes and tooth decay\". Kinvara Carey, general manager of an association of the biggest bottled water manufacturers, cites a survey in which people were asked what they would do if bottled water were not available. \"Forty-four per cent would buy another drink, which is not great, 14% would go without and 4.5% said they would find a fountain,\" she says. \"The choice is important.\"\n\nI) What if fountains were more numerous, and tap water more clearly available in cafes, restaurants and elsewhere? Dozens of fountains are being installed in London. There are similar initiatives elsewhere. Before plastic and the marketing that made people think they needed bottled water in the first place, fountains were an urban fixture. Greenpeace, among others, is also pushing for a \"deposit return\" scheme. This would mean tax on bottled water would be refunded to customers who returned the plastic for recycling.\n\nJ) Even if bottled water sales are growing slightly more slowly, the industry is racing to adapt to changing concerns and tastes. Flavoured water is booming: sales of the sparkling variety shot up by 20%, according to the latest analyst data. Meanwhile, international water brands, as well as a range of new companies, are selling high-end reusable bottles. And if you must fill them with tap water, why not add flavouring?\n\nK) As the owner of multiple sugary drink brands and bottled water, PepsiCo is facing challenges on health and environmental fronts. Last year, the company bought SodaStream (a drinks company that sells machines for making tap water bubbly and then consumers add flavours) for $3.2 billion. It also launched a range of fancy bottles that work with tap water and flavour packets. The bottle is reusable. The packets? Not so much, and, yes, they are made of plastic, although the company invites users to post them back for recycling.\n\nL) As is so often the case, clever marketing can beat reason; awareness is rarely enough. \"There is always this kind of slip between concern, intent and changed behaviour,\" says Giles Quick, an analyst of bottled water. \"The best example is five a day, the recommendation to have at least five portions of fruit and vegetables every day. Almost everyone is aware of this, but something like 15% of us achieve it.\" Unless a far-reaching bottle ban does come into force, it will be up to consumers to not only demand change—but to act themselves.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 C 段。题干：Manufacturing and shipping of plastic water bottles consume a tremendous amount of fossil fuels.\n核对该段原文：Environmental campaigners are struggling to understand why nations blessed with clean tap water grow only fonder of the bottle. \"It's very surprising to me,\" says Sam Chetan-Walsh, a political adviser at Greenpeace and campaigner against ocean plastic. \"Public awareness has never been higher, but the message is not quite reaching all the people it needs to.\" Where it is heard, the message is causing concern. Plastic water bottles require oceans of fossil fuels to make and ship. Additionally, single-use plastics of all types are polluting our cities and seas. Numerous documentaries have shown how plastic is ultimately killing wildlife.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-2-nonlistening-q42",
+      "canonicalId": "lazynote-cet4-2024-12-2-q42",
+      "number": 42,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "One large beverage company has adapted its operations when confronted with challenges from health and environmental advocates.",
+      "passage": "If we care about plastic waste, why won't we stop drinking bottled water? We have all seen the damage plastic waste is doing around the world, but sales of bottled water have continued to grow.\n\nA) For all the innovation and choice that define the food and drink industries, if you want to make money, you could do a lot worse than fill a bottle with water and sell it. A litre of tap water, the stuff we have cleverly piped into our homes, costs less than half a penny. A litre of bottled water can cost well over a pound, especially for something fancy that has been sucked through a mountain.\n\nB) Yet the bottled water market is livelier than ever. It defies our increasing awareness of the harm plastics do to the environment and a broader, growing sense that something has to change. Sales in the UK were worth a record £558.4 million this past year, an increase of 7%, according to the latest figures from the market analyst Kantar. Separate data from other analysts show that last year the British consumed more than 2.2 billion litres of bottled water, including \"take-home\" and \"on-the-go\" products. That's an annual rise in volume of 8.5%.\n\nC) Environmental campaigners are struggling to understand why nations blessed with clean tap water grow only fonder of the bottle. \"It's very surprising to me,\" says Sam Chetan-Walsh, a political adviser at Greenpeace and campaigner against ocean plastic. \"Public awareness has never been higher, but the message is not quite reaching all the people it needs to.\" Where it is heard, the message is causing concern. Plastic water bottles require oceans of fossil fuels to make and ship. Additionally, single-use plastics of all types are polluting our cities and seas. Numerous documentaries have shown how plastic is ultimately killing wildlife.\n\nD) Moves against various plastics have gathered pace, from shopping bags to straws and plastic-lined coffee cups. Chetan-Walsh argues that bottled water is different because the alternatives are so obvious. \"If a product that is so nakedly unnecessary can exist, then the whole system is failing,\" he says.\n\nE) Hope is not entirely out of reach. The rate of growth has begun to ease (sales were up 7% in the year, compared with 8% the previous year).\n\nF) But even if large numbers of people are quitting bottled water because of care for the environment, others are taking it up. The introduction of the \"sugar tax\" on juices and soda drinks has pushed more people to bottled water, while health awareness has boosted its desirability. Tap water consumption is growing at roughly the same pace (UK consumers still drink almost three times as much tap water as bottled water).\n\nG) So the plastic tide only creeps higher. The industry is quick to point out that all its bottles are recyclable. \"But collection rates are, at the most generous estimates, 56%, so the actual recycling rate will be lower than that,\" Chetan-Walsh says. And while bottles may be recyclable, very few are made of recycled plastic. One water bottle company launched recycled half-litre \"eco\" bottles alongside its standard bottles. Another has pledged to use only recycled plastic across its range by 2025. Chetan-Walsh believes in a ban on single-use bottles. Bans do exist in some places. Organisers of a famous music festival announced that water bottles will not be sold this summer. San Francisco has banned them from city property and events. Last year, the UK government set out plans to ban single-use plastic from its estate.\n\nH) Water bottlers, unsurprisingly, don't support bans. But they raise concerns about health rather than profit margins. Last month one chief executive of a water bottling company said that bans would \"result in greater consumption of sugary drinks, adding to all the health dangers of obesity, diabetes and tooth decay\". Kinvara Carey, general manager of an association of the biggest bottled water manufacturers, cites a survey in which people were asked what they would do if bottled water were not available. \"Forty-four per cent would buy another drink, which is not great, 14% would go without and 4.5% said they would find a fountain,\" she says. \"The choice is important.\"\n\nI) What if fountains were more numerous, and tap water more clearly available in cafes, restaurants and elsewhere? Dozens of fountains are being installed in London. There are similar initiatives elsewhere. Before plastic and the marketing that made people think they needed bottled water in the first place, fountains were an urban fixture. Greenpeace, among others, is also pushing for a \"deposit return\" scheme. This would mean tax on bottled water would be refunded to customers who returned the plastic for recycling.\n\nJ) Even if bottled water sales are growing slightly more slowly, the industry is racing to adapt to changing concerns and tastes. Flavoured water is booming: sales of the sparkling variety shot up by 20%, according to the latest analyst data. Meanwhile, international water brands, as well as a range of new companies, are selling high-end reusable bottles. And if you must fill them with tap water, why not add flavouring?\n\nK) As the owner of multiple sugary drink brands and bottled water, PepsiCo is facing challenges on health and environmental fronts. Last year, the company bought SodaStream (a drinks company that sells machines for making tap water bubbly and then consumers add flavours) for $3.2 billion. It also launched a range of fancy bottles that work with tap water and flavour packets. The bottle is reusable. The packets? Not so much, and, yes, they are made of plastic, although the company invites users to post them back for recycling.\n\nL) As is so often the case, clever marketing can beat reason; awareness is rarely enough. \"There is always this kind of slip between concern, intent and changed behaviour,\" says Giles Quick, an analyst of bottled water. \"The best example is five a day, the recommendation to have at least five portions of fruit and vegetables every day. Almost everyone is aware of this, but something like 15% of us achieve it.\" Unless a far-reaching bottle ban does come into force, it will be up to consumers to not only demand change—but to act themselves.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 K 段。题干：One large beverage company has adapted its operations when confronted with challenges from health and environmental advocates.\n核对该段原文：As the owner of multiple sugary drink brands and bottled water, PepsiCo is facing challenges on health and environmental fronts. Last year, the company bought SodaStream (a drinks company that sells machines for making tap water bubbly and then consumers add flavours) for $3.2 billion. It also launched a range of fancy bottles that work with tap water and flavour packets. The bottle is reusable. The packets? Not so much, and, yes, they are made of plastic, although the company invites users to post them back for recycling.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-2-nonlistening-q43",
+      "canonicalId": "lazynote-cet4-2024-12-2-q43",
+      "number": 43,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Bottled water is considerably more expensive than tap water.",
+      "passage": "If we care about plastic waste, why won't we stop drinking bottled water? We have all seen the damage plastic waste is doing around the world, but sales of bottled water have continued to grow.\n\nA) For all the innovation and choice that define the food and drink industries, if you want to make money, you could do a lot worse than fill a bottle with water and sell it. A litre of tap water, the stuff we have cleverly piped into our homes, costs less than half a penny. A litre of bottled water can cost well over a pound, especially for something fancy that has been sucked through a mountain.\n\nB) Yet the bottled water market is livelier than ever. It defies our increasing awareness of the harm plastics do to the environment and a broader, growing sense that something has to change. Sales in the UK were worth a record £558.4 million this past year, an increase of 7%, according to the latest figures from the market analyst Kantar. Separate data from other analysts show that last year the British consumed more than 2.2 billion litres of bottled water, including \"take-home\" and \"on-the-go\" products. That's an annual rise in volume of 8.5%.\n\nC) Environmental campaigners are struggling to understand why nations blessed with clean tap water grow only fonder of the bottle. \"It's very surprising to me,\" says Sam Chetan-Walsh, a political adviser at Greenpeace and campaigner against ocean plastic. \"Public awareness has never been higher, but the message is not quite reaching all the people it needs to.\" Where it is heard, the message is causing concern. Plastic water bottles require oceans of fossil fuels to make and ship. Additionally, single-use plastics of all types are polluting our cities and seas. Numerous documentaries have shown how plastic is ultimately killing wildlife.\n\nD) Moves against various plastics have gathered pace, from shopping bags to straws and plastic-lined coffee cups. Chetan-Walsh argues that bottled water is different because the alternatives are so obvious. \"If a product that is so nakedly unnecessary can exist, then the whole system is failing,\" he says.\n\nE) Hope is not entirely out of reach. The rate of growth has begun to ease (sales were up 7% in the year, compared with 8% the previous year).\n\nF) But even if large numbers of people are quitting bottled water because of care for the environment, others are taking it up. The introduction of the \"sugar tax\" on juices and soda drinks has pushed more people to bottled water, while health awareness has boosted its desirability. Tap water consumption is growing at roughly the same pace (UK consumers still drink almost three times as much tap water as bottled water).\n\nG) So the plastic tide only creeps higher. The industry is quick to point out that all its bottles are recyclable. \"But collection rates are, at the most generous estimates, 56%, so the actual recycling rate will be lower than that,\" Chetan-Walsh says. And while bottles may be recyclable, very few are made of recycled plastic. One water bottle company launched recycled half-litre \"eco\" bottles alongside its standard bottles. Another has pledged to use only recycled plastic across its range by 2025. Chetan-Walsh believes in a ban on single-use bottles. Bans do exist in some places. Organisers of a famous music festival announced that water bottles will not be sold this summer. San Francisco has banned them from city property and events. Last year, the UK government set out plans to ban single-use plastic from its estate.\n\nH) Water bottlers, unsurprisingly, don't support bans. But they raise concerns about health rather than profit margins. Last month one chief executive of a water bottling company said that bans would \"result in greater consumption of sugary drinks, adding to all the health dangers of obesity, diabetes and tooth decay\". Kinvara Carey, general manager of an association of the biggest bottled water manufacturers, cites a survey in which people were asked what they would do if bottled water were not available. \"Forty-four per cent would buy another drink, which is not great, 14% would go without and 4.5% said they would find a fountain,\" she says. \"The choice is important.\"\n\nI) What if fountains were more numerous, and tap water more clearly available in cafes, restaurants and elsewhere? Dozens of fountains are being installed in London. There are similar initiatives elsewhere. Before plastic and the marketing that made people think they needed bottled water in the first place, fountains were an urban fixture. Greenpeace, among others, is also pushing for a \"deposit return\" scheme. This would mean tax on bottled water would be refunded to customers who returned the plastic for recycling.\n\nJ) Even if bottled water sales are growing slightly more slowly, the industry is racing to adapt to changing concerns and tastes. Flavoured water is booming: sales of the sparkling variety shot up by 20%, according to the latest analyst data. Meanwhile, international water brands, as well as a range of new companies, are selling high-end reusable bottles. And if you must fill them with tap water, why not add flavouring?\n\nK) As the owner of multiple sugary drink brands and bottled water, PepsiCo is facing challenges on health and environmental fronts. Last year, the company bought SodaStream (a drinks company that sells machines for making tap water bubbly and then consumers add flavours) for $3.2 billion. It also launched a range of fancy bottles that work with tap water and flavour packets. The bottle is reusable. The packets? Not so much, and, yes, they are made of plastic, although the company invites users to post them back for recycling.\n\nL) As is so often the case, clever marketing can beat reason; awareness is rarely enough. \"There is always this kind of slip between concern, intent and changed behaviour,\" says Giles Quick, an analyst of bottled water. \"The best example is five a day, the recommendation to have at least five portions of fruit and vegetables every day. Almost everyone is aware of this, but something like 15% of us achieve it.\" Unless a far-reaching bottle ban does come into force, it will be up to consumers to not only demand change—but to act themselves.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 A 段。题干：Bottled water is considerably more expensive than tap water.\n核对该段原文：For all the innovation and choice that define the food and drink industries, if you want to make money, you could do a lot worse than fill a bottle with water and sell it. A litre of tap water, the stuff we have cleverly piped into our homes, costs less than half a penny. A litre of bottled water can cost well over a pound, especially for something fancy that has been sucked through a mountain.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-2-nonlistening-q44",
+      "canonicalId": "lazynote-cet4-2024-12-2-q44",
+      "number": 44,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Fountains could be seen in cities before bottled water became popular.",
+      "passage": "If we care about plastic waste, why won't we stop drinking bottled water? We have all seen the damage plastic waste is doing around the world, but sales of bottled water have continued to grow.\n\nA) For all the innovation and choice that define the food and drink industries, if you want to make money, you could do a lot worse than fill a bottle with water and sell it. A litre of tap water, the stuff we have cleverly piped into our homes, costs less than half a penny. A litre of bottled water can cost well over a pound, especially for something fancy that has been sucked through a mountain.\n\nB) Yet the bottled water market is livelier than ever. It defies our increasing awareness of the harm plastics do to the environment and a broader, growing sense that something has to change. Sales in the UK were worth a record £558.4 million this past year, an increase of 7%, according to the latest figures from the market analyst Kantar. Separate data from other analysts show that last year the British consumed more than 2.2 billion litres of bottled water, including \"take-home\" and \"on-the-go\" products. That's an annual rise in volume of 8.5%.\n\nC) Environmental campaigners are struggling to understand why nations blessed with clean tap water grow only fonder of the bottle. \"It's very surprising to me,\" says Sam Chetan-Walsh, a political adviser at Greenpeace and campaigner against ocean plastic. \"Public awareness has never been higher, but the message is not quite reaching all the people it needs to.\" Where it is heard, the message is causing concern. Plastic water bottles require oceans of fossil fuels to make and ship. Additionally, single-use plastics of all types are polluting our cities and seas. Numerous documentaries have shown how plastic is ultimately killing wildlife.\n\nD) Moves against various plastics have gathered pace, from shopping bags to straws and plastic-lined coffee cups. Chetan-Walsh argues that bottled water is different because the alternatives are so obvious. \"If a product that is so nakedly unnecessary can exist, then the whole system is failing,\" he says.\n\nE) Hope is not entirely out of reach. The rate of growth has begun to ease (sales were up 7% in the year, compared with 8% the previous year).\n\nF) But even if large numbers of people are quitting bottled water because of care for the environment, others are taking it up. The introduction of the \"sugar tax\" on juices and soda drinks has pushed more people to bottled water, while health awareness has boosted its desirability. Tap water consumption is growing at roughly the same pace (UK consumers still drink almost three times as much tap water as bottled water).\n\nG) So the plastic tide only creeps higher. The industry is quick to point out that all its bottles are recyclable. \"But collection rates are, at the most generous estimates, 56%, so the actual recycling rate will be lower than that,\" Chetan-Walsh says. And while bottles may be recyclable, very few are made of recycled plastic. One water bottle company launched recycled half-litre \"eco\" bottles alongside its standard bottles. Another has pledged to use only recycled plastic across its range by 2025. Chetan-Walsh believes in a ban on single-use bottles. Bans do exist in some places. Organisers of a famous music festival announced that water bottles will not be sold this summer. San Francisco has banned them from city property and events. Last year, the UK government set out plans to ban single-use plastic from its estate.\n\nH) Water bottlers, unsurprisingly, don't support bans. But they raise concerns about health rather than profit margins. Last month one chief executive of a water bottling company said that bans would \"result in greater consumption of sugary drinks, adding to all the health dangers of obesity, diabetes and tooth decay\". Kinvara Carey, general manager of an association of the biggest bottled water manufacturers, cites a survey in which people were asked what they would do if bottled water were not available. \"Forty-four per cent would buy another drink, which is not great, 14% would go without and 4.5% said they would find a fountain,\" she says. \"The choice is important.\"\n\nI) What if fountains were more numerous, and tap water more clearly available in cafes, restaurants and elsewhere? Dozens of fountains are being installed in London. There are similar initiatives elsewhere. Before plastic and the marketing that made people think they needed bottled water in the first place, fountains were an urban fixture. Greenpeace, among others, is also pushing for a \"deposit return\" scheme. This would mean tax on bottled water would be refunded to customers who returned the plastic for recycling.\n\nJ) Even if bottled water sales are growing slightly more slowly, the industry is racing to adapt to changing concerns and tastes. Flavoured water is booming: sales of the sparkling variety shot up by 20%, according to the latest analyst data. Meanwhile, international water brands, as well as a range of new companies, are selling high-end reusable bottles. And if you must fill them with tap water, why not add flavouring?\n\nK) As the owner of multiple sugary drink brands and bottled water, PepsiCo is facing challenges on health and environmental fronts. Last year, the company bought SodaStream (a drinks company that sells machines for making tap water bubbly and then consumers add flavours) for $3.2 billion. It also launched a range of fancy bottles that work with tap water and flavour packets. The bottle is reusable. The packets? Not so much, and, yes, they are made of plastic, although the company invites users to post them back for recycling.\n\nL) As is so often the case, clever marketing can beat reason; awareness is rarely enough. \"There is always this kind of slip between concern, intent and changed behaviour,\" says Giles Quick, an analyst of bottled water. \"The best example is five a day, the recommendation to have at least five portions of fruit and vegetables every day. Almost everyone is aware of this, but something like 15% of us achieve it.\" Unless a far-reaching bottle ban does come into force, it will be up to consumers to not only demand change—but to act themselves.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 I 段。题干：Fountains could be seen in cities before bottled water became popular.\n核对该段原文：What if fountains were more numerous, and tap water more clearly available in cafes, restaurants and elsewhere? Dozens of fountains are being installed in London. There are similar initiatives elsewhere. Before plastic and the marketing that made people think they needed bottled water in the first place, fountains were an urban fixture. Greenpeace, among others, is also pushing for a \"deposit return\" scheme. This would mean tax on bottled water would be refunded to customers who returned the plastic for recycling.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-2-nonlistening-q45",
+      "canonicalId": "lazynote-cet4-2024-12-2-q45",
+      "number": 45,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "More people have taken to bottled water because of their health awareness.",
+      "passage": "If we care about plastic waste, why won't we stop drinking bottled water? We have all seen the damage plastic waste is doing around the world, but sales of bottled water have continued to grow.\n\nA) For all the innovation and choice that define the food and drink industries, if you want to make money, you could do a lot worse than fill a bottle with water and sell it. A litre of tap water, the stuff we have cleverly piped into our homes, costs less than half a penny. A litre of bottled water can cost well over a pound, especially for something fancy that has been sucked through a mountain.\n\nB) Yet the bottled water market is livelier than ever. It defies our increasing awareness of the harm plastics do to the environment and a broader, growing sense that something has to change. Sales in the UK were worth a record £558.4 million this past year, an increase of 7%, according to the latest figures from the market analyst Kantar. Separate data from other analysts show that last year the British consumed more than 2.2 billion litres of bottled water, including \"take-home\" and \"on-the-go\" products. That's an annual rise in volume of 8.5%.\n\nC) Environmental campaigners are struggling to understand why nations blessed with clean tap water grow only fonder of the bottle. \"It's very surprising to me,\" says Sam Chetan-Walsh, a political adviser at Greenpeace and campaigner against ocean plastic. \"Public awareness has never been higher, but the message is not quite reaching all the people it needs to.\" Where it is heard, the message is causing concern. Plastic water bottles require oceans of fossil fuels to make and ship. Additionally, single-use plastics of all types are polluting our cities and seas. Numerous documentaries have shown how plastic is ultimately killing wildlife.\n\nD) Moves against various plastics have gathered pace, from shopping bags to straws and plastic-lined coffee cups. Chetan-Walsh argues that bottled water is different because the alternatives are so obvious. \"If a product that is so nakedly unnecessary can exist, then the whole system is failing,\" he says.\n\nE) Hope is not entirely out of reach. The rate of growth has begun to ease (sales were up 7% in the year, compared with 8% the previous year).\n\nF) But even if large numbers of people are quitting bottled water because of care for the environment, others are taking it up. The introduction of the \"sugar tax\" on juices and soda drinks has pushed more people to bottled water, while health awareness has boosted its desirability. Tap water consumption is growing at roughly the same pace (UK consumers still drink almost three times as much tap water as bottled water).\n\nG) So the plastic tide only creeps higher. The industry is quick to point out that all its bottles are recyclable. \"But collection rates are, at the most generous estimates, 56%, so the actual recycling rate will be lower than that,\" Chetan-Walsh says. And while bottles may be recyclable, very few are made of recycled plastic. One water bottle company launched recycled half-litre \"eco\" bottles alongside its standard bottles. Another has pledged to use only recycled plastic across its range by 2025. Chetan-Walsh believes in a ban on single-use bottles. Bans do exist in some places. Organisers of a famous music festival announced that water bottles will not be sold this summer. San Francisco has banned them from city property and events. Last year, the UK government set out plans to ban single-use plastic from its estate.\n\nH) Water bottlers, unsurprisingly, don't support bans. But they raise concerns about health rather than profit margins. Last month one chief executive of a water bottling company said that bans would \"result in greater consumption of sugary drinks, adding to all the health dangers of obesity, diabetes and tooth decay\". Kinvara Carey, general manager of an association of the biggest bottled water manufacturers, cites a survey in which people were asked what they would do if bottled water were not available. \"Forty-four per cent would buy another drink, which is not great, 14% would go without and 4.5% said they would find a fountain,\" she says. \"The choice is important.\"\n\nI) What if fountains were more numerous, and tap water more clearly available in cafes, restaurants and elsewhere? Dozens of fountains are being installed in London. There are similar initiatives elsewhere. Before plastic and the marketing that made people think they needed bottled water in the first place, fountains were an urban fixture. Greenpeace, among others, is also pushing for a \"deposit return\" scheme. This would mean tax on bottled water would be refunded to customers who returned the plastic for recycling.\n\nJ) Even if bottled water sales are growing slightly more slowly, the industry is racing to adapt to changing concerns and tastes. Flavoured water is booming: sales of the sparkling variety shot up by 20%, according to the latest analyst data. Meanwhile, international water brands, as well as a range of new companies, are selling high-end reusable bottles. And if you must fill them with tap water, why not add flavouring?\n\nK) As the owner of multiple sugary drink brands and bottled water, PepsiCo is facing challenges on health and environmental fronts. Last year, the company bought SodaStream (a drinks company that sells machines for making tap water bubbly and then consumers add flavours) for $3.2 billion. It also launched a range of fancy bottles that work with tap water and flavour packets. The bottle is reusable. The packets? Not so much, and, yes, they are made of plastic, although the company invites users to post them back for recycling.\n\nL) As is so often the case, clever marketing can beat reason; awareness is rarely enough. \"There is always this kind of slip between concern, intent and changed behaviour,\" says Giles Quick, an analyst of bottled water. \"The best example is five a day, the recommendation to have at least five portions of fruit and vegetables every day. Almost everyone is aware of this, but something like 15% of us achieve it.\" Unless a far-reaching bottle ban does come into force, it will be up to consumers to not only demand change—but to act themselves.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 F 段。题干：More people have taken to bottled water because of their health awareness.\n核对该段原文：But even if large numbers of people are quitting bottled water because of care for the environment, others are taking it up. The introduction of the \"sugar tax\" on juices and soda drinks has pushed more people to bottled water, while health awareness has boosted its desirability. Tap water consumption is growing at roughly the same pace (UK consumers still drink almost three times as much tap water as bottled water).\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-2-nonlistening-q46",
+      "canonicalId": "lazynote-cet4-2024-12-2-q46",
+      "number": 46,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What has the author come to realise since entering university?",
+      "passage": "As a university student, I've come to realise just how little I know about money. I've come to the brutal realisation that Australia's youth are being done a great disservice by not receiving any consistent financial education.\n\nDiving headfirst into the crash course of starting university, I've quickly tried to get myself up to speed with the financial terms of the modern era to help manage my personal finances.\n\nI've read some financial education books, done some online learning, and have spoken to my nearest and dearest for their pearls of financial wisdom.\n\nThere are undoubtedly hundreds of great resources out there for those wishing to improve their financial literacy, but while I was researching, I still kept wishing that I didn't have to play catch-up with the money world. I felt that I was sailing the financial seas with no skills and no life jacket!\n\nHowever, after talking to my friends who felt the same, I quickly realised that it wasn't my ignorance but the lack of financial education in our schooling system that is leaving high schoolers seriously behind in the modern world of money.\n\nLet's compare a theoretical financial education subject to the standard compulsory English class. On average, English may not be the most popular subject, but it's consistently on the schedule throughout high school, with all students graduating fluent in English.\n\nA financial education subject should do just the same. It shouldn't be just a one-day event but a course integrated throughout the whole of high school that would allow students to gradually expand their financial literacy, and would prevent the need for a 'catch up' phase once we're out on our own after graduation.\n\nIn the same way that learning a language or new skills takes time, building financial skills requires practice and years to gradually accumulate bits and pieces of knowledge.\n\nGiving young people the opportunity to become familiar with the world of money would provide them with a great advantage to enter adulthood with confidence and security so that they are able to manage their own money and look after themselves.",
+      "options": [
+        {
+          "id": "A",
+          "text": "He needs a crash course on financial terms."
+        },
+        {
+          "id": "B",
+          "text": "He is very much lacking in financial literacy."
+        },
+        {
+          "id": "C",
+          "text": "It requires consistent education to be financially independent."
+        },
+        {
+          "id": "D",
+          "text": "It is unrealistic to give all Australian youth a financial education."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：He is very much lacking in financial literacy.\n关键词检索定位到第 1 段的候选相关句：As a university student, I've come to realise just how little I know about money.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-2-nonlistening-q47",
+      "canonicalId": "lazynote-cet4-2024-12-2-q47",
+      "number": 47,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "How did the author feel in today's money world?",
+      "passage": "As a university student, I've come to realise just how little I know about money. I've come to the brutal realisation that Australia's youth are being done a great disservice by not receiving any consistent financial education.\n\nDiving headfirst into the crash course of starting university, I've quickly tried to get myself up to speed with the financial terms of the modern era to help manage my personal finances.\n\nI've read some financial education books, done some online learning, and have spoken to my nearest and dearest for their pearls of financial wisdom.\n\nThere are undoubtedly hundreds of great resources out there for those wishing to improve their financial literacy, but while I was researching, I still kept wishing that I didn't have to play catch-up with the money world. I felt that I was sailing the financial seas with no skills and no life jacket!\n\nHowever, after talking to my friends who felt the same, I quickly realised that it wasn't my ignorance but the lack of financial education in our schooling system that is leaving high schoolers seriously behind in the modern world of money.\n\nLet's compare a theoretical financial education subject to the standard compulsory English class. On average, English may not be the most popular subject, but it's consistently on the schedule throughout high school, with all students graduating fluent in English.\n\nA financial education subject should do just the same. It shouldn't be just a one-day event but a course integrated throughout the whole of high school that would allow students to gradually expand their financial literacy, and would prevent the need for a 'catch up' phase once we're out on our own after graduation.\n\nIn the same way that learning a language or new skills takes time, building financial skills requires practice and years to gradually accumulate bits and pieces of knowledge.\n\nGiving young people the opportunity to become familiar with the world of money would provide them with a great advantage to enter adulthood with confidence and security so that they are able to manage their own money and look after themselves.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Badly equipped to survive."
+        },
+        {
+          "id": "B",
+          "text": "Ignorant of financial literature."
+        },
+        {
+          "id": "C",
+          "text": "Barely capable of moving ahead."
+        },
+        {
+          "id": "D",
+          "text": "Overwhelmed by the resources online."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：Badly equipped to survive.\n关键词检索定位到第 4 段的候选相关句：There are undoubtedly hundreds of great resources out there for those wishing to improve their financial literacy, but while I was researching, I still kept wishing that I didn't have to play catch-up with the money world.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-2-nonlistening-q48",
+      "canonicalId": "lazynote-cet4-2024-12-2-q48",
+      "number": 48,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What did the author realise after talking to his friends?",
+      "passage": "As a university student, I've come to realise just how little I know about money. I've come to the brutal realisation that Australia's youth are being done a great disservice by not receiving any consistent financial education.\n\nDiving headfirst into the crash course of starting university, I've quickly tried to get myself up to speed with the financial terms of the modern era to help manage my personal finances.\n\nI've read some financial education books, done some online learning, and have spoken to my nearest and dearest for their pearls of financial wisdom.\n\nThere are undoubtedly hundreds of great resources out there for those wishing to improve their financial literacy, but while I was researching, I still kept wishing that I didn't have to play catch-up with the money world. I felt that I was sailing the financial seas with no skills and no life jacket!\n\nHowever, after talking to my friends who felt the same, I quickly realised that it wasn't my ignorance but the lack of financial education in our schooling system that is leaving high schoolers seriously behind in the modern world of money.\n\nLet's compare a theoretical financial education subject to the standard compulsory English class. On average, English may not be the most popular subject, but it's consistently on the schedule throughout high school, with all students graduating fluent in English.\n\nA financial education subject should do just the same. It shouldn't be just a one-day event but a course integrated throughout the whole of high school that would allow students to gradually expand their financial literacy, and would prevent the need for a 'catch up' phase once we're out on our own after graduation.\n\nIn the same way that learning a language or new skills takes time, building financial skills requires practice and years to gradually accumulate bits and pieces of knowledge.\n\nGiving young people the opportunity to become familiar with the world of money would provide them with a great advantage to enter adulthood with confidence and security so that they are able to manage their own money and look after themselves.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They were as keen as he was on financial matters."
+        },
+        {
+          "id": "B",
+          "text": "The schooling system was to blame for his trouble."
+        },
+        {
+          "id": "C",
+          "text": "High schoolers knew nothing about the modern financial world."
+        },
+        {
+          "id": "D",
+          "text": "Financial courses were as unpopular as compulsory English classes."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：The schooling system was to blame for his trouble.\n关键词检索定位到第 5 段的候选相关句：However, after talking to my friends who felt the same, I quickly realised that it wasn't my ignorance but the lack of financial education in our schooling system that is leaving high schoolers seriously behind in the modern world of money.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-2-nonlistening-q49",
+      "canonicalId": "lazynote-cet4-2024-12-2-q49",
+      "number": 49,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What is the author's idea of a financial education course?",
+      "passage": "As a university student, I've come to realise just how little I know about money. I've come to the brutal realisation that Australia's youth are being done a great disservice by not receiving any consistent financial education.\n\nDiving headfirst into the crash course of starting university, I've quickly tried to get myself up to speed with the financial terms of the modern era to help manage my personal finances.\n\nI've read some financial education books, done some online learning, and have spoken to my nearest and dearest for their pearls of financial wisdom.\n\nThere are undoubtedly hundreds of great resources out there for those wishing to improve their financial literacy, but while I was researching, I still kept wishing that I didn't have to play catch-up with the money world. I felt that I was sailing the financial seas with no skills and no life jacket!\n\nHowever, after talking to my friends who felt the same, I quickly realised that it wasn't my ignorance but the lack of financial education in our schooling system that is leaving high schoolers seriously behind in the modern world of money.\n\nLet's compare a theoretical financial education subject to the standard compulsory English class. On average, English may not be the most popular subject, but it's consistently on the schedule throughout high school, with all students graduating fluent in English.\n\nA financial education subject should do just the same. It shouldn't be just a one-day event but a course integrated throughout the whole of high school that would allow students to gradually expand their financial literacy, and would prevent the need for a 'catch up' phase once we're out on our own after graduation.\n\nIn the same way that learning a language or new skills takes time, building financial skills requires practice and years to gradually accumulate bits and pieces of knowledge.\n\nGiving young people the opportunity to become familiar with the world of money would provide them with a great advantage to enter adulthood with confidence and security so that they are able to manage their own money and look after themselves.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It should foresee students' needs after graduation."
+        },
+        {
+          "id": "B",
+          "text": "It should provide students with some basic knowledge."
+        },
+        {
+          "id": "C",
+          "text": "It should be taught the same way as English is taught."
+        },
+        {
+          "id": "D",
+          "text": "It should be integrated into high school education."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：It should be integrated into high school education.\n关键词检索定位到第 7 段的候选相关句：It shouldn't be just a one-day event but a course integrated throughout the whole of high school that would allow students to gradually expand their financial literacy, and would prevent the need for a 'catch up' phase once we're out on our own after graduation.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-2-nonlistening-q50",
+      "canonicalId": "lazynote-cet4-2024-12-2-q50",
+      "number": 50,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What would financial literacy do to young people?",
+      "passage": "As a university student, I've come to realise just how little I know about money. I've come to the brutal realisation that Australia's youth are being done a great disservice by not receiving any consistent financial education.\n\nDiving headfirst into the crash course of starting university, I've quickly tried to get myself up to speed with the financial terms of the modern era to help manage my personal finances.\n\nI've read some financial education books, done some online learning, and have spoken to my nearest and dearest for their pearls of financial wisdom.\n\nThere are undoubtedly hundreds of great resources out there for those wishing to improve their financial literacy, but while I was researching, I still kept wishing that I didn't have to play catch-up with the money world. I felt that I was sailing the financial seas with no skills and no life jacket!\n\nHowever, after talking to my friends who felt the same, I quickly realised that it wasn't my ignorance but the lack of financial education in our schooling system that is leaving high schoolers seriously behind in the modern world of money.\n\nLet's compare a theoretical financial education subject to the standard compulsory English class. On average, English may not be the most popular subject, but it's consistently on the schedule throughout high school, with all students graduating fluent in English.\n\nA financial education subject should do just the same. It shouldn't be just a one-day event but a course integrated throughout the whole of high school that would allow students to gradually expand their financial literacy, and would prevent the need for a 'catch up' phase once we're out on our own after graduation.\n\nIn the same way that learning a language or new skills takes time, building financial skills requires practice and years to gradually accumulate bits and pieces of knowledge.\n\nGiving young people the opportunity to become familiar with the world of money would provide them with a great advantage to enter adulthood with confidence and security so that they are able to manage their own money and look after themselves.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Allow them to enter adulthood with financial security."
+        },
+        {
+          "id": "B",
+          "text": "Enable them to look after themselves without worrying about money."
+        },
+        {
+          "id": "C",
+          "text": "Render them confident and secure in terms of money management."
+        },
+        {
+          "id": "D",
+          "text": "Help them become familiar with the world of money."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：Render them confident and secure in terms of money management.\n关键词检索定位到第 4 段的候选相关句：There are undoubtedly hundreds of great resources out there for those wishing to improve their financial literacy, but while I was researching, I still kept wishing that I didn't have to play catch-up with the money world.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-2-nonlistening-q51",
+      "canonicalId": "lazynote-cet4-2024-12-2-q51",
+      "number": 51,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do people believe chocolates can do?",
+      "passage": "Chocolates save us from many things, especially emotional distress. They comfort us in times of trouble, calming down a racing heart by channelling happy calories inside us. We all have faith in chocolates to delight us in an instant!\n\nRecently, chocolate lovers were heartbroken as scientists claimed that they can become extinct by 2050! But hey, we have some happy news for you. Scientists can still help save chocolates from dying out! If you are not aware as to why scientists made the statement about the death of this wonderful thing, let us tell you the facts. Chocolate trees, whose seeds are used to make chocolate, grow in the tropical plant world and require very specific weather conditions to prosper.\n\nNow, fifty percent of the world's cocoa(可可) beans come from two countries in West Africa: Côte d'Ivoire and Ghana. Scientists believe that both of these countries will experience a 3.8°F temperature increase by 2050 due to global warming, endangering the cacao(可可树) farms in the rainforests. These farms will then have to be shifted to cooler mountainous areas, which are the natural habitat of wildlife. This will lead to some tough decisions: whether to grow chocolate or save wildlife.\n\nUnfortunately, the crisis of global warming has already had a serious negative impact on cacao farms' yields, leading to the prices of chocolates skyrocketing.\n\nScientists, however, are trying to find a long-term and eco-friendly solution to this problem! They are trying to modify the species with a gene-editing technology, which will transform the seedlings into a species that survives even in a drier and warmer climate.\n\nAccording to a report by The Business Insider, in the University of California's new bio-sciences building, tiny green cacao seedlings are lined up in refrigerated greenhouses for a new experiment by using a technology called CRISPR. By manipulating the DNA of plants, this technology is already being used across the world to make plants tougher and cheaper. Similarly, in this unconventional experiment, scientists will make tiny, precise changes to the DNA of the seedlings to make the cocoa crops survive in warmer and drier climates.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cheer them up instantly."
+        },
+        {
+          "id": "B",
+          "text": "Create happy calories."
+        },
+        {
+          "id": "C",
+          "text": "Conceal emotional distress."
+        },
+        {
+          "id": "D",
+          "text": "Relieve them of heart trouble."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：Cheer them up instantly.\n关键词检索定位到第 1 段的候选相关句：Chocolates save us from many things, especially emotional distress.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-2-nonlistening-q52",
+      "canonicalId": "lazynote-cet4-2024-12-2-q52",
+      "number": 52,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What was scientists' recent assertion about chocolates?",
+      "passage": "Chocolates save us from many things, especially emotional distress. They comfort us in times of trouble, calming down a racing heart by channelling happy calories inside us. We all have faith in chocolates to delight us in an instant!\n\nRecently, chocolate lovers were heartbroken as scientists claimed that they can become extinct by 2050! But hey, we have some happy news for you. Scientists can still help save chocolates from dying out! If you are not aware as to why scientists made the statement about the death of this wonderful thing, let us tell you the facts. Chocolate trees, whose seeds are used to make chocolate, grow in the tropical plant world and require very specific weather conditions to prosper.\n\nNow, fifty percent of the world's cocoa(可可) beans come from two countries in West Africa: Côte d'Ivoire and Ghana. Scientists believe that both of these countries will experience a 3.8°F temperature increase by 2050 due to global warming, endangering the cacao(可可树) farms in the rainforests. These farms will then have to be shifted to cooler mountainous areas, which are the natural habitat of wildlife. This will lead to some tough decisions: whether to grow chocolate or save wildlife.\n\nUnfortunately, the crisis of global warming has already had a serious negative impact on cacao farms' yields, leading to the prices of chocolates skyrocketing.\n\nScientists, however, are trying to find a long-term and eco-friendly solution to this problem! They are trying to modify the species with a gene-editing technology, which will transform the seedlings into a species that survives even in a drier and warmer climate.\n\nAccording to a report by The Business Insider, in the University of California's new bio-sciences building, tiny green cacao seedlings are lined up in refrigerated greenhouses for a new experiment by using a technology called CRISPR. By manipulating the DNA of plants, this technology is already being used across the world to make plants tougher and cheaper. Similarly, in this unconventional experiment, scientists will make tiny, precise changes to the DNA of the seedlings to make the cocoa crops survive in warmer and drier climates.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They could become a rare treat in the near future."
+        },
+        {
+          "id": "B",
+          "text": "They could calm people down a bit in times of crisis."
+        },
+        {
+          "id": "C",
+          "text": "They could prevent people from getting heartbroken."
+        },
+        {
+          "id": "D",
+          "text": "They could become unavailable in less than 30 years."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：They could become unavailable in less than 30 years.\n关键词检索定位到第 2 段的候选相关句：Recently, chocolate lovers were heartbroken as scientists claimed that they can become extinct by 2050!\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-2-nonlistening-q53",
+      "canonicalId": "lazynote-cet4-2024-12-2-q53",
+      "number": 53,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What would happen if the cacao farms were shifted to cooler mountainous areas?",
+      "passage": "Chocolates save us from many things, especially emotional distress. They comfort us in times of trouble, calming down a racing heart by channelling happy calories inside us. We all have faith in chocolates to delight us in an instant!\n\nRecently, chocolate lovers were heartbroken as scientists claimed that they can become extinct by 2050! But hey, we have some happy news for you. Scientists can still help save chocolates from dying out! If you are not aware as to why scientists made the statement about the death of this wonderful thing, let us tell you the facts. Chocolate trees, whose seeds are used to make chocolate, grow in the tropical plant world and require very specific weather conditions to prosper.\n\nNow, fifty percent of the world's cocoa(可可) beans come from two countries in West Africa: Côte d'Ivoire and Ghana. Scientists believe that both of these countries will experience a 3.8°F temperature increase by 2050 due to global warming, endangering the cacao(可可树) farms in the rainforests. These farms will then have to be shifted to cooler mountainous areas, which are the natural habitat of wildlife. This will lead to some tough decisions: whether to grow chocolate or save wildlife.\n\nUnfortunately, the crisis of global warming has already had a serious negative impact on cacao farms' yields, leading to the prices of chocolates skyrocketing.\n\nScientists, however, are trying to find a long-term and eco-friendly solution to this problem! They are trying to modify the species with a gene-editing technology, which will transform the seedlings into a species that survives even in a drier and warmer climate.\n\nAccording to a report by The Business Insider, in the University of California's new bio-sciences building, tiny green cacao seedlings are lined up in refrigerated greenhouses for a new experiment by using a technology called CRISPR. By manipulating the DNA of plants, this technology is already being used across the world to make plants tougher and cheaper. Similarly, in this unconventional experiment, scientists will make tiny, precise changes to the DNA of the seedlings to make the cocoa crops survive in warmer and drier climates.",
+      "options": [
+        {
+          "id": "A",
+          "text": "The natural habitat of wildlife there would be ruined."
+        },
+        {
+          "id": "B",
+          "text": "The cacao farmers would have a tough time to adapt."
+        },
+        {
+          "id": "C",
+          "text": "The rainforests would be shrinking dramatically."
+        },
+        {
+          "id": "D",
+          "text": "The quality of cocoa beans would suffer greatly."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：The natural habitat of wildlife there would be ruined.\n关键词检索定位到第 3 段的候选相关句：These farms will then have to be shifted to cooler mountainous areas, which are the natural habitat of wildlife.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-2-nonlistening-q54",
+      "canonicalId": "lazynote-cet4-2024-12-2-q54",
+      "number": 54,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn about the cacao farms in the crisis of global warming?",
+      "passage": "Chocolates save us from many things, especially emotional distress. They comfort us in times of trouble, calming down a racing heart by channelling happy calories inside us. We all have faith in chocolates to delight us in an instant!\n\nRecently, chocolate lovers were heartbroken as scientists claimed that they can become extinct by 2050! But hey, we have some happy news for you. Scientists can still help save chocolates from dying out! If you are not aware as to why scientists made the statement about the death of this wonderful thing, let us tell you the facts. Chocolate trees, whose seeds are used to make chocolate, grow in the tropical plant world and require very specific weather conditions to prosper.\n\nNow, fifty percent of the world's cocoa(可可) beans come from two countries in West Africa: Côte d'Ivoire and Ghana. Scientists believe that both of these countries will experience a 3.8°F temperature increase by 2050 due to global warming, endangering the cacao(可可树) farms in the rainforests. These farms will then have to be shifted to cooler mountainous areas, which are the natural habitat of wildlife. This will lead to some tough decisions: whether to grow chocolate or save wildlife.\n\nUnfortunately, the crisis of global warming has already had a serious negative impact on cacao farms' yields, leading to the prices of chocolates skyrocketing.\n\nScientists, however, are trying to find a long-term and eco-friendly solution to this problem! They are trying to modify the species with a gene-editing technology, which will transform the seedlings into a species that survives even in a drier and warmer climate.\n\nAccording to a report by The Business Insider, in the University of California's new bio-sciences building, tiny green cacao seedlings are lined up in refrigerated greenhouses for a new experiment by using a technology called CRISPR. By manipulating the DNA of plants, this technology is already being used across the world to make plants tougher and cheaper. Similarly, in this unconventional experiment, scientists will make tiny, precise changes to the DNA of the seedlings to make the cocoa crops survive in warmer and drier climates.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They try to seek help from gene-editing scientists."
+        },
+        {
+          "id": "B",
+          "text": "They decide to move to cooler mountainous areas."
+        },
+        {
+          "id": "C",
+          "text": "They have suffered a lot due to a decrease in produce."
+        },
+        {
+          "id": "D",
+          "text": "They have benefited by raising prices of cocoa beans."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：They have suffered a lot due to a decrease in produce.\n关键词检索定位到第 3 段的候选相关句：Scientists believe that both of these countries will experience a 3.8°F temperature increase by 2050 due to global warming, endangering the cacao(可可树) farms in the rainforests.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-2-nonlistening-q55",
+      "canonicalId": "lazynote-cet4-2024-12-2-q55",
+      "number": 55,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What are scientists trying to do in the University of California's new bio-sciences building?",
+      "passage": "Chocolates save us from many things, especially emotional distress. They comfort us in times of trouble, calming down a racing heart by channelling happy calories inside us. We all have faith in chocolates to delight us in an instant!\n\nRecently, chocolate lovers were heartbroken as scientists claimed that they can become extinct by 2050! But hey, we have some happy news for you. Scientists can still help save chocolates from dying out! If you are not aware as to why scientists made the statement about the death of this wonderful thing, let us tell you the facts. Chocolate trees, whose seeds are used to make chocolate, grow in the tropical plant world and require very specific weather conditions to prosper.\n\nNow, fifty percent of the world's cocoa(可可) beans come from two countries in West Africa: Côte d'Ivoire and Ghana. Scientists believe that both of these countries will experience a 3.8°F temperature increase by 2050 due to global warming, endangering the cacao(可可树) farms in the rainforests. These farms will then have to be shifted to cooler mountainous areas, which are the natural habitat of wildlife. This will lead to some tough decisions: whether to grow chocolate or save wildlife.\n\nUnfortunately, the crisis of global warming has already had a serious negative impact on cacao farms' yields, leading to the prices of chocolates skyrocketing.\n\nScientists, however, are trying to find a long-term and eco-friendly solution to this problem! They are trying to modify the species with a gene-editing technology, which will transform the seedlings into a species that survives even in a drier and warmer climate.\n\nAccording to a report by The Business Insider, in the University of California's new bio-sciences building, tiny green cacao seedlings are lined up in refrigerated greenhouses for a new experiment by using a technology called CRISPR. By manipulating the DNA of plants, this technology is already being used across the world to make plants tougher and cheaper. Similarly, in this unconventional experiment, scientists will make tiny, precise changes to the DNA of the seedlings to make the cocoa crops survive in warmer and drier climates.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Build rows of refrigerated greenhouses for research on cacao seedlings."
+        },
+        {
+          "id": "B",
+          "text": "Gene-edit cacao seedlings for them to withstand a drier, warmer climate."
+        },
+        {
+          "id": "C",
+          "text": "Produce chocolates with the latest gene-editing technology."
+        },
+        {
+          "id": "D",
+          "text": "Transplant the genes of tougher plants to cacao seedlings."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：Gene-edit cacao seedlings for them to withstand a drier, warmer climate.\n关键词检索定位到第 6 段的候选相关句：According to a report by The Business Insider, in the University of California's new bio-sciences building, tiny green cacao seedlings are lined up in refrigerated greenhouses for a new experiment by using a technology called CRISPR.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-2-nonlistening-translation",
+      "number": "IV",
+      "level": "CET4",
+      "type": "short_text_self_check",
+      "skill": "translation",
+      "section": "translation",
+      "prompt": "Directions: For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2 .\n\n近年来，中国新能源汽车产业发展迅速。目前，中国新能源汽车年产量已高达近千万辆，占全球市场份额超过 60%，出口量不断创出新高。中国政府通过加大资金投入和政策引导，鼓励新能源汽车企业进行技术创新，不断提高产品在市场上的竞争力。中国新能源汽车产业的发展不仅有力推动了国内经济发展，也为全球新能源利用和环境保护做出了积极贡献。",
+      "options": [],
+      "correctAnswer": "In recent years, China's new energy vehicle industry has developed rapidly. At present, annual production of new energy vehicles in China has reached nearly ten million, accounting for more than 60% of the global market, while exports continue to reach new highs. Through increased funding and policy guidance, the Chinese government encourages new energy vehicle companies to innovate technologically and continually improve the competitiveness of their products in the market. The development of this industry in China has not only strongly promoted domestic economic growth but also made positive contributions to the global use of new energy and environmental protection.",
+      "referenceAnswer": "In recent years, China's new energy vehicle industry has developed rapidly. At present, annual production of new energy vehicles in China has reached nearly ten million, accounting for more than 60% of the global market, while exports continue to reach new highs. Through increased funding and policy guidance, the Chinese government encourages new energy vehicle companies to innovate technologically and continually improve the competitiveness of their products in the market. The development of this industry in China has not only strongly promoted domestic economic growth but also made positive contributions to the global use of new energy and environmental protection.",
+      "hint": "近千万辆=nearly ten million，超过60%=more than 60%；年产量与出口量别混。末句用not only…but also。",
+      "explanation": "以下为原创参考译文，其他准确表达同样可接受。①new energy vehicle industry采用行业常见对应词，不能把所有新能源汽车限定成一种车型。②annual production指年产量，nearly ten million保留“近”，more than 60%保留“超过”；while连接出口量不断创新高，不能把年产量当出口量。③through increased funding and policy guidance译投入与引导两个途径，encourages companies to innovate表示政府鼓励企业创新。④competitiveness是竞争力，their products明确产品所属。⑤not only…but also并列国内经济发展与全球新能源利用、环保贡献。所有数字是题面所述，不用当下数据替换历史题目。",
+      "rubric": [
+        "练习自评总分15分：信息准确0–8＋语法0–5＋表达0–2；允许拆句、换同义词，不要求逐字匹配参考译文。",
+        "信息准确0–8分：逐项检查——新能源车快速发展；年近1000万辆、全球超60%、出口创新高；资金政策鼓励创新竞争力；国内经济及全球新能源环保。8分=全部关键信息正确；6–7分=少量次要细节遗漏；3–5分=多处遗漏/数字或关系误译；0–2分=核心人物、动作或逻辑严重错误。",
+        "语法0–5分：5分=时态、单复数、主谓一致、从句和介词基本正确；3–4分=少量错误仍易理解；1–2分=多处错误妨碍理解；0分=主要句子结构不可理解。",
+        "表达0–2分：2分=用词搭配自然、因果转折时间衔接清楚；1分=可理解但有中文式生硬表达；0分=词序/词义造成大面积理解困难。",
+        "修订操作：先在中文原题划出时间、数量、地点和连接词，再在自己的译文逐项找对应；为每处漏译或误译写一句修正。此分数是练习估计，不是官方阅卷或机器评分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-2-nonlistening"
+    }
+  ]
+}

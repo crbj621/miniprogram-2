@@ -1,6 +1,7 @@
+import { withSharing } from '../../../utils/page-share'
 import { api } from '../../../utils/api-client'
 
-Page({
+Page(withSharing({
   data: { runList: [] as any[], isEmpty: true, loading: false, hasMore: false, error: '' },
   requestId: 0,
   offset: 0,
@@ -38,4 +39,4 @@ Page({
     finally { if (requestId === this.requestId) this.setData({ loading: false }) }
   },
   onShareAppMessage() { return { title: '一起记录校园跑', path: '/pages/index/index' } }
-})
+}))

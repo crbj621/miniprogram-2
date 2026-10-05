@@ -1,9 +1,10 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="container">
   <view class="demo-tools" wx:if="{{isSuper}}"><button bindtap="demoAction" data-remove="{{false}}" disabled="{{demoBusy}}" loading="{{demoBusy}}" hover-class="tap-feedback tech-pressed" class="tech-control">生成示例成绩</button><button bindtap="demoAction" data-remove="{{true}}" disabled="{{demoBusy}}" hover-class="tap-feedback tech-pressed" class="tech-control">移除示例成绩</button></view>
   <view class="search-bar">
     <view class="search-box">
       <icon type="search" size="14"></icon>
-      <tech-search class="tech-search-host"><input type="text" placeholder="搜索用户名" value="{{keyword}}" bindinput="onSearchInput" bindconfirm="onSearch" placeholder-style="color:#8597ad" class="tech-input" /></tech-search>
+      <tech-search class="tech-search-host"><input adjust-position="{{true}}" cursor-spacing="24" type="text" placeholder="搜索用户名" value="{{keyword}}" bindinput="onSearchInput" bindconfirm="onSearch" placeholder-style="color:#8597ad" class="tech-input" /></tech-search>
     </view>
   </view>
 
@@ -44,3 +45,5 @@
     </view>
   </scroll-view>
 </view>
+
+</block>

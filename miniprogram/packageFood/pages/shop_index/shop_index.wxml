@@ -1,3 +1,4 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="container">
   <view class="header">
     <view class="header-top">
@@ -129,3 +130,5 @@
     </view>
   </scroll-view>
 </view>
+
+</block>

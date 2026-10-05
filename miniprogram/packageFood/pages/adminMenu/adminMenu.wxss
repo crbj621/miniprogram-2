@@ -18,7 +18,9 @@
   color: #333;
 }
 
-.add-btn {
+.header .add-btn {
+  width: auto;
+  margin: 0;
   background: #6083c7;
   color: #fff;
   padding: 16rpx 32rpx;
@@ -52,10 +54,12 @@
 
 .menu-info {
   flex: 1;
+  min-width: 0;
   margin-left: 20rpx;
 }
 
 .menu-name {
+  overflow-wrap: break-word;
   display: block;
   font-size: 30rpx;
   font-weight: 500;
@@ -84,7 +88,8 @@
 
 .menu-meta {
   display: flex;
-  gap: 24rpx;
+  flex-wrap: wrap;
+  gap: 8rpx 16rpx;
 }
 
 .menu-stock, .menu-sales {
@@ -93,6 +98,7 @@
 }
 
 .menu-status {
+  flex-shrink: 0;
   font-size: 22rpx;
   padding: 6rpx 16rpx;
   border-radius: 20rpx;
@@ -110,12 +116,15 @@
 }
 
 .menu-actions {
+  flex-shrink: 0;
   display: flex;
   flex-direction: column;
   gap: 12rpx;
 }
 
-.action-btn {
+.menu-actions .action-btn {
+  width: auto;
+  margin: 0;
   font-size: 26rpx;
   color: #6083c7;
 }
@@ -150,12 +159,20 @@
   z-index: 100;
 }
 
-.modal {
+.modal-wrap {
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 650rpx;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30rpx;
+  box-sizing: border-box;
+  z-index: 101;
+}
+
+.modal {
+  width: 100%;
+  max-width: 650rpx;
   max-height: 80vh;
   background: #fff;
   border-radius: 20rpx;
@@ -165,6 +182,7 @@
 }
 
 .modal-header {
+  flex-shrink: 0;
   padding: 30rpx;
   text-align: center;
   font-size: 32rpx;
@@ -173,8 +191,12 @@
 }
 
 .modal-body {
+  flex: 1;
+  min-height: 0;
+  height: 55vh;
+  box-sizing: border-box;
   padding: 30rpx;
-  max-height: 60vh;
+  max-height: 55vh;
 }
 
 .form-item {
@@ -183,6 +205,7 @@
 
 .form-item.half {
   flex: 1;
+  min-width: 0;
 }
 
 .form-row {
@@ -241,12 +264,16 @@
 }
 
 .modal-footer {
+  flex-shrink: 0;
   display: flex;
   border-top: 1rpx solid #f2f6fa;
 }
 
-.modal-btn {
+.modal-footer .modal-btn {
+  width: auto;
   flex: 1;
+  min-width: 0;
+  margin: 0;
   padding: 30rpx;
   text-align: center;
   font-size: 30rpx;
@@ -263,6 +290,8 @@
 }
 
 .page-refresh-scroll { display: block; height: 100vh; }.shop-picker { margin: 20rpx 28rpx; border-radius: 24rpx; background: #fff; padding: 24rpx; font-size: 27rpx; color: #6083c7; }.dish-photo { width: 180rpx; height: 180rpx; margin-top: 16rpx; border-radius: 24rpx; }.action-btn { min-height: 72rpx; margin: 0; display: flex; align-items: center; justify-content: center; }.loading { display: flex; align-items: center; justify-content: center; gap: 16rpx; }
+
+.form-item button.tech-control { width: 100%; margin-left: 0; margin-right: 0; }
 
 .page { box-sizing: border-box; }.modal-btn.confirm { background: #6083c7; color: #fff; }.form-input,.form-textarea { border: 2rpx solid #e1e7f2; border-radius: 20rpx; background: #f7f9fd; }.modal-footer { padding: 12rpx; gap: 12rpx; }.modal-btn { border-radius: 20rpx; font-size: 28rpx; padding: 20rpx 12rpx; }
 

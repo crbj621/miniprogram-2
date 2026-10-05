@@ -1,0 +1,2145 @@
+{
+  "schemaVersion": 1,
+  "status": "verified_structured",
+  "source": {
+    "id": "cet6-2022-12-3-nonlistening",
+    "textCollection": "https://english-exam.lazynote.cn",
+    "textUrl": "https://english-exam.lazynote.cn/cet6/paper/2022-12-3/",
+    "textSha256": "f77285ec3db1df98f0d3558f5397095edde40a0326ece6a7a15fd338dbabc5e6",
+    "answerSources": [
+      {
+        "section": "part3-section-a",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2022-12-3/part3-section-a/",
+        "sha256": "9bcaa58c472b0a3cf2c41ba637169b73824d74a6a15d6711cfd8babfa4b65640"
+      },
+      {
+        "section": "part3-section-b",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2022-12-3/part3-section-b/",
+        "sha256": "dde55b296e5734860d87691d09bd0890269181f2cd44e726d3e16001ee5c0332"
+      },
+      {
+        "section": "part3-section-c-1",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2022-12-3/part3-section-c-1/",
+        "sha256": "b5f0e89abdacacc8f94b984854dbe2cdb2e8e691e36e32ddee2fe511ec04d43c"
+      },
+      {
+        "section": "part3-section-c-2",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2022-12-3/part3-section-c-2/",
+        "sha256": "73153830475b5fafa25e7ab30fe42aa6dd4ed0e7ea311337465b81300d122396"
+      }
+    ],
+    "rightsUrl": "https://english-exam.lazynote.cn",
+    "rights": "Source footer attributes original papers to the National College English Test Committee. Original materials retain their respective rights; no blanket source license is asserted. Commercial explanatory prose is not copied.",
+    "sourceRightsNotice": "© 2026 懒笔记 · 蜀ICP备2024049450号-1 · 川公网安备51019002006323号 · 增值电信业务经营许可证：川B2-20240301 · 真题版权归全国硕士研究生招生考试 / 全国大学英语四六级考试委员会所有 · 隐私政策 · 用户协议",
+    "sourceTermsUrl": "https://english-exam.lazynote.cn/terms/",
+    "reviewedAt": "2026-10-03",
+    "answerStatus": "public_reference_structural_consistency_verified",
+    "explanations": "Project-generated contextual evidence notes. Close-reading locations are keyword-search candidates, not manually verified detailed explanations.",
+    "referenceEssays": "Project-authored full reference examples bound to the original prompts; not official model answers.",
+    "materialSources": [],
+    "corrections": [],
+    "previousReviewedAnswerSources": [],
+    "sourceEdition": "lazynote public original-paper arrangement; set numbering can differ from other collections.",
+    "independentlyConfirmedSharedSource": "",
+    "readingSourceCorrection": null,
+    "sectionSourceReplacement": null,
+    "independentAnswerChecks": [],
+    "sharedSectionSource": {}
+  },
+  "papers": [
+    {
+      "id": "cet6-2022-12-3-nonlistening",
+      "level": "CET6",
+      "year": 2022,
+      "month": 12,
+      "set": 3,
+      "title": "2022年12月英语六级第3套真题（不含听力）",
+      "authenticity": "past_exam",
+      "questionIds": [
+        "cet6-2022-12-3-nonlistening-writing",
+        "cet6-2022-12-3-nonlistening-q26",
+        "cet6-2022-12-3-nonlistening-q27",
+        "cet6-2022-12-3-nonlistening-q28",
+        "cet6-2022-12-3-nonlistening-q29",
+        "cet6-2022-12-3-nonlistening-q30",
+        "cet6-2022-12-3-nonlistening-q31",
+        "cet6-2022-12-3-nonlistening-q32",
+        "cet6-2022-12-3-nonlistening-q33",
+        "cet6-2022-12-3-nonlistening-q34",
+        "cet6-2022-12-3-nonlistening-q35",
+        "cet6-2022-12-3-nonlistening-q36",
+        "cet6-2022-12-3-nonlistening-q37",
+        "cet6-2022-12-3-nonlistening-q38",
+        "cet6-2022-12-3-nonlistening-q39",
+        "cet6-2022-12-3-nonlistening-q40",
+        "cet6-2022-12-3-nonlistening-q41",
+        "cet6-2022-12-3-nonlistening-q42",
+        "cet6-2022-12-3-nonlistening-q43",
+        "cet6-2022-12-3-nonlistening-q44",
+        "cet6-2022-12-3-nonlistening-q45",
+        "cet6-2022-12-3-nonlistening-q46",
+        "cet6-2022-12-3-nonlistening-q47",
+        "cet6-2022-12-3-nonlistening-q48",
+        "cet6-2022-12-3-nonlistening-q49",
+        "cet6-2022-12-3-nonlistening-q50",
+        "cet6-2022-12-3-nonlistening-q51",
+        "cet6-2022-12-3-nonlistening-q52",
+        "cet6-2022-12-3-nonlistening-q53",
+        "cet6-2022-12-3-nonlistening-q54",
+        "cet6-2022-12-3-nonlistening-q55",
+        "cet6-2022-12-3-nonlistening-translation"
+      ],
+      "durationSeconds": 6000,
+      "description": "写作1题、阅读30题、翻译1题，不含听力。客观题答案与题面、选项完成结构一致性核对。",
+      "sourceId": "cet6-2022-12-3-nonlistening",
+      "coverage": {
+        "fullPaper": false,
+        "fullNonListening": true,
+        "listeningExcluded": true,
+        "objectiveNumbers": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "objectiveCount": 30,
+        "subjectiveCount": 2,
+        "sections": [
+          "writing",
+          "reading_word_bank",
+          "reading_matching",
+          "reading_comprehension",
+          "translation"
+        ],
+        "sharedSectionSource": {},
+        "note": "写作1题、阅读30题、翻译1题，不含听力。",
+        "independentlyConfirmedSharedSource": "",
+        "readingSourceCorrection": null,
+        "sectionSourceReplacement": null,
+        "referenceStatus": "project_authored"
+      },
+      "resources": [
+        {
+          "id": "cet6-2022-12-3-nonlistening-source",
+          "type": "web",
+          "title": "原卷来源与题面核对",
+          "url": "https://english-exam.lazynote.cn/cet6/paper/2022-12-3/"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cet6-2022-12-3-nonlistening-writing",
+      "number": "I",
+      "level": "CET6",
+      "type": "short_text_self_check",
+      "skill": "writing",
+      "section": "writing",
+      "prompt": "Directions: For this part, you are allowed 30 minutes to write an essay that begins with the sentence “Today increasing importance is being attached to cultivating college students'team spirit.” You can make statements, give reasons, or cite examples to develop your essay. You should write at least 150 words but no more than 200 words.",
+      "options": [],
+      "correctAnswer": "Today increasing importance is being attached to cultivating college students' team spirit. Universities prepare people not only to acquire knowledge but also to work with others, and cooperation is essential in many academic and professional tasks.\n\nTeam spirit means taking responsibility for a shared goal and recognizing the value of others' contributions. In a group presentation, for example, dividing tasks is only the beginning. Members must compare ideas, check whether different sections fit together and support a classmate who encounters difficulty. This process develops communication, patience and an ability to consider perspectives beyond one's own. It also teaches students that individual excellence becomes more useful when combined with complementary skills. Nevertheless, teamwork should not allow some members to avoid responsibility; fair contributions and clear expectations remain necessary.\n\nTeachers can encourage team spirit through meaningful cooperative projects and feedback on both results and participation. Students should keep commitments, share information and acknowledge others' work. With these habits, group learning can become an opportunity to build reliable relationships and prepare for responsible cooperation after graduation.",
+      "referenceAnswer": "Today increasing importance is being attached to cultivating college students' team spirit. Universities prepare people not only to acquire knowledge but also to work with others, and cooperation is essential in many academic and professional tasks.\n\nTeam spirit means taking responsibility for a shared goal and recognizing the value of others' contributions. In a group presentation, for example, dividing tasks is only the beginning. Members must compare ideas, check whether different sections fit together and support a classmate who encounters difficulty. This process develops communication, patience and an ability to consider perspectives beyond one's own. It also teaches students that individual excellence becomes more useful when combined with complementary skills. Nevertheless, teamwork should not allow some members to avoid responsibility; fair contributions and clear expectations remain necessary.\n\nTeachers can encourage team spirit through meaningful cooperative projects and feedback on both results and participation. Students should keep commitments, share information and acknowledge others' work. With these habits, group learning can become an opportunity to build reliable relationships and prepare for responsible cooperation after graduation.",
+      "hint": "首句仅修复students’与team之间OCR空格，论述共同目标、公平分工和互相支持。",
+      "explanation": "以下为按本题要求独立写成的原创参考范文，作文没有唯一答案。真实HTML题干“students'team”缺少空格；范文仅恢复students'与team之间的词间空格，sourcePromptSha256仍精确绑定真实题干。小组展示例子从分工推进到整合与支持；反思有人搭便车的问题，使团队精神不等于取消个人责任。",
+      "rubric": [
+        "任务：首句仅修复students’与team之间OCR空格，论述共同目标、公平分工和互相支持。",
+        "论证：明确中心观点，用原因、具体例子或经历展开；结尾回应主题。",
+        "语言：检查主谓一致、时态、搭配和段落衔接；全文控制在150–200词。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2022-12-3-nonlistening-q26",
+      "canonicalId": "lazynote-cet6-2022-12-3-q26",
+      "number": 26,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 26 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "American colleges and universities are using 64 percent less coal than they did a decade ago, burning 700,000 tons last year, down from 2 million tons in 2008, the U.S. Energy Information Administration (EIA) said in a report [26] ____ yesterday.\n\nAll 57 schools that were burning coal in 2008 are using less now, and 20 have [27] ____ coal completely, EIA found.\n\nMost universities have turned to natural gas as a [28] ____ , with state funding backing the fuel switch.\n\nWhile academic institutions use less than 0.1 percent of U.S. coal burned for power, campus coal use has a history dating back to the 1800s when [29] ____ to power was scarce.\n\nMany universities still operate their own power plants. The Public Utility Regulatory Policies Act of 1978 encouraged more electricity generation by allowing institutions to sell [30] ____ power to utilities.\n\nBut EIA noted many coal-fired universities have signed onto the American College and University Presidents Climate Commitment, which was launched in 2007.\n\nAbout 665 schools are part of the program, which aims to [31] ____ greenhouse gas emissions. Thirty percent of the participants have pledged to be carbon [32] ____ within 20 years.\n\nThe Sierra Club's Beyond Coal campaign, which also leads campaigns for universities to withdraw their [33] ____ in coal and other fossil fuels, lists 22 schools that have pledged to move \"beyond coal,\" including Clemson University, Indiana University, Ohio University, Penn State University, the University of Louisville and the University of Tennessee, Knoxville.\n\nThe largest coal use [34] ____ at colleges were in Michigan, Missouri, Tennessee and Indiana. Indiana's universities alone cut coal [35] ____ by 81 percent between 2008 and 2015.\n\nDuring the same period, Michigan made an 80 percent cut and Tennessee cut back by 94 percent at state institutions.",
+      "options": [
+        {
+          "id": "A",
+          "text": "abandoned"
+        },
+        {
+          "id": "B",
+          "text": "access"
+        },
+        {
+          "id": "C",
+          "text": "consumption"
+        },
+        {
+          "id": "D",
+          "text": "contrive"
+        },
+        {
+          "id": "E",
+          "text": "duplications"
+        },
+        {
+          "id": "F",
+          "text": "investments"
+        },
+        {
+          "id": "G",
+          "text": "mobilized"
+        },
+        {
+          "id": "H",
+          "text": "negligent"
+        },
+        {
+          "id": "I",
+          "text": "neutral"
+        },
+        {
+          "id": "J",
+          "text": "reductions"
+        },
+        {
+          "id": "K",
+          "text": "released"
+        },
+        {
+          "id": "L",
+          "text": "replacement"
+        },
+        {
+          "id": "M",
+          "text": "slash"
+        },
+        {
+          "id": "N",
+          "text": "surplus"
+        },
+        {
+          "id": "O",
+          "text": "void"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "先看第 26 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 K（released）。本空所在句：Energy Information Administration (EIA) said in a report [26] ____ yesterday.\n将本空替换为 released 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2022-12-3-nonlistening-q27",
+      "canonicalId": "lazynote-cet6-2022-12-3-q27",
+      "number": 27,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 27 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "American colleges and universities are using 64 percent less coal than they did a decade ago, burning 700,000 tons last year, down from 2 million tons in 2008, the U.S. Energy Information Administration (EIA) said in a report [26] ____ yesterday.\n\nAll 57 schools that were burning coal in 2008 are using less now, and 20 have [27] ____ coal completely, EIA found.\n\nMost universities have turned to natural gas as a [28] ____ , with state funding backing the fuel switch.\n\nWhile academic institutions use less than 0.1 percent of U.S. coal burned for power, campus coal use has a history dating back to the 1800s when [29] ____ to power was scarce.\n\nMany universities still operate their own power plants. The Public Utility Regulatory Policies Act of 1978 encouraged more electricity generation by allowing institutions to sell [30] ____ power to utilities.\n\nBut EIA noted many coal-fired universities have signed onto the American College and University Presidents Climate Commitment, which was launched in 2007.\n\nAbout 665 schools are part of the program, which aims to [31] ____ greenhouse gas emissions. Thirty percent of the participants have pledged to be carbon [32] ____ within 20 years.\n\nThe Sierra Club's Beyond Coal campaign, which also leads campaigns for universities to withdraw their [33] ____ in coal and other fossil fuels, lists 22 schools that have pledged to move \"beyond coal,\" including Clemson University, Indiana University, Ohio University, Penn State University, the University of Louisville and the University of Tennessee, Knoxville.\n\nThe largest coal use [34] ____ at colleges were in Michigan, Missouri, Tennessee and Indiana. Indiana's universities alone cut coal [35] ____ by 81 percent between 2008 and 2015.\n\nDuring the same period, Michigan made an 80 percent cut and Tennessee cut back by 94 percent at state institutions.",
+      "options": [
+        {
+          "id": "A",
+          "text": "abandoned"
+        },
+        {
+          "id": "B",
+          "text": "access"
+        },
+        {
+          "id": "C",
+          "text": "consumption"
+        },
+        {
+          "id": "D",
+          "text": "contrive"
+        },
+        {
+          "id": "E",
+          "text": "duplications"
+        },
+        {
+          "id": "F",
+          "text": "investments"
+        },
+        {
+          "id": "G",
+          "text": "mobilized"
+        },
+        {
+          "id": "H",
+          "text": "negligent"
+        },
+        {
+          "id": "I",
+          "text": "neutral"
+        },
+        {
+          "id": "J",
+          "text": "reductions"
+        },
+        {
+          "id": "K",
+          "text": "released"
+        },
+        {
+          "id": "L",
+          "text": "replacement"
+        },
+        {
+          "id": "M",
+          "text": "slash"
+        },
+        {
+          "id": "N",
+          "text": "surplus"
+        },
+        {
+          "id": "O",
+          "text": "void"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "先看第 27 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 A（abandoned）。本空所在句：All 57 schools that were burning coal in 2008 are using less now, and 20 have [27] ____ coal completely, EIA found.\n将本空替换为 abandoned 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2022-12-3-nonlistening-q28",
+      "canonicalId": "lazynote-cet6-2022-12-3-q28",
+      "number": 28,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 28 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "American colleges and universities are using 64 percent less coal than they did a decade ago, burning 700,000 tons last year, down from 2 million tons in 2008, the U.S. Energy Information Administration (EIA) said in a report [26] ____ yesterday.\n\nAll 57 schools that were burning coal in 2008 are using less now, and 20 have [27] ____ coal completely, EIA found.\n\nMost universities have turned to natural gas as a [28] ____ , with state funding backing the fuel switch.\n\nWhile academic institutions use less than 0.1 percent of U.S. coal burned for power, campus coal use has a history dating back to the 1800s when [29] ____ to power was scarce.\n\nMany universities still operate their own power plants. The Public Utility Regulatory Policies Act of 1978 encouraged more electricity generation by allowing institutions to sell [30] ____ power to utilities.\n\nBut EIA noted many coal-fired universities have signed onto the American College and University Presidents Climate Commitment, which was launched in 2007.\n\nAbout 665 schools are part of the program, which aims to [31] ____ greenhouse gas emissions. Thirty percent of the participants have pledged to be carbon [32] ____ within 20 years.\n\nThe Sierra Club's Beyond Coal campaign, which also leads campaigns for universities to withdraw their [33] ____ in coal and other fossil fuels, lists 22 schools that have pledged to move \"beyond coal,\" including Clemson University, Indiana University, Ohio University, Penn State University, the University of Louisville and the University of Tennessee, Knoxville.\n\nThe largest coal use [34] ____ at colleges were in Michigan, Missouri, Tennessee and Indiana. Indiana's universities alone cut coal [35] ____ by 81 percent between 2008 and 2015.\n\nDuring the same period, Michigan made an 80 percent cut and Tennessee cut back by 94 percent at state institutions.",
+      "options": [
+        {
+          "id": "A",
+          "text": "abandoned"
+        },
+        {
+          "id": "B",
+          "text": "access"
+        },
+        {
+          "id": "C",
+          "text": "consumption"
+        },
+        {
+          "id": "D",
+          "text": "contrive"
+        },
+        {
+          "id": "E",
+          "text": "duplications"
+        },
+        {
+          "id": "F",
+          "text": "investments"
+        },
+        {
+          "id": "G",
+          "text": "mobilized"
+        },
+        {
+          "id": "H",
+          "text": "negligent"
+        },
+        {
+          "id": "I",
+          "text": "neutral"
+        },
+        {
+          "id": "J",
+          "text": "reductions"
+        },
+        {
+          "id": "K",
+          "text": "released"
+        },
+        {
+          "id": "L",
+          "text": "replacement"
+        },
+        {
+          "id": "M",
+          "text": "slash"
+        },
+        {
+          "id": "N",
+          "text": "surplus"
+        },
+        {
+          "id": "O",
+          "text": "void"
+        }
+      ],
+      "correctAnswer": "L",
+      "hint": "先看第 28 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 L（replacement）。本空所在句：Most universities have turned to natural gas as a [28] ____ , with state funding backing the fuel switch.\n将本空替换为 replacement 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2022-12-3-nonlistening-q29",
+      "canonicalId": "lazynote-cet6-2022-12-3-q29",
+      "number": 29,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 29 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "American colleges and universities are using 64 percent less coal than they did a decade ago, burning 700,000 tons last year, down from 2 million tons in 2008, the U.S. Energy Information Administration (EIA) said in a report [26] ____ yesterday.\n\nAll 57 schools that were burning coal in 2008 are using less now, and 20 have [27] ____ coal completely, EIA found.\n\nMost universities have turned to natural gas as a [28] ____ , with state funding backing the fuel switch.\n\nWhile academic institutions use less than 0.1 percent of U.S. coal burned for power, campus coal use has a history dating back to the 1800s when [29] ____ to power was scarce.\n\nMany universities still operate their own power plants. The Public Utility Regulatory Policies Act of 1978 encouraged more electricity generation by allowing institutions to sell [30] ____ power to utilities.\n\nBut EIA noted many coal-fired universities have signed onto the American College and University Presidents Climate Commitment, which was launched in 2007.\n\nAbout 665 schools are part of the program, which aims to [31] ____ greenhouse gas emissions. Thirty percent of the participants have pledged to be carbon [32] ____ within 20 years.\n\nThe Sierra Club's Beyond Coal campaign, which also leads campaigns for universities to withdraw their [33] ____ in coal and other fossil fuels, lists 22 schools that have pledged to move \"beyond coal,\" including Clemson University, Indiana University, Ohio University, Penn State University, the University of Louisville and the University of Tennessee, Knoxville.\n\nThe largest coal use [34] ____ at colleges were in Michigan, Missouri, Tennessee and Indiana. Indiana's universities alone cut coal [35] ____ by 81 percent between 2008 and 2015.\n\nDuring the same period, Michigan made an 80 percent cut and Tennessee cut back by 94 percent at state institutions.",
+      "options": [
+        {
+          "id": "A",
+          "text": "abandoned"
+        },
+        {
+          "id": "B",
+          "text": "access"
+        },
+        {
+          "id": "C",
+          "text": "consumption"
+        },
+        {
+          "id": "D",
+          "text": "contrive"
+        },
+        {
+          "id": "E",
+          "text": "duplications"
+        },
+        {
+          "id": "F",
+          "text": "investments"
+        },
+        {
+          "id": "G",
+          "text": "mobilized"
+        },
+        {
+          "id": "H",
+          "text": "negligent"
+        },
+        {
+          "id": "I",
+          "text": "neutral"
+        },
+        {
+          "id": "J",
+          "text": "reductions"
+        },
+        {
+          "id": "K",
+          "text": "released"
+        },
+        {
+          "id": "L",
+          "text": "replacement"
+        },
+        {
+          "id": "M",
+          "text": "slash"
+        },
+        {
+          "id": "N",
+          "text": "surplus"
+        },
+        {
+          "id": "O",
+          "text": "void"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "先看第 29 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 B（access）。本空所在句：coal burned for power, campus coal use has a history dating back to the 1800s when [29] ____ to power was scarce.\n将本空替换为 access 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2022-12-3-nonlistening-q30",
+      "canonicalId": "lazynote-cet6-2022-12-3-q30",
+      "number": 30,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 30 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "American colleges and universities are using 64 percent less coal than they did a decade ago, burning 700,000 tons last year, down from 2 million tons in 2008, the U.S. Energy Information Administration (EIA) said in a report [26] ____ yesterday.\n\nAll 57 schools that were burning coal in 2008 are using less now, and 20 have [27] ____ coal completely, EIA found.\n\nMost universities have turned to natural gas as a [28] ____ , with state funding backing the fuel switch.\n\nWhile academic institutions use less than 0.1 percent of U.S. coal burned for power, campus coal use has a history dating back to the 1800s when [29] ____ to power was scarce.\n\nMany universities still operate their own power plants. The Public Utility Regulatory Policies Act of 1978 encouraged more electricity generation by allowing institutions to sell [30] ____ power to utilities.\n\nBut EIA noted many coal-fired universities have signed onto the American College and University Presidents Climate Commitment, which was launched in 2007.\n\nAbout 665 schools are part of the program, which aims to [31] ____ greenhouse gas emissions. Thirty percent of the participants have pledged to be carbon [32] ____ within 20 years.\n\nThe Sierra Club's Beyond Coal campaign, which also leads campaigns for universities to withdraw their [33] ____ in coal and other fossil fuels, lists 22 schools that have pledged to move \"beyond coal,\" including Clemson University, Indiana University, Ohio University, Penn State University, the University of Louisville and the University of Tennessee, Knoxville.\n\nThe largest coal use [34] ____ at colleges were in Michigan, Missouri, Tennessee and Indiana. Indiana's universities alone cut coal [35] ____ by 81 percent between 2008 and 2015.\n\nDuring the same period, Michigan made an 80 percent cut and Tennessee cut back by 94 percent at state institutions.",
+      "options": [
+        {
+          "id": "A",
+          "text": "abandoned"
+        },
+        {
+          "id": "B",
+          "text": "access"
+        },
+        {
+          "id": "C",
+          "text": "consumption"
+        },
+        {
+          "id": "D",
+          "text": "contrive"
+        },
+        {
+          "id": "E",
+          "text": "duplications"
+        },
+        {
+          "id": "F",
+          "text": "investments"
+        },
+        {
+          "id": "G",
+          "text": "mobilized"
+        },
+        {
+          "id": "H",
+          "text": "negligent"
+        },
+        {
+          "id": "I",
+          "text": "neutral"
+        },
+        {
+          "id": "J",
+          "text": "reductions"
+        },
+        {
+          "id": "K",
+          "text": "released"
+        },
+        {
+          "id": "L",
+          "text": "replacement"
+        },
+        {
+          "id": "M",
+          "text": "slash"
+        },
+        {
+          "id": "N",
+          "text": "surplus"
+        },
+        {
+          "id": "O",
+          "text": "void"
+        }
+      ],
+      "correctAnswer": "N",
+      "hint": "先看第 30 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 N（surplus）。本空所在句：The Public Utility Regulatory Policies Act of 1978 encouraged more electricity generation by allowing institutions to sell [30] ____ power to utilities.\n将本空替换为 surplus 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2022-12-3-nonlistening-q31",
+      "canonicalId": "lazynote-cet6-2022-12-3-q31",
+      "number": 31,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 31 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "American colleges and universities are using 64 percent less coal than they did a decade ago, burning 700,000 tons last year, down from 2 million tons in 2008, the U.S. Energy Information Administration (EIA) said in a report [26] ____ yesterday.\n\nAll 57 schools that were burning coal in 2008 are using less now, and 20 have [27] ____ coal completely, EIA found.\n\nMost universities have turned to natural gas as a [28] ____ , with state funding backing the fuel switch.\n\nWhile academic institutions use less than 0.1 percent of U.S. coal burned for power, campus coal use has a history dating back to the 1800s when [29] ____ to power was scarce.\n\nMany universities still operate their own power plants. The Public Utility Regulatory Policies Act of 1978 encouraged more electricity generation by allowing institutions to sell [30] ____ power to utilities.\n\nBut EIA noted many coal-fired universities have signed onto the American College and University Presidents Climate Commitment, which was launched in 2007.\n\nAbout 665 schools are part of the program, which aims to [31] ____ greenhouse gas emissions. Thirty percent of the participants have pledged to be carbon [32] ____ within 20 years.\n\nThe Sierra Club's Beyond Coal campaign, which also leads campaigns for universities to withdraw their [33] ____ in coal and other fossil fuels, lists 22 schools that have pledged to move \"beyond coal,\" including Clemson University, Indiana University, Ohio University, Penn State University, the University of Louisville and the University of Tennessee, Knoxville.\n\nThe largest coal use [34] ____ at colleges were in Michigan, Missouri, Tennessee and Indiana. Indiana's universities alone cut coal [35] ____ by 81 percent between 2008 and 2015.\n\nDuring the same period, Michigan made an 80 percent cut and Tennessee cut back by 94 percent at state institutions.",
+      "options": [
+        {
+          "id": "A",
+          "text": "abandoned"
+        },
+        {
+          "id": "B",
+          "text": "access"
+        },
+        {
+          "id": "C",
+          "text": "consumption"
+        },
+        {
+          "id": "D",
+          "text": "contrive"
+        },
+        {
+          "id": "E",
+          "text": "duplications"
+        },
+        {
+          "id": "F",
+          "text": "investments"
+        },
+        {
+          "id": "G",
+          "text": "mobilized"
+        },
+        {
+          "id": "H",
+          "text": "negligent"
+        },
+        {
+          "id": "I",
+          "text": "neutral"
+        },
+        {
+          "id": "J",
+          "text": "reductions"
+        },
+        {
+          "id": "K",
+          "text": "released"
+        },
+        {
+          "id": "L",
+          "text": "replacement"
+        },
+        {
+          "id": "M",
+          "text": "slash"
+        },
+        {
+          "id": "N",
+          "text": "surplus"
+        },
+        {
+          "id": "O",
+          "text": "void"
+        }
+      ],
+      "correctAnswer": "M",
+      "hint": "先看第 31 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 M（slash）。本空所在句：About 665 schools are part of the program, which aims to [31] ____ greenhouse gas emissions.\n将本空替换为 slash 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2022-12-3-nonlistening-q32",
+      "canonicalId": "lazynote-cet6-2022-12-3-q32",
+      "number": 32,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 32 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "American colleges and universities are using 64 percent less coal than they did a decade ago, burning 700,000 tons last year, down from 2 million tons in 2008, the U.S. Energy Information Administration (EIA) said in a report [26] ____ yesterday.\n\nAll 57 schools that were burning coal in 2008 are using less now, and 20 have [27] ____ coal completely, EIA found.\n\nMost universities have turned to natural gas as a [28] ____ , with state funding backing the fuel switch.\n\nWhile academic institutions use less than 0.1 percent of U.S. coal burned for power, campus coal use has a history dating back to the 1800s when [29] ____ to power was scarce.\n\nMany universities still operate their own power plants. The Public Utility Regulatory Policies Act of 1978 encouraged more electricity generation by allowing institutions to sell [30] ____ power to utilities.\n\nBut EIA noted many coal-fired universities have signed onto the American College and University Presidents Climate Commitment, which was launched in 2007.\n\nAbout 665 schools are part of the program, which aims to [31] ____ greenhouse gas emissions. Thirty percent of the participants have pledged to be carbon [32] ____ within 20 years.\n\nThe Sierra Club's Beyond Coal campaign, which also leads campaigns for universities to withdraw their [33] ____ in coal and other fossil fuels, lists 22 schools that have pledged to move \"beyond coal,\" including Clemson University, Indiana University, Ohio University, Penn State University, the University of Louisville and the University of Tennessee, Knoxville.\n\nThe largest coal use [34] ____ at colleges were in Michigan, Missouri, Tennessee and Indiana. Indiana's universities alone cut coal [35] ____ by 81 percent between 2008 and 2015.\n\nDuring the same period, Michigan made an 80 percent cut and Tennessee cut back by 94 percent at state institutions.",
+      "options": [
+        {
+          "id": "A",
+          "text": "abandoned"
+        },
+        {
+          "id": "B",
+          "text": "access"
+        },
+        {
+          "id": "C",
+          "text": "consumption"
+        },
+        {
+          "id": "D",
+          "text": "contrive"
+        },
+        {
+          "id": "E",
+          "text": "duplications"
+        },
+        {
+          "id": "F",
+          "text": "investments"
+        },
+        {
+          "id": "G",
+          "text": "mobilized"
+        },
+        {
+          "id": "H",
+          "text": "negligent"
+        },
+        {
+          "id": "I",
+          "text": "neutral"
+        },
+        {
+          "id": "J",
+          "text": "reductions"
+        },
+        {
+          "id": "K",
+          "text": "released"
+        },
+        {
+          "id": "L",
+          "text": "replacement"
+        },
+        {
+          "id": "M",
+          "text": "slash"
+        },
+        {
+          "id": "N",
+          "text": "surplus"
+        },
+        {
+          "id": "O",
+          "text": "void"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "先看第 32 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 I（neutral）。本空所在句：Thirty percent of the participants have pledged to be carbon [32] ____ within 20 years.\n将本空替换为 neutral 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2022-12-3-nonlistening-q33",
+      "canonicalId": "lazynote-cet6-2022-12-3-q33",
+      "number": 33,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 33 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "American colleges and universities are using 64 percent less coal than they did a decade ago, burning 700,000 tons last year, down from 2 million tons in 2008, the U.S. Energy Information Administration (EIA) said in a report [26] ____ yesterday.\n\nAll 57 schools that were burning coal in 2008 are using less now, and 20 have [27] ____ coal completely, EIA found.\n\nMost universities have turned to natural gas as a [28] ____ , with state funding backing the fuel switch.\n\nWhile academic institutions use less than 0.1 percent of U.S. coal burned for power, campus coal use has a history dating back to the 1800s when [29] ____ to power was scarce.\n\nMany universities still operate their own power plants. The Public Utility Regulatory Policies Act of 1978 encouraged more electricity generation by allowing institutions to sell [30] ____ power to utilities.\n\nBut EIA noted many coal-fired universities have signed onto the American College and University Presidents Climate Commitment, which was launched in 2007.\n\nAbout 665 schools are part of the program, which aims to [31] ____ greenhouse gas emissions. Thirty percent of the participants have pledged to be carbon [32] ____ within 20 years.\n\nThe Sierra Club's Beyond Coal campaign, which also leads campaigns for universities to withdraw their [33] ____ in coal and other fossil fuels, lists 22 schools that have pledged to move \"beyond coal,\" including Clemson University, Indiana University, Ohio University, Penn State University, the University of Louisville and the University of Tennessee, Knoxville.\n\nThe largest coal use [34] ____ at colleges were in Michigan, Missouri, Tennessee and Indiana. Indiana's universities alone cut coal [35] ____ by 81 percent between 2008 and 2015.\n\nDuring the same period, Michigan made an 80 percent cut and Tennessee cut back by 94 percent at state institutions.",
+      "options": [
+        {
+          "id": "A",
+          "text": "abandoned"
+        },
+        {
+          "id": "B",
+          "text": "access"
+        },
+        {
+          "id": "C",
+          "text": "consumption"
+        },
+        {
+          "id": "D",
+          "text": "contrive"
+        },
+        {
+          "id": "E",
+          "text": "duplications"
+        },
+        {
+          "id": "F",
+          "text": "investments"
+        },
+        {
+          "id": "G",
+          "text": "mobilized"
+        },
+        {
+          "id": "H",
+          "text": "negligent"
+        },
+        {
+          "id": "I",
+          "text": "neutral"
+        },
+        {
+          "id": "J",
+          "text": "reductions"
+        },
+        {
+          "id": "K",
+          "text": "released"
+        },
+        {
+          "id": "L",
+          "text": "replacement"
+        },
+        {
+          "id": "M",
+          "text": "slash"
+        },
+        {
+          "id": "N",
+          "text": "surplus"
+        },
+        {
+          "id": "O",
+          "text": "void"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "先看第 33 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 F（investments）。本空所在句：The Sierra Club's Beyond Coal campaign, which also leads campaigns for universities to withdraw their [33] ____ in coal and other fossil fuels, lists 22 schools that have pledged to move \"beyond coal,\" including Clemson University, Indiana University, Ohio University, Penn State University, the University of Louisville and the University of Tennessee, Knoxville.\n将本空替换为 investments 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2022-12-3-nonlistening-q34",
+      "canonicalId": "lazynote-cet6-2022-12-3-q34",
+      "number": 34,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 34 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "American colleges and universities are using 64 percent less coal than they did a decade ago, burning 700,000 tons last year, down from 2 million tons in 2008, the U.S. Energy Information Administration (EIA) said in a report [26] ____ yesterday.\n\nAll 57 schools that were burning coal in 2008 are using less now, and 20 have [27] ____ coal completely, EIA found.\n\nMost universities have turned to natural gas as a [28] ____ , with state funding backing the fuel switch.\n\nWhile academic institutions use less than 0.1 percent of U.S. coal burned for power, campus coal use has a history dating back to the 1800s when [29] ____ to power was scarce.\n\nMany universities still operate their own power plants. The Public Utility Regulatory Policies Act of 1978 encouraged more electricity generation by allowing institutions to sell [30] ____ power to utilities.\n\nBut EIA noted many coal-fired universities have signed onto the American College and University Presidents Climate Commitment, which was launched in 2007.\n\nAbout 665 schools are part of the program, which aims to [31] ____ greenhouse gas emissions. Thirty percent of the participants have pledged to be carbon [32] ____ within 20 years.\n\nThe Sierra Club's Beyond Coal campaign, which also leads campaigns for universities to withdraw their [33] ____ in coal and other fossil fuels, lists 22 schools that have pledged to move \"beyond coal,\" including Clemson University, Indiana University, Ohio University, Penn State University, the University of Louisville and the University of Tennessee, Knoxville.\n\nThe largest coal use [34] ____ at colleges were in Michigan, Missouri, Tennessee and Indiana. Indiana's universities alone cut coal [35] ____ by 81 percent between 2008 and 2015.\n\nDuring the same period, Michigan made an 80 percent cut and Tennessee cut back by 94 percent at state institutions.",
+      "options": [
+        {
+          "id": "A",
+          "text": "abandoned"
+        },
+        {
+          "id": "B",
+          "text": "access"
+        },
+        {
+          "id": "C",
+          "text": "consumption"
+        },
+        {
+          "id": "D",
+          "text": "contrive"
+        },
+        {
+          "id": "E",
+          "text": "duplications"
+        },
+        {
+          "id": "F",
+          "text": "investments"
+        },
+        {
+          "id": "G",
+          "text": "mobilized"
+        },
+        {
+          "id": "H",
+          "text": "negligent"
+        },
+        {
+          "id": "I",
+          "text": "neutral"
+        },
+        {
+          "id": "J",
+          "text": "reductions"
+        },
+        {
+          "id": "K",
+          "text": "released"
+        },
+        {
+          "id": "L",
+          "text": "replacement"
+        },
+        {
+          "id": "M",
+          "text": "slash"
+        },
+        {
+          "id": "N",
+          "text": "surplus"
+        },
+        {
+          "id": "O",
+          "text": "void"
+        }
+      ],
+      "correctAnswer": "J",
+      "hint": "先看第 34 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 J（reductions）。本空所在句：The largest coal use [34] ____ at colleges were in Michigan, Missouri, Tennessee and Indiana.\n将本空替换为 reductions 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2022-12-3-nonlistening-q35",
+      "canonicalId": "lazynote-cet6-2022-12-3-q35",
+      "number": 35,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 35 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "American colleges and universities are using 64 percent less coal than they did a decade ago, burning 700,000 tons last year, down from 2 million tons in 2008, the U.S. Energy Information Administration (EIA) said in a report [26] ____ yesterday.\n\nAll 57 schools that were burning coal in 2008 are using less now, and 20 have [27] ____ coal completely, EIA found.\n\nMost universities have turned to natural gas as a [28] ____ , with state funding backing the fuel switch.\n\nWhile academic institutions use less than 0.1 percent of U.S. coal burned for power, campus coal use has a history dating back to the 1800s when [29] ____ to power was scarce.\n\nMany universities still operate their own power plants. The Public Utility Regulatory Policies Act of 1978 encouraged more electricity generation by allowing institutions to sell [30] ____ power to utilities.\n\nBut EIA noted many coal-fired universities have signed onto the American College and University Presidents Climate Commitment, which was launched in 2007.\n\nAbout 665 schools are part of the program, which aims to [31] ____ greenhouse gas emissions. Thirty percent of the participants have pledged to be carbon [32] ____ within 20 years.\n\nThe Sierra Club's Beyond Coal campaign, which also leads campaigns for universities to withdraw their [33] ____ in coal and other fossil fuels, lists 22 schools that have pledged to move \"beyond coal,\" including Clemson University, Indiana University, Ohio University, Penn State University, the University of Louisville and the University of Tennessee, Knoxville.\n\nThe largest coal use [34] ____ at colleges were in Michigan, Missouri, Tennessee and Indiana. Indiana's universities alone cut coal [35] ____ by 81 percent between 2008 and 2015.\n\nDuring the same period, Michigan made an 80 percent cut and Tennessee cut back by 94 percent at state institutions.",
+      "options": [
+        {
+          "id": "A",
+          "text": "abandoned"
+        },
+        {
+          "id": "B",
+          "text": "access"
+        },
+        {
+          "id": "C",
+          "text": "consumption"
+        },
+        {
+          "id": "D",
+          "text": "contrive"
+        },
+        {
+          "id": "E",
+          "text": "duplications"
+        },
+        {
+          "id": "F",
+          "text": "investments"
+        },
+        {
+          "id": "G",
+          "text": "mobilized"
+        },
+        {
+          "id": "H",
+          "text": "negligent"
+        },
+        {
+          "id": "I",
+          "text": "neutral"
+        },
+        {
+          "id": "J",
+          "text": "reductions"
+        },
+        {
+          "id": "K",
+          "text": "released"
+        },
+        {
+          "id": "L",
+          "text": "replacement"
+        },
+        {
+          "id": "M",
+          "text": "slash"
+        },
+        {
+          "id": "N",
+          "text": "surplus"
+        },
+        {
+          "id": "O",
+          "text": "void"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "先看第 35 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 C（consumption）。本空所在句：Indiana's universities alone cut coal [35] ____ by 81 percent between 2008 and 2015.\n将本空替换为 consumption 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2022-12-3-nonlistening-q36",
+      "canonicalId": "lazynote-cet6-2022-12-3-q36",
+      "number": 36,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "It was not a rare occurrence that audiences behaved wildly while listening to classical music.",
+      "passage": "Classical music aims to evolve, build audiences without alienating old guard\n\nA) In 1913, classical music sparked a riot in Paris. Igor Stravinsky was introducing his revolutionary \"Rite of Spring\" ballet to the world, with its discordant melodies and unorthodox choreography(编舞), and the purists in the crowd expressed their disapproval loud and clear. It might have been classical music's version of the time Bob Dylan went electric at the Newport Folk Festival. \"The noise, fighting, and shouting in the audience got so loud,\" NPR's music reporter Miles Hoffman said of the Stravinsky debut, \"that the choreographer had to shout out the numbers to the dancers so that they knew what they were supposed to do.\"\n\nB) It's difficult to imagine a similar disturbance occurring today within America's sacred symphony halls. In fact, it's hard to picture any kind of disruptive activity at all (unless someone's cell phone happens to go off, and then you'd better watch your back). A mannerly aura(氛围) hangs over most classical proceedings, and many of the genre's biggest supporters would have it no other way.\n\nC) Today, Western audiences for classical music and opera and ballet are almost always well dressed, older, respectful, achingly silent and often very wealthy (one has to be able to afford most tickets). But as many of America's most storied \"highbrow\"(高雅的) institutions struggle financially—the Philadelphia Orchestra's much-publicized rebound from bankruptcy is just one recent example—classical music fans and theorists are wondering how the medium can weave itself into the 21st century's cultural fabric without sacrificing its integrity.\n\nD) For example, should we feel OK \"clapping\" during classical music events, even if nobody else is? Why shouldn't we cheer for something great, like we do at a rock concert? The Huffington Post recently ran a Great Debate on this issue and many commenters came out on the side of silence. \"There is no more rewarding experience in life than being part of an audience where everybody is leaning forward in silence, thoroughly carried away by a great performance of a masterpiece,\" one commenter wrote. \"Why is it so difficult for folks to develop an appreciation and understanding for the mannerisms and traditions of classical music?\" asked another.\n\nE) The truth is that classical music audiences weren't always so polite. Robert Greenberg, an award-winning composer, said that when Beethoven first performed his 7th Symphony, audiences forced the orchestra to perform encores(重演) of certain movements immediately, applauding wildly. And in the last few decades, he said, many audiences at opera performances have abandoned pretenses, yelling \"Bravo\" when they feel like it.\n\nF) \"I don't think there's anything wrong with an audience showing their enthusiasm for a proper moment by applauding, showing their joy,\" Greenberg said, noting that the stuffiness in concert halls is \"one aspect of contemporary concert etiquette\" he doesn't understand. \"Instead of waiting half an hour to show enthusiasm, why not show it every eight or nine minutes?\"\n\nG) Until the rules about behavior and clothing change, it's hard to imagine multitudes of young people filling concert halls on their own accord. They're probably more likely to head to Central Park to watch a free performance with a bottle of wine and their friends. \"I think anyone should be able to come into a performance dressed any way they like, and be comfortable any way they like, sitting in that seat ready to enjoy themselves,\" Greenberg said. \"Because it's enjoyable.\"\n\nH) Greenberg stressed that he doesn't want people to start respecting the music less, and he's not suggesting that we \"dumb down\" the experience. Rather, it's about opening up \"access.\" When operas first instituted subtitles(字幕) during shows, he said, many purists didn't like the idea, believing that the audience should instead study the works before attending. But now it's commonplace to find titles on the seatback in front of you—choose a language, sit back, and understand what's going on.\n\nI) Allison Vulgamore, president of the Philadelphia Orchestra, is certainly looking to the future. She says certain \"classics concerts\" dedicated to the old masters will always exist, but not every program has to feature Beethoven and Brahms—or even a stage and seats. \"We're trying to introduce different kinds of concerts in different ways,\" she said. \"We are an interactive society now, where people like to learn.\"\n\nJ) As the Philadelphia Orchestra rebounds from its financial straits, it is also aiming to experiment, without alienating the loyalists. Vulgamore pointed to Cirque de la Symphonie, a recent offering in which jugglers(玩杂耍的人) and acrobats(杂技演员) interacted with musicians. An upcoming collaboration with New York City's Ridge Theatre, meanwhile, will feature a \"suspended dance installation\" and other theatrical elements occurring in conjunction with an orchestral piece.\n\nK) The orchestra also continues to offer $25 annual memberships to Philadelphia students, who can buy rush tickets to every concert on the schedule. \"Students line up for the concerts they want, and we get roughly 300 or 350 kids a night coming to these. They take any of the open seats available, 5 minutes before the concert starts,\" Vulgamore said. \"It's like the running of the bulls, that energy when the doors open.\"\n\nL) Greenberg thinks that youthful energy needs to be harvested. Conductors don't have to be arrogant and untouchable—they can be accessible. Perhaps there could even be a \"bit of humor\" about them, he suggested, and an abandoning of pretension within the high-art institutions themselves. \"On one hand, these organizations are all saying the same thing: we want more general audiences, to break down cultural barriers,\" he said. \"But then they come up with some very snooty(目中无人的) thing that makes you crazy.\"\n\nM) John Terauds, a critic who has covered Toronto's classical music scene extensively, also wants to do away with the stuffiness. He suggested that the warmer an audience is, the better the musicians themselves will respond. \"But the producer or organizer has to let everyone know it's OK,\" he said. \"It's OK to enjoy yourself.\" At the Toronto Symphony Orchestra, for example, conductor Peter Oundjian often stops between pieces, taking a moment to talk about the composer or the music in a very amiable way. And some nights, Terauds said, \"at least a third\" of the audience consists of students who have purchased cheaper tickets. On these nights, the energy of the room drastically shifts. It becomes a less intimidating place.\n\nN) Back in February, Terauds wrote on his blog about how going to classical performances can be intimidating. Certain people \"think they have to dress up,\" he wrote. \"They think they have to know something about the music before they go. And, I'm sure, sitting in a seat, trembling in fear that this might be the wrong time to applaud, is also one of the factors.\"\n\nO) Everyone in the classical world agrees on the need for increased \"accessibility,\" but achieving it is often easier said than done. Nowadays, there are unknown, unorthodox opera singers wowing(博得……的喝彩) viewers on TV programs like \"America's Got Talent\" and \"The Voice\". What can higher institutions do with any of that? And if they appeal to these outlets, do they risk compromising the integrity or the intelligence of the music?\n\nP) Vulgamore seems to understand this. She thinks an organization can have it both ways, claiming the new while keeping the old. And as she reorganizes the Philadelphia Orchestra, she will attempt to do just that. \"The world's most respected musicians brought together as an orchestra will always exist,\" she said. \"But it's essential that we be willing to experiment and fail.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 E 段。题干：It was not a rare occurrence that audiences behaved wildly while listening to classical music.\n核对该段原文：The truth is that classical music audiences weren't always so polite. Robert Greenberg, an award-winning composer, said that when Beethoven first performed his 7th Symphony, audiences forced the orchestra to perform encores(重演) of certain movements immediately, applauding wildly. And in the last few decades, he said, many audiences at opera performances have abandoned pretenses, yelling \"Bravo\" when they feel like it.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2022-12-3-nonlistening-q37",
+      "canonicalId": "lazynote-cet6-2022-12-3-q37",
+      "number": 37,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Some high-art institutions don't actually mean it when they say they want more general audiences.",
+      "passage": "Classical music aims to evolve, build audiences without alienating old guard\n\nA) In 1913, classical music sparked a riot in Paris. Igor Stravinsky was introducing his revolutionary \"Rite of Spring\" ballet to the world, with its discordant melodies and unorthodox choreography(编舞), and the purists in the crowd expressed their disapproval loud and clear. It might have been classical music's version of the time Bob Dylan went electric at the Newport Folk Festival. \"The noise, fighting, and shouting in the audience got so loud,\" NPR's music reporter Miles Hoffman said of the Stravinsky debut, \"that the choreographer had to shout out the numbers to the dancers so that they knew what they were supposed to do.\"\n\nB) It's difficult to imagine a similar disturbance occurring today within America's sacred symphony halls. In fact, it's hard to picture any kind of disruptive activity at all (unless someone's cell phone happens to go off, and then you'd better watch your back). A mannerly aura(氛围) hangs over most classical proceedings, and many of the genre's biggest supporters would have it no other way.\n\nC) Today, Western audiences for classical music and opera and ballet are almost always well dressed, older, respectful, achingly silent and often very wealthy (one has to be able to afford most tickets). But as many of America's most storied \"highbrow\"(高雅的) institutions struggle financially—the Philadelphia Orchestra's much-publicized rebound from bankruptcy is just one recent example—classical music fans and theorists are wondering how the medium can weave itself into the 21st century's cultural fabric without sacrificing its integrity.\n\nD) For example, should we feel OK \"clapping\" during classical music events, even if nobody else is? Why shouldn't we cheer for something great, like we do at a rock concert? The Huffington Post recently ran a Great Debate on this issue and many commenters came out on the side of silence. \"There is no more rewarding experience in life than being part of an audience where everybody is leaning forward in silence, thoroughly carried away by a great performance of a masterpiece,\" one commenter wrote. \"Why is it so difficult for folks to develop an appreciation and understanding for the mannerisms and traditions of classical music?\" asked another.\n\nE) The truth is that classical music audiences weren't always so polite. Robert Greenberg, an award-winning composer, said that when Beethoven first performed his 7th Symphony, audiences forced the orchestra to perform encores(重演) of certain movements immediately, applauding wildly. And in the last few decades, he said, many audiences at opera performances have abandoned pretenses, yelling \"Bravo\" when they feel like it.\n\nF) \"I don't think there's anything wrong with an audience showing their enthusiasm for a proper moment by applauding, showing their joy,\" Greenberg said, noting that the stuffiness in concert halls is \"one aspect of contemporary concert etiquette\" he doesn't understand. \"Instead of waiting half an hour to show enthusiasm, why not show it every eight or nine minutes?\"\n\nG) Until the rules about behavior and clothing change, it's hard to imagine multitudes of young people filling concert halls on their own accord. They're probably more likely to head to Central Park to watch a free performance with a bottle of wine and their friends. \"I think anyone should be able to come into a performance dressed any way they like, and be comfortable any way they like, sitting in that seat ready to enjoy themselves,\" Greenberg said. \"Because it's enjoyable.\"\n\nH) Greenberg stressed that he doesn't want people to start respecting the music less, and he's not suggesting that we \"dumb down\" the experience. Rather, it's about opening up \"access.\" When operas first instituted subtitles(字幕) during shows, he said, many purists didn't like the idea, believing that the audience should instead study the works before attending. But now it's commonplace to find titles on the seatback in front of you—choose a language, sit back, and understand what's going on.\n\nI) Allison Vulgamore, president of the Philadelphia Orchestra, is certainly looking to the future. She says certain \"classics concerts\" dedicated to the old masters will always exist, but not every program has to feature Beethoven and Brahms—or even a stage and seats. \"We're trying to introduce different kinds of concerts in different ways,\" she said. \"We are an interactive society now, where people like to learn.\"\n\nJ) As the Philadelphia Orchestra rebounds from its financial straits, it is also aiming to experiment, without alienating the loyalists. Vulgamore pointed to Cirque de la Symphonie, a recent offering in which jugglers(玩杂耍的人) and acrobats(杂技演员) interacted with musicians. An upcoming collaboration with New York City's Ridge Theatre, meanwhile, will feature a \"suspended dance installation\" and other theatrical elements occurring in conjunction with an orchestral piece.\n\nK) The orchestra also continues to offer $25 annual memberships to Philadelphia students, who can buy rush tickets to every concert on the schedule. \"Students line up for the concerts they want, and we get roughly 300 or 350 kids a night coming to these. They take any of the open seats available, 5 minutes before the concert starts,\" Vulgamore said. \"It's like the running of the bulls, that energy when the doors open.\"\n\nL) Greenberg thinks that youthful energy needs to be harvested. Conductors don't have to be arrogant and untouchable—they can be accessible. Perhaps there could even be a \"bit of humor\" about them, he suggested, and an abandoning of pretension within the high-art institutions themselves. \"On one hand, these organizations are all saying the same thing: we want more general audiences, to break down cultural barriers,\" he said. \"But then they come up with some very snooty(目中无人的) thing that makes you crazy.\"\n\nM) John Terauds, a critic who has covered Toronto's classical music scene extensively, also wants to do away with the stuffiness. He suggested that the warmer an audience is, the better the musicians themselves will respond. \"But the producer or organizer has to let everyone know it's OK,\" he said. \"It's OK to enjoy yourself.\" At the Toronto Symphony Orchestra, for example, conductor Peter Oundjian often stops between pieces, taking a moment to talk about the composer or the music in a very amiable way. And some nights, Terauds said, \"at least a third\" of the audience consists of students who have purchased cheaper tickets. On these nights, the energy of the room drastically shifts. It becomes a less intimidating place.\n\nN) Back in February, Terauds wrote on his blog about how going to classical performances can be intimidating. Certain people \"think they have to dress up,\" he wrote. \"They think they have to know something about the music before they go. And, I'm sure, sitting in a seat, trembling in fear that this might be the wrong time to applaud, is also one of the factors.\"\n\nO) Everyone in the classical world agrees on the need for increased \"accessibility,\" but achieving it is often easier said than done. Nowadays, there are unknown, unorthodox opera singers wowing(博得……的喝彩) viewers on TV programs like \"America's Got Talent\" and \"The Voice\". What can higher institutions do with any of that? And if they appeal to these outlets, do they risk compromising the integrity or the intelligence of the music?\n\nP) Vulgamore seems to understand this. She thinks an organization can have it both ways, claiming the new while keeping the old. And as she reorganizes the Philadelphia Orchestra, she will attempt to do just that. \"The world's most respected musicians brought together as an orchestra will always exist,\" she said. \"But it's essential that we be willing to experiment and fail.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        }
+      ],
+      "correctAnswer": "L",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 L 段。题干：Some high-art institutions don't actually mean it when they say they want more general audiences.\n核对该段原文：Greenberg thinks that youthful energy needs to be harvested. Conductors don't have to be arrogant and untouchable—they can be accessible. Perhaps there could even be a \"bit of humor\" about them, he suggested, and an abandoning of pretension within the high-art institutions themselves. \"On one hand, these organizations are all saying the same thing: we want more general audiences, to break down cultural barriers,\" he said. \"But then they come up with some very snooty(目中无人的) thing that makes you crazy.\"\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2022-12-3-nonlistening-q38",
+      "canonicalId": "lazynote-cet6-2022-12-3-q38",
+      "number": 38,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The theatre was in chaos when an unconventional ballet was first put on stage in the capital of France.",
+      "passage": "Classical music aims to evolve, build audiences without alienating old guard\n\nA) In 1913, classical music sparked a riot in Paris. Igor Stravinsky was introducing his revolutionary \"Rite of Spring\" ballet to the world, with its discordant melodies and unorthodox choreography(编舞), and the purists in the crowd expressed their disapproval loud and clear. It might have been classical music's version of the time Bob Dylan went electric at the Newport Folk Festival. \"The noise, fighting, and shouting in the audience got so loud,\" NPR's music reporter Miles Hoffman said of the Stravinsky debut, \"that the choreographer had to shout out the numbers to the dancers so that they knew what they were supposed to do.\"\n\nB) It's difficult to imagine a similar disturbance occurring today within America's sacred symphony halls. In fact, it's hard to picture any kind of disruptive activity at all (unless someone's cell phone happens to go off, and then you'd better watch your back). A mannerly aura(氛围) hangs over most classical proceedings, and many of the genre's biggest supporters would have it no other way.\n\nC) Today, Western audiences for classical music and opera and ballet are almost always well dressed, older, respectful, achingly silent and often very wealthy (one has to be able to afford most tickets). But as many of America's most storied \"highbrow\"(高雅的) institutions struggle financially—the Philadelphia Orchestra's much-publicized rebound from bankruptcy is just one recent example—classical music fans and theorists are wondering how the medium can weave itself into the 21st century's cultural fabric without sacrificing its integrity.\n\nD) For example, should we feel OK \"clapping\" during classical music events, even if nobody else is? Why shouldn't we cheer for something great, like we do at a rock concert? The Huffington Post recently ran a Great Debate on this issue and many commenters came out on the side of silence. \"There is no more rewarding experience in life than being part of an audience where everybody is leaning forward in silence, thoroughly carried away by a great performance of a masterpiece,\" one commenter wrote. \"Why is it so difficult for folks to develop an appreciation and understanding for the mannerisms and traditions of classical music?\" asked another.\n\nE) The truth is that classical music audiences weren't always so polite. Robert Greenberg, an award-winning composer, said that when Beethoven first performed his 7th Symphony, audiences forced the orchestra to perform encores(重演) of certain movements immediately, applauding wildly. And in the last few decades, he said, many audiences at opera performances have abandoned pretenses, yelling \"Bravo\" when they feel like it.\n\nF) \"I don't think there's anything wrong with an audience showing their enthusiasm for a proper moment by applauding, showing their joy,\" Greenberg said, noting that the stuffiness in concert halls is \"one aspect of contemporary concert etiquette\" he doesn't understand. \"Instead of waiting half an hour to show enthusiasm, why not show it every eight or nine minutes?\"\n\nG) Until the rules about behavior and clothing change, it's hard to imagine multitudes of young people filling concert halls on their own accord. They're probably more likely to head to Central Park to watch a free performance with a bottle of wine and their friends. \"I think anyone should be able to come into a performance dressed any way they like, and be comfortable any way they like, sitting in that seat ready to enjoy themselves,\" Greenberg said. \"Because it's enjoyable.\"\n\nH) Greenberg stressed that he doesn't want people to start respecting the music less, and he's not suggesting that we \"dumb down\" the experience. Rather, it's about opening up \"access.\" When operas first instituted subtitles(字幕) during shows, he said, many purists didn't like the idea, believing that the audience should instead study the works before attending. But now it's commonplace to find titles on the seatback in front of you—choose a language, sit back, and understand what's going on.\n\nI) Allison Vulgamore, president of the Philadelphia Orchestra, is certainly looking to the future. She says certain \"classics concerts\" dedicated to the old masters will always exist, but not every program has to feature Beethoven and Brahms—or even a stage and seats. \"We're trying to introduce different kinds of concerts in different ways,\" she said. \"We are an interactive society now, where people like to learn.\"\n\nJ) As the Philadelphia Orchestra rebounds from its financial straits, it is also aiming to experiment, without alienating the loyalists. Vulgamore pointed to Cirque de la Symphonie, a recent offering in which jugglers(玩杂耍的人) and acrobats(杂技演员) interacted with musicians. An upcoming collaboration with New York City's Ridge Theatre, meanwhile, will feature a \"suspended dance installation\" and other theatrical elements occurring in conjunction with an orchestral piece.\n\nK) The orchestra also continues to offer $25 annual memberships to Philadelphia students, who can buy rush tickets to every concert on the schedule. \"Students line up for the concerts they want, and we get roughly 300 or 350 kids a night coming to these. They take any of the open seats available, 5 minutes before the concert starts,\" Vulgamore said. \"It's like the running of the bulls, that energy when the doors open.\"\n\nL) Greenberg thinks that youthful energy needs to be harvested. Conductors don't have to be arrogant and untouchable—they can be accessible. Perhaps there could even be a \"bit of humor\" about them, he suggested, and an abandoning of pretension within the high-art institutions themselves. \"On one hand, these organizations are all saying the same thing: we want more general audiences, to break down cultural barriers,\" he said. \"But then they come up with some very snooty(目中无人的) thing that makes you crazy.\"\n\nM) John Terauds, a critic who has covered Toronto's classical music scene extensively, also wants to do away with the stuffiness. He suggested that the warmer an audience is, the better the musicians themselves will respond. \"But the producer or organizer has to let everyone know it's OK,\" he said. \"It's OK to enjoy yourself.\" At the Toronto Symphony Orchestra, for example, conductor Peter Oundjian often stops between pieces, taking a moment to talk about the composer or the music in a very amiable way. And some nights, Terauds said, \"at least a third\" of the audience consists of students who have purchased cheaper tickets. On these nights, the energy of the room drastically shifts. It becomes a less intimidating place.\n\nN) Back in February, Terauds wrote on his blog about how going to classical performances can be intimidating. Certain people \"think they have to dress up,\" he wrote. \"They think they have to know something about the music before they go. And, I'm sure, sitting in a seat, trembling in fear that this might be the wrong time to applaud, is also one of the factors.\"\n\nO) Everyone in the classical world agrees on the need for increased \"accessibility,\" but achieving it is often easier said than done. Nowadays, there are unknown, unorthodox opera singers wowing(博得……的喝彩) viewers on TV programs like \"America's Got Talent\" and \"The Voice\". What can higher institutions do with any of that? And if they appeal to these outlets, do they risk compromising the integrity or the intelligence of the music?\n\nP) Vulgamore seems to understand this. She thinks an organization can have it both ways, claiming the new while keeping the old. And as she reorganizes the Philadelphia Orchestra, she will attempt to do just that. \"The world's most respected musicians brought together as an orchestra will always exist,\" she said. \"But it's essential that we be willing to experiment and fail.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 A 段。题干：The theatre was in chaos when an unconventional ballet was first put on stage in the capital of France.\n核对该段原文：In 1913, classical music sparked a riot in Paris. Igor Stravinsky was introducing his revolutionary \"Rite of Spring\" ballet to the world, with its discordant melodies and unorthodox choreography(编舞), and the purists in the crowd expressed their disapproval loud and clear. It might have been classical music's version of the time Bob Dylan went electric at the Newport Folk Festival. \"The noise, fighting, and shouting in the audience got so loud,\" NPR's music reporter Miles Hoffman said of the Stravinsky debut, \"that the choreographer had to shout out the numbers to the dancers so that they knew what they were supposed to do.\"\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2022-12-3-nonlistening-q39",
+      "canonicalId": "lazynote-cet6-2022-12-3-q39",
+      "number": 39,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "According to one critic, the audience's warm response would encourage the musicians to do a better job.",
+      "passage": "Classical music aims to evolve, build audiences without alienating old guard\n\nA) In 1913, classical music sparked a riot in Paris. Igor Stravinsky was introducing his revolutionary \"Rite of Spring\" ballet to the world, with its discordant melodies and unorthodox choreography(编舞), and the purists in the crowd expressed their disapproval loud and clear. It might have been classical music's version of the time Bob Dylan went electric at the Newport Folk Festival. \"The noise, fighting, and shouting in the audience got so loud,\" NPR's music reporter Miles Hoffman said of the Stravinsky debut, \"that the choreographer had to shout out the numbers to the dancers so that they knew what they were supposed to do.\"\n\nB) It's difficult to imagine a similar disturbance occurring today within America's sacred symphony halls. In fact, it's hard to picture any kind of disruptive activity at all (unless someone's cell phone happens to go off, and then you'd better watch your back). A mannerly aura(氛围) hangs over most classical proceedings, and many of the genre's biggest supporters would have it no other way.\n\nC) Today, Western audiences for classical music and opera and ballet are almost always well dressed, older, respectful, achingly silent and often very wealthy (one has to be able to afford most tickets). But as many of America's most storied \"highbrow\"(高雅的) institutions struggle financially—the Philadelphia Orchestra's much-publicized rebound from bankruptcy is just one recent example—classical music fans and theorists are wondering how the medium can weave itself into the 21st century's cultural fabric without sacrificing its integrity.\n\nD) For example, should we feel OK \"clapping\" during classical music events, even if nobody else is? Why shouldn't we cheer for something great, like we do at a rock concert? The Huffington Post recently ran a Great Debate on this issue and many commenters came out on the side of silence. \"There is no more rewarding experience in life than being part of an audience where everybody is leaning forward in silence, thoroughly carried away by a great performance of a masterpiece,\" one commenter wrote. \"Why is it so difficult for folks to develop an appreciation and understanding for the mannerisms and traditions of classical music?\" asked another.\n\nE) The truth is that classical music audiences weren't always so polite. Robert Greenberg, an award-winning composer, said that when Beethoven first performed his 7th Symphony, audiences forced the orchestra to perform encores(重演) of certain movements immediately, applauding wildly. And in the last few decades, he said, many audiences at opera performances have abandoned pretenses, yelling \"Bravo\" when they feel like it.\n\nF) \"I don't think there's anything wrong with an audience showing their enthusiasm for a proper moment by applauding, showing their joy,\" Greenberg said, noting that the stuffiness in concert halls is \"one aspect of contemporary concert etiquette\" he doesn't understand. \"Instead of waiting half an hour to show enthusiasm, why not show it every eight or nine minutes?\"\n\nG) Until the rules about behavior and clothing change, it's hard to imagine multitudes of young people filling concert halls on their own accord. They're probably more likely to head to Central Park to watch a free performance with a bottle of wine and their friends. \"I think anyone should be able to come into a performance dressed any way they like, and be comfortable any way they like, sitting in that seat ready to enjoy themselves,\" Greenberg said. \"Because it's enjoyable.\"\n\nH) Greenberg stressed that he doesn't want people to start respecting the music less, and he's not suggesting that we \"dumb down\" the experience. Rather, it's about opening up \"access.\" When operas first instituted subtitles(字幕) during shows, he said, many purists didn't like the idea, believing that the audience should instead study the works before attending. But now it's commonplace to find titles on the seatback in front of you—choose a language, sit back, and understand what's going on.\n\nI) Allison Vulgamore, president of the Philadelphia Orchestra, is certainly looking to the future. She says certain \"classics concerts\" dedicated to the old masters will always exist, but not every program has to feature Beethoven and Brahms—or even a stage and seats. \"We're trying to introduce different kinds of concerts in different ways,\" she said. \"We are an interactive society now, where people like to learn.\"\n\nJ) As the Philadelphia Orchestra rebounds from its financial straits, it is also aiming to experiment, without alienating the loyalists. Vulgamore pointed to Cirque de la Symphonie, a recent offering in which jugglers(玩杂耍的人) and acrobats(杂技演员) interacted with musicians. An upcoming collaboration with New York City's Ridge Theatre, meanwhile, will feature a \"suspended dance installation\" and other theatrical elements occurring in conjunction with an orchestral piece.\n\nK) The orchestra also continues to offer $25 annual memberships to Philadelphia students, who can buy rush tickets to every concert on the schedule. \"Students line up for the concerts they want, and we get roughly 300 or 350 kids a night coming to these. They take any of the open seats available, 5 minutes before the concert starts,\" Vulgamore said. \"It's like the running of the bulls, that energy when the doors open.\"\n\nL) Greenberg thinks that youthful energy needs to be harvested. Conductors don't have to be arrogant and untouchable—they can be accessible. Perhaps there could even be a \"bit of humor\" about them, he suggested, and an abandoning of pretension within the high-art institutions themselves. \"On one hand, these organizations are all saying the same thing: we want more general audiences, to break down cultural barriers,\" he said. \"But then they come up with some very snooty(目中无人的) thing that makes you crazy.\"\n\nM) John Terauds, a critic who has covered Toronto's classical music scene extensively, also wants to do away with the stuffiness. He suggested that the warmer an audience is, the better the musicians themselves will respond. \"But the producer or organizer has to let everyone know it's OK,\" he said. \"It's OK to enjoy yourself.\" At the Toronto Symphony Orchestra, for example, conductor Peter Oundjian often stops between pieces, taking a moment to talk about the composer or the music in a very amiable way. And some nights, Terauds said, \"at least a third\" of the audience consists of students who have purchased cheaper tickets. On these nights, the energy of the room drastically shifts. It becomes a less intimidating place.\n\nN) Back in February, Terauds wrote on his blog about how going to classical performances can be intimidating. Certain people \"think they have to dress up,\" he wrote. \"They think they have to know something about the music before they go. And, I'm sure, sitting in a seat, trembling in fear that this might be the wrong time to applaud, is also one of the factors.\"\n\nO) Everyone in the classical world agrees on the need for increased \"accessibility,\" but achieving it is often easier said than done. Nowadays, there are unknown, unorthodox opera singers wowing(博得……的喝彩) viewers on TV programs like \"America's Got Talent\" and \"The Voice\". What can higher institutions do with any of that? And if they appeal to these outlets, do they risk compromising the integrity or the intelligence of the music?\n\nP) Vulgamore seems to understand this. She thinks an organization can have it both ways, claiming the new while keeping the old. And as she reorganizes the Philadelphia Orchestra, she will attempt to do just that. \"The world's most respected musicians brought together as an orchestra will always exist,\" she said. \"But it's essential that we be willing to experiment and fail.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        }
+      ],
+      "correctAnswer": "M",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 M 段。题干：According to one critic, the audience's warm response would encourage the musicians to do a better job.\n核对该段原文：John Terauds, a critic who has covered Toronto's classical music scene extensively, also wants to do away with the stuffiness. He suggested that the warmer an audience is, the better the musicians themselves will respond. \"But the producer or organizer has to let everyone know it's OK,\" he said. \"It's OK to enjoy yourself.\" At the Toronto Symphony Orchestra, for example, conductor Peter Oundjian often stops between pieces, taking a moment to talk about the composer or the music in a very amiable way. And some nights, Terauds said, \"at least a third\" of the audience consists of students who have purchased cheaper tickets. On these nights, the energy of the room drastically shifts. It becomes a less intimidating place.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2022-12-3-nonlistening-q40",
+      "canonicalId": "lazynote-cet6-2022-12-3-q40",
+      "number": 40,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Many commenters argued for the audience enjoying classical music quietly.",
+      "passage": "Classical music aims to evolve, build audiences without alienating old guard\n\nA) In 1913, classical music sparked a riot in Paris. Igor Stravinsky was introducing his revolutionary \"Rite of Spring\" ballet to the world, with its discordant melodies and unorthodox choreography(编舞), and the purists in the crowd expressed their disapproval loud and clear. It might have been classical music's version of the time Bob Dylan went electric at the Newport Folk Festival. \"The noise, fighting, and shouting in the audience got so loud,\" NPR's music reporter Miles Hoffman said of the Stravinsky debut, \"that the choreographer had to shout out the numbers to the dancers so that they knew what they were supposed to do.\"\n\nB) It's difficult to imagine a similar disturbance occurring today within America's sacred symphony halls. In fact, it's hard to picture any kind of disruptive activity at all (unless someone's cell phone happens to go off, and then you'd better watch your back). A mannerly aura(氛围) hangs over most classical proceedings, and many of the genre's biggest supporters would have it no other way.\n\nC) Today, Western audiences for classical music and opera and ballet are almost always well dressed, older, respectful, achingly silent and often very wealthy (one has to be able to afford most tickets). But as many of America's most storied \"highbrow\"(高雅的) institutions struggle financially—the Philadelphia Orchestra's much-publicized rebound from bankruptcy is just one recent example—classical music fans and theorists are wondering how the medium can weave itself into the 21st century's cultural fabric without sacrificing its integrity.\n\nD) For example, should we feel OK \"clapping\" during classical music events, even if nobody else is? Why shouldn't we cheer for something great, like we do at a rock concert? The Huffington Post recently ran a Great Debate on this issue and many commenters came out on the side of silence. \"There is no more rewarding experience in life than being part of an audience where everybody is leaning forward in silence, thoroughly carried away by a great performance of a masterpiece,\" one commenter wrote. \"Why is it so difficult for folks to develop an appreciation and understanding for the mannerisms and traditions of classical music?\" asked another.\n\nE) The truth is that classical music audiences weren't always so polite. Robert Greenberg, an award-winning composer, said that when Beethoven first performed his 7th Symphony, audiences forced the orchestra to perform encores(重演) of certain movements immediately, applauding wildly. And in the last few decades, he said, many audiences at opera performances have abandoned pretenses, yelling \"Bravo\" when they feel like it.\n\nF) \"I don't think there's anything wrong with an audience showing their enthusiasm for a proper moment by applauding, showing their joy,\" Greenberg said, noting that the stuffiness in concert halls is \"one aspect of contemporary concert etiquette\" he doesn't understand. \"Instead of waiting half an hour to show enthusiasm, why not show it every eight or nine minutes?\"\n\nG) Until the rules about behavior and clothing change, it's hard to imagine multitudes of young people filling concert halls on their own accord. They're probably more likely to head to Central Park to watch a free performance with a bottle of wine and their friends. \"I think anyone should be able to come into a performance dressed any way they like, and be comfortable any way they like, sitting in that seat ready to enjoy themselves,\" Greenberg said. \"Because it's enjoyable.\"\n\nH) Greenberg stressed that he doesn't want people to start respecting the music less, and he's not suggesting that we \"dumb down\" the experience. Rather, it's about opening up \"access.\" When operas first instituted subtitles(字幕) during shows, he said, many purists didn't like the idea, believing that the audience should instead study the works before attending. But now it's commonplace to find titles on the seatback in front of you—choose a language, sit back, and understand what's going on.\n\nI) Allison Vulgamore, president of the Philadelphia Orchestra, is certainly looking to the future. She says certain \"classics concerts\" dedicated to the old masters will always exist, but not every program has to feature Beethoven and Brahms—or even a stage and seats. \"We're trying to introduce different kinds of concerts in different ways,\" she said. \"We are an interactive society now, where people like to learn.\"\n\nJ) As the Philadelphia Orchestra rebounds from its financial straits, it is also aiming to experiment, without alienating the loyalists. Vulgamore pointed to Cirque de la Symphonie, a recent offering in which jugglers(玩杂耍的人) and acrobats(杂技演员) interacted with musicians. An upcoming collaboration with New York City's Ridge Theatre, meanwhile, will feature a \"suspended dance installation\" and other theatrical elements occurring in conjunction with an orchestral piece.\n\nK) The orchestra also continues to offer $25 annual memberships to Philadelphia students, who can buy rush tickets to every concert on the schedule. \"Students line up for the concerts they want, and we get roughly 300 or 350 kids a night coming to these. They take any of the open seats available, 5 minutes before the concert starts,\" Vulgamore said. \"It's like the running of the bulls, that energy when the doors open.\"\n\nL) Greenberg thinks that youthful energy needs to be harvested. Conductors don't have to be arrogant and untouchable—they can be accessible. Perhaps there could even be a \"bit of humor\" about them, he suggested, and an abandoning of pretension within the high-art institutions themselves. \"On one hand, these organizations are all saying the same thing: we want more general audiences, to break down cultural barriers,\" he said. \"But then they come up with some very snooty(目中无人的) thing that makes you crazy.\"\n\nM) John Terauds, a critic who has covered Toronto's classical music scene extensively, also wants to do away with the stuffiness. He suggested that the warmer an audience is, the better the musicians themselves will respond. \"But the producer or organizer has to let everyone know it's OK,\" he said. \"It's OK to enjoy yourself.\" At the Toronto Symphony Orchestra, for example, conductor Peter Oundjian often stops between pieces, taking a moment to talk about the composer or the music in a very amiable way. And some nights, Terauds said, \"at least a third\" of the audience consists of students who have purchased cheaper tickets. On these nights, the energy of the room drastically shifts. It becomes a less intimidating place.\n\nN) Back in February, Terauds wrote on his blog about how going to classical performances can be intimidating. Certain people \"think they have to dress up,\" he wrote. \"They think they have to know something about the music before they go. And, I'm sure, sitting in a seat, trembling in fear that this might be the wrong time to applaud, is also one of the factors.\"\n\nO) Everyone in the classical world agrees on the need for increased \"accessibility,\" but achieving it is often easier said than done. Nowadays, there are unknown, unorthodox opera singers wowing(博得……的喝彩) viewers on TV programs like \"America's Got Talent\" and \"The Voice\". What can higher institutions do with any of that? And if they appeal to these outlets, do they risk compromising the integrity or the intelligence of the music?\n\nP) Vulgamore seems to understand this. She thinks an organization can have it both ways, claiming the new while keeping the old. And as she reorganizes the Philadelphia Orchestra, she will attempt to do just that. \"The world's most respected musicians brought together as an orchestra will always exist,\" she said. \"But it's essential that we be willing to experiment and fail.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 D 段。题干：Many commenters argued for the audience enjoying classical music quietly.\n核对该段原文：For example, should we feel OK \"clapping\" during classical music events, even if nobody else is? Why shouldn't we cheer for something great, like we do at a rock concert? The Huffington Post recently ran a Great Debate on this issue and many commenters came out on the side of silence. \"There is no more rewarding experience in life than being part of an audience where everybody is leaning forward in silence, thoroughly carried away by a great performance of a masterpiece,\" one commenter wrote. \"Why is it so difficult for folks to develop an appreciation and understanding for the mannerisms and traditions of classical music?\" asked another.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2022-12-3-nonlistening-q41",
+      "canonicalId": "lazynote-cet6-2022-12-3-q41",
+      "number": 41,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "What appears on the seatback screen makes it unnecessary for the audience to study the works beforehand.",
+      "passage": "Classical music aims to evolve, build audiences without alienating old guard\n\nA) In 1913, classical music sparked a riot in Paris. Igor Stravinsky was introducing his revolutionary \"Rite of Spring\" ballet to the world, with its discordant melodies and unorthodox choreography(编舞), and the purists in the crowd expressed their disapproval loud and clear. It might have been classical music's version of the time Bob Dylan went electric at the Newport Folk Festival. \"The noise, fighting, and shouting in the audience got so loud,\" NPR's music reporter Miles Hoffman said of the Stravinsky debut, \"that the choreographer had to shout out the numbers to the dancers so that they knew what they were supposed to do.\"\n\nB) It's difficult to imagine a similar disturbance occurring today within America's sacred symphony halls. In fact, it's hard to picture any kind of disruptive activity at all (unless someone's cell phone happens to go off, and then you'd better watch your back). A mannerly aura(氛围) hangs over most classical proceedings, and many of the genre's biggest supporters would have it no other way.\n\nC) Today, Western audiences for classical music and opera and ballet are almost always well dressed, older, respectful, achingly silent and often very wealthy (one has to be able to afford most tickets). But as many of America's most storied \"highbrow\"(高雅的) institutions struggle financially—the Philadelphia Orchestra's much-publicized rebound from bankruptcy is just one recent example—classical music fans and theorists are wondering how the medium can weave itself into the 21st century's cultural fabric without sacrificing its integrity.\n\nD) For example, should we feel OK \"clapping\" during classical music events, even if nobody else is? Why shouldn't we cheer for something great, like we do at a rock concert? The Huffington Post recently ran a Great Debate on this issue and many commenters came out on the side of silence. \"There is no more rewarding experience in life than being part of an audience where everybody is leaning forward in silence, thoroughly carried away by a great performance of a masterpiece,\" one commenter wrote. \"Why is it so difficult for folks to develop an appreciation and understanding for the mannerisms and traditions of classical music?\" asked another.\n\nE) The truth is that classical music audiences weren't always so polite. Robert Greenberg, an award-winning composer, said that when Beethoven first performed his 7th Symphony, audiences forced the orchestra to perform encores(重演) of certain movements immediately, applauding wildly. And in the last few decades, he said, many audiences at opera performances have abandoned pretenses, yelling \"Bravo\" when they feel like it.\n\nF) \"I don't think there's anything wrong with an audience showing their enthusiasm for a proper moment by applauding, showing their joy,\" Greenberg said, noting that the stuffiness in concert halls is \"one aspect of contemporary concert etiquette\" he doesn't understand. \"Instead of waiting half an hour to show enthusiasm, why not show it every eight or nine minutes?\"\n\nG) Until the rules about behavior and clothing change, it's hard to imagine multitudes of young people filling concert halls on their own accord. They're probably more likely to head to Central Park to watch a free performance with a bottle of wine and their friends. \"I think anyone should be able to come into a performance dressed any way they like, and be comfortable any way they like, sitting in that seat ready to enjoy themselves,\" Greenberg said. \"Because it's enjoyable.\"\n\nH) Greenberg stressed that he doesn't want people to start respecting the music less, and he's not suggesting that we \"dumb down\" the experience. Rather, it's about opening up \"access.\" When operas first instituted subtitles(字幕) during shows, he said, many purists didn't like the idea, believing that the audience should instead study the works before attending. But now it's commonplace to find titles on the seatback in front of you—choose a language, sit back, and understand what's going on.\n\nI) Allison Vulgamore, president of the Philadelphia Orchestra, is certainly looking to the future. She says certain \"classics concerts\" dedicated to the old masters will always exist, but not every program has to feature Beethoven and Brahms—or even a stage and seats. \"We're trying to introduce different kinds of concerts in different ways,\" she said. \"We are an interactive society now, where people like to learn.\"\n\nJ) As the Philadelphia Orchestra rebounds from its financial straits, it is also aiming to experiment, without alienating the loyalists. Vulgamore pointed to Cirque de la Symphonie, a recent offering in which jugglers(玩杂耍的人) and acrobats(杂技演员) interacted with musicians. An upcoming collaboration with New York City's Ridge Theatre, meanwhile, will feature a \"suspended dance installation\" and other theatrical elements occurring in conjunction with an orchestral piece.\n\nK) The orchestra also continues to offer $25 annual memberships to Philadelphia students, who can buy rush tickets to every concert on the schedule. \"Students line up for the concerts they want, and we get roughly 300 or 350 kids a night coming to these. They take any of the open seats available, 5 minutes before the concert starts,\" Vulgamore said. \"It's like the running of the bulls, that energy when the doors open.\"\n\nL) Greenberg thinks that youthful energy needs to be harvested. Conductors don't have to be arrogant and untouchable—they can be accessible. Perhaps there could even be a \"bit of humor\" about them, he suggested, and an abandoning of pretension within the high-art institutions themselves. \"On one hand, these organizations are all saying the same thing: we want more general audiences, to break down cultural barriers,\" he said. \"But then they come up with some very snooty(目中无人的) thing that makes you crazy.\"\n\nM) John Terauds, a critic who has covered Toronto's classical music scene extensively, also wants to do away with the stuffiness. He suggested that the warmer an audience is, the better the musicians themselves will respond. \"But the producer or organizer has to let everyone know it's OK,\" he said. \"It's OK to enjoy yourself.\" At the Toronto Symphony Orchestra, for example, conductor Peter Oundjian often stops between pieces, taking a moment to talk about the composer or the music in a very amiable way. And some nights, Terauds said, \"at least a third\" of the audience consists of students who have purchased cheaper tickets. On these nights, the energy of the room drastically shifts. It becomes a less intimidating place.\n\nN) Back in February, Terauds wrote on his blog about how going to classical performances can be intimidating. Certain people \"think they have to dress up,\" he wrote. \"They think they have to know something about the music before they go. And, I'm sure, sitting in a seat, trembling in fear that this might be the wrong time to applaud, is also one of the factors.\"\n\nO) Everyone in the classical world agrees on the need for increased \"accessibility,\" but achieving it is often easier said than done. Nowadays, there are unknown, unorthodox opera singers wowing(博得……的喝彩) viewers on TV programs like \"America's Got Talent\" and \"The Voice\". What can higher institutions do with any of that? And if they appeal to these outlets, do they risk compromising the integrity or the intelligence of the music?\n\nP) Vulgamore seems to understand this. She thinks an organization can have it both ways, claiming the new while keeping the old. And as she reorganizes the Philadelphia Orchestra, she will attempt to do just that. \"The world's most respected musicians brought together as an orchestra will always exist,\" she said. \"But it's essential that we be willing to experiment and fail.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 H 段。题干：What appears on the seatback screen makes it unnecessary for the audience to study the works beforehand.\n核对该段原文：Greenberg stressed that he doesn't want people to start respecting the music less, and he's not suggesting that we \"dumb down\" the experience. Rather, it's about opening up \"access.\" When operas first instituted subtitles(字幕) during shows, he said, many purists didn't like the idea, believing that the audience should instead study the works before attending. But now it's commonplace to find titles on the seatback in front of you—choose a language, sit back, and understand what's going on.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2022-12-3-nonlistening-q42",
+      "canonicalId": "lazynote-cet6-2022-12-3-q42",
+      "number": 42,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "It is generally accepted that there should be no disturbance from the audience during classical music performance.",
+      "passage": "Classical music aims to evolve, build audiences without alienating old guard\n\nA) In 1913, classical music sparked a riot in Paris. Igor Stravinsky was introducing his revolutionary \"Rite of Spring\" ballet to the world, with its discordant melodies and unorthodox choreography(编舞), and the purists in the crowd expressed their disapproval loud and clear. It might have been classical music's version of the time Bob Dylan went electric at the Newport Folk Festival. \"The noise, fighting, and shouting in the audience got so loud,\" NPR's music reporter Miles Hoffman said of the Stravinsky debut, \"that the choreographer had to shout out the numbers to the dancers so that they knew what they were supposed to do.\"\n\nB) It's difficult to imagine a similar disturbance occurring today within America's sacred symphony halls. In fact, it's hard to picture any kind of disruptive activity at all (unless someone's cell phone happens to go off, and then you'd better watch your back). A mannerly aura(氛围) hangs over most classical proceedings, and many of the genre's biggest supporters would have it no other way.\n\nC) Today, Western audiences for classical music and opera and ballet are almost always well dressed, older, respectful, achingly silent and often very wealthy (one has to be able to afford most tickets). But as many of America's most storied \"highbrow\"(高雅的) institutions struggle financially—the Philadelphia Orchestra's much-publicized rebound from bankruptcy is just one recent example—classical music fans and theorists are wondering how the medium can weave itself into the 21st century's cultural fabric without sacrificing its integrity.\n\nD) For example, should we feel OK \"clapping\" during classical music events, even if nobody else is? Why shouldn't we cheer for something great, like we do at a rock concert? The Huffington Post recently ran a Great Debate on this issue and many commenters came out on the side of silence. \"There is no more rewarding experience in life than being part of an audience where everybody is leaning forward in silence, thoroughly carried away by a great performance of a masterpiece,\" one commenter wrote. \"Why is it so difficult for folks to develop an appreciation and understanding for the mannerisms and traditions of classical music?\" asked another.\n\nE) The truth is that classical music audiences weren't always so polite. Robert Greenberg, an award-winning composer, said that when Beethoven first performed his 7th Symphony, audiences forced the orchestra to perform encores(重演) of certain movements immediately, applauding wildly. And in the last few decades, he said, many audiences at opera performances have abandoned pretenses, yelling \"Bravo\" when they feel like it.\n\nF) \"I don't think there's anything wrong with an audience showing their enthusiasm for a proper moment by applauding, showing their joy,\" Greenberg said, noting that the stuffiness in concert halls is \"one aspect of contemporary concert etiquette\" he doesn't understand. \"Instead of waiting half an hour to show enthusiasm, why not show it every eight or nine minutes?\"\n\nG) Until the rules about behavior and clothing change, it's hard to imagine multitudes of young people filling concert halls on their own accord. They're probably more likely to head to Central Park to watch a free performance with a bottle of wine and their friends. \"I think anyone should be able to come into a performance dressed any way they like, and be comfortable any way they like, sitting in that seat ready to enjoy themselves,\" Greenberg said. \"Because it's enjoyable.\"\n\nH) Greenberg stressed that he doesn't want people to start respecting the music less, and he's not suggesting that we \"dumb down\" the experience. Rather, it's about opening up \"access.\" When operas first instituted subtitles(字幕) during shows, he said, many purists didn't like the idea, believing that the audience should instead study the works before attending. But now it's commonplace to find titles on the seatback in front of you—choose a language, sit back, and understand what's going on.\n\nI) Allison Vulgamore, president of the Philadelphia Orchestra, is certainly looking to the future. She says certain \"classics concerts\" dedicated to the old masters will always exist, but not every program has to feature Beethoven and Brahms—or even a stage and seats. \"We're trying to introduce different kinds of concerts in different ways,\" she said. \"We are an interactive society now, where people like to learn.\"\n\nJ) As the Philadelphia Orchestra rebounds from its financial straits, it is also aiming to experiment, without alienating the loyalists. Vulgamore pointed to Cirque de la Symphonie, a recent offering in which jugglers(玩杂耍的人) and acrobats(杂技演员) interacted with musicians. An upcoming collaboration with New York City's Ridge Theatre, meanwhile, will feature a \"suspended dance installation\" and other theatrical elements occurring in conjunction with an orchestral piece.\n\nK) The orchestra also continues to offer $25 annual memberships to Philadelphia students, who can buy rush tickets to every concert on the schedule. \"Students line up for the concerts they want, and we get roughly 300 or 350 kids a night coming to these. They take any of the open seats available, 5 minutes before the concert starts,\" Vulgamore said. \"It's like the running of the bulls, that energy when the doors open.\"\n\nL) Greenberg thinks that youthful energy needs to be harvested. Conductors don't have to be arrogant and untouchable—they can be accessible. Perhaps there could even be a \"bit of humor\" about them, he suggested, and an abandoning of pretension within the high-art institutions themselves. \"On one hand, these organizations are all saying the same thing: we want more general audiences, to break down cultural barriers,\" he said. \"But then they come up with some very snooty(目中无人的) thing that makes you crazy.\"\n\nM) John Terauds, a critic who has covered Toronto's classical music scene extensively, also wants to do away with the stuffiness. He suggested that the warmer an audience is, the better the musicians themselves will respond. \"But the producer or organizer has to let everyone know it's OK,\" he said. \"It's OK to enjoy yourself.\" At the Toronto Symphony Orchestra, for example, conductor Peter Oundjian often stops between pieces, taking a moment to talk about the composer or the music in a very amiable way. And some nights, Terauds said, \"at least a third\" of the audience consists of students who have purchased cheaper tickets. On these nights, the energy of the room drastically shifts. It becomes a less intimidating place.\n\nN) Back in February, Terauds wrote on his blog about how going to classical performances can be intimidating. Certain people \"think they have to dress up,\" he wrote. \"They think they have to know something about the music before they go. And, I'm sure, sitting in a seat, trembling in fear that this might be the wrong time to applaud, is also one of the factors.\"\n\nO) Everyone in the classical world agrees on the need for increased \"accessibility,\" but achieving it is often easier said than done. Nowadays, there are unknown, unorthodox opera singers wowing(博得……的喝彩) viewers on TV programs like \"America's Got Talent\" and \"The Voice\". What can higher institutions do with any of that? And if they appeal to these outlets, do they risk compromising the integrity or the intelligence of the music?\n\nP) Vulgamore seems to understand this. She thinks an organization can have it both ways, claiming the new while keeping the old. And as she reorganizes the Philadelphia Orchestra, she will attempt to do just that. \"The world's most respected musicians brought together as an orchestra will always exist,\" she said. \"But it's essential that we be willing to experiment and fail.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 B 段。题干：It is generally accepted that there should be no disturbance from the audience during classical music performance.\n核对该段原文：It's difficult to imagine a similar disturbance occurring today within America's sacred symphony halls. In fact, it's hard to picture any kind of disruptive activity at all (unless someone's cell phone happens to go off, and then you'd better watch your back). A mannerly aura(氛围) hangs over most classical proceedings, and many of the genre's biggest supporters would have it no other way.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2022-12-3-nonlistening-q43",
+      "canonicalId": "lazynote-cet6-2022-12-3-q43",
+      "number": 43,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Higher institutions will be concerned about compromising the integrity of classical music if they have to resort to the television medium.",
+      "passage": "Classical music aims to evolve, build audiences without alienating old guard\n\nA) In 1913, classical music sparked a riot in Paris. Igor Stravinsky was introducing his revolutionary \"Rite of Spring\" ballet to the world, with its discordant melodies and unorthodox choreography(编舞), and the purists in the crowd expressed their disapproval loud and clear. It might have been classical music's version of the time Bob Dylan went electric at the Newport Folk Festival. \"The noise, fighting, and shouting in the audience got so loud,\" NPR's music reporter Miles Hoffman said of the Stravinsky debut, \"that the choreographer had to shout out the numbers to the dancers so that they knew what they were supposed to do.\"\n\nB) It's difficult to imagine a similar disturbance occurring today within America's sacred symphony halls. In fact, it's hard to picture any kind of disruptive activity at all (unless someone's cell phone happens to go off, and then you'd better watch your back). A mannerly aura(氛围) hangs over most classical proceedings, and many of the genre's biggest supporters would have it no other way.\n\nC) Today, Western audiences for classical music and opera and ballet are almost always well dressed, older, respectful, achingly silent and often very wealthy (one has to be able to afford most tickets). But as many of America's most storied \"highbrow\"(高雅的) institutions struggle financially—the Philadelphia Orchestra's much-publicized rebound from bankruptcy is just one recent example—classical music fans and theorists are wondering how the medium can weave itself into the 21st century's cultural fabric without sacrificing its integrity.\n\nD) For example, should we feel OK \"clapping\" during classical music events, even if nobody else is? Why shouldn't we cheer for something great, like we do at a rock concert? The Huffington Post recently ran a Great Debate on this issue and many commenters came out on the side of silence. \"There is no more rewarding experience in life than being part of an audience where everybody is leaning forward in silence, thoroughly carried away by a great performance of a masterpiece,\" one commenter wrote. \"Why is it so difficult for folks to develop an appreciation and understanding for the mannerisms and traditions of classical music?\" asked another.\n\nE) The truth is that classical music audiences weren't always so polite. Robert Greenberg, an award-winning composer, said that when Beethoven first performed his 7th Symphony, audiences forced the orchestra to perform encores(重演) of certain movements immediately, applauding wildly. And in the last few decades, he said, many audiences at opera performances have abandoned pretenses, yelling \"Bravo\" when they feel like it.\n\nF) \"I don't think there's anything wrong with an audience showing their enthusiasm for a proper moment by applauding, showing their joy,\" Greenberg said, noting that the stuffiness in concert halls is \"one aspect of contemporary concert etiquette\" he doesn't understand. \"Instead of waiting half an hour to show enthusiasm, why not show it every eight or nine minutes?\"\n\nG) Until the rules about behavior and clothing change, it's hard to imagine multitudes of young people filling concert halls on their own accord. They're probably more likely to head to Central Park to watch a free performance with a bottle of wine and their friends. \"I think anyone should be able to come into a performance dressed any way they like, and be comfortable any way they like, sitting in that seat ready to enjoy themselves,\" Greenberg said. \"Because it's enjoyable.\"\n\nH) Greenberg stressed that he doesn't want people to start respecting the music less, and he's not suggesting that we \"dumb down\" the experience. Rather, it's about opening up \"access.\" When operas first instituted subtitles(字幕) during shows, he said, many purists didn't like the idea, believing that the audience should instead study the works before attending. But now it's commonplace to find titles on the seatback in front of you—choose a language, sit back, and understand what's going on.\n\nI) Allison Vulgamore, president of the Philadelphia Orchestra, is certainly looking to the future. She says certain \"classics concerts\" dedicated to the old masters will always exist, but not every program has to feature Beethoven and Brahms—or even a stage and seats. \"We're trying to introduce different kinds of concerts in different ways,\" she said. \"We are an interactive society now, where people like to learn.\"\n\nJ) As the Philadelphia Orchestra rebounds from its financial straits, it is also aiming to experiment, without alienating the loyalists. Vulgamore pointed to Cirque de la Symphonie, a recent offering in which jugglers(玩杂耍的人) and acrobats(杂技演员) interacted with musicians. An upcoming collaboration with New York City's Ridge Theatre, meanwhile, will feature a \"suspended dance installation\" and other theatrical elements occurring in conjunction with an orchestral piece.\n\nK) The orchestra also continues to offer $25 annual memberships to Philadelphia students, who can buy rush tickets to every concert on the schedule. \"Students line up for the concerts they want, and we get roughly 300 or 350 kids a night coming to these. They take any of the open seats available, 5 minutes before the concert starts,\" Vulgamore said. \"It's like the running of the bulls, that energy when the doors open.\"\n\nL) Greenberg thinks that youthful energy needs to be harvested. Conductors don't have to be arrogant and untouchable—they can be accessible. Perhaps there could even be a \"bit of humor\" about them, he suggested, and an abandoning of pretension within the high-art institutions themselves. \"On one hand, these organizations are all saying the same thing: we want more general audiences, to break down cultural barriers,\" he said. \"But then they come up with some very snooty(目中无人的) thing that makes you crazy.\"\n\nM) John Terauds, a critic who has covered Toronto's classical music scene extensively, also wants to do away with the stuffiness. He suggested that the warmer an audience is, the better the musicians themselves will respond. \"But the producer or organizer has to let everyone know it's OK,\" he said. \"It's OK to enjoy yourself.\" At the Toronto Symphony Orchestra, for example, conductor Peter Oundjian often stops between pieces, taking a moment to talk about the composer or the music in a very amiable way. And some nights, Terauds said, \"at least a third\" of the audience consists of students who have purchased cheaper tickets. On these nights, the energy of the room drastically shifts. It becomes a less intimidating place.\n\nN) Back in February, Terauds wrote on his blog about how going to classical performances can be intimidating. Certain people \"think they have to dress up,\" he wrote. \"They think they have to know something about the music before they go. And, I'm sure, sitting in a seat, trembling in fear that this might be the wrong time to applaud, is also one of the factors.\"\n\nO) Everyone in the classical world agrees on the need for increased \"accessibility,\" but achieving it is often easier said than done. Nowadays, there are unknown, unorthodox opera singers wowing(博得……的喝彩) viewers on TV programs like \"America's Got Talent\" and \"The Voice\". What can higher institutions do with any of that? And if they appeal to these outlets, do they risk compromising the integrity or the intelligence of the music?\n\nP) Vulgamore seems to understand this. She thinks an organization can have it both ways, claiming the new while keeping the old. And as she reorganizes the Philadelphia Orchestra, she will attempt to do just that. \"The world's most respected musicians brought together as an orchestra will always exist,\" she said. \"But it's essential that we be willing to experiment and fail.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        }
+      ],
+      "correctAnswer": "O",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 O 段。题干：Higher institutions will be concerned about compromising the integrity of classical music if they have to resort to the television medium.\n核对该段原文：Everyone in the classical world agrees on the need for increased \"accessibility,\" but achieving it is often easier said than done. Nowadays, there are unknown, unorthodox opera singers wowing(博得……的喝彩) viewers on TV programs like \"America's Got Talent\" and \"The Voice\". What can higher institutions do with any of that? And if they appeal to these outlets, do they risk compromising the integrity or the intelligence of the music?\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2022-12-3-nonlistening-q44",
+      "canonicalId": "lazynote-cet6-2022-12-3-q44",
+      "number": 44,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Heavily discounted rush tickets help attract many young students to attend classical concerts.",
+      "passage": "Classical music aims to evolve, build audiences without alienating old guard\n\nA) In 1913, classical music sparked a riot in Paris. Igor Stravinsky was introducing his revolutionary \"Rite of Spring\" ballet to the world, with its discordant melodies and unorthodox choreography(编舞), and the purists in the crowd expressed their disapproval loud and clear. It might have been classical music's version of the time Bob Dylan went electric at the Newport Folk Festival. \"The noise, fighting, and shouting in the audience got so loud,\" NPR's music reporter Miles Hoffman said of the Stravinsky debut, \"that the choreographer had to shout out the numbers to the dancers so that they knew what they were supposed to do.\"\n\nB) It's difficult to imagine a similar disturbance occurring today within America's sacred symphony halls. In fact, it's hard to picture any kind of disruptive activity at all (unless someone's cell phone happens to go off, and then you'd better watch your back). A mannerly aura(氛围) hangs over most classical proceedings, and many of the genre's biggest supporters would have it no other way.\n\nC) Today, Western audiences for classical music and opera and ballet are almost always well dressed, older, respectful, achingly silent and often very wealthy (one has to be able to afford most tickets). But as many of America's most storied \"highbrow\"(高雅的) institutions struggle financially—the Philadelphia Orchestra's much-publicized rebound from bankruptcy is just one recent example—classical music fans and theorists are wondering how the medium can weave itself into the 21st century's cultural fabric without sacrificing its integrity.\n\nD) For example, should we feel OK \"clapping\" during classical music events, even if nobody else is? Why shouldn't we cheer for something great, like we do at a rock concert? The Huffington Post recently ran a Great Debate on this issue and many commenters came out on the side of silence. \"There is no more rewarding experience in life than being part of an audience where everybody is leaning forward in silence, thoroughly carried away by a great performance of a masterpiece,\" one commenter wrote. \"Why is it so difficult for folks to develop an appreciation and understanding for the mannerisms and traditions of classical music?\" asked another.\n\nE) The truth is that classical music audiences weren't always so polite. Robert Greenberg, an award-winning composer, said that when Beethoven first performed his 7th Symphony, audiences forced the orchestra to perform encores(重演) of certain movements immediately, applauding wildly. And in the last few decades, he said, many audiences at opera performances have abandoned pretenses, yelling \"Bravo\" when they feel like it.\n\nF) \"I don't think there's anything wrong with an audience showing their enthusiasm for a proper moment by applauding, showing their joy,\" Greenberg said, noting that the stuffiness in concert halls is \"one aspect of contemporary concert etiquette\" he doesn't understand. \"Instead of waiting half an hour to show enthusiasm, why not show it every eight or nine minutes?\"\n\nG) Until the rules about behavior and clothing change, it's hard to imagine multitudes of young people filling concert halls on their own accord. They're probably more likely to head to Central Park to watch a free performance with a bottle of wine and their friends. \"I think anyone should be able to come into a performance dressed any way they like, and be comfortable any way they like, sitting in that seat ready to enjoy themselves,\" Greenberg said. \"Because it's enjoyable.\"\n\nH) Greenberg stressed that he doesn't want people to start respecting the music less, and he's not suggesting that we \"dumb down\" the experience. Rather, it's about opening up \"access.\" When operas first instituted subtitles(字幕) during shows, he said, many purists didn't like the idea, believing that the audience should instead study the works before attending. But now it's commonplace to find titles on the seatback in front of you—choose a language, sit back, and understand what's going on.\n\nI) Allison Vulgamore, president of the Philadelphia Orchestra, is certainly looking to the future. She says certain \"classics concerts\" dedicated to the old masters will always exist, but not every program has to feature Beethoven and Brahms—or even a stage and seats. \"We're trying to introduce different kinds of concerts in different ways,\" she said. \"We are an interactive society now, where people like to learn.\"\n\nJ) As the Philadelphia Orchestra rebounds from its financial straits, it is also aiming to experiment, without alienating the loyalists. Vulgamore pointed to Cirque de la Symphonie, a recent offering in which jugglers(玩杂耍的人) and acrobats(杂技演员) interacted with musicians. An upcoming collaboration with New York City's Ridge Theatre, meanwhile, will feature a \"suspended dance installation\" and other theatrical elements occurring in conjunction with an orchestral piece.\n\nK) The orchestra also continues to offer $25 annual memberships to Philadelphia students, who can buy rush tickets to every concert on the schedule. \"Students line up for the concerts they want, and we get roughly 300 or 350 kids a night coming to these. They take any of the open seats available, 5 minutes before the concert starts,\" Vulgamore said. \"It's like the running of the bulls, that energy when the doors open.\"\n\nL) Greenberg thinks that youthful energy needs to be harvested. Conductors don't have to be arrogant and untouchable—they can be accessible. Perhaps there could even be a \"bit of humor\" about them, he suggested, and an abandoning of pretension within the high-art institutions themselves. \"On one hand, these organizations are all saying the same thing: we want more general audiences, to break down cultural barriers,\" he said. \"But then they come up with some very snooty(目中无人的) thing that makes you crazy.\"\n\nM) John Terauds, a critic who has covered Toronto's classical music scene extensively, also wants to do away with the stuffiness. He suggested that the warmer an audience is, the better the musicians themselves will respond. \"But the producer or organizer has to let everyone know it's OK,\" he said. \"It's OK to enjoy yourself.\" At the Toronto Symphony Orchestra, for example, conductor Peter Oundjian often stops between pieces, taking a moment to talk about the composer or the music in a very amiable way. And some nights, Terauds said, \"at least a third\" of the audience consists of students who have purchased cheaper tickets. On these nights, the energy of the room drastically shifts. It becomes a less intimidating place.\n\nN) Back in February, Terauds wrote on his blog about how going to classical performances can be intimidating. Certain people \"think they have to dress up,\" he wrote. \"They think they have to know something about the music before they go. And, I'm sure, sitting in a seat, trembling in fear that this might be the wrong time to applaud, is also one of the factors.\"\n\nO) Everyone in the classical world agrees on the need for increased \"accessibility,\" but achieving it is often easier said than done. Nowadays, there are unknown, unorthodox opera singers wowing(博得……的喝彩) viewers on TV programs like \"America's Got Talent\" and \"The Voice\". What can higher institutions do with any of that? And if they appeal to these outlets, do they risk compromising the integrity or the intelligence of the music?\n\nP) Vulgamore seems to understand this. She thinks an organization can have it both ways, claiming the new while keeping the old. And as she reorganizes the Philadelphia Orchestra, she will attempt to do just that. \"The world's most respected musicians brought together as an orchestra will always exist,\" she said. \"But it's essential that we be willing to experiment and fail.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 K 段。题干：Heavily discounted rush tickets help attract many young students to attend classical concerts.\n核对该段原文：The orchestra also continues to offer $25 annual memberships to Philadelphia students, who can buy rush tickets to every concert on the schedule. \"Students line up for the concerts they want, and we get roughly 300 or 350 kids a night coming to these. They take any of the open seats available, 5 minutes before the concert starts,\" Vulgamore said. \"It's like the running of the bulls, that energy when the doors open.\"\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2022-12-3-nonlistening-q45",
+      "canonicalId": "lazynote-cet6-2022-12-3-q45",
+      "number": 45,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The formalities of high-art theatres can intimidate some people attending a performance.",
+      "passage": "Classical music aims to evolve, build audiences without alienating old guard\n\nA) In 1913, classical music sparked a riot in Paris. Igor Stravinsky was introducing his revolutionary \"Rite of Spring\" ballet to the world, with its discordant melodies and unorthodox choreography(编舞), and the purists in the crowd expressed their disapproval loud and clear. It might have been classical music's version of the time Bob Dylan went electric at the Newport Folk Festival. \"The noise, fighting, and shouting in the audience got so loud,\" NPR's music reporter Miles Hoffman said of the Stravinsky debut, \"that the choreographer had to shout out the numbers to the dancers so that they knew what they were supposed to do.\"\n\nB) It's difficult to imagine a similar disturbance occurring today within America's sacred symphony halls. In fact, it's hard to picture any kind of disruptive activity at all (unless someone's cell phone happens to go off, and then you'd better watch your back). A mannerly aura(氛围) hangs over most classical proceedings, and many of the genre's biggest supporters would have it no other way.\n\nC) Today, Western audiences for classical music and opera and ballet are almost always well dressed, older, respectful, achingly silent and often very wealthy (one has to be able to afford most tickets). But as many of America's most storied \"highbrow\"(高雅的) institutions struggle financially—the Philadelphia Orchestra's much-publicized rebound from bankruptcy is just one recent example—classical music fans and theorists are wondering how the medium can weave itself into the 21st century's cultural fabric without sacrificing its integrity.\n\nD) For example, should we feel OK \"clapping\" during classical music events, even if nobody else is? Why shouldn't we cheer for something great, like we do at a rock concert? The Huffington Post recently ran a Great Debate on this issue and many commenters came out on the side of silence. \"There is no more rewarding experience in life than being part of an audience where everybody is leaning forward in silence, thoroughly carried away by a great performance of a masterpiece,\" one commenter wrote. \"Why is it so difficult for folks to develop an appreciation and understanding for the mannerisms and traditions of classical music?\" asked another.\n\nE) The truth is that classical music audiences weren't always so polite. Robert Greenberg, an award-winning composer, said that when Beethoven first performed his 7th Symphony, audiences forced the orchestra to perform encores(重演) of certain movements immediately, applauding wildly. And in the last few decades, he said, many audiences at opera performances have abandoned pretenses, yelling \"Bravo\" when they feel like it.\n\nF) \"I don't think there's anything wrong with an audience showing their enthusiasm for a proper moment by applauding, showing their joy,\" Greenberg said, noting that the stuffiness in concert halls is \"one aspect of contemporary concert etiquette\" he doesn't understand. \"Instead of waiting half an hour to show enthusiasm, why not show it every eight or nine minutes?\"\n\nG) Until the rules about behavior and clothing change, it's hard to imagine multitudes of young people filling concert halls on their own accord. They're probably more likely to head to Central Park to watch a free performance with a bottle of wine and their friends. \"I think anyone should be able to come into a performance dressed any way they like, and be comfortable any way they like, sitting in that seat ready to enjoy themselves,\" Greenberg said. \"Because it's enjoyable.\"\n\nH) Greenberg stressed that he doesn't want people to start respecting the music less, and he's not suggesting that we \"dumb down\" the experience. Rather, it's about opening up \"access.\" When operas first instituted subtitles(字幕) during shows, he said, many purists didn't like the idea, believing that the audience should instead study the works before attending. But now it's commonplace to find titles on the seatback in front of you—choose a language, sit back, and understand what's going on.\n\nI) Allison Vulgamore, president of the Philadelphia Orchestra, is certainly looking to the future. She says certain \"classics concerts\" dedicated to the old masters will always exist, but not every program has to feature Beethoven and Brahms—or even a stage and seats. \"We're trying to introduce different kinds of concerts in different ways,\" she said. \"We are an interactive society now, where people like to learn.\"\n\nJ) As the Philadelphia Orchestra rebounds from its financial straits, it is also aiming to experiment, without alienating the loyalists. Vulgamore pointed to Cirque de la Symphonie, a recent offering in which jugglers(玩杂耍的人) and acrobats(杂技演员) interacted with musicians. An upcoming collaboration with New York City's Ridge Theatre, meanwhile, will feature a \"suspended dance installation\" and other theatrical elements occurring in conjunction with an orchestral piece.\n\nK) The orchestra also continues to offer $25 annual memberships to Philadelphia students, who can buy rush tickets to every concert on the schedule. \"Students line up for the concerts they want, and we get roughly 300 or 350 kids a night coming to these. They take any of the open seats available, 5 minutes before the concert starts,\" Vulgamore said. \"It's like the running of the bulls, that energy when the doors open.\"\n\nL) Greenberg thinks that youthful energy needs to be harvested. Conductors don't have to be arrogant and untouchable—they can be accessible. Perhaps there could even be a \"bit of humor\" about them, he suggested, and an abandoning of pretension within the high-art institutions themselves. \"On one hand, these organizations are all saying the same thing: we want more general audiences, to break down cultural barriers,\" he said. \"But then they come up with some very snooty(目中无人的) thing that makes you crazy.\"\n\nM) John Terauds, a critic who has covered Toronto's classical music scene extensively, also wants to do away with the stuffiness. He suggested that the warmer an audience is, the better the musicians themselves will respond. \"But the producer or organizer has to let everyone know it's OK,\" he said. \"It's OK to enjoy yourself.\" At the Toronto Symphony Orchestra, for example, conductor Peter Oundjian often stops between pieces, taking a moment to talk about the composer or the music in a very amiable way. And some nights, Terauds said, \"at least a third\" of the audience consists of students who have purchased cheaper tickets. On these nights, the energy of the room drastically shifts. It becomes a less intimidating place.\n\nN) Back in February, Terauds wrote on his blog about how going to classical performances can be intimidating. Certain people \"think they have to dress up,\" he wrote. \"They think they have to know something about the music before they go. And, I'm sure, sitting in a seat, trembling in fear that this might be the wrong time to applaud, is also one of the factors.\"\n\nO) Everyone in the classical world agrees on the need for increased \"accessibility,\" but achieving it is often easier said than done. Nowadays, there are unknown, unorthodox opera singers wowing(博得……的喝彩) viewers on TV programs like \"America's Got Talent\" and \"The Voice\". What can higher institutions do with any of that? And if they appeal to these outlets, do they risk compromising the integrity or the intelligence of the music?\n\nP) Vulgamore seems to understand this. She thinks an organization can have it both ways, claiming the new while keeping the old. And as she reorganizes the Philadelphia Orchestra, she will attempt to do just that. \"The world's most respected musicians brought together as an orchestra will always exist,\" she said. \"But it's essential that we be willing to experiment and fail.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        }
+      ],
+      "correctAnswer": "N",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 N 段。题干：The formalities of high-art theatres can intimidate some people attending a performance.\n核对该段原文：Back in February, Terauds wrote on his blog about how going to classical performances can be intimidating. Certain people \"think they have to dress up,\" he wrote. \"They think they have to know something about the music before they go. And, I'm sure, sitting in a seat, trembling in fear that this might be the wrong time to applaud, is also one of the factors.\"\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2022-12-3-nonlistening-q46",
+      "canonicalId": "lazynote-cet6-2022-12-3-q46",
+      "number": 46,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What have scientists come to know better today?",
+      "passage": "How can one person enjoy good health, while another person looks old before her time? Humans have been asking this question for thousands of years, and recently, it's becoming clearer and clearer to scientists that the differences between people's rates of aging lie in the complex interactions among genes, social relationships, environments and lifestyles. Even though you were born with a particular set of genes, the way you live can influence how they express themselves. Some lifestyle factors may even turn genes on or shut them off.\n\nDeep within the genetic heart of all our cells are telomeres, or repeating segments of noncoding DNA that live at the ends of the chromosomes(染色体). They form caps at the ends of the chromosomes and keep the genetic material together. Shortening with each cell division, they help determine how fast a cell ages. When they become too short, the cell stops dividing altogether. This isn't the only reason a cell can age—there are other stresses on cells we don't yet understand very well—but short telomeres are one of the major reasons human cells grow old. We've devoted most of our careers to studying telomeres, and one extraordinary discovery from our labs is that telomeres can actually lengthen.\n\nScientists have learned that several thought patterns appear to be unhealthy for telomeres, and one of them is cynical hostility. Cynical hostility is defined by high anger and frequent thoughts that other people cannot be trusted. Someone with hostility doesn't just think, \"I hate to stand in long lines\"; they think, \"Others deliberately sped up and beat me to my rightful position in the line!\"—and then get violently agitated. People who score high on measures of cynical hostility tend to get more heart disease, metabolic disease and often die at younger ages. They also have shorter telomeres. In a study of British civil servants, men who scored high on measures of cynical hostility had shorter telomeres than men whose hostility scores were low. The most hostile men were 30% more likely to have short telomeres.\n\nWhat this means: aging is a dynamic process that could possibly be accelerated or slowed—and, in some aspects, even reversed. To an extent, it has surprised us and the rest of the scientific community that telomeres do not simply carry out the commands issued by your genetic code. Your telomeres are listening to you. The foods you eat, your response to challenges, the amount of exercise you get, and many other factors appear to influence your telomeres and can prevent premature aging at the cellular level. One of the keys to enjoying good health is simply doing your part to foster healthy cell renewal.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Why people age at different rates."
+        },
+        {
+          "id": "B",
+          "text": "How genes influence the aging process."
+        },
+        {
+          "id": "C",
+          "text": "How various genes express themselves in aging."
+        },
+        {
+          "id": "D",
+          "text": "Why people have long been concerned about aging."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：Why people age at different rates.\n关键词检索定位到第 1 段的候选相关句：Humans have been asking this question for thousands of years, and recently, it's becoming clearer and clearer to scientists that the differences between people's rates of aging lie in the complex interactions among genes, social relationships, environments and lifestyles.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2022-12-3-nonlistening-q47",
+      "canonicalId": "lazynote-cet6-2022-12-3-q47",
+      "number": 47,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "Why are some lifestyle factors considered extremely important?",
+      "passage": "How can one person enjoy good health, while another person looks old before her time? Humans have been asking this question for thousands of years, and recently, it's becoming clearer and clearer to scientists that the differences between people's rates of aging lie in the complex interactions among genes, social relationships, environments and lifestyles. Even though you were born with a particular set of genes, the way you live can influence how they express themselves. Some lifestyle factors may even turn genes on or shut them off.\n\nDeep within the genetic heart of all our cells are telomeres, or repeating segments of noncoding DNA that live at the ends of the chromosomes(染色体). They form caps at the ends of the chromosomes and keep the genetic material together. Shortening with each cell division, they help determine how fast a cell ages. When they become too short, the cell stops dividing altogether. This isn't the only reason a cell can age—there are other stresses on cells we don't yet understand very well—but short telomeres are one of the major reasons human cells grow old. We've devoted most of our careers to studying telomeres, and one extraordinary discovery from our labs is that telomeres can actually lengthen.\n\nScientists have learned that several thought patterns appear to be unhealthy for telomeres, and one of them is cynical hostility. Cynical hostility is defined by high anger and frequent thoughts that other people cannot be trusted. Someone with hostility doesn't just think, \"I hate to stand in long lines\"; they think, \"Others deliberately sped up and beat me to my rightful position in the line!\"—and then get violently agitated. People who score high on measures of cynical hostility tend to get more heart disease, metabolic disease and often die at younger ages. They also have shorter telomeres. In a study of British civil servants, men who scored high on measures of cynical hostility had shorter telomeres than men whose hostility scores were low. The most hostile men were 30% more likely to have short telomeres.\n\nWhat this means: aging is a dynamic process that could possibly be accelerated or slowed—and, in some aspects, even reversed. To an extent, it has surprised us and the rest of the scientific community that telomeres do not simply carry out the commands issued by your genetic code. Your telomeres are listening to you. The foods you eat, your response to challenges, the amount of exercise you get, and many other factors appear to influence your telomeres and can prevent premature aging at the cellular level. One of the keys to enjoying good health is simply doing your part to foster healthy cell renewal.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They may shorten the process of cell division."
+        },
+        {
+          "id": "B",
+          "text": "They may determine how genes function."
+        },
+        {
+          "id": "C",
+          "text": "They may affect the lifespan of telomeres."
+        },
+        {
+          "id": "D",
+          "text": "They may account for the stresses on cells."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：They may determine how genes function.\n关键词检索定位到第 1 段的候选相关句：Some lifestyle factors may even turn genes on or shut them off.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2022-12-3-nonlistening-q48",
+      "canonicalId": "lazynote-cet6-2022-12-3-q48",
+      "number": 48,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What have the author and his colleagues discovered about telomeres?",
+      "passage": "How can one person enjoy good health, while another person looks old before her time? Humans have been asking this question for thousands of years, and recently, it's becoming clearer and clearer to scientists that the differences between people's rates of aging lie in the complex interactions among genes, social relationships, environments and lifestyles. Even though you were born with a particular set of genes, the way you live can influence how they express themselves. Some lifestyle factors may even turn genes on or shut them off.\n\nDeep within the genetic heart of all our cells are telomeres, or repeating segments of noncoding DNA that live at the ends of the chromosomes(染色体). They form caps at the ends of the chromosomes and keep the genetic material together. Shortening with each cell division, they help determine how fast a cell ages. When they become too short, the cell stops dividing altogether. This isn't the only reason a cell can age—there are other stresses on cells we don't yet understand very well—but short telomeres are one of the major reasons human cells grow old. We've devoted most of our careers to studying telomeres, and one extraordinary discovery from our labs is that telomeres can actually lengthen.\n\nScientists have learned that several thought patterns appear to be unhealthy for telomeres, and one of them is cynical hostility. Cynical hostility is defined by high anger and frequent thoughts that other people cannot be trusted. Someone with hostility doesn't just think, \"I hate to stand in long lines\"; they think, \"Others deliberately sped up and beat me to my rightful position in the line!\"—and then get violently agitated. People who score high on measures of cynical hostility tend to get more heart disease, metabolic disease and often die at younger ages. They also have shorter telomeres. In a study of British civil servants, men who scored high on measures of cynical hostility had shorter telomeres than men whose hostility scores were low. The most hostile men were 30% more likely to have short telomeres.\n\nWhat this means: aging is a dynamic process that could possibly be accelerated or slowed—and, in some aspects, even reversed. To an extent, it has surprised us and the rest of the scientific community that telomeres do not simply carry out the commands issued by your genetic code. Your telomeres are listening to you. The foods you eat, your response to challenges, the amount of exercise you get, and many other factors appear to influence your telomeres and can prevent premature aging at the cellular level. One of the keys to enjoying good health is simply doing your part to foster healthy cell renewal.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Their number affects the growth of cells."
+        },
+        {
+          "id": "B",
+          "text": "Their length determines the quality of life."
+        },
+        {
+          "id": "C",
+          "text": "Their shortening process can be reversed."
+        },
+        {
+          "id": "D",
+          "text": "Their health impacts the division of cells."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：Their shortening process can be reversed.\n关键词检索定位到第 4 段的候选相关句：What this means: aging is a dynamic process that could possibly be accelerated or slowed—and, in some aspects, even reversed.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2022-12-3-nonlistening-q49",
+      "canonicalId": "lazynote-cet6-2022-12-3-q49",
+      "number": 49,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What have scientists learned about cynical hostility?",
+      "passage": "How can one person enjoy good health, while another person looks old before her time? Humans have been asking this question for thousands of years, and recently, it's becoming clearer and clearer to scientists that the differences between people's rates of aging lie in the complex interactions among genes, social relationships, environments and lifestyles. Even though you were born with a particular set of genes, the way you live can influence how they express themselves. Some lifestyle factors may even turn genes on or shut them off.\n\nDeep within the genetic heart of all our cells are telomeres, or repeating segments of noncoding DNA that live at the ends of the chromosomes(染色体). They form caps at the ends of the chromosomes and keep the genetic material together. Shortening with each cell division, they help determine how fast a cell ages. When they become too short, the cell stops dividing altogether. This isn't the only reason a cell can age—there are other stresses on cells we don't yet understand very well—but short telomeres are one of the major reasons human cells grow old. We've devoted most of our careers to studying telomeres, and one extraordinary discovery from our labs is that telomeres can actually lengthen.\n\nScientists have learned that several thought patterns appear to be unhealthy for telomeres, and one of them is cynical hostility. Cynical hostility is defined by high anger and frequent thoughts that other people cannot be trusted. Someone with hostility doesn't just think, \"I hate to stand in long lines\"; they think, \"Others deliberately sped up and beat me to my rightful position in the line!\"—and then get violently agitated. People who score high on measures of cynical hostility tend to get more heart disease, metabolic disease and often die at younger ages. They also have shorter telomeres. In a study of British civil servants, men who scored high on measures of cynical hostility had shorter telomeres than men whose hostility scores were low. The most hostile men were 30% more likely to have short telomeres.\n\nWhat this means: aging is a dynamic process that could possibly be accelerated or slowed—and, in some aspects, even reversed. To an extent, it has surprised us and the rest of the scientific community that telomeres do not simply carry out the commands issued by your genetic code. Your telomeres are listening to you. The foods you eat, your response to challenges, the amount of exercise you get, and many other factors appear to influence your telomeres and can prevent premature aging at the cellular level. One of the keys to enjoying good health is simply doing your part to foster healthy cell renewal.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It may lead to confrontational thought patterns."
+        },
+        {
+          "id": "B",
+          "text": "It may produce an adverse effect on telomeres."
+        },
+        {
+          "id": "C",
+          "text": "It may cause people to lose their temper frequently."
+        },
+        {
+          "id": "D",
+          "text": "It may stir up agitation among those in long lines."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：It may produce an adverse effect on telomeres.\n关键词检索定位到第 3 段的候选相关句：Scientists have learned that several thought patterns appear to be unhealthy for telomeres, and one of them is cynical hostility.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2022-12-3-nonlistening-q50",
+      "canonicalId": "lazynote-cet6-2022-12-3-q50",
+      "number": 50,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn from the last paragraph about the process of aging?",
+      "passage": "How can one person enjoy good health, while another person looks old before her time? Humans have been asking this question for thousands of years, and recently, it's becoming clearer and clearer to scientists that the differences between people's rates of aging lie in the complex interactions among genes, social relationships, environments and lifestyles. Even though you were born with a particular set of genes, the way you live can influence how they express themselves. Some lifestyle factors may even turn genes on or shut them off.\n\nDeep within the genetic heart of all our cells are telomeres, or repeating segments of noncoding DNA that live at the ends of the chromosomes(染色体). They form caps at the ends of the chromosomes and keep the genetic material together. Shortening with each cell division, they help determine how fast a cell ages. When they become too short, the cell stops dividing altogether. This isn't the only reason a cell can age—there are other stresses on cells we don't yet understand very well—but short telomeres are one of the major reasons human cells grow old. We've devoted most of our careers to studying telomeres, and one extraordinary discovery from our labs is that telomeres can actually lengthen.\n\nScientists have learned that several thought patterns appear to be unhealthy for telomeres, and one of them is cynical hostility. Cynical hostility is defined by high anger and frequent thoughts that other people cannot be trusted. Someone with hostility doesn't just think, \"I hate to stand in long lines\"; they think, \"Others deliberately sped up and beat me to my rightful position in the line!\"—and then get violently agitated. People who score high on measures of cynical hostility tend to get more heart disease, metabolic disease and often die at younger ages. They also have shorter telomeres. In a study of British civil servants, men who scored high on measures of cynical hostility had shorter telomeres than men whose hostility scores were low. The most hostile men were 30% more likely to have short telomeres.\n\nWhat this means: aging is a dynamic process that could possibly be accelerated or slowed—and, in some aspects, even reversed. To an extent, it has surprised us and the rest of the scientific community that telomeres do not simply carry out the commands issued by your genetic code. Your telomeres are listening to you. The foods you eat, your response to challenges, the amount of exercise you get, and many other factors appear to influence your telomeres and can prevent premature aging at the cellular level. One of the keys to enjoying good health is simply doing your part to foster healthy cell renewal.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It may vary from individual to individual."
+        },
+        {
+          "id": "B",
+          "text": "It challenges scientists to explore further."
+        },
+        {
+          "id": "C",
+          "text": "It depends on one's genetic code."
+        },
+        {
+          "id": "D",
+          "text": "It may be controlled to a degree."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：It may be controlled to a degree.\n关键词检索定位到第 4 段的候选相关句：What this means: aging is a dynamic process that could possibly be accelerated or slowed—and, in some aspects, even reversed.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2022-12-3-nonlistening-q51",
+      "canonicalId": "lazynote-cet6-2022-12-3-q51",
+      "number": 51,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn from the passage about an enzyme scientists have created?",
+      "passage": "Scientists have created by accident an enzyme(酶) that breaks down plastic drinks bottles. The breakthrough could help solve the global plastic pollution crisis by enabling for the first time the full recycling of bottles.\n\nThe new research was spurred by the discovery in 2016 of the first bacterium that had naturally evolved to eat plastic at a waste dump in Japan. Scientists have now revealed the detailed structure of the crucial enzyme produced by the bug.\n\nAn international team then adjusted the enzyme to see how it had evolved, but tests showed they had accidentally made the molecule even better at breaking down the plastic used for drinks bottles. \"What actually turned out was we improved the enzyme, which was a bit of a shock,\" said head researcher Prof. McGeehan, at the University of Portsmouth, UK.\n\nCurrently, the enzyme takes a few days to start breaking down the plastic, far faster than the centuries it takes in the oceans, but the researchers are optimistic this can be speeded up even further and become a viable large-scale process.\n\n\"What we are hoping to do is use this enzyme to turn this plastic back into its original components, so we can literally recycle it back to plastic,\" said McGeehan. \"It means we won't need to dig up any more oil and, fundamentally, it should reduce the amount of plastic in the environment.\"\n\nAbout 1 million plastic bottles are sold each minute around the globe and, with just 14% recycled, many end up in the oceans where they have polluted even the remotest parts, harming marine life and potentially people who eat sea food. \"Plastic is incredibly resistant to degradation,\" said McGeehan. \"It is one of these wonder materials that has been made a little bit too well.\"\n\nCurrently those bottles that are recycled can only be turned into opaque fibres for clothing or carpets, while the new enzyme indicates a way to recycle old clear plastic bottles back into new clear plastic bottles.\n\n\"You are always up against the fact oil is cheap, so plastic is cheap,\" said McGeehan. \"It is so easy for manufacturers to generate more of that stuff, rather than even try to recycle, but I believe there is a public interest here: perception is changing so much that companies are starting to look at how they can properly recycle these bottles.\"\n\nProf. Adisa Azapagic, at the University of Manchester in the UK, agreed the enzyme could be useful but added: \"A full life-cycle assessment would be needed to ensure that the technology does not solve one environmental problem—waste—at the expense of others, including additional greenhouse gas emissions.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "It was identified during a lab experiment accident."
+        },
+        {
+          "id": "B",
+          "text": "It may make full recycling of plastic bottles a reality."
+        },
+        {
+          "id": "C",
+          "text": "It was a breakthrough made with persistent efforts."
+        },
+        {
+          "id": "D",
+          "text": "It may initiate a radical reform in plastic industry."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：It may make full recycling of plastic bottles a reality.\n关键词检索定位到第 1 段的候选相关句：Scientists have created by accident an enzyme(酶) that breaks down plastic drinks bottles.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2022-12-3-nonlistening-q52",
+      "canonicalId": "lazynote-cet6-2022-12-3-q52",
+      "number": 52,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the passage say about the bug that produces the important enzyme?",
+      "passage": "Scientists have created by accident an enzyme(酶) that breaks down plastic drinks bottles. The breakthrough could help solve the global plastic pollution crisis by enabling for the first time the full recycling of bottles.\n\nThe new research was spurred by the discovery in 2016 of the first bacterium that had naturally evolved to eat plastic at a waste dump in Japan. Scientists have now revealed the detailed structure of the crucial enzyme produced by the bug.\n\nAn international team then adjusted the enzyme to see how it had evolved, but tests showed they had accidentally made the molecule even better at breaking down the plastic used for drinks bottles. \"What actually turned out was we improved the enzyme, which was a bit of a shock,\" said head researcher Prof. McGeehan, at the University of Portsmouth, UK.\n\nCurrently, the enzyme takes a few days to start breaking down the plastic, far faster than the centuries it takes in the oceans, but the researchers are optimistic this can be speeded up even further and become a viable large-scale process.\n\n\"What we are hoping to do is use this enzyme to turn this plastic back into its original components, so we can literally recycle it back to plastic,\" said McGeehan. \"It means we won't need to dig up any more oil and, fundamentally, it should reduce the amount of plastic in the environment.\"\n\nAbout 1 million plastic bottles are sold each minute around the globe and, with just 14% recycled, many end up in the oceans where they have polluted even the remotest parts, harming marine life and potentially people who eat sea food. \"Plastic is incredibly resistant to degradation,\" said McGeehan. \"It is one of these wonder materials that has been made a little bit too well.\"\n\nCurrently those bottles that are recycled can only be turned into opaque fibres for clothing or carpets, while the new enzyme indicates a way to recycle old clear plastic bottles back into new clear plastic bottles.\n\n\"You are always up against the fact oil is cheap, so plastic is cheap,\" said McGeehan. \"It is so easy for manufacturers to generate more of that stuff, rather than even try to recycle, but I believe there is a public interest here: perception is changing so much that companies are starting to look at how they can properly recycle these bottles.\"\n\nProf. Adisa Azapagic, at the University of Manchester in the UK, agreed the enzyme could be useful but added: \"A full life-cycle assessment would be needed to ensure that the technology does not solve one environmental problem—waste—at the expense of others, including additional greenhouse gas emissions.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "It has a natural ability to consume plastics."
+        },
+        {
+          "id": "B",
+          "text": "It is a bacterium that reproduces at a high rate."
+        },
+        {
+          "id": "C",
+          "text": "It is essential to the recycling of plastic bottles."
+        },
+        {
+          "id": "D",
+          "text": "It has a chemical structure unknown to scientists."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：It has a natural ability to consume plastics.\n关键词检索定位到第 1 段的候选相关句：Scientists have created by accident an enzyme(酶) that breaks down plastic drinks bottles.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2022-12-3-nonlistening-q53",
+      "canonicalId": "lazynote-cet6-2022-12-3-q53",
+      "number": 53,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "By adjusting the enzyme produced by the bug, the scientists_______.",
+      "passage": "Scientists have created by accident an enzyme(酶) that breaks down plastic drinks bottles. The breakthrough could help solve the global plastic pollution crisis by enabling for the first time the full recycling of bottles.\n\nThe new research was spurred by the discovery in 2016 of the first bacterium that had naturally evolved to eat plastic at a waste dump in Japan. Scientists have now revealed the detailed structure of the crucial enzyme produced by the bug.\n\nAn international team then adjusted the enzyme to see how it had evolved, but tests showed they had accidentally made the molecule even better at breaking down the plastic used for drinks bottles. \"What actually turned out was we improved the enzyme, which was a bit of a shock,\" said head researcher Prof. McGeehan, at the University of Portsmouth, UK.\n\nCurrently, the enzyme takes a few days to start breaking down the plastic, far faster than the centuries it takes in the oceans, but the researchers are optimistic this can be speeded up even further and become a viable large-scale process.\n\n\"What we are hoping to do is use this enzyme to turn this plastic back into its original components, so we can literally recycle it back to plastic,\" said McGeehan. \"It means we won't need to dig up any more oil and, fundamentally, it should reduce the amount of plastic in the environment.\"\n\nAbout 1 million plastic bottles are sold each minute around the globe and, with just 14% recycled, many end up in the oceans where they have polluted even the remotest parts, harming marine life and potentially people who eat sea food. \"Plastic is incredibly resistant to degradation,\" said McGeehan. \"It is one of these wonder materials that has been made a little bit too well.\"\n\nCurrently those bottles that are recycled can only be turned into opaque fibres for clothing or carpets, while the new enzyme indicates a way to recycle old clear plastic bottles back into new clear plastic bottles.\n\n\"You are always up against the fact oil is cheap, so plastic is cheap,\" said McGeehan. \"It is so easy for manufacturers to generate more of that stuff, rather than even try to recycle, but I believe there is a public interest here: perception is changing so much that companies are starting to look at how they can properly recycle these bottles.\"\n\nProf. Adisa Azapagic, at the University of Manchester in the UK, agreed the enzyme could be useful but added: \"A full life-cycle assessment would be needed to ensure that the technology does not solve one environmental problem—waste—at the expense of others, including additional greenhouse gas emissions.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "made it more effective by chance"
+        },
+        {
+          "id": "B",
+          "text": "discovered an extraordinary chemical"
+        },
+        {
+          "id": "C",
+          "text": "altered its basic molecular composition"
+        },
+        {
+          "id": "D",
+          "text": "found its evolutionary process sped up"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：made it more effective by chance\n关键词检索定位到第 2 段的候选相关句：Scientists have now revealed the detailed structure of the crucial enzyme produced by the bug.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2022-12-3-nonlistening-q54",
+      "canonicalId": "lazynote-cet6-2022-12-3-q54",
+      "number": 54,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does Prof. McGeehan say about the recycling of plastic bottles?",
+      "passage": "Scientists have created by accident an enzyme(酶) that breaks down plastic drinks bottles. The breakthrough could help solve the global plastic pollution crisis by enabling for the first time the full recycling of bottles.\n\nThe new research was spurred by the discovery in 2016 of the first bacterium that had naturally evolved to eat plastic at a waste dump in Japan. Scientists have now revealed the detailed structure of the crucial enzyme produced by the bug.\n\nAn international team then adjusted the enzyme to see how it had evolved, but tests showed they had accidentally made the molecule even better at breaking down the plastic used for drinks bottles. \"What actually turned out was we improved the enzyme, which was a bit of a shock,\" said head researcher Prof. McGeehan, at the University of Portsmouth, UK.\n\nCurrently, the enzyme takes a few days to start breaking down the plastic, far faster than the centuries it takes in the oceans, but the researchers are optimistic this can be speeded up even further and become a viable large-scale process.\n\n\"What we are hoping to do is use this enzyme to turn this plastic back into its original components, so we can literally recycle it back to plastic,\" said McGeehan. \"It means we won't need to dig up any more oil and, fundamentally, it should reduce the amount of plastic in the environment.\"\n\nAbout 1 million plastic bottles are sold each minute around the globe and, with just 14% recycled, many end up in the oceans where they have polluted even the remotest parts, harming marine life and potentially people who eat sea food. \"Plastic is incredibly resistant to degradation,\" said McGeehan. \"It is one of these wonder materials that has been made a little bit too well.\"\n\nCurrently those bottles that are recycled can only be turned into opaque fibres for clothing or carpets, while the new enzyme indicates a way to recycle old clear plastic bottles back into new clear plastic bottles.\n\n\"You are always up against the fact oil is cheap, so plastic is cheap,\" said McGeehan. \"It is so easy for manufacturers to generate more of that stuff, rather than even try to recycle, but I believe there is a public interest here: perception is changing so much that companies are starting to look at how they can properly recycle these bottles.\"\n\nProf. Adisa Azapagic, at the University of Manchester in the UK, agreed the enzyme could be useful but added: \"A full life-cycle assessment would be needed to ensure that the technology does not solve one environmental problem—waste—at the expense of others, including additional greenhouse gas emissions.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "Manufacturers are implementing it on an increasingly larger scale."
+        },
+        {
+          "id": "B",
+          "text": "It generates huge business opportunities for plastic manufacturers."
+        },
+        {
+          "id": "C",
+          "text": "It has aroused persistent interest among the general public."
+        },
+        {
+          "id": "D",
+          "text": "Manufacturers are beginning to explore ways of doing it."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：Manufacturers are beginning to explore ways of doing it.\n关键词检索定位到第 1 段的候选相关句：The breakthrough could help solve the global plastic pollution crisis by enabling for the first time the full recycling of bottles.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2022-12-3-nonlistening-q55",
+      "canonicalId": "lazynote-cet6-2022-12-3-q55",
+      "number": 55,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What is Prof. Adisa Azapagic's advice concerning the application of the enzyme?",
+      "passage": "Scientists have created by accident an enzyme(酶) that breaks down plastic drinks bottles. The breakthrough could help solve the global plastic pollution crisis by enabling for the first time the full recycling of bottles.\n\nThe new research was spurred by the discovery in 2016 of the first bacterium that had naturally evolved to eat plastic at a waste dump in Japan. Scientists have now revealed the detailed structure of the crucial enzyme produced by the bug.\n\nAn international team then adjusted the enzyme to see how it had evolved, but tests showed they had accidentally made the molecule even better at breaking down the plastic used for drinks bottles. \"What actually turned out was we improved the enzyme, which was a bit of a shock,\" said head researcher Prof. McGeehan, at the University of Portsmouth, UK.\n\nCurrently, the enzyme takes a few days to start breaking down the plastic, far faster than the centuries it takes in the oceans, but the researchers are optimistic this can be speeded up even further and become a viable large-scale process.\n\n\"What we are hoping to do is use this enzyme to turn this plastic back into its original components, so we can literally recycle it back to plastic,\" said McGeehan. \"It means we won't need to dig up any more oil and, fundamentally, it should reduce the amount of plastic in the environment.\"\n\nAbout 1 million plastic bottles are sold each minute around the globe and, with just 14% recycled, many end up in the oceans where they have polluted even the remotest parts, harming marine life and potentially people who eat sea food. \"Plastic is incredibly resistant to degradation,\" said McGeehan. \"It is one of these wonder materials that has been made a little bit too well.\"\n\nCurrently those bottles that are recycled can only be turned into opaque fibres for clothing or carpets, while the new enzyme indicates a way to recycle old clear plastic bottles back into new clear plastic bottles.\n\n\"You are always up against the fact oil is cheap, so plastic is cheap,\" said McGeehan. \"It is so easy for manufacturers to generate more of that stuff, rather than even try to recycle, but I believe there is a public interest here: perception is changing so much that companies are starting to look at how they can properly recycle these bottles.\"\n\nProf. Adisa Azapagic, at the University of Manchester in the UK, agreed the enzyme could be useful but added: \"A full life-cycle assessment would be needed to ensure that the technology does not solve one environmental problem—waste—at the expense of others, including additional greenhouse gas emissions.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "Developing technologies to address greenhouse gas emissions."
+        },
+        {
+          "id": "B",
+          "text": "Considering the extra cost involved in producing the enzyme."
+        },
+        {
+          "id": "C",
+          "text": "Assessing its possible negative impact on the environment."
+        },
+        {
+          "id": "D",
+          "text": "Studying the full life cycle of the enzyme as the first step."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：Assessing its possible negative impact on the environment.\n关键词检索定位到第 9 段的候选相关句：Adisa Azapagic, at the University of Manchester in the UK, agreed the enzyme could be useful but added: \"A full life-cycle assessment would be needed to ensure that the technology does not solve one environmental problem—waste—at the expense of others, including additional greenhouse gas emissions.\"\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2022-12-3-nonlistening-translation",
+      "number": "IV",
+      "level": "CET6",
+      "type": "short_text_self_check",
+      "skill": "translation",
+      "section": "translation",
+      "prompt": "Directions : For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2 .\n\n云贵高原(the Yunnan-Guizhou Plateau)大部分位于云南、贵州省境内，总面积约50万平方公里，平均海拔2000-4000米，是中国第四大高原。云贵高原西高东低，河流众多，形成了许多又深又陡的峡谷(canyon)。 峡谷中许多地方土壤肥沃，非常有利于多种农作物生长。 云贵高原独特的自然环境造就了生物和文化的多样性。它是中国森林和矿产资源类型十分丰富的地区，也是古人类起源的重要地区。云贵高原是中国少数民族数量最多的地区，各民族都保留了自己丰富多彩的文化传统。",
+      "options": [],
+      "correctAnswer": "The Yunnan-Guizhou Plateau lies mainly in Yunnan and Guizhou provinces. With a total area of about 500,000 square kilometers and an average elevation of 2,000 to 4,000 meters, it is China's fourth largest plateau. Higher in the west and lower in the east, it has many rivers that have formed numerous deep, steep canyons. Soil is fertile in many parts of these canyons, providing excellent conditions for various crops. The plateau's distinctive natural environment has produced biological and cultural diversity. It is an area rich in types of forest and mineral resources and an important region for the origins of ancient humans. It also has the largest number of ethnic minority groups in China, each preserving its own colorful cultural traditions.",
+      "referenceAnswer": "The Yunnan-Guizhou Plateau lies mainly in Yunnan and Guizhou provinces. With a total area of about 500,000 square kilometers and an average elevation of 2,000 to 4,000 meters, it is China's fourth largest plateau. Higher in the west and lower in the east, it has many rivers that have formed numerous deep, steep canyons. Soil is fertile in many parts of these canyons, providing excellent conditions for various crops. The plateau's distinctive natural environment has produced biological and cultural diversity. It is an area rich in types of forest and mineral resources and an important region for the origins of ancient humans. It also has the largest number of ethnic minority groups in China, each preserving its own colorful cultural traditions.",
+      "hint": "50万平方公里、2000–4000米、西高东低、峡谷农作条件与民族多样性都要保留。",
+      "explanation": "以下为原创参考译文，准确的同义表达也可接受。Higher in the west…表示相对地势，不是西部位于东部。types of forest and mineral resources保留资源类型丰富；largest number of ethnic minority groups指民族种类最多，不误译为少数民族人口最多。",
+      "rubric": [
+        "信息：逐句核对人物、地点、数字、时间、因果和并列信息，避免漏译或增译。",
+        "表达：50万平方公里、2000–4000米、西高东低、峡谷农作条件与民族多样性都要保留。",
+        "语法：检查时态、语态、主谓一致、冠词与单复数，长句按英语逻辑合理拆分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-12-3-nonlistening"
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="container">
   <view class="topbar">
     <view class="title">公告管理</view>
@@ -38,22 +39,22 @@
   </view>
 
   <!-- 发布/编辑弹窗 -->
-  <view class="mask" wx:if="{{showModal}}" catchtouchmove="preventTouchMove" bindtap="closeModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"></view>
+  <view class="mask" wx:if="{{showModal}}" catchtouchmove="preventTouchMove" bindtap="closeModal"></view>
   <view class="modal-wrap" wx:if="{{showModal}}" catchtouchmove="preventTouchMove">
-    <view class="modal tech-card" catchtap="" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+    <view class="modal tech-card" catchtap="">
       <view class="modal-header">
         <view class="modal-title">{{editingId ? '编辑公告' : '发布公告'}}</view>
         <view class="modal-close" bindtap="closeModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">✕</view>
       </view>
 
-      <view class="modal-body">
+      <scroll-view scroll-y class="modal-body">
         <view class="field">
           <view class="label">标题</view>
-          <input class="input tech-input" value="{{form.title}}" placeholder="请输入公告标题" bindinput="onInput" data-field="title" placeholder-style="color:#8597ad" />
+          <input adjust-position="{{true}}" cursor-spacing="24" class="input tech-input" value="{{form.title}}" placeholder="请输入公告标题" bindinput="onInput" data-field="title" placeholder-style="color:#8597ad" />
         </view>
         <view class="field">
           <view class="label">内容</view>
-          <textarea class="textarea tech-input" value="{{form.content}}" placeholder="请输入公告内容" bindinput="onInput" data-field="content" placeholder-style="color:#8597ad"></textarea>
+          <textarea fixed="{{true}}" disable-default-padding="{{true}}" adjust-position="{{true}}" cursor-spacing="24" class="textarea tech-input" value="{{form.content}}" placeholder="请输入公告内容" bindinput="onInput" data-field="content" placeholder-style="color:#8597ad"></textarea>
         </view>
         <view class="field row-inline">
           <view class="label">状态</view>
@@ -61,7 +62,7 @@
             <view class="picker">{{statusOptions[statusIndex].name}}</view>
           </picker>
         </view>
-      </view>
+      </scroll-view>
 
       <view class="modal-footer">
         <button class="btn ghost tech-control" bindtap="closeModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">取消</button>
@@ -70,3 +71,5 @@
     </view>
   </view>
 </view>
+
+</block>

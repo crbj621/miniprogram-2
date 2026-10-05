@@ -1,0 +1,115 @@
+{
+  "time": "2026-10-04T08:01:06.537Z",
+  "health": {
+    "status": "ok",
+    "database": "ok",
+    "functions": 22,
+    "time": "2026-10-04T08:00:43.942Z"
+  },
+  "assets": [
+    {
+      "file": "backgrounds/grassland-night.webp",
+      "bytes": 373680,
+      "sha256": "c3abffb54e46f6747844a8eb8b3bf1505acfdb05c0a23185ca83bab67c11c2aa",
+      "contentType": "image/webp"
+    },
+    {
+      "file": "backgrounds/grassland-night-wide.webp",
+      "bytes": 436864,
+      "sha256": "529f139cb70b625dcef757774b96c686e2a5727aae76373fa7928fb6dac9c779",
+      "contentType": "image/webp"
+    },
+    {
+      "file": "backgrounds/forest-night.webp",
+      "bytes": 421308,
+      "sha256": "7076a3b09e2fa066c7ce56f43da139c289177b9bdccfc3d5965c74951f6c62ec",
+      "contentType": "image/webp"
+    },
+    {
+      "file": "backgrounds/forest-night-wide.webp",
+      "bytes": 432030,
+      "sha256": "372392c315a337142d7233a05f28a32bf84c797368c61320d8b8d719c82bcfe6",
+      "contentType": "image/webp"
+    },
+    {
+      "file": "backgrounds/clouds-day.webp",
+      "bytes": 355596,
+      "sha256": "401ac542931b68268049368928b6f58219fea472c57c1e8f6d16ae0038ab5c66",
+      "contentType": "image/webp"
+    },
+    {
+      "file": "backgrounds/clouds-day-wide.webp",
+      "bytes": 385870,
+      "sha256": "d11935e6fd376f1bc0777ee9ddc3d73544a10d07505a4c01e1f8c7cb8c47e919",
+      "contentType": "image/webp"
+    },
+    {
+      "file": "backgrounds/aurora-coast.webp",
+      "bytes": 380026,
+      "sha256": "8dd2a1ea072c0cc6fd5d4a5cac86b31371ac5593fc134c2afdd2fb5f79f2a451",
+      "contentType": "image/webp"
+    },
+    {
+      "file": "backgrounds/aurora-coast-wide.webp",
+      "bytes": 436232,
+      "sha256": "4a01e41f348cda94957b9a327e8def1a6dec342c5699e1e9bb694b9a4f4332c7",
+      "contentType": "image/webp"
+    }
+  ],
+  "scenes": [
+    {
+      "template": "stars",
+      "background": "meteors",
+      "src": "https://www.crbuj.icu/campus-api/gift-assets/backgrounds/grassland-night.webp",
+      "width": 1086,
+      "height": 1448,
+      "canvases": 2,
+      "overflow": false,
+      "vendor": [
+        "https://www.crbuj.icu/campus-api/gift-assets/vendor/starrysky-1.0.2.js?v=2e04de010f75"
+      ],
+      "opened": true
+    },
+    {
+      "template": "letter",
+      "background": "campfire",
+      "src": "https://www.crbuj.icu/campus-api/gift-assets/backgrounds/forest-night.webp",
+      "width": 1024,
+      "height": 1536,
+      "canvases": 2,
+      "overflow": false,
+      "vendor": [
+        "https://www.crbuj.icu/campus-api/gift-assets/vendor/starrysky-1.0.2.js?v=2e04de010f75"
+      ],
+      "opened": true
+    },
+    {
+      "template": "birthday",
+      "background": "clouds3d",
+      "src": "https://www.crbuj.icu/campus-api/gift-assets/backgrounds/clouds-day.webp",
+      "width": 1024,
+      "height": 1536,
+      "canvases": 1,
+      "overflow": false,
+      "vendor": [
+        "https://www.crbuj.icu/campus-api/gift-assets/vendor/vanta-clouds-0.5.24.js?v=2e04de010f75"
+      ],
+      "opened": true
+    },
+    {
+      "template": "love",
+      "background": "halo3d",
+      "src": "https://www.crbuj.icu/campus-api/gift-assets/backgrounds/aurora-coast.webp",
+      "width": 1024,
+      "height": 1536,
+      "canvases": 1,
+      "overflow": false,
+      "vendor": [
+        "https://www.crbuj.icu/campus-api/gift-assets/vendor/starrysky-1.0.2.js?v=2e04de010f75"
+      ],
+      "opened": true
+    }
+  ],
+  "errors": [],
+  "boundary": "Public read-only demos and image fetch; no site creation, coin spending, or production test records"
+}

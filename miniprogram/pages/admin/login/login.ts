@@ -1,5 +1,6 @@
+import { withSharing } from '../../../utils/page-share'
 import { api } from '../../../utils/api-client'
-Page({
+Page(withSharing({
   data: {
     username: '',
     password: '',
@@ -66,4 +67,4 @@ Page({
       this.setData({ loading: false, error: err.message || err.errMsg || '网络连接失败，请稍后重试' })
     }
   }
-})
+}))

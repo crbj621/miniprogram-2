@@ -1,0 +1,1949 @@
+{
+  "schemaVersion": 1,
+  "status": "verified_structured",
+  "source": {
+    "id": "cet4-2024-12-3-nonlistening",
+    "textCollection": "https://english-exam.lazynote.cn",
+    "textUrl": "https://english-exam.lazynote.cn/cet4/paper/2024-12-3/",
+    "textSha256": "8bef7a218957bfff24076d71e39cca7fb0aa91308ca87aef8cdad109a94819f3",
+    "answerSources": [
+      {
+        "section": "part3-section-a",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2024-12-3/part3-section-a/",
+        "sha256": "a9ebb29d750101d3f5a87b85b6404f31312ab849f9bea682beb39ab2f18de463"
+      },
+      {
+        "section": "part3-section-b",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2024-12-3/part3-section-b/",
+        "sha256": "3614024b4d21dd4984365f325e67cfda68b296216e8563a70d5df7aae7b0ca6a"
+      },
+      {
+        "section": "part3-section-c-1",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2024-12-3/part3-section-c-1/",
+        "sha256": "a69645ff816859db28d0cc9514aa1f1032d0ac646067e14313d45e36ffe17a67"
+      },
+      {
+        "section": "part3-section-c-2",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2024-12-3/part3-section-c-2/",
+        "sha256": "43dad6925fa2fae9e60ceeaf7475a004e51db012f66478be347f33d5b0382beb"
+      }
+    ],
+    "rightsUrl": "https://english-exam.lazynote.cn",
+    "rights": "Source footer attributes original papers to the National College English Test Committee. Original materials retain their respective rights; no blanket source license is asserted. Commercial explanatory prose is not copied.",
+    "sourceRightsNotice": "© 2026 懒笔记 · 蜀ICP备2024049450号-1 · 川公网安备51019002006323号 · 增值电信业务经营许可证：川B2-20240301 · 真题版权归全国硕士研究生招生考试 / 全国大学英语四六级考试委员会所有 · 隐私政策 · 用户协议",
+    "sourceTermsUrl": "https://english-exam.lazynote.cn/terms/",
+    "reviewedAt": "2026-10-03",
+    "answerStatus": "public_reference_structural_consistency_verified",
+    "explanations": "Project-generated contextual evidence notes. Close-reading locations are keyword-search candidates, not manually verified detailed explanations.",
+    "referenceEssays": "Project-authored full reference examples bound to the original prompts; not official model answers.",
+    "materialSources": [],
+    "corrections": [],
+    "previousReviewedAnswerSources": [],
+    "sourceEdition": "lazynote public original-paper arrangement; set numbering can differ from other collections.",
+    "independentlyConfirmedSharedSource": "",
+    "readingSourceCorrection": null,
+    "sectionSourceReplacement": null,
+    "independentAnswerChecks": [],
+    "sharedSectionSource": {}
+  },
+  "papers": [
+    {
+      "id": "cet4-2024-12-3-nonlistening",
+      "level": "CET4",
+      "year": 2024,
+      "month": 12,
+      "set": 3,
+      "title": "2024年12月英语四级第3套真题（不含听力）",
+      "authenticity": "past_exam",
+      "questionIds": [
+        "cet4-2024-12-3-nonlistening-writing",
+        "cet4-2024-12-3-nonlistening-q26",
+        "cet4-2024-12-3-nonlistening-q27",
+        "cet4-2024-12-3-nonlistening-q28",
+        "cet4-2024-12-3-nonlistening-q29",
+        "cet4-2024-12-3-nonlistening-q30",
+        "cet4-2024-12-3-nonlistening-q31",
+        "cet4-2024-12-3-nonlistening-q32",
+        "cet4-2024-12-3-nonlistening-q33",
+        "cet4-2024-12-3-nonlistening-q34",
+        "cet4-2024-12-3-nonlistening-q35",
+        "cet4-2024-12-3-nonlistening-q36",
+        "cet4-2024-12-3-nonlistening-q37",
+        "cet4-2024-12-3-nonlistening-q38",
+        "cet4-2024-12-3-nonlistening-q39",
+        "cet4-2024-12-3-nonlistening-q40",
+        "cet4-2024-12-3-nonlistening-q41",
+        "cet4-2024-12-3-nonlistening-q42",
+        "cet4-2024-12-3-nonlistening-q43",
+        "cet4-2024-12-3-nonlistening-q44",
+        "cet4-2024-12-3-nonlistening-q45",
+        "cet4-2024-12-3-nonlistening-q46",
+        "cet4-2024-12-3-nonlistening-q47",
+        "cet4-2024-12-3-nonlistening-q48",
+        "cet4-2024-12-3-nonlistening-q49",
+        "cet4-2024-12-3-nonlistening-q50",
+        "cet4-2024-12-3-nonlistening-q51",
+        "cet4-2024-12-3-nonlistening-q52",
+        "cet4-2024-12-3-nonlistening-q53",
+        "cet4-2024-12-3-nonlistening-q54",
+        "cet4-2024-12-3-nonlistening-q55",
+        "cet4-2024-12-3-nonlistening-translation"
+      ],
+      "durationSeconds": 6000,
+      "description": "写作1题、阅读30题、翻译1题，不含听力。客观题答案与题面、选项完成结构一致性核对。",
+      "sourceId": "cet4-2024-12-3-nonlistening",
+      "coverage": {
+        "fullPaper": false,
+        "fullNonListening": true,
+        "listeningExcluded": true,
+        "objectiveNumbers": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "objectiveCount": 30,
+        "subjectiveCount": 2,
+        "sections": [
+          "writing",
+          "reading_word_bank",
+          "reading_matching",
+          "reading_comprehension",
+          "translation"
+        ],
+        "sharedSectionSource": {},
+        "note": "写作1题、阅读30题、翻译1题，不含听力。",
+        "independentlyConfirmedSharedSource": "",
+        "readingSourceCorrection": null,
+        "sectionSourceReplacement": null,
+        "referenceStatus": "project_authored"
+      },
+      "resources": [
+        {
+          "id": "cet4-2024-12-3-nonlistening-source",
+          "type": "web",
+          "title": "原卷来源与题面核对",
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2024-12-3/"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cet4-2024-12-3-nonlistening-writing",
+      "number": "I",
+      "level": "CET4",
+      "type": "short_text_self_check",
+      "skill": "writing",
+      "section": "writing",
+      "prompt": "Directions: Suppose the university newspaper is inviting submissions from the students for its coming edition on how the students can contribute to a green campus. You are now to write an essay for submission. You will have 30 minutes to write the essay. You should write at least 120 words but no more than 180 words.",
+      "options": [],
+      "correctAnswer": "A green campus depends on the daily choices of its students. Although universities provide facilities and rules, lasting improvement requires everyone to use resources carefully and participate in practical action.\n\nWe can begin with simple habits. Turning off unused lights, carrying reusable bottles and taking only the food we can finish would reduce waste. Students should also learn local sorting rules instead of placing every unwanted item in the same bin. For short trips, walking or cycling can be convenient choices when conditions allow.\n\nCollective projects can make these habits easier to maintain. The student union could organize a secondhand book exchange and publish clear information about recycling points. Classes might review electricity use and discuss realistic ways to reduce it. Such activities should encourage participation rather than become competitions for appearances. By connecting everyday habits with shared projects, students can help make the campus cleaner, more efficient and more pleasant.",
+      "referenceAnswer": "A green campus depends on the daily choices of its students. Although universities provide facilities and rules, lasting improvement requires everyone to use resources carefully and participate in practical action.\n\nWe can begin with simple habits. Turning off unused lights, carrying reusable bottles and taking only the food we can finish would reduce waste. Students should also learn local sorting rules instead of placing every unwanted item in the same bin. For short trips, walking or cycling can be convenient choices when conditions allow.\n\nCollective projects can make these habits easier to maintain. The student union could organize a secondhand book exchange and publish clear information about recycling points. Classes might review electricity use and discuss realistic ways to reduce it. Such activities should encourage participation rather than become competitions for appearances. By connecting everyday habits with shared projects, students can help make the campus cleaner, more efficient and more pleasant.",
+      "hint": "先想学生能做的事，再写集体支持：节电、可重复用品、减少剩饭、分类、旧书交换；每项联系绿色目标。",
+      "explanation": "以下为原创参考范文，作文没有唯一答案。题目问students can contribute，行动主体应始终是学生。第一段点明习惯决定持续效果；第二段给个人可立即做的节电、重复使用容器、少剩饭、分类和步行骑行；第三段用旧书交换与回收点信息支持长期实践。take only the food we can finish是按需取餐，secondhand book exchange是旧书交换。Although承认学校提供条件，instead of用于解释正确分类。结尾回到资源效率和环境，不需无依据承诺“一周让学校零排放”。\n\n练习方法：先用提示列三段提纲，在30分钟内独立写作，再按下方标准逐项打分；把失分最多的一段重写。参考范文约151词（缩写、连字符词按一词，含标题或书信称呼落款），满足120–180词要求；评分用于练习自检，不代表官方阅卷分数。",
+      "rubric": [
+        "练习自评总分15分：题目覆盖0–6＋结构0–4＋语言0–5，先独立写完再对照；观点不同于范文也可得满分，只要有合理支持。",
+        "题目覆盖0–6分：该题检查——先想学生能做的事，再写集体支持：节电、可重复用品、减少剩饭、分类、旧书交换；每项联系绿色目标。。6分=任务完整且有具体理由/活动/例证；4–5分=切题但细节偏薄；2–3分=遗漏主要任务；0–1分=基本离题。",
+        "结构0–4分：4分=开头明确任务、主体按逻辑展开、结尾回扣，段间自然；3分=顺序清楚但局部衔接生硬；1–2分=跳跃或机械罗列；0分=内容难以组织理解。",
+        "语言0–5分：5分=语法和用词基本准确、句型有变化；3–4分=少量错误但不影响理解；1–2分=反复出现时态、主谓一致或搭配错误并影响阅读；0分=多数句子不能理解。",
+        "格式与修订：按原题保持120–180词；新闻/书信/提案用对应体裁，明确要求的首句逐字保留。若超限、少写任务或缺必要格式，先修改再评分，不把字数达标当作内容满分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-3-nonlistening-q26",
+      "canonicalId": "lazynote-cet4-2024-12-3-q26",
+      "number": 26,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 26 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Super realistic masks are made from flexible materials such as silicone and are designed to imitate real human face—down to every last detail.\n\nIn a study by the Universities of York and Kyoto, researchers asked participants to look at pairs of photographs and decide which showed a [26] ____ face and which showed a person wearing a mask.\n\nSurprisingly, participants made the wrong call in one-in-five cases.\n\nThe 20% error rate [27] ____ in the study likely underestimates the extent to which people would struggle to tell an [28] ____ face from the real thing outside of the lab.\n\nThe researchers collected data from participants from both the UK and Japan to [29] ____ any differences according to race. When trial participants were asked to choose between photographs of faces of a different race from theirs, response times were slower and selections were 5% less [30] ____ .\n\nThere are now dozens of criminal cases in which offenders have [31] ____ themselves off as people of a different age, race or gender, sending police investigations down the wrong path.\n\nIn one recent case, an international gang used an [32] ____ realistic mask to pose as a French minister, [33] ____ business executives out of millions of pounds.\n\nDr Jet Sanders, who worked on the study while a PhD student at the University of York, said: \"Failure to detect synthetic faces may have important implications for security and crime prevention as super realistic masks may [34] ____ the key characteristics of a person's appearance to be [35] ____ identified.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "accurate"
+        },
+        {
+          "id": "B",
+          "text": "allow"
+        },
+        {
+          "id": "C",
+          "text": "artificial"
+        },
+        {
+          "id": "D",
+          "text": "cheating"
+        },
+        {
+          "id": "E",
+          "text": "deserted"
+        },
+        {
+          "id": "F",
+          "text": "establish"
+        },
+        {
+          "id": "G",
+          "text": "extremely"
+        },
+        {
+          "id": "H",
+          "text": "immediately"
+        },
+        {
+          "id": "I",
+          "text": "incorrectly"
+        },
+        {
+          "id": "J",
+          "text": "normal"
+        },
+        {
+          "id": "K",
+          "text": "observed"
+        },
+        {
+          "id": "L",
+          "text": "passed"
+        },
+        {
+          "id": "M",
+          "text": "reminding"
+        },
+        {
+          "id": "N",
+          "text": "reparable"
+        },
+        {
+          "id": "O",
+          "text": "resolve"
+        }
+      ],
+      "correctAnswer": "J",
+      "hint": "先看第 26 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 J（normal）。本空所在句：In a study by the Universities of York and Kyoto, researchers asked participants to look at pairs of photographs and decide which showed a [26] ____ face and which showed a person wearing a mask.\n将本空替换为 normal 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-3-nonlistening-q27",
+      "canonicalId": "lazynote-cet4-2024-12-3-q27",
+      "number": 27,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 27 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Super realistic masks are made from flexible materials such as silicone and are designed to imitate real human face—down to every last detail.\n\nIn a study by the Universities of York and Kyoto, researchers asked participants to look at pairs of photographs and decide which showed a [26] ____ face and which showed a person wearing a mask.\n\nSurprisingly, participants made the wrong call in one-in-five cases.\n\nThe 20% error rate [27] ____ in the study likely underestimates the extent to which people would struggle to tell an [28] ____ face from the real thing outside of the lab.\n\nThe researchers collected data from participants from both the UK and Japan to [29] ____ any differences according to race. When trial participants were asked to choose between photographs of faces of a different race from theirs, response times were slower and selections were 5% less [30] ____ .\n\nThere are now dozens of criminal cases in which offenders have [31] ____ themselves off as people of a different age, race or gender, sending police investigations down the wrong path.\n\nIn one recent case, an international gang used an [32] ____ realistic mask to pose as a French minister, [33] ____ business executives out of millions of pounds.\n\nDr Jet Sanders, who worked on the study while a PhD student at the University of York, said: \"Failure to detect synthetic faces may have important implications for security and crime prevention as super realistic masks may [34] ____ the key characteristics of a person's appearance to be [35] ____ identified.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "accurate"
+        },
+        {
+          "id": "B",
+          "text": "allow"
+        },
+        {
+          "id": "C",
+          "text": "artificial"
+        },
+        {
+          "id": "D",
+          "text": "cheating"
+        },
+        {
+          "id": "E",
+          "text": "deserted"
+        },
+        {
+          "id": "F",
+          "text": "establish"
+        },
+        {
+          "id": "G",
+          "text": "extremely"
+        },
+        {
+          "id": "H",
+          "text": "immediately"
+        },
+        {
+          "id": "I",
+          "text": "incorrectly"
+        },
+        {
+          "id": "J",
+          "text": "normal"
+        },
+        {
+          "id": "K",
+          "text": "observed"
+        },
+        {
+          "id": "L",
+          "text": "passed"
+        },
+        {
+          "id": "M",
+          "text": "reminding"
+        },
+        {
+          "id": "N",
+          "text": "reparable"
+        },
+        {
+          "id": "O",
+          "text": "resolve"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "先看第 27 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 K（observed）。本空所在句：The 20% error rate [27] ____ in the study likely underestimates the extent to which people would struggle to tell an [28] ____ face from the real thing outside of the lab.\n将本空替换为 observed 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-3-nonlistening-q28",
+      "canonicalId": "lazynote-cet4-2024-12-3-q28",
+      "number": 28,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 28 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Super realistic masks are made from flexible materials such as silicone and are designed to imitate real human face—down to every last detail.\n\nIn a study by the Universities of York and Kyoto, researchers asked participants to look at pairs of photographs and decide which showed a [26] ____ face and which showed a person wearing a mask.\n\nSurprisingly, participants made the wrong call in one-in-five cases.\n\nThe 20% error rate [27] ____ in the study likely underestimates the extent to which people would struggle to tell an [28] ____ face from the real thing outside of the lab.\n\nThe researchers collected data from participants from both the UK and Japan to [29] ____ any differences according to race. When trial participants were asked to choose between photographs of faces of a different race from theirs, response times were slower and selections were 5% less [30] ____ .\n\nThere are now dozens of criminal cases in which offenders have [31] ____ themselves off as people of a different age, race or gender, sending police investigations down the wrong path.\n\nIn one recent case, an international gang used an [32] ____ realistic mask to pose as a French minister, [33] ____ business executives out of millions of pounds.\n\nDr Jet Sanders, who worked on the study while a PhD student at the University of York, said: \"Failure to detect synthetic faces may have important implications for security and crime prevention as super realistic masks may [34] ____ the key characteristics of a person's appearance to be [35] ____ identified.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "accurate"
+        },
+        {
+          "id": "B",
+          "text": "allow"
+        },
+        {
+          "id": "C",
+          "text": "artificial"
+        },
+        {
+          "id": "D",
+          "text": "cheating"
+        },
+        {
+          "id": "E",
+          "text": "deserted"
+        },
+        {
+          "id": "F",
+          "text": "establish"
+        },
+        {
+          "id": "G",
+          "text": "extremely"
+        },
+        {
+          "id": "H",
+          "text": "immediately"
+        },
+        {
+          "id": "I",
+          "text": "incorrectly"
+        },
+        {
+          "id": "J",
+          "text": "normal"
+        },
+        {
+          "id": "K",
+          "text": "observed"
+        },
+        {
+          "id": "L",
+          "text": "passed"
+        },
+        {
+          "id": "M",
+          "text": "reminding"
+        },
+        {
+          "id": "N",
+          "text": "reparable"
+        },
+        {
+          "id": "O",
+          "text": "resolve"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "先看第 28 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 C（artificial）。本空所在句：The 20% error rate [27] ____ in the study likely underestimates the extent to which people would struggle to tell an [28] ____ face from the real thing outside of the lab.\n将本空替换为 artificial 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-3-nonlistening-q29",
+      "canonicalId": "lazynote-cet4-2024-12-3-q29",
+      "number": 29,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 29 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Super realistic masks are made from flexible materials such as silicone and are designed to imitate real human face—down to every last detail.\n\nIn a study by the Universities of York and Kyoto, researchers asked participants to look at pairs of photographs and decide which showed a [26] ____ face and which showed a person wearing a mask.\n\nSurprisingly, participants made the wrong call in one-in-five cases.\n\nThe 20% error rate [27] ____ in the study likely underestimates the extent to which people would struggle to tell an [28] ____ face from the real thing outside of the lab.\n\nThe researchers collected data from participants from both the UK and Japan to [29] ____ any differences according to race. When trial participants were asked to choose between photographs of faces of a different race from theirs, response times were slower and selections were 5% less [30] ____ .\n\nThere are now dozens of criminal cases in which offenders have [31] ____ themselves off as people of a different age, race or gender, sending police investigations down the wrong path.\n\nIn one recent case, an international gang used an [32] ____ realistic mask to pose as a French minister, [33] ____ business executives out of millions of pounds.\n\nDr Jet Sanders, who worked on the study while a PhD student at the University of York, said: \"Failure to detect synthetic faces may have important implications for security and crime prevention as super realistic masks may [34] ____ the key characteristics of a person's appearance to be [35] ____ identified.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "accurate"
+        },
+        {
+          "id": "B",
+          "text": "allow"
+        },
+        {
+          "id": "C",
+          "text": "artificial"
+        },
+        {
+          "id": "D",
+          "text": "cheating"
+        },
+        {
+          "id": "E",
+          "text": "deserted"
+        },
+        {
+          "id": "F",
+          "text": "establish"
+        },
+        {
+          "id": "G",
+          "text": "extremely"
+        },
+        {
+          "id": "H",
+          "text": "immediately"
+        },
+        {
+          "id": "I",
+          "text": "incorrectly"
+        },
+        {
+          "id": "J",
+          "text": "normal"
+        },
+        {
+          "id": "K",
+          "text": "observed"
+        },
+        {
+          "id": "L",
+          "text": "passed"
+        },
+        {
+          "id": "M",
+          "text": "reminding"
+        },
+        {
+          "id": "N",
+          "text": "reparable"
+        },
+        {
+          "id": "O",
+          "text": "resolve"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "先看第 29 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 F（establish）。本空所在句：The researchers collected data from participants from both the UK and Japan to [29] ____ any differences according to race.\n将本空替换为 establish 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-3-nonlistening-q30",
+      "canonicalId": "lazynote-cet4-2024-12-3-q30",
+      "number": 30,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 30 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Super realistic masks are made from flexible materials such as silicone and are designed to imitate real human face—down to every last detail.\n\nIn a study by the Universities of York and Kyoto, researchers asked participants to look at pairs of photographs and decide which showed a [26] ____ face and which showed a person wearing a mask.\n\nSurprisingly, participants made the wrong call in one-in-five cases.\n\nThe 20% error rate [27] ____ in the study likely underestimates the extent to which people would struggle to tell an [28] ____ face from the real thing outside of the lab.\n\nThe researchers collected data from participants from both the UK and Japan to [29] ____ any differences according to race. When trial participants were asked to choose between photographs of faces of a different race from theirs, response times were slower and selections were 5% less [30] ____ .\n\nThere are now dozens of criminal cases in which offenders have [31] ____ themselves off as people of a different age, race or gender, sending police investigations down the wrong path.\n\nIn one recent case, an international gang used an [32] ____ realistic mask to pose as a French minister, [33] ____ business executives out of millions of pounds.\n\nDr Jet Sanders, who worked on the study while a PhD student at the University of York, said: \"Failure to detect synthetic faces may have important implications for security and crime prevention as super realistic masks may [34] ____ the key characteristics of a person's appearance to be [35] ____ identified.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "accurate"
+        },
+        {
+          "id": "B",
+          "text": "allow"
+        },
+        {
+          "id": "C",
+          "text": "artificial"
+        },
+        {
+          "id": "D",
+          "text": "cheating"
+        },
+        {
+          "id": "E",
+          "text": "deserted"
+        },
+        {
+          "id": "F",
+          "text": "establish"
+        },
+        {
+          "id": "G",
+          "text": "extremely"
+        },
+        {
+          "id": "H",
+          "text": "immediately"
+        },
+        {
+          "id": "I",
+          "text": "incorrectly"
+        },
+        {
+          "id": "J",
+          "text": "normal"
+        },
+        {
+          "id": "K",
+          "text": "observed"
+        },
+        {
+          "id": "L",
+          "text": "passed"
+        },
+        {
+          "id": "M",
+          "text": "reminding"
+        },
+        {
+          "id": "N",
+          "text": "reparable"
+        },
+        {
+          "id": "O",
+          "text": "resolve"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "先看第 30 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 A（accurate）。本空所在句：When trial participants were asked to choose between photographs of faces of a different race from theirs, response times were slower and selections were 5% less [30] ____ .\n将本空替换为 accurate 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-3-nonlistening-q31",
+      "canonicalId": "lazynote-cet4-2024-12-3-q31",
+      "number": 31,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 31 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Super realistic masks are made from flexible materials such as silicone and are designed to imitate real human face—down to every last detail.\n\nIn a study by the Universities of York and Kyoto, researchers asked participants to look at pairs of photographs and decide which showed a [26] ____ face and which showed a person wearing a mask.\n\nSurprisingly, participants made the wrong call in one-in-five cases.\n\nThe 20% error rate [27] ____ in the study likely underestimates the extent to which people would struggle to tell an [28] ____ face from the real thing outside of the lab.\n\nThe researchers collected data from participants from both the UK and Japan to [29] ____ any differences according to race. When trial participants were asked to choose between photographs of faces of a different race from theirs, response times were slower and selections were 5% less [30] ____ .\n\nThere are now dozens of criminal cases in which offenders have [31] ____ themselves off as people of a different age, race or gender, sending police investigations down the wrong path.\n\nIn one recent case, an international gang used an [32] ____ realistic mask to pose as a French minister, [33] ____ business executives out of millions of pounds.\n\nDr Jet Sanders, who worked on the study while a PhD student at the University of York, said: \"Failure to detect synthetic faces may have important implications for security and crime prevention as super realistic masks may [34] ____ the key characteristics of a person's appearance to be [35] ____ identified.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "accurate"
+        },
+        {
+          "id": "B",
+          "text": "allow"
+        },
+        {
+          "id": "C",
+          "text": "artificial"
+        },
+        {
+          "id": "D",
+          "text": "cheating"
+        },
+        {
+          "id": "E",
+          "text": "deserted"
+        },
+        {
+          "id": "F",
+          "text": "establish"
+        },
+        {
+          "id": "G",
+          "text": "extremely"
+        },
+        {
+          "id": "H",
+          "text": "immediately"
+        },
+        {
+          "id": "I",
+          "text": "incorrectly"
+        },
+        {
+          "id": "J",
+          "text": "normal"
+        },
+        {
+          "id": "K",
+          "text": "observed"
+        },
+        {
+          "id": "L",
+          "text": "passed"
+        },
+        {
+          "id": "M",
+          "text": "reminding"
+        },
+        {
+          "id": "N",
+          "text": "reparable"
+        },
+        {
+          "id": "O",
+          "text": "resolve"
+        }
+      ],
+      "correctAnswer": "L",
+      "hint": "先看第 31 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 L（passed）。本空所在句：There are now dozens of criminal cases in which offenders have [31] ____ themselves off as people of a different age, race or gender, sending police investigations down the wrong path.\n将本空替换为 passed 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-3-nonlistening-q32",
+      "canonicalId": "lazynote-cet4-2024-12-3-q32",
+      "number": 32,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 32 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Super realistic masks are made from flexible materials such as silicone and are designed to imitate real human face—down to every last detail.\n\nIn a study by the Universities of York and Kyoto, researchers asked participants to look at pairs of photographs and decide which showed a [26] ____ face and which showed a person wearing a mask.\n\nSurprisingly, participants made the wrong call in one-in-five cases.\n\nThe 20% error rate [27] ____ in the study likely underestimates the extent to which people would struggle to tell an [28] ____ face from the real thing outside of the lab.\n\nThe researchers collected data from participants from both the UK and Japan to [29] ____ any differences according to race. When trial participants were asked to choose between photographs of faces of a different race from theirs, response times were slower and selections were 5% less [30] ____ .\n\nThere are now dozens of criminal cases in which offenders have [31] ____ themselves off as people of a different age, race or gender, sending police investigations down the wrong path.\n\nIn one recent case, an international gang used an [32] ____ realistic mask to pose as a French minister, [33] ____ business executives out of millions of pounds.\n\nDr Jet Sanders, who worked on the study while a PhD student at the University of York, said: \"Failure to detect synthetic faces may have important implications for security and crime prevention as super realistic masks may [34] ____ the key characteristics of a person's appearance to be [35] ____ identified.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "accurate"
+        },
+        {
+          "id": "B",
+          "text": "allow"
+        },
+        {
+          "id": "C",
+          "text": "artificial"
+        },
+        {
+          "id": "D",
+          "text": "cheating"
+        },
+        {
+          "id": "E",
+          "text": "deserted"
+        },
+        {
+          "id": "F",
+          "text": "establish"
+        },
+        {
+          "id": "G",
+          "text": "extremely"
+        },
+        {
+          "id": "H",
+          "text": "immediately"
+        },
+        {
+          "id": "I",
+          "text": "incorrectly"
+        },
+        {
+          "id": "J",
+          "text": "normal"
+        },
+        {
+          "id": "K",
+          "text": "observed"
+        },
+        {
+          "id": "L",
+          "text": "passed"
+        },
+        {
+          "id": "M",
+          "text": "reminding"
+        },
+        {
+          "id": "N",
+          "text": "reparable"
+        },
+        {
+          "id": "O",
+          "text": "resolve"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "先看第 32 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 G（extremely）。本空所在句：In one recent case, an international gang used an [32] ____ realistic mask to pose as a French minister, [33] ____ business executives out of millions of pounds.\n将本空替换为 extremely 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-3-nonlistening-q33",
+      "canonicalId": "lazynote-cet4-2024-12-3-q33",
+      "number": 33,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 33 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Super realistic masks are made from flexible materials such as silicone and are designed to imitate real human face—down to every last detail.\n\nIn a study by the Universities of York and Kyoto, researchers asked participants to look at pairs of photographs and decide which showed a [26] ____ face and which showed a person wearing a mask.\n\nSurprisingly, participants made the wrong call in one-in-five cases.\n\nThe 20% error rate [27] ____ in the study likely underestimates the extent to which people would struggle to tell an [28] ____ face from the real thing outside of the lab.\n\nThe researchers collected data from participants from both the UK and Japan to [29] ____ any differences according to race. When trial participants were asked to choose between photographs of faces of a different race from theirs, response times were slower and selections were 5% less [30] ____ .\n\nThere are now dozens of criminal cases in which offenders have [31] ____ themselves off as people of a different age, race or gender, sending police investigations down the wrong path.\n\nIn one recent case, an international gang used an [32] ____ realistic mask to pose as a French minister, [33] ____ business executives out of millions of pounds.\n\nDr Jet Sanders, who worked on the study while a PhD student at the University of York, said: \"Failure to detect synthetic faces may have important implications for security and crime prevention as super realistic masks may [34] ____ the key characteristics of a person's appearance to be [35] ____ identified.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "accurate"
+        },
+        {
+          "id": "B",
+          "text": "allow"
+        },
+        {
+          "id": "C",
+          "text": "artificial"
+        },
+        {
+          "id": "D",
+          "text": "cheating"
+        },
+        {
+          "id": "E",
+          "text": "deserted"
+        },
+        {
+          "id": "F",
+          "text": "establish"
+        },
+        {
+          "id": "G",
+          "text": "extremely"
+        },
+        {
+          "id": "H",
+          "text": "immediately"
+        },
+        {
+          "id": "I",
+          "text": "incorrectly"
+        },
+        {
+          "id": "J",
+          "text": "normal"
+        },
+        {
+          "id": "K",
+          "text": "observed"
+        },
+        {
+          "id": "L",
+          "text": "passed"
+        },
+        {
+          "id": "M",
+          "text": "reminding"
+        },
+        {
+          "id": "N",
+          "text": "reparable"
+        },
+        {
+          "id": "O",
+          "text": "resolve"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "先看第 33 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 D（cheating）。本空所在句：In one recent case, an international gang used an [32] ____ realistic mask to pose as a French minister, [33] ____ business executives out of millions of pounds.\n将本空替换为 cheating 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-3-nonlistening-q34",
+      "canonicalId": "lazynote-cet4-2024-12-3-q34",
+      "number": 34,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 34 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Super realistic masks are made from flexible materials such as silicone and are designed to imitate real human face—down to every last detail.\n\nIn a study by the Universities of York and Kyoto, researchers asked participants to look at pairs of photographs and decide which showed a [26] ____ face and which showed a person wearing a mask.\n\nSurprisingly, participants made the wrong call in one-in-five cases.\n\nThe 20% error rate [27] ____ in the study likely underestimates the extent to which people would struggle to tell an [28] ____ face from the real thing outside of the lab.\n\nThe researchers collected data from participants from both the UK and Japan to [29] ____ any differences according to race. When trial participants were asked to choose between photographs of faces of a different race from theirs, response times were slower and selections were 5% less [30] ____ .\n\nThere are now dozens of criminal cases in which offenders have [31] ____ themselves off as people of a different age, race or gender, sending police investigations down the wrong path.\n\nIn one recent case, an international gang used an [32] ____ realistic mask to pose as a French minister, [33] ____ business executives out of millions of pounds.\n\nDr Jet Sanders, who worked on the study while a PhD student at the University of York, said: \"Failure to detect synthetic faces may have important implications for security and crime prevention as super realistic masks may [34] ____ the key characteristics of a person's appearance to be [35] ____ identified.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "accurate"
+        },
+        {
+          "id": "B",
+          "text": "allow"
+        },
+        {
+          "id": "C",
+          "text": "artificial"
+        },
+        {
+          "id": "D",
+          "text": "cheating"
+        },
+        {
+          "id": "E",
+          "text": "deserted"
+        },
+        {
+          "id": "F",
+          "text": "establish"
+        },
+        {
+          "id": "G",
+          "text": "extremely"
+        },
+        {
+          "id": "H",
+          "text": "immediately"
+        },
+        {
+          "id": "I",
+          "text": "incorrectly"
+        },
+        {
+          "id": "J",
+          "text": "normal"
+        },
+        {
+          "id": "K",
+          "text": "observed"
+        },
+        {
+          "id": "L",
+          "text": "passed"
+        },
+        {
+          "id": "M",
+          "text": "reminding"
+        },
+        {
+          "id": "N",
+          "text": "reparable"
+        },
+        {
+          "id": "O",
+          "text": "resolve"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "先看第 34 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 B（allow）。本空所在句：Dr Jet Sanders, who worked on the study while a PhD student at the University of York, said: \"Failure to detect synthetic faces may have important implications for security and crime prevention as super realistic masks may [34] ____ the key characteristics of a person's appearance to be [35] ____ identified.\"\n将本空替换为 allow 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-3-nonlistening-q35",
+      "canonicalId": "lazynote-cet4-2024-12-3-q35",
+      "number": 35,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 35 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Super realistic masks are made from flexible materials such as silicone and are designed to imitate real human face—down to every last detail.\n\nIn a study by the Universities of York and Kyoto, researchers asked participants to look at pairs of photographs and decide which showed a [26] ____ face and which showed a person wearing a mask.\n\nSurprisingly, participants made the wrong call in one-in-five cases.\n\nThe 20% error rate [27] ____ in the study likely underestimates the extent to which people would struggle to tell an [28] ____ face from the real thing outside of the lab.\n\nThe researchers collected data from participants from both the UK and Japan to [29] ____ any differences according to race. When trial participants were asked to choose between photographs of faces of a different race from theirs, response times were slower and selections were 5% less [30] ____ .\n\nThere are now dozens of criminal cases in which offenders have [31] ____ themselves off as people of a different age, race or gender, sending police investigations down the wrong path.\n\nIn one recent case, an international gang used an [32] ____ realistic mask to pose as a French minister, [33] ____ business executives out of millions of pounds.\n\nDr Jet Sanders, who worked on the study while a PhD student at the University of York, said: \"Failure to detect synthetic faces may have important implications for security and crime prevention as super realistic masks may [34] ____ the key characteristics of a person's appearance to be [35] ____ identified.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "accurate"
+        },
+        {
+          "id": "B",
+          "text": "allow"
+        },
+        {
+          "id": "C",
+          "text": "artificial"
+        },
+        {
+          "id": "D",
+          "text": "cheating"
+        },
+        {
+          "id": "E",
+          "text": "deserted"
+        },
+        {
+          "id": "F",
+          "text": "establish"
+        },
+        {
+          "id": "G",
+          "text": "extremely"
+        },
+        {
+          "id": "H",
+          "text": "immediately"
+        },
+        {
+          "id": "I",
+          "text": "incorrectly"
+        },
+        {
+          "id": "J",
+          "text": "normal"
+        },
+        {
+          "id": "K",
+          "text": "observed"
+        },
+        {
+          "id": "L",
+          "text": "passed"
+        },
+        {
+          "id": "M",
+          "text": "reminding"
+        },
+        {
+          "id": "N",
+          "text": "reparable"
+        },
+        {
+          "id": "O",
+          "text": "resolve"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "先看第 35 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 I（incorrectly）。本空所在句：Dr Jet Sanders, who worked on the study while a PhD student at the University of York, said: \"Failure to detect synthetic faces may have important implications for security and crime prevention as super realistic masks may [34] ____ the key characteristics of a person's appearance to be [35] ____ identified.\"\n将本空替换为 incorrectly 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-3-nonlistening-q36",
+      "canonicalId": "lazynote-cet4-2024-12-3-q36",
+      "number": 36,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Acquisition of new knowledge may not guarantee the progress that you aim to make.",
+      "passage": "Stop thinking and start doing\n\nA) Most people have a dream in life, a vision of who or what they'd like to be in the future. At a minimum, everyone has interests and values that determine what they want out of their lives. Even so, trying to set achievable goals that you'll work for over the course of many years can be extremely challenging. It can be hard to know where to even begin, and the things you hope to achieve may seem impossible. But, if you're well prepared you may be able to set goals for your life that are just as fulfilling to work toward as to achieve.\n\nB) We all have goals that we want to achieve in our lives. These goals may include learning a new language, eating healthier and losing weight, becoming a better parent, saving more money, and so on. It can be easy to assume that the gap between where you are now and where you want to be in the future is caused by a lack of knowledge. This is why we buy courses on how to start a business or how to lose weight fast or how to learn a new language in three months. We assume that if we knew about a better strategy, then we would get better results. We believe that a new result requires new knowledge.\n\nC) What I'm starting to realize, however, is that new knowledge does not necessarily drive new results. In fact, learning something new can actually be a waste of time if your goal is to make progress and not simply gain additional knowledge.\n\nD) It all comes down to the difference between learning and practicing. Thomas Sterner, in his book *The Practicing Mind*, explains the key difference between practicing and learning. He says: \"When we practice something, we are involved in the deliberate repetition of a process with the intention of reaching a specific goal.\" Here the words \"deliberate\" and \"intention\" are key, because they define the difference between actively practicing something and passively learning it.\n\nE) Learning something new and practicing something new may seem very similar, but these two methods can have profoundly different results. Here are some additional ways to think about the difference. Let's say your goal is to get stronger and more fit. You can research the best instructions on weight lifting technique, but the only way to build strength is to practice lifting weights. Let's say your goal is to grow your startup. You can learn about the best way to make a sales pitch, but the only way to actually land customers is to practice making sales calls. Let's say your goal is to write a book. You can talk to a best-selling author about writing, but the only way to become a better writer is to practice publishing consistently.\n\nF) Passive learning creates knowledge. Active practice creates skill. Let's consider a couple more reasons to prioritize active practice over passive learning. First, passive learning can be a stick that supports inaction. In many cases, learning is actually a way to avoid taking action on the goals and interests that we say are important to us. For example, let's say you want to learn a foreign language. Reading a book on how to learn a foreign language quickly allows you to feel like you are making progress (\"Hey, I'm figuring out the best way to do this!\"). Of course, you're not actually practicing the action that would deliver your desired outcome (speaking the foreign language).\n\nG) In situations like this one, we often claim that we are preparing or researching the best method, but these rationalizations allow us to feel like we are moving forward when we are merely spinning our wheels. We make the mistake of being in motion rather than taking action. Learning is valuable until it becomes a form of procrastination(拖延).\n\nH) Another point to consider is that practice is learning, but learning is not practice. Passive learning is not a form of practice because although you gain new knowledge, you are not discovering how to apply that knowledge. Active practice, meanwhile, is one of the greatest forms of learning because the mistakes you make while practicing reveal important insights.\n\nI) Even more importantly, practice is the only way to make a meaningful contribution with your knowledge. You can watch an online course about how to build a business or read an article about a terrible disaster in a developing nation, but that knowledge is unproductive unless you actually launch your business or donate to those in need. Learning by itself can be valuable for you, but if you want to be valuable to others, then you have to express your knowledge in some way.\n\nJ) The last important point to consider is that practice focuses your energy on the process. Thomas Sterner once said, \"Progress is a natural result of staying focused on the process of doing anything.\" The state of your life right now is a result of the habits and beliefs that you have been practicing each day. When you realize this and begin to direct your focus toward practicing better habits day-in and day-out, continual progress will be the logical outcome. It is not the things we learn nor the dreams we visualize that determine our results, but rather the habits that we practice each day. Fall in love with boredom and focus your energy on the process, not the product.\n\nK) What does this all mean? Is passive learning useless? Of course not. In many cases, learning for the sake of learning can be a beautiful thing. Not to mention that soaking up new information can help you make more informed decisions when you do decide to take action. That said, the main point of this article is that learning by itself does not lead to progress. We often hide behind information and use learning as an excuse to delay the more difficult and more important choice of actually doing something. Spend less time passively learning and more time actively practicing. Stop thinking and start doing.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 C 段。题干：Acquisition of new knowledge may not guarantee the progress that you aim to make.\n核对该段原文：What I'm starting to realize, however, is that new knowledge does not necessarily drive new results. In fact, learning something new can actually be a waste of time if your goal is to make progress and not simply gain additional knowledge.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-3-nonlistening-q37",
+      "canonicalId": "lazynote-cet4-2024-12-3-q37",
+      "number": 37,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Your current situation in life is built on the beliefs and habits you have been practicing daily.",
+      "passage": "Stop thinking and start doing\n\nA) Most people have a dream in life, a vision of who or what they'd like to be in the future. At a minimum, everyone has interests and values that determine what they want out of their lives. Even so, trying to set achievable goals that you'll work for over the course of many years can be extremely challenging. It can be hard to know where to even begin, and the things you hope to achieve may seem impossible. But, if you're well prepared you may be able to set goals for your life that are just as fulfilling to work toward as to achieve.\n\nB) We all have goals that we want to achieve in our lives. These goals may include learning a new language, eating healthier and losing weight, becoming a better parent, saving more money, and so on. It can be easy to assume that the gap between where you are now and where you want to be in the future is caused by a lack of knowledge. This is why we buy courses on how to start a business or how to lose weight fast or how to learn a new language in three months. We assume that if we knew about a better strategy, then we would get better results. We believe that a new result requires new knowledge.\n\nC) What I'm starting to realize, however, is that new knowledge does not necessarily drive new results. In fact, learning something new can actually be a waste of time if your goal is to make progress and not simply gain additional knowledge.\n\nD) It all comes down to the difference between learning and practicing. Thomas Sterner, in his book *The Practicing Mind*, explains the key difference between practicing and learning. He says: \"When we practice something, we are involved in the deliberate repetition of a process with the intention of reaching a specific goal.\" Here the words \"deliberate\" and \"intention\" are key, because they define the difference between actively practicing something and passively learning it.\n\nE) Learning something new and practicing something new may seem very similar, but these two methods can have profoundly different results. Here are some additional ways to think about the difference. Let's say your goal is to get stronger and more fit. You can research the best instructions on weight lifting technique, but the only way to build strength is to practice lifting weights. Let's say your goal is to grow your startup. You can learn about the best way to make a sales pitch, but the only way to actually land customers is to practice making sales calls. Let's say your goal is to write a book. You can talk to a best-selling author about writing, but the only way to become a better writer is to practice publishing consistently.\n\nF) Passive learning creates knowledge. Active practice creates skill. Let's consider a couple more reasons to prioritize active practice over passive learning. First, passive learning can be a stick that supports inaction. In many cases, learning is actually a way to avoid taking action on the goals and interests that we say are important to us. For example, let's say you want to learn a foreign language. Reading a book on how to learn a foreign language quickly allows you to feel like you are making progress (\"Hey, I'm figuring out the best way to do this!\"). Of course, you're not actually practicing the action that would deliver your desired outcome (speaking the foreign language).\n\nG) In situations like this one, we often claim that we are preparing or researching the best method, but these rationalizations allow us to feel like we are moving forward when we are merely spinning our wheels. We make the mistake of being in motion rather than taking action. Learning is valuable until it becomes a form of procrastination(拖延).\n\nH) Another point to consider is that practice is learning, but learning is not practice. Passive learning is not a form of practice because although you gain new knowledge, you are not discovering how to apply that knowledge. Active practice, meanwhile, is one of the greatest forms of learning because the mistakes you make while practicing reveal important insights.\n\nI) Even more importantly, practice is the only way to make a meaningful contribution with your knowledge. You can watch an online course about how to build a business or read an article about a terrible disaster in a developing nation, but that knowledge is unproductive unless you actually launch your business or donate to those in need. Learning by itself can be valuable for you, but if you want to be valuable to others, then you have to express your knowledge in some way.\n\nJ) The last important point to consider is that practice focuses your energy on the process. Thomas Sterner once said, \"Progress is a natural result of staying focused on the process of doing anything.\" The state of your life right now is a result of the habits and beliefs that you have been practicing each day. When you realize this and begin to direct your focus toward practicing better habits day-in and day-out, continual progress will be the logical outcome. It is not the things we learn nor the dreams we visualize that determine our results, but rather the habits that we practice each day. Fall in love with boredom and focus your energy on the process, not the product.\n\nK) What does this all mean? Is passive learning useless? Of course not. In many cases, learning for the sake of learning can be a beautiful thing. Not to mention that soaking up new information can help you make more informed decisions when you do decide to take action. That said, the main point of this article is that learning by itself does not lead to progress. We often hide behind information and use learning as an excuse to delay the more difficult and more important choice of actually doing something. Spend less time passively learning and more time actively practicing. Stop thinking and start doing.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "J",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 J 段。题干：Your current situation in life is built on the beliefs and habits you have been practicing daily.\n核对该段原文：The last important point to consider is that practice focuses your energy on the process. Thomas Sterner once said, \"Progress is a natural result of staying focused on the process of doing anything.\" The state of your life right now is a result of the habits and beliefs that you have been practicing each day. When you realize this and begin to direct your focus toward practicing better habits day-in and day-out, continual progress will be the logical outcome. It is not the things we learn nor the dreams we visualize that determine our results, but rather the habits that we practice each day. Fall in love with boredom and focus your energy on the process, not the product.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-3-nonlistening-q38",
+      "canonicalId": "lazynote-cet4-2024-12-3-q38",
+      "number": 38,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Knowing the best way to learn a foreign language will not enable you to speak it without actual practice.",
+      "passage": "Stop thinking and start doing\n\nA) Most people have a dream in life, a vision of who or what they'd like to be in the future. At a minimum, everyone has interests and values that determine what they want out of their lives. Even so, trying to set achievable goals that you'll work for over the course of many years can be extremely challenging. It can be hard to know where to even begin, and the things you hope to achieve may seem impossible. But, if you're well prepared you may be able to set goals for your life that are just as fulfilling to work toward as to achieve.\n\nB) We all have goals that we want to achieve in our lives. These goals may include learning a new language, eating healthier and losing weight, becoming a better parent, saving more money, and so on. It can be easy to assume that the gap between where you are now and where you want to be in the future is caused by a lack of knowledge. This is why we buy courses on how to start a business or how to lose weight fast or how to learn a new language in three months. We assume that if we knew about a better strategy, then we would get better results. We believe that a new result requires new knowledge.\n\nC) What I'm starting to realize, however, is that new knowledge does not necessarily drive new results. In fact, learning something new can actually be a waste of time if your goal is to make progress and not simply gain additional knowledge.\n\nD) It all comes down to the difference between learning and practicing. Thomas Sterner, in his book *The Practicing Mind*, explains the key difference between practicing and learning. He says: \"When we practice something, we are involved in the deliberate repetition of a process with the intention of reaching a specific goal.\" Here the words \"deliberate\" and \"intention\" are key, because they define the difference between actively practicing something and passively learning it.\n\nE) Learning something new and practicing something new may seem very similar, but these two methods can have profoundly different results. Here are some additional ways to think about the difference. Let's say your goal is to get stronger and more fit. You can research the best instructions on weight lifting technique, but the only way to build strength is to practice lifting weights. Let's say your goal is to grow your startup. You can learn about the best way to make a sales pitch, but the only way to actually land customers is to practice making sales calls. Let's say your goal is to write a book. You can talk to a best-selling author about writing, but the only way to become a better writer is to practice publishing consistently.\n\nF) Passive learning creates knowledge. Active practice creates skill. Let's consider a couple more reasons to prioritize active practice over passive learning. First, passive learning can be a stick that supports inaction. In many cases, learning is actually a way to avoid taking action on the goals and interests that we say are important to us. For example, let's say you want to learn a foreign language. Reading a book on how to learn a foreign language quickly allows you to feel like you are making progress (\"Hey, I'm figuring out the best way to do this!\"). Of course, you're not actually practicing the action that would deliver your desired outcome (speaking the foreign language).\n\nG) In situations like this one, we often claim that we are preparing or researching the best method, but these rationalizations allow us to feel like we are moving forward when we are merely spinning our wheels. We make the mistake of being in motion rather than taking action. Learning is valuable until it becomes a form of procrastination(拖延).\n\nH) Another point to consider is that practice is learning, but learning is not practice. Passive learning is not a form of practice because although you gain new knowledge, you are not discovering how to apply that knowledge. Active practice, meanwhile, is one of the greatest forms of learning because the mistakes you make while practicing reveal important insights.\n\nI) Even more importantly, practice is the only way to make a meaningful contribution with your knowledge. You can watch an online course about how to build a business or read an article about a terrible disaster in a developing nation, but that knowledge is unproductive unless you actually launch your business or donate to those in need. Learning by itself can be valuable for you, but if you want to be valuable to others, then you have to express your knowledge in some way.\n\nJ) The last important point to consider is that practice focuses your energy on the process. Thomas Sterner once said, \"Progress is a natural result of staying focused on the process of doing anything.\" The state of your life right now is a result of the habits and beliefs that you have been practicing each day. When you realize this and begin to direct your focus toward practicing better habits day-in and day-out, continual progress will be the logical outcome. It is not the things we learn nor the dreams we visualize that determine our results, but rather the habits that we practice each day. Fall in love with boredom and focus your energy on the process, not the product.\n\nK) What does this all mean? Is passive learning useless? Of course not. In many cases, learning for the sake of learning can be a beautiful thing. Not to mention that soaking up new information can help you make more informed decisions when you do decide to take action. That said, the main point of this article is that learning by itself does not lead to progress. We often hide behind information and use learning as an excuse to delay the more difficult and more important choice of actually doing something. Spend less time passively learning and more time actively practicing. Stop thinking and start doing.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 F 段。题干：Knowing the best way to learn a foreign language will not enable you to speak it without actual practice.\n核对该段原文：Passive learning creates knowledge. Active practice creates skill. Let's consider a couple more reasons to prioritize active practice over passive learning. First, passive learning can be a stick that supports inaction. In many cases, learning is actually a way to avoid taking action on the goals and interests that we say are important to us. For example, let's say you want to learn a foreign language. Reading a book on how to learn a foreign language quickly allows you to feel like you are making progress (\"Hey, I'm figuring out the best way to do this!\"). Of course, you're not actually practicing the action that would deliver your desired outcome (speaking the foreign language).\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-3-nonlistening-q39",
+      "canonicalId": "lazynote-cet4-2024-12-3-q39",
+      "number": 39,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "People may find it demanding to create a goal which will take a long time to achieve.",
+      "passage": "Stop thinking and start doing\n\nA) Most people have a dream in life, a vision of who or what they'd like to be in the future. At a minimum, everyone has interests and values that determine what they want out of their lives. Even so, trying to set achievable goals that you'll work for over the course of many years can be extremely challenging. It can be hard to know where to even begin, and the things you hope to achieve may seem impossible. But, if you're well prepared you may be able to set goals for your life that are just as fulfilling to work toward as to achieve.\n\nB) We all have goals that we want to achieve in our lives. These goals may include learning a new language, eating healthier and losing weight, becoming a better parent, saving more money, and so on. It can be easy to assume that the gap between where you are now and where you want to be in the future is caused by a lack of knowledge. This is why we buy courses on how to start a business or how to lose weight fast or how to learn a new language in three months. We assume that if we knew about a better strategy, then we would get better results. We believe that a new result requires new knowledge.\n\nC) What I'm starting to realize, however, is that new knowledge does not necessarily drive new results. In fact, learning something new can actually be a waste of time if your goal is to make progress and not simply gain additional knowledge.\n\nD) It all comes down to the difference between learning and practicing. Thomas Sterner, in his book *The Practicing Mind*, explains the key difference between practicing and learning. He says: \"When we practice something, we are involved in the deliberate repetition of a process with the intention of reaching a specific goal.\" Here the words \"deliberate\" and \"intention\" are key, because they define the difference between actively practicing something and passively learning it.\n\nE) Learning something new and practicing something new may seem very similar, but these two methods can have profoundly different results. Here are some additional ways to think about the difference. Let's say your goal is to get stronger and more fit. You can research the best instructions on weight lifting technique, but the only way to build strength is to practice lifting weights. Let's say your goal is to grow your startup. You can learn about the best way to make a sales pitch, but the only way to actually land customers is to practice making sales calls. Let's say your goal is to write a book. You can talk to a best-selling author about writing, but the only way to become a better writer is to practice publishing consistently.\n\nF) Passive learning creates knowledge. Active practice creates skill. Let's consider a couple more reasons to prioritize active practice over passive learning. First, passive learning can be a stick that supports inaction. In many cases, learning is actually a way to avoid taking action on the goals and interests that we say are important to us. For example, let's say you want to learn a foreign language. Reading a book on how to learn a foreign language quickly allows you to feel like you are making progress (\"Hey, I'm figuring out the best way to do this!\"). Of course, you're not actually practicing the action that would deliver your desired outcome (speaking the foreign language).\n\nG) In situations like this one, we often claim that we are preparing or researching the best method, but these rationalizations allow us to feel like we are moving forward when we are merely spinning our wheels. We make the mistake of being in motion rather than taking action. Learning is valuable until it becomes a form of procrastination(拖延).\n\nH) Another point to consider is that practice is learning, but learning is not practice. Passive learning is not a form of practice because although you gain new knowledge, you are not discovering how to apply that knowledge. Active practice, meanwhile, is one of the greatest forms of learning because the mistakes you make while practicing reveal important insights.\n\nI) Even more importantly, practice is the only way to make a meaningful contribution with your knowledge. You can watch an online course about how to build a business or read an article about a terrible disaster in a developing nation, but that knowledge is unproductive unless you actually launch your business or donate to those in need. Learning by itself can be valuable for you, but if you want to be valuable to others, then you have to express your knowledge in some way.\n\nJ) The last important point to consider is that practice focuses your energy on the process. Thomas Sterner once said, \"Progress is a natural result of staying focused on the process of doing anything.\" The state of your life right now is a result of the habits and beliefs that you have been practicing each day. When you realize this and begin to direct your focus toward practicing better habits day-in and day-out, continual progress will be the logical outcome. It is not the things we learn nor the dreams we visualize that determine our results, but rather the habits that we practice each day. Fall in love with boredom and focus your energy on the process, not the product.\n\nK) What does this all mean? Is passive learning useless? Of course not. In many cases, learning for the sake of learning can be a beautiful thing. Not to mention that soaking up new information can help you make more informed decisions when you do decide to take action. That said, the main point of this article is that learning by itself does not lead to progress. We often hide behind information and use learning as an excuse to delay the more difficult and more important choice of actually doing something. Spend less time passively learning and more time actively practicing. Stop thinking and start doing.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 A 段。题干：People may find it demanding to create a goal which will take a long time to achieve.\n核对该段原文：Most people have a dream in life, a vision of who or what they'd like to be in the future. At a minimum, everyone has interests and values that determine what they want out of their lives. Even so, trying to set achievable goals that you'll work for over the course of many years can be extremely challenging. It can be hard to know where to even begin, and the things you hope to achieve may seem impossible. But, if you're well prepared you may be able to set goals for your life that are just as fulfilling to work toward as to achieve.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-3-nonlistening-q40",
+      "canonicalId": "lazynote-cet4-2024-12-3-q40",
+      "number": 40,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Learning and practicing seem to be very much alike, but the two processes can lead to quite different outcomes.",
+      "passage": "Stop thinking and start doing\n\nA) Most people have a dream in life, a vision of who or what they'd like to be in the future. At a minimum, everyone has interests and values that determine what they want out of their lives. Even so, trying to set achievable goals that you'll work for over the course of many years can be extremely challenging. It can be hard to know where to even begin, and the things you hope to achieve may seem impossible. But, if you're well prepared you may be able to set goals for your life that are just as fulfilling to work toward as to achieve.\n\nB) We all have goals that we want to achieve in our lives. These goals may include learning a new language, eating healthier and losing weight, becoming a better parent, saving more money, and so on. It can be easy to assume that the gap between where you are now and where you want to be in the future is caused by a lack of knowledge. This is why we buy courses on how to start a business or how to lose weight fast or how to learn a new language in three months. We assume that if we knew about a better strategy, then we would get better results. We believe that a new result requires new knowledge.\n\nC) What I'm starting to realize, however, is that new knowledge does not necessarily drive new results. In fact, learning something new can actually be a waste of time if your goal is to make progress and not simply gain additional knowledge.\n\nD) It all comes down to the difference between learning and practicing. Thomas Sterner, in his book *The Practicing Mind*, explains the key difference between practicing and learning. He says: \"When we practice something, we are involved in the deliberate repetition of a process with the intention of reaching a specific goal.\" Here the words \"deliberate\" and \"intention\" are key, because they define the difference between actively practicing something and passively learning it.\n\nE) Learning something new and practicing something new may seem very similar, but these two methods can have profoundly different results. Here are some additional ways to think about the difference. Let's say your goal is to get stronger and more fit. You can research the best instructions on weight lifting technique, but the only way to build strength is to practice lifting weights. Let's say your goal is to grow your startup. You can learn about the best way to make a sales pitch, but the only way to actually land customers is to practice making sales calls. Let's say your goal is to write a book. You can talk to a best-selling author about writing, but the only way to become a better writer is to practice publishing consistently.\n\nF) Passive learning creates knowledge. Active practice creates skill. Let's consider a couple more reasons to prioritize active practice over passive learning. First, passive learning can be a stick that supports inaction. In many cases, learning is actually a way to avoid taking action on the goals and interests that we say are important to us. For example, let's say you want to learn a foreign language. Reading a book on how to learn a foreign language quickly allows you to feel like you are making progress (\"Hey, I'm figuring out the best way to do this!\"). Of course, you're not actually practicing the action that would deliver your desired outcome (speaking the foreign language).\n\nG) In situations like this one, we often claim that we are preparing or researching the best method, but these rationalizations allow us to feel like we are moving forward when we are merely spinning our wheels. We make the mistake of being in motion rather than taking action. Learning is valuable until it becomes a form of procrastination(拖延).\n\nH) Another point to consider is that practice is learning, but learning is not practice. Passive learning is not a form of practice because although you gain new knowledge, you are not discovering how to apply that knowledge. Active practice, meanwhile, is one of the greatest forms of learning because the mistakes you make while practicing reveal important insights.\n\nI) Even more importantly, practice is the only way to make a meaningful contribution with your knowledge. You can watch an online course about how to build a business or read an article about a terrible disaster in a developing nation, but that knowledge is unproductive unless you actually launch your business or donate to those in need. Learning by itself can be valuable for you, but if you want to be valuable to others, then you have to express your knowledge in some way.\n\nJ) The last important point to consider is that practice focuses your energy on the process. Thomas Sterner once said, \"Progress is a natural result of staying focused on the process of doing anything.\" The state of your life right now is a result of the habits and beliefs that you have been practicing each day. When you realize this and begin to direct your focus toward practicing better habits day-in and day-out, continual progress will be the logical outcome. It is not the things we learn nor the dreams we visualize that determine our results, but rather the habits that we practice each day. Fall in love with boredom and focus your energy on the process, not the product.\n\nK) What does this all mean? Is passive learning useless? Of course not. In many cases, learning for the sake of learning can be a beautiful thing. Not to mention that soaking up new information can help you make more informed decisions when you do decide to take action. That said, the main point of this article is that learning by itself does not lead to progress. We often hide behind information and use learning as an excuse to delay the more difficult and more important choice of actually doing something. Spend less time passively learning and more time actively practicing. Stop thinking and start doing.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 E 段。题干：Learning and practicing seem to be very much alike, but the two processes can lead to quite different outcomes.\n核对该段原文：Learning something new and practicing something new may seem very similar, but these two methods can have profoundly different results. Here are some additional ways to think about the difference. Let's say your goal is to get stronger and more fit. You can research the best instructions on weight lifting technique, but the only way to build strength is to practice lifting weights. Let's say your goal is to grow your startup. You can learn about the best way to make a sales pitch, but the only way to actually land customers is to practice making sales calls. Let's say your goal is to write a book. You can talk to a best-selling author about writing, but the only way to become a better writer is to practice publishing consistently.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-3-nonlistening-q41",
+      "canonicalId": "lazynote-cet4-2024-12-3-q41",
+      "number": 41,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Absorbing new information is helpful in making better decisions prior to action.",
+      "passage": "Stop thinking and start doing\n\nA) Most people have a dream in life, a vision of who or what they'd like to be in the future. At a minimum, everyone has interests and values that determine what they want out of their lives. Even so, trying to set achievable goals that you'll work for over the course of many years can be extremely challenging. It can be hard to know where to even begin, and the things you hope to achieve may seem impossible. But, if you're well prepared you may be able to set goals for your life that are just as fulfilling to work toward as to achieve.\n\nB) We all have goals that we want to achieve in our lives. These goals may include learning a new language, eating healthier and losing weight, becoming a better parent, saving more money, and so on. It can be easy to assume that the gap between where you are now and where you want to be in the future is caused by a lack of knowledge. This is why we buy courses on how to start a business or how to lose weight fast or how to learn a new language in three months. We assume that if we knew about a better strategy, then we would get better results. We believe that a new result requires new knowledge.\n\nC) What I'm starting to realize, however, is that new knowledge does not necessarily drive new results. In fact, learning something new can actually be a waste of time if your goal is to make progress and not simply gain additional knowledge.\n\nD) It all comes down to the difference between learning and practicing. Thomas Sterner, in his book *The Practicing Mind*, explains the key difference between practicing and learning. He says: \"When we practice something, we are involved in the deliberate repetition of a process with the intention of reaching a specific goal.\" Here the words \"deliberate\" and \"intention\" are key, because they define the difference between actively practicing something and passively learning it.\n\nE) Learning something new and practicing something new may seem very similar, but these two methods can have profoundly different results. Here are some additional ways to think about the difference. Let's say your goal is to get stronger and more fit. You can research the best instructions on weight lifting technique, but the only way to build strength is to practice lifting weights. Let's say your goal is to grow your startup. You can learn about the best way to make a sales pitch, but the only way to actually land customers is to practice making sales calls. Let's say your goal is to write a book. You can talk to a best-selling author about writing, but the only way to become a better writer is to practice publishing consistently.\n\nF) Passive learning creates knowledge. Active practice creates skill. Let's consider a couple more reasons to prioritize active practice over passive learning. First, passive learning can be a stick that supports inaction. In many cases, learning is actually a way to avoid taking action on the goals and interests that we say are important to us. For example, let's say you want to learn a foreign language. Reading a book on how to learn a foreign language quickly allows you to feel like you are making progress (\"Hey, I'm figuring out the best way to do this!\"). Of course, you're not actually practicing the action that would deliver your desired outcome (speaking the foreign language).\n\nG) In situations like this one, we often claim that we are preparing or researching the best method, but these rationalizations allow us to feel like we are moving forward when we are merely spinning our wheels. We make the mistake of being in motion rather than taking action. Learning is valuable until it becomes a form of procrastination(拖延).\n\nH) Another point to consider is that practice is learning, but learning is not practice. Passive learning is not a form of practice because although you gain new knowledge, you are not discovering how to apply that knowledge. Active practice, meanwhile, is one of the greatest forms of learning because the mistakes you make while practicing reveal important insights.\n\nI) Even more importantly, practice is the only way to make a meaningful contribution with your knowledge. You can watch an online course about how to build a business or read an article about a terrible disaster in a developing nation, but that knowledge is unproductive unless you actually launch your business or donate to those in need. Learning by itself can be valuable for you, but if you want to be valuable to others, then you have to express your knowledge in some way.\n\nJ) The last important point to consider is that practice focuses your energy on the process. Thomas Sterner once said, \"Progress is a natural result of staying focused on the process of doing anything.\" The state of your life right now is a result of the habits and beliefs that you have been practicing each day. When you realize this and begin to direct your focus toward practicing better habits day-in and day-out, continual progress will be the logical outcome. It is not the things we learn nor the dreams we visualize that determine our results, but rather the habits that we practice each day. Fall in love with boredom and focus your energy on the process, not the product.\n\nK) What does this all mean? Is passive learning useless? Of course not. In many cases, learning for the sake of learning can be a beautiful thing. Not to mention that soaking up new information can help you make more informed decisions when you do decide to take action. That said, the main point of this article is that learning by itself does not lead to progress. We often hide behind information and use learning as an excuse to delay the more difficult and more important choice of actually doing something. Spend less time passively learning and more time actively practicing. Stop thinking and start doing.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 K 段。题干：Absorbing new information is helpful in making better decisions prior to action.\n核对该段原文：What does this all mean? Is passive learning useless? Of course not. In many cases, learning for the sake of learning can be a beautiful thing. Not to mention that soaking up new information can help you make more informed decisions when you do decide to take action. That said, the main point of this article is that learning by itself does not lead to progress. We often hide behind information and use learning as an excuse to delay the more difficult and more important choice of actually doing something. Spend less time passively learning and more time actively practicing. Stop thinking and start doing.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-3-nonlistening-q42",
+      "canonicalId": "lazynote-cet4-2024-12-3-q42",
+      "number": 42,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Sometimes we may feel like we are making progress by doing some research or making preparations, but actually we are staying at the starting point.",
+      "passage": "Stop thinking and start doing\n\nA) Most people have a dream in life, a vision of who or what they'd like to be in the future. At a minimum, everyone has interests and values that determine what they want out of their lives. Even so, trying to set achievable goals that you'll work for over the course of many years can be extremely challenging. It can be hard to know where to even begin, and the things you hope to achieve may seem impossible. But, if you're well prepared you may be able to set goals for your life that are just as fulfilling to work toward as to achieve.\n\nB) We all have goals that we want to achieve in our lives. These goals may include learning a new language, eating healthier and losing weight, becoming a better parent, saving more money, and so on. It can be easy to assume that the gap between where you are now and where you want to be in the future is caused by a lack of knowledge. This is why we buy courses on how to start a business or how to lose weight fast or how to learn a new language in three months. We assume that if we knew about a better strategy, then we would get better results. We believe that a new result requires new knowledge.\n\nC) What I'm starting to realize, however, is that new knowledge does not necessarily drive new results. In fact, learning something new can actually be a waste of time if your goal is to make progress and not simply gain additional knowledge.\n\nD) It all comes down to the difference between learning and practicing. Thomas Sterner, in his book *The Practicing Mind*, explains the key difference between practicing and learning. He says: \"When we practice something, we are involved in the deliberate repetition of a process with the intention of reaching a specific goal.\" Here the words \"deliberate\" and \"intention\" are key, because they define the difference between actively practicing something and passively learning it.\n\nE) Learning something new and practicing something new may seem very similar, but these two methods can have profoundly different results. Here are some additional ways to think about the difference. Let's say your goal is to get stronger and more fit. You can research the best instructions on weight lifting technique, but the only way to build strength is to practice lifting weights. Let's say your goal is to grow your startup. You can learn about the best way to make a sales pitch, but the only way to actually land customers is to practice making sales calls. Let's say your goal is to write a book. You can talk to a best-selling author about writing, but the only way to become a better writer is to practice publishing consistently.\n\nF) Passive learning creates knowledge. Active practice creates skill. Let's consider a couple more reasons to prioritize active practice over passive learning. First, passive learning can be a stick that supports inaction. In many cases, learning is actually a way to avoid taking action on the goals and interests that we say are important to us. For example, let's say you want to learn a foreign language. Reading a book on how to learn a foreign language quickly allows you to feel like you are making progress (\"Hey, I'm figuring out the best way to do this!\"). Of course, you're not actually practicing the action that would deliver your desired outcome (speaking the foreign language).\n\nG) In situations like this one, we often claim that we are preparing or researching the best method, but these rationalizations allow us to feel like we are moving forward when we are merely spinning our wheels. We make the mistake of being in motion rather than taking action. Learning is valuable until it becomes a form of procrastination(拖延).\n\nH) Another point to consider is that practice is learning, but learning is not practice. Passive learning is not a form of practice because although you gain new knowledge, you are not discovering how to apply that knowledge. Active practice, meanwhile, is one of the greatest forms of learning because the mistakes you make while practicing reveal important insights.\n\nI) Even more importantly, practice is the only way to make a meaningful contribution with your knowledge. You can watch an online course about how to build a business or read an article about a terrible disaster in a developing nation, but that knowledge is unproductive unless you actually launch your business or donate to those in need. Learning by itself can be valuable for you, but if you want to be valuable to others, then you have to express your knowledge in some way.\n\nJ) The last important point to consider is that practice focuses your energy on the process. Thomas Sterner once said, \"Progress is a natural result of staying focused on the process of doing anything.\" The state of your life right now is a result of the habits and beliefs that you have been practicing each day. When you realize this and begin to direct your focus toward practicing better habits day-in and day-out, continual progress will be the logical outcome. It is not the things we learn nor the dreams we visualize that determine our results, but rather the habits that we practice each day. Fall in love with boredom and focus your energy on the process, not the product.\n\nK) What does this all mean? Is passive learning useless? Of course not. In many cases, learning for the sake of learning can be a beautiful thing. Not to mention that soaking up new information can help you make more informed decisions when you do decide to take action. That said, the main point of this article is that learning by itself does not lead to progress. We often hide behind information and use learning as an excuse to delay the more difficult and more important choice of actually doing something. Spend less time passively learning and more time actively practicing. Stop thinking and start doing.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 G 段。题干：Sometimes we may feel like we are making progress by doing some research or making preparations, but actually we are staying at the starting point.\n核对该段原文：In situations like this one, we often claim that we are preparing or researching the best method, but these rationalizations allow us to feel like we are moving forward when we are merely spinning our wheels. We make the mistake of being in motion rather than taking action. Learning is valuable until it becomes a form of procrastination(拖延).\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-3-nonlistening-q43",
+      "canonicalId": "lazynote-cet4-2024-12-3-q43",
+      "number": 43,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "We are inclined to think that a lack of knowledge prevents us from advancing to a better future.",
+      "passage": "Stop thinking and start doing\n\nA) Most people have a dream in life, a vision of who or what they'd like to be in the future. At a minimum, everyone has interests and values that determine what they want out of their lives. Even so, trying to set achievable goals that you'll work for over the course of many years can be extremely challenging. It can be hard to know where to even begin, and the things you hope to achieve may seem impossible. But, if you're well prepared you may be able to set goals for your life that are just as fulfilling to work toward as to achieve.\n\nB) We all have goals that we want to achieve in our lives. These goals may include learning a new language, eating healthier and losing weight, becoming a better parent, saving more money, and so on. It can be easy to assume that the gap between where you are now and where you want to be in the future is caused by a lack of knowledge. This is why we buy courses on how to start a business or how to lose weight fast or how to learn a new language in three months. We assume that if we knew about a better strategy, then we would get better results. We believe that a new result requires new knowledge.\n\nC) What I'm starting to realize, however, is that new knowledge does not necessarily drive new results. In fact, learning something new can actually be a waste of time if your goal is to make progress and not simply gain additional knowledge.\n\nD) It all comes down to the difference between learning and practicing. Thomas Sterner, in his book *The Practicing Mind*, explains the key difference between practicing and learning. He says: \"When we practice something, we are involved in the deliberate repetition of a process with the intention of reaching a specific goal.\" Here the words \"deliberate\" and \"intention\" are key, because they define the difference between actively practicing something and passively learning it.\n\nE) Learning something new and practicing something new may seem very similar, but these two methods can have profoundly different results. Here are some additional ways to think about the difference. Let's say your goal is to get stronger and more fit. You can research the best instructions on weight lifting technique, but the only way to build strength is to practice lifting weights. Let's say your goal is to grow your startup. You can learn about the best way to make a sales pitch, but the only way to actually land customers is to practice making sales calls. Let's say your goal is to write a book. You can talk to a best-selling author about writing, but the only way to become a better writer is to practice publishing consistently.\n\nF) Passive learning creates knowledge. Active practice creates skill. Let's consider a couple more reasons to prioritize active practice over passive learning. First, passive learning can be a stick that supports inaction. In many cases, learning is actually a way to avoid taking action on the goals and interests that we say are important to us. For example, let's say you want to learn a foreign language. Reading a book on how to learn a foreign language quickly allows you to feel like you are making progress (\"Hey, I'm figuring out the best way to do this!\"). Of course, you're not actually practicing the action that would deliver your desired outcome (speaking the foreign language).\n\nG) In situations like this one, we often claim that we are preparing or researching the best method, but these rationalizations allow us to feel like we are moving forward when we are merely spinning our wheels. We make the mistake of being in motion rather than taking action. Learning is valuable until it becomes a form of procrastination(拖延).\n\nH) Another point to consider is that practice is learning, but learning is not practice. Passive learning is not a form of practice because although you gain new knowledge, you are not discovering how to apply that knowledge. Active practice, meanwhile, is one of the greatest forms of learning because the mistakes you make while practicing reveal important insights.\n\nI) Even more importantly, practice is the only way to make a meaningful contribution with your knowledge. You can watch an online course about how to build a business or read an article about a terrible disaster in a developing nation, but that knowledge is unproductive unless you actually launch your business or donate to those in need. Learning by itself can be valuable for you, but if you want to be valuable to others, then you have to express your knowledge in some way.\n\nJ) The last important point to consider is that practice focuses your energy on the process. Thomas Sterner once said, \"Progress is a natural result of staying focused on the process of doing anything.\" The state of your life right now is a result of the habits and beliefs that you have been practicing each day. When you realize this and begin to direct your focus toward practicing better habits day-in and day-out, continual progress will be the logical outcome. It is not the things we learn nor the dreams we visualize that determine our results, but rather the habits that we practice each day. Fall in love with boredom and focus your energy on the process, not the product.\n\nK) What does this all mean? Is passive learning useless? Of course not. In many cases, learning for the sake of learning can be a beautiful thing. Not to mention that soaking up new information can help you make more informed decisions when you do decide to take action. That said, the main point of this article is that learning by itself does not lead to progress. We often hide behind information and use learning as an excuse to delay the more difficult and more important choice of actually doing something. Spend less time passively learning and more time actively practicing. Stop thinking and start doing.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 B 段。题干：We are inclined to think that a lack of knowledge prevents us from advancing to a better future.\n核对该段原文：We all have goals that we want to achieve in our lives. These goals may include learning a new language, eating healthier and losing weight, becoming a better parent, saving more money, and so on. It can be easy to assume that the gap between where you are now and where you want to be in the future is caused by a lack of knowledge. This is why we buy courses on how to start a business or how to lose weight fast or how to learn a new language in three months. We assume that if we knew about a better strategy, then we would get better results. We believe that a new result requires new knowledge.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-3-nonlistening-q44",
+      "canonicalId": "lazynote-cet4-2024-12-3-q44",
+      "number": 44,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Learning can benefit you by itself, but only practice can turn what you learn into meaningful contributions.",
+      "passage": "Stop thinking and start doing\n\nA) Most people have a dream in life, a vision of who or what they'd like to be in the future. At a minimum, everyone has interests and values that determine what they want out of their lives. Even so, trying to set achievable goals that you'll work for over the course of many years can be extremely challenging. It can be hard to know where to even begin, and the things you hope to achieve may seem impossible. But, if you're well prepared you may be able to set goals for your life that are just as fulfilling to work toward as to achieve.\n\nB) We all have goals that we want to achieve in our lives. These goals may include learning a new language, eating healthier and losing weight, becoming a better parent, saving more money, and so on. It can be easy to assume that the gap between where you are now and where you want to be in the future is caused by a lack of knowledge. This is why we buy courses on how to start a business or how to lose weight fast or how to learn a new language in three months. We assume that if we knew about a better strategy, then we would get better results. We believe that a new result requires new knowledge.\n\nC) What I'm starting to realize, however, is that new knowledge does not necessarily drive new results. In fact, learning something new can actually be a waste of time if your goal is to make progress and not simply gain additional knowledge.\n\nD) It all comes down to the difference between learning and practicing. Thomas Sterner, in his book *The Practicing Mind*, explains the key difference between practicing and learning. He says: \"When we practice something, we are involved in the deliberate repetition of a process with the intention of reaching a specific goal.\" Here the words \"deliberate\" and \"intention\" are key, because they define the difference between actively practicing something and passively learning it.\n\nE) Learning something new and practicing something new may seem very similar, but these two methods can have profoundly different results. Here are some additional ways to think about the difference. Let's say your goal is to get stronger and more fit. You can research the best instructions on weight lifting technique, but the only way to build strength is to practice lifting weights. Let's say your goal is to grow your startup. You can learn about the best way to make a sales pitch, but the only way to actually land customers is to practice making sales calls. Let's say your goal is to write a book. You can talk to a best-selling author about writing, but the only way to become a better writer is to practice publishing consistently.\n\nF) Passive learning creates knowledge. Active practice creates skill. Let's consider a couple more reasons to prioritize active practice over passive learning. First, passive learning can be a stick that supports inaction. In many cases, learning is actually a way to avoid taking action on the goals and interests that we say are important to us. For example, let's say you want to learn a foreign language. Reading a book on how to learn a foreign language quickly allows you to feel like you are making progress (\"Hey, I'm figuring out the best way to do this!\"). Of course, you're not actually practicing the action that would deliver your desired outcome (speaking the foreign language).\n\nG) In situations like this one, we often claim that we are preparing or researching the best method, but these rationalizations allow us to feel like we are moving forward when we are merely spinning our wheels. We make the mistake of being in motion rather than taking action. Learning is valuable until it becomes a form of procrastination(拖延).\n\nH) Another point to consider is that practice is learning, but learning is not practice. Passive learning is not a form of practice because although you gain new knowledge, you are not discovering how to apply that knowledge. Active practice, meanwhile, is one of the greatest forms of learning because the mistakes you make while practicing reveal important insights.\n\nI) Even more importantly, practice is the only way to make a meaningful contribution with your knowledge. You can watch an online course about how to build a business or read an article about a terrible disaster in a developing nation, but that knowledge is unproductive unless you actually launch your business or donate to those in need. Learning by itself can be valuable for you, but if you want to be valuable to others, then you have to express your knowledge in some way.\n\nJ) The last important point to consider is that practice focuses your energy on the process. Thomas Sterner once said, \"Progress is a natural result of staying focused on the process of doing anything.\" The state of your life right now is a result of the habits and beliefs that you have been practicing each day. When you realize this and begin to direct your focus toward practicing better habits day-in and day-out, continual progress will be the logical outcome. It is not the things we learn nor the dreams we visualize that determine our results, but rather the habits that we practice each day. Fall in love with boredom and focus your energy on the process, not the product.\n\nK) What does this all mean? Is passive learning useless? Of course not. In many cases, learning for the sake of learning can be a beautiful thing. Not to mention that soaking up new information can help you make more informed decisions when you do decide to take action. That said, the main point of this article is that learning by itself does not lead to progress. We often hide behind information and use learning as an excuse to delay the more difficult and more important choice of actually doing something. Spend less time passively learning and more time actively practicing. Stop thinking and start doing.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 I 段。题干：Learning can benefit you by itself, but only practice can turn what you learn into meaningful contributions.\n核对该段原文：Even more importantly, practice is the only way to make a meaningful contribution with your knowledge. You can watch an online course about how to build a business or read an article about a terrible disaster in a developing nation, but that knowledge is unproductive unless you actually launch your business or donate to those in need. Learning by itself can be valuable for you, but if you want to be valuable to others, then you have to express your knowledge in some way.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-3-nonlistening-q45",
+      "canonicalId": "lazynote-cet4-2024-12-3-q45",
+      "number": 45,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Practice involves repeating a process intentionally to attain a particular objective.",
+      "passage": "Stop thinking and start doing\n\nA) Most people have a dream in life, a vision of who or what they'd like to be in the future. At a minimum, everyone has interests and values that determine what they want out of their lives. Even so, trying to set achievable goals that you'll work for over the course of many years can be extremely challenging. It can be hard to know where to even begin, and the things you hope to achieve may seem impossible. But, if you're well prepared you may be able to set goals for your life that are just as fulfilling to work toward as to achieve.\n\nB) We all have goals that we want to achieve in our lives. These goals may include learning a new language, eating healthier and losing weight, becoming a better parent, saving more money, and so on. It can be easy to assume that the gap between where you are now and where you want to be in the future is caused by a lack of knowledge. This is why we buy courses on how to start a business or how to lose weight fast or how to learn a new language in three months. We assume that if we knew about a better strategy, then we would get better results. We believe that a new result requires new knowledge.\n\nC) What I'm starting to realize, however, is that new knowledge does not necessarily drive new results. In fact, learning something new can actually be a waste of time if your goal is to make progress and not simply gain additional knowledge.\n\nD) It all comes down to the difference between learning and practicing. Thomas Sterner, in his book *The Practicing Mind*, explains the key difference between practicing and learning. He says: \"When we practice something, we are involved in the deliberate repetition of a process with the intention of reaching a specific goal.\" Here the words \"deliberate\" and \"intention\" are key, because they define the difference between actively practicing something and passively learning it.\n\nE) Learning something new and practicing something new may seem very similar, but these two methods can have profoundly different results. Here are some additional ways to think about the difference. Let's say your goal is to get stronger and more fit. You can research the best instructions on weight lifting technique, but the only way to build strength is to practice lifting weights. Let's say your goal is to grow your startup. You can learn about the best way to make a sales pitch, but the only way to actually land customers is to practice making sales calls. Let's say your goal is to write a book. You can talk to a best-selling author about writing, but the only way to become a better writer is to practice publishing consistently.\n\nF) Passive learning creates knowledge. Active practice creates skill. Let's consider a couple more reasons to prioritize active practice over passive learning. First, passive learning can be a stick that supports inaction. In many cases, learning is actually a way to avoid taking action on the goals and interests that we say are important to us. For example, let's say you want to learn a foreign language. Reading a book on how to learn a foreign language quickly allows you to feel like you are making progress (\"Hey, I'm figuring out the best way to do this!\"). Of course, you're not actually practicing the action that would deliver your desired outcome (speaking the foreign language).\n\nG) In situations like this one, we often claim that we are preparing or researching the best method, but these rationalizations allow us to feel like we are moving forward when we are merely spinning our wheels. We make the mistake of being in motion rather than taking action. Learning is valuable until it becomes a form of procrastination(拖延).\n\nH) Another point to consider is that practice is learning, but learning is not practice. Passive learning is not a form of practice because although you gain new knowledge, you are not discovering how to apply that knowledge. Active practice, meanwhile, is one of the greatest forms of learning because the mistakes you make while practicing reveal important insights.\n\nI) Even more importantly, practice is the only way to make a meaningful contribution with your knowledge. You can watch an online course about how to build a business or read an article about a terrible disaster in a developing nation, but that knowledge is unproductive unless you actually launch your business or donate to those in need. Learning by itself can be valuable for you, but if you want to be valuable to others, then you have to express your knowledge in some way.\n\nJ) The last important point to consider is that practice focuses your energy on the process. Thomas Sterner once said, \"Progress is a natural result of staying focused on the process of doing anything.\" The state of your life right now is a result of the habits and beliefs that you have been practicing each day. When you realize this and begin to direct your focus toward practicing better habits day-in and day-out, continual progress will be the logical outcome. It is not the things we learn nor the dreams we visualize that determine our results, but rather the habits that we practice each day. Fall in love with boredom and focus your energy on the process, not the product.\n\nK) What does this all mean? Is passive learning useless? Of course not. In many cases, learning for the sake of learning can be a beautiful thing. Not to mention that soaking up new information can help you make more informed decisions when you do decide to take action. That said, the main point of this article is that learning by itself does not lead to progress. We often hide behind information and use learning as an excuse to delay the more difficult and more important choice of actually doing something. Spend less time passively learning and more time actively practicing. Stop thinking and start doing.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 D 段。题干：Practice involves repeating a process intentionally to attain a particular objective.\n核对该段原文：It all comes down to the difference between learning and practicing. Thomas Sterner, in his book *The Practicing Mind*, explains the key difference between practicing and learning. He says: \"When we practice something, we are involved in the deliberate repetition of a process with the intention of reaching a specific goal.\" Here the words \"deliberate\" and \"intention\" are key, because they define the difference between actively practicing something and passively learning it.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-3-nonlistening-q46",
+      "canonicalId": "lazynote-cet4-2024-12-3-q46",
+      "number": 46,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn from research in human-vehicle interaction?",
+      "passage": "Research in human-vehicle interaction has shown even systems designed to automate driving are far from being error-proof. Recent evidence points to drivers' limited understanding of what these systems can and cannot do as a contributing factor to system misuse. A recent study tackles the issue of over-trusting drivers and the resulting system misuse from a legal viewpoint. It looks at what the manufacturers of self-driving cars should legally do to ensure that drivers understand how to use the vehicles appropriately.\n\nOne solution suggested in the study involves requiring buyers to sign end-user license agreements (EULAs), similar to the terms and conditions that require agreement when using new software products. But this is far from ideal. The agreement may not provide enough information to the driver, leading to confusion about the nature of the requests for agreement and their implications. Further, most end users don't read EULAs. A 2017 study shows 91 percent of people agree to them without reading. Among young people, 97 percent agree without reviewing the terms.\n\nThe issue is that, unlike using a smartphone app, operating a car has serious safety risks, whether the driver is human or software. And human drivers need to consent to take responsibility for the outcomes of the software and hardware.\n\n\"Warning fatigue\" and distracted driving are also causes for concern. For example, a driver, annoyed after receiving continuous warnings, could decide to just ignore the message. Or, if the message is presented while the vehicle is in motion, it could represent a distraction. Given these limitations and concerns, even if this mode of obtaining consent is to move forward, it likely won't fully protect automakers from their legal liability should the system malfunction(发生故障) or an accident occur.\n\nDriver training for self-driving vehicles can help ensure that drivers fully understand system capabilities and limitations. This needs to occur beyond the vehicle purchase. Recent evidence shows even relying on the information provided by the seller is not going to answer many questions. All of this considered, the road forward for self-driving cars is not going to be a smooth ride after all.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Automatic driving systems are by no means immune to errors."
+        },
+        {
+          "id": "B",
+          "text": "Driverless vehicles are likely to be misused by some people."
+        },
+        {
+          "id": "C",
+          "text": "Self-driving car manufacturers are not aware of the legal matters involved."
+        },
+        {
+          "id": "D",
+          "text": "There is a long way to go before humans can interact with driverless vehicles."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：Automatic driving systems are by no means immune to errors.\n关键词检索定位到第 1 段的候选相关句：Research in human-vehicle interaction has shown even systems designed to automate driving are far from being error-proof.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-3-nonlistening-q47",
+      "canonicalId": "lazynote-cet4-2024-12-3-q47",
+      "number": 47,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What is the problem with requiring buyers to sign end-user license agreements?",
+      "passage": "Research in human-vehicle interaction has shown even systems designed to automate driving are far from being error-proof. Recent evidence points to drivers' limited understanding of what these systems can and cannot do as a contributing factor to system misuse. A recent study tackles the issue of over-trusting drivers and the resulting system misuse from a legal viewpoint. It looks at what the manufacturers of self-driving cars should legally do to ensure that drivers understand how to use the vehicles appropriately.\n\nOne solution suggested in the study involves requiring buyers to sign end-user license agreements (EULAs), similar to the terms and conditions that require agreement when using new software products. But this is far from ideal. The agreement may not provide enough information to the driver, leading to confusion about the nature of the requests for agreement and their implications. Further, most end users don't read EULAs. A 2017 study shows 91 percent of people agree to them without reading. Among young people, 97 percent agree without reviewing the terms.\n\nThe issue is that, unlike using a smartphone app, operating a car has serious safety risks, whether the driver is human or software. And human drivers need to consent to take responsibility for the outcomes of the software and hardware.\n\n\"Warning fatigue\" and distracted driving are also causes for concern. For example, a driver, annoyed after receiving continuous warnings, could decide to just ignore the message. Or, if the message is presented while the vehicle is in motion, it could represent a distraction. Given these limitations and concerns, even if this mode of obtaining consent is to move forward, it likely won't fully protect automakers from their legal liability should the system malfunction(发生故障) or an accident occur.\n\nDriver training for self-driving vehicles can help ensure that drivers fully understand system capabilities and limitations. This needs to occur beyond the vehicle purchase. Recent evidence shows even relying on the information provided by the seller is not going to answer many questions. All of this considered, the road forward for self-driving cars is not going to be a smooth ride after all.",
+      "options": [
+        {
+          "id": "A",
+          "text": "End users, young and old alike, find the terms complex to interpret."
+        },
+        {
+          "id": "B",
+          "text": "Most end users sign them without bothering to read the terms."
+        },
+        {
+          "id": "C",
+          "text": "Many people are often confused by the wording of the terms."
+        },
+        {
+          "id": "D",
+          "text": "Most end users do not understand the terms after reading them through."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：Most end users sign them without bothering to read the terms.\n关键词检索定位到第 2 段的候选相关句：One solution suggested in the study involves requiring buyers to sign end-user license agreements (EULAs), similar to the terms and conditions that require agreement when using new software products.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-3-nonlistening-q48",
+      "canonicalId": "lazynote-cet4-2024-12-3-q48",
+      "number": 48,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What would drivers do when they suffer from \"warning fatigue\"?",
+      "passage": "Research in human-vehicle interaction has shown even systems designed to automate driving are far from being error-proof. Recent evidence points to drivers' limited understanding of what these systems can and cannot do as a contributing factor to system misuse. A recent study tackles the issue of over-trusting drivers and the resulting system misuse from a legal viewpoint. It looks at what the manufacturers of self-driving cars should legally do to ensure that drivers understand how to use the vehicles appropriately.\n\nOne solution suggested in the study involves requiring buyers to sign end-user license agreements (EULAs), similar to the terms and conditions that require agreement when using new software products. But this is far from ideal. The agreement may not provide enough information to the driver, leading to confusion about the nature of the requests for agreement and their implications. Further, most end users don't read EULAs. A 2017 study shows 91 percent of people agree to them without reading. Among young people, 97 percent agree without reviewing the terms.\n\nThe issue is that, unlike using a smartphone app, operating a car has serious safety risks, whether the driver is human or software. And human drivers need to consent to take responsibility for the outcomes of the software and hardware.\n\n\"Warning fatigue\" and distracted driving are also causes for concern. For example, a driver, annoyed after receiving continuous warnings, could decide to just ignore the message. Or, if the message is presented while the vehicle is in motion, it could represent a distraction. Given these limitations and concerns, even if this mode of obtaining consent is to move forward, it likely won't fully protect automakers from their legal liability should the system malfunction(发生故障) or an accident occur.\n\nDriver training for self-driving vehicles can help ensure that drivers fully understand system capabilities and limitations. This needs to occur beyond the vehicle purchase. Recent evidence shows even relying on the information provided by the seller is not going to answer many questions. All of this considered, the road forward for self-driving cars is not going to be a smooth ride after all.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Waste no time keeping the car moving."
+        },
+        {
+          "id": "B",
+          "text": "Rest a while to avoid fatigue driving."
+        },
+        {
+          "id": "C",
+          "text": "Take no action despite repeated warnings."
+        },
+        {
+          "id": "D",
+          "text": "Take note of the message though fatigued."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：Take no action despite repeated warnings.\n关键词检索定位到第 3 段的候选相关句：And human drivers need to consent to take responsibility for the outcomes of the software and hardware.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-3-nonlistening-q49",
+      "canonicalId": "lazynote-cet4-2024-12-3-q49",
+      "number": 49,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author think of continuing to ask buyers to sign end-user license agreements?",
+      "passage": "Research in human-vehicle interaction has shown even systems designed to automate driving are far from being error-proof. Recent evidence points to drivers' limited understanding of what these systems can and cannot do as a contributing factor to system misuse. A recent study tackles the issue of over-trusting drivers and the resulting system misuse from a legal viewpoint. It looks at what the manufacturers of self-driving cars should legally do to ensure that drivers understand how to use the vehicles appropriately.\n\nOne solution suggested in the study involves requiring buyers to sign end-user license agreements (EULAs), similar to the terms and conditions that require agreement when using new software products. But this is far from ideal. The agreement may not provide enough information to the driver, leading to confusion about the nature of the requests for agreement and their implications. Further, most end users don't read EULAs. A 2017 study shows 91 percent of people agree to them without reading. Among young people, 97 percent agree without reviewing the terms.\n\nThe issue is that, unlike using a smartphone app, operating a car has serious safety risks, whether the driver is human or software. And human drivers need to consent to take responsibility for the outcomes of the software and hardware.\n\n\"Warning fatigue\" and distracted driving are also causes for concern. For example, a driver, annoyed after receiving continuous warnings, could decide to just ignore the message. Or, if the message is presented while the vehicle is in motion, it could represent a distraction. Given these limitations and concerns, even if this mode of obtaining consent is to move forward, it likely won't fully protect automakers from their legal liability should the system malfunction(发生故障) or an accident occur.\n\nDriver training for self-driving vehicles can help ensure that drivers fully understand system capabilities and limitations. This needs to occur beyond the vehicle purchase. Recent evidence shows even relying on the information provided by the seller is not going to answer many questions. All of this considered, the road forward for self-driving cars is not going to be a smooth ride after all.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It will probably not guarantee the safety of drivers in case of accidents."
+        },
+        {
+          "id": "B",
+          "text": "It likely won't ensure that the automatic driving system functions properly."
+        },
+        {
+          "id": "C",
+          "text": "It likely won't fully protect automakers against accusations of deliberate cheating."
+        },
+        {
+          "id": "D",
+          "text": "It will probably not provide manufacturers adequate protection from legal responsibilities."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：It will probably not provide manufacturers adequate protection from legal responsibilities.\n关键词检索定位到第 2 段的候选相关句：One solution suggested in the study involves requiring buyers to sign end-user license agreements (EULAs), similar to the terms and conditions that require agreement when using new software products.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-3-nonlistening-q50",
+      "canonicalId": "lazynote-cet4-2024-12-3-q50",
+      "number": 50,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What should be done to help drivers fully understand system capabilities and limitations?",
+      "passage": "Research in human-vehicle interaction has shown even systems designed to automate driving are far from being error-proof. Recent evidence points to drivers' limited understanding of what these systems can and cannot do as a contributing factor to system misuse. A recent study tackles the issue of over-trusting drivers and the resulting system misuse from a legal viewpoint. It looks at what the manufacturers of self-driving cars should legally do to ensure that drivers understand how to use the vehicles appropriately.\n\nOne solution suggested in the study involves requiring buyers to sign end-user license agreements (EULAs), similar to the terms and conditions that require agreement when using new software products. But this is far from ideal. The agreement may not provide enough information to the driver, leading to confusion about the nature of the requests for agreement and their implications. Further, most end users don't read EULAs. A 2017 study shows 91 percent of people agree to them without reading. Among young people, 97 percent agree without reviewing the terms.\n\nThe issue is that, unlike using a smartphone app, operating a car has serious safety risks, whether the driver is human or software. And human drivers need to consent to take responsibility for the outcomes of the software and hardware.\n\n\"Warning fatigue\" and distracted driving are also causes for concern. For example, a driver, annoyed after receiving continuous warnings, could decide to just ignore the message. Or, if the message is presented while the vehicle is in motion, it could represent a distraction. Given these limitations and concerns, even if this mode of obtaining consent is to move forward, it likely won't fully protect automakers from their legal liability should the system malfunction(发生故障) or an accident occur.\n\nDriver training for self-driving vehicles can help ensure that drivers fully understand system capabilities and limitations. This needs to occur beyond the vehicle purchase. Recent evidence shows even relying on the information provided by the seller is not going to answer many questions. All of this considered, the road forward for self-driving cars is not going to be a smooth ride after all.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Training them to be experts in vehicle automation."
+        },
+        {
+          "id": "B",
+          "text": "Familiarizing them with the systems through training."
+        },
+        {
+          "id": "C",
+          "text": "Broadening their knowledge of accident-prevention mechanisms."
+        },
+        {
+          "id": "D",
+          "text": "Facilitating their access to the information provided by the seller."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：Familiarizing them with the systems through training.\n关键词检索定位到第 5 段的候选相关句：Driver training for self-driving vehicles can help ensure that drivers fully understand system capabilities and limitations.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-3-nonlistening-q51",
+      "canonicalId": "lazynote-cet4-2024-12-3-q51",
+      "number": 51,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn about publicity over protein in America?",
+      "passage": "Do you ever blend up a protein drink for breakfast, or grab a protein bar following an afternoon workout? If so, you are likely among the millions of people in search of more protein-rich diets.\n\nProtein-enriched products are found everywhere. But contrary to all the publicity that everyone needs more protein, most Americans get twice as much as they need.\n\nMany of us living in the most developed countries are buying into a myth of protein deficiency created by food companies and self-identified health experts. Global retail sales of protein supplement products reached an astonishing US$18.9 billion in 2020.\n\nBut are we really in need of more protein? Physicians in the U.S. have never actually examined a patient with protein deficiency because simply by eating an adequate number of daily calories we are also most likely getting enough protein.\n\nIn fact, Americans currently consume almost twice the National Academy of Medicine's recommended daily intake of protein although the most desirable protein intake may vary depending on age and activity level.\n\nFor example, if you're a dedicated athlete you might need to consume higher quantities of protein. Generally, though, a 140-pound person should not exceed 120 grams of protein per day, particularly because a high protein diet can strain kidney and liver function and increase risks of developing heart disease and cancer.\n\nWhile fats and sugar have taken the beating in turns since over a century ago, protein has managed to remain our red-hot favorite.\n\nIn the 1970s through the 1990s, protein products remained visible but moved back somewhat with the dietary spotlight firmly fixed on low-calorie, low-fat, sugar-free snack foods and beverages following the publication of studies linking sugar and saturated(饱和的) fat consumption to heart disease.\n\nLater research in 2003, however, suggested high-protein diets could aid in weight loss, and protein quickly regained its former nutrient-superstar status.\n\nNow most people living in high-income nations are consuming enough protein. When we replace meals with a protein bar or drink, we also risk missing out on the rich sources of antioxidants(抗氧化剂), vitamins and many other benefits of real food.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It has helped to create the myth of protein deficiency."
+        },
+        {
+          "id": "B",
+          "text": "It has helped Americans in search of protein-rich diets."
+        },
+        {
+          "id": "C",
+          "text": "It has raised a lot of health concerns among the public."
+        },
+        {
+          "id": "D",
+          "text": "It has been funded by food companies and health experts."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：It has helped to create the myth of protein deficiency.\n关键词检索定位到第 3 段的候选相关句：Many of us living in the most developed countries are buying into a myth of protein deficiency created by food companies and self-identified health experts.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-3-nonlistening-q52",
+      "canonicalId": "lazynote-cet4-2024-12-3-q52",
+      "number": 52,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "Why have physicians in the U.S. never actually examined a patient with protein deficiency?",
+      "passage": "Do you ever blend up a protein drink for breakfast, or grab a protein bar following an afternoon workout? If so, you are likely among the millions of people in search of more protein-rich diets.\n\nProtein-enriched products are found everywhere. But contrary to all the publicity that everyone needs more protein, most Americans get twice as much as they need.\n\nMany of us living in the most developed countries are buying into a myth of protein deficiency created by food companies and self-identified health experts. Global retail sales of protein supplement products reached an astonishing US$18.9 billion in 2020.\n\nBut are we really in need of more protein? Physicians in the U.S. have never actually examined a patient with protein deficiency because simply by eating an adequate number of daily calories we are also most likely getting enough protein.\n\nIn fact, Americans currently consume almost twice the National Academy of Medicine's recommended daily intake of protein although the most desirable protein intake may vary depending on age and activity level.\n\nFor example, if you're a dedicated athlete you might need to consume higher quantities of protein. Generally, though, a 140-pound person should not exceed 120 grams of protein per day, particularly because a high protein diet can strain kidney and liver function and increase risks of developing heart disease and cancer.\n\nWhile fats and sugar have taken the beating in turns since over a century ago, protein has managed to remain our red-hot favorite.\n\nIn the 1970s through the 1990s, protein products remained visible but moved back somewhat with the dietary spotlight firmly fixed on low-calorie, low-fat, sugar-free snack foods and beverages following the publication of studies linking sugar and saturated(饱和的) fat consumption to heart disease.\n\nLater research in 2003, however, suggested high-protein diets could aid in weight loss, and protein quickly regained its former nutrient-superstar status.\n\nNow most people living in high-income nations are consuming enough protein. When we replace meals with a protein bar or drink, we also risk missing out on the rich sources of antioxidants(抗氧化剂), vitamins and many other benefits of real food.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Americans can purchase many kinds of protein-rich foods everywhere."
+        },
+        {
+          "id": "B",
+          "text": "Americans can absorb the number of calories recommended by food experts."
+        },
+        {
+          "id": "C",
+          "text": "Americans can get sufficient protein just by eating adequate foods daily."
+        },
+        {
+          "id": "D",
+          "text": "Americans can rely on food supplements to prevent protein deficiency."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：Americans can get sufficient protein just by eating adequate foods daily.\n关键词检索定位到第 4 段的候选相关句：Physicians in the U.S. have never actually examined a patient with protein deficiency because simply by eating an adequate number of daily calories we are also most likely getting enough protein.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-3-nonlistening-q53",
+      "canonicalId": "lazynote-cet4-2024-12-3-q53",
+      "number": 53,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What should people take into consideration in deciding on the most preferable protein intake?",
+      "passage": "Do you ever blend up a protein drink for breakfast, or grab a protein bar following an afternoon workout? If so, you are likely among the millions of people in search of more protein-rich diets.\n\nProtein-enriched products are found everywhere. But contrary to all the publicity that everyone needs more protein, most Americans get twice as much as they need.\n\nMany of us living in the most developed countries are buying into a myth of protein deficiency created by food companies and self-identified health experts. Global retail sales of protein supplement products reached an astonishing US$18.9 billion in 2020.\n\nBut are we really in need of more protein? Physicians in the U.S. have never actually examined a patient with protein deficiency because simply by eating an adequate number of daily calories we are also most likely getting enough protein.\n\nIn fact, Americans currently consume almost twice the National Academy of Medicine's recommended daily intake of protein although the most desirable protein intake may vary depending on age and activity level.\n\nFor example, if you're a dedicated athlete you might need to consume higher quantities of protein. Generally, though, a 140-pound person should not exceed 120 grams of protein per day, particularly because a high protein diet can strain kidney and liver function and increase risks of developing heart disease and cancer.\n\nWhile fats and sugar have taken the beating in turns since over a century ago, protein has managed to remain our red-hot favorite.\n\nIn the 1970s through the 1990s, protein products remained visible but moved back somewhat with the dietary spotlight firmly fixed on low-calorie, low-fat, sugar-free snack foods and beverages following the publication of studies linking sugar and saturated(饱和的) fat consumption to heart disease.\n\nLater research in 2003, however, suggested high-protein diets could aid in weight loss, and protein quickly regained its former nutrient-superstar status.\n\nNow most people living in high-income nations are consuming enough protein. When we replace meals with a protein bar or drink, we also risk missing out on the rich sources of antioxidants(抗氧化剂), vitamins and many other benefits of real food.",
+      "options": [
+        {
+          "id": "A",
+          "text": "How healthy they are and what food they eat."
+        },
+        {
+          "id": "B",
+          "text": "How old they are and what activities they do."
+        },
+        {
+          "id": "C",
+          "text": "How much protein they consume and what their body weight is."
+        },
+        {
+          "id": "D",
+          "text": "How serious their protein deficiency is and what remedies they use."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：How old they are and what activities they do.\n关键词检索定位到第 3 段的候选相关句：Many of us living in the most developed countries are buying into a myth of protein deficiency created by food companies and self-identified health experts.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-3-nonlistening-q54",
+      "canonicalId": "lazynote-cet4-2024-12-3-q54",
+      "number": 54,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What foods have been largely out of favor for more than a century?",
+      "passage": "Do you ever blend up a protein drink for breakfast, or grab a protein bar following an afternoon workout? If so, you are likely among the millions of people in search of more protein-rich diets.\n\nProtein-enriched products are found everywhere. But contrary to all the publicity that everyone needs more protein, most Americans get twice as much as they need.\n\nMany of us living in the most developed countries are buying into a myth of protein deficiency created by food companies and self-identified health experts. Global retail sales of protein supplement products reached an astonishing US$18.9 billion in 2020.\n\nBut are we really in need of more protein? Physicians in the U.S. have never actually examined a patient with protein deficiency because simply by eating an adequate number of daily calories we are also most likely getting enough protein.\n\nIn fact, Americans currently consume almost twice the National Academy of Medicine's recommended daily intake of protein although the most desirable protein intake may vary depending on age and activity level.\n\nFor example, if you're a dedicated athlete you might need to consume higher quantities of protein. Generally, though, a 140-pound person should not exceed 120 grams of protein per day, particularly because a high protein diet can strain kidney and liver function and increase risks of developing heart disease and cancer.\n\nWhile fats and sugar have taken the beating in turns since over a century ago, protein has managed to remain our red-hot favorite.\n\nIn the 1970s through the 1990s, protein products remained visible but moved back somewhat with the dietary spotlight firmly fixed on low-calorie, low-fat, sugar-free snack foods and beverages following the publication of studies linking sugar and saturated(饱和的) fat consumption to heart disease.\n\nLater research in 2003, however, suggested high-protein diets could aid in weight loss, and protein quickly regained its former nutrient-superstar status.\n\nNow most people living in high-income nations are consuming enough protein. When we replace meals with a protein bar or drink, we also risk missing out on the rich sources of antioxidants(抗氧化剂), vitamins and many other benefits of real food.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sugar-free snacks."
+        },
+        {
+          "id": "B",
+          "text": "Protein-rich foods."
+        },
+        {
+          "id": "C",
+          "text": "Both red and white meats."
+        },
+        {
+          "id": "D",
+          "text": "Sugary and fatty foods."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：Sugary and fatty foods.\n关键词检索定位到第 10 段的候选相关句：When we replace meals with a protein bar or drink, we also risk missing out on the rich sources of antioxidants(抗氧化剂), vitamins and many other benefits of real food.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-3-nonlistening-q55",
+      "canonicalId": "lazynote-cet4-2024-12-3-q55",
+      "number": 55,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author imply people in developed countries should do to keep healthy?",
+      "passage": "Do you ever blend up a protein drink for breakfast, or grab a protein bar following an afternoon workout? If so, you are likely among the millions of people in search of more protein-rich diets.\n\nProtein-enriched products are found everywhere. But contrary to all the publicity that everyone needs more protein, most Americans get twice as much as they need.\n\nMany of us living in the most developed countries are buying into a myth of protein deficiency created by food companies and self-identified health experts. Global retail sales of protein supplement products reached an astonishing US$18.9 billion in 2020.\n\nBut are we really in need of more protein? Physicians in the U.S. have never actually examined a patient with protein deficiency because simply by eating an adequate number of daily calories we are also most likely getting enough protein.\n\nIn fact, Americans currently consume almost twice the National Academy of Medicine's recommended daily intake of protein although the most desirable protein intake may vary depending on age and activity level.\n\nFor example, if you're a dedicated athlete you might need to consume higher quantities of protein. Generally, though, a 140-pound person should not exceed 120 grams of protein per day, particularly because a high protein diet can strain kidney and liver function and increase risks of developing heart disease and cancer.\n\nWhile fats and sugar have taken the beating in turns since over a century ago, protein has managed to remain our red-hot favorite.\n\nIn the 1970s through the 1990s, protein products remained visible but moved back somewhat with the dietary spotlight firmly fixed on low-calorie, low-fat, sugar-free snack foods and beverages following the publication of studies linking sugar and saturated(饱和的) fat consumption to heart disease.\n\nLater research in 2003, however, suggested high-protein diets could aid in weight loss, and protein quickly regained its former nutrient-superstar status.\n\nNow most people living in high-income nations are consuming enough protein. When we replace meals with a protein bar or drink, we also risk missing out on the rich sources of antioxidants(抗氧化剂), vitamins and many other benefits of real food.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Enjoy natural food."
+        },
+        {
+          "id": "B",
+          "text": "Eat vegetarian diets."
+        },
+        {
+          "id": "C",
+          "text": "Consume enough protein daily."
+        },
+        {
+          "id": "D",
+          "text": "Replace meals with protein bars."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：Enjoy natural food.\n关键词检索定位到第 3 段的候选相关句：Many of us living in the most developed countries are buying into a myth of protein deficiency created by food companies and self-identified health experts.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-3-nonlistening-translation",
+      "number": "IV",
+      "level": "CET4",
+      "type": "short_text_self_check",
+      "skill": "translation",
+      "section": "translation",
+      "prompt": "Directions: For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2 .\n\n敦煌莫高窟 (Mogao Grottoes) 数字展示中心于2014年开放启用, 是莫高窟保护利用工程的重要组成部分。展示中心采用数字技术和多媒体展示手段, 使游客进入洞窟参观之前就能了解莫高窟的历史文化, 鉴赏莫高窟的艺术经典。这将减少开放洞窟的数量, 缩短游客在洞窟内的逗留时间, 减轻参观对莫高窟造成的影响, 以使这一世界文化遗产得到妥善保护、长久利用。",
+      "options": [],
+      "correctAnswer": "The digital exhibition center of the Mogao Grottoes in Dunhuang opened in 2014 and is an important part of the project for the protection and use of the grottoes. Using digital technology and multimedia presentations, the center enables visitors to learn about the history and culture of the Mogao Grottoes and appreciate their artistic masterpieces before entering the caves. This will reduce the number of caves open to visitors, shorten the time visitors spend inside them and lessen the impact of visits on the grottoes, ensuring that this World Cultural Heritage site is properly protected and can be used for a long time.",
+      "referenceAnswer": "The digital exhibition center of the Mogao Grottoes in Dunhuang opened in 2014 and is an important part of the project for the protection and use of the grottoes. Using digital technology and multimedia presentations, the center enables visitors to learn about the history and culture of the Mogao Grottoes and appreciate their artistic masterpieces before entering the caves. This will reduce the number of caves open to visitors, shorten the time visitors spend inside them and lessen the impact of visits on the grottoes, ensuring that this World Cultural Heritage site is properly protected and can be used for a long time.",
+      "hint": "2014保留；展示在进洞之前。末句三个减少对象为开放洞窟数、停留时间、参观影响，不能漏项。",
+      "explanation": "以下为原创参考译文，其他准确表达同样可接受。①opened in 2014是过去事件；part of the project for the protection and use同时保留保护和利用，不能只译旅游项目。②Using…说明技术手段，enables visitors to learn…and appreciate…并列了解历史文化与鉴赏经典；before entering the caves保留先后。③This指数字展示措施的整体作用，reduce the number、shorten the time、lessen the impact三个动词分别对应三个对象。④ensuring引出目的和预期结果，properly protected与used for a long time对应妥善保护和长久利用。题面用“将”，用will保留预期语气，不改写为所有洞窟已经关闭。",
+      "rubric": [
+        "练习自评总分15分：信息准确0–8＋语法0–5＋表达0–2；允许拆句、换同义词，不要求逐字匹配参考译文。",
+        "信息准确0–8分：逐项检查——敦煌展示中心2014启用及保护利用项目；数字多媒体、进洞前了解鉴赏；开放洞数/逗留时间/影响减少；妥善保护长久利用。8分=全部关键信息正确；6–7分=少量次要细节遗漏；3–5分=多处遗漏/数字或关系误译；0–2分=核心人物、动作或逻辑严重错误。",
+        "语法0–5分：5分=时态、单复数、主谓一致、从句和介词基本正确；3–4分=少量错误仍易理解；1–2分=多处错误妨碍理解；0分=主要句子结构不可理解。",
+        "表达0–2分：2分=用词搭配自然、因果转折时间衔接清楚；1分=可理解但有中文式生硬表达；0分=词序/词义造成大面积理解困难。",
+        "修订操作：先在中文原题划出时间、数量、地点和连接词，再在自己的译文逐项找对应；为每处漏译或误译写一句修正。此分数是练习估计，不是官方阅卷或机器评分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-3-nonlistening"
+    }
+  ]
+}

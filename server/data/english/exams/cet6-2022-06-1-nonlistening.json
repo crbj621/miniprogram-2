@@ -1,0 +1,1945 @@
+{
+  "schemaVersion": 1,
+  "status": "verified_structured",
+  "source": {
+    "id": "cet6-2022-06-1-nonlistening",
+    "textCollection": "https://english-exam.lazynote.cn",
+    "textUrl": "https://english-exam.lazynote.cn/cet6/paper/2022-06-1/",
+    "textSha256": "b20901c1ca6db53d65ca7d3bd8acdaf57cea408393a170305fce4af72f6231c6",
+    "answerSources": [
+      {
+        "section": "part3-section-a",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2022-06-1/part3-section-a/",
+        "sha256": "0df195addf25f9977e2191a39c2ebde4a258b752ae42975d069abb5b9472b973"
+      },
+      {
+        "section": "part3-section-b",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2022-06-1/part3-section-b/",
+        "sha256": "2fe89f5ef5e8a610e3d8281f4058e221fc6ada927204e0899d2b7ac12646d78a"
+      },
+      {
+        "section": "part3-section-c-1",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2022-06-1/part3-section-c-1/",
+        "sha256": "7ada331b47964e1cf109440712dc30d831d3b99982baa2e2b4472b122be8b0ae"
+      },
+      {
+        "section": "part3-section-c-2",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2022-06-1/part3-section-c-2/",
+        "sha256": "f55e3cceb0ef22103395c5125c735d2325a1386f8816420461b53716fc833419"
+      }
+    ],
+    "rightsUrl": "https://english-exam.lazynote.cn",
+    "rights": "Source footer attributes original papers to the National College English Test Committee. Original materials retain their respective rights; no blanket source license is asserted. Commercial explanatory prose is not copied.",
+    "sourceRightsNotice": "© 2026 懒笔记 · 蜀ICP备2024049450号-1 · 川公网安备51019002006323号 · 增值电信业务经营许可证：川B2-20240301 · 真题版权归全国硕士研究生招生考试 / 全国大学英语四六级考试委员会所有 · 隐私政策 · 用户协议",
+    "sourceTermsUrl": "https://english-exam.lazynote.cn/terms/",
+    "reviewedAt": "2026-10-03",
+    "answerStatus": "public_reference_structural_consistency_verified",
+    "explanations": "Project-generated contextual evidence notes. Close-reading locations are keyword-search candidates, not manually verified detailed explanations.",
+    "referenceEssays": "Project-authored full reference examples bound to the original prompts; not official model answers.",
+    "materialSources": [],
+    "corrections": [],
+    "previousReviewedAnswerSources": [],
+    "sourceEdition": "lazynote public original-paper arrangement; set numbering can differ from other collections.",
+    "independentlyConfirmedSharedSource": "",
+    "readingSourceCorrection": null,
+    "sectionSourceReplacement": null,
+    "independentAnswerChecks": [],
+    "sharedSectionSource": {}
+  },
+  "papers": [
+    {
+      "id": "cet6-2022-06-1-nonlistening",
+      "level": "CET6",
+      "year": 2022,
+      "month": 6,
+      "set": 1,
+      "title": "2022年6月英语六级第1套真题（不含听力）",
+      "authenticity": "past_exam",
+      "questionIds": [
+        "cet6-2022-06-1-nonlistening-writing",
+        "cet6-2022-06-1-nonlistening-q26",
+        "cet6-2022-06-1-nonlistening-q27",
+        "cet6-2022-06-1-nonlistening-q28",
+        "cet6-2022-06-1-nonlistening-q29",
+        "cet6-2022-06-1-nonlistening-q30",
+        "cet6-2022-06-1-nonlistening-q31",
+        "cet6-2022-06-1-nonlistening-q32",
+        "cet6-2022-06-1-nonlistening-q33",
+        "cet6-2022-06-1-nonlistening-q34",
+        "cet6-2022-06-1-nonlistening-q35",
+        "cet6-2022-06-1-nonlistening-q36",
+        "cet6-2022-06-1-nonlistening-q37",
+        "cet6-2022-06-1-nonlistening-q38",
+        "cet6-2022-06-1-nonlistening-q39",
+        "cet6-2022-06-1-nonlistening-q40",
+        "cet6-2022-06-1-nonlistening-q41",
+        "cet6-2022-06-1-nonlistening-q42",
+        "cet6-2022-06-1-nonlistening-q43",
+        "cet6-2022-06-1-nonlistening-q44",
+        "cet6-2022-06-1-nonlistening-q45",
+        "cet6-2022-06-1-nonlistening-q46",
+        "cet6-2022-06-1-nonlistening-q47",
+        "cet6-2022-06-1-nonlistening-q48",
+        "cet6-2022-06-1-nonlistening-q49",
+        "cet6-2022-06-1-nonlistening-q50",
+        "cet6-2022-06-1-nonlistening-q51",
+        "cet6-2022-06-1-nonlistening-q52",
+        "cet6-2022-06-1-nonlistening-q53",
+        "cet6-2022-06-1-nonlistening-q54",
+        "cet6-2022-06-1-nonlistening-q55",
+        "cet6-2022-06-1-nonlistening-translation"
+      ],
+      "durationSeconds": 6000,
+      "description": "写作1题、阅读30题、翻译1题，不含听力。客观题答案与题面、选项完成结构一致性核对。",
+      "sourceId": "cet6-2022-06-1-nonlistening",
+      "coverage": {
+        "fullPaper": false,
+        "fullNonListening": true,
+        "listeningExcluded": true,
+        "objectiveNumbers": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "objectiveCount": 30,
+        "subjectiveCount": 2,
+        "sections": [
+          "writing",
+          "reading_word_bank",
+          "reading_matching",
+          "reading_comprehension",
+          "translation"
+        ],
+        "sharedSectionSource": {},
+        "note": "写作1题、阅读30题、翻译1题，不含听力。",
+        "independentlyConfirmedSharedSource": "",
+        "readingSourceCorrection": null,
+        "sectionSourceReplacement": null,
+        "referenceStatus": "project_authored"
+      },
+      "resources": [
+        {
+          "id": "cet6-2022-06-1-nonlistening-source",
+          "type": "web",
+          "title": "原卷来源与题面核对",
+          "url": "https://english-exam.lazynote.cn/cet6/paper/2022-06-1/"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cet6-2022-06-1-nonlistening-writing",
+      "number": "I",
+      "level": "CET6",
+      "type": "short_text_self_check",
+      "skill": "writing",
+      "section": "writing",
+      "prompt": "Directions: For this part, you are allowed 30 minutes to write an essay that begins with the sentence “Nowadays more and more people choose to live an environmentally friendly lifestyle.” You can make comments, cite examples, or use your personal experiences to develop your essay. You should write at least 150 words but no more than 200 words.",
+      "options": [],
+      "correctAnswer": "Nowadays more and more people choose to live an environmentally friendly lifestyle. This change shows that environmental protection is increasingly seen as a daily responsibility rather than a distant public issue. Ordinary decisions can reduce waste and encourage wider improvements.\n\nAn environmentally friendly lifestyle begins with consuming resources thoughtfully. Carrying a reusable bottle, choosing public transport when practical and avoiding unnecessary purchases are simple examples. These actions become more effective when they form consistent habits. In my own experience, planning meals before shopping helped my family waste less food and spend less money. Such benefits make sustainable choices easier to maintain. However, individuals also need convenient facilities and clear information. Reliable recycling systems and safe walking routes allow good intentions to become practical behavior.\n\nWe should therefore combine personal effort with support from communities and businesses. People can start with changes suited to their circumstances and gradually improve. When responsible habits are made convenient and worthwhile, they can spread beyond a few enthusiastic individuals and contribute to a healthier environment for everyone.",
+      "referenceAnswer": "Nowadays more and more people choose to live an environmentally friendly lifestyle. This change shows that environmental protection is increasingly seen as a daily responsibility rather than a distant public issue. Ordinary decisions can reduce waste and encourage wider improvements.\n\nAn environmentally friendly lifestyle begins with consuming resources thoughtfully. Carrying a reusable bottle, choosing public transport when practical and avoiding unnecessary purchases are simple examples. These actions become more effective when they form consistent habits. In my own experience, planning meals before shopping helped my family waste less food and spend less money. Such benefits make sustainable choices easier to maintain. However, individuals also need convenient facilities and clear information. Reliable recycling systems and safe walking routes allow good intentions to become practical behavior.\n\nWe should therefore combine personal effort with support from communities and businesses. People can start with changes suited to their circumstances and gradually improve. When responsible habits are made convenient and worthwhile, they can spread beyond a few enthusiastic individuals and contribute to a healthier environment for everyone.",
+      "hint": "保留给定首句，围绕环保生活的日常行动、个人经历与社会支持展开。",
+      "explanation": "以下为按本题要求独立写成的原创参考范文，作文没有唯一答案。首句逐题使用；购物前规划食材是示例经历，不是事实新闻。主体说明习惯与设施如何共同发挥作用，避免泛泛罗列环保口号；结尾从个人习惯推到群体效果。sustainable choices表示可持续的选择。",
+      "rubric": [
+        "任务：保留给定首句，围绕环保生活的日常行动、个人经历与社会支持展开。",
+        "论证：明确中心观点，用原因、具体例子或经历展开；结尾回应主题。",
+        "语言：检查主谓一致、时态、搭配和段落衔接；全文控制在150–200词。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2022-06-1-nonlistening-q26",
+      "canonicalId": "lazynote-cet6-2022-06-1-q26",
+      "number": 26,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 26 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The city of Bath was founded by the Romans almost two thousand years ago. It has been famous for its [26] ____ pleasing architecture and healing thermal springs ever since.\n\nThere are three hot springs in Bath; one is the King's Spring, upon which the Roman Baths and a temple were [27] ____ . The other two are the Cross Spring and the Hetling Spring, close to each other in Hot Bath Street. Although Bath is [28] ____ known as a Roman and Georgian city, many people came in the intervening centuries to make use of the [29] ____ waters.\n\nWhile the Georgians made 'taking the waters' or bathing particularly fashionable, it was [30] ____ generations who paved the way, creating greater interest in Bath and its springs. Charles II, desperate for an heir and unable to produce a [31] ____ son, came to Bath to take the waters in the hope that their magical powers would do something to [32] ____ the situation. Craving for a male heir, James and Mary both came to Bath and soon after produced a son, which bred many conspiracy theories about who was the real father of their [33] ____ . Regardless, the 'miracle' created something of a boom in tourism for Bath and once Queen Anne had paid a visit in 1702, sealing it as the place to be, the whole nation [34] ____ to the city.\n\nAfterwards, the spas(矿泉疗养浴场) in Bath continued to go in and out of fashion for more than 150 years until they closed completely. The new Bath Spa, which opened in 2006, [35] ____ modern architecture with the ancient spring, now the New Royal Bath.",
+      "options": [
+        {
+          "id": "A",
+          "text": "aesthetically"
+        },
+        {
+          "id": "B",
+          "text": "constructed"
+        },
+        {
+          "id": "C",
+          "text": "designates"
+        },
+        {
+          "id": "D",
+          "text": "extract"
+        },
+        {
+          "id": "E",
+          "text": "flocked"
+        },
+        {
+          "id": "F",
+          "text": "incorporates"
+        },
+        {
+          "id": "G",
+          "text": "legitimate"
+        },
+        {
+          "id": "H",
+          "text": "natural"
+        },
+        {
+          "id": "I",
+          "text": "offspring"
+        },
+        {
+          "id": "J",
+          "text": "previous"
+        },
+        {
+          "id": "K",
+          "text": "principally"
+        },
+        {
+          "id": "L",
+          "text": "remedy"
+        },
+        {
+          "id": "M",
+          "text": "rhetorically"
+        },
+        {
+          "id": "N",
+          "text": "sneaked"
+        },
+        {
+          "id": "O",
+          "text": "versatile"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "先看第 26 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 A（aesthetically）。本空所在句：It has been famous for its [26] ____ pleasing architecture and healing thermal springs ever since.\n将本空替换为 aesthetically 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2022-06-1-nonlistening-q27",
+      "canonicalId": "lazynote-cet6-2022-06-1-q27",
+      "number": 27,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 27 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The city of Bath was founded by the Romans almost two thousand years ago. It has been famous for its [26] ____ pleasing architecture and healing thermal springs ever since.\n\nThere are three hot springs in Bath; one is the King's Spring, upon which the Roman Baths and a temple were [27] ____ . The other two are the Cross Spring and the Hetling Spring, close to each other in Hot Bath Street. Although Bath is [28] ____ known as a Roman and Georgian city, many people came in the intervening centuries to make use of the [29] ____ waters.\n\nWhile the Georgians made 'taking the waters' or bathing particularly fashionable, it was [30] ____ generations who paved the way, creating greater interest in Bath and its springs. Charles II, desperate for an heir and unable to produce a [31] ____ son, came to Bath to take the waters in the hope that their magical powers would do something to [32] ____ the situation. Craving for a male heir, James and Mary both came to Bath and soon after produced a son, which bred many conspiracy theories about who was the real father of their [33] ____ . Regardless, the 'miracle' created something of a boom in tourism for Bath and once Queen Anne had paid a visit in 1702, sealing it as the place to be, the whole nation [34] ____ to the city.\n\nAfterwards, the spas(矿泉疗养浴场) in Bath continued to go in and out of fashion for more than 150 years until they closed completely. The new Bath Spa, which opened in 2006, [35] ____ modern architecture with the ancient spring, now the New Royal Bath.",
+      "options": [
+        {
+          "id": "A",
+          "text": "aesthetically"
+        },
+        {
+          "id": "B",
+          "text": "constructed"
+        },
+        {
+          "id": "C",
+          "text": "designates"
+        },
+        {
+          "id": "D",
+          "text": "extract"
+        },
+        {
+          "id": "E",
+          "text": "flocked"
+        },
+        {
+          "id": "F",
+          "text": "incorporates"
+        },
+        {
+          "id": "G",
+          "text": "legitimate"
+        },
+        {
+          "id": "H",
+          "text": "natural"
+        },
+        {
+          "id": "I",
+          "text": "offspring"
+        },
+        {
+          "id": "J",
+          "text": "previous"
+        },
+        {
+          "id": "K",
+          "text": "principally"
+        },
+        {
+          "id": "L",
+          "text": "remedy"
+        },
+        {
+          "id": "M",
+          "text": "rhetorically"
+        },
+        {
+          "id": "N",
+          "text": "sneaked"
+        },
+        {
+          "id": "O",
+          "text": "versatile"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "先看第 27 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 B（constructed）。本空所在句：There are three hot springs in Bath; one is the King's Spring, upon which the Roman Baths and a temple were [27] ____ .\n将本空替换为 constructed 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2022-06-1-nonlistening-q28",
+      "canonicalId": "lazynote-cet6-2022-06-1-q28",
+      "number": 28,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 28 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The city of Bath was founded by the Romans almost two thousand years ago. It has been famous for its [26] ____ pleasing architecture and healing thermal springs ever since.\n\nThere are three hot springs in Bath; one is the King's Spring, upon which the Roman Baths and a temple were [27] ____ . The other two are the Cross Spring and the Hetling Spring, close to each other in Hot Bath Street. Although Bath is [28] ____ known as a Roman and Georgian city, many people came in the intervening centuries to make use of the [29] ____ waters.\n\nWhile the Georgians made 'taking the waters' or bathing particularly fashionable, it was [30] ____ generations who paved the way, creating greater interest in Bath and its springs. Charles II, desperate for an heir and unable to produce a [31] ____ son, came to Bath to take the waters in the hope that their magical powers would do something to [32] ____ the situation. Craving for a male heir, James and Mary both came to Bath and soon after produced a son, which bred many conspiracy theories about who was the real father of their [33] ____ . Regardless, the 'miracle' created something of a boom in tourism for Bath and once Queen Anne had paid a visit in 1702, sealing it as the place to be, the whole nation [34] ____ to the city.\n\nAfterwards, the spas(矿泉疗养浴场) in Bath continued to go in and out of fashion for more than 150 years until they closed completely. The new Bath Spa, which opened in 2006, [35] ____ modern architecture with the ancient spring, now the New Royal Bath.",
+      "options": [
+        {
+          "id": "A",
+          "text": "aesthetically"
+        },
+        {
+          "id": "B",
+          "text": "constructed"
+        },
+        {
+          "id": "C",
+          "text": "designates"
+        },
+        {
+          "id": "D",
+          "text": "extract"
+        },
+        {
+          "id": "E",
+          "text": "flocked"
+        },
+        {
+          "id": "F",
+          "text": "incorporates"
+        },
+        {
+          "id": "G",
+          "text": "legitimate"
+        },
+        {
+          "id": "H",
+          "text": "natural"
+        },
+        {
+          "id": "I",
+          "text": "offspring"
+        },
+        {
+          "id": "J",
+          "text": "previous"
+        },
+        {
+          "id": "K",
+          "text": "principally"
+        },
+        {
+          "id": "L",
+          "text": "remedy"
+        },
+        {
+          "id": "M",
+          "text": "rhetorically"
+        },
+        {
+          "id": "N",
+          "text": "sneaked"
+        },
+        {
+          "id": "O",
+          "text": "versatile"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "先看第 28 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 K（principally）。本空所在句：Although Bath is [28] ____ known as a Roman and Georgian city, many people came in the intervening centuries to make use of the [29] ____ waters.\n将本空替换为 principally 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2022-06-1-nonlistening-q29",
+      "canonicalId": "lazynote-cet6-2022-06-1-q29",
+      "number": 29,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 29 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The city of Bath was founded by the Romans almost two thousand years ago. It has been famous for its [26] ____ pleasing architecture and healing thermal springs ever since.\n\nThere are three hot springs in Bath; one is the King's Spring, upon which the Roman Baths and a temple were [27] ____ . The other two are the Cross Spring and the Hetling Spring, close to each other in Hot Bath Street. Although Bath is [28] ____ known as a Roman and Georgian city, many people came in the intervening centuries to make use of the [29] ____ waters.\n\nWhile the Georgians made 'taking the waters' or bathing particularly fashionable, it was [30] ____ generations who paved the way, creating greater interest in Bath and its springs. Charles II, desperate for an heir and unable to produce a [31] ____ son, came to Bath to take the waters in the hope that their magical powers would do something to [32] ____ the situation. Craving for a male heir, James and Mary both came to Bath and soon after produced a son, which bred many conspiracy theories about who was the real father of their [33] ____ . Regardless, the 'miracle' created something of a boom in tourism for Bath and once Queen Anne had paid a visit in 1702, sealing it as the place to be, the whole nation [34] ____ to the city.\n\nAfterwards, the spas(矿泉疗养浴场) in Bath continued to go in and out of fashion for more than 150 years until they closed completely. The new Bath Spa, which opened in 2006, [35] ____ modern architecture with the ancient spring, now the New Royal Bath.",
+      "options": [
+        {
+          "id": "A",
+          "text": "aesthetically"
+        },
+        {
+          "id": "B",
+          "text": "constructed"
+        },
+        {
+          "id": "C",
+          "text": "designates"
+        },
+        {
+          "id": "D",
+          "text": "extract"
+        },
+        {
+          "id": "E",
+          "text": "flocked"
+        },
+        {
+          "id": "F",
+          "text": "incorporates"
+        },
+        {
+          "id": "G",
+          "text": "legitimate"
+        },
+        {
+          "id": "H",
+          "text": "natural"
+        },
+        {
+          "id": "I",
+          "text": "offspring"
+        },
+        {
+          "id": "J",
+          "text": "previous"
+        },
+        {
+          "id": "K",
+          "text": "principally"
+        },
+        {
+          "id": "L",
+          "text": "remedy"
+        },
+        {
+          "id": "M",
+          "text": "rhetorically"
+        },
+        {
+          "id": "N",
+          "text": "sneaked"
+        },
+        {
+          "id": "O",
+          "text": "versatile"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "先看第 29 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 H（natural）。本空所在句：Although Bath is [28] ____ known as a Roman and Georgian city, many people came in the intervening centuries to make use of the [29] ____ waters.\n将本空替换为 natural 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2022-06-1-nonlistening-q30",
+      "canonicalId": "lazynote-cet6-2022-06-1-q30",
+      "number": 30,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 30 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The city of Bath was founded by the Romans almost two thousand years ago. It has been famous for its [26] ____ pleasing architecture and healing thermal springs ever since.\n\nThere are three hot springs in Bath; one is the King's Spring, upon which the Roman Baths and a temple were [27] ____ . The other two are the Cross Spring and the Hetling Spring, close to each other in Hot Bath Street. Although Bath is [28] ____ known as a Roman and Georgian city, many people came in the intervening centuries to make use of the [29] ____ waters.\n\nWhile the Georgians made 'taking the waters' or bathing particularly fashionable, it was [30] ____ generations who paved the way, creating greater interest in Bath and its springs. Charles II, desperate for an heir and unable to produce a [31] ____ son, came to Bath to take the waters in the hope that their magical powers would do something to [32] ____ the situation. Craving for a male heir, James and Mary both came to Bath and soon after produced a son, which bred many conspiracy theories about who was the real father of their [33] ____ . Regardless, the 'miracle' created something of a boom in tourism for Bath and once Queen Anne had paid a visit in 1702, sealing it as the place to be, the whole nation [34] ____ to the city.\n\nAfterwards, the spas(矿泉疗养浴场) in Bath continued to go in and out of fashion for more than 150 years until they closed completely. The new Bath Spa, which opened in 2006, [35] ____ modern architecture with the ancient spring, now the New Royal Bath.",
+      "options": [
+        {
+          "id": "A",
+          "text": "aesthetically"
+        },
+        {
+          "id": "B",
+          "text": "constructed"
+        },
+        {
+          "id": "C",
+          "text": "designates"
+        },
+        {
+          "id": "D",
+          "text": "extract"
+        },
+        {
+          "id": "E",
+          "text": "flocked"
+        },
+        {
+          "id": "F",
+          "text": "incorporates"
+        },
+        {
+          "id": "G",
+          "text": "legitimate"
+        },
+        {
+          "id": "H",
+          "text": "natural"
+        },
+        {
+          "id": "I",
+          "text": "offspring"
+        },
+        {
+          "id": "J",
+          "text": "previous"
+        },
+        {
+          "id": "K",
+          "text": "principally"
+        },
+        {
+          "id": "L",
+          "text": "remedy"
+        },
+        {
+          "id": "M",
+          "text": "rhetorically"
+        },
+        {
+          "id": "N",
+          "text": "sneaked"
+        },
+        {
+          "id": "O",
+          "text": "versatile"
+        }
+      ],
+      "correctAnswer": "J",
+      "hint": "先看第 30 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 J（previous）。本空所在句：While the Georgians made 'taking the waters' or bathing particularly fashionable, it was [30] ____ generations who paved the way, creating greater interest in Bath and its springs.\n将本空替换为 previous 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2022-06-1-nonlistening-q31",
+      "canonicalId": "lazynote-cet6-2022-06-1-q31",
+      "number": 31,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 31 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The city of Bath was founded by the Romans almost two thousand years ago. It has been famous for its [26] ____ pleasing architecture and healing thermal springs ever since.\n\nThere are three hot springs in Bath; one is the King's Spring, upon which the Roman Baths and a temple were [27] ____ . The other two are the Cross Spring and the Hetling Spring, close to each other in Hot Bath Street. Although Bath is [28] ____ known as a Roman and Georgian city, many people came in the intervening centuries to make use of the [29] ____ waters.\n\nWhile the Georgians made 'taking the waters' or bathing particularly fashionable, it was [30] ____ generations who paved the way, creating greater interest in Bath and its springs. Charles II, desperate for an heir and unable to produce a [31] ____ son, came to Bath to take the waters in the hope that their magical powers would do something to [32] ____ the situation. Craving for a male heir, James and Mary both came to Bath and soon after produced a son, which bred many conspiracy theories about who was the real father of their [33] ____ . Regardless, the 'miracle' created something of a boom in tourism for Bath and once Queen Anne had paid a visit in 1702, sealing it as the place to be, the whole nation [34] ____ to the city.\n\nAfterwards, the spas(矿泉疗养浴场) in Bath continued to go in and out of fashion for more than 150 years until they closed completely. The new Bath Spa, which opened in 2006, [35] ____ modern architecture with the ancient spring, now the New Royal Bath.",
+      "options": [
+        {
+          "id": "A",
+          "text": "aesthetically"
+        },
+        {
+          "id": "B",
+          "text": "constructed"
+        },
+        {
+          "id": "C",
+          "text": "designates"
+        },
+        {
+          "id": "D",
+          "text": "extract"
+        },
+        {
+          "id": "E",
+          "text": "flocked"
+        },
+        {
+          "id": "F",
+          "text": "incorporates"
+        },
+        {
+          "id": "G",
+          "text": "legitimate"
+        },
+        {
+          "id": "H",
+          "text": "natural"
+        },
+        {
+          "id": "I",
+          "text": "offspring"
+        },
+        {
+          "id": "J",
+          "text": "previous"
+        },
+        {
+          "id": "K",
+          "text": "principally"
+        },
+        {
+          "id": "L",
+          "text": "remedy"
+        },
+        {
+          "id": "M",
+          "text": "rhetorically"
+        },
+        {
+          "id": "N",
+          "text": "sneaked"
+        },
+        {
+          "id": "O",
+          "text": "versatile"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "先看第 31 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 G（legitimate）。本空所在句：Charles II, desperate for an heir and unable to produce a [31] ____ son, came to Bath to take the waters in the hope that their magical powers would do something to [32] ____ the situation.\n将本空替换为 legitimate 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2022-06-1-nonlistening-q32",
+      "canonicalId": "lazynote-cet6-2022-06-1-q32",
+      "number": 32,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 32 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The city of Bath was founded by the Romans almost two thousand years ago. It has been famous for its [26] ____ pleasing architecture and healing thermal springs ever since.\n\nThere are three hot springs in Bath; one is the King's Spring, upon which the Roman Baths and a temple were [27] ____ . The other two are the Cross Spring and the Hetling Spring, close to each other in Hot Bath Street. Although Bath is [28] ____ known as a Roman and Georgian city, many people came in the intervening centuries to make use of the [29] ____ waters.\n\nWhile the Georgians made 'taking the waters' or bathing particularly fashionable, it was [30] ____ generations who paved the way, creating greater interest in Bath and its springs. Charles II, desperate for an heir and unable to produce a [31] ____ son, came to Bath to take the waters in the hope that their magical powers would do something to [32] ____ the situation. Craving for a male heir, James and Mary both came to Bath and soon after produced a son, which bred many conspiracy theories about who was the real father of their [33] ____ . Regardless, the 'miracle' created something of a boom in tourism for Bath and once Queen Anne had paid a visit in 1702, sealing it as the place to be, the whole nation [34] ____ to the city.\n\nAfterwards, the spas(矿泉疗养浴场) in Bath continued to go in and out of fashion for more than 150 years until they closed completely. The new Bath Spa, which opened in 2006, [35] ____ modern architecture with the ancient spring, now the New Royal Bath.",
+      "options": [
+        {
+          "id": "A",
+          "text": "aesthetically"
+        },
+        {
+          "id": "B",
+          "text": "constructed"
+        },
+        {
+          "id": "C",
+          "text": "designates"
+        },
+        {
+          "id": "D",
+          "text": "extract"
+        },
+        {
+          "id": "E",
+          "text": "flocked"
+        },
+        {
+          "id": "F",
+          "text": "incorporates"
+        },
+        {
+          "id": "G",
+          "text": "legitimate"
+        },
+        {
+          "id": "H",
+          "text": "natural"
+        },
+        {
+          "id": "I",
+          "text": "offspring"
+        },
+        {
+          "id": "J",
+          "text": "previous"
+        },
+        {
+          "id": "K",
+          "text": "principally"
+        },
+        {
+          "id": "L",
+          "text": "remedy"
+        },
+        {
+          "id": "M",
+          "text": "rhetorically"
+        },
+        {
+          "id": "N",
+          "text": "sneaked"
+        },
+        {
+          "id": "O",
+          "text": "versatile"
+        }
+      ],
+      "correctAnswer": "L",
+      "hint": "先看第 32 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 L（remedy）。本空所在句：Charles II, desperate for an heir and unable to produce a [31] ____ son, came to Bath to take the waters in the hope that their magical powers would do something to [32] ____ the situation.\n将本空替换为 remedy 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2022-06-1-nonlistening-q33",
+      "canonicalId": "lazynote-cet6-2022-06-1-q33",
+      "number": 33,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 33 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The city of Bath was founded by the Romans almost two thousand years ago. It has been famous for its [26] ____ pleasing architecture and healing thermal springs ever since.\n\nThere are three hot springs in Bath; one is the King's Spring, upon which the Roman Baths and a temple were [27] ____ . The other two are the Cross Spring and the Hetling Spring, close to each other in Hot Bath Street. Although Bath is [28] ____ known as a Roman and Georgian city, many people came in the intervening centuries to make use of the [29] ____ waters.\n\nWhile the Georgians made 'taking the waters' or bathing particularly fashionable, it was [30] ____ generations who paved the way, creating greater interest in Bath and its springs. Charles II, desperate for an heir and unable to produce a [31] ____ son, came to Bath to take the waters in the hope that their magical powers would do something to [32] ____ the situation. Craving for a male heir, James and Mary both came to Bath and soon after produced a son, which bred many conspiracy theories about who was the real father of their [33] ____ . Regardless, the 'miracle' created something of a boom in tourism for Bath and once Queen Anne had paid a visit in 1702, sealing it as the place to be, the whole nation [34] ____ to the city.\n\nAfterwards, the spas(矿泉疗养浴场) in Bath continued to go in and out of fashion for more than 150 years until they closed completely. The new Bath Spa, which opened in 2006, [35] ____ modern architecture with the ancient spring, now the New Royal Bath.",
+      "options": [
+        {
+          "id": "A",
+          "text": "aesthetically"
+        },
+        {
+          "id": "B",
+          "text": "constructed"
+        },
+        {
+          "id": "C",
+          "text": "designates"
+        },
+        {
+          "id": "D",
+          "text": "extract"
+        },
+        {
+          "id": "E",
+          "text": "flocked"
+        },
+        {
+          "id": "F",
+          "text": "incorporates"
+        },
+        {
+          "id": "G",
+          "text": "legitimate"
+        },
+        {
+          "id": "H",
+          "text": "natural"
+        },
+        {
+          "id": "I",
+          "text": "offspring"
+        },
+        {
+          "id": "J",
+          "text": "previous"
+        },
+        {
+          "id": "K",
+          "text": "principally"
+        },
+        {
+          "id": "L",
+          "text": "remedy"
+        },
+        {
+          "id": "M",
+          "text": "rhetorically"
+        },
+        {
+          "id": "N",
+          "text": "sneaked"
+        },
+        {
+          "id": "O",
+          "text": "versatile"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "先看第 33 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 I（offspring）。本空所在句：Craving for a male heir, James and Mary both came to Bath and soon after produced a son, which bred many conspiracy theories about who was the real father of their [33] ____ .\n将本空替换为 offspring 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2022-06-1-nonlistening-q34",
+      "canonicalId": "lazynote-cet6-2022-06-1-q34",
+      "number": 34,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 34 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The city of Bath was founded by the Romans almost two thousand years ago. It has been famous for its [26] ____ pleasing architecture and healing thermal springs ever since.\n\nThere are three hot springs in Bath; one is the King's Spring, upon which the Roman Baths and a temple were [27] ____ . The other two are the Cross Spring and the Hetling Spring, close to each other in Hot Bath Street. Although Bath is [28] ____ known as a Roman and Georgian city, many people came in the intervening centuries to make use of the [29] ____ waters.\n\nWhile the Georgians made 'taking the waters' or bathing particularly fashionable, it was [30] ____ generations who paved the way, creating greater interest in Bath and its springs. Charles II, desperate for an heir and unable to produce a [31] ____ son, came to Bath to take the waters in the hope that their magical powers would do something to [32] ____ the situation. Craving for a male heir, James and Mary both came to Bath and soon after produced a son, which bred many conspiracy theories about who was the real father of their [33] ____ . Regardless, the 'miracle' created something of a boom in tourism for Bath and once Queen Anne had paid a visit in 1702, sealing it as the place to be, the whole nation [34] ____ to the city.\n\nAfterwards, the spas(矿泉疗养浴场) in Bath continued to go in and out of fashion for more than 150 years until they closed completely. The new Bath Spa, which opened in 2006, [35] ____ modern architecture with the ancient spring, now the New Royal Bath.",
+      "options": [
+        {
+          "id": "A",
+          "text": "aesthetically"
+        },
+        {
+          "id": "B",
+          "text": "constructed"
+        },
+        {
+          "id": "C",
+          "text": "designates"
+        },
+        {
+          "id": "D",
+          "text": "extract"
+        },
+        {
+          "id": "E",
+          "text": "flocked"
+        },
+        {
+          "id": "F",
+          "text": "incorporates"
+        },
+        {
+          "id": "G",
+          "text": "legitimate"
+        },
+        {
+          "id": "H",
+          "text": "natural"
+        },
+        {
+          "id": "I",
+          "text": "offspring"
+        },
+        {
+          "id": "J",
+          "text": "previous"
+        },
+        {
+          "id": "K",
+          "text": "principally"
+        },
+        {
+          "id": "L",
+          "text": "remedy"
+        },
+        {
+          "id": "M",
+          "text": "rhetorically"
+        },
+        {
+          "id": "N",
+          "text": "sneaked"
+        },
+        {
+          "id": "O",
+          "text": "versatile"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "先看第 34 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 E（flocked）。本空所在句：Regardless, the 'miracle' created something of a boom in tourism for Bath and once Queen Anne had paid a visit in 1702, sealing it as the place to be, the whole nation [34] ____ to the city.\n将本空替换为 flocked 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2022-06-1-nonlistening-q35",
+      "canonicalId": "lazynote-cet6-2022-06-1-q35",
+      "number": 35,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 35 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The city of Bath was founded by the Romans almost two thousand years ago. It has been famous for its [26] ____ pleasing architecture and healing thermal springs ever since.\n\nThere are three hot springs in Bath; one is the King's Spring, upon which the Roman Baths and a temple were [27] ____ . The other two are the Cross Spring and the Hetling Spring, close to each other in Hot Bath Street. Although Bath is [28] ____ known as a Roman and Georgian city, many people came in the intervening centuries to make use of the [29] ____ waters.\n\nWhile the Georgians made 'taking the waters' or bathing particularly fashionable, it was [30] ____ generations who paved the way, creating greater interest in Bath and its springs. Charles II, desperate for an heir and unable to produce a [31] ____ son, came to Bath to take the waters in the hope that their magical powers would do something to [32] ____ the situation. Craving for a male heir, James and Mary both came to Bath and soon after produced a son, which bred many conspiracy theories about who was the real father of their [33] ____ . Regardless, the 'miracle' created something of a boom in tourism for Bath and once Queen Anne had paid a visit in 1702, sealing it as the place to be, the whole nation [34] ____ to the city.\n\nAfterwards, the spas(矿泉疗养浴场) in Bath continued to go in and out of fashion for more than 150 years until they closed completely. The new Bath Spa, which opened in 2006, [35] ____ modern architecture with the ancient spring, now the New Royal Bath.",
+      "options": [
+        {
+          "id": "A",
+          "text": "aesthetically"
+        },
+        {
+          "id": "B",
+          "text": "constructed"
+        },
+        {
+          "id": "C",
+          "text": "designates"
+        },
+        {
+          "id": "D",
+          "text": "extract"
+        },
+        {
+          "id": "E",
+          "text": "flocked"
+        },
+        {
+          "id": "F",
+          "text": "incorporates"
+        },
+        {
+          "id": "G",
+          "text": "legitimate"
+        },
+        {
+          "id": "H",
+          "text": "natural"
+        },
+        {
+          "id": "I",
+          "text": "offspring"
+        },
+        {
+          "id": "J",
+          "text": "previous"
+        },
+        {
+          "id": "K",
+          "text": "principally"
+        },
+        {
+          "id": "L",
+          "text": "remedy"
+        },
+        {
+          "id": "M",
+          "text": "rhetorically"
+        },
+        {
+          "id": "N",
+          "text": "sneaked"
+        },
+        {
+          "id": "O",
+          "text": "versatile"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "先看第 35 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 F（incorporates）。本空所在句：The new Bath Spa, which opened in 2006, [35] ____ modern architecture with the ancient spring, now the New Royal Bath.\n将本空替换为 incorporates 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2022-06-1-nonlistening-q36",
+      "canonicalId": "lazynote-cet6-2022-06-1-q36",
+      "number": 36,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Some children on the remote islands won't eat their meals because they are fed cheap junk food.",
+      "passage": "The Doctor Will Skype You Now\n\nA) Fazila is a young woman that has been dealing with eczema(湿疹), a common skin condition, for the past five years, but never got it treated. The nearest hospital is an hour away, by boat and bus, and her skin condition didn't seem serious enough to make the trek, so she ignored it—until a new technology brought the doctor to her. Fazila lives on one of the remote river islands in northern Bangladesh. These islands are low-lying, temporary sand islands that are continuously formed and destroyed through sand buildup and erosion. They are home to over six million people, who face repeated displacement from flooding and erosion—which may be getting worse because of climate change—and a range of health risks, including poor nutrition, malaria(疟疾) and other water-borne diseases.\n\nB) The most dangerous thing for these remote island dwellers is land erosion. The second is lack of access to medical supplies and doctors. There are no doctors within miles, and while child mortality and maternal death have gone down in the rest of the country, this is not the case for the islands. The medical situation is so bad that it really takes away from the quality of their life. Yet for many island inhabitants—some of Bangladesh's poorest—paying for health care is a costly ordeal. Victims of erosion lose their houses, agricultural land and jobs as farmers, fishermen and day laborers. Though government hospitals are free, many people hesitate to go, citing long commutes, endless lines and questionable diagnoses. For convenience's sake, one-third of rural households visit unqualified village doctors, who rely on unscientific methods of treatment, according to a 2016 study in the peer-reviewed journal Global Health Action.\n\nC) On the islands, there's even a colloquial(口头的) expression for the idea of making medical care your lowest priority: It's known as \"rog pushai rakha\" in Bengali, which roughly translates to \"stockpiling their diseases\"—waiting to seek medical attention until a condition becomes extremely serious. Now, a new virtual medical service called Teledaktar (TD) is trying to make health care more easily accessible. Every week, TD's medical operators travel to the islands by boat, carrying a laptop, a portable printer for prescriptions and tools to run basic medical screenings such as blood pressure, blood sugar, body temperature and weight. They choose an area of the island with the best Internet reception and set up a makeshift(临时凑合的) medical center which consists of plastic stools and small tables borrowed from the locals' homes, a tent in case of rain and a sheet that is strung up to give the patients privacy during their session.\n\nD) Launched in October 2018, TD has eight centers in towns and villages across rural Bangladesh and on three islands. It is funded by a nonprofit organization founded by Bangladeshi entrepreneurs, finance and technology professionals. Inside the center, the laptop screen lights up to reveal Dr. Tina Mustahid, TD's head physician, live-streamed(网络直播) from the capital city of Dhaka for free remote medical consultations. Affectionately called Doctor Apa—\"older sister\" in Bengali—by her patients, she is one of three volunteer doctors at TD.\n\nE) \"I diagnose them through conversation,\" says Dr. Mustahid. \"Sometimes it's really obvious things that local doctors don't have the patience to talk through with their patients. For example, a common complaint mothers come in with is that their children refuse to eat their meals. The mothers are concerned they are dealing with indigestion, but it's because they are feeding the children packaged chips which are cheap and convenient. I tell them it is ruining their appetite and ask them to cut back on unhealthy snacks.\" Dr. Mustahid says building awareness about health and nutrition is important for island patients who are cut off from mainland resources.\n\nF) Even off the islands, Bangladesh faces a critical deficit of health services. The country has half the doctors-per-person ratio recommended by the World Health Organization: roughly one doctor per 2,000 people, instead of one doctor per 1,000 people. And of those physicians, many are concentrated in cities: 70% of the country's population live in rural areas, yet less than 20% of health workers practice there. Over 70% of TD's 3,000 patients are female, in part because many are not comfortable speaking with local doctors who tend to be male. The rural women are mostly not literate or confident enough to travel on their own to the nearest town to visit medical facilities. Many have spent their entire lives rebuilding their homes when the islands flood. Early marriage and young motherhood, which are prevalent in these parts of Bangladesh, also contribute to the early onset of health problems.\n\nG) For most TD patients on the islands, Dr. Mustahid is the first big-city doctor that they've ever consulted. TD doctors are not meant to treat serious illnesses or conditions that require a doctor to be physically present, such as pregnancy. But they can write prescriptions, diagnose common ailments—including digestive issues, joint pain, skin diseases, fever and the common cold—and refer patients to doctors at local hospitals. The visit is also an opportunity for the patients, especially women, to air their concerns about aging, motherhood and reproductive health according to Dr. Mustahid. The doctors also offer health, dietary and lifestyle advice where necessary, including insight on everything from recognizing postnatal(产后的) depression to daily exercise. Dr. Mustahid regularly recommends her patients to take a daily thirty-minute morning walk before the sun gets too intense.\n\nH) After a few sessions about general health issues Fazila finally opened up about something else that was bothering her: her persistent skin condition. It can get expensive to travel to the doctor, so usually the women living on the islands describe their illness to their husbands. The husbands then go to the pharmacy, try to describe the issue and return home with some random medicines. Nothing worked for Fazila until she started seeing Dr. Apa.\n\nI) Other nonprofits are also starting to provide health services on the islands. A local non-governmental organization called Friendship operates floating boat hospitals that provide health services to islands all over Bangladesh, docking at each for two months at a time. Friendship also runs satellite clinics in which one doctor and one clinic aide who are residents of the community disperse health and hygiene information.\n\nJ) TD still has a few major challenges. Many residents complain the medicines they are prescribed are sometimes unaffordable, but the government isn't doing enough for them. Patients often ask why the medicine isn't free along with the consultation from the doctors. The organizations are linked to local pharmacies and offer discounts to the patients and make sure to prescribe the most cost-effective brands, but still many residents can't afford even that.\n\nK) Nevertheless, TD's remote consultations seem to be popular: Of 3,000 patients, at least 200 have returned for follow-ups, according to TD. The reason, explains one resident, might be the simple gesture of treating the island inhabitants with respect. \"Dr. Apa is patient,\" he says, \"At government hospitals, the doctors treat us very badly, but here they listen to us, I can repeat myself many times and no one gets annoyed.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 E 段。题干：Some children on the remote islands won't eat their meals because they are fed cheap junk food.\n核对该段原文：\"I diagnose them through conversation,\" says Dr. Mustahid. \"Sometimes it's really obvious things that local doctors don't have the patience to talk through with their patients. For example, a common complaint mothers come in with is that their children refuse to eat their meals. The mothers are concerned they are dealing with indigestion, but it's because they are feeding the children packaged chips which are cheap and convenient. I tell them it is ruining their appetite and ask them to cut back on unhealthy snacks.\" Dr. Mustahid says building awareness about health and nutrition is important for island patients who are cut off from mainland resources.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2022-06-1-nonlistening-q37",
+      "canonicalId": "lazynote-cet6-2022-06-1-q37",
+      "number": 37,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Unlike other parts of Bangladesh, the number of women who die from giving birth remains high on the river islands.",
+      "passage": "The Doctor Will Skype You Now\n\nA) Fazila is a young woman that has been dealing with eczema(湿疹), a common skin condition, for the past five years, but never got it treated. The nearest hospital is an hour away, by boat and bus, and her skin condition didn't seem serious enough to make the trek, so she ignored it—until a new technology brought the doctor to her. Fazila lives on one of the remote river islands in northern Bangladesh. These islands are low-lying, temporary sand islands that are continuously formed and destroyed through sand buildup and erosion. They are home to over six million people, who face repeated displacement from flooding and erosion—which may be getting worse because of climate change—and a range of health risks, including poor nutrition, malaria(疟疾) and other water-borne diseases.\n\nB) The most dangerous thing for these remote island dwellers is land erosion. The second is lack of access to medical supplies and doctors. There are no doctors within miles, and while child mortality and maternal death have gone down in the rest of the country, this is not the case for the islands. The medical situation is so bad that it really takes away from the quality of their life. Yet for many island inhabitants—some of Bangladesh's poorest—paying for health care is a costly ordeal. Victims of erosion lose their houses, agricultural land and jobs as farmers, fishermen and day laborers. Though government hospitals are free, many people hesitate to go, citing long commutes, endless lines and questionable diagnoses. For convenience's sake, one-third of rural households visit unqualified village doctors, who rely on unscientific methods of treatment, according to a 2016 study in the peer-reviewed journal Global Health Action.\n\nC) On the islands, there's even a colloquial(口头的) expression for the idea of making medical care your lowest priority: It's known as \"rog pushai rakha\" in Bengali, which roughly translates to \"stockpiling their diseases\"—waiting to seek medical attention until a condition becomes extremely serious. Now, a new virtual medical service called Teledaktar (TD) is trying to make health care more easily accessible. Every week, TD's medical operators travel to the islands by boat, carrying a laptop, a portable printer for prescriptions and tools to run basic medical screenings such as blood pressure, blood sugar, body temperature and weight. They choose an area of the island with the best Internet reception and set up a makeshift(临时凑合的) medical center which consists of plastic stools and small tables borrowed from the locals' homes, a tent in case of rain and a sheet that is strung up to give the patients privacy during their session.\n\nD) Launched in October 2018, TD has eight centers in towns and villages across rural Bangladesh and on three islands. It is funded by a nonprofit organization founded by Bangladeshi entrepreneurs, finance and technology professionals. Inside the center, the laptop screen lights up to reveal Dr. Tina Mustahid, TD's head physician, live-streamed(网络直播) from the capital city of Dhaka for free remote medical consultations. Affectionately called Doctor Apa—\"older sister\" in Bengali—by her patients, she is one of three volunteer doctors at TD.\n\nE) \"I diagnose them through conversation,\" says Dr. Mustahid. \"Sometimes it's really obvious things that local doctors don't have the patience to talk through with their patients. For example, a common complaint mothers come in with is that their children refuse to eat their meals. The mothers are concerned they are dealing with indigestion, but it's because they are feeding the children packaged chips which are cheap and convenient. I tell them it is ruining their appetite and ask them to cut back on unhealthy snacks.\" Dr. Mustahid says building awareness about health and nutrition is important for island patients who are cut off from mainland resources.\n\nF) Even off the islands, Bangladesh faces a critical deficit of health services. The country has half the doctors-per-person ratio recommended by the World Health Organization: roughly one doctor per 2,000 people, instead of one doctor per 1,000 people. And of those physicians, many are concentrated in cities: 70% of the country's population live in rural areas, yet less than 20% of health workers practice there. Over 70% of TD's 3,000 patients are female, in part because many are not comfortable speaking with local doctors who tend to be male. The rural women are mostly not literate or confident enough to travel on their own to the nearest town to visit medical facilities. Many have spent their entire lives rebuilding their homes when the islands flood. Early marriage and young motherhood, which are prevalent in these parts of Bangladesh, also contribute to the early onset of health problems.\n\nG) For most TD patients on the islands, Dr. Mustahid is the first big-city doctor that they've ever consulted. TD doctors are not meant to treat serious illnesses or conditions that require a doctor to be physically present, such as pregnancy. But they can write prescriptions, diagnose common ailments—including digestive issues, joint pain, skin diseases, fever and the common cold—and refer patients to doctors at local hospitals. The visit is also an opportunity for the patients, especially women, to air their concerns about aging, motherhood and reproductive health according to Dr. Mustahid. The doctors also offer health, dietary and lifestyle advice where necessary, including insight on everything from recognizing postnatal(产后的) depression to daily exercise. Dr. Mustahid regularly recommends her patients to take a daily thirty-minute morning walk before the sun gets too intense.\n\nH) After a few sessions about general health issues Fazila finally opened up about something else that was bothering her: her persistent skin condition. It can get expensive to travel to the doctor, so usually the women living on the islands describe their illness to their husbands. The husbands then go to the pharmacy, try to describe the issue and return home with some random medicines. Nothing worked for Fazila until she started seeing Dr. Apa.\n\nI) Other nonprofits are also starting to provide health services on the islands. A local non-governmental organization called Friendship operates floating boat hospitals that provide health services to islands all over Bangladesh, docking at each for two months at a time. Friendship also runs satellite clinics in which one doctor and one clinic aide who are residents of the community disperse health and hygiene information.\n\nJ) TD still has a few major challenges. Many residents complain the medicines they are prescribed are sometimes unaffordable, but the government isn't doing enough for them. Patients often ask why the medicine isn't free along with the consultation from the doctors. The organizations are linked to local pharmacies and offer discounts to the patients and make sure to prescribe the most cost-effective brands, but still many residents can't afford even that.\n\nK) Nevertheless, TD's remote consultations seem to be popular: Of 3,000 patients, at least 200 have returned for follow-ups, according to TD. The reason, explains one resident, might be the simple gesture of treating the island inhabitants with respect. \"Dr. Apa is patient,\" he says, \"At government hospitals, the doctors treat us very badly, but here they listen to us, I can repeat myself many times and no one gets annoyed.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 B 段。题干：Unlike other parts of Bangladesh, the number of women who die from giving birth remains high on the river islands.\n核对该段原文：The most dangerous thing for these remote island dwellers is land erosion. The second is lack of access to medical supplies and doctors. There are no doctors within miles, and while child mortality and maternal death have gone down in the rest of the country, this is not the case for the islands. The medical situation is so bad that it really takes away from the quality of their life. Yet for many island inhabitants—some of Bangladesh's poorest—paying for health care is a costly ordeal. Victims of erosion lose their houses, agricultural land and jobs as farmers, fishermen and day laborers. Though government hospitals are free, many people hesitate to go, citing long commutes, endless lines and questionable diagnoses. For convenience's sake, one-third of rural households visit unqualified village doctors, who rely on unscientific methods of treatment, according to a 2016 study in the peer-reviewed journal Global Health Action.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2022-06-1-nonlistening-q38",
+      "canonicalId": "lazynote-cet6-2022-06-1-q38",
+      "number": 38,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "One big problem many islanders have is that they can't afford the prescribed medicines, even with discounts offered.",
+      "passage": "The Doctor Will Skype You Now\n\nA) Fazila is a young woman that has been dealing with eczema(湿疹), a common skin condition, for the past five years, but never got it treated. The nearest hospital is an hour away, by boat and bus, and her skin condition didn't seem serious enough to make the trek, so she ignored it—until a new technology brought the doctor to her. Fazila lives on one of the remote river islands in northern Bangladesh. These islands are low-lying, temporary sand islands that are continuously formed and destroyed through sand buildup and erosion. They are home to over six million people, who face repeated displacement from flooding and erosion—which may be getting worse because of climate change—and a range of health risks, including poor nutrition, malaria(疟疾) and other water-borne diseases.\n\nB) The most dangerous thing for these remote island dwellers is land erosion. The second is lack of access to medical supplies and doctors. There are no doctors within miles, and while child mortality and maternal death have gone down in the rest of the country, this is not the case for the islands. The medical situation is so bad that it really takes away from the quality of their life. Yet for many island inhabitants—some of Bangladesh's poorest—paying for health care is a costly ordeal. Victims of erosion lose their houses, agricultural land and jobs as farmers, fishermen and day laborers. Though government hospitals are free, many people hesitate to go, citing long commutes, endless lines and questionable diagnoses. For convenience's sake, one-third of rural households visit unqualified village doctors, who rely on unscientific methods of treatment, according to a 2016 study in the peer-reviewed journal Global Health Action.\n\nC) On the islands, there's even a colloquial(口头的) expression for the idea of making medical care your lowest priority: It's known as \"rog pushai rakha\" in Bengali, which roughly translates to \"stockpiling their diseases\"—waiting to seek medical attention until a condition becomes extremely serious. Now, a new virtual medical service called Teledaktar (TD) is trying to make health care more easily accessible. Every week, TD's medical operators travel to the islands by boat, carrying a laptop, a portable printer for prescriptions and tools to run basic medical screenings such as blood pressure, blood sugar, body temperature and weight. They choose an area of the island with the best Internet reception and set up a makeshift(临时凑合的) medical center which consists of plastic stools and small tables borrowed from the locals' homes, a tent in case of rain and a sheet that is strung up to give the patients privacy during their session.\n\nD) Launched in October 2018, TD has eight centers in towns and villages across rural Bangladesh and on three islands. It is funded by a nonprofit organization founded by Bangladeshi entrepreneurs, finance and technology professionals. Inside the center, the laptop screen lights up to reveal Dr. Tina Mustahid, TD's head physician, live-streamed(网络直播) from the capital city of Dhaka for free remote medical consultations. Affectionately called Doctor Apa—\"older sister\" in Bengali—by her patients, she is one of three volunteer doctors at TD.\n\nE) \"I diagnose them through conversation,\" says Dr. Mustahid. \"Sometimes it's really obvious things that local doctors don't have the patience to talk through with their patients. For example, a common complaint mothers come in with is that their children refuse to eat their meals. The mothers are concerned they are dealing with indigestion, but it's because they are feeding the children packaged chips which are cheap and convenient. I tell them it is ruining their appetite and ask them to cut back on unhealthy snacks.\" Dr. Mustahid says building awareness about health and nutrition is important for island patients who are cut off from mainland resources.\n\nF) Even off the islands, Bangladesh faces a critical deficit of health services. The country has half the doctors-per-person ratio recommended by the World Health Organization: roughly one doctor per 2,000 people, instead of one doctor per 1,000 people. And of those physicians, many are concentrated in cities: 70% of the country's population live in rural areas, yet less than 20% of health workers practice there. Over 70% of TD's 3,000 patients are female, in part because many are not comfortable speaking with local doctors who tend to be male. The rural women are mostly not literate or confident enough to travel on their own to the nearest town to visit medical facilities. Many have spent their entire lives rebuilding their homes when the islands flood. Early marriage and young motherhood, which are prevalent in these parts of Bangladesh, also contribute to the early onset of health problems.\n\nG) For most TD patients on the islands, Dr. Mustahid is the first big-city doctor that they've ever consulted. TD doctors are not meant to treat serious illnesses or conditions that require a doctor to be physically present, such as pregnancy. But they can write prescriptions, diagnose common ailments—including digestive issues, joint pain, skin diseases, fever and the common cold—and refer patients to doctors at local hospitals. The visit is also an opportunity for the patients, especially women, to air their concerns about aging, motherhood and reproductive health according to Dr. Mustahid. The doctors also offer health, dietary and lifestyle advice where necessary, including insight on everything from recognizing postnatal(产后的) depression to daily exercise. Dr. Mustahid regularly recommends her patients to take a daily thirty-minute morning walk before the sun gets too intense.\n\nH) After a few sessions about general health issues Fazila finally opened up about something else that was bothering her: her persistent skin condition. It can get expensive to travel to the doctor, so usually the women living on the islands describe their illness to their husbands. The husbands then go to the pharmacy, try to describe the issue and return home with some random medicines. Nothing worked for Fazila until she started seeing Dr. Apa.\n\nI) Other nonprofits are also starting to provide health services on the islands. A local non-governmental organization called Friendship operates floating boat hospitals that provide health services to islands all over Bangladesh, docking at each for two months at a time. Friendship also runs satellite clinics in which one doctor and one clinic aide who are residents of the community disperse health and hygiene information.\n\nJ) TD still has a few major challenges. Many residents complain the medicines they are prescribed are sometimes unaffordable, but the government isn't doing enough for them. Patients often ask why the medicine isn't free along with the consultation from the doctors. The organizations are linked to local pharmacies and offer discounts to the patients and make sure to prescribe the most cost-effective brands, but still many residents can't afford even that.\n\nK) Nevertheless, TD's remote consultations seem to be popular: Of 3,000 patients, at least 200 have returned for follow-ups, according to TD. The reason, explains one resident, might be the simple gesture of treating the island inhabitants with respect. \"Dr. Apa is patient,\" he says, \"At government hospitals, the doctors treat us very badly, but here they listen to us, I can repeat myself many times and no one gets annoyed.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "J",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 J 段。题干：One big problem many islanders have is that they can't afford the prescribed medicines, even with discounts offered.\n核对该段原文：TD still has a few major challenges. Many residents complain the medicines they are prescribed are sometimes unaffordable, but the government isn't doing enough for them. Patients often ask why the medicine isn't free along with the consultation from the doctors. The organizations are linked to local pharmacies and offer discounts to the patients and make sure to prescribe the most cost-effective brands, but still many residents can't afford even that.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2022-06-1-nonlistening-q39",
+      "canonicalId": "lazynote-cet6-2022-06-1-q39",
+      "number": 39,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "TD is a virtual medical service financially supported by one of the nation's nonprofit organizations.",
+      "passage": "The Doctor Will Skype You Now\n\nA) Fazila is a young woman that has been dealing with eczema(湿疹), a common skin condition, for the past five years, but never got it treated. The nearest hospital is an hour away, by boat and bus, and her skin condition didn't seem serious enough to make the trek, so she ignored it—until a new technology brought the doctor to her. Fazila lives on one of the remote river islands in northern Bangladesh. These islands are low-lying, temporary sand islands that are continuously formed and destroyed through sand buildup and erosion. They are home to over six million people, who face repeated displacement from flooding and erosion—which may be getting worse because of climate change—and a range of health risks, including poor nutrition, malaria(疟疾) and other water-borne diseases.\n\nB) The most dangerous thing for these remote island dwellers is land erosion. The second is lack of access to medical supplies and doctors. There are no doctors within miles, and while child mortality and maternal death have gone down in the rest of the country, this is not the case for the islands. The medical situation is so bad that it really takes away from the quality of their life. Yet for many island inhabitants—some of Bangladesh's poorest—paying for health care is a costly ordeal. Victims of erosion lose their houses, agricultural land and jobs as farmers, fishermen and day laborers. Though government hospitals are free, many people hesitate to go, citing long commutes, endless lines and questionable diagnoses. For convenience's sake, one-third of rural households visit unqualified village doctors, who rely on unscientific methods of treatment, according to a 2016 study in the peer-reviewed journal Global Health Action.\n\nC) On the islands, there's even a colloquial(口头的) expression for the idea of making medical care your lowest priority: It's known as \"rog pushai rakha\" in Bengali, which roughly translates to \"stockpiling their diseases\"—waiting to seek medical attention until a condition becomes extremely serious. Now, a new virtual medical service called Teledaktar (TD) is trying to make health care more easily accessible. Every week, TD's medical operators travel to the islands by boat, carrying a laptop, a portable printer for prescriptions and tools to run basic medical screenings such as blood pressure, blood sugar, body temperature and weight. They choose an area of the island with the best Internet reception and set up a makeshift(临时凑合的) medical center which consists of plastic stools and small tables borrowed from the locals' homes, a tent in case of rain and a sheet that is strung up to give the patients privacy during their session.\n\nD) Launched in October 2018, TD has eight centers in towns and villages across rural Bangladesh and on three islands. It is funded by a nonprofit organization founded by Bangladeshi entrepreneurs, finance and technology professionals. Inside the center, the laptop screen lights up to reveal Dr. Tina Mustahid, TD's head physician, live-streamed(网络直播) from the capital city of Dhaka for free remote medical consultations. Affectionately called Doctor Apa—\"older sister\" in Bengali—by her patients, she is one of three volunteer doctors at TD.\n\nE) \"I diagnose them through conversation,\" says Dr. Mustahid. \"Sometimes it's really obvious things that local doctors don't have the patience to talk through with their patients. For example, a common complaint mothers come in with is that their children refuse to eat their meals. The mothers are concerned they are dealing with indigestion, but it's because they are feeding the children packaged chips which are cheap and convenient. I tell them it is ruining their appetite and ask them to cut back on unhealthy snacks.\" Dr. Mustahid says building awareness about health and nutrition is important for island patients who are cut off from mainland resources.\n\nF) Even off the islands, Bangladesh faces a critical deficit of health services. The country has half the doctors-per-person ratio recommended by the World Health Organization: roughly one doctor per 2,000 people, instead of one doctor per 1,000 people. And of those physicians, many are concentrated in cities: 70% of the country's population live in rural areas, yet less than 20% of health workers practice there. Over 70% of TD's 3,000 patients are female, in part because many are not comfortable speaking with local doctors who tend to be male. The rural women are mostly not literate or confident enough to travel on their own to the nearest town to visit medical facilities. Many have spent their entire lives rebuilding their homes when the islands flood. Early marriage and young motherhood, which are prevalent in these parts of Bangladesh, also contribute to the early onset of health problems.\n\nG) For most TD patients on the islands, Dr. Mustahid is the first big-city doctor that they've ever consulted. TD doctors are not meant to treat serious illnesses or conditions that require a doctor to be physically present, such as pregnancy. But they can write prescriptions, diagnose common ailments—including digestive issues, joint pain, skin diseases, fever and the common cold—and refer patients to doctors at local hospitals. The visit is also an opportunity for the patients, especially women, to air their concerns about aging, motherhood and reproductive health according to Dr. Mustahid. The doctors also offer health, dietary and lifestyle advice where necessary, including insight on everything from recognizing postnatal(产后的) depression to daily exercise. Dr. Mustahid regularly recommends her patients to take a daily thirty-minute morning walk before the sun gets too intense.\n\nH) After a few sessions about general health issues Fazila finally opened up about something else that was bothering her: her persistent skin condition. It can get expensive to travel to the doctor, so usually the women living on the islands describe their illness to their husbands. The husbands then go to the pharmacy, try to describe the issue and return home with some random medicines. Nothing worked for Fazila until she started seeing Dr. Apa.\n\nI) Other nonprofits are also starting to provide health services on the islands. A local non-governmental organization called Friendship operates floating boat hospitals that provide health services to islands all over Bangladesh, docking at each for two months at a time. Friendship also runs satellite clinics in which one doctor and one clinic aide who are residents of the community disperse health and hygiene information.\n\nJ) TD still has a few major challenges. Many residents complain the medicines they are prescribed are sometimes unaffordable, but the government isn't doing enough for them. Patients often ask why the medicine isn't free along with the consultation from the doctors. The organizations are linked to local pharmacies and offer discounts to the patients and make sure to prescribe the most cost-effective brands, but still many residents can't afford even that.\n\nK) Nevertheless, TD's remote consultations seem to be popular: Of 3,000 patients, at least 200 have returned for follow-ups, according to TD. The reason, explains one resident, might be the simple gesture of treating the island inhabitants with respect. \"Dr. Apa is patient,\" he says, \"At government hospitals, the doctors treat us very badly, but here they listen to us, I can repeat myself many times and no one gets annoyed.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 D 段。题干：TD is a virtual medical service financially supported by one of the nation's nonprofit organizations.\n核对该段原文：Launched in October 2018, TD has eight centers in towns and villages across rural Bangladesh and on three islands. It is funded by a nonprofit organization founded by Bangladeshi entrepreneurs, finance and technology professionals. Inside the center, the laptop screen lights up to reveal Dr. Tina Mustahid, TD's head physician, live-streamed(网络直播) from the capital city of Dhaka for free remote medical consultations. Affectionately called Doctor Apa—\"older sister\" in Bengali—by her patients, she is one of three volunteer doctors at TD.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2022-06-1-nonlistening-q40",
+      "canonicalId": "lazynote-cet6-2022-06-1-q40",
+      "number": 40,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "TD doctors are welcome to the islanders because they treat the sick with respect and patience.",
+      "passage": "The Doctor Will Skype You Now\n\nA) Fazila is a young woman that has been dealing with eczema(湿疹), a common skin condition, for the past five years, but never got it treated. The nearest hospital is an hour away, by boat and bus, and her skin condition didn't seem serious enough to make the trek, so she ignored it—until a new technology brought the doctor to her. Fazila lives on one of the remote river islands in northern Bangladesh. These islands are low-lying, temporary sand islands that are continuously formed and destroyed through sand buildup and erosion. They are home to over six million people, who face repeated displacement from flooding and erosion—which may be getting worse because of climate change—and a range of health risks, including poor nutrition, malaria(疟疾) and other water-borne diseases.\n\nB) The most dangerous thing for these remote island dwellers is land erosion. The second is lack of access to medical supplies and doctors. There are no doctors within miles, and while child mortality and maternal death have gone down in the rest of the country, this is not the case for the islands. The medical situation is so bad that it really takes away from the quality of their life. Yet for many island inhabitants—some of Bangladesh's poorest—paying for health care is a costly ordeal. Victims of erosion lose their houses, agricultural land and jobs as farmers, fishermen and day laborers. Though government hospitals are free, many people hesitate to go, citing long commutes, endless lines and questionable diagnoses. For convenience's sake, one-third of rural households visit unqualified village doctors, who rely on unscientific methods of treatment, according to a 2016 study in the peer-reviewed journal Global Health Action.\n\nC) On the islands, there's even a colloquial(口头的) expression for the idea of making medical care your lowest priority: It's known as \"rog pushai rakha\" in Bengali, which roughly translates to \"stockpiling their diseases\"—waiting to seek medical attention until a condition becomes extremely serious. Now, a new virtual medical service called Teledaktar (TD) is trying to make health care more easily accessible. Every week, TD's medical operators travel to the islands by boat, carrying a laptop, a portable printer for prescriptions and tools to run basic medical screenings such as blood pressure, blood sugar, body temperature and weight. They choose an area of the island with the best Internet reception and set up a makeshift(临时凑合的) medical center which consists of plastic stools and small tables borrowed from the locals' homes, a tent in case of rain and a sheet that is strung up to give the patients privacy during their session.\n\nD) Launched in October 2018, TD has eight centers in towns and villages across rural Bangladesh and on three islands. It is funded by a nonprofit organization founded by Bangladeshi entrepreneurs, finance and technology professionals. Inside the center, the laptop screen lights up to reveal Dr. Tina Mustahid, TD's head physician, live-streamed(网络直播) from the capital city of Dhaka for free remote medical consultations. Affectionately called Doctor Apa—\"older sister\" in Bengali—by her patients, she is one of three volunteer doctors at TD.\n\nE) \"I diagnose them through conversation,\" says Dr. Mustahid. \"Sometimes it's really obvious things that local doctors don't have the patience to talk through with their patients. For example, a common complaint mothers come in with is that their children refuse to eat their meals. The mothers are concerned they are dealing with indigestion, but it's because they are feeding the children packaged chips which are cheap and convenient. I tell them it is ruining their appetite and ask them to cut back on unhealthy snacks.\" Dr. Mustahid says building awareness about health and nutrition is important for island patients who are cut off from mainland resources.\n\nF) Even off the islands, Bangladesh faces a critical deficit of health services. The country has half the doctors-per-person ratio recommended by the World Health Organization: roughly one doctor per 2,000 people, instead of one doctor per 1,000 people. And of those physicians, many are concentrated in cities: 70% of the country's population live in rural areas, yet less than 20% of health workers practice there. Over 70% of TD's 3,000 patients are female, in part because many are not comfortable speaking with local doctors who tend to be male. The rural women are mostly not literate or confident enough to travel on their own to the nearest town to visit medical facilities. Many have spent their entire lives rebuilding their homes when the islands flood. Early marriage and young motherhood, which are prevalent in these parts of Bangladesh, also contribute to the early onset of health problems.\n\nG) For most TD patients on the islands, Dr. Mustahid is the first big-city doctor that they've ever consulted. TD doctors are not meant to treat serious illnesses or conditions that require a doctor to be physically present, such as pregnancy. But they can write prescriptions, diagnose common ailments—including digestive issues, joint pain, skin diseases, fever and the common cold—and refer patients to doctors at local hospitals. The visit is also an opportunity for the patients, especially women, to air their concerns about aging, motherhood and reproductive health according to Dr. Mustahid. The doctors also offer health, dietary and lifestyle advice where necessary, including insight on everything from recognizing postnatal(产后的) depression to daily exercise. Dr. Mustahid regularly recommends her patients to take a daily thirty-minute morning walk before the sun gets too intense.\n\nH) After a few sessions about general health issues Fazila finally opened up about something else that was bothering her: her persistent skin condition. It can get expensive to travel to the doctor, so usually the women living on the islands describe their illness to their husbands. The husbands then go to the pharmacy, try to describe the issue and return home with some random medicines. Nothing worked for Fazila until she started seeing Dr. Apa.\n\nI) Other nonprofits are also starting to provide health services on the islands. A local non-governmental organization called Friendship operates floating boat hospitals that provide health services to islands all over Bangladesh, docking at each for two months at a time. Friendship also runs satellite clinics in which one doctor and one clinic aide who are residents of the community disperse health and hygiene information.\n\nJ) TD still has a few major challenges. Many residents complain the medicines they are prescribed are sometimes unaffordable, but the government isn't doing enough for them. Patients often ask why the medicine isn't free along with the consultation from the doctors. The organizations are linked to local pharmacies and offer discounts to the patients and make sure to prescribe the most cost-effective brands, but still many residents can't afford even that.\n\nK) Nevertheless, TD's remote consultations seem to be popular: Of 3,000 patients, at least 200 have returned for follow-ups, according to TD. The reason, explains one resident, might be the simple gesture of treating the island inhabitants with respect. \"Dr. Apa is patient,\" he says, \"At government hospitals, the doctors treat us very badly, but here they listen to us, I can repeat myself many times and no one gets annoyed.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 K 段。题干：TD doctors are welcome to the islanders because they treat the sick with respect and patience.\n核对该段原文：Nevertheless, TD's remote consultations seem to be popular: Of 3,000 patients, at least 200 have returned for follow-ups, according to TD. The reason, explains one resident, might be the simple gesture of treating the island inhabitants with respect. \"Dr. Apa is patient,\" he says, \"At government hospitals, the doctors treat us very badly, but here they listen to us, I can repeat myself many times and no one gets annoyed.\"\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2022-06-1-nonlistening-q41",
+      "canonicalId": "lazynote-cet6-2022-06-1-q41",
+      "number": 41,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Women islanders tend to have health problems early partly because they get married and give birth early.",
+      "passage": "The Doctor Will Skype You Now\n\nA) Fazila is a young woman that has been dealing with eczema(湿疹), a common skin condition, for the past five years, but never got it treated. The nearest hospital is an hour away, by boat and bus, and her skin condition didn't seem serious enough to make the trek, so she ignored it—until a new technology brought the doctor to her. Fazila lives on one of the remote river islands in northern Bangladesh. These islands are low-lying, temporary sand islands that are continuously formed and destroyed through sand buildup and erosion. They are home to over six million people, who face repeated displacement from flooding and erosion—which may be getting worse because of climate change—and a range of health risks, including poor nutrition, malaria(疟疾) and other water-borne diseases.\n\nB) The most dangerous thing for these remote island dwellers is land erosion. The second is lack of access to medical supplies and doctors. There are no doctors within miles, and while child mortality and maternal death have gone down in the rest of the country, this is not the case for the islands. The medical situation is so bad that it really takes away from the quality of their life. Yet for many island inhabitants—some of Bangladesh's poorest—paying for health care is a costly ordeal. Victims of erosion lose their houses, agricultural land and jobs as farmers, fishermen and day laborers. Though government hospitals are free, many people hesitate to go, citing long commutes, endless lines and questionable diagnoses. For convenience's sake, one-third of rural households visit unqualified village doctors, who rely on unscientific methods of treatment, according to a 2016 study in the peer-reviewed journal Global Health Action.\n\nC) On the islands, there's even a colloquial(口头的) expression for the idea of making medical care your lowest priority: It's known as \"rog pushai rakha\" in Bengali, which roughly translates to \"stockpiling their diseases\"—waiting to seek medical attention until a condition becomes extremely serious. Now, a new virtual medical service called Teledaktar (TD) is trying to make health care more easily accessible. Every week, TD's medical operators travel to the islands by boat, carrying a laptop, a portable printer for prescriptions and tools to run basic medical screenings such as blood pressure, blood sugar, body temperature and weight. They choose an area of the island with the best Internet reception and set up a makeshift(临时凑合的) medical center which consists of plastic stools and small tables borrowed from the locals' homes, a tent in case of rain and a sheet that is strung up to give the patients privacy during their session.\n\nD) Launched in October 2018, TD has eight centers in towns and villages across rural Bangladesh and on three islands. It is funded by a nonprofit organization founded by Bangladeshi entrepreneurs, finance and technology professionals. Inside the center, the laptop screen lights up to reveal Dr. Tina Mustahid, TD's head physician, live-streamed(网络直播) from the capital city of Dhaka for free remote medical consultations. Affectionately called Doctor Apa—\"older sister\" in Bengali—by her patients, she is one of three volunteer doctors at TD.\n\nE) \"I diagnose them through conversation,\" says Dr. Mustahid. \"Sometimes it's really obvious things that local doctors don't have the patience to talk through with their patients. For example, a common complaint mothers come in with is that their children refuse to eat their meals. The mothers are concerned they are dealing with indigestion, but it's because they are feeding the children packaged chips which are cheap and convenient. I tell them it is ruining their appetite and ask them to cut back on unhealthy snacks.\" Dr. Mustahid says building awareness about health and nutrition is important for island patients who are cut off from mainland resources.\n\nF) Even off the islands, Bangladesh faces a critical deficit of health services. The country has half the doctors-per-person ratio recommended by the World Health Organization: roughly one doctor per 2,000 people, instead of one doctor per 1,000 people. And of those physicians, many are concentrated in cities: 70% of the country's population live in rural areas, yet less than 20% of health workers practice there. Over 70% of TD's 3,000 patients are female, in part because many are not comfortable speaking with local doctors who tend to be male. The rural women are mostly not literate or confident enough to travel on their own to the nearest town to visit medical facilities. Many have spent their entire lives rebuilding their homes when the islands flood. Early marriage and young motherhood, which are prevalent in these parts of Bangladesh, also contribute to the early onset of health problems.\n\nG) For most TD patients on the islands, Dr. Mustahid is the first big-city doctor that they've ever consulted. TD doctors are not meant to treat serious illnesses or conditions that require a doctor to be physically present, such as pregnancy. But they can write prescriptions, diagnose common ailments—including digestive issues, joint pain, skin diseases, fever and the common cold—and refer patients to doctors at local hospitals. The visit is also an opportunity for the patients, especially women, to air their concerns about aging, motherhood and reproductive health according to Dr. Mustahid. The doctors also offer health, dietary and lifestyle advice where necessary, including insight on everything from recognizing postnatal(产后的) depression to daily exercise. Dr. Mustahid regularly recommends her patients to take a daily thirty-minute morning walk before the sun gets too intense.\n\nH) After a few sessions about general health issues Fazila finally opened up about something else that was bothering her: her persistent skin condition. It can get expensive to travel to the doctor, so usually the women living on the islands describe their illness to their husbands. The husbands then go to the pharmacy, try to describe the issue and return home with some random medicines. Nothing worked for Fazila until she started seeing Dr. Apa.\n\nI) Other nonprofits are also starting to provide health services on the islands. A local non-governmental organization called Friendship operates floating boat hospitals that provide health services to islands all over Bangladesh, docking at each for two months at a time. Friendship also runs satellite clinics in which one doctor and one clinic aide who are residents of the community disperse health and hygiene information.\n\nJ) TD still has a few major challenges. Many residents complain the medicines they are prescribed are sometimes unaffordable, but the government isn't doing enough for them. Patients often ask why the medicine isn't free along with the consultation from the doctors. The organizations are linked to local pharmacies and offer discounts to the patients and make sure to prescribe the most cost-effective brands, but still many residents can't afford even that.\n\nK) Nevertheless, TD's remote consultations seem to be popular: Of 3,000 patients, at least 200 have returned for follow-ups, according to TD. The reason, explains one resident, might be the simple gesture of treating the island inhabitants with respect. \"Dr. Apa is patient,\" he says, \"At government hospitals, the doctors treat us very badly, but here they listen to us, I can repeat myself many times and no one gets annoyed.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 F 段。题干：Women islanders tend to have health problems early partly because they get married and give birth early.\n核对该段原文：Even off the islands, Bangladesh faces a critical deficit of health services. The country has half the doctors-per-person ratio recommended by the World Health Organization: roughly one doctor per 2,000 people, instead of one doctor per 1,000 people. And of those physicians, many are concentrated in cities: 70% of the country's population live in rural areas, yet less than 20% of health workers practice there. Over 70% of TD's 3,000 patients are female, in part because many are not comfortable speaking with local doctors who tend to be male. The rural women are mostly not literate or confident enough to travel on their own to the nearest town to visit medical facilities. Many have spent their entire lives rebuilding their homes when the islands flood. Early marriage and young motherhood, which are prevalent in these parts of Bangladesh, also contribute to the early onset of health problems.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2022-06-1-nonlistening-q42",
+      "canonicalId": "lazynote-cet6-2022-06-1-q42",
+      "number": 42,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "TD doctors make weekly visits to the remote islands to provide services at a temporary medical center.",
+      "passage": "The Doctor Will Skype You Now\n\nA) Fazila is a young woman that has been dealing with eczema(湿疹), a common skin condition, for the past five years, but never got it treated. The nearest hospital is an hour away, by boat and bus, and her skin condition didn't seem serious enough to make the trek, so she ignored it—until a new technology brought the doctor to her. Fazila lives on one of the remote river islands in northern Bangladesh. These islands are low-lying, temporary sand islands that are continuously formed and destroyed through sand buildup and erosion. They are home to over six million people, who face repeated displacement from flooding and erosion—which may be getting worse because of climate change—and a range of health risks, including poor nutrition, malaria(疟疾) and other water-borne diseases.\n\nB) The most dangerous thing for these remote island dwellers is land erosion. The second is lack of access to medical supplies and doctors. There are no doctors within miles, and while child mortality and maternal death have gone down in the rest of the country, this is not the case for the islands. The medical situation is so bad that it really takes away from the quality of their life. Yet for many island inhabitants—some of Bangladesh's poorest—paying for health care is a costly ordeal. Victims of erosion lose their houses, agricultural land and jobs as farmers, fishermen and day laborers. Though government hospitals are free, many people hesitate to go, citing long commutes, endless lines and questionable diagnoses. For convenience's sake, one-third of rural households visit unqualified village doctors, who rely on unscientific methods of treatment, according to a 2016 study in the peer-reviewed journal Global Health Action.\n\nC) On the islands, there's even a colloquial(口头的) expression for the idea of making medical care your lowest priority: It's known as \"rog pushai rakha\" in Bengali, which roughly translates to \"stockpiling their diseases\"—waiting to seek medical attention until a condition becomes extremely serious. Now, a new virtual medical service called Teledaktar (TD) is trying to make health care more easily accessible. Every week, TD's medical operators travel to the islands by boat, carrying a laptop, a portable printer for prescriptions and tools to run basic medical screenings such as blood pressure, blood sugar, body temperature and weight. They choose an area of the island with the best Internet reception and set up a makeshift(临时凑合的) medical center which consists of plastic stools and small tables borrowed from the locals' homes, a tent in case of rain and a sheet that is strung up to give the patients privacy during their session.\n\nD) Launched in October 2018, TD has eight centers in towns and villages across rural Bangladesh and on three islands. It is funded by a nonprofit organization founded by Bangladeshi entrepreneurs, finance and technology professionals. Inside the center, the laptop screen lights up to reveal Dr. Tina Mustahid, TD's head physician, live-streamed(网络直播) from the capital city of Dhaka for free remote medical consultations. Affectionately called Doctor Apa—\"older sister\" in Bengali—by her patients, she is one of three volunteer doctors at TD.\n\nE) \"I diagnose them through conversation,\" says Dr. Mustahid. \"Sometimes it's really obvious things that local doctors don't have the patience to talk through with their patients. For example, a common complaint mothers come in with is that their children refuse to eat their meals. The mothers are concerned they are dealing with indigestion, but it's because they are feeding the children packaged chips which are cheap and convenient. I tell them it is ruining their appetite and ask them to cut back on unhealthy snacks.\" Dr. Mustahid says building awareness about health and nutrition is important for island patients who are cut off from mainland resources.\n\nF) Even off the islands, Bangladesh faces a critical deficit of health services. The country has half the doctors-per-person ratio recommended by the World Health Organization: roughly one doctor per 2,000 people, instead of one doctor per 1,000 people. And of those physicians, many are concentrated in cities: 70% of the country's population live in rural areas, yet less than 20% of health workers practice there. Over 70% of TD's 3,000 patients are female, in part because many are not comfortable speaking with local doctors who tend to be male. The rural women are mostly not literate or confident enough to travel on their own to the nearest town to visit medical facilities. Many have spent their entire lives rebuilding their homes when the islands flood. Early marriage and young motherhood, which are prevalent in these parts of Bangladesh, also contribute to the early onset of health problems.\n\nG) For most TD patients on the islands, Dr. Mustahid is the first big-city doctor that they've ever consulted. TD doctors are not meant to treat serious illnesses or conditions that require a doctor to be physically present, such as pregnancy. But they can write prescriptions, diagnose common ailments—including digestive issues, joint pain, skin diseases, fever and the common cold—and refer patients to doctors at local hospitals. The visit is also an opportunity for the patients, especially women, to air their concerns about aging, motherhood and reproductive health according to Dr. Mustahid. The doctors also offer health, dietary and lifestyle advice where necessary, including insight on everything from recognizing postnatal(产后的) depression to daily exercise. Dr. Mustahid regularly recommends her patients to take a daily thirty-minute morning walk before the sun gets too intense.\n\nH) After a few sessions about general health issues Fazila finally opened up about something else that was bothering her: her persistent skin condition. It can get expensive to travel to the doctor, so usually the women living on the islands describe their illness to their husbands. The husbands then go to the pharmacy, try to describe the issue and return home with some random medicines. Nothing worked for Fazila until she started seeing Dr. Apa.\n\nI) Other nonprofits are also starting to provide health services on the islands. A local non-governmental organization called Friendship operates floating boat hospitals that provide health services to islands all over Bangladesh, docking at each for two months at a time. Friendship also runs satellite clinics in which one doctor and one clinic aide who are residents of the community disperse health and hygiene information.\n\nJ) TD still has a few major challenges. Many residents complain the medicines they are prescribed are sometimes unaffordable, but the government isn't doing enough for them. Patients often ask why the medicine isn't free along with the consultation from the doctors. The organizations are linked to local pharmacies and offer discounts to the patients and make sure to prescribe the most cost-effective brands, but still many residents can't afford even that.\n\nK) Nevertheless, TD's remote consultations seem to be popular: Of 3,000 patients, at least 200 have returned for follow-ups, according to TD. The reason, explains one resident, might be the simple gesture of treating the island inhabitants with respect. \"Dr. Apa is patient,\" he says, \"At government hospitals, the doctors treat us very badly, but here they listen to us, I can repeat myself many times and no one gets annoyed.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 C 段。题干：TD doctors make weekly visits to the remote islands to provide services at a temporary medical center.\n核对该段原文：On the islands, there's even a colloquial(口头的) expression for the idea of making medical care your lowest priority: It's known as \"rog pushai rakha\" in Bengali, which roughly translates to \"stockpiling their diseases\"—waiting to seek medical attention until a condition becomes extremely serious. Now, a new virtual medical service called Teledaktar (TD) is trying to make health care more easily accessible. Every week, TD's medical operators travel to the islands by boat, carrying a laptop, a portable printer for prescriptions and tools to run basic medical screenings such as blood pressure, blood sugar, body temperature and weight. They choose an area of the island with the best Internet reception and set up a makeshift(临时凑合的) medical center which consists of plastic stools and small tables borrowed from the locals' homes, a tent in case of rain and a sheet that is strung up to give the patients privacy during their session.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2022-06-1-nonlistening-q43",
+      "canonicalId": "lazynote-cet6-2022-06-1-q43",
+      "number": 43,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "TD doctors provide the islanders with online diagnoses and treatments for common diseases.",
+      "passage": "The Doctor Will Skype You Now\n\nA) Fazila is a young woman that has been dealing with eczema(湿疹), a common skin condition, for the past five years, but never got it treated. The nearest hospital is an hour away, by boat and bus, and her skin condition didn't seem serious enough to make the trek, so she ignored it—until a new technology brought the doctor to her. Fazila lives on one of the remote river islands in northern Bangladesh. These islands are low-lying, temporary sand islands that are continuously formed and destroyed through sand buildup and erosion. They are home to over six million people, who face repeated displacement from flooding and erosion—which may be getting worse because of climate change—and a range of health risks, including poor nutrition, malaria(疟疾) and other water-borne diseases.\n\nB) The most dangerous thing for these remote island dwellers is land erosion. The second is lack of access to medical supplies and doctors. There are no doctors within miles, and while child mortality and maternal death have gone down in the rest of the country, this is not the case for the islands. The medical situation is so bad that it really takes away from the quality of their life. Yet for many island inhabitants—some of Bangladesh's poorest—paying for health care is a costly ordeal. Victims of erosion lose their houses, agricultural land and jobs as farmers, fishermen and day laborers. Though government hospitals are free, many people hesitate to go, citing long commutes, endless lines and questionable diagnoses. For convenience's sake, one-third of rural households visit unqualified village doctors, who rely on unscientific methods of treatment, according to a 2016 study in the peer-reviewed journal Global Health Action.\n\nC) On the islands, there's even a colloquial(口头的) expression for the idea of making medical care your lowest priority: It's known as \"rog pushai rakha\" in Bengali, which roughly translates to \"stockpiling their diseases\"—waiting to seek medical attention until a condition becomes extremely serious. Now, a new virtual medical service called Teledaktar (TD) is trying to make health care more easily accessible. Every week, TD's medical operators travel to the islands by boat, carrying a laptop, a portable printer for prescriptions and tools to run basic medical screenings such as blood pressure, blood sugar, body temperature and weight. They choose an area of the island with the best Internet reception and set up a makeshift(临时凑合的) medical center which consists of plastic stools and small tables borrowed from the locals' homes, a tent in case of rain and a sheet that is strung up to give the patients privacy during their session.\n\nD) Launched in October 2018, TD has eight centers in towns and villages across rural Bangladesh and on three islands. It is funded by a nonprofit organization founded by Bangladeshi entrepreneurs, finance and technology professionals. Inside the center, the laptop screen lights up to reveal Dr. Tina Mustahid, TD's head physician, live-streamed(网络直播) from the capital city of Dhaka for free remote medical consultations. Affectionately called Doctor Apa—\"older sister\" in Bengali—by her patients, she is one of three volunteer doctors at TD.\n\nE) \"I diagnose them through conversation,\" says Dr. Mustahid. \"Sometimes it's really obvious things that local doctors don't have the patience to talk through with their patients. For example, a common complaint mothers come in with is that their children refuse to eat their meals. The mothers are concerned they are dealing with indigestion, but it's because they are feeding the children packaged chips which are cheap and convenient. I tell them it is ruining their appetite and ask them to cut back on unhealthy snacks.\" Dr. Mustahid says building awareness about health and nutrition is important for island patients who are cut off from mainland resources.\n\nF) Even off the islands, Bangladesh faces a critical deficit of health services. The country has half the doctors-per-person ratio recommended by the World Health Organization: roughly one doctor per 2,000 people, instead of one doctor per 1,000 people. And of those physicians, many are concentrated in cities: 70% of the country's population live in rural areas, yet less than 20% of health workers practice there. Over 70% of TD's 3,000 patients are female, in part because many are not comfortable speaking with local doctors who tend to be male. The rural women are mostly not literate or confident enough to travel on their own to the nearest town to visit medical facilities. Many have spent their entire lives rebuilding their homes when the islands flood. Early marriage and young motherhood, which are prevalent in these parts of Bangladesh, also contribute to the early onset of health problems.\n\nG) For most TD patients on the islands, Dr. Mustahid is the first big-city doctor that they've ever consulted. TD doctors are not meant to treat serious illnesses or conditions that require a doctor to be physically present, such as pregnancy. But they can write prescriptions, diagnose common ailments—including digestive issues, joint pain, skin diseases, fever and the common cold—and refer patients to doctors at local hospitals. The visit is also an opportunity for the patients, especially women, to air their concerns about aging, motherhood and reproductive health according to Dr. Mustahid. The doctors also offer health, dietary and lifestyle advice where necessary, including insight on everything from recognizing postnatal(产后的) depression to daily exercise. Dr. Mustahid regularly recommends her patients to take a daily thirty-minute morning walk before the sun gets too intense.\n\nH) After a few sessions about general health issues Fazila finally opened up about something else that was bothering her: her persistent skin condition. It can get expensive to travel to the doctor, so usually the women living on the islands describe their illness to their husbands. The husbands then go to the pharmacy, try to describe the issue and return home with some random medicines. Nothing worked for Fazila until she started seeing Dr. Apa.\n\nI) Other nonprofits are also starting to provide health services on the islands. A local non-governmental organization called Friendship operates floating boat hospitals that provide health services to islands all over Bangladesh, docking at each for two months at a time. Friendship also runs satellite clinics in which one doctor and one clinic aide who are residents of the community disperse health and hygiene information.\n\nJ) TD still has a few major challenges. Many residents complain the medicines they are prescribed are sometimes unaffordable, but the government isn't doing enough for them. Patients often ask why the medicine isn't free along with the consultation from the doctors. The organizations are linked to local pharmacies and offer discounts to the patients and make sure to prescribe the most cost-effective brands, but still many residents can't afford even that.\n\nK) Nevertheless, TD's remote consultations seem to be popular: Of 3,000 patients, at least 200 have returned for follow-ups, according to TD. The reason, explains one resident, might be the simple gesture of treating the island inhabitants with respect. \"Dr. Apa is patient,\" he says, \"At government hospitals, the doctors treat us very badly, but here they listen to us, I can repeat myself many times and no one gets annoyed.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 G 段。题干：TD doctors provide the islanders with online diagnoses and treatments for common diseases.\n核对该段原文：For most TD patients on the islands, Dr. Mustahid is the first big-city doctor that they've ever consulted. TD doctors are not meant to treat serious illnesses or conditions that require a doctor to be physically present, such as pregnancy. But they can write prescriptions, diagnose common ailments—including digestive issues, joint pain, skin diseases, fever and the common cold—and refer patients to doctors at local hospitals. The visit is also an opportunity for the patients, especially women, to air their concerns about aging, motherhood and reproductive health according to Dr. Mustahid. The doctors also offer health, dietary and lifestyle advice where necessary, including insight on everything from recognizing postnatal(产后的) depression to daily exercise. Dr. Mustahid regularly recommends her patients to take a daily thirty-minute morning walk before the sun gets too intense.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2022-06-1-nonlistening-q44",
+      "canonicalId": "lazynote-cet6-2022-06-1-q44",
+      "number": 44,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The residents of the river islands have to keep moving their homes because of floods and land erosions.",
+      "passage": "The Doctor Will Skype You Now\n\nA) Fazila is a young woman that has been dealing with eczema(湿疹), a common skin condition, for the past five years, but never got it treated. The nearest hospital is an hour away, by boat and bus, and her skin condition didn't seem serious enough to make the trek, so she ignored it—until a new technology brought the doctor to her. Fazila lives on one of the remote river islands in northern Bangladesh. These islands are low-lying, temporary sand islands that are continuously formed and destroyed through sand buildup and erosion. They are home to over six million people, who face repeated displacement from flooding and erosion—which may be getting worse because of climate change—and a range of health risks, including poor nutrition, malaria(疟疾) and other water-borne diseases.\n\nB) The most dangerous thing for these remote island dwellers is land erosion. The second is lack of access to medical supplies and doctors. There are no doctors within miles, and while child mortality and maternal death have gone down in the rest of the country, this is not the case for the islands. The medical situation is so bad that it really takes away from the quality of their life. Yet for many island inhabitants—some of Bangladesh's poorest—paying for health care is a costly ordeal. Victims of erosion lose their houses, agricultural land and jobs as farmers, fishermen and day laborers. Though government hospitals are free, many people hesitate to go, citing long commutes, endless lines and questionable diagnoses. For convenience's sake, one-third of rural households visit unqualified village doctors, who rely on unscientific methods of treatment, according to a 2016 study in the peer-reviewed journal Global Health Action.\n\nC) On the islands, there's even a colloquial(口头的) expression for the idea of making medical care your lowest priority: It's known as \"rog pushai rakha\" in Bengali, which roughly translates to \"stockpiling their diseases\"—waiting to seek medical attention until a condition becomes extremely serious. Now, a new virtual medical service called Teledaktar (TD) is trying to make health care more easily accessible. Every week, TD's medical operators travel to the islands by boat, carrying a laptop, a portable printer for prescriptions and tools to run basic medical screenings such as blood pressure, blood sugar, body temperature and weight. They choose an area of the island with the best Internet reception and set up a makeshift(临时凑合的) medical center which consists of plastic stools and small tables borrowed from the locals' homes, a tent in case of rain and a sheet that is strung up to give the patients privacy during their session.\n\nD) Launched in October 2018, TD has eight centers in towns and villages across rural Bangladesh and on three islands. It is funded by a nonprofit organization founded by Bangladeshi entrepreneurs, finance and technology professionals. Inside the center, the laptop screen lights up to reveal Dr. Tina Mustahid, TD's head physician, live-streamed(网络直播) from the capital city of Dhaka for free remote medical consultations. Affectionately called Doctor Apa—\"older sister\" in Bengali—by her patients, she is one of three volunteer doctors at TD.\n\nE) \"I diagnose them through conversation,\" says Dr. Mustahid. \"Sometimes it's really obvious things that local doctors don't have the patience to talk through with their patients. For example, a common complaint mothers come in with is that their children refuse to eat their meals. The mothers are concerned they are dealing with indigestion, but it's because they are feeding the children packaged chips which are cheap and convenient. I tell them it is ruining their appetite and ask them to cut back on unhealthy snacks.\" Dr. Mustahid says building awareness about health and nutrition is important for island patients who are cut off from mainland resources.\n\nF) Even off the islands, Bangladesh faces a critical deficit of health services. The country has half the doctors-per-person ratio recommended by the World Health Organization: roughly one doctor per 2,000 people, instead of one doctor per 1,000 people. And of those physicians, many are concentrated in cities: 70% of the country's population live in rural areas, yet less than 20% of health workers practice there. Over 70% of TD's 3,000 patients are female, in part because many are not comfortable speaking with local doctors who tend to be male. The rural women are mostly not literate or confident enough to travel on their own to the nearest town to visit medical facilities. Many have spent their entire lives rebuilding their homes when the islands flood. Early marriage and young motherhood, which are prevalent in these parts of Bangladesh, also contribute to the early onset of health problems.\n\nG) For most TD patients on the islands, Dr. Mustahid is the first big-city doctor that they've ever consulted. TD doctors are not meant to treat serious illnesses or conditions that require a doctor to be physically present, such as pregnancy. But they can write prescriptions, diagnose common ailments—including digestive issues, joint pain, skin diseases, fever and the common cold—and refer patients to doctors at local hospitals. The visit is also an opportunity for the patients, especially women, to air their concerns about aging, motherhood and reproductive health according to Dr. Mustahid. The doctors also offer health, dietary and lifestyle advice where necessary, including insight on everything from recognizing postnatal(产后的) depression to daily exercise. Dr. Mustahid regularly recommends her patients to take a daily thirty-minute morning walk before the sun gets too intense.\n\nH) After a few sessions about general health issues Fazila finally opened up about something else that was bothering her: her persistent skin condition. It can get expensive to travel to the doctor, so usually the women living on the islands describe their illness to their husbands. The husbands then go to the pharmacy, try to describe the issue and return home with some random medicines. Nothing worked for Fazila until she started seeing Dr. Apa.\n\nI) Other nonprofits are also starting to provide health services on the islands. A local non-governmental organization called Friendship operates floating boat hospitals that provide health services to islands all over Bangladesh, docking at each for two months at a time. Friendship also runs satellite clinics in which one doctor and one clinic aide who are residents of the community disperse health and hygiene information.\n\nJ) TD still has a few major challenges. Many residents complain the medicines they are prescribed are sometimes unaffordable, but the government isn't doing enough for them. Patients often ask why the medicine isn't free along with the consultation from the doctors. The organizations are linked to local pharmacies and offer discounts to the patients and make sure to prescribe the most cost-effective brands, but still many residents can't afford even that.\n\nK) Nevertheless, TD's remote consultations seem to be popular: Of 3,000 patients, at least 200 have returned for follow-ups, according to TD. The reason, explains one resident, might be the simple gesture of treating the island inhabitants with respect. \"Dr. Apa is patient,\" he says, \"At government hospitals, the doctors treat us very badly, but here they listen to us, I can repeat myself many times and no one gets annoyed.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 A 段。题干：The residents of the river islands have to keep moving their homes because of floods and land erosions.\n核对该段原文：Fazila is a young woman that has been dealing with eczema(湿疹), a common skin condition, for the past five years, but never got it treated. The nearest hospital is an hour away, by boat and bus, and her skin condition didn't seem serious enough to make the trek, so she ignored it—until a new technology brought the doctor to her. Fazila lives on one of the remote river islands in northern Bangladesh. These islands are low-lying, temporary sand islands that are continuously formed and destroyed through sand buildup and erosion. They are home to over six million people, who face repeated displacement from flooding and erosion—which may be getting worse because of climate change—and a range of health risks, including poor nutrition, malaria(疟疾) and other water-borne diseases.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2022-06-1-nonlistening-q45",
+      "canonicalId": "lazynote-cet6-2022-06-1-q45",
+      "number": 45,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Women islanders usually rely on their husbands to get some medicines for them without diagnoses and prescriptions.",
+      "passage": "The Doctor Will Skype You Now\n\nA) Fazila is a young woman that has been dealing with eczema(湿疹), a common skin condition, for the past five years, but never got it treated. The nearest hospital is an hour away, by boat and bus, and her skin condition didn't seem serious enough to make the trek, so she ignored it—until a new technology brought the doctor to her. Fazila lives on one of the remote river islands in northern Bangladesh. These islands are low-lying, temporary sand islands that are continuously formed and destroyed through sand buildup and erosion. They are home to over six million people, who face repeated displacement from flooding and erosion—which may be getting worse because of climate change—and a range of health risks, including poor nutrition, malaria(疟疾) and other water-borne diseases.\n\nB) The most dangerous thing for these remote island dwellers is land erosion. The second is lack of access to medical supplies and doctors. There are no doctors within miles, and while child mortality and maternal death have gone down in the rest of the country, this is not the case for the islands. The medical situation is so bad that it really takes away from the quality of their life. Yet for many island inhabitants—some of Bangladesh's poorest—paying for health care is a costly ordeal. Victims of erosion lose their houses, agricultural land and jobs as farmers, fishermen and day laborers. Though government hospitals are free, many people hesitate to go, citing long commutes, endless lines and questionable diagnoses. For convenience's sake, one-third of rural households visit unqualified village doctors, who rely on unscientific methods of treatment, according to a 2016 study in the peer-reviewed journal Global Health Action.\n\nC) On the islands, there's even a colloquial(口头的) expression for the idea of making medical care your lowest priority: It's known as \"rog pushai rakha\" in Bengali, which roughly translates to \"stockpiling their diseases\"—waiting to seek medical attention until a condition becomes extremely serious. Now, a new virtual medical service called Teledaktar (TD) is trying to make health care more easily accessible. Every week, TD's medical operators travel to the islands by boat, carrying a laptop, a portable printer for prescriptions and tools to run basic medical screenings such as blood pressure, blood sugar, body temperature and weight. They choose an area of the island with the best Internet reception and set up a makeshift(临时凑合的) medical center which consists of plastic stools and small tables borrowed from the locals' homes, a tent in case of rain and a sheet that is strung up to give the patients privacy during their session.\n\nD) Launched in October 2018, TD has eight centers in towns and villages across rural Bangladesh and on three islands. It is funded by a nonprofit organization founded by Bangladeshi entrepreneurs, finance and technology professionals. Inside the center, the laptop screen lights up to reveal Dr. Tina Mustahid, TD's head physician, live-streamed(网络直播) from the capital city of Dhaka for free remote medical consultations. Affectionately called Doctor Apa—\"older sister\" in Bengali—by her patients, she is one of three volunteer doctors at TD.\n\nE) \"I diagnose them through conversation,\" says Dr. Mustahid. \"Sometimes it's really obvious things that local doctors don't have the patience to talk through with their patients. For example, a common complaint mothers come in with is that their children refuse to eat their meals. The mothers are concerned they are dealing with indigestion, but it's because they are feeding the children packaged chips which are cheap and convenient. I tell them it is ruining their appetite and ask them to cut back on unhealthy snacks.\" Dr. Mustahid says building awareness about health and nutrition is important for island patients who are cut off from mainland resources.\n\nF) Even off the islands, Bangladesh faces a critical deficit of health services. The country has half the doctors-per-person ratio recommended by the World Health Organization: roughly one doctor per 2,000 people, instead of one doctor per 1,000 people. And of those physicians, many are concentrated in cities: 70% of the country's population live in rural areas, yet less than 20% of health workers practice there. Over 70% of TD's 3,000 patients are female, in part because many are not comfortable speaking with local doctors who tend to be male. The rural women are mostly not literate or confident enough to travel on their own to the nearest town to visit medical facilities. Many have spent their entire lives rebuilding their homes when the islands flood. Early marriage and young motherhood, which are prevalent in these parts of Bangladesh, also contribute to the early onset of health problems.\n\nG) For most TD patients on the islands, Dr. Mustahid is the first big-city doctor that they've ever consulted. TD doctors are not meant to treat serious illnesses or conditions that require a doctor to be physically present, such as pregnancy. But they can write prescriptions, diagnose common ailments—including digestive issues, joint pain, skin diseases, fever and the common cold—and refer patients to doctors at local hospitals. The visit is also an opportunity for the patients, especially women, to air their concerns about aging, motherhood and reproductive health according to Dr. Mustahid. The doctors also offer health, dietary and lifestyle advice where necessary, including insight on everything from recognizing postnatal(产后的) depression to daily exercise. Dr. Mustahid regularly recommends her patients to take a daily thirty-minute morning walk before the sun gets too intense.\n\nH) After a few sessions about general health issues Fazila finally opened up about something else that was bothering her: her persistent skin condition. It can get expensive to travel to the doctor, so usually the women living on the islands describe their illness to their husbands. The husbands then go to the pharmacy, try to describe the issue and return home with some random medicines. Nothing worked for Fazila until she started seeing Dr. Apa.\n\nI) Other nonprofits are also starting to provide health services on the islands. A local non-governmental organization called Friendship operates floating boat hospitals that provide health services to islands all over Bangladesh, docking at each for two months at a time. Friendship also runs satellite clinics in which one doctor and one clinic aide who are residents of the community disperse health and hygiene information.\n\nJ) TD still has a few major challenges. Many residents complain the medicines they are prescribed are sometimes unaffordable, but the government isn't doing enough for them. Patients often ask why the medicine isn't free along with the consultation from the doctors. The organizations are linked to local pharmacies and offer discounts to the patients and make sure to prescribe the most cost-effective brands, but still many residents can't afford even that.\n\nK) Nevertheless, TD's remote consultations seem to be popular: Of 3,000 patients, at least 200 have returned for follow-ups, according to TD. The reason, explains one resident, might be the simple gesture of treating the island inhabitants with respect. \"Dr. Apa is patient,\" he says, \"At government hospitals, the doctors treat us very badly, but here they listen to us, I can repeat myself many times and no one gets annoyed.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 H 段。题干：Women islanders usually rely on their husbands to get some medicines for them without diagnoses and prescriptions.\n核对该段原文：After a few sessions about general health issues Fazila finally opened up about something else that was bothering her: her persistent skin condition. It can get expensive to travel to the doctor, so usually the women living on the islands describe their illness to their husbands. The husbands then go to the pharmacy, try to describe the issue and return home with some random medicines. Nothing worked for Fazila until she started seeing Dr. Apa.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2022-06-1-nonlistening-q46",
+      "canonicalId": "lazynote-cet6-2022-06-1-q46",
+      "number": 46,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What fact does the author emphasize concerning selective colleges and universities?",
+      "passage": "Selective colleges and universities in the U.S. are under fire for being too elite and too expensive, and for not training graduates for the world of work. Such charges ignore the fact that these institutions continue to prepare students for success in their work, for thoughtful engagement in civic life, for lifelong learning, and for understanding the world and those with whom they live.\n\nThese colleges and universities must be doing something right. Applications are at record highs, and their financial aid programs make them more accessible than ever. This model of education has long played a central role in creating opportunity, driving economic growth, and spurring innovation.\n\nYet, there is growing skepticism about the value of this model. The recent tax reform bill is a wake-up call that our strongest colleges and universities are under assault by some in government. The initial proposals would have made education unaffordable for many by taxing tuition waivers for graduate students and ending deductions for student loan interest. Thankfully, these provisions were ultimately stripped from the bill, but lawmakers let stand a new tax on the investment income of some colleges and universities.\n\nWhile these attacks are motivated by misguided ideas, we need to do a better job of explaining why these claims are false and why what we do is valuable. We cannot take for granted that any of this is obvious.\n\nIt is often said that elite colleges and universities do not train students, particularly those who study the liberal arts, for the workforce. But this can be refuted by scholarly research. The data are clear: a liberal arts education is great career preparation, both for excellent lifetime earnings and for satisfaction with the work. This education develops the skills of critical thinking, rigorous analysis of data and facts, communication with the written and spoken word, understanding of cultural differences and issues, and the ability to keep learning. In fact, liberal arts graduates do extremely well in every imaginable field.\n\nAccess to an education at selective colleges and universities is now more available than ever to low- and middle-income families. We have built endowments from donations by alumni(校友) and parents who understand and appreciate our mission to provide access and opportunity, and a significant portion of the returns from these endowments is used to fund financial aid.\n\nIronically, the new tax on endowments drains financial aid funds from the very schools most able to offer opportunity to those who have earned a spot but cannot otherwise afford this education. Beyond the virtue of access to those who have earned a place at these schools, the diversity of economic backgrounds enhances the education and experience of all of our students.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They have been ignoring the training of graduates for the world of work."
+        },
+        {
+          "id": "B",
+          "text": "They have been doing well in ensuring their students a successful future."
+        },
+        {
+          "id": "C",
+          "text": "They have been constantly attacked for being too elite and too expensive."
+        },
+        {
+          "id": "D",
+          "text": "They have been actively engaged in civic life beyond the school campus."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：They have been doing well in ensuring their students a successful future.\n关键词检索定位到第 1 段的候选相关句：Selective colleges and universities in the U.S. are under fire for being too elite and too expensive, and for not training graduates for the world of work.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2022-06-1-nonlistening-q47",
+      "canonicalId": "lazynote-cet6-2022-06-1-q47",
+      "number": 47,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author say in arguing for the model of education in the U.S.?",
+      "passage": "Selective colleges and universities in the U.S. are under fire for being too elite and too expensive, and for not training graduates for the world of work. Such charges ignore the fact that these institutions continue to prepare students for success in their work, for thoughtful engagement in civic life, for lifelong learning, and for understanding the world and those with whom they live.\n\nThese colleges and universities must be doing something right. Applications are at record highs, and their financial aid programs make them more accessible than ever. This model of education has long played a central role in creating opportunity, driving economic growth, and spurring innovation.\n\nYet, there is growing skepticism about the value of this model. The recent tax reform bill is a wake-up call that our strongest colleges and universities are under assault by some in government. The initial proposals would have made education unaffordable for many by taxing tuition waivers for graduate students and ending deductions for student loan interest. Thankfully, these provisions were ultimately stripped from the bill, but lawmakers let stand a new tax on the investment income of some colleges and universities.\n\nWhile these attacks are motivated by misguided ideas, we need to do a better job of explaining why these claims are false and why what we do is valuable. We cannot take for granted that any of this is obvious.\n\nIt is often said that elite colleges and universities do not train students, particularly those who study the liberal arts, for the workforce. But this can be refuted by scholarly research. The data are clear: a liberal arts education is great career preparation, both for excellent lifetime earnings and for satisfaction with the work. This education develops the skills of critical thinking, rigorous analysis of data and facts, communication with the written and spoken word, understanding of cultural differences and issues, and the ability to keep learning. In fact, liberal arts graduates do extremely well in every imaginable field.\n\nAccess to an education at selective colleges and universities is now more available than ever to low- and middle-income families. We have built endowments from donations by alumni(校友) and parents who understand and appreciate our mission to provide access and opportunity, and a significant portion of the returns from these endowments is used to fund financial aid.\n\nIronically, the new tax on endowments drains financial aid funds from the very schools most able to offer opportunity to those who have earned a spot but cannot otherwise afford this education. Beyond the virtue of access to those who have earned a place at these schools, the diversity of economic backgrounds enhances the education and experience of all of our students.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It has contributed substantially to the nation's overall development."
+        },
+        {
+          "id": "B",
+          "text": "It has succeeded in maintaining sustainable financial aid programs."
+        },
+        {
+          "id": "C",
+          "text": "It has given priority to innovative programs for graduate studies."
+        },
+        {
+          "id": "D",
+          "text": "It has played a central role in attracting international applicants."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：It has contributed substantially to the nation's overall development.\n关键词检索定位到第 2 段的候选相关句：This model of education has long played a central role in creating opportunity, driving economic growth, and spurring innovation.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2022-06-1-nonlistening-q48",
+      "canonicalId": "lazynote-cet6-2022-06-1-q48",
+      "number": 48,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn about the initial proposals concerning the recent tax reform bill?",
+      "passage": "Selective colleges and universities in the U.S. are under fire for being too elite and too expensive, and for not training graduates for the world of work. Such charges ignore the fact that these institutions continue to prepare students for success in their work, for thoughtful engagement in civic life, for lifelong learning, and for understanding the world and those with whom they live.\n\nThese colleges and universities must be doing something right. Applications are at record highs, and their financial aid programs make them more accessible than ever. This model of education has long played a central role in creating opportunity, driving economic growth, and spurring innovation.\n\nYet, there is growing skepticism about the value of this model. The recent tax reform bill is a wake-up call that our strongest colleges and universities are under assault by some in government. The initial proposals would have made education unaffordable for many by taxing tuition waivers for graduate students and ending deductions for student loan interest. Thankfully, these provisions were ultimately stripped from the bill, but lawmakers let stand a new tax on the investment income of some colleges and universities.\n\nWhile these attacks are motivated by misguided ideas, we need to do a better job of explaining why these claims are false and why what we do is valuable. We cannot take for granted that any of this is obvious.\n\nIt is often said that elite colleges and universities do not train students, particularly those who study the liberal arts, for the workforce. But this can be refuted by scholarly research. The data are clear: a liberal arts education is great career preparation, both for excellent lifetime earnings and for satisfaction with the work. This education develops the skills of critical thinking, rigorous analysis of data and facts, communication with the written and spoken word, understanding of cultural differences and issues, and the ability to keep learning. In fact, liberal arts graduates do extremely well in every imaginable field.\n\nAccess to an education at selective colleges and universities is now more available than ever to low- and middle-income families. We have built endowments from donations by alumni(校友) and parents who understand and appreciate our mission to provide access and opportunity, and a significant portion of the returns from these endowments is used to fund financial aid.\n\nIronically, the new tax on endowments drains financial aid funds from the very schools most able to offer opportunity to those who have earned a spot but cannot otherwise afford this education. Beyond the virtue of access to those who have earned a place at these schools, the diversity of economic backgrounds enhances the education and experience of all of our students.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They would have stripped many students of life's chances."
+        },
+        {
+          "id": "B",
+          "text": "They would have deducted graduate student loan interest."
+        },
+        {
+          "id": "C",
+          "text": "They would have added to many students' financial burden."
+        },
+        {
+          "id": "D",
+          "text": "They would have increased the number of tuition waivers."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：They would have added to many students' financial burden.\n关键词检索定位到第 3 段的候选相关句：The recent tax reform bill is a wake-up call that our strongest colleges and universities are under assault by some in government.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2022-06-1-nonlistening-q49",
+      "canonicalId": "lazynote-cet6-2022-06-1-q49",
+      "number": 49,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do the data show about elite colleges and universities?",
+      "passage": "Selective colleges and universities in the U.S. are under fire for being too elite and too expensive, and for not training graduates for the world of work. Such charges ignore the fact that these institutions continue to prepare students for success in their work, for thoughtful engagement in civic life, for lifelong learning, and for understanding the world and those with whom they live.\n\nThese colleges and universities must be doing something right. Applications are at record highs, and their financial aid programs make them more accessible than ever. This model of education has long played a central role in creating opportunity, driving economic growth, and spurring innovation.\n\nYet, there is growing skepticism about the value of this model. The recent tax reform bill is a wake-up call that our strongest colleges and universities are under assault by some in government. The initial proposals would have made education unaffordable for many by taxing tuition waivers for graduate students and ending deductions for student loan interest. Thankfully, these provisions were ultimately stripped from the bill, but lawmakers let stand a new tax on the investment income of some colleges and universities.\n\nWhile these attacks are motivated by misguided ideas, we need to do a better job of explaining why these claims are false and why what we do is valuable. We cannot take for granted that any of this is obvious.\n\nIt is often said that elite colleges and universities do not train students, particularly those who study the liberal arts, for the workforce. But this can be refuted by scholarly research. The data are clear: a liberal arts education is great career preparation, both for excellent lifetime earnings and for satisfaction with the work. This education develops the skills of critical thinking, rigorous analysis of data and facts, communication with the written and spoken word, understanding of cultural differences and issues, and the ability to keep learning. In fact, liberal arts graduates do extremely well in every imaginable field.\n\nAccess to an education at selective colleges and universities is now more available than ever to low- and middle-income families. We have built endowments from donations by alumni(校友) and parents who understand and appreciate our mission to provide access and opportunity, and a significant portion of the returns from these endowments is used to fund financial aid.\n\nIronically, the new tax on endowments drains financial aid funds from the very schools most able to offer opportunity to those who have earned a spot but cannot otherwise afford this education. Beyond the virtue of access to those who have earned a place at these schools, the diversity of economic backgrounds enhances the education and experience of all of our students.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Their graduates lack the rigor required for doing statistical analysis."
+        },
+        {
+          "id": "B",
+          "text": "Their students prove to be inadequately prepared for their future careers."
+        },
+        {
+          "id": "C",
+          "text": "Their focus on research is conducive to developing students' critical thinking."
+        },
+        {
+          "id": "D",
+          "text": "Their liberal arts education enables graduates to excel in whatever field they are in."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：Their liberal arts education enables graduates to excel in whatever field they are in.\n关键词检索定位到第 5 段的候选相关句：It is often said that elite colleges and universities do not train students, particularly those who study the liberal arts, for the workforce.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2022-06-1-nonlistening-q50",
+      "canonicalId": "lazynote-cet6-2022-06-1-q50",
+      "number": 50,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What is an advantage of providing financial aid for students?",
+      "passage": "Selective colleges and universities in the U.S. are under fire for being too elite and too expensive, and for not training graduates for the world of work. Such charges ignore the fact that these institutions continue to prepare students for success in their work, for thoughtful engagement in civic life, for lifelong learning, and for understanding the world and those with whom they live.\n\nThese colleges and universities must be doing something right. Applications are at record highs, and their financial aid programs make them more accessible than ever. This model of education has long played a central role in creating opportunity, driving economic growth, and spurring innovation.\n\nYet, there is growing skepticism about the value of this model. The recent tax reform bill is a wake-up call that our strongest colleges and universities are under assault by some in government. The initial proposals would have made education unaffordable for many by taxing tuition waivers for graduate students and ending deductions for student loan interest. Thankfully, these provisions were ultimately stripped from the bill, but lawmakers let stand a new tax on the investment income of some colleges and universities.\n\nWhile these attacks are motivated by misguided ideas, we need to do a better job of explaining why these claims are false and why what we do is valuable. We cannot take for granted that any of this is obvious.\n\nIt is often said that elite colleges and universities do not train students, particularly those who study the liberal arts, for the workforce. But this can be refuted by scholarly research. The data are clear: a liberal arts education is great career preparation, both for excellent lifetime earnings and for satisfaction with the work. This education develops the skills of critical thinking, rigorous analysis of data and facts, communication with the written and spoken word, understanding of cultural differences and issues, and the ability to keep learning. In fact, liberal arts graduates do extremely well in every imaginable field.\n\nAccess to an education at selective colleges and universities is now more available than ever to low- and middle-income families. We have built endowments from donations by alumni(校友) and parents who understand and appreciate our mission to provide access and opportunity, and a significant portion of the returns from these endowments is used to fund financial aid.\n\nIronically, the new tax on endowments drains financial aid funds from the very schools most able to offer opportunity to those who have earned a spot but cannot otherwise afford this education. Beyond the virtue of access to those who have earned a place at these schools, the diversity of economic backgrounds enhances the education and experience of all of our students.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Every student can choose the institution they wish to attend."
+        },
+        {
+          "id": "B",
+          "text": "All students can benefit from a diversified student population."
+        },
+        {
+          "id": "C",
+          "text": "All students will be able to earn a place on university campus."
+        },
+        {
+          "id": "D",
+          "text": "Less privileged students will be more competitive at elite schools."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：All students can benefit from a diversified student population.\n关键词检索定位到第 2 段的候选相关句：Applications are at record highs, and their financial aid programs make them more accessible than ever.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2022-06-1-nonlistening-q51",
+      "canonicalId": "lazynote-cet6-2022-06-1-q51",
+      "number": 51,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author intend to show by citing the findings from the report published last year?",
+      "passage": "When a group of Australians was asked why they believed climate change was not happening, about 36% said it was \"common sense\", according to a report published last year by the Commonwealth Scientific and Industrial Research Organization. This was the most popular reason for their opinion, with only 11% saying their belief that climate change was not happening was based on scientific research.\n\nBut what do we mean by an appeal to common sense? Presumably it's an appeal to rationality of some sort that forms the basis of more complex reasoning. The appeal to common sense, however, is usually nothing more than an appeal to thinking that just feels right, but what feels right to one person may not feel right to another. Whether it feels right is usually a reflection of the world view and ideologies we have internalised, and that frames how we interact with new ideas. When new ideas are in accord with what we already believe, they are more readily accepted. When they are not, they, and the arguments that lead to them, are more readily rejected.\n\nWe often mistake this automatic compatibility testing of new ideas with existing beliefs as an application of common sense, but, in reality, it is more about judging than thinking. As Nobelist Daniel Kahneman notes in Thinking, Fast and Slow, when we arrive at conclusions in this way, the outcomes also feel true, regardless of whether they are. We are not psychologically well equipped to judge our own thinking.\n\nWe are also highly susceptible to a range of cognitive biases such as giving preference to the first things that come to mind when making decisions or giving weight to evidence.\n\nOne way we can check our internal biases and inconsistencies is through the social verification of knowledge, in which we test our ideas in a rigorous and systematic way to see if they make sense not just to us, but to other people. The outstanding example of this socially shared cognition is science.\n\nThat does not mean that individuals are not capable of excellent thinking, nor does it mean no individual is rational. But the extent to which individuals can do this on their own is a function of how well integrated they are with communities of systematic inquiry in the first place. You can't learn to think well by yourself.\n\nIn matters of science at least, those who value their common sense over methodological, collaborative investigation imagine themselves to be more free in their thinking, unbound by involvement with the group, but in reality they are tightly bound by their capabilities and perspectives. We are smarter together than we are individually, and perhaps that's just common sense.",
+      "options": [
+        {
+          "id": "A",
+          "text": "People seldom appeal to rationality in their thinking."
+        },
+        {
+          "id": "B",
+          "text": "It is often the case that truth lies in the hands of a few."
+        },
+        {
+          "id": "C",
+          "text": "Common sense and science are the two sides of a coin."
+        },
+        {
+          "id": "D",
+          "text": "Few people know if climate change is really happening."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：People seldom appeal to rationality in their thinking.\n关键词检索定位到第 1 段的候选相关句：When a group of Australians was asked why they believed climate change was not happening, about 36% said it was \"common sense\", according to a report published last year by the Commonwealth Scientific and Industrial Research Organization.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2022-06-1-nonlistening-q52",
+      "canonicalId": "lazynote-cet6-2022-06-1-q52",
+      "number": 52,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What is the appeal to common sense according to the author?",
+      "passage": "When a group of Australians was asked why they believed climate change was not happening, about 36% said it was \"common sense\", according to a report published last year by the Commonwealth Scientific and Industrial Research Organization. This was the most popular reason for their opinion, with only 11% saying their belief that climate change was not happening was based on scientific research.\n\nBut what do we mean by an appeal to common sense? Presumably it's an appeal to rationality of some sort that forms the basis of more complex reasoning. The appeal to common sense, however, is usually nothing more than an appeal to thinking that just feels right, but what feels right to one person may not feel right to another. Whether it feels right is usually a reflection of the world view and ideologies we have internalised, and that frames how we interact with new ideas. When new ideas are in accord with what we already believe, they are more readily accepted. When they are not, they, and the arguments that lead to them, are more readily rejected.\n\nWe often mistake this automatic compatibility testing of new ideas with existing beliefs as an application of common sense, but, in reality, it is more about judging than thinking. As Nobelist Daniel Kahneman notes in Thinking, Fast and Slow, when we arrive at conclusions in this way, the outcomes also feel true, regardless of whether they are. We are not psychologically well equipped to judge our own thinking.\n\nWe are also highly susceptible to a range of cognitive biases such as giving preference to the first things that come to mind when making decisions or giving weight to evidence.\n\nOne way we can check our internal biases and inconsistencies is through the social verification of knowledge, in which we test our ideas in a rigorous and systematic way to see if they make sense not just to us, but to other people. The outstanding example of this socially shared cognition is science.\n\nThat does not mean that individuals are not capable of excellent thinking, nor does it mean no individual is rational. But the extent to which individuals can do this on their own is a function of how well integrated they are with communities of systematic inquiry in the first place. You can't learn to think well by yourself.\n\nIn matters of science at least, those who value their common sense over methodological, collaborative investigation imagine themselves to be more free in their thinking, unbound by involvement with the group, but in reality they are tightly bound by their capabilities and perspectives. We are smarter together than we are individually, and perhaps that's just common sense.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is the basis for the internalisation of individuals' ideologies."
+        },
+        {
+          "id": "B",
+          "text": "It is a series of conceptions formulated from complex reasoning."
+        },
+        {
+          "id": "C",
+          "text": "It is collective wisdom that helps people interact with new ideas."
+        },
+        {
+          "id": "D",
+          "text": "It is something subjective based on what one perceives to be right."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：It is something subjective based on what one perceives to be right.\n关键词检索定位到第 2 段的候选相关句：The appeal to common sense, however, is usually nothing more than an appeal to thinking that just feels right, but what feels right to one person may not feel right to another.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2022-06-1-nonlistening-q53",
+      "canonicalId": "lazynote-cet6-2022-06-1-q53",
+      "number": 53,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does Daniel Kahneman think is the problem of testing new ideas with existing beliefs?",
+      "passage": "When a group of Australians was asked why they believed climate change was not happening, about 36% said it was \"common sense\", according to a report published last year by the Commonwealth Scientific and Industrial Research Organization. This was the most popular reason for their opinion, with only 11% saying their belief that climate change was not happening was based on scientific research.\n\nBut what do we mean by an appeal to common sense? Presumably it's an appeal to rationality of some sort that forms the basis of more complex reasoning. The appeal to common sense, however, is usually nothing more than an appeal to thinking that just feels right, but what feels right to one person may not feel right to another. Whether it feels right is usually a reflection of the world view and ideologies we have internalised, and that frames how we interact with new ideas. When new ideas are in accord with what we already believe, they are more readily accepted. When they are not, they, and the arguments that lead to them, are more readily rejected.\n\nWe often mistake this automatic compatibility testing of new ideas with existing beliefs as an application of common sense, but, in reality, it is more about judging than thinking. As Nobelist Daniel Kahneman notes in Thinking, Fast and Slow, when we arrive at conclusions in this way, the outcomes also feel true, regardless of whether they are. We are not psychologically well equipped to judge our own thinking.\n\nWe are also highly susceptible to a range of cognitive biases such as giving preference to the first things that come to mind when making decisions or giving weight to evidence.\n\nOne way we can check our internal biases and inconsistencies is through the social verification of knowledge, in which we test our ideas in a rigorous and systematic way to see if they make sense not just to us, but to other people. The outstanding example of this socially shared cognition is science.\n\nThat does not mean that individuals are not capable of excellent thinking, nor does it mean no individual is rational. But the extent to which individuals can do this on their own is a function of how well integrated they are with communities of systematic inquiry in the first place. You can't learn to think well by yourself.\n\nIn matters of science at least, those who value their common sense over methodological, collaborative investigation imagine themselves to be more free in their thinking, unbound by involvement with the group, but in reality they are tightly bound by their capabilities and perspectives. We are smarter together than we are individually, and perhaps that's just common sense.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It may lead to incorrect judgment."
+        },
+        {
+          "id": "B",
+          "text": "It makes no use of common sense."
+        },
+        {
+          "id": "C",
+          "text": "It fails to correct mistakes through serious reasoning."
+        },
+        {
+          "id": "D",
+          "text": "It can produce psychologically unacceptable outcomes."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：It may lead to incorrect judgment.\n关键词检索定位到第 3 段的候选相关句：We often mistake this automatic compatibility testing of new ideas with existing beliefs as an application of common sense, but, in reality, it is more about judging than thinking.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2022-06-1-nonlistening-q54",
+      "canonicalId": "lazynote-cet6-2022-06-1-q54",
+      "number": 54,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What can we do to be less susceptible to cognitive biases?",
+      "passage": "When a group of Australians was asked why they believed climate change was not happening, about 36% said it was \"common sense\", according to a report published last year by the Commonwealth Scientific and Industrial Research Organization. This was the most popular reason for their opinion, with only 11% saying their belief that climate change was not happening was based on scientific research.\n\nBut what do we mean by an appeal to common sense? Presumably it's an appeal to rationality of some sort that forms the basis of more complex reasoning. The appeal to common sense, however, is usually nothing more than an appeal to thinking that just feels right, but what feels right to one person may not feel right to another. Whether it feels right is usually a reflection of the world view and ideologies we have internalised, and that frames how we interact with new ideas. When new ideas are in accord with what we already believe, they are more readily accepted. When they are not, they, and the arguments that lead to them, are more readily rejected.\n\nWe often mistake this automatic compatibility testing of new ideas with existing beliefs as an application of common sense, but, in reality, it is more about judging than thinking. As Nobelist Daniel Kahneman notes in Thinking, Fast and Slow, when we arrive at conclusions in this way, the outcomes also feel true, regardless of whether they are. We are not psychologically well equipped to judge our own thinking.\n\nWe are also highly susceptible to a range of cognitive biases such as giving preference to the first things that come to mind when making decisions or giving weight to evidence.\n\nOne way we can check our internal biases and inconsistencies is through the social verification of knowledge, in which we test our ideas in a rigorous and systematic way to see if they make sense not just to us, but to other people. The outstanding example of this socially shared cognition is science.\n\nThat does not mean that individuals are not capable of excellent thinking, nor does it mean no individual is rational. But the extent to which individuals can do this on their own is a function of how well integrated they are with communities of systematic inquiry in the first place. You can't learn to think well by yourself.\n\nIn matters of science at least, those who value their common sense over methodological, collaborative investigation imagine themselves to be more free in their thinking, unbound by involvement with the group, but in reality they are tightly bound by their capabilities and perspectives. We are smarter together than we are individually, and perhaps that's just common sense.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Give equal weight to evidence of both sides in a conflict."
+        },
+        {
+          "id": "B",
+          "text": "Provide convincing examples in developing an argument."
+        },
+        {
+          "id": "C",
+          "text": "Establish socially shared cognition via scientific methods."
+        },
+        {
+          "id": "D",
+          "text": "Avoid inconsistencies when addressing controversial issues."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：Establish socially shared cognition via scientific methods.\n关键词检索定位到第 4 段的候选相关句：We are also highly susceptible to a range of cognitive biases such as giving preference to the first things that come to mind when making decisions or giving weight to evidence.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2022-06-1-nonlistening-q55",
+      "canonicalId": "lazynote-cet6-2022-06-1-q55",
+      "number": 55,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What message does the author try to convey at the end of the passage?",
+      "passage": "When a group of Australians was asked why they believed climate change was not happening, about 36% said it was \"common sense\", according to a report published last year by the Commonwealth Scientific and Industrial Research Organization. This was the most popular reason for their opinion, with only 11% saying their belief that climate change was not happening was based on scientific research.\n\nBut what do we mean by an appeal to common sense? Presumably it's an appeal to rationality of some sort that forms the basis of more complex reasoning. The appeal to common sense, however, is usually nothing more than an appeal to thinking that just feels right, but what feels right to one person may not feel right to another. Whether it feels right is usually a reflection of the world view and ideologies we have internalised, and that frames how we interact with new ideas. When new ideas are in accord with what we already believe, they are more readily accepted. When they are not, they, and the arguments that lead to them, are more readily rejected.\n\nWe often mistake this automatic compatibility testing of new ideas with existing beliefs as an application of common sense, but, in reality, it is more about judging than thinking. As Nobelist Daniel Kahneman notes in Thinking, Fast and Slow, when we arrive at conclusions in this way, the outcomes also feel true, regardless of whether they are. We are not psychologically well equipped to judge our own thinking.\n\nWe are also highly susceptible to a range of cognitive biases such as giving preference to the first things that come to mind when making decisions or giving weight to evidence.\n\nOne way we can check our internal biases and inconsistencies is through the social verification of knowledge, in which we test our ideas in a rigorous and systematic way to see if they make sense not just to us, but to other people. The outstanding example of this socially shared cognition is science.\n\nThat does not mean that individuals are not capable of excellent thinking, nor does it mean no individual is rational. But the extent to which individuals can do this on their own is a function of how well integrated they are with communities of systematic inquiry in the first place. You can't learn to think well by yourself.\n\nIn matters of science at least, those who value their common sense over methodological, collaborative investigation imagine themselves to be more free in their thinking, unbound by involvement with the group, but in reality they are tightly bound by their capabilities and perspectives. We are smarter together than we are individually, and perhaps that's just common sense.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Multiple perspectives stimulate people's interest in exploring the unknown."
+        },
+        {
+          "id": "B",
+          "text": "Individuals can enhance their overall capabilities by interacting with others."
+        },
+        {
+          "id": "C",
+          "text": "Individuals should think freely to break from the restrictions of common sense."
+        },
+        {
+          "id": "D",
+          "text": "Collaborative efforts can overcome individuals limitations in scientific inquiry."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：Collaborative efforts can overcome individuals limitations in scientific inquiry.\n关键词检索定位到第 6 段的候选相关句：But the extent to which individuals can do this on their own is a function of how well integrated they are with communities of systematic inquiry in the first place.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2022-06-1-nonlistening-translation",
+      "number": "IV",
+      "level": "CET6",
+      "type": "short_text_self_check",
+      "skill": "translation",
+      "section": "translation",
+      "prompt": "Directions : For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2 .\n\n卢沟桥位于天安门广场西南15公里处，横跨永定河，是北京现存最古老的多拱石桥。卢沟桥最初建成于1192年，1698年重建，由281根柱子支撑。每根柱子上都有一头石狮。这些石狮的头、背、腹部或爪子上都藏着更多的狮子。这些石狮生动逼真、千姿百态，是卢沟桥石刻艺术的精品。桥上的石狮不计其数，因而北京地区流传着\"卢沟桥上的石狮子——数不清\"的说法。 卢沟桥不仅以其美学特征闻名于世，还被公认为石桥建筑史上的一座丰碑。",
+      "options": [],
+      "correctAnswer": "Lugou Bridge lies 15 kilometers southwest of Tiananmen Square and spans the Yongding River. It is Beijing's oldest surviving stone bridge with multiple arches. First completed in 1192 and rebuilt in 1698, it is supported by 281 pillars, each topped by a stone lion. More lions are hidden on these lions' heads, backs, bellies or paws. Lifelike and varied in posture, the lions are masterpieces of stone carving on Lugou Bridge. They are so numerous that a saying in the Beijing area goes, \"The stone lions on Lugou Bridge are too many to count.\" The bridge is famous worldwide not only for its aesthetic qualities but also as a recognized landmark in the history of stone bridge construction.",
+      "referenceAnswer": "Lugou Bridge lies 15 kilometers southwest of Tiananmen Square and spans the Yongding River. It is Beijing's oldest surviving stone bridge with multiple arches. First completed in 1192 and rebuilt in 1698, it is supported by 281 pillars, each topped by a stone lion. More lions are hidden on these lions' heads, backs, bellies or paws. Lifelike and varied in posture, the lions are masterpieces of stone carving on Lugou Bridge. They are so numerous that a saying in the Beijing area goes, \"The stone lions on Lugou Bridge are too many to count.\" The bridge is famous worldwide not only for its aesthetic qualities but also as a recognized landmark in the history of stone bridge construction.",
+      "hint": "15公里、1192、1698、281和永定河不能漏；大小石狮的关系要清楚。",
+      "explanation": "以下为原创参考译文，准确的同义表达也可接受。each topped by…说明每根柱子有石狮；these lions承接大狮子，隐藏的小狮子位于其头背腹爪。a saying…goes自然引出俗语；landmark in the history of…是历史丰碑，不把丰碑译为桥旁的一块石碑。",
+      "rubric": [
+        "信息：逐句核对人物、地点、数字、时间、因果和并列信息，避免漏译或增译。",
+        "表达：15公里、1192、1698、281和永定河不能漏；大小石狮的关系要清楚。",
+        "语法：检查时态、语态、主谓一致、冠词与单复数，长句按英语逻辑合理拆分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2022-06-1-nonlistening"
+    }
+  ]
+}

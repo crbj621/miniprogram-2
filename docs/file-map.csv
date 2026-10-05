@@ -20,23 +20,416 @@ admin-web/settings.html,html,网页管理后台：settings,server/src/app.js 提
 admin-web/users.html,html,网页管理后台：users,server/src/app.js 提供 → 自建 API
 docs/architecture.md,md,架构、目录、接口与数据层,
 docs/assets/README.md,md,最终刷新角色素材与运行地址说明,components/mahiro-scroll；服务器 uploads
+docs/assets/campus-companions/boy-base.png,png,伙伴素材的原始设计说明与来源，运行版见 server/public/english,docs/english.md；components/campus-companion
+docs/assets/campus-companions/girl-base.png,png,伙伴素材的原始设计说明与来源，运行版见 server/public/english,docs/english.md；components/campus-companion
 docs/assets/mahiro-refresh-v2.png,png,最终刷新角色素材与运行地址说明,components/mahiro-scroll；服务器 uploads
 docs/business-rules.md,md,权限、事务、评分、跑步与组队算法规则,
+docs/canteen.md,md,多次评论、最新独立评分、餐次、投稿查重、补图修改和争议评分核查,
+docs/english.md,md,四六级内容来源、学习计划、打卡、挑战、金币、伙伴及完整接口,
 docs/file-map.csv,csv,逐文件职责与对应关系，由本脚本生成,
+docs/gift-landscape-assets.md,md,技术配置或工具：gift-landscape-assets,
+docs/gift-sites.md,md,祝福模板、免费实时预览、画布、公示、朋友留言、金币发放、域名和清理,
 docs/mobile-plan.md,md,未来 Android/iOS 选型与验证条件,
 docs/operations.md,md,SSH、明文凭证位置、服务器备份与部署,
 docs/ui-preview/admin.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
 docs/ui-preview/canteen.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-admin-dishes-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-admin-dishes-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-admin-dishes-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-admin-dishes-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-admin-disputes-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-admin-disputes-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-admin-disputes-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-admin-disputes-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-admin-photos-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-admin-photos-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-admin-photos-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-admin-photos-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-catalog-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-catalog-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-catalog-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-catalog-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-dish-comments-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-dish-comments-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-dish-comments-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-dish-comments-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-dish-contested-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-dish-contested-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-dish-contested-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-dish-contested-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-stall-gallery-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-stall-gallery-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-stall-gallery-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-stall-gallery-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-submit-edit-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-submit-edit-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-submit-edit-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-submit-edit-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-submit-new-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-submit-new-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-submit-new-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-submit-new-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-submit-photo-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-submit-photo-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-submit-photo-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/canteen-submit-photo-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/compatibility-verification.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/layout-verification.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/preview-result.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/release-verification.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/canteen/sql-verification.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/cet-release-verification.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/canteen-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/canteen-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/canteen-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/canteen-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/english-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/english-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/english-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/english-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/food-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/food-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/food-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/food-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/forum-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/forum-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/forum-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/forum-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/gifts-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/gifts-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/gifts-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/gifts-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/login-320x568-full.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/login-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/login-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/login-390x844-full.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/login-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/login-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/native-english.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/native-login.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/native-portal.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/native-verification.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/portal-320x568-full.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/portal-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/portal-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/portal-390x844-full.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/portal-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/portal-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/verification.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/wardrobe-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/wardrobe-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/wardrobe-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/wardrobe-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/wardrobe-rank-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/wardrobe-rank-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/wardrobe-rank-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/copy/wardrobe-rank-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-listening-320x568-bottom.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-listening-320x568-full.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-listening-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-listening-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-listening-390x844-bottom.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-listening-390x844-full.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-listening-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-listening-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-navigation-320x568-bottom.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-navigation-320x568-full.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-navigation-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-navigation-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-navigation-390x844-bottom.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-navigation-390x844-full.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-navigation-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-navigation-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-reading-320x568-bottom.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-reading-320x568-full.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-reading-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-reading-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-reading-390x844-bottom.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-reading-390x844-full.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-reading-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-reading-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-writing-320x568-bottom.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-writing-320x568-full.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-writing-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-writing-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-writing-390x844-bottom.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-writing-390x844-full.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-writing-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-writing-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-writing-chart-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-writing-chart-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-writing-chart-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-attempt-writing-chart-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-challenge-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-challenge-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-challenge-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-challenge-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-extra/native-running-close-map.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-extra/native-study-feedback.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-extra/native-verification.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-extra/release-verification.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-home-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-home-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-home-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-home-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-home-extra-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-home-extra-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-home-extra-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-home-extra-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-home-plan-320x568-bottom.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-home-plan-320x568-full.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-home-plan-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-home-plan-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-home-plan-390x844-bottom.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-home-plan-390x844-full.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-home-plan-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-home-plan-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-layout-report.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-papers-full-320x568-full.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-papers-full-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-papers-full-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-papers-full-390x844-full.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-papers-full-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-papers-full-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-portal-mahiro-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-portal-mahiro-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-portal-mahiro-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-portal-mahiro-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-preview.md,md,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-rank-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-rank-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-rank-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-rank-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-study-extra-correct-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-study-extra-correct-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-study-extra-correct-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-study-extra-correct-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-study-long-320x568-bottom.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-study-long-320x568-full.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-study-long-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-study-long-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-study-long-390x844-bottom.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-study-long-390x844-full.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-study-long-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-study-long-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-study-question-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-study-question-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-study-question-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-study-question-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-wardrobe-boy-320x568-full.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-wardrobe-boy-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-wardrobe-boy-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-wardrobe-boy-390x844-full.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-wardrobe-boy-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-wardrobe-boy-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-wardrobe-boy-campus-layer-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-wardrobe-boy-campus-layer-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-wardrobe-boy-campus-layer-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-wardrobe-boy-campus-layer-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-wardrobe-girl-ancient-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-wardrobe-girl-ancient-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-wardrobe-girl-ancient-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-wardrobe-girl-ancient-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-wardrobe-mahiro-feed-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-wardrobe-mahiro-feed-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-wardrobe-mahiro-feed-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-wardrobe-mahiro-feed-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-wardrobe-rank-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-wardrobe-rank-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-wardrobe-rank-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-wardrobe-rank-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-wardrobe-rank-empty-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-wardrobe-rank-empty-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-wardrobe-rank-empty-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/english-wardrobe-rank-empty-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
 docs/ui-preview/food.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
 docs/ui-preview/forum-dropdown.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
 docs/ui-preview/forum.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gift-release-verification.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/birthday-320.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/birthday-closed.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/birthday.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/campfire-closed.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/campfire.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/celebration-320.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/celebration-closed.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/celebration.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/clouds3d-closed.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/clouds3d.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/custom-layout.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/daily-320.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/daily-closed.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/daily.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/halo3d-closed.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/halo3d.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/campfire-1440.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/campfire-320.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/campfire-390.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/campfire-no-webgl.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/campfire-reduced-motion.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/clouds3d-1440.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/clouds3d-320.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/clouds3d-390.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/clouds3d-no-webgl.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/clouds3d-reduced-motion.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/halo3d-1440.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/halo3d-320.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/halo3d-390.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/halo3d-no-webgl.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/halo3d-reduced-motion.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/meteors-1440.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/meteors-320.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/meteors-390.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/meteors-no-webgl.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/meteors-reduced-motion.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/native-editor-campfire.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/native-editor-clouds3d.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/native-editor-halo3d.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/native-editor-meteors.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/native-editor-thumbnail-grid.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/native-editor-video-fire.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/native-editor-video-stars.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/native-verification.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/native-view-campfire.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/native-view-clouds3d.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/native-view-halo3d.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/native-view-meteors.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/native-view-video-fire.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/native-view-video-stars.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/public-campfire.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/public-clouds3d.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/public-halo3d.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/public-meteors.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/public-verification.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/static-campfire-1440.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/static-campfire-320.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/static-campfire-390.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/static-clouds3d-1440.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/static-clouds3d-320.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/static-clouds3d-390.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/static-halo3d-1440.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/static-halo3d-320.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/static-halo3d-390.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/static-meteors-1440.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/static-meteors-320.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/static-meteors-390.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/landscapes/verification.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/letter-320.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/letter-closed.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/letter.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/live-preview-expired.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/live-preview-halo.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/live-preview-layout.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/love-320.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/love-closed.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/love.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/meteors-closed.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/meteors.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/native-cet4-2019-06-1-nonlistening.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/native-cet4-2026-06-1-nonlistening.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/native-cet6-2019-06-1-nonlistening.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/native-cet6-2026-06-1-nonlistening.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/native-editor-canvas.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/native-timeline-intro.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/native-verification.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/prank-320.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/prank-closed.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/prank.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/public-birthday.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/public-domain-birthday.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/public-domain-verification.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/public-domain-wall.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/public-live-preview.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/public-preview-verification.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/stars-320.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/stars-closed.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/stars.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/storage-verification.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/verification.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/video-fire-closed.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/video-fire.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/video-stars-closed.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/video-stars.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/public-verification.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/public-video-fire-1440.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/public-video-fire-320.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/public-video-fire-390.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/public-video-fire-birthday-1440.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/public-video-fire-birthday-320.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/public-video-fire-birthday-390.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/public-video-stars-1440.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/public-video-stars-320.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/public-video-stars-390.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/public-video-stars-birthday-1440.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/public-video-stars-birthday-320.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/public-video-stars-birthday-390.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/verification.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/video-fire-1440.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/video-fire-320.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/video-fire-390.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/video-fire-autoplay-blocked.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/video-fire-birthday-1440.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/video-fire-birthday-320.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/video-fire-birthday-390.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/video-fire-error.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/video-fire-no-webgl.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/video-fire-reduced-motion.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/video-fire-stale-rejection.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/video-stars-1440.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/video-stars-320.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/video-stars-390.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/video-stars-autoplay-blocked.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/video-stars-birthday-1440.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/video-stars-birthday-320.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/video-stars-birthday-390.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/video-stars-error.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/video-stars-no-webgl.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/video-stars-reduced-motion.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/videos/video-stars-stale-rejection.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/wall-320.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/wall-closed.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/gifts/wall.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
 docs/ui-preview/login.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
 docs/ui-preview/module-settings.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
 docs/ui-preview/portal.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
 docs/ui-preview/run-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
 docs/ui-preview/run.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/server-status/final-read-only-verification.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/server-status/initial-resource-audit.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/server-status/layout-verification.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/server-status/memory-optimization.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/server-status/preview-result.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/server-status/proxy-subscription-verification.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/server-status/proxy-verification.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/server-status/release-verification.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/server-status/status-details-320x568-friend-links.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/server-status/status-details-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/server-status/status-details-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/server-status/status-details-390x844-friend-links.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/server-status/status-details-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/server-status/status-details-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/server-status/status-summary-320x568-friend-links.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/server-status/status-summary-320x568.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/server-status/status-summary-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/server-status/status-summary-390x844-friend-links.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/server-status/status-summary-390x844.html,html,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/server-status/status-summary-390x844.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/status-video/native-editor-video-fire.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/status-video/native-editor-video-stars.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/status-video/native-home-server-status.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/status-video/native-verification.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/status-video/native-view-video-fire.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/status-video/native-view-video-stars.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/status-video/preview-result.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/status-video/release-verification.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/加练与跑步微信预览结果.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/动态视频微信预览结果.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
 docs/ui-preview/微信预览结果.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/祝福升级微信预览结果.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/英语模块微信预览结果.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/随机文案微信预览结果.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
 docs/ui.md,md,当前可爱界面、科技按钮、组件与布局预览,
+docs/upgrade-checklist.md,md,本次升级验收与仍需用户操作的真实边界,
 docs/vendor/uiverse/LICENSE,无扩展名,实际采用的 UI 原码、来源与许可,docs/ui.md → miniprogram/styles 与 components
 docs/vendor/uiverse/Lakshay-art_curvy-earwig-22.html,html,实际采用的 UI 原码、来源与许可,docs/ui.md → miniprogram/styles 与 components
 docs/vendor/uiverse/README.md,md,实际采用的 UI 原码、来源与许可,docs/ui.md → miniprogram/styles 与 components
@@ -50,6 +443,10 @@ docs/vendor/uiverse/vinodjangid07_itchy-mule-52.html,html,实际采用的 UI 原
 i18n/base.json,json,未来 Donut 平台预备资源，非微信运行入口,project.miniapp.json；docs/mobile-plan.md
 maintenance/账号与连接/admin.json,json,按用户要求保留的明文维护凭证或已核验主机公钥,scripts/campus-server.py；服务器 /etc/campus-api/app.env
 maintenance/账号与连接/known_hosts,无扩展名,按用户要求保留的明文维护凭证或已核验主机公钥,scripts/campus-server.py；服务器 /etc/campus-api/app.env
+maintenance/账号与连接/mihomo-config.yaml,yaml,按用户要求保留的明文维护凭证或已核验主机公钥,scripts/campus-server.py；服务器 /etc/campus-api/app.env
+maintenance/账号与连接/mihomo-providers.yaml,yaml,按用户要求保留的明文维护凭证或已核验主机公钥,scripts/campus-server.py；服务器 /etc/campus-api/app.env
+maintenance/账号与连接/mihomo-selection.json,json,按用户要求保留的明文维护凭证或已核验主机公钥,scripts/campus-server.py；服务器 /etc/campus-api/app.env
+maintenance/账号与连接/mihomo-subscription-url.txt,txt,按用户要求保留的明文维护凭证或已核验主机公钥,scripts/campus-server.py；服务器 /etc/campus-api/app.env
 maintenance/账号与连接/server.env,env,按用户要求保留的明文维护凭证或已核验主机公钥,scripts/campus-server.py；服务器 /etc/campus-api/app.env
 maintenance/账号与连接/ssh.json,json,按用户要求保留的明文维护凭证或已核验主机公钥,scripts/campus-server.py；服务器 /etc/campus-api/app.env
 maintenance/账号与连接/ssh.pem,pem,按用户要求保留的明文维护凭证或已核验主机公钥,scripts/campus-server.py；服务器 /etc/campus-api/app.env
@@ -59,6 +456,11 @@ miniprogram/app.json,json,实际页面、分包、权限与组件加载,
 miniprogram/app.miniapp.json,json,技术配置或工具：app.miniapp,
 miniprogram/app.ts,ts,应用启动、登录提交、退出与缓存版本,
 miniprogram/app.wxss,wxss,全局基础样式与 Uiverse 引用,
+miniprogram/components/campus-companion/campus-companion.json,json,原生组件：campus-companion / json,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/components/campus-companion/campus-companion.ts,ts,原生组件：campus-companion / ts,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/components/campus-companion/campus-companion.wxml,wxml,原生组件：campus-companion / wxml,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/components/campus-companion/campus-companion.wxss,wxss,原生组件：campus-companion / wxss,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/components/campus-companion/companion-data.ts,ts,原生组件：campus-companion / ts,页面 JSON usingComponents；同目录结构、样式、逻辑
 miniprogram/components/campus-sticker/campus-sticker.json,json,原生组件：campus-sticker / json,页面 JSON usingComponents；同目录结构、样式、逻辑
 miniprogram/components/campus-sticker/campus-sticker.ts,ts,原生组件：campus-sticker / ts,页面 JSON usingComponents；同目录结构、样式、逻辑
 miniprogram/components/campus-sticker/campus-sticker.wxml,wxml,原生组件：campus-sticker / wxml,页面 JSON usingComponents；同目录结构、样式、逻辑
@@ -71,6 +473,10 @@ miniprogram/components/run-tabbar/run-tabbar.json,json,原生组件：run-tabbar
 miniprogram/components/run-tabbar/run-tabbar.ts,ts,原生组件：run-tabbar / ts,页面 JSON usingComponents；同目录结构、样式、逻辑
 miniprogram/components/run-tabbar/run-tabbar.wxml,wxml,原生组件：run-tabbar / wxml,页面 JSON usingComponents；同目录结构、样式、逻辑
 miniprogram/components/run-tabbar/run-tabbar.wxss,wxss,原生组件：run-tabbar / wxss,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/components/share-intro/share-intro.json,json,原生组件：share-intro / json,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/components/share-intro/share-intro.ts,ts,原生组件：share-intro / ts,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/components/share-intro/share-intro.wxml,wxml,原生组件：share-intro / wxml,页面 JSON usingComponents；同目录结构、样式、逻辑
+miniprogram/components/share-intro/share-intro.wxss,wxss,原生组件：share-intro / wxss,页面 JSON usingComponents；同目录结构、样式、逻辑
 miniprogram/components/tech-loader/tech-loader.json,json,原生组件：tech-loader / json,页面 JSON usingComponents；同目录结构、样式、逻辑
 miniprogram/components/tech-loader/tech-loader.ts,ts,原生组件：tech-loader / ts,页面 JSON usingComponents；同目录结构、样式、逻辑
 miniprogram/components/tech-loader/tech-loader.wxml,wxml,原生组件：tech-loader / wxml,页面 JSON usingComponents；同目录结构、样式、逻辑
@@ -87,6 +493,8 @@ miniprogram/config/api.ts,ts,自建服务器地址与缓存版本,
 miniprogram/images/hyj.png,png,原图片 / 导航图标；按用户要求保留,hyj/hyjj 当前未引用；login-bg 用于两个登录页；图标见 app.json
 miniprogram/images/hyjj.png,png,原图片 / 导航图标；按用户要求保留,hyj/hyjj 当前未引用；login-bg 用于两个登录页；图标见 app.json
 miniprogram/images/login-bg.png,png,原图片 / 导航图标；按用户要求保留,hyj/hyjj 当前未引用；login-bg 用于两个登录页；图标见 app.json
+miniprogram/images/map-location-dot.png,png,原创32px地图圆点；人物图片下载失败时的本地兜底,pages/index/index.ts 的个人原生map marker
+miniprogram/images/map-location-dot.svg,svg,原创32px地图圆点；人物图片下载失败时的本地兜底,pages/index/index.ts 的个人原生map marker
 miniprogram/images/tab-run.png,png,原图片 / 导航图标；按用户要求保留,hyj/hyjj 当前未引用；login-bg 用于两个登录页；图标见 app.json
 miniprogram/packageCanteen/pages/admin/admin.json,json,页面配置与组件注册,miniprogram/packageCanteen/pages/admin/admin.*；注册于 miniprogram/app.json
 miniprogram/packageCanteen/pages/admin/admin.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageCanteen/pages/admin/admin.*；注册于 miniprogram/app.json
@@ -109,6 +517,43 @@ miniprogram/packageCanteen/pages/submit/submit.ts,ts,页面数据、接口请求
 miniprogram/packageCanteen/pages/submit/submit.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageCanteen/pages/submit/submit.*；注册于 miniprogram/app.json
 miniprogram/packageCanteen/pages/submit/submit.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageCanteen/pages/submit/submit.*；注册于 miniprogram/app.json
 miniprogram/packageCanteen/utils/api.ts,ts,技术配置或工具：api,
+miniprogram/packageEnglish/assets/audio/correct.wav,wav,技术配置或工具：correct,
+miniprogram/packageEnglish/assets/audio/retry.wav,wav,技术配置或工具：retry,
+miniprogram/packageEnglish/components/english-nav/english-nav.json,json,英语子包原生组件：english-nav / json,英语四分区页面 JSON usingComponents；保留当前等级
+miniprogram/packageEnglish/components/english-nav/english-nav.ts,ts,英语子包原生组件：english-nav / ts,英语四分区页面 JSON usingComponents；保留当前等级
+miniprogram/packageEnglish/components/english-nav/english-nav.wxml,wxml,英语子包原生组件：english-nav / wxml,英语四分区页面 JSON usingComponents；保留当前等级
+miniprogram/packageEnglish/components/english-nav/english-nav.wxss,wxss,英语子包原生组件：english-nav / wxss,英语四分区页面 JSON usingComponents；保留当前等级
+miniprogram/packageEnglish/pages/admin/admin.json,json,页面配置与组件注册,miniprogram/packageEnglish/pages/admin/admin.*；注册于 miniprogram/app.json
+miniprogram/packageEnglish/pages/admin/admin.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageEnglish/pages/admin/admin.*；注册于 miniprogram/app.json
+miniprogram/packageEnglish/pages/admin/admin.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageEnglish/pages/admin/admin.*；注册于 miniprogram/app.json
+miniprogram/packageEnglish/pages/admin/admin.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageEnglish/pages/admin/admin.*；注册于 miniprogram/app.json
+miniprogram/packageEnglish/pages/attempt/attempt.json,json,页面配置与组件注册,miniprogram/packageEnglish/pages/attempt/attempt.*；注册于 miniprogram/app.json
+miniprogram/packageEnglish/pages/attempt/attempt.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageEnglish/pages/attempt/attempt.*；注册于 miniprogram/app.json
+miniprogram/packageEnglish/pages/attempt/attempt.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageEnglish/pages/attempt/attempt.*；注册于 miniprogram/app.json
+miniprogram/packageEnglish/pages/attempt/attempt.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageEnglish/pages/attempt/attempt.*；注册于 miniprogram/app.json
+miniprogram/packageEnglish/pages/challenge/challenge.json,json,页面配置与组件注册,miniprogram/packageEnglish/pages/challenge/challenge.*；注册于 miniprogram/app.json
+miniprogram/packageEnglish/pages/challenge/challenge.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageEnglish/pages/challenge/challenge.*；注册于 miniprogram/app.json
+miniprogram/packageEnglish/pages/challenge/challenge.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageEnglish/pages/challenge/challenge.*；注册于 miniprogram/app.json
+miniprogram/packageEnglish/pages/challenge/challenge.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageEnglish/pages/challenge/challenge.*；注册于 miniprogram/app.json
+miniprogram/packageEnglish/pages/index/index.json,json,页面配置与组件注册,miniprogram/packageEnglish/pages/index/index.*；注册于 miniprogram/app.json
+miniprogram/packageEnglish/pages/index/index.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageEnglish/pages/index/index.*；注册于 miniprogram/app.json
+miniprogram/packageEnglish/pages/index/index.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageEnglish/pages/index/index.*；注册于 miniprogram/app.json
+miniprogram/packageEnglish/pages/index/index.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageEnglish/pages/index/index.*；注册于 miniprogram/app.json
+miniprogram/packageEnglish/pages/papers/papers.json,json,页面配置与组件注册,miniprogram/packageEnglish/pages/papers/papers.*；注册于 miniprogram/app.json
+miniprogram/packageEnglish/pages/papers/papers.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageEnglish/pages/papers/papers.*；注册于 miniprogram/app.json
+miniprogram/packageEnglish/pages/papers/papers.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageEnglish/pages/papers/papers.*；注册于 miniprogram/app.json
+miniprogram/packageEnglish/pages/papers/papers.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageEnglish/pages/papers/papers.*；注册于 miniprogram/app.json
+miniprogram/packageEnglish/pages/rank/rank.json,json,页面配置与组件注册,miniprogram/packageEnglish/pages/rank/rank.*；注册于 miniprogram/app.json
+miniprogram/packageEnglish/pages/rank/rank.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageEnglish/pages/rank/rank.*；注册于 miniprogram/app.json
+miniprogram/packageEnglish/pages/rank/rank.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageEnglish/pages/rank/rank.*；注册于 miniprogram/app.json
+miniprogram/packageEnglish/pages/rank/rank.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageEnglish/pages/rank/rank.*；注册于 miniprogram/app.json
+miniprogram/packageEnglish/pages/study/study.json,json,页面配置与组件注册,miniprogram/packageEnglish/pages/study/study.*；注册于 miniprogram/app.json
+miniprogram/packageEnglish/pages/study/study.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageEnglish/pages/study/study.*；注册于 miniprogram/app.json
+miniprogram/packageEnglish/pages/study/study.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageEnglish/pages/study/study.*；注册于 miniprogram/app.json
+miniprogram/packageEnglish/pages/study/study.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageEnglish/pages/study/study.*；注册于 miniprogram/app.json
+miniprogram/packageEnglish/styles/english.wxss,wxss,技术配置或工具：english,
+miniprogram/packageEnglish/utils/exam-view.ts,ts,技术配置或工具：exam-view,
+miniprogram/packageEnglish/utils/format.ts,ts,技术配置或工具：format,
 miniprogram/packageFood/pages/adminMenu/adminMenu.js,js,页面数据、接口请求与点击逻辑,miniprogram/packageFood/pages/adminMenu/adminMenu.*；注册于 miniprogram/app.json
 miniprogram/packageFood/pages/adminMenu/adminMenu.json,json,页面配置与组件注册,miniprogram/packageFood/pages/adminMenu/adminMenu.*；注册于 miniprogram/app.json
 miniprogram/packageFood/pages/adminMenu/adminMenu.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageFood/pages/adminMenu/adminMenu.*；注册于 miniprogram/app.json
@@ -215,6 +660,25 @@ miniprogram/packageForum/pages/post/post.ts,ts,页面数据、接口请求与点
 miniprogram/packageForum/pages/post/post.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageForum/pages/post/post.*；注册于 miniprogram/app.json
 miniprogram/packageForum/pages/post/post.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageForum/pages/post/post.*；注册于 miniprogram/app.json
 miniprogram/packageForum/utils/global.js,js,技术配置或工具：global,
+miniprogram/packageGifts/pages/admin/admin.json,json,页面配置与组件注册,miniprogram/packageGifts/pages/admin/admin.*；注册于 miniprogram/app.json
+miniprogram/packageGifts/pages/admin/admin.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageGifts/pages/admin/admin.*；注册于 miniprogram/app.json
+miniprogram/packageGifts/pages/admin/admin.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageGifts/pages/admin/admin.*；注册于 miniprogram/app.json
+miniprogram/packageGifts/pages/admin/admin.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageGifts/pages/admin/admin.*；注册于 miniprogram/app.json
+miniprogram/packageGifts/pages/editor/editor.json,json,页面配置与组件注册,miniprogram/packageGifts/pages/editor/editor.*；注册于 miniprogram/app.json
+miniprogram/packageGifts/pages/editor/editor.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageGifts/pages/editor/editor.*；注册于 miniprogram/app.json
+miniprogram/packageGifts/pages/editor/editor.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageGifts/pages/editor/editor.*；注册于 miniprogram/app.json
+miniprogram/packageGifts/pages/editor/editor.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageGifts/pages/editor/editor.*；注册于 miniprogram/app.json
+miniprogram/packageGifts/pages/index/index.json,json,页面配置与组件注册,miniprogram/packageGifts/pages/index/index.*；注册于 miniprogram/app.json
+miniprogram/packageGifts/pages/index/index.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageGifts/pages/index/index.*；注册于 miniprogram/app.json
+miniprogram/packageGifts/pages/index/index.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageGifts/pages/index/index.*；注册于 miniprogram/app.json
+miniprogram/packageGifts/pages/index/index.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageGifts/pages/index/index.*；注册于 miniprogram/app.json
+miniprogram/packageGifts/pages/view/view.json,json,页面配置与组件注册,miniprogram/packageGifts/pages/view/view.*；注册于 miniprogram/app.json
+miniprogram/packageGifts/pages/view/view.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageGifts/pages/view/view.*；注册于 miniprogram/app.json
+miniprogram/packageGifts/pages/view/view.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageGifts/pages/view/view.*；注册于 miniprogram/app.json
+miniprogram/packageGifts/pages/view/view.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageGifts/pages/view/view.*；注册于 miniprogram/app.json
+miniprogram/packageGifts/styles/gifts.wxss,wxss,技术配置或工具：gifts,
+miniprogram/packageGifts/utils/layout.ts,ts,技术配置或工具：layout,
+miniprogram/packageGifts/utils/video.ts,ts,技术配置或工具：video,
 miniprogram/packageProfile/pages/coupons/coupons.json,json,页面配置与组件注册,miniprogram/packageProfile/pages/coupons/coupons.*；注册于 miniprogram/app.json
 miniprogram/packageProfile/pages/coupons/coupons.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageProfile/pages/coupons/coupons.*；注册于 miniprogram/app.json
 miniprogram/packageProfile/pages/coupons/coupons.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageProfile/pages/coupons/coupons.*；注册于 miniprogram/app.json
@@ -227,10 +691,18 @@ miniprogram/packageProfile/pages/settings/settings.json,json,页面配置与组�
 miniprogram/packageProfile/pages/settings/settings.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageProfile/pages/settings/settings.*；注册于 miniprogram/app.json
 miniprogram/packageProfile/pages/settings/settings.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageProfile/pages/settings/settings.*；注册于 miniprogram/app.json
 miniprogram/packageProfile/pages/settings/settings.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageProfile/pages/settings/settings.*；注册于 miniprogram/app.json
+miniprogram/packageProfile/pages/tasks/tasks.json,json,页面配置与组件注册,miniprogram/packageProfile/pages/tasks/tasks.*；注册于 miniprogram/app.json
+miniprogram/packageProfile/pages/tasks/tasks.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageProfile/pages/tasks/tasks.*；注册于 miniprogram/app.json
+miniprogram/packageProfile/pages/tasks/tasks.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageProfile/pages/tasks/tasks.*；注册于 miniprogram/app.json
+miniprogram/packageProfile/pages/tasks/tasks.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageProfile/pages/tasks/tasks.*；注册于 miniprogram/app.json
 miniprogram/packageProfile/pages/team/team.json,json,页面配置与组件注册,miniprogram/packageProfile/pages/team/team.*；注册于 miniprogram/app.json
 miniprogram/packageProfile/pages/team/team.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageProfile/pages/team/team.*；注册于 miniprogram/app.json
 miniprogram/packageProfile/pages/team/team.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageProfile/pages/team/team.*；注册于 miniprogram/app.json
 miniprogram/packageProfile/pages/team/team.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageProfile/pages/team/team.*；注册于 miniprogram/app.json
+miniprogram/packageProfile/pages/wardrobe/wardrobe.json,json,页面配置与组件注册,miniprogram/packageProfile/pages/wardrobe/wardrobe.*；注册于 miniprogram/app.json
+miniprogram/packageProfile/pages/wardrobe/wardrobe.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageProfile/pages/wardrobe/wardrobe.*；注册于 miniprogram/app.json
+miniprogram/packageProfile/pages/wardrobe/wardrobe.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageProfile/pages/wardrobe/wardrobe.*；注册于 miniprogram/app.json
+miniprogram/packageProfile/pages/wardrobe/wardrobe.wxss,wxss,页面布局、颜色与交互样式,miniprogram/packageProfile/pages/wardrobe/wardrobe.*；注册于 miniprogram/app.json
 miniprogram/packageRider/pages/hall/hall.json,json,页面配置与组件注册,miniprogram/packageRider/pages/hall/hall.*；注册于 miniprogram/app.json
 miniprogram/packageRider/pages/hall/hall.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageRider/pages/hall/hall.*；注册于 miniprogram/app.json
 miniprogram/packageRider/pages/hall/hall.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageRider/pages/hall/hall.*；注册于 miniprogram/app.json
@@ -308,12 +780,19 @@ miniprogram/pages/rank/rank.ts,ts,页面数据、接口请求与点击逻辑,min
 miniprogram/pages/rank/rank.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/pages/rank/rank.*；注册于 miniprogram/app.json
 miniprogram/pages/rank/rank.wxss,wxss,页面布局、颜色与交互样式,miniprogram/pages/rank/rank.*；注册于 miniprogram/app.json
 miniprogram/styles/admin-ui.wxss,wxss,技术配置或工具：admin-ui,
+miniprogram/styles/campus-theme.wxss,wxss,伙伴商城主题的页面、卡片、按钮与装饰配色,
 miniprogram/styles/campus-ui.wxss,wxss,技术配置或工具：campus-ui,
 miniprogram/styles/tech-ui.wxss,wxss,技术配置或工具：tech-ui,
 miniprogram/styles/uiverse.wxss,wxss,技术配置或工具：uiverse,
 miniprogram/utils/api-client.ts,ts,请求、身份、上传下载与组队轮询,
 miniprogram/utils/auth-storage.ts,ts,技术配置或工具：auth-storage,
-miniprogram/utils/portal-daily.ts,ts,北京时间按日轮换首页文案与颜色,
+miniprogram/utils/campus-theme.ts,ts,读取个人已购主题，转换为页面配色类名,
+miniprogram/utils/english-api.ts,ts,英语服务请求、幂等编号与同域资料下载,
+miniprogram/utils/gifts-api.ts,ts,祝福服务请求与创建幂等编号；经api-client,
+miniprogram/utils/keyboard-viewport.ts,ts,聊天 / 评论键盘可视区域、安卓窗口变化与监听清理,
+miniprogram/utils/page-copy.ts,ts,问候、装饰标题和鼓励语；进页随机且同场景不连续重复,
+miniprogram/utils/page-share.ts,ts,全67页好友／朋友圈分享；公开路由参数过滤与单页隐私保护,
+miniprogram/utils/portal-daily.ts,ts,北京时间按日轮换首页标题颜色,
 miniprogram/utils/public-modules.ts,ts,技术配置或工具：public-modules,
 miniprogram/utils/run-metrics.ts,ts,跑步连续 GPS 路段、跳点 / 静止 / 折返过滤与归一化传感器计步,
 package-lock.json,json,固定本机依赖版本,
@@ -321,32 +800,245 @@ package.json,json,本机检查工具依赖与 npm 命令,
 project.config.json,json,微信项目 AppID、源码目录与编译设置,
 project.miniapp.json,json,未来 Donut App 占位配置，未验证构建,
 project.private.config.json,json,当前电脑的开发者工具设置,
+scripts/build-companion-outfits.js,js,本机检查、回归或维护：build-companion-outfits,package.json；miniprogram 或 SSH
+scripts/build-companion-overlays.js,js,将原创饰品、鞋子 SVG 渲染为固定画布 PNG；不修改人物原图,
 scripts/campus-server.py,py,本机检查、回归或维护：campus-server,package.json；miniprogram 或 SSH
+scripts/cet-exam-review.json,json,真题逐题校验答案、原创提示解析及源文件SHA；由导入器使用,
+scripts/cet-subjective-reference-cet4.json,json,本机检查、回归或维护：cet-subjective-reference-cet4,package.json；miniprogram 或 SSH
+scripts/cet-subjective-reference-cet6.json,json,本机检查、回归或维护：cet-subjective-reference-cet6,package.json；miniprogram 或 SSH
 scripts/check-wxml.js,js,本机检查、回归或维护：check-wxml,package.json；miniprogram 或 SSH
 scripts/check-wxss.js,js,本机检查、回归或维护：check-wxss,package.json；miniprogram 或 SSH
+scripts/configure-mihomo-subscription.py,py,服务器一次性接入原生HTTP订阅与0.1倍URLTest；备份校验和失败恢复，规则/DNS保留,
+scripts/generate-study-sounds.py,py,本机检查、回归或维护：generate-study-sounds,package.json；miniprogram 或 SSH
+scripts/import-cet-exams.py,py,从外部来源缓存按SHA与审校记录重建已核验真题,
+scripts/import-cet-nonlistening.py,py,本机检查、回归或维护：import-cet-nonlistening,package.json；miniprogram 或 SSH
+scripts/import-english-content.py,py,导入指定网站原创内容、合并固定版本开源词库与生成来源清单,
+scripts/render-english-preview.js,js,真实 WXML/WXSS 浏览器转换与两种视口截图，非微信真机,
 scripts/test-admin-login.js,js,本机检查、回归或维护：test-admin-login,package.json；miniprogram 或 SSH
 scripts/test-admin-server.js,js,本机检查、回归或维护：test-admin-server,package.json；miniprogram 或 SSH
+scripts/test-canteen-review-ui.js,js,食堂多次评论、可选评分、晒图、上传失败、草稿保护、独立删评及奖励失败回归,
 scripts/test-canteen-reviews.js,js,本机检查、回归或维护：test-canteen-reviews,package.json；miniprogram 或 SSH
+scripts/test-canteen-submission-ui.js,js,投稿查重迟到响应、补图编辑、幂等重试、本人撤回和账户切换回归,
+scripts/test-cet-nonlistening.js,js,本机检查、回归或维护：test-cet-nonlistening,package.json；miniprogram 或 SSH
+scripts/test-companion-wardrobe.js,js,本机检查、回归或维护：test-companion-wardrobe,package.json；miniprogram 或 SSH
+scripts/test-english-autoplay.js,js,本机检查、回归或维护：test-english-autoplay,package.json；miniprogram 或 SSH
+scripts/test-english-learning.js,js,英语页面目标、提示、学习反馈、挑战、作答与重试回归,
+scripts/test-english-whole-exam-ui.js,js,完整四级／六级57题、单尝试交卷、跨题草稿、解析和自评回归；隔离内存数据,
+scripts/test-gift-landscapes.js,js,本机检查、回归或维护：test-gift-landscapes,package.json；miniprogram 或 SSH
+scripts/test-gift-preview-ui.js,js,预览串行最后一写、续期发布生命周期、匿名Cookie、价格、公示刷新和管理员发金币行为回归,
+scripts/test-gift-videos.js,js,本机检查、回归或维护：test-gift-videos,package.json；miniprogram 或 SSH
+scripts/test-gift-web.js,js,本机检查、回归或维护：test-gift-web,package.json；miniprogram 或 SSH
+scripts/test-keyboard.js,js,键盘事件顺序、窗口双重避让、昵称与金额草稿回归,
 scripts/test-login-state.js,js,本机检查、回归或维护：test-login-state,package.json；miniprogram 或 SSH
 scripts/test-module-loading.js,js,本机检查、回归或维护：test-module-loading,package.json；miniprogram 或 SSH
 scripts/test-module-settings-ui.js,js,本机检查、回归或维护：test-module-settings-ui,package.json；miniprogram 或 SSH
 scripts/test-module-settings.js,js,本机检查、回归或维护：test-module-settings,package.json；miniprogram 或 SSH
+scripts/test-page-copy.js,js,本机检查、回归或维护：test-page-copy,package.json；miniprogram 或 SSH
+scripts/test-page-sharing.js,js,本机检查、回归或维护：test-page-sharing,package.json；miniprogram 或 SSH
+scripts/test-portal-status.js,js,首页默认折叠、状态规范化、可见轮询、防重和迟到请求回归,
 scripts/test-public-modules-bridge.js,js,本机检查、回归或维护：test-public-modules-bridge,package.json；miniprogram 或 SSH
 scripts/test-refresh-ranking.js,js,本机检查、回归或维护：test-refresh-ranking,package.json；miniprogram 或 SSH
 scripts/test-run-interactions.js,js,本机检查、回归或维护：test-run-interactions,package.json；miniprogram 或 SSH
 scripts/test-run-metrics.js,js,本机检查、回归或维护：test-run-metrics,package.json；miniprogram 或 SSH
+scripts/test-social-input.js,js,私信 / 评论草稿、重复发送、迟到响应与键盘生命周期回归,
 scripts/test-tech-ui.js,js,本机检查、回归或维护：test-tech-ui,package.json；miniprogram 或 SSH
 scripts/update-file-map.py,py,本机检查、回归或维护：update-file-map,package.json；miniprogram 或 SSH
 scripts/verify-project.js,js,本机检查、回归或维护：verify-project,package.json；miniprogram 或 SSH
 server/.env.example,example,技术配置或工具：.env,
+server/data/english/content.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2019-06-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2019-06-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2019-06-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2019-12-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2019-12-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2019-12-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2020-07-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2020-09-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2020-09-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2020-09-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2020-12-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2020-12-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2020-12-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2021-06-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2021-06-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2021-06-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2021-12-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2021-12-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2021-12-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2022-06-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2022-06-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2022-06-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2022-09-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2022-09-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2022-09-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2022-12-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2022-12-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2022-12-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2023-03-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2023-03-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2023-03-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2023-06-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2023-06-1.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2023-06-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2023-06-2-reading.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2023-06-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2023-06-3-reading.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2023-12-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2023-12-1-reading.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2023-12-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2023-12-2-reading.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2023-12-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2023-12-3-reading.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2024-06-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2024-06-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2024-06-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2024-12-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2024-12-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2024-12-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2025-06-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2025-06-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2025-06-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2025-12-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2025-12-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2025-12-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2026-06-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2026-06-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet4-2026-06-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2019-06-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2019-06-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2019-06-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2019-12-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2019-12-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2019-12-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2020-07-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2020-09-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2020-09-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2020-09-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2020-12-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2020-12-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2020-12-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2021-06-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2021-06-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2021-06-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2021-12-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2021-12-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2021-12-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2022-06-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2022-06-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2022-06-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2022-09-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2022-09-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2022-09-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2022-12-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2022-12-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2022-12-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2023-03-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2023-03-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2023-03-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2023-06-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2023-06-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2023-06-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2023-12-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2023-12-1.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2023-12-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2023-12-2-reading.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2023-12-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2024-06-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2024-06-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2024-06-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2024-12-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2024-12-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2024-12-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2025-06-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2025-06-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2025-06-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2025-12-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2025-12-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2025-12-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2026-06-1-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2026-06-2-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/exams/cet6-2026-06-3-nonlistening.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/licenses/KyleBing-BSD-3-Clause.txt,txt,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/licenses/wamich-GPL-2.0.txt,txt,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/nonlistening-coverage.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/past-exams.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/practice-explanations.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/provenance.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/english/shop.json,json,英语词题、真题资源索引、商城或内容来源 / 许可,english-content.js → english_learning；docs/english.md
+server/data/gifts/catalog.json,json,祝福模板、背景、特效、推荐语与服务器价格,gift_sites／packageGifts；docs/gift-sites.md
 server/data/portfolio-content.json,json,当前个人网站路由使用的内容数据,
 server/deploy/campus-api.service,service,systemd 服务启动配置,
 server/package-lock.json,json,固定服务器部署依赖版本,
 server/package.json,json,服务器启动、检查与部署依赖,
+server/public/english/companions/boy-base.png,png,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/english/companions/boy-campus-vest.png,png,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/english/companions/boy-campus-vest.svg,svg,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/english/companions/boy-campus.png,png,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/english/companions/boy-heart.png,png,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/english/companions/boy-heart.svg,svg,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/english/companions/boy-magic.png,png,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/english/companions/boy-moon-hanfu.png,png,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/english/companions/boy-moon-hanfu.svg,svg,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/english/companions/boy-shoes.png,png,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/english/companions/boy-shoes.svg,svg,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/english/companions/boy-sport.png,png,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/english/companions/boy-star-cape.png,png,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/english/companions/boy-star-cape.svg,svg,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/english/companions/boy-star.png,png,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/english/companions/boy-star.svg,svg,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/english/companions/girl-base.png,png,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/english/companions/girl-campus-sailor.png,png,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/english/companions/girl-campus-sailor.svg,svg,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/english/companions/girl-heart.png,png,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/english/companions/girl-heart.svg,svg,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/english/companions/girl-mint-cape.png,png,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/english/companions/girl-mint-cape.svg,svg,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/english/companions/girl-peach-hanfu.png,png,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/english/companions/girl-peach-hanfu.svg,svg,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/english/companions/girl-shoes.png,png,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/english/companions/girl-shoes.svg,svg,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/english/companions/girl-star.png,png,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/english/companions/girl-star.svg,svg,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/english/exams/cet6-2021-06-1-writing-chart.jpg,jpg,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/english/exams/cet6-2021-06-2-writing-chart.jpg,jpg,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/english/exams/cet6-2021-06-3-writing-chart.jpg,jpg,随后端发布的伙伴人物或原创配件；不进入微信主包,english-media.js /english-assets → campus-companion / wardrobe
+server/public/gifts/background.js,js,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
+server/public/gifts/backgrounds/aurora-coast-native.jpg,jpg,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
+server/public/gifts/backgrounds/aurora-coast-wide.webp,webp,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
+server/public/gifts/backgrounds/aurora-coast.webp,webp,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
+server/public/gifts/backgrounds/clouds-day-native.jpg,jpg,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
+server/public/gifts/backgrounds/clouds-day-wide.webp,webp,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
+server/public/gifts/backgrounds/clouds-day.webp,webp,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
+server/public/gifts/backgrounds/forest-night-native.jpg,jpg,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
+server/public/gifts/backgrounds/forest-night-wide.webp,webp,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
+server/public/gifts/backgrounds/forest-night.webp,webp,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
+server/public/gifts/backgrounds/grassland-night-native.jpg,jpg,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
+server/public/gifts/backgrounds/grassland-night-wide.webp,webp,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
+server/public/gifts/backgrounds/grassland-night.webp,webp,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
+server/public/gifts/backgrounds/sunrise.png,png,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
+server/public/gifts/backgrounds/video-fire-portrait.jpg,jpg,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
+server/public/gifts/backgrounds/video-fire-wide.jpg,jpg,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
+server/public/gifts/backgrounds/video-stars-portrait.jpg,jpg,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
+server/public/gifts/backgrounds/video-stars-wide.jpg,jpg,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
+server/public/gifts/favicon.svg,svg,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
+server/public/gifts/gift.css,css,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
+server/public/gifts/gift.js,js,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
+server/public/gifts/vendor/birthday-cake-LICENSE.txt,txt,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
+server/public/gifts/vendor/birthday-cake.css,css,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
+server/public/gifts/vendor/confetti-1.9.4.js,js,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
+server/public/gifts/vendor/confetti-LICENSE.txt,txt,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
+server/public/gifts/vendor/fireworks-2.10.8.js,js,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
+server/public/gifts/vendor/fireworks-LICENSE.txt,txt,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
+server/public/gifts/videos/SOURCES.md,md,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
+server/public/gifts/videos/video-fire-portrait.mp4,mp4,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
+server/public/gifts/videos/video-fire-wide.mp4,mp4,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
+server/public/gifts/videos/video-stars-portrait.mp4,mp4,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
+server/public/gifts/videos/video-stars-wide.mp4,mp4,浏览器祝福交互、背景、开源特效原码／许可证或共享素材,gift-web.js／gift-assets；docs/gift-sites.md
 server/scripts/backup-server.sh,sh,服务器维护 / 真实数据库回归：backup-server,docs/operations.md；运行环境与 MariaDB
 server/scripts/bootstrap-app.js,js,服务器维护 / 真实数据库回归：bootstrap-app,docs/operations.md；运行环境与 MariaDB
 server/scripts/bootstrap-server.sh,sh,服务器维护 / 真实数据库回归：bootstrap-server,docs/operations.md；运行环境与 MariaDB
 server/scripts/configure-api-path.py,py,服务器维护 / 真实数据库回归：configure-api-path,docs/operations.md；运行环境与 MariaDB
+server/scripts/configure-gift-domain.py,py,服务器维护 / 真实数据库回归：configure-gift-domain,docs/operations.md；运行环境与 MariaDB
 server/scripts/configure-server.sh,sh,服务器维护 / 真实数据库回归：configure-server,docs/operations.md；运行环境与 MariaDB
 server/scripts/deploy-server.sh,sh,服务器维护 / 真实数据库回归：deploy-server,docs/operations.md；运行环境与 MariaDB
 server/scripts/init-server.py,py,服务器维护 / 真实数据库回归：init-server,docs/operations.md；运行环境与 MariaDB
@@ -358,18 +1050,27 @@ server/scripts/smoke-test.js,js,服务器维护 / 真实数据库回归：smoke-
 server/scripts/test-admin-dashboard.js,js,服务器维护 / 真实数据库回归：test-admin-dashboard,docs/operations.md；运行环境与 MariaDB
 server/scripts/test-admin-food.js,js,服务器维护 / 真实数据库回归：test-admin-food,docs/operations.md；运行环境与 MariaDB
 server/scripts/test-admin-serving.js,js,服务器维护 / 真实数据库回归：test-admin-serving,docs/operations.md；运行环境与 MariaDB
+server/scripts/test-campus-rewards.js,js,奖励并发、去重、目标冻结、回滚；真实SQL仅限隔离测试库,
+server/scripts/test-canteen-interactions.js,js,仅campus_test_库：真实MariaDB并发查重、评分暂停恢复、旧／新版评论兼容与本人权限回归,
 server/scripts/test-canteen-submissions.js,js,服务器维护 / 真实数据库回归：test-canteen-submissions,docs/operations.md；运行环境与 MariaDB
+server/scripts/test-english-first-users.js,js,服务器维护 / 真实数据库回归：test-english-first-users,docs/operations.md；运行环境与 MariaDB
+server/scripts/test-english-learning.js,js,服务器维护 / 真实数据库回归：test-english-learning,docs/operations.md；运行环境与 MariaDB
+server/scripts/test-english-media.js,js,服务器维护 / 真实数据库回归：test-english-media,docs/operations.md；运行环境与 MariaDB
+server/scripts/test-gift-sites.js,js,服务器维护 / 真实数据库回归：test-gift-sites,docs/operations.md；运行环境与 MariaDB
 server/scripts/test-portfolio-store.js,js,服务器维护 / 真实数据库回归：test-portfolio-store,docs/operations.md；运行环境与 MariaDB
 server/scripts/test-run-demo.js,js,服务器维护 / 真实数据库回归：test-run-demo,docs/operations.md；运行环境与 MariaDB
 server/scripts/test-run-http.js,js,服务器维护 / 真实数据库回归：test-run-http,docs/operations.md；运行环境与 MariaDB
 server/scripts/test-run-upgrade.js,js,服务器维护 / 真实数据库回归：test-run-upgrade,docs/operations.md；运行环境与 MariaDB
 server/scripts/test-running.js,js,服务器维护 / 真实数据库回归：test-running,docs/operations.md；运行环境与 MariaDB
 server/scripts/test-selfhost.js,js,服务器维护 / 真实数据库回归：test-selfhost,docs/operations.md；运行环境与 MariaDB
+server/scripts/test-server-status.js,js,真实指标计算、失败未知、SQL与存储缓存、小时探测、超时与关闭回归,
 server/scripts/verify-wechat.js,js,服务器维护 / 真实数据库回归：verify-wechat,docs/operations.md；运行环境与 MariaDB
 server/services/addFriend/index.js,js,业务服务：addFriend,server/src/app.js → campus-server-sdk → MariaDB
 server/services/canteen_reviews/index.js,js,业务服务：canteen_reviews,server/src/app.js → campus-server-sdk → MariaDB
 server/services/coupon_manager/index.js,js,业务服务：coupon_manager,server/src/app.js → campus-server-sdk → MariaDB
 server/services/deleteFriend/index.js,js,业务服务：deleteFriend,server/src/app.js → campus-server-sdk → MariaDB
+server/services/english_learning/companion-ranking.js,js,业务服务：english_learning,server/src/app.js → campus-server-sdk → MariaDB
+server/services/english_learning/index.js,js,业务服务：english_learning,server/src/app.js → campus-server-sdk → MariaDB
 server/services/food_manager/index.js,js,业务服务：food_manager,server/src/app.js → campus-server-sdk → MariaDB
 server/services/forum/index.js,js,业务服务：forum,server/src/app.js → campus-server-sdk → MariaDB
 server/services/getFriends/index.js,js,业务服务：getFriends,server/src/app.js → campus-server-sdk → MariaDB
@@ -378,6 +1079,7 @@ server/services/getQrCode/index.js,js,业务服务：getQrCode,server/src/app.js
 server/services/getRankList/index.js,js,业务服务：getRankList,server/src/app.js → campus-server-sdk → MariaDB
 server/services/getTempFileURL/index.js,js,业务服务：getTempFileURL,server/src/app.js → campus-server-sdk → MariaDB
 server/services/getUserRunStats/index.js,js,业务服务：getUserRunStats,server/src/app.js → campus-server-sdk → MariaDB
+server/services/gift_sites/index.js,js,业务服务：gift_sites,server/src/app.js → campus-server-sdk → MariaDB
 server/services/globalAdmin/index.js,js,业务服务：globalAdmin,server/src/app.js → campus-server-sdk → MariaDB
 server/services/login/index.js,js,业务服务：login,server/src/app.js → campus-server-sdk → MariaDB
 server/services/notification/index.js,js,业务服务：notification,server/src/app.js → campus-server-sdk → MariaDB
@@ -388,10 +1090,19 @@ server/services/searchUser/index.js,js,业务服务：searchUser,server/src/app.
 server/services/teamManager/index.js,js,业务服务：teamManager,server/src/app.js → campus-server-sdk → MariaDB
 server/sql/schema.sql,sql,MariaDB 兼容数据表初始化,
 server/src/app.js,js,HTTP 路由、身份、文件上传和网页后台,
+server/src/campus-rewards.js,js,读取有效校园任务来源、冻结每日跑步目标、共享金币流水与去重,
+server/src/campus-wallet.js,js,英语和祝福网站共用钱包、用户锁与默认账户,
 server/src/data-store/index.js,js,MariaDB 兼容层、事务、行锁与身份上下文,
 server/src/data-store/package.json,json,技术配置或工具：package,
+server/src/english-content.js,js,加载英语词库、题目、资料索引、商城与人物素材目录,
+server/src/english-fsrs.js,js,ts-fsrs 按日复习调度与记忆卡片序列化,
+server/src/english-media.js,js,同域发音、PDF / 听力白名单下载、格式校验与缓存,
+server/src/gift-layout.js,js,自由画布坐标、元素类型和本人图片引用校验,
+server/src/gift-web.js,js,公开祝福HTML、JSON、签名访客Cookie与留言接口,
+server/src/module-policy.js,js,七模块统一默认值与旧格式兼容；供公开开关和英语门禁复用,
 server/src/portfolio-store.js,js,当前 HTTP 路由使用的原个人网站内容存取,
 server/src/run-records.js,js,运动成绩校验、北京时间、SQL 历史分页 / 统计 / 榜单聚合,
+server/src/server-status.js,js,主机CPU/RAM/连续开机、根盘、网站空间与祝福总数缓存；每小时直连/规则代理外网HEAD,
 server/src/we-run.js,js,微信会话关联、微信运动数据解密校验与按用户按日保存,
 tsconfig.json,json,TypeScript 检查与 ES2017 输出,
 typings/index.d.ts,ts,微信 TypeScript 类型声明,tsconfig.json → TypeScript

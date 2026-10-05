@@ -1,7 +1,7 @@
 .container {
   min-height: 100vh;
   background-color: #f5f5f5;
-  padding-bottom: 120rpx;
+  padding: 0 0 calc(136rpx + env(safe-area-inset-bottom));
 }
 
 .section {
@@ -123,10 +123,13 @@
 
 .input-with-unit .form-input {
   flex: 1;
+  min-width: 0;
   background-color: transparent;
 }
 
 .unit {
+  flex-shrink: 0;
+  margin-left: 12rpx;
   font-size: 28rpx;
   color: #999;
 }
@@ -135,6 +138,7 @@
   display: flex;
   justify-content: space-between;
   padding: 16rpx 0;
+  gap: 20rpx;
   border-bottom: 1rpx solid #f5f5f5;
 }
 
@@ -143,11 +147,15 @@
 }
 
 .info-label {
+  flex-shrink: 0;
   font-size: 28rpx;
   color: #999;
 }
 
 .info-value {
+  min-width: 0;
+  text-align: right;
+  overflow-wrap: break-word;
   font-size: 28rpx;
   color: #333;
 }
@@ -165,7 +173,7 @@
   color: #fff;
   font-size: 32rpx;
   font-weight: bold;
-  padding: 30rpx;
+  padding: 24rpx 30rpx calc(24rpx + env(safe-area-inset-bottom));
   text-align: center;
 }
 

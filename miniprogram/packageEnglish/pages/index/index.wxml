@@ -1,0 +1,43 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
+<view class="english-page english-section-page" style="{{theme.style}}">
+  <view class="hero"><text class="kicker">DAILY ENGLISH</text><text class="title">单词</text><text class="subtitle">{{pageCopy.subtitle}}</text></view>
+  <view class="tabs"><button class="tab tech-control {{level === 'CET4' ? 'selected' : ''}}" data-level="CET4" bindtap="switchLevel" hover-class="tech-pressed">四级 CET-4</button><button class="tab tech-control {{level === 'CET6' ? 'selected' : ''}}" data-level="CET6" bindtap="switchLevel" hover-class="tech-pressed">六级 CET-6</button></view>
+  <view wx:if="{{error}}" class="error">{{error}}<button wx:if="{{!home}}" class="action tech-control" bindtap="loadHome" disabled="{{loading}}">重新加载</button></view>
+  <view wx:if="{{loading && !home}}" class="card muted">正在读取今日进度…</view>
+  <view wx:if="{{home && home.plan.needsUpdate}}" class="error">剩余词量不足，请调整今天目标。<text class="muted">{{home.plan.availabilityNote}}</text><text class="muted">可用新词 {{home.plan.newAvailable}} / 旧词 {{home.plan.reviewAvailable}}。</text></view>
+  <view class="card daily-card">
+    <view class="row between"><text class="card-title">今日目标</text><text wx:if="{{home}}" class="badge">{{home.today.checkedIn ? '已打卡' : progress + '% 已完成'}}</text></view>
+    <view wx:if="{{home}}" class="grid daily-progress"><view class="stat"><text class="stat-number">{{home.today.newCount}}<text class="stat-goal"> / {{home.plan.newGoal}}</text></text><text class="stat-label">新词</text></view><view class="stat"><text class="stat-number">{{home.today.reviewCount}}<text class="stat-goal"> / {{home.plan.reviewGoal}}</text></text><text class="stat-label">复习</text></view></view>
+    <view wx:if="{{home}}" class="progress-track"><view class="progress-fill" style="width:{{progress}}%;"></view></view>
+    <view wx:if="{{home && home.extraStudy && home.extraStudy.enabled}}" class="extra-study">
+      <view class="extra-quantity"><view class="grow"><text class="extra-title">今天再加练几个</text><text class="muted">本次1–100个，今日打卡已保留</text></view><input class="tech-input extra-input" type="number" value="{{extraCount}}" bindinput="inputExtraCount" adjust-position="{{true}}" cursor-spacing="24" maxlength="3" /></view>
+      <text class="daily-note">可加练：新词 {{home.extraStudy.newAvailable}} · 旧词 {{home.extraStudy.reviewAvailable}}</text>
+      <text wx:if="{{home.today.extraNewCount || home.today.extraReviewCount}}" class="extra-record">今日额外学了 {{home.today.extraNewCount}} 个新词，复习 {{home.today.extraReviewCount}} 个旧词 ✨</text>
+    </view>
+    <view class="grid study-actions"><button class="entry tech-control tech-primary" data-mode="new" bindtap="openStudy" disabled="{{home && home.plan.needsUpdate}}" hover-class="tech-pressed"><text class="entry-title">{{home && home.extraStudy && home.extraStudy.enabled ? '继续学新词' : '学习新词'}}</text><text class="entry-note">例句选择 · 答后释义</text></button><button class="entry tech-control" data-mode="review" bindtap="openStudy" disabled="{{home && home.plan.needsUpdate}}" hover-class="tech-pressed"><text class="entry-title">{{home && home.extraStudy && home.extraStudy.enabled ? '继续复习' : '复习旧词'}}</text><text class="entry-note">巩固记忆 · 错词再现</text></button></view>
+    <text wx:if="{{home}}" class="daily-note">{{home.today.checkedIn ? '今日打卡 ' + checkedAt : '完成今日新词与复习目标后自动打卡'}}</text>
+    <text wx:if="{{home}}" class="daily-note">连续 {{home.stats.streak || 0}} 天 · 累计 {{home.stats.totalCheckins || 0}} 天</text>
+  </view>
+  <block wx:if="{{home}}">
+    <view wx:if="{{home.plan.frozen && level !== home.plan.level}}" class="notice">今日目标已固定为{{home.plan.level === 'CET6' ? '六级' : '四级'}}。当前{{level === 'CET6' ? '六级' : '四级'}}学习会保存，换级计划从次日生效。</view>
+    <view class="card compact-card">
+      <button class="disclosure" bindtap="togglePlan" hover-class="tech-pressed"><view class="grow"><text class="disclosure-title">学习计划</text><text class="muted">{{home.plan.pending && home.plan.pending.level === level ? '待生效 · ' : ''}}{{level === 'CET6' ? '六级' : '四级'}} · 每日新词 {{newGoal}} / 复习 {{reviewGoal}}</text></view><text class="disclosure-arrow">{{planOpen ? '收起 −' : '调整 +'}}</text></button>
+      <view wx:if="{{planOpen}}" class="plan-content">
+        <view class="grid"><view><text class="field-label">每日新词数</text><input class="tech-input" type="number" value="{{newGoal}}" data-field="newGoal" bindinput="inputGoal" adjust-position="{{true}}" cursor-spacing="24" maxlength="3" /></view><view><text class="field-label">每日复习数</text><input class="tech-input" type="number" value="{{reviewGoal}}" data-field="reviewGoal" bindinput="inputGoal" adjust-position="{{true}}" cursor-spacing="24" maxlength="3" /></view></view>
+        <view class="notice">词库 {{home.stats.totalWords}} · 已学 {{home.stats.learnedWords}} · 待复习 {{home.stats.dueWords}}<text wx:if="{{estimate !== null}}" class="muted">按新词目标，剩余词汇预计 {{estimate}} 天学完。</text><text wx:else class="muted">新词目标为 0，暂不估算完成天数。</text><text wx:if="{{home.plan.frozen}}" class="muted">今日已开始学习，新计划从次日生效。</text><text wx:if="{{home.plan.pending}}" class="muted">待生效：{{home.plan.pending.level === 'CET6' ? '六级' : '四级'}} · 新词 {{home.plan.pending.newGoal}} / 复习 {{home.plan.pending.reviewGoal}}，{{home.plan.pending.appliesOn}} 生效。</text></view>
+        <text wx:if="{{saveNote}}" class="muted">{{saveNote}}</text><button class="action tech-control tech-primary" bindtap="savePlan" loading="{{saving}}" disabled="{{saving || loading}}" hover-class="tech-pressed">保存计划</button>
+      </view>
+    </view>
+  </block>
+  <view class="card compact-card">
+    <button class="disclosure" bindtap="toggleMy" hover-class="tech-pressed"><view class="grow"><text class="disclosure-title">我的</text><text class="muted">拼写、记录与校园伙伴</text></view><text class="disclosure-arrow">{{myOpen ? '收起 −' : '展开 +'}}</text></button>
+    <view wx:if="{{myOpen}}" class="my-content">
+      <view class="tools-row"><button class="tool-link tech-control" data-mode="spelling" bindtap="openStudy">独立拼写</button><button class="tool-link tech-control" data-page="history" bindtap="openPage">作答历史</button><button class="tool-link tech-control" data-page="wrong" bindtap="openPage">我的错题</button></view>
+      <view class="my-links"><button class="my-link" data-page="tasks" bindtap="openPage"><text>每日任务</text><text class="muted">{{home ? home.coins + ' 金币' : '查看进度'}} ›</text></button><button class="my-link" data-page="wardrobe" bindtap="openPage"><text>衣橱与主题</text><text class="muted">装扮伙伴 ›</text></button></view>
+      <block wx:if="{{home}}"><button class="my-link" bindtap="toggleCheckins"><text>最近打卡</text><text class="muted">{{showCheckins ? '收起 −' : '查看 31 天 ›'}}</text></button><block wx:if="{{showCheckins}}"><view wx:for="{{checkins}}" wx:key="date" class="checkin-row"><text>{{item.date}}</text><text class="muted">新词 {{item.newCount}} / 旧词 {{item.reviewCount}} · {{item.minutes}} 分钟</text><text class="muted">{{item.checkedAtText}}</text></view><text wx:if="{{!checkins.length}}" class="muted">完成今日目标后，会留下第一条打卡记录。</text></block></block>
+    </view>
+  </view>
+  <english-nav current="words" level="{{level}}" />
+</view>
+
+</block>

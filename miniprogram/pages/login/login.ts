@@ -1,5 +1,7 @@
+import { withSharing } from '../../utils/page-share'
+import { withPageCopy } from '../../utils/page-copy'
 import { api } from '../../utils/api-client'
-Page({
+Page(withSharing(withPageCopy('login', {
   data: {
     isLoading: false,
     userInfo: {
@@ -7,14 +9,13 @@ Page({
       nickName: ''
     },
     tempAvatarPath: '',
-    slogan: '山野万里，浪漫不止朝夕',
     sloganStyle: '',
     redirectUrl: '/pages/portal/portal'
   },
 
   onLoad(options: any) {
     this.setData({ redirectUrl: this.resolveRedirect(options && options.redirect) })
-    this.initRandomSlogan()
+    this.initSloganColor()
     this.checkLogin(options)
   },
 
@@ -34,7 +35,7 @@ Page({
     wx.reLaunch({ url: this.data.redirectUrl || '/pages/portal/portal' })
   },
 
-  initRandomSlogan() {
+  initSloganColor() {
     // 随机渐变色库
     const gradients = [
       'linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)', // 浪漫粉
@@ -48,22 +49,6 @@ Page({
     this.setData({ 
       sloganStyle: `background: ${randomGradient}; -webkit-background-clip: text; color: transparent;` 
     })
-
-    // 备用语录库，当接口请求失败时使用
-    const fallbackSlogans = [
-      '山野万里，浪漫不止朝夕',
-      '星光不问赶路人，时光不负有心人',
-      '在这里，用脚步丈量商幼的每一寸土地',
-      '愿你历尽千帆，归来仍是少年'
-    ]
-
-    // 登录页不依赖第三方接口，避免域名白名单或网络波动拖慢首屏。
-    this.useFallbackSlogan(fallbackSlogans)
-  },
-
-  useFallbackSlogan(slogans: string[]) {
-    const randomIndex = Math.floor(Math.random() * slogans.length)
-    this.setData({ slogan: slogans[randomIndex] })
   },
 
   checkLogin(options: any = {}) {
@@ -181,4 +166,4 @@ Page({
       this.enterAfterLogin()
     }, 500)
   }
-})
+})))

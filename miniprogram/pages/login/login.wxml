@@ -1,3 +1,4 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="login-container">
   <image class="bg-image" src="/images/login-bg.png" mode="aspectFill"></image>
   <view class="bg-overlay"></view>
@@ -5,7 +6,7 @@
   <view class="login-content">
     <view class="login-logo">
       <text class="logo-text">智慧商幼</text>
-      <text class="slogan" style="{{sloganStyle}}">{{slogan}}</text>
+      <text class="slogan" style="{{sloganStyle}}">{{pageCopy.subtitle}}</text>
     </view>
     
     <view class="form-section tech-card">
@@ -19,7 +20,7 @@
       
       <view class="form-item">
         <text class="form-label">昵称</text>
-        <input class="nickname-input tech-input" type="nickname" placeholder="请输入昵称" bindinput="onNicknameInput" bindblur="onNicknameBlur" value="{{userInfo.nickName}}" placeholder-style="color:#8597ad" />
+        <input class="nickname-input tech-input" type="nickname" placeholder="请输入昵称" bindinput="onNicknameInput" bindblur="onNicknameBlur" value="{{userInfo.nickName}}" adjust-position="{{true}}" cursor-spacing="24" placeholder-style="color:#8597ad" />
       </view>
     </view>
     
@@ -27,8 +28,10 @@
       <text class="login-btn-text">确认登录</text>
     </button>
 
-    <view class="skip-login" bindtap="skipLogin" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+    <button class="skip-login tech-control" aria-label="跳过登录，先逛逛" bindtap="skipLogin" hover-class="tech-pressed" hover-start-time="0" hover-stay-time="100">
       <text>跳过登录，先逛逛</text>
-    </view>
+    </button>
   </view>
 </view>
+
+</block>

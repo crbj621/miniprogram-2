@@ -1,8 +1,9 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="container">
   <view class="search-bar">
     <view class="search-box">
       <text class="search-icon">🔍</text>
-      <tech-search class="tech-search-host"><input type="text" placeholder="搜索商家名称" value="{{keyword}}" bindinput="onSearchInput" bindconfirm="onSearch" placeholder-style="color:#8597ad" class="tech-input" /></tech-search>
+      <tech-search class="tech-search-host"><input adjust-position="{{true}}" cursor-spacing="24" type="text" placeholder="搜索商家名称" value="{{keyword}}" bindinput="onSearchInput" bindconfirm="onSearch" placeholder-style="color:#8597ad" class="tech-input" /></tech-search>
     </view>
     <view class="add-btn tech-control" bindtap="showAddShop" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">添加</view>
   </view>
@@ -71,36 +72,36 @@
   </scroll-view>
 
   <view class="modal tech-card" wx:if="{{showEditModal}}">
-    <view class="modal-mask" bindtap="hideEdit" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"></view>
+    <view class="modal-mask" bindtap="hideEdit"></view>
     <view class="modal-content tech-card">
       <view class="modal-header">
         <text class="modal-title">编辑商家信息</text>
         <view class="modal-close tap-action" bindtap="hideEdit" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">×</view>
       </view>
-      <view class="modal-body">
+      <scroll-view scroll-y class="modal-body">
         <view class="form-item">
           <text class="form-label">店铺名称</text>
-          <input class="form-input tech-input" type="text" value="{{editForm.name}}" data-field="name" bindinput="onEditInput" placeholder="请输入店铺名称" placeholder-style="color:#8597ad" />
+          <input adjust-position="{{true}}" cursor-spacing="24" class="form-input tech-input" type="text" value="{{editForm.name}}" data-field="name" bindinput="onEditInput" placeholder="请输入店铺名称" placeholder-style="color:#8597ad" />
         </view>
         <view class="form-item">
           <text class="form-label">联系人</text>
-          <input class="form-input tech-input" type="text" value="{{editForm.contact}}" data-field="contact" bindinput="onEditInput" placeholder="请输入联系人" placeholder-style="color:#8597ad" />
+          <input adjust-position="{{true}}" cursor-spacing="24" class="form-input tech-input" type="text" value="{{editForm.contact}}" data-field="contact" bindinput="onEditInput" placeholder="请输入联系人" placeholder-style="color:#8597ad" />
         </view>
         <view class="form-item">
           <text class="form-label">联系电话</text>
-          <input class="form-input tech-input" type="text" value="{{editForm.phone}}" data-field="phone" bindinput="onEditInput" placeholder="请输入联系电话" placeholder-style="color:#8597ad" />
+          <input adjust-position="{{true}}" cursor-spacing="24" class="form-input tech-input" type="text" value="{{editForm.phone}}" data-field="phone" bindinput="onEditInput" placeholder="请输入联系电话" placeholder-style="color:#8597ad" />
         </view>
         <view class="form-row">
           <view class="form-item half">
             <text class="form-label">起送价</text>
-            <input class="form-input tech-input" type="digit" value="{{editForm.minPrice}}" data-field="minPrice" data-type="number" bindinput="onEditInput" placeholder="0" placeholder-style="color:#8597ad" />
+            <input adjust-position="{{true}}" cursor-spacing="24" class="form-input tech-input" type="digit" value="{{editForm.minPrice}}" data-field="minPrice" data-type="number" bindinput="onEditInput" placeholder="0" placeholder-style="color:#8597ad" />
           </view>
           <view class="form-item half">
             <text class="form-label">配送费</text>
-            <input class="form-input tech-input" type="digit" value="{{editForm.deliveryFee}}" data-field="deliveryFee" data-type="number" bindinput="onEditInput" placeholder="0" placeholder-style="color:#8597ad" />
+            <input adjust-position="{{true}}" cursor-spacing="24" class="form-input tech-input" type="digit" value="{{editForm.deliveryFee}}" data-field="deliveryFee" data-type="number" bindinput="onEditInput" placeholder="0" placeholder-style="color:#8597ad" />
           </view>
         </view>
-      </view>
+      </scroll-view>
       <view class="modal-footer">
         <view class="btn cancel tech-control" bindtap="hideEdit" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">取消</view>
         <view class="btn confirm tech-control tech-primary" bindtap="saveEdit" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">保存</view>
@@ -109,23 +110,23 @@
   </view>
 
   <view class="modal tech-card" wx:if="{{showAccountModal}}">
-    <view class="modal-mask" bindtap="hideAccount" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"></view>
+    <view class="modal-mask" bindtap="hideAccount"></view>
     <view class="modal-content tech-card">
       <view class="modal-header">
         <text class="modal-title">修改商家账号</text>
         <view class="modal-close tap-action" bindtap="hideAccount" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">×</view>
       </view>
-      <view class="modal-body">
+      <scroll-view scroll-y class="modal-body">
         <view class="shop-name-tip">商家：{{accountShop.name}}</view>
         <view class="form-item">
           <text class="form-label">新账号（留空不修改）</text>
-          <input class="form-input tech-input" type="text" value="{{accountForm.username}}" data-field="username" bindinput="onAccountInput" placeholder="请输入新账号" placeholder-style="color:#8597ad" />
+          <input adjust-position="{{true}}" cursor-spacing="24" class="form-input tech-input" type="text" value="{{accountForm.username}}" data-field="username" bindinput="onAccountInput" placeholder="请输入新账号" placeholder-style="color:#8597ad" />
         </view>
         <view class="form-item">
           <text class="form-label">新密码（留空不修改）</text>
-          <input class="form-input tech-input" type="text" value="{{accountForm.password}}" data-field="password" bindinput="onAccountInput" placeholder="请输入新密码" placeholder-style="color:#8597ad" />
+          <input adjust-position="{{true}}" cursor-spacing="24" class="form-input tech-input" type="text" value="{{accountForm.password}}" data-field="password" bindinput="onAccountInput" placeholder="请输入新密码" placeholder-style="color:#8597ad" />
         </view>
-      </view>
+      </scroll-view>
       <view class="modal-footer">
         <view class="btn cancel tech-control" bindtap="hideAccount" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">取消</view>
         <view class="btn confirm tech-control tech-primary" bindtap="saveAccount" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">保存</view>
@@ -133,3 +134,5 @@
     </view>
   </view>
 </view>
+
+</block>

@@ -56,7 +56,9 @@
         "pages/history/history",
         "pages/settings/settings",
         "pages/team/team",
-        "pages/coupons/coupons"
+        "pages/coupons/coupons",
+        "pages/wardrobe/wardrobe",
+        "pages/tasks/tasks"
       ]
     },
     {
@@ -85,6 +87,29 @@
         "pages/hall/hall",
         "pages/my/my"
       ]
+    },
+    {
+      "root": "packageEnglish",
+      "name": "english",
+      "pages": [
+        "pages/index/index",
+        "pages/study/study",
+        "pages/papers/papers",
+        "pages/attempt/attempt",
+        "pages/challenge/challenge",
+        "pages/rank/rank",
+        "pages/admin/admin"
+      ]
+    },
+    {
+      "root": "packageGifts",
+      "name": "gifts",
+      "pages": [
+        "pages/index/index",
+        "pages/editor/editor",
+        "pages/view/view",
+        "pages/admin/admin"
+      ]
     }
   ],
   "window": {
@@ -112,5 +137,8 @@
     "onLocationChange",
     "startLocationUpdate",
     "startLocationUpdateBackground"
-  ]
+  ],
+  "usingComponents": {
+    "share-intro": "/components/share-intro/share-intro"
+  }
 }

@@ -21,7 +21,7 @@ assert.equal(values.length, 2, '禁用时不发送变更')
 let forum
 vm.runInNewContext(ts.transpileModule(fs.readFileSync('miniprogram/packageForum/pages/index/index.ts', 'utf8'), {
   compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2017 }
-}).outputText, { Page: value => { forum = value }, exports: {}, require: () => ({ api: {} }), console })
+}).outputText, { Page: value => { forum = value }, exports: {}, require: () => ({ withSharing: value => value, withPageCopy: (_scope, value) => value, api: {}, getSavedCampusTheme: () => ({ style: '' }) }), console })
 forum.setData = patch => Object.assign(forum.data, patch)
 let requests = 0
 forum.loadPosts = () => { requests++; return Promise.resolve(true) }
@@ -58,13 +58,12 @@ vm.runInNewContext(ts.transpileModule(fs.readFileSync('miniprogram/utils/portal-
 }).outputText, { exports: dailyModule.exports })
 const daily = dailyModule.exports.getPortalDaily
 const beforeMidnight = Date.parse('2026-10-01T23:59:59+08:00')
+assert.deepEqual(Object.keys(daily(beforeMidnight)), ['color'], '每日主题仅负责颜色')
 assert.deepEqual(daily(beforeMidnight), daily(Date.parse('2026-10-01T00:00:00+08:00')), '同一北京时间日期保持一致')
-assert.notEqual(daily(beforeMidnight).title, daily(beforeMidnight + 1000).title, '北京时间跨日换文案')
 assert.notEqual(daily(beforeMidnight).color, daily(beforeMidnight + 1000).color, '北京时间跨日换色')
 for (let i = 0; i < 14; i++) {
   const current = daily(beforeMidnight + i * 86400000)
   const next = daily(beforeMidnight + (i + 1) * 86400000)
-  assert.notEqual(current.title, next.title)
   assert.notEqual(current.color, next.color, '轮换边界也不能连续同色')
 }
-console.log('受控开关、直接下拉分区、分页复位与每日文案配色：通过')
+console.log('受控开关、直接下拉分区、分页复位与每日配色：通过')

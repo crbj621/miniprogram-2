@@ -9,7 +9,7 @@
 网页管理后台 admin-web → 同一服务器 API
 ```
 
-小程序入口为根目录 project.config.json；miniprogramRoot 是 miniprogram/。app.json 是唯一实际页面清单。当前 54 页，main + packageFood / packageCanteen / packageForum / packageProfile / packageRider 分包。
+小程序入口为根目录 project.config.json；miniprogramRoot 是 miniprogram/。app.json 是唯一实际页面清单。当前 67 页，main + packageFood / packageCanteen / packageForum / packageProfile / packageRider / packageEnglish / packageGifts 分包。
 
 ## 页面四文件
 
@@ -32,6 +32,10 @@ app.ts 管理启动、登录状态与退出；config/api.ts 维护地址与缓�
 | GET /api/public/modules | 无需登录的公开模块开关 |
 | POST /api/auth/wechat | 验证 wx.login code，签发 token 并关联微信会话 |
 | POST /api/we-run | 身份及微信运动凭证校验，按用户按日保存步数 |
+| GET /api/english/audio、resource | 同域发音 / 真题资料按需下载缓存与来源校验 |
+| /gift-assets/、/gifts/:id、/gift-domain | 共享祝福网页素材、公开网页与Host识别；见gift-sites.md |
+| /api/gifts/:id、/api/gifts/:id/messages | 公开网站数据和有界留言墙 |
+| /english-assets/ | 人物、饰品、鞋子的服务器静态素材 |
 | POST /api/auth/admin | 管理员身份认证 |
 | POST /api/functions/:name | 调用 server/services 中已加载业务 |
 | POST /api/files/upload、GET /uploads/... | 图片上传与文件读取 |
@@ -40,9 +44,11 @@ app.ts 管理启动、登录状态与退出；config/api.ts 维护地址与缓�
 | 跑步 / 统计 / 排行 | saveRunData、getUserRunStats、getRankList |
 | 好友 / 组队 | addFriend、deleteFriend、getFriends、searchUser、teamManager |
 | 点餐 / 券 / 骑手 | food_manager、coupon_manager、rider |
-| 独立评分 / 投稿 | canteen_reviews |
+| 独立评分 / 多次评论 / 餐次 / 投稿补图 / 争议核查 | canteen_reviews；接口与集合关系见canteen.md |
 | 动态 / 通知 | forum、notification |
 | 管理 / 公告 / 设置 | globalAdmin |
+| 四六级 / 打卡 / 挑战 / 金币 / 装扮 | english_learning；接口见 english.md |
+| 祝福网站 / 域名 / 金币 / 到期清理 | gift_sites、campus-wallet、gift-layout、gift-web |
 | 文件地址 / 二维码 | getTempFileURL、getQrCode |
 
 这些仍保留在本地，供维护和发布；原微信云函数业务已转为服务器模块，并非无用残留。服务依赖统一由 server/package.json 管理。

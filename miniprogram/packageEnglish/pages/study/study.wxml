@@ -1,0 +1,36 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
+<view class="english-page study-page {{feedback ? 'study-page--feedback' : ''}}" style="{{theme.style}}">
+  <view class="study-progress">
+    <view class="study-progress-label"><text class="study-level">{{level === 'CET6' ? '六级' : '四级'}}</text><text>{{session && session.extra ? '今日加练 · ' : ''}}{{mode === 'new' ? '新词' : mode === 'review' ? '复习' : '拼写'}}</text></view>
+    <text wx:if="{{session}}" class="study-count">{{completed}} / {{total}}</text>
+  </view>
+  <view wx:if="{{session}}" class="study-progress-track"><view class="study-progress-fill" style="width:{{progress}}%"></view></view>
+  <view wx:if="{{error}}" class="error">{{error}}<button wx:if="{{!session}}" class="action tech-control" bindtap="loadSession" disabled="{{loading}}">重新加载</button><button wx:if="{{!session}}" class="action tech-control" bindtap="goHome">返回</button></view>
+  <view wx:if="{{loading}}" class="card muted">正在准备单词…</view>
+  <block wx:if="{{session && !loading}}">
+    <view wx:if="{{question}}" class="card study-card study-card--{{cardState}}">
+      <block wx:if="{{mode !== 'spelling'}}"><text class="word">{{question.lemma}}</text><view class="phonetic">{{question.ipa}} <text>{{question.partOfSpeech}}</text></view></block>
+      <block wx:else><text wx:if="{{feedback}}" class="word">{{feedback.lemma}}</text><text wx:else class="card-title spelling-prompt">{{question.definitionZh}}</text><text wx:if="{{!feedback}}" class="muted">{{question.prompt}}</text><view wx:if="{{!feedback && question.exampleZh}}" class="example">{{question.exampleZh}}</view></block>
+      <view wx:if="{{!feedback && question.exampleEn}}" class="example">{{question.exampleEn}}</view>
+      <view class="study-tools">
+        <button wx:if="{{mode !== 'spelling' || feedback}}" class="study-tool tech-control" bindtap="playAudio" hover-class="tech-pressed">🔊 发音</button>
+        <button wx:if="{{!feedback && question.hasHint}}" class="study-tool tech-control" bindtap="showHint" loading="{{hintLoading}}" disabled="{{busy || hintLoading}}" hover-class="tech-pressed">{{hint ? '查看提示' : '提示'}}</button>
+      </view>
+      <view wx:if="{{!feedback && hint}}" class="notice study-hint">{{hint}}</view>
+      <block wx:if="{{!feedback}}">
+        <view wx:if="{{mode !== 'spelling'}}" class="study-options"><button wx:for="{{question.options}}" wx:key="id" class="option {{busy && item.id === chosen ? 'option--chosen' : ''}}" data-id="{{item.id}}" bindtap="chooseAnswer" disabled="{{busy}}" hover-class="tech-pressed"><text class="option-label">{{index + 1}}.</text><text class="option-copy">{{item.text}}</text></button></view>
+        <block wx:else><text class="field-label">输入英文单词</text><input class="tech-input" value="{{spelling}}" bindinput="inputSpelling" bindconfirm="submitSpelling" disabled="{{busy}}" adjust-position="{{true}}" cursor-spacing="24" placeholder="在这里拼写" /><button class="action tech-control tech-primary" bindtap="submitSpelling" disabled="{{busy || !spelling}}" loading="{{busy}}" hover-class="tech-pressed">检查拼写</button></block>
+      </block>
+      <view wx:if="{{feedback}}" class="analysis">
+        <text class="card-title {{feedback.correct ? 'feedback-correct' : 'feedback-retry'}}">{{feedback.correct ? '叮！答对啦 ✓' : '再记一次，稍后复现 ♡'}}</text>
+        <text class="section-label">完整词义</text><view class="meaning">{{feedback.meaningText || feedback.definitionZh}}</view>
+        <block wx:for="{{feedback.examples}}" wx:for-item="example" wx:key="index"><view wx:if="{{example.exampleEn}}" class="example">{{example.exampleEn}}</view><view wx:if="{{example.exampleZh}}" class="translation">{{example.exampleZh}}</view></block>
+        <view wx:if="{{feedback.explanation}}" class="notice">{{feedback.explanation}}</view><text wx:if="{{intervalLabel}}" class="muted">{{intervalLabel}}</text><text wx:if="{{coinsEarned}}" class="muted">+{{coinsEarned}} 金币</text>
+      </view>
+    </view>
+    <view wx:else class="card"><text class="card-title">{{session.total ? '本轮完成啦 🎉' : '当前没有待学单词'}}</text><text class="muted">学习记录已保存。</text><button class="action tech-control tech-primary" bindtap="goHome" hover-class="tech-pressed">返回单词分区</button></view>
+  </block>
+  <view wx:if="{{feedback && !loading}}" class="study-footer"><button class="study-next tech-control tech-primary" bindtap="continueStudy" disabled="{{busy}}" hover-class="tech-pressed">{{nextCompleted ? '完成本轮' : '下一个 →'}}</button></view>
+</view>
+
+</block>

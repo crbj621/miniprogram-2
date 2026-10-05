@@ -1,3 +1,4 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="container">
   <view class="loading-mask" wx:if="{{autoLogging}}">
     <view class="loading-content">
@@ -16,12 +17,12 @@
     <view class="form">
       <view class="input-group">
         <view class="input-icon">👤</view>
-        <input type="text" placeholder="请输入账号" value="{{username}}" bindinput="onUsernameInput" placeholder-style="color:#8597ad" class="tech-input" />
+        <input adjust-position="{{true}}" cursor-spacing="24" type="text" placeholder="请输入账号" value="{{username}}" bindinput="onUsernameInput" placeholder-style="color:#8597ad" class="tech-input" />
       </view>
       
       <view class="input-group">
         <view class="input-icon">🔑</view>
-        <input type="password" placeholder="请输入密码" value="{{password}}" bindinput="onPasswordInput" placeholder-style="color:#8597ad" class="tech-input" />
+        <input adjust-position="{{true}}" cursor-spacing="24" type="text" password placeholder="请输入密码" value="{{password}}" bindinput="onPasswordInput" placeholder-style="color:#8597ad" class="tech-input" />
       </view>
 
       <view class="forgot-row">
@@ -49,17 +50,17 @@
     <view class="form">
       <view class="input-group">
         <view class="input-icon">👤</view>
-        <input type="text" placeholder="请输入账号" value="{{resetForm.username}}" bindinput="onResetUsernameInput" placeholder-style="color:#8597ad" class="tech-input" />
+        <input adjust-position="{{true}}" cursor-spacing="24" type="text" placeholder="请输入账号" value="{{resetForm.username}}" bindinput="onResetUsernameInput" placeholder-style="color:#8597ad" class="tech-input" />
       </view>
       
       <view class="input-group">
         <view class="input-icon">📱</view>
-        <input type="number" placeholder="请输入注册手机号" value="{{resetForm.phone}}" bindinput="onResetPhoneInput" placeholder-style="color:#8597ad" class="tech-input" />
+        <input adjust-position="{{true}}" cursor-spacing="24" type="number" placeholder="请输入注册手机号" value="{{resetForm.phone}}" bindinput="onResetPhoneInput" placeholder-style="color:#8597ad" class="tech-input" />
       </view>
 
       <view class="input-group">
         <view class="input-icon">🔑</view>
-        <input type="password" placeholder="新密码（至少8位）" value="{{resetForm.newPassword}}" bindinput="onResetPasswordInput" placeholder-style="color:#8597ad" class="tech-input" />
+        <input adjust-position="{{true}}" cursor-spacing="24" type="text" password placeholder="新密码（至少8位）" value="{{resetForm.newPassword}}" bindinput="onResetPasswordInput" placeholder-style="color:#8597ad" class="tech-input" />
       </view>
 
       <view class="btn-row">
@@ -69,3 +70,5 @@
     </view>
   </view>
 </view>
+
+</block>

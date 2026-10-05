@@ -1,3 +1,4 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="page">
   <view class="header">
     <view class="header-bg"></view>
@@ -19,7 +20,7 @@
       <view class="search-bar" wx:if="{{showSearch}}">
         <text class="search-icon">🔍</text>
         <tech-search class="tech-search-host"><input 
-          class="search-input tech-input" 
+          class="search-input tech-input" adjust-position="{{true}}" cursor-spacing="24"
           placeholder="搜索校园动态..." 
           value="{{keyword}}" 
           bindinput="onSearchInput" 
@@ -126,3 +127,5 @@
     <text class="fab-icon">✏️</text>
   </view>
 </view>
+
+</block>

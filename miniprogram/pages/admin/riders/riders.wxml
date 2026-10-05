@@ -1,3 +1,4 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="page">
   <view class="tabs">
     <view class="tab {{activeStatus === 'pending' ? 'active' : ''}}" data-status="pending" bindtap="switchStatus" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">待审核</view>
@@ -26,3 +27,5 @@
     </view>
   </view>
 </view>
+
+</block>

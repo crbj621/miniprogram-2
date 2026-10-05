@@ -1,10 +1,11 @@
-<view class="container">
-  <view class="campus-heading"><view class="campus-heading-copy"><text class="campus-kicker">校园生活 · 好好吃饭</text><text class="campus-title">校园点餐</text><text class="campus-subtitle">热乎乎的一餐，给忙碌的自己</text></view><campus-sticker kind="food" /></view>
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
+<view class="container campus-theme {{theme.key !== 'default' ? 'campus-theme-enabled' : ''}}" style="{{theme.style}}">
+  <view class="campus-heading campus-theme-surface"><view class="campus-heading-copy"><text class="campus-kicker">{{pageCopy.title}}</text><text class="campus-title">校园点餐<text wx:if="{{theme.key !== 'default'}}" class="campus-theme-decoration">{{theme.decoration}}</text></text><text class="campus-subtitle">{{pageCopy.subtitle}}</text></view><campus-sticker kind="food" /></view>
   <view class="header-actions"><button class="action-btn tech-control" bindtap="goToOrders" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">我的订单</button><button class="action-btn tech-control" bindtap="goToMine" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">点餐中心</button><button wx:if="{{riderEnabled}}" class="action-btn tech-control" bindtap="goToRider" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">骑手入口</button></view>
   <view class="search-bar">
     <view class="search-box">
       <view class="campus-search-icon"></view>
-      <tech-search class="tech-search-host"><input type="text" placeholder="搜索商家或美食" bindconfirm="onSearch" value="{{keyword}}" bindinput="onSearchInput" placeholder-style="color:#8597ad" class="tech-input" /></tech-search>
+      <tech-search class="tech-search-host"><input adjust-position="{{true}}" cursor-spacing="24" type="text" placeholder="搜索商家或美食" bindconfirm="onSearch" value="{{keyword}}" bindinput="onSearchInput" placeholder-style="color:#8597ad" class="tech-input" /></tech-search>
     </view>
   </view>
 
@@ -15,7 +16,7 @@
 
   <mahiro-scroll id="page-refresh" class="shop-scroll" bindrefresh="refreshPage" bindmore="loadMore">
     <view class="shop-list">
-      <view class="shop-item tech-card" wx:for="{{shops}}" wx:key="_id" bindtap="goToShop" data-id="{{item._id}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+      <view class="shop-item tech-card campus-theme-surface" wx:for="{{shops}}" wx:key="_id" bindtap="goToShop" data-id="{{item._id}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
         <view class="shop-left">
           <image wx:if="{{item.logo}}" class="shop-logo" src="{{item.logo}}" mode="aspectFill" lazy-load></image>
           <view wx:else class="shop-logo-placeholder"><campus-sticker kind="food" /></view>
@@ -64,3 +65,5 @@
     </view>
   </mahiro-scroll>
 </view>
+
+</block>

@@ -1,0 +1,1945 @@
+{
+  "schemaVersion": 1,
+  "status": "verified_structured",
+  "source": {
+    "id": "cet6-2020-12-2-nonlistening",
+    "textCollection": "https://english-exam.lazynote.cn",
+    "textUrl": "https://english-exam.lazynote.cn/cet6/paper/2020-12-2/",
+    "textSha256": "e58333c59fb1c27810663ee51581e595e155fc5ce1d4100996fcb8fe1cec1c7a",
+    "answerSources": [
+      {
+        "section": "part3-section-a",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2020-12-2/part3-section-a/",
+        "sha256": "f6f439078063fabb0be103c4b55738e035f841a0e7f9304486bc63cbb48e4baf"
+      },
+      {
+        "section": "part3-section-b",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2020-12-2/part3-section-b/",
+        "sha256": "ff162c75425a54380f602edb6d34459bb3b417b0aabd7d137c11fc8354ca50ad"
+      },
+      {
+        "section": "part3-section-c-1",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2020-12-2/part3-section-c-1/",
+        "sha256": "9b92cd641c3dac8abac9fab722bfdd4ae2e4ce67ed7ddfdcd802a0545f92c3d1"
+      },
+      {
+        "section": "part3-section-c-2",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2020-12-2/part3-section-c-2/",
+        "sha256": "30a7456acaa45be43672901ee443222786d812b60c1507dceec821ce4300a1ed"
+      }
+    ],
+    "rightsUrl": "https://english-exam.lazynote.cn",
+    "rights": "Source footer attributes original papers to the National College English Test Committee. Original materials retain their respective rights; no blanket source license is asserted. Commercial explanatory prose is not copied.",
+    "sourceRightsNotice": "© 2026 懒笔记 · 蜀ICP备2024049450号-1 · 川公网安备51019002006323号 · 增值电信业务经营许可证：川B2-20240301 · 真题版权归全国硕士研究生招生考试 / 全国大学英语四六级考试委员会所有 · 隐私政策 · 用户协议",
+    "sourceTermsUrl": "https://english-exam.lazynote.cn/terms/",
+    "reviewedAt": "2026-10-03",
+    "answerStatus": "public_reference_structural_consistency_verified",
+    "explanations": "Project-generated contextual evidence notes. Close-reading locations are keyword-search candidates, not manually verified detailed explanations.",
+    "referenceEssays": "Project-authored full reference examples bound to the original prompts; not official model answers.",
+    "materialSources": [],
+    "corrections": [],
+    "previousReviewedAnswerSources": [],
+    "sourceEdition": "lazynote public original-paper arrangement; set numbering can differ from other collections.",
+    "independentlyConfirmedSharedSource": "",
+    "readingSourceCorrection": null,
+    "sectionSourceReplacement": null,
+    "independentAnswerChecks": [],
+    "sharedSectionSource": {}
+  },
+  "papers": [
+    {
+      "id": "cet6-2020-12-2-nonlistening",
+      "level": "CET6",
+      "year": 2020,
+      "month": 12,
+      "set": 2,
+      "title": "2020年12月英语六级第2套真题（不含听力）",
+      "authenticity": "past_exam",
+      "questionIds": [
+        "cet6-2020-12-2-nonlistening-writing",
+        "cet6-2020-12-2-nonlistening-q26",
+        "cet6-2020-12-2-nonlistening-q27",
+        "cet6-2020-12-2-nonlistening-q28",
+        "cet6-2020-12-2-nonlistening-q29",
+        "cet6-2020-12-2-nonlistening-q30",
+        "cet6-2020-12-2-nonlistening-q31",
+        "cet6-2020-12-2-nonlistening-q32",
+        "cet6-2020-12-2-nonlistening-q33",
+        "cet6-2020-12-2-nonlistening-q34",
+        "cet6-2020-12-2-nonlistening-q35",
+        "cet6-2020-12-2-nonlistening-q36",
+        "cet6-2020-12-2-nonlistening-q37",
+        "cet6-2020-12-2-nonlistening-q38",
+        "cet6-2020-12-2-nonlistening-q39",
+        "cet6-2020-12-2-nonlistening-q40",
+        "cet6-2020-12-2-nonlistening-q41",
+        "cet6-2020-12-2-nonlistening-q42",
+        "cet6-2020-12-2-nonlistening-q43",
+        "cet6-2020-12-2-nonlistening-q44",
+        "cet6-2020-12-2-nonlistening-q45",
+        "cet6-2020-12-2-nonlistening-q46",
+        "cet6-2020-12-2-nonlistening-q47",
+        "cet6-2020-12-2-nonlistening-q48",
+        "cet6-2020-12-2-nonlistening-q49",
+        "cet6-2020-12-2-nonlistening-q50",
+        "cet6-2020-12-2-nonlistening-q51",
+        "cet6-2020-12-2-nonlistening-q52",
+        "cet6-2020-12-2-nonlistening-q53",
+        "cet6-2020-12-2-nonlistening-q54",
+        "cet6-2020-12-2-nonlistening-q55",
+        "cet6-2020-12-2-nonlistening-translation"
+      ],
+      "durationSeconds": 6000,
+      "description": "写作1题、阅读30题、翻译1题，不含听力。客观题答案与题面、选项完成结构一致性核对。",
+      "sourceId": "cet6-2020-12-2-nonlistening",
+      "coverage": {
+        "fullPaper": false,
+        "fullNonListening": true,
+        "listeningExcluded": true,
+        "objectiveNumbers": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "objectiveCount": 30,
+        "subjectiveCount": 2,
+        "sections": [
+          "writing",
+          "reading_word_bank",
+          "reading_matching",
+          "reading_comprehension",
+          "translation"
+        ],
+        "sharedSectionSource": {},
+        "note": "写作1题、阅读30题、翻译1题，不含听力。",
+        "independentlyConfirmedSharedSource": "",
+        "readingSourceCorrection": null,
+        "sectionSourceReplacement": null,
+        "referenceStatus": "project_authored"
+      },
+      "resources": [
+        {
+          "id": "cet6-2020-12-2-nonlistening-source",
+          "type": "web",
+          "title": "原卷来源与题面核对",
+          "url": "https://english-exam.lazynote.cn/cet6/paper/2020-12-2/"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cet6-2020-12-2-nonlistening-writing",
+      "number": "I",
+      "level": "CET6",
+      "type": "short_text_self_check",
+      "skill": "writing",
+      "section": "writing",
+      "prompt": "Directions: For this part, you are allowed 30 minutes to write an essay on why students should be encouraged to effective communication skills. You should write at least 150 words but no more than 200 words.",
+      "options": [],
+      "correctAnswer": "Students should be encouraged to develop effective communication skills because learning and working both require the exchange of ideas. A good idea may have little impact if its owner cannot explain it clearly or understand other people's responses.\n\nEffective communication involves listening as well as speaking. In a group assignment, students need to clarify responsibilities, ask questions and discuss disagreements before they cause delays. A member who summarizes the discussion can help the team discover whether everyone has understood the same goal. Communication also enables students to obtain support. Explaining a difficulty accurately makes it easier for a teacher or classmate to offer useful advice. Beyond campus, these skills are needed in interviews, professional cooperation and everyday relationships. They make knowledge easier to share and reduce conflicts caused by careless assumptions.\n\nSchools should therefore create opportunities for presentations, cooperative tasks and respectful debate. Feedback should focus on clarity, evidence and listening rather than confidence alone. With regular practice, students can learn to express themselves thoughtfully and respond to others with greater understanding.",
+      "referenceAnswer": "Students should be encouraged to develop effective communication skills because learning and working both require the exchange of ideas. A good idea may have little impact if its owner cannot explain it clearly or understand other people's responses.\n\nEffective communication involves listening as well as speaking. In a group assignment, students need to clarify responsibilities, ask questions and discuss disagreements before they cause delays. A member who summarizes the discussion can help the team discover whether everyone has understood the same goal. Communication also enables students to obtain support. Explaining a difficulty accurately makes it easier for a teacher or classmate to offer useful advice. Beyond campus, these skills are needed in interviews, professional cooperation and everyday relationships. They make knowledge easier to share and reduce conflicts caused by careless assumptions.\n\nSchools should therefore create opportunities for presentations, cooperative tasks and respectful debate. Feedback should focus on clarity, evidence and listening rather than confidence alone. With regular practice, students can learn to express themselves thoughtfully and respond to others with greater understanding.",
+      "hint": "围绕有效沟通的清晰表达、倾听和协作展开，给出教学建议。",
+      "explanation": "以下为按本题要求独立写成的原创参考范文，作文没有唯一答案。小组任务体现职责澄清与复述确认，求助例子说明沟通在学习中的价值。题面“encouraged to effective communication skills”缺少动词，参考范文按语义使用develop，原题及哈希保留；本题未强制给定首句。",
+      "rubric": [
+        "任务：围绕有效沟通的清晰表达、倾听和协作展开，给出教学建议。",
+        "论证：明确中心观点，用原因、具体例子或经历展开；结尾回应主题。",
+        "语言：检查主谓一致、时态、搭配和段落衔接；全文控制在150–200词。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-2-nonlistening-q26",
+      "canonicalId": "lazynote-cet6-2020-12-2-q26",
+      "number": 26,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 26 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Virtually every activity that entails or facilitates in-person human interaction seems to be in the midst of a total meltdown as the coronavirus(冠状病毒) outbreak erases Americans' desire to travel. Amtrak says bookings are down 50 percent and cancelations are up 300 percent. Hotels in San Francisco are experiencing [26] ____ rates between 70 and 80 percent. Broadway goes dark on Thursday night. Universities, now emptying their campuses, have never tried online learning on this [27] ____ . White-collar companies like Amazon, Apple, and the New York Times are asking employees to work from home for the [28] ____ future.\n\nBut what happens after the coronavirus?\n\nIn some ways, the answer is: All the old normal stuff. The pandemic(大流行病) will take lives, [29] ____ economies and destroy routines, but it will pass. Americans will never stop going to basketball games. They won't stop going on vacation. They'll meet to do business. No decentralizing technology so far—not telephones, not television, and not the internet—has dented that human desire to shake hands, despite technologists' [30] ____ to the contrary.\n\nYet there are real reasons to think that things will not return to the way they were last week. Small [31] ____ create small societal shifts; big ones change things for good. The New York transit strike of 1980 is [32] ____ with prompting several long-term changes in the city, including bus and bike lanes, and women wearing sports shoes to work. The Spanish flu pandemic of 1918 prompted the development of national health care in Europe.\n\nHere and now, this might not even be a question of [33] ____ . It's not clear that the cruise industry will [34] ____ . Or that public transit won't go broke without [35] ____ assistance. The infrastructure might not even be in place to do what we were doing in 2019.",
+      "options": [
+        {
+          "id": "A",
+          "text": "credentials"
+        },
+        {
+          "id": "B",
+          "text": "credited"
+        },
+        {
+          "id": "C",
+          "text": "cumulative"
+        },
+        {
+          "id": "D",
+          "text": "disruptions"
+        },
+        {
+          "id": "E",
+          "text": "federal"
+        },
+        {
+          "id": "F",
+          "text": "foreseeable"
+        },
+        {
+          "id": "G",
+          "text": "predictions"
+        },
+        {
+          "id": "H",
+          "text": "preference"
+        },
+        {
+          "id": "I",
+          "text": "scale"
+        },
+        {
+          "id": "J",
+          "text": "strangle"
+        },
+        {
+          "id": "K",
+          "text": "subtle"
+        },
+        {
+          "id": "L",
+          "text": "summoned"
+        },
+        {
+          "id": "M",
+          "text": "survive"
+        },
+        {
+          "id": "N",
+          "text": "vacancy"
+        },
+        {
+          "id": "O",
+          "text": "wedge"
+        }
+      ],
+      "correctAnswer": "N",
+      "hint": "先看第 26 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 N（vacancy）。本空所在句：Hotels in San Francisco are experiencing [26] ____ rates between 70 and 80 percent.\n将本空替换为 vacancy 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-2-nonlistening-q27",
+      "canonicalId": "lazynote-cet6-2020-12-2-q27",
+      "number": 27,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 27 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Virtually every activity that entails or facilitates in-person human interaction seems to be in the midst of a total meltdown as the coronavirus(冠状病毒) outbreak erases Americans' desire to travel. Amtrak says bookings are down 50 percent and cancelations are up 300 percent. Hotels in San Francisco are experiencing [26] ____ rates between 70 and 80 percent. Broadway goes dark on Thursday night. Universities, now emptying their campuses, have never tried online learning on this [27] ____ . White-collar companies like Amazon, Apple, and the New York Times are asking employees to work from home for the [28] ____ future.\n\nBut what happens after the coronavirus?\n\nIn some ways, the answer is: All the old normal stuff. The pandemic(大流行病) will take lives, [29] ____ economies and destroy routines, but it will pass. Americans will never stop going to basketball games. They won't stop going on vacation. They'll meet to do business. No decentralizing technology so far—not telephones, not television, and not the internet—has dented that human desire to shake hands, despite technologists' [30] ____ to the contrary.\n\nYet there are real reasons to think that things will not return to the way they were last week. Small [31] ____ create small societal shifts; big ones change things for good. The New York transit strike of 1980 is [32] ____ with prompting several long-term changes in the city, including bus and bike lanes, and women wearing sports shoes to work. The Spanish flu pandemic of 1918 prompted the development of national health care in Europe.\n\nHere and now, this might not even be a question of [33] ____ . It's not clear that the cruise industry will [34] ____ . Or that public transit won't go broke without [35] ____ assistance. The infrastructure might not even be in place to do what we were doing in 2019.",
+      "options": [
+        {
+          "id": "A",
+          "text": "credentials"
+        },
+        {
+          "id": "B",
+          "text": "credited"
+        },
+        {
+          "id": "C",
+          "text": "cumulative"
+        },
+        {
+          "id": "D",
+          "text": "disruptions"
+        },
+        {
+          "id": "E",
+          "text": "federal"
+        },
+        {
+          "id": "F",
+          "text": "foreseeable"
+        },
+        {
+          "id": "G",
+          "text": "predictions"
+        },
+        {
+          "id": "H",
+          "text": "preference"
+        },
+        {
+          "id": "I",
+          "text": "scale"
+        },
+        {
+          "id": "J",
+          "text": "strangle"
+        },
+        {
+          "id": "K",
+          "text": "subtle"
+        },
+        {
+          "id": "L",
+          "text": "summoned"
+        },
+        {
+          "id": "M",
+          "text": "survive"
+        },
+        {
+          "id": "N",
+          "text": "vacancy"
+        },
+        {
+          "id": "O",
+          "text": "wedge"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "先看第 27 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 I（scale）。本空所在句：Universities, now emptying their campuses, have never tried online learning on this [27] ____ .\n将本空替换为 scale 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-2-nonlistening-q28",
+      "canonicalId": "lazynote-cet6-2020-12-2-q28",
+      "number": 28,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 28 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Virtually every activity that entails or facilitates in-person human interaction seems to be in the midst of a total meltdown as the coronavirus(冠状病毒) outbreak erases Americans' desire to travel. Amtrak says bookings are down 50 percent and cancelations are up 300 percent. Hotels in San Francisco are experiencing [26] ____ rates between 70 and 80 percent. Broadway goes dark on Thursday night. Universities, now emptying their campuses, have never tried online learning on this [27] ____ . White-collar companies like Amazon, Apple, and the New York Times are asking employees to work from home for the [28] ____ future.\n\nBut what happens after the coronavirus?\n\nIn some ways, the answer is: All the old normal stuff. The pandemic(大流行病) will take lives, [29] ____ economies and destroy routines, but it will pass. Americans will never stop going to basketball games. They won't stop going on vacation. They'll meet to do business. No decentralizing technology so far—not telephones, not television, and not the internet—has dented that human desire to shake hands, despite technologists' [30] ____ to the contrary.\n\nYet there are real reasons to think that things will not return to the way they were last week. Small [31] ____ create small societal shifts; big ones change things for good. The New York transit strike of 1980 is [32] ____ with prompting several long-term changes in the city, including bus and bike lanes, and women wearing sports shoes to work. The Spanish flu pandemic of 1918 prompted the development of national health care in Europe.\n\nHere and now, this might not even be a question of [33] ____ . It's not clear that the cruise industry will [34] ____ . Or that public transit won't go broke without [35] ____ assistance. The infrastructure might not even be in place to do what we were doing in 2019.",
+      "options": [
+        {
+          "id": "A",
+          "text": "credentials"
+        },
+        {
+          "id": "B",
+          "text": "credited"
+        },
+        {
+          "id": "C",
+          "text": "cumulative"
+        },
+        {
+          "id": "D",
+          "text": "disruptions"
+        },
+        {
+          "id": "E",
+          "text": "federal"
+        },
+        {
+          "id": "F",
+          "text": "foreseeable"
+        },
+        {
+          "id": "G",
+          "text": "predictions"
+        },
+        {
+          "id": "H",
+          "text": "preference"
+        },
+        {
+          "id": "I",
+          "text": "scale"
+        },
+        {
+          "id": "J",
+          "text": "strangle"
+        },
+        {
+          "id": "K",
+          "text": "subtle"
+        },
+        {
+          "id": "L",
+          "text": "summoned"
+        },
+        {
+          "id": "M",
+          "text": "survive"
+        },
+        {
+          "id": "N",
+          "text": "vacancy"
+        },
+        {
+          "id": "O",
+          "text": "wedge"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "先看第 28 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 F（foreseeable）。本空所在句：White-collar companies like Amazon, Apple, and the New York Times are asking employees to work from home for the [28] ____ future.\n将本空替换为 foreseeable 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-2-nonlistening-q29",
+      "canonicalId": "lazynote-cet6-2020-12-2-q29",
+      "number": 29,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 29 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Virtually every activity that entails or facilitates in-person human interaction seems to be in the midst of a total meltdown as the coronavirus(冠状病毒) outbreak erases Americans' desire to travel. Amtrak says bookings are down 50 percent and cancelations are up 300 percent. Hotels in San Francisco are experiencing [26] ____ rates between 70 and 80 percent. Broadway goes dark on Thursday night. Universities, now emptying their campuses, have never tried online learning on this [27] ____ . White-collar companies like Amazon, Apple, and the New York Times are asking employees to work from home for the [28] ____ future.\n\nBut what happens after the coronavirus?\n\nIn some ways, the answer is: All the old normal stuff. The pandemic(大流行病) will take lives, [29] ____ economies and destroy routines, but it will pass. Americans will never stop going to basketball games. They won't stop going on vacation. They'll meet to do business. No decentralizing technology so far—not telephones, not television, and not the internet—has dented that human desire to shake hands, despite technologists' [30] ____ to the contrary.\n\nYet there are real reasons to think that things will not return to the way they were last week. Small [31] ____ create small societal shifts; big ones change things for good. The New York transit strike of 1980 is [32] ____ with prompting several long-term changes in the city, including bus and bike lanes, and women wearing sports shoes to work. The Spanish flu pandemic of 1918 prompted the development of national health care in Europe.\n\nHere and now, this might not even be a question of [33] ____ . It's not clear that the cruise industry will [34] ____ . Or that public transit won't go broke without [35] ____ assistance. The infrastructure might not even be in place to do what we were doing in 2019.",
+      "options": [
+        {
+          "id": "A",
+          "text": "credentials"
+        },
+        {
+          "id": "B",
+          "text": "credited"
+        },
+        {
+          "id": "C",
+          "text": "cumulative"
+        },
+        {
+          "id": "D",
+          "text": "disruptions"
+        },
+        {
+          "id": "E",
+          "text": "federal"
+        },
+        {
+          "id": "F",
+          "text": "foreseeable"
+        },
+        {
+          "id": "G",
+          "text": "predictions"
+        },
+        {
+          "id": "H",
+          "text": "preference"
+        },
+        {
+          "id": "I",
+          "text": "scale"
+        },
+        {
+          "id": "J",
+          "text": "strangle"
+        },
+        {
+          "id": "K",
+          "text": "subtle"
+        },
+        {
+          "id": "L",
+          "text": "summoned"
+        },
+        {
+          "id": "M",
+          "text": "survive"
+        },
+        {
+          "id": "N",
+          "text": "vacancy"
+        },
+        {
+          "id": "O",
+          "text": "wedge"
+        }
+      ],
+      "correctAnswer": "J",
+      "hint": "先看第 29 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 J（strangle）。本空所在句：The pandemic(大流行病) will take lives, [29] ____ economies and destroy routines, but it will pass.\n将本空替换为 strangle 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-2-nonlistening-q30",
+      "canonicalId": "lazynote-cet6-2020-12-2-q30",
+      "number": 30,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 30 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Virtually every activity that entails or facilitates in-person human interaction seems to be in the midst of a total meltdown as the coronavirus(冠状病毒) outbreak erases Americans' desire to travel. Amtrak says bookings are down 50 percent and cancelations are up 300 percent. Hotels in San Francisco are experiencing [26] ____ rates between 70 and 80 percent. Broadway goes dark on Thursday night. Universities, now emptying their campuses, have never tried online learning on this [27] ____ . White-collar companies like Amazon, Apple, and the New York Times are asking employees to work from home for the [28] ____ future.\n\nBut what happens after the coronavirus?\n\nIn some ways, the answer is: All the old normal stuff. The pandemic(大流行病) will take lives, [29] ____ economies and destroy routines, but it will pass. Americans will never stop going to basketball games. They won't stop going on vacation. They'll meet to do business. No decentralizing technology so far—not telephones, not television, and not the internet—has dented that human desire to shake hands, despite technologists' [30] ____ to the contrary.\n\nYet there are real reasons to think that things will not return to the way they were last week. Small [31] ____ create small societal shifts; big ones change things for good. The New York transit strike of 1980 is [32] ____ with prompting several long-term changes in the city, including bus and bike lanes, and women wearing sports shoes to work. The Spanish flu pandemic of 1918 prompted the development of national health care in Europe.\n\nHere and now, this might not even be a question of [33] ____ . It's not clear that the cruise industry will [34] ____ . Or that public transit won't go broke without [35] ____ assistance. The infrastructure might not even be in place to do what we were doing in 2019.",
+      "options": [
+        {
+          "id": "A",
+          "text": "credentials"
+        },
+        {
+          "id": "B",
+          "text": "credited"
+        },
+        {
+          "id": "C",
+          "text": "cumulative"
+        },
+        {
+          "id": "D",
+          "text": "disruptions"
+        },
+        {
+          "id": "E",
+          "text": "federal"
+        },
+        {
+          "id": "F",
+          "text": "foreseeable"
+        },
+        {
+          "id": "G",
+          "text": "predictions"
+        },
+        {
+          "id": "H",
+          "text": "preference"
+        },
+        {
+          "id": "I",
+          "text": "scale"
+        },
+        {
+          "id": "J",
+          "text": "strangle"
+        },
+        {
+          "id": "K",
+          "text": "subtle"
+        },
+        {
+          "id": "L",
+          "text": "summoned"
+        },
+        {
+          "id": "M",
+          "text": "survive"
+        },
+        {
+          "id": "N",
+          "text": "vacancy"
+        },
+        {
+          "id": "O",
+          "text": "wedge"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "先看第 30 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 G（predictions）。本空所在句：No decentralizing technology so far—not telephones, not television, and not the internet—has dented that human desire to shake hands, despite technologists' [30] ____ to the contrary.\n将本空替换为 predictions 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-2-nonlistening-q31",
+      "canonicalId": "lazynote-cet6-2020-12-2-q31",
+      "number": 31,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 31 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Virtually every activity that entails or facilitates in-person human interaction seems to be in the midst of a total meltdown as the coronavirus(冠状病毒) outbreak erases Americans' desire to travel. Amtrak says bookings are down 50 percent and cancelations are up 300 percent. Hotels in San Francisco are experiencing [26] ____ rates between 70 and 80 percent. Broadway goes dark on Thursday night. Universities, now emptying their campuses, have never tried online learning on this [27] ____ . White-collar companies like Amazon, Apple, and the New York Times are asking employees to work from home for the [28] ____ future.\n\nBut what happens after the coronavirus?\n\nIn some ways, the answer is: All the old normal stuff. The pandemic(大流行病) will take lives, [29] ____ economies and destroy routines, but it will pass. Americans will never stop going to basketball games. They won't stop going on vacation. They'll meet to do business. No decentralizing technology so far—not telephones, not television, and not the internet—has dented that human desire to shake hands, despite technologists' [30] ____ to the contrary.\n\nYet there are real reasons to think that things will not return to the way they were last week. Small [31] ____ create small societal shifts; big ones change things for good. The New York transit strike of 1980 is [32] ____ with prompting several long-term changes in the city, including bus and bike lanes, and women wearing sports shoes to work. The Spanish flu pandemic of 1918 prompted the development of national health care in Europe.\n\nHere and now, this might not even be a question of [33] ____ . It's not clear that the cruise industry will [34] ____ . Or that public transit won't go broke without [35] ____ assistance. The infrastructure might not even be in place to do what we were doing in 2019.",
+      "options": [
+        {
+          "id": "A",
+          "text": "credentials"
+        },
+        {
+          "id": "B",
+          "text": "credited"
+        },
+        {
+          "id": "C",
+          "text": "cumulative"
+        },
+        {
+          "id": "D",
+          "text": "disruptions"
+        },
+        {
+          "id": "E",
+          "text": "federal"
+        },
+        {
+          "id": "F",
+          "text": "foreseeable"
+        },
+        {
+          "id": "G",
+          "text": "predictions"
+        },
+        {
+          "id": "H",
+          "text": "preference"
+        },
+        {
+          "id": "I",
+          "text": "scale"
+        },
+        {
+          "id": "J",
+          "text": "strangle"
+        },
+        {
+          "id": "K",
+          "text": "subtle"
+        },
+        {
+          "id": "L",
+          "text": "summoned"
+        },
+        {
+          "id": "M",
+          "text": "survive"
+        },
+        {
+          "id": "N",
+          "text": "vacancy"
+        },
+        {
+          "id": "O",
+          "text": "wedge"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "先看第 31 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 D（disruptions）。本空所在句：Small [31] ____ create small societal shifts; big ones change things for good.\n将本空替换为 disruptions 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-2-nonlistening-q32",
+      "canonicalId": "lazynote-cet6-2020-12-2-q32",
+      "number": 32,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 32 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Virtually every activity that entails or facilitates in-person human interaction seems to be in the midst of a total meltdown as the coronavirus(冠状病毒) outbreak erases Americans' desire to travel. Amtrak says bookings are down 50 percent and cancelations are up 300 percent. Hotels in San Francisco are experiencing [26] ____ rates between 70 and 80 percent. Broadway goes dark on Thursday night. Universities, now emptying their campuses, have never tried online learning on this [27] ____ . White-collar companies like Amazon, Apple, and the New York Times are asking employees to work from home for the [28] ____ future.\n\nBut what happens after the coronavirus?\n\nIn some ways, the answer is: All the old normal stuff. The pandemic(大流行病) will take lives, [29] ____ economies and destroy routines, but it will pass. Americans will never stop going to basketball games. They won't stop going on vacation. They'll meet to do business. No decentralizing technology so far—not telephones, not television, and not the internet—has dented that human desire to shake hands, despite technologists' [30] ____ to the contrary.\n\nYet there are real reasons to think that things will not return to the way they were last week. Small [31] ____ create small societal shifts; big ones change things for good. The New York transit strike of 1980 is [32] ____ with prompting several long-term changes in the city, including bus and bike lanes, and women wearing sports shoes to work. The Spanish flu pandemic of 1918 prompted the development of national health care in Europe.\n\nHere and now, this might not even be a question of [33] ____ . It's not clear that the cruise industry will [34] ____ . Or that public transit won't go broke without [35] ____ assistance. The infrastructure might not even be in place to do what we were doing in 2019.",
+      "options": [
+        {
+          "id": "A",
+          "text": "credentials"
+        },
+        {
+          "id": "B",
+          "text": "credited"
+        },
+        {
+          "id": "C",
+          "text": "cumulative"
+        },
+        {
+          "id": "D",
+          "text": "disruptions"
+        },
+        {
+          "id": "E",
+          "text": "federal"
+        },
+        {
+          "id": "F",
+          "text": "foreseeable"
+        },
+        {
+          "id": "G",
+          "text": "predictions"
+        },
+        {
+          "id": "H",
+          "text": "preference"
+        },
+        {
+          "id": "I",
+          "text": "scale"
+        },
+        {
+          "id": "J",
+          "text": "strangle"
+        },
+        {
+          "id": "K",
+          "text": "subtle"
+        },
+        {
+          "id": "L",
+          "text": "summoned"
+        },
+        {
+          "id": "M",
+          "text": "survive"
+        },
+        {
+          "id": "N",
+          "text": "vacancy"
+        },
+        {
+          "id": "O",
+          "text": "wedge"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "先看第 32 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 B（credited）。本空所在句：The New York transit strike of 1980 is [32] ____ with prompting several long-term changes in the city, including bus and bike lanes, and women wearing sports shoes to work.\n将本空替换为 credited 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-2-nonlistening-q33",
+      "canonicalId": "lazynote-cet6-2020-12-2-q33",
+      "number": 33,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 33 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Virtually every activity that entails or facilitates in-person human interaction seems to be in the midst of a total meltdown as the coronavirus(冠状病毒) outbreak erases Americans' desire to travel. Amtrak says bookings are down 50 percent and cancelations are up 300 percent. Hotels in San Francisco are experiencing [26] ____ rates between 70 and 80 percent. Broadway goes dark on Thursday night. Universities, now emptying their campuses, have never tried online learning on this [27] ____ . White-collar companies like Amazon, Apple, and the New York Times are asking employees to work from home for the [28] ____ future.\n\nBut what happens after the coronavirus?\n\nIn some ways, the answer is: All the old normal stuff. The pandemic(大流行病) will take lives, [29] ____ economies and destroy routines, but it will pass. Americans will never stop going to basketball games. They won't stop going on vacation. They'll meet to do business. No decentralizing technology so far—not telephones, not television, and not the internet—has dented that human desire to shake hands, despite technologists' [30] ____ to the contrary.\n\nYet there are real reasons to think that things will not return to the way they were last week. Small [31] ____ create small societal shifts; big ones change things for good. The New York transit strike of 1980 is [32] ____ with prompting several long-term changes in the city, including bus and bike lanes, and women wearing sports shoes to work. The Spanish flu pandemic of 1918 prompted the development of national health care in Europe.\n\nHere and now, this might not even be a question of [33] ____ . It's not clear that the cruise industry will [34] ____ . Or that public transit won't go broke without [35] ____ assistance. The infrastructure might not even be in place to do what we were doing in 2019.",
+      "options": [
+        {
+          "id": "A",
+          "text": "credentials"
+        },
+        {
+          "id": "B",
+          "text": "credited"
+        },
+        {
+          "id": "C",
+          "text": "cumulative"
+        },
+        {
+          "id": "D",
+          "text": "disruptions"
+        },
+        {
+          "id": "E",
+          "text": "federal"
+        },
+        {
+          "id": "F",
+          "text": "foreseeable"
+        },
+        {
+          "id": "G",
+          "text": "predictions"
+        },
+        {
+          "id": "H",
+          "text": "preference"
+        },
+        {
+          "id": "I",
+          "text": "scale"
+        },
+        {
+          "id": "J",
+          "text": "strangle"
+        },
+        {
+          "id": "K",
+          "text": "subtle"
+        },
+        {
+          "id": "L",
+          "text": "summoned"
+        },
+        {
+          "id": "M",
+          "text": "survive"
+        },
+        {
+          "id": "N",
+          "text": "vacancy"
+        },
+        {
+          "id": "O",
+          "text": "wedge"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "先看第 33 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 H（preference）。本空所在句：Here and now, this might not even be a question of [33] ____ .\n将本空替换为 preference 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-2-nonlistening-q34",
+      "canonicalId": "lazynote-cet6-2020-12-2-q34",
+      "number": 34,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 34 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Virtually every activity that entails or facilitates in-person human interaction seems to be in the midst of a total meltdown as the coronavirus(冠状病毒) outbreak erases Americans' desire to travel. Amtrak says bookings are down 50 percent and cancelations are up 300 percent. Hotels in San Francisco are experiencing [26] ____ rates between 70 and 80 percent. Broadway goes dark on Thursday night. Universities, now emptying their campuses, have never tried online learning on this [27] ____ . White-collar companies like Amazon, Apple, and the New York Times are asking employees to work from home for the [28] ____ future.\n\nBut what happens after the coronavirus?\n\nIn some ways, the answer is: All the old normal stuff. The pandemic(大流行病) will take lives, [29] ____ economies and destroy routines, but it will pass. Americans will never stop going to basketball games. They won't stop going on vacation. They'll meet to do business. No decentralizing technology so far—not telephones, not television, and not the internet—has dented that human desire to shake hands, despite technologists' [30] ____ to the contrary.\n\nYet there are real reasons to think that things will not return to the way they were last week. Small [31] ____ create small societal shifts; big ones change things for good. The New York transit strike of 1980 is [32] ____ with prompting several long-term changes in the city, including bus and bike lanes, and women wearing sports shoes to work. The Spanish flu pandemic of 1918 prompted the development of national health care in Europe.\n\nHere and now, this might not even be a question of [33] ____ . It's not clear that the cruise industry will [34] ____ . Or that public transit won't go broke without [35] ____ assistance. The infrastructure might not even be in place to do what we were doing in 2019.",
+      "options": [
+        {
+          "id": "A",
+          "text": "credentials"
+        },
+        {
+          "id": "B",
+          "text": "credited"
+        },
+        {
+          "id": "C",
+          "text": "cumulative"
+        },
+        {
+          "id": "D",
+          "text": "disruptions"
+        },
+        {
+          "id": "E",
+          "text": "federal"
+        },
+        {
+          "id": "F",
+          "text": "foreseeable"
+        },
+        {
+          "id": "G",
+          "text": "predictions"
+        },
+        {
+          "id": "H",
+          "text": "preference"
+        },
+        {
+          "id": "I",
+          "text": "scale"
+        },
+        {
+          "id": "J",
+          "text": "strangle"
+        },
+        {
+          "id": "K",
+          "text": "subtle"
+        },
+        {
+          "id": "L",
+          "text": "summoned"
+        },
+        {
+          "id": "M",
+          "text": "survive"
+        },
+        {
+          "id": "N",
+          "text": "vacancy"
+        },
+        {
+          "id": "O",
+          "text": "wedge"
+        }
+      ],
+      "correctAnswer": "M",
+      "hint": "先看第 34 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 M（survive）。本空所在句：It's not clear that the cruise industry will [34] ____ .\n将本空替换为 survive 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-2-nonlistening-q35",
+      "canonicalId": "lazynote-cet6-2020-12-2-q35",
+      "number": 35,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 35 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Virtually every activity that entails or facilitates in-person human interaction seems to be in the midst of a total meltdown as the coronavirus(冠状病毒) outbreak erases Americans' desire to travel. Amtrak says bookings are down 50 percent and cancelations are up 300 percent. Hotels in San Francisco are experiencing [26] ____ rates between 70 and 80 percent. Broadway goes dark on Thursday night. Universities, now emptying their campuses, have never tried online learning on this [27] ____ . White-collar companies like Amazon, Apple, and the New York Times are asking employees to work from home for the [28] ____ future.\n\nBut what happens after the coronavirus?\n\nIn some ways, the answer is: All the old normal stuff. The pandemic(大流行病) will take lives, [29] ____ economies and destroy routines, but it will pass. Americans will never stop going to basketball games. They won't stop going on vacation. They'll meet to do business. No decentralizing technology so far—not telephones, not television, and not the internet—has dented that human desire to shake hands, despite technologists' [30] ____ to the contrary.\n\nYet there are real reasons to think that things will not return to the way they were last week. Small [31] ____ create small societal shifts; big ones change things for good. The New York transit strike of 1980 is [32] ____ with prompting several long-term changes in the city, including bus and bike lanes, and women wearing sports shoes to work. The Spanish flu pandemic of 1918 prompted the development of national health care in Europe.\n\nHere and now, this might not even be a question of [33] ____ . It's not clear that the cruise industry will [34] ____ . Or that public transit won't go broke without [35] ____ assistance. The infrastructure might not even be in place to do what we were doing in 2019.",
+      "options": [
+        {
+          "id": "A",
+          "text": "credentials"
+        },
+        {
+          "id": "B",
+          "text": "credited"
+        },
+        {
+          "id": "C",
+          "text": "cumulative"
+        },
+        {
+          "id": "D",
+          "text": "disruptions"
+        },
+        {
+          "id": "E",
+          "text": "federal"
+        },
+        {
+          "id": "F",
+          "text": "foreseeable"
+        },
+        {
+          "id": "G",
+          "text": "predictions"
+        },
+        {
+          "id": "H",
+          "text": "preference"
+        },
+        {
+          "id": "I",
+          "text": "scale"
+        },
+        {
+          "id": "J",
+          "text": "strangle"
+        },
+        {
+          "id": "K",
+          "text": "subtle"
+        },
+        {
+          "id": "L",
+          "text": "summoned"
+        },
+        {
+          "id": "M",
+          "text": "survive"
+        },
+        {
+          "id": "N",
+          "text": "vacancy"
+        },
+        {
+          "id": "O",
+          "text": "wedge"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "先看第 35 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 E（federal）。本空所在句：Or that public transit won't go broke without [35] ____ assistance.\n将本空替换为 federal 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-2-nonlistening-q36",
+      "canonicalId": "lazynote-cet6-2020-12-2-q36",
+      "number": 36,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "It seems some people today dream that a cutting-edge new technology might save them from the present ecological disaster.",
+      "passage": "Slow Hope\n\nA) Our world is full of—mostly untold—stories of slow hope, driven by the idea that change is possible. They are 'slow' in their unfolding, and they are slow because they come with setbacks.\n\nB) At the beginning of time—so goes the myth—humans suffered, shivering in the cold and dark until the titan(巨人) Prometheus stole fire from the gods. Just as in the myth, technology—first fire and stone tools, and later farming, the steam engine and industry, fossil fuels, chemicals and nuclear power—has allowed us to alter and control the natural world. The myth also reminds us that these advances have come at a price: as a punishment for Prometheus' crime, the gods created Pandora, and they gave her a box filled with evils and curses. When Pandora's box was opened, it unleashed swarms of diseases and disasters upon humankind.\n\nC) Today we can no longer ignore the ecological curses that we have released in our search for warmth and comfort. In engineering and exploiting and transforming our habitat, we have opened tens of thousands of Pandora's boxes. In recent decades, environmental threats have expanded beyond regional boundaries to have global reach and, most hauntingly, are multiplying at a dizzying rate. On a regular basis, we are reminded that we are running out of time. Year after year, faster and faster, consumption outpaces the biological capacity of our planet. Stories of accelerated catastrophe multiply. We fear the breakdown of the electric grid, the end of non-renewable resources, the expansion of deserts, the loss of islands, and the pollution of our air and water.\n\nD) Acceleration is the signature of our time. Populations and economic activity grew slowly for much of human history. For thousands of years and well into early modern times, world economies saw no growth at all, but from around the mid-19th century and again, in particular, since the mid-20th, the real GDP has increased at an enormous speed, and so has human consumption. In the Middle Ages, households in Central Europe might have owned fewer than 30 objects on average; in 1900, this number had increased to 400, and in 2020 to 15,000. The acceleration of human production, consumption and travel has changed the animate and inanimate spheres. It has echoed through natural processes on which humans depend. Species extinction, deforestation, damming of rivers, occurrence of floods, the depletion of ozone, the degradation of ocean systems and many other areas are all experiencing acceleration. If represented graphically, the curve for all these changes looks rather like that well-known hockey stick: with little change over millennia(数千年) and a dramatic upswing over the past decades.\n\nE) Some of today's narratives about the future seem to suggest that we too, like Prometheus, will be saved by a new Hercules, a divine engineer, someone who will mastermind, manoeuvre and manipulate our planet. They suggest that geoengineering, cold fusion or faster-than-light spaceships might transcend once and for all the terrestrial constraints of rising temperatures, lack of energy, scarcity of food, lack of space, mountains of waste, polluted water—you name it.\n\nF) Yet, if we envisage our salvation to come from a deus ex machina(解围之神), from a divine engineer or a tech solutionist who will miraculously conjure up a new source of energy or another cure-all with revolutionary potency, we might be looking in the wrong place. The fact that we now imagine our planet as a whole does not mean that the 'rescue' of our planet will come with one big global stroke of genius and technology. It will more likely come by many small acts. Global heating and environmental degradation are not technological problems. They are highly political issues that are informed by powerful interests. Moreover, if history is a guide, then we can assume that any major transformations will once again be followed by a huge set of unintended consequences. So what do we do?\n\nG) This much is clear: we need to find ways that help us flatten the hockey-stick curves that reflect our ever-faster pace of ecological destruction and social acceleration. If we acknowledge that human manipulation of the Earth has been a destructive force, we can also imagine that human endeavours can help us build a less destructive world in the centuries to come. We might keep making mistakes. But we will also keep learning from our mistakes.\n\nH) To counter the fears of disaster, we need to identify stories, visions and actions that work quietly towards a more hopeful future. Instead of one big narrative, a story of unexpected rescue by a larger-than-life hero, we need multiple stories: we need stories, not only of what Rob Nixon of Princeton University has called the 'slow violence' of environmental degradation (that is, the damage that is often invisible at first and develops slowly and gradually), but also stories of what I call 'slow hope'.\n\nI) We need an acknowledgement of our present ecological plight but also a language of positive change, visions of a better future. In The Principle of Hope (1954-1959), Ernst Bloch, one of the leading philosophers of the future, wrote that 'the most tragic form of loss…is the loss of the capacity to imagine that things could be different'. We need to identify visions and paths that will help us imagine a different, more just and more ecological world. Hope, for Bloch, has its starting point in fear, in uncertainty, and in crisis: it is a creative force that goes hand in hand with utopian(乌托邦的) 'wishful images'. It can be found in cultural products of the past—in fairy tales, in fiction, in architecture, in music, in the movies—in products of the human mind that contain 'the outlines of a better world'. What makes us 'authentic' as humans are visions of our 'potential'. In other words: living in hope makes us human.\n\nJ) The power of small, grassroots movements to make changes that spread beyond their place of origin can be seen with the Slow Food movement, which began in Italy in the 1980s. The rise of fast-food restaurants after the Second World War produced a society full of cheap, industrially made foodstuffs. Under the leadership of Carlo Petrini, the Slow Food movement began in Piedmont, a region of Italy with a long history of poverty, violence and resistance to oppression. The movement transformed it into a region hospitable to traditional food cultures—based on native plants and breeds of animals. Today, Slow Food operates in more than 160 countries, poor and rich. It has given rise to thousands of projects around the globe, representing democratic politics, food sovereignty, biodiversity and sustainable agriculture.\n\nK) The unscrupulous(无所顾忌的) commodification of food and the destruction of foodstuffs will continue to devastate soils, livelihoods and ecologies. Slow Food cannot undo the irresistible developments of the global food economy, but it can upset its theorists, it can 'speak differently', and it can allow people and their local food traditions and environments to flourish. Even in the United States—the fast-food nation—small farms and urban gardens are on the rise. The US Department of Agriculture provides an Urban Agriculture Toolkit and, according to a recent report, American millennials(千禧一代) are changing their diets. In 2017, 6 per cent of US consumers claimed to be strictly vegetarian, up from 1 per cent in 2014. As more people realise that 'eating is an agricultural act', as the US poet and environmental activist Wendell Berry put it in 1989, slow hope advances.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 E 段。题干：It seems some people today dream that a cutting-edge new technology might save them from the present ecological disaster.\n核对该段原文：Some of today's narratives about the future seem to suggest that we too, like Prometheus, will be saved by a new Hercules, a divine engineer, someone who will mastermind, manoeuvre and manipulate our planet. They suggest that geoengineering, cold fusion or faster-than-light spaceships might transcend once and for all the terrestrial constraints of rising temperatures, lack of energy, scarcity of food, lack of space, mountains of waste, polluted water—you name it.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-2-nonlistening-q37",
+      "canonicalId": "lazynote-cet6-2020-12-2-q37",
+      "number": 37,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "According to one great thinker, it is most unfortunate if we lose the ability to think differently.",
+      "passage": "Slow Hope\n\nA) Our world is full of—mostly untold—stories of slow hope, driven by the idea that change is possible. They are 'slow' in their unfolding, and they are slow because they come with setbacks.\n\nB) At the beginning of time—so goes the myth—humans suffered, shivering in the cold and dark until the titan(巨人) Prometheus stole fire from the gods. Just as in the myth, technology—first fire and stone tools, and later farming, the steam engine and industry, fossil fuels, chemicals and nuclear power—has allowed us to alter and control the natural world. The myth also reminds us that these advances have come at a price: as a punishment for Prometheus' crime, the gods created Pandora, and they gave her a box filled with evils and curses. When Pandora's box was opened, it unleashed swarms of diseases and disasters upon humankind.\n\nC) Today we can no longer ignore the ecological curses that we have released in our search for warmth and comfort. In engineering and exploiting and transforming our habitat, we have opened tens of thousands of Pandora's boxes. In recent decades, environmental threats have expanded beyond regional boundaries to have global reach and, most hauntingly, are multiplying at a dizzying rate. On a regular basis, we are reminded that we are running out of time. Year after year, faster and faster, consumption outpaces the biological capacity of our planet. Stories of accelerated catastrophe multiply. We fear the breakdown of the electric grid, the end of non-renewable resources, the expansion of deserts, the loss of islands, and the pollution of our air and water.\n\nD) Acceleration is the signature of our time. Populations and economic activity grew slowly for much of human history. For thousands of years and well into early modern times, world economies saw no growth at all, but from around the mid-19th century and again, in particular, since the mid-20th, the real GDP has increased at an enormous speed, and so has human consumption. In the Middle Ages, households in Central Europe might have owned fewer than 30 objects on average; in 1900, this number had increased to 400, and in 2020 to 15,000. The acceleration of human production, consumption and travel has changed the animate and inanimate spheres. It has echoed through natural processes on which humans depend. Species extinction, deforestation, damming of rivers, occurrence of floods, the depletion of ozone, the degradation of ocean systems and many other areas are all experiencing acceleration. If represented graphically, the curve for all these changes looks rather like that well-known hockey stick: with little change over millennia(数千年) and a dramatic upswing over the past decades.\n\nE) Some of today's narratives about the future seem to suggest that we too, like Prometheus, will be saved by a new Hercules, a divine engineer, someone who will mastermind, manoeuvre and manipulate our planet. They suggest that geoengineering, cold fusion or faster-than-light spaceships might transcend once and for all the terrestrial constraints of rising temperatures, lack of energy, scarcity of food, lack of space, mountains of waste, polluted water—you name it.\n\nF) Yet, if we envisage our salvation to come from a deus ex machina(解围之神), from a divine engineer or a tech solutionist who will miraculously conjure up a new source of energy or another cure-all with revolutionary potency, we might be looking in the wrong place. The fact that we now imagine our planet as a whole does not mean that the 'rescue' of our planet will come with one big global stroke of genius and technology. It will more likely come by many small acts. Global heating and environmental degradation are not technological problems. They are highly political issues that are informed by powerful interests. Moreover, if history is a guide, then we can assume that any major transformations will once again be followed by a huge set of unintended consequences. So what do we do?\n\nG) This much is clear: we need to find ways that help us flatten the hockey-stick curves that reflect our ever-faster pace of ecological destruction and social acceleration. If we acknowledge that human manipulation of the Earth has been a destructive force, we can also imagine that human endeavours can help us build a less destructive world in the centuries to come. We might keep making mistakes. But we will also keep learning from our mistakes.\n\nH) To counter the fears of disaster, we need to identify stories, visions and actions that work quietly towards a more hopeful future. Instead of one big narrative, a story of unexpected rescue by a larger-than-life hero, we need multiple stories: we need stories, not only of what Rob Nixon of Princeton University has called the 'slow violence' of environmental degradation (that is, the damage that is often invisible at first and develops slowly and gradually), but also stories of what I call 'slow hope'.\n\nI) We need an acknowledgement of our present ecological plight but also a language of positive change, visions of a better future. In The Principle of Hope (1954-1959), Ernst Bloch, one of the leading philosophers of the future, wrote that 'the most tragic form of loss…is the loss of the capacity to imagine that things could be different'. We need to identify visions and paths that will help us imagine a different, more just and more ecological world. Hope, for Bloch, has its starting point in fear, in uncertainty, and in crisis: it is a creative force that goes hand in hand with utopian(乌托邦的) 'wishful images'. It can be found in cultural products of the past—in fairy tales, in fiction, in architecture, in music, in the movies—in products of the human mind that contain 'the outlines of a better world'. What makes us 'authentic' as humans are visions of our 'potential'. In other words: living in hope makes us human.\n\nJ) The power of small, grassroots movements to make changes that spread beyond their place of origin can be seen with the Slow Food movement, which began in Italy in the 1980s. The rise of fast-food restaurants after the Second World War produced a society full of cheap, industrially made foodstuffs. Under the leadership of Carlo Petrini, the Slow Food movement began in Piedmont, a region of Italy with a long history of poverty, violence and resistance to oppression. The movement transformed it into a region hospitable to traditional food cultures—based on native plants and breeds of animals. Today, Slow Food operates in more than 160 countries, poor and rich. It has given rise to thousands of projects around the globe, representing democratic politics, food sovereignty, biodiversity and sustainable agriculture.\n\nK) The unscrupulous(无所顾忌的) commodification of food and the destruction of foodstuffs will continue to devastate soils, livelihoods and ecologies. Slow Food cannot undo the irresistible developments of the global food economy, but it can upset its theorists, it can 'speak differently', and it can allow people and their local food traditions and environments to flourish. Even in the United States—the fast-food nation—small farms and urban gardens are on the rise. The US Department of Agriculture provides an Urban Agriculture Toolkit and, according to a recent report, American millennials(千禧一代) are changing their diets. In 2017, 6 per cent of US consumers claimed to be strictly vegetarian, up from 1 per cent in 2014. As more people realise that 'eating is an agricultural act', as the US poet and environmental activist Wendell Berry put it in 1989, slow hope advances.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 I 段。题干：According to one great thinker, it is most unfortunate if we lose the ability to think differently.\n核对该段原文：We need an acknowledgement of our present ecological plight but also a language of positive change, visions of a better future. In The Principle of Hope (1954-1959), Ernst Bloch, one of the leading philosophers of the future, wrote that 'the most tragic form of loss…is the loss of the capacity to imagine that things could be different'. We need to identify visions and paths that will help us imagine a different, more just and more ecological world. Hope, for Bloch, has its starting point in fear, in uncertainty, and in crisis: it is a creative force that goes hand in hand with utopian(乌托邦的) 'wishful images'. It can be found in cultural products of the past—in fairy tales, in fiction, in architecture, in music, in the movies—in products of the human mind that contain 'the outlines of a better world'. What makes us 'authentic' as humans are visions of our 'potential'. In other words: living in hope makes us human.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-2-nonlistening-q38",
+      "canonicalId": "lazynote-cet6-2020-12-2-q38",
+      "number": 38,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Urgent attention should be paid to the ecological problems we have created in our pursuit of a comfortable life.",
+      "passage": "Slow Hope\n\nA) Our world is full of—mostly untold—stories of slow hope, driven by the idea that change is possible. They are 'slow' in their unfolding, and they are slow because they come with setbacks.\n\nB) At the beginning of time—so goes the myth—humans suffered, shivering in the cold and dark until the titan(巨人) Prometheus stole fire from the gods. Just as in the myth, technology—first fire and stone tools, and later farming, the steam engine and industry, fossil fuels, chemicals and nuclear power—has allowed us to alter and control the natural world. The myth also reminds us that these advances have come at a price: as a punishment for Prometheus' crime, the gods created Pandora, and they gave her a box filled with evils and curses. When Pandora's box was opened, it unleashed swarms of diseases and disasters upon humankind.\n\nC) Today we can no longer ignore the ecological curses that we have released in our search for warmth and comfort. In engineering and exploiting and transforming our habitat, we have opened tens of thousands of Pandora's boxes. In recent decades, environmental threats have expanded beyond regional boundaries to have global reach and, most hauntingly, are multiplying at a dizzying rate. On a regular basis, we are reminded that we are running out of time. Year after year, faster and faster, consumption outpaces the biological capacity of our planet. Stories of accelerated catastrophe multiply. We fear the breakdown of the electric grid, the end of non-renewable resources, the expansion of deserts, the loss of islands, and the pollution of our air and water.\n\nD) Acceleration is the signature of our time. Populations and economic activity grew slowly for much of human history. For thousands of years and well into early modern times, world economies saw no growth at all, but from around the mid-19th century and again, in particular, since the mid-20th, the real GDP has increased at an enormous speed, and so has human consumption. In the Middle Ages, households in Central Europe might have owned fewer than 30 objects on average; in 1900, this number had increased to 400, and in 2020 to 15,000. The acceleration of human production, consumption and travel has changed the animate and inanimate spheres. It has echoed through natural processes on which humans depend. Species extinction, deforestation, damming of rivers, occurrence of floods, the depletion of ozone, the degradation of ocean systems and many other areas are all experiencing acceleration. If represented graphically, the curve for all these changes looks rather like that well-known hockey stick: with little change over millennia(数千年) and a dramatic upswing over the past decades.\n\nE) Some of today's narratives about the future seem to suggest that we too, like Prometheus, will be saved by a new Hercules, a divine engineer, someone who will mastermind, manoeuvre and manipulate our planet. They suggest that geoengineering, cold fusion or faster-than-light spaceships might transcend once and for all the terrestrial constraints of rising temperatures, lack of energy, scarcity of food, lack of space, mountains of waste, polluted water—you name it.\n\nF) Yet, if we envisage our salvation to come from a deus ex machina(解围之神), from a divine engineer or a tech solutionist who will miraculously conjure up a new source of energy or another cure-all with revolutionary potency, we might be looking in the wrong place. The fact that we now imagine our planet as a whole does not mean that the 'rescue' of our planet will come with one big global stroke of genius and technology. It will more likely come by many small acts. Global heating and environmental degradation are not technological problems. They are highly political issues that are informed by powerful interests. Moreover, if history is a guide, then we can assume that any major transformations will once again be followed by a huge set of unintended consequences. So what do we do?\n\nG) This much is clear: we need to find ways that help us flatten the hockey-stick curves that reflect our ever-faster pace of ecological destruction and social acceleration. If we acknowledge that human manipulation of the Earth has been a destructive force, we can also imagine that human endeavours can help us build a less destructive world in the centuries to come. We might keep making mistakes. But we will also keep learning from our mistakes.\n\nH) To counter the fears of disaster, we need to identify stories, visions and actions that work quietly towards a more hopeful future. Instead of one big narrative, a story of unexpected rescue by a larger-than-life hero, we need multiple stories: we need stories, not only of what Rob Nixon of Princeton University has called the 'slow violence' of environmental degradation (that is, the damage that is often invisible at first and develops slowly and gradually), but also stories of what I call 'slow hope'.\n\nI) We need an acknowledgement of our present ecological plight but also a language of positive change, visions of a better future. In The Principle of Hope (1954-1959), Ernst Bloch, one of the leading philosophers of the future, wrote that 'the most tragic form of loss…is the loss of the capacity to imagine that things could be different'. We need to identify visions and paths that will help us imagine a different, more just and more ecological world. Hope, for Bloch, has its starting point in fear, in uncertainty, and in crisis: it is a creative force that goes hand in hand with utopian(乌托邦的) 'wishful images'. It can be found in cultural products of the past—in fairy tales, in fiction, in architecture, in music, in the movies—in products of the human mind that contain 'the outlines of a better world'. What makes us 'authentic' as humans are visions of our 'potential'. In other words: living in hope makes us human.\n\nJ) The power of small, grassroots movements to make changes that spread beyond their place of origin can be seen with the Slow Food movement, which began in Italy in the 1980s. The rise of fast-food restaurants after the Second World War produced a society full of cheap, industrially made foodstuffs. Under the leadership of Carlo Petrini, the Slow Food movement began in Piedmont, a region of Italy with a long history of poverty, violence and resistance to oppression. The movement transformed it into a region hospitable to traditional food cultures—based on native plants and breeds of animals. Today, Slow Food operates in more than 160 countries, poor and rich. It has given rise to thousands of projects around the globe, representing democratic politics, food sovereignty, biodiversity and sustainable agriculture.\n\nK) The unscrupulous(无所顾忌的) commodification of food and the destruction of foodstuffs will continue to devastate soils, livelihoods and ecologies. Slow Food cannot undo the irresistible developments of the global food economy, but it can upset its theorists, it can 'speak differently', and it can allow people and their local food traditions and environments to flourish. Even in the United States—the fast-food nation—small farms and urban gardens are on the rise. The US Department of Agriculture provides an Urban Agriculture Toolkit and, according to a recent report, American millennials(千禧一代) are changing their diets. In 2017, 6 per cent of US consumers claimed to be strictly vegetarian, up from 1 per cent in 2014. As more people realise that 'eating is an agricultural act', as the US poet and environmental activist Wendell Berry put it in 1989, slow hope advances.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 C 段。题干：Urgent attention should be paid to the ecological problems we have created in our pursuit of a comfortable life.\n核对该段原文：Today we can no longer ignore the ecological curses that we have released in our search for warmth and comfort. In engineering and exploiting and transforming our habitat, we have opened tens of thousands of Pandora's boxes. In recent decades, environmental threats have expanded beyond regional boundaries to have global reach and, most hauntingly, are multiplying at a dizzying rate. On a regular basis, we are reminded that we are running out of time. Year after year, faster and faster, consumption outpaces the biological capacity of our planet. Stories of accelerated catastrophe multiply. We fear the breakdown of the electric grid, the end of non-renewable resources, the expansion of deserts, the loss of islands, and the pollution of our air and water.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-2-nonlistening-q39",
+      "canonicalId": "lazynote-cet6-2020-12-2-q39",
+      "number": 39,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Even in the fast-food nation America, the number of vegetarians is on the rise.",
+      "passage": "Slow Hope\n\nA) Our world is full of—mostly untold—stories of slow hope, driven by the idea that change is possible. They are 'slow' in their unfolding, and they are slow because they come with setbacks.\n\nB) At the beginning of time—so goes the myth—humans suffered, shivering in the cold and dark until the titan(巨人) Prometheus stole fire from the gods. Just as in the myth, technology—first fire and stone tools, and later farming, the steam engine and industry, fossil fuels, chemicals and nuclear power—has allowed us to alter and control the natural world. The myth also reminds us that these advances have come at a price: as a punishment for Prometheus' crime, the gods created Pandora, and they gave her a box filled with evils and curses. When Pandora's box was opened, it unleashed swarms of diseases and disasters upon humankind.\n\nC) Today we can no longer ignore the ecological curses that we have released in our search for warmth and comfort. In engineering and exploiting and transforming our habitat, we have opened tens of thousands of Pandora's boxes. In recent decades, environmental threats have expanded beyond regional boundaries to have global reach and, most hauntingly, are multiplying at a dizzying rate. On a regular basis, we are reminded that we are running out of time. Year after year, faster and faster, consumption outpaces the biological capacity of our planet. Stories of accelerated catastrophe multiply. We fear the breakdown of the electric grid, the end of non-renewable resources, the expansion of deserts, the loss of islands, and the pollution of our air and water.\n\nD) Acceleration is the signature of our time. Populations and economic activity grew slowly for much of human history. For thousands of years and well into early modern times, world economies saw no growth at all, but from around the mid-19th century and again, in particular, since the mid-20th, the real GDP has increased at an enormous speed, and so has human consumption. In the Middle Ages, households in Central Europe might have owned fewer than 30 objects on average; in 1900, this number had increased to 400, and in 2020 to 15,000. The acceleration of human production, consumption and travel has changed the animate and inanimate spheres. It has echoed through natural processes on which humans depend. Species extinction, deforestation, damming of rivers, occurrence of floods, the depletion of ozone, the degradation of ocean systems and many other areas are all experiencing acceleration. If represented graphically, the curve for all these changes looks rather like that well-known hockey stick: with little change over millennia(数千年) and a dramatic upswing over the past decades.\n\nE) Some of today's narratives about the future seem to suggest that we too, like Prometheus, will be saved by a new Hercules, a divine engineer, someone who will mastermind, manoeuvre and manipulate our planet. They suggest that geoengineering, cold fusion or faster-than-light spaceships might transcend once and for all the terrestrial constraints of rising temperatures, lack of energy, scarcity of food, lack of space, mountains of waste, polluted water—you name it.\n\nF) Yet, if we envisage our salvation to come from a deus ex machina(解围之神), from a divine engineer or a tech solutionist who will miraculously conjure up a new source of energy or another cure-all with revolutionary potency, we might be looking in the wrong place. The fact that we now imagine our planet as a whole does not mean that the 'rescue' of our planet will come with one big global stroke of genius and technology. It will more likely come by many small acts. Global heating and environmental degradation are not technological problems. They are highly political issues that are informed by powerful interests. Moreover, if history is a guide, then we can assume that any major transformations will once again be followed by a huge set of unintended consequences. So what do we do?\n\nG) This much is clear: we need to find ways that help us flatten the hockey-stick curves that reflect our ever-faster pace of ecological destruction and social acceleration. If we acknowledge that human manipulation of the Earth has been a destructive force, we can also imagine that human endeavours can help us build a less destructive world in the centuries to come. We might keep making mistakes. But we will also keep learning from our mistakes.\n\nH) To counter the fears of disaster, we need to identify stories, visions and actions that work quietly towards a more hopeful future. Instead of one big narrative, a story of unexpected rescue by a larger-than-life hero, we need multiple stories: we need stories, not only of what Rob Nixon of Princeton University has called the 'slow violence' of environmental degradation (that is, the damage that is often invisible at first and develops slowly and gradually), but also stories of what I call 'slow hope'.\n\nI) We need an acknowledgement of our present ecological plight but also a language of positive change, visions of a better future. In The Principle of Hope (1954-1959), Ernst Bloch, one of the leading philosophers of the future, wrote that 'the most tragic form of loss…is the loss of the capacity to imagine that things could be different'. We need to identify visions and paths that will help us imagine a different, more just and more ecological world. Hope, for Bloch, has its starting point in fear, in uncertainty, and in crisis: it is a creative force that goes hand in hand with utopian(乌托邦的) 'wishful images'. It can be found in cultural products of the past—in fairy tales, in fiction, in architecture, in music, in the movies—in products of the human mind that contain 'the outlines of a better world'. What makes us 'authentic' as humans are visions of our 'potential'. In other words: living in hope makes us human.\n\nJ) The power of small, grassroots movements to make changes that spread beyond their place of origin can be seen with the Slow Food movement, which began in Italy in the 1980s. The rise of fast-food restaurants after the Second World War produced a society full of cheap, industrially made foodstuffs. Under the leadership of Carlo Petrini, the Slow Food movement began in Piedmont, a region of Italy with a long history of poverty, violence and resistance to oppression. The movement transformed it into a region hospitable to traditional food cultures—based on native plants and breeds of animals. Today, Slow Food operates in more than 160 countries, poor and rich. It has given rise to thousands of projects around the globe, representing democratic politics, food sovereignty, biodiversity and sustainable agriculture.\n\nK) The unscrupulous(无所顾忌的) commodification of food and the destruction of foodstuffs will continue to devastate soils, livelihoods and ecologies. Slow Food cannot undo the irresistible developments of the global food economy, but it can upset its theorists, it can 'speak differently', and it can allow people and their local food traditions and environments to flourish. Even in the United States—the fast-food nation—small farms and urban gardens are on the rise. The US Department of Agriculture provides an Urban Agriculture Toolkit and, according to a recent report, American millennials(千禧一代) are changing their diets. In 2017, 6 per cent of US consumers claimed to be strictly vegetarian, up from 1 per cent in 2014. As more people realise that 'eating is an agricultural act', as the US poet and environmental activist Wendell Berry put it in 1989, slow hope advances.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 K 段。题干：Even in the fast-food nation America, the number of vegetarians is on the rise.\n核对该段原文：The unscrupulous(无所顾忌的) commodification of food and the destruction of foodstuffs will continue to devastate soils, livelihoods and ecologies. Slow Food cannot undo the irresistible developments of the global food economy, but it can upset its theorists, it can 'speak differently', and it can allow people and their local food traditions and environments to flourish. Even in the United States—the fast-food nation—small farms and urban gardens are on the rise. The US Department of Agriculture provides an Urban Agriculture Toolkit and, according to a recent report, American millennials(千禧一代) are changing their diets. In 2017, 6 per cent of US consumers claimed to be strictly vegetarian, up from 1 per cent in 2014. As more people realise that 'eating is an agricultural act', as the US poet and environmental activist Wendell Berry put it in 1989, slow hope advances.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-2-nonlistening-q40",
+      "canonicalId": "lazynote-cet6-2020-12-2-q40",
+      "number": 40,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The deterioration of the ecological system is accelerating because of the dramatic increase of human production and consumption.",
+      "passage": "Slow Hope\n\nA) Our world is full of—mostly untold—stories of slow hope, driven by the idea that change is possible. They are 'slow' in their unfolding, and they are slow because they come with setbacks.\n\nB) At the beginning of time—so goes the myth—humans suffered, shivering in the cold and dark until the titan(巨人) Prometheus stole fire from the gods. Just as in the myth, technology—first fire and stone tools, and later farming, the steam engine and industry, fossil fuels, chemicals and nuclear power—has allowed us to alter and control the natural world. The myth also reminds us that these advances have come at a price: as a punishment for Prometheus' crime, the gods created Pandora, and they gave her a box filled with evils and curses. When Pandora's box was opened, it unleashed swarms of diseases and disasters upon humankind.\n\nC) Today we can no longer ignore the ecological curses that we have released in our search for warmth and comfort. In engineering and exploiting and transforming our habitat, we have opened tens of thousands of Pandora's boxes. In recent decades, environmental threats have expanded beyond regional boundaries to have global reach and, most hauntingly, are multiplying at a dizzying rate. On a regular basis, we are reminded that we are running out of time. Year after year, faster and faster, consumption outpaces the biological capacity of our planet. Stories of accelerated catastrophe multiply. We fear the breakdown of the electric grid, the end of non-renewable resources, the expansion of deserts, the loss of islands, and the pollution of our air and water.\n\nD) Acceleration is the signature of our time. Populations and economic activity grew slowly for much of human history. For thousands of years and well into early modern times, world economies saw no growth at all, but from around the mid-19th century and again, in particular, since the mid-20th, the real GDP has increased at an enormous speed, and so has human consumption. In the Middle Ages, households in Central Europe might have owned fewer than 30 objects on average; in 1900, this number had increased to 400, and in 2020 to 15,000. The acceleration of human production, consumption and travel has changed the animate and inanimate spheres. It has echoed through natural processes on which humans depend. Species extinction, deforestation, damming of rivers, occurrence of floods, the depletion of ozone, the degradation of ocean systems and many other areas are all experiencing acceleration. If represented graphically, the curve for all these changes looks rather like that well-known hockey stick: with little change over millennia(数千年) and a dramatic upswing over the past decades.\n\nE) Some of today's narratives about the future seem to suggest that we too, like Prometheus, will be saved by a new Hercules, a divine engineer, someone who will mastermind, manoeuvre and manipulate our planet. They suggest that geoengineering, cold fusion or faster-than-light spaceships might transcend once and for all the terrestrial constraints of rising temperatures, lack of energy, scarcity of food, lack of space, mountains of waste, polluted water—you name it.\n\nF) Yet, if we envisage our salvation to come from a deus ex machina(解围之神), from a divine engineer or a tech solutionist who will miraculously conjure up a new source of energy or another cure-all with revolutionary potency, we might be looking in the wrong place. The fact that we now imagine our planet as a whole does not mean that the 'rescue' of our planet will come with one big global stroke of genius and technology. It will more likely come by many small acts. Global heating and environmental degradation are not technological problems. They are highly political issues that are informed by powerful interests. Moreover, if history is a guide, then we can assume that any major transformations will once again be followed by a huge set of unintended consequences. So what do we do?\n\nG) This much is clear: we need to find ways that help us flatten the hockey-stick curves that reflect our ever-faster pace of ecological destruction and social acceleration. If we acknowledge that human manipulation of the Earth has been a destructive force, we can also imagine that human endeavours can help us build a less destructive world in the centuries to come. We might keep making mistakes. But we will also keep learning from our mistakes.\n\nH) To counter the fears of disaster, we need to identify stories, visions and actions that work quietly towards a more hopeful future. Instead of one big narrative, a story of unexpected rescue by a larger-than-life hero, we need multiple stories: we need stories, not only of what Rob Nixon of Princeton University has called the 'slow violence' of environmental degradation (that is, the damage that is often invisible at first and develops slowly and gradually), but also stories of what I call 'slow hope'.\n\nI) We need an acknowledgement of our present ecological plight but also a language of positive change, visions of a better future. In The Principle of Hope (1954-1959), Ernst Bloch, one of the leading philosophers of the future, wrote that 'the most tragic form of loss…is the loss of the capacity to imagine that things could be different'. We need to identify visions and paths that will help us imagine a different, more just and more ecological world. Hope, for Bloch, has its starting point in fear, in uncertainty, and in crisis: it is a creative force that goes hand in hand with utopian(乌托邦的) 'wishful images'. It can be found in cultural products of the past—in fairy tales, in fiction, in architecture, in music, in the movies—in products of the human mind that contain 'the outlines of a better world'. What makes us 'authentic' as humans are visions of our 'potential'. In other words: living in hope makes us human.\n\nJ) The power of small, grassroots movements to make changes that spread beyond their place of origin can be seen with the Slow Food movement, which began in Italy in the 1980s. The rise of fast-food restaurants after the Second World War produced a society full of cheap, industrially made foodstuffs. Under the leadership of Carlo Petrini, the Slow Food movement began in Piedmont, a region of Italy with a long history of poverty, violence and resistance to oppression. The movement transformed it into a region hospitable to traditional food cultures—based on native plants and breeds of animals. Today, Slow Food operates in more than 160 countries, poor and rich. It has given rise to thousands of projects around the globe, representing democratic politics, food sovereignty, biodiversity and sustainable agriculture.\n\nK) The unscrupulous(无所顾忌的) commodification of food and the destruction of foodstuffs will continue to devastate soils, livelihoods and ecologies. Slow Food cannot undo the irresistible developments of the global food economy, but it can upset its theorists, it can 'speak differently', and it can allow people and their local food traditions and environments to flourish. Even in the United States—the fast-food nation—small farms and urban gardens are on the rise. The US Department of Agriculture provides an Urban Agriculture Toolkit and, according to a recent report, American millennials(千禧一代) are changing their diets. In 2017, 6 per cent of US consumers claimed to be strictly vegetarian, up from 1 per cent in 2014. As more people realise that 'eating is an agricultural act', as the US poet and environmental activist Wendell Berry put it in 1989, slow hope advances.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 D 段。题干：The deterioration of the ecological system is accelerating because of the dramatic increase of human production and consumption.\n核对该段原文：Acceleration is the signature of our time. Populations and economic activity grew slowly for much of human history. For thousands of years and well into early modern times, world economies saw no growth at all, but from around the mid-19th century and again, in particular, since the mid-20th, the real GDP has increased at an enormous speed, and so has human consumption. In the Middle Ages, households in Central Europe might have owned fewer than 30 objects on average; in 1900, this number had increased to 400, and in 2020 to 15,000. The acceleration of human production, consumption and travel has changed the animate and inanimate spheres. It has echoed through natural processes on which humans depend. Species extinction, deforestation, damming of rivers, occurrence of floods, the depletion of ozone, the degradation of ocean systems and many other areas are all experiencing acceleration. If represented graphically, the curve for all these changes looks rather like that well-known hockey stick: with little change over millennia(数千年) and a dramatic upswing over the past decades.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-2-nonlistening-q41",
+      "canonicalId": "lazynote-cet6-2020-12-2-q41",
+      "number": 41,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "It is obvious that solutions must be found to curb the fast worsening environment and social acceleration.",
+      "passage": "Slow Hope\n\nA) Our world is full of—mostly untold—stories of slow hope, driven by the idea that change is possible. They are 'slow' in their unfolding, and they are slow because they come with setbacks.\n\nB) At the beginning of time—so goes the myth—humans suffered, shivering in the cold and dark until the titan(巨人) Prometheus stole fire from the gods. Just as in the myth, technology—first fire and stone tools, and later farming, the steam engine and industry, fossil fuels, chemicals and nuclear power—has allowed us to alter and control the natural world. The myth also reminds us that these advances have come at a price: as a punishment for Prometheus' crime, the gods created Pandora, and they gave her a box filled with evils and curses. When Pandora's box was opened, it unleashed swarms of diseases and disasters upon humankind.\n\nC) Today we can no longer ignore the ecological curses that we have released in our search for warmth and comfort. In engineering and exploiting and transforming our habitat, we have opened tens of thousands of Pandora's boxes. In recent decades, environmental threats have expanded beyond regional boundaries to have global reach and, most hauntingly, are multiplying at a dizzying rate. On a regular basis, we are reminded that we are running out of time. Year after year, faster and faster, consumption outpaces the biological capacity of our planet. Stories of accelerated catastrophe multiply. We fear the breakdown of the electric grid, the end of non-renewable resources, the expansion of deserts, the loss of islands, and the pollution of our air and water.\n\nD) Acceleration is the signature of our time. Populations and economic activity grew slowly for much of human history. For thousands of years and well into early modern times, world economies saw no growth at all, but from around the mid-19th century and again, in particular, since the mid-20th, the real GDP has increased at an enormous speed, and so has human consumption. In the Middle Ages, households in Central Europe might have owned fewer than 30 objects on average; in 1900, this number had increased to 400, and in 2020 to 15,000. The acceleration of human production, consumption and travel has changed the animate and inanimate spheres. It has echoed through natural processes on which humans depend. Species extinction, deforestation, damming of rivers, occurrence of floods, the depletion of ozone, the degradation of ocean systems and many other areas are all experiencing acceleration. If represented graphically, the curve for all these changes looks rather like that well-known hockey stick: with little change over millennia(数千年) and a dramatic upswing over the past decades.\n\nE) Some of today's narratives about the future seem to suggest that we too, like Prometheus, will be saved by a new Hercules, a divine engineer, someone who will mastermind, manoeuvre and manipulate our planet. They suggest that geoengineering, cold fusion or faster-than-light spaceships might transcend once and for all the terrestrial constraints of rising temperatures, lack of energy, scarcity of food, lack of space, mountains of waste, polluted water—you name it.\n\nF) Yet, if we envisage our salvation to come from a deus ex machina(解围之神), from a divine engineer or a tech solutionist who will miraculously conjure up a new source of energy or another cure-all with revolutionary potency, we might be looking in the wrong place. The fact that we now imagine our planet as a whole does not mean that the 'rescue' of our planet will come with one big global stroke of genius and technology. It will more likely come by many small acts. Global heating and environmental degradation are not technological problems. They are highly political issues that are informed by powerful interests. Moreover, if history is a guide, then we can assume that any major transformations will once again be followed by a huge set of unintended consequences. So what do we do?\n\nG) This much is clear: we need to find ways that help us flatten the hockey-stick curves that reflect our ever-faster pace of ecological destruction and social acceleration. If we acknowledge that human manipulation of the Earth has been a destructive force, we can also imagine that human endeavours can help us build a less destructive world in the centuries to come. We might keep making mistakes. But we will also keep learning from our mistakes.\n\nH) To counter the fears of disaster, we need to identify stories, visions and actions that work quietly towards a more hopeful future. Instead of one big narrative, a story of unexpected rescue by a larger-than-life hero, we need multiple stories: we need stories, not only of what Rob Nixon of Princeton University has called the 'slow violence' of environmental degradation (that is, the damage that is often invisible at first and develops slowly and gradually), but also stories of what I call 'slow hope'.\n\nI) We need an acknowledgement of our present ecological plight but also a language of positive change, visions of a better future. In The Principle of Hope (1954-1959), Ernst Bloch, one of the leading philosophers of the future, wrote that 'the most tragic form of loss…is the loss of the capacity to imagine that things could be different'. We need to identify visions and paths that will help us imagine a different, more just and more ecological world. Hope, for Bloch, has its starting point in fear, in uncertainty, and in crisis: it is a creative force that goes hand in hand with utopian(乌托邦的) 'wishful images'. It can be found in cultural products of the past—in fairy tales, in fiction, in architecture, in music, in the movies—in products of the human mind that contain 'the outlines of a better world'. What makes us 'authentic' as humans are visions of our 'potential'. In other words: living in hope makes us human.\n\nJ) The power of small, grassroots movements to make changes that spread beyond their place of origin can be seen with the Slow Food movement, which began in Italy in the 1980s. The rise of fast-food restaurants after the Second World War produced a society full of cheap, industrially made foodstuffs. Under the leadership of Carlo Petrini, the Slow Food movement began in Piedmont, a region of Italy with a long history of poverty, violence and resistance to oppression. The movement transformed it into a region hospitable to traditional food cultures—based on native plants and breeds of animals. Today, Slow Food operates in more than 160 countries, poor and rich. It has given rise to thousands of projects around the globe, representing democratic politics, food sovereignty, biodiversity and sustainable agriculture.\n\nK) The unscrupulous(无所顾忌的) commodification of food and the destruction of foodstuffs will continue to devastate soils, livelihoods and ecologies. Slow Food cannot undo the irresistible developments of the global food economy, but it can upset its theorists, it can 'speak differently', and it can allow people and their local food traditions and environments to flourish. Even in the United States—the fast-food nation—small farms and urban gardens are on the rise. The US Department of Agriculture provides an Urban Agriculture Toolkit and, according to a recent report, American millennials(千禧一代) are changing their diets. In 2017, 6 per cent of US consumers claimed to be strictly vegetarian, up from 1 per cent in 2014. As more people realise that 'eating is an agricultural act', as the US poet and environmental activist Wendell Berry put it in 1989, slow hope advances.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 G 段。题干：It is obvious that solutions must be found to curb the fast worsening environment and social acceleration.\n核对该段原文：This much is clear: we need to find ways that help us flatten the hockey-stick curves that reflect our ever-faster pace of ecological destruction and social acceleration. If we acknowledge that human manipulation of the Earth has been a destructive force, we can also imagine that human endeavours can help us build a less destructive world in the centuries to come. We might keep making mistakes. But we will also keep learning from our mistakes.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-2-nonlistening-q42",
+      "canonicalId": "lazynote-cet6-2020-12-2-q42",
+      "number": 42,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Many people believe changing the world is possible, though it may take time and involve setbacks.",
+      "passage": "Slow Hope\n\nA) Our world is full of—mostly untold—stories of slow hope, driven by the idea that change is possible. They are 'slow' in their unfolding, and they are slow because they come with setbacks.\n\nB) At the beginning of time—so goes the myth—humans suffered, shivering in the cold and dark until the titan(巨人) Prometheus stole fire from the gods. Just as in the myth, technology—first fire and stone tools, and later farming, the steam engine and industry, fossil fuels, chemicals and nuclear power—has allowed us to alter and control the natural world. The myth also reminds us that these advances have come at a price: as a punishment for Prometheus' crime, the gods created Pandora, and they gave her a box filled with evils and curses. When Pandora's box was opened, it unleashed swarms of diseases and disasters upon humankind.\n\nC) Today we can no longer ignore the ecological curses that we have released in our search for warmth and comfort. In engineering and exploiting and transforming our habitat, we have opened tens of thousands of Pandora's boxes. In recent decades, environmental threats have expanded beyond regional boundaries to have global reach and, most hauntingly, are multiplying at a dizzying rate. On a regular basis, we are reminded that we are running out of time. Year after year, faster and faster, consumption outpaces the biological capacity of our planet. Stories of accelerated catastrophe multiply. We fear the breakdown of the electric grid, the end of non-renewable resources, the expansion of deserts, the loss of islands, and the pollution of our air and water.\n\nD) Acceleration is the signature of our time. Populations and economic activity grew slowly for much of human history. For thousands of years and well into early modern times, world economies saw no growth at all, but from around the mid-19th century and again, in particular, since the mid-20th, the real GDP has increased at an enormous speed, and so has human consumption. In the Middle Ages, households in Central Europe might have owned fewer than 30 objects on average; in 1900, this number had increased to 400, and in 2020 to 15,000. The acceleration of human production, consumption and travel has changed the animate and inanimate spheres. It has echoed through natural processes on which humans depend. Species extinction, deforestation, damming of rivers, occurrence of floods, the depletion of ozone, the degradation of ocean systems and many other areas are all experiencing acceleration. If represented graphically, the curve for all these changes looks rather like that well-known hockey stick: with little change over millennia(数千年) and a dramatic upswing over the past decades.\n\nE) Some of today's narratives about the future seem to suggest that we too, like Prometheus, will be saved by a new Hercules, a divine engineer, someone who will mastermind, manoeuvre and manipulate our planet. They suggest that geoengineering, cold fusion or faster-than-light spaceships might transcend once and for all the terrestrial constraints of rising temperatures, lack of energy, scarcity of food, lack of space, mountains of waste, polluted water—you name it.\n\nF) Yet, if we envisage our salvation to come from a deus ex machina(解围之神), from a divine engineer or a tech solutionist who will miraculously conjure up a new source of energy or another cure-all with revolutionary potency, we might be looking in the wrong place. The fact that we now imagine our planet as a whole does not mean that the 'rescue' of our planet will come with one big global stroke of genius and technology. It will more likely come by many small acts. Global heating and environmental degradation are not technological problems. They are highly political issues that are informed by powerful interests. Moreover, if history is a guide, then we can assume that any major transformations will once again be followed by a huge set of unintended consequences. So what do we do?\n\nG) This much is clear: we need to find ways that help us flatten the hockey-stick curves that reflect our ever-faster pace of ecological destruction and social acceleration. If we acknowledge that human manipulation of the Earth has been a destructive force, we can also imagine that human endeavours can help us build a less destructive world in the centuries to come. We might keep making mistakes. But we will also keep learning from our mistakes.\n\nH) To counter the fears of disaster, we need to identify stories, visions and actions that work quietly towards a more hopeful future. Instead of one big narrative, a story of unexpected rescue by a larger-than-life hero, we need multiple stories: we need stories, not only of what Rob Nixon of Princeton University has called the 'slow violence' of environmental degradation (that is, the damage that is often invisible at first and develops slowly and gradually), but also stories of what I call 'slow hope'.\n\nI) We need an acknowledgement of our present ecological plight but also a language of positive change, visions of a better future. In The Principle of Hope (1954-1959), Ernst Bloch, one of the leading philosophers of the future, wrote that 'the most tragic form of loss…is the loss of the capacity to imagine that things could be different'. We need to identify visions and paths that will help us imagine a different, more just and more ecological world. Hope, for Bloch, has its starting point in fear, in uncertainty, and in crisis: it is a creative force that goes hand in hand with utopian(乌托邦的) 'wishful images'. It can be found in cultural products of the past—in fairy tales, in fiction, in architecture, in music, in the movies—in products of the human mind that contain 'the outlines of a better world'. What makes us 'authentic' as humans are visions of our 'potential'. In other words: living in hope makes us human.\n\nJ) The power of small, grassroots movements to make changes that spread beyond their place of origin can be seen with the Slow Food movement, which began in Italy in the 1980s. The rise of fast-food restaurants after the Second World War produced a society full of cheap, industrially made foodstuffs. Under the leadership of Carlo Petrini, the Slow Food movement began in Piedmont, a region of Italy with a long history of poverty, violence and resistance to oppression. The movement transformed it into a region hospitable to traditional food cultures—based on native plants and breeds of animals. Today, Slow Food operates in more than 160 countries, poor and rich. It has given rise to thousands of projects around the globe, representing democratic politics, food sovereignty, biodiversity and sustainable agriculture.\n\nK) The unscrupulous(无所顾忌的) commodification of food and the destruction of foodstuffs will continue to devastate soils, livelihoods and ecologies. Slow Food cannot undo the irresistible developments of the global food economy, but it can upset its theorists, it can 'speak differently', and it can allow people and their local food traditions and environments to flourish. Even in the United States—the fast-food nation—small farms and urban gardens are on the rise. The US Department of Agriculture provides an Urban Agriculture Toolkit and, according to a recent report, American millennials(千禧一代) are changing their diets. In 2017, 6 per cent of US consumers claimed to be strictly vegetarian, up from 1 per cent in 2014. As more people realise that 'eating is an agricultural act', as the US poet and environmental activist Wendell Berry put it in 1989, slow hope advances.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 A 段。题干：Many people believe changing the world is possible, though it may take time and involve setbacks.\n核对该段原文：Our world is full of—mostly untold—stories of slow hope, driven by the idea that change is possible. They are 'slow' in their unfolding, and they are slow because they come with setbacks.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-2-nonlistening-q43",
+      "canonicalId": "lazynote-cet6-2020-12-2-q43",
+      "number": 43,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "It might be wrong to expect that our world would be saved at one stroke with some miraculous technology.",
+      "passage": "Slow Hope\n\nA) Our world is full of—mostly untold—stories of slow hope, driven by the idea that change is possible. They are 'slow' in their unfolding, and they are slow because they come with setbacks.\n\nB) At the beginning of time—so goes the myth—humans suffered, shivering in the cold and dark until the titan(巨人) Prometheus stole fire from the gods. Just as in the myth, technology—first fire and stone tools, and later farming, the steam engine and industry, fossil fuels, chemicals and nuclear power—has allowed us to alter and control the natural world. The myth also reminds us that these advances have come at a price: as a punishment for Prometheus' crime, the gods created Pandora, and they gave her a box filled with evils and curses. When Pandora's box was opened, it unleashed swarms of diseases and disasters upon humankind.\n\nC) Today we can no longer ignore the ecological curses that we have released in our search for warmth and comfort. In engineering and exploiting and transforming our habitat, we have opened tens of thousands of Pandora's boxes. In recent decades, environmental threats have expanded beyond regional boundaries to have global reach and, most hauntingly, are multiplying at a dizzying rate. On a regular basis, we are reminded that we are running out of time. Year after year, faster and faster, consumption outpaces the biological capacity of our planet. Stories of accelerated catastrophe multiply. We fear the breakdown of the electric grid, the end of non-renewable resources, the expansion of deserts, the loss of islands, and the pollution of our air and water.\n\nD) Acceleration is the signature of our time. Populations and economic activity grew slowly for much of human history. For thousands of years and well into early modern times, world economies saw no growth at all, but from around the mid-19th century and again, in particular, since the mid-20th, the real GDP has increased at an enormous speed, and so has human consumption. In the Middle Ages, households in Central Europe might have owned fewer than 30 objects on average; in 1900, this number had increased to 400, and in 2020 to 15,000. The acceleration of human production, consumption and travel has changed the animate and inanimate spheres. It has echoed through natural processes on which humans depend. Species extinction, deforestation, damming of rivers, occurrence of floods, the depletion of ozone, the degradation of ocean systems and many other areas are all experiencing acceleration. If represented graphically, the curve for all these changes looks rather like that well-known hockey stick: with little change over millennia(数千年) and a dramatic upswing over the past decades.\n\nE) Some of today's narratives about the future seem to suggest that we too, like Prometheus, will be saved by a new Hercules, a divine engineer, someone who will mastermind, manoeuvre and manipulate our planet. They suggest that geoengineering, cold fusion or faster-than-light spaceships might transcend once and for all the terrestrial constraints of rising temperatures, lack of energy, scarcity of food, lack of space, mountains of waste, polluted water—you name it.\n\nF) Yet, if we envisage our salvation to come from a deus ex machina(解围之神), from a divine engineer or a tech solutionist who will miraculously conjure up a new source of energy or another cure-all with revolutionary potency, we might be looking in the wrong place. The fact that we now imagine our planet as a whole does not mean that the 'rescue' of our planet will come with one big global stroke of genius and technology. It will more likely come by many small acts. Global heating and environmental degradation are not technological problems. They are highly political issues that are informed by powerful interests. Moreover, if history is a guide, then we can assume that any major transformations will once again be followed by a huge set of unintended consequences. So what do we do?\n\nG) This much is clear: we need to find ways that help us flatten the hockey-stick curves that reflect our ever-faster pace of ecological destruction and social acceleration. If we acknowledge that human manipulation of the Earth has been a destructive force, we can also imagine that human endeavours can help us build a less destructive world in the centuries to come. We might keep making mistakes. But we will also keep learning from our mistakes.\n\nH) To counter the fears of disaster, we need to identify stories, visions and actions that work quietly towards a more hopeful future. Instead of one big narrative, a story of unexpected rescue by a larger-than-life hero, we need multiple stories: we need stories, not only of what Rob Nixon of Princeton University has called the 'slow violence' of environmental degradation (that is, the damage that is often invisible at first and develops slowly and gradually), but also stories of what I call 'slow hope'.\n\nI) We need an acknowledgement of our present ecological plight but also a language of positive change, visions of a better future. In The Principle of Hope (1954-1959), Ernst Bloch, one of the leading philosophers of the future, wrote that 'the most tragic form of loss…is the loss of the capacity to imagine that things could be different'. We need to identify visions and paths that will help us imagine a different, more just and more ecological world. Hope, for Bloch, has its starting point in fear, in uncertainty, and in crisis: it is a creative force that goes hand in hand with utopian(乌托邦的) 'wishful images'. It can be found in cultural products of the past—in fairy tales, in fiction, in architecture, in music, in the movies—in products of the human mind that contain 'the outlines of a better world'. What makes us 'authentic' as humans are visions of our 'potential'. In other words: living in hope makes us human.\n\nJ) The power of small, grassroots movements to make changes that spread beyond their place of origin can be seen with the Slow Food movement, which began in Italy in the 1980s. The rise of fast-food restaurants after the Second World War produced a society full of cheap, industrially made foodstuffs. Under the leadership of Carlo Petrini, the Slow Food movement began in Piedmont, a region of Italy with a long history of poverty, violence and resistance to oppression. The movement transformed it into a region hospitable to traditional food cultures—based on native plants and breeds of animals. Today, Slow Food operates in more than 160 countries, poor and rich. It has given rise to thousands of projects around the globe, representing democratic politics, food sovereignty, biodiversity and sustainable agriculture.\n\nK) The unscrupulous(无所顾忌的) commodification of food and the destruction of foodstuffs will continue to devastate soils, livelihoods and ecologies. Slow Food cannot undo the irresistible developments of the global food economy, but it can upset its theorists, it can 'speak differently', and it can allow people and their local food traditions and environments to flourish. Even in the United States—the fast-food nation—small farms and urban gardens are on the rise. The US Department of Agriculture provides an Urban Agriculture Toolkit and, according to a recent report, American millennials(千禧一代) are changing their diets. In 2017, 6 per cent of US consumers claimed to be strictly vegetarian, up from 1 per cent in 2014. As more people realise that 'eating is an agricultural act', as the US poet and environmental activist Wendell Berry put it in 1989, slow hope advances.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 F 段。题干：It might be wrong to expect that our world would be saved at one stroke with some miraculous technology.\n核对该段原文：Yet, if we envisage our salvation to come from a deus ex machina(解围之神), from a divine engineer or a tech solutionist who will miraculously conjure up a new source of energy or another cure-all with revolutionary potency, we might be looking in the wrong place. The fact that we now imagine our planet as a whole does not mean that the 'rescue' of our planet will come with one big global stroke of genius and technology. It will more likely come by many small acts. Global heating and environmental degradation are not technological problems. They are highly political issues that are informed by powerful interests. Moreover, if history is a guide, then we can assume that any major transformations will once again be followed by a huge set of unintended consequences. So what do we do?\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-2-nonlistening-q44",
+      "canonicalId": "lazynote-cet6-2020-12-2-q44",
+      "number": 44,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "It is human nature to cherish hopes for a better world.",
+      "passage": "Slow Hope\n\nA) Our world is full of—mostly untold—stories of slow hope, driven by the idea that change is possible. They are 'slow' in their unfolding, and they are slow because they come with setbacks.\n\nB) At the beginning of time—so goes the myth—humans suffered, shivering in the cold and dark until the titan(巨人) Prometheus stole fire from the gods. Just as in the myth, technology—first fire and stone tools, and later farming, the steam engine and industry, fossil fuels, chemicals and nuclear power—has allowed us to alter and control the natural world. The myth also reminds us that these advances have come at a price: as a punishment for Prometheus' crime, the gods created Pandora, and they gave her a box filled with evils and curses. When Pandora's box was opened, it unleashed swarms of diseases and disasters upon humankind.\n\nC) Today we can no longer ignore the ecological curses that we have released in our search for warmth and comfort. In engineering and exploiting and transforming our habitat, we have opened tens of thousands of Pandora's boxes. In recent decades, environmental threats have expanded beyond regional boundaries to have global reach and, most hauntingly, are multiplying at a dizzying rate. On a regular basis, we are reminded that we are running out of time. Year after year, faster and faster, consumption outpaces the biological capacity of our planet. Stories of accelerated catastrophe multiply. We fear the breakdown of the electric grid, the end of non-renewable resources, the expansion of deserts, the loss of islands, and the pollution of our air and water.\n\nD) Acceleration is the signature of our time. Populations and economic activity grew slowly for much of human history. For thousands of years and well into early modern times, world economies saw no growth at all, but from around the mid-19th century and again, in particular, since the mid-20th, the real GDP has increased at an enormous speed, and so has human consumption. In the Middle Ages, households in Central Europe might have owned fewer than 30 objects on average; in 1900, this number had increased to 400, and in 2020 to 15,000. The acceleration of human production, consumption and travel has changed the animate and inanimate spheres. It has echoed through natural processes on which humans depend. Species extinction, deforestation, damming of rivers, occurrence of floods, the depletion of ozone, the degradation of ocean systems and many other areas are all experiencing acceleration. If represented graphically, the curve for all these changes looks rather like that well-known hockey stick: with little change over millennia(数千年) and a dramatic upswing over the past decades.\n\nE) Some of today's narratives about the future seem to suggest that we too, like Prometheus, will be saved by a new Hercules, a divine engineer, someone who will mastermind, manoeuvre and manipulate our planet. They suggest that geoengineering, cold fusion or faster-than-light spaceships might transcend once and for all the terrestrial constraints of rising temperatures, lack of energy, scarcity of food, lack of space, mountains of waste, polluted water—you name it.\n\nF) Yet, if we envisage our salvation to come from a deus ex machina(解围之神), from a divine engineer or a tech solutionist who will miraculously conjure up a new source of energy or another cure-all with revolutionary potency, we might be looking in the wrong place. The fact that we now imagine our planet as a whole does not mean that the 'rescue' of our planet will come with one big global stroke of genius and technology. It will more likely come by many small acts. Global heating and environmental degradation are not technological problems. They are highly political issues that are informed by powerful interests. Moreover, if history is a guide, then we can assume that any major transformations will once again be followed by a huge set of unintended consequences. So what do we do?\n\nG) This much is clear: we need to find ways that help us flatten the hockey-stick curves that reflect our ever-faster pace of ecological destruction and social acceleration. If we acknowledge that human manipulation of the Earth has been a destructive force, we can also imagine that human endeavours can help us build a less destructive world in the centuries to come. We might keep making mistakes. But we will also keep learning from our mistakes.\n\nH) To counter the fears of disaster, we need to identify stories, visions and actions that work quietly towards a more hopeful future. Instead of one big narrative, a story of unexpected rescue by a larger-than-life hero, we need multiple stories: we need stories, not only of what Rob Nixon of Princeton University has called the 'slow violence' of environmental degradation (that is, the damage that is often invisible at first and develops slowly and gradually), but also stories of what I call 'slow hope'.\n\nI) We need an acknowledgement of our present ecological plight but also a language of positive change, visions of a better future. In The Principle of Hope (1954-1959), Ernst Bloch, one of the leading philosophers of the future, wrote that 'the most tragic form of loss…is the loss of the capacity to imagine that things could be different'. We need to identify visions and paths that will help us imagine a different, more just and more ecological world. Hope, for Bloch, has its starting point in fear, in uncertainty, and in crisis: it is a creative force that goes hand in hand with utopian(乌托邦的) 'wishful images'. It can be found in cultural products of the past—in fairy tales, in fiction, in architecture, in music, in the movies—in products of the human mind that contain 'the outlines of a better world'. What makes us 'authentic' as humans are visions of our 'potential'. In other words: living in hope makes us human.\n\nJ) The power of small, grassroots movements to make changes that spread beyond their place of origin can be seen with the Slow Food movement, which began in Italy in the 1980s. The rise of fast-food restaurants after the Second World War produced a society full of cheap, industrially made foodstuffs. Under the leadership of Carlo Petrini, the Slow Food movement began in Piedmont, a region of Italy with a long history of poverty, violence and resistance to oppression. The movement transformed it into a region hospitable to traditional food cultures—based on native plants and breeds of animals. Today, Slow Food operates in more than 160 countries, poor and rich. It has given rise to thousands of projects around the globe, representing democratic politics, food sovereignty, biodiversity and sustainable agriculture.\n\nK) The unscrupulous(无所顾忌的) commodification of food and the destruction of foodstuffs will continue to devastate soils, livelihoods and ecologies. Slow Food cannot undo the irresistible developments of the global food economy, but it can upset its theorists, it can 'speak differently', and it can allow people and their local food traditions and environments to flourish. Even in the United States—the fast-food nation—small farms and urban gardens are on the rise. The US Department of Agriculture provides an Urban Agriculture Toolkit and, according to a recent report, American millennials(千禧一代) are changing their diets. In 2017, 6 per cent of US consumers claimed to be strictly vegetarian, up from 1 per cent in 2014. As more people realise that 'eating is an agricultural act', as the US poet and environmental activist Wendell Berry put it in 1989, slow hope advances.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 I 段。题干：It is human nature to cherish hopes for a better world.\n核对该段原文：We need an acknowledgement of our present ecological plight but also a language of positive change, visions of a better future. In The Principle of Hope (1954-1959), Ernst Bloch, one of the leading philosophers of the future, wrote that 'the most tragic form of loss…is the loss of the capacity to imagine that things could be different'. We need to identify visions and paths that will help us imagine a different, more just and more ecological world. Hope, for Bloch, has its starting point in fear, in uncertainty, and in crisis: it is a creative force that goes hand in hand with utopian(乌托邦的) 'wishful images'. It can be found in cultural products of the past—in fairy tales, in fiction, in architecture, in music, in the movies—in products of the human mind that contain 'the outlines of a better world'. What makes us 'authentic' as humans are visions of our 'potential'. In other words: living in hope makes us human.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-2-nonlistening-q45",
+      "canonicalId": "lazynote-cet6-2020-12-2-q45",
+      "number": 45,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Technology has given us humans the power to change the natural world, but we have paid a price for the change.",
+      "passage": "Slow Hope\n\nA) Our world is full of—mostly untold—stories of slow hope, driven by the idea that change is possible. They are 'slow' in their unfolding, and they are slow because they come with setbacks.\n\nB) At the beginning of time—so goes the myth—humans suffered, shivering in the cold and dark until the titan(巨人) Prometheus stole fire from the gods. Just as in the myth, technology—first fire and stone tools, and later farming, the steam engine and industry, fossil fuels, chemicals and nuclear power—has allowed us to alter and control the natural world. The myth also reminds us that these advances have come at a price: as a punishment for Prometheus' crime, the gods created Pandora, and they gave her a box filled with evils and curses. When Pandora's box was opened, it unleashed swarms of diseases and disasters upon humankind.\n\nC) Today we can no longer ignore the ecological curses that we have released in our search for warmth and comfort. In engineering and exploiting and transforming our habitat, we have opened tens of thousands of Pandora's boxes. In recent decades, environmental threats have expanded beyond regional boundaries to have global reach and, most hauntingly, are multiplying at a dizzying rate. On a regular basis, we are reminded that we are running out of time. Year after year, faster and faster, consumption outpaces the biological capacity of our planet. Stories of accelerated catastrophe multiply. We fear the breakdown of the electric grid, the end of non-renewable resources, the expansion of deserts, the loss of islands, and the pollution of our air and water.\n\nD) Acceleration is the signature of our time. Populations and economic activity grew slowly for much of human history. For thousands of years and well into early modern times, world economies saw no growth at all, but from around the mid-19th century and again, in particular, since the mid-20th, the real GDP has increased at an enormous speed, and so has human consumption. In the Middle Ages, households in Central Europe might have owned fewer than 30 objects on average; in 1900, this number had increased to 400, and in 2020 to 15,000. The acceleration of human production, consumption and travel has changed the animate and inanimate spheres. It has echoed through natural processes on which humans depend. Species extinction, deforestation, damming of rivers, occurrence of floods, the depletion of ozone, the degradation of ocean systems and many other areas are all experiencing acceleration. If represented graphically, the curve for all these changes looks rather like that well-known hockey stick: with little change over millennia(数千年) and a dramatic upswing over the past decades.\n\nE) Some of today's narratives about the future seem to suggest that we too, like Prometheus, will be saved by a new Hercules, a divine engineer, someone who will mastermind, manoeuvre and manipulate our planet. They suggest that geoengineering, cold fusion or faster-than-light spaceships might transcend once and for all the terrestrial constraints of rising temperatures, lack of energy, scarcity of food, lack of space, mountains of waste, polluted water—you name it.\n\nF) Yet, if we envisage our salvation to come from a deus ex machina(解围之神), from a divine engineer or a tech solutionist who will miraculously conjure up a new source of energy or another cure-all with revolutionary potency, we might be looking in the wrong place. The fact that we now imagine our planet as a whole does not mean that the 'rescue' of our planet will come with one big global stroke of genius and technology. It will more likely come by many small acts. Global heating and environmental degradation are not technological problems. They are highly political issues that are informed by powerful interests. Moreover, if history is a guide, then we can assume that any major transformations will once again be followed by a huge set of unintended consequences. So what do we do?\n\nG) This much is clear: we need to find ways that help us flatten the hockey-stick curves that reflect our ever-faster pace of ecological destruction and social acceleration. If we acknowledge that human manipulation of the Earth has been a destructive force, we can also imagine that human endeavours can help us build a less destructive world in the centuries to come. We might keep making mistakes. But we will also keep learning from our mistakes.\n\nH) To counter the fears of disaster, we need to identify stories, visions and actions that work quietly towards a more hopeful future. Instead of one big narrative, a story of unexpected rescue by a larger-than-life hero, we need multiple stories: we need stories, not only of what Rob Nixon of Princeton University has called the 'slow violence' of environmental degradation (that is, the damage that is often invisible at first and develops slowly and gradually), but also stories of what I call 'slow hope'.\n\nI) We need an acknowledgement of our present ecological plight but also a language of positive change, visions of a better future. In The Principle of Hope (1954-1959), Ernst Bloch, one of the leading philosophers of the future, wrote that 'the most tragic form of loss…is the loss of the capacity to imagine that things could be different'. We need to identify visions and paths that will help us imagine a different, more just and more ecological world. Hope, for Bloch, has its starting point in fear, in uncertainty, and in crisis: it is a creative force that goes hand in hand with utopian(乌托邦的) 'wishful images'. It can be found in cultural products of the past—in fairy tales, in fiction, in architecture, in music, in the movies—in products of the human mind that contain 'the outlines of a better world'. What makes us 'authentic' as humans are visions of our 'potential'. In other words: living in hope makes us human.\n\nJ) The power of small, grassroots movements to make changes that spread beyond their place of origin can be seen with the Slow Food movement, which began in Italy in the 1980s. The rise of fast-food restaurants after the Second World War produced a society full of cheap, industrially made foodstuffs. Under the leadership of Carlo Petrini, the Slow Food movement began in Piedmont, a region of Italy with a long history of poverty, violence and resistance to oppression. The movement transformed it into a region hospitable to traditional food cultures—based on native plants and breeds of animals. Today, Slow Food operates in more than 160 countries, poor and rich. It has given rise to thousands of projects around the globe, representing democratic politics, food sovereignty, biodiversity and sustainable agriculture.\n\nK) The unscrupulous(无所顾忌的) commodification of food and the destruction of foodstuffs will continue to devastate soils, livelihoods and ecologies. Slow Food cannot undo the irresistible developments of the global food economy, but it can upset its theorists, it can 'speak differently', and it can allow people and their local food traditions and environments to flourish. Even in the United States—the fast-food nation—small farms and urban gardens are on the rise. The US Department of Agriculture provides an Urban Agriculture Toolkit and, according to a recent report, American millennials(千禧一代) are changing their diets. In 2017, 6 per cent of US consumers claimed to be strictly vegetarian, up from 1 per cent in 2014. As more people realise that 'eating is an agricultural act', as the US poet and environmental activist Wendell Berry put it in 1989, slow hope advances.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 B 段。题干：Technology has given us humans the power to change the natural world, but we have paid a price for the change.\n核对该段原文：At the beginning of time—so goes the myth—humans suffered, shivering in the cold and dark until the titan(巨人) Prometheus stole fire from the gods. Just as in the myth, technology—first fire and stone tools, and later farming, the steam engine and industry, fossil fuels, chemicals and nuclear power—has allowed us to alter and control the natural world. The myth also reminds us that these advances have come at a price: as a punishment for Prometheus' crime, the gods created Pandora, and they gave her a box filled with evils and curses. When Pandora's box was opened, it unleashed swarms of diseases and disasters upon humankind.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-2-nonlistening-q46",
+      "canonicalId": "lazynote-cet6-2020-12-2-q46",
+      "number": 46,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What is more visible in India than anywhere else according to the passage?",
+      "passage": "Vegetarians would prefer not to be compelled to eat meat. Yet the reverse compulsion(强迫) is hidden in the proposals for a new plant-based \"planetary diet.\" Nowhere is this more visible than in India.\n\nEarlier this year, the EAT-Lancet Commission released its global report on nutrition and called for a global shift to a more plant-based diet and for \"substantially reducing consumption of animal source foods.\" In countries like India, that call could become a tool to aggravate an already tense political situation and stress already undernourished populations.\n\nThe EAT report presumes that \"traditional diets\" in countries like India include little red meat, which might be consumed only on special occasions or as minor ingredients in mixed dishes.\n\nIn India, however, there is a vast difference between what people would wish to consume and what they have to consume because of innumerable barriers around class, religion, culture, cost, geography, etc. Policymakers in India have traditionally pushed for a cereal-heavy \"vegetarian diet\" on a meat-eating population as a way of providing the cheapest sources of food.\n\nCurrently, under an aggressive Hindu nationalist government, Muslims, Christians, disadvantaged classes and indigenous communities are being compelled to give up their traditional foods.\n\nNone of these concerns seem to have been appreciated by the EAT-Lancet Commission's representative, Brent Loken, who said \"India has got such a great example\" in sourcing protein from plants.\n\nBut how much of a model for the world is India's vegetarianism? In the Global Hunger Index 2019, the country ranks 102nd out of 117. Data from the National Family Health Survey indicate that only 10 percent of infants of 6 to 23 months are adequately fed.\n\nWhich is why calls for a plant-based diet modeled on India risk offering another whip with which to beat already vulnerable communities in developing countries.\n\nA diet directed at the affluent West fails to recognize that in low-income countries undernourished children are known to benefit from the consumption of milk and other animal source foods, improving cognitive functions, while reducing the prevalence of nutritional deficiencies as well as mortality.\n\nEAT-Lancet claimed its intention was to \"spark conversations\" among all Indian stakeholders. Yet vocal critics of the food processing industry and food fortification strategies have been left out of the debate. But the most conspicuous omission may well be the absence of India's farmers.\n\nThe government, however, seems to have given the report a thumbs-up. Rather than addressing chronic hunger and malnutrition through an improved access to wholesome and nutrient-dense foods, the government is opening the door for company-dependent solutions, ignoring the environmental and economic cost, which will destroy local food systems. It's a model full of danger for future generations.",
+      "options": [
+        {
+          "id": "A",
+          "text": "People's positive views on the proposals for a \"planetary diet\"."
+        },
+        {
+          "id": "B",
+          "text": "People's reluctance to be compelled to eat plant-based food."
+        },
+        {
+          "id": "C",
+          "text": "People's preferences for the kind of food they consume."
+        },
+        {
+          "id": "D",
+          "text": "People's unwillingness to give up their eating habits."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：People's reluctance to be compelled to eat plant-based food.\n关键词检索定位到第 2 段的候选相关句：Earlier this year, the EAT-Lancet Commission released its global report on nutrition and called for a global shift to a more plant-based diet and for \"substantially reducing consumption of animal source foods.\" In countries like India, that call could become a tool to aggravate an already tense political situation and stress already undernourished populations.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-2-nonlistening-q47",
+      "canonicalId": "lazynote-cet6-2020-12-2-q47",
+      "number": 47,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What would the EAT-Lancet Commission's report do to many people in countries like India?",
+      "passage": "Vegetarians would prefer not to be compelled to eat meat. Yet the reverse compulsion(强迫) is hidden in the proposals for a new plant-based \"planetary diet.\" Nowhere is this more visible than in India.\n\nEarlier this year, the EAT-Lancet Commission released its global report on nutrition and called for a global shift to a more plant-based diet and for \"substantially reducing consumption of animal source foods.\" In countries like India, that call could become a tool to aggravate an already tense political situation and stress already undernourished populations.\n\nThe EAT report presumes that \"traditional diets\" in countries like India include little red meat, which might be consumed only on special occasions or as minor ingredients in mixed dishes.\n\nIn India, however, there is a vast difference between what people would wish to consume and what they have to consume because of innumerable barriers around class, religion, culture, cost, geography, etc. Policymakers in India have traditionally pushed for a cereal-heavy \"vegetarian diet\" on a meat-eating population as a way of providing the cheapest sources of food.\n\nCurrently, under an aggressive Hindu nationalist government, Muslims, Christians, disadvantaged classes and indigenous communities are being compelled to give up their traditional foods.\n\nNone of these concerns seem to have been appreciated by the EAT-Lancet Commission's representative, Brent Loken, who said \"India has got such a great example\" in sourcing protein from plants.\n\nBut how much of a model for the world is India's vegetarianism? In the Global Hunger Index 2019, the country ranks 102nd out of 117. Data from the National Family Health Survey indicate that only 10 percent of infants of 6 to 23 months are adequately fed.\n\nWhich is why calls for a plant-based diet modeled on India risk offering another whip with which to beat already vulnerable communities in developing countries.\n\nA diet directed at the affluent West fails to recognize that in low-income countries undernourished children are known to benefit from the consumption of milk and other animal source foods, improving cognitive functions, while reducing the prevalence of nutritional deficiencies as well as mortality.\n\nEAT-Lancet claimed its intention was to \"spark conversations\" among all Indian stakeholders. Yet vocal critics of the food processing industry and food fortification strategies have been left out of the debate. But the most conspicuous omission may well be the absence of India's farmers.\n\nThe government, however, seems to have given the report a thumbs-up. Rather than addressing chronic hunger and malnutrition through an improved access to wholesome and nutrient-dense foods, the government is opening the door for company-dependent solutions, ignoring the environmental and economic cost, which will destroy local food systems. It's a model full of danger for future generations.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Radically change their dietary habits."
+        },
+        {
+          "id": "B",
+          "text": "Keep them further away from politics."
+        },
+        {
+          "id": "C",
+          "text": "Make them even more undernourished."
+        },
+        {
+          "id": "D",
+          "text": "Substantially reduce their food choices."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：Make them even more undernourished.\n关键词检索定位到第 2 段的候选相关句：Earlier this year, the EAT-Lancet Commission released its global report on nutrition and called for a global shift to a more plant-based diet and for \"substantially reducing consumption of animal source foods.\" In countries like India, that call could become a tool to aggravate an already tense political situation and stress already undernourished populations.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-2-nonlistening-q48",
+      "canonicalId": "lazynote-cet6-2020-12-2-q48",
+      "number": 48,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn from the passage about food consumption in India?",
+      "passage": "Vegetarians would prefer not to be compelled to eat meat. Yet the reverse compulsion(强迫) is hidden in the proposals for a new plant-based \"planetary diet.\" Nowhere is this more visible than in India.\n\nEarlier this year, the EAT-Lancet Commission released its global report on nutrition and called for a global shift to a more plant-based diet and for \"substantially reducing consumption of animal source foods.\" In countries like India, that call could become a tool to aggravate an already tense political situation and stress already undernourished populations.\n\nThe EAT report presumes that \"traditional diets\" in countries like India include little red meat, which might be consumed only on special occasions or as minor ingredients in mixed dishes.\n\nIn India, however, there is a vast difference between what people would wish to consume and what they have to consume because of innumerable barriers around class, religion, culture, cost, geography, etc. Policymakers in India have traditionally pushed for a cereal-heavy \"vegetarian diet\" on a meat-eating population as a way of providing the cheapest sources of food.\n\nCurrently, under an aggressive Hindu nationalist government, Muslims, Christians, disadvantaged classes and indigenous communities are being compelled to give up their traditional foods.\n\nNone of these concerns seem to have been appreciated by the EAT-Lancet Commission's representative, Brent Loken, who said \"India has got such a great example\" in sourcing protein from plants.\n\nBut how much of a model for the world is India's vegetarianism? In the Global Hunger Index 2019, the country ranks 102nd out of 117. Data from the National Family Health Survey indicate that only 10 percent of infants of 6 to 23 months are adequately fed.\n\nWhich is why calls for a plant-based diet modeled on India risk offering another whip with which to beat already vulnerable communities in developing countries.\n\nA diet directed at the affluent West fails to recognize that in low-income countries undernourished children are known to benefit from the consumption of milk and other animal source foods, improving cognitive functions, while reducing the prevalence of nutritional deficiencies as well as mortality.\n\nEAT-Lancet claimed its intention was to \"spark conversations\" among all Indian stakeholders. Yet vocal critics of the food processing industry and food fortification strategies have been left out of the debate. But the most conspicuous omission may well be the absence of India's farmers.\n\nThe government, however, seems to have given the report a thumbs-up. Rather than addressing chronic hunger and malnutrition through an improved access to wholesome and nutrient-dense foods, the government is opening the door for company-dependent solutions, ignoring the environmental and economic cost, which will destroy local food systems. It's a model full of danger for future generations.",
+      "options": [
+        {
+          "id": "A",
+          "text": "People's diet will not change due to the EAT-Lancet report."
+        },
+        {
+          "id": "B",
+          "text": "Many people simply do not have access to foods they prefer."
+        },
+        {
+          "id": "C",
+          "text": "There is a growing popularity of a cereal-heavy vegetarian diet."
+        },
+        {
+          "id": "D",
+          "text": "Policymakers help remove the barriers to people's choice of food."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：Many people simply do not have access to foods they prefer.\n关键词检索定位到第 2 段的候选相关句：Earlier this year, the EAT-Lancet Commission released its global report on nutrition and called for a global shift to a more plant-based diet and for \"substantially reducing consumption of animal source foods.\" In countries like India, that call could become a tool to aggravate an already tense political situation and stress already undernourished populations.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-2-nonlistening-q49",
+      "canonicalId": "lazynote-cet6-2020-12-2-q49",
+      "number": 49,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the passage say about a plant-based diet modeled on India?",
+      "passage": "Vegetarians would prefer not to be compelled to eat meat. Yet the reverse compulsion(强迫) is hidden in the proposals for a new plant-based \"planetary diet.\" Nowhere is this more visible than in India.\n\nEarlier this year, the EAT-Lancet Commission released its global report on nutrition and called for a global shift to a more plant-based diet and for \"substantially reducing consumption of animal source foods.\" In countries like India, that call could become a tool to aggravate an already tense political situation and stress already undernourished populations.\n\nThe EAT report presumes that \"traditional diets\" in countries like India include little red meat, which might be consumed only on special occasions or as minor ingredients in mixed dishes.\n\nIn India, however, there is a vast difference between what people would wish to consume and what they have to consume because of innumerable barriers around class, religion, culture, cost, geography, etc. Policymakers in India have traditionally pushed for a cereal-heavy \"vegetarian diet\" on a meat-eating population as a way of providing the cheapest sources of food.\n\nCurrently, under an aggressive Hindu nationalist government, Muslims, Christians, disadvantaged classes and indigenous communities are being compelled to give up their traditional foods.\n\nNone of these concerns seem to have been appreciated by the EAT-Lancet Commission's representative, Brent Loken, who said \"India has got such a great example\" in sourcing protein from plants.\n\nBut how much of a model for the world is India's vegetarianism? In the Global Hunger Index 2019, the country ranks 102nd out of 117. Data from the National Family Health Survey indicate that only 10 percent of infants of 6 to 23 months are adequately fed.\n\nWhich is why calls for a plant-based diet modeled on India risk offering another whip with which to beat already vulnerable communities in developing countries.\n\nA diet directed at the affluent West fails to recognize that in low-income countries undernourished children are known to benefit from the consumption of milk and other animal source foods, improving cognitive functions, while reducing the prevalence of nutritional deficiencies as well as mortality.\n\nEAT-Lancet claimed its intention was to \"spark conversations\" among all Indian stakeholders. Yet vocal critics of the food processing industry and food fortification strategies have been left out of the debate. But the most conspicuous omission may well be the absence of India's farmers.\n\nThe government, however, seems to have given the report a thumbs-up. Rather than addressing chronic hunger and malnutrition through an improved access to wholesome and nutrient-dense foods, the government is opening the door for company-dependent solutions, ignoring the environmental and economic cost, which will destroy local food systems. It's a model full of danger for future generations.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It may benefit populations whose traditional diet is meat-based."
+        },
+        {
+          "id": "B",
+          "text": "It may be another blow to the economy in developing countries."
+        },
+        {
+          "id": "C",
+          "text": "It may help narrow the gap between the rich and poor countries."
+        },
+        {
+          "id": "D",
+          "text": "It may worsen the nourishment problem in low-income countries."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：It may worsen the nourishment problem in low-income countries.\n关键词检索定位到第 8 段的候选相关句：Which is why calls for a plant-based diet modeled on India risk offering another whip with which to beat already vulnerable communities in developing countries.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-2-nonlistening-q50",
+      "canonicalId": "lazynote-cet6-2020-12-2-q50",
+      "number": 50,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "How does the Indian government respond to the EAT-Lancet Commission's proposals?",
+      "passage": "Vegetarians would prefer not to be compelled to eat meat. Yet the reverse compulsion(强迫) is hidden in the proposals for a new plant-based \"planetary diet.\" Nowhere is this more visible than in India.\n\nEarlier this year, the EAT-Lancet Commission released its global report on nutrition and called for a global shift to a more plant-based diet and for \"substantially reducing consumption of animal source foods.\" In countries like India, that call could become a tool to aggravate an already tense political situation and stress already undernourished populations.\n\nThe EAT report presumes that \"traditional diets\" in countries like India include little red meat, which might be consumed only on special occasions or as minor ingredients in mixed dishes.\n\nIn India, however, there is a vast difference between what people would wish to consume and what they have to consume because of innumerable barriers around class, religion, culture, cost, geography, etc. Policymakers in India have traditionally pushed for a cereal-heavy \"vegetarian diet\" on a meat-eating population as a way of providing the cheapest sources of food.\n\nCurrently, under an aggressive Hindu nationalist government, Muslims, Christians, disadvantaged classes and indigenous communities are being compelled to give up their traditional foods.\n\nNone of these concerns seem to have been appreciated by the EAT-Lancet Commission's representative, Brent Loken, who said \"India has got such a great example\" in sourcing protein from plants.\n\nBut how much of a model for the world is India's vegetarianism? In the Global Hunger Index 2019, the country ranks 102nd out of 117. Data from the National Family Health Survey indicate that only 10 percent of infants of 6 to 23 months are adequately fed.\n\nWhich is why calls for a plant-based diet modeled on India risk offering another whip with which to beat already vulnerable communities in developing countries.\n\nA diet directed at the affluent West fails to recognize that in low-income countries undernourished children are known to benefit from the consumption of milk and other animal source foods, improving cognitive functions, while reducing the prevalence of nutritional deficiencies as well as mortality.\n\nEAT-Lancet claimed its intention was to \"spark conversations\" among all Indian stakeholders. Yet vocal critics of the food processing industry and food fortification strategies have been left out of the debate. But the most conspicuous omission may well be the absence of India's farmers.\n\nThe government, however, seems to have given the report a thumbs-up. Rather than addressing chronic hunger and malnutrition through an improved access to wholesome and nutrient-dense foods, the government is opening the door for company-dependent solutions, ignoring the environmental and economic cost, which will destroy local food systems. It's a model full of danger for future generations.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It accepts them at the expense of the long-term interests of its people."
+        },
+        {
+          "id": "B",
+          "text": "It intends them to spark conversations among all Indian stakeholders."
+        },
+        {
+          "id": "C",
+          "text": "It gives them approval regardless of opposition from nutrition experts."
+        },
+        {
+          "id": "D",
+          "text": "It welcomes them as a tool to address chronic hunger and malnutrition."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：It accepts them at the expense of the long-term interests of its people.\n关键词检索定位到第 2 段的候选相关句：Earlier this year, the EAT-Lancet Commission released its global report on nutrition and called for a global shift to a more plant-based diet and for \"substantially reducing consumption of animal source foods.\" In countries like India, that call could become a tool to aggravate an already tense political situation and stress already undernourished populations.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-2-nonlistening-q51",
+      "canonicalId": "lazynote-cet6-2020-12-2-q51",
+      "number": 51,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What is characteristic of a chronic complainer, according to psychiatrist Eric Berne?",
+      "passage": "Back in 1964, in his book Games People Play, psychiatrist Eric Berne described a pattern of conversation he called \"Why Don't You—Yes But\", which remains one of the most irritating aspects of everyday social life. The person adopting the strategy is usually a chronic complainer. Something is terrible about their relationship, job, or other situation, and they moan about it ceaselessly, but find some excuse to dismiss any solution that's proposed. The reason, of course, is that on some level they don't want a solution; they want to be validated in their position that the world is out to get them. If they can \"win\" the game—dismissing every suggestion until their interlocutor(对话者) gives up in annoyance—they get to feel pleasurably righteous(正当的) in their resentments and excused from any obligation to change.\n\nPart of the trouble here is the so-called responsibility/fault fallacy(谬误). When you're feeling hard done by—taken for granted by your partner, say, or obliged to work for a half-witted boss—it's easy to become attached to the position that it's not your job to address the matter, and that doing so would be an admission of fault. But there's a confusion here. For example, if I were to discover a newborn at my front door, it wouldn't be my fault, but it most certainly would be my responsibility. There would be choices to make, and no possibility of avoiding them, since trying to ignore the matter would be a choice. The point is that what goes for the baby on the doorstep is true in all cases: even if the other person is 100% in the wrong, there's nothing to be gained, long-term, from using this as a justification to evade responsibility.\n\nShould you find yourself on the receiving end of this kind of complaining, there's an ingenious way to shut it down—which is to agree with it, ardently. Psychotherapist Lori Gottlieb describes this as \"over-validation\". For one thing, you'll be spared further moaning, since the other person's motivation was to confirm her beliefs, and now you're confirming them. But for another, as Gottlieb notes, people confronted with over-validation often hear their complaints afresh and start arguing back. The notion that they're utterly powerless suddenly seems unrealistic—not to mention rather annoying—so they're prompted instead to generate ideas about how they might change things.\n\n\"And then, sometimes, something magical might happen,\" Gottlieb writes. The other person \"might realise she's not as trapped as you are saying she is, or as she feels.\" Which illustrates the irony of the responsibility/fault fallacy: evading responsibility feels comfortable, but turns out to be a prison; whereas assuming responsibility feels unpleasant, but ends up being freeing.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They only feel angry about their ill treatment and resent whoever tries to help."
+        },
+        {
+          "id": "B",
+          "text": "They are chronically unhappy and ceaselessly find fault with people around them."
+        },
+        {
+          "id": "C",
+          "text": "They constantly dismiss others' proposals while taking no responsibility for tackling the problem."
+        },
+        {
+          "id": "D",
+          "text": "They lack the knowledge and basic skills required for successful conversations with their interlocutors."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：They constantly dismiss others' proposals while taking no responsibility for tackling the problem.\n关键词检索定位到第 1 段的候选相关句：Back in 1964, in his book Games People Play, psychiatrist Eric Berne described a pattern of conversation he called \"Why Don't You—Yes But\", which remains one of the most irritating aspects of everyday social life.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-2-nonlistening-q52",
+      "canonicalId": "lazynote-cet6-2020-12-2-q52",
+      "number": 52,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author try to illustrate with the example of the newborn on one's doorstep?",
+      "passage": "Back in 1964, in his book Games People Play, psychiatrist Eric Berne described a pattern of conversation he called \"Why Don't You—Yes But\", which remains one of the most irritating aspects of everyday social life. The person adopting the strategy is usually a chronic complainer. Something is terrible about their relationship, job, or other situation, and they moan about it ceaselessly, but find some excuse to dismiss any solution that's proposed. The reason, of course, is that on some level they don't want a solution; they want to be validated in their position that the world is out to get them. If they can \"win\" the game—dismissing every suggestion until their interlocutor(对话者) gives up in annoyance—they get to feel pleasurably righteous(正当的) in their resentments and excused from any obligation to change.\n\nPart of the trouble here is the so-called responsibility/fault fallacy(谬误). When you're feeling hard done by—taken for granted by your partner, say, or obliged to work for a half-witted boss—it's easy to become attached to the position that it's not your job to address the matter, and that doing so would be an admission of fault. But there's a confusion here. For example, if I were to discover a newborn at my front door, it wouldn't be my fault, but it most certainly would be my responsibility. There would be choices to make, and no possibility of avoiding them, since trying to ignore the matter would be a choice. The point is that what goes for the baby on the doorstep is true in all cases: even if the other person is 100% in the wrong, there's nothing to be gained, long-term, from using this as a justification to evade responsibility.\n\nShould you find yourself on the receiving end of this kind of complaining, there's an ingenious way to shut it down—which is to agree with it, ardently. Psychotherapist Lori Gottlieb describes this as \"over-validation\". For one thing, you'll be spared further moaning, since the other person's motivation was to confirm her beliefs, and now you're confirming them. But for another, as Gottlieb notes, people confronted with over-validation often hear their complaints afresh and start arguing back. The notion that they're utterly powerless suddenly seems unrealistic—not to mention rather annoying—so they're prompted instead to generate ideas about how they might change things.\n\n\"And then, sometimes, something magical might happen,\" Gottlieb writes. The other person \"might realise she's not as trapped as you are saying she is, or as she feels.\" Which illustrates the irony of the responsibility/fault fallacy: evading responsibility feels comfortable, but turns out to be a prison; whereas assuming responsibility feels unpleasant, but ends up being freeing.",
+      "options": [
+        {
+          "id": "A",
+          "text": "People tend to think that one should not be held responsible for others' mistakes."
+        },
+        {
+          "id": "B",
+          "text": "It is easy to become attached to the position of overlooking one's own fault."
+        },
+        {
+          "id": "C",
+          "text": "People are often at a loss when confronted with a number of choices."
+        },
+        {
+          "id": "D",
+          "text": "A distinction should be drawn between responsibility and fault."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：A distinction should be drawn between responsibility and fault.\n关键词检索定位到第 2 段的候选相关句：For example, if I were to discover a newborn at my front door, it wouldn't be my fault, but it most certainly would be my responsibility.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-2-nonlistening-q53",
+      "canonicalId": "lazynote-cet6-2020-12-2-q53",
+      "number": 53,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author advise people to do to chronic complainers?",
+      "passage": "Back in 1964, in his book Games People Play, psychiatrist Eric Berne described a pattern of conversation he called \"Why Don't You—Yes But\", which remains one of the most irritating aspects of everyday social life. The person adopting the strategy is usually a chronic complainer. Something is terrible about their relationship, job, or other situation, and they moan about it ceaselessly, but find some excuse to dismiss any solution that's proposed. The reason, of course, is that on some level they don't want a solution; they want to be validated in their position that the world is out to get them. If they can \"win\" the game—dismissing every suggestion until their interlocutor(对话者) gives up in annoyance—they get to feel pleasurably righteous(正当的) in their resentments and excused from any obligation to change.\n\nPart of the trouble here is the so-called responsibility/fault fallacy(谬误). When you're feeling hard done by—taken for granted by your partner, say, or obliged to work for a half-witted boss—it's easy to become attached to the position that it's not your job to address the matter, and that doing so would be an admission of fault. But there's a confusion here. For example, if I were to discover a newborn at my front door, it wouldn't be my fault, but it most certainly would be my responsibility. There would be choices to make, and no possibility of avoiding them, since trying to ignore the matter would be a choice. The point is that what goes for the baby on the doorstep is true in all cases: even if the other person is 100% in the wrong, there's nothing to be gained, long-term, from using this as a justification to evade responsibility.\n\nShould you find yourself on the receiving end of this kind of complaining, there's an ingenious way to shut it down—which is to agree with it, ardently. Psychotherapist Lori Gottlieb describes this as \"over-validation\". For one thing, you'll be spared further moaning, since the other person's motivation was to confirm her beliefs, and now you're confirming them. But for another, as Gottlieb notes, people confronted with over-validation often hear their complaints afresh and start arguing back. The notion that they're utterly powerless suddenly seems unrealistic—not to mention rather annoying—so they're prompted instead to generate ideas about how they might change things.\n\n\"And then, sometimes, something magical might happen,\" Gottlieb writes. The other person \"might realise she's not as trapped as you are saying she is, or as she feels.\" Which illustrates the irony of the responsibility/fault fallacy: evading responsibility feels comfortable, but turns out to be a prison; whereas assuming responsibility feels unpleasant, but ends up being freeing.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stop them from going further by agreeing with them."
+        },
+        {
+          "id": "B",
+          "text": "Listen to their complaints ardently and sympathetically."
+        },
+        {
+          "id": "C",
+          "text": "Ask them to validate their beliefs with further evidence."
+        },
+        {
+          "id": "D",
+          "text": "Persuade them to clarify the confusion they have caused."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：Stop them from going further by agreeing with them.\n关键词检索定位到第 1 段的候选相关句：The person adopting the strategy is usually a chronic complainer.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-2-nonlistening-q54",
+      "canonicalId": "lazynote-cet6-2020-12-2-q54",
+      "number": 54,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What happens when chronic complainers receive over-validation?",
+      "passage": "Back in 1964, in his book Games People Play, psychiatrist Eric Berne described a pattern of conversation he called \"Why Don't You—Yes But\", which remains one of the most irritating aspects of everyday social life. The person adopting the strategy is usually a chronic complainer. Something is terrible about their relationship, job, or other situation, and they moan about it ceaselessly, but find some excuse to dismiss any solution that's proposed. The reason, of course, is that on some level they don't want a solution; they want to be validated in their position that the world is out to get them. If they can \"win\" the game—dismissing every suggestion until their interlocutor(对话者) gives up in annoyance—they get to feel pleasurably righteous(正当的) in their resentments and excused from any obligation to change.\n\nPart of the trouble here is the so-called responsibility/fault fallacy(谬误). When you're feeling hard done by—taken for granted by your partner, say, or obliged to work for a half-witted boss—it's easy to become attached to the position that it's not your job to address the matter, and that doing so would be an admission of fault. But there's a confusion here. For example, if I were to discover a newborn at my front door, it wouldn't be my fault, but it most certainly would be my responsibility. There would be choices to make, and no possibility of avoiding them, since trying to ignore the matter would be a choice. The point is that what goes for the baby on the doorstep is true in all cases: even if the other person is 100% in the wrong, there's nothing to be gained, long-term, from using this as a justification to evade responsibility.\n\nShould you find yourself on the receiving end of this kind of complaining, there's an ingenious way to shut it down—which is to agree with it, ardently. Psychotherapist Lori Gottlieb describes this as \"over-validation\". For one thing, you'll be spared further moaning, since the other person's motivation was to confirm her beliefs, and now you're confirming them. But for another, as Gottlieb notes, people confronted with over-validation often hear their complaints afresh and start arguing back. The notion that they're utterly powerless suddenly seems unrealistic—not to mention rather annoying—so they're prompted instead to generate ideas about how they might change things.\n\n\"And then, sometimes, something magical might happen,\" Gottlieb writes. The other person \"might realise she's not as trapped as you are saying she is, or as she feels.\" Which illustrates the irony of the responsibility/fault fallacy: evading responsibility feels comfortable, but turns out to be a prison; whereas assuming responsibility feels unpleasant, but ends up being freeing.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They are motivated to find ingenious ways to persuade their interlocutor."
+        },
+        {
+          "id": "B",
+          "text": "They are prompted to come up with ideas for making possible changes."
+        },
+        {
+          "id": "C",
+          "text": "They are stimulated to make more complaints."
+        },
+        {
+          "id": "D",
+          "text": "They are encouraged to start arguing back."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：They are prompted to come up with ideas for making possible changes.\n关键词检索定位到第 3 段的候选相关句：The notion that they're utterly powerless suddenly seems unrealistic—not to mention rather annoying—so they're prompted instead to generate ideas about how they might change things.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-2-nonlistening-q55",
+      "canonicalId": "lazynote-cet6-2020-12-2-q55",
+      "number": 55,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "How can one stop being a chronic complainer according to the author?",
+      "passage": "Back in 1964, in his book Games People Play, psychiatrist Eric Berne described a pattern of conversation he called \"Why Don't You—Yes But\", which remains one of the most irritating aspects of everyday social life. The person adopting the strategy is usually a chronic complainer. Something is terrible about their relationship, job, or other situation, and they moan about it ceaselessly, but find some excuse to dismiss any solution that's proposed. The reason, of course, is that on some level they don't want a solution; they want to be validated in their position that the world is out to get them. If they can \"win\" the game—dismissing every suggestion until their interlocutor(对话者) gives up in annoyance—they get to feel pleasurably righteous(正当的) in their resentments and excused from any obligation to change.\n\nPart of the trouble here is the so-called responsibility/fault fallacy(谬误). When you're feeling hard done by—taken for granted by your partner, say, or obliged to work for a half-witted boss—it's easy to become attached to the position that it's not your job to address the matter, and that doing so would be an admission of fault. But there's a confusion here. For example, if I were to discover a newborn at my front door, it wouldn't be my fault, but it most certainly would be my responsibility. There would be choices to make, and no possibility of avoiding them, since trying to ignore the matter would be a choice. The point is that what goes for the baby on the doorstep is true in all cases: even if the other person is 100% in the wrong, there's nothing to be gained, long-term, from using this as a justification to evade responsibility.\n\nShould you find yourself on the receiving end of this kind of complaining, there's an ingenious way to shut it down—which is to agree with it, ardently. Psychotherapist Lori Gottlieb describes this as \"over-validation\". For one thing, you'll be spared further moaning, since the other person's motivation was to confirm her beliefs, and now you're confirming them. But for another, as Gottlieb notes, people confronted with over-validation often hear their complaints afresh and start arguing back. The notion that they're utterly powerless suddenly seems unrealistic—not to mention rather annoying—so they're prompted instead to generate ideas about how they might change things.\n\n\"And then, sometimes, something magical might happen,\" Gottlieb writes. The other person \"might realise she's not as trapped as you are saying she is, or as she feels.\" Which illustrates the irony of the responsibility/fault fallacy: evading responsibility feels comfortable, but turns out to be a prison; whereas assuming responsibility feels unpleasant, but ends up being freeing.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Analysing the so-called responsibility/fault fallacy."
+        },
+        {
+          "id": "B",
+          "text": "Avoiding hazardous traps in everyday social life."
+        },
+        {
+          "id": "C",
+          "text": "Assuming responsibility to free oneself."
+        },
+        {
+          "id": "D",
+          "text": "Awaiting something magical to happen."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：Assuming responsibility to free oneself.\n关键词检索定位到第 4 段的候选相关句：The other person \"might realise she's not as trapped as you are saying she is, or as she feels.\" Which illustrates the irony of the responsibility/fault fallacy: evading responsibility feels comfortable, but turns out to be a prison; whereas assuming responsibility feels unpleasant, but ends up being freeing.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-2-nonlistening-translation",
+      "number": "IV",
+      "level": "CET6",
+      "type": "short_text_self_check",
+      "skill": "translation",
+      "section": "translation",
+      "prompt": "Directions : For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2 .\n\n港珠澳大桥(Hong Kong-Zhuhai-Macau Bridge)全长55公里，是我国一项不同寻常的工程壮举。大桥将三个城市连接起来，是世界上最长的跨海桥梁和隧道系统。大桥将三个城市之间的旅行时间从3小时缩短到30分钟。这座跨度巨大的钢筋混凝土大桥充分证明中国有能力建造创纪录的巨型建筑。它将助推区域一体化，促进经济增长。大桥是中国发展自己的大湾区总体规划的关键。中国希望将大湾区建成在技术创新和经济繁荣上能与旧金山、纽约和东京的湾区相媲美的地区。",
+      "options": [],
+      "correctAnswer": "The Hong Kong-Zhuhai-Macau Bridge, with a total length of 55 kilometers, is an extraordinary engineering achievement in China. Connecting the three cities, it is the world's longest sea crossing bridge and tunnel system. It has reduced travel time among the cities from three hours to thirty minutes. This reinforced concrete bridge with its enormous span fully demonstrates China's ability to build record breaking megastructures. It will boost regional integration and promote economic growth. The bridge is central to China's overall plan to develop its own Greater Bay Area. China hopes to make the area comparable to the bay areas of San Francisco, New York and Tokyo in technological innovation and economic prosperity.",
+      "referenceAnswer": "The Hong Kong-Zhuhai-Macau Bridge, with a total length of 55 kilometers, is an extraordinary engineering achievement in China. Connecting the three cities, it is the world's longest sea crossing bridge and tunnel system. It has reduced travel time among the cities from three hours to thirty minutes. This reinforced concrete bridge with its enormous span fully demonstrates China's ability to build record breaking megastructures. It will boost regional integration and promote economic growth. The bridge is central to China's overall plan to develop its own Greater Bay Area. China hopes to make the area comparable to the bay areas of San Francisco, New York and Tokyo in technological innovation and economic prosperity.",
+      "hint": "55公里、三小时到三十分钟、桥隧系统及三个对标湾区均要保留。",
+      "explanation": "以下为原创参考译文，准确的同义表达也可接受。with a total length of…自然引出长度；reinforced concrete为钢筋混凝土。from…to…保留时间缩短的起止值；comparable to…in…表示在两方面可媲美，不能省略技术创新或经济繁荣。",
+      "rubric": [
+        "信息：逐句核对人物、地点、数字、时间、因果和并列信息，避免漏译或增译。",
+        "表达：55公里、三小时到三十分钟、桥隧系统及三个对标湾区均要保留。",
+        "语法：检查时态、语态、主谓一致、冠词与单复数，长句按英语逻辑合理拆分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-2-nonlistening"
+    }
+  ]
+}

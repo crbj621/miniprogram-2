@@ -1,0 +1,2145 @@
+{
+  "schemaVersion": 1,
+  "status": "verified_structured",
+  "source": {
+    "id": "cet6-2020-09-1-nonlistening",
+    "textCollection": "https://english-exam.lazynote.cn",
+    "textUrl": "https://english-exam.lazynote.cn/cet6/paper/2020-09-1/",
+    "textSha256": "b22df27f183c937e148924af0461be460aa9e468d4647d89abe87fdf45588e42",
+    "answerSources": [
+      {
+        "section": "part3-section-a",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2020-09-1/part3-section-a/",
+        "sha256": "af11848212d2db4b5dca397c9b274e20b217d957671e490c1ce1ab2592f7b95e"
+      },
+      {
+        "section": "part3-section-b",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2020-09-1/part3-section-b/",
+        "sha256": "75a51bd868acfe517e05e845febe8350115b35ee9621ed7a9cebce9fce7839d9"
+      },
+      {
+        "section": "part3-section-c-1",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2020-09-1/part3-section-c-1/",
+        "sha256": "3586433333a862e77eeb1775164647f5d1d430508e57253e15378f164182347d"
+      },
+      {
+        "section": "part3-section-c-2",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2020-09-1/part3-section-c-2/",
+        "sha256": "3408b5387c67c749e23082b784f5a82b00d9647b60619f79a7d3256397d937fb"
+      }
+    ],
+    "rightsUrl": "https://english-exam.lazynote.cn",
+    "rights": "Source footer attributes original papers to the National College English Test Committee. Original materials retain their respective rights; no blanket source license is asserted. Commercial explanatory prose is not copied.",
+    "sourceRightsNotice": "© 2026 懒笔记 · 蜀ICP备2024049450号-1 · 川公网安备51019002006323号 · 增值电信业务经营许可证：川B2-20240301 · 真题版权归全国硕士研究生招生考试 / 全国大学英语四六级考试委员会所有 · 隐私政策 · 用户协议",
+    "sourceTermsUrl": "https://english-exam.lazynote.cn/terms/",
+    "reviewedAt": "2026-10-03",
+    "answerStatus": "public_reference_structural_consistency_verified",
+    "explanations": "Project-generated contextual evidence notes. Close-reading locations are keyword-search candidates, not manually verified detailed explanations.",
+    "referenceEssays": "Project-authored full reference examples bound to the original prompts; not official model answers.",
+    "materialSources": [],
+    "corrections": [],
+    "previousReviewedAnswerSources": [],
+    "sourceEdition": "lazynote public original-paper arrangement; set numbering can differ from other collections.",
+    "independentlyConfirmedSharedSource": "",
+    "readingSourceCorrection": null,
+    "sectionSourceReplacement": null,
+    "independentAnswerChecks": [],
+    "sharedSectionSource": {}
+  },
+  "papers": [
+    {
+      "id": "cet6-2020-09-1-nonlistening",
+      "level": "CET6",
+      "year": 2020,
+      "month": 9,
+      "set": 1,
+      "title": "2020年9月英语六级第1套真题（不含听力）",
+      "authenticity": "past_exam",
+      "questionIds": [
+        "cet6-2020-09-1-nonlistening-writing",
+        "cet6-2020-09-1-nonlistening-q26",
+        "cet6-2020-09-1-nonlistening-q27",
+        "cet6-2020-09-1-nonlistening-q28",
+        "cet6-2020-09-1-nonlistening-q29",
+        "cet6-2020-09-1-nonlistening-q30",
+        "cet6-2020-09-1-nonlistening-q31",
+        "cet6-2020-09-1-nonlistening-q32",
+        "cet6-2020-09-1-nonlistening-q33",
+        "cet6-2020-09-1-nonlistening-q34",
+        "cet6-2020-09-1-nonlistening-q35",
+        "cet6-2020-09-1-nonlistening-q36",
+        "cet6-2020-09-1-nonlistening-q37",
+        "cet6-2020-09-1-nonlistening-q38",
+        "cet6-2020-09-1-nonlistening-q39",
+        "cet6-2020-09-1-nonlistening-q40",
+        "cet6-2020-09-1-nonlistening-q41",
+        "cet6-2020-09-1-nonlistening-q42",
+        "cet6-2020-09-1-nonlistening-q43",
+        "cet6-2020-09-1-nonlistening-q44",
+        "cet6-2020-09-1-nonlistening-q45",
+        "cet6-2020-09-1-nonlistening-q46",
+        "cet6-2020-09-1-nonlistening-q47",
+        "cet6-2020-09-1-nonlistening-q48",
+        "cet6-2020-09-1-nonlistening-q49",
+        "cet6-2020-09-1-nonlistening-q50",
+        "cet6-2020-09-1-nonlistening-q51",
+        "cet6-2020-09-1-nonlistening-q52",
+        "cet6-2020-09-1-nonlistening-q53",
+        "cet6-2020-09-1-nonlistening-q54",
+        "cet6-2020-09-1-nonlistening-q55",
+        "cet6-2020-09-1-nonlistening-translation"
+      ],
+      "durationSeconds": 6000,
+      "description": "写作1题、阅读30题、翻译1题，不含听力。客观题答案与题面、选项完成结构一致性核对。",
+      "sourceId": "cet6-2020-09-1-nonlistening",
+      "coverage": {
+        "fullPaper": false,
+        "fullNonListening": true,
+        "listeningExcluded": true,
+        "objectiveNumbers": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "objectiveCount": 30,
+        "subjectiveCount": 2,
+        "sections": [
+          "writing",
+          "reading_word_bank",
+          "reading_matching",
+          "reading_comprehension",
+          "translation"
+        ],
+        "sharedSectionSource": {},
+        "note": "写作1题、阅读30题、翻译1题，不含听力。",
+        "independentlyConfirmedSharedSource": "",
+        "readingSourceCorrection": null,
+        "sectionSourceReplacement": null,
+        "referenceStatus": "project_authored"
+      },
+      "resources": [
+        {
+          "id": "cet6-2020-09-1-nonlistening-source",
+          "type": "web",
+          "title": "原卷来源与题面核对",
+          "url": "https://english-exam.lazynote.cn/cet6/paper/2020-09-1/"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cet6-2020-09-1-nonlistening-writing",
+      "number": "I",
+      "level": "CET6",
+      "type": "short_text_self_check",
+      "skill": "writing",
+      "section": "writing",
+      "prompt": "Directions: For this part, you are allowed 30 minutes to write an essay on the saying “ Beauty of the soul is the essential beauty .” You should write at least 150 words but no more than 200 words.",
+      "options": [],
+      "correctAnswer": "The saying \"Beauty of the soul is the essential beauty\" directs our attention to qualities that make a person worthy of trust and affection. Appearance may create an immediate impression, but character shapes relationships over time.\n\nA person with a beautiful soul treats others with kindness even when there is no reward. For example, a student who patiently helps a struggling classmate demonstrates a form of beauty that a fashionable outfit cannot create. Honesty and courage are equally important. Admitting a mistake may be uncomfortable, yet it protects trust and allows a problem to be solved. These qualities also influence those around us: kindness encourages kindness, and responsible behavior makes cooperation easier. Physical attractiveness changes with age and circumstances, while inner qualities can grow through practice and reflection.\n\nThis does not mean that caring for our appearance is unnecessary. Rather, we should give greater attention to how we behave and what we value. By developing empathy, integrity and a willingness to help, we make our lives more meaningful and create beauty that others can feel.",
+      "referenceAnswer": "The saying \"Beauty of the soul is the essential beauty\" directs our attention to qualities that make a person worthy of trust and affection. Appearance may create an immediate impression, but character shapes relationships over time.\n\nA person with a beautiful soul treats others with kindness even when there is no reward. For example, a student who patiently helps a struggling classmate demonstrates a form of beauty that a fashionable outfit cannot create. Honesty and courage are equally important. Admitting a mistake may be uncomfortable, yet it protects trust and allows a problem to be solved. These qualities also influence those around us: kindness encourages kindness, and responsible behavior makes cooperation easier. Physical attractiveness changes with age and circumstances, while inner qualities can grow through practice and reflection.\n\nThis does not mean that caring for our appearance is unnecessary. Rather, we should give greater attention to how we behave and what we value. By developing empathy, integrity and a willingness to help, we make our lives more meaningful and create beauty that others can feel.",
+      "hint": "以品格对长期关系的作用解释心灵美，可举善良、诚信的例子。",
+      "explanation": "以下为按本题要求独立写成的原创参考范文，作文没有唯一答案。首段区分第一印象与长期关系；帮助同学和承认错误是两个有因果的例子；结尾建议培养同理心与诚信。essential beauty应围绕核心价值展开，不写成单纯外貌批评。",
+      "rubric": [
+        "任务：以品格对长期关系的作用解释心灵美，可举善良、诚信的例子。",
+        "论证：明确中心观点，用原因、具体例子或经历展开；结尾回应主题。",
+        "语言：检查主谓一致、时态、搭配和段落衔接；全文控制在150–200词。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-09-1-nonlistening-q26",
+      "canonicalId": "lazynote-cet6-2020-09-1-q26",
+      "number": 26,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 26 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Overall, men are more likely than women to make excuses. Several studies suggest that men feel the need to appear competent in all [26] ____ , while women worry only about the skills in which they've invested [27] ____ . Ask a man and a woman to go diving for the first time, and the woman is likely to jump in, while the man is likely to say he's not feeling too well.\n\nIronically, it is often success that leads people to flirt with failure. Praise won for [28] ____ a skill suddenly puts one in the position of having everything to lose. Rather than putting their reputation on the line again, many successful people develop a handicap—drinking, [29] ____ , depression—that allows them to keep their status no matter what the future brings. An advertising executive [30] ____ for depression shortly after winning an award put it this way: \"Without my depression, I'd be a failure now; with it, I'm a success 'on hold.'\"\n\nIn fact, the people most likely to become chronic excuse makers are those [31] ____ with success. Such people are so afraid of being [32] ____ a failure at anything that they constantly develop one handicap or another in order to explain away failure.\n\nThough self-handicapping can be an effective way of coping with performance anxiety now and then, in the end, researchers say, it will lead to [33] ____ . In the long run, excuse makers fail to live up to their true [34] ____ and lose the status they care so much about. And despite their protests to the [35] ____ , they have only themselves to blame.",
+      "options": [
+        {
+          "id": "A",
+          "text": "contrary"
+        },
+        {
+          "id": "B",
+          "text": "fatigue"
+        },
+        {
+          "id": "C",
+          "text": "heavily"
+        },
+        {
+          "id": "D",
+          "text": "heaving"
+        },
+        {
+          "id": "E",
+          "text": "hospitalized"
+        },
+        {
+          "id": "F",
+          "text": "labeled"
+        },
+        {
+          "id": "G",
+          "text": "legacies"
+        },
+        {
+          "id": "H",
+          "text": "mastering"
+        },
+        {
+          "id": "I",
+          "text": "momentum"
+        },
+        {
+          "id": "J",
+          "text": "obsessed"
+        },
+        {
+          "id": "K",
+          "text": "potential"
+        },
+        {
+          "id": "L",
+          "text": "realms"
+        },
+        {
+          "id": "M",
+          "text": "reciprocal"
+        },
+        {
+          "id": "N",
+          "text": "ruin"
+        },
+        {
+          "id": "O",
+          "text": "viciously"
+        }
+      ],
+      "correctAnswer": "L",
+      "hint": "先看第 26 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 L（realms）。本空所在句：Several studies suggest that men feel the need to appear competent in all [26] ____ , while women worry only about the skills in which they've invested [27] ____ .\n将本空替换为 realms 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-09-1-nonlistening-q27",
+      "canonicalId": "lazynote-cet6-2020-09-1-q27",
+      "number": 27,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 27 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Overall, men are more likely than women to make excuses. Several studies suggest that men feel the need to appear competent in all [26] ____ , while women worry only about the skills in which they've invested [27] ____ . Ask a man and a woman to go diving for the first time, and the woman is likely to jump in, while the man is likely to say he's not feeling too well.\n\nIronically, it is often success that leads people to flirt with failure. Praise won for [28] ____ a skill suddenly puts one in the position of having everything to lose. Rather than putting their reputation on the line again, many successful people develop a handicap—drinking, [29] ____ , depression—that allows them to keep their status no matter what the future brings. An advertising executive [30] ____ for depression shortly after winning an award put it this way: \"Without my depression, I'd be a failure now; with it, I'm a success 'on hold.'\"\n\nIn fact, the people most likely to become chronic excuse makers are those [31] ____ with success. Such people are so afraid of being [32] ____ a failure at anything that they constantly develop one handicap or another in order to explain away failure.\n\nThough self-handicapping can be an effective way of coping with performance anxiety now and then, in the end, researchers say, it will lead to [33] ____ . In the long run, excuse makers fail to live up to their true [34] ____ and lose the status they care so much about. And despite their protests to the [35] ____ , they have only themselves to blame.",
+      "options": [
+        {
+          "id": "A",
+          "text": "contrary"
+        },
+        {
+          "id": "B",
+          "text": "fatigue"
+        },
+        {
+          "id": "C",
+          "text": "heavily"
+        },
+        {
+          "id": "D",
+          "text": "heaving"
+        },
+        {
+          "id": "E",
+          "text": "hospitalized"
+        },
+        {
+          "id": "F",
+          "text": "labeled"
+        },
+        {
+          "id": "G",
+          "text": "legacies"
+        },
+        {
+          "id": "H",
+          "text": "mastering"
+        },
+        {
+          "id": "I",
+          "text": "momentum"
+        },
+        {
+          "id": "J",
+          "text": "obsessed"
+        },
+        {
+          "id": "K",
+          "text": "potential"
+        },
+        {
+          "id": "L",
+          "text": "realms"
+        },
+        {
+          "id": "M",
+          "text": "reciprocal"
+        },
+        {
+          "id": "N",
+          "text": "ruin"
+        },
+        {
+          "id": "O",
+          "text": "viciously"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "先看第 27 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 C（heavily）。本空所在句：Several studies suggest that men feel the need to appear competent in all [26] ____ , while women worry only about the skills in which they've invested [27] ____ .\n将本空替换为 heavily 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-09-1-nonlistening-q28",
+      "canonicalId": "lazynote-cet6-2020-09-1-q28",
+      "number": 28,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 28 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Overall, men are more likely than women to make excuses. Several studies suggest that men feel the need to appear competent in all [26] ____ , while women worry only about the skills in which they've invested [27] ____ . Ask a man and a woman to go diving for the first time, and the woman is likely to jump in, while the man is likely to say he's not feeling too well.\n\nIronically, it is often success that leads people to flirt with failure. Praise won for [28] ____ a skill suddenly puts one in the position of having everything to lose. Rather than putting their reputation on the line again, many successful people develop a handicap—drinking, [29] ____ , depression—that allows them to keep their status no matter what the future brings. An advertising executive [30] ____ for depression shortly after winning an award put it this way: \"Without my depression, I'd be a failure now; with it, I'm a success 'on hold.'\"\n\nIn fact, the people most likely to become chronic excuse makers are those [31] ____ with success. Such people are so afraid of being [32] ____ a failure at anything that they constantly develop one handicap or another in order to explain away failure.\n\nThough self-handicapping can be an effective way of coping with performance anxiety now and then, in the end, researchers say, it will lead to [33] ____ . In the long run, excuse makers fail to live up to their true [34] ____ and lose the status they care so much about. And despite their protests to the [35] ____ , they have only themselves to blame.",
+      "options": [
+        {
+          "id": "A",
+          "text": "contrary"
+        },
+        {
+          "id": "B",
+          "text": "fatigue"
+        },
+        {
+          "id": "C",
+          "text": "heavily"
+        },
+        {
+          "id": "D",
+          "text": "heaving"
+        },
+        {
+          "id": "E",
+          "text": "hospitalized"
+        },
+        {
+          "id": "F",
+          "text": "labeled"
+        },
+        {
+          "id": "G",
+          "text": "legacies"
+        },
+        {
+          "id": "H",
+          "text": "mastering"
+        },
+        {
+          "id": "I",
+          "text": "momentum"
+        },
+        {
+          "id": "J",
+          "text": "obsessed"
+        },
+        {
+          "id": "K",
+          "text": "potential"
+        },
+        {
+          "id": "L",
+          "text": "realms"
+        },
+        {
+          "id": "M",
+          "text": "reciprocal"
+        },
+        {
+          "id": "N",
+          "text": "ruin"
+        },
+        {
+          "id": "O",
+          "text": "viciously"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "先看第 28 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 H（mastering）。本空所在句：Praise won for [28] ____ a skill suddenly puts one in the position of having everything to lose.\n将本空替换为 mastering 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-09-1-nonlistening-q29",
+      "canonicalId": "lazynote-cet6-2020-09-1-q29",
+      "number": 29,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 29 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Overall, men are more likely than women to make excuses. Several studies suggest that men feel the need to appear competent in all [26] ____ , while women worry only about the skills in which they've invested [27] ____ . Ask a man and a woman to go diving for the first time, and the woman is likely to jump in, while the man is likely to say he's not feeling too well.\n\nIronically, it is often success that leads people to flirt with failure. Praise won for [28] ____ a skill suddenly puts one in the position of having everything to lose. Rather than putting their reputation on the line again, many successful people develop a handicap—drinking, [29] ____ , depression—that allows them to keep their status no matter what the future brings. An advertising executive [30] ____ for depression shortly after winning an award put it this way: \"Without my depression, I'd be a failure now; with it, I'm a success 'on hold.'\"\n\nIn fact, the people most likely to become chronic excuse makers are those [31] ____ with success. Such people are so afraid of being [32] ____ a failure at anything that they constantly develop one handicap or another in order to explain away failure.\n\nThough self-handicapping can be an effective way of coping with performance anxiety now and then, in the end, researchers say, it will lead to [33] ____ . In the long run, excuse makers fail to live up to their true [34] ____ and lose the status they care so much about. And despite their protests to the [35] ____ , they have only themselves to blame.",
+      "options": [
+        {
+          "id": "A",
+          "text": "contrary"
+        },
+        {
+          "id": "B",
+          "text": "fatigue"
+        },
+        {
+          "id": "C",
+          "text": "heavily"
+        },
+        {
+          "id": "D",
+          "text": "heaving"
+        },
+        {
+          "id": "E",
+          "text": "hospitalized"
+        },
+        {
+          "id": "F",
+          "text": "labeled"
+        },
+        {
+          "id": "G",
+          "text": "legacies"
+        },
+        {
+          "id": "H",
+          "text": "mastering"
+        },
+        {
+          "id": "I",
+          "text": "momentum"
+        },
+        {
+          "id": "J",
+          "text": "obsessed"
+        },
+        {
+          "id": "K",
+          "text": "potential"
+        },
+        {
+          "id": "L",
+          "text": "realms"
+        },
+        {
+          "id": "M",
+          "text": "reciprocal"
+        },
+        {
+          "id": "N",
+          "text": "ruin"
+        },
+        {
+          "id": "O",
+          "text": "viciously"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "先看第 29 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 B（fatigue）。本空所在句：Rather than putting their reputation on the line again, many successful people develop a handicap—drinking, [29] ____ , depression—that allows them to keep their status no matter what the future brings.\n将本空替换为 fatigue 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-09-1-nonlistening-q30",
+      "canonicalId": "lazynote-cet6-2020-09-1-q30",
+      "number": 30,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 30 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Overall, men are more likely than women to make excuses. Several studies suggest that men feel the need to appear competent in all [26] ____ , while women worry only about the skills in which they've invested [27] ____ . Ask a man and a woman to go diving for the first time, and the woman is likely to jump in, while the man is likely to say he's not feeling too well.\n\nIronically, it is often success that leads people to flirt with failure. Praise won for [28] ____ a skill suddenly puts one in the position of having everything to lose. Rather than putting their reputation on the line again, many successful people develop a handicap—drinking, [29] ____ , depression—that allows them to keep their status no matter what the future brings. An advertising executive [30] ____ for depression shortly after winning an award put it this way: \"Without my depression, I'd be a failure now; with it, I'm a success 'on hold.'\"\n\nIn fact, the people most likely to become chronic excuse makers are those [31] ____ with success. Such people are so afraid of being [32] ____ a failure at anything that they constantly develop one handicap or another in order to explain away failure.\n\nThough self-handicapping can be an effective way of coping with performance anxiety now and then, in the end, researchers say, it will lead to [33] ____ . In the long run, excuse makers fail to live up to their true [34] ____ and lose the status they care so much about. And despite their protests to the [35] ____ , they have only themselves to blame.",
+      "options": [
+        {
+          "id": "A",
+          "text": "contrary"
+        },
+        {
+          "id": "B",
+          "text": "fatigue"
+        },
+        {
+          "id": "C",
+          "text": "heavily"
+        },
+        {
+          "id": "D",
+          "text": "heaving"
+        },
+        {
+          "id": "E",
+          "text": "hospitalized"
+        },
+        {
+          "id": "F",
+          "text": "labeled"
+        },
+        {
+          "id": "G",
+          "text": "legacies"
+        },
+        {
+          "id": "H",
+          "text": "mastering"
+        },
+        {
+          "id": "I",
+          "text": "momentum"
+        },
+        {
+          "id": "J",
+          "text": "obsessed"
+        },
+        {
+          "id": "K",
+          "text": "potential"
+        },
+        {
+          "id": "L",
+          "text": "realms"
+        },
+        {
+          "id": "M",
+          "text": "reciprocal"
+        },
+        {
+          "id": "N",
+          "text": "ruin"
+        },
+        {
+          "id": "O",
+          "text": "viciously"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "先看第 30 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 E（hospitalized）。本空所在句：An advertising executive [30] ____ for depression shortly after winning an award put it this way: \"Without my depression, I'd be a failure now; with it, I'm a success 'on hold.'\"\n将本空替换为 hospitalized 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-09-1-nonlistening-q31",
+      "canonicalId": "lazynote-cet6-2020-09-1-q31",
+      "number": 31,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 31 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Overall, men are more likely than women to make excuses. Several studies suggest that men feel the need to appear competent in all [26] ____ , while women worry only about the skills in which they've invested [27] ____ . Ask a man and a woman to go diving for the first time, and the woman is likely to jump in, while the man is likely to say he's not feeling too well.\n\nIronically, it is often success that leads people to flirt with failure. Praise won for [28] ____ a skill suddenly puts one in the position of having everything to lose. Rather than putting their reputation on the line again, many successful people develop a handicap—drinking, [29] ____ , depression—that allows them to keep their status no matter what the future brings. An advertising executive [30] ____ for depression shortly after winning an award put it this way: \"Without my depression, I'd be a failure now; with it, I'm a success 'on hold.'\"\n\nIn fact, the people most likely to become chronic excuse makers are those [31] ____ with success. Such people are so afraid of being [32] ____ a failure at anything that they constantly develop one handicap or another in order to explain away failure.\n\nThough self-handicapping can be an effective way of coping with performance anxiety now and then, in the end, researchers say, it will lead to [33] ____ . In the long run, excuse makers fail to live up to their true [34] ____ and lose the status they care so much about. And despite their protests to the [35] ____ , they have only themselves to blame.",
+      "options": [
+        {
+          "id": "A",
+          "text": "contrary"
+        },
+        {
+          "id": "B",
+          "text": "fatigue"
+        },
+        {
+          "id": "C",
+          "text": "heavily"
+        },
+        {
+          "id": "D",
+          "text": "heaving"
+        },
+        {
+          "id": "E",
+          "text": "hospitalized"
+        },
+        {
+          "id": "F",
+          "text": "labeled"
+        },
+        {
+          "id": "G",
+          "text": "legacies"
+        },
+        {
+          "id": "H",
+          "text": "mastering"
+        },
+        {
+          "id": "I",
+          "text": "momentum"
+        },
+        {
+          "id": "J",
+          "text": "obsessed"
+        },
+        {
+          "id": "K",
+          "text": "potential"
+        },
+        {
+          "id": "L",
+          "text": "realms"
+        },
+        {
+          "id": "M",
+          "text": "reciprocal"
+        },
+        {
+          "id": "N",
+          "text": "ruin"
+        },
+        {
+          "id": "O",
+          "text": "viciously"
+        }
+      ],
+      "correctAnswer": "J",
+      "hint": "先看第 31 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 J（obsessed）。本空所在句：In fact, the people most likely to become chronic excuse makers are those [31] ____ with success.\n将本空替换为 obsessed 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-09-1-nonlistening-q32",
+      "canonicalId": "lazynote-cet6-2020-09-1-q32",
+      "number": 32,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 32 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Overall, men are more likely than women to make excuses. Several studies suggest that men feel the need to appear competent in all [26] ____ , while women worry only about the skills in which they've invested [27] ____ . Ask a man and a woman to go diving for the first time, and the woman is likely to jump in, while the man is likely to say he's not feeling too well.\n\nIronically, it is often success that leads people to flirt with failure. Praise won for [28] ____ a skill suddenly puts one in the position of having everything to lose. Rather than putting their reputation on the line again, many successful people develop a handicap—drinking, [29] ____ , depression—that allows them to keep their status no matter what the future brings. An advertising executive [30] ____ for depression shortly after winning an award put it this way: \"Without my depression, I'd be a failure now; with it, I'm a success 'on hold.'\"\n\nIn fact, the people most likely to become chronic excuse makers are those [31] ____ with success. Such people are so afraid of being [32] ____ a failure at anything that they constantly develop one handicap or another in order to explain away failure.\n\nThough self-handicapping can be an effective way of coping with performance anxiety now and then, in the end, researchers say, it will lead to [33] ____ . In the long run, excuse makers fail to live up to their true [34] ____ and lose the status they care so much about. And despite their protests to the [35] ____ , they have only themselves to blame.",
+      "options": [
+        {
+          "id": "A",
+          "text": "contrary"
+        },
+        {
+          "id": "B",
+          "text": "fatigue"
+        },
+        {
+          "id": "C",
+          "text": "heavily"
+        },
+        {
+          "id": "D",
+          "text": "heaving"
+        },
+        {
+          "id": "E",
+          "text": "hospitalized"
+        },
+        {
+          "id": "F",
+          "text": "labeled"
+        },
+        {
+          "id": "G",
+          "text": "legacies"
+        },
+        {
+          "id": "H",
+          "text": "mastering"
+        },
+        {
+          "id": "I",
+          "text": "momentum"
+        },
+        {
+          "id": "J",
+          "text": "obsessed"
+        },
+        {
+          "id": "K",
+          "text": "potential"
+        },
+        {
+          "id": "L",
+          "text": "realms"
+        },
+        {
+          "id": "M",
+          "text": "reciprocal"
+        },
+        {
+          "id": "N",
+          "text": "ruin"
+        },
+        {
+          "id": "O",
+          "text": "viciously"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "先看第 32 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 F（labeled）。本空所在句：Such people are so afraid of being [32] ____ a failure at anything that they constantly develop one handicap or another in order to explain away failure.\n将本空替换为 labeled 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-09-1-nonlistening-q33",
+      "canonicalId": "lazynote-cet6-2020-09-1-q33",
+      "number": 33,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 33 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Overall, men are more likely than women to make excuses. Several studies suggest that men feel the need to appear competent in all [26] ____ , while women worry only about the skills in which they've invested [27] ____ . Ask a man and a woman to go diving for the first time, and the woman is likely to jump in, while the man is likely to say he's not feeling too well.\n\nIronically, it is often success that leads people to flirt with failure. Praise won for [28] ____ a skill suddenly puts one in the position of having everything to lose. Rather than putting their reputation on the line again, many successful people develop a handicap—drinking, [29] ____ , depression—that allows them to keep their status no matter what the future brings. An advertising executive [30] ____ for depression shortly after winning an award put it this way: \"Without my depression, I'd be a failure now; with it, I'm a success 'on hold.'\"\n\nIn fact, the people most likely to become chronic excuse makers are those [31] ____ with success. Such people are so afraid of being [32] ____ a failure at anything that they constantly develop one handicap or another in order to explain away failure.\n\nThough self-handicapping can be an effective way of coping with performance anxiety now and then, in the end, researchers say, it will lead to [33] ____ . In the long run, excuse makers fail to live up to their true [34] ____ and lose the status they care so much about. And despite their protests to the [35] ____ , they have only themselves to blame.",
+      "options": [
+        {
+          "id": "A",
+          "text": "contrary"
+        },
+        {
+          "id": "B",
+          "text": "fatigue"
+        },
+        {
+          "id": "C",
+          "text": "heavily"
+        },
+        {
+          "id": "D",
+          "text": "heaving"
+        },
+        {
+          "id": "E",
+          "text": "hospitalized"
+        },
+        {
+          "id": "F",
+          "text": "labeled"
+        },
+        {
+          "id": "G",
+          "text": "legacies"
+        },
+        {
+          "id": "H",
+          "text": "mastering"
+        },
+        {
+          "id": "I",
+          "text": "momentum"
+        },
+        {
+          "id": "J",
+          "text": "obsessed"
+        },
+        {
+          "id": "K",
+          "text": "potential"
+        },
+        {
+          "id": "L",
+          "text": "realms"
+        },
+        {
+          "id": "M",
+          "text": "reciprocal"
+        },
+        {
+          "id": "N",
+          "text": "ruin"
+        },
+        {
+          "id": "O",
+          "text": "viciously"
+        }
+      ],
+      "correctAnswer": "N",
+      "hint": "先看第 33 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 N（ruin）。本空所在句：Though self-handicapping can be an effective way of coping with performance anxiety now and then, in the end, researchers say, it will lead to [33] ____ .\n将本空替换为 ruin 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-09-1-nonlistening-q34",
+      "canonicalId": "lazynote-cet6-2020-09-1-q34",
+      "number": 34,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 34 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Overall, men are more likely than women to make excuses. Several studies suggest that men feel the need to appear competent in all [26] ____ , while women worry only about the skills in which they've invested [27] ____ . Ask a man and a woman to go diving for the first time, and the woman is likely to jump in, while the man is likely to say he's not feeling too well.\n\nIronically, it is often success that leads people to flirt with failure. Praise won for [28] ____ a skill suddenly puts one in the position of having everything to lose. Rather than putting their reputation on the line again, many successful people develop a handicap—drinking, [29] ____ , depression—that allows them to keep their status no matter what the future brings. An advertising executive [30] ____ for depression shortly after winning an award put it this way: \"Without my depression, I'd be a failure now; with it, I'm a success 'on hold.'\"\n\nIn fact, the people most likely to become chronic excuse makers are those [31] ____ with success. Such people are so afraid of being [32] ____ a failure at anything that they constantly develop one handicap or another in order to explain away failure.\n\nThough self-handicapping can be an effective way of coping with performance anxiety now and then, in the end, researchers say, it will lead to [33] ____ . In the long run, excuse makers fail to live up to their true [34] ____ and lose the status they care so much about. And despite their protests to the [35] ____ , they have only themselves to blame.",
+      "options": [
+        {
+          "id": "A",
+          "text": "contrary"
+        },
+        {
+          "id": "B",
+          "text": "fatigue"
+        },
+        {
+          "id": "C",
+          "text": "heavily"
+        },
+        {
+          "id": "D",
+          "text": "heaving"
+        },
+        {
+          "id": "E",
+          "text": "hospitalized"
+        },
+        {
+          "id": "F",
+          "text": "labeled"
+        },
+        {
+          "id": "G",
+          "text": "legacies"
+        },
+        {
+          "id": "H",
+          "text": "mastering"
+        },
+        {
+          "id": "I",
+          "text": "momentum"
+        },
+        {
+          "id": "J",
+          "text": "obsessed"
+        },
+        {
+          "id": "K",
+          "text": "potential"
+        },
+        {
+          "id": "L",
+          "text": "realms"
+        },
+        {
+          "id": "M",
+          "text": "reciprocal"
+        },
+        {
+          "id": "N",
+          "text": "ruin"
+        },
+        {
+          "id": "O",
+          "text": "viciously"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "先看第 34 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 K（potential）。本空所在句：In the long run, excuse makers fail to live up to their true [34] ____ and lose the status they care so much about.\n将本空替换为 potential 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-09-1-nonlistening-q35",
+      "canonicalId": "lazynote-cet6-2020-09-1-q35",
+      "number": 35,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 35 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Overall, men are more likely than women to make excuses. Several studies suggest that men feel the need to appear competent in all [26] ____ , while women worry only about the skills in which they've invested [27] ____ . Ask a man and a woman to go diving for the first time, and the woman is likely to jump in, while the man is likely to say he's not feeling too well.\n\nIronically, it is often success that leads people to flirt with failure. Praise won for [28] ____ a skill suddenly puts one in the position of having everything to lose. Rather than putting their reputation on the line again, many successful people develop a handicap—drinking, [29] ____ , depression—that allows them to keep their status no matter what the future brings. An advertising executive [30] ____ for depression shortly after winning an award put it this way: \"Without my depression, I'd be a failure now; with it, I'm a success 'on hold.'\"\n\nIn fact, the people most likely to become chronic excuse makers are those [31] ____ with success. Such people are so afraid of being [32] ____ a failure at anything that they constantly develop one handicap or another in order to explain away failure.\n\nThough self-handicapping can be an effective way of coping with performance anxiety now and then, in the end, researchers say, it will lead to [33] ____ . In the long run, excuse makers fail to live up to their true [34] ____ and lose the status they care so much about. And despite their protests to the [35] ____ , they have only themselves to blame.",
+      "options": [
+        {
+          "id": "A",
+          "text": "contrary"
+        },
+        {
+          "id": "B",
+          "text": "fatigue"
+        },
+        {
+          "id": "C",
+          "text": "heavily"
+        },
+        {
+          "id": "D",
+          "text": "heaving"
+        },
+        {
+          "id": "E",
+          "text": "hospitalized"
+        },
+        {
+          "id": "F",
+          "text": "labeled"
+        },
+        {
+          "id": "G",
+          "text": "legacies"
+        },
+        {
+          "id": "H",
+          "text": "mastering"
+        },
+        {
+          "id": "I",
+          "text": "momentum"
+        },
+        {
+          "id": "J",
+          "text": "obsessed"
+        },
+        {
+          "id": "K",
+          "text": "potential"
+        },
+        {
+          "id": "L",
+          "text": "realms"
+        },
+        {
+          "id": "M",
+          "text": "reciprocal"
+        },
+        {
+          "id": "N",
+          "text": "ruin"
+        },
+        {
+          "id": "O",
+          "text": "viciously"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "先看第 35 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 A（contrary）。本空所在句：And despite their protests to the [35] ____ , they have only themselves to blame.\n将本空替换为 contrary 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-09-1-nonlistening-q36",
+      "canonicalId": "lazynote-cet6-2020-09-1-q36",
+      "number": 36,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "A study found that there are similar changes in brain structure between those who are bilingual from birth and those who start learning a second language later.",
+      "passage": "Six Potential Brain Benefits of Bilingual Education\n\nA) Brains, brains, brains. People are fascinated by brain research. And yet it can be hard to point to places where our education system is really making use of the latest neuroscience(神经科学) findings. But there is one happy link where research is meeting practice: bilingual(双语的) education. \"In the last 20 years or so, there's been a virtual explosion of research on bilingualism,\" says Judith Kroll, a professor at the University of California, Riverside.\n\nB) Again and again, researchers have found, \"bilingualism is an experience that shapes our brain for life,\" in the words of Gigi Luk, an associate professor at Harvard's Graduate School of Education. At the same time, one of the hottest trends in public schooling is what's often called dual-language or two-way immersion programs.\n\nC) Traditional programs for English-language learners, or ELLs, focus on assimilating students into English as quickly as possible. Dual-language classrooms, by contrast, provide instruction across subjects to both English natives and English learners, in both English and a target language. The goal is functional bilingualism and biliteracy for all students by middle school. New York City, North Carolina, Delaware, Utah, Oregon and Washington state are among the places expanding dual-language classrooms.\n\nD) The trend flies in the face of some of the culture wars of two decades ago, when advocates insisted on \"English first\" education. Most famously, California passed Proposition 227 in 1998. It was intended to sharply reduce the amount of time that English-language learners spent in bilingual settings. Proposition 58, passed by California voters on November 8, largely reversed that decision, paving the way for a huge expansion of bilingual education in the state that has the largest population of English-language learners.\n\nE) Some of the insistence on English-first was founded on research produced decades ago, in which bilingual students underperformed monolingual(单语的) English speakers and had lower IQ scores. Today's scholars, like Ellen Bialystok at York University in Toronto, say that research was \"deeply flawed.\" \"Earlier research looked at socially disadvantaged groups,\" agrees Antonella Sorace at the University of Edinburgh in Scotland. \"This has been completely contradicted by recent research\" that compares groups more similar to each other.\n\nF) So what does recent research say about the potential benefits of bilingual education? It turns out that, in many ways, the real trick to speaking two languages consists in managing not to speak one of those languages at a given moment—which is fundamentally a feat of paying attention. Saying \"Goodbye\" to mom and then \"Guten tag\" to your teacher, or managing to ask for a crayola roja instead of a red crayon(蜡笔), requires skills called \"inhibition\" and \"task switching.\" These skills are subsets of an ability called executive function.\n\nG) People who speak two languages often outperform monolinguals on general measures of executive function. \"Bilinguals can pay focused attention without being distracted and also improve in the ability to switch from one task to another,\" says Sorace.\n\nH) Do these same advantages benefit a child who begins learning a second language in kindergarten instead of as a baby? We don't yet know. Patterns of language learning and language use are complex. But Gigi Luk at Harvard cites at least one brain-imaging study on adolescents that shows similar changes in brain structure when compared with those who are bilingual from birth, even when they didn't begin practicing a second language in earnest before late childhood.\n\nI) Young children being raised bilingual have to follow social cues to figure out which language to use with which person and in what setting. As a result, says Sorace, bilingual children as young as age 3 have demonstrated a head start on tests of perspective-taking and theory of mind—both of which are fundamental social and emotional skills.\n\nJ) About 10 percent of students in the Portland, Oregon public schools are assigned by lottery to dual-language classrooms that offer instruction in Spanish, Japanese or Mandarin, alongside English. Jennifer Steele at American University conducted a four-year, randomized trial and found that the dual-language students outperformed their peers in English-reading skills by a full school-year's worth of learning by the end of middle school. Because the effects are found in reading, not in math or science where there were few differences, Steele suggests that learning two languages make students more aware of how language works in general.\n\nK) The research of Gigi Luk at Harvard offers a slightly different explanation. She has recently done a small study looking at a group of 100 fourth-graders in Massachusetts who had similar reading scores on a standard test, but very different language experiences. Some were foreign-language dominant and others were English natives. Here's what's interesting. The students who were dominant in a foreign language weren't yet comfortably bilingual; they were just starting to learn English. Therefore, by definition, they had a much weaker English vocabulary than the native speakers. Yet they were just as good at interpreting a text. \"This is very surprising,\" Luk says. \"You would expect the reading comprehension performance to mirror the vocabulary—it's a cornerstone of comprehension.\"\n\nL) How did the foreign-language dominant speakers manage this feat? Well, Luk found, they also scored higher on tests of executive functioning. So, even though they didn't have huge mental dictionaries to draw on, they may have been great puzzle-solvers, taking into account higher-level concepts such as whether a single sentence made sense within an overall storyline. They got to the same results as the monolinguals, by a different path.\n\nM) American public school classrooms as a whole are becoming more segregated by race and class. Dual-language programs can be an exception. Because they are composed of native English speakers deliberately placed together with recent immigrants, they tend to be more ethnically and economically balanced. And there is some evidence that this helps kids of all backgrounds gain comfort with diversity and different cultures.\n\nN) Several of the researchers also pointed out that, in bilingual education, non-English-dominant students and their families tend to feel that their home language is heard and valued, compared with a classroom where the home language is left at the door in favor of English. This can improve students' sense of belonging and increase parents' involvement in their children's education, including behaviors like reading to children. \"Many parents fear their language is an obstacle, a problem, and if they abandon it their child will integrate better,\" says Antonella Sorace of the University of Edinburgh. \"We tell them they're not doing their child a favor by giving up their language.\"\n\nO) One theme that was striking in speaking to all these researchers was just how strongly they advocated for dual-language classrooms. Thomas and Collier have advised many school systems on how to expand their dual language programs, and Sorace runs \"Bilingualism Matters,\" an international network of researchers who promote bilingual education projects. This type of advocacy among scientists is unusual; even more so because the \"bilingual advantage hypothesis\" is being challenged once again.\n\nP) A review of studies published last year found that cognitive advantages failed to appear in 83 percent of published studies, though in a separate analysis, the sum of effects was still significantly positive. One potential explanation offered by the researchers is that advantages that are measurable in the very young and very old tend to fade when testing young adults at the peak of their cognitive powers. And, they countered that no negative effects of bilingual education have been found. So, even if the advantages are small, they are still worth it. Not to mention one obvious, outstanding fact: \"Bilingual children can speak two languages!\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 H 段。题干：A study found that there are similar changes in brain structure between those who are bilingual from birth and those who start learning a second language later.\n核对该段原文：Do these same advantages benefit a child who begins learning a second language in kindergarten instead of as a baby? We don't yet know. Patterns of language learning and language use are complex. But Gigi Luk at Harvard cites at least one brain-imaging study on adolescents that shows similar changes in brain structure when compared with those who are bilingual from birth, even when they didn't begin practicing a second language in earnest before late childhood.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-09-1-nonlistening-q37",
+      "canonicalId": "lazynote-cet6-2020-09-1-q37",
+      "number": 37,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Unlike traditional monolingual programs, bilingual classrooms aim at developing students' ability to use two languages by middle school.",
+      "passage": "Six Potential Brain Benefits of Bilingual Education\n\nA) Brains, brains, brains. People are fascinated by brain research. And yet it can be hard to point to places where our education system is really making use of the latest neuroscience(神经科学) findings. But there is one happy link where research is meeting practice: bilingual(双语的) education. \"In the last 20 years or so, there's been a virtual explosion of research on bilingualism,\" says Judith Kroll, a professor at the University of California, Riverside.\n\nB) Again and again, researchers have found, \"bilingualism is an experience that shapes our brain for life,\" in the words of Gigi Luk, an associate professor at Harvard's Graduate School of Education. At the same time, one of the hottest trends in public schooling is what's often called dual-language or two-way immersion programs.\n\nC) Traditional programs for English-language learners, or ELLs, focus on assimilating students into English as quickly as possible. Dual-language classrooms, by contrast, provide instruction across subjects to both English natives and English learners, in both English and a target language. The goal is functional bilingualism and biliteracy for all students by middle school. New York City, North Carolina, Delaware, Utah, Oregon and Washington state are among the places expanding dual-language classrooms.\n\nD) The trend flies in the face of some of the culture wars of two decades ago, when advocates insisted on \"English first\" education. Most famously, California passed Proposition 227 in 1998. It was intended to sharply reduce the amount of time that English-language learners spent in bilingual settings. Proposition 58, passed by California voters on November 8, largely reversed that decision, paving the way for a huge expansion of bilingual education in the state that has the largest population of English-language learners.\n\nE) Some of the insistence on English-first was founded on research produced decades ago, in which bilingual students underperformed monolingual(单语的) English speakers and had lower IQ scores. Today's scholars, like Ellen Bialystok at York University in Toronto, say that research was \"deeply flawed.\" \"Earlier research looked at socially disadvantaged groups,\" agrees Antonella Sorace at the University of Edinburgh in Scotland. \"This has been completely contradicted by recent research\" that compares groups more similar to each other.\n\nF) So what does recent research say about the potential benefits of bilingual education? It turns out that, in many ways, the real trick to speaking two languages consists in managing not to speak one of those languages at a given moment—which is fundamentally a feat of paying attention. Saying \"Goodbye\" to mom and then \"Guten tag\" to your teacher, or managing to ask for a crayola roja instead of a red crayon(蜡笔), requires skills called \"inhibition\" and \"task switching.\" These skills are subsets of an ability called executive function.\n\nG) People who speak two languages often outperform monolinguals on general measures of executive function. \"Bilinguals can pay focused attention without being distracted and also improve in the ability to switch from one task to another,\" says Sorace.\n\nH) Do these same advantages benefit a child who begins learning a second language in kindergarten instead of as a baby? We don't yet know. Patterns of language learning and language use are complex. But Gigi Luk at Harvard cites at least one brain-imaging study on adolescents that shows similar changes in brain structure when compared with those who are bilingual from birth, even when they didn't begin practicing a second language in earnest before late childhood.\n\nI) Young children being raised bilingual have to follow social cues to figure out which language to use with which person and in what setting. As a result, says Sorace, bilingual children as young as age 3 have demonstrated a head start on tests of perspective-taking and theory of mind—both of which are fundamental social and emotional skills.\n\nJ) About 10 percent of students in the Portland, Oregon public schools are assigned by lottery to dual-language classrooms that offer instruction in Spanish, Japanese or Mandarin, alongside English. Jennifer Steele at American University conducted a four-year, randomized trial and found that the dual-language students outperformed their peers in English-reading skills by a full school-year's worth of learning by the end of middle school. Because the effects are found in reading, not in math or science where there were few differences, Steele suggests that learning two languages make students more aware of how language works in general.\n\nK) The research of Gigi Luk at Harvard offers a slightly different explanation. She has recently done a small study looking at a group of 100 fourth-graders in Massachusetts who had similar reading scores on a standard test, but very different language experiences. Some were foreign-language dominant and others were English natives. Here's what's interesting. The students who were dominant in a foreign language weren't yet comfortably bilingual; they were just starting to learn English. Therefore, by definition, they had a much weaker English vocabulary than the native speakers. Yet they were just as good at interpreting a text. \"This is very surprising,\" Luk says. \"You would expect the reading comprehension performance to mirror the vocabulary—it's a cornerstone of comprehension.\"\n\nL) How did the foreign-language dominant speakers manage this feat? Well, Luk found, they also scored higher on tests of executive functioning. So, even though they didn't have huge mental dictionaries to draw on, they may have been great puzzle-solvers, taking into account higher-level concepts such as whether a single sentence made sense within an overall storyline. They got to the same results as the monolinguals, by a different path.\n\nM) American public school classrooms as a whole are becoming more segregated by race and class. Dual-language programs can be an exception. Because they are composed of native English speakers deliberately placed together with recent immigrants, they tend to be more ethnically and economically balanced. And there is some evidence that this helps kids of all backgrounds gain comfort with diversity and different cultures.\n\nN) Several of the researchers also pointed out that, in bilingual education, non-English-dominant students and their families tend to feel that their home language is heard and valued, compared with a classroom where the home language is left at the door in favor of English. This can improve students' sense of belonging and increase parents' involvement in their children's education, including behaviors like reading to children. \"Many parents fear their language is an obstacle, a problem, and if they abandon it their child will integrate better,\" says Antonella Sorace of the University of Edinburgh. \"We tell them they're not doing their child a favor by giving up their language.\"\n\nO) One theme that was striking in speaking to all these researchers was just how strongly they advocated for dual-language classrooms. Thomas and Collier have advised many school systems on how to expand their dual language programs, and Sorace runs \"Bilingualism Matters,\" an international network of researchers who promote bilingual education projects. This type of advocacy among scientists is unusual; even more so because the \"bilingual advantage hypothesis\" is being challenged once again.\n\nP) A review of studies published last year found that cognitive advantages failed to appear in 83 percent of published studies, though in a separate analysis, the sum of effects was still significantly positive. One potential explanation offered by the researchers is that advantages that are measurable in the very young and very old tend to fade when testing young adults at the peak of their cognitive powers. And, they countered that no negative effects of bilingual education have been found. So, even if the advantages are small, they are still worth it. Not to mention one obvious, outstanding fact: \"Bilingual children can speak two languages!\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 C 段。题干：Unlike traditional monolingual programs, bilingual classrooms aim at developing students' ability to use two languages by middle school.\n核对该段原文：Traditional programs for English-language learners, or ELLs, focus on assimilating students into English as quickly as possible. Dual-language classrooms, by contrast, provide instruction across subjects to both English natives and English learners, in both English and a target language. The goal is functional bilingualism and biliteracy for all students by middle school. New York City, North Carolina, Delaware, Utah, Oregon and Washington state are among the places expanding dual-language classrooms.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-09-1-nonlistening-q38",
+      "canonicalId": "lazynote-cet6-2020-09-1-q38",
+      "number": 38,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "A study showed that dual-language students did significantly better than their peers in reading English texts.",
+      "passage": "Six Potential Brain Benefits of Bilingual Education\n\nA) Brains, brains, brains. People are fascinated by brain research. And yet it can be hard to point to places where our education system is really making use of the latest neuroscience(神经科学) findings. But there is one happy link where research is meeting practice: bilingual(双语的) education. \"In the last 20 years or so, there's been a virtual explosion of research on bilingualism,\" says Judith Kroll, a professor at the University of California, Riverside.\n\nB) Again and again, researchers have found, \"bilingualism is an experience that shapes our brain for life,\" in the words of Gigi Luk, an associate professor at Harvard's Graduate School of Education. At the same time, one of the hottest trends in public schooling is what's often called dual-language or two-way immersion programs.\n\nC) Traditional programs for English-language learners, or ELLs, focus on assimilating students into English as quickly as possible. Dual-language classrooms, by contrast, provide instruction across subjects to both English natives and English learners, in both English and a target language. The goal is functional bilingualism and biliteracy for all students by middle school. New York City, North Carolina, Delaware, Utah, Oregon and Washington state are among the places expanding dual-language classrooms.\n\nD) The trend flies in the face of some of the culture wars of two decades ago, when advocates insisted on \"English first\" education. Most famously, California passed Proposition 227 in 1998. It was intended to sharply reduce the amount of time that English-language learners spent in bilingual settings. Proposition 58, passed by California voters on November 8, largely reversed that decision, paving the way for a huge expansion of bilingual education in the state that has the largest population of English-language learners.\n\nE) Some of the insistence on English-first was founded on research produced decades ago, in which bilingual students underperformed monolingual(单语的) English speakers and had lower IQ scores. Today's scholars, like Ellen Bialystok at York University in Toronto, say that research was \"deeply flawed.\" \"Earlier research looked at socially disadvantaged groups,\" agrees Antonella Sorace at the University of Edinburgh in Scotland. \"This has been completely contradicted by recent research\" that compares groups more similar to each other.\n\nF) So what does recent research say about the potential benefits of bilingual education? It turns out that, in many ways, the real trick to speaking two languages consists in managing not to speak one of those languages at a given moment—which is fundamentally a feat of paying attention. Saying \"Goodbye\" to mom and then \"Guten tag\" to your teacher, or managing to ask for a crayola roja instead of a red crayon(蜡笔), requires skills called \"inhibition\" and \"task switching.\" These skills are subsets of an ability called executive function.\n\nG) People who speak two languages often outperform monolinguals on general measures of executive function. \"Bilinguals can pay focused attention without being distracted and also improve in the ability to switch from one task to another,\" says Sorace.\n\nH) Do these same advantages benefit a child who begins learning a second language in kindergarten instead of as a baby? We don't yet know. Patterns of language learning and language use are complex. But Gigi Luk at Harvard cites at least one brain-imaging study on adolescents that shows similar changes in brain structure when compared with those who are bilingual from birth, even when they didn't begin practicing a second language in earnest before late childhood.\n\nI) Young children being raised bilingual have to follow social cues to figure out which language to use with which person and in what setting. As a result, says Sorace, bilingual children as young as age 3 have demonstrated a head start on tests of perspective-taking and theory of mind—both of which are fundamental social and emotional skills.\n\nJ) About 10 percent of students in the Portland, Oregon public schools are assigned by lottery to dual-language classrooms that offer instruction in Spanish, Japanese or Mandarin, alongside English. Jennifer Steele at American University conducted a four-year, randomized trial and found that the dual-language students outperformed their peers in English-reading skills by a full school-year's worth of learning by the end of middle school. Because the effects are found in reading, not in math or science where there were few differences, Steele suggests that learning two languages make students more aware of how language works in general.\n\nK) The research of Gigi Luk at Harvard offers a slightly different explanation. She has recently done a small study looking at a group of 100 fourth-graders in Massachusetts who had similar reading scores on a standard test, but very different language experiences. Some were foreign-language dominant and others were English natives. Here's what's interesting. The students who were dominant in a foreign language weren't yet comfortably bilingual; they were just starting to learn English. Therefore, by definition, they had a much weaker English vocabulary than the native speakers. Yet they were just as good at interpreting a text. \"This is very surprising,\" Luk says. \"You would expect the reading comprehension performance to mirror the vocabulary—it's a cornerstone of comprehension.\"\n\nL) How did the foreign-language dominant speakers manage this feat? Well, Luk found, they also scored higher on tests of executive functioning. So, even though they didn't have huge mental dictionaries to draw on, they may have been great puzzle-solvers, taking into account higher-level concepts such as whether a single sentence made sense within an overall storyline. They got to the same results as the monolinguals, by a different path.\n\nM) American public school classrooms as a whole are becoming more segregated by race and class. Dual-language programs can be an exception. Because they are composed of native English speakers deliberately placed together with recent immigrants, they tend to be more ethnically and economically balanced. And there is some evidence that this helps kids of all backgrounds gain comfort with diversity and different cultures.\n\nN) Several of the researchers also pointed out that, in bilingual education, non-English-dominant students and their families tend to feel that their home language is heard and valued, compared with a classroom where the home language is left at the door in favor of English. This can improve students' sense of belonging and increase parents' involvement in their children's education, including behaviors like reading to children. \"Many parents fear their language is an obstacle, a problem, and if they abandon it their child will integrate better,\" says Antonella Sorace of the University of Edinburgh. \"We tell them they're not doing their child a favor by giving up their language.\"\n\nO) One theme that was striking in speaking to all these researchers was just how strongly they advocated for dual-language classrooms. Thomas and Collier have advised many school systems on how to expand their dual language programs, and Sorace runs \"Bilingualism Matters,\" an international network of researchers who promote bilingual education projects. This type of advocacy among scientists is unusual; even more so because the \"bilingual advantage hypothesis\" is being challenged once again.\n\nP) A review of studies published last year found that cognitive advantages failed to appear in 83 percent of published studies, though in a separate analysis, the sum of effects was still significantly positive. One potential explanation offered by the researchers is that advantages that are measurable in the very young and very old tend to fade when testing young adults at the peak of their cognitive powers. And, they countered that no negative effects of bilingual education have been found. So, even if the advantages are small, they are still worth it. Not to mention one obvious, outstanding fact: \"Bilingual children can speak two languages!\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        }
+      ],
+      "correctAnswer": "J",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 J 段。题干：A study showed that dual-language students did significantly better than their peers in reading English texts.\n核对该段原文：About 10 percent of students in the Portland, Oregon public schools are assigned by lottery to dual-language classrooms that offer instruction in Spanish, Japanese or Mandarin, alongside English. Jennifer Steele at American University conducted a four-year, randomized trial and found that the dual-language students outperformed their peers in English-reading skills by a full school-year's worth of learning by the end of middle school. Because the effects are found in reading, not in math or science where there were few differences, Steele suggests that learning two languages make students more aware of how language works in general.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-09-1-nonlistening-q39",
+      "canonicalId": "lazynote-cet6-2020-09-1-q39",
+      "number": 39,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "About twenty years ago, bilingual practice was strongly discouraged, especially in California.",
+      "passage": "Six Potential Brain Benefits of Bilingual Education\n\nA) Brains, brains, brains. People are fascinated by brain research. And yet it can be hard to point to places where our education system is really making use of the latest neuroscience(神经科学) findings. But there is one happy link where research is meeting practice: bilingual(双语的) education. \"In the last 20 years or so, there's been a virtual explosion of research on bilingualism,\" says Judith Kroll, a professor at the University of California, Riverside.\n\nB) Again and again, researchers have found, \"bilingualism is an experience that shapes our brain for life,\" in the words of Gigi Luk, an associate professor at Harvard's Graduate School of Education. At the same time, one of the hottest trends in public schooling is what's often called dual-language or two-way immersion programs.\n\nC) Traditional programs for English-language learners, or ELLs, focus on assimilating students into English as quickly as possible. Dual-language classrooms, by contrast, provide instruction across subjects to both English natives and English learners, in both English and a target language. The goal is functional bilingualism and biliteracy for all students by middle school. New York City, North Carolina, Delaware, Utah, Oregon and Washington state are among the places expanding dual-language classrooms.\n\nD) The trend flies in the face of some of the culture wars of two decades ago, when advocates insisted on \"English first\" education. Most famously, California passed Proposition 227 in 1998. It was intended to sharply reduce the amount of time that English-language learners spent in bilingual settings. Proposition 58, passed by California voters on November 8, largely reversed that decision, paving the way for a huge expansion of bilingual education in the state that has the largest population of English-language learners.\n\nE) Some of the insistence on English-first was founded on research produced decades ago, in which bilingual students underperformed monolingual(单语的) English speakers and had lower IQ scores. Today's scholars, like Ellen Bialystok at York University in Toronto, say that research was \"deeply flawed.\" \"Earlier research looked at socially disadvantaged groups,\" agrees Antonella Sorace at the University of Edinburgh in Scotland. \"This has been completely contradicted by recent research\" that compares groups more similar to each other.\n\nF) So what does recent research say about the potential benefits of bilingual education? It turns out that, in many ways, the real trick to speaking two languages consists in managing not to speak one of those languages at a given moment—which is fundamentally a feat of paying attention. Saying \"Goodbye\" to mom and then \"Guten tag\" to your teacher, or managing to ask for a crayola roja instead of a red crayon(蜡笔), requires skills called \"inhibition\" and \"task switching.\" These skills are subsets of an ability called executive function.\n\nG) People who speak two languages often outperform monolinguals on general measures of executive function. \"Bilinguals can pay focused attention without being distracted and also improve in the ability to switch from one task to another,\" says Sorace.\n\nH) Do these same advantages benefit a child who begins learning a second language in kindergarten instead of as a baby? We don't yet know. Patterns of language learning and language use are complex. But Gigi Luk at Harvard cites at least one brain-imaging study on adolescents that shows similar changes in brain structure when compared with those who are bilingual from birth, even when they didn't begin practicing a second language in earnest before late childhood.\n\nI) Young children being raised bilingual have to follow social cues to figure out which language to use with which person and in what setting. As a result, says Sorace, bilingual children as young as age 3 have demonstrated a head start on tests of perspective-taking and theory of mind—both of which are fundamental social and emotional skills.\n\nJ) About 10 percent of students in the Portland, Oregon public schools are assigned by lottery to dual-language classrooms that offer instruction in Spanish, Japanese or Mandarin, alongside English. Jennifer Steele at American University conducted a four-year, randomized trial and found that the dual-language students outperformed their peers in English-reading skills by a full school-year's worth of learning by the end of middle school. Because the effects are found in reading, not in math or science where there were few differences, Steele suggests that learning two languages make students more aware of how language works in general.\n\nK) The research of Gigi Luk at Harvard offers a slightly different explanation. She has recently done a small study looking at a group of 100 fourth-graders in Massachusetts who had similar reading scores on a standard test, but very different language experiences. Some were foreign-language dominant and others were English natives. Here's what's interesting. The students who were dominant in a foreign language weren't yet comfortably bilingual; they were just starting to learn English. Therefore, by definition, they had a much weaker English vocabulary than the native speakers. Yet they were just as good at interpreting a text. \"This is very surprising,\" Luk says. \"You would expect the reading comprehension performance to mirror the vocabulary—it's a cornerstone of comprehension.\"\n\nL) How did the foreign-language dominant speakers manage this feat? Well, Luk found, they also scored higher on tests of executive functioning. So, even though they didn't have huge mental dictionaries to draw on, they may have been great puzzle-solvers, taking into account higher-level concepts such as whether a single sentence made sense within an overall storyline. They got to the same results as the monolinguals, by a different path.\n\nM) American public school classrooms as a whole are becoming more segregated by race and class. Dual-language programs can be an exception. Because they are composed of native English speakers deliberately placed together with recent immigrants, they tend to be more ethnically and economically balanced. And there is some evidence that this helps kids of all backgrounds gain comfort with diversity and different cultures.\n\nN) Several of the researchers also pointed out that, in bilingual education, non-English-dominant students and their families tend to feel that their home language is heard and valued, compared with a classroom where the home language is left at the door in favor of English. This can improve students' sense of belonging and increase parents' involvement in their children's education, including behaviors like reading to children. \"Many parents fear their language is an obstacle, a problem, and if they abandon it their child will integrate better,\" says Antonella Sorace of the University of Edinburgh. \"We tell them they're not doing their child a favor by giving up their language.\"\n\nO) One theme that was striking in speaking to all these researchers was just how strongly they advocated for dual-language classrooms. Thomas and Collier have advised many school systems on how to expand their dual language programs, and Sorace runs \"Bilingualism Matters,\" an international network of researchers who promote bilingual education projects. This type of advocacy among scientists is unusual; even more so because the \"bilingual advantage hypothesis\" is being challenged once again.\n\nP) A review of studies published last year found that cognitive advantages failed to appear in 83 percent of published studies, though in a separate analysis, the sum of effects was still significantly positive. One potential explanation offered by the researchers is that advantages that are measurable in the very young and very old tend to fade when testing young adults at the peak of their cognitive powers. And, they countered that no negative effects of bilingual education have been found. So, even if the advantages are small, they are still worth it. Not to mention one obvious, outstanding fact: \"Bilingual children can speak two languages!\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 D 段。题干：About twenty years ago, bilingual practice was strongly discouraged, especially in California.\n核对该段原文：The trend flies in the face of some of the culture wars of two decades ago, when advocates insisted on \"English first\" education. Most famously, California passed Proposition 227 in 1998. It was intended to sharply reduce the amount of time that English-language learners spent in bilingual settings. Proposition 58, passed by California voters on November 8, largely reversed that decision, paving the way for a huge expansion of bilingual education in the state that has the largest population of English-language learners.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-09-1-nonlistening-q40",
+      "canonicalId": "lazynote-cet6-2020-09-1-q40",
+      "number": 40,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Ethnically and economically balanced bilingual classrooms are found to be helpful for kids to get used to social and cultural diversity.",
+      "passage": "Six Potential Brain Benefits of Bilingual Education\n\nA) Brains, brains, brains. People are fascinated by brain research. And yet it can be hard to point to places where our education system is really making use of the latest neuroscience(神经科学) findings. But there is one happy link where research is meeting practice: bilingual(双语的) education. \"In the last 20 years or so, there's been a virtual explosion of research on bilingualism,\" says Judith Kroll, a professor at the University of California, Riverside.\n\nB) Again and again, researchers have found, \"bilingualism is an experience that shapes our brain for life,\" in the words of Gigi Luk, an associate professor at Harvard's Graduate School of Education. At the same time, one of the hottest trends in public schooling is what's often called dual-language or two-way immersion programs.\n\nC) Traditional programs for English-language learners, or ELLs, focus on assimilating students into English as quickly as possible. Dual-language classrooms, by contrast, provide instruction across subjects to both English natives and English learners, in both English and a target language. The goal is functional bilingualism and biliteracy for all students by middle school. New York City, North Carolina, Delaware, Utah, Oregon and Washington state are among the places expanding dual-language classrooms.\n\nD) The trend flies in the face of some of the culture wars of two decades ago, when advocates insisted on \"English first\" education. Most famously, California passed Proposition 227 in 1998. It was intended to sharply reduce the amount of time that English-language learners spent in bilingual settings. Proposition 58, passed by California voters on November 8, largely reversed that decision, paving the way for a huge expansion of bilingual education in the state that has the largest population of English-language learners.\n\nE) Some of the insistence on English-first was founded on research produced decades ago, in which bilingual students underperformed monolingual(单语的) English speakers and had lower IQ scores. Today's scholars, like Ellen Bialystok at York University in Toronto, say that research was \"deeply flawed.\" \"Earlier research looked at socially disadvantaged groups,\" agrees Antonella Sorace at the University of Edinburgh in Scotland. \"This has been completely contradicted by recent research\" that compares groups more similar to each other.\n\nF) So what does recent research say about the potential benefits of bilingual education? It turns out that, in many ways, the real trick to speaking two languages consists in managing not to speak one of those languages at a given moment—which is fundamentally a feat of paying attention. Saying \"Goodbye\" to mom and then \"Guten tag\" to your teacher, or managing to ask for a crayola roja instead of a red crayon(蜡笔), requires skills called \"inhibition\" and \"task switching.\" These skills are subsets of an ability called executive function.\n\nG) People who speak two languages often outperform monolinguals on general measures of executive function. \"Bilinguals can pay focused attention without being distracted and also improve in the ability to switch from one task to another,\" says Sorace.\n\nH) Do these same advantages benefit a child who begins learning a second language in kindergarten instead of as a baby? We don't yet know. Patterns of language learning and language use are complex. But Gigi Luk at Harvard cites at least one brain-imaging study on adolescents that shows similar changes in brain structure when compared with those who are bilingual from birth, even when they didn't begin practicing a second language in earnest before late childhood.\n\nI) Young children being raised bilingual have to follow social cues to figure out which language to use with which person and in what setting. As a result, says Sorace, bilingual children as young as age 3 have demonstrated a head start on tests of perspective-taking and theory of mind—both of which are fundamental social and emotional skills.\n\nJ) About 10 percent of students in the Portland, Oregon public schools are assigned by lottery to dual-language classrooms that offer instruction in Spanish, Japanese or Mandarin, alongside English. Jennifer Steele at American University conducted a four-year, randomized trial and found that the dual-language students outperformed their peers in English-reading skills by a full school-year's worth of learning by the end of middle school. Because the effects are found in reading, not in math or science where there were few differences, Steele suggests that learning two languages make students more aware of how language works in general.\n\nK) The research of Gigi Luk at Harvard offers a slightly different explanation. She has recently done a small study looking at a group of 100 fourth-graders in Massachusetts who had similar reading scores on a standard test, but very different language experiences. Some were foreign-language dominant and others were English natives. Here's what's interesting. The students who were dominant in a foreign language weren't yet comfortably bilingual; they were just starting to learn English. Therefore, by definition, they had a much weaker English vocabulary than the native speakers. Yet they were just as good at interpreting a text. \"This is very surprising,\" Luk says. \"You would expect the reading comprehension performance to mirror the vocabulary—it's a cornerstone of comprehension.\"\n\nL) How did the foreign-language dominant speakers manage this feat? Well, Luk found, they also scored higher on tests of executive functioning. So, even though they didn't have huge mental dictionaries to draw on, they may have been great puzzle-solvers, taking into account higher-level concepts such as whether a single sentence made sense within an overall storyline. They got to the same results as the monolinguals, by a different path.\n\nM) American public school classrooms as a whole are becoming more segregated by race and class. Dual-language programs can be an exception. Because they are composed of native English speakers deliberately placed together with recent immigrants, they tend to be more ethnically and economically balanced. And there is some evidence that this helps kids of all backgrounds gain comfort with diversity and different cultures.\n\nN) Several of the researchers also pointed out that, in bilingual education, non-English-dominant students and their families tend to feel that their home language is heard and valued, compared with a classroom where the home language is left at the door in favor of English. This can improve students' sense of belonging and increase parents' involvement in their children's education, including behaviors like reading to children. \"Many parents fear their language is an obstacle, a problem, and if they abandon it their child will integrate better,\" says Antonella Sorace of the University of Edinburgh. \"We tell them they're not doing their child a favor by giving up their language.\"\n\nO) One theme that was striking in speaking to all these researchers was just how strongly they advocated for dual-language classrooms. Thomas and Collier have advised many school systems on how to expand their dual language programs, and Sorace runs \"Bilingualism Matters,\" an international network of researchers who promote bilingual education projects. This type of advocacy among scientists is unusual; even more so because the \"bilingual advantage hypothesis\" is being challenged once again.\n\nP) A review of studies published last year found that cognitive advantages failed to appear in 83 percent of published studies, though in a separate analysis, the sum of effects was still significantly positive. One potential explanation offered by the researchers is that advantages that are measurable in the very young and very old tend to fade when testing young adults at the peak of their cognitive powers. And, they countered that no negative effects of bilingual education have been found. So, even if the advantages are small, they are still worth it. Not to mention one obvious, outstanding fact: \"Bilingual children can speak two languages!\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        }
+      ],
+      "correctAnswer": "M",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 M 段。题干：Ethnically and economically balanced bilingual classrooms are found to be helpful for kids to get used to social and cultural diversity.\n核对该段原文：American public school classrooms as a whole are becoming more segregated by race and class. Dual-language programs can be an exception. Because they are composed of native English speakers deliberately placed together with recent immigrants, they tend to be more ethnically and economically balanced. And there is some evidence that this helps kids of all backgrounds gain comfort with diversity and different cultures.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-09-1-nonlistening-q41",
+      "canonicalId": "lazynote-cet6-2020-09-1-q41",
+      "number": 41,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Researchers now claim that earlier research on bilingual education was seriously flawed.",
+      "passage": "Six Potential Brain Benefits of Bilingual Education\n\nA) Brains, brains, brains. People are fascinated by brain research. And yet it can be hard to point to places where our education system is really making use of the latest neuroscience(神经科学) findings. But there is one happy link where research is meeting practice: bilingual(双语的) education. \"In the last 20 years or so, there's been a virtual explosion of research on bilingualism,\" says Judith Kroll, a professor at the University of California, Riverside.\n\nB) Again and again, researchers have found, \"bilingualism is an experience that shapes our brain for life,\" in the words of Gigi Luk, an associate professor at Harvard's Graduate School of Education. At the same time, one of the hottest trends in public schooling is what's often called dual-language or two-way immersion programs.\n\nC) Traditional programs for English-language learners, or ELLs, focus on assimilating students into English as quickly as possible. Dual-language classrooms, by contrast, provide instruction across subjects to both English natives and English learners, in both English and a target language. The goal is functional bilingualism and biliteracy for all students by middle school. New York City, North Carolina, Delaware, Utah, Oregon and Washington state are among the places expanding dual-language classrooms.\n\nD) The trend flies in the face of some of the culture wars of two decades ago, when advocates insisted on \"English first\" education. Most famously, California passed Proposition 227 in 1998. It was intended to sharply reduce the amount of time that English-language learners spent in bilingual settings. Proposition 58, passed by California voters on November 8, largely reversed that decision, paving the way for a huge expansion of bilingual education in the state that has the largest population of English-language learners.\n\nE) Some of the insistence on English-first was founded on research produced decades ago, in which bilingual students underperformed monolingual(单语的) English speakers and had lower IQ scores. Today's scholars, like Ellen Bialystok at York University in Toronto, say that research was \"deeply flawed.\" \"Earlier research looked at socially disadvantaged groups,\" agrees Antonella Sorace at the University of Edinburgh in Scotland. \"This has been completely contradicted by recent research\" that compares groups more similar to each other.\n\nF) So what does recent research say about the potential benefits of bilingual education? It turns out that, in many ways, the real trick to speaking two languages consists in managing not to speak one of those languages at a given moment—which is fundamentally a feat of paying attention. Saying \"Goodbye\" to mom and then \"Guten tag\" to your teacher, or managing to ask for a crayola roja instead of a red crayon(蜡笔), requires skills called \"inhibition\" and \"task switching.\" These skills are subsets of an ability called executive function.\n\nG) People who speak two languages often outperform monolinguals on general measures of executive function. \"Bilinguals can pay focused attention without being distracted and also improve in the ability to switch from one task to another,\" says Sorace.\n\nH) Do these same advantages benefit a child who begins learning a second language in kindergarten instead of as a baby? We don't yet know. Patterns of language learning and language use are complex. But Gigi Luk at Harvard cites at least one brain-imaging study on adolescents that shows similar changes in brain structure when compared with those who are bilingual from birth, even when they didn't begin practicing a second language in earnest before late childhood.\n\nI) Young children being raised bilingual have to follow social cues to figure out which language to use with which person and in what setting. As a result, says Sorace, bilingual children as young as age 3 have demonstrated a head start on tests of perspective-taking and theory of mind—both of which are fundamental social and emotional skills.\n\nJ) About 10 percent of students in the Portland, Oregon public schools are assigned by lottery to dual-language classrooms that offer instruction in Spanish, Japanese or Mandarin, alongside English. Jennifer Steele at American University conducted a four-year, randomized trial and found that the dual-language students outperformed their peers in English-reading skills by a full school-year's worth of learning by the end of middle school. Because the effects are found in reading, not in math or science where there were few differences, Steele suggests that learning two languages make students more aware of how language works in general.\n\nK) The research of Gigi Luk at Harvard offers a slightly different explanation. She has recently done a small study looking at a group of 100 fourth-graders in Massachusetts who had similar reading scores on a standard test, but very different language experiences. Some were foreign-language dominant and others were English natives. Here's what's interesting. The students who were dominant in a foreign language weren't yet comfortably bilingual; they were just starting to learn English. Therefore, by definition, they had a much weaker English vocabulary than the native speakers. Yet they were just as good at interpreting a text. \"This is very surprising,\" Luk says. \"You would expect the reading comprehension performance to mirror the vocabulary—it's a cornerstone of comprehension.\"\n\nL) How did the foreign-language dominant speakers manage this feat? Well, Luk found, they also scored higher on tests of executive functioning. So, even though they didn't have huge mental dictionaries to draw on, they may have been great puzzle-solvers, taking into account higher-level concepts such as whether a single sentence made sense within an overall storyline. They got to the same results as the monolinguals, by a different path.\n\nM) American public school classrooms as a whole are becoming more segregated by race and class. Dual-language programs can be an exception. Because they are composed of native English speakers deliberately placed together with recent immigrants, they tend to be more ethnically and economically balanced. And there is some evidence that this helps kids of all backgrounds gain comfort with diversity and different cultures.\n\nN) Several of the researchers also pointed out that, in bilingual education, non-English-dominant students and their families tend to feel that their home language is heard and valued, compared with a classroom where the home language is left at the door in favor of English. This can improve students' sense of belonging and increase parents' involvement in their children's education, including behaviors like reading to children. \"Many parents fear their language is an obstacle, a problem, and if they abandon it their child will integrate better,\" says Antonella Sorace of the University of Edinburgh. \"We tell them they're not doing their child a favor by giving up their language.\"\n\nO) One theme that was striking in speaking to all these researchers was just how strongly they advocated for dual-language classrooms. Thomas and Collier have advised many school systems on how to expand their dual language programs, and Sorace runs \"Bilingualism Matters,\" an international network of researchers who promote bilingual education projects. This type of advocacy among scientists is unusual; even more so because the \"bilingual advantage hypothesis\" is being challenged once again.\n\nP) A review of studies published last year found that cognitive advantages failed to appear in 83 percent of published studies, though in a separate analysis, the sum of effects was still significantly positive. One potential explanation offered by the researchers is that advantages that are measurable in the very young and very old tend to fade when testing young adults at the peak of their cognitive powers. And, they countered that no negative effects of bilingual education have been found. So, even if the advantages are small, they are still worth it. Not to mention one obvious, outstanding fact: \"Bilingual children can speak two languages!\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 E 段。题干：Researchers now claim that earlier research on bilingual education was seriously flawed.\n核对该段原文：Some of the insistence on English-first was founded on research produced decades ago, in which bilingual students underperformed monolingual(单语的) English speakers and had lower IQ scores. Today's scholars, like Ellen Bialystok at York University in Toronto, say that research was \"deeply flawed.\" \"Earlier research looked at socially disadvantaged groups,\" agrees Antonella Sorace at the University of Edinburgh in Scotland. \"This has been completely contradicted by recent research\" that compares groups more similar to each other.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-09-1-nonlistening-q42",
+      "canonicalId": "lazynote-cet6-2020-09-1-q42",
+      "number": 42,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "According to a researcher, dual-language experiences exert a lifelong influence on one's brain.",
+      "passage": "Six Potential Brain Benefits of Bilingual Education\n\nA) Brains, brains, brains. People are fascinated by brain research. And yet it can be hard to point to places where our education system is really making use of the latest neuroscience(神经科学) findings. But there is one happy link where research is meeting practice: bilingual(双语的) education. \"In the last 20 years or so, there's been a virtual explosion of research on bilingualism,\" says Judith Kroll, a professor at the University of California, Riverside.\n\nB) Again and again, researchers have found, \"bilingualism is an experience that shapes our brain for life,\" in the words of Gigi Luk, an associate professor at Harvard's Graduate School of Education. At the same time, one of the hottest trends in public schooling is what's often called dual-language or two-way immersion programs.\n\nC) Traditional programs for English-language learners, or ELLs, focus on assimilating students into English as quickly as possible. Dual-language classrooms, by contrast, provide instruction across subjects to both English natives and English learners, in both English and a target language. The goal is functional bilingualism and biliteracy for all students by middle school. New York City, North Carolina, Delaware, Utah, Oregon and Washington state are among the places expanding dual-language classrooms.\n\nD) The trend flies in the face of some of the culture wars of two decades ago, when advocates insisted on \"English first\" education. Most famously, California passed Proposition 227 in 1998. It was intended to sharply reduce the amount of time that English-language learners spent in bilingual settings. Proposition 58, passed by California voters on November 8, largely reversed that decision, paving the way for a huge expansion of bilingual education in the state that has the largest population of English-language learners.\n\nE) Some of the insistence on English-first was founded on research produced decades ago, in which bilingual students underperformed monolingual(单语的) English speakers and had lower IQ scores. Today's scholars, like Ellen Bialystok at York University in Toronto, say that research was \"deeply flawed.\" \"Earlier research looked at socially disadvantaged groups,\" agrees Antonella Sorace at the University of Edinburgh in Scotland. \"This has been completely contradicted by recent research\" that compares groups more similar to each other.\n\nF) So what does recent research say about the potential benefits of bilingual education? It turns out that, in many ways, the real trick to speaking two languages consists in managing not to speak one of those languages at a given moment—which is fundamentally a feat of paying attention. Saying \"Goodbye\" to mom and then \"Guten tag\" to your teacher, or managing to ask for a crayola roja instead of a red crayon(蜡笔), requires skills called \"inhibition\" and \"task switching.\" These skills are subsets of an ability called executive function.\n\nG) People who speak two languages often outperform monolinguals on general measures of executive function. \"Bilinguals can pay focused attention without being distracted and also improve in the ability to switch from one task to another,\" says Sorace.\n\nH) Do these same advantages benefit a child who begins learning a second language in kindergarten instead of as a baby? We don't yet know. Patterns of language learning and language use are complex. But Gigi Luk at Harvard cites at least one brain-imaging study on adolescents that shows similar changes in brain structure when compared with those who are bilingual from birth, even when they didn't begin practicing a second language in earnest before late childhood.\n\nI) Young children being raised bilingual have to follow social cues to figure out which language to use with which person and in what setting. As a result, says Sorace, bilingual children as young as age 3 have demonstrated a head start on tests of perspective-taking and theory of mind—both of which are fundamental social and emotional skills.\n\nJ) About 10 percent of students in the Portland, Oregon public schools are assigned by lottery to dual-language classrooms that offer instruction in Spanish, Japanese or Mandarin, alongside English. Jennifer Steele at American University conducted a four-year, randomized trial and found that the dual-language students outperformed their peers in English-reading skills by a full school-year's worth of learning by the end of middle school. Because the effects are found in reading, not in math or science where there were few differences, Steele suggests that learning two languages make students more aware of how language works in general.\n\nK) The research of Gigi Luk at Harvard offers a slightly different explanation. She has recently done a small study looking at a group of 100 fourth-graders in Massachusetts who had similar reading scores on a standard test, but very different language experiences. Some were foreign-language dominant and others were English natives. Here's what's interesting. The students who were dominant in a foreign language weren't yet comfortably bilingual; they were just starting to learn English. Therefore, by definition, they had a much weaker English vocabulary than the native speakers. Yet they were just as good at interpreting a text. \"This is very surprising,\" Luk says. \"You would expect the reading comprehension performance to mirror the vocabulary—it's a cornerstone of comprehension.\"\n\nL) How did the foreign-language dominant speakers manage this feat? Well, Luk found, they also scored higher on tests of executive functioning. So, even though they didn't have huge mental dictionaries to draw on, they may have been great puzzle-solvers, taking into account higher-level concepts such as whether a single sentence made sense within an overall storyline. They got to the same results as the monolinguals, by a different path.\n\nM) American public school classrooms as a whole are becoming more segregated by race and class. Dual-language programs can be an exception. Because they are composed of native English speakers deliberately placed together with recent immigrants, they tend to be more ethnically and economically balanced. And there is some evidence that this helps kids of all backgrounds gain comfort with diversity and different cultures.\n\nN) Several of the researchers also pointed out that, in bilingual education, non-English-dominant students and their families tend to feel that their home language is heard and valued, compared with a classroom where the home language is left at the door in favor of English. This can improve students' sense of belonging and increase parents' involvement in their children's education, including behaviors like reading to children. \"Many parents fear their language is an obstacle, a problem, and if they abandon it their child will integrate better,\" says Antonella Sorace of the University of Edinburgh. \"We tell them they're not doing their child a favor by giving up their language.\"\n\nO) One theme that was striking in speaking to all these researchers was just how strongly they advocated for dual-language classrooms. Thomas and Collier have advised many school systems on how to expand their dual language programs, and Sorace runs \"Bilingualism Matters,\" an international network of researchers who promote bilingual education projects. This type of advocacy among scientists is unusual; even more so because the \"bilingual advantage hypothesis\" is being challenged once again.\n\nP) A review of studies published last year found that cognitive advantages failed to appear in 83 percent of published studies, though in a separate analysis, the sum of effects was still significantly positive. One potential explanation offered by the researchers is that advantages that are measurable in the very young and very old tend to fade when testing young adults at the peak of their cognitive powers. And, they countered that no negative effects of bilingual education have been found. So, even if the advantages are small, they are still worth it. Not to mention one obvious, outstanding fact: \"Bilingual children can speak two languages!\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 B 段。题干：According to a researcher, dual-language experiences exert a lifelong influence on one's brain.\n核对该段原文：Again and again, researchers have found, \"bilingualism is an experience that shapes our brain for life,\" in the words of Gigi Luk, an associate professor at Harvard's Graduate School of Education. At the same time, one of the hottest trends in public schooling is what's often called dual-language or two-way immersion programs.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-09-1-nonlistening-q43",
+      "canonicalId": "lazynote-cet6-2020-09-1-q43",
+      "number": 43,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Advocates of bilingual education argued that it produces positive effects though they may be limited.",
+      "passage": "Six Potential Brain Benefits of Bilingual Education\n\nA) Brains, brains, brains. People are fascinated by brain research. And yet it can be hard to point to places where our education system is really making use of the latest neuroscience(神经科学) findings. But there is one happy link where research is meeting practice: bilingual(双语的) education. \"In the last 20 years or so, there's been a virtual explosion of research on bilingualism,\" says Judith Kroll, a professor at the University of California, Riverside.\n\nB) Again and again, researchers have found, \"bilingualism is an experience that shapes our brain for life,\" in the words of Gigi Luk, an associate professor at Harvard's Graduate School of Education. At the same time, one of the hottest trends in public schooling is what's often called dual-language or two-way immersion programs.\n\nC) Traditional programs for English-language learners, or ELLs, focus on assimilating students into English as quickly as possible. Dual-language classrooms, by contrast, provide instruction across subjects to both English natives and English learners, in both English and a target language. The goal is functional bilingualism and biliteracy for all students by middle school. New York City, North Carolina, Delaware, Utah, Oregon and Washington state are among the places expanding dual-language classrooms.\n\nD) The trend flies in the face of some of the culture wars of two decades ago, when advocates insisted on \"English first\" education. Most famously, California passed Proposition 227 in 1998. It was intended to sharply reduce the amount of time that English-language learners spent in bilingual settings. Proposition 58, passed by California voters on November 8, largely reversed that decision, paving the way for a huge expansion of bilingual education in the state that has the largest population of English-language learners.\n\nE) Some of the insistence on English-first was founded on research produced decades ago, in which bilingual students underperformed monolingual(单语的) English speakers and had lower IQ scores. Today's scholars, like Ellen Bialystok at York University in Toronto, say that research was \"deeply flawed.\" \"Earlier research looked at socially disadvantaged groups,\" agrees Antonella Sorace at the University of Edinburgh in Scotland. \"This has been completely contradicted by recent research\" that compares groups more similar to each other.\n\nF) So what does recent research say about the potential benefits of bilingual education? It turns out that, in many ways, the real trick to speaking two languages consists in managing not to speak one of those languages at a given moment—which is fundamentally a feat of paying attention. Saying \"Goodbye\" to mom and then \"Guten tag\" to your teacher, or managing to ask for a crayola roja instead of a red crayon(蜡笔), requires skills called \"inhibition\" and \"task switching.\" These skills are subsets of an ability called executive function.\n\nG) People who speak two languages often outperform monolinguals on general measures of executive function. \"Bilinguals can pay focused attention without being distracted and also improve in the ability to switch from one task to another,\" says Sorace.\n\nH) Do these same advantages benefit a child who begins learning a second language in kindergarten instead of as a baby? We don't yet know. Patterns of language learning and language use are complex. But Gigi Luk at Harvard cites at least one brain-imaging study on adolescents that shows similar changes in brain structure when compared with those who are bilingual from birth, even when they didn't begin practicing a second language in earnest before late childhood.\n\nI) Young children being raised bilingual have to follow social cues to figure out which language to use with which person and in what setting. As a result, says Sorace, bilingual children as young as age 3 have demonstrated a head start on tests of perspective-taking and theory of mind—both of which are fundamental social and emotional skills.\n\nJ) About 10 percent of students in the Portland, Oregon public schools are assigned by lottery to dual-language classrooms that offer instruction in Spanish, Japanese or Mandarin, alongside English. Jennifer Steele at American University conducted a four-year, randomized trial and found that the dual-language students outperformed their peers in English-reading skills by a full school-year's worth of learning by the end of middle school. Because the effects are found in reading, not in math or science where there were few differences, Steele suggests that learning two languages make students more aware of how language works in general.\n\nK) The research of Gigi Luk at Harvard offers a slightly different explanation. She has recently done a small study looking at a group of 100 fourth-graders in Massachusetts who had similar reading scores on a standard test, but very different language experiences. Some were foreign-language dominant and others were English natives. Here's what's interesting. The students who were dominant in a foreign language weren't yet comfortably bilingual; they were just starting to learn English. Therefore, by definition, they had a much weaker English vocabulary than the native speakers. Yet they were just as good at interpreting a text. \"This is very surprising,\" Luk says. \"You would expect the reading comprehension performance to mirror the vocabulary—it's a cornerstone of comprehension.\"\n\nL) How did the foreign-language dominant speakers manage this feat? Well, Luk found, they also scored higher on tests of executive functioning. So, even though they didn't have huge mental dictionaries to draw on, they may have been great puzzle-solvers, taking into account higher-level concepts such as whether a single sentence made sense within an overall storyline. They got to the same results as the monolinguals, by a different path.\n\nM) American public school classrooms as a whole are becoming more segregated by race and class. Dual-language programs can be an exception. Because they are composed of native English speakers deliberately placed together with recent immigrants, they tend to be more ethnically and economically balanced. And there is some evidence that this helps kids of all backgrounds gain comfort with diversity and different cultures.\n\nN) Several of the researchers also pointed out that, in bilingual education, non-English-dominant students and their families tend to feel that their home language is heard and valued, compared with a classroom where the home language is left at the door in favor of English. This can improve students' sense of belonging and increase parents' involvement in their children's education, including behaviors like reading to children. \"Many parents fear their language is an obstacle, a problem, and if they abandon it their child will integrate better,\" says Antonella Sorace of the University of Edinburgh. \"We tell them they're not doing their child a favor by giving up their language.\"\n\nO) One theme that was striking in speaking to all these researchers was just how strongly they advocated for dual-language classrooms. Thomas and Collier have advised many school systems on how to expand their dual language programs, and Sorace runs \"Bilingualism Matters,\" an international network of researchers who promote bilingual education projects. This type of advocacy among scientists is unusual; even more so because the \"bilingual advantage hypothesis\" is being challenged once again.\n\nP) A review of studies published last year found that cognitive advantages failed to appear in 83 percent of published studies, though in a separate analysis, the sum of effects was still significantly positive. One potential explanation offered by the researchers is that advantages that are measurable in the very young and very old tend to fade when testing young adults at the peak of their cognitive powers. And, they countered that no negative effects of bilingual education have been found. So, even if the advantages are small, they are still worth it. Not to mention one obvious, outstanding fact: \"Bilingual children can speak two languages!\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        }
+      ],
+      "correctAnswer": "P",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 P 段。题干：Advocates of bilingual education argued that it produces positive effects though they may be limited.\n核对该段原文：A review of studies published last year found that cognitive advantages failed to appear in 83 percent of published studies, though in a separate analysis, the sum of effects was still significantly positive. One potential explanation offered by the researchers is that advantages that are measurable in the very young and very old tend to fade when testing young adults at the peak of their cognitive powers. And, they countered that no negative effects of bilingual education have been found. So, even if the advantages are small, they are still worth it. Not to mention one obvious, outstanding fact: \"Bilingual children can speak two languages!\"\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-09-1-nonlistening-q44",
+      "canonicalId": "lazynote-cet6-2020-09-1-q44",
+      "number": 44,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Bilingual speakers often do better than monolinguals in completing certain tasks because they can concentrate better on what they are doing.",
+      "passage": "Six Potential Brain Benefits of Bilingual Education\n\nA) Brains, brains, brains. People are fascinated by brain research. And yet it can be hard to point to places where our education system is really making use of the latest neuroscience(神经科学) findings. But there is one happy link where research is meeting practice: bilingual(双语的) education. \"In the last 20 years or so, there's been a virtual explosion of research on bilingualism,\" says Judith Kroll, a professor at the University of California, Riverside.\n\nB) Again and again, researchers have found, \"bilingualism is an experience that shapes our brain for life,\" in the words of Gigi Luk, an associate professor at Harvard's Graduate School of Education. At the same time, one of the hottest trends in public schooling is what's often called dual-language or two-way immersion programs.\n\nC) Traditional programs for English-language learners, or ELLs, focus on assimilating students into English as quickly as possible. Dual-language classrooms, by contrast, provide instruction across subjects to both English natives and English learners, in both English and a target language. The goal is functional bilingualism and biliteracy for all students by middle school. New York City, North Carolina, Delaware, Utah, Oregon and Washington state are among the places expanding dual-language classrooms.\n\nD) The trend flies in the face of some of the culture wars of two decades ago, when advocates insisted on \"English first\" education. Most famously, California passed Proposition 227 in 1998. It was intended to sharply reduce the amount of time that English-language learners spent in bilingual settings. Proposition 58, passed by California voters on November 8, largely reversed that decision, paving the way for a huge expansion of bilingual education in the state that has the largest population of English-language learners.\n\nE) Some of the insistence on English-first was founded on research produced decades ago, in which bilingual students underperformed monolingual(单语的) English speakers and had lower IQ scores. Today's scholars, like Ellen Bialystok at York University in Toronto, say that research was \"deeply flawed.\" \"Earlier research looked at socially disadvantaged groups,\" agrees Antonella Sorace at the University of Edinburgh in Scotland. \"This has been completely contradicted by recent research\" that compares groups more similar to each other.\n\nF) So what does recent research say about the potential benefits of bilingual education? It turns out that, in many ways, the real trick to speaking two languages consists in managing not to speak one of those languages at a given moment—which is fundamentally a feat of paying attention. Saying \"Goodbye\" to mom and then \"Guten tag\" to your teacher, or managing to ask for a crayola roja instead of a red crayon(蜡笔), requires skills called \"inhibition\" and \"task switching.\" These skills are subsets of an ability called executive function.\n\nG) People who speak two languages often outperform monolinguals on general measures of executive function. \"Bilinguals can pay focused attention without being distracted and also improve in the ability to switch from one task to another,\" says Sorace.\n\nH) Do these same advantages benefit a child who begins learning a second language in kindergarten instead of as a baby? We don't yet know. Patterns of language learning and language use are complex. But Gigi Luk at Harvard cites at least one brain-imaging study on adolescents that shows similar changes in brain structure when compared with those who are bilingual from birth, even when they didn't begin practicing a second language in earnest before late childhood.\n\nI) Young children being raised bilingual have to follow social cues to figure out which language to use with which person and in what setting. As a result, says Sorace, bilingual children as young as age 3 have demonstrated a head start on tests of perspective-taking and theory of mind—both of which are fundamental social and emotional skills.\n\nJ) About 10 percent of students in the Portland, Oregon public schools are assigned by lottery to dual-language classrooms that offer instruction in Spanish, Japanese or Mandarin, alongside English. Jennifer Steele at American University conducted a four-year, randomized trial and found that the dual-language students outperformed their peers in English-reading skills by a full school-year's worth of learning by the end of middle school. Because the effects are found in reading, not in math or science where there were few differences, Steele suggests that learning two languages make students more aware of how language works in general.\n\nK) The research of Gigi Luk at Harvard offers a slightly different explanation. She has recently done a small study looking at a group of 100 fourth-graders in Massachusetts who had similar reading scores on a standard test, but very different language experiences. Some were foreign-language dominant and others were English natives. Here's what's interesting. The students who were dominant in a foreign language weren't yet comfortably bilingual; they were just starting to learn English. Therefore, by definition, they had a much weaker English vocabulary than the native speakers. Yet they were just as good at interpreting a text. \"This is very surprising,\" Luk says. \"You would expect the reading comprehension performance to mirror the vocabulary—it's a cornerstone of comprehension.\"\n\nL) How did the foreign-language dominant speakers manage this feat? Well, Luk found, they also scored higher on tests of executive functioning. So, even though they didn't have huge mental dictionaries to draw on, they may have been great puzzle-solvers, taking into account higher-level concepts such as whether a single sentence made sense within an overall storyline. They got to the same results as the monolinguals, by a different path.\n\nM) American public school classrooms as a whole are becoming more segregated by race and class. Dual-language programs can be an exception. Because they are composed of native English speakers deliberately placed together with recent immigrants, they tend to be more ethnically and economically balanced. And there is some evidence that this helps kids of all backgrounds gain comfort with diversity and different cultures.\n\nN) Several of the researchers also pointed out that, in bilingual education, non-English-dominant students and their families tend to feel that their home language is heard and valued, compared with a classroom where the home language is left at the door in favor of English. This can improve students' sense of belonging and increase parents' involvement in their children's education, including behaviors like reading to children. \"Many parents fear their language is an obstacle, a problem, and if they abandon it their child will integrate better,\" says Antonella Sorace of the University of Edinburgh. \"We tell them they're not doing their child a favor by giving up their language.\"\n\nO) One theme that was striking in speaking to all these researchers was just how strongly they advocated for dual-language classrooms. Thomas and Collier have advised many school systems on how to expand their dual language programs, and Sorace runs \"Bilingualism Matters,\" an international network of researchers who promote bilingual education projects. This type of advocacy among scientists is unusual; even more so because the \"bilingual advantage hypothesis\" is being challenged once again.\n\nP) A review of studies published last year found that cognitive advantages failed to appear in 83 percent of published studies, though in a separate analysis, the sum of effects was still significantly positive. One potential explanation offered by the researchers is that advantages that are measurable in the very young and very old tend to fade when testing young adults at the peak of their cognitive powers. And, they countered that no negative effects of bilingual education have been found. So, even if the advantages are small, they are still worth it. Not to mention one obvious, outstanding fact: \"Bilingual children can speak two languages!\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 G 段。题干：Bilingual speakers often do better than monolinguals in completing certain tasks because they can concentrate better on what they are doing.\n核对该段原文：People who speak two languages often outperform monolinguals on general measures of executive function. \"Bilinguals can pay focused attention without being distracted and also improve in the ability to switch from one task to another,\" says Sorace.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-09-1-nonlistening-q45",
+      "canonicalId": "lazynote-cet6-2020-09-1-q45",
+      "number": 45,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "When their native language is used, parents can become more involved in their children's education.",
+      "passage": "Six Potential Brain Benefits of Bilingual Education\n\nA) Brains, brains, brains. People are fascinated by brain research. And yet it can be hard to point to places where our education system is really making use of the latest neuroscience(神经科学) findings. But there is one happy link where research is meeting practice: bilingual(双语的) education. \"In the last 20 years or so, there's been a virtual explosion of research on bilingualism,\" says Judith Kroll, a professor at the University of California, Riverside.\n\nB) Again and again, researchers have found, \"bilingualism is an experience that shapes our brain for life,\" in the words of Gigi Luk, an associate professor at Harvard's Graduate School of Education. At the same time, one of the hottest trends in public schooling is what's often called dual-language or two-way immersion programs.\n\nC) Traditional programs for English-language learners, or ELLs, focus on assimilating students into English as quickly as possible. Dual-language classrooms, by contrast, provide instruction across subjects to both English natives and English learners, in both English and a target language. The goal is functional bilingualism and biliteracy for all students by middle school. New York City, North Carolina, Delaware, Utah, Oregon and Washington state are among the places expanding dual-language classrooms.\n\nD) The trend flies in the face of some of the culture wars of two decades ago, when advocates insisted on \"English first\" education. Most famously, California passed Proposition 227 in 1998. It was intended to sharply reduce the amount of time that English-language learners spent in bilingual settings. Proposition 58, passed by California voters on November 8, largely reversed that decision, paving the way for a huge expansion of bilingual education in the state that has the largest population of English-language learners.\n\nE) Some of the insistence on English-first was founded on research produced decades ago, in which bilingual students underperformed monolingual(单语的) English speakers and had lower IQ scores. Today's scholars, like Ellen Bialystok at York University in Toronto, say that research was \"deeply flawed.\" \"Earlier research looked at socially disadvantaged groups,\" agrees Antonella Sorace at the University of Edinburgh in Scotland. \"This has been completely contradicted by recent research\" that compares groups more similar to each other.\n\nF) So what does recent research say about the potential benefits of bilingual education? It turns out that, in many ways, the real trick to speaking two languages consists in managing not to speak one of those languages at a given moment—which is fundamentally a feat of paying attention. Saying \"Goodbye\" to mom and then \"Guten tag\" to your teacher, or managing to ask for a crayola roja instead of a red crayon(蜡笔), requires skills called \"inhibition\" and \"task switching.\" These skills are subsets of an ability called executive function.\n\nG) People who speak two languages often outperform monolinguals on general measures of executive function. \"Bilinguals can pay focused attention without being distracted and also improve in the ability to switch from one task to another,\" says Sorace.\n\nH) Do these same advantages benefit a child who begins learning a second language in kindergarten instead of as a baby? We don't yet know. Patterns of language learning and language use are complex. But Gigi Luk at Harvard cites at least one brain-imaging study on adolescents that shows similar changes in brain structure when compared with those who are bilingual from birth, even when they didn't begin practicing a second language in earnest before late childhood.\n\nI) Young children being raised bilingual have to follow social cues to figure out which language to use with which person and in what setting. As a result, says Sorace, bilingual children as young as age 3 have demonstrated a head start on tests of perspective-taking and theory of mind—both of which are fundamental social and emotional skills.\n\nJ) About 10 percent of students in the Portland, Oregon public schools are assigned by lottery to dual-language classrooms that offer instruction in Spanish, Japanese or Mandarin, alongside English. Jennifer Steele at American University conducted a four-year, randomized trial and found that the dual-language students outperformed their peers in English-reading skills by a full school-year's worth of learning by the end of middle school. Because the effects are found in reading, not in math or science where there were few differences, Steele suggests that learning two languages make students more aware of how language works in general.\n\nK) The research of Gigi Luk at Harvard offers a slightly different explanation. She has recently done a small study looking at a group of 100 fourth-graders in Massachusetts who had similar reading scores on a standard test, but very different language experiences. Some were foreign-language dominant and others were English natives. Here's what's interesting. The students who were dominant in a foreign language weren't yet comfortably bilingual; they were just starting to learn English. Therefore, by definition, they had a much weaker English vocabulary than the native speakers. Yet they were just as good at interpreting a text. \"This is very surprising,\" Luk says. \"You would expect the reading comprehension performance to mirror the vocabulary—it's a cornerstone of comprehension.\"\n\nL) How did the foreign-language dominant speakers manage this feat? Well, Luk found, they also scored higher on tests of executive functioning. So, even though they didn't have huge mental dictionaries to draw on, they may have been great puzzle-solvers, taking into account higher-level concepts such as whether a single sentence made sense within an overall storyline. They got to the same results as the monolinguals, by a different path.\n\nM) American public school classrooms as a whole are becoming more segregated by race and class. Dual-language programs can be an exception. Because they are composed of native English speakers deliberately placed together with recent immigrants, they tend to be more ethnically and economically balanced. And there is some evidence that this helps kids of all backgrounds gain comfort with diversity and different cultures.\n\nN) Several of the researchers also pointed out that, in bilingual education, non-English-dominant students and their families tend to feel that their home language is heard and valued, compared with a classroom where the home language is left at the door in favor of English. This can improve students' sense of belonging and increase parents' involvement in their children's education, including behaviors like reading to children. \"Many parents fear their language is an obstacle, a problem, and if they abandon it their child will integrate better,\" says Antonella Sorace of the University of Edinburgh. \"We tell them they're not doing their child a favor by giving up their language.\"\n\nO) One theme that was striking in speaking to all these researchers was just how strongly they advocated for dual-language classrooms. Thomas and Collier have advised many school systems on how to expand their dual language programs, and Sorace runs \"Bilingualism Matters,\" an international network of researchers who promote bilingual education projects. This type of advocacy among scientists is unusual; even more so because the \"bilingual advantage hypothesis\" is being challenged once again.\n\nP) A review of studies published last year found that cognitive advantages failed to appear in 83 percent of published studies, though in a separate analysis, the sum of effects was still significantly positive. One potential explanation offered by the researchers is that advantages that are measurable in the very young and very old tend to fade when testing young adults at the peak of their cognitive powers. And, they countered that no negative effects of bilingual education have been found. So, even if the advantages are small, they are still worth it. Not to mention one obvious, outstanding fact: \"Bilingual children can speak two languages!\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        }
+      ],
+      "correctAnswer": "N",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 N 段。题干：When their native language is used, parents can become more involved in their children's education.\n核对该段原文：Several of the researchers also pointed out that, in bilingual education, non-English-dominant students and their families tend to feel that their home language is heard and valued, compared with a classroom where the home language is left at the door in favor of English. This can improve students' sense of belonging and increase parents' involvement in their children's education, including behaviors like reading to children. \"Many parents fear their language is an obstacle, a problem, and if they abandon it their child will integrate better,\" says Antonella Sorace of the University of Edinburgh. \"We tell them they're not doing their child a favor by giving up their language.\"\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-09-1-nonlistening-q46",
+      "canonicalId": "lazynote-cet6-2020-09-1-q46",
+      "number": 46,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "Why is the obesity problem in Britain so difficult to solve?",
+      "passage": "It is not controversial to say that an unhealthy diet causes bad health. Nor are the basic elements of healthy eating disputed. Obesity raises susceptibility to cancer, and Britain is the sixth most obese country on Earth. That is a public health emergency. But naming the problem is the easy part. No one disputes the costs in quality of life and depleted health budgets of an obese population, but the quest for solutions gets diverted by ideological arguments around responsibility and choice. And the water is muddied by lobbying from the industries that profit from consumption of obesity-inducing products.\n\nHistorical precedent suggests that science and politics can overcome resistance from businesses that pollute and poison but it takes time, and success often starts small. So it is heartening to note that a programme in Leeds has achieved a reduction in childhood obesity, becoming the first UK city to reverse a fattening trend. The best results were among younger children and in more deprived areas. When 28% of English children aged two to 15 are obese, a national shift on the scale achieved by Leeds would lengthen hundreds of thousands of lives. A significant factor in the Leeds experience appears to be a scheme called HENRY, which helps parents reward behaviours that prevent obesity in children.\n\nMany members of parliament are uncomfortable even with their own government's anti-obesity strategy, since it involves a \"sugar tax\" and a ban on the sale of energy drinks to under-16s. Bans and taxes can be blunt instruments, but their harshest critics can rarely suggest better methods. These critics just oppose regulation itself.\n\nThe relationship between poor health and inequality is too pronounced for governments to be passive about large-scale intervention. People living in the most deprived areas are four times more prone to die from avoidable causes than counterparts in more affluent places. As the structural nature of public health problems becomes harder to ignore, the complaint about over protective government loses potency.\n\nIn fact, the polarised debate over public health interventions should have been abandoned long ago. Government action works when individuals are motivated to respond. Individuals need governments that expand access to good choices. The HENRY programme was delivered in part through children's centres. Closing such centres and cutting council budgets doesn't magically increase reserves of individual self-reliance. The function of a well-designed state intervention is not to deprive people of liberty but to build social capacity and infrastructure that helps people take responsibility for their wellbeing. The obesity crisis will not have a solution devised by left or right ideology—but experience indicates that the private sector needs the incentive of regulation before it starts taking public health emergencies seriously.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Government health budgets are depleted."
+        },
+        {
+          "id": "B",
+          "text": "People disagree as to who should do what."
+        },
+        {
+          "id": "C",
+          "text": "Individuals are not ready to take their responsibilities."
+        },
+        {
+          "id": "D",
+          "text": "Industry lobbying makes it hard to get healthy foods."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：People disagree as to who should do what.\n关键词检索定位到第 1 段的候选相关句：Obesity raises susceptibility to cancer, and Britain is the sixth most obese country on Earth.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-09-1-nonlistening-q47",
+      "canonicalId": "lazynote-cet6-2020-09-1-q47",
+      "number": 47,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What can we learn from the past experience in tackling public health emergencies?",
+      "passage": "It is not controversial to say that an unhealthy diet causes bad health. Nor are the basic elements of healthy eating disputed. Obesity raises susceptibility to cancer, and Britain is the sixth most obese country on Earth. That is a public health emergency. But naming the problem is the easy part. No one disputes the costs in quality of life and depleted health budgets of an obese population, but the quest for solutions gets diverted by ideological arguments around responsibility and choice. And the water is muddied by lobbying from the industries that profit from consumption of obesity-inducing products.\n\nHistorical precedent suggests that science and politics can overcome resistance from businesses that pollute and poison but it takes time, and success often starts small. So it is heartening to note that a programme in Leeds has achieved a reduction in childhood obesity, becoming the first UK city to reverse a fattening trend. The best results were among younger children and in more deprived areas. When 28% of English children aged two to 15 are obese, a national shift on the scale achieved by Leeds would lengthen hundreds of thousands of lives. A significant factor in the Leeds experience appears to be a scheme called HENRY, which helps parents reward behaviours that prevent obesity in children.\n\nMany members of parliament are uncomfortable even with their own government's anti-obesity strategy, since it involves a \"sugar tax\" and a ban on the sale of energy drinks to under-16s. Bans and taxes can be blunt instruments, but their harshest critics can rarely suggest better methods. These critics just oppose regulation itself.\n\nThe relationship between poor health and inequality is too pronounced for governments to be passive about large-scale intervention. People living in the most deprived areas are four times more prone to die from avoidable causes than counterparts in more affluent places. As the structural nature of public health problems becomes harder to ignore, the complaint about over protective government loses potency.\n\nIn fact, the polarised debate over public health interventions should have been abandoned long ago. Government action works when individuals are motivated to respond. Individuals need governments that expand access to good choices. The HENRY programme was delivered in part through children's centres. Closing such centres and cutting council budgets doesn't magically increase reserves of individual self-reliance. The function of a well-designed state intervention is not to deprive people of liberty but to build social capacity and infrastructure that helps people take responsibility for their wellbeing. The obesity crisis will not have a solution devised by left or right ideology—but experience indicates that the private sector needs the incentive of regulation before it starts taking public health emergencies seriously.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Governments have a role to play."
+        },
+        {
+          "id": "B",
+          "text": "Public health is a scientific issue."
+        },
+        {
+          "id": "C",
+          "text": "Priority should be given to deprived regions."
+        },
+        {
+          "id": "D",
+          "text": "Businesses' responsibility should be stressed."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：Governments have a role to play.\n关键词检索定位到第 5 段的候选相关句：The obesity crisis will not have a solution devised by left or right ideology—but experience indicates that the private sector needs the incentive of regulation before it starts taking public health emergencies seriously.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-09-1-nonlistening-q48",
+      "canonicalId": "lazynote-cet6-2020-09-1-q48",
+      "number": 48,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author imply about some critics of bans and taxes concerning unhealthy drinks?",
+      "passage": "It is not controversial to say that an unhealthy diet causes bad health. Nor are the basic elements of healthy eating disputed. Obesity raises susceptibility to cancer, and Britain is the sixth most obese country on Earth. That is a public health emergency. But naming the problem is the easy part. No one disputes the costs in quality of life and depleted health budgets of an obese population, but the quest for solutions gets diverted by ideological arguments around responsibility and choice. And the water is muddied by lobbying from the industries that profit from consumption of obesity-inducing products.\n\nHistorical precedent suggests that science and politics can overcome resistance from businesses that pollute and poison but it takes time, and success often starts small. So it is heartening to note that a programme in Leeds has achieved a reduction in childhood obesity, becoming the first UK city to reverse a fattening trend. The best results were among younger children and in more deprived areas. When 28% of English children aged two to 15 are obese, a national shift on the scale achieved by Leeds would lengthen hundreds of thousands of lives. A significant factor in the Leeds experience appears to be a scheme called HENRY, which helps parents reward behaviours that prevent obesity in children.\n\nMany members of parliament are uncomfortable even with their own government's anti-obesity strategy, since it involves a \"sugar tax\" and a ban on the sale of energy drinks to under-16s. Bans and taxes can be blunt instruments, but their harshest critics can rarely suggest better methods. These critics just oppose regulation itself.\n\nThe relationship between poor health and inequality is too pronounced for governments to be passive about large-scale intervention. People living in the most deprived areas are four times more prone to die from avoidable causes than counterparts in more affluent places. As the structural nature of public health problems becomes harder to ignore, the complaint about over protective government loses potency.\n\nIn fact, the polarised debate over public health interventions should have been abandoned long ago. Government action works when individuals are motivated to respond. Individuals need governments that expand access to good choices. The HENRY programme was delivered in part through children's centres. Closing such centres and cutting council budgets doesn't magically increase reserves of individual self-reliance. The function of a well-designed state intervention is not to deprive people of liberty but to build social capacity and infrastructure that helps people take responsibility for their wellbeing. The obesity crisis will not have a solution devised by left or right ideology—but experience indicates that the private sector needs the incentive of regulation before it starts taking public health emergencies seriously.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They are not aware of the consequences of obesity."
+        },
+        {
+          "id": "B",
+          "text": "They have not come up with anything more constructive."
+        },
+        {
+          "id": "C",
+          "text": "They are uncomfortable with parliament's anti-obesity debate."
+        },
+        {
+          "id": "D",
+          "text": "They have their own motives in opposing government regulation."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：They have not come up with anything more constructive.\n关键词检索定位到第 3 段的候选相关句：Bans and taxes can be blunt instruments, but their harshest critics can rarely suggest better methods.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-09-1-nonlistening-q49",
+      "canonicalId": "lazynote-cet6-2020-09-1-q49",
+      "number": 49,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "Why does the author stress the relationship between poor health and inequality?",
+      "passage": "It is not controversial to say that an unhealthy diet causes bad health. Nor are the basic elements of healthy eating disputed. Obesity raises susceptibility to cancer, and Britain is the sixth most obese country on Earth. That is a public health emergency. But naming the problem is the easy part. No one disputes the costs in quality of life and depleted health budgets of an obese population, but the quest for solutions gets diverted by ideological arguments around responsibility and choice. And the water is muddied by lobbying from the industries that profit from consumption of obesity-inducing products.\n\nHistorical precedent suggests that science and politics can overcome resistance from businesses that pollute and poison but it takes time, and success often starts small. So it is heartening to note that a programme in Leeds has achieved a reduction in childhood obesity, becoming the first UK city to reverse a fattening trend. The best results were among younger children and in more deprived areas. When 28% of English children aged two to 15 are obese, a national shift on the scale achieved by Leeds would lengthen hundreds of thousands of lives. A significant factor in the Leeds experience appears to be a scheme called HENRY, which helps parents reward behaviours that prevent obesity in children.\n\nMany members of parliament are uncomfortable even with their own government's anti-obesity strategy, since it involves a \"sugar tax\" and a ban on the sale of energy drinks to under-16s. Bans and taxes can be blunt instruments, but their harshest critics can rarely suggest better methods. These critics just oppose regulation itself.\n\nThe relationship between poor health and inequality is too pronounced for governments to be passive about large-scale intervention. People living in the most deprived areas are four times more prone to die from avoidable causes than counterparts in more affluent places. As the structural nature of public health problems becomes harder to ignore, the complaint about over protective government loses potency.\n\nIn fact, the polarised debate over public health interventions should have been abandoned long ago. Government action works when individuals are motivated to respond. Individuals need governments that expand access to good choices. The HENRY programme was delivered in part through children's centres. Closing such centres and cutting council budgets doesn't magically increase reserves of individual self-reliance. The function of a well-designed state intervention is not to deprive people of liberty but to build social capacity and infrastructure that helps people take responsibility for their wellbeing. The obesity crisis will not have a solution devised by left or right ideology—but experience indicates that the private sector needs the incentive of regulation before it starts taking public health emergencies seriously.",
+      "options": [
+        {
+          "id": "A",
+          "text": "To demonstrate the dilemma of people living in deprived areas."
+        },
+        {
+          "id": "B",
+          "text": "To bring to light the root cause of widespread obesity in Britain."
+        },
+        {
+          "id": "C",
+          "text": "To highlight the area deserving the most attention from the public."
+        },
+        {
+          "id": "D",
+          "text": "To justify government intervention in solving the obesity problem."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：To justify government intervention in solving the obesity problem.\n关键词检索定位到第 4 段的候选相关句：The relationship between poor health and inequality is too pronounced for governments to be passive about large-scale intervention.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-09-1-nonlistening-q50",
+      "canonicalId": "lazynote-cet6-2020-09-1-q50",
+      "number": 50,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "When will government action be effective?",
+      "passage": "It is not controversial to say that an unhealthy diet causes bad health. Nor are the basic elements of healthy eating disputed. Obesity raises susceptibility to cancer, and Britain is the sixth most obese country on Earth. That is a public health emergency. But naming the problem is the easy part. No one disputes the costs in quality of life and depleted health budgets of an obese population, but the quest for solutions gets diverted by ideological arguments around responsibility and choice. And the water is muddied by lobbying from the industries that profit from consumption of obesity-inducing products.\n\nHistorical precedent suggests that science and politics can overcome resistance from businesses that pollute and poison but it takes time, and success often starts small. So it is heartening to note that a programme in Leeds has achieved a reduction in childhood obesity, becoming the first UK city to reverse a fattening trend. The best results were among younger children and in more deprived areas. When 28% of English children aged two to 15 are obese, a national shift on the scale achieved by Leeds would lengthen hundreds of thousands of lives. A significant factor in the Leeds experience appears to be a scheme called HENRY, which helps parents reward behaviours that prevent obesity in children.\n\nMany members of parliament are uncomfortable even with their own government's anti-obesity strategy, since it involves a \"sugar tax\" and a ban on the sale of energy drinks to under-16s. Bans and taxes can be blunt instruments, but their harshest critics can rarely suggest better methods. These critics just oppose regulation itself.\n\nThe relationship between poor health and inequality is too pronounced for governments to be passive about large-scale intervention. People living in the most deprived areas are four times more prone to die from avoidable causes than counterparts in more affluent places. As the structural nature of public health problems becomes harder to ignore, the complaint about over protective government loses potency.\n\nIn fact, the polarised debate over public health interventions should have been abandoned long ago. Government action works when individuals are motivated to respond. Individuals need governments that expand access to good choices. The HENRY programme was delivered in part through children's centres. Closing such centres and cutting council budgets doesn't magically increase reserves of individual self-reliance. The function of a well-designed state intervention is not to deprive people of liberty but to build social capacity and infrastructure that helps people take responsibility for their wellbeing. The obesity crisis will not have a solution devised by left or right ideology—but experience indicates that the private sector needs the incentive of regulation before it starts taking public health emergencies seriously.",
+      "options": [
+        {
+          "id": "A",
+          "text": "When the polarised debate is abandoned."
+        },
+        {
+          "id": "B",
+          "text": "When ideological differences are resolved."
+        },
+        {
+          "id": "C",
+          "text": "When individuals have the incentive to act accordingly."
+        },
+        {
+          "id": "D",
+          "text": "When the private sector realises the severity of the crisis."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：When individuals have the incentive to act accordingly.\n关键词检索定位到第 5 段的候选相关句：Government action works when individuals are motivated to respond.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-09-1-nonlistening-q51",
+      "canonicalId": "lazynote-cet6-2020-09-1-q51",
+      "number": 51,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn from the passage about the Coral Sea?",
+      "passage": "Home to virgin reefs, rare sharks and vast numbers of exotic fish, the Coral Sea is a unique haven of biodiversity off the northeastern coast of Australia. If a proposal by the Australian government goes ahead, the region will also become the world's largest marine protected area, with restrictions or bans on fishing, mining and marine farming.\n\nThe Coral Sea reserve would cover almost 990 000 square kilometres and stretch as far as 1 100 kilometres from the coast. Unveiled recently by environment minister Tony Burke, the proposal would be the last in a series of proposed marine reserves around Australia's coast.\n\nBut the scheme is attracting criticism from scientists and conservation groups, who argue that the government hasn't gone far enough in protecting the Coral Sea, or in other marine reserves in the coastal network.\n\nHugh Possingham, director of the Centre of Excellence for Environmental Decisions at the University of Queensland, points out that little more than half of the Coral Sea reserve is proposed as \"no take\" area, in which all fishing would be banned. The world's largest existing marine reserve, established last year by the British government in the Indian Ocean, spans 554 000 km² and is a no-take zone throughout. An alliance of campaigning conservation groups argues that more of the Coral Sea should receive this level of protection.\n\n\"I would like to have seen more protection for coral reefs,\" says Terry Hughes, director of the Centre of Excellence for Coral Reef Studies at James Cook University in Queensland. \"More than 20 of them would be outside the no-take area and vulnerable to catch-and-release fishing\".\n\nAs Nature went to press, the Australian government had not responded to specific criticisms of the plan. But Robin Beaman, a marine geologist at James Cook University, says that the reserve does \"broadly protect the range of habitats\" in the sea. \"I can testify to the huge effort that government agencies and other organisations have put into trying to understand the ecological values of this vast area,\" he says.\n\nReserves proposed earlier this year for Australia's southwestern and northwestern coastal regions have also been criticised for failing to give habitats adequate protection. In August, 173 marine scientists signed an open letter to the government saying they were \"greatly concerned\" that the proposals for the southwestern region had not been based on the \"core science principles\" of reserves—the protected regions were not, for instance, representative of all the habitats in the region, they said.\n\nCritics say that the southwestern reserve offers the greatest protection to the offshore areas where commercial opportunities are fewest and where there is little threat to the environment, a contention also levelled at the Coral Sea plan.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is exceptionally rich in marine life."
+        },
+        {
+          "id": "B",
+          "text": "It is the biggest marine protected area."
+        },
+        {
+          "id": "C",
+          "text": "It remains largely undisturbed by humans."
+        },
+        {
+          "id": "D",
+          "text": "It is a unique haven of endangered species."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：It is exceptionally rich in marine life.\n关键词检索定位到第 3 段的候选相关句：But the scheme is attracting criticism from scientists and conservation groups, who argue that the government hasn't gone far enough in protecting the Coral Sea, or in other marine reserves in the coastal network.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-09-1-nonlistening-q52",
+      "canonicalId": "lazynote-cet6-2020-09-1-q52",
+      "number": 52,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the Australian government plan to do according to Tony Burke?",
+      "passage": "Home to virgin reefs, rare sharks and vast numbers of exotic fish, the Coral Sea is a unique haven of biodiversity off the northeastern coast of Australia. If a proposal by the Australian government goes ahead, the region will also become the world's largest marine protected area, with restrictions or bans on fishing, mining and marine farming.\n\nThe Coral Sea reserve would cover almost 990 000 square kilometres and stretch as far as 1 100 kilometres from the coast. Unveiled recently by environment minister Tony Burke, the proposal would be the last in a series of proposed marine reserves around Australia's coast.\n\nBut the scheme is attracting criticism from scientists and conservation groups, who argue that the government hasn't gone far enough in protecting the Coral Sea, or in other marine reserves in the coastal network.\n\nHugh Possingham, director of the Centre of Excellence for Environmental Decisions at the University of Queensland, points out that little more than half of the Coral Sea reserve is proposed as \"no take\" area, in which all fishing would be banned. The world's largest existing marine reserve, established last year by the British government in the Indian Ocean, spans 554 000 km² and is a no-take zone throughout. An alliance of campaigning conservation groups argues that more of the Coral Sea should receive this level of protection.\n\n\"I would like to have seen more protection for coral reefs,\" says Terry Hughes, director of the Centre of Excellence for Coral Reef Studies at James Cook University in Queensland. \"More than 20 of them would be outside the no-take area and vulnerable to catch-and-release fishing\".\n\nAs Nature went to press, the Australian government had not responded to specific criticisms of the plan. But Robin Beaman, a marine geologist at James Cook University, says that the reserve does \"broadly protect the range of habitats\" in the sea. \"I can testify to the huge effort that government agencies and other organisations have put into trying to understand the ecological values of this vast area,\" he says.\n\nReserves proposed earlier this year for Australia's southwestern and northwestern coastal regions have also been criticised for failing to give habitats adequate protection. In August, 173 marine scientists signed an open letter to the government saying they were \"greatly concerned\" that the proposals for the southwestern region had not been based on the \"core science principles\" of reserves—the protected regions were not, for instance, representative of all the habitats in the region, they said.\n\nCritics say that the southwestern reserve offers the greatest protection to the offshore areas where commercial opportunities are fewest and where there is little threat to the environment, a contention also levelled at the Coral Sea plan.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Make a new proposal to protect the Coral Sea."
+        },
+        {
+          "id": "B",
+          "text": "Revise its conservation plan owing to criticisms."
+        },
+        {
+          "id": "C",
+          "text": "Upgrade the established reserves to protect marine life."
+        },
+        {
+          "id": "D",
+          "text": "Complete the series of marine reserves around its coast."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：Complete the series of marine reserves around its coast.\n关键词检索定位到第 2 段的候选相关句：Unveiled recently by environment minister Tony Burke, the proposal would be the last in a series of proposed marine reserves around Australia's coast.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-09-1-nonlistening-q53",
+      "canonicalId": "lazynote-cet6-2020-09-1-q53",
+      "number": 53,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What is scientists' argument about the Coral Sea proposal?",
+      "passage": "Home to virgin reefs, rare sharks and vast numbers of exotic fish, the Coral Sea is a unique haven of biodiversity off the northeastern coast of Australia. If a proposal by the Australian government goes ahead, the region will also become the world's largest marine protected area, with restrictions or bans on fishing, mining and marine farming.\n\nThe Coral Sea reserve would cover almost 990 000 square kilometres and stretch as far as 1 100 kilometres from the coast. Unveiled recently by environment minister Tony Burke, the proposal would be the last in a series of proposed marine reserves around Australia's coast.\n\nBut the scheme is attracting criticism from scientists and conservation groups, who argue that the government hasn't gone far enough in protecting the Coral Sea, or in other marine reserves in the coastal network.\n\nHugh Possingham, director of the Centre of Excellence for Environmental Decisions at the University of Queensland, points out that little more than half of the Coral Sea reserve is proposed as \"no take\" area, in which all fishing would be banned. The world's largest existing marine reserve, established last year by the British government in the Indian Ocean, spans 554 000 km² and is a no-take zone throughout. An alliance of campaigning conservation groups argues that more of the Coral Sea should receive this level of protection.\n\n\"I would like to have seen more protection for coral reefs,\" says Terry Hughes, director of the Centre of Excellence for Coral Reef Studies at James Cook University in Queensland. \"More than 20 of them would be outside the no-take area and vulnerable to catch-and-release fishing\".\n\nAs Nature went to press, the Australian government had not responded to specific criticisms of the plan. But Robin Beaman, a marine geologist at James Cook University, says that the reserve does \"broadly protect the range of habitats\" in the sea. \"I can testify to the huge effort that government agencies and other organisations have put into trying to understand the ecological values of this vast area,\" he says.\n\nReserves proposed earlier this year for Australia's southwestern and northwestern coastal regions have also been criticised for failing to give habitats adequate protection. In August, 173 marine scientists signed an open letter to the government saying they were \"greatly concerned\" that the proposals for the southwestern region had not been based on the \"core science principles\" of reserves—the protected regions were not, for instance, representative of all the habitats in the region, they said.\n\nCritics say that the southwestern reserve offers the greatest protection to the offshore areas where commercial opportunities are fewest and where there is little threat to the environment, a contention also levelled at the Coral Sea plan.",
+      "options": [
+        {
+          "id": "A",
+          "text": "The government has not done enough for marine protection."
+        },
+        {
+          "id": "B",
+          "text": "It will not improve the marine reserves along Australia's coast."
+        },
+        {
+          "id": "C",
+          "text": "The government has not consulted them in drawing up the proposal."
+        },
+        {
+          "id": "D",
+          "text": "It is not based on sufficient investigations into the ecological system."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：The government has not done enough for marine protection.\n关键词检索定位到第 3 段的候选相关句：But the scheme is attracting criticism from scientists and conservation groups, who argue that the government hasn't gone far enough in protecting the Coral Sea, or in other marine reserves in the coastal network.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-09-1-nonlistening-q54",
+      "canonicalId": "lazynote-cet6-2020-09-1-q54",
+      "number": 54,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does marine geologist Robin Beaman say about the Coral Sea plan?",
+      "passage": "Home to virgin reefs, rare sharks and vast numbers of exotic fish, the Coral Sea is a unique haven of biodiversity off the northeastern coast of Australia. If a proposal by the Australian government goes ahead, the region will also become the world's largest marine protected area, with restrictions or bans on fishing, mining and marine farming.\n\nThe Coral Sea reserve would cover almost 990 000 square kilometres and stretch as far as 1 100 kilometres from the coast. Unveiled recently by environment minister Tony Burke, the proposal would be the last in a series of proposed marine reserves around Australia's coast.\n\nBut the scheme is attracting criticism from scientists and conservation groups, who argue that the government hasn't gone far enough in protecting the Coral Sea, or in other marine reserves in the coastal network.\n\nHugh Possingham, director of the Centre of Excellence for Environmental Decisions at the University of Queensland, points out that little more than half of the Coral Sea reserve is proposed as \"no take\" area, in which all fishing would be banned. The world's largest existing marine reserve, established last year by the British government in the Indian Ocean, spans 554 000 km² and is a no-take zone throughout. An alliance of campaigning conservation groups argues that more of the Coral Sea should receive this level of protection.\n\n\"I would like to have seen more protection for coral reefs,\" says Terry Hughes, director of the Centre of Excellence for Coral Reef Studies at James Cook University in Queensland. \"More than 20 of them would be outside the no-take area and vulnerable to catch-and-release fishing\".\n\nAs Nature went to press, the Australian government had not responded to specific criticisms of the plan. But Robin Beaman, a marine geologist at James Cook University, says that the reserve does \"broadly protect the range of habitats\" in the sea. \"I can testify to the huge effort that government agencies and other organisations have put into trying to understand the ecological values of this vast area,\" he says.\n\nReserves proposed earlier this year for Australia's southwestern and northwestern coastal regions have also been criticised for failing to give habitats adequate protection. In August, 173 marine scientists signed an open letter to the government saying they were \"greatly concerned\" that the proposals for the southwestern region had not been based on the \"core science principles\" of reserves—the protected regions were not, for instance, representative of all the habitats in the region, they said.\n\nCritics say that the southwestern reserve offers the greatest protection to the offshore areas where commercial opportunities are fewest and where there is little threat to the environment, a contention also levelled at the Coral Sea plan.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It can compare with the British government's effort in the Indian Ocean."
+        },
+        {
+          "id": "B",
+          "text": "It will result in the establishment of the world's largest marine reserve."
+        },
+        {
+          "id": "C",
+          "text": "It will ensure the sustainability of the fishing industry around the coast."
+        },
+        {
+          "id": "D",
+          "text": "It is a tremendous joint effort to protect the range of marine habitats."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：It is a tremendous joint effort to protect the range of marine habitats.\n关键词检索定位到第 6 段的候选相关句：But Robin Beaman, a marine geologist at James Cook University, says that the reserve does \"broadly protect the range of habitats\" in the sea.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-09-1-nonlistening-q55",
+      "canonicalId": "lazynote-cet6-2020-09-1-q55",
+      "number": 55,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do critics think of the Coral Sea plan?",
+      "passage": "Home to virgin reefs, rare sharks and vast numbers of exotic fish, the Coral Sea is a unique haven of biodiversity off the northeastern coast of Australia. If a proposal by the Australian government goes ahead, the region will also become the world's largest marine protected area, with restrictions or bans on fishing, mining and marine farming.\n\nThe Coral Sea reserve would cover almost 990 000 square kilometres and stretch as far as 1 100 kilometres from the coast. Unveiled recently by environment minister Tony Burke, the proposal would be the last in a series of proposed marine reserves around Australia's coast.\n\nBut the scheme is attracting criticism from scientists and conservation groups, who argue that the government hasn't gone far enough in protecting the Coral Sea, or in other marine reserves in the coastal network.\n\nHugh Possingham, director of the Centre of Excellence for Environmental Decisions at the University of Queensland, points out that little more than half of the Coral Sea reserve is proposed as \"no take\" area, in which all fishing would be banned. The world's largest existing marine reserve, established last year by the British government in the Indian Ocean, spans 554 000 km² and is a no-take zone throughout. An alliance of campaigning conservation groups argues that more of the Coral Sea should receive this level of protection.\n\n\"I would like to have seen more protection for coral reefs,\" says Terry Hughes, director of the Centre of Excellence for Coral Reef Studies at James Cook University in Queensland. \"More than 20 of them would be outside the no-take area and vulnerable to catch-and-release fishing\".\n\nAs Nature went to press, the Australian government had not responded to specific criticisms of the plan. But Robin Beaman, a marine geologist at James Cook University, says that the reserve does \"broadly protect the range of habitats\" in the sea. \"I can testify to the huge effort that government agencies and other organisations have put into trying to understand the ecological values of this vast area,\" he says.\n\nReserves proposed earlier this year for Australia's southwestern and northwestern coastal regions have also been criticised for failing to give habitats adequate protection. In August, 173 marine scientists signed an open letter to the government saying they were \"greatly concerned\" that the proposals for the southwestern region had not been based on the \"core science principles\" of reserves—the protected regions were not, for instance, representative of all the habitats in the region, they said.\n\nCritics say that the southwestern reserve offers the greatest protection to the offshore areas where commercial opportunities are fewest and where there is little threat to the environment, a contention also levelled at the Coral Sea plan.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It will do more harm than good to the environment."
+        },
+        {
+          "id": "B",
+          "text": "It will adversely affect Australia's fishing industry."
+        },
+        {
+          "id": "C",
+          "text": "It will protect regions that actually require little protection."
+        },
+        {
+          "id": "D",
+          "text": "It will win little support from environmental organisations."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：It will protect regions that actually require little protection.\n关键词检索定位到第 8 段的候选相关句：Critics say that the southwestern reserve offers the greatest protection to the offshore areas where commercial opportunities are fewest and where there is little threat to the environment, a contention also levelled at the Coral Sea plan.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-09-1-nonlistening-translation",
+      "number": "IV",
+      "level": "CET6",
+      "type": "short_text_self_check",
+      "skill": "translation",
+      "section": "translation",
+      "prompt": "Directions : For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2 .\n\n《西游记》(Journey to the West)也许是中国文学四大经典小说中最具影响力的一部，当然也是在国外最广为人知的一部小说。这部小说描绘了著名僧侣玄装在三个随从的陪同下穿越中国西部地区前往印度取经(Buddhist scripture)的艰难历程。虽然故事的主题基于佛教，但这部小说采用了大量中国民间故事和神话的素材，创造了各种栩栩如生的人物和动物形象。其中最著名的是孙悟空，他与各种各样妖魔作斗争的故事几乎为每个中国孩子所熟知。",
+      "options": [],
+      "correctAnswer": "Journey to the West is perhaps the most influential of the four classic novels of Chinese literature and certainly the best known abroad. It depicts the arduous journey of the famous monk Xuanzang, accompanied by three followers, through western China to India in search of Buddhist scriptures. Although its theme is based on Buddhism, the novel draws extensively on Chinese folktales and myths to create a variety of vivid human and animal characters. The most famous of these is Sun Wukong, whose battles against all kinds of demons are familiar to almost every Chinese child.",
+      "referenceAnswer": "Journey to the West is perhaps the most influential of the four classic novels of Chinese literature and certainly the best known abroad. It depicts the arduous journey of the famous monk Xuanzang, accompanied by three followers, through western China to India in search of Buddhist scriptures. Although its theme is based on Buddhism, the novel draws extensively on Chinese folktales and myths to create a variety of vivid human and animal characters. The most famous of these is Sun Wukong, whose battles against all kinds of demons are familiar to almost every Chinese child.",
+      "hint": "人物、三个随从、向印度取经和民间神话素材都需译出。",
+      "explanation": "以下为原创参考译文，准确的同义表达也可接受。accompanied by three followers作为插入分词短语说明同行者；in search of Buddhist scriptures表达取经目的。题面“玄装”据人物背景按Xuanzang理解，原题及哈希保留；most influential保留“也许”的限定，不译成确定唯一结论。",
+      "rubric": [
+        "信息：逐句核对人物、地点、数字、时间、因果和并列信息，避免漏译或增译。",
+        "表达：人物、三个随从、向印度取经和民间神话素材都需译出。",
+        "语法：检查时态、语态、主谓一致、冠词与单复数，长句按英语逻辑合理拆分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-09-1-nonlistening"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "version": 2,
+  "assets": {
+    "boy": "https://www.crbuj.icu/campus-api/english-assets/companions/boy-base.png",
+    "girl": "https://www.crbuj.icu/campus-api/english-assets/companions/girl-base.png"
+  },
+  "items": [
+    {
+      "id": "boy_campus",
+      "name": "学院晨光",
+      "category": "outfit",
+      "character": "boy",
+      "price": 50,
+      "image": "https://www.crbuj.icu/campus-api/english-assets/companions/boy-campus.png",
+      "description": "整套人物服装，永久解锁",
+      "heat": 80
+    },
+    {
+      "id": "boy_sport",
+      "name": "薄荷运动服",
+      "category": "outfit",
+      "character": "boy",
+      "price": 60,
+      "image": "https://www.crbuj.icu/campus-api/english-assets/companions/boy-sport.png",
+      "description": "整套人物服装，永久解锁",
+      "heat": 85
+    },
+    {
+      "id": "boy_magic",
+      "name": "星夜魔法服",
+      "category": "outfit",
+      "character": "boy",
+      "price": 80,
+      "image": "https://www.crbuj.icu/campus-api/english-assets/companions/boy-magic.png",
+      "description": "整套人物服装，永久解锁",
+      "heat": 110
+    },
+    {
+      "id": "girl_peach_hanfu",
+      "name": "桃花小仙子",
+      "category": "outfit",
+      "character": "girl",
+      "price": 100,
+      "heat": 120,
+      "renderMode": "layer",
+      "image": "https://www.crbuj.icu/campus-api/english-assets/companions/girl-peach-hanfu.png",
+      "description": "桃花交领与宽袖长裙，古代可爱风，永久解锁"
+    },
+    {
+      "id": "girl_mint_cape",
+      "name": "青竹月色",
+      "category": "outfit",
+      "character": "girl",
+      "price": 100,
+      "heat": 120,
+      "renderMode": "layer",
+      "image": "https://www.crbuj.icu/campus-api/english-assets/companions/girl-mint-cape.png",
+      "description": "青竹披风与小金扣，古代可爱风，永久解锁"
+    },
+    {
+      "id": "girl_campus_sailor",
+      "name": "樱桃校园",
+      "category": "outfit",
+      "character": "girl",
+      "price": 80,
+      "heat": 100,
+      "renderMode": "layer",
+      "image": "https://www.crbuj.icu/campus-api/english-assets/companions/girl-campus-sailor.png",
+      "description": "水手领、樱桃蝴蝶结与百褶裙，永久解锁"
+    },
+    {
+      "id": "boy_moon_hanfu",
+      "name": "月白小书生",
+      "category": "outfit",
+      "character": "boy",
+      "price": 100,
+      "heat": 120,
+      "renderMode": "layer",
+      "image": "https://www.crbuj.icu/campus-api/english-assets/companions/boy-moon-hanfu.png",
+      "description": "月白交领与长袍，古代学院风，永久解锁"
+    },
+    {
+      "id": "boy_star_cape",
+      "name": "星河小旅人",
+      "category": "outfit",
+      "character": "boy",
+      "price": 100,
+      "heat": 120,
+      "renderMode": "layer",
+      "image": "https://www.crbuj.icu/campus-api/english-assets/companions/boy-star-cape.png",
+      "description": "星河披风与金色衣扣，古代可爱风，永久解锁"
+    },
+    {
+      "id": "boy_campus_vest",
+      "name": "薄荷学院",
+      "category": "outfit",
+      "character": "boy",
+      "price": 80,
+      "heat": 100,
+      "renderMode": "layer",
+      "image": "https://www.crbuj.icu/campus-api/english-assets/companions/boy-campus-vest.png",
+      "description": "薄荷学院背心、领带与校徽，永久解锁"
+    },
+    {
+      "id": "accessory_star",
+      "name": "星光胸针",
+      "category": "accessory",
+      "character": "all",
+      "price": 30,
+      "imagesByCharacter": {
+        "boy": "https://www.crbuj.icu/campus-api/english-assets/companions/boy-star.png",
+        "girl": "https://www.crbuj.icu/campus-api/english-assets/companions/girl-star.png"
+      },
+      "heat": 18
+    },
+    {
+      "id": "accessory_heart",
+      "name": "樱桃小爱心",
+      "category": "accessory",
+      "character": "all",
+      "price": 30,
+      "imagesByCharacter": {
+        "boy": "https://www.crbuj.icu/campus-api/english-assets/companions/boy-heart.png",
+        "girl": "https://www.crbuj.icu/campus-api/english-assets/companions/girl-heart.png"
+      },
+      "heat": 18
+    },
+    {
+      "id": "shoes_cloud",
+      "name": "云朵运动鞋",
+      "category": "shoes",
+      "character": "all",
+      "price": 30,
+      "imagesByCharacter": {
+        "boy": "https://www.crbuj.icu/campus-api/english-assets/companions/boy-shoes.png",
+        "girl": "https://www.crbuj.icu/campus-api/english-assets/companions/girl-shoes.png"
+      },
+      "heat": 20
+    },
+    {
+      "id": "food_apple",
+      "name": "脆脆苹果",
+      "category": "food",
+      "character": "all",
+      "price": 5,
+      "symbol": "🍎",
+      "description": "消耗一个，让伙伴开心；不改变比赛成绩"
+    },
+    {
+      "id": "food_cake",
+      "name": "草莓蛋糕",
+      "category": "food",
+      "character": "all",
+      "price": 5,
+      "symbol": "🍰",
+      "description": "消耗一个，让伙伴开心；不改变比赛成绩"
+    },
+    {
+      "id": "food_milk",
+      "name": "暖暖牛奶",
+      "category": "food",
+      "character": "all",
+      "price": 5,
+      "symbol": "🥛",
+      "description": "消耗一个，让伙伴开心；不改变比赛成绩"
+    },
+    {
+      "id": "theme_sky",
+      "name": "晴空汽水",
+      "category": "theme",
+      "themeKey": "sky",
+      "character": "all",
+      "price": 100,
+      "description": "按板块选择配色；保留原背景图片",
+      "heat": 25
+    },
+    {
+      "id": "theme_sakura",
+      "name": "樱花漫游",
+      "category": "theme",
+      "themeKey": "sakura",
+      "character": "all",
+      "price": 100,
+      "description": "按板块选择配色；保留原背景图片",
+      "heat": 25
+    },
+    {
+      "id": "theme_mint",
+      "name": "薄荷甜梦",
+      "category": "theme",
+      "themeKey": "mint",
+      "character": "all",
+      "price": 100,
+      "description": "按板块选择配色；保留原背景图片",
+      "heat": 25
+    },
+    {
+      "id": "theme_night",
+      "name": "晚安星河",
+      "category": "theme",
+      "themeKey": "night",
+      "character": "all",
+      "price": 100,
+      "description": "按板块选择配色；保留原背景图片",
+      "heat": 30
+    }
+  ]
+}

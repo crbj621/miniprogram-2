@@ -1,3 +1,4 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="container">
   <view class="header">
     <view class="header-icon">🏪</view>
@@ -8,33 +9,33 @@
   <view class="form-section tech-card">
     <view class="form-item">
       <text class="form-label">店铺名称 <text class="required">*</text></text>
-      <input class="form-input tech-input" placeholder="请输入店铺名称" value="{{form.name}}" data-field="name" bindinput="onInputChange" placeholder-style="color:#8597ad" />
+      <input adjust-position="{{true}}" cursor-spacing="24" class="form-input tech-input" placeholder="请输入店铺名称" value="{{form.name}}" data-field="name" bindinput="onInputChange" placeholder-style="color:#8597ad" />
     </view>
 
     <view class="form-item">
       <text class="form-label">联系人 <text class="required">*</text></text>
-      <input class="form-input tech-input" placeholder="请输入联系人姓名" value="{{form.contact}}" data-field="contact" bindinput="onInputChange" placeholder-style="color:#8597ad" />
+      <input adjust-position="{{true}}" cursor-spacing="24" class="form-input tech-input" placeholder="请输入联系人姓名" value="{{form.contact}}" data-field="contact" bindinput="onInputChange" placeholder-style="color:#8597ad" />
     </view>
 
     <view class="form-item">
       <text class="form-label">联系电话 <text class="required">*</text></text>
-      <input class="form-input tech-input" type="number" placeholder="请输入联系电话" value="{{form.phone}}" data-field="phone" bindinput="onInputChange" placeholder-style="color:#8597ad" />
+      <input adjust-position="{{true}}" cursor-spacing="24" class="form-input tech-input" type="number" placeholder="请输入联系电话" value="{{form.phone}}" data-field="phone" bindinput="onInputChange" placeholder-style="color:#8597ad" />
     </view>
 
     <view class="form-item">
       <text class="form-label">登录账号 <text class="required">*</text></text>
-      <input class="form-input tech-input" placeholder="4-32位字母、数字或下划线" value="{{form.username}}" data-field="username" bindinput="onInputChange" maxlength="32" placeholder-style="color:#8597ad" />
+      <input adjust-position="{{true}}" cursor-spacing="24" class="form-input tech-input" placeholder="4-32位字母、数字或下划线" value="{{form.username}}" data-field="username" bindinput="onInputChange" maxlength="32" placeholder-style="color:#8597ad" />
       <text class="form-tip">审核通过后使用此账号登录</text>
     </view>
 
     <view class="form-item">
       <text class="form-label">登录密码 <text class="required">*</text></text>
-      <input class="form-input tech-input" type="password" placeholder="至少8位字符" value="{{form.password}}" data-field="password" bindinput="onInputChange" placeholder-style="color:#8597ad" />
+      <input adjust-position="{{true}}" cursor-spacing="24" class="form-input tech-input" type="text" password placeholder="至少8位字符" value="{{form.password}}" data-field="password" bindinput="onInputChange" placeholder-style="color:#8597ad" />
     </view>
 
     <view class="form-item">
       <text class="form-label">确认密码 <text class="required">*</text></text>
-      <input class="form-input tech-input" type="password" placeholder="再次输入密码" value="{{form.confirmPassword}}" data-field="confirmPassword" bindinput="onInputChange" placeholder-style="color:#8597ad" />
+      <input adjust-position="{{true}}" cursor-spacing="24" class="form-input tech-input" type="text" password placeholder="再次输入密码" value="{{form.confirmPassword}}" data-field="confirmPassword" bindinput="onInputChange" placeholder-style="color:#8597ad" />
     </view>
 
     <view class="form-item">
@@ -82,3 +83,5 @@
     <view class="tips-item">4. 如有疑问，请联系客服咨询</view>
   </view>
 </view>
+
+</block>

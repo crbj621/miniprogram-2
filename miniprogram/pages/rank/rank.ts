@@ -1,8 +1,11 @@
+import { withSharing } from '../../utils/page-share'
+import { withPageCopy, getPageCopy } from '../../utils/page-copy'
 import { api } from '../../utils/api-client'
-Page({
+Page(withSharing(withPageCopy('runRank', {
   refreshPage() { return this.selectComponent("#page-refresh").refresh(() => this.getRankList()) },
   data: {
     rankList: [] as any[],
+    pairCopy: { title: '并肩争冠，一起闪闪发光', subtitle: '双人成绩，双倍荣光' },
     activeTab: 'daily',
     isLoggedIn: false,
     isLoading: false,
@@ -11,6 +14,7 @@ Page({
   },
 
   onLoad() {
+    this.setData({ pairCopy: getPageCopy('pairRank') });
     this.refreshLoginState();
   },
 
@@ -67,4 +71,4 @@ Page({
     this.setData({ activeTab: tab, rankList: [], myRank: null, loadError: false });
     this.getRankList();
   }
-});
+})));

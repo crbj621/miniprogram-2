@@ -10,8 +10,12 @@ const multer = require('multer')
 const cloud = require('campus-server-sdk')
 const { readPortfolio, writePortfolio } = require('./portfolio-store')
 const weRun = require('./we-run')
+const { installEnglishMedia } = require('./english-media')
+const { installGiftWeb } = require('./gift-web')
+const { createServerStatus } = require('./server-status')
 
 const app = express()
+let serverStatus
 const host = process.env.HOST || '127.0.0.1'
 const port = Number(process.env.PORT || 3100)
 const functionsRoot = path.resolve(
@@ -273,6 +277,11 @@ app.get('/health', async (request, response) => {
   }
 })
 
+app.get('/api/public/server-status', rateLimit('public-server-status', 6000, 60000), (request, response) => {
+  response.setHeader('Cache-Control', 'no-store')
+  response.json(serverStatus.snapshot())
+})
+
 // Module visibility is public information and must not depend on a login session.
 app.get('/api/public/modules', rateLimit('public-modules', 120, 60000), async (request, response) => {
   try {
@@ -517,6 +526,14 @@ app.post(
       if (!request.file) return response.status(400).json({ code: -1, message: '请选择文件' })
       const extension = path.extname(request.file.originalname || '').toLowerCase() || '.jpg'
       const requestedPath = String((request.body && request.body.cloudPath) || '')
+      // 与保存器的路径规范化一致，避免别名绕过祝福上传的资格与所有者锁。
+      const normalizedPath = requestedPath.replace(/\\/g, '/').replace(/^\/+/, '').split('/').filter(segment => segment && segment !== '.' && segment !== '..').join('/')
+      const relativePath = path.relative(uploadRoot, path.resolve(uploadRoot, normalizedPath)).replace(/\\/g, '/')
+      const namespace = process.platform === 'win32' ? relativePath.toLowerCase() : relativePath
+      if (namespace === 'gift-sites' || namespace.startsWith('gift-sites/')) {
+        const result = await cloud.__runWithContext(request.auth, () => require('../services/gift_sites').uploadImage(request.file, request.auth.openid))
+        return response.json({ code: 0, fileID: result.fileID })
+      }
       const cloudPath = requestedPath || [
         'uploads',
         request.auth.openid,
@@ -533,6 +550,9 @@ app.post(
     }
   }
 )
+
+installEnglishMedia(app, { uploadRoot, rateLimit })
+installGiftWeb(app, { rateLimit })
 
 app.use('/uploads', express.static(uploadRoot, {
   fallthrough: false,
@@ -571,9 +591,28 @@ async function start() {
   }
   await fs.promises.mkdir(uploadRoot, { recursive: true })
   await cloud.__ensureSchema()
-  app.listen(port, host, () => {
+  const gifts = require('../services/gift_sites')
+  let cleaningGifts = false
+  const cleanGifts = async () => {
+    if (cleaningGifts) return
+    cleaningGifts = true
+    try { await gifts.purgeExpired() } catch (error) { console.error('gift cleanup:', error.message) }
+    finally { cleaningGifts = false }
+  }
+  await cleanGifts()
+  setInterval(cleanGifts, 15 * 60000).unref()
+  let cleaningPreviews = false
+  setInterval(async () => {
+    if (cleaningPreviews) return
+    cleaningPreviews = true
+    try { await gifts.purgePreviews() } catch (error) { console.error('gift preview cleanup:', error.message) }
+    finally { cleaningPreviews = false }
+  }, 30000).unref()
+  serverStatus = createServerStatus({ getPool: () => cloud.__getPool() })
+  const server = app.listen(port, host, () => {
     console.log(`campus-api listening on http://${host}:${port}`)
   })
+  server.once('close', () => serverStatus.close())
 }
 
 start().catch(error => {

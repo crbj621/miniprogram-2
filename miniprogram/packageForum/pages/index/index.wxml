@@ -1,8 +1,9 @@
-<view class="page" bindtap="closeCategoryMenu">
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
+<view class="page campus-theme {{theme.key !== 'default' ? 'campus-theme-enabled' : ''}}" style="{{theme.style}}" bindtap="closeCategoryMenu">
   <view wx:if="{{categoryExpanded}}" class="category-mask" catchtap="closeCategoryMenu"></view>
   <view class="hero">
     <view class="campus-heading">
-      <view class="campus-heading-copy"><text class="campus-kicker">收集校园里的小美好</text><text class="campus-title">校园动态</text><text class="campus-subtitle">分享日常 · 失物招领 · 学习互助</text></view>
+      <view class="campus-heading-copy"><text class="campus-kicker">{{pageCopy.title}}</text><text class="campus-title">校园动态<text wx:if="{{theme.key !== 'default'}}" class="campus-theme-decoration">{{theme.decoration}}</text></text><text class="campus-subtitle">{{pageCopy.subtitle}}</text></view>
       <campus-sticker kind="forum" />
     </view>
     <view class="header-actions">
@@ -34,7 +35,7 @@
     <mahiro-scroll id="page-refresh" class="post-scroll" bindrefresh="refreshPage" bindmore="onLoadMore">
       <view class="post-list">
         <view
-          class="post-card tech-card"
+          class="post-card tech-card campus-theme-surface"
           wx:for="{{posts}}"
           wx:key="_id"
           bindtap="goToDetail"
@@ -128,3 +129,5 @@
     </view>
   </view>
 </view>
+
+</block>

@@ -1,0 +1,36 @@
+{
+  "time": "2026-10-04T15:49:18.667Z",
+  "backup": "/www/backup/campus-api/memory-20261004-154918",
+  "configFile": "/etc/mysql/mariadb.conf.d/70-campus-myisam-cache.cnf",
+  "myisamTableCount": 0,
+  "before": {
+    "keyBufferBytes": 134217728,
+    "mariadb": [
+      "VmRSS:\t   54068 kB",
+      "VmSwap:\t   66784 kB"
+    ],
+    "memory": [
+      "MemTotal:        2006644 kB",
+      "MemAvailable:    1333828 kB",
+      "SwapTotal:       1049596 kB",
+      "SwapFree:         845068 kB"
+    ]
+  },
+  "after": {
+    "keyBufferBytes": 8388608,
+    "mariadb": [
+      "VmRSS:\t   55472 kB",
+      "VmSwap:\t   42784 kB"
+    ],
+    "memory": [
+      "MemTotal:        2006644 kB",
+      "MemAvailable:    1333660 kB",
+      "SwapTotal:       1049596 kB",
+      "SwapFree:         868876 kB"
+    ],
+    "databasePing": 1,
+    "businessDocuments": 338
+  },
+  "reservedKeyBufferReductionBytes": 125829120,
+  "boundary": "Only unused MyISAM index cache resized dynamically. InnoDB, Aria, tables, proxy subscription/rules and running services unchanged. Host memory differences include concurrent workload and are not an isolated RSS savings benchmark."
+}

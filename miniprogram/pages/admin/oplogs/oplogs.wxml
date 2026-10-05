@@ -1,3 +1,4 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="container">
   <view class="filters">
     <picker mode="selector" range="{{moduleOptions}}" range-key="name" value="{{moduleIndex}}" bindchange="onModulePicker">
@@ -28,3 +29,5 @@
     <text>加载中...</text>
   </view>
 </view>
+
+</block>

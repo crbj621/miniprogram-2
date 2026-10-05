@@ -11,8 +11,10 @@
   align-items: center;
   background-color: #f2f6fa;
   border-radius: 30rpx;
-  padding: 16rpx 24rpx;
+  padding: 0 16rpx;
   flex: 1;
+  min-width: 0;
+  min-height: 88rpx;
 }
 
 .search-bar {
@@ -24,10 +26,16 @@
 }
 
 .add-btn {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  height: 88rpx;
   margin-left: 20rpx;
   background: #338ac7;
   color: #fff;
-  padding: 12rpx 30rpx;
+  padding: 0 24rpx;
   border-radius: 30rpx;
   font-size: 26rpx;
   font-weight: bold;
@@ -75,9 +83,11 @@
 
 .shop-info {
   flex: 1;
+  min-width: 0;
 }
 
 .shop-name {
+  overflow-wrap: break-word;
   font-size: 32rpx;
   font-weight: bold;
   color: #333;
@@ -152,14 +162,13 @@
 }
 
 .action-row {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 12rpx;
-  flex-wrap: wrap;
 }
 
 .action-row .btn {
-  flex: 1;
-  min-width: 120rpx;
+  min-width: 0;
   text-align: center;
   padding: 16rpx 0;
   border-radius: 8rpx;
@@ -265,9 +274,13 @@
   border-radius: 24rpx;
   z-index: 101;
   overflow: hidden;
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .modal-header {
+  flex-shrink: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -289,6 +302,11 @@
 }
 
 .modal-body {
+  flex: 1;
+  min-height: 0;
+  height: 55vh;
+  max-height: 55vh;
+  box-sizing: border-box;
   padding: 30rpx;
 }
 
@@ -307,6 +325,7 @@
 
 .form-item.half {
   flex: 1;
+  min-width: 0;
 }
 
 .form-row {
@@ -332,6 +351,7 @@
 }
 
 .modal-footer {
+  flex-shrink: 0;
   display: flex;
   padding: 20rpx 30rpx 30rpx;
   gap: 20rpx;
@@ -339,6 +359,8 @@
 
 .modal-footer .btn {
   flex: 1;
+  min-width: 0;
+  margin: 0;
   text-align: center;
   padding: 20rpx 0;
   border-radius: 12rpx;

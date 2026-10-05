@@ -1,3 +1,4 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="container">
   <!-- 头部操作栏 -->
   <view class="header">
@@ -27,3 +28,4 @@
   </view>
   <button wx:if="{{hasMore}}" class="tech-control" bindtap="loadMore" loading="{{loading}}" disabled="{{loading}}">加载更多</button>
 </view>
+</block>

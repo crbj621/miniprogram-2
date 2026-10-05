@@ -1,5 +1,6 @@
+import { withSharing } from '../../../utils/page-share'
 import { api } from '../../../utils/api-client'
-Page({
+Page(withSharing({
   data: {
     activeTab: 'notifications',
     notifications: [] as any[],
@@ -122,4 +123,4 @@ Page({
       url: '/packageForum/pages/chat/chat?toOpenid=' + item.toOpenid + '&toName=' + encodeURIComponent(item.toName) + '&toAvatar=' + encodeURIComponent(item.toAvatar || '')
     })
   }
-})
+}))

@@ -1,5 +1,6 @@
+import { withSharing } from '../../../utils/page-share'
 import { api } from '../../../utils/api-client'
-Page({
+Page(withSharing({
   data: {
     logs: [] as any[],
     page: 1,
@@ -42,4 +43,4 @@ Page({
   loadMore() {
     this.loadLogs()
   }
-})
+}))

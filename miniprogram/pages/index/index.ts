@@ -1,5 +1,14 @@
+import { withSharing } from '../../utils/page-share'
+import { withPageCopy } from '../../utils/page-copy'
 import { api } from '../../utils/api-client'
 import { RunTracker, StepDetector, activeSeconds } from '../../utils/run-metrics'
+import { getSavedCampusTheme } from '../../utils/campus-theme'
+import { getCompanionAppearance } from '../../components/campus-companion/companion-data'
+import { API_BASE_URL } from '../../config/api'
+import { callEnglish } from '../../utils/english-api'
+const SELF_MARKER_ID = 1
+const LOCATION_DOT = '/images/map-location-dot.png'
+const mapCompanionImages = new Map<string, string>()
 let accelerometerListener: ((res: any) => void) | null = null
 let gyroscopeListener: ((res: any) => void) | null = null
 let compassListener: ((res: any) => void) | null = null
@@ -19,8 +28,9 @@ function detachSensorListeners() {
   }
 }
 
-Page({
+Page(withSharing(withPageCopy('running', {
   data: {
+    theme: getSavedCampusTheme('running'),
     totalMeter: 0,
     gpsDistance: 0,
     estimatedDistance: 0,
@@ -139,6 +149,11 @@ Page({
   originalStartedAt: 0,
   runOwnerOpenid: '',
   runEndedAt: 0,
+  mapVisible: false,
+  mapCompanionVersion: 0,
+  mapLocationVersion: 0,
+  mapCompanionOwner: '',
+  mapCompanionIcon: LOCATION_DOT,
 
   onMyAvatarError() {
     this.setData({ 'userInfo.avatarUrl': '' });
@@ -167,35 +182,85 @@ Page({
     this.setData({ hudTop: Math.max(64, capsule.bottom + 14) })
     this.refreshLoginStatus()
     this.restoreRunningState()
-    this.setData({
-      latitude: 34.4176,
-      longitude: 115.6567,
-      markers: [{
-        id: 1,
-        latitude: 34.4176,
-        longitude: 115.6567,
-        width: 30,
-        height: 30
-      }]
-    })
+    this.setData({ markers: this.personalMapMarkers() })
   },
 
   onShow() {
+    this.mapVisible = true
+    this.setData({ theme: getSavedCampusTheme('running') })
     this.refreshLoginStatus()
+    this.loadMapCompanion()
     if (this.data.isRunning && this.runOwnerOpenid && this.runOwnerOpenid !== wx.getStorageSync('openid')) {
       if (this.teamWatcher) this.teamWatcher.close()
       this.executeStopRun(this.fusedDistanceCalculation(), true)
       return
     }
+    this.getCurrentLocation(false)
     this.setData({ pendingUploads: (wx.getStorageSync('pending_runs_' + wx.getStorageSync('openid')) || []).length })
     this.setupTeamWatcher()
     const cached = wx.getStorageSync('wechat_steps_' + wx.getStorageSync('openid'))
     const today = new Date(Date.now() + 8 * 3600000).toISOString().slice(0, 10)
     this.setData({ weRunSteps: cached && cached.date === today ? cached.today : null,
       weRunUpdated: cached && cached.date === today ? cached.updated : '' })
+    this.autoSyncWeRun()
   },
 
-  async syncWeRun() {
+  personalMapMarkers(latitude = this.data.latitude, longitude = this.data.longitude) {
+    const isCompanion = this.mapCompanionIcon !== LOCATION_DOT
+    const marker = {
+      id: SELF_MARKER_ID, latitude, longitude, iconPath: this.mapCompanionIcon,
+      width: isCompanion ? 44 : 16, height: isCompanion ? 66 : 16,
+      anchor: { x: 0.5, y: isCompanion ? 1 : 0.5 },
+      callout: { content: '我的校园伙伴 · 打开衣橱 ›', display: 'BYCLICK', fontSize: 12,
+        borderRadius: 10, padding: 10, color: '#95627d', bgColor: '#fff5f9' }
+    }
+    return this.data.markers.filter((item: any) => item.id !== SELF_MARKER_ID).concat(marker)
+  },
+
+  async loadMapCompanion() {
+    const version = ++this.mapCompanionVersion
+    const openid = wx.getStorageSync('openid') || ''
+    if (this.mapCompanionOwner !== openid || this.data.isGuest) {
+      this.mapCompanionOwner = openid
+      this.mapCompanionIcon = LOCATION_DOT
+      this.setData({ markers: this.personalMapMarkers() })
+    }
+    if (!openid || this.data.isGuest) return false
+    const current = () => this.mapVisible && version === this.mapCompanionVersion && openid === wx.getStorageSync('openid')
+    try {
+      const response = await api.call({ name: 'english_learning', data: { action: 'wardrobe' } }) as any
+      if (!current()) return false
+      const result = response.result
+      if (!result || result.success !== true || !result.data) return false
+      const image = getCompanionAppearance(result.data).image
+      const origin = API_BASE_URL.match(/^https:\/\/[^/]+/)![0]
+      if (!image.startsWith(origin + '/') || !/\.png(?:\?|$)/i.test(image)) return false
+      let localPath = mapCompanionImages.get(image)
+      if (!localPath) {
+        const file = await api.downloadFile({ fileID: image }) as any
+        if (!current() || !file.tempFilePath) return false
+        localPath = file.tempFilePath
+        mapCompanionImages.set(image, localPath)
+      }
+      this.mapCompanionIcon = localPath
+      this.setData({ markers: this.personalMapMarkers() })
+      return true
+    } catch (error) { return false }
+  },
+
+  openMapWardrobe(event: any) {
+    if (event.detail.markerId === SELF_MARKER_ID) wx.navigateTo({ url: '/packageProfile/pages/wardrobe/wardrobe' })
+  },
+
+  autoSyncWeRun() {
+    if (this.data.isGuest || this.data.weRunSyncing || typeof wx.getSetting !== 'function') return
+    wx.getSetting({ success: setting => {
+      if (setting.authSetting['scope.werun'] && Date.now() - (this.lastWeRunSync || 0) > 60000) this.syncWeRun(true)
+    } })
+  },
+
+  async syncWeRun(quiet: any = false) {
+    quiet = quiet === true
     if (this.data.weRunSyncing) return
     if (this.data.isGuest) { this.doLogin(); return }
     const openid = wx.getStorageSync('openid')
@@ -205,9 +270,11 @@ Page({
       if (wx.getStorageSync('openid') !== openid) return
       const updated = new Date(result.syncedAt).toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' })
       wx.setStorageSync('wechat_steps_' + openid, { ...result, updated })
+      this.lastWeRunSync = Date.now()
       this.setData({ weRunSteps: result.today, weRunUpdated: updated })
-      wx.showToast({ title: result.today === null ? '今天暂无微信运动数据' : '步数已同步到服务器', icon: 'none' })
-    } catch (error: any) { this.setData({ weRunError: error.message || '同步失败，请重试' }) }
+      if (!quiet) wx.showToast({ title: result.today === null ? '今天暂无微信运动数据' : '步数已同步到服务器', icon: 'none' })
+      return result
+    } catch (error: any) { if (wx.getStorageSync('openid') === openid) this.setData({ weRunError: error.message || '同步失败，请重试' }) }
     finally { this.setData({ weRunSyncing: false }) }
   },
 
@@ -469,7 +536,7 @@ Page({
       avgStepFrequency: 0,
       path: [],
       polyline: [],
-      markers: [],
+      markers: this.personalMapMarkers(),
       lapTimes: []
     }
     
@@ -499,8 +566,10 @@ Page({
     })
   },
 
-  getCurrentLocation() {
-    wx.showLoading({ title: '定位中...', mask: true })
+  getCurrentLocation(showFeedback: any = true) {
+    const version = ++this.mapLocationVersion
+    const openid = wx.getStorageSync('openid') || ''
+    if (showFeedback) wx.showLoading({ title: '定位中...', mask: true })
     
     wx.getLocation({
       type: 'gcj02',
@@ -508,24 +577,20 @@ Page({
       highAccuracyExpireTime: 5000,
       altitude: true,
       success: (res) => {
-        wx.hideLoading()
+        if (showFeedback) wx.hideLoading()
+        if (!this.mapVisible || version !== this.mapLocationVersion || openid !== (wx.getStorageSync('openid') || '')) return
         this.setData({
           latitude: res.latitude,
           longitude: res.longitude,
           altitude: res.altitude || 0,
           speed: res.speed || 0,
           accuracy: res.accuracy || 0,
-          markers: [{
-            id: 1,
-            latitude: res.latitude,
-            longitude: res.longitude,
-            width: 30,
-            height: 30
-          }]
+          markers: this.personalMapMarkers(res.latitude, res.longitude)
         })
       },
       fail: (err) => {
-        wx.hideLoading()
+        if (showFeedback) wx.hideLoading()
+        if (!showFeedback || !this.mapVisible || version !== this.mapLocationVersion) return
         wx.showModal({
           title: '定位失败',
           content: '无法获取您的位置，请检查定位权限设置',
@@ -568,7 +633,7 @@ Page({
   },
 
   registerStep(currentTime: number, peakValue: number, confidence: number) {
-    // 传感器计步独立于 GPS 距离，弱信号时才用步长估距。
+    // 加速度计只估计步频；室内甩手机也会产生峰值，所以绝不据此增加米数。
     const rawSteps = (this.data.rawSteps || 0) + 1
     
     const stepCountWindow = [...this.data.stepCountWindow, currentTime]
@@ -599,12 +664,8 @@ Page({
 
     if (this.data.indoorMode || this.data.accuracy > 80 ||
         (this.data.lastLocationTime ? currentTime - this.data.lastLocationTime : currentTime - this.data.startTime) > 15000) {
-      const stepDist = stepLength * this.data.distanceCalibration
-      const estimatedDistance = this.data.estimatedDistance + stepDist
-      this.setData({ totalMeter: Math.round((this.data.gpsDistance + estimatedDistance) * 100) / 100, estimatedDistance,
-        distanceSource: this.data.gpsDistance > 0 ? 'GPS + 步数估距' : '步数估距（仅个人记录）' })
+      this.setData({ distanceSource: '定位不足 · 距离暂停累计' })
       if (this.runTracker) this.runTracker.breakSegment()
-      this.checkLapTime()
     }
     this.updateStepDisplay()
   },
@@ -797,6 +858,7 @@ Page({
     })
 
     this.originalStartedAt = this.data.startTime
+    this.autoSyncWeRun()
     this.runEndedAt = 0
     this.saveRunningState()
     this.startTimer()
@@ -821,7 +883,7 @@ Page({
     wx.getSetting({ success: res => {
       if (!alive()) return
       if (res.authSetting['scope.userLocation'] !== false) { authorize(); return }
-      wx.showModal({ title: '需要定位权限', content: '请允许定位以记录跑步轨迹，也可以使用仅个人记录的计步估距。',
+      wx.showModal({ title: '需要定位权限', content: '请允许定位以记录跑步轨迹。无定位时可查看运动时长与估计步数，距离暂停累计。',
         confirmText: '去设置', success: modal => {
           if (!alive()) return
           if (!modal.confirm) { fallback(); return }
@@ -836,8 +898,8 @@ Page({
 
   handleNoLocationPermission() {
     if (!this.data.isRunning || this.data.isPaused) return
-    this.setData({ indoorMode: true, distanceSource: '步数估距（仅个人记录）' })
-    wx.showToast({ title: '计步估距已启用，不参与排名', icon: 'none', duration: 2000 })
+    this.setData({ indoorMode: true, distanceSource: '无定位 · 距离暂停累计' })
+    wx.showToast({ title: '无定位时仅记录时长和估计步数', icon: 'none', duration: 2000 })
   },
 
   pauseRun() {
@@ -944,12 +1006,13 @@ Page({
         speed: point.speed, lastLocationTime: point.time })
       if (sample.gap) this.setData({ signalGaps: this.data.signalGaps + 1 })
       if (!sample.draw) return
+      this.mapLocationVersion += 1
       this.updateRunClock()
       const gpsDistance = Math.max(0, this.data.gpsDistance + sample.delta)
       this.setData({ gpsDistance, totalMeter: Math.round((gpsDistance + this.data.estimatedDistance) * 100) / 100,
         distanceSource: this.data.estimatedDistance > 0 ? 'GPS + 步数估距' : 'GPS 定位',
         latitude: point.latitude, longitude: point.longitude,
-        markers: [{ id: 1, latitude: point.latitude, longitude: point.longitude, width: 30, height: 30 }] })
+        markers: this.personalMapMarkers(point.latitude, point.longitude) })
       const segments = this.data.pathSegments.map((segment: any[]) => segment.slice())
       if (!segments.length) segments.push([])
       if (sample.newSegment && segments[segments.length - 1].length) segments.push([])
@@ -1076,6 +1139,7 @@ Page({
 
     this.clearRunningState()
     this.setData({ savingRun: false })
+    this.autoSyncWeRun()
 
     const hours = Math.floor(finalDuration / 3600)
     const minutes = Math.floor((finalDuration % 3600) / 60)
@@ -1154,6 +1218,7 @@ Page({
         res = await api.call({ name: 'saveRunData', data: { ...record, teamId: '' } })
       }
       if (!res.result?.success) throw new Error(res.result?.errMsg || '记录保存失败')
+      if (!record.settlementOnly && record.openid === wx.getStorageSync('openid')) callEnglish('claimCampusRewards').catch(() => {})
       if (record.teamId && !savedAsSolo) {
         const finish: any = await api.call({ name: 'teamManager', data: { action: 'finishTeamRun', teamId: record.teamId } })
         if (!finish.result?.success) {
@@ -1481,6 +1546,9 @@ Page({
   },
 
   onUnload() {
+    this.mapVisible = false
+    this.mapCompanionVersion += 1
+    this.mapLocationVersion += 1
     if (this.data.isRunning) {
       // 页面销毁时不能再弹确认框，直接安全结束并保存，避免定位和传感器残留。
       this.executeStopRun(this.fusedDistanceCalculation(), true)
@@ -1491,6 +1559,9 @@ Page({
   },
 
   onHide() {
+    this.mapVisible = false
+    this.mapCompanionVersion += 1
+    this.mapLocationVersion += 1
     if (this.data.isRunning) this.saveRunningState()
   },
 
@@ -1563,4 +1634,4 @@ Page({
       }
     }, 1000)
   }
-})
+})))

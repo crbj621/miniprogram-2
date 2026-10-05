@@ -1,6 +1,7 @@
+import { withSharing } from '../../../utils/page-share'
 import { callFoodFunction } from '../../utils/food-cloud'
 
-Page({
+Page(withSharing({
   data: {
     orders: [] as any[],
     loading: true,
@@ -74,4 +75,4 @@ Page({
       }
     })
   }
-})
+}))

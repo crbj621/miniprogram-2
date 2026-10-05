@@ -1,3 +1,4 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="container">
   <scroll-view scroll-y class="log-list" bindscrolltolower="loadMore">
     <view class="log-item" wx:for="{{logs}}" wx:key="_id">
@@ -14,3 +15,5 @@
     <view class="empty" wx:if="{{!loading && logs.length === 0}}">暂无操作日志</view>
   </scroll-view>
 </view>
+
+</block>

@@ -1,0 +1,11 @@
+@import "../../styles/gifts.wxss";
+.wallet { display:flex; justify-content:space-between; align-items:center; gap:20rpx; }
+.balance { display:block; font-size:54rpx; font-weight:750; color:#a379bc; }
+.balance text { font-size:26rpx; }
+.template { display:flex; flex-wrap:wrap; align-items:center; gap:20rpx; }
+.template-icon { font-size:60rpx; width:96rpx; text-align:center; flex-shrink:0; }
+.template-copy { flex:1; min-width:0; }
+.template .row { width:100%; }
+.template-stars { background:linear-gradient(135deg,#f5efff,#edf3ff); }
+.template-letter { background:linear-gradient(135deg,#fff5f9,#fff9ec); }
+.domain { display:block; margin:18rpx 0; color:#a27e9d; font-size:22rpx; word-break:break-all; }

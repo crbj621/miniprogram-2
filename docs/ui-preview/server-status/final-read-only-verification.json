@@ -1,0 +1,146 @@
+{
+  "generatedAt": "2026-10-04T20:25:22.698Z",
+  "current": "/opt/campus-api/releases/20261005-035635",
+  "serviceUser": "campus-api",
+  "serviceState": "active",
+  "health": {
+    "status": "ok",
+    "database": "ok",
+    "functions": 22,
+    "time": "2026-10-04T20:25:22.332Z"
+  },
+  "one": {
+    "status": "ok",
+    "database": "ok",
+    "sampledAt": "2026-10-04T20:25:08.152Z",
+    "cpu": {
+      "usagePercent": 0.5
+    },
+    "memory": {
+      "totalBytes": 2054803456,
+      "availableBytes": 1436237824,
+      "usedBytes": 618565632,
+      "usagePercent": 30.1
+    },
+    "disk": {
+      "totalBytes": 41849925632,
+      "usedBytes": 19179528192,
+      "availableBytes": 20523200512,
+      "usagePercent": 45.8
+    },
+    "websiteStorage": {
+      "usedBytes": 997277696,
+      "checkedAt": "2026-10-04T20:21:37.605Z"
+    },
+    "uptimeSeconds": 364724.24,
+    "bootedAt": "2026-09-30T15:06:23.913Z",
+    "giftSites": {
+      "activeCount": 1,
+      "publicCount": 0,
+      "checkedAt": "2026-10-04T20:24:43.155Z"
+    },
+    "external": {
+      "google": {
+        "state": "reachable",
+        "httpStatus": 200,
+        "latencyMs": 655,
+        "checkedAt": "2026-10-04T19:56:38.024Z",
+        "route": "proxy",
+        "directState": "unreachable",
+        "directCheckedAt": "2026-10-04T19:56:37.641Z"
+      },
+      "youtube": {
+        "state": "reachable",
+        "httpStatus": 200,
+        "latencyMs": 877,
+        "checkedAt": "2026-10-04T19:56:38.246Z",
+        "route": "proxy",
+        "directState": "unreachable",
+        "directCheckedAt": "2026-10-04T19:56:42.368Z"
+      }
+    }
+  },
+  "two": {
+    "status": "ok",
+    "database": "ok",
+    "sampledAt": "2026-10-04T20:25:18.160Z",
+    "cpu": {
+      "usagePercent": 8.2
+    },
+    "memory": {
+      "totalBytes": 2054803456,
+      "availableBytes": 1399173120,
+      "usedBytes": 655630336,
+      "usagePercent": 31.9
+    },
+    "disk": {
+      "totalBytes": 41849925632,
+      "usedBytes": 19179528192,
+      "availableBytes": 20523200512,
+      "usagePercent": 45.8
+    },
+    "websiteStorage": {
+      "usedBytes": 997277696,
+      "checkedAt": "2026-10-04T20:21:37.605Z"
+    },
+    "uptimeSeconds": 364734.24,
+    "bootedAt": "2026-09-30T15:06:23.920Z",
+    "giftSites": {
+      "activeCount": 1,
+      "publicCount": 0,
+      "checkedAt": "2026-10-04T20:25:13.474Z"
+    },
+    "external": {
+      "google": {
+        "state": "reachable",
+        "httpStatus": 200,
+        "latencyMs": 655,
+        "checkedAt": "2026-10-04T19:56:38.024Z",
+        "route": "proxy",
+        "directState": "unreachable",
+        "directCheckedAt": "2026-10-04T19:56:37.641Z"
+      },
+      "youtube": {
+        "state": "reachable",
+        "httpStatus": 200,
+        "latencyMs": 877,
+        "checkedAt": "2026-10-04T19:56:38.246Z",
+        "route": "proxy",
+        "directState": "unreachable",
+        "directCheckedAt": "2026-10-04T19:56:42.368Z"
+      }
+    }
+  },
+  "sqlCounts": {
+    "active_count": 1,
+    "public_count": "0"
+  },
+  "databaseAllocation": 4472832,
+  "websiteFiles": 992804864,
+  "business": {
+    "documents": 342,
+    "collections": 43
+  },
+  "hashes": {
+    "server/src/app.js": "b789f3a175bc5d533858b57c6622cbd71c4351af8005f057c23ead0e1db50bcd",
+    "server/src/server-status.js": "e4de3f9f43162f92bc7085ffe605fd919227d7e6532da523b3a8dbb128722239",
+    "server/package.json": "4791ab9b2ece29c781b6b0b47c1aea44f64ffe7026f954ac0b9f391707f91b09",
+    "server/src/gift-web.js": "3677677cd84e4eb5b671507fb41ff7fe448ace6e568e1d5b77d58cfccdf4d163",
+    "server/public/gifts/background.js": "833ef0bcf56202306ab1844b577f45eaf5c80a7390cf60e5ee223f0d9d8d30e9",
+    "server/public/gifts/gift.css": "096b5fa9a3df75f5f12b125ab69037c9fde53795cab630841999996e09e5fa60"
+  },
+  "originalSiteSha256": "3044d274ff336c8cb5fe6dc87b6fca840e92b9ca3b695acfb4b2953c4e03d8a5",
+  "checks": {
+    "healthy": true,
+    "bothStatusOk": true,
+    "hostUpdated": true,
+    "noExistingWebsiteList": true,
+    "proxyTargetsReachable": true,
+    "networkHourlyCache": true,
+    "storageFiveMinuteCache": true,
+    "countMatches": true,
+    "websiteAllocationMatches": true,
+    "originalSiteUnchanged": true,
+    "diskMatches": true
+  }
+}

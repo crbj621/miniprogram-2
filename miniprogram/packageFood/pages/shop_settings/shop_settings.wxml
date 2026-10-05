@@ -1,3 +1,4 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="container" wx:if="{{shopInfo}}">
   <view class="section">
     <view class="section-title">店铺头像</view>
@@ -18,7 +19,7 @@
     
     <view class="form-item">
       <text class="form-label">店铺名称</text>
-      <input class="form-input tech-input" placeholder="请输入店铺名称" value="{{form.name}}" data-field="name" bindinput="onInputChange" placeholder-style="color:#8597ad" />
+      <input adjust-position="{{true}}" cursor-spacing="24" class="form-input tech-input" placeholder="请输入店铺名称" value="{{form.name}}" data-field="name" bindinput="onInputChange" placeholder-style="color:#8597ad" />
     </view>
 
     <view class="form-item">
@@ -31,7 +32,7 @@
 
     <view class="form-item">
       <text class="form-label">店铺公告</text>
-      <textarea class="form-textarea tech-input" placeholder="请输入店铺公告（选填）" value="{{form.notice}}" data-field="notice" bindinput="onInputChange" placeholder-style="color:#8597ad"></textarea>
+      <textarea disable-default-padding="{{true}}" adjust-position="{{true}}" cursor-spacing="24" class="form-textarea tech-input" placeholder="请输入店铺公告（选填）" value="{{form.notice}}" data-field="notice" bindinput="onInputChange" placeholder-style="color:#8597ad"></textarea>
     </view>
   </view>
 
@@ -50,7 +51,7 @@
       <view class="form-item">
         <text class="form-label">起送价格</text>
         <view class="input-with-unit">
-          <input class="form-input tech-input" type="digit" placeholder="0" value="{{form.minPrice}}" data-field="minPrice" bindinput="onInputChange" placeholder-style="color:#8597ad" />
+          <input adjust-position="{{true}}" cursor-spacing="24" class="form-input tech-input" type="digit" placeholder="0" value="{{form.minPrice}}" data-field="minPrice" bindinput="onInputChange" placeholder-style="color:#8597ad" />
           <text class="unit">元</text>
         </view>
       </view>
@@ -58,7 +59,7 @@
       <view class="form-item">
         <text class="form-label">配送费</text>
         <view class="input-with-unit">
-          <input class="form-input tech-input" type="digit" placeholder="0" value="{{form.deliveryFee}}" data-field="deliveryFee" bindinput="onInputChange" placeholder-style="color:#8597ad" />
+          <input adjust-position="{{true}}" cursor-spacing="24" class="form-input tech-input" type="digit" placeholder="0" value="{{form.deliveryFee}}" data-field="deliveryFee" bindinput="onInputChange" placeholder-style="color:#8597ad" />
           <text class="unit">元</text>
         </view>
       </view>
@@ -89,3 +90,5 @@
     {{loading ? '保存中...' : '保存设置'}}
   </view>
 </view>
+
+</block>

@@ -1,5 +1,6 @@
+import { withSharing } from '../../../utils/page-share'
 import { api } from '../../../utils/api-client'
-Page({
+Page(withSharing({
   data: {
     loading: true,
     list: [] as any[],
@@ -146,4 +147,4 @@ Page({
       }
     })
   }
-})
+}))

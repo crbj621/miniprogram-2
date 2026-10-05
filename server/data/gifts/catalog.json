@@ -1,0 +1,396 @@
+{
+  "creationPrice": 0,
+  "customDomainPrice": 5,
+  "durations": [
+    {
+      "id": "3d",
+      "name": "3天",
+      "days": 3,
+      "price": 0
+    },
+    {
+      "id": "7d",
+      "name": "7天",
+      "days": 7,
+      "price": 5
+    },
+    {
+      "id": "15d",
+      "name": "15天",
+      "days": 15,
+      "price": 10
+    },
+    {
+      "id": "1m",
+      "name": "1个月",
+      "months": 1,
+      "price": 15
+    }
+  ],
+  "templates": [
+    {
+      "id": "birthday",
+      "name": "奶油生日派对",
+      "icon": "🎂",
+      "description": "气球、蛋糕与一封生日小信",
+      "defaultTitle": "生日快乐",
+      "defaultMessage": "愿你新的一岁，被温柔与快乐包围。每一个小愿望，都慢慢实现。",
+      "suggestions": [
+        "愿你新的一岁，被温柔与快乐包围。每一个小愿望，都慢慢实现。",
+        "愿今天的小小快乐，变成你心里的大大欢喜。",
+        "愿所有期待都慢慢靠近，愿每一天都有人惦记你。"
+      ],
+      "previewBackground": "video-stars",
+      "previewEffects": [
+        "balloons",
+        "sparkles",
+        "confetti",
+        "fireworks",
+        "ribbons"
+      ]
+    },
+    {
+      "id": "letter",
+      "name": "把祝福寄给你",
+      "icon": "💌",
+      "description": "打开信封，收下这一份心意",
+      "defaultTitle": "有一份祝福给你",
+      "defaultMessage": "不管今天晴天还是下雨，都愿你有值得期待的小美好。",
+      "suggestions": [
+        "不管今天晴天还是下雨，都愿你有值得期待的小美好。",
+        "愿今天的小小快乐，变成你心里的大大欢喜。",
+        "愿所有期待都慢慢靠近，愿每一天都有人惦记你。"
+      ],
+      "previewBackground": "video-fire",
+      "previewEffects": [
+        "sparkles",
+        "sakura",
+        "starburst"
+      ]
+    },
+    {
+      "id": "stars",
+      "name": "星空许愿瓶",
+      "icon": "🌙",
+      "description": "把名字写进星光，点亮夜空",
+      "defaultTitle": "愿星光为你闪耀",
+      "defaultMessage": "你认真许下的愿望，我都悄悄替你收藏。愿前路有光，也有陪伴。",
+      "suggestions": [
+        "你认真许下的愿望，我都悄悄替你收藏。愿前路有光，也有陪伴。",
+        "愿今天的小小快乐，变成你心里的大大欢喜。",
+        "愿所有期待都慢慢靠近，愿每一天都有人惦记你。"
+      ],
+      "previewBackground": "video-stars",
+      "previewEffects": [
+        "sparkles",
+        "fireworks",
+        "starburst"
+      ]
+    },
+    {
+      "id": "love",
+      "name": "一封心动情书",
+      "icon": "💗",
+      "description": "信封里，藏着我一直想说的话",
+      "defaultTitle": "想把喜欢说给你听",
+      "defaultMessage": "从普通的一天开始，你变成了我每天的小期待。想和你一起，把日常过成喜欢的样子。",
+      "suggestions": [
+        "从普通的一天开始，你变成了我每天的小期待。想和你一起，把日常过成喜欢的样子。",
+        "愿今天的小小快乐，变成你心里的大大欢喜。",
+        "愿所有期待都慢慢靠近，愿每一天都有人惦记你。"
+      ],
+      "previewBackground": "video-fire",
+      "previewEffects": [
+        "hearts",
+        "sakura",
+        "sparkles",
+        "confetti"
+      ]
+    },
+    {
+      "id": "wall",
+      "name": "告白与祝福墙",
+      "icon": "🌷",
+      "description": "把心意写在墙上，也收集朋友的祝福",
+      "defaultTitle": "心意收集处",
+      "defaultMessage": "这里收藏喜欢、祝福，以及那些还没说出口的温柔。欢迎在下面留下一句话。",
+      "suggestions": [
+        "这里收藏喜欢、祝福，以及那些还没说出口的温柔。欢迎在下面留下一句话。",
+        "愿今天的小小快乐，变成你心里的大大欢喜。",
+        "愿所有期待都慢慢靠近，愿每一天都有人惦记你。"
+      ],
+      "previewBackground": "video-stars",
+      "previewEffects": [
+        "hearts",
+        "sparkles",
+        "fireworks"
+      ]
+    },
+    {
+      "id": "daily",
+      "name": "今天的小确幸",
+      "icon": "☁️",
+      "description": "点开一张日常卡片，收下今天的好运",
+      "defaultTitle": "今天，也要开心一点",
+      "defaultMessage": "今天的幸运签：你值得被好好对待。累的时候休息一下，喜欢的事慢慢来。",
+      "suggestions": [
+        "今天的幸运签：你值得被好好对待。累的时候休息一下，喜欢的事慢慢来。",
+        "愿今天的小小快乐，变成你心里的大大欢喜。",
+        "愿所有期待都慢慢靠近，愿每一天都有人惦记你。"
+      ],
+      "previewBackground": "video-stars",
+      "previewEffects": [
+        "sparkles",
+        "balloons",
+        "sakura"
+      ]
+    },
+    {
+      "id": "prank",
+      "name": "调皮惊喜盒",
+      "icon": "🎁",
+      "description": "礼物会躲猫猫，追到它就有惊喜",
+      "defaultTitle": "有一个神秘礼物给你",
+      "defaultMessage": "抓到我啦！其实只想说：你真的很可爱，今天要记得笑一下。",
+      "suggestions": [
+        "抓到我啦！其实只想说：你真的很可爱，今天要记得笑一下。",
+        "愿今天的小小快乐，变成你心里的大大欢喜。",
+        "愿所有期待都慢慢靠近，愿每一天都有人惦记你。"
+      ],
+      "previewBackground": "video-fire",
+      "previewEffects": [
+        "confetti",
+        "ribbons",
+        "starburst"
+      ]
+    },
+    {
+      "id": "celebration",
+      "name": "纪念日庆祝派对",
+      "icon": "🎉",
+      "description": "毕业、节日、纪念日，每个好日子都值得记住",
+      "defaultTitle": "为这个好日子干杯",
+      "defaultMessage": "把今天收藏好。愿往后的日子，也有热爱、有陪伴、有值得庆祝的小瞬间。",
+      "suggestions": [
+        "把今天收藏好。愿往后的日子，也有热爱、有陪伴、有值得庆祝的小瞬间。",
+        "愿今天的小小快乐，变成你心里的大大欢喜。",
+        "愿所有期待都慢慢靠近，愿每一天都有人惦记你。"
+      ],
+      "previewBackground": "video-stars",
+      "previewEffects": [
+        "fireworks",
+        "confetti",
+        "ribbons",
+        "sparkles"
+      ]
+    }
+  ],
+  "backgrounds": [
+    {
+      "id": "peach",
+      "name": "桃桃奶油",
+      "kind": "static",
+      "price": 0,
+      "basic": true
+    },
+    {
+      "id": "lavender",
+      "name": "香芋云朵",
+      "kind": "static",
+      "price": 0,
+      "basic": true
+    },
+    {
+      "id": "mint",
+      "name": "薄荷晴天",
+      "kind": "static",
+      "price": 0,
+      "basic": true
+    },
+    {
+      "id": "night",
+      "name": "星夜蓝",
+      "kind": "static",
+      "price": 0,
+      "basic": true
+    },
+    {
+      "id": "sky",
+      "name": "晴空白云",
+      "kind": "static",
+      "price": 0,
+      "basic": true
+    },
+    {
+      "id": "sunrise",
+      "name": "动漫感日出",
+      "kind": "static",
+      "price": 0,
+      "basic": true
+    },
+    {
+      "id": "spring",
+      "name": "春日樱花",
+      "kind": "static",
+      "price": 0,
+      "basic": true
+    },
+    {
+      "id": "summer",
+      "name": "夏日晴海",
+      "kind": "static",
+      "price": 0,
+      "basic": true
+    },
+    {
+      "id": "autumn",
+      "name": "秋天枫叶",
+      "kind": "static",
+      "price": 0,
+      "basic": true
+    },
+    {
+      "id": "winter",
+      "name": "冬日初雪",
+      "kind": "static",
+      "price": 0,
+      "basic": true
+    },
+    {
+      "id": "meteors",
+      "name": "草原星夜",
+      "description": "远山、银河、湖泊与草原的静态插画",
+      "poster": "backgrounds/grassland-night.webp",
+      "widePoster": "backgrounds/grassland-night-wide.webp",
+      "kind": "static",
+      "price": 0,
+      "basic": true,
+      "nativePoster": "backgrounds/grassland-night-native.jpg"
+    },
+    {
+      "id": "campfire",
+      "name": "森林月夜",
+      "description": "月光森林与山谷的静态插画",
+      "poster": "backgrounds/forest-night.webp",
+      "widePoster": "backgrounds/forest-night-wide.webp",
+      "kind": "static",
+      "price": 0,
+      "basic": true,
+      "nativePoster": "backgrounds/forest-night-native.jpg"
+    },
+    {
+      "id": "clouds3d",
+      "name": "晴空花野",
+      "description": "蓝天、青山与花野的静态插画",
+      "poster": "backgrounds/clouds-day.webp",
+      "widePoster": "backgrounds/clouds-day-wide.webp",
+      "kind": "static",
+      "price": 0,
+      "basic": true,
+      "nativePoster": "backgrounds/clouds-day-native.jpg"
+    },
+    {
+      "id": "halo3d",
+      "name": "极光海岸",
+      "description": "极光、灯塔与海岸的静态插画",
+      "poster": "backgrounds/aurora-coast.webp",
+      "widePoster": "backgrounds/aurora-coast-wide.webp",
+      "kind": "static",
+      "price": 0,
+      "basic": true,
+      "nativePoster": "backgrounds/aurora-coast-native.jpg"
+    },
+    {
+      "id": "video-fire",
+      "name": "夜晚篝火 · 视频",
+      "kind": "dynamic",
+      "price": 6,
+      "description": "真正燃烧的火焰、飘起的火星与静谧夜色",
+      "poster": "backgrounds/video-fire-portrait.jpg",
+      "widePoster": "backgrounds/video-fire-wide.jpg",
+      "nativePoster": "backgrounds/video-fire-portrait.jpg",
+      "video": {
+        "portrait": "videos/video-fire-portrait.mp4",
+        "wide": "videos/video-fire-wide.mp4"
+      }
+    },
+    {
+      "id": "video-stars",
+      "name": "星河夜幕 · 视频",
+      "kind": "dynamic",
+      "price": 6,
+      "description": "漫天星光缓缓流动，远处山影安静相伴",
+      "poster": "backgrounds/video-stars-portrait.jpg",
+      "widePoster": "backgrounds/video-stars-wide.jpg",
+      "nativePoster": "backgrounds/video-stars-portrait.jpg",
+      "video": {
+        "portrait": "videos/video-stars-portrait.mp4",
+        "wide": "videos/video-stars-wide.mp4"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "id": "balloons",
+      "name": "轻飘气球",
+      "price": 0,
+      "basic": true
+    },
+    {
+      "id": "sparkles",
+      "name": "闪闪星光",
+      "price": 0,
+      "basic": true
+    },
+    {
+      "id": "confetti",
+      "name": "惊喜彩纸",
+      "price": 2,
+      "basic": false
+    },
+    {
+      "id": "hearts",
+      "name": "心动花雨",
+      "price": 3,
+      "basic": false
+    },
+    {
+      "id": "fireworks",
+      "name": "绽放烟花",
+      "price": 5,
+      "basic": false
+    },
+    {
+      "id": "sakura",
+      "name": "樱花飞舞",
+      "price": 2,
+      "basic": false
+    },
+    {
+      "id": "leaves",
+      "name": "飘落枫叶",
+      "price": 1,
+      "basic": false
+    },
+    {
+      "id": "snow",
+      "name": "初雪纷飞",
+      "price": 1,
+      "basic": false
+    },
+    {
+      "id": "starburst",
+      "name": "星星大爆发",
+      "price": 3,
+      "basic": false
+    },
+    {
+      "id": "ribbons",
+      "name": "彩带庆祝",
+      "price": 3,
+      "basic": false
+    }
+  ],
+  "previewLeaseSeconds": 120,
+  "trialHours": 2
+}

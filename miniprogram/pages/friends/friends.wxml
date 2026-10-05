@@ -1,15 +1,15 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="container">
   <view class="search-bar">
     <view class="search-box">
       <text class="search-icon">🔎</text>
-      <tech-search class="tech-search-host"><input
+      <tech-search class="tech-search-host"><input adjust-position="{{true}}" cursor-spacing="24"
         class="search-input tech-input"
         placeholder="输入昵称或6位ID搜索"
         value="{{searchValue}}"
         bindinput="onSearchInput"
         bindconfirm="onSearchConfirm"
         confirm-type="search"
-        adjust-position="false"
       placeholder-style="color:#8597ad" /></tech-search>
       <view class="search-clear" wx:if="{{searchValue}}" bindtap="clearSearch" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">×</view>
       <view class="search-btn tech-control" bindtap="onSearchConfirm" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">搜索</view>
@@ -53,3 +53,5 @@
     </view>
   </scroll-view>
 </view>
+
+</block>

@@ -1,4 +1,5 @@
-<view class="page {{isRunning ? 'page--running' : ''}}">
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
+<view class="page {{isRunning ? 'page--running' : ''}} campus-theme {{theme.key !== 'default' ? 'campus-theme-enabled' : ''}}" style="{{theme.style}}">
   <view class="map-section">
     <map
       id="myMap"
@@ -7,8 +8,10 @@
       latitude="{{latitude}}"
       markers="{{markers}}"
       polyline="{{polyline}}"
-      scale="16"
-      show-location
+      scale="{{isRunning ? 18 : 16}}"
+      show-scale
+      show-location="{{false}}"
+      bindcallouttap="openMapWardrobe"
       enable-high-accuracy
       enable-3D="{{false}}"
       enable-overlooking="{{false}}"
@@ -17,17 +20,17 @@
       enable-rotate="{{false}}"></map>
     
 </view>
-  <view class="run-top-hud" style="top: {{hudTop}}px"><view><button wx:if="{{!isRunning}}" class="hud-back tech-control" bindtap="goToPortal" hover-class="tap-feedback tech-pressed">‹ 校园首页</button><text class="hud-kicker">CAMPUS / MOTION</text><text class="hud-title">校园跑</text></view><view class="status-chip"><view class="status-dot {{isRunning && !isPaused ? 'status-dot--active' : ''}}" /><text>{{isRunning ? (isPaused ? '已暂停' : '运动中') : '准备出发'}}</text></view></view>
-  <view class="map-signal" style="top: {{hudTop + 60}}px"><view class="signal-bars"><view /><view /><view /></view><text>{{accuracy > 80 ? '弱信号 · 计步估距' : (accuracy > 0 ? 'GPS 已连接' : '等待 GPS')}}</text></view>
+  <view class="run-top-hud" style="top: {{hudTop}}px"><view><button wx:if="{{!isRunning}}" class="hud-back tech-control" bindtap="goToPortal" hover-class="tap-feedback tech-pressed">‹ 校园首页</button><text class="hud-kicker">CAMPUS / MOTION</text><text class="hud-title">校园跑<text wx:if="{{theme.key !== 'default'}}" class="campus-theme-decoration">{{theme.decoration}}</text></text></view><view class="status-chip"><view class="status-dot {{isRunning && !isPaused ? 'status-dot--active' : ''}}" /><text>{{isRunning ? (isPaused ? '已暂停' : '运动中') : '准备出发'}}</text></view></view>
+  <view class="map-signal" style="top: {{hudTop + 60}}px"><view class="signal-bars"><view /><view /><view /></view><text>{{accuracy > 80 ? '定位不足 · 距离暂停累计' : (accuracy > 0 ? 'GPS 已连接' : '等待 GPS')}}</text></view>
   <button class="map-locate tech-control" style="top: {{hudTop + 60}}px" bindtap="getCurrentLocation" aria-label="定位到我" hover-class="tap-feedback tech-pressed">◎</button>
   <view class="live-meter" style="top: {{hudTop + 116}}px" wx:if="{{isRunning && sheetCollapsed}}"><view><text class="live-distance">{{totalMeter}}</text><text class="live-unit">m</text></view><text class="live-caption">{{formattedDuration}} · {{formattedPace}} / km</text></view>
   <view class="run-sheet {{sheetCollapsed ? 'run-sheet--collapsed' : ''}} {{sheetDragging ? 'run-sheet--dragging' : ''}}" style="{{sheetDragging ? 'transform: translateY(' + sheetDragOffset + 'px)' : ''}}">
     <view class="sheet-grip" catchtouchstart="onSheetTouchStart" catchtouchmove="onSheetTouchMove" catchtouchend="onSheetTouchEnd" catchtouchcancel="onSheetTouchEnd"><view class="grip-line" /><text>{{sheetCollapsed ? '上拉查看运动卡片' : '下拉收起运动卡片'}}</text><button class="sheet-toggle tech-control" catchtap="toggleSheet" hover-class="tap-feedback tech-pressed" aria-label="展开或收起运动卡片">{{sheetCollapsed ? '⌃' : '⌄'}}</button></view>
     <scroll-view scroll-y class="sheet-content">
-  <view class="run-summary tech-card">
+  <view class="run-summary tech-card campus-theme-surface">
     <view class="summary-top"><text class="summary-label">{{isRunning ? '本次运动' : '运动数据'}}</text><text class="summary-badge">{{isRunning ? (isPaused ? 'PAUSED' : 'RECORDING') : 'READY'}}</text></view>
     <view class="main-data"><text class="distance-num">{{totalMeter}}</text><text class="distance-unit">米</text></view>
-    <view class="goal-line"><text>{{targetDistance > 0 ? '目标 · ' + targetDistance + ' 公里' : 'TRACK YOUR EVERY MOVE'}}</text><text>{{distanceSource}}</text></view>
+    <view class="goal-line"><text>{{targetDistance > 0 ? '目标 · ' + targetDistance + ' 公里' : pageCopy.subtitle}}</text><text>{{distanceSource}}</text></view>
     <progress wx:if="{{targetDistance > 0}}" percent="{{totalMeter / (targetDistance * 10) > 100 ? 100 : totalMeter / (targetDistance * 10)}}" stroke-width="5" activeColor="#34a8cd" backgroundColor="#d8e8f4" border-radius="6" />
     <view class="sub-data">
       <view class="data-item"><text class="data-label">运动时长</text><text class="data-value">{{formattedDuration}}</text></view>
@@ -125,7 +128,7 @@
       </view>
       <view class="modal-body">
         <view class="plan-input-wrap">
-          <input type="digit" class="plan-input tech-input" placeholder="输入目标距离" value="{{targetDistanceInput}}" bindinput="onPlanInput" placeholder-style="color:#8597ad" />
+          <input adjust-position="{{true}}" cursor-spacing="24" type="digit" class="plan-input tech-input" placeholder="输入目标距离" value="{{targetDistanceInput}}" bindinput="onPlanInput" placeholder-style="color:#8597ad" />
           <text class="plan-unit">km</text>
         </view>
         <view class="plan-tips">设定后，未完成目标结束跑步会提示是否继续或保存记录。</view>
@@ -144,9 +147,9 @@
         <text class="modal-title">🔍 搜索好友</text>
         <button class="modal-close tech-control" bindtap="closeSearch" hover-class="tap-feedback tech-pressed">×</button>
       </view>
-      <view class="modal-body">
+      <view class="modal-body search-modal-body">
         <view class="search-box">
-          <tech-search class="tech-search-host"><input 
+          <tech-search class="tech-search-host"><input adjust-position="{{true}}" cursor-spacing="24" 
             class="search-input tech-input" 
             placeholder="输入好友昵称" 
             value="{{searchKeyword}}"
@@ -222,3 +225,5 @@
   
   <run-tabbar wx:if="{{!isRunning}}" selected="{{0}}"></run-tabbar>
 </view>
+
+</block>

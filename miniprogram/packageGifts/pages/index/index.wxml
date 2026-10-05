@@ -1,0 +1,18 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
+<view class="gift-page">
+  <view class="gift-header"><view><text class="gift-kicker">LITTLE WISHES</text><text class="gift-title">{{pageCopy.title}}</text></view><button class="back tech-control" bindtap="back">‹ 首页</button></view>
+  <view class="wallet card"><view><text class="muted">我的金币</text><text class="balance">{{catalog ? catalog.coins : '—'}} <text>✦</text></text></view><button class="tech-control" bindtap="tasks">做任务赚金币 ↗</button></view>
+  <view wx:if="{{loading}}" class="notice">正在整理你的祝福…</view>
+  <view wx:if="{{error}}" class="error">{{error}}<button class="tech-control" bindtap="load">重新加载</button></view>
+  <block wx:if="{{catalog}}">
+    <view class="notice">{{catalog.trialAvailable ? '首次2小时全特效体验免费。' : '基础版3天免费。'}} 7天5金币、15天10金币、1个月15金币；背景和特效另计，自定义域名加5。先免费预览，满意再确认，最多同时3站。</view>
+    <view class="section-heading">选一份心意<text>演示完整效果 · 免费试看</text></view>
+    <view wx:for="{{catalog.templates}}" wx:key="id" class="template card template-{{item.id}}"><view class="template-icon">{{item.icon}}</view><view class="template-copy"><text class="card-title">{{item.name}}</text><text class="muted">{{item.description}}</text></view><view class="row"><button class="tech-control" data-id="{{item.id}}" bindtap="preview">复制模板预览链接</button><button class="tech-control tech-primary" data-id="{{item.id}}" bindtap="create">为 TA 制作 ↗</button></view></view>
+    <view class="section-heading">我的祝福<text>{{sites.length}} 份正在保留</text></view>
+    <view wx:if="{{!sites.length}}" class="card muted">还没有祝福网站，选一个模板开始吧。</view>
+    <view wx:for="{{sites}}" wx:key="id" class="card"><text class="card-title">{{item.title}} · 给 {{item.recipient}}</text><text class="muted">{{item.status === 'blocked' ? '已下架' : item.trial ? '首次免费体验' : '已上线'}} · {{item.expiresText}} 到期</text><text class="muted">{{item.listed ? '已公示到祝福广场' : '未公示 · 仅通过链接访问'}}</text><text class="domain">{{item.url}}</text><view class="row"><button class="tech-control" data-id="{{item.id}}" bindtap="view">查看 / 分享</button><button wx:if="{{item.status !== 'blocked'}}" class="tech-control" data-id="{{item.id}}" bindtap="edit">编辑</button><button class="tech-control" data-id="{{item.id}}" bindtap="remove">删除</button></view></view>
+    <view class="section-heading">祝福广场<text>大家公开的小小心意</text></view><view wx:if="{{!gallery.length}}" class="card muted">暂无公开祝福。制作时打开“公示”即可在这里展示。</view><view wx:for="{{gallery}}" wx:key="id" class="card"><text class="card-title">{{item.title}} · 给 {{item.recipient}}</text><text class="muted">{{item.sender || '一位有心的朋友'}}</text><view class="row"><button class="tech-control tech-primary" data-id="{{item.id}}" bindtap="view">打开祝福与留言</button><button class="tech-control" data-url="{{item.url}}" bindtap="copy">复制分享链接</button></view></view><button wx:if="{{galleryHasMore}}" class="tech-control" bindtap="moreGallery" loading="{{galleryLoading}}" disabled="{{galleryLoading}}">更多公开祝福</button>
+  </block>
+</view>
+
+</block>

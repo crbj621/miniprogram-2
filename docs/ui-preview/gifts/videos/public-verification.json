@@ -1,0 +1,256 @@
+{
+  "time": "2026-10-04T15:40:06.777Z",
+  "health": {
+    "status": "ok",
+    "database": "ok",
+    "functions": 22,
+    "time": "2026-10-04T15:39:22.577Z"
+  },
+  "assets": [
+    {
+      "file": "backgrounds/grassland-night.webp",
+      "bytes": 373680,
+      "sha256": "c3abffb54e46f6747844a8eb8b3bf1505acfdb05c0a23185ca83bab67c11c2aa",
+      "contentType": "image/webp"
+    },
+    {
+      "file": "backgrounds/grassland-night-wide.webp",
+      "bytes": 436864,
+      "sha256": "529f139cb70b625dcef757774b96c686e2a5727aae76373fa7928fb6dac9c779",
+      "contentType": "image/webp"
+    },
+    {
+      "file": "backgrounds/grassland-night-native.jpg",
+      "bytes": 629461,
+      "sha256": "1b1369a809fbc4b8d63b14702511ac8b0627effd43572c539bd7f577a926ec78",
+      "contentType": "image/jpeg"
+    },
+    {
+      "file": "backgrounds/forest-night.webp",
+      "bytes": 421308,
+      "sha256": "7076a3b09e2fa066c7ce56f43da139c289177b9bdccfc3d5965c74951f6c62ec",
+      "contentType": "image/webp"
+    },
+    {
+      "file": "backgrounds/forest-night-wide.webp",
+      "bytes": 432030,
+      "sha256": "372392c315a337142d7233a05f28a32bf84c797368c61320d8b8d719c82bcfe6",
+      "contentType": "image/webp"
+    },
+    {
+      "file": "backgrounds/forest-night-native.jpg",
+      "bytes": 700500,
+      "sha256": "db0307fc99a15397ddf44865926a119221ea14b51a63f627e209271a8c2f4f52",
+      "contentType": "image/jpeg"
+    },
+    {
+      "file": "backgrounds/clouds-day.webp",
+      "bytes": 355596,
+      "sha256": "401ac542931b68268049368928b6f58219fea472c57c1e8f6d16ae0038ab5c66",
+      "contentType": "image/webp"
+    },
+    {
+      "file": "backgrounds/clouds-day-wide.webp",
+      "bytes": 385870,
+      "sha256": "d11935e6fd376f1bc0777ee9ddc3d73544a10d07505a4c01e1f8c7cb8c47e919",
+      "contentType": "image/webp"
+    },
+    {
+      "file": "backgrounds/clouds-day-native.jpg",
+      "bytes": 619086,
+      "sha256": "05ccd035b822e72b0c372b9dedc1b76b12048ac201b780b7f97449d1fa7ef6e8",
+      "contentType": "image/jpeg"
+    },
+    {
+      "file": "backgrounds/aurora-coast.webp",
+      "bytes": 380026,
+      "sha256": "8dd2a1ea072c0cc6fd5d4a5cac86b31371ac5593fc134c2afdd2fb5f79f2a451",
+      "contentType": "image/webp"
+    },
+    {
+      "file": "backgrounds/aurora-coast-wide.webp",
+      "bytes": 436232,
+      "sha256": "4a01e41f348cda94957b9a327e8def1a6dec342c5699e1e9bb694b9a4f4332c7",
+      "contentType": "image/webp"
+    },
+    {
+      "file": "backgrounds/aurora-coast-native.jpg",
+      "bytes": 621714,
+      "sha256": "9c85f737a4641b9d0b00335325031bc4c462f6731cfc0ae42ba2bdbbe936b541",
+      "contentType": "image/jpeg"
+    },
+    {
+      "file": "backgrounds/video-fire-portrait.jpg",
+      "bytes": 109277,
+      "sha256": "7941c40fe559ad876aa90a85ebf00f595ceec745f6cdd6c6b35cc4aa4837acf5",
+      "contentType": "image/jpeg"
+    },
+    {
+      "file": "backgrounds/video-fire-wide.jpg",
+      "bytes": 96669,
+      "sha256": "a8af306980779bc4abfea09748bbe65638cd3d6976d7cdad7d940a0d1e92a02c",
+      "contentType": "image/jpeg"
+    },
+    {
+      "file": "videos/video-fire-portrait.mp4",
+      "bytes": 2405729,
+      "sha256": "7dacdc641c195b6ef31561a55efa3a2febee9a9757b9fa31665dc38631571226",
+      "contentType": "video/mp4"
+    },
+    {
+      "file": "videos/video-fire-wide.mp4",
+      "bytes": 1728636,
+      "sha256": "1ff909d9ce4db83e550ac1320b0319a1bc4f21b8ec5c9bd55085af63aba82c0f",
+      "contentType": "video/mp4"
+    },
+    {
+      "file": "backgrounds/video-stars-portrait.jpg",
+      "bytes": 33068,
+      "sha256": "b2451cafd5f60a3384367ec6cb742c97228e6a3edcfcae08405904769475bdb7",
+      "contentType": "image/jpeg"
+    },
+    {
+      "file": "backgrounds/video-stars-wide.jpg",
+      "bytes": 59024,
+      "sha256": "4f66d3eea6b9fa3dd4fb8d9ed17b83fbd356ac028c5124214a473c3d6808863f",
+      "contentType": "image/jpeg"
+    },
+    {
+      "file": "videos/video-stars-portrait.mp4",
+      "bytes": 693903,
+      "sha256": "ab5742eeed5be5183d5b62a2d2faef8ea26eb224d63a24a365bbe9294e7cb3ec",
+      "contentType": "video/mp4"
+    },
+    {
+      "file": "videos/video-stars-wide.mp4",
+      "bytes": 827192,
+      "sha256": "8036988d8e480c28ed620c8c99371e914d0c8e2825afaf57d86e2e1b47b7e752",
+      "contentType": "video/mp4"
+    }
+  ],
+  "scenes": [
+    {
+      "background": "video-fire",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "video": {
+        "source": "https://www.crbuj.icu/campus-api/gift-assets/videos/video-fire-portrait.mp4",
+        "time": 1.081297,
+        "width": 720,
+        "height": 1280,
+        "muted": true,
+        "loop": true,
+        "inline": true
+      },
+      "opened": true,
+      "candleBlown": true,
+      "manualPauseResume": true,
+      "noHeadingOverlap": true
+    },
+    {
+      "background": "video-fire",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "video": {
+        "source": "https://www.crbuj.icu/campus-api/gift-assets/videos/video-fire-portrait.mp4",
+        "time": 0.705139,
+        "width": 720,
+        "height": 1280,
+        "muted": true,
+        "loop": true,
+        "inline": true
+      },
+      "opened": true,
+      "candleBlown": true,
+      "manualPauseResume": true,
+      "noHeadingOverlap": true
+    },
+    {
+      "background": "video-fire",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "video": {
+        "source": "https://www.crbuj.icu/campus-api/gift-assets/videos/video-fire-wide.mp4",
+        "time": 0.629778,
+        "width": 1280,
+        "height": 720,
+        "muted": true,
+        "loop": true,
+        "inline": true
+      },
+      "opened": true,
+      "candleBlown": true,
+      "manualPauseResume": true,
+      "noHeadingOverlap": true
+    },
+    {
+      "background": "video-stars",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "video": {
+        "source": "https://www.crbuj.icu/campus-api/gift-assets/videos/video-stars-portrait.mp4",
+        "time": 0.622769,
+        "width": 720,
+        "height": 1280,
+        "muted": true,
+        "loop": true,
+        "inline": true
+      },
+      "opened": true,
+      "candleBlown": true,
+      "manualPauseResume": true,
+      "noHeadingOverlap": true
+    },
+    {
+      "background": "video-stars",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "video": {
+        "source": "https://www.crbuj.icu/campus-api/gift-assets/videos/video-stars-portrait.mp4",
+        "time": 0.690574,
+        "width": 720,
+        "height": 1280,
+        "muted": true,
+        "loop": true,
+        "inline": true
+      },
+      "opened": true,
+      "candleBlown": true,
+      "manualPauseResume": true,
+      "noHeadingOverlap": true
+    },
+    {
+      "background": "video-stars",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "video": {
+        "source": "https://www.crbuj.icu/campus-api/gift-assets/videos/video-stars-wide.mp4",
+        "time": 0.633042,
+        "width": 1280,
+        "height": 720,
+        "muted": true,
+        "loop": true,
+        "inline": true
+      },
+      "opened": true,
+      "candleBlown": true,
+      "manualPauseResume": true,
+      "noHeadingOverlap": true
+    }
+  ],
+  "errors": [],
+  "networkRetries": [],
+  "boundary": "Read-only public demos and shared asset/range requests; no site creation or wallet/database writes; headless Edge, not a phone. Transient network retries are reported."
+}

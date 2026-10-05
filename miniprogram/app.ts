@@ -13,9 +13,9 @@ App({
     authVersion: 0
   },
 
-  onLaunch() {
+  onLaunch(options: any) {
     initializeServerClient()
-
+    if (options && options.scene === 1154) return
     this.initLoginState()
   },
 

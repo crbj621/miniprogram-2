@@ -1,0 +1,109 @@
+{
+  "generatedAt": "2026-10-05T04:17:41.211742+08:00",
+  "backup": "/etc/mihomo/backup-subscription-20261005-041558",
+  "provider": {
+    "name": "campus-subscription",
+    "vehicleType": "HTTP",
+    "intervalSeconds": 21600,
+    "beforeUpdateAt": "2026-10-05T04:16:06.062949431+08:00",
+    "afterUpdateAt": "2026-10-05T04:17:34.100328688+08:00",
+    "updatedAt": "2026-10-05T04:17:34.104488185+08:00",
+    "nodes": 68
+  },
+  "ruleCount": 9263,
+  "groups": [
+    {
+      "name": "♻️自动选择",
+      "filter": "0[.]1\\s*倍",
+      "nodeCount": 30,
+      "allLowRate": true,
+      "selected": "🇯🇵日本东京01-0.1倍 | 电信联通推荐"
+    },
+    {
+      "name": "🇯🇵日本节点",
+      "filter": "(?i)(日本|🇯🇵|Japan).*0[.]1\\s*倍|0[.]1\\s*倍.*(日本|🇯🇵|Japan)",
+      "nodeCount": 9,
+      "allLowRate": true,
+      "selected": "🇯🇵日本东京01-0.1倍 | 电信联通推荐"
+    },
+    {
+      "name": "🇸🇬狮城节点",
+      "filter": "(?i)(新加坡|狮城|🇸🇬|Singapore).*0[.]1\\s*倍|0[.]1\\s*倍.*(新加坡|狮城|🇸🇬|Singapore)",
+      "nodeCount": 5,
+      "allLowRate": true,
+      "selected": "🇸🇬新加坡01-0.1倍 | 电信联通推荐"
+    },
+    {
+      "name": "🇺🇸美国节点",
+      "filter": "(?i)(美国|🇺🇸|USA).*0[.]1\\s*倍|0[.]1\\s*倍.*(美国|🇺🇸|USA)",
+      "nodeCount": 16,
+      "allLowRate": true,
+      "selected": "🇺🇸美国01-0.1倍 | 电信联通移动推荐"
+    }
+  ],
+  "selectedGroups": {
+    "🚀节点选择": "🇺🇸美国节点",
+    "🎬媒体解锁": "🚀节点选择",
+    "🤖AI网站": "🚀节点选择",
+    "🐟漏网之鱼": "🚀节点选择"
+  },
+  "domesticRoutes": [
+    "match DomainSuffix(baidu.com) using DIRECT",
+    "match DomainSuffix(baidu.com) using DIRECT"
+  ],
+  "probes": [
+    {
+      "round": 1,
+      "site": "Google",
+      "httpStatus": "200",
+      "success": true,
+      "error": ""
+    },
+    {
+      "round": 1,
+      "site": "YouTube",
+      "httpStatus": "200",
+      "success": true,
+      "error": ""
+    },
+    {
+      "round": 1,
+      "site": "Baidu",
+      "httpStatus": "200",
+      "success": true,
+      "error": ""
+    },
+    {
+      "round": 2,
+      "site": "Google",
+      "httpStatus": "200",
+      "success": true,
+      "error": ""
+    },
+    {
+      "round": 2,
+      "site": "YouTube",
+      "httpStatus": "200",
+      "success": true,
+      "error": ""
+    },
+    {
+      "round": 2,
+      "site": "Baidu",
+      "httpStatus": "200",
+      "success": true,
+      "error": ""
+    }
+  ],
+  "checks": {
+    "rulesAndDnsUnchanged": true,
+    "ruleMode": true,
+    "tunDisabled": true,
+    "nativeHttpProvider": true,
+    "nativeUpdateSucceeded": true,
+    "automaticGroupsLowRate": true,
+    "selectionsPersistAfterRestart": true,
+    "domesticDirect": true,
+    "sitesReachable": true
+  }
+}

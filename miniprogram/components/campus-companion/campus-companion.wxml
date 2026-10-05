@@ -1,0 +1,14 @@
+<view class="companion-stage companion-motion--{{motion}} {{paused ? 'companion-stage--paused' : ''}} {{feeding ? 'companion-stage--feeding' : ''}}" catchtap="interact" aria-role="button" aria-label="{{character === 'girl' ? '小女生' : '小男生'}}校园伙伴，点击互动">
+  <view class="companion-shadow" />
+  <view class="companion-figure" wx:if="{{image && !imageFailed}}">
+    <image class="companion-layer companion-body" src="{{image}}" mode="aspectFit" binderror="onImageError" />
+    <image wx:if="{{outfit && !outfitFailed}}" class="companion-layer companion-outfit" src="{{outfit}}" mode="aspectFit" binderror="onOutfitError" />
+    <image wx:if="{{shoes && !shoesFailed}}" class="companion-layer companion-shoes" style="{{shoesStyle}}" src="{{shoes}}" mode="aspectFit" binderror="onShoesError" />
+    <image wx:if="{{accessory && !accessoryFailed}}" class="companion-layer companion-accessory" style="{{accessoryStyle}}" src="{{accessory}}" mode="aspectFit" binderror="onAccessoryError" />
+  </view>
+  <view class="companion-empty" wx:else><text class="companion-empty-symbol">✧</text><text>{{imageFailed ? '角色图片加载失败' : '校园伙伴'}}</text></view>
+  <view wx:if="{{feeding}}" class="companion-reaction"><text>{{expression === 'yum' ? '😋' : '😊'}}</text><text>好好吃！</text></view>
+  <view wx:elif="{{dialogue}}" class="companion-dialogue">{{dialogue}}</view>
+  <text wx:if="{{feeding}}" class="companion-food">{{food}}</text>
+  <text wx:if="{{feeding}}" class="companion-heart">♡</text>
+</view>

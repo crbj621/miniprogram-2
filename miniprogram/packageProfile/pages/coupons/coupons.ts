@@ -1,6 +1,7 @@
+import { withSharing } from '../../../utils/page-share'
 import { api } from '../../../utils/api-client'
 // pages/profile/coupons/coupons.ts
-Page({
+Page(withSharing({
   data: {
     totalValue: '0.00',
     coupons: [] as any[],
@@ -140,4 +141,4 @@ Page({
       url: '/pages/index/index'
     });
   }
-});
+}));

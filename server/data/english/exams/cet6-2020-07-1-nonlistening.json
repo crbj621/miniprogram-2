@@ -1,0 +1,2025 @@
+{
+  "schemaVersion": 1,
+  "status": "verified_structured",
+  "source": {
+    "id": "cet6-2020-07-1-nonlistening",
+    "textCollection": "https://english-exam.lazynote.cn",
+    "textUrl": "https://english-exam.lazynote.cn/cet6/paper/2020-07-1/",
+    "textSha256": "79492ede5d5807b2ee2e38b5b7f9c759630949f39214974a87cd156958307829",
+    "answerSources": [
+      {
+        "section": "part3-section-a",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2020-07-1/part3-section-a/",
+        "sha256": "8bd7544bb54d6b65de91063f58e9227ddb11b4c0fe4fa02afa53444771fcf746"
+      },
+      {
+        "section": "part3-section-b",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2020-07-1/part3-section-b/",
+        "sha256": "f380029a4d277c9c1caf60ea39ec4c1a5d76e572cf5899c3977c88e0481e460c"
+      },
+      {
+        "section": "part3-section-c-1",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2020-07-1/part3-section-c-1/",
+        "sha256": "f2bba821106fc469c6023a945285f13ce53fb75cb9754a39f10efa5d284a6200"
+      },
+      {
+        "section": "part3-section-c-2",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2020-07-1/part3-section-c-2/",
+        "sha256": "1aa99766b7fac584592d7b367a9a0ad67ade24f8f68bdaedf71dcbc3b38cf4d5"
+      }
+    ],
+    "rightsUrl": "https://english-exam.lazynote.cn",
+    "rights": "Source footer attributes original papers to the National College English Test Committee. Original materials retain their respective rights; no blanket source license is asserted. Commercial explanatory prose is not copied.",
+    "sourceRightsNotice": "© 2026 懒笔记 · 蜀ICP备2024049450号-1 · 川公网安备51019002006323号 · 增值电信业务经营许可证：川B2-20240301 · 真题版权归全国硕士研究生招生考试 / 全国大学英语四六级考试委员会所有 · 隐私政策 · 用户协议",
+    "sourceTermsUrl": "https://english-exam.lazynote.cn/terms/",
+    "reviewedAt": "2026-10-03",
+    "answerStatus": "public_reference_structural_consistency_verified",
+    "explanations": "Project-generated contextual evidence notes. Close-reading locations are keyword-search candidates, not manually verified detailed explanations.",
+    "referenceEssays": "Project-authored full reference examples bound to the original prompts; not official model answers.",
+    "materialSources": [],
+    "corrections": [],
+    "previousReviewedAnswerSources": [],
+    "sourceEdition": "lazynote public original-paper arrangement; set numbering can differ from other collections.",
+    "independentlyConfirmedSharedSource": "",
+    "readingSourceCorrection": null,
+    "sectionSourceReplacement": null,
+    "independentAnswerChecks": [],
+    "sharedSectionSource": {}
+  },
+  "papers": [
+    {
+      "id": "cet6-2020-07-1-nonlistening",
+      "level": "CET6",
+      "year": 2020,
+      "month": 7,
+      "set": 1,
+      "title": "2020年7月英语六级第1套真题（不含听力）",
+      "authenticity": "past_exam",
+      "questionIds": [
+        "cet6-2020-07-1-nonlistening-writing",
+        "cet6-2020-07-1-nonlistening-q26",
+        "cet6-2020-07-1-nonlistening-q27",
+        "cet6-2020-07-1-nonlistening-q28",
+        "cet6-2020-07-1-nonlistening-q29",
+        "cet6-2020-07-1-nonlistening-q30",
+        "cet6-2020-07-1-nonlistening-q31",
+        "cet6-2020-07-1-nonlistening-q32",
+        "cet6-2020-07-1-nonlistening-q33",
+        "cet6-2020-07-1-nonlistening-q34",
+        "cet6-2020-07-1-nonlistening-q35",
+        "cet6-2020-07-1-nonlistening-q36",
+        "cet6-2020-07-1-nonlistening-q37",
+        "cet6-2020-07-1-nonlistening-q38",
+        "cet6-2020-07-1-nonlistening-q39",
+        "cet6-2020-07-1-nonlistening-q40",
+        "cet6-2020-07-1-nonlistening-q41",
+        "cet6-2020-07-1-nonlistening-q42",
+        "cet6-2020-07-1-nonlistening-q43",
+        "cet6-2020-07-1-nonlistening-q44",
+        "cet6-2020-07-1-nonlistening-q45",
+        "cet6-2020-07-1-nonlistening-q46",
+        "cet6-2020-07-1-nonlistening-q47",
+        "cet6-2020-07-1-nonlistening-q48",
+        "cet6-2020-07-1-nonlistening-q49",
+        "cet6-2020-07-1-nonlistening-q50",
+        "cet6-2020-07-1-nonlistening-q51",
+        "cet6-2020-07-1-nonlistening-q52",
+        "cet6-2020-07-1-nonlistening-q53",
+        "cet6-2020-07-1-nonlistening-q54",
+        "cet6-2020-07-1-nonlistening-q55",
+        "cet6-2020-07-1-nonlistening-translation"
+      ],
+      "durationSeconds": 6000,
+      "description": "写作1题、阅读30题、翻译1题，不含听力。客观题答案与题面、选项完成结构一致性核对。",
+      "sourceId": "cet6-2020-07-1-nonlistening",
+      "coverage": {
+        "fullPaper": false,
+        "fullNonListening": true,
+        "listeningExcluded": true,
+        "objectiveNumbers": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "objectiveCount": 30,
+        "subjectiveCount": 2,
+        "sections": [
+          "writing",
+          "reading_word_bank",
+          "reading_matching",
+          "reading_comprehension",
+          "translation"
+        ],
+        "sharedSectionSource": {},
+        "note": "写作1题、阅读30题、翻译1题，不含听力。",
+        "independentlyConfirmedSharedSource": "",
+        "readingSourceCorrection": null,
+        "sectionSourceReplacement": null,
+        "referenceStatus": "project_authored"
+      },
+      "resources": [
+        {
+          "id": "cet6-2020-07-1-nonlistening-source",
+          "type": "web",
+          "title": "原卷来源与题面核对",
+          "url": "https://english-exam.lazynote.cn/cet6/paper/2020-07-1/"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cet6-2020-07-1-nonlistening-writing",
+      "number": "I",
+      "level": "CET6",
+      "type": "short_text_self_check",
+      "skill": "writing",
+      "section": "writing",
+      "prompt": "Directions: For this part, you are allowed 30 minutes to write an essay on the saying \" The best preparation for tomorrow is doing your best today. \" You should write at least 150 words but no more than 200 words.",
+      "options": [],
+      "correctAnswer": "The saying \"The best preparation for tomorrow is doing your best today\" reminds us that future achievements depend on present action. Planning is useful, but a plan gains value only when it guides what we actually do.\n\nConsider a student who hopes to become an engineer. Imagining a successful career will not replace learning mathematics, completing experiments and asking questions in class. These daily efforts build knowledge and habits that will be needed later. The same principle applies to health: regular exercise and sufficient sleep prepare us for future demands more effectively than occasional promises to change. Doing our best does not mean working without rest or expecting perfect results. It means using the time and resources available thoughtfully, learning from mistakes and fulfilling today's reasonable commitments.\n\nWe should therefore set long term goals and translate them into practical tasks for the present. At the end of each day, a brief review can help us improve tomorrow's approach. By acting responsibly today, we give ourselves a stronger foundation for opportunities that have yet to arrive.",
+      "referenceAnswer": "The saying \"The best preparation for tomorrow is doing your best today\" reminds us that future achievements depend on present action. Planning is useful, but a plan gains value only when it guides what we actually do.\n\nConsider a student who hopes to become an engineer. Imagining a successful career will not replace learning mathematics, completing experiments and asking questions in class. These daily efforts build knowledge and habits that will be needed later. The same principle applies to health: regular exercise and sufficient sleep prepare us for future demands more effectively than occasional promises to change. Doing our best does not mean working without rest or expecting perfect results. It means using the time and resources available thoughtfully, learning from mistakes and fulfilling today's reasonable commitments.\n\nWe should therefore set long term goals and translate them into practical tasks for the present. At the end of each day, a brief review can help us improve tomorrow's approach. By acting responsibly today, we give ourselves a stronger foundation for opportunities that have yet to arrive.",
+      "hint": "解释名言，把未来目标与今天的具体行动连接，避免只重复句意。",
+      "explanation": "以下为按本题要求独立写成的原创参考范文，作文没有唯一答案。开头解释准备来自当前行动；工程学习与健康例子说明积累机制；末段给出目标分解和每日复盘。范文把尽力理解为合理投入，也指出休息和允许错误，防止论证变成要求完美。",
+      "rubric": [
+        "任务：解释名言，把未来目标与今天的具体行动连接，避免只重复句意。",
+        "论证：明确中心观点，用原因、具体例子或经历展开；结尾回应主题。",
+        "语言：检查主谓一致、时态、搭配和段落衔接；全文控制在150–200词。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-07-1-nonlistening-q26",
+      "canonicalId": "lazynote-cet6-2020-07-1-q26",
+      "number": 26,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 26 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The United Nations issued a report last week warning that humans are destroying nature at such a rate that life on Earth is at risk. When the report came out, it naturally [26] ____ headlines. But obviously it didn't hijack the news agenda in the manner of a major terrorist attack or [27] ____ of war.\n\nThe report from the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) is clear on what's at [28] ____ and what needs to change. IPBES chair Robert Watson says the \" [29] ____ evidence\" presents an \"ominous(凶兆的) picture\". \"The health of ecosystems on which we and all other species depend is [30] ____ more rapidly than ever,\" Robert Watson said. \"We are [31] ____ the very foundations of our economies, livelihoods, food security, health and quality of life worldwide.\" The report says it's not too late if we make \"transformative change\"—fundamental, system-wide reorganization—at every level from local to global, and we need to focus on how to make that happen.\n\nFirst, don't indulge in despair, because despair leads to inertia and doing nothing means certain [32] ____ . Every action to save nature will improve our collective and personal futures and the only way to respond to a threat of this scale is with [33] ____ action rooted in headstrong optimism. Second, we need relentless focus, just like when paramedics(救护人员) arrive on a scene and use the concept of \"triage(伤员鉴别分类)\" to ensure the most [34] ____ cases get treated first. Saving the natural world needs that kind of thinking. We don't have the [35] ____ to do everything at once. We need to make hard choices.",
+      "options": [
+        {
+          "id": "A",
+          "text": "capacity"
+        },
+        {
+          "id": "B",
+          "text": "declaration"
+        },
+        {
+          "id": "C",
+          "text": "deteriorating"
+        },
+        {
+          "id": "D",
+          "text": "determined"
+        },
+        {
+          "id": "E",
+          "text": "disaster"
+        },
+        {
+          "id": "F",
+          "text": "eroding"
+        },
+        {
+          "id": "G",
+          "text": "grabbed"
+        },
+        {
+          "id": "H",
+          "text": "inventory"
+        },
+        {
+          "id": "I",
+          "text": "Junction"
+        },
+        {
+          "id": "J",
+          "text": "Monotonous"
+        },
+        {
+          "id": "K",
+          "text": "overwhelming"
+        },
+        {
+          "id": "L",
+          "text": "stagnation"
+        },
+        {
+          "id": "M",
+          "text": "stake"
+        },
+        {
+          "id": "N",
+          "text": "stifled"
+        },
+        {
+          "id": "O",
+          "text": "urgent"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "先看第 26 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 G（grabbed）。本空所在句：When the report came out, it naturally [26] ____ headlines.\n将本空替换为 grabbed 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-07-1-nonlistening-q27",
+      "canonicalId": "lazynote-cet6-2020-07-1-q27",
+      "number": 27,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 27 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The United Nations issued a report last week warning that humans are destroying nature at such a rate that life on Earth is at risk. When the report came out, it naturally [26] ____ headlines. But obviously it didn't hijack the news agenda in the manner of a major terrorist attack or [27] ____ of war.\n\nThe report from the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) is clear on what's at [28] ____ and what needs to change. IPBES chair Robert Watson says the \" [29] ____ evidence\" presents an \"ominous(凶兆的) picture\". \"The health of ecosystems on which we and all other species depend is [30] ____ more rapidly than ever,\" Robert Watson said. \"We are [31] ____ the very foundations of our economies, livelihoods, food security, health and quality of life worldwide.\" The report says it's not too late if we make \"transformative change\"—fundamental, system-wide reorganization—at every level from local to global, and we need to focus on how to make that happen.\n\nFirst, don't indulge in despair, because despair leads to inertia and doing nothing means certain [32] ____ . Every action to save nature will improve our collective and personal futures and the only way to respond to a threat of this scale is with [33] ____ action rooted in headstrong optimism. Second, we need relentless focus, just like when paramedics(救护人员) arrive on a scene and use the concept of \"triage(伤员鉴别分类)\" to ensure the most [34] ____ cases get treated first. Saving the natural world needs that kind of thinking. We don't have the [35] ____ to do everything at once. We need to make hard choices.",
+      "options": [
+        {
+          "id": "A",
+          "text": "capacity"
+        },
+        {
+          "id": "B",
+          "text": "declaration"
+        },
+        {
+          "id": "C",
+          "text": "deteriorating"
+        },
+        {
+          "id": "D",
+          "text": "determined"
+        },
+        {
+          "id": "E",
+          "text": "disaster"
+        },
+        {
+          "id": "F",
+          "text": "eroding"
+        },
+        {
+          "id": "G",
+          "text": "grabbed"
+        },
+        {
+          "id": "H",
+          "text": "inventory"
+        },
+        {
+          "id": "I",
+          "text": "Junction"
+        },
+        {
+          "id": "J",
+          "text": "Monotonous"
+        },
+        {
+          "id": "K",
+          "text": "overwhelming"
+        },
+        {
+          "id": "L",
+          "text": "stagnation"
+        },
+        {
+          "id": "M",
+          "text": "stake"
+        },
+        {
+          "id": "N",
+          "text": "stifled"
+        },
+        {
+          "id": "O",
+          "text": "urgent"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "先看第 27 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 B（declaration）。本空所在句：But obviously it didn't hijack the news agenda in the manner of a major terrorist attack or [27] ____ of war.\n将本空替换为 declaration 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-07-1-nonlistening-q28",
+      "canonicalId": "lazynote-cet6-2020-07-1-q28",
+      "number": 28,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 28 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The United Nations issued a report last week warning that humans are destroying nature at such a rate that life on Earth is at risk. When the report came out, it naturally [26] ____ headlines. But obviously it didn't hijack the news agenda in the manner of a major terrorist attack or [27] ____ of war.\n\nThe report from the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) is clear on what's at [28] ____ and what needs to change. IPBES chair Robert Watson says the \" [29] ____ evidence\" presents an \"ominous(凶兆的) picture\". \"The health of ecosystems on which we and all other species depend is [30] ____ more rapidly than ever,\" Robert Watson said. \"We are [31] ____ the very foundations of our economies, livelihoods, food security, health and quality of life worldwide.\" The report says it's not too late if we make \"transformative change\"—fundamental, system-wide reorganization—at every level from local to global, and we need to focus on how to make that happen.\n\nFirst, don't indulge in despair, because despair leads to inertia and doing nothing means certain [32] ____ . Every action to save nature will improve our collective and personal futures and the only way to respond to a threat of this scale is with [33] ____ action rooted in headstrong optimism. Second, we need relentless focus, just like when paramedics(救护人员) arrive on a scene and use the concept of \"triage(伤员鉴别分类)\" to ensure the most [34] ____ cases get treated first. Saving the natural world needs that kind of thinking. We don't have the [35] ____ to do everything at once. We need to make hard choices.",
+      "options": [
+        {
+          "id": "A",
+          "text": "capacity"
+        },
+        {
+          "id": "B",
+          "text": "declaration"
+        },
+        {
+          "id": "C",
+          "text": "deteriorating"
+        },
+        {
+          "id": "D",
+          "text": "determined"
+        },
+        {
+          "id": "E",
+          "text": "disaster"
+        },
+        {
+          "id": "F",
+          "text": "eroding"
+        },
+        {
+          "id": "G",
+          "text": "grabbed"
+        },
+        {
+          "id": "H",
+          "text": "inventory"
+        },
+        {
+          "id": "I",
+          "text": "Junction"
+        },
+        {
+          "id": "J",
+          "text": "Monotonous"
+        },
+        {
+          "id": "K",
+          "text": "overwhelming"
+        },
+        {
+          "id": "L",
+          "text": "stagnation"
+        },
+        {
+          "id": "M",
+          "text": "stake"
+        },
+        {
+          "id": "N",
+          "text": "stifled"
+        },
+        {
+          "id": "O",
+          "text": "urgent"
+        }
+      ],
+      "correctAnswer": "M",
+      "hint": "先看第 28 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 M（stake）。本空所在句：The report from the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) is clear on what's at [28] ____ and what needs to change.\n将本空替换为 stake 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-07-1-nonlistening-q29",
+      "canonicalId": "lazynote-cet6-2020-07-1-q29",
+      "number": 29,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 29 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The United Nations issued a report last week warning that humans are destroying nature at such a rate that life on Earth is at risk. When the report came out, it naturally [26] ____ headlines. But obviously it didn't hijack the news agenda in the manner of a major terrorist attack or [27] ____ of war.\n\nThe report from the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) is clear on what's at [28] ____ and what needs to change. IPBES chair Robert Watson says the \" [29] ____ evidence\" presents an \"ominous(凶兆的) picture\". \"The health of ecosystems on which we and all other species depend is [30] ____ more rapidly than ever,\" Robert Watson said. \"We are [31] ____ the very foundations of our economies, livelihoods, food security, health and quality of life worldwide.\" The report says it's not too late if we make \"transformative change\"—fundamental, system-wide reorganization—at every level from local to global, and we need to focus on how to make that happen.\n\nFirst, don't indulge in despair, because despair leads to inertia and doing nothing means certain [32] ____ . Every action to save nature will improve our collective and personal futures and the only way to respond to a threat of this scale is with [33] ____ action rooted in headstrong optimism. Second, we need relentless focus, just like when paramedics(救护人员) arrive on a scene and use the concept of \"triage(伤员鉴别分类)\" to ensure the most [34] ____ cases get treated first. Saving the natural world needs that kind of thinking. We don't have the [35] ____ to do everything at once. We need to make hard choices.",
+      "options": [
+        {
+          "id": "A",
+          "text": "capacity"
+        },
+        {
+          "id": "B",
+          "text": "declaration"
+        },
+        {
+          "id": "C",
+          "text": "deteriorating"
+        },
+        {
+          "id": "D",
+          "text": "determined"
+        },
+        {
+          "id": "E",
+          "text": "disaster"
+        },
+        {
+          "id": "F",
+          "text": "eroding"
+        },
+        {
+          "id": "G",
+          "text": "grabbed"
+        },
+        {
+          "id": "H",
+          "text": "inventory"
+        },
+        {
+          "id": "I",
+          "text": "Junction"
+        },
+        {
+          "id": "J",
+          "text": "Monotonous"
+        },
+        {
+          "id": "K",
+          "text": "overwhelming"
+        },
+        {
+          "id": "L",
+          "text": "stagnation"
+        },
+        {
+          "id": "M",
+          "text": "stake"
+        },
+        {
+          "id": "N",
+          "text": "stifled"
+        },
+        {
+          "id": "O",
+          "text": "urgent"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "先看第 29 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 K（overwhelming）。本空所在句：IPBES chair Robert Watson says the \" [29] ____ evidence\" presents an \"ominous(凶兆的) picture\".\n将本空替换为 overwhelming 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-07-1-nonlistening-q30",
+      "canonicalId": "lazynote-cet6-2020-07-1-q30",
+      "number": 30,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 30 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The United Nations issued a report last week warning that humans are destroying nature at such a rate that life on Earth is at risk. When the report came out, it naturally [26] ____ headlines. But obviously it didn't hijack the news agenda in the manner of a major terrorist attack or [27] ____ of war.\n\nThe report from the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) is clear on what's at [28] ____ and what needs to change. IPBES chair Robert Watson says the \" [29] ____ evidence\" presents an \"ominous(凶兆的) picture\". \"The health of ecosystems on which we and all other species depend is [30] ____ more rapidly than ever,\" Robert Watson said. \"We are [31] ____ the very foundations of our economies, livelihoods, food security, health and quality of life worldwide.\" The report says it's not too late if we make \"transformative change\"—fundamental, system-wide reorganization—at every level from local to global, and we need to focus on how to make that happen.\n\nFirst, don't indulge in despair, because despair leads to inertia and doing nothing means certain [32] ____ . Every action to save nature will improve our collective and personal futures and the only way to respond to a threat of this scale is with [33] ____ action rooted in headstrong optimism. Second, we need relentless focus, just like when paramedics(救护人员) arrive on a scene and use the concept of \"triage(伤员鉴别分类)\" to ensure the most [34] ____ cases get treated first. Saving the natural world needs that kind of thinking. We don't have the [35] ____ to do everything at once. We need to make hard choices.",
+      "options": [
+        {
+          "id": "A",
+          "text": "capacity"
+        },
+        {
+          "id": "B",
+          "text": "declaration"
+        },
+        {
+          "id": "C",
+          "text": "deteriorating"
+        },
+        {
+          "id": "D",
+          "text": "determined"
+        },
+        {
+          "id": "E",
+          "text": "disaster"
+        },
+        {
+          "id": "F",
+          "text": "eroding"
+        },
+        {
+          "id": "G",
+          "text": "grabbed"
+        },
+        {
+          "id": "H",
+          "text": "inventory"
+        },
+        {
+          "id": "I",
+          "text": "Junction"
+        },
+        {
+          "id": "J",
+          "text": "Monotonous"
+        },
+        {
+          "id": "K",
+          "text": "overwhelming"
+        },
+        {
+          "id": "L",
+          "text": "stagnation"
+        },
+        {
+          "id": "M",
+          "text": "stake"
+        },
+        {
+          "id": "N",
+          "text": "stifled"
+        },
+        {
+          "id": "O",
+          "text": "urgent"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "先看第 30 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 C（deteriorating）。本空所在句：\"The health of ecosystems on which we and all other species depend is [30] ____ more rapidly than ever,\" Robert Watson said.\n将本空替换为 deteriorating 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-07-1-nonlistening-q31",
+      "canonicalId": "lazynote-cet6-2020-07-1-q31",
+      "number": 31,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 31 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The United Nations issued a report last week warning that humans are destroying nature at such a rate that life on Earth is at risk. When the report came out, it naturally [26] ____ headlines. But obviously it didn't hijack the news agenda in the manner of a major terrorist attack or [27] ____ of war.\n\nThe report from the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) is clear on what's at [28] ____ and what needs to change. IPBES chair Robert Watson says the \" [29] ____ evidence\" presents an \"ominous(凶兆的) picture\". \"The health of ecosystems on which we and all other species depend is [30] ____ more rapidly than ever,\" Robert Watson said. \"We are [31] ____ the very foundations of our economies, livelihoods, food security, health and quality of life worldwide.\" The report says it's not too late if we make \"transformative change\"—fundamental, system-wide reorganization—at every level from local to global, and we need to focus on how to make that happen.\n\nFirst, don't indulge in despair, because despair leads to inertia and doing nothing means certain [32] ____ . Every action to save nature will improve our collective and personal futures and the only way to respond to a threat of this scale is with [33] ____ action rooted in headstrong optimism. Second, we need relentless focus, just like when paramedics(救护人员) arrive on a scene and use the concept of \"triage(伤员鉴别分类)\" to ensure the most [34] ____ cases get treated first. Saving the natural world needs that kind of thinking. We don't have the [35] ____ to do everything at once. We need to make hard choices.",
+      "options": [
+        {
+          "id": "A",
+          "text": "capacity"
+        },
+        {
+          "id": "B",
+          "text": "declaration"
+        },
+        {
+          "id": "C",
+          "text": "deteriorating"
+        },
+        {
+          "id": "D",
+          "text": "determined"
+        },
+        {
+          "id": "E",
+          "text": "disaster"
+        },
+        {
+          "id": "F",
+          "text": "eroding"
+        },
+        {
+          "id": "G",
+          "text": "grabbed"
+        },
+        {
+          "id": "H",
+          "text": "inventory"
+        },
+        {
+          "id": "I",
+          "text": "Junction"
+        },
+        {
+          "id": "J",
+          "text": "Monotonous"
+        },
+        {
+          "id": "K",
+          "text": "overwhelming"
+        },
+        {
+          "id": "L",
+          "text": "stagnation"
+        },
+        {
+          "id": "M",
+          "text": "stake"
+        },
+        {
+          "id": "N",
+          "text": "stifled"
+        },
+        {
+          "id": "O",
+          "text": "urgent"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "先看第 31 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 F（eroding）。本空所在句：\"We are [31] ____ the very foundations of our economies, livelihoods, food security, health and quality of life worldwide.\" The report says it's not too late if we make \"transformative change\"—fundamental, system-wide reorganization—at every level from local to global, and we need to focus on how to make that happen.\n将本空替换为 eroding 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-07-1-nonlistening-q32",
+      "canonicalId": "lazynote-cet6-2020-07-1-q32",
+      "number": 32,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 32 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The United Nations issued a report last week warning that humans are destroying nature at such a rate that life on Earth is at risk. When the report came out, it naturally [26] ____ headlines. But obviously it didn't hijack the news agenda in the manner of a major terrorist attack or [27] ____ of war.\n\nThe report from the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) is clear on what's at [28] ____ and what needs to change. IPBES chair Robert Watson says the \" [29] ____ evidence\" presents an \"ominous(凶兆的) picture\". \"The health of ecosystems on which we and all other species depend is [30] ____ more rapidly than ever,\" Robert Watson said. \"We are [31] ____ the very foundations of our economies, livelihoods, food security, health and quality of life worldwide.\" The report says it's not too late if we make \"transformative change\"—fundamental, system-wide reorganization—at every level from local to global, and we need to focus on how to make that happen.\n\nFirst, don't indulge in despair, because despair leads to inertia and doing nothing means certain [32] ____ . Every action to save nature will improve our collective and personal futures and the only way to respond to a threat of this scale is with [33] ____ action rooted in headstrong optimism. Second, we need relentless focus, just like when paramedics(救护人员) arrive on a scene and use the concept of \"triage(伤员鉴别分类)\" to ensure the most [34] ____ cases get treated first. Saving the natural world needs that kind of thinking. We don't have the [35] ____ to do everything at once. We need to make hard choices.",
+      "options": [
+        {
+          "id": "A",
+          "text": "capacity"
+        },
+        {
+          "id": "B",
+          "text": "declaration"
+        },
+        {
+          "id": "C",
+          "text": "deteriorating"
+        },
+        {
+          "id": "D",
+          "text": "determined"
+        },
+        {
+          "id": "E",
+          "text": "disaster"
+        },
+        {
+          "id": "F",
+          "text": "eroding"
+        },
+        {
+          "id": "G",
+          "text": "grabbed"
+        },
+        {
+          "id": "H",
+          "text": "inventory"
+        },
+        {
+          "id": "I",
+          "text": "Junction"
+        },
+        {
+          "id": "J",
+          "text": "Monotonous"
+        },
+        {
+          "id": "K",
+          "text": "overwhelming"
+        },
+        {
+          "id": "L",
+          "text": "stagnation"
+        },
+        {
+          "id": "M",
+          "text": "stake"
+        },
+        {
+          "id": "N",
+          "text": "stifled"
+        },
+        {
+          "id": "O",
+          "text": "urgent"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "先看第 32 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 E（disaster）。本空所在句：First, don't indulge in despair, because despair leads to inertia and doing nothing means certain [32] ____ .\n将本空替换为 disaster 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-07-1-nonlistening-q33",
+      "canonicalId": "lazynote-cet6-2020-07-1-q33",
+      "number": 33,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 33 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The United Nations issued a report last week warning that humans are destroying nature at such a rate that life on Earth is at risk. When the report came out, it naturally [26] ____ headlines. But obviously it didn't hijack the news agenda in the manner of a major terrorist attack or [27] ____ of war.\n\nThe report from the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) is clear on what's at [28] ____ and what needs to change. IPBES chair Robert Watson says the \" [29] ____ evidence\" presents an \"ominous(凶兆的) picture\". \"The health of ecosystems on which we and all other species depend is [30] ____ more rapidly than ever,\" Robert Watson said. \"We are [31] ____ the very foundations of our economies, livelihoods, food security, health and quality of life worldwide.\" The report says it's not too late if we make \"transformative change\"—fundamental, system-wide reorganization—at every level from local to global, and we need to focus on how to make that happen.\n\nFirst, don't indulge in despair, because despair leads to inertia and doing nothing means certain [32] ____ . Every action to save nature will improve our collective and personal futures and the only way to respond to a threat of this scale is with [33] ____ action rooted in headstrong optimism. Second, we need relentless focus, just like when paramedics(救护人员) arrive on a scene and use the concept of \"triage(伤员鉴别分类)\" to ensure the most [34] ____ cases get treated first. Saving the natural world needs that kind of thinking. We don't have the [35] ____ to do everything at once. We need to make hard choices.",
+      "options": [
+        {
+          "id": "A",
+          "text": "capacity"
+        },
+        {
+          "id": "B",
+          "text": "declaration"
+        },
+        {
+          "id": "C",
+          "text": "deteriorating"
+        },
+        {
+          "id": "D",
+          "text": "determined"
+        },
+        {
+          "id": "E",
+          "text": "disaster"
+        },
+        {
+          "id": "F",
+          "text": "eroding"
+        },
+        {
+          "id": "G",
+          "text": "grabbed"
+        },
+        {
+          "id": "H",
+          "text": "inventory"
+        },
+        {
+          "id": "I",
+          "text": "Junction"
+        },
+        {
+          "id": "J",
+          "text": "Monotonous"
+        },
+        {
+          "id": "K",
+          "text": "overwhelming"
+        },
+        {
+          "id": "L",
+          "text": "stagnation"
+        },
+        {
+          "id": "M",
+          "text": "stake"
+        },
+        {
+          "id": "N",
+          "text": "stifled"
+        },
+        {
+          "id": "O",
+          "text": "urgent"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "先看第 33 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 D（determined）。本空所在句：Every action to save nature will improve our collective and personal futures and the only way to respond to a threat of this scale is with [33] ____ action rooted in headstrong optimism.\n将本空替换为 determined 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-07-1-nonlistening-q34",
+      "canonicalId": "lazynote-cet6-2020-07-1-q34",
+      "number": 34,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 34 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The United Nations issued a report last week warning that humans are destroying nature at such a rate that life on Earth is at risk. When the report came out, it naturally [26] ____ headlines. But obviously it didn't hijack the news agenda in the manner of a major terrorist attack or [27] ____ of war.\n\nThe report from the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) is clear on what's at [28] ____ and what needs to change. IPBES chair Robert Watson says the \" [29] ____ evidence\" presents an \"ominous(凶兆的) picture\". \"The health of ecosystems on which we and all other species depend is [30] ____ more rapidly than ever,\" Robert Watson said. \"We are [31] ____ the very foundations of our economies, livelihoods, food security, health and quality of life worldwide.\" The report says it's not too late if we make \"transformative change\"—fundamental, system-wide reorganization—at every level from local to global, and we need to focus on how to make that happen.\n\nFirst, don't indulge in despair, because despair leads to inertia and doing nothing means certain [32] ____ . Every action to save nature will improve our collective and personal futures and the only way to respond to a threat of this scale is with [33] ____ action rooted in headstrong optimism. Second, we need relentless focus, just like when paramedics(救护人员) arrive on a scene and use the concept of \"triage(伤员鉴别分类)\" to ensure the most [34] ____ cases get treated first. Saving the natural world needs that kind of thinking. We don't have the [35] ____ to do everything at once. We need to make hard choices.",
+      "options": [
+        {
+          "id": "A",
+          "text": "capacity"
+        },
+        {
+          "id": "B",
+          "text": "declaration"
+        },
+        {
+          "id": "C",
+          "text": "deteriorating"
+        },
+        {
+          "id": "D",
+          "text": "determined"
+        },
+        {
+          "id": "E",
+          "text": "disaster"
+        },
+        {
+          "id": "F",
+          "text": "eroding"
+        },
+        {
+          "id": "G",
+          "text": "grabbed"
+        },
+        {
+          "id": "H",
+          "text": "inventory"
+        },
+        {
+          "id": "I",
+          "text": "Junction"
+        },
+        {
+          "id": "J",
+          "text": "Monotonous"
+        },
+        {
+          "id": "K",
+          "text": "overwhelming"
+        },
+        {
+          "id": "L",
+          "text": "stagnation"
+        },
+        {
+          "id": "M",
+          "text": "stake"
+        },
+        {
+          "id": "N",
+          "text": "stifled"
+        },
+        {
+          "id": "O",
+          "text": "urgent"
+        }
+      ],
+      "correctAnswer": "O",
+      "hint": "先看第 34 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 O（urgent）。本空所在句：Second, we need relentless focus, just like when paramedics(救护人员) arrive on a scene and use the concept of \"triage(伤员鉴别分类)\" to ensure the most [34] ____ cases get treated first.\n将本空替换为 urgent 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-07-1-nonlistening-q35",
+      "canonicalId": "lazynote-cet6-2020-07-1-q35",
+      "number": 35,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 35 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The United Nations issued a report last week warning that humans are destroying nature at such a rate that life on Earth is at risk. When the report came out, it naturally [26] ____ headlines. But obviously it didn't hijack the news agenda in the manner of a major terrorist attack or [27] ____ of war.\n\nThe report from the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) is clear on what's at [28] ____ and what needs to change. IPBES chair Robert Watson says the \" [29] ____ evidence\" presents an \"ominous(凶兆的) picture\". \"The health of ecosystems on which we and all other species depend is [30] ____ more rapidly than ever,\" Robert Watson said. \"We are [31] ____ the very foundations of our economies, livelihoods, food security, health and quality of life worldwide.\" The report says it's not too late if we make \"transformative change\"—fundamental, system-wide reorganization—at every level from local to global, and we need to focus on how to make that happen.\n\nFirst, don't indulge in despair, because despair leads to inertia and doing nothing means certain [32] ____ . Every action to save nature will improve our collective and personal futures and the only way to respond to a threat of this scale is with [33] ____ action rooted in headstrong optimism. Second, we need relentless focus, just like when paramedics(救护人员) arrive on a scene and use the concept of \"triage(伤员鉴别分类)\" to ensure the most [34] ____ cases get treated first. Saving the natural world needs that kind of thinking. We don't have the [35] ____ to do everything at once. We need to make hard choices.",
+      "options": [
+        {
+          "id": "A",
+          "text": "capacity"
+        },
+        {
+          "id": "B",
+          "text": "declaration"
+        },
+        {
+          "id": "C",
+          "text": "deteriorating"
+        },
+        {
+          "id": "D",
+          "text": "determined"
+        },
+        {
+          "id": "E",
+          "text": "disaster"
+        },
+        {
+          "id": "F",
+          "text": "eroding"
+        },
+        {
+          "id": "G",
+          "text": "grabbed"
+        },
+        {
+          "id": "H",
+          "text": "inventory"
+        },
+        {
+          "id": "I",
+          "text": "Junction"
+        },
+        {
+          "id": "J",
+          "text": "Monotonous"
+        },
+        {
+          "id": "K",
+          "text": "overwhelming"
+        },
+        {
+          "id": "L",
+          "text": "stagnation"
+        },
+        {
+          "id": "M",
+          "text": "stake"
+        },
+        {
+          "id": "N",
+          "text": "stifled"
+        },
+        {
+          "id": "O",
+          "text": "urgent"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "先看第 35 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 A（capacity）。本空所在句：We don't have the [35] ____ to do everything at once.\n将本空替换为 capacity 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-07-1-nonlistening-q36",
+      "canonicalId": "lazynote-cet6-2020-07-1-q36",
+      "number": 36,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Piaget believed that small children could not collaborate with others while playing.",
+      "passage": "Children Understand Far More About Other Minds Than Long Believed\n\nA) Until a few decades ago, scholars believed that young children know very little, if anything, about what others are thinking. Swiss psychologist Jean Piaget, who is credited with founding the scientific study of children's thinking, was convinced that preschool children cannot consider what goes on in the minds of others. The interviews and experiments he conducted with kids in the middle of the 20th century suggested that they were trapped in their subjective viewpoints, incapable of imagining what others think, feel or believe.\n\nB) Much of the subsequent research on early childhood thinking was highly influenced by Piaget's ideas. Scholars sought to refine his theory and empirically confirm his views. But it became increasingly clear that Piaget seemed to have gravely underestimated the intellectual powers of very young kids before they can make themselves understood by speech. Researchers began to devise ever more ingenious ways of figuring out what goes on in the minds of babies, and the resulting picture of their abilities shows subtle variations. Consequently, the old view of children's egocentric(自我中心的) nature and intellectual weaknesses has increasingly fallen out of favor and become replaced by a more generous position that sees a budding sense not only of the physical world but also of other minds, even in the \"youngest young.\"\n\nC) Historically, children didn't receive much respect for their mental powers. Piaget not only believed that children were \"egocentric\" in the sense that they were unable to differentiate between their own viewpoint and that of others; he was also convinced that their thinking was characterized by systematic errors and confusions. When playing with others, they don't cooperate because they do not realize there are different roles and perspectives. He was convinced that children literally cannot \"get their act together\": instead of playing cooperatively and truly together, they play side by side, with little regard for others. And when speaking with others, a young child supposedly cannot consider the listener's viewpoint but \"talks to himself without listening to others.\"\n\nD) Piaget and his followers maintained that children go through something like a dark age of intellectual development before slowly and gradually becoming enlightened by reason and rationality as they reach school age. Alongside this enlightenment develops an ever growing understanding of other persons, including their attitudes and views of the world.\n\nE) Today, a very different picture of children's mental development emerges. Psychologists continually reveal new insights into the depth of young children's knowledge of the world, including their understanding of other minds. Recent studies suggest that even infants are sensitive to others' perspectives and beliefs.\n\nF) Part of the motivation to revise some of Piaget's conclusions stemmed from an ideological shift about the origin of human knowledge that occurred in the second half of the 20th century. It became increasingly unpopular to assume that a basic understanding of the world can be built entirely from experience. This was in part prompted by theorist Noam Chomsky, who argued that something as complex as the rules of grammar cannot be picked up from exposure to speech, but is supplied by an inborn \"language faculty.\" Others followed suit and defined further \"core areas\" in which knowledge allegedly cannot be pieced together from experience but must be possessed at birth. One such area is our knowledge of others' minds. Some even argue that a basic knowledge of others' minds is not only possessed by human infants, but must be evolutionarily old and hence shared by our nearest living relatives, the great apes.\n\nG) To prove that infants know more in this realm than had been acknowledged, researchers needed to come up with innovative ways of showing it. A big part of why we now recognize so much more of kids' intellectual capacities is the development of much more sensitive research tools than Piaget had at his disposal.\n\nH) Instead of engaging babies in dialog or having them execute complex motor tasks, the newer methods capitalize on behaviors that have a firm place in infants' natural behavior repertoire: looking, listening, sucking, making facial expressions, gestures and simple manual actions. The idea of focusing on these \"small behaviors\" is that they give kids the chance to demonstrate their knowledge implicitly and spontaneously without having to respond to questions or instructions. For example, children might look longer at an event that they did not expect to happen, or they might show facial expressions indicating that they have sympathetic concern for others. When researchers measure these less demanding, and often involuntary, behaviors, they can detect a sensitivity to others' mental states at a much younger age than with the more taxing methods that Piaget and his followers deployed.\n\nI) In the 1980s, these kinds of implicit measures became customary in developmental psychology. But it took a while longer before these tools were employed to measure children's grasp of the mental lives of others.\n\nJ) In a set of experiments, my colleagues at the University of Southern California and I found evidence that babies can even anticipate how others will feel when their expectations are disappointed. We acted out several puppet(木偶) shows in front of two-year-old children. In these puppet shows, a protagonist (Cookie Monster) left his precious belongings (cookies) on stage and later returned to fetch them. What the protagonist did not know was that an antagonist had come and messed with his possessions. The children had witnessed these acts and attentively watched the protagonist return. We recorded children's facial and bodily expressions. Children bit their lips, wrinkled their nose or wiggled(扭动) in their chair when the protagonist came back, as if they anticipated the bewilderment and disappointment he was about to experience. Importantly, children showed no such reactions and remained calm when the protagonist had seen the events himself and thus knew what to expect. Our study reveals that by the tender age of two, kids not only track what others believe or expect; they can even foresee how others will feel when they discover reality.\n\nK) Studies like this reveal that there is much more going on in small kids' and even infants' minds than was previously believed. With the explicit measures used by Piaget and successors, these deeper layers of kids' understanding cannot be accessed. The new investigative tools demonstrate that kids know more than they can say: when we scratch beneath the surface, we find an emerging understanding of relations and perspectives that Piaget probably did not dream of.\n\nL) Despite these obvious advances in the study of young children's thinking, it would be a grave mistake to dismiss the careful and systematic analyses compiled by Piaget and others before the new tests dominated the scene because the original methods revealed essential facts about how children think that the new methods cannot uncover.\n\nM) There's no consensus in today's science community about how much we can infer from a look, a facial expression or a hand gesture. These behaviors clearly indicate a curiosity about what goes on in the mind of others, and probably a set of early intuitions coupled with a willingness to learn more. They pave the way to richer and more explicit forms of understanding of the minds of others. But they can in no way replace the child's growing ability to articulate and refine her understanding of how people behave and why.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 C 段。题干：Piaget believed that small children could not collaborate with others while playing.\n核对该段原文：Historically, children didn't receive much respect for their mental powers. Piaget not only believed that children were \"egocentric\" in the sense that they were unable to differentiate between their own viewpoint and that of others; he was also convinced that their thinking was characterized by systematic errors and confusions. When playing with others, they don't cooperate because they do not realize there are different roles and perspectives. He was convinced that children literally cannot \"get their act together\": instead of playing cooperatively and truly together, they play side by side, with little regard for others. And when speaking with others, a young child supposedly cannot consider the listener's viewpoint but \"talks to himself without listening to others.\"\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-07-1-nonlistening-q37",
+      "canonicalId": "lazynote-cet6-2020-07-1-q37",
+      "number": 37,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The author and his colleagues' study shows two-year-olds may be able to predict other people's feelings.",
+      "passage": "Children Understand Far More About Other Minds Than Long Believed\n\nA) Until a few decades ago, scholars believed that young children know very little, if anything, about what others are thinking. Swiss psychologist Jean Piaget, who is credited with founding the scientific study of children's thinking, was convinced that preschool children cannot consider what goes on in the minds of others. The interviews and experiments he conducted with kids in the middle of the 20th century suggested that they were trapped in their subjective viewpoints, incapable of imagining what others think, feel or believe.\n\nB) Much of the subsequent research on early childhood thinking was highly influenced by Piaget's ideas. Scholars sought to refine his theory and empirically confirm his views. But it became increasingly clear that Piaget seemed to have gravely underestimated the intellectual powers of very young kids before they can make themselves understood by speech. Researchers began to devise ever more ingenious ways of figuring out what goes on in the minds of babies, and the resulting picture of their abilities shows subtle variations. Consequently, the old view of children's egocentric(自我中心的) nature and intellectual weaknesses has increasingly fallen out of favor and become replaced by a more generous position that sees a budding sense not only of the physical world but also of other minds, even in the \"youngest young.\"\n\nC) Historically, children didn't receive much respect for their mental powers. Piaget not only believed that children were \"egocentric\" in the sense that they were unable to differentiate between their own viewpoint and that of others; he was also convinced that their thinking was characterized by systematic errors and confusions. When playing with others, they don't cooperate because they do not realize there are different roles and perspectives. He was convinced that children literally cannot \"get their act together\": instead of playing cooperatively and truly together, they play side by side, with little regard for others. And when speaking with others, a young child supposedly cannot consider the listener's viewpoint but \"talks to himself without listening to others.\"\n\nD) Piaget and his followers maintained that children go through something like a dark age of intellectual development before slowly and gradually becoming enlightened by reason and rationality as they reach school age. Alongside this enlightenment develops an ever growing understanding of other persons, including their attitudes and views of the world.\n\nE) Today, a very different picture of children's mental development emerges. Psychologists continually reveal new insights into the depth of young children's knowledge of the world, including their understanding of other minds. Recent studies suggest that even infants are sensitive to others' perspectives and beliefs.\n\nF) Part of the motivation to revise some of Piaget's conclusions stemmed from an ideological shift about the origin of human knowledge that occurred in the second half of the 20th century. It became increasingly unpopular to assume that a basic understanding of the world can be built entirely from experience. This was in part prompted by theorist Noam Chomsky, who argued that something as complex as the rules of grammar cannot be picked up from exposure to speech, but is supplied by an inborn \"language faculty.\" Others followed suit and defined further \"core areas\" in which knowledge allegedly cannot be pieced together from experience but must be possessed at birth. One such area is our knowledge of others' minds. Some even argue that a basic knowledge of others' minds is not only possessed by human infants, but must be evolutionarily old and hence shared by our nearest living relatives, the great apes.\n\nG) To prove that infants know more in this realm than had been acknowledged, researchers needed to come up with innovative ways of showing it. A big part of why we now recognize so much more of kids' intellectual capacities is the development of much more sensitive research tools than Piaget had at his disposal.\n\nH) Instead of engaging babies in dialog or having them execute complex motor tasks, the newer methods capitalize on behaviors that have a firm place in infants' natural behavior repertoire: looking, listening, sucking, making facial expressions, gestures and simple manual actions. The idea of focusing on these \"small behaviors\" is that they give kids the chance to demonstrate their knowledge implicitly and spontaneously without having to respond to questions or instructions. For example, children might look longer at an event that they did not expect to happen, or they might show facial expressions indicating that they have sympathetic concern for others. When researchers measure these less demanding, and often involuntary, behaviors, they can detect a sensitivity to others' mental states at a much younger age than with the more taxing methods that Piaget and his followers deployed.\n\nI) In the 1980s, these kinds of implicit measures became customary in developmental psychology. But it took a while longer before these tools were employed to measure children's grasp of the mental lives of others.\n\nJ) In a set of experiments, my colleagues at the University of Southern California and I found evidence that babies can even anticipate how others will feel when their expectations are disappointed. We acted out several puppet(木偶) shows in front of two-year-old children. In these puppet shows, a protagonist (Cookie Monster) left his precious belongings (cookies) on stage and later returned to fetch them. What the protagonist did not know was that an antagonist had come and messed with his possessions. The children had witnessed these acts and attentively watched the protagonist return. We recorded children's facial and bodily expressions. Children bit their lips, wrinkled their nose or wiggled(扭动) in their chair when the protagonist came back, as if they anticipated the bewilderment and disappointment he was about to experience. Importantly, children showed no such reactions and remained calm when the protagonist had seen the events himself and thus knew what to expect. Our study reveals that by the tender age of two, kids not only track what others believe or expect; they can even foresee how others will feel when they discover reality.\n\nK) Studies like this reveal that there is much more going on in small kids' and even infants' minds than was previously believed. With the explicit measures used by Piaget and successors, these deeper layers of kids' understanding cannot be accessed. The new investigative tools demonstrate that kids know more than they can say: when we scratch beneath the surface, we find an emerging understanding of relations and perspectives that Piaget probably did not dream of.\n\nL) Despite these obvious advances in the study of young children's thinking, it would be a grave mistake to dismiss the careful and systematic analyses compiled by Piaget and others before the new tests dominated the scene because the original methods revealed essential facts about how children think that the new methods cannot uncover.\n\nM) There's no consensus in today's science community about how much we can infer from a look, a facial expression or a hand gesture. These behaviors clearly indicate a curiosity about what goes on in the mind of others, and probably a set of early intuitions coupled with a willingness to learn more. They pave the way to richer and more explicit forms of understanding of the minds of others. But they can in no way replace the child's growing ability to articulate and refine her understanding of how people behave and why.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "J",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 J 段。题干：The author and his colleagues' study shows two-year-olds may be able to predict other people's feelings.\n核对该段原文：In a set of experiments, my colleagues at the University of Southern California and I found evidence that babies can even anticipate how others will feel when their expectations are disappointed. We acted out several puppet(木偶) shows in front of two-year-old children. In these puppet shows, a protagonist (Cookie Monster) left his precious belongings (cookies) on stage and later returned to fetch them. What the protagonist did not know was that an antagonist had come and messed with his possessions. The children had witnessed these acts and attentively watched the protagonist return. We recorded children's facial and bodily expressions. Children bit their lips, wrinkled their nose or wiggled(扭动) in their chair when the protagonist came back, as if they anticipated the bewilderment and disappointment he was about to experience. Importantly, children showed no such reactions and remained calm when the protagonist had seen the events himself and thus knew what to expect. Our study reveals that by the tender age of two, kids not only track what others believe or expect; they can even foresee how others will feel when they discover reality.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-07-1-nonlistening-q38",
+      "canonicalId": "lazynote-cet6-2020-07-1-q38",
+      "number": 38,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "In the latter half of the last century, fewer and fewer people believed the basis for our understanding of the world is wholly empirical.",
+      "passage": "Children Understand Far More About Other Minds Than Long Believed\n\nA) Until a few decades ago, scholars believed that young children know very little, if anything, about what others are thinking. Swiss psychologist Jean Piaget, who is credited with founding the scientific study of children's thinking, was convinced that preschool children cannot consider what goes on in the minds of others. The interviews and experiments he conducted with kids in the middle of the 20th century suggested that they were trapped in their subjective viewpoints, incapable of imagining what others think, feel or believe.\n\nB) Much of the subsequent research on early childhood thinking was highly influenced by Piaget's ideas. Scholars sought to refine his theory and empirically confirm his views. But it became increasingly clear that Piaget seemed to have gravely underestimated the intellectual powers of very young kids before they can make themselves understood by speech. Researchers began to devise ever more ingenious ways of figuring out what goes on in the minds of babies, and the resulting picture of their abilities shows subtle variations. Consequently, the old view of children's egocentric(自我中心的) nature and intellectual weaknesses has increasingly fallen out of favor and become replaced by a more generous position that sees a budding sense not only of the physical world but also of other minds, even in the \"youngest young.\"\n\nC) Historically, children didn't receive much respect for their mental powers. Piaget not only believed that children were \"egocentric\" in the sense that they were unable to differentiate between their own viewpoint and that of others; he was also convinced that their thinking was characterized by systematic errors and confusions. When playing with others, they don't cooperate because they do not realize there are different roles and perspectives. He was convinced that children literally cannot \"get their act together\": instead of playing cooperatively and truly together, they play side by side, with little regard for others. And when speaking with others, a young child supposedly cannot consider the listener's viewpoint but \"talks to himself without listening to others.\"\n\nD) Piaget and his followers maintained that children go through something like a dark age of intellectual development before slowly and gradually becoming enlightened by reason and rationality as they reach school age. Alongside this enlightenment develops an ever growing understanding of other persons, including their attitudes and views of the world.\n\nE) Today, a very different picture of children's mental development emerges. Psychologists continually reveal new insights into the depth of young children's knowledge of the world, including their understanding of other minds. Recent studies suggest that even infants are sensitive to others' perspectives and beliefs.\n\nF) Part of the motivation to revise some of Piaget's conclusions stemmed from an ideological shift about the origin of human knowledge that occurred in the second half of the 20th century. It became increasingly unpopular to assume that a basic understanding of the world can be built entirely from experience. This was in part prompted by theorist Noam Chomsky, who argued that something as complex as the rules of grammar cannot be picked up from exposure to speech, but is supplied by an inborn \"language faculty.\" Others followed suit and defined further \"core areas\" in which knowledge allegedly cannot be pieced together from experience but must be possessed at birth. One such area is our knowledge of others' minds. Some even argue that a basic knowledge of others' minds is not only possessed by human infants, but must be evolutionarily old and hence shared by our nearest living relatives, the great apes.\n\nG) To prove that infants know more in this realm than had been acknowledged, researchers needed to come up with innovative ways of showing it. A big part of why we now recognize so much more of kids' intellectual capacities is the development of much more sensitive research tools than Piaget had at his disposal.\n\nH) Instead of engaging babies in dialog or having them execute complex motor tasks, the newer methods capitalize on behaviors that have a firm place in infants' natural behavior repertoire: looking, listening, sucking, making facial expressions, gestures and simple manual actions. The idea of focusing on these \"small behaviors\" is that they give kids the chance to demonstrate their knowledge implicitly and spontaneously without having to respond to questions or instructions. For example, children might look longer at an event that they did not expect to happen, or they might show facial expressions indicating that they have sympathetic concern for others. When researchers measure these less demanding, and often involuntary, behaviors, they can detect a sensitivity to others' mental states at a much younger age than with the more taxing methods that Piaget and his followers deployed.\n\nI) In the 1980s, these kinds of implicit measures became customary in developmental psychology. But it took a while longer before these tools were employed to measure children's grasp of the mental lives of others.\n\nJ) In a set of experiments, my colleagues at the University of Southern California and I found evidence that babies can even anticipate how others will feel when their expectations are disappointed. We acted out several puppet(木偶) shows in front of two-year-old children. In these puppet shows, a protagonist (Cookie Monster) left his precious belongings (cookies) on stage and later returned to fetch them. What the protagonist did not know was that an antagonist had come and messed with his possessions. The children had witnessed these acts and attentively watched the protagonist return. We recorded children's facial and bodily expressions. Children bit their lips, wrinkled their nose or wiggled(扭动) in their chair when the protagonist came back, as if they anticipated the bewilderment and disappointment he was about to experience. Importantly, children showed no such reactions and remained calm when the protagonist had seen the events himself and thus knew what to expect. Our study reveals that by the tender age of two, kids not only track what others believe or expect; they can even foresee how others will feel when they discover reality.\n\nK) Studies like this reveal that there is much more going on in small kids' and even infants' minds than was previously believed. With the explicit measures used by Piaget and successors, these deeper layers of kids' understanding cannot be accessed. The new investigative tools demonstrate that kids know more than they can say: when we scratch beneath the surface, we find an emerging understanding of relations and perspectives that Piaget probably did not dream of.\n\nL) Despite these obvious advances in the study of young children's thinking, it would be a grave mistake to dismiss the careful and systematic analyses compiled by Piaget and others before the new tests dominated the scene because the original methods revealed essential facts about how children think that the new methods cannot uncover.\n\nM) There's no consensus in today's science community about how much we can infer from a look, a facial expression or a hand gesture. These behaviors clearly indicate a curiosity about what goes on in the mind of others, and probably a set of early intuitions coupled with a willingness to learn more. They pave the way to richer and more explicit forms of understanding of the minds of others. But they can in no way replace the child's growing ability to articulate and refine her understanding of how people behave and why.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 F 段。题干：In the latter half of the last century, fewer and fewer people believed the basis for our understanding of the world is wholly empirical.\n核对该段原文：Part of the motivation to revise some of Piaget's conclusions stemmed from an ideological shift about the origin of human knowledge that occurred in the second half of the 20th century. It became increasingly unpopular to assume that a basic understanding of the world can be built entirely from experience. This was in part prompted by theorist Noam Chomsky, who argued that something as complex as the rules of grammar cannot be picked up from exposure to speech, but is supplied by an inborn \"language faculty.\" Others followed suit and defined further \"core areas\" in which knowledge allegedly cannot be pieced together from experience but must be possessed at birth. One such area is our knowledge of others' minds. Some even argue that a basic knowledge of others' minds is not only possessed by human infants, but must be evolutionarily old and hence shared by our nearest living relatives, the great apes.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-07-1-nonlistening-q39",
+      "canonicalId": "lazynote-cet6-2020-07-1-q39",
+      "number": 39,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Research conducted by Jean Piaget in the last century suggested babies were insensitive to others' thinking.",
+      "passage": "Children Understand Far More About Other Minds Than Long Believed\n\nA) Until a few decades ago, scholars believed that young children know very little, if anything, about what others are thinking. Swiss psychologist Jean Piaget, who is credited with founding the scientific study of children's thinking, was convinced that preschool children cannot consider what goes on in the minds of others. The interviews and experiments he conducted with kids in the middle of the 20th century suggested that they were trapped in their subjective viewpoints, incapable of imagining what others think, feel or believe.\n\nB) Much of the subsequent research on early childhood thinking was highly influenced by Piaget's ideas. Scholars sought to refine his theory and empirically confirm his views. But it became increasingly clear that Piaget seemed to have gravely underestimated the intellectual powers of very young kids before they can make themselves understood by speech. Researchers began to devise ever more ingenious ways of figuring out what goes on in the minds of babies, and the resulting picture of their abilities shows subtle variations. Consequently, the old view of children's egocentric(自我中心的) nature and intellectual weaknesses has increasingly fallen out of favor and become replaced by a more generous position that sees a budding sense not only of the physical world but also of other minds, even in the \"youngest young.\"\n\nC) Historically, children didn't receive much respect for their mental powers. Piaget not only believed that children were \"egocentric\" in the sense that they were unable to differentiate between their own viewpoint and that of others; he was also convinced that their thinking was characterized by systematic errors and confusions. When playing with others, they don't cooperate because they do not realize there are different roles and perspectives. He was convinced that children literally cannot \"get their act together\": instead of playing cooperatively and truly together, they play side by side, with little regard for others. And when speaking with others, a young child supposedly cannot consider the listener's viewpoint but \"talks to himself without listening to others.\"\n\nD) Piaget and his followers maintained that children go through something like a dark age of intellectual development before slowly and gradually becoming enlightened by reason and rationality as they reach school age. Alongside this enlightenment develops an ever growing understanding of other persons, including their attitudes and views of the world.\n\nE) Today, a very different picture of children's mental development emerges. Psychologists continually reveal new insights into the depth of young children's knowledge of the world, including their understanding of other minds. Recent studies suggest that even infants are sensitive to others' perspectives and beliefs.\n\nF) Part of the motivation to revise some of Piaget's conclusions stemmed from an ideological shift about the origin of human knowledge that occurred in the second half of the 20th century. It became increasingly unpopular to assume that a basic understanding of the world can be built entirely from experience. This was in part prompted by theorist Noam Chomsky, who argued that something as complex as the rules of grammar cannot be picked up from exposure to speech, but is supplied by an inborn \"language faculty.\" Others followed suit and defined further \"core areas\" in which knowledge allegedly cannot be pieced together from experience but must be possessed at birth. One such area is our knowledge of others' minds. Some even argue that a basic knowledge of others' minds is not only possessed by human infants, but must be evolutionarily old and hence shared by our nearest living relatives, the great apes.\n\nG) To prove that infants know more in this realm than had been acknowledged, researchers needed to come up with innovative ways of showing it. A big part of why we now recognize so much more of kids' intellectual capacities is the development of much more sensitive research tools than Piaget had at his disposal.\n\nH) Instead of engaging babies in dialog or having them execute complex motor tasks, the newer methods capitalize on behaviors that have a firm place in infants' natural behavior repertoire: looking, listening, sucking, making facial expressions, gestures and simple manual actions. The idea of focusing on these \"small behaviors\" is that they give kids the chance to demonstrate their knowledge implicitly and spontaneously without having to respond to questions or instructions. For example, children might look longer at an event that they did not expect to happen, or they might show facial expressions indicating that they have sympathetic concern for others. When researchers measure these less demanding, and often involuntary, behaviors, they can detect a sensitivity to others' mental states at a much younger age than with the more taxing methods that Piaget and his followers deployed.\n\nI) In the 1980s, these kinds of implicit measures became customary in developmental psychology. But it took a while longer before these tools were employed to measure children's grasp of the mental lives of others.\n\nJ) In a set of experiments, my colleagues at the University of Southern California and I found evidence that babies can even anticipate how others will feel when their expectations are disappointed. We acted out several puppet(木偶) shows in front of two-year-old children. In these puppet shows, a protagonist (Cookie Monster) left his precious belongings (cookies) on stage and later returned to fetch them. What the protagonist did not know was that an antagonist had come and messed with his possessions. The children had witnessed these acts and attentively watched the protagonist return. We recorded children's facial and bodily expressions. Children bit their lips, wrinkled their nose or wiggled(扭动) in their chair when the protagonist came back, as if they anticipated the bewilderment and disappointment he was about to experience. Importantly, children showed no such reactions and remained calm when the protagonist had seen the events himself and thus knew what to expect. Our study reveals that by the tender age of two, kids not only track what others believe or expect; they can even foresee how others will feel when they discover reality.\n\nK) Studies like this reveal that there is much more going on in small kids' and even infants' minds than was previously believed. With the explicit measures used by Piaget and successors, these deeper layers of kids' understanding cannot be accessed. The new investigative tools demonstrate that kids know more than they can say: when we scratch beneath the surface, we find an emerging understanding of relations and perspectives that Piaget probably did not dream of.\n\nL) Despite these obvious advances in the study of young children's thinking, it would be a grave mistake to dismiss the careful and systematic analyses compiled by Piaget and others before the new tests dominated the scene because the original methods revealed essential facts about how children think that the new methods cannot uncover.\n\nM) There's no consensus in today's science community about how much we can infer from a look, a facial expression or a hand gesture. These behaviors clearly indicate a curiosity about what goes on in the mind of others, and probably a set of early intuitions coupled with a willingness to learn more. They pave the way to richer and more explicit forms of understanding of the minds of others. But they can in no way replace the child's growing ability to articulate and refine her understanding of how people behave and why.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 A 段。题干：Research conducted by Jean Piaget in the last century suggested babies were insensitive to others' thinking.\n核对该段原文：Until a few decades ago, scholars believed that young children know very little, if anything, about what others are thinking. Swiss psychologist Jean Piaget, who is credited with founding the scientific study of children's thinking, was convinced that preschool children cannot consider what goes on in the minds of others. The interviews and experiments he conducted with kids in the middle of the 20th century suggested that they were trapped in their subjective viewpoints, incapable of imagining what others think, feel or believe.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-07-1-nonlistening-q40",
+      "canonicalId": "lazynote-cet6-2020-07-1-q40",
+      "number": 40,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Our improved understanding of babies' intellectual power is attributable to better research tools.",
+      "passage": "Children Understand Far More About Other Minds Than Long Believed\n\nA) Until a few decades ago, scholars believed that young children know very little, if anything, about what others are thinking. Swiss psychologist Jean Piaget, who is credited with founding the scientific study of children's thinking, was convinced that preschool children cannot consider what goes on in the minds of others. The interviews and experiments he conducted with kids in the middle of the 20th century suggested that they were trapped in their subjective viewpoints, incapable of imagining what others think, feel or believe.\n\nB) Much of the subsequent research on early childhood thinking was highly influenced by Piaget's ideas. Scholars sought to refine his theory and empirically confirm his views. But it became increasingly clear that Piaget seemed to have gravely underestimated the intellectual powers of very young kids before they can make themselves understood by speech. Researchers began to devise ever more ingenious ways of figuring out what goes on in the minds of babies, and the resulting picture of their abilities shows subtle variations. Consequently, the old view of children's egocentric(自我中心的) nature and intellectual weaknesses has increasingly fallen out of favor and become replaced by a more generous position that sees a budding sense not only of the physical world but also of other minds, even in the \"youngest young.\"\n\nC) Historically, children didn't receive much respect for their mental powers. Piaget not only believed that children were \"egocentric\" in the sense that they were unable to differentiate between their own viewpoint and that of others; he was also convinced that their thinking was characterized by systematic errors and confusions. When playing with others, they don't cooperate because they do not realize there are different roles and perspectives. He was convinced that children literally cannot \"get their act together\": instead of playing cooperatively and truly together, they play side by side, with little regard for others. And when speaking with others, a young child supposedly cannot consider the listener's viewpoint but \"talks to himself without listening to others.\"\n\nD) Piaget and his followers maintained that children go through something like a dark age of intellectual development before slowly and gradually becoming enlightened by reason and rationality as they reach school age. Alongside this enlightenment develops an ever growing understanding of other persons, including their attitudes and views of the world.\n\nE) Today, a very different picture of children's mental development emerges. Psychologists continually reveal new insights into the depth of young children's knowledge of the world, including their understanding of other minds. Recent studies suggest that even infants are sensitive to others' perspectives and beliefs.\n\nF) Part of the motivation to revise some of Piaget's conclusions stemmed from an ideological shift about the origin of human knowledge that occurred in the second half of the 20th century. It became increasingly unpopular to assume that a basic understanding of the world can be built entirely from experience. This was in part prompted by theorist Noam Chomsky, who argued that something as complex as the rules of grammar cannot be picked up from exposure to speech, but is supplied by an inborn \"language faculty.\" Others followed suit and defined further \"core areas\" in which knowledge allegedly cannot be pieced together from experience but must be possessed at birth. One such area is our knowledge of others' minds. Some even argue that a basic knowledge of others' minds is not only possessed by human infants, but must be evolutionarily old and hence shared by our nearest living relatives, the great apes.\n\nG) To prove that infants know more in this realm than had been acknowledged, researchers needed to come up with innovative ways of showing it. A big part of why we now recognize so much more of kids' intellectual capacities is the development of much more sensitive research tools than Piaget had at his disposal.\n\nH) Instead of engaging babies in dialog or having them execute complex motor tasks, the newer methods capitalize on behaviors that have a firm place in infants' natural behavior repertoire: looking, listening, sucking, making facial expressions, gestures and simple manual actions. The idea of focusing on these \"small behaviors\" is that they give kids the chance to demonstrate their knowledge implicitly and spontaneously without having to respond to questions or instructions. For example, children might look longer at an event that they did not expect to happen, or they might show facial expressions indicating that they have sympathetic concern for others. When researchers measure these less demanding, and often involuntary, behaviors, they can detect a sensitivity to others' mental states at a much younger age than with the more taxing methods that Piaget and his followers deployed.\n\nI) In the 1980s, these kinds of implicit measures became customary in developmental psychology. But it took a while longer before these tools were employed to measure children's grasp of the mental lives of others.\n\nJ) In a set of experiments, my colleagues at the University of Southern California and I found evidence that babies can even anticipate how others will feel when their expectations are disappointed. We acted out several puppet(木偶) shows in front of two-year-old children. In these puppet shows, a protagonist (Cookie Monster) left his precious belongings (cookies) on stage and later returned to fetch them. What the protagonist did not know was that an antagonist had come and messed with his possessions. The children had witnessed these acts and attentively watched the protagonist return. We recorded children's facial and bodily expressions. Children bit their lips, wrinkled their nose or wiggled(扭动) in their chair when the protagonist came back, as if they anticipated the bewilderment and disappointment he was about to experience. Importantly, children showed no such reactions and remained calm when the protagonist had seen the events himself and thus knew what to expect. Our study reveals that by the tender age of two, kids not only track what others believe or expect; they can even foresee how others will feel when they discover reality.\n\nK) Studies like this reveal that there is much more going on in small kids' and even infants' minds than was previously believed. With the explicit measures used by Piaget and successors, these deeper layers of kids' understanding cannot be accessed. The new investigative tools demonstrate that kids know more than they can say: when we scratch beneath the surface, we find an emerging understanding of relations and perspectives that Piaget probably did not dream of.\n\nL) Despite these obvious advances in the study of young children's thinking, it would be a grave mistake to dismiss the careful and systematic analyses compiled by Piaget and others before the new tests dominated the scene because the original methods revealed essential facts about how children think that the new methods cannot uncover.\n\nM) There's no consensus in today's science community about how much we can infer from a look, a facial expression or a hand gesture. These behaviors clearly indicate a curiosity about what goes on in the mind of others, and probably a set of early intuitions coupled with a willingness to learn more. They pave the way to richer and more explicit forms of understanding of the minds of others. But they can in no way replace the child's growing ability to articulate and refine her understanding of how people behave and why.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 G 段。题干：Our improved understanding of babies' intellectual power is attributable to better research tools.\n核对该段原文：To prove that infants know more in this realm than had been acknowledged, researchers needed to come up with innovative ways of showing it. A big part of why we now recognize so much more of kids' intellectual capacities is the development of much more sensitive research tools than Piaget had at his disposal.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-07-1-nonlistening-q41",
+      "canonicalId": "lazynote-cet6-2020-07-1-q41",
+      "number": 41,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "It has been found in recent research that even small babies are sensitive to other people's points of view.",
+      "passage": "Children Understand Far More About Other Minds Than Long Believed\n\nA) Until a few decades ago, scholars believed that young children know very little, if anything, about what others are thinking. Swiss psychologist Jean Piaget, who is credited with founding the scientific study of children's thinking, was convinced that preschool children cannot consider what goes on in the minds of others. The interviews and experiments he conducted with kids in the middle of the 20th century suggested that they were trapped in their subjective viewpoints, incapable of imagining what others think, feel or believe.\n\nB) Much of the subsequent research on early childhood thinking was highly influenced by Piaget's ideas. Scholars sought to refine his theory and empirically confirm his views. But it became increasingly clear that Piaget seemed to have gravely underestimated the intellectual powers of very young kids before they can make themselves understood by speech. Researchers began to devise ever more ingenious ways of figuring out what goes on in the minds of babies, and the resulting picture of their abilities shows subtle variations. Consequently, the old view of children's egocentric(自我中心的) nature and intellectual weaknesses has increasingly fallen out of favor and become replaced by a more generous position that sees a budding sense not only of the physical world but also of other minds, even in the \"youngest young.\"\n\nC) Historically, children didn't receive much respect for their mental powers. Piaget not only believed that children were \"egocentric\" in the sense that they were unable to differentiate between their own viewpoint and that of others; he was also convinced that their thinking was characterized by systematic errors and confusions. When playing with others, they don't cooperate because they do not realize there are different roles and perspectives. He was convinced that children literally cannot \"get their act together\": instead of playing cooperatively and truly together, they play side by side, with little regard for others. And when speaking with others, a young child supposedly cannot consider the listener's viewpoint but \"talks to himself without listening to others.\"\n\nD) Piaget and his followers maintained that children go through something like a dark age of intellectual development before slowly and gradually becoming enlightened by reason and rationality as they reach school age. Alongside this enlightenment develops an ever growing understanding of other persons, including their attitudes and views of the world.\n\nE) Today, a very different picture of children's mental development emerges. Psychologists continually reveal new insights into the depth of young children's knowledge of the world, including their understanding of other minds. Recent studies suggest that even infants are sensitive to others' perspectives and beliefs.\n\nF) Part of the motivation to revise some of Piaget's conclusions stemmed from an ideological shift about the origin of human knowledge that occurred in the second half of the 20th century. It became increasingly unpopular to assume that a basic understanding of the world can be built entirely from experience. This was in part prompted by theorist Noam Chomsky, who argued that something as complex as the rules of grammar cannot be picked up from exposure to speech, but is supplied by an inborn \"language faculty.\" Others followed suit and defined further \"core areas\" in which knowledge allegedly cannot be pieced together from experience but must be possessed at birth. One such area is our knowledge of others' minds. Some even argue that a basic knowledge of others' minds is not only possessed by human infants, but must be evolutionarily old and hence shared by our nearest living relatives, the great apes.\n\nG) To prove that infants know more in this realm than had been acknowledged, researchers needed to come up with innovative ways of showing it. A big part of why we now recognize so much more of kids' intellectual capacities is the development of much more sensitive research tools than Piaget had at his disposal.\n\nH) Instead of engaging babies in dialog or having them execute complex motor tasks, the newer methods capitalize on behaviors that have a firm place in infants' natural behavior repertoire: looking, listening, sucking, making facial expressions, gestures and simple manual actions. The idea of focusing on these \"small behaviors\" is that they give kids the chance to demonstrate their knowledge implicitly and spontaneously without having to respond to questions or instructions. For example, children might look longer at an event that they did not expect to happen, or they might show facial expressions indicating that they have sympathetic concern for others. When researchers measure these less demanding, and often involuntary, behaviors, they can detect a sensitivity to others' mental states at a much younger age than with the more taxing methods that Piaget and his followers deployed.\n\nI) In the 1980s, these kinds of implicit measures became customary in developmental psychology. But it took a while longer before these tools were employed to measure children's grasp of the mental lives of others.\n\nJ) In a set of experiments, my colleagues at the University of Southern California and I found evidence that babies can even anticipate how others will feel when their expectations are disappointed. We acted out several puppet(木偶) shows in front of two-year-old children. In these puppet shows, a protagonist (Cookie Monster) left his precious belongings (cookies) on stage and later returned to fetch them. What the protagonist did not know was that an antagonist had come and messed with his possessions. The children had witnessed these acts and attentively watched the protagonist return. We recorded children's facial and bodily expressions. Children bit their lips, wrinkled their nose or wiggled(扭动) in their chair when the protagonist came back, as if they anticipated the bewilderment and disappointment he was about to experience. Importantly, children showed no such reactions and remained calm when the protagonist had seen the events himself and thus knew what to expect. Our study reveals that by the tender age of two, kids not only track what others believe or expect; they can even foresee how others will feel when they discover reality.\n\nK) Studies like this reveal that there is much more going on in small kids' and even infants' minds than was previously believed. With the explicit measures used by Piaget and successors, these deeper layers of kids' understanding cannot be accessed. The new investigative tools demonstrate that kids know more than they can say: when we scratch beneath the surface, we find an emerging understanding of relations and perspectives that Piaget probably did not dream of.\n\nL) Despite these obvious advances in the study of young children's thinking, it would be a grave mistake to dismiss the careful and systematic analyses compiled by Piaget and others before the new tests dominated the scene because the original methods revealed essential facts about how children think that the new methods cannot uncover.\n\nM) There's no consensus in today's science community about how much we can infer from a look, a facial expression or a hand gesture. These behaviors clearly indicate a curiosity about what goes on in the mind of others, and probably a set of early intuitions coupled with a willingness to learn more. They pave the way to richer and more explicit forms of understanding of the minds of others. But they can in no way replace the child's growing ability to articulate and refine her understanding of how people behave and why.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 E 段。题干：It has been found in recent research that even small babies are sensitive to other people's points of view.\n核对该段原文：Today, a very different picture of children's mental development emerges. Psychologists continually reveal new insights into the depth of young children's knowledge of the world, including their understanding of other minds. Recent studies suggest that even infants are sensitive to others' perspectives and beliefs.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-07-1-nonlistening-q42",
+      "canonicalId": "lazynote-cet6-2020-07-1-q42",
+      "number": 42,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Scientists are still debating what inference can be drawn from certain physical expressions of a child.",
+      "passage": "Children Understand Far More About Other Minds Than Long Believed\n\nA) Until a few decades ago, scholars believed that young children know very little, if anything, about what others are thinking. Swiss psychologist Jean Piaget, who is credited with founding the scientific study of children's thinking, was convinced that preschool children cannot consider what goes on in the minds of others. The interviews and experiments he conducted with kids in the middle of the 20th century suggested that they were trapped in their subjective viewpoints, incapable of imagining what others think, feel or believe.\n\nB) Much of the subsequent research on early childhood thinking was highly influenced by Piaget's ideas. Scholars sought to refine his theory and empirically confirm his views. But it became increasingly clear that Piaget seemed to have gravely underestimated the intellectual powers of very young kids before they can make themselves understood by speech. Researchers began to devise ever more ingenious ways of figuring out what goes on in the minds of babies, and the resulting picture of their abilities shows subtle variations. Consequently, the old view of children's egocentric(自我中心的) nature and intellectual weaknesses has increasingly fallen out of favor and become replaced by a more generous position that sees a budding sense not only of the physical world but also of other minds, even in the \"youngest young.\"\n\nC) Historically, children didn't receive much respect for their mental powers. Piaget not only believed that children were \"egocentric\" in the sense that they were unable to differentiate between their own viewpoint and that of others; he was also convinced that their thinking was characterized by systematic errors and confusions. When playing with others, they don't cooperate because they do not realize there are different roles and perspectives. He was convinced that children literally cannot \"get their act together\": instead of playing cooperatively and truly together, they play side by side, with little regard for others. And when speaking with others, a young child supposedly cannot consider the listener's viewpoint but \"talks to himself without listening to others.\"\n\nD) Piaget and his followers maintained that children go through something like a dark age of intellectual development before slowly and gradually becoming enlightened by reason and rationality as they reach school age. Alongside this enlightenment develops an ever growing understanding of other persons, including their attitudes and views of the world.\n\nE) Today, a very different picture of children's mental development emerges. Psychologists continually reveal new insights into the depth of young children's knowledge of the world, including their understanding of other minds. Recent studies suggest that even infants are sensitive to others' perspectives and beliefs.\n\nF) Part of the motivation to revise some of Piaget's conclusions stemmed from an ideological shift about the origin of human knowledge that occurred in the second half of the 20th century. It became increasingly unpopular to assume that a basic understanding of the world can be built entirely from experience. This was in part prompted by theorist Noam Chomsky, who argued that something as complex as the rules of grammar cannot be picked up from exposure to speech, but is supplied by an inborn \"language faculty.\" Others followed suit and defined further \"core areas\" in which knowledge allegedly cannot be pieced together from experience but must be possessed at birth. One such area is our knowledge of others' minds. Some even argue that a basic knowledge of others' minds is not only possessed by human infants, but must be evolutionarily old and hence shared by our nearest living relatives, the great apes.\n\nG) To prove that infants know more in this realm than had been acknowledged, researchers needed to come up with innovative ways of showing it. A big part of why we now recognize so much more of kids' intellectual capacities is the development of much more sensitive research tools than Piaget had at his disposal.\n\nH) Instead of engaging babies in dialog or having them execute complex motor tasks, the newer methods capitalize on behaviors that have a firm place in infants' natural behavior repertoire: looking, listening, sucking, making facial expressions, gestures and simple manual actions. The idea of focusing on these \"small behaviors\" is that they give kids the chance to demonstrate their knowledge implicitly and spontaneously without having to respond to questions or instructions. For example, children might look longer at an event that they did not expect to happen, or they might show facial expressions indicating that they have sympathetic concern for others. When researchers measure these less demanding, and often involuntary, behaviors, they can detect a sensitivity to others' mental states at a much younger age than with the more taxing methods that Piaget and his followers deployed.\n\nI) In the 1980s, these kinds of implicit measures became customary in developmental psychology. But it took a while longer before these tools were employed to measure children's grasp of the mental lives of others.\n\nJ) In a set of experiments, my colleagues at the University of Southern California and I found evidence that babies can even anticipate how others will feel when their expectations are disappointed. We acted out several puppet(木偶) shows in front of two-year-old children. In these puppet shows, a protagonist (Cookie Monster) left his precious belongings (cookies) on stage and later returned to fetch them. What the protagonist did not know was that an antagonist had come and messed with his possessions. The children had witnessed these acts and attentively watched the protagonist return. We recorded children's facial and bodily expressions. Children bit their lips, wrinkled their nose or wiggled(扭动) in their chair when the protagonist came back, as if they anticipated the bewilderment and disappointment he was about to experience. Importantly, children showed no such reactions and remained calm when the protagonist had seen the events himself and thus knew what to expect. Our study reveals that by the tender age of two, kids not only track what others believe or expect; they can even foresee how others will feel when they discover reality.\n\nK) Studies like this reveal that there is much more going on in small kids' and even infants' minds than was previously believed. With the explicit measures used by Piaget and successors, these deeper layers of kids' understanding cannot be accessed. The new investigative tools demonstrate that kids know more than they can say: when we scratch beneath the surface, we find an emerging understanding of relations and perspectives that Piaget probably did not dream of.\n\nL) Despite these obvious advances in the study of young children's thinking, it would be a grave mistake to dismiss the careful and systematic analyses compiled by Piaget and others before the new tests dominated the scene because the original methods revealed essential facts about how children think that the new methods cannot uncover.\n\nM) There's no consensus in today's science community about how much we can infer from a look, a facial expression or a hand gesture. These behaviors clearly indicate a curiosity about what goes on in the mind of others, and probably a set of early intuitions coupled with a willingness to learn more. They pave the way to richer and more explicit forms of understanding of the minds of others. But they can in no way replace the child's growing ability to articulate and refine her understanding of how people behave and why.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "M",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 M 段。题干：Scientists are still debating what inference can be drawn from certain physical expressions of a child.\n核对该段原文：There's no consensus in today's science community about how much we can infer from a look, a facial expression or a hand gesture. These behaviors clearly indicate a curiosity about what goes on in the mind of others, and probably a set of early intuitions coupled with a willingness to learn more. They pave the way to richer and more explicit forms of understanding of the minds of others. But they can in no way replace the child's growing ability to articulate and refine her understanding of how people behave and why.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-07-1-nonlistening-q43",
+      "canonicalId": "lazynote-cet6-2020-07-1-q43",
+      "number": 43,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The newer research methods focus on infants' simple behaviors instead of requiring them to answer questions.",
+      "passage": "Children Understand Far More About Other Minds Than Long Believed\n\nA) Until a few decades ago, scholars believed that young children know very little, if anything, about what others are thinking. Swiss psychologist Jean Piaget, who is credited with founding the scientific study of children's thinking, was convinced that preschool children cannot consider what goes on in the minds of others. The interviews and experiments he conducted with kids in the middle of the 20th century suggested that they were trapped in their subjective viewpoints, incapable of imagining what others think, feel or believe.\n\nB) Much of the subsequent research on early childhood thinking was highly influenced by Piaget's ideas. Scholars sought to refine his theory and empirically confirm his views. But it became increasingly clear that Piaget seemed to have gravely underestimated the intellectual powers of very young kids before they can make themselves understood by speech. Researchers began to devise ever more ingenious ways of figuring out what goes on in the minds of babies, and the resulting picture of their abilities shows subtle variations. Consequently, the old view of children's egocentric(自我中心的) nature and intellectual weaknesses has increasingly fallen out of favor and become replaced by a more generous position that sees a budding sense not only of the physical world but also of other minds, even in the \"youngest young.\"\n\nC) Historically, children didn't receive much respect for their mental powers. Piaget not only believed that children were \"egocentric\" in the sense that they were unable to differentiate between their own viewpoint and that of others; he was also convinced that their thinking was characterized by systematic errors and confusions. When playing with others, they don't cooperate because they do not realize there are different roles and perspectives. He was convinced that children literally cannot \"get their act together\": instead of playing cooperatively and truly together, they play side by side, with little regard for others. And when speaking with others, a young child supposedly cannot consider the listener's viewpoint but \"talks to himself without listening to others.\"\n\nD) Piaget and his followers maintained that children go through something like a dark age of intellectual development before slowly and gradually becoming enlightened by reason and rationality as they reach school age. Alongside this enlightenment develops an ever growing understanding of other persons, including their attitudes and views of the world.\n\nE) Today, a very different picture of children's mental development emerges. Psychologists continually reveal new insights into the depth of young children's knowledge of the world, including their understanding of other minds. Recent studies suggest that even infants are sensitive to others' perspectives and beliefs.\n\nF) Part of the motivation to revise some of Piaget's conclusions stemmed from an ideological shift about the origin of human knowledge that occurred in the second half of the 20th century. It became increasingly unpopular to assume that a basic understanding of the world can be built entirely from experience. This was in part prompted by theorist Noam Chomsky, who argued that something as complex as the rules of grammar cannot be picked up from exposure to speech, but is supplied by an inborn \"language faculty.\" Others followed suit and defined further \"core areas\" in which knowledge allegedly cannot be pieced together from experience but must be possessed at birth. One such area is our knowledge of others' minds. Some even argue that a basic knowledge of others' minds is not only possessed by human infants, but must be evolutionarily old and hence shared by our nearest living relatives, the great apes.\n\nG) To prove that infants know more in this realm than had been acknowledged, researchers needed to come up with innovative ways of showing it. A big part of why we now recognize so much more of kids' intellectual capacities is the development of much more sensitive research tools than Piaget had at his disposal.\n\nH) Instead of engaging babies in dialog or having them execute complex motor tasks, the newer methods capitalize on behaviors that have a firm place in infants' natural behavior repertoire: looking, listening, sucking, making facial expressions, gestures and simple manual actions. The idea of focusing on these \"small behaviors\" is that they give kids the chance to demonstrate their knowledge implicitly and spontaneously without having to respond to questions or instructions. For example, children might look longer at an event that they did not expect to happen, or they might show facial expressions indicating that they have sympathetic concern for others. When researchers measure these less demanding, and often involuntary, behaviors, they can detect a sensitivity to others' mental states at a much younger age than with the more taxing methods that Piaget and his followers deployed.\n\nI) In the 1980s, these kinds of implicit measures became customary in developmental psychology. But it took a while longer before these tools were employed to measure children's grasp of the mental lives of others.\n\nJ) In a set of experiments, my colleagues at the University of Southern California and I found evidence that babies can even anticipate how others will feel when their expectations are disappointed. We acted out several puppet(木偶) shows in front of two-year-old children. In these puppet shows, a protagonist (Cookie Monster) left his precious belongings (cookies) on stage and later returned to fetch them. What the protagonist did not know was that an antagonist had come and messed with his possessions. The children had witnessed these acts and attentively watched the protagonist return. We recorded children's facial and bodily expressions. Children bit their lips, wrinkled their nose or wiggled(扭动) in their chair when the protagonist came back, as if they anticipated the bewilderment and disappointment he was about to experience. Importantly, children showed no such reactions and remained calm when the protagonist had seen the events himself and thus knew what to expect. Our study reveals that by the tender age of two, kids not only track what others believe or expect; they can even foresee how others will feel when they discover reality.\n\nK) Studies like this reveal that there is much more going on in small kids' and even infants' minds than was previously believed. With the explicit measures used by Piaget and successors, these deeper layers of kids' understanding cannot be accessed. The new investigative tools demonstrate that kids know more than they can say: when we scratch beneath the surface, we find an emerging understanding of relations and perspectives that Piaget probably did not dream of.\n\nL) Despite these obvious advances in the study of young children's thinking, it would be a grave mistake to dismiss the careful and systematic analyses compiled by Piaget and others before the new tests dominated the scene because the original methods revealed essential facts about how children think that the new methods cannot uncover.\n\nM) There's no consensus in today's science community about how much we can infer from a look, a facial expression or a hand gesture. These behaviors clearly indicate a curiosity about what goes on in the mind of others, and probably a set of early intuitions coupled with a willingness to learn more. They pave the way to richer and more explicit forms of understanding of the minds of others. But they can in no way replace the child's growing ability to articulate and refine her understanding of how people behave and why.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 H 段。题干：The newer research methods focus on infants' simple behaviors instead of requiring them to answer questions.\n核对该段原文：Instead of engaging babies in dialog or having them execute complex motor tasks, the newer methods capitalize on behaviors that have a firm place in infants' natural behavior repertoire: looking, listening, sucking, making facial expressions, gestures and simple manual actions. The idea of focusing on these \"small behaviors\" is that they give kids the chance to demonstrate their knowledge implicitly and spontaneously without having to respond to questions or instructions. For example, children might look longer at an event that they did not expect to happen, or they might show facial expressions indicating that they have sympathetic concern for others. When researchers measure these less demanding, and often involuntary, behaviors, they can detect a sensitivity to others' mental states at a much younger age than with the more taxing methods that Piaget and his followers deployed.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-07-1-nonlistening-q44",
+      "canonicalId": "lazynote-cet6-2020-07-1-q44",
+      "number": 44,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "With the progress in psychology, the traditional view of children's self-centered nature and limited thinking abilities has become less and less influential.",
+      "passage": "Children Understand Far More About Other Minds Than Long Believed\n\nA) Until a few decades ago, scholars believed that young children know very little, if anything, about what others are thinking. Swiss psychologist Jean Piaget, who is credited with founding the scientific study of children's thinking, was convinced that preschool children cannot consider what goes on in the minds of others. The interviews and experiments he conducted with kids in the middle of the 20th century suggested that they were trapped in their subjective viewpoints, incapable of imagining what others think, feel or believe.\n\nB) Much of the subsequent research on early childhood thinking was highly influenced by Piaget's ideas. Scholars sought to refine his theory and empirically confirm his views. But it became increasingly clear that Piaget seemed to have gravely underestimated the intellectual powers of very young kids before they can make themselves understood by speech. Researchers began to devise ever more ingenious ways of figuring out what goes on in the minds of babies, and the resulting picture of their abilities shows subtle variations. Consequently, the old view of children's egocentric(自我中心的) nature and intellectual weaknesses has increasingly fallen out of favor and become replaced by a more generous position that sees a budding sense not only of the physical world but also of other minds, even in the \"youngest young.\"\n\nC) Historically, children didn't receive much respect for their mental powers. Piaget not only believed that children were \"egocentric\" in the sense that they were unable to differentiate between their own viewpoint and that of others; he was also convinced that their thinking was characterized by systematic errors and confusions. When playing with others, they don't cooperate because they do not realize there are different roles and perspectives. He was convinced that children literally cannot \"get their act together\": instead of playing cooperatively and truly together, they play side by side, with little regard for others. And when speaking with others, a young child supposedly cannot consider the listener's viewpoint but \"talks to himself without listening to others.\"\n\nD) Piaget and his followers maintained that children go through something like a dark age of intellectual development before slowly and gradually becoming enlightened by reason and rationality as they reach school age. Alongside this enlightenment develops an ever growing understanding of other persons, including their attitudes and views of the world.\n\nE) Today, a very different picture of children's mental development emerges. Psychologists continually reveal new insights into the depth of young children's knowledge of the world, including their understanding of other minds. Recent studies suggest that even infants are sensitive to others' perspectives and beliefs.\n\nF) Part of the motivation to revise some of Piaget's conclusions stemmed from an ideological shift about the origin of human knowledge that occurred in the second half of the 20th century. It became increasingly unpopular to assume that a basic understanding of the world can be built entirely from experience. This was in part prompted by theorist Noam Chomsky, who argued that something as complex as the rules of grammar cannot be picked up from exposure to speech, but is supplied by an inborn \"language faculty.\" Others followed suit and defined further \"core areas\" in which knowledge allegedly cannot be pieced together from experience but must be possessed at birth. One such area is our knowledge of others' minds. Some even argue that a basic knowledge of others' minds is not only possessed by human infants, but must be evolutionarily old and hence shared by our nearest living relatives, the great apes.\n\nG) To prove that infants know more in this realm than had been acknowledged, researchers needed to come up with innovative ways of showing it. A big part of why we now recognize so much more of kids' intellectual capacities is the development of much more sensitive research tools than Piaget had at his disposal.\n\nH) Instead of engaging babies in dialog or having them execute complex motor tasks, the newer methods capitalize on behaviors that have a firm place in infants' natural behavior repertoire: looking, listening, sucking, making facial expressions, gestures and simple manual actions. The idea of focusing on these \"small behaviors\" is that they give kids the chance to demonstrate their knowledge implicitly and spontaneously without having to respond to questions or instructions. For example, children might look longer at an event that they did not expect to happen, or they might show facial expressions indicating that they have sympathetic concern for others. When researchers measure these less demanding, and often involuntary, behaviors, they can detect a sensitivity to others' mental states at a much younger age than with the more taxing methods that Piaget and his followers deployed.\n\nI) In the 1980s, these kinds of implicit measures became customary in developmental psychology. But it took a while longer before these tools were employed to measure children's grasp of the mental lives of others.\n\nJ) In a set of experiments, my colleagues at the University of Southern California and I found evidence that babies can even anticipate how others will feel when their expectations are disappointed. We acted out several puppet(木偶) shows in front of two-year-old children. In these puppet shows, a protagonist (Cookie Monster) left his precious belongings (cookies) on stage and later returned to fetch them. What the protagonist did not know was that an antagonist had come and messed with his possessions. The children had witnessed these acts and attentively watched the protagonist return. We recorded children's facial and bodily expressions. Children bit their lips, wrinkled their nose or wiggled(扭动) in their chair when the protagonist came back, as if they anticipated the bewilderment and disappointment he was about to experience. Importantly, children showed no such reactions and remained calm when the protagonist had seen the events himself and thus knew what to expect. Our study reveals that by the tender age of two, kids not only track what others believe or expect; they can even foresee how others will feel when they discover reality.\n\nK) Studies like this reveal that there is much more going on in small kids' and even infants' minds than was previously believed. With the explicit measures used by Piaget and successors, these deeper layers of kids' understanding cannot be accessed. The new investigative tools demonstrate that kids know more than they can say: when we scratch beneath the surface, we find an emerging understanding of relations and perspectives that Piaget probably did not dream of.\n\nL) Despite these obvious advances in the study of young children's thinking, it would be a grave mistake to dismiss the careful and systematic analyses compiled by Piaget and others before the new tests dominated the scene because the original methods revealed essential facts about how children think that the new methods cannot uncover.\n\nM) There's no consensus in today's science community about how much we can infer from a look, a facial expression or a hand gesture. These behaviors clearly indicate a curiosity about what goes on in the mind of others, and probably a set of early intuitions coupled with a willingness to learn more. They pave the way to richer and more explicit forms of understanding of the minds of others. But they can in no way replace the child's growing ability to articulate and refine her understanding of how people behave and why.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 B 段。题干：With the progress in psychology, the traditional view of children's self-centered nature and limited thinking abilities has become less and less influential.\n核对该段原文：Much of the subsequent research on early childhood thinking was highly influenced by Piaget's ideas. Scholars sought to refine his theory and empirically confirm his views. But it became increasingly clear that Piaget seemed to have gravely underestimated the intellectual powers of very young kids before they can make themselves understood by speech. Researchers began to devise ever more ingenious ways of figuring out what goes on in the minds of babies, and the resulting picture of their abilities shows subtle variations. Consequently, the old view of children's egocentric(自我中心的) nature and intellectual weaknesses has increasingly fallen out of favor and become replaced by a more generous position that sees a budding sense not only of the physical world but also of other minds, even in the \"youngest young.\"\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-07-1-nonlistening-q45",
+      "canonicalId": "lazynote-cet6-2020-07-1-q45",
+      "number": 45,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Even though marked advances have been made, it is wrong to dismiss Piaget's fundamental contributions to the study of kids' cognitive abilities.",
+      "passage": "Children Understand Far More About Other Minds Than Long Believed\n\nA) Until a few decades ago, scholars believed that young children know very little, if anything, about what others are thinking. Swiss psychologist Jean Piaget, who is credited with founding the scientific study of children's thinking, was convinced that preschool children cannot consider what goes on in the minds of others. The interviews and experiments he conducted with kids in the middle of the 20th century suggested that they were trapped in their subjective viewpoints, incapable of imagining what others think, feel or believe.\n\nB) Much of the subsequent research on early childhood thinking was highly influenced by Piaget's ideas. Scholars sought to refine his theory and empirically confirm his views. But it became increasingly clear that Piaget seemed to have gravely underestimated the intellectual powers of very young kids before they can make themselves understood by speech. Researchers began to devise ever more ingenious ways of figuring out what goes on in the minds of babies, and the resulting picture of their abilities shows subtle variations. Consequently, the old view of children's egocentric(自我中心的) nature and intellectual weaknesses has increasingly fallen out of favor and become replaced by a more generous position that sees a budding sense not only of the physical world but also of other minds, even in the \"youngest young.\"\n\nC) Historically, children didn't receive much respect for their mental powers. Piaget not only believed that children were \"egocentric\" in the sense that they were unable to differentiate between their own viewpoint and that of others; he was also convinced that their thinking was characterized by systematic errors and confusions. When playing with others, they don't cooperate because they do not realize there are different roles and perspectives. He was convinced that children literally cannot \"get their act together\": instead of playing cooperatively and truly together, they play side by side, with little regard for others. And when speaking with others, a young child supposedly cannot consider the listener's viewpoint but \"talks to himself without listening to others.\"\n\nD) Piaget and his followers maintained that children go through something like a dark age of intellectual development before slowly and gradually becoming enlightened by reason and rationality as they reach school age. Alongside this enlightenment develops an ever growing understanding of other persons, including their attitudes and views of the world.\n\nE) Today, a very different picture of children's mental development emerges. Psychologists continually reveal new insights into the depth of young children's knowledge of the world, including their understanding of other minds. Recent studies suggest that even infants are sensitive to others' perspectives and beliefs.\n\nF) Part of the motivation to revise some of Piaget's conclusions stemmed from an ideological shift about the origin of human knowledge that occurred in the second half of the 20th century. It became increasingly unpopular to assume that a basic understanding of the world can be built entirely from experience. This was in part prompted by theorist Noam Chomsky, who argued that something as complex as the rules of grammar cannot be picked up from exposure to speech, but is supplied by an inborn \"language faculty.\" Others followed suit and defined further \"core areas\" in which knowledge allegedly cannot be pieced together from experience but must be possessed at birth. One such area is our knowledge of others' minds. Some even argue that a basic knowledge of others' minds is not only possessed by human infants, but must be evolutionarily old and hence shared by our nearest living relatives, the great apes.\n\nG) To prove that infants know more in this realm than had been acknowledged, researchers needed to come up with innovative ways of showing it. A big part of why we now recognize so much more of kids' intellectual capacities is the development of much more sensitive research tools than Piaget had at his disposal.\n\nH) Instead of engaging babies in dialog or having them execute complex motor tasks, the newer methods capitalize on behaviors that have a firm place in infants' natural behavior repertoire: looking, listening, sucking, making facial expressions, gestures and simple manual actions. The idea of focusing on these \"small behaviors\" is that they give kids the chance to demonstrate their knowledge implicitly and spontaneously without having to respond to questions or instructions. For example, children might look longer at an event that they did not expect to happen, or they might show facial expressions indicating that they have sympathetic concern for others. When researchers measure these less demanding, and often involuntary, behaviors, they can detect a sensitivity to others' mental states at a much younger age than with the more taxing methods that Piaget and his followers deployed.\n\nI) In the 1980s, these kinds of implicit measures became customary in developmental psychology. But it took a while longer before these tools were employed to measure children's grasp of the mental lives of others.\n\nJ) In a set of experiments, my colleagues at the University of Southern California and I found evidence that babies can even anticipate how others will feel when their expectations are disappointed. We acted out several puppet(木偶) shows in front of two-year-old children. In these puppet shows, a protagonist (Cookie Monster) left his precious belongings (cookies) on stage and later returned to fetch them. What the protagonist did not know was that an antagonist had come and messed with his possessions. The children had witnessed these acts and attentively watched the protagonist return. We recorded children's facial and bodily expressions. Children bit their lips, wrinkled their nose or wiggled(扭动) in their chair when the protagonist came back, as if they anticipated the bewilderment and disappointment he was about to experience. Importantly, children showed no such reactions and remained calm when the protagonist had seen the events himself and thus knew what to expect. Our study reveals that by the tender age of two, kids not only track what others believe or expect; they can even foresee how others will feel when they discover reality.\n\nK) Studies like this reveal that there is much more going on in small kids' and even infants' minds than was previously believed. With the explicit measures used by Piaget and successors, these deeper layers of kids' understanding cannot be accessed. The new investigative tools demonstrate that kids know more than they can say: when we scratch beneath the surface, we find an emerging understanding of relations and perspectives that Piaget probably did not dream of.\n\nL) Despite these obvious advances in the study of young children's thinking, it would be a grave mistake to dismiss the careful and systematic analyses compiled by Piaget and others before the new tests dominated the scene because the original methods revealed essential facts about how children think that the new methods cannot uncover.\n\nM) There's no consensus in today's science community about how much we can infer from a look, a facial expression or a hand gesture. These behaviors clearly indicate a curiosity about what goes on in the mind of others, and probably a set of early intuitions coupled with a willingness to learn more. They pave the way to richer and more explicit forms of understanding of the minds of others. But they can in no way replace the child's growing ability to articulate and refine her understanding of how people behave and why.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "L",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 L 段。题干：Even though marked advances have been made, it is wrong to dismiss Piaget's fundamental contributions to the study of kids' cognitive abilities.\n核对该段原文：Despite these obvious advances in the study of young children's thinking, it would be a grave mistake to dismiss the careful and systematic analyses compiled by Piaget and others before the new tests dominated the scene because the original methods revealed essential facts about how children think that the new methods cannot uncover.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-07-1-nonlistening-q46",
+      "canonicalId": "lazynote-cet6-2020-07-1-q46",
+      "number": 46,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn about followers of the positive stress movement?",
+      "passage": "People often discuss the dangers of too much stress, but lately a very different view of stress is gaining popularity: this view of stress, held by members of the positive stress movement, argues that stress might actually be beneficial. The positive stress movement is made up of people such as Zachary Rapp who are looking for an edge in a competitive world, and Rapp's routine is a good example of followers of the movement. He wakes up most mornings at dawn, goes for a run, sips black coffee while ripping through emails, and then steps into a freezing cold shower. This is a routine designed to reduce the stress of running simultaneously three different health and biotechnology companies for 18 hours a day.\n\nAlthough Rapp's practices may sound extreme, he is part of a growing movement, consisting largely of tech industry workers who claim that such radical tactics will help them live better and longer. Inspired by influential figures in different fields, including entertainers, athletes, entrepreneurs and scientists, positive stress practitioners seek out some combination of extreme temperatures, restrictive diets, punishing exercise routines and general discomfort.\n\nRapp argues that positive stress keeps him balanced. In addition to running and freezing showers, Rapp uses ice baths, hot yoga, and unconventional eating practices such as eliminating dairy, sugar, alcohol and various other foods high in carbohydrates. He believes that these practices, which put stress on his body, actually make him feel less stress from work. However, Rapp does not credit anyone in particular for his choices: he said he started using these methods in college, where he got into the habit of taking ice baths to recover from sports. He got back into it while trying to get his three companies off the ground.\n\nRapp works long hours and sleeps only five to seven hours a night but he said he only gets sick once a year. For him, the difference between day-to-day stress, like the kind we feel when moving apartments, and positive stress is that the latter involves pushing the body to extremes and forcing it to build up a tolerance.\n\nOne thought leader in the positive stress world is Dutch extreme athlete Wim Hof, who earned the name \"ice man\" for his ability to withstand severe cold using deep breathing exercises. Hof's ideas have become popular among tech industry elites and, thanks to Hof, cold showers are now a trend; indeed, some even call it a form of therapy.\n\nBut it is important to note that not everyone agrees with these practitioners; indeed, some medical professionals argue that positive stress is not for everyone, and that it might even be dangerous for people who are unhealthy or older.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They are usually quite sensitive to different types of stress."
+        },
+        {
+          "id": "B",
+          "text": "They hold a different view on stress from the popular one."
+        },
+        {
+          "id": "C",
+          "text": "They derive much pleasure from living a very hectic life."
+        },
+        {
+          "id": "D",
+          "text": "They gain a competitive edge by enjoying good health."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：They hold a different view on stress from the popular one.\n关键词检索定位到第 1 段的候选相关句：People often discuss the dangers of too much stress, but lately a very different view of stress is gaining popularity: this view of stress, held by members of the positive stress movement, argues that stress might actually be beneficial.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-07-1-nonlistening-q47",
+      "canonicalId": "lazynote-cet6-2020-07-1-q47",
+      "number": 47,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do followers of the positive stress movement usually do to put their ideas into practice?",
+      "passage": "People often discuss the dangers of too much stress, but lately a very different view of stress is gaining popularity: this view of stress, held by members of the positive stress movement, argues that stress might actually be beneficial. The positive stress movement is made up of people such as Zachary Rapp who are looking for an edge in a competitive world, and Rapp's routine is a good example of followers of the movement. He wakes up most mornings at dawn, goes for a run, sips black coffee while ripping through emails, and then steps into a freezing cold shower. This is a routine designed to reduce the stress of running simultaneously three different health and biotechnology companies for 18 hours a day.\n\nAlthough Rapp's practices may sound extreme, he is part of a growing movement, consisting largely of tech industry workers who claim that such radical tactics will help them live better and longer. Inspired by influential figures in different fields, including entertainers, athletes, entrepreneurs and scientists, positive stress practitioners seek out some combination of extreme temperatures, restrictive diets, punishing exercise routines and general discomfort.\n\nRapp argues that positive stress keeps him balanced. In addition to running and freezing showers, Rapp uses ice baths, hot yoga, and unconventional eating practices such as eliminating dairy, sugar, alcohol and various other foods high in carbohydrates. He believes that these practices, which put stress on his body, actually make him feel less stress from work. However, Rapp does not credit anyone in particular for his choices: he said he started using these methods in college, where he got into the habit of taking ice baths to recover from sports. He got back into it while trying to get his three companies off the ground.\n\nRapp works long hours and sleeps only five to seven hours a night but he said he only gets sick once a year. For him, the difference between day-to-day stress, like the kind we feel when moving apartments, and positive stress is that the latter involves pushing the body to extremes and forcing it to build up a tolerance.\n\nOne thought leader in the positive stress world is Dutch extreme athlete Wim Hof, who earned the name \"ice man\" for his ability to withstand severe cold using deep breathing exercises. Hof's ideas have become popular among tech industry elites and, thanks to Hof, cold showers are now a trend; indeed, some even call it a form of therapy.\n\nBut it is important to note that not everyone agrees with these practitioners; indeed, some medical professionals argue that positive stress is not for everyone, and that it might even be dangerous for people who are unhealthy or older.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They keep changing their living habits."
+        },
+        {
+          "id": "B",
+          "text": "They network with influential figures."
+        },
+        {
+          "id": "C",
+          "text": "They seek jobs in tech industries."
+        },
+        {
+          "id": "D",
+          "text": "They apply extreme tactics."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：They apply extreme tactics.\n关键词检索定位到第 1 段的候选相关句：The positive stress movement is made up of people such as Zachary Rapp who are looking for an edge in a competitive world, and Rapp's routine is a good example of followers of the movement.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-07-1-nonlistening-q48",
+      "canonicalId": "lazynote-cet6-2020-07-1-q48",
+      "number": 48,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does Zachary Rapp say about his unconventional practices?",
+      "passage": "People often discuss the dangers of too much stress, but lately a very different view of stress is gaining popularity: this view of stress, held by members of the positive stress movement, argues that stress might actually be beneficial. The positive stress movement is made up of people such as Zachary Rapp who are looking for an edge in a competitive world, and Rapp's routine is a good example of followers of the movement. He wakes up most mornings at dawn, goes for a run, sips black coffee while ripping through emails, and then steps into a freezing cold shower. This is a routine designed to reduce the stress of running simultaneously three different health and biotechnology companies for 18 hours a day.\n\nAlthough Rapp's practices may sound extreme, he is part of a growing movement, consisting largely of tech industry workers who claim that such radical tactics will help them live better and longer. Inspired by influential figures in different fields, including entertainers, athletes, entrepreneurs and scientists, positive stress practitioners seek out some combination of extreme temperatures, restrictive diets, punishing exercise routines and general discomfort.\n\nRapp argues that positive stress keeps him balanced. In addition to running and freezing showers, Rapp uses ice baths, hot yoga, and unconventional eating practices such as eliminating dairy, sugar, alcohol and various other foods high in carbohydrates. He believes that these practices, which put stress on his body, actually make him feel less stress from work. However, Rapp does not credit anyone in particular for his choices: he said he started using these methods in college, where he got into the habit of taking ice baths to recover from sports. He got back into it while trying to get his three companies off the ground.\n\nRapp works long hours and sleeps only five to seven hours a night but he said he only gets sick once a year. For him, the difference between day-to-day stress, like the kind we feel when moving apartments, and positive stress is that the latter involves pushing the body to extremes and forcing it to build up a tolerance.\n\nOne thought leader in the positive stress world is Dutch extreme athlete Wim Hof, who earned the name \"ice man\" for his ability to withstand severe cold using deep breathing exercises. Hof's ideas have become popular among tech industry elites and, thanks to Hof, cold showers are now a trend; indeed, some even call it a form of therapy.\n\nBut it is important to note that not everyone agrees with these practitioners; indeed, some medical professionals argue that positive stress is not for everyone, and that it might even be dangerous for people who are unhealthy or older.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They help him combat stress from work."
+        },
+        {
+          "id": "B",
+          "text": "They enable him to cut down living expenses."
+        },
+        {
+          "id": "C",
+          "text": "They enable him to recover from injuries and illnesses."
+        },
+        {
+          "id": "D",
+          "text": "They help him get three companies enlisted all at once."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：They help him combat stress from work.\n关键词检索定位到第 3 段的候选相关句：He believes that these practices, which put stress on his body, actually make him feel less stress from work.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-07-1-nonlistening-q49",
+      "canonicalId": "lazynote-cet6-2020-07-1-q49",
+      "number": 49,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What can be inferred from the passage about day-to-day stress?",
+      "passage": "People often discuss the dangers of too much stress, but lately a very different view of stress is gaining popularity: this view of stress, held by members of the positive stress movement, argues that stress might actually be beneficial. The positive stress movement is made up of people such as Zachary Rapp who are looking for an edge in a competitive world, and Rapp's routine is a good example of followers of the movement. He wakes up most mornings at dawn, goes for a run, sips black coffee while ripping through emails, and then steps into a freezing cold shower. This is a routine designed to reduce the stress of running simultaneously three different health and biotechnology companies for 18 hours a day.\n\nAlthough Rapp's practices may sound extreme, he is part of a growing movement, consisting largely of tech industry workers who claim that such radical tactics will help them live better and longer. Inspired by influential figures in different fields, including entertainers, athletes, entrepreneurs and scientists, positive stress practitioners seek out some combination of extreme temperatures, restrictive diets, punishing exercise routines and general discomfort.\n\nRapp argues that positive stress keeps him balanced. In addition to running and freezing showers, Rapp uses ice baths, hot yoga, and unconventional eating practices such as eliminating dairy, sugar, alcohol and various other foods high in carbohydrates. He believes that these practices, which put stress on his body, actually make him feel less stress from work. However, Rapp does not credit anyone in particular for his choices: he said he started using these methods in college, where he got into the habit of taking ice baths to recover from sports. He got back into it while trying to get his three companies off the ground.\n\nRapp works long hours and sleeps only five to seven hours a night but he said he only gets sick once a year. For him, the difference between day-to-day stress, like the kind we feel when moving apartments, and positive stress is that the latter involves pushing the body to extremes and forcing it to build up a tolerance.\n\nOne thought leader in the positive stress world is Dutch extreme athlete Wim Hof, who earned the name \"ice man\" for his ability to withstand severe cold using deep breathing exercises. Hof's ideas have become popular among tech industry elites and, thanks to Hof, cold showers are now a trend; indeed, some even call it a form of therapy.\n\nBut it is important to note that not everyone agrees with these practitioners; indeed, some medical professionals argue that positive stress is not for everyone, and that it might even be dangerous for people who are unhealthy or older.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is harmful to one's physical and mental health."
+        },
+        {
+          "id": "B",
+          "text": "It does not differ in essence from positive stress."
+        },
+        {
+          "id": "C",
+          "text": "It is something everybody has to live with."
+        },
+        {
+          "id": "D",
+          "text": "It does not help build up one's tolerance."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：It does not help build up one's tolerance.\n关键词检索定位到第 4 段的候选相关句：For him, the difference between day-to-day stress, like the kind we feel when moving apartments, and positive stress is that the latter involves pushing the body to extremes and forcing it to build up a tolerance.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-07-1-nonlistening-q50",
+      "canonicalId": "lazynote-cet6-2020-07-1-q50",
+      "number": 50,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do some medical professionals think of positive stress?",
+      "passage": "People often discuss the dangers of too much stress, but lately a very different view of stress is gaining popularity: this view of stress, held by members of the positive stress movement, argues that stress might actually be beneficial. The positive stress movement is made up of people such as Zachary Rapp who are looking for an edge in a competitive world, and Rapp's routine is a good example of followers of the movement. He wakes up most mornings at dawn, goes for a run, sips black coffee while ripping through emails, and then steps into a freezing cold shower. This is a routine designed to reduce the stress of running simultaneously three different health and biotechnology companies for 18 hours a day.\n\nAlthough Rapp's practices may sound extreme, he is part of a growing movement, consisting largely of tech industry workers who claim that such radical tactics will help them live better and longer. Inspired by influential figures in different fields, including entertainers, athletes, entrepreneurs and scientists, positive stress practitioners seek out some combination of extreme temperatures, restrictive diets, punishing exercise routines and general discomfort.\n\nRapp argues that positive stress keeps him balanced. In addition to running and freezing showers, Rapp uses ice baths, hot yoga, and unconventional eating practices such as eliminating dairy, sugar, alcohol and various other foods high in carbohydrates. He believes that these practices, which put stress on his body, actually make him feel less stress from work. However, Rapp does not credit anyone in particular for his choices: he said he started using these methods in college, where he got into the habit of taking ice baths to recover from sports. He got back into it while trying to get his three companies off the ground.\n\nRapp works long hours and sleeps only five to seven hours a night but he said he only gets sick once a year. For him, the difference between day-to-day stress, like the kind we feel when moving apartments, and positive stress is that the latter involves pushing the body to extremes and forcing it to build up a tolerance.\n\nOne thought leader in the positive stress world is Dutch extreme athlete Wim Hof, who earned the name \"ice man\" for his ability to withstand severe cold using deep breathing exercises. Hof's ideas have become popular among tech industry elites and, thanks to Hof, cold showers are now a trend; indeed, some even call it a form of therapy.\n\nBut it is important to note that not everyone agrees with these practitioners; indeed, some medical professionals argue that positive stress is not for everyone, and that it might even be dangerous for people who are unhealthy or older.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Its true effect remains to be verified."
+        },
+        {
+          "id": "B",
+          "text": "Its side effect should not be ignored."
+        },
+        {
+          "id": "C",
+          "text": "Its effect varies considerably from person to person."
+        },
+        {
+          "id": "D",
+          "text": "Its practitioners should not take it as a form of therapy."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：Its effect varies considerably from person to person.\n关键词检索定位到第 6 段的候选相关句：But it is important to note that not everyone agrees with these practitioners; indeed, some medical professionals argue that positive stress is not for everyone, and that it might even be dangerous for people who are unhealthy or older.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-07-1-nonlistening-q51",
+      "canonicalId": "lazynote-cet6-2020-07-1-q51",
+      "number": 51,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author say sounds ironic?",
+      "passage": "Is hunting good or bad for the environment? Like so many hot button issues, the answer to this question depends upon who you ask. On the one hand, some say, nothing could be more natural than hunting, and indeed just about every animal species—including humans—has been either predator or prey at some point in its evolution. And, ironic as it sounds, since humans have wiped out many animal predators, some see hunting as a natural way to reduce the herds of prey animals that now reproduce beyond the environment's carrying capacity.\n\nOn the other hand, many environmental and animal advocates see hunting as savage, arguing that it is morally wrong to kill animals, regardless of practical considerations. According to Glenn Kirk of the California-based The Animals' Voice, hunting \"causes immense suffering to individual wild animals…\" and is \"irrationally cruel because unlike natural predation(捕食), hunters kill for pleasure …\" He adds that, despite hunters' claims that hunting keeps wildlife populations in balance, hunters' license fees are used to \"manipulate a few game species into overpopulation at the expense of a much larger number of non-game species, resulting in the loss of biological diversity, genetic integrity and ecological balance.\"\n\nBeyond moral issues, others contend that hunting is not practical. According to the Humane Society of the United States, the vast majority of hunted species—such as waterfowl, rabbits, upland birds and mourning doves—\"provide minimal nutrition and do not require population control.\"\n\nAuthor Gary E. Varner suggests in his book, In Nature's Interests, that some types of hunting may be morally justifiable while others may not be. Hunting \"designed to secure the aggregate welfare of the target species, the integrity of its ecosystem, or both\"—what Varner terms \"therapeutic hunting\"—is defensible, while subsistence and sport hunting—both of which only benefit human beings—are not.\n\nRegardless of one's individual stance, fewer Americans hunt today than in recent history. Data gathered by the U. S. Fish & Wildlife Service in 2006 show that only five percent of Americans—some 12.5 million individuals—consider themselves hunters today, down from nine percent in 2001 and 15 percent in 1996.\n\nPublic support for hunting, however, is on the rise. A 2007 survey by Responsive Management Inc. found that eighty percent of respondents agreed that \"hunting has a legitimate place in modern society,\" and the percentage of Americans indicating disapproval of hunting declined from 22 percent in 1995 to 16 percent in 2007.\n\nPerhaps matching the trend among the public, green leaders are increasingly advocating cooperation between hunters and environmental groups: After all, both deplore urban sprawl and habitat destruction.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Some predators may often turn out to be prey of other predators."
+        },
+        {
+          "id": "B",
+          "text": "Hunting may also be a solution to the problem caused by hunting."
+        },
+        {
+          "id": "C",
+          "text": "The species of prey animals continue to vary despite humans' hunting."
+        },
+        {
+          "id": "D",
+          "text": "The number of prey animals keeps rising despite environmental change."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：Hunting may also be a solution to the problem caused by hunting.\n关键词检索定位到第 1 段的候选相关句：And, ironic as it sounds, since humans have wiped out many animal predators, some see hunting as a natural way to reduce the herds of prey animals that now reproduce beyond the environment's carrying capacity.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-07-1-nonlistening-q52",
+      "canonicalId": "lazynote-cet6-2020-07-1-q52",
+      "number": 52,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does Glenn Kirk think of charging hunters license fees?",
+      "passage": "Is hunting good or bad for the environment? Like so many hot button issues, the answer to this question depends upon who you ask. On the one hand, some say, nothing could be more natural than hunting, and indeed just about every animal species—including humans—has been either predator or prey at some point in its evolution. And, ironic as it sounds, since humans have wiped out many animal predators, some see hunting as a natural way to reduce the herds of prey animals that now reproduce beyond the environment's carrying capacity.\n\nOn the other hand, many environmental and animal advocates see hunting as savage, arguing that it is morally wrong to kill animals, regardless of practical considerations. According to Glenn Kirk of the California-based The Animals' Voice, hunting \"causes immense suffering to individual wild animals…\" and is \"irrationally cruel because unlike natural predation(捕食), hunters kill for pleasure …\" He adds that, despite hunters' claims that hunting keeps wildlife populations in balance, hunters' license fees are used to \"manipulate a few game species into overpopulation at the expense of a much larger number of non-game species, resulting in the loss of biological diversity, genetic integrity and ecological balance.\"\n\nBeyond moral issues, others contend that hunting is not practical. According to the Humane Society of the United States, the vast majority of hunted species—such as waterfowl, rabbits, upland birds and mourning doves—\"provide minimal nutrition and do not require population control.\"\n\nAuthor Gary E. Varner suggests in his book, In Nature's Interests, that some types of hunting may be morally justifiable while others may not be. Hunting \"designed to secure the aggregate welfare of the target species, the integrity of its ecosystem, or both\"—what Varner terms \"therapeutic hunting\"—is defensible, while subsistence and sport hunting—both of which only benefit human beings—are not.\n\nRegardless of one's individual stance, fewer Americans hunt today than in recent history. Data gathered by the U. S. Fish & Wildlife Service in 2006 show that only five percent of Americans—some 12.5 million individuals—consider themselves hunters today, down from nine percent in 2001 and 15 percent in 1996.\n\nPublic support for hunting, however, is on the rise. A 2007 survey by Responsive Management Inc. found that eighty percent of respondents agreed that \"hunting has a legitimate place in modern society,\" and the percentage of Americans indicating disapproval of hunting declined from 22 percent in 1995 to 16 percent in 2007.\n\nPerhaps matching the trend among the public, green leaders are increasingly advocating cooperation between hunters and environmental groups: After all, both deplore urban sprawl and habitat destruction.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It keeps game population under control."
+        },
+        {
+          "id": "B",
+          "text": "It turns hunting into a sport of the rich."
+        },
+        {
+          "id": "C",
+          "text": "It leads to ecological imbalance."
+        },
+        {
+          "id": "D",
+          "text": "It helps stop killing for pleasure."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：It leads to ecological imbalance.\n关键词检索定位到第 2 段的候选相关句：According to Glenn Kirk of the California-based The Animals' Voice, hunting \"causes immense suffering to individual wild animals…\" and is \"irrationally cruel because unlike natural predation(捕食), hunters kill for pleasure …\" He adds that, despite hunters' claims that hunting keeps wildlife populations in balance, hunters' license fees are used to \"manipulate a few game species into overpopulation at the expense of a much larger number of non-game species, resulting in the loss of biological diversity, genetic integrity and ecological balance.\"\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-07-1-nonlistening-q53",
+      "canonicalId": "lazynote-cet6-2020-07-1-q53",
+      "number": 53,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What is the argument of the Humane Society of the United States against hunting?",
+      "passage": "Is hunting good or bad for the environment? Like so many hot button issues, the answer to this question depends upon who you ask. On the one hand, some say, nothing could be more natural than hunting, and indeed just about every animal species—including humans—has been either predator or prey at some point in its evolution. And, ironic as it sounds, since humans have wiped out many animal predators, some see hunting as a natural way to reduce the herds of prey animals that now reproduce beyond the environment's carrying capacity.\n\nOn the other hand, many environmental and animal advocates see hunting as savage, arguing that it is morally wrong to kill animals, regardless of practical considerations. According to Glenn Kirk of the California-based The Animals' Voice, hunting \"causes immense suffering to individual wild animals…\" and is \"irrationally cruel because unlike natural predation(捕食), hunters kill for pleasure …\" He adds that, despite hunters' claims that hunting keeps wildlife populations in balance, hunters' license fees are used to \"manipulate a few game species into overpopulation at the expense of a much larger number of non-game species, resulting in the loss of biological diversity, genetic integrity and ecological balance.\"\n\nBeyond moral issues, others contend that hunting is not practical. According to the Humane Society of the United States, the vast majority of hunted species—such as waterfowl, rabbits, upland birds and mourning doves—\"provide minimal nutrition and do not require population control.\"\n\nAuthor Gary E. Varner suggests in his book, In Nature's Interests, that some types of hunting may be morally justifiable while others may not be. Hunting \"designed to secure the aggregate welfare of the target species, the integrity of its ecosystem, or both\"—what Varner terms \"therapeutic hunting\"—is defensible, while subsistence and sport hunting—both of which only benefit human beings—are not.\n\nRegardless of one's individual stance, fewer Americans hunt today than in recent history. Data gathered by the U. S. Fish & Wildlife Service in 2006 show that only five percent of Americans—some 12.5 million individuals—consider themselves hunters today, down from nine percent in 2001 and 15 percent in 1996.\n\nPublic support for hunting, however, is on the rise. A 2007 survey by Responsive Management Inc. found that eighty percent of respondents agreed that \"hunting has a legitimate place in modern society,\" and the percentage of Americans indicating disapproval of hunting declined from 22 percent in 1995 to 16 percent in 2007.\n\nPerhaps matching the trend among the public, green leaders are increasingly advocating cooperation between hunters and environmental groups: After all, both deplore urban sprawl and habitat destruction.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Overpopulation is not an issue for most hunted animals."
+        },
+        {
+          "id": "B",
+          "text": "Hunting deprives animal populations of their food sources."
+        },
+        {
+          "id": "C",
+          "text": "Many birds and small animals are being irrationally killed."
+        },
+        {
+          "id": "D",
+          "text": "Hunting is universally acknowledged as a savage behavior."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：Overpopulation is not an issue for most hunted animals.\n关键词检索定位到第 3 段的候选相关句：According to the Humane Society of the United States, the vast majority of hunted species—such as waterfowl, rabbits, upland birds and mourning doves—\"provide minimal nutrition and do not require population control.\"\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-07-1-nonlistening-q54",
+      "canonicalId": "lazynote-cet6-2020-07-1-q54",
+      "number": 54,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "When is hunting morally justifiable according to Gary E. Varner?",
+      "passage": "Is hunting good or bad for the environment? Like so many hot button issues, the answer to this question depends upon who you ask. On the one hand, some say, nothing could be more natural than hunting, and indeed just about every animal species—including humans—has been either predator or prey at some point in its evolution. And, ironic as it sounds, since humans have wiped out many animal predators, some see hunting as a natural way to reduce the herds of prey animals that now reproduce beyond the environment's carrying capacity.\n\nOn the other hand, many environmental and animal advocates see hunting as savage, arguing that it is morally wrong to kill animals, regardless of practical considerations. According to Glenn Kirk of the California-based The Animals' Voice, hunting \"causes immense suffering to individual wild animals…\" and is \"irrationally cruel because unlike natural predation(捕食), hunters kill for pleasure …\" He adds that, despite hunters' claims that hunting keeps wildlife populations in balance, hunters' license fees are used to \"manipulate a few game species into overpopulation at the expense of a much larger number of non-game species, resulting in the loss of biological diversity, genetic integrity and ecological balance.\"\n\nBeyond moral issues, others contend that hunting is not practical. According to the Humane Society of the United States, the vast majority of hunted species—such as waterfowl, rabbits, upland birds and mourning doves—\"provide minimal nutrition and do not require population control.\"\n\nAuthor Gary E. Varner suggests in his book, In Nature's Interests, that some types of hunting may be morally justifiable while others may not be. Hunting \"designed to secure the aggregate welfare of the target species, the integrity of its ecosystem, or both\"—what Varner terms \"therapeutic hunting\"—is defensible, while subsistence and sport hunting—both of which only benefit human beings—are not.\n\nRegardless of one's individual stance, fewer Americans hunt today than in recent history. Data gathered by the U. S. Fish & Wildlife Service in 2006 show that only five percent of Americans—some 12.5 million individuals—consider themselves hunters today, down from nine percent in 2001 and 15 percent in 1996.\n\nPublic support for hunting, however, is on the rise. A 2007 survey by Responsive Management Inc. found that eighty percent of respondents agreed that \"hunting has a legitimate place in modern society,\" and the percentage of Americans indicating disapproval of hunting declined from 22 percent in 1995 to 16 percent in 2007.\n\nPerhaps matching the trend among the public, green leaders are increasingly advocating cooperation between hunters and environmental groups: After all, both deplore urban sprawl and habitat destruction.",
+      "options": [
+        {
+          "id": "A",
+          "text": "When it benefits animals and their ecosystem."
+        },
+        {
+          "id": "B",
+          "text": "When it serves both human and animal interests."
+        },
+        {
+          "id": "C",
+          "text": "When it is indispensable to humans' subsistence."
+        },
+        {
+          "id": "D",
+          "text": "When it stabilizes the population of animal species."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：When it benefits animals and their ecosystem.\n关键词检索定位到第 4 段的候选相关句：Varner suggests in his book, In Nature's Interests, that some types of hunting may be morally justifiable while others may not be.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-07-1-nonlistening-q55",
+      "canonicalId": "lazynote-cet6-2020-07-1-q55",
+      "number": 55,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What concept are green leaders trying to promote?",
+      "passage": "Is hunting good or bad for the environment? Like so many hot button issues, the answer to this question depends upon who you ask. On the one hand, some say, nothing could be more natural than hunting, and indeed just about every animal species—including humans—has been either predator or prey at some point in its evolution. And, ironic as it sounds, since humans have wiped out many animal predators, some see hunting as a natural way to reduce the herds of prey animals that now reproduce beyond the environment's carrying capacity.\n\nOn the other hand, many environmental and animal advocates see hunting as savage, arguing that it is morally wrong to kill animals, regardless of practical considerations. According to Glenn Kirk of the California-based The Animals' Voice, hunting \"causes immense suffering to individual wild animals…\" and is \"irrationally cruel because unlike natural predation(捕食), hunters kill for pleasure …\" He adds that, despite hunters' claims that hunting keeps wildlife populations in balance, hunters' license fees are used to \"manipulate a few game species into overpopulation at the expense of a much larger number of non-game species, resulting in the loss of biological diversity, genetic integrity and ecological balance.\"\n\nBeyond moral issues, others contend that hunting is not practical. According to the Humane Society of the United States, the vast majority of hunted species—such as waterfowl, rabbits, upland birds and mourning doves—\"provide minimal nutrition and do not require population control.\"\n\nAuthor Gary E. Varner suggests in his book, In Nature's Interests, that some types of hunting may be morally justifiable while others may not be. Hunting \"designed to secure the aggregate welfare of the target species, the integrity of its ecosystem, or both\"—what Varner terms \"therapeutic hunting\"—is defensible, while subsistence and sport hunting—both of which only benefit human beings—are not.\n\nRegardless of one's individual stance, fewer Americans hunt today than in recent history. Data gathered by the U. S. Fish & Wildlife Service in 2006 show that only five percent of Americans—some 12.5 million individuals—consider themselves hunters today, down from nine percent in 2001 and 15 percent in 1996.\n\nPublic support for hunting, however, is on the rise. A 2007 survey by Responsive Management Inc. found that eighty percent of respondents agreed that \"hunting has a legitimate place in modern society,\" and the percentage of Americans indicating disapproval of hunting declined from 22 percent in 1995 to 16 percent in 2007.\n\nPerhaps matching the trend among the public, green leaders are increasingly advocating cooperation between hunters and environmental groups: After all, both deplore urban sprawl and habitat destruction.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Effective protection of animal habitats."
+        },
+        {
+          "id": "B",
+          "text": "Strict control over urban development."
+        },
+        {
+          "id": "C",
+          "text": "Coordinated efforts of hunters and environmentalists."
+        },
+        {
+          "id": "D",
+          "text": "A compromise between development and animal protection."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：Coordinated efforts of hunters and environmentalists.\n关键词检索定位到第 7 段的候选相关句：Perhaps matching the trend among the public, green leaders are increasingly advocating cooperation between hunters and environmental groups: After all, both deplore urban sprawl and habitat destruction.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-07-1-nonlistening-translation",
+      "number": "IV",
+      "level": "CET6",
+      "type": "short_text_self_check",
+      "skill": "translation",
+      "section": "translation",
+      "prompt": "Directions : For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2 .\n\n《三国演义》(The Romance of the Three Kingdoms)是中国一部著名的历史小说，写于十四世纪。这部文学作品以三国时期的历史为背景，描写了从公元二世纪下半叶到公元三世纪下半叶的魏、蜀、吴三国之间的战争。小说中刻画了近千个人物和无数的历史事件。这些人物和事件虽然大都基于真实的历史，但都不同程度地被浪漫化和戏剧化了。《三国演义》是一部公认的文学杰作。自面世以来，这部小说不断吸引着一代又一代的读者，并且对中国文化产生了广泛而持久的影响 。",
+      "options": [],
+      "correctAnswer": "The Romance of the Three Kingdoms is a famous Chinese historical novel written in the fourteenth century. Set against the history of the Three Kingdoms period, it describes wars among Wei, Shu and Wu from the latter half of the second century AD to the latter half of the third century AD. The novel portrays nearly a thousand characters and countless historical events. Although most of these characters and events are based on real history, they have been romanticized and dramatized to varying degrees. The Romance of the Three Kingdoms is widely recognized as a literary masterpiece. Since its publication, it has continued to attract generation after generation of readers and has exerted a broad and lasting influence on Chinese culture.",
+      "referenceAnswer": "The Romance of the Three Kingdoms is a famous Chinese historical novel written in the fourteenth century. Set against the history of the Three Kingdoms period, it describes wars among Wei, Shu and Wu from the latter half of the second century AD to the latter half of the third century AD. The novel portrays nearly a thousand characters and countless historical events. Although most of these characters and events are based on real history, they have been romanticized and dramatized to varying degrees. The Romance of the Three Kingdoms is widely recognized as a literary masterpiece. Since its publication, it has continued to attract generation after generation of readers and has exerted a broad and lasting influence on Chinese culture.",
+      "hint": "保留十四世纪成书、二至三世纪后半叶背景和近千人物；注意历史与艺术加工的区别。",
+      "explanation": "以下为原创参考译文，准确的同义表达也可接受。written in the fourteenth century修饰小说，不能混同故事发生时间。the latter half of…表示世纪下半叶；to varying degrees保留不同程度加工；generation after generation强调持续跨代吸引读者。",
+      "rubric": [
+        "信息：逐句核对人物、地点、数字、时间、因果和并列信息，避免漏译或增译。",
+        "表达：保留十四世纪成书、二至三世纪后半叶背景和近千人物；注意历史与艺术加工的区别。",
+        "语法：检查时态、语态、主谓一致、冠词与单复数，长句按英语逻辑合理拆分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-07-1-nonlistening"
+    }
+  ]
+}

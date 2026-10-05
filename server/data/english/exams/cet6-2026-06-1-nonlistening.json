@@ -1,0 +1,2025 @@
+{
+  "schemaVersion": 1,
+  "status": "verified_structured",
+  "source": {
+    "id": "cet6-2026-06-1-nonlistening",
+    "textCollection": "https://english-exam.lazynote.cn",
+    "textUrl": "https://english-exam.lazynote.cn/cet6/paper/2026-06-1/",
+    "textSha256": "8ac873818371190678fbb49d3a003bd6337594755e455d73cb9ee21beb81f793",
+    "answerSources": [
+      {
+        "section": "part3-section-a",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2026-06-1/part3-section-a/",
+        "sha256": "abdd7bd2974225fbd66433977b261460f9e9b4bf308859033c1c616a87c8e8cc"
+      },
+      {
+        "section": "part3-section-b",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2026-06-1/part3-section-b/",
+        "sha256": "2bfea3dc355a29bb20850a7da3d3ab8fb06c9f605d9103ab40a68c94ed685e49"
+      },
+      {
+        "section": "part3-section-c-1",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2026-06-1/part3-section-c/",
+        "sha256": "ab9aa155433903d133be886c4ab011ab4ff00d3cae2ffe6bafa148e51ad31d42"
+      },
+      {
+        "section": "part3-section-c-2",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2026-06-1/part3-section-c-2/",
+        "sha256": "e67b3a6496fcbf9798f37839618ed9a4e798f231d2de6328d764280dcda7d8ca"
+      }
+    ],
+    "rightsUrl": "https://english-exam.lazynote.cn",
+    "rights": "Source footer attributes original papers to the National College English Test Committee. Original materials retain their respective rights; no blanket source license is asserted. Commercial explanatory prose is not copied.",
+    "sourceRightsNotice": "© 2026 懒笔记 · 蜀ICP备2024049450号-1 · 川公网安备51019002006323号 · 增值电信业务经营许可证：川B2-20240301 · 真题版权归全国硕士研究生招生考试 / 全国大学英语四六级考试委员会所有 · 隐私政策 · 用户协议",
+    "sourceTermsUrl": "https://english-exam.lazynote.cn/terms/",
+    "reviewedAt": "2026-10-03",
+    "answerStatus": "public_reference_structural_consistency_verified",
+    "explanations": "Project-generated contextual evidence notes. Close-reading locations are keyword-search candidates, not manually verified detailed explanations.",
+    "referenceEssays": "Project-authored full reference examples bound to the original prompts; not official model answers.",
+    "materialSources": [],
+    "corrections": [],
+    "previousReviewedAnswerSources": [],
+    "sourceEdition": "lazynote public original-paper arrangement; set numbering can differ from other collections.",
+    "independentlyConfirmedSharedSource": "",
+    "readingSourceCorrection": null,
+    "sectionSourceReplacement": null,
+    "independentAnswerChecks": [],
+    "sharedSectionSource": {}
+  },
+  "papers": [
+    {
+      "id": "cet6-2026-06-1-nonlistening",
+      "level": "CET6",
+      "year": 2026,
+      "month": 6,
+      "set": 1,
+      "title": "2026年6月英语六级第1套真题（不含听力）",
+      "authenticity": "past_exam",
+      "questionIds": [
+        "cet6-2026-06-1-nonlistening-writing",
+        "cet6-2026-06-1-nonlistening-q26",
+        "cet6-2026-06-1-nonlistening-q27",
+        "cet6-2026-06-1-nonlistening-q28",
+        "cet6-2026-06-1-nonlistening-q29",
+        "cet6-2026-06-1-nonlistening-q30",
+        "cet6-2026-06-1-nonlistening-q31",
+        "cet6-2026-06-1-nonlistening-q32",
+        "cet6-2026-06-1-nonlistening-q33",
+        "cet6-2026-06-1-nonlistening-q34",
+        "cet6-2026-06-1-nonlistening-q35",
+        "cet6-2026-06-1-nonlistening-q36",
+        "cet6-2026-06-1-nonlistening-q37",
+        "cet6-2026-06-1-nonlistening-q38",
+        "cet6-2026-06-1-nonlistening-q39",
+        "cet6-2026-06-1-nonlistening-q40",
+        "cet6-2026-06-1-nonlistening-q41",
+        "cet6-2026-06-1-nonlistening-q42",
+        "cet6-2026-06-1-nonlistening-q43",
+        "cet6-2026-06-1-nonlistening-q44",
+        "cet6-2026-06-1-nonlistening-q45",
+        "cet6-2026-06-1-nonlistening-q46",
+        "cet6-2026-06-1-nonlistening-q47",
+        "cet6-2026-06-1-nonlistening-q48",
+        "cet6-2026-06-1-nonlistening-q49",
+        "cet6-2026-06-1-nonlistening-q50",
+        "cet6-2026-06-1-nonlistening-q51",
+        "cet6-2026-06-1-nonlistening-q52",
+        "cet6-2026-06-1-nonlistening-q53",
+        "cet6-2026-06-1-nonlistening-q54",
+        "cet6-2026-06-1-nonlistening-q55",
+        "cet6-2026-06-1-nonlistening-translation"
+      ],
+      "durationSeconds": 6000,
+      "description": "写作1题、阅读30题、翻译1题，不含听力。客观题答案与题面、选项完成结构一致性核对。",
+      "sourceId": "cet6-2026-06-1-nonlistening",
+      "coverage": {
+        "fullPaper": false,
+        "fullNonListening": true,
+        "listeningExcluded": true,
+        "objectiveNumbers": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "objectiveCount": 30,
+        "subjectiveCount": 2,
+        "sections": [
+          "writing",
+          "reading_word_bank",
+          "reading_matching",
+          "reading_comprehension",
+          "translation"
+        ],
+        "sharedSectionSource": {},
+        "note": "写作1题、阅读30题、翻译1题，不含听力。",
+        "independentlyConfirmedSharedSource": "",
+        "readingSourceCorrection": null,
+        "sectionSourceReplacement": null,
+        "referenceStatus": "project_authored"
+      },
+      "resources": [
+        {
+          "id": "cet6-2026-06-1-nonlistening-source",
+          "type": "web",
+          "title": "原卷来源与题面核对",
+          "url": "https://english-exam.lazynote.cn/cet6/paper/2026-06-1/"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cet6-2026-06-1-nonlistening-writing",
+      "number": "I",
+      "level": "CET6",
+      "type": "short_text_self_check",
+      "skill": "writing",
+      "section": "writing",
+      "prompt": "Directions: For this part, you are allowed 30 minutes to write an essay that begins with the sentence \" With the trend of Urbanization, it is vitally important for city residents to develop a stronger love for Nature. \" You can make comments, cite examples or use your personal experiences to develop your essay. You should write at least 150 words but no more than 200 words. You should copy the sentence given in quotes at the beginning of your essay.",
+      "options": [],
+      "correctAnswer": "With the trend of Urbanization, it is vitally important for city residents to develop a stronger love for Nature. A close relationship with the natural environment can improve daily wellbeing and encourage responsible choices in crowded urban settings.\n\nLove for nature grows through attention and experience. Visiting a nearby park, noticing seasonal changes or caring for plants can remind residents that a city is part of a wider living system. These activities also offer opportunities for exercise and relief from constant noise and screen use. Appreciation should lead to practical care. People who value their local green spaces are more likely to avoid littering, conserve resources and support thoughtful environmental planning. Schools can help children understand these connections through simple outdoor activities rather than discussion alone.\n\nCity governments should provide accessible green spaces and opportunities for residents to participate in their care. Individuals can make regular contact with nature a modest but consistent habit. By combining enjoyment with responsibility, urban communities can become healthier places and ensure that development protects the natural qualities that make life more pleasant.",
+      "referenceAnswer": "With the trend of Urbanization, it is vitally important for city residents to develop a stronger love for Nature. A close relationship with the natural environment can improve daily wellbeing and encourage responsible choices in crowded urban settings.\n\nLove for nature grows through attention and experience. Visiting a nearby park, noticing seasonal changes or caring for plants can remind residents that a city is part of a wider living system. These activities also offer opportunities for exercise and relief from constant noise and screen use. Appreciation should lead to practical care. People who value their local green spaces are more likely to avoid littering, conserve resources and support thoughtful environmental planning. Schools can help children understand these connections through simple outdoor activities rather than discussion alone.\n\nCity governments should provide accessible green spaces and opportunities for residents to participate in their care. Individuals can make regular contact with nature a modest but consistent habit. By combining enjoyment with responsibility, urban communities can become healthier places and ensure that development protects the natural qualities that make life more pleasant.",
+      "hint": "首句Urbanization与Nature大小写照保留；论述自然接触如何改善生活并促进环保行动。",
+      "explanation": "以下为按本题要求独立写成的原创参考范文，作文没有唯一答案。首句专名式大写按给定要求保留，不替换为常规小写。主体由公园、季节、植物体验推进到垃圾与资源行为；末段说明公共绿地和个人习惯配合。评论是原创论证，不是题面提供的统计结论。",
+      "rubric": [
+        "任务：首句Urbanization与Nature大小写照保留；论述自然接触如何改善生活并促进环保行动。",
+        "论证：明确中心观点，用原因、具体例子或经历展开；结尾回应主题。",
+        "语言：检查主谓一致、时态、搭配和段落衔接；全文控制在150–200词。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2026-06-1-nonlistening-q26",
+      "canonicalId": "lazynote-cet6-2026-06-1-q26",
+      "number": 26,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 26 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Two proposals are before the state legislature that look to put some limits on ever-increasing rent prices, which some lawmakers say are contributing to rising homelessness rates.\n\nThe proposals [26] ____ caps on rent increases, preventing landlords in the state from raising rent more than the rate of inflation in most cases. There are exceptions for buildings less than 10 years old, public housing, improvements beyond maintenance, and a hardship [27] ____ .\n\nIn a 2020 study, researchers at the U.S. Government Accountability Office estimated that every $100 in rent increase is [28] ____ to a 9% rise in homelessness. Rent increases have an even more detrimental effect on some demographic groups, such as racial minorities.\n\nRepresentative Alex Ramel explained why he thought that this kind of legislation was so important, telling the story of a [29] ____ struggling to live in the community.\n\nRamel pointed out the [30] ____ effect of double-digit rent increases, saying that he made the decision to introduce the legislation while talking to a young man in Bellingham. \"He's a recent graduate from Western Washington University and just got a new job,\" Ramel said. \"He was leaving our community because his landlord [31] ____ him that his rent was going to go up by $600 a month.\"\n\nThe Rental Housing Association of Washington opposes the legislation. The association [32] ____ that the policy won't actually solve the problem of rental prices. Instead, it will punish small landlords and allow wealthy renters easy access to cheap housing.\n\n\"The rent control policy has failed everywhere it has been [33] ____ in this county. It has not fixed one housing problem [34] ____ . It also does not distinguish between rich and poor when [35] ____ who gets the benefits of rent control,\" said Chester Baldwin with the Rental Housing Coalition.",
+      "options": [
+        {
+          "id": "A",
+          "text": "anywhere"
+        },
+        {
+          "id": "B",
+          "text": "asserts"
+        },
+        {
+          "id": "C",
+          "text": "constituent"
+        },
+        {
+          "id": "D",
+          "text": "correlated"
+        },
+        {
+          "id": "E",
+          "text": "determining"
+        },
+        {
+          "id": "F",
+          "text": "devastating"
+        },
+        {
+          "id": "G",
+          "text": "enacted"
+        },
+        {
+          "id": "H",
+          "text": "entails"
+        },
+        {
+          "id": "I",
+          "text": "exemption"
+        },
+        {
+          "id": "J",
+          "text": "impose"
+        },
+        {
+          "id": "K",
+          "text": "notified"
+        },
+        {
+          "id": "L",
+          "text": "notwithstanding"
+        },
+        {
+          "id": "M",
+          "text": "presume"
+        },
+        {
+          "id": "N",
+          "text": "rehabilitation"
+        },
+        {
+          "id": "O",
+          "text": "reproaching"
+        }
+      ],
+      "correctAnswer": "J",
+      "hint": "先看第 26 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 J（impose）。本空所在句：The proposals [26] ____ caps on rent increases, preventing landlords in the state from raising rent more than the rate of inflation in most cases.\n将本空替换为 impose 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2026-06-1-nonlistening-q27",
+      "canonicalId": "lazynote-cet6-2026-06-1-q27",
+      "number": 27,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 27 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Two proposals are before the state legislature that look to put some limits on ever-increasing rent prices, which some lawmakers say are contributing to rising homelessness rates.\n\nThe proposals [26] ____ caps on rent increases, preventing landlords in the state from raising rent more than the rate of inflation in most cases. There are exceptions for buildings less than 10 years old, public housing, improvements beyond maintenance, and a hardship [27] ____ .\n\nIn a 2020 study, researchers at the U.S. Government Accountability Office estimated that every $100 in rent increase is [28] ____ to a 9% rise in homelessness. Rent increases have an even more detrimental effect on some demographic groups, such as racial minorities.\n\nRepresentative Alex Ramel explained why he thought that this kind of legislation was so important, telling the story of a [29] ____ struggling to live in the community.\n\nRamel pointed out the [30] ____ effect of double-digit rent increases, saying that he made the decision to introduce the legislation while talking to a young man in Bellingham. \"He's a recent graduate from Western Washington University and just got a new job,\" Ramel said. \"He was leaving our community because his landlord [31] ____ him that his rent was going to go up by $600 a month.\"\n\nThe Rental Housing Association of Washington opposes the legislation. The association [32] ____ that the policy won't actually solve the problem of rental prices. Instead, it will punish small landlords and allow wealthy renters easy access to cheap housing.\n\n\"The rent control policy has failed everywhere it has been [33] ____ in this county. It has not fixed one housing problem [34] ____ . It also does not distinguish between rich and poor when [35] ____ who gets the benefits of rent control,\" said Chester Baldwin with the Rental Housing Coalition.",
+      "options": [
+        {
+          "id": "A",
+          "text": "anywhere"
+        },
+        {
+          "id": "B",
+          "text": "asserts"
+        },
+        {
+          "id": "C",
+          "text": "constituent"
+        },
+        {
+          "id": "D",
+          "text": "correlated"
+        },
+        {
+          "id": "E",
+          "text": "determining"
+        },
+        {
+          "id": "F",
+          "text": "devastating"
+        },
+        {
+          "id": "G",
+          "text": "enacted"
+        },
+        {
+          "id": "H",
+          "text": "entails"
+        },
+        {
+          "id": "I",
+          "text": "exemption"
+        },
+        {
+          "id": "J",
+          "text": "impose"
+        },
+        {
+          "id": "K",
+          "text": "notified"
+        },
+        {
+          "id": "L",
+          "text": "notwithstanding"
+        },
+        {
+          "id": "M",
+          "text": "presume"
+        },
+        {
+          "id": "N",
+          "text": "rehabilitation"
+        },
+        {
+          "id": "O",
+          "text": "reproaching"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "先看第 27 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 I（exemption）。本空所在句：There are exceptions for buildings less than 10 years old, public housing, improvements beyond maintenance, and a hardship [27] ____ .\n将本空替换为 exemption 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2026-06-1-nonlistening-q28",
+      "canonicalId": "lazynote-cet6-2026-06-1-q28",
+      "number": 28,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 28 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Two proposals are before the state legislature that look to put some limits on ever-increasing rent prices, which some lawmakers say are contributing to rising homelessness rates.\n\nThe proposals [26] ____ caps on rent increases, preventing landlords in the state from raising rent more than the rate of inflation in most cases. There are exceptions for buildings less than 10 years old, public housing, improvements beyond maintenance, and a hardship [27] ____ .\n\nIn a 2020 study, researchers at the U.S. Government Accountability Office estimated that every $100 in rent increase is [28] ____ to a 9% rise in homelessness. Rent increases have an even more detrimental effect on some demographic groups, such as racial minorities.\n\nRepresentative Alex Ramel explained why he thought that this kind of legislation was so important, telling the story of a [29] ____ struggling to live in the community.\n\nRamel pointed out the [30] ____ effect of double-digit rent increases, saying that he made the decision to introduce the legislation while talking to a young man in Bellingham. \"He's a recent graduate from Western Washington University and just got a new job,\" Ramel said. \"He was leaving our community because his landlord [31] ____ him that his rent was going to go up by $600 a month.\"\n\nThe Rental Housing Association of Washington opposes the legislation. The association [32] ____ that the policy won't actually solve the problem of rental prices. Instead, it will punish small landlords and allow wealthy renters easy access to cheap housing.\n\n\"The rent control policy has failed everywhere it has been [33] ____ in this county. It has not fixed one housing problem [34] ____ . It also does not distinguish between rich and poor when [35] ____ who gets the benefits of rent control,\" said Chester Baldwin with the Rental Housing Coalition.",
+      "options": [
+        {
+          "id": "A",
+          "text": "anywhere"
+        },
+        {
+          "id": "B",
+          "text": "asserts"
+        },
+        {
+          "id": "C",
+          "text": "constituent"
+        },
+        {
+          "id": "D",
+          "text": "correlated"
+        },
+        {
+          "id": "E",
+          "text": "determining"
+        },
+        {
+          "id": "F",
+          "text": "devastating"
+        },
+        {
+          "id": "G",
+          "text": "enacted"
+        },
+        {
+          "id": "H",
+          "text": "entails"
+        },
+        {
+          "id": "I",
+          "text": "exemption"
+        },
+        {
+          "id": "J",
+          "text": "impose"
+        },
+        {
+          "id": "K",
+          "text": "notified"
+        },
+        {
+          "id": "L",
+          "text": "notwithstanding"
+        },
+        {
+          "id": "M",
+          "text": "presume"
+        },
+        {
+          "id": "N",
+          "text": "rehabilitation"
+        },
+        {
+          "id": "O",
+          "text": "reproaching"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "先看第 28 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 D（correlated）。本空所在句：Government Accountability Office estimated that every $100 in rent increase is [28] ____ to a 9% rise in homelessness.\n将本空替换为 correlated 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2026-06-1-nonlistening-q29",
+      "canonicalId": "lazynote-cet6-2026-06-1-q29",
+      "number": 29,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 29 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Two proposals are before the state legislature that look to put some limits on ever-increasing rent prices, which some lawmakers say are contributing to rising homelessness rates.\n\nThe proposals [26] ____ caps on rent increases, preventing landlords in the state from raising rent more than the rate of inflation in most cases. There are exceptions for buildings less than 10 years old, public housing, improvements beyond maintenance, and a hardship [27] ____ .\n\nIn a 2020 study, researchers at the U.S. Government Accountability Office estimated that every $100 in rent increase is [28] ____ to a 9% rise in homelessness. Rent increases have an even more detrimental effect on some demographic groups, such as racial minorities.\n\nRepresentative Alex Ramel explained why he thought that this kind of legislation was so important, telling the story of a [29] ____ struggling to live in the community.\n\nRamel pointed out the [30] ____ effect of double-digit rent increases, saying that he made the decision to introduce the legislation while talking to a young man in Bellingham. \"He's a recent graduate from Western Washington University and just got a new job,\" Ramel said. \"He was leaving our community because his landlord [31] ____ him that his rent was going to go up by $600 a month.\"\n\nThe Rental Housing Association of Washington opposes the legislation. The association [32] ____ that the policy won't actually solve the problem of rental prices. Instead, it will punish small landlords and allow wealthy renters easy access to cheap housing.\n\n\"The rent control policy has failed everywhere it has been [33] ____ in this county. It has not fixed one housing problem [34] ____ . It also does not distinguish between rich and poor when [35] ____ who gets the benefits of rent control,\" said Chester Baldwin with the Rental Housing Coalition.",
+      "options": [
+        {
+          "id": "A",
+          "text": "anywhere"
+        },
+        {
+          "id": "B",
+          "text": "asserts"
+        },
+        {
+          "id": "C",
+          "text": "constituent"
+        },
+        {
+          "id": "D",
+          "text": "correlated"
+        },
+        {
+          "id": "E",
+          "text": "determining"
+        },
+        {
+          "id": "F",
+          "text": "devastating"
+        },
+        {
+          "id": "G",
+          "text": "enacted"
+        },
+        {
+          "id": "H",
+          "text": "entails"
+        },
+        {
+          "id": "I",
+          "text": "exemption"
+        },
+        {
+          "id": "J",
+          "text": "impose"
+        },
+        {
+          "id": "K",
+          "text": "notified"
+        },
+        {
+          "id": "L",
+          "text": "notwithstanding"
+        },
+        {
+          "id": "M",
+          "text": "presume"
+        },
+        {
+          "id": "N",
+          "text": "rehabilitation"
+        },
+        {
+          "id": "O",
+          "text": "reproaching"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "先看第 29 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 C（constituent）。本空所在句：Representative Alex Ramel explained why he thought that this kind of legislation was so important, telling the story of a [29] ____ struggling to live in the community.\n将本空替换为 constituent 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2026-06-1-nonlistening-q30",
+      "canonicalId": "lazynote-cet6-2026-06-1-q30",
+      "number": 30,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 30 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Two proposals are before the state legislature that look to put some limits on ever-increasing rent prices, which some lawmakers say are contributing to rising homelessness rates.\n\nThe proposals [26] ____ caps on rent increases, preventing landlords in the state from raising rent more than the rate of inflation in most cases. There are exceptions for buildings less than 10 years old, public housing, improvements beyond maintenance, and a hardship [27] ____ .\n\nIn a 2020 study, researchers at the U.S. Government Accountability Office estimated that every $100 in rent increase is [28] ____ to a 9% rise in homelessness. Rent increases have an even more detrimental effect on some demographic groups, such as racial minorities.\n\nRepresentative Alex Ramel explained why he thought that this kind of legislation was so important, telling the story of a [29] ____ struggling to live in the community.\n\nRamel pointed out the [30] ____ effect of double-digit rent increases, saying that he made the decision to introduce the legislation while talking to a young man in Bellingham. \"He's a recent graduate from Western Washington University and just got a new job,\" Ramel said. \"He was leaving our community because his landlord [31] ____ him that his rent was going to go up by $600 a month.\"\n\nThe Rental Housing Association of Washington opposes the legislation. The association [32] ____ that the policy won't actually solve the problem of rental prices. Instead, it will punish small landlords and allow wealthy renters easy access to cheap housing.\n\n\"The rent control policy has failed everywhere it has been [33] ____ in this county. It has not fixed one housing problem [34] ____ . It also does not distinguish between rich and poor when [35] ____ who gets the benefits of rent control,\" said Chester Baldwin with the Rental Housing Coalition.",
+      "options": [
+        {
+          "id": "A",
+          "text": "anywhere"
+        },
+        {
+          "id": "B",
+          "text": "asserts"
+        },
+        {
+          "id": "C",
+          "text": "constituent"
+        },
+        {
+          "id": "D",
+          "text": "correlated"
+        },
+        {
+          "id": "E",
+          "text": "determining"
+        },
+        {
+          "id": "F",
+          "text": "devastating"
+        },
+        {
+          "id": "G",
+          "text": "enacted"
+        },
+        {
+          "id": "H",
+          "text": "entails"
+        },
+        {
+          "id": "I",
+          "text": "exemption"
+        },
+        {
+          "id": "J",
+          "text": "impose"
+        },
+        {
+          "id": "K",
+          "text": "notified"
+        },
+        {
+          "id": "L",
+          "text": "notwithstanding"
+        },
+        {
+          "id": "M",
+          "text": "presume"
+        },
+        {
+          "id": "N",
+          "text": "rehabilitation"
+        },
+        {
+          "id": "O",
+          "text": "reproaching"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "先看第 30 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 F（devastating）。本空所在句：Ramel pointed out the [30] ____ effect of double-digit rent increases, saying that he made the decision to introduce the legislation while talking to a young man in Bellingham.\n将本空替换为 devastating 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2026-06-1-nonlistening-q31",
+      "canonicalId": "lazynote-cet6-2026-06-1-q31",
+      "number": 31,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 31 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Two proposals are before the state legislature that look to put some limits on ever-increasing rent prices, which some lawmakers say are contributing to rising homelessness rates.\n\nThe proposals [26] ____ caps on rent increases, preventing landlords in the state from raising rent more than the rate of inflation in most cases. There are exceptions for buildings less than 10 years old, public housing, improvements beyond maintenance, and a hardship [27] ____ .\n\nIn a 2020 study, researchers at the U.S. Government Accountability Office estimated that every $100 in rent increase is [28] ____ to a 9% rise in homelessness. Rent increases have an even more detrimental effect on some demographic groups, such as racial minorities.\n\nRepresentative Alex Ramel explained why he thought that this kind of legislation was so important, telling the story of a [29] ____ struggling to live in the community.\n\nRamel pointed out the [30] ____ effect of double-digit rent increases, saying that he made the decision to introduce the legislation while talking to a young man in Bellingham. \"He's a recent graduate from Western Washington University and just got a new job,\" Ramel said. \"He was leaving our community because his landlord [31] ____ him that his rent was going to go up by $600 a month.\"\n\nThe Rental Housing Association of Washington opposes the legislation. The association [32] ____ that the policy won't actually solve the problem of rental prices. Instead, it will punish small landlords and allow wealthy renters easy access to cheap housing.\n\n\"The rent control policy has failed everywhere it has been [33] ____ in this county. It has not fixed one housing problem [34] ____ . It also does not distinguish between rich and poor when [35] ____ who gets the benefits of rent control,\" said Chester Baldwin with the Rental Housing Coalition.",
+      "options": [
+        {
+          "id": "A",
+          "text": "anywhere"
+        },
+        {
+          "id": "B",
+          "text": "asserts"
+        },
+        {
+          "id": "C",
+          "text": "constituent"
+        },
+        {
+          "id": "D",
+          "text": "correlated"
+        },
+        {
+          "id": "E",
+          "text": "determining"
+        },
+        {
+          "id": "F",
+          "text": "devastating"
+        },
+        {
+          "id": "G",
+          "text": "enacted"
+        },
+        {
+          "id": "H",
+          "text": "entails"
+        },
+        {
+          "id": "I",
+          "text": "exemption"
+        },
+        {
+          "id": "J",
+          "text": "impose"
+        },
+        {
+          "id": "K",
+          "text": "notified"
+        },
+        {
+          "id": "L",
+          "text": "notwithstanding"
+        },
+        {
+          "id": "M",
+          "text": "presume"
+        },
+        {
+          "id": "N",
+          "text": "rehabilitation"
+        },
+        {
+          "id": "O",
+          "text": "reproaching"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "先看第 31 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 K（notified）。本空所在句：\"He was leaving our community because his landlord [31] ____ him that his rent was going to go up by $600 a month.\"\n将本空替换为 notified 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2026-06-1-nonlistening-q32",
+      "canonicalId": "lazynote-cet6-2026-06-1-q32",
+      "number": 32,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 32 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Two proposals are before the state legislature that look to put some limits on ever-increasing rent prices, which some lawmakers say are contributing to rising homelessness rates.\n\nThe proposals [26] ____ caps on rent increases, preventing landlords in the state from raising rent more than the rate of inflation in most cases. There are exceptions for buildings less than 10 years old, public housing, improvements beyond maintenance, and a hardship [27] ____ .\n\nIn a 2020 study, researchers at the U.S. Government Accountability Office estimated that every $100 in rent increase is [28] ____ to a 9% rise in homelessness. Rent increases have an even more detrimental effect on some demographic groups, such as racial minorities.\n\nRepresentative Alex Ramel explained why he thought that this kind of legislation was so important, telling the story of a [29] ____ struggling to live in the community.\n\nRamel pointed out the [30] ____ effect of double-digit rent increases, saying that he made the decision to introduce the legislation while talking to a young man in Bellingham. \"He's a recent graduate from Western Washington University and just got a new job,\" Ramel said. \"He was leaving our community because his landlord [31] ____ him that his rent was going to go up by $600 a month.\"\n\nThe Rental Housing Association of Washington opposes the legislation. The association [32] ____ that the policy won't actually solve the problem of rental prices. Instead, it will punish small landlords and allow wealthy renters easy access to cheap housing.\n\n\"The rent control policy has failed everywhere it has been [33] ____ in this county. It has not fixed one housing problem [34] ____ . It also does not distinguish between rich and poor when [35] ____ who gets the benefits of rent control,\" said Chester Baldwin with the Rental Housing Coalition.",
+      "options": [
+        {
+          "id": "A",
+          "text": "anywhere"
+        },
+        {
+          "id": "B",
+          "text": "asserts"
+        },
+        {
+          "id": "C",
+          "text": "constituent"
+        },
+        {
+          "id": "D",
+          "text": "correlated"
+        },
+        {
+          "id": "E",
+          "text": "determining"
+        },
+        {
+          "id": "F",
+          "text": "devastating"
+        },
+        {
+          "id": "G",
+          "text": "enacted"
+        },
+        {
+          "id": "H",
+          "text": "entails"
+        },
+        {
+          "id": "I",
+          "text": "exemption"
+        },
+        {
+          "id": "J",
+          "text": "impose"
+        },
+        {
+          "id": "K",
+          "text": "notified"
+        },
+        {
+          "id": "L",
+          "text": "notwithstanding"
+        },
+        {
+          "id": "M",
+          "text": "presume"
+        },
+        {
+          "id": "N",
+          "text": "rehabilitation"
+        },
+        {
+          "id": "O",
+          "text": "reproaching"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "先看第 32 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 B（asserts）。本空所在句：The association [32] ____ that the policy won't actually solve the problem of rental prices.\n将本空替换为 asserts 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2026-06-1-nonlistening-q33",
+      "canonicalId": "lazynote-cet6-2026-06-1-q33",
+      "number": 33,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 33 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Two proposals are before the state legislature that look to put some limits on ever-increasing rent prices, which some lawmakers say are contributing to rising homelessness rates.\n\nThe proposals [26] ____ caps on rent increases, preventing landlords in the state from raising rent more than the rate of inflation in most cases. There are exceptions for buildings less than 10 years old, public housing, improvements beyond maintenance, and a hardship [27] ____ .\n\nIn a 2020 study, researchers at the U.S. Government Accountability Office estimated that every $100 in rent increase is [28] ____ to a 9% rise in homelessness. Rent increases have an even more detrimental effect on some demographic groups, such as racial minorities.\n\nRepresentative Alex Ramel explained why he thought that this kind of legislation was so important, telling the story of a [29] ____ struggling to live in the community.\n\nRamel pointed out the [30] ____ effect of double-digit rent increases, saying that he made the decision to introduce the legislation while talking to a young man in Bellingham. \"He's a recent graduate from Western Washington University and just got a new job,\" Ramel said. \"He was leaving our community because his landlord [31] ____ him that his rent was going to go up by $600 a month.\"\n\nThe Rental Housing Association of Washington opposes the legislation. The association [32] ____ that the policy won't actually solve the problem of rental prices. Instead, it will punish small landlords and allow wealthy renters easy access to cheap housing.\n\n\"The rent control policy has failed everywhere it has been [33] ____ in this county. It has not fixed one housing problem [34] ____ . It also does not distinguish between rich and poor when [35] ____ who gets the benefits of rent control,\" said Chester Baldwin with the Rental Housing Coalition.",
+      "options": [
+        {
+          "id": "A",
+          "text": "anywhere"
+        },
+        {
+          "id": "B",
+          "text": "asserts"
+        },
+        {
+          "id": "C",
+          "text": "constituent"
+        },
+        {
+          "id": "D",
+          "text": "correlated"
+        },
+        {
+          "id": "E",
+          "text": "determining"
+        },
+        {
+          "id": "F",
+          "text": "devastating"
+        },
+        {
+          "id": "G",
+          "text": "enacted"
+        },
+        {
+          "id": "H",
+          "text": "entails"
+        },
+        {
+          "id": "I",
+          "text": "exemption"
+        },
+        {
+          "id": "J",
+          "text": "impose"
+        },
+        {
+          "id": "K",
+          "text": "notified"
+        },
+        {
+          "id": "L",
+          "text": "notwithstanding"
+        },
+        {
+          "id": "M",
+          "text": "presume"
+        },
+        {
+          "id": "N",
+          "text": "rehabilitation"
+        },
+        {
+          "id": "O",
+          "text": "reproaching"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "先看第 33 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 G（enacted）。本空所在句：\"The rent control policy has failed everywhere it has been [33] ____ in this county.\n将本空替换为 enacted 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2026-06-1-nonlistening-q34",
+      "canonicalId": "lazynote-cet6-2026-06-1-q34",
+      "number": 34,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 34 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Two proposals are before the state legislature that look to put some limits on ever-increasing rent prices, which some lawmakers say are contributing to rising homelessness rates.\n\nThe proposals [26] ____ caps on rent increases, preventing landlords in the state from raising rent more than the rate of inflation in most cases. There are exceptions for buildings less than 10 years old, public housing, improvements beyond maintenance, and a hardship [27] ____ .\n\nIn a 2020 study, researchers at the U.S. Government Accountability Office estimated that every $100 in rent increase is [28] ____ to a 9% rise in homelessness. Rent increases have an even more detrimental effect on some demographic groups, such as racial minorities.\n\nRepresentative Alex Ramel explained why he thought that this kind of legislation was so important, telling the story of a [29] ____ struggling to live in the community.\n\nRamel pointed out the [30] ____ effect of double-digit rent increases, saying that he made the decision to introduce the legislation while talking to a young man in Bellingham. \"He's a recent graduate from Western Washington University and just got a new job,\" Ramel said. \"He was leaving our community because his landlord [31] ____ him that his rent was going to go up by $600 a month.\"\n\nThe Rental Housing Association of Washington opposes the legislation. The association [32] ____ that the policy won't actually solve the problem of rental prices. Instead, it will punish small landlords and allow wealthy renters easy access to cheap housing.\n\n\"The rent control policy has failed everywhere it has been [33] ____ in this county. It has not fixed one housing problem [34] ____ . It also does not distinguish between rich and poor when [35] ____ who gets the benefits of rent control,\" said Chester Baldwin with the Rental Housing Coalition.",
+      "options": [
+        {
+          "id": "A",
+          "text": "anywhere"
+        },
+        {
+          "id": "B",
+          "text": "asserts"
+        },
+        {
+          "id": "C",
+          "text": "constituent"
+        },
+        {
+          "id": "D",
+          "text": "correlated"
+        },
+        {
+          "id": "E",
+          "text": "determining"
+        },
+        {
+          "id": "F",
+          "text": "devastating"
+        },
+        {
+          "id": "G",
+          "text": "enacted"
+        },
+        {
+          "id": "H",
+          "text": "entails"
+        },
+        {
+          "id": "I",
+          "text": "exemption"
+        },
+        {
+          "id": "J",
+          "text": "impose"
+        },
+        {
+          "id": "K",
+          "text": "notified"
+        },
+        {
+          "id": "L",
+          "text": "notwithstanding"
+        },
+        {
+          "id": "M",
+          "text": "presume"
+        },
+        {
+          "id": "N",
+          "text": "rehabilitation"
+        },
+        {
+          "id": "O",
+          "text": "reproaching"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "先看第 34 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 A（anywhere）。本空所在句：It has not fixed one housing problem [34] ____ .\n将本空替换为 anywhere 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2026-06-1-nonlistening-q35",
+      "canonicalId": "lazynote-cet6-2026-06-1-q35",
+      "number": 35,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 35 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Two proposals are before the state legislature that look to put some limits on ever-increasing rent prices, which some lawmakers say are contributing to rising homelessness rates.\n\nThe proposals [26] ____ caps on rent increases, preventing landlords in the state from raising rent more than the rate of inflation in most cases. There are exceptions for buildings less than 10 years old, public housing, improvements beyond maintenance, and a hardship [27] ____ .\n\nIn a 2020 study, researchers at the U.S. Government Accountability Office estimated that every $100 in rent increase is [28] ____ to a 9% rise in homelessness. Rent increases have an even more detrimental effect on some demographic groups, such as racial minorities.\n\nRepresentative Alex Ramel explained why he thought that this kind of legislation was so important, telling the story of a [29] ____ struggling to live in the community.\n\nRamel pointed out the [30] ____ effect of double-digit rent increases, saying that he made the decision to introduce the legislation while talking to a young man in Bellingham. \"He's a recent graduate from Western Washington University and just got a new job,\" Ramel said. \"He was leaving our community because his landlord [31] ____ him that his rent was going to go up by $600 a month.\"\n\nThe Rental Housing Association of Washington opposes the legislation. The association [32] ____ that the policy won't actually solve the problem of rental prices. Instead, it will punish small landlords and allow wealthy renters easy access to cheap housing.\n\n\"The rent control policy has failed everywhere it has been [33] ____ in this county. It has not fixed one housing problem [34] ____ . It also does not distinguish between rich and poor when [35] ____ who gets the benefits of rent control,\" said Chester Baldwin with the Rental Housing Coalition.",
+      "options": [
+        {
+          "id": "A",
+          "text": "anywhere"
+        },
+        {
+          "id": "B",
+          "text": "asserts"
+        },
+        {
+          "id": "C",
+          "text": "constituent"
+        },
+        {
+          "id": "D",
+          "text": "correlated"
+        },
+        {
+          "id": "E",
+          "text": "determining"
+        },
+        {
+          "id": "F",
+          "text": "devastating"
+        },
+        {
+          "id": "G",
+          "text": "enacted"
+        },
+        {
+          "id": "H",
+          "text": "entails"
+        },
+        {
+          "id": "I",
+          "text": "exemption"
+        },
+        {
+          "id": "J",
+          "text": "impose"
+        },
+        {
+          "id": "K",
+          "text": "notified"
+        },
+        {
+          "id": "L",
+          "text": "notwithstanding"
+        },
+        {
+          "id": "M",
+          "text": "presume"
+        },
+        {
+          "id": "N",
+          "text": "rehabilitation"
+        },
+        {
+          "id": "O",
+          "text": "reproaching"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "先看第 35 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 E（determining）。本空所在句：It also does not distinguish between rich and poor when [35] ____ who gets the benefits of rent control,\" said Chester Baldwin with the Rental Housing Coalition.\n将本空替换为 determining 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2026-06-1-nonlistening-q36",
+      "canonicalId": "lazynote-cet6-2026-06-1-q36",
+      "number": 36,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Pieter Levels created a chat system to satisfy the need of digital nomads for information tourists normally don't seek.",
+      "passage": "Meet the \"digital nomads\" who travel the world in search of fast Wi-Fi\n\nA) For those \"citizens of the world\", the office can be anything from a beach hut in Brisbane to a Starbucks in Seattle, thanks to the growing prevalence of remote-based work. But roaming the globe from café to café is not without its challenges.\n\nB) When the average traveller lands in a city like Bangkok, Berlin, or Buenos Aires, their first step might be to drop their bags at their hotel and to log on to TripAdvisor to find out the hours of a popular tourist attraction or the best rooftop bar for happy hour.\n\nC) But people like Pieter Levels are not your average traveller. A Dutch website developer, Levels has been living and working nomadically(像游牧民那样) in places like Singapore, Hong Kong, Tokyo and Manila for two years. With just a carry-on backpack, he chooses his location at will, based on a variety of factors—Wi-Fi speed, average temperature, exotic food and cost of living—that have little bearing on the work he actually does.\n\nD) Somewhere in his nomadic journey, Levels noticed that there was a growing need to create an online infrastructure for people like himself. That's when he created #nomads, a membership-based chat system which runs on the team communication platform known as Slack. The channel allows users to ask people in their current city the types of practical questions that a tourist would unlikely need to ask.\n\nE) Members of the geographically dispersed subculture that Levels is a part of call themselves \"digital nomads\". They are borderless, mostly self-employed remote workers who interact with cities in a way that's entirely different from a tourist, but still doesn't quite reach the status of resident. A relatively new phenomenon, there are no hard statistics on the prevalence of digital nomads or location independent workers. But thanks to the growing prevalence of freelance(自由职业的) livelihoods, a global sharing economy and numerous digital tools, the number of people who are able to live this life is growing quickly. And in a rapidly urbanising world, where a major city in Asia increasingly offers the same comforts as one in Europe, many people are reaching the realisation they don't need to stay in one place.\n\nF) So how does a nomad differ from a tourist or resident? In many ways, Levels says, you can think of a digital nomad like a \"short-term independent expat(移居国外的人)\". Unlike a resident expat, they don't work for a large multinational company in an air conditioned office building and they generally enter a country on a tourist visa, simply renewing or moving on when it expires. But unlike a tourist, they don't arrive in a foreign city without any responsibilities. Travel isn't necessarily required for them to do their jobs, but neither is staying in one place.\n\nG) Janet Brent is an independent ebook designer. She says many people she knows assume she travels for work, but in reality her international destinations are largely up to her, and driven by cost. \"Contrary to what some people might think, I don't get paid to travel—I simply choose the lifestyle. Rather than rent in one given city, I choose to travel and do short-term, temporary stays around the world, and my travel decisions are literally based on what makes the most sense financially for me,\" Brent said. \"It's completely different from vacationing—you really sink into the city life and get your feet wet in the communities.\"\n\nH) Bryce Adams is another such nomad. He works as a developer for a South African company WooThemes, which has a workforce that's more than 80% remote-based. Though Adams frequently posts pictures on Instagram of his enviable cooking adventures from Seoul to Bangkok, he says nomad life in foreign cities has its downsides, including finding adequate Wi-Fi for the bandwidth-hungry work his livelihood depends on. Contrary to the perception that he works under a mango tree in a tropical haven, Adams says the reality of this life means that he often ends up staying in more western style places in globalised cities—ones that are sure to have air conditioning and a decent connection—rather than exotic beachfront cafés.\n\nI) \"A fellow nomad posted quite a funny but honest message on Twitter a few days ago that stuck with me: 'It's funny that digital nomads spend 16 hours to fly to the other side of the world to sit in Starbucks,' and it's completely true,\" Adams said. \"When you're a digital nomad, you don't actually have as much freedom as most people think you do. We have deadlines, we all have people relying on us and a mouth (or two) that needs to be fed. It's nice to be able to work anywhere in the world but it's not without its challenges.\"\n\nJ) But these challenges can often provide an opportunity for nomads to see a side of a city they may not have if they were staying in a luxury hotel for a long weekend. However inconvenient, a trip to a local doctor, immigration office or laundry—or a conflict with a local Airbnb host (the accommodation style of choice for most nomads)—can be far more culturally instructive than a trip to the national museum. And because nomads often have to stay where the strongest internet connection is, they tend to spend more time in developing cities compared to the average tourist, who often flees to more touristy destinations soon after landing at the airport.\n\nK) The nomad life is, by all accounts, one built out of privilege. You not only need a relatively powerful passport that makes tourist visas easy to attain, but also a knowledge economy job and access to the technology and devices that make remote working possible. But nomads like Adams say that while they are aware of this privilege, they believe living this way elevates what they're able to offer, by giving them a broader perspective on what they're building, writing, or designing and expanding their world view.\n\nL) \"Being able to travel and get around makes it easy to stay inspired,\" he added. \"I truly believe that it makes me a more sensible human being, as I tend to see and appreciate the creative solutions people come up with in other parts of the world, even though many tend to have far more constraints than we have at home.\"\n\nM) So when you're constantly on the road and don't own any property or have a fixed address, which city do you call home? It's no surprise that many nomads are dual citizens or \"third culture kids,\" who have grown up with a notion of identity that's not tied to nationalism or staying in one place. Levels says that the nomad life has not only changed his notions of citizenship, but the people he chooses to spend time with as well. \"Saying you're a 'citizen of the world' is a super cliché, right? But it's becoming quite true,\" Levels said. \"This global awareness has been the reason I started Nomad List and it's affected who my friends are. It's normal to have dinner now and sit with a Korean girl, a British-Singaporean guy, a Mexican girl and a Nigerian guy. As much as that sounds like a politically correct TV advertisement, it's great that that's the time we're in now.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 D 段。题干：Pieter Levels created a chat system to satisfy the need of digital nomads for information tourists normally don't seek.\n核对该段原文：Somewhere in his nomadic journey, Levels noticed that there was a growing need to create an online infrastructure for people like himself. That's when he created #nomads, a membership-based chat system which runs on the team communication platform known as Slack. The channel allows users to ask people in their current city the types of practical questions that a tourist would unlikely need to ask.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2026-06-1-nonlistening-q37",
+      "canonicalId": "lazynote-cet6-2026-06-1-q37",
+      "number": 37,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "It is said that digital nomads do not enjoy as much freedom as most people suppose.",
+      "passage": "Meet the \"digital nomads\" who travel the world in search of fast Wi-Fi\n\nA) For those \"citizens of the world\", the office can be anything from a beach hut in Brisbane to a Starbucks in Seattle, thanks to the growing prevalence of remote-based work. But roaming the globe from café to café is not without its challenges.\n\nB) When the average traveller lands in a city like Bangkok, Berlin, or Buenos Aires, their first step might be to drop their bags at their hotel and to log on to TripAdvisor to find out the hours of a popular tourist attraction or the best rooftop bar for happy hour.\n\nC) But people like Pieter Levels are not your average traveller. A Dutch website developer, Levels has been living and working nomadically(像游牧民那样) in places like Singapore, Hong Kong, Tokyo and Manila for two years. With just a carry-on backpack, he chooses his location at will, based on a variety of factors—Wi-Fi speed, average temperature, exotic food and cost of living—that have little bearing on the work he actually does.\n\nD) Somewhere in his nomadic journey, Levels noticed that there was a growing need to create an online infrastructure for people like himself. That's when he created #nomads, a membership-based chat system which runs on the team communication platform known as Slack. The channel allows users to ask people in their current city the types of practical questions that a tourist would unlikely need to ask.\n\nE) Members of the geographically dispersed subculture that Levels is a part of call themselves \"digital nomads\". They are borderless, mostly self-employed remote workers who interact with cities in a way that's entirely different from a tourist, but still doesn't quite reach the status of resident. A relatively new phenomenon, there are no hard statistics on the prevalence of digital nomads or location independent workers. But thanks to the growing prevalence of freelance(自由职业的) livelihoods, a global sharing economy and numerous digital tools, the number of people who are able to live this life is growing quickly. And in a rapidly urbanising world, where a major city in Asia increasingly offers the same comforts as one in Europe, many people are reaching the realisation they don't need to stay in one place.\n\nF) So how does a nomad differ from a tourist or resident? In many ways, Levels says, you can think of a digital nomad like a \"short-term independent expat(移居国外的人)\". Unlike a resident expat, they don't work for a large multinational company in an air conditioned office building and they generally enter a country on a tourist visa, simply renewing or moving on when it expires. But unlike a tourist, they don't arrive in a foreign city without any responsibilities. Travel isn't necessarily required for them to do their jobs, but neither is staying in one place.\n\nG) Janet Brent is an independent ebook designer. She says many people she knows assume she travels for work, but in reality her international destinations are largely up to her, and driven by cost. \"Contrary to what some people might think, I don't get paid to travel—I simply choose the lifestyle. Rather than rent in one given city, I choose to travel and do short-term, temporary stays around the world, and my travel decisions are literally based on what makes the most sense financially for me,\" Brent said. \"It's completely different from vacationing—you really sink into the city life and get your feet wet in the communities.\"\n\nH) Bryce Adams is another such nomad. He works as a developer for a South African company WooThemes, which has a workforce that's more than 80% remote-based. Though Adams frequently posts pictures on Instagram of his enviable cooking adventures from Seoul to Bangkok, he says nomad life in foreign cities has its downsides, including finding adequate Wi-Fi for the bandwidth-hungry work his livelihood depends on. Contrary to the perception that he works under a mango tree in a tropical haven, Adams says the reality of this life means that he often ends up staying in more western style places in globalised cities—ones that are sure to have air conditioning and a decent connection—rather than exotic beachfront cafés.\n\nI) \"A fellow nomad posted quite a funny but honest message on Twitter a few days ago that stuck with me: 'It's funny that digital nomads spend 16 hours to fly to the other side of the world to sit in Starbucks,' and it's completely true,\" Adams said. \"When you're a digital nomad, you don't actually have as much freedom as most people think you do. We have deadlines, we all have people relying on us and a mouth (or two) that needs to be fed. It's nice to be able to work anywhere in the world but it's not without its challenges.\"\n\nJ) But these challenges can often provide an opportunity for nomads to see a side of a city they may not have if they were staying in a luxury hotel for a long weekend. However inconvenient, a trip to a local doctor, immigration office or laundry—or a conflict with a local Airbnb host (the accommodation style of choice for most nomads)—can be far more culturally instructive than a trip to the national museum. And because nomads often have to stay where the strongest internet connection is, they tend to spend more time in developing cities compared to the average tourist, who often flees to more touristy destinations soon after landing at the airport.\n\nK) The nomad life is, by all accounts, one built out of privilege. You not only need a relatively powerful passport that makes tourist visas easy to attain, but also a knowledge economy job and access to the technology and devices that make remote working possible. But nomads like Adams say that while they are aware of this privilege, they believe living this way elevates what they're able to offer, by giving them a broader perspective on what they're building, writing, or designing and expanding their world view.\n\nL) \"Being able to travel and get around makes it easy to stay inspired,\" he added. \"I truly believe that it makes me a more sensible human being, as I tend to see and appreciate the creative solutions people come up with in other parts of the world, even though many tend to have far more constraints than we have at home.\"\n\nM) So when you're constantly on the road and don't own any property or have a fixed address, which city do you call home? It's no surprise that many nomads are dual citizens or \"third culture kids,\" who have grown up with a notion of identity that's not tied to nationalism or staying in one place. Levels says that the nomad life has not only changed his notions of citizenship, but the people he chooses to spend time with as well. \"Saying you're a 'citizen of the world' is a super cliché, right? But it's becoming quite true,\" Levels said. \"This global awareness has been the reason I started Nomad List and it's affected who my friends are. It's normal to have dinner now and sit with a Korean girl, a British-Singaporean guy, a Mexican girl and a Nigerian guy. As much as that sounds like a politically correct TV advertisement, it's great that that's the time we're in now.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 I 段。题干：It is said that digital nomads do not enjoy as much freedom as most people suppose.\n核对该段原文：\"A fellow nomad posted quite a funny but honest message on Twitter a few days ago that stuck with me: 'It's funny that digital nomads spend 16 hours to fly to the other side of the world to sit in Starbucks,' and it's completely true,\" Adams said. \"When you're a digital nomad, you don't actually have as much freedom as most people think you do. We have deadlines, we all have people relying on us and a mouth (or two) that needs to be fed. It's nice to be able to work anywhere in the world but it's not without its challenges.\"\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2026-06-1-nonlistening-q38",
+      "canonicalId": "lazynote-cet6-2026-06-1-q38",
+      "number": 38,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Different from tourists, digital nomads travel to foreign places with work to do.",
+      "passage": "Meet the \"digital nomads\" who travel the world in search of fast Wi-Fi\n\nA) For those \"citizens of the world\", the office can be anything from a beach hut in Brisbane to a Starbucks in Seattle, thanks to the growing prevalence of remote-based work. But roaming the globe from café to café is not without its challenges.\n\nB) When the average traveller lands in a city like Bangkok, Berlin, or Buenos Aires, their first step might be to drop their bags at their hotel and to log on to TripAdvisor to find out the hours of a popular tourist attraction or the best rooftop bar for happy hour.\n\nC) But people like Pieter Levels are not your average traveller. A Dutch website developer, Levels has been living and working nomadically(像游牧民那样) in places like Singapore, Hong Kong, Tokyo and Manila for two years. With just a carry-on backpack, he chooses his location at will, based on a variety of factors—Wi-Fi speed, average temperature, exotic food and cost of living—that have little bearing on the work he actually does.\n\nD) Somewhere in his nomadic journey, Levels noticed that there was a growing need to create an online infrastructure for people like himself. That's when he created #nomads, a membership-based chat system which runs on the team communication platform known as Slack. The channel allows users to ask people in their current city the types of practical questions that a tourist would unlikely need to ask.\n\nE) Members of the geographically dispersed subculture that Levels is a part of call themselves \"digital nomads\". They are borderless, mostly self-employed remote workers who interact with cities in a way that's entirely different from a tourist, but still doesn't quite reach the status of resident. A relatively new phenomenon, there are no hard statistics on the prevalence of digital nomads or location independent workers. But thanks to the growing prevalence of freelance(自由职业的) livelihoods, a global sharing economy and numerous digital tools, the number of people who are able to live this life is growing quickly. And in a rapidly urbanising world, where a major city in Asia increasingly offers the same comforts as one in Europe, many people are reaching the realisation they don't need to stay in one place.\n\nF) So how does a nomad differ from a tourist or resident? In many ways, Levels says, you can think of a digital nomad like a \"short-term independent expat(移居国外的人)\". Unlike a resident expat, they don't work for a large multinational company in an air conditioned office building and they generally enter a country on a tourist visa, simply renewing or moving on when it expires. But unlike a tourist, they don't arrive in a foreign city without any responsibilities. Travel isn't necessarily required for them to do their jobs, but neither is staying in one place.\n\nG) Janet Brent is an independent ebook designer. She says many people she knows assume she travels for work, but in reality her international destinations are largely up to her, and driven by cost. \"Contrary to what some people might think, I don't get paid to travel—I simply choose the lifestyle. Rather than rent in one given city, I choose to travel and do short-term, temporary stays around the world, and my travel decisions are literally based on what makes the most sense financially for me,\" Brent said. \"It's completely different from vacationing—you really sink into the city life and get your feet wet in the communities.\"\n\nH) Bryce Adams is another such nomad. He works as a developer for a South African company WooThemes, which has a workforce that's more than 80% remote-based. Though Adams frequently posts pictures on Instagram of his enviable cooking adventures from Seoul to Bangkok, he says nomad life in foreign cities has its downsides, including finding adequate Wi-Fi for the bandwidth-hungry work his livelihood depends on. Contrary to the perception that he works under a mango tree in a tropical haven, Adams says the reality of this life means that he often ends up staying in more western style places in globalised cities—ones that are sure to have air conditioning and a decent connection—rather than exotic beachfront cafés.\n\nI) \"A fellow nomad posted quite a funny but honest message on Twitter a few days ago that stuck with me: 'It's funny that digital nomads spend 16 hours to fly to the other side of the world to sit in Starbucks,' and it's completely true,\" Adams said. \"When you're a digital nomad, you don't actually have as much freedom as most people think you do. We have deadlines, we all have people relying on us and a mouth (or two) that needs to be fed. It's nice to be able to work anywhere in the world but it's not without its challenges.\"\n\nJ) But these challenges can often provide an opportunity for nomads to see a side of a city they may not have if they were staying in a luxury hotel for a long weekend. However inconvenient, a trip to a local doctor, immigration office or laundry—or a conflict with a local Airbnb host (the accommodation style of choice for most nomads)—can be far more culturally instructive than a trip to the national museum. And because nomads often have to stay where the strongest internet connection is, they tend to spend more time in developing cities compared to the average tourist, who often flees to more touristy destinations soon after landing at the airport.\n\nK) The nomad life is, by all accounts, one built out of privilege. You not only need a relatively powerful passport that makes tourist visas easy to attain, but also a knowledge economy job and access to the technology and devices that make remote working possible. But nomads like Adams say that while they are aware of this privilege, they believe living this way elevates what they're able to offer, by giving them a broader perspective on what they're building, writing, or designing and expanding their world view.\n\nL) \"Being able to travel and get around makes it easy to stay inspired,\" he added. \"I truly believe that it makes me a more sensible human being, as I tend to see and appreciate the creative solutions people come up with in other parts of the world, even though many tend to have far more constraints than we have at home.\"\n\nM) So when you're constantly on the road and don't own any property or have a fixed address, which city do you call home? It's no surprise that many nomads are dual citizens or \"third culture kids,\" who have grown up with a notion of identity that's not tied to nationalism or staying in one place. Levels says that the nomad life has not only changed his notions of citizenship, but the people he chooses to spend time with as well. \"Saying you're a 'citizen of the world' is a super cliché, right? But it's becoming quite true,\" Levels said. \"This global awareness has been the reason I started Nomad List and it's affected who my friends are. It's normal to have dinner now and sit with a Korean girl, a British-Singaporean guy, a Mexican girl and a Nigerian guy. As much as that sounds like a politically correct TV advertisement, it's great that that's the time we're in now.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 F 段。题干：Different from tourists, digital nomads travel to foreign places with work to do.\n核对该段原文：So how does a nomad differ from a tourist or resident? In many ways, Levels says, you can think of a digital nomad like a \"short-term independent expat(移居国外的人)\". Unlike a resident expat, they don't work for a large multinational company in an air conditioned office building and they generally enter a country on a tourist visa, simply renewing or moving on when it expires. But unlike a tourist, they don't arrive in a foreign city without any responsibilities. Travel isn't necessarily required for them to do their jobs, but neither is staying in one place.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2026-06-1-nonlistening-q39",
+      "canonicalId": "lazynote-cet6-2026-06-1-q39",
+      "number": 39,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Digital nomads believe their lifestyle enables them to broaden their vision and do a better job.",
+      "passage": "Meet the \"digital nomads\" who travel the world in search of fast Wi-Fi\n\nA) For those \"citizens of the world\", the office can be anything from a beach hut in Brisbane to a Starbucks in Seattle, thanks to the growing prevalence of remote-based work. But roaming the globe from café to café is not without its challenges.\n\nB) When the average traveller lands in a city like Bangkok, Berlin, or Buenos Aires, their first step might be to drop their bags at their hotel and to log on to TripAdvisor to find out the hours of a popular tourist attraction or the best rooftop bar for happy hour.\n\nC) But people like Pieter Levels are not your average traveller. A Dutch website developer, Levels has been living and working nomadically(像游牧民那样) in places like Singapore, Hong Kong, Tokyo and Manila for two years. With just a carry-on backpack, he chooses his location at will, based on a variety of factors—Wi-Fi speed, average temperature, exotic food and cost of living—that have little bearing on the work he actually does.\n\nD) Somewhere in his nomadic journey, Levels noticed that there was a growing need to create an online infrastructure for people like himself. That's when he created #nomads, a membership-based chat system which runs on the team communication platform known as Slack. The channel allows users to ask people in their current city the types of practical questions that a tourist would unlikely need to ask.\n\nE) Members of the geographically dispersed subculture that Levels is a part of call themselves \"digital nomads\". They are borderless, mostly self-employed remote workers who interact with cities in a way that's entirely different from a tourist, but still doesn't quite reach the status of resident. A relatively new phenomenon, there are no hard statistics on the prevalence of digital nomads or location independent workers. But thanks to the growing prevalence of freelance(自由职业的) livelihoods, a global sharing economy and numerous digital tools, the number of people who are able to live this life is growing quickly. And in a rapidly urbanising world, where a major city in Asia increasingly offers the same comforts as one in Europe, many people are reaching the realisation they don't need to stay in one place.\n\nF) So how does a nomad differ from a tourist or resident? In many ways, Levels says, you can think of a digital nomad like a \"short-term independent expat(移居国外的人)\". Unlike a resident expat, they don't work for a large multinational company in an air conditioned office building and they generally enter a country on a tourist visa, simply renewing or moving on when it expires. But unlike a tourist, they don't arrive in a foreign city without any responsibilities. Travel isn't necessarily required for them to do their jobs, but neither is staying in one place.\n\nG) Janet Brent is an independent ebook designer. She says many people she knows assume she travels for work, but in reality her international destinations are largely up to her, and driven by cost. \"Contrary to what some people might think, I don't get paid to travel—I simply choose the lifestyle. Rather than rent in one given city, I choose to travel and do short-term, temporary stays around the world, and my travel decisions are literally based on what makes the most sense financially for me,\" Brent said. \"It's completely different from vacationing—you really sink into the city life and get your feet wet in the communities.\"\n\nH) Bryce Adams is another such nomad. He works as a developer for a South African company WooThemes, which has a workforce that's more than 80% remote-based. Though Adams frequently posts pictures on Instagram of his enviable cooking adventures from Seoul to Bangkok, he says nomad life in foreign cities has its downsides, including finding adequate Wi-Fi for the bandwidth-hungry work his livelihood depends on. Contrary to the perception that he works under a mango tree in a tropical haven, Adams says the reality of this life means that he often ends up staying in more western style places in globalised cities—ones that are sure to have air conditioning and a decent connection—rather than exotic beachfront cafés.\n\nI) \"A fellow nomad posted quite a funny but honest message on Twitter a few days ago that stuck with me: 'It's funny that digital nomads spend 16 hours to fly to the other side of the world to sit in Starbucks,' and it's completely true,\" Adams said. \"When you're a digital nomad, you don't actually have as much freedom as most people think you do. We have deadlines, we all have people relying on us and a mouth (or two) that needs to be fed. It's nice to be able to work anywhere in the world but it's not without its challenges.\"\n\nJ) But these challenges can often provide an opportunity for nomads to see a side of a city they may not have if they were staying in a luxury hotel for a long weekend. However inconvenient, a trip to a local doctor, immigration office or laundry—or a conflict with a local Airbnb host (the accommodation style of choice for most nomads)—can be far more culturally instructive than a trip to the national museum. And because nomads often have to stay where the strongest internet connection is, they tend to spend more time in developing cities compared to the average tourist, who often flees to more touristy destinations soon after landing at the airport.\n\nK) The nomad life is, by all accounts, one built out of privilege. You not only need a relatively powerful passport that makes tourist visas easy to attain, but also a knowledge economy job and access to the technology and devices that make remote working possible. But nomads like Adams say that while they are aware of this privilege, they believe living this way elevates what they're able to offer, by giving them a broader perspective on what they're building, writing, or designing and expanding their world view.\n\nL) \"Being able to travel and get around makes it easy to stay inspired,\" he added. \"I truly believe that it makes me a more sensible human being, as I tend to see and appreciate the creative solutions people come up with in other parts of the world, even though many tend to have far more constraints than we have at home.\"\n\nM) So when you're constantly on the road and don't own any property or have a fixed address, which city do you call home? It's no surprise that many nomads are dual citizens or \"third culture kids,\" who have grown up with a notion of identity that's not tied to nationalism or staying in one place. Levels says that the nomad life has not only changed his notions of citizenship, but the people he chooses to spend time with as well. \"Saying you're a 'citizen of the world' is a super cliché, right? But it's becoming quite true,\" Levels said. \"This global awareness has been the reason I started Nomad List and it's affected who my friends are. It's normal to have dinner now and sit with a Korean girl, a British-Singaporean guy, a Mexican girl and a Nigerian guy. As much as that sounds like a politically correct TV advertisement, it's great that that's the time we're in now.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 K 段。题干：Digital nomads believe their lifestyle enables them to broaden their vision and do a better job.\n核对该段原文：The nomad life is, by all accounts, one built out of privilege. You not only need a relatively powerful passport that makes tourist visas easy to attain, but also a knowledge economy job and access to the technology and devices that make remote working possible. But nomads like Adams say that while they are aware of this privilege, they believe living this way elevates what they're able to offer, by giving them a broader perspective on what they're building, writing, or designing and expanding their world view.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2026-06-1-nonlistening-q40",
+      "canonicalId": "lazynote-cet6-2026-06-1-q40",
+      "number": 40,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The first thing a typical traveller possibly does after arriving at a city is search for information online about its popular tourist attractions.",
+      "passage": "Meet the \"digital nomads\" who travel the world in search of fast Wi-Fi\n\nA) For those \"citizens of the world\", the office can be anything from a beach hut in Brisbane to a Starbucks in Seattle, thanks to the growing prevalence of remote-based work. But roaming the globe from café to café is not without its challenges.\n\nB) When the average traveller lands in a city like Bangkok, Berlin, or Buenos Aires, their first step might be to drop their bags at their hotel and to log on to TripAdvisor to find out the hours of a popular tourist attraction or the best rooftop bar for happy hour.\n\nC) But people like Pieter Levels are not your average traveller. A Dutch website developer, Levels has been living and working nomadically(像游牧民那样) in places like Singapore, Hong Kong, Tokyo and Manila for two years. With just a carry-on backpack, he chooses his location at will, based on a variety of factors—Wi-Fi speed, average temperature, exotic food and cost of living—that have little bearing on the work he actually does.\n\nD) Somewhere in his nomadic journey, Levels noticed that there was a growing need to create an online infrastructure for people like himself. That's when he created #nomads, a membership-based chat system which runs on the team communication platform known as Slack. The channel allows users to ask people in their current city the types of practical questions that a tourist would unlikely need to ask.\n\nE) Members of the geographically dispersed subculture that Levels is a part of call themselves \"digital nomads\". They are borderless, mostly self-employed remote workers who interact with cities in a way that's entirely different from a tourist, but still doesn't quite reach the status of resident. A relatively new phenomenon, there are no hard statistics on the prevalence of digital nomads or location independent workers. But thanks to the growing prevalence of freelance(自由职业的) livelihoods, a global sharing economy and numerous digital tools, the number of people who are able to live this life is growing quickly. And in a rapidly urbanising world, where a major city in Asia increasingly offers the same comforts as one in Europe, many people are reaching the realisation they don't need to stay in one place.\n\nF) So how does a nomad differ from a tourist or resident? In many ways, Levels says, you can think of a digital nomad like a \"short-term independent expat(移居国外的人)\". Unlike a resident expat, they don't work for a large multinational company in an air conditioned office building and they generally enter a country on a tourist visa, simply renewing or moving on when it expires. But unlike a tourist, they don't arrive in a foreign city without any responsibilities. Travel isn't necessarily required for them to do their jobs, but neither is staying in one place.\n\nG) Janet Brent is an independent ebook designer. She says many people she knows assume she travels for work, but in reality her international destinations are largely up to her, and driven by cost. \"Contrary to what some people might think, I don't get paid to travel—I simply choose the lifestyle. Rather than rent in one given city, I choose to travel and do short-term, temporary stays around the world, and my travel decisions are literally based on what makes the most sense financially for me,\" Brent said. \"It's completely different from vacationing—you really sink into the city life and get your feet wet in the communities.\"\n\nH) Bryce Adams is another such nomad. He works as a developer for a South African company WooThemes, which has a workforce that's more than 80% remote-based. Though Adams frequently posts pictures on Instagram of his enviable cooking adventures from Seoul to Bangkok, he says nomad life in foreign cities has its downsides, including finding adequate Wi-Fi for the bandwidth-hungry work his livelihood depends on. Contrary to the perception that he works under a mango tree in a tropical haven, Adams says the reality of this life means that he often ends up staying in more western style places in globalised cities—ones that are sure to have air conditioning and a decent connection—rather than exotic beachfront cafés.\n\nI) \"A fellow nomad posted quite a funny but honest message on Twitter a few days ago that stuck with me: 'It's funny that digital nomads spend 16 hours to fly to the other side of the world to sit in Starbucks,' and it's completely true,\" Adams said. \"When you're a digital nomad, you don't actually have as much freedom as most people think you do. We have deadlines, we all have people relying on us and a mouth (or two) that needs to be fed. It's nice to be able to work anywhere in the world but it's not without its challenges.\"\n\nJ) But these challenges can often provide an opportunity for nomads to see a side of a city they may not have if they were staying in a luxury hotel for a long weekend. However inconvenient, a trip to a local doctor, immigration office or laundry—or a conflict with a local Airbnb host (the accommodation style of choice for most nomads)—can be far more culturally instructive than a trip to the national museum. And because nomads often have to stay where the strongest internet connection is, they tend to spend more time in developing cities compared to the average tourist, who often flees to more touristy destinations soon after landing at the airport.\n\nK) The nomad life is, by all accounts, one built out of privilege. You not only need a relatively powerful passport that makes tourist visas easy to attain, but also a knowledge economy job and access to the technology and devices that make remote working possible. But nomads like Adams say that while they are aware of this privilege, they believe living this way elevates what they're able to offer, by giving them a broader perspective on what they're building, writing, or designing and expanding their world view.\n\nL) \"Being able to travel and get around makes it easy to stay inspired,\" he added. \"I truly believe that it makes me a more sensible human being, as I tend to see and appreciate the creative solutions people come up with in other parts of the world, even though many tend to have far more constraints than we have at home.\"\n\nM) So when you're constantly on the road and don't own any property or have a fixed address, which city do you call home? It's no surprise that many nomads are dual citizens or \"third culture kids,\" who have grown up with a notion of identity that's not tied to nationalism or staying in one place. Levels says that the nomad life has not only changed his notions of citizenship, but the people he chooses to spend time with as well. \"Saying you're a 'citizen of the world' is a super cliché, right? But it's becoming quite true,\" Levels said. \"This global awareness has been the reason I started Nomad List and it's affected who my friends are. It's normal to have dinner now and sit with a Korean girl, a British-Singaporean guy, a Mexican girl and a Nigerian guy. As much as that sounds like a politically correct TV advertisement, it's great that that's the time we're in now.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 B 段。题干：The first thing a typical traveller possibly does after arriving at a city is search for information online about its popular tourist attractions.\n核对该段原文：When the average traveller lands in a city like Bangkok, Berlin, or Buenos Aires, their first step might be to drop their bags at their hotel and to log on to TripAdvisor to find out the hours of a popular tourist attraction or the best rooftop bar for happy hour.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2026-06-1-nonlistening-q41",
+      "canonicalId": "lazynote-cet6-2026-06-1-q41",
+      "number": 41,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "One digital nomad thinks their life in foreign cities has its disadvantages.",
+      "passage": "Meet the \"digital nomads\" who travel the world in search of fast Wi-Fi\n\nA) For those \"citizens of the world\", the office can be anything from a beach hut in Brisbane to a Starbucks in Seattle, thanks to the growing prevalence of remote-based work. But roaming the globe from café to café is not without its challenges.\n\nB) When the average traveller lands in a city like Bangkok, Berlin, or Buenos Aires, their first step might be to drop their bags at their hotel and to log on to TripAdvisor to find out the hours of a popular tourist attraction or the best rooftop bar for happy hour.\n\nC) But people like Pieter Levels are not your average traveller. A Dutch website developer, Levels has been living and working nomadically(像游牧民那样) in places like Singapore, Hong Kong, Tokyo and Manila for two years. With just a carry-on backpack, he chooses his location at will, based on a variety of factors—Wi-Fi speed, average temperature, exotic food and cost of living—that have little bearing on the work he actually does.\n\nD) Somewhere in his nomadic journey, Levels noticed that there was a growing need to create an online infrastructure for people like himself. That's when he created #nomads, a membership-based chat system which runs on the team communication platform known as Slack. The channel allows users to ask people in their current city the types of practical questions that a tourist would unlikely need to ask.\n\nE) Members of the geographically dispersed subculture that Levels is a part of call themselves \"digital nomads\". They are borderless, mostly self-employed remote workers who interact with cities in a way that's entirely different from a tourist, but still doesn't quite reach the status of resident. A relatively new phenomenon, there are no hard statistics on the prevalence of digital nomads or location independent workers. But thanks to the growing prevalence of freelance(自由职业的) livelihoods, a global sharing economy and numerous digital tools, the number of people who are able to live this life is growing quickly. And in a rapidly urbanising world, where a major city in Asia increasingly offers the same comforts as one in Europe, many people are reaching the realisation they don't need to stay in one place.\n\nF) So how does a nomad differ from a tourist or resident? In many ways, Levels says, you can think of a digital nomad like a \"short-term independent expat(移居国外的人)\". Unlike a resident expat, they don't work for a large multinational company in an air conditioned office building and they generally enter a country on a tourist visa, simply renewing or moving on when it expires. But unlike a tourist, they don't arrive in a foreign city without any responsibilities. Travel isn't necessarily required for them to do their jobs, but neither is staying in one place.\n\nG) Janet Brent is an independent ebook designer. She says many people she knows assume she travels for work, but in reality her international destinations are largely up to her, and driven by cost. \"Contrary to what some people might think, I don't get paid to travel—I simply choose the lifestyle. Rather than rent in one given city, I choose to travel and do short-term, temporary stays around the world, and my travel decisions are literally based on what makes the most sense financially for me,\" Brent said. \"It's completely different from vacationing—you really sink into the city life and get your feet wet in the communities.\"\n\nH) Bryce Adams is another such nomad. He works as a developer for a South African company WooThemes, which has a workforce that's more than 80% remote-based. Though Adams frequently posts pictures on Instagram of his enviable cooking adventures from Seoul to Bangkok, he says nomad life in foreign cities has its downsides, including finding adequate Wi-Fi for the bandwidth-hungry work his livelihood depends on. Contrary to the perception that he works under a mango tree in a tropical haven, Adams says the reality of this life means that he often ends up staying in more western style places in globalised cities—ones that are sure to have air conditioning and a decent connection—rather than exotic beachfront cafés.\n\nI) \"A fellow nomad posted quite a funny but honest message on Twitter a few days ago that stuck with me: 'It's funny that digital nomads spend 16 hours to fly to the other side of the world to sit in Starbucks,' and it's completely true,\" Adams said. \"When you're a digital nomad, you don't actually have as much freedom as most people think you do. We have deadlines, we all have people relying on us and a mouth (or two) that needs to be fed. It's nice to be able to work anywhere in the world but it's not without its challenges.\"\n\nJ) But these challenges can often provide an opportunity for nomads to see a side of a city they may not have if they were staying in a luxury hotel for a long weekend. However inconvenient, a trip to a local doctor, immigration office or laundry—or a conflict with a local Airbnb host (the accommodation style of choice for most nomads)—can be far more culturally instructive than a trip to the national museum. And because nomads often have to stay where the strongest internet connection is, they tend to spend more time in developing cities compared to the average tourist, who often flees to more touristy destinations soon after landing at the airport.\n\nK) The nomad life is, by all accounts, one built out of privilege. You not only need a relatively powerful passport that makes tourist visas easy to attain, but also a knowledge economy job and access to the technology and devices that make remote working possible. But nomads like Adams say that while they are aware of this privilege, they believe living this way elevates what they're able to offer, by giving them a broader perspective on what they're building, writing, or designing and expanding their world view.\n\nL) \"Being able to travel and get around makes it easy to stay inspired,\" he added. \"I truly believe that it makes me a more sensible human being, as I tend to see and appreciate the creative solutions people come up with in other parts of the world, even though many tend to have far more constraints than we have at home.\"\n\nM) So when you're constantly on the road and don't own any property or have a fixed address, which city do you call home? It's no surprise that many nomads are dual citizens or \"third culture kids,\" who have grown up with a notion of identity that's not tied to nationalism or staying in one place. Levels says that the nomad life has not only changed his notions of citizenship, but the people he chooses to spend time with as well. \"Saying you're a 'citizen of the world' is a super cliché, right? But it's becoming quite true,\" Levels said. \"This global awareness has been the reason I started Nomad List and it's affected who my friends are. It's normal to have dinner now and sit with a Korean girl, a British-Singaporean guy, a Mexican girl and a Nigerian guy. As much as that sounds like a politically correct TV advertisement, it's great that that's the time we're in now.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 H 段。题干：One digital nomad thinks their life in foreign cities has its disadvantages.\n核对该段原文：Bryce Adams is another such nomad. He works as a developer for a South African company WooThemes, which has a workforce that's more than 80% remote-based. Though Adams frequently posts pictures on Instagram of his enviable cooking adventures from Seoul to Bangkok, he says nomad life in foreign cities has its downsides, including finding adequate Wi-Fi for the bandwidth-hungry work his livelihood depends on. Contrary to the perception that he works under a mango tree in a tropical haven, Adams says the reality of this life means that he often ends up staying in more western style places in globalised cities—ones that are sure to have air conditioning and a decent connection—rather than exotic beachfront cafés.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2026-06-1-nonlistening-q42",
+      "canonicalId": "lazynote-cet6-2026-06-1-q42",
+      "number": 42,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Travelling around helps to keep digital nomads inspired.",
+      "passage": "Meet the \"digital nomads\" who travel the world in search of fast Wi-Fi\n\nA) For those \"citizens of the world\", the office can be anything from a beach hut in Brisbane to a Starbucks in Seattle, thanks to the growing prevalence of remote-based work. But roaming the globe from café to café is not without its challenges.\n\nB) When the average traveller lands in a city like Bangkok, Berlin, or Buenos Aires, their first step might be to drop their bags at their hotel and to log on to TripAdvisor to find out the hours of a popular tourist attraction or the best rooftop bar for happy hour.\n\nC) But people like Pieter Levels are not your average traveller. A Dutch website developer, Levels has been living and working nomadically(像游牧民那样) in places like Singapore, Hong Kong, Tokyo and Manila for two years. With just a carry-on backpack, he chooses his location at will, based on a variety of factors—Wi-Fi speed, average temperature, exotic food and cost of living—that have little bearing on the work he actually does.\n\nD) Somewhere in his nomadic journey, Levels noticed that there was a growing need to create an online infrastructure for people like himself. That's when he created #nomads, a membership-based chat system which runs on the team communication platform known as Slack. The channel allows users to ask people in their current city the types of practical questions that a tourist would unlikely need to ask.\n\nE) Members of the geographically dispersed subculture that Levels is a part of call themselves \"digital nomads\". They are borderless, mostly self-employed remote workers who interact with cities in a way that's entirely different from a tourist, but still doesn't quite reach the status of resident. A relatively new phenomenon, there are no hard statistics on the prevalence of digital nomads or location independent workers. But thanks to the growing prevalence of freelance(自由职业的) livelihoods, a global sharing economy and numerous digital tools, the number of people who are able to live this life is growing quickly. And in a rapidly urbanising world, where a major city in Asia increasingly offers the same comforts as one in Europe, many people are reaching the realisation they don't need to stay in one place.\n\nF) So how does a nomad differ from a tourist or resident? In many ways, Levels says, you can think of a digital nomad like a \"short-term independent expat(移居国外的人)\". Unlike a resident expat, they don't work for a large multinational company in an air conditioned office building and they generally enter a country on a tourist visa, simply renewing or moving on when it expires. But unlike a tourist, they don't arrive in a foreign city without any responsibilities. Travel isn't necessarily required for them to do their jobs, but neither is staying in one place.\n\nG) Janet Brent is an independent ebook designer. She says many people she knows assume she travels for work, but in reality her international destinations are largely up to her, and driven by cost. \"Contrary to what some people might think, I don't get paid to travel—I simply choose the lifestyle. Rather than rent in one given city, I choose to travel and do short-term, temporary stays around the world, and my travel decisions are literally based on what makes the most sense financially for me,\" Brent said. \"It's completely different from vacationing—you really sink into the city life and get your feet wet in the communities.\"\n\nH) Bryce Adams is another such nomad. He works as a developer for a South African company WooThemes, which has a workforce that's more than 80% remote-based. Though Adams frequently posts pictures on Instagram of his enviable cooking adventures from Seoul to Bangkok, he says nomad life in foreign cities has its downsides, including finding adequate Wi-Fi for the bandwidth-hungry work his livelihood depends on. Contrary to the perception that he works under a mango tree in a tropical haven, Adams says the reality of this life means that he often ends up staying in more western style places in globalised cities—ones that are sure to have air conditioning and a decent connection—rather than exotic beachfront cafés.\n\nI) \"A fellow nomad posted quite a funny but honest message on Twitter a few days ago that stuck with me: 'It's funny that digital nomads spend 16 hours to fly to the other side of the world to sit in Starbucks,' and it's completely true,\" Adams said. \"When you're a digital nomad, you don't actually have as much freedom as most people think you do. We have deadlines, we all have people relying on us and a mouth (or two) that needs to be fed. It's nice to be able to work anywhere in the world but it's not without its challenges.\"\n\nJ) But these challenges can often provide an opportunity for nomads to see a side of a city they may not have if they were staying in a luxury hotel for a long weekend. However inconvenient, a trip to a local doctor, immigration office or laundry—or a conflict with a local Airbnb host (the accommodation style of choice for most nomads)—can be far more culturally instructive than a trip to the national museum. And because nomads often have to stay where the strongest internet connection is, they tend to spend more time in developing cities compared to the average tourist, who often flees to more touristy destinations soon after landing at the airport.\n\nK) The nomad life is, by all accounts, one built out of privilege. You not only need a relatively powerful passport that makes tourist visas easy to attain, but also a knowledge economy job and access to the technology and devices that make remote working possible. But nomads like Adams say that while they are aware of this privilege, they believe living this way elevates what they're able to offer, by giving them a broader perspective on what they're building, writing, or designing and expanding their world view.\n\nL) \"Being able to travel and get around makes it easy to stay inspired,\" he added. \"I truly believe that it makes me a more sensible human being, as I tend to see and appreciate the creative solutions people come up with in other parts of the world, even though many tend to have far more constraints than we have at home.\"\n\nM) So when you're constantly on the road and don't own any property or have a fixed address, which city do you call home? It's no surprise that many nomads are dual citizens or \"third culture kids,\" who have grown up with a notion of identity that's not tied to nationalism or staying in one place. Levels says that the nomad life has not only changed his notions of citizenship, but the people he chooses to spend time with as well. \"Saying you're a 'citizen of the world' is a super cliché, right? But it's becoming quite true,\" Levels said. \"This global awareness has been the reason I started Nomad List and it's affected who my friends are. It's normal to have dinner now and sit with a Korean girl, a British-Singaporean guy, a Mexican girl and a Nigerian guy. As much as that sounds like a politically correct TV advertisement, it's great that that's the time we're in now.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "L",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 L 段。题干：Travelling around helps to keep digital nomads inspired.\n核对该段原文：\"Being able to travel and get around makes it easy to stay inspired,\" he added. \"I truly believe that it makes me a more sensible human being, as I tend to see and appreciate the creative solutions people come up with in other parts of the world, even though many tend to have far more constraints than we have at home.\"\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2026-06-1-nonlistening-q43",
+      "canonicalId": "lazynote-cet6-2026-06-1-q43",
+      "number": 43,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The number of self-employed remote workers living a digital nomad's life is fast increasing.",
+      "passage": "Meet the \"digital nomads\" who travel the world in search of fast Wi-Fi\n\nA) For those \"citizens of the world\", the office can be anything from a beach hut in Brisbane to a Starbucks in Seattle, thanks to the growing prevalence of remote-based work. But roaming the globe from café to café is not without its challenges.\n\nB) When the average traveller lands in a city like Bangkok, Berlin, or Buenos Aires, their first step might be to drop their bags at their hotel and to log on to TripAdvisor to find out the hours of a popular tourist attraction or the best rooftop bar for happy hour.\n\nC) But people like Pieter Levels are not your average traveller. A Dutch website developer, Levels has been living and working nomadically(像游牧民那样) in places like Singapore, Hong Kong, Tokyo and Manila for two years. With just a carry-on backpack, he chooses his location at will, based on a variety of factors—Wi-Fi speed, average temperature, exotic food and cost of living—that have little bearing on the work he actually does.\n\nD) Somewhere in his nomadic journey, Levels noticed that there was a growing need to create an online infrastructure for people like himself. That's when he created #nomads, a membership-based chat system which runs on the team communication platform known as Slack. The channel allows users to ask people in their current city the types of practical questions that a tourist would unlikely need to ask.\n\nE) Members of the geographically dispersed subculture that Levels is a part of call themselves \"digital nomads\". They are borderless, mostly self-employed remote workers who interact with cities in a way that's entirely different from a tourist, but still doesn't quite reach the status of resident. A relatively new phenomenon, there are no hard statistics on the prevalence of digital nomads or location independent workers. But thanks to the growing prevalence of freelance(自由职业的) livelihoods, a global sharing economy and numerous digital tools, the number of people who are able to live this life is growing quickly. And in a rapidly urbanising world, where a major city in Asia increasingly offers the same comforts as one in Europe, many people are reaching the realisation they don't need to stay in one place.\n\nF) So how does a nomad differ from a tourist or resident? In many ways, Levels says, you can think of a digital nomad like a \"short-term independent expat(移居国外的人)\". Unlike a resident expat, they don't work for a large multinational company in an air conditioned office building and they generally enter a country on a tourist visa, simply renewing or moving on when it expires. But unlike a tourist, they don't arrive in a foreign city without any responsibilities. Travel isn't necessarily required for them to do their jobs, but neither is staying in one place.\n\nG) Janet Brent is an independent ebook designer. She says many people she knows assume she travels for work, but in reality her international destinations are largely up to her, and driven by cost. \"Contrary to what some people might think, I don't get paid to travel—I simply choose the lifestyle. Rather than rent in one given city, I choose to travel and do short-term, temporary stays around the world, and my travel decisions are literally based on what makes the most sense financially for me,\" Brent said. \"It's completely different from vacationing—you really sink into the city life and get your feet wet in the communities.\"\n\nH) Bryce Adams is another such nomad. He works as a developer for a South African company WooThemes, which has a workforce that's more than 80% remote-based. Though Adams frequently posts pictures on Instagram of his enviable cooking adventures from Seoul to Bangkok, he says nomad life in foreign cities has its downsides, including finding adequate Wi-Fi for the bandwidth-hungry work his livelihood depends on. Contrary to the perception that he works under a mango tree in a tropical haven, Adams says the reality of this life means that he often ends up staying in more western style places in globalised cities—ones that are sure to have air conditioning and a decent connection—rather than exotic beachfront cafés.\n\nI) \"A fellow nomad posted quite a funny but honest message on Twitter a few days ago that stuck with me: 'It's funny that digital nomads spend 16 hours to fly to the other side of the world to sit in Starbucks,' and it's completely true,\" Adams said. \"When you're a digital nomad, you don't actually have as much freedom as most people think you do. We have deadlines, we all have people relying on us and a mouth (or two) that needs to be fed. It's nice to be able to work anywhere in the world but it's not without its challenges.\"\n\nJ) But these challenges can often provide an opportunity for nomads to see a side of a city they may not have if they were staying in a luxury hotel for a long weekend. However inconvenient, a trip to a local doctor, immigration office or laundry—or a conflict with a local Airbnb host (the accommodation style of choice for most nomads)—can be far more culturally instructive than a trip to the national museum. And because nomads often have to stay where the strongest internet connection is, they tend to spend more time in developing cities compared to the average tourist, who often flees to more touristy destinations soon after landing at the airport.\n\nK) The nomad life is, by all accounts, one built out of privilege. You not only need a relatively powerful passport that makes tourist visas easy to attain, but also a knowledge economy job and access to the technology and devices that make remote working possible. But nomads like Adams say that while they are aware of this privilege, they believe living this way elevates what they're able to offer, by giving them a broader perspective on what they're building, writing, or designing and expanding their world view.\n\nL) \"Being able to travel and get around makes it easy to stay inspired,\" he added. \"I truly believe that it makes me a more sensible human being, as I tend to see and appreciate the creative solutions people come up with in other parts of the world, even though many tend to have far more constraints than we have at home.\"\n\nM) So when you're constantly on the road and don't own any property or have a fixed address, which city do you call home? It's no surprise that many nomads are dual citizens or \"third culture kids,\" who have grown up with a notion of identity that's not tied to nationalism or staying in one place. Levels says that the nomad life has not only changed his notions of citizenship, but the people he chooses to spend time with as well. \"Saying you're a 'citizen of the world' is a super cliché, right? But it's becoming quite true,\" Levels said. \"This global awareness has been the reason I started Nomad List and it's affected who my friends are. It's normal to have dinner now and sit with a Korean girl, a British-Singaporean guy, a Mexican girl and a Nigerian guy. As much as that sounds like a politically correct TV advertisement, it's great that that's the time we're in now.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 E 段。题干：The number of self-employed remote workers living a digital nomad's life is fast increasing.\n核对该段原文：Members of the geographically dispersed subculture that Levels is a part of call themselves \"digital nomads\". They are borderless, mostly self-employed remote workers who interact with cities in a way that's entirely different from a tourist, but still doesn't quite reach the status of resident. A relatively new phenomenon, there are no hard statistics on the prevalence of digital nomads or location independent workers. But thanks to the growing prevalence of freelance(自由职业的) livelihoods, a global sharing economy and numerous digital tools, the number of people who are able to live this life is growing quickly. And in a rapidly urbanising world, where a major city in Asia increasingly offers the same comforts as one in Europe, many people are reaching the realisation they don't need to stay in one place.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2026-06-1-nonlistening-q44",
+      "canonicalId": "lazynote-cet6-2026-06-1-q44",
+      "number": 44,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Pieter Levels says his life as a nomad has transformed not only his idea of citizenship, but his choice of companions.",
+      "passage": "Meet the \"digital nomads\" who travel the world in search of fast Wi-Fi\n\nA) For those \"citizens of the world\", the office can be anything from a beach hut in Brisbane to a Starbucks in Seattle, thanks to the growing prevalence of remote-based work. But roaming the globe from café to café is not without its challenges.\n\nB) When the average traveller lands in a city like Bangkok, Berlin, or Buenos Aires, their first step might be to drop their bags at their hotel and to log on to TripAdvisor to find out the hours of a popular tourist attraction or the best rooftop bar for happy hour.\n\nC) But people like Pieter Levels are not your average traveller. A Dutch website developer, Levels has been living and working nomadically(像游牧民那样) in places like Singapore, Hong Kong, Tokyo and Manila for two years. With just a carry-on backpack, he chooses his location at will, based on a variety of factors—Wi-Fi speed, average temperature, exotic food and cost of living—that have little bearing on the work he actually does.\n\nD) Somewhere in his nomadic journey, Levels noticed that there was a growing need to create an online infrastructure for people like himself. That's when he created #nomads, a membership-based chat system which runs on the team communication platform known as Slack. The channel allows users to ask people in their current city the types of practical questions that a tourist would unlikely need to ask.\n\nE) Members of the geographically dispersed subculture that Levels is a part of call themselves \"digital nomads\". They are borderless, mostly self-employed remote workers who interact with cities in a way that's entirely different from a tourist, but still doesn't quite reach the status of resident. A relatively new phenomenon, there are no hard statistics on the prevalence of digital nomads or location independent workers. But thanks to the growing prevalence of freelance(自由职业的) livelihoods, a global sharing economy and numerous digital tools, the number of people who are able to live this life is growing quickly. And in a rapidly urbanising world, where a major city in Asia increasingly offers the same comforts as one in Europe, many people are reaching the realisation they don't need to stay in one place.\n\nF) So how does a nomad differ from a tourist or resident? In many ways, Levels says, you can think of a digital nomad like a \"short-term independent expat(移居国外的人)\". Unlike a resident expat, they don't work for a large multinational company in an air conditioned office building and they generally enter a country on a tourist visa, simply renewing or moving on when it expires. But unlike a tourist, they don't arrive in a foreign city without any responsibilities. Travel isn't necessarily required for them to do their jobs, but neither is staying in one place.\n\nG) Janet Brent is an independent ebook designer. She says many people she knows assume she travels for work, but in reality her international destinations are largely up to her, and driven by cost. \"Contrary to what some people might think, I don't get paid to travel—I simply choose the lifestyle. Rather than rent in one given city, I choose to travel and do short-term, temporary stays around the world, and my travel decisions are literally based on what makes the most sense financially for me,\" Brent said. \"It's completely different from vacationing—you really sink into the city life and get your feet wet in the communities.\"\n\nH) Bryce Adams is another such nomad. He works as a developer for a South African company WooThemes, which has a workforce that's more than 80% remote-based. Though Adams frequently posts pictures on Instagram of his enviable cooking adventures from Seoul to Bangkok, he says nomad life in foreign cities has its downsides, including finding adequate Wi-Fi for the bandwidth-hungry work his livelihood depends on. Contrary to the perception that he works under a mango tree in a tropical haven, Adams says the reality of this life means that he often ends up staying in more western style places in globalised cities—ones that are sure to have air conditioning and a decent connection—rather than exotic beachfront cafés.\n\nI) \"A fellow nomad posted quite a funny but honest message on Twitter a few days ago that stuck with me: 'It's funny that digital nomads spend 16 hours to fly to the other side of the world to sit in Starbucks,' and it's completely true,\" Adams said. \"When you're a digital nomad, you don't actually have as much freedom as most people think you do. We have deadlines, we all have people relying on us and a mouth (or two) that needs to be fed. It's nice to be able to work anywhere in the world but it's not without its challenges.\"\n\nJ) But these challenges can often provide an opportunity for nomads to see a side of a city they may not have if they were staying in a luxury hotel for a long weekend. However inconvenient, a trip to a local doctor, immigration office or laundry—or a conflict with a local Airbnb host (the accommodation style of choice for most nomads)—can be far more culturally instructive than a trip to the national museum. And because nomads often have to stay where the strongest internet connection is, they tend to spend more time in developing cities compared to the average tourist, who often flees to more touristy destinations soon after landing at the airport.\n\nK) The nomad life is, by all accounts, one built out of privilege. You not only need a relatively powerful passport that makes tourist visas easy to attain, but also a knowledge economy job and access to the technology and devices that make remote working possible. But nomads like Adams say that while they are aware of this privilege, they believe living this way elevates what they're able to offer, by giving them a broader perspective on what they're building, writing, or designing and expanding their world view.\n\nL) \"Being able to travel and get around makes it easy to stay inspired,\" he added. \"I truly believe that it makes me a more sensible human being, as I tend to see and appreciate the creative solutions people come up with in other parts of the world, even though many tend to have far more constraints than we have at home.\"\n\nM) So when you're constantly on the road and don't own any property or have a fixed address, which city do you call home? It's no surprise that many nomads are dual citizens or \"third culture kids,\" who have grown up with a notion of identity that's not tied to nationalism or staying in one place. Levels says that the nomad life has not only changed his notions of citizenship, but the people he chooses to spend time with as well. \"Saying you're a 'citizen of the world' is a super cliché, right? But it's becoming quite true,\" Levels said. \"This global awareness has been the reason I started Nomad List and it's affected who my friends are. It's normal to have dinner now and sit with a Korean girl, a British-Singaporean guy, a Mexican girl and a Nigerian guy. As much as that sounds like a politically correct TV advertisement, it's great that that's the time we're in now.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "M",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 M 段。题干：Pieter Levels says his life as a nomad has transformed not only his idea of citizenship, but his choice of companions.\n核对该段原文：So when you're constantly on the road and don't own any property or have a fixed address, which city do you call home? It's no surprise that many nomads are dual citizens or \"third culture kids,\" who have grown up with a notion of identity that's not tied to nationalism or staying in one place. Levels says that the nomad life has not only changed his notions of citizenship, but the people he chooses to spend time with as well. \"Saying you're a 'citizen of the world' is a super cliché, right? But it's becoming quite true,\" Levels said. \"This global awareness has been the reason I started Nomad List and it's affected who my friends are. It's normal to have dinner now and sit with a Korean girl, a British-Singaporean guy, a Mexican girl and a Nigerian guy. As much as that sounds like a politically correct TV advertisement, it's great that that's the time we're in now.\"\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2026-06-1-nonlistening-q45",
+      "canonicalId": "lazynote-cet6-2026-06-1-q45",
+      "number": 45,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Interactions with local people and institutions provide nomads with far more cultural information than a visit to the national museum.",
+      "passage": "Meet the \"digital nomads\" who travel the world in search of fast Wi-Fi\n\nA) For those \"citizens of the world\", the office can be anything from a beach hut in Brisbane to a Starbucks in Seattle, thanks to the growing prevalence of remote-based work. But roaming the globe from café to café is not without its challenges.\n\nB) When the average traveller lands in a city like Bangkok, Berlin, or Buenos Aires, their first step might be to drop their bags at their hotel and to log on to TripAdvisor to find out the hours of a popular tourist attraction or the best rooftop bar for happy hour.\n\nC) But people like Pieter Levels are not your average traveller. A Dutch website developer, Levels has been living and working nomadically(像游牧民那样) in places like Singapore, Hong Kong, Tokyo and Manila for two years. With just a carry-on backpack, he chooses his location at will, based on a variety of factors—Wi-Fi speed, average temperature, exotic food and cost of living—that have little bearing on the work he actually does.\n\nD) Somewhere in his nomadic journey, Levels noticed that there was a growing need to create an online infrastructure for people like himself. That's when he created #nomads, a membership-based chat system which runs on the team communication platform known as Slack. The channel allows users to ask people in their current city the types of practical questions that a tourist would unlikely need to ask.\n\nE) Members of the geographically dispersed subculture that Levels is a part of call themselves \"digital nomads\". They are borderless, mostly self-employed remote workers who interact with cities in a way that's entirely different from a tourist, but still doesn't quite reach the status of resident. A relatively new phenomenon, there are no hard statistics on the prevalence of digital nomads or location independent workers. But thanks to the growing prevalence of freelance(自由职业的) livelihoods, a global sharing economy and numerous digital tools, the number of people who are able to live this life is growing quickly. And in a rapidly urbanising world, where a major city in Asia increasingly offers the same comforts as one in Europe, many people are reaching the realisation they don't need to stay in one place.\n\nF) So how does a nomad differ from a tourist or resident? In many ways, Levels says, you can think of a digital nomad like a \"short-term independent expat(移居国外的人)\". Unlike a resident expat, they don't work for a large multinational company in an air conditioned office building and they generally enter a country on a tourist visa, simply renewing or moving on when it expires. But unlike a tourist, they don't arrive in a foreign city without any responsibilities. Travel isn't necessarily required for them to do their jobs, but neither is staying in one place.\n\nG) Janet Brent is an independent ebook designer. She says many people she knows assume she travels for work, but in reality her international destinations are largely up to her, and driven by cost. \"Contrary to what some people might think, I don't get paid to travel—I simply choose the lifestyle. Rather than rent in one given city, I choose to travel and do short-term, temporary stays around the world, and my travel decisions are literally based on what makes the most sense financially for me,\" Brent said. \"It's completely different from vacationing—you really sink into the city life and get your feet wet in the communities.\"\n\nH) Bryce Adams is another such nomad. He works as a developer for a South African company WooThemes, which has a workforce that's more than 80% remote-based. Though Adams frequently posts pictures on Instagram of his enviable cooking adventures from Seoul to Bangkok, he says nomad life in foreign cities has its downsides, including finding adequate Wi-Fi for the bandwidth-hungry work his livelihood depends on. Contrary to the perception that he works under a mango tree in a tropical haven, Adams says the reality of this life means that he often ends up staying in more western style places in globalised cities—ones that are sure to have air conditioning and a decent connection—rather than exotic beachfront cafés.\n\nI) \"A fellow nomad posted quite a funny but honest message on Twitter a few days ago that stuck with me: 'It's funny that digital nomads spend 16 hours to fly to the other side of the world to sit in Starbucks,' and it's completely true,\" Adams said. \"When you're a digital nomad, you don't actually have as much freedom as most people think you do. We have deadlines, we all have people relying on us and a mouth (or two) that needs to be fed. It's nice to be able to work anywhere in the world but it's not without its challenges.\"\n\nJ) But these challenges can often provide an opportunity for nomads to see a side of a city they may not have if they were staying in a luxury hotel for a long weekend. However inconvenient, a trip to a local doctor, immigration office or laundry—or a conflict with a local Airbnb host (the accommodation style of choice for most nomads)—can be far more culturally instructive than a trip to the national museum. And because nomads often have to stay where the strongest internet connection is, they tend to spend more time in developing cities compared to the average tourist, who often flees to more touristy destinations soon after landing at the airport.\n\nK) The nomad life is, by all accounts, one built out of privilege. You not only need a relatively powerful passport that makes tourist visas easy to attain, but also a knowledge economy job and access to the technology and devices that make remote working possible. But nomads like Adams say that while they are aware of this privilege, they believe living this way elevates what they're able to offer, by giving them a broader perspective on what they're building, writing, or designing and expanding their world view.\n\nL) \"Being able to travel and get around makes it easy to stay inspired,\" he added. \"I truly believe that it makes me a more sensible human being, as I tend to see and appreciate the creative solutions people come up with in other parts of the world, even though many tend to have far more constraints than we have at home.\"\n\nM) So when you're constantly on the road and don't own any property or have a fixed address, which city do you call home? It's no surprise that many nomads are dual citizens or \"third culture kids,\" who have grown up with a notion of identity that's not tied to nationalism or staying in one place. Levels says that the nomad life has not only changed his notions of citizenship, but the people he chooses to spend time with as well. \"Saying you're a 'citizen of the world' is a super cliché, right? But it's becoming quite true,\" Levels said. \"This global awareness has been the reason I started Nomad List and it's affected who my friends are. It's normal to have dinner now and sit with a Korean girl, a British-Singaporean guy, a Mexican girl and a Nigerian guy. As much as that sounds like a politically correct TV advertisement, it's great that that's the time we're in now.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "J",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 J 段。题干：Interactions with local people and institutions provide nomads with far more cultural information than a visit to the national museum.\n核对该段原文：But these challenges can often provide an opportunity for nomads to see a side of a city they may not have if they were staying in a luxury hotel for a long weekend. However inconvenient, a trip to a local doctor, immigration office or laundry—or a conflict with a local Airbnb host (the accommodation style of choice for most nomads)—can be far more culturally instructive than a trip to the national museum. And because nomads often have to stay where the strongest internet connection is, they tend to spend more time in developing cities compared to the average tourist, who often flees to more touristy destinations soon after landing at the airport.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2026-06-1-nonlistening-q46",
+      "canonicalId": "lazynote-cet6-2026-06-1-q46",
+      "number": 46,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author believe regarding social media?",
+      "passage": "Children's use of social media is a problem. That doesn't mean it should be stopped. While younger children should not be on platforms where 13 is the minimum age, it is neither practical nor desirable to imagine a world in which teenagers are prevented from accessing the platforms and messaging systems that the adults around them use to organise their lives.\n\nBut the pleasure and stimulation that people of all ages find on their screens and smartphones must not blind us to the harm that spending time in this way can cause. The finding that the alarmingly high rate of depression in British teenage girls is closely correlated to time spent on social media is extremely concerning. Research found that two in five girls are on social media for at least three hours a day—with half as many boys engaged to the same extent. More than a third of depressed girls have experienced online harassment. About half of affected girls suffered disrupted sleep, compared with 20% of depressed boys.\n\nAlthough the research does not prove that social media causes depression, the importance of the finding that there is a connection should not be underestimated. Schools have done important work in communicating key messages about the risks of online abuse. But when it comes to broader questions about \"screen time\", many professionals as well as parents are confused and uncertain.\n\nThe health secretary, Matt Hancock, wants official guidelines on time and age limits. This idea has the virtue of simplicity, though some experts question its effects and call for a greater degree of differentiation, arguing that time online by itself is not a bad thing and it all depends on what you are doing. Also due this year is information commissioner Elizabeth Denham's Age Appropriate Design Code, covering the use of children's personal data. Both initiatives are welcome. But the government is playing catch-up. Statutory regulation of the digital media giants is long overdue. The failure to protect children from data harvesting and targeted advertising thus far is as shocking as the lack of concern shown by the companies themselves with regard to children's psychological health.\n\nOf course, social media companies are not the source of all our ills, and can offer a too-easy target for politicians keen to divert attention from inadequately resourced schools and health services. There are other reasons for the rising incidence of depression in young people, with increasing pressure to succeed in education and in life more broadly—to be famous, beautiful, rich—often cited as a source of unhappiness or anxiety which can, if aggravated by other factors and not managed, tip into ill health. Safeguarding means more than the avoidance of physical threat.",
+      "options": [
+        {
+          "id": "A",
+          "text": "To stop children using it is unrealistic and inadvisable."
+        },
+        {
+          "id": "B",
+          "text": "It helps both adults and children to organise their lives."
+        },
+        {
+          "id": "C",
+          "text": "It poses problems to both parents and children."
+        },
+        {
+          "id": "D",
+          "text": "A world without it is really hard to imagine."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：To stop children using it is unrealistic and inadvisable.\n关键词检索定位到第 1 段的候选相关句：Children's use of social media is a problem.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2026-06-1-nonlistening-q47",
+      "canonicalId": "lazynote-cet6-2026-06-1-q47",
+      "number": 47,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn from the passage about British teenage girls?",
+      "passage": "Children's use of social media is a problem. That doesn't mean it should be stopped. While younger children should not be on platforms where 13 is the minimum age, it is neither practical nor desirable to imagine a world in which teenagers are prevented from accessing the platforms and messaging systems that the adults around them use to organise their lives.\n\nBut the pleasure and stimulation that people of all ages find on their screens and smartphones must not blind us to the harm that spending time in this way can cause. The finding that the alarmingly high rate of depression in British teenage girls is closely correlated to time spent on social media is extremely concerning. Research found that two in five girls are on social media for at least three hours a day—with half as many boys engaged to the same extent. More than a third of depressed girls have experienced online harassment. About half of affected girls suffered disrupted sleep, compared with 20% of depressed boys.\n\nAlthough the research does not prove that social media causes depression, the importance of the finding that there is a connection should not be underestimated. Schools have done important work in communicating key messages about the risks of online abuse. But when it comes to broader questions about \"screen time\", many professionals as well as parents are confused and uncertain.\n\nThe health secretary, Matt Hancock, wants official guidelines on time and age limits. This idea has the virtue of simplicity, though some experts question its effects and call for a greater degree of differentiation, arguing that time online by itself is not a bad thing and it all depends on what you are doing. Also due this year is information commissioner Elizabeth Denham's Age Appropriate Design Code, covering the use of children's personal data. Both initiatives are welcome. But the government is playing catch-up. Statutory regulation of the digital media giants is long overdue. The failure to protect children from data harvesting and targeted advertising thus far is as shocking as the lack of concern shown by the companies themselves with regard to children's psychological health.\n\nOf course, social media companies are not the source of all our ills, and can offer a too-easy target for politicians keen to divert attention from inadequately resourced schools and health services. There are other reasons for the rising incidence of depression in young people, with increasing pressure to succeed in education and in life more broadly—to be famous, beautiful, rich—often cited as a source of unhappiness or anxiety which can, if aggravated by other factors and not managed, tip into ill health. Safeguarding means more than the avoidance of physical threat.",
+      "options": [
+        {
+          "id": "A",
+          "text": "The more frequently they interact on social media, the more they experience harassment."
+        },
+        {
+          "id": "B",
+          "text": "The more time they spend on social media, the more likely they suffer from depression."
+        },
+        {
+          "id": "C",
+          "text": "Most of them are engaged on social media for at least three hours a day."
+        },
+        {
+          "id": "D",
+          "text": "They spend half as many hours on social media as British teenage boys."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：The more time they spend on social media, the more likely they suffer from depression.\n关键词检索定位到第 2 段的候选相关句：The finding that the alarmingly high rate of depression in British teenage girls is closely correlated to time spent on social media is extremely concerning.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2026-06-1-nonlistening-q48",
+      "canonicalId": "lazynote-cet6-2026-06-1-q48",
+      "number": 48,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What is the author's view on the research finding about British teenage girls?",
+      "passage": "Children's use of social media is a problem. That doesn't mean it should be stopped. While younger children should not be on platforms where 13 is the minimum age, it is neither practical nor desirable to imagine a world in which teenagers are prevented from accessing the platforms and messaging systems that the adults around them use to organise their lives.\n\nBut the pleasure and stimulation that people of all ages find on their screens and smartphones must not blind us to the harm that spending time in this way can cause. The finding that the alarmingly high rate of depression in British teenage girls is closely correlated to time spent on social media is extremely concerning. Research found that two in five girls are on social media for at least three hours a day—with half as many boys engaged to the same extent. More than a third of depressed girls have experienced online harassment. About half of affected girls suffered disrupted sleep, compared with 20% of depressed boys.\n\nAlthough the research does not prove that social media causes depression, the importance of the finding that there is a connection should not be underestimated. Schools have done important work in communicating key messages about the risks of online abuse. But when it comes to broader questions about \"screen time\", many professionals as well as parents are confused and uncertain.\n\nThe health secretary, Matt Hancock, wants official guidelines on time and age limits. This idea has the virtue of simplicity, though some experts question its effects and call for a greater degree of differentiation, arguing that time online by itself is not a bad thing and it all depends on what you are doing. Also due this year is information commissioner Elizabeth Denham's Age Appropriate Design Code, covering the use of children's personal data. Both initiatives are welcome. But the government is playing catch-up. Statutory regulation of the digital media giants is long overdue. The failure to protect children from data harvesting and targeted advertising thus far is as shocking as the lack of concern shown by the companies themselves with regard to children's psychological health.\n\nOf course, social media companies are not the source of all our ills, and can offer a too-easy target for politicians keen to divert attention from inadequately resourced schools and health services. There are other reasons for the rising incidence of depression in young people, with increasing pressure to succeed in education and in life more broadly—to be famous, beautiful, rich—often cited as a source of unhappiness or anxiety which can, if aggravated by other factors and not managed, tip into ill health. Safeguarding means more than the avoidance of physical threat.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Its implications about online abuse are obvious."
+        },
+        {
+          "id": "B",
+          "text": "Its key message calls for immediate attention."
+        },
+        {
+          "id": "C",
+          "text": "Its importance should not be undervalued."
+        },
+        {
+          "id": "D",
+          "text": "Its uncertainty should not go unnoticed."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：Its importance should not be undervalued.\n关键词检索定位到第 2 段的候选相关句：The finding that the alarmingly high rate of depression in British teenage girls is closely correlated to time spent on social media is extremely concerning.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2026-06-1-nonlistening-q49",
+      "canonicalId": "lazynote-cet6-2026-06-1-q49",
+      "number": 49,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do experts think of health secretary Matt Hancock's idea?",
+      "passage": "Children's use of social media is a problem. That doesn't mean it should be stopped. While younger children should not be on platforms where 13 is the minimum age, it is neither practical nor desirable to imagine a world in which teenagers are prevented from accessing the platforms and messaging systems that the adults around them use to organise their lives.\n\nBut the pleasure and stimulation that people of all ages find on their screens and smartphones must not blind us to the harm that spending time in this way can cause. The finding that the alarmingly high rate of depression in British teenage girls is closely correlated to time spent on social media is extremely concerning. Research found that two in five girls are on social media for at least three hours a day—with half as many boys engaged to the same extent. More than a third of depressed girls have experienced online harassment. About half of affected girls suffered disrupted sleep, compared with 20% of depressed boys.\n\nAlthough the research does not prove that social media causes depression, the importance of the finding that there is a connection should not be underestimated. Schools have done important work in communicating key messages about the risks of online abuse. But when it comes to broader questions about \"screen time\", many professionals as well as parents are confused and uncertain.\n\nThe health secretary, Matt Hancock, wants official guidelines on time and age limits. This idea has the virtue of simplicity, though some experts question its effects and call for a greater degree of differentiation, arguing that time online by itself is not a bad thing and it all depends on what you are doing. Also due this year is information commissioner Elizabeth Denham's Age Appropriate Design Code, covering the use of children's personal data. Both initiatives are welcome. But the government is playing catch-up. Statutory regulation of the digital media giants is long overdue. The failure to protect children from data harvesting and targeted advertising thus far is as shocking as the lack of concern shown by the companies themselves with regard to children's psychological health.\n\nOf course, social media companies are not the source of all our ills, and can offer a too-easy target for politicians keen to divert attention from inadequately resourced schools and health services. There are other reasons for the rising incidence of depression in young people, with increasing pressure to succeed in education and in life more broadly—to be famous, beautiful, rich—often cited as a source of unhappiness or anxiety which can, if aggravated by other factors and not managed, tip into ill health. Safeguarding means more than the avoidance of physical threat.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Its implementation requires prompt action."
+        },
+        {
+          "id": "B",
+          "text": "It is a welcome initiative but is long overdue."
+        },
+        {
+          "id": "C",
+          "text": "Its success depends on how it is implemented."
+        },
+        {
+          "id": "D",
+          "text": "It is too simplistic to produce the desired effect."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：It is too simplistic to produce the desired effect.\n关键词检索定位到第 4 段的候选相关句：The health secretary, Matt Hancock, wants official guidelines on time and age limits.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2026-06-1-nonlistening-q50",
+      "canonicalId": "lazynote-cet6-2026-06-1-q50",
+      "number": 50,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "Besides social media companies, what factors contribute to young people's psychological health problems?",
+      "passage": "Children's use of social media is a problem. That doesn't mean it should be stopped. While younger children should not be on platforms where 13 is the minimum age, it is neither practical nor desirable to imagine a world in which teenagers are prevented from accessing the platforms and messaging systems that the adults around them use to organise their lives.\n\nBut the pleasure and stimulation that people of all ages find on their screens and smartphones must not blind us to the harm that spending time in this way can cause. The finding that the alarmingly high rate of depression in British teenage girls is closely correlated to time spent on social media is extremely concerning. Research found that two in five girls are on social media for at least three hours a day—with half as many boys engaged to the same extent. More than a third of depressed girls have experienced online harassment. About half of affected girls suffered disrupted sleep, compared with 20% of depressed boys.\n\nAlthough the research does not prove that social media causes depression, the importance of the finding that there is a connection should not be underestimated. Schools have done important work in communicating key messages about the risks of online abuse. But when it comes to broader questions about \"screen time\", many professionals as well as parents are confused and uncertain.\n\nThe health secretary, Matt Hancock, wants official guidelines on time and age limits. This idea has the virtue of simplicity, though some experts question its effects and call for a greater degree of differentiation, arguing that time online by itself is not a bad thing and it all depends on what you are doing. Also due this year is information commissioner Elizabeth Denham's Age Appropriate Design Code, covering the use of children's personal data. Both initiatives are welcome. But the government is playing catch-up. Statutory regulation of the digital media giants is long overdue. The failure to protect children from data harvesting and targeted advertising thus far is as shocking as the lack of concern shown by the companies themselves with regard to children's psychological health.\n\nOf course, social media companies are not the source of all our ills, and can offer a too-easy target for politicians keen to divert attention from inadequately resourced schools and health services. There are other reasons for the rising incidence of depression in young people, with increasing pressure to succeed in education and in life more broadly—to be famous, beautiful, rich—often cited as a source of unhappiness or anxiety which can, if aggravated by other factors and not managed, tip into ill health. Safeguarding means more than the avoidance of physical threat.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Poorly financed schools and health services."
+        },
+        {
+          "id": "B",
+          "text": "Politicians' eagerness to divert public attention."
+        },
+        {
+          "id": "C",
+          "text": "Bad statutory regulation of digital media giants."
+        },
+        {
+          "id": "D",
+          "text": "Their parents' educational background and life."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：Poorly financed schools and health services.\n关键词检索定位到第 5 段的候选相关句：Of course, social media companies are not the source of all our ills, and can offer a too-easy target for politicians keen to divert attention from inadequately resourced schools and health services.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2026-06-1-nonlistening-q51",
+      "canonicalId": "lazynote-cet6-2026-06-1-q51",
+      "number": 51,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn about the G-20's agreement on curbing the use of tax havens?",
+      "passage": "About a decade ago, the G-20, a forum of the world's biggest economies, agreed to crack down on multinational corporations' abusive use of tax havens. This resulted in a plan that aimed to curb practices that shielded a large chunk of corporate profits from tax authorities.\n\nBut, instead of reining in the use of tax havens—countries such as the Bahamas and Cayman Islands with very low or no effective tax rates—the problem has only gotten worse.\n\nIn a new study, we measured the excessive profits reported in tax havens that cannot be explained by ordinary economic activity such as employees, factories and research in that country. Our findings show a striking pattern of artificial shifting of paper profits to tax havens by corporations, which has been relentless since the 1980s.\n\nWe found that the world's biggest multinational businesses shifted 37% of the profits—$969 billion—they earned in other countries to tax havens in 2019. The figure was less than 2% in the 1970s. The main reasons for the large increase were the growth of the tax avoidance industry in the 1980s and U.S. policies that made it easier to shift profits from high-tax countries to tax havens.\n\nWe estimate that the amount of corporate taxes lost as a result reached 10% of total corporate revenue in 2019, up from less than 0.1% in the 1970s. In 2019, the total government tax loss globally was $250 billion. U.S. multinational corporations alone accounted for about half of that, followed by the U.K. and Germany.\n\nHow do policymakers fix this? So far, the world as a whole has been trying to solve this problem by cutting or scrapping corporate taxes in a very gradual way. In the past 40 years, the global effective corporate tax rate has fallen from 23% to 17%. At the same time, governments have relied more heavily on consumption taxes.\n\nBut the root cause of profit-shifting is the incentives involved, such as generous or lenient corporate tax rates in other countries. If countries could agree on a global minimum corporate tax rate of, say, 20%, the problem of profit-shifting would largely disappear, as tax havens would simply cease to exist.\n\nThis type of mechanism is exactly what more than 130 countries signed onto in 2021, with implementation of a 15% minimum tax set to begin soon in the EU, U.K., Japan, Indonesia and many other countries. The U.S. has notably not been able to pass this legislation.\n\nOur research suggests implementing this type of tax reform is necessary in reversing the shift of ever-greater amounts of corporate profits to tax havens—instead of being taxed by the governments where they operate and create value.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It has aggravated the problem in non-G-20 countries."
+        },
+        {
+          "id": "B",
+          "text": "It has taken a toll on countries such as Cayman Islands."
+        },
+        {
+          "id": "C",
+          "text": "It has failed to achieve the expected outcome."
+        },
+        {
+          "id": "D",
+          "text": "It has failed to result in any long-term plan."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：It has failed to achieve the expected outcome.\n关键词检索定位到第 1 段的候选相关句：About a decade ago, the G-20, a forum of the world's biggest economies, agreed to crack down on multinational corporations' abusive use of tax havens.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2026-06-1-nonlistening-q52",
+      "canonicalId": "lazynote-cet6-2026-06-1-q52",
+      "number": 52,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What mainly accounted for the large increase in the world's biggest multinational corporations' shift of profits to tax havens?",
+      "passage": "About a decade ago, the G-20, a forum of the world's biggest economies, agreed to crack down on multinational corporations' abusive use of tax havens. This resulted in a plan that aimed to curb practices that shielded a large chunk of corporate profits from tax authorities.\n\nBut, instead of reining in the use of tax havens—countries such as the Bahamas and Cayman Islands with very low or no effective tax rates—the problem has only gotten worse.\n\nIn a new study, we measured the excessive profits reported in tax havens that cannot be explained by ordinary economic activity such as employees, factories and research in that country. Our findings show a striking pattern of artificial shifting of paper profits to tax havens by corporations, which has been relentless since the 1980s.\n\nWe found that the world's biggest multinational businesses shifted 37% of the profits—$969 billion—they earned in other countries to tax havens in 2019. The figure was less than 2% in the 1970s. The main reasons for the large increase were the growth of the tax avoidance industry in the 1980s and U.S. policies that made it easier to shift profits from high-tax countries to tax havens.\n\nWe estimate that the amount of corporate taxes lost as a result reached 10% of total corporate revenue in 2019, up from less than 0.1% in the 1970s. In 2019, the total government tax loss globally was $250 billion. U.S. multinational corporations alone accounted for about half of that, followed by the U.K. and Germany.\n\nHow do policymakers fix this? So far, the world as a whole has been trying to solve this problem by cutting or scrapping corporate taxes in a very gradual way. In the past 40 years, the global effective corporate tax rate has fallen from 23% to 17%. At the same time, governments have relied more heavily on consumption taxes.\n\nBut the root cause of profit-shifting is the incentives involved, such as generous or lenient corporate tax rates in other countries. If countries could agree on a global minimum corporate tax rate of, say, 20%, the problem of profit-shifting would largely disappear, as tax havens would simply cease to exist.\n\nThis type of mechanism is exactly what more than 130 countries signed onto in 2021, with implementation of a 15% minimum tax set to begin soon in the EU, U.K., Japan, Indonesia and many other countries. The U.S. has notably not been able to pass this legislation.\n\nOur research suggests implementing this type of tax reform is necessary in reversing the shift of ever-greater amounts of corporate profits to tax havens—instead of being taxed by the governments where they operate and create value.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fluctuating tax rates globally."
+        },
+        {
+          "id": "B",
+          "text": "Lenient policies of the U.S."
+        },
+        {
+          "id": "C",
+          "text": "Heavy taxes imposed on them."
+        },
+        {
+          "id": "D",
+          "text": "Rapid growth of their business."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：Lenient policies of the U.S.\n关键词检索定位到第 4 段的候选相关句：The main reasons for the large increase were the growth of the tax avoidance industry in the 1980s and U.S. policies that made it easier to shift profits from high-tax countries to tax havens.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2026-06-1-nonlistening-q53",
+      "canonicalId": "lazynote-cet6-2026-06-1-q53",
+      "number": 53,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What have policymakers been doing to prevent government tax loss?",
+      "passage": "About a decade ago, the G-20, a forum of the world's biggest economies, agreed to crack down on multinational corporations' abusive use of tax havens. This resulted in a plan that aimed to curb practices that shielded a large chunk of corporate profits from tax authorities.\n\nBut, instead of reining in the use of tax havens—countries such as the Bahamas and Cayman Islands with very low or no effective tax rates—the problem has only gotten worse.\n\nIn a new study, we measured the excessive profits reported in tax havens that cannot be explained by ordinary economic activity such as employees, factories and research in that country. Our findings show a striking pattern of artificial shifting of paper profits to tax havens by corporations, which has been relentless since the 1980s.\n\nWe found that the world's biggest multinational businesses shifted 37% of the profits—$969 billion—they earned in other countries to tax havens in 2019. The figure was less than 2% in the 1970s. The main reasons for the large increase were the growth of the tax avoidance industry in the 1980s and U.S. policies that made it easier to shift profits from high-tax countries to tax havens.\n\nWe estimate that the amount of corporate taxes lost as a result reached 10% of total corporate revenue in 2019, up from less than 0.1% in the 1970s. In 2019, the total government tax loss globally was $250 billion. U.S. multinational corporations alone accounted for about half of that, followed by the U.K. and Germany.\n\nHow do policymakers fix this? So far, the world as a whole has been trying to solve this problem by cutting or scrapping corporate taxes in a very gradual way. In the past 40 years, the global effective corporate tax rate has fallen from 23% to 17%. At the same time, governments have relied more heavily on consumption taxes.\n\nBut the root cause of profit-shifting is the incentives involved, such as generous or lenient corporate tax rates in other countries. If countries could agree on a global minimum corporate tax rate of, say, 20%, the problem of profit-shifting would largely disappear, as tax havens would simply cease to exist.\n\nThis type of mechanism is exactly what more than 130 countries signed onto in 2021, with implementation of a 15% minimum tax set to begin soon in the EU, U.K., Japan, Indonesia and many other countries. The U.S. has notably not been able to pass this legislation.\n\nOur research suggests implementing this type of tax reform is necessary in reversing the shift of ever-greater amounts of corporate profits to tax havens—instead of being taxed by the governments where they operate and create value.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reducing corporate taxes step by step."
+        },
+        {
+          "id": "B",
+          "text": "Scrapping consumption taxes gradually."
+        },
+        {
+          "id": "C",
+          "text": "Making joint efforts to levy corporate taxes."
+        },
+        {
+          "id": "D",
+          "text": "Adjusting global effective corporate tax rates."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：Reducing corporate taxes step by step.\n关键词检索定位到第 5 段的候选相关句：In 2019, the total government tax loss globally was $250 billion.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2026-06-1-nonlistening-q54",
+      "canonicalId": "lazynote-cet6-2026-06-1-q54",
+      "number": 54,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author say would bring tax havens to an end?",
+      "passage": "About a decade ago, the G-20, a forum of the world's biggest economies, agreed to crack down on multinational corporations' abusive use of tax havens. This resulted in a plan that aimed to curb practices that shielded a large chunk of corporate profits from tax authorities.\n\nBut, instead of reining in the use of tax havens—countries such as the Bahamas and Cayman Islands with very low or no effective tax rates—the problem has only gotten worse.\n\nIn a new study, we measured the excessive profits reported in tax havens that cannot be explained by ordinary economic activity such as employees, factories and research in that country. Our findings show a striking pattern of artificial shifting of paper profits to tax havens by corporations, which has been relentless since the 1980s.\n\nWe found that the world's biggest multinational businesses shifted 37% of the profits—$969 billion—they earned in other countries to tax havens in 2019. The figure was less than 2% in the 1970s. The main reasons for the large increase were the growth of the tax avoidance industry in the 1980s and U.S. policies that made it easier to shift profits from high-tax countries to tax havens.\n\nWe estimate that the amount of corporate taxes lost as a result reached 10% of total corporate revenue in 2019, up from less than 0.1% in the 1970s. In 2019, the total government tax loss globally was $250 billion. U.S. multinational corporations alone accounted for about half of that, followed by the U.K. and Germany.\n\nHow do policymakers fix this? So far, the world as a whole has been trying to solve this problem by cutting or scrapping corporate taxes in a very gradual way. In the past 40 years, the global effective corporate tax rate has fallen from 23% to 17%. At the same time, governments have relied more heavily on consumption taxes.\n\nBut the root cause of profit-shifting is the incentives involved, such as generous or lenient corporate tax rates in other countries. If countries could agree on a global minimum corporate tax rate of, say, 20%, the problem of profit-shifting would largely disappear, as tax havens would simply cease to exist.\n\nThis type of mechanism is exactly what more than 130 countries signed onto in 2021, with implementation of a 15% minimum tax set to begin soon in the EU, U.K., Japan, Indonesia and many other countries. The U.S. has notably not been able to pass this legislation.\n\nOur research suggests implementing this type of tax reform is necessary in reversing the shift of ever-greater amounts of corporate profits to tax havens—instead of being taxed by the governments where they operate and create value.",
+      "options": [
+        {
+          "id": "A",
+          "text": "The alignment of corporate taxes with consumption taxes."
+        },
+        {
+          "id": "B",
+          "text": "The implementation of generous tax rates in all countries."
+        },
+        {
+          "id": "C",
+          "text": "The agreement on the root cause of global profit-shifting."
+        },
+        {
+          "id": "D",
+          "text": "The imposition of a global minimum corporate tax rate."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：The imposition of a global minimum corporate tax rate.\n关键词检索定位到第 7 段的候选相关句：If countries could agree on a global minimum corporate tax rate of, say, 20%, the problem of profit-shifting would largely disappear, as tax havens would simply cease to exist.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2026-06-1-nonlistening-q55",
+      "canonicalId": "lazynote-cet6-2026-06-1-q55",
+      "number": 55,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What could be expected of the global problem of profit-shifting in the near future?",
+      "passage": "About a decade ago, the G-20, a forum of the world's biggest economies, agreed to crack down on multinational corporations' abusive use of tax havens. This resulted in a plan that aimed to curb practices that shielded a large chunk of corporate profits from tax authorities.\n\nBut, instead of reining in the use of tax havens—countries such as the Bahamas and Cayman Islands with very low or no effective tax rates—the problem has only gotten worse.\n\nIn a new study, we measured the excessive profits reported in tax havens that cannot be explained by ordinary economic activity such as employees, factories and research in that country. Our findings show a striking pattern of artificial shifting of paper profits to tax havens by corporations, which has been relentless since the 1980s.\n\nWe found that the world's biggest multinational businesses shifted 37% of the profits—$969 billion—they earned in other countries to tax havens in 2019. The figure was less than 2% in the 1970s. The main reasons for the large increase were the growth of the tax avoidance industry in the 1980s and U.S. policies that made it easier to shift profits from high-tax countries to tax havens.\n\nWe estimate that the amount of corporate taxes lost as a result reached 10% of total corporate revenue in 2019, up from less than 0.1% in the 1970s. In 2019, the total government tax loss globally was $250 billion. U.S. multinational corporations alone accounted for about half of that, followed by the U.K. and Germany.\n\nHow do policymakers fix this? So far, the world as a whole has been trying to solve this problem by cutting or scrapping corporate taxes in a very gradual way. In the past 40 years, the global effective corporate tax rate has fallen from 23% to 17%. At the same time, governments have relied more heavily on consumption taxes.\n\nBut the root cause of profit-shifting is the incentives involved, such as generous or lenient corporate tax rates in other countries. If countries could agree on a global minimum corporate tax rate of, say, 20%, the problem of profit-shifting would largely disappear, as tax havens would simply cease to exist.\n\nThis type of mechanism is exactly what more than 130 countries signed onto in 2021, with implementation of a 15% minimum tax set to begin soon in the EU, U.K., Japan, Indonesia and many other countries. The U.S. has notably not been able to pass this legislation.\n\nOur research suggests implementing this type of tax reform is necessary in reversing the shift of ever-greater amounts of corporate profits to tax havens—instead of being taxed by the governments where they operate and create value.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It would be solved with more countries cutting tax rates."
+        },
+        {
+          "id": "B",
+          "text": "It would end with governments' awareness of its severity."
+        },
+        {
+          "id": "C",
+          "text": "It would cease to exist with worldwide corporate support."
+        },
+        {
+          "id": "D",
+          "text": "It would continue because of noncooperation from the U.S."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：It would continue because of noncooperation from the U.S.\n关键词检索定位到第 7 段的候选相关句：If countries could agree on a global minimum corporate tax rate of, say, 20%, the problem of profit-shifting would largely disappear, as tax havens would simply cease to exist.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2026-06-1-nonlistening-translation",
+      "number": "IV",
+      "level": "CET6",
+      "type": "short_text_self_check",
+      "skill": "translation",
+      "section": "translation",
+      "prompt": "Directions : For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2 .\n\n科技进步使中国的医疗事业得到快速发展。近年来，远程医疗使优质医疗资源惠及更多患者。医学专家可以通过视频为偏远地区患者提供咨询，指导当地医生制定并实施治疗方案。人工智能辅助诊 断系统帮助医生识别患者的早期症状，提高诊断准确率。电子健康档案的普及让医生能够快速了解患 者病史，避免重复检查。线上医疗咨询平台极大地方便了患者就诊。科技与医疗的深度融合更好地满足了人民的健康需求。",
+      "options": [],
+      "correctAnswer": "Technological progress has enabled the rapid development of healthcare in China. In recent years, telemedicine has brought high quality medical resources to more patients. Medical experts can provide consultations by video to patients in remote areas and guide local doctors in developing and implementing treatment plans. AI assisted diagnostic systems help doctors identify patients' early symptoms and improve diagnostic accuracy. The widespread use of electronic health records allows doctors to learn patients' medical histories quickly and avoid repeated examinations. Online medical consultation platforms have made seeking care much more convenient. The close integration of technology and healthcare better meets people's health needs.",
+      "referenceAnswer": "Technological progress has enabled the rapid development of healthcare in China. In recent years, telemedicine has brought high quality medical resources to more patients. Medical experts can provide consultations by video to patients in remote areas and guide local doctors in developing and implementing treatment plans. AI assisted diagnostic systems help doctors identify patients' early symptoms and improve diagnostic accuracy. The widespread use of electronic health records allows doctors to learn patients' medical histories quickly and avoid repeated examinations. Online medical consultation platforms have made seeking care much more convenient. The close integration of technology and healthcare better meets people's health needs.",
+      "hint": "远程视频、指导当地医生、AI早症诊断、电子病史避免重复检查和在线咨询逐项译出。",
+      "explanation": "以下为原创参考译文，准确的同义表达也可接受。developing and implementing对应制定并实施两个环节；medical histories为病史，diagnostic accuracy为诊断准确率。题面“诊 断”“患 者”存在词内空格，译文按上下文连续词语理解；题面与哈希原样保留。",
+      "rubric": [
+        "信息：逐句核对人物、地点、数字、时间、因果和并列信息，避免漏译或增译。",
+        "表达：远程视频、指导当地医生、AI早症诊断、电子病史避免重复检查和在线咨询逐项译出。",
+        "语法：检查时态、语态、主谓一致、冠词与单复数，长句按英语逻辑合理拆分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2026-06-1-nonlistening"
+    }
+  ]
+}

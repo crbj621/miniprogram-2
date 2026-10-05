@@ -1,0 +1,1869 @@
+{
+  "schemaVersion": 1,
+  "status": "verified_structured",
+  "source": {
+    "id": "cet4-2022-12-2-nonlistening",
+    "textCollection": "https://english-exam.lazynote.cn",
+    "textUrl": "https://english-exam.lazynote.cn/cet4/paper/2022-12-2/",
+    "textSha256": "8936dde946fd64cb639624f2cfe31eb8a2642319a132dec4c2ae9b6424fc0966",
+    "answerSources": [
+      {
+        "section": "part3-section-a",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2022-12-2/part3-section-a/",
+        "sha256": "752bfe49e613b545b4c0e104de407d8b01be51d7341027a8974bf1079726892c"
+      },
+      {
+        "section": "part3-section-b",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2022-12-2/part3-section-b/",
+        "sha256": "7149b5637c76f21bc2c81ba4e638abf9c472079723420f5716f707c96b20f481"
+      },
+      {
+        "section": "part3-section-c-1",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2022-12-2/part3-section-c-1/",
+        "sha256": "63f9cc0534abb6b99f49afcb5e5fee05d64dd00297ee3a52de731843441a75d0"
+      },
+      {
+        "section": "part3-section-c-2",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2022-12-2/part3-section-c-2/",
+        "sha256": "8afe260d930ed3d603d8d04f1817c1ca0e8775fe08ded20a49688370e411a70c"
+      }
+    ],
+    "rightsUrl": "https://english-exam.lazynote.cn",
+    "rights": "Source footer attributes original papers to the National College English Test Committee. Original materials retain their respective rights; no blanket source license is asserted. Commercial explanatory prose is not copied.",
+    "sourceRightsNotice": "© 2026 懒笔记 · 蜀ICP备2024049450号-1 · 川公网安备51019002006323号 · 增值电信业务经营许可证：川B2-20240301 · 真题版权归全国硕士研究生招生考试 / 全国大学英语四六级考试委员会所有 · 隐私政策 · 用户协议",
+    "sourceTermsUrl": "https://english-exam.lazynote.cn/terms/",
+    "reviewedAt": "2026-10-03",
+    "answerStatus": "public_reference_structural_consistency_verified",
+    "explanations": "Project-generated contextual evidence notes. Close-reading locations are keyword-search candidates, not manually verified detailed explanations.",
+    "referenceEssays": "Project-authored full reference examples bound to the original prompts; not official model answers.",
+    "materialSources": [],
+    "corrections": [],
+    "previousReviewedAnswerSources": [],
+    "sourceEdition": "lazynote public original-paper arrangement; set numbering can differ from other collections.",
+    "independentlyConfirmedSharedSource": "",
+    "readingSourceCorrection": null,
+    "sectionSourceReplacement": null,
+    "independentAnswerChecks": [],
+    "sharedSectionSource": {}
+  },
+  "papers": [
+    {
+      "id": "cet4-2022-12-2-nonlistening",
+      "level": "CET4",
+      "year": 2022,
+      "month": 12,
+      "set": 2,
+      "title": "2022年12月英语四级第2套真题（不含听力）",
+      "authenticity": "past_exam",
+      "questionIds": [
+        "cet4-2022-12-2-nonlistening-writing",
+        "cet4-2022-12-2-nonlistening-q26",
+        "cet4-2022-12-2-nonlistening-q27",
+        "cet4-2022-12-2-nonlistening-q28",
+        "cet4-2022-12-2-nonlistening-q29",
+        "cet4-2022-12-2-nonlistening-q30",
+        "cet4-2022-12-2-nonlistening-q31",
+        "cet4-2022-12-2-nonlistening-q32",
+        "cet4-2022-12-2-nonlistening-q33",
+        "cet4-2022-12-2-nonlistening-q34",
+        "cet4-2022-12-2-nonlistening-q35",
+        "cet4-2022-12-2-nonlistening-q36",
+        "cet4-2022-12-2-nonlistening-q37",
+        "cet4-2022-12-2-nonlistening-q38",
+        "cet4-2022-12-2-nonlistening-q39",
+        "cet4-2022-12-2-nonlistening-q40",
+        "cet4-2022-12-2-nonlistening-q41",
+        "cet4-2022-12-2-nonlistening-q42",
+        "cet4-2022-12-2-nonlistening-q43",
+        "cet4-2022-12-2-nonlistening-q44",
+        "cet4-2022-12-2-nonlistening-q45",
+        "cet4-2022-12-2-nonlistening-q46",
+        "cet4-2022-12-2-nonlistening-q47",
+        "cet4-2022-12-2-nonlistening-q48",
+        "cet4-2022-12-2-nonlistening-q49",
+        "cet4-2022-12-2-nonlistening-q50",
+        "cet4-2022-12-2-nonlistening-q51",
+        "cet4-2022-12-2-nonlistening-q52",
+        "cet4-2022-12-2-nonlistening-q53",
+        "cet4-2022-12-2-nonlistening-q54",
+        "cet4-2022-12-2-nonlistening-q55",
+        "cet4-2022-12-2-nonlistening-translation"
+      ],
+      "durationSeconds": 6000,
+      "description": "写作1题、阅读30题、翻译1题，不含听力。客观题答案与题面、选项完成结构一致性核对。",
+      "sourceId": "cet4-2022-12-2-nonlistening",
+      "coverage": {
+        "fullPaper": false,
+        "fullNonListening": true,
+        "listeningExcluded": true,
+        "objectiveNumbers": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "objectiveCount": 30,
+        "subjectiveCount": 2,
+        "sections": [
+          "writing",
+          "reading_word_bank",
+          "reading_matching",
+          "reading_comprehension",
+          "translation"
+        ],
+        "sharedSectionSource": {},
+        "note": "写作1题、阅读30题、翻译1题，不含听力。",
+        "independentlyConfirmedSharedSource": "",
+        "readingSourceCorrection": null,
+        "sectionSourceReplacement": null,
+        "referenceStatus": "project_authored"
+      },
+      "resources": [
+        {
+          "id": "cet4-2022-12-2-nonlistening-source",
+          "type": "web",
+          "title": "原卷来源与题面核对",
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2022-12-2/"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cet4-2022-12-2-nonlistening-writing",
+      "number": "I",
+      "level": "CET4",
+      "type": "short_text_self_check",
+      "skill": "writing",
+      "section": "writing",
+      "prompt": "Directions: In this task, you are to write an essay on the importance o f developing a healthy lifestyle among college students. You will have 30 minutes for the task. You should write at least 120 words but no more than 180 words.",
+      "options": [],
+      "correctAnswer": "Developing a healthy lifestyle is important for college students because daily habits influence how well we manage study and personal responsibilities. A busy timetable should not become an excuse to ignore basic needs.\n\nAdequate rest, regular meals and enjoyable physical activity form a practical foundation. When students repeatedly stay up late to finish tasks, they may find it difficult to concentrate the next day. Planning work earlier can protect both learning time and rest. A healthy lifestyle also includes meaningful social contact and sensible limits on screen use. Talking with trusted people can be more helpful than facing every difficulty alone.\n\nUniversities should make supportive choices easier by offering accessible sports spaces, clear service information and reasonable study arrangements. Students, meanwhile, can begin with small changes that they can maintain. Healthy living is not about following a perfect schedule; it is about building habits that support learning, independence and long-term well-being.",
+      "referenceAnswer": "Developing a healthy lifestyle is important for college students because daily habits influence how well we manage study and personal responsibilities. A busy timetable should not become an excuse to ignore basic needs.\n\nAdequate rest, regular meals and enjoyable physical activity form a practical foundation. When students repeatedly stay up late to finish tasks, they may find it difficult to concentrate the next day. Planning work earlier can protect both learning time and rest. A healthy lifestyle also includes meaningful social contact and sensible limits on screen use. Talking with trusted people can be more helpful than facing every difficulty alone.\n\nUniversities should make supportive choices easier by offering accessible sports spaces, clear service information and reasonable study arrangements. Students, meanwhile, can begin with small changes that they can maintain. Healthy living is not about following a perfect schedule; it is about building habits that support learning, independence and long-term well-being.",
+      "hint": "健康生活不只运动，可论述休息、饮食、社交和时间安排。",
+      "explanation": "以下为按题意独立写成的参考范文，作文没有唯一答案。以熬夜影响次日学习举例，建议小步调整；不能只列口号而没有说明对大学生活的重要性。\n\n范文先说明健康习惯关系学习与生活，中段用熬夜后的课堂困难支持观点，再写规律睡眠、饮食和活动，末段建议逐步形成习惯。healthy lifestyle是健康生活方式，regular sleep是规律睡眠，maintain a routine是保持常规。题面importance o f只是断词，按importance of理解，原题保留。不要把文章改成只介绍一种食物；至少让读者看出生活习惯怎样影响大学生及怎样改善。\n\n练习方法：先用提示列三段提纲，在30分钟内独立写作，再按下方标准逐项打分；把失分最多的一段重写。参考范文约151词（缩写、连字符词按一词，含标题或书信称呼落款），满足120–180词要求；评分用于练习自检，不代表官方阅卷分数。",
+      "rubric": [
+        "练习自评总分15分：题目覆盖0–6＋结构0–4＋语言0–5，先独立写完再对照；观点不同于范文也可得满分，只要有合理支持。",
+        "题目覆盖0–6分：该题检查——健康生活不只运动，可论述休息、饮食、社交和时间安排。。6分=任务完整且有具体理由/活动/例证；4–5分=切题但细节偏薄；2–3分=遗漏主要任务；0–1分=基本离题。",
+        "结构0–4分：4分=开头明确任务、主体按逻辑展开、结尾回扣，段间自然；3分=顺序清楚但局部衔接生硬；1–2分=跳跃或机械罗列；0分=内容难以组织理解。",
+        "语言0–5分：5分=语法和用词基本准确、句型有变化；3–4分=少量错误但不影响理解；1–2分=反复出现时态、主谓一致或搭配错误并影响阅读；0分=多数句子不能理解。",
+        "格式与修订：按原题保持120–180词；新闻/书信/提案用对应体裁，明确要求的首句逐字保留。若超限、少写任务或缺必要格式，先修改再评分，不把字数达标当作内容满分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-2-nonlistening-q26",
+      "canonicalId": "lazynote-cet4-2022-12-2-q26",
+      "number": 26,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 26 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Parenting brings fathers more joy than it does mothers, according to a new study. The research examined three studies [26] ____ more than 18,000 participants. Across all three, parenthood was [27] ____ with more positive wellbeing outcomes for dads than for mums.\n\nSo why are fathers happier than mothers? \"Fathers may fare better than mothers in part due to how they spend time with their children,\" said lead author Katherine Nelson-Coffey. In one study, the authors [28] ____ that dads were more likely to take \"playing\" as an [29] ____ activity both when caring for their kids and spending time with their kids. \"Playing with their children likely offers parents opportunities to experience positive feelings and [30] ____ closeness with their children,\" they say.\n\nFathers also did better than men without kids, reporting greater happiness, life satisfaction, and fewer [31] ____ symptoms. They also reported greater connectedness and autonomy(自主). For mums, [32] ____ , compared to women without children, the results weren't quite as positive. Mums reported greater autonomy, but also \"greater trouble\" and fewer positive [33] ____ .\n\nMums reported happier moods while interacting with their kids, compared to other experiences, but not while engaging [34] ____ in childcare. \"This difference suggests that how mothers and fathers spend time with their children might have important [35] ____ for their wellbeing,\" the authors write. They suspect that mums may be less happy than dads because they're more likely to have higher expectations about parenthood. As such, they're more likely to be \"let down\" by the experience.",
+      "options": [
+        {
+          "id": "A",
+          "text": "additional"
+        },
+        {
+          "id": "B",
+          "text": "associated"
+        },
+        {
+          "id": "C",
+          "text": "composing"
+        },
+        {
+          "id": "D",
+          "text": "cultivate"
+        },
+        {
+          "id": "E",
+          "text": "depressive"
+        },
+        {
+          "id": "F",
+          "text": "directly"
+        },
+        {
+          "id": "G",
+          "text": "emotions"
+        },
+        {
+          "id": "H",
+          "text": "however"
+        },
+        {
+          "id": "I",
+          "text": "implications"
+        },
+        {
+          "id": "J",
+          "text": "interfered"
+        },
+        {
+          "id": "K",
+          "text": "involving"
+        },
+        {
+          "id": "L",
+          "text": "note"
+        },
+        {
+          "id": "M",
+          "text": "precisely"
+        },
+        {
+          "id": "N",
+          "text": "superficial"
+        },
+        {
+          "id": "O",
+          "text": "therefore"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "先看第 26 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 K（involving）。本空所在句：The research examined three studies [26] ____ more than 18,000 participants.\n将本空替换为 involving 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-2-nonlistening-q27",
+      "canonicalId": "lazynote-cet4-2022-12-2-q27",
+      "number": 27,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 27 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Parenting brings fathers more joy than it does mothers, according to a new study. The research examined three studies [26] ____ more than 18,000 participants. Across all three, parenthood was [27] ____ with more positive wellbeing outcomes for dads than for mums.\n\nSo why are fathers happier than mothers? \"Fathers may fare better than mothers in part due to how they spend time with their children,\" said lead author Katherine Nelson-Coffey. In one study, the authors [28] ____ that dads were more likely to take \"playing\" as an [29] ____ activity both when caring for their kids and spending time with their kids. \"Playing with their children likely offers parents opportunities to experience positive feelings and [30] ____ closeness with their children,\" they say.\n\nFathers also did better than men without kids, reporting greater happiness, life satisfaction, and fewer [31] ____ symptoms. They also reported greater connectedness and autonomy(自主). For mums, [32] ____ , compared to women without children, the results weren't quite as positive. Mums reported greater autonomy, but also \"greater trouble\" and fewer positive [33] ____ .\n\nMums reported happier moods while interacting with their kids, compared to other experiences, but not while engaging [34] ____ in childcare. \"This difference suggests that how mothers and fathers spend time with their children might have important [35] ____ for their wellbeing,\" the authors write. They suspect that mums may be less happy than dads because they're more likely to have higher expectations about parenthood. As such, they're more likely to be \"let down\" by the experience.",
+      "options": [
+        {
+          "id": "A",
+          "text": "additional"
+        },
+        {
+          "id": "B",
+          "text": "associated"
+        },
+        {
+          "id": "C",
+          "text": "composing"
+        },
+        {
+          "id": "D",
+          "text": "cultivate"
+        },
+        {
+          "id": "E",
+          "text": "depressive"
+        },
+        {
+          "id": "F",
+          "text": "directly"
+        },
+        {
+          "id": "G",
+          "text": "emotions"
+        },
+        {
+          "id": "H",
+          "text": "however"
+        },
+        {
+          "id": "I",
+          "text": "implications"
+        },
+        {
+          "id": "J",
+          "text": "interfered"
+        },
+        {
+          "id": "K",
+          "text": "involving"
+        },
+        {
+          "id": "L",
+          "text": "note"
+        },
+        {
+          "id": "M",
+          "text": "precisely"
+        },
+        {
+          "id": "N",
+          "text": "superficial"
+        },
+        {
+          "id": "O",
+          "text": "therefore"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "先看第 27 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 B（associated）。本空所在句：Across all three, parenthood was [27] ____ with more positive wellbeing outcomes for dads than for mums.\n将本空替换为 associated 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-2-nonlistening-q28",
+      "canonicalId": "lazynote-cet4-2022-12-2-q28",
+      "number": 28,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 28 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Parenting brings fathers more joy than it does mothers, according to a new study. The research examined three studies [26] ____ more than 18,000 participants. Across all three, parenthood was [27] ____ with more positive wellbeing outcomes for dads than for mums.\n\nSo why are fathers happier than mothers? \"Fathers may fare better than mothers in part due to how they spend time with their children,\" said lead author Katherine Nelson-Coffey. In one study, the authors [28] ____ that dads were more likely to take \"playing\" as an [29] ____ activity both when caring for their kids and spending time with their kids. \"Playing with their children likely offers parents opportunities to experience positive feelings and [30] ____ closeness with their children,\" they say.\n\nFathers also did better than men without kids, reporting greater happiness, life satisfaction, and fewer [31] ____ symptoms. They also reported greater connectedness and autonomy(自主). For mums, [32] ____ , compared to women without children, the results weren't quite as positive. Mums reported greater autonomy, but also \"greater trouble\" and fewer positive [33] ____ .\n\nMums reported happier moods while interacting with their kids, compared to other experiences, but not while engaging [34] ____ in childcare. \"This difference suggests that how mothers and fathers spend time with their children might have important [35] ____ for their wellbeing,\" the authors write. They suspect that mums may be less happy than dads because they're more likely to have higher expectations about parenthood. As such, they're more likely to be \"let down\" by the experience.",
+      "options": [
+        {
+          "id": "A",
+          "text": "additional"
+        },
+        {
+          "id": "B",
+          "text": "associated"
+        },
+        {
+          "id": "C",
+          "text": "composing"
+        },
+        {
+          "id": "D",
+          "text": "cultivate"
+        },
+        {
+          "id": "E",
+          "text": "depressive"
+        },
+        {
+          "id": "F",
+          "text": "directly"
+        },
+        {
+          "id": "G",
+          "text": "emotions"
+        },
+        {
+          "id": "H",
+          "text": "however"
+        },
+        {
+          "id": "I",
+          "text": "implications"
+        },
+        {
+          "id": "J",
+          "text": "interfered"
+        },
+        {
+          "id": "K",
+          "text": "involving"
+        },
+        {
+          "id": "L",
+          "text": "note"
+        },
+        {
+          "id": "M",
+          "text": "precisely"
+        },
+        {
+          "id": "N",
+          "text": "superficial"
+        },
+        {
+          "id": "O",
+          "text": "therefore"
+        }
+      ],
+      "correctAnswer": "L",
+      "hint": "先看第 28 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 L（note）。本空所在句：In one study, the authors [28] ____ that dads were more likely to take \"playing\" as an [29] ____ activity both when caring for their kids and spending time with their kids.\n将本空替换为 note 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-2-nonlistening-q29",
+      "canonicalId": "lazynote-cet4-2022-12-2-q29",
+      "number": 29,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 29 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Parenting brings fathers more joy than it does mothers, according to a new study. The research examined three studies [26] ____ more than 18,000 participants. Across all three, parenthood was [27] ____ with more positive wellbeing outcomes for dads than for mums.\n\nSo why are fathers happier than mothers? \"Fathers may fare better than mothers in part due to how they spend time with their children,\" said lead author Katherine Nelson-Coffey. In one study, the authors [28] ____ that dads were more likely to take \"playing\" as an [29] ____ activity both when caring for their kids and spending time with their kids. \"Playing with their children likely offers parents opportunities to experience positive feelings and [30] ____ closeness with their children,\" they say.\n\nFathers also did better than men without kids, reporting greater happiness, life satisfaction, and fewer [31] ____ symptoms. They also reported greater connectedness and autonomy(自主). For mums, [32] ____ , compared to women without children, the results weren't quite as positive. Mums reported greater autonomy, but also \"greater trouble\" and fewer positive [33] ____ .\n\nMums reported happier moods while interacting with their kids, compared to other experiences, but not while engaging [34] ____ in childcare. \"This difference suggests that how mothers and fathers spend time with their children might have important [35] ____ for their wellbeing,\" the authors write. They suspect that mums may be less happy than dads because they're more likely to have higher expectations about parenthood. As such, they're more likely to be \"let down\" by the experience.",
+      "options": [
+        {
+          "id": "A",
+          "text": "additional"
+        },
+        {
+          "id": "B",
+          "text": "associated"
+        },
+        {
+          "id": "C",
+          "text": "composing"
+        },
+        {
+          "id": "D",
+          "text": "cultivate"
+        },
+        {
+          "id": "E",
+          "text": "depressive"
+        },
+        {
+          "id": "F",
+          "text": "directly"
+        },
+        {
+          "id": "G",
+          "text": "emotions"
+        },
+        {
+          "id": "H",
+          "text": "however"
+        },
+        {
+          "id": "I",
+          "text": "implications"
+        },
+        {
+          "id": "J",
+          "text": "interfered"
+        },
+        {
+          "id": "K",
+          "text": "involving"
+        },
+        {
+          "id": "L",
+          "text": "note"
+        },
+        {
+          "id": "M",
+          "text": "precisely"
+        },
+        {
+          "id": "N",
+          "text": "superficial"
+        },
+        {
+          "id": "O",
+          "text": "therefore"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "先看第 29 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 A（additional）。本空所在句：In one study, the authors [28] ____ that dads were more likely to take \"playing\" as an [29] ____ activity both when caring for their kids and spending time with their kids.\n将本空替换为 additional 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-2-nonlistening-q30",
+      "canonicalId": "lazynote-cet4-2022-12-2-q30",
+      "number": 30,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 30 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Parenting brings fathers more joy than it does mothers, according to a new study. The research examined three studies [26] ____ more than 18,000 participants. Across all three, parenthood was [27] ____ with more positive wellbeing outcomes for dads than for mums.\n\nSo why are fathers happier than mothers? \"Fathers may fare better than mothers in part due to how they spend time with their children,\" said lead author Katherine Nelson-Coffey. In one study, the authors [28] ____ that dads were more likely to take \"playing\" as an [29] ____ activity both when caring for their kids and spending time with their kids. \"Playing with their children likely offers parents opportunities to experience positive feelings and [30] ____ closeness with their children,\" they say.\n\nFathers also did better than men without kids, reporting greater happiness, life satisfaction, and fewer [31] ____ symptoms. They also reported greater connectedness and autonomy(自主). For mums, [32] ____ , compared to women without children, the results weren't quite as positive. Mums reported greater autonomy, but also \"greater trouble\" and fewer positive [33] ____ .\n\nMums reported happier moods while interacting with their kids, compared to other experiences, but not while engaging [34] ____ in childcare. \"This difference suggests that how mothers and fathers spend time with their children might have important [35] ____ for their wellbeing,\" the authors write. They suspect that mums may be less happy than dads because they're more likely to have higher expectations about parenthood. As such, they're more likely to be \"let down\" by the experience.",
+      "options": [
+        {
+          "id": "A",
+          "text": "additional"
+        },
+        {
+          "id": "B",
+          "text": "associated"
+        },
+        {
+          "id": "C",
+          "text": "composing"
+        },
+        {
+          "id": "D",
+          "text": "cultivate"
+        },
+        {
+          "id": "E",
+          "text": "depressive"
+        },
+        {
+          "id": "F",
+          "text": "directly"
+        },
+        {
+          "id": "G",
+          "text": "emotions"
+        },
+        {
+          "id": "H",
+          "text": "however"
+        },
+        {
+          "id": "I",
+          "text": "implications"
+        },
+        {
+          "id": "J",
+          "text": "interfered"
+        },
+        {
+          "id": "K",
+          "text": "involving"
+        },
+        {
+          "id": "L",
+          "text": "note"
+        },
+        {
+          "id": "M",
+          "text": "precisely"
+        },
+        {
+          "id": "N",
+          "text": "superficial"
+        },
+        {
+          "id": "O",
+          "text": "therefore"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "先看第 30 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 D（cultivate）。本空所在句：\"Playing with their children likely offers parents opportunities to experience positive feelings and [30] ____ closeness with their children,\" they say.\n将本空替换为 cultivate 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-2-nonlistening-q31",
+      "canonicalId": "lazynote-cet4-2022-12-2-q31",
+      "number": 31,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 31 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Parenting brings fathers more joy than it does mothers, according to a new study. The research examined three studies [26] ____ more than 18,000 participants. Across all three, parenthood was [27] ____ with more positive wellbeing outcomes for dads than for mums.\n\nSo why are fathers happier than mothers? \"Fathers may fare better than mothers in part due to how they spend time with their children,\" said lead author Katherine Nelson-Coffey. In one study, the authors [28] ____ that dads were more likely to take \"playing\" as an [29] ____ activity both when caring for their kids and spending time with their kids. \"Playing with their children likely offers parents opportunities to experience positive feelings and [30] ____ closeness with their children,\" they say.\n\nFathers also did better than men without kids, reporting greater happiness, life satisfaction, and fewer [31] ____ symptoms. They also reported greater connectedness and autonomy(自主). For mums, [32] ____ , compared to women without children, the results weren't quite as positive. Mums reported greater autonomy, but also \"greater trouble\" and fewer positive [33] ____ .\n\nMums reported happier moods while interacting with their kids, compared to other experiences, but not while engaging [34] ____ in childcare. \"This difference suggests that how mothers and fathers spend time with their children might have important [35] ____ for their wellbeing,\" the authors write. They suspect that mums may be less happy than dads because they're more likely to have higher expectations about parenthood. As such, they're more likely to be \"let down\" by the experience.",
+      "options": [
+        {
+          "id": "A",
+          "text": "additional"
+        },
+        {
+          "id": "B",
+          "text": "associated"
+        },
+        {
+          "id": "C",
+          "text": "composing"
+        },
+        {
+          "id": "D",
+          "text": "cultivate"
+        },
+        {
+          "id": "E",
+          "text": "depressive"
+        },
+        {
+          "id": "F",
+          "text": "directly"
+        },
+        {
+          "id": "G",
+          "text": "emotions"
+        },
+        {
+          "id": "H",
+          "text": "however"
+        },
+        {
+          "id": "I",
+          "text": "implications"
+        },
+        {
+          "id": "J",
+          "text": "interfered"
+        },
+        {
+          "id": "K",
+          "text": "involving"
+        },
+        {
+          "id": "L",
+          "text": "note"
+        },
+        {
+          "id": "M",
+          "text": "precisely"
+        },
+        {
+          "id": "N",
+          "text": "superficial"
+        },
+        {
+          "id": "O",
+          "text": "therefore"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "先看第 31 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 E（depressive）。本空所在句：Fathers also did better than men without kids, reporting greater happiness, life satisfaction, and fewer [31] ____ symptoms.\n将本空替换为 depressive 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-2-nonlistening-q32",
+      "canonicalId": "lazynote-cet4-2022-12-2-q32",
+      "number": 32,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 32 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Parenting brings fathers more joy than it does mothers, according to a new study. The research examined three studies [26] ____ more than 18,000 participants. Across all three, parenthood was [27] ____ with more positive wellbeing outcomes for dads than for mums.\n\nSo why are fathers happier than mothers? \"Fathers may fare better than mothers in part due to how they spend time with their children,\" said lead author Katherine Nelson-Coffey. In one study, the authors [28] ____ that dads were more likely to take \"playing\" as an [29] ____ activity both when caring for their kids and spending time with their kids. \"Playing with their children likely offers parents opportunities to experience positive feelings and [30] ____ closeness with their children,\" they say.\n\nFathers also did better than men without kids, reporting greater happiness, life satisfaction, and fewer [31] ____ symptoms. They also reported greater connectedness and autonomy(自主). For mums, [32] ____ , compared to women without children, the results weren't quite as positive. Mums reported greater autonomy, but also \"greater trouble\" and fewer positive [33] ____ .\n\nMums reported happier moods while interacting with their kids, compared to other experiences, but not while engaging [34] ____ in childcare. \"This difference suggests that how mothers and fathers spend time with their children might have important [35] ____ for their wellbeing,\" the authors write. They suspect that mums may be less happy than dads because they're more likely to have higher expectations about parenthood. As such, they're more likely to be \"let down\" by the experience.",
+      "options": [
+        {
+          "id": "A",
+          "text": "additional"
+        },
+        {
+          "id": "B",
+          "text": "associated"
+        },
+        {
+          "id": "C",
+          "text": "composing"
+        },
+        {
+          "id": "D",
+          "text": "cultivate"
+        },
+        {
+          "id": "E",
+          "text": "depressive"
+        },
+        {
+          "id": "F",
+          "text": "directly"
+        },
+        {
+          "id": "G",
+          "text": "emotions"
+        },
+        {
+          "id": "H",
+          "text": "however"
+        },
+        {
+          "id": "I",
+          "text": "implications"
+        },
+        {
+          "id": "J",
+          "text": "interfered"
+        },
+        {
+          "id": "K",
+          "text": "involving"
+        },
+        {
+          "id": "L",
+          "text": "note"
+        },
+        {
+          "id": "M",
+          "text": "precisely"
+        },
+        {
+          "id": "N",
+          "text": "superficial"
+        },
+        {
+          "id": "O",
+          "text": "therefore"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "先看第 32 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 H（however）。本空所在句：For mums, [32] ____ , compared to women without children, the results weren't quite as positive.\n将本空替换为 however 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-2-nonlistening-q33",
+      "canonicalId": "lazynote-cet4-2022-12-2-q33",
+      "number": 33,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 33 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Parenting brings fathers more joy than it does mothers, according to a new study. The research examined three studies [26] ____ more than 18,000 participants. Across all three, parenthood was [27] ____ with more positive wellbeing outcomes for dads than for mums.\n\nSo why are fathers happier than mothers? \"Fathers may fare better than mothers in part due to how they spend time with their children,\" said lead author Katherine Nelson-Coffey. In one study, the authors [28] ____ that dads were more likely to take \"playing\" as an [29] ____ activity both when caring for their kids and spending time with their kids. \"Playing with their children likely offers parents opportunities to experience positive feelings and [30] ____ closeness with their children,\" they say.\n\nFathers also did better than men without kids, reporting greater happiness, life satisfaction, and fewer [31] ____ symptoms. They also reported greater connectedness and autonomy(自主). For mums, [32] ____ , compared to women without children, the results weren't quite as positive. Mums reported greater autonomy, but also \"greater trouble\" and fewer positive [33] ____ .\n\nMums reported happier moods while interacting with their kids, compared to other experiences, but not while engaging [34] ____ in childcare. \"This difference suggests that how mothers and fathers spend time with their children might have important [35] ____ for their wellbeing,\" the authors write. They suspect that mums may be less happy than dads because they're more likely to have higher expectations about parenthood. As such, they're more likely to be \"let down\" by the experience.",
+      "options": [
+        {
+          "id": "A",
+          "text": "additional"
+        },
+        {
+          "id": "B",
+          "text": "associated"
+        },
+        {
+          "id": "C",
+          "text": "composing"
+        },
+        {
+          "id": "D",
+          "text": "cultivate"
+        },
+        {
+          "id": "E",
+          "text": "depressive"
+        },
+        {
+          "id": "F",
+          "text": "directly"
+        },
+        {
+          "id": "G",
+          "text": "emotions"
+        },
+        {
+          "id": "H",
+          "text": "however"
+        },
+        {
+          "id": "I",
+          "text": "implications"
+        },
+        {
+          "id": "J",
+          "text": "interfered"
+        },
+        {
+          "id": "K",
+          "text": "involving"
+        },
+        {
+          "id": "L",
+          "text": "note"
+        },
+        {
+          "id": "M",
+          "text": "precisely"
+        },
+        {
+          "id": "N",
+          "text": "superficial"
+        },
+        {
+          "id": "O",
+          "text": "therefore"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "先看第 33 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 G（emotions）。本空所在句：Mums reported greater autonomy, but also \"greater trouble\" and fewer positive [33] ____ .\n将本空替换为 emotions 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-2-nonlistening-q34",
+      "canonicalId": "lazynote-cet4-2022-12-2-q34",
+      "number": 34,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 34 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Parenting brings fathers more joy than it does mothers, according to a new study. The research examined three studies [26] ____ more than 18,000 participants. Across all three, parenthood was [27] ____ with more positive wellbeing outcomes for dads than for mums.\n\nSo why are fathers happier than mothers? \"Fathers may fare better than mothers in part due to how they spend time with their children,\" said lead author Katherine Nelson-Coffey. In one study, the authors [28] ____ that dads were more likely to take \"playing\" as an [29] ____ activity both when caring for their kids and spending time with their kids. \"Playing with their children likely offers parents opportunities to experience positive feelings and [30] ____ closeness with their children,\" they say.\n\nFathers also did better than men without kids, reporting greater happiness, life satisfaction, and fewer [31] ____ symptoms. They also reported greater connectedness and autonomy(自主). For mums, [32] ____ , compared to women without children, the results weren't quite as positive. Mums reported greater autonomy, but also \"greater trouble\" and fewer positive [33] ____ .\n\nMums reported happier moods while interacting with their kids, compared to other experiences, but not while engaging [34] ____ in childcare. \"This difference suggests that how mothers and fathers spend time with their children might have important [35] ____ for their wellbeing,\" the authors write. They suspect that mums may be less happy than dads because they're more likely to have higher expectations about parenthood. As such, they're more likely to be \"let down\" by the experience.",
+      "options": [
+        {
+          "id": "A",
+          "text": "additional"
+        },
+        {
+          "id": "B",
+          "text": "associated"
+        },
+        {
+          "id": "C",
+          "text": "composing"
+        },
+        {
+          "id": "D",
+          "text": "cultivate"
+        },
+        {
+          "id": "E",
+          "text": "depressive"
+        },
+        {
+          "id": "F",
+          "text": "directly"
+        },
+        {
+          "id": "G",
+          "text": "emotions"
+        },
+        {
+          "id": "H",
+          "text": "however"
+        },
+        {
+          "id": "I",
+          "text": "implications"
+        },
+        {
+          "id": "J",
+          "text": "interfered"
+        },
+        {
+          "id": "K",
+          "text": "involving"
+        },
+        {
+          "id": "L",
+          "text": "note"
+        },
+        {
+          "id": "M",
+          "text": "precisely"
+        },
+        {
+          "id": "N",
+          "text": "superficial"
+        },
+        {
+          "id": "O",
+          "text": "therefore"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "先看第 34 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 F（directly）。本空所在句：Mums reported happier moods while interacting with their kids, compared to other experiences, but not while engaging [34] ____ in childcare.\n将本空替换为 directly 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-2-nonlistening-q35",
+      "canonicalId": "lazynote-cet4-2022-12-2-q35",
+      "number": 35,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 35 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Parenting brings fathers more joy than it does mothers, according to a new study. The research examined three studies [26] ____ more than 18,000 participants. Across all three, parenthood was [27] ____ with more positive wellbeing outcomes for dads than for mums.\n\nSo why are fathers happier than mothers? \"Fathers may fare better than mothers in part due to how they spend time with their children,\" said lead author Katherine Nelson-Coffey. In one study, the authors [28] ____ that dads were more likely to take \"playing\" as an [29] ____ activity both when caring for their kids and spending time with their kids. \"Playing with their children likely offers parents opportunities to experience positive feelings and [30] ____ closeness with their children,\" they say.\n\nFathers also did better than men without kids, reporting greater happiness, life satisfaction, and fewer [31] ____ symptoms. They also reported greater connectedness and autonomy(自主). For mums, [32] ____ , compared to women without children, the results weren't quite as positive. Mums reported greater autonomy, but also \"greater trouble\" and fewer positive [33] ____ .\n\nMums reported happier moods while interacting with their kids, compared to other experiences, but not while engaging [34] ____ in childcare. \"This difference suggests that how mothers and fathers spend time with their children might have important [35] ____ for their wellbeing,\" the authors write. They suspect that mums may be less happy than dads because they're more likely to have higher expectations about parenthood. As such, they're more likely to be \"let down\" by the experience.",
+      "options": [
+        {
+          "id": "A",
+          "text": "additional"
+        },
+        {
+          "id": "B",
+          "text": "associated"
+        },
+        {
+          "id": "C",
+          "text": "composing"
+        },
+        {
+          "id": "D",
+          "text": "cultivate"
+        },
+        {
+          "id": "E",
+          "text": "depressive"
+        },
+        {
+          "id": "F",
+          "text": "directly"
+        },
+        {
+          "id": "G",
+          "text": "emotions"
+        },
+        {
+          "id": "H",
+          "text": "however"
+        },
+        {
+          "id": "I",
+          "text": "implications"
+        },
+        {
+          "id": "J",
+          "text": "interfered"
+        },
+        {
+          "id": "K",
+          "text": "involving"
+        },
+        {
+          "id": "L",
+          "text": "note"
+        },
+        {
+          "id": "M",
+          "text": "precisely"
+        },
+        {
+          "id": "N",
+          "text": "superficial"
+        },
+        {
+          "id": "O",
+          "text": "therefore"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "先看第 35 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 I（implications）。本空所在句：\"This difference suggests that how mothers and fathers spend time with their children might have important [35] ____ for their wellbeing,\" the authors write.\n将本空替换为 implications 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-2-nonlistening-q36",
+      "canonicalId": "lazynote-cet4-2022-12-2-q36",
+      "number": 36,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "People often grant a request just because they want to appear polite and helpful.",
+      "passage": "Learning to say no\n\nA) Not doing something will always be faster than doing it. This philosophy applies in many areas of life. For example, there is no meeting that goes faster than not having a meeting at all. This is not to say you should never attend another meeting, but the truth is that we say \"yes\" to too many things we don't actually want to do.\n\nB) How often do people ask you to do something and you just reply, \"Sure.\" Three days later, you're overwhelmed by how much is on your to-do list. We become frustrated by our obligations even though we were the ones who said \"yes\" to them in the first place. Even worse, people will occasionally fight to do things that waste time. You don't have to do something just because it exists. It's worth asking if things are necessary. Many of them are not, and a simple \"no\" will be more productive than whatever work the most efficient person can cope with. But if the benefits of saying \"no\" are so obvious, then why do we say \"yes\" so often?\n\nC) We say \"yes\" to many requests not because we want to do them, but because we don't want to be seen as rude or unhelpful. Often, we have to consider saying \"no\" to someone we will interact with again in the future—our co-worker, our spouse, our family and friends. Saying \"no\" to our superiors at work can be particularly difficult. In these situations, I like the approach recommended in Essentialism by Greg McKeown. He writes, \"Remind your superiors what you would be neglecting if you said 'yes' and force them to deal with the trade-off. For example, if your manager comes to you and asks you to do X, you can respond with 'Yes, I'm happy to make this the priority. Which of these other projects should I deprioritize to pay attention to this new project?'\"\n\nD) Collaborating with others is an important element of life. The thought of straining the relationship outweighs the commitment of our time and energy. For this reason, it can be helpful to be gracious in your response. Do whatever favors you can, and be warm-hearted and direct when you have to say no. But even after we have accounted for these social considerations, many of us still seem to do a poor job of managing the trade-off between yes and no. We find ourselves over-committed to things that don't meaningfully improve or support those around us, and certainly don't improve our own lives.\n\nE) Perhaps one issue is how we think about the meaning of yes and no. The words \"yes\" and \"no\" get so often used in comparison with each other that it feels like they carry equal weight in conversation. In reality, they're not just opposite in meaning, but of entirely different magnitudes in commitment. When you say \"no\", you're only saying \"no\" to one option. When you say \"yes\", you're saying \"no\" to every other option. I like how economist Tim Harford put it, \"Every time we say 'yes' to a request, we're also saying 'no' to anything else we might accomplish with the time?\" Once you're committed to something, you've already decided how that future block of time will be spent. In other words, saying \"no\" saves you time in the future. Saying \"yes\" costs you time in the future. \"No\" is a form of time credit. You retain the ability to spend your future time however you want. \"Yes\" is a form of time debt. You have to pay back your commitment at some point.\n\nF) \"No\" is a decision. \"Yes\" is a responsibility. Saying \"no\" is sometimes seen as a luxury that only those in power can afford. And it's true: turning down opportunities is easier when you can fall back on the safety net provided by power, money, and authority. But it's also true that saying \"no\" is not merely a privilege reserved for the successful. It's also a strategy that can help you become successful. Saying \"no\" is an important skill to develop at any stage of your career because it retains the most important asset in life: your time. As investor Pedro Sorrentino put it, \"If you don't guard your time, people will steal it from you.\" You need to say \"no\" to whatever isn't leading you toward your goals.\n\nG) Nobody embodied this idea better than Steve Jobs, who said, \"People think focus means saying 'yes' to the thing you've got to focus on. But that's not what it means at all. It means saying 'no' to the hundred other good ideas that there are. You have to pick carefully.\" Jobs had another great quote about saying \"no\": \"I'm actually as proud of the things we haven't done as the things I have done. Innovation is saying 'no' to 1,000 things.\"\n\nH) Over time, as you continue to improve and succeed, your strategy needs to change. The opportunity cost of your time increases as you become more successful. At first, you just eliminate the obvious distractions and explore the rest. As your skills improve and you learn to separate what works from what doesn't, you have to continually increase your threshold for saying \"yes\". You still need to say \"no\" to distractions, but you also need to learn to say \"no\" to opportunities that were previously good uses of time, so you can make space for better uses of time. It's a good problem to have, but it can be a tough skill to master.\n\nI) What is true about health is also true about productivity: an ounce of prevention is worth a pound of cure. More effort is wasted doing things that don't matter than is wasted doing things inefficiently. And if that is the case, elimination is a more useful skill than optimization. I'm reminded of the famous Peter Drucker quote, \"There is nothing so useless as doing efficiently that which should not be done at all.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 C 段。题干：People often grant a request just because they want to appear polite and helpful.\n核对该段原文：We say \"yes\" to many requests not because we want to do them, but because we don't want to be seen as rude or unhelpful. Often, we have to consider saying \"no\" to someone we will interact with again in the future—our co-worker, our spouse, our family and friends. Saying \"no\" to our superiors at work can be particularly difficult. In these situations, I like the approach recommended in Essentialism by Greg McKeown. He writes, \"Remind your superiors what you would be neglecting if you said 'yes' and force them to deal with the trade-off. For example, if your manager comes to you and asks you to do X, you can respond with 'Yes, I'm happy to make this the priority. Which of these other projects should I deprioritize to pay attention to this new project?'\"\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-2-nonlistening-q37",
+      "canonicalId": "lazynote-cet4-2022-12-2-q37",
+      "number": 37,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "It's no easy job learning to say \"no\" to opportunities that were once considered worth grasping.",
+      "passage": "Learning to say no\n\nA) Not doing something will always be faster than doing it. This philosophy applies in many areas of life. For example, there is no meeting that goes faster than not having a meeting at all. This is not to say you should never attend another meeting, but the truth is that we say \"yes\" to too many things we don't actually want to do.\n\nB) How often do people ask you to do something and you just reply, \"Sure.\" Three days later, you're overwhelmed by how much is on your to-do list. We become frustrated by our obligations even though we were the ones who said \"yes\" to them in the first place. Even worse, people will occasionally fight to do things that waste time. You don't have to do something just because it exists. It's worth asking if things are necessary. Many of them are not, and a simple \"no\" will be more productive than whatever work the most efficient person can cope with. But if the benefits of saying \"no\" are so obvious, then why do we say \"yes\" so often?\n\nC) We say \"yes\" to many requests not because we want to do them, but because we don't want to be seen as rude or unhelpful. Often, we have to consider saying \"no\" to someone we will interact with again in the future—our co-worker, our spouse, our family and friends. Saying \"no\" to our superiors at work can be particularly difficult. In these situations, I like the approach recommended in Essentialism by Greg McKeown. He writes, \"Remind your superiors what you would be neglecting if you said 'yes' and force them to deal with the trade-off. For example, if your manager comes to you and asks you to do X, you can respond with 'Yes, I'm happy to make this the priority. Which of these other projects should I deprioritize to pay attention to this new project?'\"\n\nD) Collaborating with others is an important element of life. The thought of straining the relationship outweighs the commitment of our time and energy. For this reason, it can be helpful to be gracious in your response. Do whatever favors you can, and be warm-hearted and direct when you have to say no. But even after we have accounted for these social considerations, many of us still seem to do a poor job of managing the trade-off between yes and no. We find ourselves over-committed to things that don't meaningfully improve or support those around us, and certainly don't improve our own lives.\n\nE) Perhaps one issue is how we think about the meaning of yes and no. The words \"yes\" and \"no\" get so often used in comparison with each other that it feels like they carry equal weight in conversation. In reality, they're not just opposite in meaning, but of entirely different magnitudes in commitment. When you say \"no\", you're only saying \"no\" to one option. When you say \"yes\", you're saying \"no\" to every other option. I like how economist Tim Harford put it, \"Every time we say 'yes' to a request, we're also saying 'no' to anything else we might accomplish with the time?\" Once you're committed to something, you've already decided how that future block of time will be spent. In other words, saying \"no\" saves you time in the future. Saying \"yes\" costs you time in the future. \"No\" is a form of time credit. You retain the ability to spend your future time however you want. \"Yes\" is a form of time debt. You have to pay back your commitment at some point.\n\nF) \"No\" is a decision. \"Yes\" is a responsibility. Saying \"no\" is sometimes seen as a luxury that only those in power can afford. And it's true: turning down opportunities is easier when you can fall back on the safety net provided by power, money, and authority. But it's also true that saying \"no\" is not merely a privilege reserved for the successful. It's also a strategy that can help you become successful. Saying \"no\" is an important skill to develop at any stage of your career because it retains the most important asset in life: your time. As investor Pedro Sorrentino put it, \"If you don't guard your time, people will steal it from you.\" You need to say \"no\" to whatever isn't leading you toward your goals.\n\nG) Nobody embodied this idea better than Steve Jobs, who said, \"People think focus means saying 'yes' to the thing you've got to focus on. But that's not what it means at all. It means saying 'no' to the hundred other good ideas that there are. You have to pick carefully.\" Jobs had another great quote about saying \"no\": \"I'm actually as proud of the things we haven't done as the things I have done. Innovation is saying 'no' to 1,000 things.\"\n\nH) Over time, as you continue to improve and succeed, your strategy needs to change. The opportunity cost of your time increases as you become more successful. At first, you just eliminate the obvious distractions and explore the rest. As your skills improve and you learn to separate what works from what doesn't, you have to continually increase your threshold for saying \"yes\". You still need to say \"no\" to distractions, but you also need to learn to say \"no\" to opportunities that were previously good uses of time, so you can make space for better uses of time. It's a good problem to have, but it can be a tough skill to master.\n\nI) What is true about health is also true about productivity: an ounce of prevention is worth a pound of cure. More effort is wasted doing things that don't matter than is wasted doing things inefficiently. And if that is the case, elimination is a more useful skill than optimization. I'm reminded of the famous Peter Drucker quote, \"There is nothing so useless as doing efficiently that which should not be done at all.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 H 段。题干：It's no easy job learning to say \"no\" to opportunities that were once considered worth grasping.\n核对该段原文：Over time, as you continue to improve and succeed, your strategy needs to change. The opportunity cost of your time increases as you become more successful. At first, you just eliminate the obvious distractions and explore the rest. As your skills improve and you learn to separate what works from what doesn't, you have to continually increase your threshold for saying \"yes\". You still need to say \"no\" to distractions, but you also need to learn to say \"no\" to opportunities that were previously good uses of time, so you can make space for better uses of time. It's a good problem to have, but it can be a tough skill to master.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-2-nonlistening-q38",
+      "canonicalId": "lazynote-cet4-2022-12-2-q38",
+      "number": 38,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "When you decline a request, you are saving your future time.",
+      "passage": "Learning to say no\n\nA) Not doing something will always be faster than doing it. This philosophy applies in many areas of life. For example, there is no meeting that goes faster than not having a meeting at all. This is not to say you should never attend another meeting, but the truth is that we say \"yes\" to too many things we don't actually want to do.\n\nB) How often do people ask you to do something and you just reply, \"Sure.\" Three days later, you're overwhelmed by how much is on your to-do list. We become frustrated by our obligations even though we were the ones who said \"yes\" to them in the first place. Even worse, people will occasionally fight to do things that waste time. You don't have to do something just because it exists. It's worth asking if things are necessary. Many of them are not, and a simple \"no\" will be more productive than whatever work the most efficient person can cope with. But if the benefits of saying \"no\" are so obvious, then why do we say \"yes\" so often?\n\nC) We say \"yes\" to many requests not because we want to do them, but because we don't want to be seen as rude or unhelpful. Often, we have to consider saying \"no\" to someone we will interact with again in the future—our co-worker, our spouse, our family and friends. Saying \"no\" to our superiors at work can be particularly difficult. In these situations, I like the approach recommended in Essentialism by Greg McKeown. He writes, \"Remind your superiors what you would be neglecting if you said 'yes' and force them to deal with the trade-off. For example, if your manager comes to you and asks you to do X, you can respond with 'Yes, I'm happy to make this the priority. Which of these other projects should I deprioritize to pay attention to this new project?'\"\n\nD) Collaborating with others is an important element of life. The thought of straining the relationship outweighs the commitment of our time and energy. For this reason, it can be helpful to be gracious in your response. Do whatever favors you can, and be warm-hearted and direct when you have to say no. But even after we have accounted for these social considerations, many of us still seem to do a poor job of managing the trade-off between yes and no. We find ourselves over-committed to things that don't meaningfully improve or support those around us, and certainly don't improve our own lives.\n\nE) Perhaps one issue is how we think about the meaning of yes and no. The words \"yes\" and \"no\" get so often used in comparison with each other that it feels like they carry equal weight in conversation. In reality, they're not just opposite in meaning, but of entirely different magnitudes in commitment. When you say \"no\", you're only saying \"no\" to one option. When you say \"yes\", you're saying \"no\" to every other option. I like how economist Tim Harford put it, \"Every time we say 'yes' to a request, we're also saying 'no' to anything else we might accomplish with the time?\" Once you're committed to something, you've already decided how that future block of time will be spent. In other words, saying \"no\" saves you time in the future. Saying \"yes\" costs you time in the future. \"No\" is a form of time credit. You retain the ability to spend your future time however you want. \"Yes\" is a form of time debt. You have to pay back your commitment at some point.\n\nF) \"No\" is a decision. \"Yes\" is a responsibility. Saying \"no\" is sometimes seen as a luxury that only those in power can afford. And it's true: turning down opportunities is easier when you can fall back on the safety net provided by power, money, and authority. But it's also true that saying \"no\" is not merely a privilege reserved for the successful. It's also a strategy that can help you become successful. Saying \"no\" is an important skill to develop at any stage of your career because it retains the most important asset in life: your time. As investor Pedro Sorrentino put it, \"If you don't guard your time, people will steal it from you.\" You need to say \"no\" to whatever isn't leading you toward your goals.\n\nG) Nobody embodied this idea better than Steve Jobs, who said, \"People think focus means saying 'yes' to the thing you've got to focus on. But that's not what it means at all. It means saying 'no' to the hundred other good ideas that there are. You have to pick carefully.\" Jobs had another great quote about saying \"no\": \"I'm actually as proud of the things we haven't done as the things I have done. Innovation is saying 'no' to 1,000 things.\"\n\nH) Over time, as you continue to improve and succeed, your strategy needs to change. The opportunity cost of your time increases as you become more successful. At first, you just eliminate the obvious distractions and explore the rest. As your skills improve and you learn to separate what works from what doesn't, you have to continually increase your threshold for saying \"yes\". You still need to say \"no\" to distractions, but you also need to learn to say \"no\" to opportunities that were previously good uses of time, so you can make space for better uses of time. It's a good problem to have, but it can be a tough skill to master.\n\nI) What is true about health is also true about productivity: an ounce of prevention is worth a pound of cure. More effort is wasted doing things that don't matter than is wasted doing things inefficiently. And if that is the case, elimination is a more useful skill than optimization. I'm reminded of the famous Peter Drucker quote, \"There is nothing so useless as doing efficiently that which should not be done at all.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 E 段。题干：When you decline a request, you are saving your future time.\n核对该段原文：Perhaps one issue is how we think about the meaning of yes and no. The words \"yes\" and \"no\" get so often used in comparison with each other that it feels like they carry equal weight in conversation. In reality, they're not just opposite in meaning, but of entirely different magnitudes in commitment. When you say \"no\", you're only saying \"no\" to one option. When you say \"yes\", you're saying \"no\" to every other option. I like how economist Tim Harford put it, \"Every time we say 'yes' to a request, we're also saying 'no' to anything else we might accomplish with the time?\" Once you're committed to something, you've already decided how that future block of time will be spent. In other words, saying \"no\" saves you time in the future. Saying \"yes\" costs you time in the future. \"No\" is a form of time credit. You retain the ability to spend your future time however you want. \"Yes\" is a form of time debt. You have to pay back your commitment at some point.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-2-nonlistening-q39",
+      "canonicalId": "lazynote-cet4-2022-12-2-q39",
+      "number": 39,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "People sometimes struggle to do things that are simply a waste of time.",
+      "passage": "Learning to say no\n\nA) Not doing something will always be faster than doing it. This philosophy applies in many areas of life. For example, there is no meeting that goes faster than not having a meeting at all. This is not to say you should never attend another meeting, but the truth is that we say \"yes\" to too many things we don't actually want to do.\n\nB) How often do people ask you to do something and you just reply, \"Sure.\" Three days later, you're overwhelmed by how much is on your to-do list. We become frustrated by our obligations even though we were the ones who said \"yes\" to them in the first place. Even worse, people will occasionally fight to do things that waste time. You don't have to do something just because it exists. It's worth asking if things are necessary. Many of them are not, and a simple \"no\" will be more productive than whatever work the most efficient person can cope with. But if the benefits of saying \"no\" are so obvious, then why do we say \"yes\" so often?\n\nC) We say \"yes\" to many requests not because we want to do them, but because we don't want to be seen as rude or unhelpful. Often, we have to consider saying \"no\" to someone we will interact with again in the future—our co-worker, our spouse, our family and friends. Saying \"no\" to our superiors at work can be particularly difficult. In these situations, I like the approach recommended in Essentialism by Greg McKeown. He writes, \"Remind your superiors what you would be neglecting if you said 'yes' and force them to deal with the trade-off. For example, if your manager comes to you and asks you to do X, you can respond with 'Yes, I'm happy to make this the priority. Which of these other projects should I deprioritize to pay attention to this new project?'\"\n\nD) Collaborating with others is an important element of life. The thought of straining the relationship outweighs the commitment of our time and energy. For this reason, it can be helpful to be gracious in your response. Do whatever favors you can, and be warm-hearted and direct when you have to say no. But even after we have accounted for these social considerations, many of us still seem to do a poor job of managing the trade-off between yes and no. We find ourselves over-committed to things that don't meaningfully improve or support those around us, and certainly don't improve our own lives.\n\nE) Perhaps one issue is how we think about the meaning of yes and no. The words \"yes\" and \"no\" get so often used in comparison with each other that it feels like they carry equal weight in conversation. In reality, they're not just opposite in meaning, but of entirely different magnitudes in commitment. When you say \"no\", you're only saying \"no\" to one option. When you say \"yes\", you're saying \"no\" to every other option. I like how economist Tim Harford put it, \"Every time we say 'yes' to a request, we're also saying 'no' to anything else we might accomplish with the time?\" Once you're committed to something, you've already decided how that future block of time will be spent. In other words, saying \"no\" saves you time in the future. Saying \"yes\" costs you time in the future. \"No\" is a form of time credit. You retain the ability to spend your future time however you want. \"Yes\" is a form of time debt. You have to pay back your commitment at some point.\n\nF) \"No\" is a decision. \"Yes\" is a responsibility. Saying \"no\" is sometimes seen as a luxury that only those in power can afford. And it's true: turning down opportunities is easier when you can fall back on the safety net provided by power, money, and authority. But it's also true that saying \"no\" is not merely a privilege reserved for the successful. It's also a strategy that can help you become successful. Saying \"no\" is an important skill to develop at any stage of your career because it retains the most important asset in life: your time. As investor Pedro Sorrentino put it, \"If you don't guard your time, people will steal it from you.\" You need to say \"no\" to whatever isn't leading you toward your goals.\n\nG) Nobody embodied this idea better than Steve Jobs, who said, \"People think focus means saying 'yes' to the thing you've got to focus on. But that's not what it means at all. It means saying 'no' to the hundred other good ideas that there are. You have to pick carefully.\" Jobs had another great quote about saying \"no\": \"I'm actually as proud of the things we haven't done as the things I have done. Innovation is saying 'no' to 1,000 things.\"\n\nH) Over time, as you continue to improve and succeed, your strategy needs to change. The opportunity cost of your time increases as you become more successful. At first, you just eliminate the obvious distractions and explore the rest. As your skills improve and you learn to separate what works from what doesn't, you have to continually increase your threshold for saying \"yes\". You still need to say \"no\" to distractions, but you also need to learn to say \"no\" to opportunities that were previously good uses of time, so you can make space for better uses of time. It's a good problem to have, but it can be a tough skill to master.\n\nI) What is true about health is also true about productivity: an ounce of prevention is worth a pound of cure. More effort is wasted doing things that don't matter than is wasted doing things inefficiently. And if that is the case, elimination is a more useful skill than optimization. I'm reminded of the famous Peter Drucker quote, \"There is nothing so useless as doing efficiently that which should not be done at all.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 B 段。题干：People sometimes struggle to do things that are simply a waste of time.\n核对该段原文：How often do people ask you to do something and you just reply, \"Sure.\" Three days later, you're overwhelmed by how much is on your to-do list. We become frustrated by our obligations even though we were the ones who said \"yes\" to them in the first place. Even worse, people will occasionally fight to do things that waste time. You don't have to do something just because it exists. It's worth asking if things are necessary. Many of them are not, and a simple \"no\" will be more productive than whatever work the most efficient person can cope with. But if the benefits of saying \"no\" are so obvious, then why do we say \"yes\" so often?\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-2-nonlistening-q40",
+      "canonicalId": "lazynote-cet4-2022-12-2-q40",
+      "number": 40,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Doing efficiently what is not worth doing is the most useless effort.",
+      "passage": "Learning to say no\n\nA) Not doing something will always be faster than doing it. This philosophy applies in many areas of life. For example, there is no meeting that goes faster than not having a meeting at all. This is not to say you should never attend another meeting, but the truth is that we say \"yes\" to too many things we don't actually want to do.\n\nB) How often do people ask you to do something and you just reply, \"Sure.\" Three days later, you're overwhelmed by how much is on your to-do list. We become frustrated by our obligations even though we were the ones who said \"yes\" to them in the first place. Even worse, people will occasionally fight to do things that waste time. You don't have to do something just because it exists. It's worth asking if things are necessary. Many of them are not, and a simple \"no\" will be more productive than whatever work the most efficient person can cope with. But if the benefits of saying \"no\" are so obvious, then why do we say \"yes\" so often?\n\nC) We say \"yes\" to many requests not because we want to do them, but because we don't want to be seen as rude or unhelpful. Often, we have to consider saying \"no\" to someone we will interact with again in the future—our co-worker, our spouse, our family and friends. Saying \"no\" to our superiors at work can be particularly difficult. In these situations, I like the approach recommended in Essentialism by Greg McKeown. He writes, \"Remind your superiors what you would be neglecting if you said 'yes' and force them to deal with the trade-off. For example, if your manager comes to you and asks you to do X, you can respond with 'Yes, I'm happy to make this the priority. Which of these other projects should I deprioritize to pay attention to this new project?'\"\n\nD) Collaborating with others is an important element of life. The thought of straining the relationship outweighs the commitment of our time and energy. For this reason, it can be helpful to be gracious in your response. Do whatever favors you can, and be warm-hearted and direct when you have to say no. But even after we have accounted for these social considerations, many of us still seem to do a poor job of managing the trade-off between yes and no. We find ourselves over-committed to things that don't meaningfully improve or support those around us, and certainly don't improve our own lives.\n\nE) Perhaps one issue is how we think about the meaning of yes and no. The words \"yes\" and \"no\" get so often used in comparison with each other that it feels like they carry equal weight in conversation. In reality, they're not just opposite in meaning, but of entirely different magnitudes in commitment. When you say \"no\", you're only saying \"no\" to one option. When you say \"yes\", you're saying \"no\" to every other option. I like how economist Tim Harford put it, \"Every time we say 'yes' to a request, we're also saying 'no' to anything else we might accomplish with the time?\" Once you're committed to something, you've already decided how that future block of time will be spent. In other words, saying \"no\" saves you time in the future. Saying \"yes\" costs you time in the future. \"No\" is a form of time credit. You retain the ability to spend your future time however you want. \"Yes\" is a form of time debt. You have to pay back your commitment at some point.\n\nF) \"No\" is a decision. \"Yes\" is a responsibility. Saying \"no\" is sometimes seen as a luxury that only those in power can afford. And it's true: turning down opportunities is easier when you can fall back on the safety net provided by power, money, and authority. But it's also true that saying \"no\" is not merely a privilege reserved for the successful. It's also a strategy that can help you become successful. Saying \"no\" is an important skill to develop at any stage of your career because it retains the most important asset in life: your time. As investor Pedro Sorrentino put it, \"If you don't guard your time, people will steal it from you.\" You need to say \"no\" to whatever isn't leading you toward your goals.\n\nG) Nobody embodied this idea better than Steve Jobs, who said, \"People think focus means saying 'yes' to the thing you've got to focus on. But that's not what it means at all. It means saying 'no' to the hundred other good ideas that there are. You have to pick carefully.\" Jobs had another great quote about saying \"no\": \"I'm actually as proud of the things we haven't done as the things I have done. Innovation is saying 'no' to 1,000 things.\"\n\nH) Over time, as you continue to improve and succeed, your strategy needs to change. The opportunity cost of your time increases as you become more successful. At first, you just eliminate the obvious distractions and explore the rest. As your skills improve and you learn to separate what works from what doesn't, you have to continually increase your threshold for saying \"yes\". You still need to say \"no\" to distractions, but you also need to learn to say \"no\" to opportunities that were previously good uses of time, so you can make space for better uses of time. It's a good problem to have, but it can be a tough skill to master.\n\nI) What is true about health is also true about productivity: an ounce of prevention is worth a pound of cure. More effort is wasted doing things that don't matter than is wasted doing things inefficiently. And if that is the case, elimination is a more useful skill than optimization. I'm reminded of the famous Peter Drucker quote, \"There is nothing so useless as doing efficiently that which should not be done at all.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 I 段。题干：Doing efficiently what is not worth doing is the most useless effort.\n核对该段原文：What is true about health is also true about productivity: an ounce of prevention is worth a pound of cure. More effort is wasted doing things that don't matter than is wasted doing things inefficiently. And if that is the case, elimination is a more useful skill than optimization. I'm reminded of the famous Peter Drucker quote, \"There is nothing so useless as doing efficiently that which should not be done at all.\"\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-2-nonlistening-q41",
+      "canonicalId": "lazynote-cet4-2022-12-2-q41",
+      "number": 41,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "It is especially difficult for people to decline to do what their superiors ask them to do.",
+      "passage": "Learning to say no\n\nA) Not doing something will always be faster than doing it. This philosophy applies in many areas of life. For example, there is no meeting that goes faster than not having a meeting at all. This is not to say you should never attend another meeting, but the truth is that we say \"yes\" to too many things we don't actually want to do.\n\nB) How often do people ask you to do something and you just reply, \"Sure.\" Three days later, you're overwhelmed by how much is on your to-do list. We become frustrated by our obligations even though we were the ones who said \"yes\" to them in the first place. Even worse, people will occasionally fight to do things that waste time. You don't have to do something just because it exists. It's worth asking if things are necessary. Many of them are not, and a simple \"no\" will be more productive than whatever work the most efficient person can cope with. But if the benefits of saying \"no\" are so obvious, then why do we say \"yes\" so often?\n\nC) We say \"yes\" to many requests not because we want to do them, but because we don't want to be seen as rude or unhelpful. Often, we have to consider saying \"no\" to someone we will interact with again in the future—our co-worker, our spouse, our family and friends. Saying \"no\" to our superiors at work can be particularly difficult. In these situations, I like the approach recommended in Essentialism by Greg McKeown. He writes, \"Remind your superiors what you would be neglecting if you said 'yes' and force them to deal with the trade-off. For example, if your manager comes to you and asks you to do X, you can respond with 'Yes, I'm happy to make this the priority. Which of these other projects should I deprioritize to pay attention to this new project?'\"\n\nD) Collaborating with others is an important element of life. The thought of straining the relationship outweighs the commitment of our time and energy. For this reason, it can be helpful to be gracious in your response. Do whatever favors you can, and be warm-hearted and direct when you have to say no. But even after we have accounted for these social considerations, many of us still seem to do a poor job of managing the trade-off between yes and no. We find ourselves over-committed to things that don't meaningfully improve or support those around us, and certainly don't improve our own lives.\n\nE) Perhaps one issue is how we think about the meaning of yes and no. The words \"yes\" and \"no\" get so often used in comparison with each other that it feels like they carry equal weight in conversation. In reality, they're not just opposite in meaning, but of entirely different magnitudes in commitment. When you say \"no\", you're only saying \"no\" to one option. When you say \"yes\", you're saying \"no\" to every other option. I like how economist Tim Harford put it, \"Every time we say 'yes' to a request, we're also saying 'no' to anything else we might accomplish with the time?\" Once you're committed to something, you've already decided how that future block of time will be spent. In other words, saying \"no\" saves you time in the future. Saying \"yes\" costs you time in the future. \"No\" is a form of time credit. You retain the ability to spend your future time however you want. \"Yes\" is a form of time debt. You have to pay back your commitment at some point.\n\nF) \"No\" is a decision. \"Yes\" is a responsibility. Saying \"no\" is sometimes seen as a luxury that only those in power can afford. And it's true: turning down opportunities is easier when you can fall back on the safety net provided by power, money, and authority. But it's also true that saying \"no\" is not merely a privilege reserved for the successful. It's also a strategy that can help you become successful. Saying \"no\" is an important skill to develop at any stage of your career because it retains the most important asset in life: your time. As investor Pedro Sorrentino put it, \"If you don't guard your time, people will steal it from you.\" You need to say \"no\" to whatever isn't leading you toward your goals.\n\nG) Nobody embodied this idea better than Steve Jobs, who said, \"People think focus means saying 'yes' to the thing you've got to focus on. But that's not what it means at all. It means saying 'no' to the hundred other good ideas that there are. You have to pick carefully.\" Jobs had another great quote about saying \"no\": \"I'm actually as proud of the things we haven't done as the things I have done. Innovation is saying 'no' to 1,000 things.\"\n\nH) Over time, as you continue to improve and succeed, your strategy needs to change. The opportunity cost of your time increases as you become more successful. At first, you just eliminate the obvious distractions and explore the rest. As your skills improve and you learn to separate what works from what doesn't, you have to continually increase your threshold for saying \"yes\". You still need to say \"no\" to distractions, but you also need to learn to say \"no\" to opportunities that were previously good uses of time, so you can make space for better uses of time. It's a good problem to have, but it can be a tough skill to master.\n\nI) What is true about health is also true about productivity: an ounce of prevention is worth a pound of cure. More effort is wasted doing things that don't matter than is wasted doing things inefficiently. And if that is the case, elimination is a more useful skill than optimization. I'm reminded of the famous Peter Drucker quote, \"There is nothing so useless as doing efficiently that which should not be done at all.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 C 段。题干：It is especially difficult for people to decline to do what their superiors ask them to do.\n核对该段原文：We say \"yes\" to many requests not because we want to do them, but because we don't want to be seen as rude or unhelpful. Often, we have to consider saying \"no\" to someone we will interact with again in the future—our co-worker, our spouse, our family and friends. Saying \"no\" to our superiors at work can be particularly difficult. In these situations, I like the approach recommended in Essentialism by Greg McKeown. He writes, \"Remind your superiors what you would be neglecting if you said 'yes' and force them to deal with the trade-off. For example, if your manager comes to you and asks you to do X, you can respond with 'Yes, I'm happy to make this the priority. Which of these other projects should I deprioritize to pay attention to this new project?'\"\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-2-nonlistening-q42",
+      "canonicalId": "lazynote-cet4-2022-12-2-q42",
+      "number": 42,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "People agree to do too many things they are in fact unwilling to do.",
+      "passage": "Learning to say no\n\nA) Not doing something will always be faster than doing it. This philosophy applies in many areas of life. For example, there is no meeting that goes faster than not having a meeting at all. This is not to say you should never attend another meeting, but the truth is that we say \"yes\" to too many things we don't actually want to do.\n\nB) How often do people ask you to do something and you just reply, \"Sure.\" Three days later, you're overwhelmed by how much is on your to-do list. We become frustrated by our obligations even though we were the ones who said \"yes\" to them in the first place. Even worse, people will occasionally fight to do things that waste time. You don't have to do something just because it exists. It's worth asking if things are necessary. Many of them are not, and a simple \"no\" will be more productive than whatever work the most efficient person can cope with. But if the benefits of saying \"no\" are so obvious, then why do we say \"yes\" so often?\n\nC) We say \"yes\" to many requests not because we want to do them, but because we don't want to be seen as rude or unhelpful. Often, we have to consider saying \"no\" to someone we will interact with again in the future—our co-worker, our spouse, our family and friends. Saying \"no\" to our superiors at work can be particularly difficult. In these situations, I like the approach recommended in Essentialism by Greg McKeown. He writes, \"Remind your superiors what you would be neglecting if you said 'yes' and force them to deal with the trade-off. For example, if your manager comes to you and asks you to do X, you can respond with 'Yes, I'm happy to make this the priority. Which of these other projects should I deprioritize to pay attention to this new project?'\"\n\nD) Collaborating with others is an important element of life. The thought of straining the relationship outweighs the commitment of our time and energy. For this reason, it can be helpful to be gracious in your response. Do whatever favors you can, and be warm-hearted and direct when you have to say no. But even after we have accounted for these social considerations, many of us still seem to do a poor job of managing the trade-off between yes and no. We find ourselves over-committed to things that don't meaningfully improve or support those around us, and certainly don't improve our own lives.\n\nE) Perhaps one issue is how we think about the meaning of yes and no. The words \"yes\" and \"no\" get so often used in comparison with each other that it feels like they carry equal weight in conversation. In reality, they're not just opposite in meaning, but of entirely different magnitudes in commitment. When you say \"no\", you're only saying \"no\" to one option. When you say \"yes\", you're saying \"no\" to every other option. I like how economist Tim Harford put it, \"Every time we say 'yes' to a request, we're also saying 'no' to anything else we might accomplish with the time?\" Once you're committed to something, you've already decided how that future block of time will be spent. In other words, saying \"no\" saves you time in the future. Saying \"yes\" costs you time in the future. \"No\" is a form of time credit. You retain the ability to spend your future time however you want. \"Yes\" is a form of time debt. You have to pay back your commitment at some point.\n\nF) \"No\" is a decision. \"Yes\" is a responsibility. Saying \"no\" is sometimes seen as a luxury that only those in power can afford. And it's true: turning down opportunities is easier when you can fall back on the safety net provided by power, money, and authority. But it's also true that saying \"no\" is not merely a privilege reserved for the successful. It's also a strategy that can help you become successful. Saying \"no\" is an important skill to develop at any stage of your career because it retains the most important asset in life: your time. As investor Pedro Sorrentino put it, \"If you don't guard your time, people will steal it from you.\" You need to say \"no\" to whatever isn't leading you toward your goals.\n\nG) Nobody embodied this idea better than Steve Jobs, who said, \"People think focus means saying 'yes' to the thing you've got to focus on. But that's not what it means at all. It means saying 'no' to the hundred other good ideas that there are. You have to pick carefully.\" Jobs had another great quote about saying \"no\": \"I'm actually as proud of the things we haven't done as the things I have done. Innovation is saying 'no' to 1,000 things.\"\n\nH) Over time, as you continue to improve and succeed, your strategy needs to change. The opportunity cost of your time increases as you become more successful. At first, you just eliminate the obvious distractions and explore the rest. As your skills improve and you learn to separate what works from what doesn't, you have to continually increase your threshold for saying \"yes\". You still need to say \"no\" to distractions, but you also need to learn to say \"no\" to opportunities that were previously good uses of time, so you can make space for better uses of time. It's a good problem to have, but it can be a tough skill to master.\n\nI) What is true about health is also true about productivity: an ounce of prevention is worth a pound of cure. More effort is wasted doing things that don't matter than is wasted doing things inefficiently. And if that is the case, elimination is a more useful skill than optimization. I'm reminded of the famous Peter Drucker quote, \"There is nothing so useless as doing efficiently that which should not be done at all.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 A 段。题干：People agree to do too many things they are in fact unwilling to do.\n核对该段原文：Not doing something will always be faster than doing it. This philosophy applies in many areas of life. For example, there is no meeting that goes faster than not having a meeting at all. This is not to say you should never attend another meeting, but the truth is that we say \"yes\" to too many things we don't actually want to do.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-2-nonlistening-q43",
+      "canonicalId": "lazynote-cet4-2022-12-2-q43",
+      "number": 43,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "According to one famous entrepreneur, innovation means refusal to do an enormous number of things.",
+      "passage": "Learning to say no\n\nA) Not doing something will always be faster than doing it. This philosophy applies in many areas of life. For example, there is no meeting that goes faster than not having a meeting at all. This is not to say you should never attend another meeting, but the truth is that we say \"yes\" to too many things we don't actually want to do.\n\nB) How often do people ask you to do something and you just reply, \"Sure.\" Three days later, you're overwhelmed by how much is on your to-do list. We become frustrated by our obligations even though we were the ones who said \"yes\" to them in the first place. Even worse, people will occasionally fight to do things that waste time. You don't have to do something just because it exists. It's worth asking if things are necessary. Many of them are not, and a simple \"no\" will be more productive than whatever work the most efficient person can cope with. But if the benefits of saying \"no\" are so obvious, then why do we say \"yes\" so often?\n\nC) We say \"yes\" to many requests not because we want to do them, but because we don't want to be seen as rude or unhelpful. Often, we have to consider saying \"no\" to someone we will interact with again in the future—our co-worker, our spouse, our family and friends. Saying \"no\" to our superiors at work can be particularly difficult. In these situations, I like the approach recommended in Essentialism by Greg McKeown. He writes, \"Remind your superiors what you would be neglecting if you said 'yes' and force them to deal with the trade-off. For example, if your manager comes to you and asks you to do X, you can respond with 'Yes, I'm happy to make this the priority. Which of these other projects should I deprioritize to pay attention to this new project?'\"\n\nD) Collaborating with others is an important element of life. The thought of straining the relationship outweighs the commitment of our time and energy. For this reason, it can be helpful to be gracious in your response. Do whatever favors you can, and be warm-hearted and direct when you have to say no. But even after we have accounted for these social considerations, many of us still seem to do a poor job of managing the trade-off between yes and no. We find ourselves over-committed to things that don't meaningfully improve or support those around us, and certainly don't improve our own lives.\n\nE) Perhaps one issue is how we think about the meaning of yes and no. The words \"yes\" and \"no\" get so often used in comparison with each other that it feels like they carry equal weight in conversation. In reality, they're not just opposite in meaning, but of entirely different magnitudes in commitment. When you say \"no\", you're only saying \"no\" to one option. When you say \"yes\", you're saying \"no\" to every other option. I like how economist Tim Harford put it, \"Every time we say 'yes' to a request, we're also saying 'no' to anything else we might accomplish with the time?\" Once you're committed to something, you've already decided how that future block of time will be spent. In other words, saying \"no\" saves you time in the future. Saying \"yes\" costs you time in the future. \"No\" is a form of time credit. You retain the ability to spend your future time however you want. \"Yes\" is a form of time debt. You have to pay back your commitment at some point.\n\nF) \"No\" is a decision. \"Yes\" is a responsibility. Saying \"no\" is sometimes seen as a luxury that only those in power can afford. And it's true: turning down opportunities is easier when you can fall back on the safety net provided by power, money, and authority. But it's also true that saying \"no\" is not merely a privilege reserved for the successful. It's also a strategy that can help you become successful. Saying \"no\" is an important skill to develop at any stage of your career because it retains the most important asset in life: your time. As investor Pedro Sorrentino put it, \"If you don't guard your time, people will steal it from you.\" You need to say \"no\" to whatever isn't leading you toward your goals.\n\nG) Nobody embodied this idea better than Steve Jobs, who said, \"People think focus means saying 'yes' to the thing you've got to focus on. But that's not what it means at all. It means saying 'no' to the hundred other good ideas that there are. You have to pick carefully.\" Jobs had another great quote about saying \"no\": \"I'm actually as proud of the things we haven't done as the things I have done. Innovation is saying 'no' to 1,000 things.\"\n\nH) Over time, as you continue to improve and succeed, your strategy needs to change. The opportunity cost of your time increases as you become more successful. At first, you just eliminate the obvious distractions and explore the rest. As your skills improve and you learn to separate what works from what doesn't, you have to continually increase your threshold for saying \"yes\". You still need to say \"no\" to distractions, but you also need to learn to say \"no\" to opportunities that were previously good uses of time, so you can make space for better uses of time. It's a good problem to have, but it can be a tough skill to master.\n\nI) What is true about health is also true about productivity: an ounce of prevention is worth a pound of cure. More effort is wasted doing things that don't matter than is wasted doing things inefficiently. And if that is the case, elimination is a more useful skill than optimization. I'm reminded of the famous Peter Drucker quote, \"There is nothing so useless as doing efficiently that which should not be done at all.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 G 段。题干：According to one famous entrepreneur, innovation means refusal to do an enormous number of things.\n核对该段原文：Nobody embodied this idea better than Steve Jobs, who said, \"People think focus means saying 'yes' to the thing you've got to focus on. But that's not what it means at all. It means saying 'no' to the hundred other good ideas that there are. You have to pick carefully.\" Jobs had another great quote about saying \"no\": \"I'm actually as proud of the things we haven't done as the things I have done. Innovation is saying 'no' to 1,000 things.\"\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-2-nonlistening-q44",
+      "canonicalId": "lazynote-cet4-2022-12-2-q44",
+      "number": 44,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "It is an essential aspect of life to cooperate with other people.",
+      "passage": "Learning to say no\n\nA) Not doing something will always be faster than doing it. This philosophy applies in many areas of life. For example, there is no meeting that goes faster than not having a meeting at all. This is not to say you should never attend another meeting, but the truth is that we say \"yes\" to too many things we don't actually want to do.\n\nB) How often do people ask you to do something and you just reply, \"Sure.\" Three days later, you're overwhelmed by how much is on your to-do list. We become frustrated by our obligations even though we were the ones who said \"yes\" to them in the first place. Even worse, people will occasionally fight to do things that waste time. You don't have to do something just because it exists. It's worth asking if things are necessary. Many of them are not, and a simple \"no\" will be more productive than whatever work the most efficient person can cope with. But if the benefits of saying \"no\" are so obvious, then why do we say \"yes\" so often?\n\nC) We say \"yes\" to many requests not because we want to do them, but because we don't want to be seen as rude or unhelpful. Often, we have to consider saying \"no\" to someone we will interact with again in the future—our co-worker, our spouse, our family and friends. Saying \"no\" to our superiors at work can be particularly difficult. In these situations, I like the approach recommended in Essentialism by Greg McKeown. He writes, \"Remind your superiors what you would be neglecting if you said 'yes' and force them to deal with the trade-off. For example, if your manager comes to you and asks you to do X, you can respond with 'Yes, I'm happy to make this the priority. Which of these other projects should I deprioritize to pay attention to this new project?'\"\n\nD) Collaborating with others is an important element of life. The thought of straining the relationship outweighs the commitment of our time and energy. For this reason, it can be helpful to be gracious in your response. Do whatever favors you can, and be warm-hearted and direct when you have to say no. But even after we have accounted for these social considerations, many of us still seem to do a poor job of managing the trade-off between yes and no. We find ourselves over-committed to things that don't meaningfully improve or support those around us, and certainly don't improve our own lives.\n\nE) Perhaps one issue is how we think about the meaning of yes and no. The words \"yes\" and \"no\" get so often used in comparison with each other that it feels like they carry equal weight in conversation. In reality, they're not just opposite in meaning, but of entirely different magnitudes in commitment. When you say \"no\", you're only saying \"no\" to one option. When you say \"yes\", you're saying \"no\" to every other option. I like how economist Tim Harford put it, \"Every time we say 'yes' to a request, we're also saying 'no' to anything else we might accomplish with the time?\" Once you're committed to something, you've already decided how that future block of time will be spent. In other words, saying \"no\" saves you time in the future. Saying \"yes\" costs you time in the future. \"No\" is a form of time credit. You retain the ability to spend your future time however you want. \"Yes\" is a form of time debt. You have to pay back your commitment at some point.\n\nF) \"No\" is a decision. \"Yes\" is a responsibility. Saying \"no\" is sometimes seen as a luxury that only those in power can afford. And it's true: turning down opportunities is easier when you can fall back on the safety net provided by power, money, and authority. But it's also true that saying \"no\" is not merely a privilege reserved for the successful. It's also a strategy that can help you become successful. Saying \"no\" is an important skill to develop at any stage of your career because it retains the most important asset in life: your time. As investor Pedro Sorrentino put it, \"If you don't guard your time, people will steal it from you.\" You need to say \"no\" to whatever isn't leading you toward your goals.\n\nG) Nobody embodied this idea better than Steve Jobs, who said, \"People think focus means saying 'yes' to the thing you've got to focus on. But that's not what it means at all. It means saying 'no' to the hundred other good ideas that there are. You have to pick carefully.\" Jobs had another great quote about saying \"no\": \"I'm actually as proud of the things we haven't done as the things I have done. Innovation is saying 'no' to 1,000 things.\"\n\nH) Over time, as you continue to improve and succeed, your strategy needs to change. The opportunity cost of your time increases as you become more successful. At first, you just eliminate the obvious distractions and explore the rest. As your skills improve and you learn to separate what works from what doesn't, you have to continually increase your threshold for saying \"yes\". You still need to say \"no\" to distractions, but you also need to learn to say \"no\" to opportunities that were previously good uses of time, so you can make space for better uses of time. It's a good problem to have, but it can be a tough skill to master.\n\nI) What is true about health is also true about productivity: an ounce of prevention is worth a pound of cure. More effort is wasted doing things that don't matter than is wasted doing things inefficiently. And if that is the case, elimination is a more useful skill than optimization. I'm reminded of the famous Peter Drucker quote, \"There is nothing so useless as doing efficiently that which should not be done at all.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 D 段。题干：It is an essential aspect of life to cooperate with other people.\n核对该段原文：Collaborating with others is an important element of life. The thought of straining the relationship outweighs the commitment of our time and energy. For this reason, it can be helpful to be gracious in your response. Do whatever favors you can, and be warm-hearted and direct when you have to say no. But even after we have accounted for these social considerations, many of us still seem to do a poor job of managing the trade-off between yes and no. We find ourselves over-committed to things that don't meaningfully improve or support those around us, and certainly don't improve our own lives.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-2-nonlistening-q45",
+      "canonicalId": "lazynote-cet4-2022-12-2-q45",
+      "number": 45,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Refusing a request is sometimes seen as a privilege not enjoyed by ordinary people.",
+      "passage": "Learning to say no\n\nA) Not doing something will always be faster than doing it. This philosophy applies in many areas of life. For example, there is no meeting that goes faster than not having a meeting at all. This is not to say you should never attend another meeting, but the truth is that we say \"yes\" to too many things we don't actually want to do.\n\nB) How often do people ask you to do something and you just reply, \"Sure.\" Three days later, you're overwhelmed by how much is on your to-do list. We become frustrated by our obligations even though we were the ones who said \"yes\" to them in the first place. Even worse, people will occasionally fight to do things that waste time. You don't have to do something just because it exists. It's worth asking if things are necessary. Many of them are not, and a simple \"no\" will be more productive than whatever work the most efficient person can cope with. But if the benefits of saying \"no\" are so obvious, then why do we say \"yes\" so often?\n\nC) We say \"yes\" to many requests not because we want to do them, but because we don't want to be seen as rude or unhelpful. Often, we have to consider saying \"no\" to someone we will interact with again in the future—our co-worker, our spouse, our family and friends. Saying \"no\" to our superiors at work can be particularly difficult. In these situations, I like the approach recommended in Essentialism by Greg McKeown. He writes, \"Remind your superiors what you would be neglecting if you said 'yes' and force them to deal with the trade-off. For example, if your manager comes to you and asks you to do X, you can respond with 'Yes, I'm happy to make this the priority. Which of these other projects should I deprioritize to pay attention to this new project?'\"\n\nD) Collaborating with others is an important element of life. The thought of straining the relationship outweighs the commitment of our time and energy. For this reason, it can be helpful to be gracious in your response. Do whatever favors you can, and be warm-hearted and direct when you have to say no. But even after we have accounted for these social considerations, many of us still seem to do a poor job of managing the trade-off between yes and no. We find ourselves over-committed to things that don't meaningfully improve or support those around us, and certainly don't improve our own lives.\n\nE) Perhaps one issue is how we think about the meaning of yes and no. The words \"yes\" and \"no\" get so often used in comparison with each other that it feels like they carry equal weight in conversation. In reality, they're not just opposite in meaning, but of entirely different magnitudes in commitment. When you say \"no\", you're only saying \"no\" to one option. When you say \"yes\", you're saying \"no\" to every other option. I like how economist Tim Harford put it, \"Every time we say 'yes' to a request, we're also saying 'no' to anything else we might accomplish with the time?\" Once you're committed to something, you've already decided how that future block of time will be spent. In other words, saying \"no\" saves you time in the future. Saying \"yes\" costs you time in the future. \"No\" is a form of time credit. You retain the ability to spend your future time however you want. \"Yes\" is a form of time debt. You have to pay back your commitment at some point.\n\nF) \"No\" is a decision. \"Yes\" is a responsibility. Saying \"no\" is sometimes seen as a luxury that only those in power can afford. And it's true: turning down opportunities is easier when you can fall back on the safety net provided by power, money, and authority. But it's also true that saying \"no\" is not merely a privilege reserved for the successful. It's also a strategy that can help you become successful. Saying \"no\" is an important skill to develop at any stage of your career because it retains the most important asset in life: your time. As investor Pedro Sorrentino put it, \"If you don't guard your time, people will steal it from you.\" You need to say \"no\" to whatever isn't leading you toward your goals.\n\nG) Nobody embodied this idea better than Steve Jobs, who said, \"People think focus means saying 'yes' to the thing you've got to focus on. But that's not what it means at all. It means saying 'no' to the hundred other good ideas that there are. You have to pick carefully.\" Jobs had another great quote about saying \"no\": \"I'm actually as proud of the things we haven't done as the things I have done. Innovation is saying 'no' to 1,000 things.\"\n\nH) Over time, as you continue to improve and succeed, your strategy needs to change. The opportunity cost of your time increases as you become more successful. At first, you just eliminate the obvious distractions and explore the rest. As your skills improve and you learn to separate what works from what doesn't, you have to continually increase your threshold for saying \"yes\". You still need to say \"no\" to distractions, but you also need to learn to say \"no\" to opportunities that were previously good uses of time, so you can make space for better uses of time. It's a good problem to have, but it can be a tough skill to master.\n\nI) What is true about health is also true about productivity: an ounce of prevention is worth a pound of cure. More effort is wasted doing things that don't matter than is wasted doing things inefficiently. And if that is the case, elimination is a more useful skill than optimization. I'm reminded of the famous Peter Drucker quote, \"There is nothing so useless as doing efficiently that which should not be done at all.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 F 段。题干：Refusing a request is sometimes seen as a privilege not enjoyed by ordinary people.\n核对该段原文：\"No\" is a decision. \"Yes\" is a responsibility. Saying \"no\" is sometimes seen as a luxury that only those in power can afford. And it's true: turning down opportunities is easier when you can fall back on the safety net provided by power, money, and authority. But it's also true that saying \"no\" is not merely a privilege reserved for the successful. It's also a strategy that can help you become successful. Saying \"no\" is an important skill to develop at any stage of your career because it retains the most important asset in life: your time. As investor Pedro Sorrentino put it, \"If you don't guard your time, people will steal it from you.\" You need to say \"no\" to whatever isn't leading you toward your goals.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-2-nonlistening-q46",
+      "canonicalId": "lazynote-cet4-2022-12-2-q46",
+      "number": 46,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author say is remarkable about the fish we eat?",
+      "passage": "We're eating more fish than ever these days. At around 20 kilograms per person global fish consumption is now more than twice what it was in the 1960s. What's really remarkable, though, is where that fish comes from.\n\nFor the first time in human history, most of our aquatic(水产的) food now comes from farming rather than fishing.\n\nPeople ate around 73 million tonnes of farmed fish—just more than half of the volume of fish that humans consumed—in 2014. That's out of a total fish supply of 167 million tonnes; the remaining 20 million or so tonnes go into things like animal feed and medical products.\n\nTo keep eating fish at the current rate, we're definitely going to need to keep aquaculture(水产养殖) developing. That's because the volume of fish caught in the wild has leveled off since the 1990s.\n\nBack in 1974, only 10% of marine fish stocks had been overfished. Now, more than three-tenths are. Only a tenth of our oceans' fish stocks could sustain heavier fishing than current levels.\n\nBut while catchings at sea have suffered, fish-farming has been growing at a fast rate. A lot of that is coming from China, which produces 60% of the world's farmed fish. In fact, some 35 countries, including China, now produce more farmed than wild-caught fish.\n\nThis shift toward aquaculture isn't just good for ensuring salmon(三文鱼) on your plate; it's also crucial to ensuring food security and sustainability. By 2050, the world will need to feed an estimated 9.7 billion people. They'll have to get their protein somewhere. However, raising cattle, pigs, and other land-based animals requires vast sums of grain and water. For example, pound for pound, beef requires 15 times more feed to raise than carp, a freshwater fish farmed all over Asia. That grain—and the water needed to grow it—could be consumed by people instead.\n\nHowever, aquaculture is no silver bullet. In some southeast Asian countries, shrimp farming does disastrous damage to marine ecosystems. Despite these problems, however, shrimp continues to be among the most popular sea foods worldwide.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They reproduce quickly."
+        },
+        {
+          "id": "B",
+          "text": "They are mostly farmed."
+        },
+        {
+          "id": "C",
+          "text": "They have become as important as grain."
+        },
+        {
+          "id": "D",
+          "text": "They have a longer history than humans."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：They are mostly farmed.\n关键词检索定位到第 1 段的候选相关句：What's really remarkable, though, is where that fish comes from.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-2-nonlistening-q47",
+      "canonicalId": "lazynote-cet4-2022-12-2-q47",
+      "number": 47,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we need to do if we keep consuming fish at the current rate?",
+      "passage": "We're eating more fish than ever these days. At around 20 kilograms per person global fish consumption is now more than twice what it was in the 1960s. What's really remarkable, though, is where that fish comes from.\n\nFor the first time in human history, most of our aquatic(水产的) food now comes from farming rather than fishing.\n\nPeople ate around 73 million tonnes of farmed fish—just more than half of the volume of fish that humans consumed—in 2014. That's out of a total fish supply of 167 million tonnes; the remaining 20 million or so tonnes go into things like animal feed and medical products.\n\nTo keep eating fish at the current rate, we're definitely going to need to keep aquaculture(水产养殖) developing. That's because the volume of fish caught in the wild has leveled off since the 1990s.\n\nBack in 1974, only 10% of marine fish stocks had been overfished. Now, more than three-tenths are. Only a tenth of our oceans' fish stocks could sustain heavier fishing than current levels.\n\nBut while catchings at sea have suffered, fish-farming has been growing at a fast rate. A lot of that is coming from China, which produces 60% of the world's farmed fish. In fact, some 35 countries, including China, now produce more farmed than wild-caught fish.\n\nThis shift toward aquaculture isn't just good for ensuring salmon(三文鱼) on your plate; it's also crucial to ensuring food security and sustainability. By 2050, the world will need to feed an estimated 9.7 billion people. They'll have to get their protein somewhere. However, raising cattle, pigs, and other land-based animals requires vast sums of grain and water. For example, pound for pound, beef requires 15 times more feed to raise than carp, a freshwater fish farmed all over Asia. That grain—and the water needed to grow it—could be consumed by people instead.\n\nHowever, aquaculture is no silver bullet. In some southeast Asian countries, shrimp farming does disastrous damage to marine ecosystems. Despite these problems, however, shrimp continues to be among the most popular sea foods worldwide.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Increase the fishing volume considerably."
+        },
+        {
+          "id": "B",
+          "text": "Develop more advanced fishing technology."
+        },
+        {
+          "id": "C",
+          "text": "Enlarge the marine fish stocks effectively."
+        },
+        {
+          "id": "D",
+          "text": "Expand the scale of fish-farming continuously."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：Expand the scale of fish-farming continuously.\n关键词检索定位到第 4 段的候选相关句：To keep eating fish at the current rate, we're definitely going to need to keep aquaculture(水产养殖) developing.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-2-nonlistening-q48",
+      "canonicalId": "lazynote-cet4-2022-12-2-q48",
+      "number": 48,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author say about China in terms of aquatic food?",
+      "passage": "We're eating more fish than ever these days. At around 20 kilograms per person global fish consumption is now more than twice what it was in the 1960s. What's really remarkable, though, is where that fish comes from.\n\nFor the first time in human history, most of our aquatic(水产的) food now comes from farming rather than fishing.\n\nPeople ate around 73 million tonnes of farmed fish—just more than half of the volume of fish that humans consumed—in 2014. That's out of a total fish supply of 167 million tonnes; the remaining 20 million or so tonnes go into things like animal feed and medical products.\n\nTo keep eating fish at the current rate, we're definitely going to need to keep aquaculture(水产养殖) developing. That's because the volume of fish caught in the wild has leveled off since the 1990s.\n\nBack in 1974, only 10% of marine fish stocks had been overfished. Now, more than three-tenths are. Only a tenth of our oceans' fish stocks could sustain heavier fishing than current levels.\n\nBut while catchings at sea have suffered, fish-farming has been growing at a fast rate. A lot of that is coming from China, which produces 60% of the world's farmed fish. In fact, some 35 countries, including China, now produce more farmed than wild-caught fish.\n\nThis shift toward aquaculture isn't just good for ensuring salmon(三文鱼) on your plate; it's also crucial to ensuring food security and sustainability. By 2050, the world will need to feed an estimated 9.7 billion people. They'll have to get their protein somewhere. However, raising cattle, pigs, and other land-based animals requires vast sums of grain and water. For example, pound for pound, beef requires 15 times more feed to raise than carp, a freshwater fish farmed all over Asia. That grain—and the water needed to grow it—could be consumed by people instead.\n\nHowever, aquaculture is no silver bullet. In some southeast Asian countries, shrimp farming does disastrous damage to marine ecosystems. Despite these problems, however, shrimp continues to be among the most popular sea foods worldwide.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It places increasing emphasis on fishing now."
+        },
+        {
+          "id": "B",
+          "text": "It boasts of the world's largest fishing stocks."
+        },
+        {
+          "id": "C",
+          "text": "It raises more fish than caught from the wild."
+        },
+        {
+          "id": "D",
+          "text": "It supplies 60% of the world's fish products."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：It raises more fish than caught from the wild.\n关键词检索定位到第 6 段的候选相关句：In fact, some 35 countries, including China, now produce more farmed than wild-caught fish.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-2-nonlistening-q49",
+      "canonicalId": "lazynote-cet4-2022-12-2-q49",
+      "number": 49,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "Why does the author say aquaculture is so important these days?",
+      "passage": "We're eating more fish than ever these days. At around 20 kilograms per person global fish consumption is now more than twice what it was in the 1960s. What's really remarkable, though, is where that fish comes from.\n\nFor the first time in human history, most of our aquatic(水产的) food now comes from farming rather than fishing.\n\nPeople ate around 73 million tonnes of farmed fish—just more than half of the volume of fish that humans consumed—in 2014. That's out of a total fish supply of 167 million tonnes; the remaining 20 million or so tonnes go into things like animal feed and medical products.\n\nTo keep eating fish at the current rate, we're definitely going to need to keep aquaculture(水产养殖) developing. That's because the volume of fish caught in the wild has leveled off since the 1990s.\n\nBack in 1974, only 10% of marine fish stocks had been overfished. Now, more than three-tenths are. Only a tenth of our oceans' fish stocks could sustain heavier fishing than current levels.\n\nBut while catchings at sea have suffered, fish-farming has been growing at a fast rate. A lot of that is coming from China, which produces 60% of the world's farmed fish. In fact, some 35 countries, including China, now produce more farmed than wild-caught fish.\n\nThis shift toward aquaculture isn't just good for ensuring salmon(三文鱼) on your plate; it's also crucial to ensuring food security and sustainability. By 2050, the world will need to feed an estimated 9.7 billion people. They'll have to get their protein somewhere. However, raising cattle, pigs, and other land-based animals requires vast sums of grain and water. For example, pound for pound, beef requires 15 times more feed to raise than carp, a freshwater fish farmed all over Asia. That grain—and the water needed to grow it—could be consumed by people instead.\n\nHowever, aquaculture is no silver bullet. In some southeast Asian countries, shrimp farming does disastrous damage to marine ecosystems. Despite these problems, however, shrimp continues to be among the most popular sea foods worldwide.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a must for feeding the world's fast-growing population."
+        },
+        {
+          "id": "B",
+          "text": "It proves a reliable source of protein for humans and animals"
+        },
+        {
+          "id": "C",
+          "text": "It is essential to maintaining both mental and physical health."
+        },
+        {
+          "id": "D",
+          "text": "It ensures a balanced healthy diet for people the world over."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：It is a must for feeding the world's fast-growing population.\n关键词检索定位到第 1 段的候选相关句：We're eating more fish than ever these days.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-2-nonlistening-q50",
+      "canonicalId": "lazynote-cet4-2022-12-2-q50",
+      "number": 50,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author imply by saying aquaculture is no silver bullet?",
+      "passage": "We're eating more fish than ever these days. At around 20 kilograms per person global fish consumption is now more than twice what it was in the 1960s. What's really remarkable, though, is where that fish comes from.\n\nFor the first time in human history, most of our aquatic(水产的) food now comes from farming rather than fishing.\n\nPeople ate around 73 million tonnes of farmed fish—just more than half of the volume of fish that humans consumed—in 2014. That's out of a total fish supply of 167 million tonnes; the remaining 20 million or so tonnes go into things like animal feed and medical products.\n\nTo keep eating fish at the current rate, we're definitely going to need to keep aquaculture(水产养殖) developing. That's because the volume of fish caught in the wild has leveled off since the 1990s.\n\nBack in 1974, only 10% of marine fish stocks had been overfished. Now, more than three-tenths are. Only a tenth of our oceans' fish stocks could sustain heavier fishing than current levels.\n\nBut while catchings at sea have suffered, fish-farming has been growing at a fast rate. A lot of that is coming from China, which produces 60% of the world's farmed fish. In fact, some 35 countries, including China, now produce more farmed than wild-caught fish.\n\nThis shift toward aquaculture isn't just good for ensuring salmon(三文鱼) on your plate; it's also crucial to ensuring food security and sustainability. By 2050, the world will need to feed an estimated 9.7 billion people. They'll have to get their protein somewhere. However, raising cattle, pigs, and other land-based animals requires vast sums of grain and water. For example, pound for pound, beef requires 15 times more feed to raise than carp, a freshwater fish farmed all over Asia. That grain—and the water needed to grow it—could be consumed by people instead.\n\nHowever, aquaculture is no silver bullet. In some southeast Asian countries, shrimp farming does disastrous damage to marine ecosystems. Despite these problems, however, shrimp continues to be among the most popular sea foods worldwide.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Shrimp-farming is a risky business."
+        },
+        {
+          "id": "B",
+          "text": "Fish-farming will not be sustainable."
+        },
+        {
+          "id": "C",
+          "text": "Fish-farming may cause serious problems too."
+        },
+        {
+          "id": "D",
+          "text": "Shrimp-farming can become quite expensive."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：Fish-farming may cause serious problems too.\n关键词检索定位到第 8 段的候选相关句：However, aquaculture is no silver bullet.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-2-nonlistening-q51",
+      "canonicalId": "lazynote-cet4-2022-12-2-q51",
+      "number": 51,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the WFP's winning of the Nobel Peace Prize make us realize?",
+      "passage": "In 2020, the Nobel Peace Prize was awarded to the World Food Programme (WFP).\n\nWhy a Nobel Prize for the WFP, and why now? In 2019, the WFP assisted nearly 100 million people in 88 countries. It is the safety net for those who fall off the edge of existence. It is a response to solving the problem of food instability. Its Nobel Prize reminds us all of the moral hazard in imagining that the poor and vulnerable are somebody else's problem.\n\nThe WFP has been around since 1961 and has been the global coordinator of nationally based efforts to avoid disasters with food aid. Despite decades of effort to eliminate hunger, the latest estimate is that about 11% of people on the planet (about 820 million people) are suffering daily undernourishment. Progress at reducing undernourishment has stopped despite gains through the 1990s and 2000s.\n\nDeveloped countries sometimes offer food and aid to developing ones, but at a price. One American philosopher stated that addressing the needs of the poor and vulnerable is about more than money—it is mostly about creating conditions under which prosperity and opportunity can thrive. When aid is offered with heavy conditions attached, like loan repayment or food for resources, it often widens the gap between rich and poor and sustains the old world order. This is why the work of the WFP is so vital.\n\nThe scientific community, however, can provide a helping hand to the WFP. By sharing knowledge of agriculture and climate with peers in countries most vulnerable to poverty and hunger, scientists can help reduce these problems. By making its voice heard, science can lead by example. The ability to overcome food shortages that must be built into some of the poorest countries will not come from loans from wealthy countries, which may have food problems of their own, or world economic institutions. This ability will be built upon self-confident people using open and shared scientific knowledge to pull themselves out of their misery.",
+      "options": [
+        {
+          "id": "A",
+          "text": "More and more people in the world are suffering from starvation."
+        },
+        {
+          "id": "B",
+          "text": "All of us can be affected by food instability one way or another."
+        },
+        {
+          "id": "C",
+          "text": "It is hazardous to leave millions of people poor and vulnerable."
+        },
+        {
+          "id": "D",
+          "text": "It is morally wrong to think helping the poor is not our business."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：It is morally wrong to think helping the poor is not our business.\n关键词检索定位到第 1 段的候选相关句：In 2020, the Nobel Peace Prize was awarded to the World Food Programme (WFP).\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-2-nonlistening-q52",
+      "canonicalId": "lazynote-cet4-2022-12-2-q52",
+      "number": 52,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn about the WFP's effort to eliminate hunger?",
+      "passage": "In 2020, the Nobel Peace Prize was awarded to the World Food Programme (WFP).\n\nWhy a Nobel Prize for the WFP, and why now? In 2019, the WFP assisted nearly 100 million people in 88 countries. It is the safety net for those who fall off the edge of existence. It is a response to solving the problem of food instability. Its Nobel Prize reminds us all of the moral hazard in imagining that the poor and vulnerable are somebody else's problem.\n\nThe WFP has been around since 1961 and has been the global coordinator of nationally based efforts to avoid disasters with food aid. Despite decades of effort to eliminate hunger, the latest estimate is that about 11% of people on the planet (about 820 million people) are suffering daily undernourishment. Progress at reducing undernourishment has stopped despite gains through the 1990s and 2000s.\n\nDeveloped countries sometimes offer food and aid to developing ones, but at a price. One American philosopher stated that addressing the needs of the poor and vulnerable is about more than money—it is mostly about creating conditions under which prosperity and opportunity can thrive. When aid is offered with heavy conditions attached, like loan repayment or food for resources, it often widens the gap between rich and poor and sustains the old world order. This is why the work of the WFP is so vital.\n\nThe scientific community, however, can provide a helping hand to the WFP. By sharing knowledge of agriculture and climate with peers in countries most vulnerable to poverty and hunger, scientists can help reduce these problems. By making its voice heard, science can lead by example. The ability to overcome food shortages that must be built into some of the poorest countries will not come from loans from wealthy countries, which may have food problems of their own, or world economic institutions. This ability will be built upon self-confident people using open and shared scientific knowledge to pull themselves out of their misery.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It has ensured a sufficient food supply to millions."
+        },
+        {
+          "id": "B",
+          "text": "It is still far from its goal despite the progress made."
+        },
+        {
+          "id": "C",
+          "text": "It has done a good job in combating natural disasters."
+        },
+        {
+          "id": "D",
+          "text": "It is preventing starvation occurring on a global scale."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：It is still far from its goal despite the progress made.\n关键词检索定位到第 3 段的候选相关句：Despite decades of effort to eliminate hunger, the latest estimate is that about 11% of people on the planet (about 820 million people) are suffering daily undernourishment.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-2-nonlistening-q53",
+      "canonicalId": "lazynote-cet4-2022-12-2-q53",
+      "number": 53,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What will happen when food aid is offered at a price?",
+      "passage": "In 2020, the Nobel Peace Prize was awarded to the World Food Programme (WFP).\n\nWhy a Nobel Prize for the WFP, and why now? In 2019, the WFP assisted nearly 100 million people in 88 countries. It is the safety net for those who fall off the edge of existence. It is a response to solving the problem of food instability. Its Nobel Prize reminds us all of the moral hazard in imagining that the poor and vulnerable are somebody else's problem.\n\nThe WFP has been around since 1961 and has been the global coordinator of nationally based efforts to avoid disasters with food aid. Despite decades of effort to eliminate hunger, the latest estimate is that about 11% of people on the planet (about 820 million people) are suffering daily undernourishment. Progress at reducing undernourishment has stopped despite gains through the 1990s and 2000s.\n\nDeveloped countries sometimes offer food and aid to developing ones, but at a price. One American philosopher stated that addressing the needs of the poor and vulnerable is about more than money—it is mostly about creating conditions under which prosperity and opportunity can thrive. When aid is offered with heavy conditions attached, like loan repayment or food for resources, it often widens the gap between rich and poor and sustains the old world order. This is why the work of the WFP is so vital.\n\nThe scientific community, however, can provide a helping hand to the WFP. By sharing knowledge of agriculture and climate with peers in countries most vulnerable to poverty and hunger, scientists can help reduce these problems. By making its voice heard, science can lead by example. The ability to overcome food shortages that must be built into some of the poorest countries will not come from loans from wealthy countries, which may have food problems of their own, or world economic institutions. This ability will be built upon self-confident people using open and shared scientific knowledge to pull themselves out of their misery.",
+      "options": [
+        {
+          "id": "A",
+          "text": "The rich will become richer and the poor poorer."
+        },
+        {
+          "id": "B",
+          "text": "More people will be willing to join in the effort."
+        },
+        {
+          "id": "C",
+          "text": "More food will be made available to the needy."
+        },
+        {
+          "id": "D",
+          "text": "The relief effort will be rendered less sustainable."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：The rich will become richer and the poor poorer.\n关键词检索定位到第 4 段的候选相关句：When aid is offered with heavy conditions attached, like loan repayment or food for resources, it often widens the gap between rich and poor and sustains the old world order.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-2-nonlistening-q54",
+      "canonicalId": "lazynote-cet4-2022-12-2-q54",
+      "number": 54,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "How can scientists help cope with poverty and hunger?",
+      "passage": "In 2020, the Nobel Peace Prize was awarded to the World Food Programme (WFP).\n\nWhy a Nobel Prize for the WFP, and why now? In 2019, the WFP assisted nearly 100 million people in 88 countries. It is the safety net for those who fall off the edge of existence. It is a response to solving the problem of food instability. Its Nobel Prize reminds us all of the moral hazard in imagining that the poor and vulnerable are somebody else's problem.\n\nThe WFP has been around since 1961 and has been the global coordinator of nationally based efforts to avoid disasters with food aid. Despite decades of effort to eliminate hunger, the latest estimate is that about 11% of people on the planet (about 820 million people) are suffering daily undernourishment. Progress at reducing undernourishment has stopped despite gains through the 1990s and 2000s.\n\nDeveloped countries sometimes offer food and aid to developing ones, but at a price. One American philosopher stated that addressing the needs of the poor and vulnerable is about more than money—it is mostly about creating conditions under which prosperity and opportunity can thrive. When aid is offered with heavy conditions attached, like loan repayment or food for resources, it often widens the gap between rich and poor and sustains the old world order. This is why the work of the WFP is so vital.\n\nThe scientific community, however, can provide a helping hand to the WFP. By sharing knowledge of agriculture and climate with peers in countries most vulnerable to poverty and hunger, scientists can help reduce these problems. By making its voice heard, science can lead by example. The ability to overcome food shortages that must be built into some of the poorest countries will not come from loans from wealthy countries, which may have food problems of their own, or world economic institutions. This ability will be built upon self-confident people using open and shared scientific knowledge to pull themselves out of their misery.",
+      "options": [
+        {
+          "id": "A",
+          "text": "By collaborating closely with world economic institutions."
+        },
+        {
+          "id": "B",
+          "text": "By sharing expertise with peers in poverty-stricken nations."
+        },
+        {
+          "id": "C",
+          "text": "By setting up more food research programs in developing countries."
+        },
+        {
+          "id": "D",
+          "text": "By building self-respect in people suffering from undernutrition."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：By sharing expertise with peers in poverty-stricken nations.\n关键词检索定位到第 5 段的候选相关句：By sharing knowledge of agriculture and climate with peers in countries most vulnerable to poverty and hunger, scientists can help reduce these problems.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-2-nonlistening-q55",
+      "canonicalId": "lazynote-cet4-2022-12-2-q55",
+      "number": 55,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What message does the author try to convey at the end of the passage?",
+      "passage": "In 2020, the Nobel Peace Prize was awarded to the World Food Programme (WFP).\n\nWhy a Nobel Prize for the WFP, and why now? In 2019, the WFP assisted nearly 100 million people in 88 countries. It is the safety net for those who fall off the edge of existence. It is a response to solving the problem of food instability. Its Nobel Prize reminds us all of the moral hazard in imagining that the poor and vulnerable are somebody else's problem.\n\nThe WFP has been around since 1961 and has been the global coordinator of nationally based efforts to avoid disasters with food aid. Despite decades of effort to eliminate hunger, the latest estimate is that about 11% of people on the planet (about 820 million people) are suffering daily undernourishment. Progress at reducing undernourishment has stopped despite gains through the 1990s and 2000s.\n\nDeveloped countries sometimes offer food and aid to developing ones, but at a price. One American philosopher stated that addressing the needs of the poor and vulnerable is about more than money—it is mostly about creating conditions under which prosperity and opportunity can thrive. When aid is offered with heavy conditions attached, like loan repayment or food for resources, it often widens the gap between rich and poor and sustains the old world order. This is why the work of the WFP is so vital.\n\nThe scientific community, however, can provide a helping hand to the WFP. By sharing knowledge of agriculture and climate with peers in countries most vulnerable to poverty and hunger, scientists can help reduce these problems. By making its voice heard, science can lead by example. The ability to overcome food shortages that must be built into some of the poorest countries will not come from loans from wealthy countries, which may have food problems of their own, or world economic institutions. This ability will be built upon self-confident people using open and shared scientific knowledge to pull themselves out of their misery.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wealthy nations should solve their own food problems first."
+        },
+        {
+          "id": "B",
+          "text": "Rich countries should be more generous in providing food aid."
+        },
+        {
+          "id": "C",
+          "text": "Poor nations should enhance their own ability to solve their food shortages."
+        },
+        {
+          "id": "D",
+          "text": "World economic institutions should play a bigger role in fighting hunger."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：Poor nations should enhance their own ability to solve their food shortages.\n关键词检索定位到第 5 段的候选相关句：The ability to overcome food shortages that must be built into some of the poorest countries will not come from loans from wealthy countries, which may have food problems of their own, or world economic institutions.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    },
+    {
+      "id": "cet4-2022-12-2-nonlistening-translation",
+      "number": "IV",
+      "level": "CET4",
+      "type": "short_text_self_check",
+      "skill": "translation",
+      "section": "translation",
+      "prompt": "Directions: For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2 .\n\n立春 (Start of Spring )在中国农历中表示春天的开始。立春之后， 白天变得更长，天气也愈发温暖，万物开始复苏，大地充满生机。人们常说\"一年之计在于春\"，农民在这个时节开始播种，为全年的丰收打下基础。中国人早在三千年前就己开始在立春这一天举行庆祝活动。数百年来，迎春一直是民间的重要习俗。在春暖花开的日子里，人们常常外出游玩，欣赏春天的美景。",
+      "options": [],
+      "correctAnswer": "Start of Spring marks the beginning of spring in the Chinese lunar calendar. After it, the days become longer and the weather grows warmer. Everything begins to revive, and the land fills with life. People often say that a year's plans begin in spring. Farmers start sowing at this time, laying the foundation for a good harvest throughout the year. Chinese people began celebrating Start of Spring as early as three thousand years ago. Welcoming spring has remained an important folk custom for hundreds of years. On warm days when flowers bloom, people often go outdoors to enjoy the beautiful spring scenery.",
+      "referenceAnswer": "Start of Spring marks the beginning of spring in the Chinese lunar calendar. After it, the days become longer and the weather grows warmer. Everything begins to revive, and the land fills with life. People often say that a year's plans begin in spring. Farmers start sowing at this time, laying the foundation for a good harvest throughout the year. Chinese people began celebrating Start of Spring as early as three thousand years ago. Welcoming spring has remained an important folk custom for hundreds of years. On warm days when flowers bloom, people often go outdoors to enjoy the beautiful spring scenery.",
+      "hint": "长日、复苏、播种、三千年前庆祝和数百年习俗都要覆盖。",
+      "explanation": "以下译文为原创参考，可使用其他准确表达。as early as强调早在；three thousand years与hundreds of years不能混成一个时间；lay the foundation是奠定基础。\n\n逐句核对：days become longer与weather warmer对应日照和温度，revive与fills with life保留复苏及生机。一年之计用a year’s plans begin in spring传意；sowing是播种，laying the foundation for a good harvest承接目的。three thousand years ago与hundreds of years是两个不同时间。题面“己开始”疑为“已开始”的OCR字形，按已经开始理解，未改原题。末句warm days when flowers bloom、go outdoors、spring scenery三层完整。",
+      "rubric": [
+        "练习自评总分15分：信息准确0–8＋语法0–5＋表达0–2；允许拆句、换同义词，不要求逐字匹配参考译文。",
+        "信息准确0–8分：逐项检查——立春春起；昼长暖、复苏生机；一年之计及播种丰收；3000年前庆祝；数百年迎春习俗；外出赏春。8分=全部关键信息正确；6–7分=少量次要细节遗漏；3–5分=多处遗漏/数字或关系误译；0–2分=核心人物、动作或逻辑严重错误。",
+        "语法0–5分：5分=时态、单复数、主谓一致、从句和介词基本正确；3–4分=少量错误仍易理解；1–2分=多处错误妨碍理解；0分=主要句子结构不可理解。",
+        "表达0–2分：2分=用词搭配自然、因果转折时间衔接清楚；1分=可理解但有中文式生硬表达；0分=词序/词义造成大面积理解困难。",
+        "修订操作：先在中文原题划出时间、数量、地点和连接词，再在自己的译文逐项找对应；为每处漏译或误译写一句修正。此分数是练习估计，不是官方阅卷或机器评分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2022-12-2-nonlistening"
+    }
+  ]
+}

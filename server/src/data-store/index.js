@@ -89,6 +89,8 @@ async function runTransaction(callback, options = {}) {
       if (Number(rows[0].acquired) !== 1) throw new Error('操作繁忙，请稍后重试')
       locked = true
     }
+    // Opt-in only for the next transaction; keep session/global defaults unchanged.
+    if (options.readCommitted === true) await connection.query('SET TRANSACTION ISOLATION LEVEL READ COMMITTED')
     await connection.beginTransaction()
     const result = await transactionContext.run(connection, callback)
     if (result && (result.success === false || result.code < 0)) await connection.rollback()

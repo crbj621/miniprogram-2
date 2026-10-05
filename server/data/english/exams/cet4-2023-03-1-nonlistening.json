@@ -1,0 +1,1989 @@
+{
+  "schemaVersion": 1,
+  "status": "verified_structured",
+  "source": {
+    "id": "cet4-2023-03-1-nonlistening",
+    "textCollection": "https://english-exam.lazynote.cn",
+    "textUrl": "https://english-exam.lazynote.cn/cet4/paper/2023-03-1/",
+    "textSha256": "661772add806f3da52820ff766de4d605d193844e68ce30ecaa75fc88f5e3eb5",
+    "answerSources": [
+      {
+        "section": "part3-section-a",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2023-03-1/part3-section-a/",
+        "sha256": "b407b5de8b593951ce965d68b9fb199e41048bead71579cd0272ae0d39bc173a"
+      },
+      {
+        "section": "part3-section-b",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2023-03-1/part3-section-b/",
+        "sha256": "1296f06db8d47ac8b55992804ef9e42c6663fcba9b401a415f3f2fb31c7d72ff"
+      },
+      {
+        "section": "part3-section-c-1",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2023-03-1/part3-section-c-1/",
+        "sha256": "3426a2e55586c34e8cf1cbdbcf32cdeac3d31560f55b89661cd1b8da63db0c90"
+      },
+      {
+        "section": "part3-section-c-2",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2023-03-1/part3-section-c-2/",
+        "sha256": "de40148c7d6ea5310d8160995bb4ce6ab48d041b3e69559b309d4ee38a9498a5"
+      }
+    ],
+    "rightsUrl": "https://english-exam.lazynote.cn",
+    "rights": "Source footer attributes original papers to the National College English Test Committee. Original materials retain their respective rights; no blanket source license is asserted. Commercial explanatory prose is not copied.",
+    "sourceRightsNotice": "© 2026 懒笔记 · 蜀ICP备2024049450号-1 · 川公网安备51019002006323号 · 增值电信业务经营许可证：川B2-20240301 · 真题版权归全国硕士研究生招生考试 / 全国大学英语四六级考试委员会所有 · 隐私政策 · 用户协议",
+    "sourceTermsUrl": "https://english-exam.lazynote.cn/terms/",
+    "reviewedAt": "2026-10-03",
+    "answerStatus": "public_reference_structural_consistency_verified",
+    "explanations": "Project-generated contextual evidence notes. Close-reading locations are keyword-search candidates, not manually verified detailed explanations.",
+    "referenceEssays": "Project-authored full reference examples bound to the original prompts; not official model answers.",
+    "materialSources": [],
+    "corrections": [],
+    "previousReviewedAnswerSources": [],
+    "sourceEdition": "lazynote public original-paper arrangement; set numbering can differ from other collections.",
+    "independentlyConfirmedSharedSource": "",
+    "readingSourceCorrection": null,
+    "sectionSourceReplacement": null,
+    "independentAnswerChecks": [],
+    "sharedSectionSource": {}
+  },
+  "papers": [
+    {
+      "id": "cet4-2023-03-1-nonlistening",
+      "level": "CET4",
+      "year": 2023,
+      "month": 3,
+      "set": 1,
+      "title": "2023年3月英语四级第1套真题（不含听力）",
+      "authenticity": "past_exam",
+      "questionIds": [
+        "cet4-2023-03-1-nonlistening-writing",
+        "cet4-2023-03-1-nonlistening-q26",
+        "cet4-2023-03-1-nonlistening-q27",
+        "cet4-2023-03-1-nonlistening-q28",
+        "cet4-2023-03-1-nonlistening-q29",
+        "cet4-2023-03-1-nonlistening-q30",
+        "cet4-2023-03-1-nonlistening-q31",
+        "cet4-2023-03-1-nonlistening-q32",
+        "cet4-2023-03-1-nonlistening-q33",
+        "cet4-2023-03-1-nonlistening-q34",
+        "cet4-2023-03-1-nonlistening-q35",
+        "cet4-2023-03-1-nonlistening-q36",
+        "cet4-2023-03-1-nonlistening-q37",
+        "cet4-2023-03-1-nonlistening-q38",
+        "cet4-2023-03-1-nonlistening-q39",
+        "cet4-2023-03-1-nonlistening-q40",
+        "cet4-2023-03-1-nonlistening-q41",
+        "cet4-2023-03-1-nonlistening-q42",
+        "cet4-2023-03-1-nonlistening-q43",
+        "cet4-2023-03-1-nonlistening-q44",
+        "cet4-2023-03-1-nonlistening-q45",
+        "cet4-2023-03-1-nonlistening-q46",
+        "cet4-2023-03-1-nonlistening-q47",
+        "cet4-2023-03-1-nonlistening-q48",
+        "cet4-2023-03-1-nonlistening-q49",
+        "cet4-2023-03-1-nonlistening-q50",
+        "cet4-2023-03-1-nonlistening-q51",
+        "cet4-2023-03-1-nonlistening-q52",
+        "cet4-2023-03-1-nonlistening-q53",
+        "cet4-2023-03-1-nonlistening-q54",
+        "cet4-2023-03-1-nonlistening-q55",
+        "cet4-2023-03-1-nonlistening-translation"
+      ],
+      "durationSeconds": 6000,
+      "description": "写作1题、阅读30题、翻译1题，不含听力。客观题答案与题面、选项完成结构一致性核对。",
+      "sourceId": "cet4-2023-03-1-nonlistening",
+      "coverage": {
+        "fullPaper": false,
+        "fullNonListening": true,
+        "listeningExcluded": true,
+        "objectiveNumbers": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "objectiveCount": 30,
+        "subjectiveCount": 2,
+        "sections": [
+          "writing",
+          "reading_word_bank",
+          "reading_matching",
+          "reading_comprehension",
+          "translation"
+        ],
+        "sharedSectionSource": {},
+        "note": "写作1题、阅读30题、翻译1题，不含听力。",
+        "independentlyConfirmedSharedSource": "",
+        "readingSourceCorrection": null,
+        "sectionSourceReplacement": null,
+        "referenceStatus": "project_authored"
+      },
+      "resources": [
+        {
+          "id": "cet4-2023-03-1-nonlistening-source",
+          "type": "web",
+          "title": "原卷来源与题面核对",
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2023-03-1/"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cet4-2023-03-1-nonlistening-writing",
+      "number": "I",
+      "level": "CET4",
+      "type": "short_text_self_check",
+      "skill": "writing",
+      "section": "writing",
+      "prompt": "Directions: Suppose you have taken part in a career planning seminar. Write an account of the seminar and summarize what you have learned from it. You should write at least 120 words but no more than 180 words.",
+      "options": [],
+      "correctAnswer": "Last week, I attended a career planning seminar organized by our university. A career adviser and two graduates discussed how students could connect their interests with practical preparations for work.\n\nThe adviser first explained that planning should begin with understanding our strengths, values and preferred working conditions. The graduates then described how internships helped them test their expectations. One speaker noted that a first job does not have to decide an entire career, but every experience should provide something to learn. During the question session, students asked about developing skills and handling uncertainty.\n\nI learned that career planning is a continuing process rather than a single decision. I intend to review my abilities, explore several possible fields and record what I learn from each experience. The seminar also reminded me to seek reliable information instead of choosing a career only because it appears popular among other people.",
+      "referenceAnswer": "Last week, I attended a career planning seminar organized by our university. A career adviser and two graduates discussed how students could connect their interests with practical preparations for work.\n\nThe adviser first explained that planning should begin with understanding our strengths, values and preferred working conditions. The graduates then described how internships helped them test their expectations. One speaker noted that a first job does not have to decide an entire career, but every experience should provide something to learn. During the question session, students asked about developing skills and handling uncertainty.\n\nI learned that career planning is a continuing process rather than a single decision. I intend to review my abilities, explore several possible fields and record what I learn from each experience. The seminar also reminded me to seek reliable information instead of choosing a career only because it appears popular among other people.",
+      "hint": "写参加职业规划研讨会的经过，再总结自己学到的具体方法。",
+      "explanation": "以下为按题意独立写成的参考范文，作文没有唯一答案。前两段报道内容，结尾转个人收获与下一步行动；人物与研讨会细节为原创设定。\n\n题目要求活动记述和个人收获两部分。先写研讨会安排与主题，主体概括兴趣、能力和岗位信息的讨论，结尾说明自己下一步怎样规划。career planning是职业规划，set realistic goals是设定实际目标，reflect on是反思。记述部分用过去时，今后行动可用will。只写职业规划很重要会遗漏seminar；只写场面热闹也没有总结学习内容。范文人物和细节为示范设定。\n\n练习方法：先用提示列三段提纲，在30分钟内独立写作，再按下方标准逐项打分；把失分最多的一段重写。参考范文约147词（缩写、连字符词按一词，含标题或书信称呼落款），满足120–180词要求；评分用于练习自检，不代表官方阅卷分数。",
+      "rubric": [
+        "练习自评总分15分：题目覆盖0–6＋结构0–4＋语言0–5，先独立写完再对照；观点不同于范文也可得满分，只要有合理支持。",
+        "题目覆盖0–6分：该题检查——写参加职业规划研讨会的经过，再总结自己学到的具体方法。。6分=任务完整且有具体理由/活动/例证；4–5分=切题但细节偏薄；2–3分=遗漏主要任务；0–1分=基本离题。",
+        "结构0–4分：4分=开头明确任务、主体按逻辑展开、结尾回扣，段间自然；3分=顺序清楚但局部衔接生硬；1–2分=跳跃或机械罗列；0分=内容难以组织理解。",
+        "语言0–5分：5分=语法和用词基本准确、句型有变化；3–4分=少量错误但不影响理解；1–2分=反复出现时态、主谓一致或搭配错误并影响阅读；0分=多数句子不能理解。",
+        "格式与修订：按原题保持120–180词；新闻/书信/提案用对应体裁，明确要求的首句逐字保留。若超限、少写任务或缺必要格式，先修改再评分，不把字数达标当作内容满分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    },
+    {
+      "id": "cet4-2023-03-1-nonlistening-q26",
+      "canonicalId": "lazynote-cet4-2023-03-1-q26",
+      "number": 26,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 26 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "It's a fantasy that goes back centuries: a message in a bottle, carried ashore from far-off lands. Authors, artists and children [26] ____ have dreamed of such a gift from the sea.\n\nThis time, though, it's not a bottle that washes ashore. It's eggs—thousands of little toy eggs.\n\nThat's what happened on the German island of Langeoog this week.\n\nLying just off the North Sea coast, it found itself [27] ____ by an invasion of colored plastic eggs—much to the [28] ____ of local children, because the eggs contained toys.\n\nPolice [29] ____ the eggs came from a freighter that lost part of its cargo during an unusually [30] ____ storm, the worst to hit Germany's northeastern coast since 2006.\n\nAt any rate, what was lost has now been found by many of the community's littlest residents.\n\n\"The surprise eggs have found their way to freedom,\" said Mayor Uwe Garrels. However, the joy of the moment [31] ____ off soon.\n\n\"At first I thought this was a wonder, because everything was so [32] ____ , but then we realized that this is a huge [33] ____ in the end,\" said the mayor. He also noted the plastic bags and other materials that have washed ashore on the island can cause serious problems for [34] ____ .\n\nStill, all these little eggs contained an extra treat with their toys. They [35] ____ notes from afar.\n\nThere was just one problem for the German children who received them: They were written in Russian.",
+      "options": [
+        {
+          "id": "A",
+          "text": "wore"
+        },
+        {
+          "id": "B",
+          "text": "wildlife"
+        },
+        {
+          "id": "C",
+          "text": "suspect"
+        },
+        {
+          "id": "D",
+          "text": "struck"
+        },
+        {
+          "id": "E",
+          "text": "similar"
+        },
+        {
+          "id": "F",
+          "text": "quantity"
+        },
+        {
+          "id": "G",
+          "text": "overthrown"
+        },
+        {
+          "id": "H",
+          "text": "mess"
+        },
+        {
+          "id": "I",
+          "text": "intense"
+        },
+        {
+          "id": "J",
+          "text": "human"
+        },
+        {
+          "id": "K",
+          "text": "effective"
+        },
+        {
+          "id": "L",
+          "text": "delight"
+        },
+        {
+          "id": "M",
+          "text": "colorful"
+        },
+        {
+          "id": "N",
+          "text": "bore"
+        },
+        {
+          "id": "O",
+          "text": "alike"
+        }
+      ],
+      "correctAnswer": "O",
+      "hint": "先看第 26 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 O（alike）。本空所在句：Authors, artists and children [26] ____ have dreamed of such a gift from the sea.\n将本空替换为 alike 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    },
+    {
+      "id": "cet4-2023-03-1-nonlistening-q27",
+      "canonicalId": "lazynote-cet4-2023-03-1-q27",
+      "number": 27,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 27 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "It's a fantasy that goes back centuries: a message in a bottle, carried ashore from far-off lands. Authors, artists and children [26] ____ have dreamed of such a gift from the sea.\n\nThis time, though, it's not a bottle that washes ashore. It's eggs—thousands of little toy eggs.\n\nThat's what happened on the German island of Langeoog this week.\n\nLying just off the North Sea coast, it found itself [27] ____ by an invasion of colored plastic eggs—much to the [28] ____ of local children, because the eggs contained toys.\n\nPolice [29] ____ the eggs came from a freighter that lost part of its cargo during an unusually [30] ____ storm, the worst to hit Germany's northeastern coast since 2006.\n\nAt any rate, what was lost has now been found by many of the community's littlest residents.\n\n\"The surprise eggs have found their way to freedom,\" said Mayor Uwe Garrels. However, the joy of the moment [31] ____ off soon.\n\n\"At first I thought this was a wonder, because everything was so [32] ____ , but then we realized that this is a huge [33] ____ in the end,\" said the mayor. He also noted the plastic bags and other materials that have washed ashore on the island can cause serious problems for [34] ____ .\n\nStill, all these little eggs contained an extra treat with their toys. They [35] ____ notes from afar.\n\nThere was just one problem for the German children who received them: They were written in Russian.",
+      "options": [
+        {
+          "id": "A",
+          "text": "wore"
+        },
+        {
+          "id": "B",
+          "text": "wildlife"
+        },
+        {
+          "id": "C",
+          "text": "suspect"
+        },
+        {
+          "id": "D",
+          "text": "struck"
+        },
+        {
+          "id": "E",
+          "text": "similar"
+        },
+        {
+          "id": "F",
+          "text": "quantity"
+        },
+        {
+          "id": "G",
+          "text": "overthrown"
+        },
+        {
+          "id": "H",
+          "text": "mess"
+        },
+        {
+          "id": "I",
+          "text": "intense"
+        },
+        {
+          "id": "J",
+          "text": "human"
+        },
+        {
+          "id": "K",
+          "text": "effective"
+        },
+        {
+          "id": "L",
+          "text": "delight"
+        },
+        {
+          "id": "M",
+          "text": "colorful"
+        },
+        {
+          "id": "N",
+          "text": "bore"
+        },
+        {
+          "id": "O",
+          "text": "alike"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "先看第 27 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 D（struck）。本空所在句：Lying just off the North Sea coast, it found itself [27] ____ by an invasion of colored plastic eggs—much to the [28] ____ of local children, because the eggs contained toys.\n将本空替换为 struck 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    },
+    {
+      "id": "cet4-2023-03-1-nonlistening-q28",
+      "canonicalId": "lazynote-cet4-2023-03-1-q28",
+      "number": 28,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 28 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "It's a fantasy that goes back centuries: a message in a bottle, carried ashore from far-off lands. Authors, artists and children [26] ____ have dreamed of such a gift from the sea.\n\nThis time, though, it's not a bottle that washes ashore. It's eggs—thousands of little toy eggs.\n\nThat's what happened on the German island of Langeoog this week.\n\nLying just off the North Sea coast, it found itself [27] ____ by an invasion of colored plastic eggs—much to the [28] ____ of local children, because the eggs contained toys.\n\nPolice [29] ____ the eggs came from a freighter that lost part of its cargo during an unusually [30] ____ storm, the worst to hit Germany's northeastern coast since 2006.\n\nAt any rate, what was lost has now been found by many of the community's littlest residents.\n\n\"The surprise eggs have found their way to freedom,\" said Mayor Uwe Garrels. However, the joy of the moment [31] ____ off soon.\n\n\"At first I thought this was a wonder, because everything was so [32] ____ , but then we realized that this is a huge [33] ____ in the end,\" said the mayor. He also noted the plastic bags and other materials that have washed ashore on the island can cause serious problems for [34] ____ .\n\nStill, all these little eggs contained an extra treat with their toys. They [35] ____ notes from afar.\n\nThere was just one problem for the German children who received them: They were written in Russian.",
+      "options": [
+        {
+          "id": "A",
+          "text": "wore"
+        },
+        {
+          "id": "B",
+          "text": "wildlife"
+        },
+        {
+          "id": "C",
+          "text": "suspect"
+        },
+        {
+          "id": "D",
+          "text": "struck"
+        },
+        {
+          "id": "E",
+          "text": "similar"
+        },
+        {
+          "id": "F",
+          "text": "quantity"
+        },
+        {
+          "id": "G",
+          "text": "overthrown"
+        },
+        {
+          "id": "H",
+          "text": "mess"
+        },
+        {
+          "id": "I",
+          "text": "intense"
+        },
+        {
+          "id": "J",
+          "text": "human"
+        },
+        {
+          "id": "K",
+          "text": "effective"
+        },
+        {
+          "id": "L",
+          "text": "delight"
+        },
+        {
+          "id": "M",
+          "text": "colorful"
+        },
+        {
+          "id": "N",
+          "text": "bore"
+        },
+        {
+          "id": "O",
+          "text": "alike"
+        }
+      ],
+      "correctAnswer": "L",
+      "hint": "先看第 28 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 L（delight）。本空所在句：Lying just off the North Sea coast, it found itself [27] ____ by an invasion of colored plastic eggs—much to the [28] ____ of local children, because the eggs contained toys.\n将本空替换为 delight 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    },
+    {
+      "id": "cet4-2023-03-1-nonlistening-q29",
+      "canonicalId": "lazynote-cet4-2023-03-1-q29",
+      "number": 29,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 29 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "It's a fantasy that goes back centuries: a message in a bottle, carried ashore from far-off lands. Authors, artists and children [26] ____ have dreamed of such a gift from the sea.\n\nThis time, though, it's not a bottle that washes ashore. It's eggs—thousands of little toy eggs.\n\nThat's what happened on the German island of Langeoog this week.\n\nLying just off the North Sea coast, it found itself [27] ____ by an invasion of colored plastic eggs—much to the [28] ____ of local children, because the eggs contained toys.\n\nPolice [29] ____ the eggs came from a freighter that lost part of its cargo during an unusually [30] ____ storm, the worst to hit Germany's northeastern coast since 2006.\n\nAt any rate, what was lost has now been found by many of the community's littlest residents.\n\n\"The surprise eggs have found their way to freedom,\" said Mayor Uwe Garrels. However, the joy of the moment [31] ____ off soon.\n\n\"At first I thought this was a wonder, because everything was so [32] ____ , but then we realized that this is a huge [33] ____ in the end,\" said the mayor. He also noted the plastic bags and other materials that have washed ashore on the island can cause serious problems for [34] ____ .\n\nStill, all these little eggs contained an extra treat with their toys. They [35] ____ notes from afar.\n\nThere was just one problem for the German children who received them: They were written in Russian.",
+      "options": [
+        {
+          "id": "A",
+          "text": "wore"
+        },
+        {
+          "id": "B",
+          "text": "wildlife"
+        },
+        {
+          "id": "C",
+          "text": "suspect"
+        },
+        {
+          "id": "D",
+          "text": "struck"
+        },
+        {
+          "id": "E",
+          "text": "similar"
+        },
+        {
+          "id": "F",
+          "text": "quantity"
+        },
+        {
+          "id": "G",
+          "text": "overthrown"
+        },
+        {
+          "id": "H",
+          "text": "mess"
+        },
+        {
+          "id": "I",
+          "text": "intense"
+        },
+        {
+          "id": "J",
+          "text": "human"
+        },
+        {
+          "id": "K",
+          "text": "effective"
+        },
+        {
+          "id": "L",
+          "text": "delight"
+        },
+        {
+          "id": "M",
+          "text": "colorful"
+        },
+        {
+          "id": "N",
+          "text": "bore"
+        },
+        {
+          "id": "O",
+          "text": "alike"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "先看第 29 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 C（suspect）。本空所在句：Police [29] ____ the eggs came from a freighter that lost part of its cargo during an unusually [30] ____ storm, the worst to hit Germany's northeastern coast since 2006.\n将本空替换为 suspect 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    },
+    {
+      "id": "cet4-2023-03-1-nonlistening-q30",
+      "canonicalId": "lazynote-cet4-2023-03-1-q30",
+      "number": 30,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 30 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "It's a fantasy that goes back centuries: a message in a bottle, carried ashore from far-off lands. Authors, artists and children [26] ____ have dreamed of such a gift from the sea.\n\nThis time, though, it's not a bottle that washes ashore. It's eggs—thousands of little toy eggs.\n\nThat's what happened on the German island of Langeoog this week.\n\nLying just off the North Sea coast, it found itself [27] ____ by an invasion of colored plastic eggs—much to the [28] ____ of local children, because the eggs contained toys.\n\nPolice [29] ____ the eggs came from a freighter that lost part of its cargo during an unusually [30] ____ storm, the worst to hit Germany's northeastern coast since 2006.\n\nAt any rate, what was lost has now been found by many of the community's littlest residents.\n\n\"The surprise eggs have found their way to freedom,\" said Mayor Uwe Garrels. However, the joy of the moment [31] ____ off soon.\n\n\"At first I thought this was a wonder, because everything was so [32] ____ , but then we realized that this is a huge [33] ____ in the end,\" said the mayor. He also noted the plastic bags and other materials that have washed ashore on the island can cause serious problems for [34] ____ .\n\nStill, all these little eggs contained an extra treat with their toys. They [35] ____ notes from afar.\n\nThere was just one problem for the German children who received them: They were written in Russian.",
+      "options": [
+        {
+          "id": "A",
+          "text": "wore"
+        },
+        {
+          "id": "B",
+          "text": "wildlife"
+        },
+        {
+          "id": "C",
+          "text": "suspect"
+        },
+        {
+          "id": "D",
+          "text": "struck"
+        },
+        {
+          "id": "E",
+          "text": "similar"
+        },
+        {
+          "id": "F",
+          "text": "quantity"
+        },
+        {
+          "id": "G",
+          "text": "overthrown"
+        },
+        {
+          "id": "H",
+          "text": "mess"
+        },
+        {
+          "id": "I",
+          "text": "intense"
+        },
+        {
+          "id": "J",
+          "text": "human"
+        },
+        {
+          "id": "K",
+          "text": "effective"
+        },
+        {
+          "id": "L",
+          "text": "delight"
+        },
+        {
+          "id": "M",
+          "text": "colorful"
+        },
+        {
+          "id": "N",
+          "text": "bore"
+        },
+        {
+          "id": "O",
+          "text": "alike"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "先看第 30 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 I（intense）。本空所在句：Police [29] ____ the eggs came from a freighter that lost part of its cargo during an unusually [30] ____ storm, the worst to hit Germany's northeastern coast since 2006.\n将本空替换为 intense 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    },
+    {
+      "id": "cet4-2023-03-1-nonlistening-q31",
+      "canonicalId": "lazynote-cet4-2023-03-1-q31",
+      "number": 31,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 31 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "It's a fantasy that goes back centuries: a message in a bottle, carried ashore from far-off lands. Authors, artists and children [26] ____ have dreamed of such a gift from the sea.\n\nThis time, though, it's not a bottle that washes ashore. It's eggs—thousands of little toy eggs.\n\nThat's what happened on the German island of Langeoog this week.\n\nLying just off the North Sea coast, it found itself [27] ____ by an invasion of colored plastic eggs—much to the [28] ____ of local children, because the eggs contained toys.\n\nPolice [29] ____ the eggs came from a freighter that lost part of its cargo during an unusually [30] ____ storm, the worst to hit Germany's northeastern coast since 2006.\n\nAt any rate, what was lost has now been found by many of the community's littlest residents.\n\n\"The surprise eggs have found their way to freedom,\" said Mayor Uwe Garrels. However, the joy of the moment [31] ____ off soon.\n\n\"At first I thought this was a wonder, because everything was so [32] ____ , but then we realized that this is a huge [33] ____ in the end,\" said the mayor. He also noted the plastic bags and other materials that have washed ashore on the island can cause serious problems for [34] ____ .\n\nStill, all these little eggs contained an extra treat with their toys. They [35] ____ notes from afar.\n\nThere was just one problem for the German children who received them: They were written in Russian.",
+      "options": [
+        {
+          "id": "A",
+          "text": "wore"
+        },
+        {
+          "id": "B",
+          "text": "wildlife"
+        },
+        {
+          "id": "C",
+          "text": "suspect"
+        },
+        {
+          "id": "D",
+          "text": "struck"
+        },
+        {
+          "id": "E",
+          "text": "similar"
+        },
+        {
+          "id": "F",
+          "text": "quantity"
+        },
+        {
+          "id": "G",
+          "text": "overthrown"
+        },
+        {
+          "id": "H",
+          "text": "mess"
+        },
+        {
+          "id": "I",
+          "text": "intense"
+        },
+        {
+          "id": "J",
+          "text": "human"
+        },
+        {
+          "id": "K",
+          "text": "effective"
+        },
+        {
+          "id": "L",
+          "text": "delight"
+        },
+        {
+          "id": "M",
+          "text": "colorful"
+        },
+        {
+          "id": "N",
+          "text": "bore"
+        },
+        {
+          "id": "O",
+          "text": "alike"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "先看第 31 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 A（wore）。本空所在句：However, the joy of the moment [31] ____ off soon.\n将本空替换为 wore 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    },
+    {
+      "id": "cet4-2023-03-1-nonlistening-q32",
+      "canonicalId": "lazynote-cet4-2023-03-1-q32",
+      "number": 32,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 32 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "It's a fantasy that goes back centuries: a message in a bottle, carried ashore from far-off lands. Authors, artists and children [26] ____ have dreamed of such a gift from the sea.\n\nThis time, though, it's not a bottle that washes ashore. It's eggs—thousands of little toy eggs.\n\nThat's what happened on the German island of Langeoog this week.\n\nLying just off the North Sea coast, it found itself [27] ____ by an invasion of colored plastic eggs—much to the [28] ____ of local children, because the eggs contained toys.\n\nPolice [29] ____ the eggs came from a freighter that lost part of its cargo during an unusually [30] ____ storm, the worst to hit Germany's northeastern coast since 2006.\n\nAt any rate, what was lost has now been found by many of the community's littlest residents.\n\n\"The surprise eggs have found their way to freedom,\" said Mayor Uwe Garrels. However, the joy of the moment [31] ____ off soon.\n\n\"At first I thought this was a wonder, because everything was so [32] ____ , but then we realized that this is a huge [33] ____ in the end,\" said the mayor. He also noted the plastic bags and other materials that have washed ashore on the island can cause serious problems for [34] ____ .\n\nStill, all these little eggs contained an extra treat with their toys. They [35] ____ notes from afar.\n\nThere was just one problem for the German children who received them: They were written in Russian.",
+      "options": [
+        {
+          "id": "A",
+          "text": "wore"
+        },
+        {
+          "id": "B",
+          "text": "wildlife"
+        },
+        {
+          "id": "C",
+          "text": "suspect"
+        },
+        {
+          "id": "D",
+          "text": "struck"
+        },
+        {
+          "id": "E",
+          "text": "similar"
+        },
+        {
+          "id": "F",
+          "text": "quantity"
+        },
+        {
+          "id": "G",
+          "text": "overthrown"
+        },
+        {
+          "id": "H",
+          "text": "mess"
+        },
+        {
+          "id": "I",
+          "text": "intense"
+        },
+        {
+          "id": "J",
+          "text": "human"
+        },
+        {
+          "id": "K",
+          "text": "effective"
+        },
+        {
+          "id": "L",
+          "text": "delight"
+        },
+        {
+          "id": "M",
+          "text": "colorful"
+        },
+        {
+          "id": "N",
+          "text": "bore"
+        },
+        {
+          "id": "O",
+          "text": "alike"
+        }
+      ],
+      "correctAnswer": "M",
+      "hint": "先看第 32 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 M（colorful）。本空所在句：\"At first I thought this was a wonder, because everything was so [32] ____ , but then we realized that this is a huge [33] ____ in the end,\" said the mayor.\n将本空替换为 colorful 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    },
+    {
+      "id": "cet4-2023-03-1-nonlistening-q33",
+      "canonicalId": "lazynote-cet4-2023-03-1-q33",
+      "number": 33,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 33 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "It's a fantasy that goes back centuries: a message in a bottle, carried ashore from far-off lands. Authors, artists and children [26] ____ have dreamed of such a gift from the sea.\n\nThis time, though, it's not a bottle that washes ashore. It's eggs—thousands of little toy eggs.\n\nThat's what happened on the German island of Langeoog this week.\n\nLying just off the North Sea coast, it found itself [27] ____ by an invasion of colored plastic eggs—much to the [28] ____ of local children, because the eggs contained toys.\n\nPolice [29] ____ the eggs came from a freighter that lost part of its cargo during an unusually [30] ____ storm, the worst to hit Germany's northeastern coast since 2006.\n\nAt any rate, what was lost has now been found by many of the community's littlest residents.\n\n\"The surprise eggs have found their way to freedom,\" said Mayor Uwe Garrels. However, the joy of the moment [31] ____ off soon.\n\n\"At first I thought this was a wonder, because everything was so [32] ____ , but then we realized that this is a huge [33] ____ in the end,\" said the mayor. He also noted the plastic bags and other materials that have washed ashore on the island can cause serious problems for [34] ____ .\n\nStill, all these little eggs contained an extra treat with their toys. They [35] ____ notes from afar.\n\nThere was just one problem for the German children who received them: They were written in Russian.",
+      "options": [
+        {
+          "id": "A",
+          "text": "wore"
+        },
+        {
+          "id": "B",
+          "text": "wildlife"
+        },
+        {
+          "id": "C",
+          "text": "suspect"
+        },
+        {
+          "id": "D",
+          "text": "struck"
+        },
+        {
+          "id": "E",
+          "text": "similar"
+        },
+        {
+          "id": "F",
+          "text": "quantity"
+        },
+        {
+          "id": "G",
+          "text": "overthrown"
+        },
+        {
+          "id": "H",
+          "text": "mess"
+        },
+        {
+          "id": "I",
+          "text": "intense"
+        },
+        {
+          "id": "J",
+          "text": "human"
+        },
+        {
+          "id": "K",
+          "text": "effective"
+        },
+        {
+          "id": "L",
+          "text": "delight"
+        },
+        {
+          "id": "M",
+          "text": "colorful"
+        },
+        {
+          "id": "N",
+          "text": "bore"
+        },
+        {
+          "id": "O",
+          "text": "alike"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "先看第 33 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 H（mess）。本空所在句：\"At first I thought this was a wonder, because everything was so [32] ____ , but then we realized that this is a huge [33] ____ in the end,\" said the mayor.\n将本空替换为 mess 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    },
+    {
+      "id": "cet4-2023-03-1-nonlistening-q34",
+      "canonicalId": "lazynote-cet4-2023-03-1-q34",
+      "number": 34,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 34 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "It's a fantasy that goes back centuries: a message in a bottle, carried ashore from far-off lands. Authors, artists and children [26] ____ have dreamed of such a gift from the sea.\n\nThis time, though, it's not a bottle that washes ashore. It's eggs—thousands of little toy eggs.\n\nThat's what happened on the German island of Langeoog this week.\n\nLying just off the North Sea coast, it found itself [27] ____ by an invasion of colored plastic eggs—much to the [28] ____ of local children, because the eggs contained toys.\n\nPolice [29] ____ the eggs came from a freighter that lost part of its cargo during an unusually [30] ____ storm, the worst to hit Germany's northeastern coast since 2006.\n\nAt any rate, what was lost has now been found by many of the community's littlest residents.\n\n\"The surprise eggs have found their way to freedom,\" said Mayor Uwe Garrels. However, the joy of the moment [31] ____ off soon.\n\n\"At first I thought this was a wonder, because everything was so [32] ____ , but then we realized that this is a huge [33] ____ in the end,\" said the mayor. He also noted the plastic bags and other materials that have washed ashore on the island can cause serious problems for [34] ____ .\n\nStill, all these little eggs contained an extra treat with their toys. They [35] ____ notes from afar.\n\nThere was just one problem for the German children who received them: They were written in Russian.",
+      "options": [
+        {
+          "id": "A",
+          "text": "wore"
+        },
+        {
+          "id": "B",
+          "text": "wildlife"
+        },
+        {
+          "id": "C",
+          "text": "suspect"
+        },
+        {
+          "id": "D",
+          "text": "struck"
+        },
+        {
+          "id": "E",
+          "text": "similar"
+        },
+        {
+          "id": "F",
+          "text": "quantity"
+        },
+        {
+          "id": "G",
+          "text": "overthrown"
+        },
+        {
+          "id": "H",
+          "text": "mess"
+        },
+        {
+          "id": "I",
+          "text": "intense"
+        },
+        {
+          "id": "J",
+          "text": "human"
+        },
+        {
+          "id": "K",
+          "text": "effective"
+        },
+        {
+          "id": "L",
+          "text": "delight"
+        },
+        {
+          "id": "M",
+          "text": "colorful"
+        },
+        {
+          "id": "N",
+          "text": "bore"
+        },
+        {
+          "id": "O",
+          "text": "alike"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "先看第 34 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 B（wildlife）。本空所在句：He also noted the plastic bags and other materials that have washed ashore on the island can cause serious problems for [34] ____ .\n将本空替换为 wildlife 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    },
+    {
+      "id": "cet4-2023-03-1-nonlistening-q35",
+      "canonicalId": "lazynote-cet4-2023-03-1-q35",
+      "number": 35,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 35 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "It's a fantasy that goes back centuries: a message in a bottle, carried ashore from far-off lands. Authors, artists and children [26] ____ have dreamed of such a gift from the sea.\n\nThis time, though, it's not a bottle that washes ashore. It's eggs—thousands of little toy eggs.\n\nThat's what happened on the German island of Langeoog this week.\n\nLying just off the North Sea coast, it found itself [27] ____ by an invasion of colored plastic eggs—much to the [28] ____ of local children, because the eggs contained toys.\n\nPolice [29] ____ the eggs came from a freighter that lost part of its cargo during an unusually [30] ____ storm, the worst to hit Germany's northeastern coast since 2006.\n\nAt any rate, what was lost has now been found by many of the community's littlest residents.\n\n\"The surprise eggs have found their way to freedom,\" said Mayor Uwe Garrels. However, the joy of the moment [31] ____ off soon.\n\n\"At first I thought this was a wonder, because everything was so [32] ____ , but then we realized that this is a huge [33] ____ in the end,\" said the mayor. He also noted the plastic bags and other materials that have washed ashore on the island can cause serious problems for [34] ____ .\n\nStill, all these little eggs contained an extra treat with their toys. They [35] ____ notes from afar.\n\nThere was just one problem for the German children who received them: They were written in Russian.",
+      "options": [
+        {
+          "id": "A",
+          "text": "wore"
+        },
+        {
+          "id": "B",
+          "text": "wildlife"
+        },
+        {
+          "id": "C",
+          "text": "suspect"
+        },
+        {
+          "id": "D",
+          "text": "struck"
+        },
+        {
+          "id": "E",
+          "text": "similar"
+        },
+        {
+          "id": "F",
+          "text": "quantity"
+        },
+        {
+          "id": "G",
+          "text": "overthrown"
+        },
+        {
+          "id": "H",
+          "text": "mess"
+        },
+        {
+          "id": "I",
+          "text": "intense"
+        },
+        {
+          "id": "J",
+          "text": "human"
+        },
+        {
+          "id": "K",
+          "text": "effective"
+        },
+        {
+          "id": "L",
+          "text": "delight"
+        },
+        {
+          "id": "M",
+          "text": "colorful"
+        },
+        {
+          "id": "N",
+          "text": "bore"
+        },
+        {
+          "id": "O",
+          "text": "alike"
+        }
+      ],
+      "correctAnswer": "N",
+      "hint": "先看第 35 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 N（bore）。本空所在句：They [35] ____ notes from afar.\n将本空替换为 bore 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    },
+    {
+      "id": "cet4-2023-03-1-nonlistening-q36",
+      "canonicalId": "lazynote-cet4-2023-03-1-q36",
+      "number": 36,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Many people today still find name hyphenation upon marriage unacceptable.",
+      "passage": "Hyphenating your last name after marriage?\n\nA) Congratulations on deciding to get married! While being married is great and wonderful, the act of getting married can be quite stressful. There is the planning of the ceremony itself, the merging(合并) of two households and all of the details involved in that. You also have to take the time to apply for your marriage license and then decide whether or not you are going to keep your last name or change it.\n\nB) This is where a lot of people have trouble. Once upon a time, it was just customary for a bride to take her groom's last name as her own and abandon her maiden name completely. The act of keeping her own last name was considered taboo(禁忌) and people's eyebrows would raise right off their faces when they found out that the bride was even considering something so radical. Over time, though, more and more women are deciding to keep their last names.\n\nC) There are a lot of reasons to want to keep your own last name. Hopefully you have a supportive groom who understands why this idea is the most appealing to you. A lot of times, though, the act of keeping your name is still something that causes concern. Even if your groom is fine with it, his family (or your own) might not be so understanding.\n\nD) There are a couple of ways to compromise on the issue. You could choose an entirely new last name for the two of you to share. This way neither of you gets \"your\" way and you both have to deal with the legalities of going through a name change. Most of the time, though, the most popular compromise is to hyphenate your last name and the last name of your groom. For example, if your groom's name is John Smith and your name is Kate Jones, you would name yourself Kate Jones-Smith or Kate Smith-Jones. This allows you to keep going by your own last name while legally adopting your husband's last name at the same time.\n\nE) The compromise is the biggest reason that so many women choose to hyphenate their last names. It is a way of you keeping your own identity while also making your future husband happy. It allows you to stay connected to accomplishments that you achieved before you got married. For example, many women who choose to hyphenate do so partially because they have earned higher educational degrees and certifications under their maiden names. They might have also had things published or publicized and want to stay connected to that identity. Hyphenating your last name can help you bridge the gap between your personal and professional lives. Many women who opt to simply keep their own names do so because they don't want to give up all that they have accomplished professionally. Adopting their husband's last name makes it hard for them to claim ownership of these accomplishments personally because they happened under their \"other\" name.\n\nF) While tradition is one thing, there isn't any logical reason to completely change your name. Keeping your name and joining it to your husband's through hyphenation is as legal as simply adopting his name or as simply keeping your own and leaving his out of the picture entirely.\n\nG) Probably the most important reason to consider hyphenation is your identity. You've spent your whole life building your identity under a certain name. Obviously you will still be you even if you've taken on your husband's last name and omitted yours entirely. At the same time, your name is associated with the identity you've built up and hyphenation allows you to respect that while also respecting tradition and your husband's family's identity.\n\nH) If you care about outside opinions on your name, you should know that a large portion of today's society is annoyed by the hyphenated name. Some people find it \"snobby\"(势利的) and others simply find it irritating because they have a hard time remembering which last name they are supposed to say first. Some people even believe that not simply adopting your husband's last name is a huge sign of disrespect and a lack of commitment.\n\nI) It is possible that your future husband will find this choice offensive. Some men, regardless of how you might feel about such things, are traditionalists and feel that it is simply \"right\" for the woman to take the man's last name as her own. Whether your future husband insisting on your adopting his last name is a red flag to you or not, it is still something that you should take into consideration.\n\nJ) There are all sorts of reasons to hyphenate your name or not to hyphenate your name. The basis for each of these things, however, is whether or not you are willing to make a compromise when it comes to changing your name. The hyphenation is the epitome(体现) of a compromise. One spouse wants a complete name change. The other spouse wants no name change. Hyphenating the two names is a way for each person to, at least a little bit, \"win\" the argument.\n\nK) And don't forget the legal stuff! Making the decision is just part of the process. From there you are going to have to legally change your name all over the place. You'll need to change your name at the bank, with social security, with your credit cards, on your driver's license, at the gym…everywhere. It's easy to get overwhelmed just thinking about it.\n\nL) What matters, of course, is that the two of you are going to be happily married—hopefully for the rest of your lives. At the end of the day, whether you each keep your names, whether you come up with an entirely new name for the two of you to share or whether you hyphenate your current last names, what matters is that you love each other and are going to be joining your lives together. Try to remember that as you are staring at the application for your marriage license and filling out the portion that reads \"name after you get married\" (or whatever the legalese for that might be).",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 H 段。题干：Many people today still find name hyphenation upon marriage unacceptable.\n核对该段原文：If you care about outside opinions on your name, you should know that a large portion of today's society is annoyed by the hyphenated name. Some people find it \"snobby\"(势利的) and others simply find it irritating because they have a hard time remembering which last name they are supposed to say first. Some people even believe that not simply adopting your husband's last name is a huge sign of disrespect and a lack of commitment.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    },
+    {
+      "id": "cet4-2023-03-1-nonlistening-q37",
+      "canonicalId": "lazynote-cet4-2023-03-1-q37",
+      "number": 37,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "As a compromise, a bride will in most cases adopt a name that combines the couple's last names.",
+      "passage": "Hyphenating your last name after marriage?\n\nA) Congratulations on deciding to get married! While being married is great and wonderful, the act of getting married can be quite stressful. There is the planning of the ceremony itself, the merging(合并) of two households and all of the details involved in that. You also have to take the time to apply for your marriage license and then decide whether or not you are going to keep your last name or change it.\n\nB) This is where a lot of people have trouble. Once upon a time, it was just customary for a bride to take her groom's last name as her own and abandon her maiden name completely. The act of keeping her own last name was considered taboo(禁忌) and people's eyebrows would raise right off their faces when they found out that the bride was even considering something so radical. Over time, though, more and more women are deciding to keep their last names.\n\nC) There are a lot of reasons to want to keep your own last name. Hopefully you have a supportive groom who understands why this idea is the most appealing to you. A lot of times, though, the act of keeping your name is still something that causes concern. Even if your groom is fine with it, his family (or your own) might not be so understanding.\n\nD) There are a couple of ways to compromise on the issue. You could choose an entirely new last name for the two of you to share. This way neither of you gets \"your\" way and you both have to deal with the legalities of going through a name change. Most of the time, though, the most popular compromise is to hyphenate your last name and the last name of your groom. For example, if your groom's name is John Smith and your name is Kate Jones, you would name yourself Kate Jones-Smith or Kate Smith-Jones. This allows you to keep going by your own last name while legally adopting your husband's last name at the same time.\n\nE) The compromise is the biggest reason that so many women choose to hyphenate their last names. It is a way of you keeping your own identity while also making your future husband happy. It allows you to stay connected to accomplishments that you achieved before you got married. For example, many women who choose to hyphenate do so partially because they have earned higher educational degrees and certifications under their maiden names. They might have also had things published or publicized and want to stay connected to that identity. Hyphenating your last name can help you bridge the gap between your personal and professional lives. Many women who opt to simply keep their own names do so because they don't want to give up all that they have accomplished professionally. Adopting their husband's last name makes it hard for them to claim ownership of these accomplishments personally because they happened under their \"other\" name.\n\nF) While tradition is one thing, there isn't any logical reason to completely change your name. Keeping your name and joining it to your husband's through hyphenation is as legal as simply adopting his name or as simply keeping your own and leaving his out of the picture entirely.\n\nG) Probably the most important reason to consider hyphenation is your identity. You've spent your whole life building your identity under a certain name. Obviously you will still be you even if you've taken on your husband's last name and omitted yours entirely. At the same time, your name is associated with the identity you've built up and hyphenation allows you to respect that while also respecting tradition and your husband's family's identity.\n\nH) If you care about outside opinions on your name, you should know that a large portion of today's society is annoyed by the hyphenated name. Some people find it \"snobby\"(势利的) and others simply find it irritating because they have a hard time remembering which last name they are supposed to say first. Some people even believe that not simply adopting your husband's last name is a huge sign of disrespect and a lack of commitment.\n\nI) It is possible that your future husband will find this choice offensive. Some men, regardless of how you might feel about such things, are traditionalists and feel that it is simply \"right\" for the woman to take the man's last name as her own. Whether your future husband insisting on your adopting his last name is a red flag to you or not, it is still something that you should take into consideration.\n\nJ) There are all sorts of reasons to hyphenate your name or not to hyphenate your name. The basis for each of these things, however, is whether or not you are willing to make a compromise when it comes to changing your name. The hyphenation is the epitome(体现) of a compromise. One spouse wants a complete name change. The other spouse wants no name change. Hyphenating the two names is a way for each person to, at least a little bit, \"win\" the argument.\n\nK) And don't forget the legal stuff! Making the decision is just part of the process. From there you are going to have to legally change your name all over the place. You'll need to change your name at the bank, with social security, with your credit cards, on your driver's license, at the gym…everywhere. It's easy to get overwhelmed just thinking about it.\n\nL) What matters, of course, is that the two of you are going to be happily married—hopefully for the rest of your lives. At the end of the day, whether you each keep your names, whether you come up with an entirely new name for the two of you to share or whether you hyphenate your current last names, what matters is that you love each other and are going to be joining your lives together. Try to remember that as you are staring at the application for your marriage license and filling out the portion that reads \"name after you get married\" (or whatever the legalese for that might be).",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 D 段。题干：As a compromise, a bride will in most cases adopt a name that combines the couple's last names.\n核对该段原文：There are a couple of ways to compromise on the issue. You could choose an entirely new last name for the two of you to share. This way neither of you gets \"your\" way and you both have to deal with the legalities of going through a name change. Most of the time, though, the most popular compromise is to hyphenate your last name and the last name of your groom. For example, if your groom's name is John Smith and your name is Kate Jones, you would name yourself Kate Jones-Smith or Kate Smith-Jones. This allows you to keep going by your own last name while legally adopting your husband's last name at the same time.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    },
+    {
+      "id": "cet4-2023-03-1-nonlistening-q38",
+      "canonicalId": "lazynote-cet4-2023-03-1-q38",
+      "number": 38,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The bride should consider adopting her groom's last name whether he feels strongly about it or not.",
+      "passage": "Hyphenating your last name after marriage?\n\nA) Congratulations on deciding to get married! While being married is great and wonderful, the act of getting married can be quite stressful. There is the planning of the ceremony itself, the merging(合并) of two households and all of the details involved in that. You also have to take the time to apply for your marriage license and then decide whether or not you are going to keep your last name or change it.\n\nB) This is where a lot of people have trouble. Once upon a time, it was just customary for a bride to take her groom's last name as her own and abandon her maiden name completely. The act of keeping her own last name was considered taboo(禁忌) and people's eyebrows would raise right off their faces when they found out that the bride was even considering something so radical. Over time, though, more and more women are deciding to keep their last names.\n\nC) There are a lot of reasons to want to keep your own last name. Hopefully you have a supportive groom who understands why this idea is the most appealing to you. A lot of times, though, the act of keeping your name is still something that causes concern. Even if your groom is fine with it, his family (or your own) might not be so understanding.\n\nD) There are a couple of ways to compromise on the issue. You could choose an entirely new last name for the two of you to share. This way neither of you gets \"your\" way and you both have to deal with the legalities of going through a name change. Most of the time, though, the most popular compromise is to hyphenate your last name and the last name of your groom. For example, if your groom's name is John Smith and your name is Kate Jones, you would name yourself Kate Jones-Smith or Kate Smith-Jones. This allows you to keep going by your own last name while legally adopting your husband's last name at the same time.\n\nE) The compromise is the biggest reason that so many women choose to hyphenate their last names. It is a way of you keeping your own identity while also making your future husband happy. It allows you to stay connected to accomplishments that you achieved before you got married. For example, many women who choose to hyphenate do so partially because they have earned higher educational degrees and certifications under their maiden names. They might have also had things published or publicized and want to stay connected to that identity. Hyphenating your last name can help you bridge the gap between your personal and professional lives. Many women who opt to simply keep their own names do so because they don't want to give up all that they have accomplished professionally. Adopting their husband's last name makes it hard for them to claim ownership of these accomplishments personally because they happened under their \"other\" name.\n\nF) While tradition is one thing, there isn't any logical reason to completely change your name. Keeping your name and joining it to your husband's through hyphenation is as legal as simply adopting his name or as simply keeping your own and leaving his out of the picture entirely.\n\nG) Probably the most important reason to consider hyphenation is your identity. You've spent your whole life building your identity under a certain name. Obviously you will still be you even if you've taken on your husband's last name and omitted yours entirely. At the same time, your name is associated with the identity you've built up and hyphenation allows you to respect that while also respecting tradition and your husband's family's identity.\n\nH) If you care about outside opinions on your name, you should know that a large portion of today's society is annoyed by the hyphenated name. Some people find it \"snobby\"(势利的) and others simply find it irritating because they have a hard time remembering which last name they are supposed to say first. Some people even believe that not simply adopting your husband's last name is a huge sign of disrespect and a lack of commitment.\n\nI) It is possible that your future husband will find this choice offensive. Some men, regardless of how you might feel about such things, are traditionalists and feel that it is simply \"right\" for the woman to take the man's last name as her own. Whether your future husband insisting on your adopting his last name is a red flag to you or not, it is still something that you should take into consideration.\n\nJ) There are all sorts of reasons to hyphenate your name or not to hyphenate your name. The basis for each of these things, however, is whether or not you are willing to make a compromise when it comes to changing your name. The hyphenation is the epitome(体现) of a compromise. One spouse wants a complete name change. The other spouse wants no name change. Hyphenating the two names is a way for each person to, at least a little bit, \"win\" the argument.\n\nK) And don't forget the legal stuff! Making the decision is just part of the process. From there you are going to have to legally change your name all over the place. You'll need to change your name at the bank, with social security, with your credit cards, on your driver's license, at the gym…everywhere. It's easy to get overwhelmed just thinking about it.\n\nL) What matters, of course, is that the two of you are going to be happily married—hopefully for the rest of your lives. At the end of the day, whether you each keep your names, whether you come up with an entirely new name for the two of you to share or whether you hyphenate your current last names, what matters is that you love each other and are going to be joining your lives together. Try to remember that as you are staring at the application for your marriage license and filling out the portion that reads \"name after you get married\" (or whatever the legalese for that might be).",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 I 段。题干：The bride should consider adopting her groom's last name whether he feels strongly about it or not.\n核对该段原文：It is possible that your future husband will find this choice offensive. Some men, regardless of how you might feel about such things, are traditionalists and feel that it is simply \"right\" for the woman to take the man's last name as her own. Whether your future husband insisting on your adopting his last name is a red flag to you or not, it is still something that you should take into consideration.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    },
+    {
+      "id": "cet4-2023-03-1-nonlistening-q39",
+      "canonicalId": "lazynote-cet4-2023-03-1-q39",
+      "number": 39,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Making preparations for marriage causes a lot of stress.",
+      "passage": "Hyphenating your last name after marriage?\n\nA) Congratulations on deciding to get married! While being married is great and wonderful, the act of getting married can be quite stressful. There is the planning of the ceremony itself, the merging(合并) of two households and all of the details involved in that. You also have to take the time to apply for your marriage license and then decide whether or not you are going to keep your last name or change it.\n\nB) This is where a lot of people have trouble. Once upon a time, it was just customary for a bride to take her groom's last name as her own and abandon her maiden name completely. The act of keeping her own last name was considered taboo(禁忌) and people's eyebrows would raise right off their faces when they found out that the bride was even considering something so radical. Over time, though, more and more women are deciding to keep their last names.\n\nC) There are a lot of reasons to want to keep your own last name. Hopefully you have a supportive groom who understands why this idea is the most appealing to you. A lot of times, though, the act of keeping your name is still something that causes concern. Even if your groom is fine with it, his family (or your own) might not be so understanding.\n\nD) There are a couple of ways to compromise on the issue. You could choose an entirely new last name for the two of you to share. This way neither of you gets \"your\" way and you both have to deal with the legalities of going through a name change. Most of the time, though, the most popular compromise is to hyphenate your last name and the last name of your groom. For example, if your groom's name is John Smith and your name is Kate Jones, you would name yourself Kate Jones-Smith or Kate Smith-Jones. This allows you to keep going by your own last name while legally adopting your husband's last name at the same time.\n\nE) The compromise is the biggest reason that so many women choose to hyphenate their last names. It is a way of you keeping your own identity while also making your future husband happy. It allows you to stay connected to accomplishments that you achieved before you got married. For example, many women who choose to hyphenate do so partially because they have earned higher educational degrees and certifications under their maiden names. They might have also had things published or publicized and want to stay connected to that identity. Hyphenating your last name can help you bridge the gap between your personal and professional lives. Many women who opt to simply keep their own names do so because they don't want to give up all that they have accomplished professionally. Adopting their husband's last name makes it hard for them to claim ownership of these accomplishments personally because they happened under their \"other\" name.\n\nF) While tradition is one thing, there isn't any logical reason to completely change your name. Keeping your name and joining it to your husband's through hyphenation is as legal as simply adopting his name or as simply keeping your own and leaving his out of the picture entirely.\n\nG) Probably the most important reason to consider hyphenation is your identity. You've spent your whole life building your identity under a certain name. Obviously you will still be you even if you've taken on your husband's last name and omitted yours entirely. At the same time, your name is associated with the identity you've built up and hyphenation allows you to respect that while also respecting tradition and your husband's family's identity.\n\nH) If you care about outside opinions on your name, you should know that a large portion of today's society is annoyed by the hyphenated name. Some people find it \"snobby\"(势利的) and others simply find it irritating because they have a hard time remembering which last name they are supposed to say first. Some people even believe that not simply adopting your husband's last name is a huge sign of disrespect and a lack of commitment.\n\nI) It is possible that your future husband will find this choice offensive. Some men, regardless of how you might feel about such things, are traditionalists and feel that it is simply \"right\" for the woman to take the man's last name as her own. Whether your future husband insisting on your adopting his last name is a red flag to you or not, it is still something that you should take into consideration.\n\nJ) There are all sorts of reasons to hyphenate your name or not to hyphenate your name. The basis for each of these things, however, is whether or not you are willing to make a compromise when it comes to changing your name. The hyphenation is the epitome(体现) of a compromise. One spouse wants a complete name change. The other spouse wants no name change. Hyphenating the two names is a way for each person to, at least a little bit, \"win\" the argument.\n\nK) And don't forget the legal stuff! Making the decision is just part of the process. From there you are going to have to legally change your name all over the place. You'll need to change your name at the bank, with social security, with your credit cards, on your driver's license, at the gym…everywhere. It's easy to get overwhelmed just thinking about it.\n\nL) What matters, of course, is that the two of you are going to be happily married—hopefully for the rest of your lives. At the end of the day, whether you each keep your names, whether you come up with an entirely new name for the two of you to share or whether you hyphenate your current last names, what matters is that you love each other and are going to be joining your lives together. Try to remember that as you are staring at the application for your marriage license and filling out the portion that reads \"name after you get married\" (or whatever the legalese for that might be).",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 A 段。题干：Making preparations for marriage causes a lot of stress.\n核对该段原文：Congratulations on deciding to get married! While being married is great and wonderful, the act of getting married can be quite stressful. There is the planning of the ceremony itself, the merging(合并) of two households and all of the details involved in that. You also have to take the time to apply for your marriage license and then decide whether or not you are going to keep your last name or change it.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    },
+    {
+      "id": "cet4-2023-03-1-nonlistening-q40",
+      "canonicalId": "lazynote-cet4-2023-03-1-q40",
+      "number": 40,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Hyphenating the last names could be a win-win solution should arguments arise about what name to adopt upon marriage.",
+      "passage": "Hyphenating your last name after marriage?\n\nA) Congratulations on deciding to get married! While being married is great and wonderful, the act of getting married can be quite stressful. There is the planning of the ceremony itself, the merging(合并) of two households and all of the details involved in that. You also have to take the time to apply for your marriage license and then decide whether or not you are going to keep your last name or change it.\n\nB) This is where a lot of people have trouble. Once upon a time, it was just customary for a bride to take her groom's last name as her own and abandon her maiden name completely. The act of keeping her own last name was considered taboo(禁忌) and people's eyebrows would raise right off their faces when they found out that the bride was even considering something so radical. Over time, though, more and more women are deciding to keep their last names.\n\nC) There are a lot of reasons to want to keep your own last name. Hopefully you have a supportive groom who understands why this idea is the most appealing to you. A lot of times, though, the act of keeping your name is still something that causes concern. Even if your groom is fine with it, his family (or your own) might not be so understanding.\n\nD) There are a couple of ways to compromise on the issue. You could choose an entirely new last name for the two of you to share. This way neither of you gets \"your\" way and you both have to deal with the legalities of going through a name change. Most of the time, though, the most popular compromise is to hyphenate your last name and the last name of your groom. For example, if your groom's name is John Smith and your name is Kate Jones, you would name yourself Kate Jones-Smith or Kate Smith-Jones. This allows you to keep going by your own last name while legally adopting your husband's last name at the same time.\n\nE) The compromise is the biggest reason that so many women choose to hyphenate their last names. It is a way of you keeping your own identity while also making your future husband happy. It allows you to stay connected to accomplishments that you achieved before you got married. For example, many women who choose to hyphenate do so partially because they have earned higher educational degrees and certifications under their maiden names. They might have also had things published or publicized and want to stay connected to that identity. Hyphenating your last name can help you bridge the gap between your personal and professional lives. Many women who opt to simply keep their own names do so because they don't want to give up all that they have accomplished professionally. Adopting their husband's last name makes it hard for them to claim ownership of these accomplishments personally because they happened under their \"other\" name.\n\nF) While tradition is one thing, there isn't any logical reason to completely change your name. Keeping your name and joining it to your husband's through hyphenation is as legal as simply adopting his name or as simply keeping your own and leaving his out of the picture entirely.\n\nG) Probably the most important reason to consider hyphenation is your identity. You've spent your whole life building your identity under a certain name. Obviously you will still be you even if you've taken on your husband's last name and omitted yours entirely. At the same time, your name is associated with the identity you've built up and hyphenation allows you to respect that while also respecting tradition and your husband's family's identity.\n\nH) If you care about outside opinions on your name, you should know that a large portion of today's society is annoyed by the hyphenated name. Some people find it \"snobby\"(势利的) and others simply find it irritating because they have a hard time remembering which last name they are supposed to say first. Some people even believe that not simply adopting your husband's last name is a huge sign of disrespect and a lack of commitment.\n\nI) It is possible that your future husband will find this choice offensive. Some men, regardless of how you might feel about such things, are traditionalists and feel that it is simply \"right\" for the woman to take the man's last name as her own. Whether your future husband insisting on your adopting his last name is a red flag to you or not, it is still something that you should take into consideration.\n\nJ) There are all sorts of reasons to hyphenate your name or not to hyphenate your name. The basis for each of these things, however, is whether or not you are willing to make a compromise when it comes to changing your name. The hyphenation is the epitome(体现) of a compromise. One spouse wants a complete name change. The other spouse wants no name change. Hyphenating the two names is a way for each person to, at least a little bit, \"win\" the argument.\n\nK) And don't forget the legal stuff! Making the decision is just part of the process. From there you are going to have to legally change your name all over the place. You'll need to change your name at the bank, with social security, with your credit cards, on your driver's license, at the gym…everywhere. It's easy to get overwhelmed just thinking about it.\n\nL) What matters, of course, is that the two of you are going to be happily married—hopefully for the rest of your lives. At the end of the day, whether you each keep your names, whether you come up with an entirely new name for the two of you to share or whether you hyphenate your current last names, what matters is that you love each other and are going to be joining your lives together. Try to remember that as you are staring at the application for your marriage license and filling out the portion that reads \"name after you get married\" (or whatever the legalese for that might be).",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "J",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 J 段。题干：Hyphenating the last names could be a win-win solution should arguments arise about what name to adopt upon marriage.\n核对该段原文：There are all sorts of reasons to hyphenate your name or not to hyphenate your name. The basis for each of these things, however, is whether or not you are willing to make a compromise when it comes to changing your name. The hyphenation is the epitome(体现) of a compromise. One spouse wants a complete name change. The other spouse wants no name change. Hyphenating the two names is a way for each person to, at least a little bit, \"win\" the argument.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    },
+    {
+      "id": "cet4-2023-03-1-nonlistening-q41",
+      "canonicalId": "lazynote-cet4-2023-03-1-q41",
+      "number": 41,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "It used to be considered socially unacceptable for a bride to retain her maiden name.",
+      "passage": "Hyphenating your last name after marriage?\n\nA) Congratulations on deciding to get married! While being married is great and wonderful, the act of getting married can be quite stressful. There is the planning of the ceremony itself, the merging(合并) of two households and all of the details involved in that. You also have to take the time to apply for your marriage license and then decide whether or not you are going to keep your last name or change it.\n\nB) This is where a lot of people have trouble. Once upon a time, it was just customary for a bride to take her groom's last name as her own and abandon her maiden name completely. The act of keeping her own last name was considered taboo(禁忌) and people's eyebrows would raise right off their faces when they found out that the bride was even considering something so radical. Over time, though, more and more women are deciding to keep their last names.\n\nC) There are a lot of reasons to want to keep your own last name. Hopefully you have a supportive groom who understands why this idea is the most appealing to you. A lot of times, though, the act of keeping your name is still something that causes concern. Even if your groom is fine with it, his family (or your own) might not be so understanding.\n\nD) There are a couple of ways to compromise on the issue. You could choose an entirely new last name for the two of you to share. This way neither of you gets \"your\" way and you both have to deal with the legalities of going through a name change. Most of the time, though, the most popular compromise is to hyphenate your last name and the last name of your groom. For example, if your groom's name is John Smith and your name is Kate Jones, you would name yourself Kate Jones-Smith or Kate Smith-Jones. This allows you to keep going by your own last name while legally adopting your husband's last name at the same time.\n\nE) The compromise is the biggest reason that so many women choose to hyphenate their last names. It is a way of you keeping your own identity while also making your future husband happy. It allows you to stay connected to accomplishments that you achieved before you got married. For example, many women who choose to hyphenate do so partially because they have earned higher educational degrees and certifications under their maiden names. They might have also had things published or publicized and want to stay connected to that identity. Hyphenating your last name can help you bridge the gap between your personal and professional lives. Many women who opt to simply keep their own names do so because they don't want to give up all that they have accomplished professionally. Adopting their husband's last name makes it hard for them to claim ownership of these accomplishments personally because they happened under their \"other\" name.\n\nF) While tradition is one thing, there isn't any logical reason to completely change your name. Keeping your name and joining it to your husband's through hyphenation is as legal as simply adopting his name or as simply keeping your own and leaving his out of the picture entirely.\n\nG) Probably the most important reason to consider hyphenation is your identity. You've spent your whole life building your identity under a certain name. Obviously you will still be you even if you've taken on your husband's last name and omitted yours entirely. At the same time, your name is associated with the identity you've built up and hyphenation allows you to respect that while also respecting tradition and your husband's family's identity.\n\nH) If you care about outside opinions on your name, you should know that a large portion of today's society is annoyed by the hyphenated name. Some people find it \"snobby\"(势利的) and others simply find it irritating because they have a hard time remembering which last name they are supposed to say first. Some people even believe that not simply adopting your husband's last name is a huge sign of disrespect and a lack of commitment.\n\nI) It is possible that your future husband will find this choice offensive. Some men, regardless of how you might feel about such things, are traditionalists and feel that it is simply \"right\" for the woman to take the man's last name as her own. Whether your future husband insisting on your adopting his last name is a red flag to you or not, it is still something that you should take into consideration.\n\nJ) There are all sorts of reasons to hyphenate your name or not to hyphenate your name. The basis for each of these things, however, is whether or not you are willing to make a compromise when it comes to changing your name. The hyphenation is the epitome(体现) of a compromise. One spouse wants a complete name change. The other spouse wants no name change. Hyphenating the two names is a way for each person to, at least a little bit, \"win\" the argument.\n\nK) And don't forget the legal stuff! Making the decision is just part of the process. From there you are going to have to legally change your name all over the place. You'll need to change your name at the bank, with social security, with your credit cards, on your driver's license, at the gym…everywhere. It's easy to get overwhelmed just thinking about it.\n\nL) What matters, of course, is that the two of you are going to be happily married—hopefully for the rest of your lives. At the end of the day, whether you each keep your names, whether you come up with an entirely new name for the two of you to share or whether you hyphenate your current last names, what matters is that you love each other and are going to be joining your lives together. Try to remember that as you are staring at the application for your marriage license and filling out the portion that reads \"name after you get married\" (or whatever the legalese for that might be).",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 B 段。题干：It used to be considered socially unacceptable for a bride to retain her maiden name.\n核对该段原文：This is where a lot of people have trouble. Once upon a time, it was just customary for a bride to take her groom's last name as her own and abandon her maiden name completely. The act of keeping her own last name was considered taboo(禁忌) and people's eyebrows would raise right off their faces when they found out that the bride was even considering something so radical. Over time, though, more and more women are deciding to keep their last names.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    },
+    {
+      "id": "cet4-2023-03-1-nonlistening-q42",
+      "canonicalId": "lazynote-cet4-2023-03-1-q42",
+      "number": 42,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The bride who adopts a hyphenated last name after marriage can maintain connections with their past achievements.",
+      "passage": "Hyphenating your last name after marriage?\n\nA) Congratulations on deciding to get married! While being married is great and wonderful, the act of getting married can be quite stressful. There is the planning of the ceremony itself, the merging(合并) of two households and all of the details involved in that. You also have to take the time to apply for your marriage license and then decide whether or not you are going to keep your last name or change it.\n\nB) This is where a lot of people have trouble. Once upon a time, it was just customary for a bride to take her groom's last name as her own and abandon her maiden name completely. The act of keeping her own last name was considered taboo(禁忌) and people's eyebrows would raise right off their faces when they found out that the bride was even considering something so radical. Over time, though, more and more women are deciding to keep their last names.\n\nC) There are a lot of reasons to want to keep your own last name. Hopefully you have a supportive groom who understands why this idea is the most appealing to you. A lot of times, though, the act of keeping your name is still something that causes concern. Even if your groom is fine with it, his family (or your own) might not be so understanding.\n\nD) There are a couple of ways to compromise on the issue. You could choose an entirely new last name for the two of you to share. This way neither of you gets \"your\" way and you both have to deal with the legalities of going through a name change. Most of the time, though, the most popular compromise is to hyphenate your last name and the last name of your groom. For example, if your groom's name is John Smith and your name is Kate Jones, you would name yourself Kate Jones-Smith or Kate Smith-Jones. This allows you to keep going by your own last name while legally adopting your husband's last name at the same time.\n\nE) The compromise is the biggest reason that so many women choose to hyphenate their last names. It is a way of you keeping your own identity while also making your future husband happy. It allows you to stay connected to accomplishments that you achieved before you got married. For example, many women who choose to hyphenate do so partially because they have earned higher educational degrees and certifications under their maiden names. They might have also had things published or publicized and want to stay connected to that identity. Hyphenating your last name can help you bridge the gap between your personal and professional lives. Many women who opt to simply keep their own names do so because they don't want to give up all that they have accomplished professionally. Adopting their husband's last name makes it hard for them to claim ownership of these accomplishments personally because they happened under their \"other\" name.\n\nF) While tradition is one thing, there isn't any logical reason to completely change your name. Keeping your name and joining it to your husband's through hyphenation is as legal as simply adopting his name or as simply keeping your own and leaving his out of the picture entirely.\n\nG) Probably the most important reason to consider hyphenation is your identity. You've spent your whole life building your identity under a certain name. Obviously you will still be you even if you've taken on your husband's last name and omitted yours entirely. At the same time, your name is associated with the identity you've built up and hyphenation allows you to respect that while also respecting tradition and your husband's family's identity.\n\nH) If you care about outside opinions on your name, you should know that a large portion of today's society is annoyed by the hyphenated name. Some people find it \"snobby\"(势利的) and others simply find it irritating because they have a hard time remembering which last name they are supposed to say first. Some people even believe that not simply adopting your husband's last name is a huge sign of disrespect and a lack of commitment.\n\nI) It is possible that your future husband will find this choice offensive. Some men, regardless of how you might feel about such things, are traditionalists and feel that it is simply \"right\" for the woman to take the man's last name as her own. Whether your future husband insisting on your adopting his last name is a red flag to you or not, it is still something that you should take into consideration.\n\nJ) There are all sorts of reasons to hyphenate your name or not to hyphenate your name. The basis for each of these things, however, is whether or not you are willing to make a compromise when it comes to changing your name. The hyphenation is the epitome(体现) of a compromise. One spouse wants a complete name change. The other spouse wants no name change. Hyphenating the two names is a way for each person to, at least a little bit, \"win\" the argument.\n\nK) And don't forget the legal stuff! Making the decision is just part of the process. From there you are going to have to legally change your name all over the place. You'll need to change your name at the bank, with social security, with your credit cards, on your driver's license, at the gym…everywhere. It's easy to get overwhelmed just thinking about it.\n\nL) What matters, of course, is that the two of you are going to be happily married—hopefully for the rest of your lives. At the end of the day, whether you each keep your names, whether you come up with an entirely new name for the two of you to share or whether you hyphenate your current last names, what matters is that you love each other and are going to be joining your lives together. Try to remember that as you are staring at the application for your marriage license and filling out the portion that reads \"name after you get married\" (or whatever the legalese for that might be).",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 E 段。题干：The bride who adopts a hyphenated last name after marriage can maintain connections with their past achievements.\n核对该段原文：The compromise is the biggest reason that so many women choose to hyphenate their last names. It is a way of you keeping your own identity while also making your future husband happy. It allows you to stay connected to accomplishments that you achieved before you got married. For example, many women who choose to hyphenate do so partially because they have earned higher educational degrees and certifications under their maiden names. They might have also had things published or publicized and want to stay connected to that identity. Hyphenating your last name can help you bridge the gap between your personal and professional lives. Many women who opt to simply keep their own names do so because they don't want to give up all that they have accomplished professionally. Adopting their husband's last name makes it hard for them to claim ownership of these accomplishments personally because they happened under their \"other\" name.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    },
+    {
+      "id": "cet4-2023-03-1-nonlistening-q43",
+      "canonicalId": "lazynote-cet4-2023-03-1-q43",
+      "number": 43,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Hyphenating names allows the bride to preserve her own identity while respecting tradition.",
+      "passage": "Hyphenating your last name after marriage?\n\nA) Congratulations on deciding to get married! While being married is great and wonderful, the act of getting married can be quite stressful. There is the planning of the ceremony itself, the merging(合并) of two households and all of the details involved in that. You also have to take the time to apply for your marriage license and then decide whether or not you are going to keep your last name or change it.\n\nB) This is where a lot of people have trouble. Once upon a time, it was just customary for a bride to take her groom's last name as her own and abandon her maiden name completely. The act of keeping her own last name was considered taboo(禁忌) and people's eyebrows would raise right off their faces when they found out that the bride was even considering something so radical. Over time, though, more and more women are deciding to keep their last names.\n\nC) There are a lot of reasons to want to keep your own last name. Hopefully you have a supportive groom who understands why this idea is the most appealing to you. A lot of times, though, the act of keeping your name is still something that causes concern. Even if your groom is fine with it, his family (or your own) might not be so understanding.\n\nD) There are a couple of ways to compromise on the issue. You could choose an entirely new last name for the two of you to share. This way neither of you gets \"your\" way and you both have to deal with the legalities of going through a name change. Most of the time, though, the most popular compromise is to hyphenate your last name and the last name of your groom. For example, if your groom's name is John Smith and your name is Kate Jones, you would name yourself Kate Jones-Smith or Kate Smith-Jones. This allows you to keep going by your own last name while legally adopting your husband's last name at the same time.\n\nE) The compromise is the biggest reason that so many women choose to hyphenate their last names. It is a way of you keeping your own identity while also making your future husband happy. It allows you to stay connected to accomplishments that you achieved before you got married. For example, many women who choose to hyphenate do so partially because they have earned higher educational degrees and certifications under their maiden names. They might have also had things published or publicized and want to stay connected to that identity. Hyphenating your last name can help you bridge the gap between your personal and professional lives. Many women who opt to simply keep their own names do so because they don't want to give up all that they have accomplished professionally. Adopting their husband's last name makes it hard for them to claim ownership of these accomplishments personally because they happened under their \"other\" name.\n\nF) While tradition is one thing, there isn't any logical reason to completely change your name. Keeping your name and joining it to your husband's through hyphenation is as legal as simply adopting his name or as simply keeping your own and leaving his out of the picture entirely.\n\nG) Probably the most important reason to consider hyphenation is your identity. You've spent your whole life building your identity under a certain name. Obviously you will still be you even if you've taken on your husband's last name and omitted yours entirely. At the same time, your name is associated with the identity you've built up and hyphenation allows you to respect that while also respecting tradition and your husband's family's identity.\n\nH) If you care about outside opinions on your name, you should know that a large portion of today's society is annoyed by the hyphenated name. Some people find it \"snobby\"(势利的) and others simply find it irritating because they have a hard time remembering which last name they are supposed to say first. Some people even believe that not simply adopting your husband's last name is a huge sign of disrespect and a lack of commitment.\n\nI) It is possible that your future husband will find this choice offensive. Some men, regardless of how you might feel about such things, are traditionalists and feel that it is simply \"right\" for the woman to take the man's last name as her own. Whether your future husband insisting on your adopting his last name is a red flag to you or not, it is still something that you should take into consideration.\n\nJ) There are all sorts of reasons to hyphenate your name or not to hyphenate your name. The basis for each of these things, however, is whether or not you are willing to make a compromise when it comes to changing your name. The hyphenation is the epitome(体现) of a compromise. One spouse wants a complete name change. The other spouse wants no name change. Hyphenating the two names is a way for each person to, at least a little bit, \"win\" the argument.\n\nK) And don't forget the legal stuff! Making the decision is just part of the process. From there you are going to have to legally change your name all over the place. You'll need to change your name at the bank, with social security, with your credit cards, on your driver's license, at the gym…everywhere. It's easy to get overwhelmed just thinking about it.\n\nL) What matters, of course, is that the two of you are going to be happily married—hopefully for the rest of your lives. At the end of the day, whether you each keep your names, whether you come up with an entirely new name for the two of you to share or whether you hyphenate your current last names, what matters is that you love each other and are going to be joining your lives together. Try to remember that as you are staring at the application for your marriage license and filling out the portion that reads \"name after you get married\" (or whatever the legalese for that might be).",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 G 段。题干：Hyphenating names allows the bride to preserve her own identity while respecting tradition.\n核对该段原文：Probably the most important reason to consider hyphenation is your identity. You've spent your whole life building your identity under a certain name. Obviously you will still be you even if you've taken on your husband's last name and omitted yours entirely. At the same time, your name is associated with the identity you've built up and hyphenation allows you to respect that while also respecting tradition and your husband's family's identity.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    },
+    {
+      "id": "cet4-2023-03-1-nonlistening-q44",
+      "canonicalId": "lazynote-cet4-2023-03-1-q44",
+      "number": 44,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "No matter what name the bride adopts, it is most important that the newlyweds truly love each other.",
+      "passage": "Hyphenating your last name after marriage?\n\nA) Congratulations on deciding to get married! While being married is great and wonderful, the act of getting married can be quite stressful. There is the planning of the ceremony itself, the merging(合并) of two households and all of the details involved in that. You also have to take the time to apply for your marriage license and then decide whether or not you are going to keep your last name or change it.\n\nB) This is where a lot of people have trouble. Once upon a time, it was just customary for a bride to take her groom's last name as her own and abandon her maiden name completely. The act of keeping her own last name was considered taboo(禁忌) and people's eyebrows would raise right off their faces when they found out that the bride was even considering something so radical. Over time, though, more and more women are deciding to keep their last names.\n\nC) There are a lot of reasons to want to keep your own last name. Hopefully you have a supportive groom who understands why this idea is the most appealing to you. A lot of times, though, the act of keeping your name is still something that causes concern. Even if your groom is fine with it, his family (or your own) might not be so understanding.\n\nD) There are a couple of ways to compromise on the issue. You could choose an entirely new last name for the two of you to share. This way neither of you gets \"your\" way and you both have to deal with the legalities of going through a name change. Most of the time, though, the most popular compromise is to hyphenate your last name and the last name of your groom. For example, if your groom's name is John Smith and your name is Kate Jones, you would name yourself Kate Jones-Smith or Kate Smith-Jones. This allows you to keep going by your own last name while legally adopting your husband's last name at the same time.\n\nE) The compromise is the biggest reason that so many women choose to hyphenate their last names. It is a way of you keeping your own identity while also making your future husband happy. It allows you to stay connected to accomplishments that you achieved before you got married. For example, many women who choose to hyphenate do so partially because they have earned higher educational degrees and certifications under their maiden names. They might have also had things published or publicized and want to stay connected to that identity. Hyphenating your last name can help you bridge the gap between your personal and professional lives. Many women who opt to simply keep their own names do so because they don't want to give up all that they have accomplished professionally. Adopting their husband's last name makes it hard for them to claim ownership of these accomplishments personally because they happened under their \"other\" name.\n\nF) While tradition is one thing, there isn't any logical reason to completely change your name. Keeping your name and joining it to your husband's through hyphenation is as legal as simply adopting his name or as simply keeping your own and leaving his out of the picture entirely.\n\nG) Probably the most important reason to consider hyphenation is your identity. You've spent your whole life building your identity under a certain name. Obviously you will still be you even if you've taken on your husband's last name and omitted yours entirely. At the same time, your name is associated with the identity you've built up and hyphenation allows you to respect that while also respecting tradition and your husband's family's identity.\n\nH) If you care about outside opinions on your name, you should know that a large portion of today's society is annoyed by the hyphenated name. Some people find it \"snobby\"(势利的) and others simply find it irritating because they have a hard time remembering which last name they are supposed to say first. Some people even believe that not simply adopting your husband's last name is a huge sign of disrespect and a lack of commitment.\n\nI) It is possible that your future husband will find this choice offensive. Some men, regardless of how you might feel about such things, are traditionalists and feel that it is simply \"right\" for the woman to take the man's last name as her own. Whether your future husband insisting on your adopting his last name is a red flag to you or not, it is still something that you should take into consideration.\n\nJ) There are all sorts of reasons to hyphenate your name or not to hyphenate your name. The basis for each of these things, however, is whether or not you are willing to make a compromise when it comes to changing your name. The hyphenation is the epitome(体现) of a compromise. One spouse wants a complete name change. The other spouse wants no name change. Hyphenating the two names is a way for each person to, at least a little bit, \"win\" the argument.\n\nK) And don't forget the legal stuff! Making the decision is just part of the process. From there you are going to have to legally change your name all over the place. You'll need to change your name at the bank, with social security, with your credit cards, on your driver's license, at the gym…everywhere. It's easy to get overwhelmed just thinking about it.\n\nL) What matters, of course, is that the two of you are going to be happily married—hopefully for the rest of your lives. At the end of the day, whether you each keep your names, whether you come up with an entirely new name for the two of you to share or whether you hyphenate your current last names, what matters is that you love each other and are going to be joining your lives together. Try to remember that as you are staring at the application for your marriage license and filling out the portion that reads \"name after you get married\" (or whatever the legalese for that might be).",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "L",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 L 段。题干：No matter what name the bride adopts, it is most important that the newlyweds truly love each other.\n核对该段原文：What matters, of course, is that the two of you are going to be happily married—hopefully for the rest of your lives. At the end of the day, whether you each keep your names, whether you come up with an entirely new name for the two of you to share or whether you hyphenate your current last names, what matters is that you love each other and are going to be joining your lives together. Try to remember that as you are staring at the application for your marriage license and filling out the portion that reads \"name after you get married\" (or whatever the legalese for that might be).\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    },
+    {
+      "id": "cet4-2023-03-1-nonlistening-q45",
+      "canonicalId": "lazynote-cet4-2023-03-1-q45",
+      "number": 45,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Legally speaking, the bride is free to choose whatever name she prefers.",
+      "passage": "Hyphenating your last name after marriage?\n\nA) Congratulations on deciding to get married! While being married is great and wonderful, the act of getting married can be quite stressful. There is the planning of the ceremony itself, the merging(合并) of two households and all of the details involved in that. You also have to take the time to apply for your marriage license and then decide whether or not you are going to keep your last name or change it.\n\nB) This is where a lot of people have trouble. Once upon a time, it was just customary for a bride to take her groom's last name as her own and abandon her maiden name completely. The act of keeping her own last name was considered taboo(禁忌) and people's eyebrows would raise right off their faces when they found out that the bride was even considering something so radical. Over time, though, more and more women are deciding to keep their last names.\n\nC) There are a lot of reasons to want to keep your own last name. Hopefully you have a supportive groom who understands why this idea is the most appealing to you. A lot of times, though, the act of keeping your name is still something that causes concern. Even if your groom is fine with it, his family (or your own) might not be so understanding.\n\nD) There are a couple of ways to compromise on the issue. You could choose an entirely new last name for the two of you to share. This way neither of you gets \"your\" way and you both have to deal with the legalities of going through a name change. Most of the time, though, the most popular compromise is to hyphenate your last name and the last name of your groom. For example, if your groom's name is John Smith and your name is Kate Jones, you would name yourself Kate Jones-Smith or Kate Smith-Jones. This allows you to keep going by your own last name while legally adopting your husband's last name at the same time.\n\nE) The compromise is the biggest reason that so many women choose to hyphenate their last names. It is a way of you keeping your own identity while also making your future husband happy. It allows you to stay connected to accomplishments that you achieved before you got married. For example, many women who choose to hyphenate do so partially because they have earned higher educational degrees and certifications under their maiden names. They might have also had things published or publicized and want to stay connected to that identity. Hyphenating your last name can help you bridge the gap between your personal and professional lives. Many women who opt to simply keep their own names do so because they don't want to give up all that they have accomplished professionally. Adopting their husband's last name makes it hard for them to claim ownership of these accomplishments personally because they happened under their \"other\" name.\n\nF) While tradition is one thing, there isn't any logical reason to completely change your name. Keeping your name and joining it to your husband's through hyphenation is as legal as simply adopting his name or as simply keeping your own and leaving his out of the picture entirely.\n\nG) Probably the most important reason to consider hyphenation is your identity. You've spent your whole life building your identity under a certain name. Obviously you will still be you even if you've taken on your husband's last name and omitted yours entirely. At the same time, your name is associated with the identity you've built up and hyphenation allows you to respect that while also respecting tradition and your husband's family's identity.\n\nH) If you care about outside opinions on your name, you should know that a large portion of today's society is annoyed by the hyphenated name. Some people find it \"snobby\"(势利的) and others simply find it irritating because they have a hard time remembering which last name they are supposed to say first. Some people even believe that not simply adopting your husband's last name is a huge sign of disrespect and a lack of commitment.\n\nI) It is possible that your future husband will find this choice offensive. Some men, regardless of how you might feel about such things, are traditionalists and feel that it is simply \"right\" for the woman to take the man's last name as her own. Whether your future husband insisting on your adopting his last name is a red flag to you or not, it is still something that you should take into consideration.\n\nJ) There are all sorts of reasons to hyphenate your name or not to hyphenate your name. The basis for each of these things, however, is whether or not you are willing to make a compromise when it comes to changing your name. The hyphenation is the epitome(体现) of a compromise. One spouse wants a complete name change. The other spouse wants no name change. Hyphenating the two names is a way for each person to, at least a little bit, \"win\" the argument.\n\nK) And don't forget the legal stuff! Making the decision is just part of the process. From there you are going to have to legally change your name all over the place. You'll need to change your name at the bank, with social security, with your credit cards, on your driver's license, at the gym…everywhere. It's easy to get overwhelmed just thinking about it.\n\nL) What matters, of course, is that the two of you are going to be happily married—hopefully for the rest of your lives. At the end of the day, whether you each keep your names, whether you come up with an entirely new name for the two of you to share or whether you hyphenate your current last names, what matters is that you love each other and are going to be joining your lives together. Try to remember that as you are staring at the application for your marriage license and filling out the portion that reads \"name after you get married\" (or whatever the legalese for that might be).",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 F 段。题干：Legally speaking, the bride is free to choose whatever name she prefers.\n核对该段原文：While tradition is one thing, there isn't any logical reason to completely change your name. Keeping your name and joining it to your husband's through hyphenation is as legal as simply adopting his name or as simply keeping your own and leaving his out of the picture entirely.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    },
+    {
+      "id": "cet4-2023-03-1-nonlistening-q46",
+      "canonicalId": "lazynote-cet4-2023-03-1-q46",
+      "number": 46,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn from the passage about the brightest people?",
+      "passage": "It's good to be smart. After all, intelligent people earn more money, accumulate more wealth, and even live longer. But there's another side to the story. The brightest people and strongest leaders sometimes make errors others don't, especially in situations that require common sense.\n\nTravis Bradberry, president at TalentSmart, explained in his post Why Smart People Act So Stupid that \"Rational thinking and intelligence don't tend to go hand in hand. Intelligent people are more prone to silly mistakes because of blind spots in how they use logic. These blind spots exist because smart people tend to be overconfident in their reasoning abilities.\" They are so used to being right and having quick answers that they don't even realise when they're making a mess by answering without thinking things through.\n\nA lifetime of praise leads smart people to develop too much faith in their intelligence and abilities. They often fail to recognise when they need help, and when they do recognise it, they tend to believe that no one else is capable of providing it.\n\n\"It's hard for anyone to graciously accept the fact that they're wrong. It's even harder for smart people because they grow so used to being right all the time that it becomes a part of their identity,\" Bradberry wrote. \"For smart people, being wrong can feel like a personal attack, and being right, a necessity.\"\n\nSmart people also have a hard time accepting feedback. They tend to undervalue the opinions of others, which means they have trouble believing that anyone is qualified to give them useful feedback. Not only does this tendency hinder their growth and performance, it can lead to harmful relationships, both personally and professionally.\n\nSmart people develop overachieving personalities because things come so easily to them. They simply don't understand how hard some people have to work to accomplish the same things, and because of that, they push people too hard. They set the bar too high, and when people take too long or don't get things quite right, they assume it's due to a lack of effort. So they push even harder.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They can make silly mistakes in straightforward situations."
+        },
+        {
+          "id": "B",
+          "text": "They usually turn a blind eye to their own weaknesses."
+        },
+        {
+          "id": "C",
+          "text": "They are admired by people around them."
+        },
+        {
+          "id": "D",
+          "text": "They can differ in their personalities."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：They can make silly mistakes in straightforward situations.\n关键词检索定位到第 1 段的候选相关句：The brightest people and strongest leaders sometimes make errors others don't, especially in situations that require common sense.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    },
+    {
+      "id": "cet4-2023-03-1-nonlistening-q47",
+      "canonicalId": "lazynote-cet4-2023-03-1-q47",
+      "number": 47,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What accounts for the existence of intelligent people's logical blind spots?",
+      "passage": "It's good to be smart. After all, intelligent people earn more money, accumulate more wealth, and even live longer. But there's another side to the story. The brightest people and strongest leaders sometimes make errors others don't, especially in situations that require common sense.\n\nTravis Bradberry, president at TalentSmart, explained in his post Why Smart People Act So Stupid that \"Rational thinking and intelligence don't tend to go hand in hand. Intelligent people are more prone to silly mistakes because of blind spots in how they use logic. These blind spots exist because smart people tend to be overconfident in their reasoning abilities.\" They are so used to being right and having quick answers that they don't even realise when they're making a mess by answering without thinking things through.\n\nA lifetime of praise leads smart people to develop too much faith in their intelligence and abilities. They often fail to recognise when they need help, and when they do recognise it, they tend to believe that no one else is capable of providing it.\n\n\"It's hard for anyone to graciously accept the fact that they're wrong. It's even harder for smart people because they grow so used to being right all the time that it becomes a part of their identity,\" Bradberry wrote. \"For smart people, being wrong can feel like a personal attack, and being right, a necessity.\"\n\nSmart people also have a hard time accepting feedback. They tend to undervalue the opinions of others, which means they have trouble believing that anyone is qualified to give them useful feedback. Not only does this tendency hinder their growth and performance, it can lead to harmful relationships, both personally and professionally.\n\nSmart people develop overachieving personalities because things come so easily to them. They simply don't understand how hard some people have to work to accomplish the same things, and because of that, they push people too hard. They set the bar too high, and when people take too long or don't get things quite right, they assume it's due to a lack of effort. So they push even harder.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Their irrational way of thinking."
+        },
+        {
+          "id": "B",
+          "text": "Too much faith in their ability to think."
+        },
+        {
+          "id": "C",
+          "text": "Their ignorance of behavioural science."
+        },
+        {
+          "id": "D",
+          "text": "Too much concern about their work"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：Too much faith in their ability to think.\n关键词检索定位到第 2 段的候选相关句：Intelligent people are more prone to silly mistakes because of blind spots in how they use logic.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    },
+    {
+      "id": "cet4-2023-03-1-nonlistening-q48",
+      "canonicalId": "lazynote-cet4-2023-03-1-q48",
+      "number": 48,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "How do smart people react when they are found to be wrong?",
+      "passage": "It's good to be smart. After all, intelligent people earn more money, accumulate more wealth, and even live longer. But there's another side to the story. The brightest people and strongest leaders sometimes make errors others don't, especially in situations that require common sense.\n\nTravis Bradberry, president at TalentSmart, explained in his post Why Smart People Act So Stupid that \"Rational thinking and intelligence don't tend to go hand in hand. Intelligent people are more prone to silly mistakes because of blind spots in how they use logic. These blind spots exist because smart people tend to be overconfident in their reasoning abilities.\" They are so used to being right and having quick answers that they don't even realise when they're making a mess by answering without thinking things through.\n\nA lifetime of praise leads smart people to develop too much faith in their intelligence and abilities. They often fail to recognise when they need help, and when they do recognise it, they tend to believe that no one else is capable of providing it.\n\n\"It's hard for anyone to graciously accept the fact that they're wrong. It's even harder for smart people because they grow so used to being right all the time that it becomes a part of their identity,\" Bradberry wrote. \"For smart people, being wrong can feel like a personal attack, and being right, a necessity.\"\n\nSmart people also have a hard time accepting feedback. They tend to undervalue the opinions of others, which means they have trouble believing that anyone is qualified to give them useful feedback. Not only does this tendency hinder their growth and performance, it can lead to harmful relationships, both personally and professionally.\n\nSmart people develop overachieving personalities because things come so easily to them. They simply don't understand how hard some people have to work to accomplish the same things, and because of that, they push people too hard. They set the bar too high, and when people take too long or don't get things quite right, they assume it's due to a lack of effort. So they push even harder.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They shift the blame to others."
+        },
+        {
+          "id": "B",
+          "text": "They graciously accept the facts."
+        },
+        {
+          "id": "C",
+          "text": "They may feel shocked."
+        },
+        {
+          "id": "D",
+          "text": "They may get offended."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：They may get offended.\n关键词检索定位到第 2 段的候选相关句：These blind spots exist because smart people tend to be overconfident in their reasoning abilities.\" They are so used to being right and having quick answers that they don't even realise when they're making a mess by answering without thinking things through.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    },
+    {
+      "id": "cet4-2023-03-1-nonlistening-q49",
+      "canonicalId": "lazynote-cet4-2023-03-1-q49",
+      "number": 49,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What may happen to smart people who find it difficult to accept suggestions?",
+      "passage": "It's good to be smart. After all, intelligent people earn more money, accumulate more wealth, and even live longer. But there's another side to the story. The brightest people and strongest leaders sometimes make errors others don't, especially in situations that require common sense.\n\nTravis Bradberry, president at TalentSmart, explained in his post Why Smart People Act So Stupid that \"Rational thinking and intelligence don't tend to go hand in hand. Intelligent people are more prone to silly mistakes because of blind spots in how they use logic. These blind spots exist because smart people tend to be overconfident in their reasoning abilities.\" They are so used to being right and having quick answers that they don't even realise when they're making a mess by answering without thinking things through.\n\nA lifetime of praise leads smart people to develop too much faith in their intelligence and abilities. They often fail to recognise when they need help, and when they do recognise it, they tend to believe that no one else is capable of providing it.\n\n\"It's hard for anyone to graciously accept the fact that they're wrong. It's even harder for smart people because they grow so used to being right all the time that it becomes a part of their identity,\" Bradberry wrote. \"For smart people, being wrong can feel like a personal attack, and being right, a necessity.\"\n\nSmart people also have a hard time accepting feedback. They tend to undervalue the opinions of others, which means they have trouble believing that anyone is qualified to give them useful feedback. Not only does this tendency hinder their growth and performance, it can lead to harmful relationships, both personally and professionally.\n\nSmart people develop overachieving personalities because things come so easily to them. They simply don't understand how hard some people have to work to accomplish the same things, and because of that, they push people too hard. They set the bar too high, and when people take too long or don't get things quite right, they assume it's due to a lack of effort. So they push even harder.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They may suffer in their professional and private life."
+        },
+        {
+          "id": "B",
+          "text": "They may lose faith in their administrative abilities."
+        },
+        {
+          "id": "C",
+          "text": "They may commit more errors than ever before."
+        },
+        {
+          "id": "D",
+          "text": "They may experience a lot of emotional stress."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：They may suffer in their professional and private life.\n关键词检索定位到第 1 段的候选相关句：It's good to be smart.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    },
+    {
+      "id": "cet4-2023-03-1-nonlistening-q50",
+      "canonicalId": "lazynote-cet4-2023-03-1-q50",
+      "number": 50,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What is said about those working with or under overachieving people?",
+      "passage": "It's good to be smart. After all, intelligent people earn more money, accumulate more wealth, and even live longer. But there's another side to the story. The brightest people and strongest leaders sometimes make errors others don't, especially in situations that require common sense.\n\nTravis Bradberry, president at TalentSmart, explained in his post Why Smart People Act So Stupid that \"Rational thinking and intelligence don't tend to go hand in hand. Intelligent people are more prone to silly mistakes because of blind spots in how they use logic. These blind spots exist because smart people tend to be overconfident in their reasoning abilities.\" They are so used to being right and having quick answers that they don't even realise when they're making a mess by answering without thinking things through.\n\nA lifetime of praise leads smart people to develop too much faith in their intelligence and abilities. They often fail to recognise when they need help, and when they do recognise it, they tend to believe that no one else is capable of providing it.\n\n\"It's hard for anyone to graciously accept the fact that they're wrong. It's even harder for smart people because they grow so used to being right all the time that it becomes a part of their identity,\" Bradberry wrote. \"For smart people, being wrong can feel like a personal attack, and being right, a necessity.\"\n\nSmart people also have a hard time accepting feedback. They tend to undervalue the opinions of others, which means they have trouble believing that anyone is qualified to give them useful feedback. Not only does this tendency hinder their growth and performance, it can lead to harmful relationships, both personally and professionally.\n\nSmart people develop overachieving personalities because things come so easily to them. They simply don't understand how hard some people have to work to accomplish the same things, and because of that, they push people too hard. They set the bar too high, and when people take too long or don't get things quite right, they assume it's due to a lack of effort. So they push even harder.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They put a lot of effort into their work."
+        },
+        {
+          "id": "B",
+          "text": "They set higher goals for themselves."
+        },
+        {
+          "id": "C",
+          "text": "They are under increasing pressure."
+        },
+        {
+          "id": "D",
+          "text": "They take less time to get things done."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：They are under increasing pressure.\n关键词检索定位到第 6 段的候选相关句：Smart people develop overachieving personalities because things come so easily to them.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    },
+    {
+      "id": "cet4-2023-03-1-nonlistening-q51",
+      "canonicalId": "lazynote-cet4-2023-03-1-q51",
+      "number": 51,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "Why is the U.S. State Department launching an online learning program for refugees?",
+      "passage": "Of the endless troubles that come with being driven from one's home country, losing educational certificates may seem small. But it isn't. Refugees who settle in other countries often find themselves unable to continue on their previous career path due to a new set of employer standards or skills requirements. To solve this problem, the U.S. State Department is posing a solution: online learning.\n\nThe State Department will announce a partnership with an online education platform called Coursera. The platform will allow refugees worldwide to take thousands of online courses for free. \"Coursera for Refugees\" will be available for any non-profit group that supports refugees in any country, as well as individual refugees. They can apply for fully funded access to Coursera's course catalog, which means they can take all of the platform's classes and obtain professional certificates for free. The platform currently offers professor-led lectures on a broad range of topics, from data science to fashion design.\n\nAs the world migrant crisis intensifies, employment is becoming a global concern. The new program aims to aid refugees by offering \"important skills that will help them in the global economy,\" Evan Ryan, U.S. assistant secretary of state for educational and cultural affairs, said on a press call last week. \"What we don't want to do is not act,\" added Coursera chief operations officer Lila Ibrahim.\n\nThe idea isn't without problems. For one, starting a new career path isn't as simple as watching a few videos and obtaining an online certificate; even those looking to continue previous careers can't simply rely on an online lecture to get them up-to-date on standards, policies, and practices. For another, most of the classes on Coursera are in English, and though there are plans to add translations, language barriers can be a big obstacle. Then there are the questions over the value of massive open online courses (MOOCs) themselves—both for refugees and for average learners.\n\nBut it's still early days and there are signs of hope. In 2015, a joint study found 72% of people taking the MOOCs saw career benefits afterwards.",
+      "options": [
+        {
+          "id": "A",
+          "text": "To enable them to settle down in host countries."
+        },
+        {
+          "id": "B",
+          "text": "To allow them to learn as many job skills as possible."
+        },
+        {
+          "id": "C",
+          "text": "To offer them a platform to pursue advanced degrees."
+        },
+        {
+          "id": "D",
+          "text": "To help them to meet new employment standards."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：To help them to meet new employment standards.\n关键词检索定位到第 3 段的候选相关句：The new program aims to aid refugees by offering \"important skills that will help them in the global economy,\" Evan Ryan, U.S. assistant secretary of state for educational and cultural affairs, said on a press call last week.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    },
+    {
+      "id": "cet4-2023-03-1-nonlistening-q52",
+      "canonicalId": "lazynote-cet4-2023-03-1-q52",
+      "number": 52,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we know about \"Coursera for Refugees\"?",
+      "passage": "Of the endless troubles that come with being driven from one's home country, losing educational certificates may seem small. But it isn't. Refugees who settle in other countries often find themselves unable to continue on their previous career path due to a new set of employer standards or skills requirements. To solve this problem, the U.S. State Department is posing a solution: online learning.\n\nThe State Department will announce a partnership with an online education platform called Coursera. The platform will allow refugees worldwide to take thousands of online courses for free. \"Coursera for Refugees\" will be available for any non-profit group that supports refugees in any country, as well as individual refugees. They can apply for fully funded access to Coursera's course catalog, which means they can take all of the platform's classes and obtain professional certificates for free. The platform currently offers professor-led lectures on a broad range of topics, from data science to fashion design.\n\nAs the world migrant crisis intensifies, employment is becoming a global concern. The new program aims to aid refugees by offering \"important skills that will help them in the global economy,\" Evan Ryan, U.S. assistant secretary of state for educational and cultural affairs, said on a press call last week. \"What we don't want to do is not act,\" added Coursera chief operations officer Lila Ibrahim.\n\nThe idea isn't without problems. For one, starting a new career path isn't as simple as watching a few videos and obtaining an online certificate; even those looking to continue previous careers can't simply rely on an online lecture to get them up-to-date on standards, policies, and practices. For another, most of the classes on Coursera are in English, and though there are plans to add translations, language barriers can be a big obstacle. Then there are the questions over the value of massive open online courses (MOOCs) themselves—both for refugees and for average learners.\n\nBut it's still early days and there are signs of hope. In 2015, a joint study found 72% of people taking the MOOCs saw career benefits afterwards.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It provides refugees with a wide range of courses free of charge."
+        },
+        {
+          "id": "B",
+          "text": "It offers free online data services for refugees around the world."
+        },
+        {
+          "id": "C",
+          "text": "It allows refugees to obtain degrees in various academic fields."
+        },
+        {
+          "id": "D",
+          "text": "It supplies refugees with a great variety of job opportunities."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：It provides refugees with a wide range of courses free of charge.\n关键词检索定位到第 2 段的候选相关句：The platform will allow refugees worldwide to take thousands of online courses for free.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    },
+    {
+      "id": "cet4-2023-03-1-nonlistening-q53",
+      "canonicalId": "lazynote-cet4-2023-03-1-q53",
+      "number": 53,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the passage say is a consequence of the global migrant crisis?",
+      "passage": "Of the endless troubles that come with being driven from one's home country, losing educational certificates may seem small. But it isn't. Refugees who settle in other countries often find themselves unable to continue on their previous career path due to a new set of employer standards or skills requirements. To solve this problem, the U.S. State Department is posing a solution: online learning.\n\nThe State Department will announce a partnership with an online education platform called Coursera. The platform will allow refugees worldwide to take thousands of online courses for free. \"Coursera for Refugees\" will be available for any non-profit group that supports refugees in any country, as well as individual refugees. They can apply for fully funded access to Coursera's course catalog, which means they can take all of the platform's classes and obtain professional certificates for free. The platform currently offers professor-led lectures on a broad range of topics, from data science to fashion design.\n\nAs the world migrant crisis intensifies, employment is becoming a global concern. The new program aims to aid refugees by offering \"important skills that will help them in the global economy,\" Evan Ryan, U.S. assistant secretary of state for educational and cultural affairs, said on a press call last week. \"What we don't want to do is not act,\" added Coursera chief operations officer Lila Ibrahim.\n\nThe idea isn't without problems. For one, starting a new career path isn't as simple as watching a few videos and obtaining an online certificate; even those looking to continue previous careers can't simply rely on an online lecture to get them up-to-date on standards, policies, and practices. For another, most of the classes on Coursera are in English, and though there are plans to add translations, language barriers can be a big obstacle. Then there are the questions over the value of massive open online courses (MOOCs) themselves—both for refugees and for average learners.\n\nBut it's still early days and there are signs of hope. In 2015, a joint study found 72% of people taking the MOOCs saw career benefits afterwards.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Instability increases in host countries."
+        },
+        {
+          "id": "B",
+          "text": "The global economic crisis intensifies."
+        },
+        {
+          "id": "C",
+          "text": "A lot more refugees die during migration."
+        },
+        {
+          "id": "D",
+          "text": "Refugees find it more difficult to get a job."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：Refugees find it more difficult to get a job.\n关键词检索定位到第 3 段的候选相关句：As the world migrant crisis intensifies, employment is becoming a global concern.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    },
+    {
+      "id": "cet4-2023-03-1-nonlistening-q54",
+      "canonicalId": "lazynote-cet4-2023-03-1-q54",
+      "number": 54,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author say causes refugees' difficulty in taking online courses?",
+      "passage": "Of the endless troubles that come with being driven from one's home country, losing educational certificates may seem small. But it isn't. Refugees who settle in other countries often find themselves unable to continue on their previous career path due to a new set of employer standards or skills requirements. To solve this problem, the U.S. State Department is posing a solution: online learning.\n\nThe State Department will announce a partnership with an online education platform called Coursera. The platform will allow refugees worldwide to take thousands of online courses for free. \"Coursera for Refugees\" will be available for any non-profit group that supports refugees in any country, as well as individual refugees. They can apply for fully funded access to Coursera's course catalog, which means they can take all of the platform's classes and obtain professional certificates for free. The platform currently offers professor-led lectures on a broad range of topics, from data science to fashion design.\n\nAs the world migrant crisis intensifies, employment is becoming a global concern. The new program aims to aid refugees by offering \"important skills that will help them in the global economy,\" Evan Ryan, U.S. assistant secretary of state for educational and cultural affairs, said on a press call last week. \"What we don't want to do is not act,\" added Coursera chief operations officer Lila Ibrahim.\n\nThe idea isn't without problems. For one, starting a new career path isn't as simple as watching a few videos and obtaining an online certificate; even those looking to continue previous careers can't simply rely on an online lecture to get them up-to-date on standards, policies, and practices. For another, most of the classes on Coursera are in English, and though there are plans to add translations, language barriers can be a big obstacle. Then there are the questions over the value of massive open online courses (MOOCs) themselves—both for refugees and for average learners.\n\nBut it's still early days and there are signs of hope. In 2015, a joint study found 72% of people taking the MOOCs saw career benefits afterwards.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cultural environment."
+        },
+        {
+          "id": "B",
+          "text": "Changed academic requirements."
+        },
+        {
+          "id": "C",
+          "text": "Lack of language skills."
+        },
+        {
+          "id": "D",
+          "text": "Difference in teaching platforms."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：Lack of language skills.\n关键词检索定位到第 2 段的候选相关句：The platform will allow refugees worldwide to take thousands of online courses for free.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    },
+    {
+      "id": "cet4-2023-03-1-nonlistening-q55",
+      "canonicalId": "lazynote-cet4-2023-03-1-q55",
+      "number": 55,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What did the joint study find about the MOOCs several years ago?",
+      "passage": "Of the endless troubles that come with being driven from one's home country, losing educational certificates may seem small. But it isn't. Refugees who settle in other countries often find themselves unable to continue on their previous career path due to a new set of employer standards or skills requirements. To solve this problem, the U.S. State Department is posing a solution: online learning.\n\nThe State Department will announce a partnership with an online education platform called Coursera. The platform will allow refugees worldwide to take thousands of online courses for free. \"Coursera for Refugees\" will be available for any non-profit group that supports refugees in any country, as well as individual refugees. They can apply for fully funded access to Coursera's course catalog, which means they can take all of the platform's classes and obtain professional certificates for free. The platform currently offers professor-led lectures on a broad range of topics, from data science to fashion design.\n\nAs the world migrant crisis intensifies, employment is becoming a global concern. The new program aims to aid refugees by offering \"important skills that will help them in the global economy,\" Evan Ryan, U.S. assistant secretary of state for educational and cultural affairs, said on a press call last week. \"What we don't want to do is not act,\" added Coursera chief operations officer Lila Ibrahim.\n\nThe idea isn't without problems. For one, starting a new career path isn't as simple as watching a few videos and obtaining an online certificate; even those looking to continue previous careers can't simply rely on an online lecture to get them up-to-date on standards, policies, and practices. For another, most of the classes on Coursera are in English, and though there are plans to add translations, language barriers can be a big obstacle. Then there are the questions over the value of massive open online courses (MOOCs) themselves—both for refugees and for average learners.\n\nBut it's still early days and there are signs of hope. In 2015, a joint study found 72% of people taking the MOOCs saw career benefits afterwards.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They helped solve learners' financial problems."
+        },
+        {
+          "id": "B",
+          "text": "They benefited most of the learners."
+        },
+        {
+          "id": "C",
+          "text": "They changed some learners' career path."
+        },
+        {
+          "id": "D",
+          "text": "They provided the most needed vocational skills."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：They benefited most of the learners.\n关键词检索定位到第 5 段的候选相关句：In 2015, a joint study found 72% of people taking the MOOCs saw career benefits afterwards.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    },
+    {
+      "id": "cet4-2023-03-1-nonlistening-translation",
+      "number": "IV",
+      "level": "CET4",
+      "type": "short_text_self_check",
+      "skill": "translation",
+      "section": "translation",
+      "prompt": "Directions : For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2 .\n\n随着生活水平的提高，更多人开始加入到自驾游的行列之中。自驾游者既可驾驶自家车也可借车或租车出游。司机可能是车主或结伴出游者。自驾游与传统的组团旅游不同，它能够更好地满足旅游者的个性化需求，使他们更好地享受旅游的过程。自驾游尤其受到年轻出游者的欢迎。年轻人追求独立自由的生活，而自驾游恰好满足了他们的这一需求。",
+      "options": [],
+      "correctAnswer": "As living standards improve, more people are taking part in self-driving tours. They may travel in their own cars, borrowed cars or rented vehicles. The driver can be the owner or one of the companions on the trip. Unlike traditional group tours, self-driving travel can better satisfy tourists' individual needs and allow them to enjoy the journey more fully. It is especially popular among young travelers, who seek an independent and free way of life. Self-driving tours meet precisely this need.",
+      "referenceAnswer": "As living standards improve, more people are taking part in self-driving tours. They may travel in their own cars, borrowed cars or rented vehicles. The driver can be the owner or one of the companions on the trip. Unlike traditional group tours, self-driving travel can better satisfy tourists' individual needs and allow them to enjoy the journey more fully. It is especially popular among young travelers, who seek an independent and free way of life. Self-driving tours meet precisely this need.",
+      "hint": "自驾不是自动驾驶；借车、租车、车主或同伴均需区分。",
+      "explanation": "以下译文为原创参考，可使用其他准确表达。self-driving tours在此指驾驶汽车出游而非无人驾驶；与组团游作对照，个性化需求及年轻人的独立自由都保留。\n\n逐句核对：As living standards improve为增长背景，own/borrowed/rented vehicles三种车源齐全；driver can be owner or companion保留两类驾驶者。Unlike group tours说明与组团的比较，individual needs译个性化需求。enjoy the journey more fully强调旅游过程，especially popular among young travelers保留尤其年轻人。independent and free way of life是独立自由生活，meet precisely this need说明恰好满足。此题不是自动驾驶技术介绍。",
+      "rubric": [
+        "练习自评总分15分：信息准确0–8＋语法0–5＋表达0–2；允许拆句、换同义词，不要求逐字匹配参考译文。",
+        "信息准确0–8分：逐项检查——生活提高；自有/借/租车及驾驶者；与组团比较；个性需求和过程享受；年轻人独立自由需求。8分=全部关键信息正确；6–7分=少量次要细节遗漏；3–5分=多处遗漏/数字或关系误译；0–2分=核心人物、动作或逻辑严重错误。",
+        "语法0–5分：5分=时态、单复数、主谓一致、从句和介词基本正确；3–4分=少量错误仍易理解；1–2分=多处错误妨碍理解；0分=主要句子结构不可理解。",
+        "表达0–2分：2分=用词搭配自然、因果转折时间衔接清楚；1分=可理解但有中文式生硬表达；0分=词序/词义造成大面积理解困难。",
+        "修订操作：先在中文原题划出时间、数量、地点和连接词，再在自己的译文逐项找对应；为每处漏译或误译写一句修正。此分数是练习估计，不是官方阅卷或机器评分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-03-1-nonlistening"
+    }
+  ]
+}

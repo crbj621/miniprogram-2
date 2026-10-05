@@ -1,3 +1,4 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="container">
   <view class="user-header">
     <view class="user-info" wx:if="{{isLoggedIn}}">
@@ -75,3 +76,5 @@
     <button class="logout-btn tech-control" bindtap="logout" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">退出登录</button>
   </view>
 </view>
+
+</block>

@@ -107,6 +107,7 @@
 }
 
 .search-btn {
+  flex-shrink: 0;
   padding: 12rpx 24rpx;
   background: linear-gradient(135deg, #ff7eb4 0%, #9c83ff 100%);
   border-radius: 30rpx;

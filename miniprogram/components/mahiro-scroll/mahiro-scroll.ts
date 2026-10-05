@@ -1,8 +1,9 @@
 Component({
   options: { multipleSlots: true },
-  data: { triggered: false, state: 'pull', imageFailed: false },
+  data: { triggered: false, state: 'pull', imageFailed: false, scrollTarget: '' },
   lifetimes: { detached() { this.disposed = true; clearTimeout(this.refreshTimer) } },
   methods: {
+    scrollTo(target: string) { this.setData({ scrollTarget: '' }, () => this.setData({ scrollTarget: target })) },
     onPulling(e: any) {
       if (this.busy) return
       this.setData({ state: Number(e.detail.dy) >= 80 ? 'ready' : 'pull' })

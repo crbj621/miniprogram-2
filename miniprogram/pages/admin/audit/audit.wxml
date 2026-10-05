@@ -1,3 +1,4 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="container">
   <view class="filter-bar">
     <picker mode="selector" range="{{['待审核', '已通过', '已拒绝', '全部']}}" range-key="" value="{{filterStatus === 'pending' ? 0 : filterStatus === 'approved' ? 1 : filterStatus === 'rejected' ? 2 : 3}}" bindchange="onFilterStatus">
@@ -7,7 +8,7 @@
       </view>
     </picker>
     <view class="search-input">
-      <tech-search class="tech-search-host"><input type="text" placeholder="搜索商家名称" value="{{filterName}}" bindinput="onFilterName" bindconfirm="onSearch" placeholder-style="color:#8597ad" class="tech-input" /></tech-search>
+      <tech-search class="tech-search-host"><input adjust-position="{{true}}" cursor-spacing="24" type="text" placeholder="搜索商家名称" value="{{filterName}}" bindinput="onFilterName" bindconfirm="onSearch" placeholder-style="color:#8597ad" class="tech-input" /></tech-search>
     </view>
   </view>
 
@@ -66,3 +67,5 @@
     </view>
   </scroll-view>
 </view>
+
+</block>

@@ -9,3 +9,8 @@ export async function callCanteen(action: string, data: any = {}) {
 export function canReview() {
   return getApp<any>().isLoggedIn()
 }
+
+export function newCanteenId() { return Date.now() + '-' + Math.random().toString(36).slice(2, 12) }
+export const mealOptions = ['早餐', '午餐＋晚餐', '全天']
+export function mealSelection(index: number) { return index === 0 ? ['breakfast'] : index === 1 ? ['lunch', 'dinner'] : ['breakfast', 'lunch', 'dinner'] }
+export function mealIndex(meals: any) { return Array.isArray(meals) && meals.length === 1 && meals[0] === 'breakfast' ? 0 : Array.isArray(meals) && !meals.includes('breakfast') ? 1 : 2 }

@@ -4,7 +4,7 @@ const vm = require('node:vm')
 const ts = require('typescript')
 
 const requests = []
-const modules = { running: true, food: false, canteen: true, forum: false, rider: false }
+const modules = { running: true, food: false, canteen: true, forum: false, rider: false, english: false, gifts: false }
 const storage = new Map([['openid', 'old-cloud-user'], ['userInfo', { nickName: '旧用户' }], ['selfhost_token', 'old-token'], ['food_shop_id', 'old-shop']])
 storage.set('pending_runs_old-cloud-user', [{ runId: 'offline' }])
 storage.set('active_run_old-cloud-user', { runId: 'active' })
@@ -26,7 +26,7 @@ const compiled = ts.transpileModule(fs.readFileSync('miniprogram/utils/api-clien
 const moduleValue = { exports: {} }
 vm.runInNewContext(compiled, {
   wx, module: moduleValue, exports: moduleValue.exports,
-  require: () => ({ API_BASE_URL: 'https://www.crbuj.icu/campus-api', API_CACHE_VERSION: 'test-v1' })
+  require: () => ({ withSharing: value => value, API_BASE_URL: 'https://www.crbuj.icu/campus-api', API_CACHE_VERSION: 'test-v1' })
 })
 
 async function main() {

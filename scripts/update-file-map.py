@@ -28,8 +28,18 @@ roles = {
     'tsconfig.json': 'TypeScript 检查与 ES2017 输出',
     'docs/architecture.md': '架构、目录、接口与数据层',
     'docs/business-rules.md': '权限、事务、评分、跑步与组队算法规则',
+    'docs/canteen.md': '多次评论、最新独立评分、餐次、投稿查重、补图修改和争议评分核查',
     'docs/operations.md': 'SSH、明文凭证位置、服务器备份与部署',
     'docs/ui.md': '当前可爱界面、科技按钮、组件与布局预览',
+    'docs/english.md': '四六级内容来源、学习计划、打卡、挑战、金币、伙伴及完整接口',
+    'docs/gift-sites.md': '祝福模板、免费实时预览、画布、公示、朋友留言、金币发放、域名和清理',
+    'scripts/test-gift-preview-ui.js': '预览串行最后一写、续期发布生命周期、匿名Cookie、价格、公示刷新和管理员发金币行为回归',
+    'docs/upgrade-checklist.md': '本次升级验收与仍需用户操作的真实边界',
+    'miniprogram/utils/page-share.ts': '全67页好友／朋友圈分享；公开路由参数过滤与单页隐私保护',
+    'miniprogram/utils/gifts-api.ts': '祝福服务请求与创建幂等编号；经api-client',
+    'server/src/campus-wallet.js': '英语和祝福网站共用钱包、用户锁与默认账户',
+    'server/src/gift-layout.js': '自由画布坐标、元素类型和本人图片引用校验',
+    'server/src/gift-web.js': '公开祝福HTML、JSON、签名访客Cookie与留言接口',
     'docs/mobile-plan.md': '未来 Android/iOS 选型与验证条件',
     'docs/file-map.csv': '逐文件职责与对应关系，由本脚本生成',
     'miniprogram/app.ts': '应用启动、登录提交、退出与缓存版本',
@@ -37,13 +47,40 @@ roles = {
     'miniprogram/app.wxss': '全局基础样式与 Uiverse 引用',
     'miniprogram/config/api.ts': '自建服务器地址与缓存版本',
     'miniprogram/utils/api-client.ts': '请求、身份、上传下载与组队轮询',
-    'miniprogram/utils/portal-daily.ts': '北京时间按日轮换首页文案与颜色',
+    'miniprogram/utils/portal-daily.ts': '北京时间按日轮换首页标题颜色',
+    'miniprogram/utils/page-copy.ts': '问候、装饰标题和鼓励语；进页随机且同场景不连续重复',
+    'miniprogram/utils/keyboard-viewport.ts': '聊天 / 评论键盘可视区域、安卓窗口变化与监听清理',
+    'miniprogram/utils/english-api.ts': '英语服务请求、幂等编号与同域资料下载',
+    'miniprogram/utils/campus-theme.ts': '读取个人已购主题，转换为页面配色类名',
+    'miniprogram/styles/campus-theme.wxss': '伙伴商城主题的页面、卡片、按钮与装饰配色',
     'miniprogram/utils/run-metrics.ts': '跑步连续 GPS 路段、跳点 / 静止 / 折返过滤与归一化传感器计步',
+    'scripts/test-keyboard.js': '键盘事件顺序、窗口双重避让、昵称与金额草稿回归',
+    'scripts/test-social-input.js': '私信 / 评论草稿、重复发送、迟到响应与键盘生命周期回归',
     'server/src/app.js': 'HTTP 路由、身份、文件上传和网页后台',
+    'server/src/server-status.js': '主机CPU/RAM/连续开机、根盘、网站空间与祝福总数缓存；每小时直连/规则代理外网HEAD',
+    'server/scripts/test-server-status.js': '真实指标计算、失败未知、SQL与存储缓存、小时探测、超时与关闭回归',
+    'scripts/test-portal-status.js': '首页默认折叠、状态规范化、可见轮询、防重和迟到请求回归',
+    'scripts/configure-mihomo-subscription.py': '服务器一次性接入原生HTTP订阅与0.1倍URLTest；备份校验和失败恢复，规则/DNS保留',
     'server/src/data-store/index.js': 'MariaDB 兼容层、事务、行锁与身份上下文',
     'server/src/portfolio-store.js': '当前 HTTP 路由使用的原个人网站内容存取',
     'server/src/run-records.js': '运动成绩校验、北京时间、SQL 历史分页 / 统计 / 榜单聚合',
     'server/src/we-run.js': '微信会话关联、微信运动数据解密校验与按用户按日保存',
+    'server/src/english-content.js': '加载英语词库、题目、资料索引、商城与人物素材目录',
+    'server/src/english-fsrs.js': 'ts-fsrs 按日复习调度与记忆卡片序列化',
+    'server/src/english-media.js': '同域发音、PDF / 听力白名单下载、格式校验与缓存',
+    'scripts/import-english-content.py': '导入指定网站原创内容、合并固定版本开源词库与生成来源清单',
+    'scripts/build-companion-overlays.js': '将原创饰品、鞋子 SVG 渲染为固定画布 PNG；不修改人物原图',
+    'scripts/render-english-preview.js': '真实 WXML/WXSS 浏览器转换与两种视口截图，非微信真机',
+    'scripts/test-english-learning.js': '英语页面目标、提示、学习反馈、挑战、作答与重试回归',
+    'scripts/test-english-whole-exam-ui.js': '完整四级／六级57题、单尝试交卷、跨题草稿、解析和自评回归；隔离内存数据',
+    'scripts/import-cet-exams.py': '从外部来源缓存按SHA与审校记录重建已核验真题',
+    'scripts/cet-exam-review.json': '真题逐题校验答案、原创提示解析及源文件SHA；由导入器使用',
+    'server/src/campus-rewards.js': '读取有效校园任务来源、冻结每日跑步目标、共享金币流水与去重',
+    'server/src/module-policy.js': '七模块统一默认值与旧格式兼容；供公开开关和英语门禁复用',
+    'server/scripts/test-campus-rewards.js': '奖励并发、去重、目标冻结、回滚；真实SQL仅限隔离测试库',
+    'scripts/test-canteen-review-ui.js': '食堂多次评论、可选评分、晒图、上传失败、草稿保护、独立删评及奖励失败回归',
+    'scripts/test-canteen-submission-ui.js': '投稿查重迟到响应、补图编辑、幂等重试、本人撤回和账户切换回归',
+    'server/scripts/test-canteen-interactions.js': '仅campus_test_库：真实MariaDB并发查重、评分暂停恢复、旧／新版评论兼容与本人权限回归',
 }
 rows = []
 for directory, folders, files in os.walk(root):
@@ -67,9 +104,16 @@ for directory, folders, files in os.walk(root):
         elif relative.startswith('miniprogram/components/'):
             purpose = '原生组件：' + relative.split('/')[2] + ' / ' + extension
             relation = '页面 JSON usingComponents；同目录结构、样式、逻辑'
+        elif relative.startswith('miniprogram/packageEnglish/components/'):
+            purpose = '英语子包原生组件：' + relative.split('/')[3] + ' / ' + extension
+            relation = '英语四分区页面 JSON usingComponents；保留当前等级'
         elif relative.startswith('miniprogram/images/'):
-            purpose = '原图片 / 导航图标；按用户要求保留'
-            relation = 'hyj/hyjj 当前未引用；login-bg 用于两个登录页；图标见 app.json'
+            if file.stem == 'map-location-dot':
+                purpose = '原创32px地图圆点；人物图片下载失败时的本地兜底'
+                relation = 'pages/index/index.ts 的个人原生map marker'
+            else:
+                purpose = '原图片 / 导航图标；按用户要求保留'
+                relation = 'hyj/hyjj 当前未引用；login-bg 用于两个登录页；图标见 app.json'
         elif not purpose:
             if relative.startswith('docs/vendor/'):
                 purpose = '实际采用的 UI 原码、来源与许可'
@@ -77,6 +121,21 @@ for directory, folders, files in os.walk(root):
             elif relative.startswith('docs/ui-preview/'):
                 purpose = '当前布局预览 / 编译体积；浏览器样例，非真机数据'
                 relation = 'docs/ui.md'
+            elif relative.startswith('server/data/english/'):
+                purpose = '英语词题、真题资源索引、商城或内容来源 / 许可'
+                relation = 'english-content.js → english_learning；docs/english.md'
+            elif relative.startswith('server/data/gifts/'):
+                purpose = '祝福模板、背景、特效、推荐语与服务器价格'
+                relation = 'gift_sites／packageGifts；docs/gift-sites.md'
+            elif relative.startswith('server/public/gifts/'):
+                purpose = '浏览器祝福交互、背景、开源特效原码／许可证或共享素材'
+                relation = 'gift-web.js／gift-assets；docs/gift-sites.md'
+            elif relative.startswith('server/public/english/'):
+                purpose = '随后端发布的伙伴人物或原创配件；不进入微信主包'
+                relation = 'english-media.js /english-assets → campus-companion / wardrobe'
+            elif relative.startswith('docs/assets/campus-companions/'):
+                purpose = '伙伴素材的原始设计说明与来源，运行版见 server/public/english'
+                relation = 'docs/english.md；components/campus-companion'
             elif relative.startswith('docs/assets/'):
                 purpose = '最终刷新角色素材与运行地址说明'
                 relation = 'components/mahiro-scroll；服务器 uploads'

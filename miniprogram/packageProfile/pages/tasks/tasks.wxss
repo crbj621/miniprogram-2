@@ -1,0 +1,22 @@
+@import "../../../styles/campus-ui.wxss";
+@import "../../../styles/tech-ui.wxss";
+page { background:#f4f1ff; color:#314969; }
+.tasks-page { padding:28rpx 24rpx calc(48rpx + env(safe-area-inset-bottom)); min-height:100vh; box-sizing:border-box; background:linear-gradient(145deg,var(--campus-theme-soft,#eff9ff),#f7efff 58%,#fff2f6); }
+.hero { padding:18rpx 8rpx 28rpx; }
+.kicker { color:#8493b4; font-size:21rpx; letter-spacing:3rpx; }
+.title { display:block; color:var(--campus-theme-accent,#5274a1); font-size:40rpx; font-weight:700; margin:14rpx 0; }
+.card { padding:28rpx; margin-bottom:22rpx; border:2rpx solid var(--campus-theme-line,#d8e4f3); border-radius:30rpx; background:#ffffffdb; }
+.card-title { display:block; font-size:29rpx; font-weight:700; line-height:1.6; margin-bottom:16rpx; }
+.muted { display:block; color:#8292ac; font-size:24rpx; line-height:1.65; }
+.wallet { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16rpx; margin:20rpx 0; }
+.wallet-number { display:block; color:var(--campus-theme-accent,#5274a1); font-size:46rpx; font-weight:750; }
+.task-heading { display:flex; align-items:flex-start; gap:18rpx; }
+.task-heading .card-title { flex:1; min-width:0; }
+.reward { flex-shrink:0; color:#9276af; font-size:25rpx; line-height:1.6; }
+.task-progress { display:block; font-size:32rpx; color:#688bb1; margin:12rpx 0; }
+.field-label { display:block; margin:20rpx 0 12rpx; font-size:25rpx; }
+.tasks-page input.tech-input { width:100%; padding:0 22rpx; }
+.tasks-page button.action { display:flex; align-items:center; justify-content:center; width:100%; min-height:88rpx; height:auto; margin:16rpx 0 0; padding:20rpx; line-height:1.5; font-size:27rpx; }
+.tasks-page button.tech-primary { background:var(--campus-theme-button,linear-gradient(110deg,#95e2ff,#d7bbff)) !important; }
+.notice,.error { display:block; margin:18rpx 0; padding:18rpx; border-radius:18rpx; font-size:23rpx; line-height:1.7; background:#eef7ff; color:#7086a5; }
+.error { background:#fff1f5; color:#a3607e; }

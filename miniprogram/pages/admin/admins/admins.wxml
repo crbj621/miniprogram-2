@@ -1,3 +1,4 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="container">
   <view class="topbar">
     <view class="title">管理员管理</view>
@@ -28,28 +29,28 @@
   </view>
 
   <!-- 新增子管理员 -->
-  <view class="mask" wx:if="{{showModal}}" catchtouchmove="preventTouchMove" bindtap="closeModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"></view>
+  <view class="mask" wx:if="{{showModal}}" catchtouchmove="preventTouchMove" bindtap="closeModal"></view>
   <view class="modal-wrap" wx:if="{{showModal}}" catchtouchmove="preventTouchMove">
-    <view class="modal tech-card" catchtap="" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+    <view class="modal tech-card" catchtap="">
       <view class="modal-header">
         <view class="modal-title">添加子管理员</view>
         <view class="modal-close" bindtap="closeModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">✕</view>
       </view>
 
-      <view class="modal-body">
+      <scroll-view scroll-y class="modal-body">
         <view class="field">
           <view class="label">账号</view>
-          <input class="input tech-input" value="{{form.account}}" placeholder="例如：admin001" bindinput="onInput" data-field="account" placeholder-style="color:#8597ad" />
+          <input adjust-position="{{true}}" cursor-spacing="24" class="input tech-input" value="{{form.account}}" placeholder="例如：admin001" bindinput="onInput" data-field="account" placeholder-style="color:#8597ad" />
         </view>
         <view class="field">
           <view class="label">姓名</view>
-          <input class="input tech-input" value="{{form.username}}" placeholder="例如：张三" bindinput="onInput" data-field="username" placeholder-style="color:#8597ad" />
+          <input adjust-position="{{true}}" cursor-spacing="24" class="input tech-input" value="{{form.username}}" placeholder="例如：张三" bindinput="onInput" data-field="username" placeholder-style="color:#8597ad" />
         </view>
         <view class="field">
           <view class="label">密码</view>
-          <input class="input tech-input" password value="{{form.password}}" placeholder="请输入8位以上密码" bindinput="onInput" data-field="password" placeholder-style="color:#8597ad" />
+          <input adjust-position="{{true}}" cursor-spacing="24" class="input tech-input" password value="{{form.password}}" placeholder="请输入8位以上密码" bindinput="onInput" data-field="password" placeholder-style="color:#8597ad" />
         </view>
-      </view>
+      </scroll-view>
 
       <view class="modal-footer">
         <button class="btn ghost tech-control" bindtap="closeModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">取消</button>
@@ -58,3 +59,5 @@
     </view>
   </view>
 </view>
+
+</block>

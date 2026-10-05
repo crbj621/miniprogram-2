@@ -1,0 +1,27 @@
+@import "../../styles/english.wxss";
+.daily-card .card-title { margin-bottom:0; }
+.daily-progress { margin-top:22rpx; }
+.daily-card .stat { padding:18rpx 16rpx; background:#f6f7fb; }
+.daily-card .stat-number { font-size:42rpx; font-variant-numeric:tabular-nums; }
+.stat-goal { font-size:25rpx; font-weight:400; color:#939aab; }
+.study-actions { margin-top:22rpx; gap:16rpx; }
+.english-page .study-actions button.entry { min-height:116rpx; padding:22rpx 18rpx; }
+.entry-note { font-size:21rpx; }
+.daily-note { display:block; margin-top:14rpx; color:#939aab; font-size:22rpx; line-height:1.6; }
+.extra-study { margin-top:20rpx; padding:18rpx; border-radius:16rpx; background:var(--campus-theme-soft,#eef6fc); }
+.extra-quantity { display:flex; align-items:center; gap:16rpx; }
+.extra-quantity .grow { min-width:0; }
+.extra-title { display:block; margin-bottom:6rpx; font-size:25rpx; color:#5274a1; font-weight:600; }
+.english-page input.extra-input { flex-shrink:0; width:112rpx; min-width:0; height:76rpx; padding:12rpx; box-sizing:border-box; text-align:center; background:#fff; }
+.extra-record { display:block; margin-top:12rpx; font-size:22rpx; line-height:1.6; color:#438875; }
+.compact-card { padding:0 24rpx; }
+.english-page button.disclosure { display:flex; align-items:center; width:100%; min-height:104rpx; padding:20rpx 0; margin:0; background:transparent; text-align:left; line-height:1.5; gap:16rpx; }
+.disclosure::after,.my-link::after { border:0; }
+.disclosure-title { display:block; color:#414b62; font-size:27rpx; font-weight:650; }
+.disclosure-arrow { color:#939aab; font-size:22rpx; flex-shrink:0; }
+.plan-content,.my-content { border-top:2rpx solid #f0f1f5; padding-bottom:24rpx; }
+.tools-row { display:flex; gap:10rpx; margin:22rpx 0 12rpx; }
+.english-page button.tool-link { flex:1; width:auto; min-width:0; min-height:44px; margin:0; padding:12rpx 4rpx; font-size:23rpx; line-height:1.5; }
+.english-page button.my-link { display:flex; align-items:center; justify-content:space-between; width:100%; min-height:88rpx; margin:0; padding:18rpx 0; background:transparent; color:#596276; font-size:25rpx; line-height:1.5; text-align:left; gap:16rpx; }
+.my-link .muted { font-size:22rpx; }
+.checkin-row { padding:18rpx 0; border-top:2rpx solid #f0f1f5; color:#596276; font-size:25rpx; line-height:1.6; }

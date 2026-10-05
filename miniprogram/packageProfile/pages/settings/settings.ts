@@ -1,4 +1,5 @@
-Page({
+import { withSharing } from '../../../utils/page-share'
+Page(withSharing({
   data: {
     settings: {
       highAccuracy: true,
@@ -92,4 +93,4 @@ Page({
       showCancel: false
     });
   }
-});
+}));

@@ -1,3 +1,4 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="container">
   <view class="tabs">
     <view class="tab {{status==='all'?'active':''}}" data-status="all" bindtap="switchTab" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">全部</view>
@@ -34,3 +35,5 @@
     <text>加载中...</text>
   </view>
 </view>
+
+</block>

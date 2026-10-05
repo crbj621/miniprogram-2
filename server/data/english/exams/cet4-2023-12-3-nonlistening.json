@@ -1,0 +1,2060 @@
+{
+  "schemaVersion": 1,
+  "status": "verified_structured",
+  "source": {
+    "id": "cet4-2023-12-3-nonlistening",
+    "textCollection": "https://english-exam.lazynote.cn",
+    "textUrl": "https://english-exam.lazynote.cn/cet4/paper/2023-12-3/",
+    "textSha256": "8a646d5a30a67ce4e5d87975a5f1a683181e8a83083ed1ab685169efbd420497",
+    "answerSources": [
+      {
+        "section": "part3-section-a",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2023-12-3/part3-section-a/",
+        "sha256": "bcfb91cc20b122939805bbec424ac23582a9c9aacadc519788c25a82ebbc32d9"
+      },
+      {
+        "section": "part3-section-b",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2023-12-3/part3-section-b/",
+        "sha256": "d8acd973cdefe2df148531395d28ce9b570d59fb6f26ef334e17a00183d12bc9"
+      },
+      {
+        "section": "part3-section-c-1",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2023-12-3/part3-section-c-1/",
+        "sha256": "18cbd49b98eaa6db361152e3dbd49f94dedbf57cd1a6179aaa3ffae0bfc7e7dc"
+      },
+      {
+        "section": "part3-section-c-2",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2023-12-3/part3-section-c-2/",
+        "sha256": "cae6d2a5da4442345167ae89c3334ef11ad5747eb1af49195c8a4bb08f4173d6"
+      }
+    ],
+    "rightsUrl": "https://english-exam.lazynote.cn",
+    "rights": "Source footer attributes original papers to the National College English Test Committee. Original materials retain their respective rights; no blanket source license is asserted. Commercial explanatory prose is not copied.",
+    "sourceRightsNotice": "© 2026 懒笔记 · 蜀ICP备2024049450号-1 · 川公网安备51019002006323号 · 增值电信业务经营许可证：川B2-20240301 · 真题版权归全国硕士研究生招生考试 / 全国大学英语四六级考试委员会所有 · 隐私政策 · 用户协议",
+    "sourceTermsUrl": "https://english-exam.lazynote.cn/terms/",
+    "reviewedAt": "2026-10-03",
+    "answerStatus": "public_reference_structural_consistency_verified",
+    "explanations": "Project-generated contextual evidence notes. Close-reading locations are keyword-search candidates, not manually verified detailed explanations.",
+    "referenceEssays": "Project-authored full reference examples bound to the original prompts; not official model answers.",
+    "materialSources": [],
+    "corrections": [],
+    "previousReviewedAnswerSources": [
+      "cet4-2023-12-3-reading"
+    ],
+    "sourceEdition": "lazynote public original-paper arrangement; set numbering can differ from other collections.",
+    "independentlyConfirmedSharedSource": "",
+    "readingSourceCorrection": null,
+    "sectionSourceReplacement": null,
+    "independentAnswerChecks": [],
+    "sharedSectionSource": {}
+  },
+  "papers": [
+    {
+      "id": "cet4-2023-12-3-nonlistening",
+      "level": "CET4",
+      "year": 2023,
+      "month": 12,
+      "set": 3,
+      "title": "2023年12月英语四级第3套真题（不含听力）",
+      "authenticity": "past_exam",
+      "questionIds": [
+        "cet4-2023-12-3-nonlistening-writing",
+        "cet4-2023-12-3-nonlistening-q26",
+        "cet4-2023-12-3-nonlistening-q27",
+        "cet4-2023-12-3-nonlistening-q28",
+        "cet4-2023-12-3-nonlistening-q29",
+        "cet4-2023-12-3-nonlistening-q30",
+        "cet4-2023-12-3-nonlistening-q31",
+        "cet4-2023-12-3-nonlistening-q32",
+        "cet4-2023-12-3-nonlistening-q33",
+        "cet4-2023-12-3-nonlistening-q34",
+        "cet4-2023-12-3-nonlistening-q35",
+        "cet4-2023-12-3-nonlistening-q36",
+        "cet4-2023-12-3-nonlistening-q37",
+        "cet4-2023-12-3-nonlistening-q38",
+        "cet4-2023-12-3-nonlistening-q39",
+        "cet4-2023-12-3-nonlistening-q40",
+        "cet4-2023-12-3-nonlistening-q41",
+        "cet4-2023-12-3-nonlistening-q42",
+        "cet4-2023-12-3-nonlistening-q43",
+        "cet4-2023-12-3-nonlistening-q44",
+        "cet4-2023-12-3-nonlistening-q45",
+        "cet4-2023-12-3-nonlistening-q46",
+        "cet4-2023-12-3-nonlistening-q47",
+        "cet4-2023-12-3-nonlistening-q48",
+        "cet4-2023-12-3-nonlistening-q49",
+        "cet4-2023-12-3-nonlistening-q50",
+        "cet4-2023-12-3-nonlistening-q51",
+        "cet4-2023-12-3-nonlistening-q52",
+        "cet4-2023-12-3-nonlistening-q53",
+        "cet4-2023-12-3-nonlistening-q54",
+        "cet4-2023-12-3-nonlistening-q55",
+        "cet4-2023-12-3-nonlistening-translation"
+      ],
+      "durationSeconds": 6000,
+      "description": "写作1题、阅读30题、翻译1题，不含听力。客观题答案与题面、选项完成结构一致性核对。",
+      "sourceId": "cet4-2023-12-3-nonlistening",
+      "coverage": {
+        "fullPaper": false,
+        "fullNonListening": true,
+        "listeningExcluded": true,
+        "objectiveNumbers": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "objectiveCount": 30,
+        "subjectiveCount": 2,
+        "sections": [
+          "writing",
+          "reading_word_bank",
+          "reading_matching",
+          "reading_comprehension",
+          "translation"
+        ],
+        "sharedSectionSource": {},
+        "note": "写作1题、阅读30题、翻译1题，不含听力。",
+        "independentlyConfirmedSharedSource": "",
+        "readingSourceCorrection": null,
+        "sectionSourceReplacement": null,
+        "referenceStatus": "project_authored"
+      },
+      "resources": [
+        {
+          "id": "cet4-2023-12-3-nonlistening-source",
+          "type": "web",
+          "title": "原卷来源与题面核对",
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2023-12-3/"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cet4-2023-12-3-nonlistening-writing",
+      "number": "I",
+      "level": "CET4",
+      "type": "short_text_self_check",
+      "skill": "writing",
+      "section": "writing",
+      "prompt": "Directions: Suppose the university newspaper is inviting submissions from the students for its coming edition on what in their university impresses them most.You are now to write an essay for submission. You will have 30 minutes to write the essay. You should write at least 120 words but no more than 180 words.",
+      "options": [],
+      "correctAnswer": "What impresses me most about my university is the atmosphere of shared learning in its library. The building is useful, but the people and habits within it make the place special to me.\n\nWhen I first arrived, I struggled to find materials for a course project. A student volunteer showed me how to search the catalogue and compare different sources. Later, I noticed that classmates often exchanged reading suggestions while respecting the quiet study areas. Staff also offered short introductions to research resources, making unfamiliar tools less intimidating. These small forms of support encouraged me to ask better questions and study more independently.\n\nThe library represents a wider quality that I value in the university: knowledge is something to explore together rather than keep to oneself. I hope to contribute by helping new students as others helped me. This everyday spirit of cooperation has left a deeper impression than any single ceremony.",
+      "referenceAnswer": "What impresses me most about my university is the atmosphere of shared learning in its library. The building is useful, but the people and habits within it make the place special to me.\n\nWhen I first arrived, I struggled to find materials for a course project. A student volunteer showed me how to search the catalogue and compare different sources. Later, I noticed that classmates often exchanged reading suggestions while respecting the quiet study areas. Staff also offered short introductions to research resources, making unfamiliar tools less intimidating. These small forms of support encouraged me to ask better questions and study more independently.\n\nThe library represents a wider quality that I value in the university: knowledge is something to explore together rather than keep to oneself. I hope to contribute by helping new students as others helped me. This everyday spirit of cooperation has left a deeper impression than any single ceremony.",
+      "hint": "题目是大学中最打动你的事物或特点，需要明确对象与理由。",
+      "explanation": "以下为按题意独立写成的参考范文，作文没有唯一答案。选择图书馆合作学习氛围，用志愿者与资料指导举例，最后写愿意回馈；不能泛泛赞美大学。\n\n选定图书馆学习氛围作为最深印象，第一段点题，主体用志愿者帮助和资料指导支持，结尾写获得帮助后愿意回馈。learning environment是学习环境，offer guidance是提供指导，give something back是作回馈。what…impresses要求清楚指出一个对象，再说明why；只说学校美丽、老师好会缺少中心。不要把该题写成大学简介，例子应展示自己如何感受到这种特点。\n\n练习方法：先用提示列三段提纲，在30分钟内独立写作，再按下方标准逐项打分；把失分最多的一段重写。参考范文约152词（缩写、连字符词按一词，含标题或书信称呼落款），满足120–180词要求；评分用于练习自检，不代表官方阅卷分数。",
+      "rubric": [
+        "练习自评总分15分：题目覆盖0–6＋结构0–4＋语言0–5，先独立写完再对照；观点不同于范文也可得满分，只要有合理支持。",
+        "题目覆盖0–6分：该题检查——题目是大学中最打动你的事物或特点，需要明确对象与理由。。6分=任务完整且有具体理由/活动/例证；4–5分=切题但细节偏薄；2–3分=遗漏主要任务；0–1分=基本离题。",
+        "结构0–4分：4分=开头明确任务、主体按逻辑展开、结尾回扣，段间自然；3分=顺序清楚但局部衔接生硬；1–2分=跳跃或机械罗列；0分=内容难以组织理解。",
+        "语言0–5分：5分=语法和用词基本准确、句型有变化；3–4分=少量错误但不影响理解；1–2分=反复出现时态、主谓一致或搭配错误并影响阅读；0分=多数句子不能理解。",
+        "格式与修订：按原题保持120–180词；新闻/书信/提案用对应体裁，明确要求的首句逐字保留。若超限、少写任务或缺必要格式，先修改再评分，不把字数达标当作内容满分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2023-12-3-nonlistening-q26",
+      "canonicalId": "cet4-2023-12-3-q26",
+      "number": 26,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 26 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "When people set out to improve their health, they usually take a familiar path: starting a healthy diet, getting better sleep, and doing regular exercise. Each of these behaviors is important, of course, but they all [26] ____ on physical health—and a growing body of research suggests that social health is just as, if not more, important to [27] ____ well-being.\n\nOne recent study published in the journal PLOS ONE, for example, found that the strength of a person's social circle was a better [28] ____ of self-reported stress, happiness and well-being levels than fitness tracker data on physical activity, heart rate and sleep. That finding suggests that the \" [29] ____ self\" represented by endless amounts of health data doesn't tell the whole [30] ____ .\n\nThere's also a qualified self, which is who I am, what are my activities, my social network, and all of these aspects are not [31] ____ in any of these measurements.\n\nThis idea is supported by plenty of [32] ____ research. Studies have shown that social support—whether it comes from friends, family members or a spouse—is [33] ____ associated with better mental and physical health. A rich social life, these studies suggest, can lower stress levels, improve mood, encourage positive health behaviors and discourage damaging ones, boost heart health and improve illness [34] ____ rates.\n\nSocial isolation, meanwhile, is linked to higher rates of physical diseases and mental health conditions. It's a significant problem, [35] ____ since loneliness is emerging as a widespread public health problem in many countries.",
+      "options": [
+        {
+          "id": "A",
+          "text": "base"
+        },
+        {
+          "id": "B",
+          "text": "eagerly"
+        },
+        {
+          "id": "C",
+          "text": "especially"
+        },
+        {
+          "id": "D",
+          "text": "focus"
+        },
+        {
+          "id": "E",
+          "text": "indicator"
+        },
+        {
+          "id": "F",
+          "text": "overall"
+        },
+        {
+          "id": "G",
+          "text": "preached"
+        },
+        {
+          "id": "H",
+          "text": "prior"
+        },
+        {
+          "id": "I",
+          "text": "prompt"
+        },
+        {
+          "id": "J",
+          "text": "puzzle"
+        },
+        {
+          "id": "K",
+          "text": "quantified"
+        },
+        {
+          "id": "L",
+          "text": "recovery"
+        },
+        {
+          "id": "M",
+          "text": "reflected"
+        },
+        {
+          "id": "N",
+          "text": "story"
+        },
+        {
+          "id": "O",
+          "text": "strongly"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "先看第26空的句法位置和前后搭配，再结合整段话的语义判断。",
+      "explanation": "D，focus。与on搭配，健康饮食、睡眠和锻炼都侧重身体健康。将词填回本句可读为：“Each of these behaviors is important, of course, but they all focus on physical health and a growing body of research suggests that social health is just as, if not more, important to [27] ____ well-being.”。其他选项即使词性相同，也需同时符合这句话所表达的含义。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening",
+      "explanationType": "previous_project_authored_reviewed_explanation"
+    },
+    {
+      "id": "cet4-2023-12-3-nonlistening-q27",
+      "canonicalId": "cet4-2023-12-3-q27",
+      "number": 27,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 27 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "When people set out to improve their health, they usually take a familiar path: starting a healthy diet, getting better sleep, and doing regular exercise. Each of these behaviors is important, of course, but they all [26] ____ on physical health—and a growing body of research suggests that social health is just as, if not more, important to [27] ____ well-being.\n\nOne recent study published in the journal PLOS ONE, for example, found that the strength of a person's social circle was a better [28] ____ of self-reported stress, happiness and well-being levels than fitness tracker data on physical activity, heart rate and sleep. That finding suggests that the \" [29] ____ self\" represented by endless amounts of health data doesn't tell the whole [30] ____ .\n\nThere's also a qualified self, which is who I am, what are my activities, my social network, and all of these aspects are not [31] ____ in any of these measurements.\n\nThis idea is supported by plenty of [32] ____ research. Studies have shown that social support—whether it comes from friends, family members or a spouse—is [33] ____ associated with better mental and physical health. A rich social life, these studies suggest, can lower stress levels, improve mood, encourage positive health behaviors and discourage damaging ones, boost heart health and improve illness [34] ____ rates.\n\nSocial isolation, meanwhile, is linked to higher rates of physical diseases and mental health conditions. It's a significant problem, [35] ____ since loneliness is emerging as a widespread public health problem in many countries.",
+      "options": [
+        {
+          "id": "A",
+          "text": "base"
+        },
+        {
+          "id": "B",
+          "text": "eagerly"
+        },
+        {
+          "id": "C",
+          "text": "especially"
+        },
+        {
+          "id": "D",
+          "text": "focus"
+        },
+        {
+          "id": "E",
+          "text": "indicator"
+        },
+        {
+          "id": "F",
+          "text": "overall"
+        },
+        {
+          "id": "G",
+          "text": "preached"
+        },
+        {
+          "id": "H",
+          "text": "prior"
+        },
+        {
+          "id": "I",
+          "text": "prompt"
+        },
+        {
+          "id": "J",
+          "text": "puzzle"
+        },
+        {
+          "id": "K",
+          "text": "quantified"
+        },
+        {
+          "id": "L",
+          "text": "recovery"
+        },
+        {
+          "id": "M",
+          "text": "reflected"
+        },
+        {
+          "id": "N",
+          "text": "story"
+        },
+        {
+          "id": "O",
+          "text": "strongly"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "先看第27空的句法位置和前后搭配，再结合整段话的语义判断。",
+      "explanation": "F，overall。形容词修饰well-being，说明社会健康对整体幸福重要。将词填回本句可读为：“Each of these behaviors is important, of course, but they all [26] ____ on physical health and a growing body of research suggests that social health is just as, if not more, important to overall well-being.”。其他选项即使词性相同，也需同时符合这句话所表达的含义。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening",
+      "explanationType": "previous_project_authored_reviewed_explanation"
+    },
+    {
+      "id": "cet4-2023-12-3-nonlistening-q28",
+      "canonicalId": "cet4-2023-12-3-q28",
+      "number": 28,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 28 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "When people set out to improve their health, they usually take a familiar path: starting a healthy diet, getting better sleep, and doing regular exercise. Each of these behaviors is important, of course, but they all [26] ____ on physical health—and a growing body of research suggests that social health is just as, if not more, important to [27] ____ well-being.\n\nOne recent study published in the journal PLOS ONE, for example, found that the strength of a person's social circle was a better [28] ____ of self-reported stress, happiness and well-being levels than fitness tracker data on physical activity, heart rate and sleep. That finding suggests that the \" [29] ____ self\" represented by endless amounts of health data doesn't tell the whole [30] ____ .\n\nThere's also a qualified self, which is who I am, what are my activities, my social network, and all of these aspects are not [31] ____ in any of these measurements.\n\nThis idea is supported by plenty of [32] ____ research. Studies have shown that social support—whether it comes from friends, family members or a spouse—is [33] ____ associated with better mental and physical health. A rich social life, these studies suggest, can lower stress levels, improve mood, encourage positive health behaviors and discourage damaging ones, boost heart health and improve illness [34] ____ rates.\n\nSocial isolation, meanwhile, is linked to higher rates of physical diseases and mental health conditions. It's a significant problem, [35] ____ since loneliness is emerging as a widespread public health problem in many countries.",
+      "options": [
+        {
+          "id": "A",
+          "text": "base"
+        },
+        {
+          "id": "B",
+          "text": "eagerly"
+        },
+        {
+          "id": "C",
+          "text": "especially"
+        },
+        {
+          "id": "D",
+          "text": "focus"
+        },
+        {
+          "id": "E",
+          "text": "indicator"
+        },
+        {
+          "id": "F",
+          "text": "overall"
+        },
+        {
+          "id": "G",
+          "text": "preached"
+        },
+        {
+          "id": "H",
+          "text": "prior"
+        },
+        {
+          "id": "I",
+          "text": "prompt"
+        },
+        {
+          "id": "J",
+          "text": "puzzle"
+        },
+        {
+          "id": "K",
+          "text": "quantified"
+        },
+        {
+          "id": "L",
+          "text": "recovery"
+        },
+        {
+          "id": "M",
+          "text": "reflected"
+        },
+        {
+          "id": "N",
+          "text": "story"
+        },
+        {
+          "id": "O",
+          "text": "strongly"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "先看第28空的句法位置和前后搭配，再结合整段话的语义判断。",
+      "explanation": "E，indicator。名词说明社交圈强度比健身设备数据更能反映压力幸福。将词填回本句可读为：“One recent study published in the journal PLOS ONE, for example, found that the strength of a person's social circle was a better indicator of self-reported stress, happiness and well-being levels than fitness tracker data on physical activity, heart rate and sleep.”。其他选项即使词性相同，也需同时符合这句话所表达的含义。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening",
+      "explanationType": "previous_project_authored_reviewed_explanation"
+    },
+    {
+      "id": "cet4-2023-12-3-nonlistening-q29",
+      "canonicalId": "cet4-2023-12-3-q29",
+      "number": 29,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 29 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "When people set out to improve their health, they usually take a familiar path: starting a healthy diet, getting better sleep, and doing regular exercise. Each of these behaviors is important, of course, but they all [26] ____ on physical health—and a growing body of research suggests that social health is just as, if not more, important to [27] ____ well-being.\n\nOne recent study published in the journal PLOS ONE, for example, found that the strength of a person's social circle was a better [28] ____ of self-reported stress, happiness and well-being levels than fitness tracker data on physical activity, heart rate and sleep. That finding suggests that the \" [29] ____ self\" represented by endless amounts of health data doesn't tell the whole [30] ____ .\n\nThere's also a qualified self, which is who I am, what are my activities, my social network, and all of these aspects are not [31] ____ in any of these measurements.\n\nThis idea is supported by plenty of [32] ____ research. Studies have shown that social support—whether it comes from friends, family members or a spouse—is [33] ____ associated with better mental and physical health. A rich social life, these studies suggest, can lower stress levels, improve mood, encourage positive health behaviors and discourage damaging ones, boost heart health and improve illness [34] ____ rates.\n\nSocial isolation, meanwhile, is linked to higher rates of physical diseases and mental health conditions. It's a significant problem, [35] ____ since loneliness is emerging as a widespread public health problem in many countries.",
+      "options": [
+        {
+          "id": "A",
+          "text": "base"
+        },
+        {
+          "id": "B",
+          "text": "eagerly"
+        },
+        {
+          "id": "C",
+          "text": "especially"
+        },
+        {
+          "id": "D",
+          "text": "focus"
+        },
+        {
+          "id": "E",
+          "text": "indicator"
+        },
+        {
+          "id": "F",
+          "text": "overall"
+        },
+        {
+          "id": "G",
+          "text": "preached"
+        },
+        {
+          "id": "H",
+          "text": "prior"
+        },
+        {
+          "id": "I",
+          "text": "prompt"
+        },
+        {
+          "id": "J",
+          "text": "puzzle"
+        },
+        {
+          "id": "K",
+          "text": "quantified"
+        },
+        {
+          "id": "L",
+          "text": "recovery"
+        },
+        {
+          "id": "M",
+          "text": "reflected"
+        },
+        {
+          "id": "N",
+          "text": "story"
+        },
+        {
+          "id": "O",
+          "text": "strongly"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "先看第29空的句法位置和前后搭配，再结合整段话的语义判断。",
+      "explanation": "K，quantified。数据量化的自我与后文描述社会网络的qualitative self对比。将词填回本句可读为：“That finding suggests that the “quantified self” represented by endless amounts of health data doesn't tell the whole [30] ____.”。其他选项即使词性相同，也需同时符合这句话所表达的含义。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening",
+      "explanationType": "previous_project_authored_reviewed_explanation"
+    },
+    {
+      "id": "cet4-2023-12-3-nonlistening-q30",
+      "canonicalId": "cet4-2023-12-3-q30",
+      "number": 30,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 30 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "When people set out to improve their health, they usually take a familiar path: starting a healthy diet, getting better sleep, and doing regular exercise. Each of these behaviors is important, of course, but they all [26] ____ on physical health—and a growing body of research suggests that social health is just as, if not more, important to [27] ____ well-being.\n\nOne recent study published in the journal PLOS ONE, for example, found that the strength of a person's social circle was a better [28] ____ of self-reported stress, happiness and well-being levels than fitness tracker data on physical activity, heart rate and sleep. That finding suggests that the \" [29] ____ self\" represented by endless amounts of health data doesn't tell the whole [30] ____ .\n\nThere's also a qualified self, which is who I am, what are my activities, my social network, and all of these aspects are not [31] ____ in any of these measurements.\n\nThis idea is supported by plenty of [32] ____ research. Studies have shown that social support—whether it comes from friends, family members or a spouse—is [33] ____ associated with better mental and physical health. A rich social life, these studies suggest, can lower stress levels, improve mood, encourage positive health behaviors and discourage damaging ones, boost heart health and improve illness [34] ____ rates.\n\nSocial isolation, meanwhile, is linked to higher rates of physical diseases and mental health conditions. It's a significant problem, [35] ____ since loneliness is emerging as a widespread public health problem in many countries.",
+      "options": [
+        {
+          "id": "A",
+          "text": "base"
+        },
+        {
+          "id": "B",
+          "text": "eagerly"
+        },
+        {
+          "id": "C",
+          "text": "especially"
+        },
+        {
+          "id": "D",
+          "text": "focus"
+        },
+        {
+          "id": "E",
+          "text": "indicator"
+        },
+        {
+          "id": "F",
+          "text": "overall"
+        },
+        {
+          "id": "G",
+          "text": "preached"
+        },
+        {
+          "id": "H",
+          "text": "prior"
+        },
+        {
+          "id": "I",
+          "text": "prompt"
+        },
+        {
+          "id": "J",
+          "text": "puzzle"
+        },
+        {
+          "id": "K",
+          "text": "quantified"
+        },
+        {
+          "id": "L",
+          "text": "recovery"
+        },
+        {
+          "id": "M",
+          "text": "reflected"
+        },
+        {
+          "id": "N",
+          "text": "story"
+        },
+        {
+          "id": "O",
+          "text": "strongly"
+        }
+      ],
+      "correctAnswer": "N",
+      "hint": "先看第30空的句法位置和前后搭配，再结合整段话的语义判断。",
+      "explanation": "N，story。tell the whole story表示说明全部情况，健康数据不能涵盖完整生活。将词填回本句可读为：“That finding suggests that the “[29] ____ self” represented by endless amounts of health data doesn't tell the whole story.”。其他选项即使词性相同，也需同时符合这句话所表达的含义。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening",
+      "explanationType": "previous_project_authored_reviewed_explanation"
+    },
+    {
+      "id": "cet4-2023-12-3-nonlistening-q31",
+      "canonicalId": "cet4-2023-12-3-q31",
+      "number": 31,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 31 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "When people set out to improve their health, they usually take a familiar path: starting a healthy diet, getting better sleep, and doing regular exercise. Each of these behaviors is important, of course, but they all [26] ____ on physical health—and a growing body of research suggests that social health is just as, if not more, important to [27] ____ well-being.\n\nOne recent study published in the journal PLOS ONE, for example, found that the strength of a person's social circle was a better [28] ____ of self-reported stress, happiness and well-being levels than fitness tracker data on physical activity, heart rate and sleep. That finding suggests that the \" [29] ____ self\" represented by endless amounts of health data doesn't tell the whole [30] ____ .\n\nThere's also a qualified self, which is who I am, what are my activities, my social network, and all of these aspects are not [31] ____ in any of these measurements.\n\nThis idea is supported by plenty of [32] ____ research. Studies have shown that social support—whether it comes from friends, family members or a spouse—is [33] ____ associated with better mental and physical health. A rich social life, these studies suggest, can lower stress levels, improve mood, encourage positive health behaviors and discourage damaging ones, boost heart health and improve illness [34] ____ rates.\n\nSocial isolation, meanwhile, is linked to higher rates of physical diseases and mental health conditions. It's a significant problem, [35] ____ since loneliness is emerging as a widespread public health problem in many countries.",
+      "options": [
+        {
+          "id": "A",
+          "text": "base"
+        },
+        {
+          "id": "B",
+          "text": "eagerly"
+        },
+        {
+          "id": "C",
+          "text": "especially"
+        },
+        {
+          "id": "D",
+          "text": "focus"
+        },
+        {
+          "id": "E",
+          "text": "indicator"
+        },
+        {
+          "id": "F",
+          "text": "overall"
+        },
+        {
+          "id": "G",
+          "text": "preached"
+        },
+        {
+          "id": "H",
+          "text": "prior"
+        },
+        {
+          "id": "I",
+          "text": "prompt"
+        },
+        {
+          "id": "J",
+          "text": "puzzle"
+        },
+        {
+          "id": "K",
+          "text": "quantified"
+        },
+        {
+          "id": "L",
+          "text": "recovery"
+        },
+        {
+          "id": "M",
+          "text": "reflected"
+        },
+        {
+          "id": "N",
+          "text": "story"
+        },
+        {
+          "id": "O",
+          "text": "strongly"
+        }
+      ],
+      "correctAnswer": "M",
+      "hint": "先看第31空的句法位置和前后搭配，再结合整段话的语义判断。",
+      "explanation": "M，reflected。被动结构，表示社会活动与网络未反映在数据测量中。将词填回本句可读为：“There's also a qualified self, which is who I am, what are my activities, my social network, and all of these aspects are not reflected in any of these measurements.”。其他选项即使词性相同，也需同时符合这句话所表达的含义。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening",
+      "explanationType": "previous_project_authored_reviewed_explanation"
+    },
+    {
+      "id": "cet4-2023-12-3-nonlistening-q32",
+      "canonicalId": "cet4-2023-12-3-q32",
+      "number": 32,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 32 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "When people set out to improve their health, they usually take a familiar path: starting a healthy diet, getting better sleep, and doing regular exercise. Each of these behaviors is important, of course, but they all [26] ____ on physical health—and a growing body of research suggests that social health is just as, if not more, important to [27] ____ well-being.\n\nOne recent study published in the journal PLOS ONE, for example, found that the strength of a person's social circle was a better [28] ____ of self-reported stress, happiness and well-being levels than fitness tracker data on physical activity, heart rate and sleep. That finding suggests that the \" [29] ____ self\" represented by endless amounts of health data doesn't tell the whole [30] ____ .\n\nThere's also a qualified self, which is who I am, what are my activities, my social network, and all of these aspects are not [31] ____ in any of these measurements.\n\nThis idea is supported by plenty of [32] ____ research. Studies have shown that social support—whether it comes from friends, family members or a spouse—is [33] ____ associated with better mental and physical health. A rich social life, these studies suggest, can lower stress levels, improve mood, encourage positive health behaviors and discourage damaging ones, boost heart health and improve illness [34] ____ rates.\n\nSocial isolation, meanwhile, is linked to higher rates of physical diseases and mental health conditions. It's a significant problem, [35] ____ since loneliness is emerging as a widespread public health problem in many countries.",
+      "options": [
+        {
+          "id": "A",
+          "text": "base"
+        },
+        {
+          "id": "B",
+          "text": "eagerly"
+        },
+        {
+          "id": "C",
+          "text": "especially"
+        },
+        {
+          "id": "D",
+          "text": "focus"
+        },
+        {
+          "id": "E",
+          "text": "indicator"
+        },
+        {
+          "id": "F",
+          "text": "overall"
+        },
+        {
+          "id": "G",
+          "text": "preached"
+        },
+        {
+          "id": "H",
+          "text": "prior"
+        },
+        {
+          "id": "I",
+          "text": "prompt"
+        },
+        {
+          "id": "J",
+          "text": "puzzle"
+        },
+        {
+          "id": "K",
+          "text": "quantified"
+        },
+        {
+          "id": "L",
+          "text": "recovery"
+        },
+        {
+          "id": "M",
+          "text": "reflected"
+        },
+        {
+          "id": "N",
+          "text": "story"
+        },
+        {
+          "id": "O",
+          "text": "strongly"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "先看第32空的句法位置和前后搭配，再结合整段话的语义判断。",
+      "explanation": "H，prior。形容词修饰research，表示这一观点由先前研究支持。将词填回本句可读为：“This idea is supported by plenty of prior research.”。其他选项即使词性相同，也需同时符合这句话所表达的含义。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening",
+      "explanationType": "previous_project_authored_reviewed_explanation"
+    },
+    {
+      "id": "cet4-2023-12-3-nonlistening-q33",
+      "canonicalId": "cet4-2023-12-3-q33",
+      "number": 33,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 33 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "When people set out to improve their health, they usually take a familiar path: starting a healthy diet, getting better sleep, and doing regular exercise. Each of these behaviors is important, of course, but they all [26] ____ on physical health—and a growing body of research suggests that social health is just as, if not more, important to [27] ____ well-being.\n\nOne recent study published in the journal PLOS ONE, for example, found that the strength of a person's social circle was a better [28] ____ of self-reported stress, happiness and well-being levels than fitness tracker data on physical activity, heart rate and sleep. That finding suggests that the \" [29] ____ self\" represented by endless amounts of health data doesn't tell the whole [30] ____ .\n\nThere's also a qualified self, which is who I am, what are my activities, my social network, and all of these aspects are not [31] ____ in any of these measurements.\n\nThis idea is supported by plenty of [32] ____ research. Studies have shown that social support—whether it comes from friends, family members or a spouse—is [33] ____ associated with better mental and physical health. A rich social life, these studies suggest, can lower stress levels, improve mood, encourage positive health behaviors and discourage damaging ones, boost heart health and improve illness [34] ____ rates.\n\nSocial isolation, meanwhile, is linked to higher rates of physical diseases and mental health conditions. It's a significant problem, [35] ____ since loneliness is emerging as a widespread public health problem in many countries.",
+      "options": [
+        {
+          "id": "A",
+          "text": "base"
+        },
+        {
+          "id": "B",
+          "text": "eagerly"
+        },
+        {
+          "id": "C",
+          "text": "especially"
+        },
+        {
+          "id": "D",
+          "text": "focus"
+        },
+        {
+          "id": "E",
+          "text": "indicator"
+        },
+        {
+          "id": "F",
+          "text": "overall"
+        },
+        {
+          "id": "G",
+          "text": "preached"
+        },
+        {
+          "id": "H",
+          "text": "prior"
+        },
+        {
+          "id": "I",
+          "text": "prompt"
+        },
+        {
+          "id": "J",
+          "text": "puzzle"
+        },
+        {
+          "id": "K",
+          "text": "quantified"
+        },
+        {
+          "id": "L",
+          "text": "recovery"
+        },
+        {
+          "id": "M",
+          "text": "reflected"
+        },
+        {
+          "id": "N",
+          "text": "story"
+        },
+        {
+          "id": "O",
+          "text": "strongly"
+        }
+      ],
+      "correctAnswer": "O",
+      "hint": "先看第33空的句法位置和前后搭配，再结合整段话的语义判断。",
+      "explanation": "O，strongly。副词修饰associated，强调社会支持与身心健康紧密相关。将词填回本句可读为：“Studies have shown that social support whether it comes from friends, family members or a spouse is strongly associated with better mental and physical health.”。其他选项即使词性相同，也需同时符合这句话所表达的含义。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening",
+      "explanationType": "previous_project_authored_reviewed_explanation"
+    },
+    {
+      "id": "cet4-2023-12-3-nonlistening-q34",
+      "canonicalId": "cet4-2023-12-3-q34",
+      "number": 34,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 34 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "When people set out to improve their health, they usually take a familiar path: starting a healthy diet, getting better sleep, and doing regular exercise. Each of these behaviors is important, of course, but they all [26] ____ on physical health—and a growing body of research suggests that social health is just as, if not more, important to [27] ____ well-being.\n\nOne recent study published in the journal PLOS ONE, for example, found that the strength of a person's social circle was a better [28] ____ of self-reported stress, happiness and well-being levels than fitness tracker data on physical activity, heart rate and sleep. That finding suggests that the \" [29] ____ self\" represented by endless amounts of health data doesn't tell the whole [30] ____ .\n\nThere's also a qualified self, which is who I am, what are my activities, my social network, and all of these aspects are not [31] ____ in any of these measurements.\n\nThis idea is supported by plenty of [32] ____ research. Studies have shown that social support—whether it comes from friends, family members or a spouse—is [33] ____ associated with better mental and physical health. A rich social life, these studies suggest, can lower stress levels, improve mood, encourage positive health behaviors and discourage damaging ones, boost heart health and improve illness [34] ____ rates.\n\nSocial isolation, meanwhile, is linked to higher rates of physical diseases and mental health conditions. It's a significant problem, [35] ____ since loneliness is emerging as a widespread public health problem in many countries.",
+      "options": [
+        {
+          "id": "A",
+          "text": "base"
+        },
+        {
+          "id": "B",
+          "text": "eagerly"
+        },
+        {
+          "id": "C",
+          "text": "especially"
+        },
+        {
+          "id": "D",
+          "text": "focus"
+        },
+        {
+          "id": "E",
+          "text": "indicator"
+        },
+        {
+          "id": "F",
+          "text": "overall"
+        },
+        {
+          "id": "G",
+          "text": "preached"
+        },
+        {
+          "id": "H",
+          "text": "prior"
+        },
+        {
+          "id": "I",
+          "text": "prompt"
+        },
+        {
+          "id": "J",
+          "text": "puzzle"
+        },
+        {
+          "id": "K",
+          "text": "quantified"
+        },
+        {
+          "id": "L",
+          "text": "recovery"
+        },
+        {
+          "id": "M",
+          "text": "reflected"
+        },
+        {
+          "id": "N",
+          "text": "story"
+        },
+        {
+          "id": "O",
+          "text": "strongly"
+        }
+      ],
+      "correctAnswer": "L",
+      "hint": "先看第34空的句法位置和前后搭配，再结合整段话的语义判断。",
+      "explanation": "L，recovery。名词修饰rates，表示丰富社交生活可改善疾病恢复率。将词填回本句可读为：“A rich social life, these studies suggest, can lower stress levels, improve mood, encourage positive health behaviors and discourage damaging ones, boost heart health and improve illness recovery rates.”。其他选项即使词性相同，也需同时符合这句话所表达的含义。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening",
+      "explanationType": "previous_project_authored_reviewed_explanation"
+    },
+    {
+      "id": "cet4-2023-12-3-nonlistening-q35",
+      "canonicalId": "cet4-2023-12-3-q35",
+      "number": 35,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 35 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "When people set out to improve their health, they usually take a familiar path: starting a healthy diet, getting better sleep, and doing regular exercise. Each of these behaviors is important, of course, but they all [26] ____ on physical health—and a growing body of research suggests that social health is just as, if not more, important to [27] ____ well-being.\n\nOne recent study published in the journal PLOS ONE, for example, found that the strength of a person's social circle was a better [28] ____ of self-reported stress, happiness and well-being levels than fitness tracker data on physical activity, heart rate and sleep. That finding suggests that the \" [29] ____ self\" represented by endless amounts of health data doesn't tell the whole [30] ____ .\n\nThere's also a qualified self, which is who I am, what are my activities, my social network, and all of these aspects are not [31] ____ in any of these measurements.\n\nThis idea is supported by plenty of [32] ____ research. Studies have shown that social support—whether it comes from friends, family members or a spouse—is [33] ____ associated with better mental and physical health. A rich social life, these studies suggest, can lower stress levels, improve mood, encourage positive health behaviors and discourage damaging ones, boost heart health and improve illness [34] ____ rates.\n\nSocial isolation, meanwhile, is linked to higher rates of physical diseases and mental health conditions. It's a significant problem, [35] ____ since loneliness is emerging as a widespread public health problem in many countries.",
+      "options": [
+        {
+          "id": "A",
+          "text": "base"
+        },
+        {
+          "id": "B",
+          "text": "eagerly"
+        },
+        {
+          "id": "C",
+          "text": "especially"
+        },
+        {
+          "id": "D",
+          "text": "focus"
+        },
+        {
+          "id": "E",
+          "text": "indicator"
+        },
+        {
+          "id": "F",
+          "text": "overall"
+        },
+        {
+          "id": "G",
+          "text": "preached"
+        },
+        {
+          "id": "H",
+          "text": "prior"
+        },
+        {
+          "id": "I",
+          "text": "prompt"
+        },
+        {
+          "id": "J",
+          "text": "puzzle"
+        },
+        {
+          "id": "K",
+          "text": "quantified"
+        },
+        {
+          "id": "L",
+          "text": "recovery"
+        },
+        {
+          "id": "M",
+          "text": "reflected"
+        },
+        {
+          "id": "N",
+          "text": "story"
+        },
+        {
+          "id": "O",
+          "text": "strongly"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "先看第35空的句法位置和前后搭配，再结合整段话的语义判断。",
+      "explanation": "C，especially。副词引出尤其重要的孤独问题，补充社会隔离为何严重。将词填回本句可读为：“It's a significant problem, especially since loneliness is emerging as a widespread public health problem in many countries.”。其他选项即使词性相同，也需同时符合这句话所表达的含义。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening",
+      "explanationType": "previous_project_authored_reviewed_explanation"
+    },
+    {
+      "id": "cet4-2023-12-3-nonlistening-q36",
+      "canonicalId": "cet4-2023-12-3-q36",
+      "number": 36,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Research has found the use of digital technology benefits not only teenagers' social lives but also their studies.",
+      "passage": "Teenagers and social networking\n\nA) As a parent of two boys at primary school, I worry about the issues associated with teenagers and social media. Newspapers are constantly filled with frightening accounts of drug addiction and aggressive behaviour supposedly caused by violent video games. But even when these accounts touch on real concerns, they do not really reflect the great mass of everyday teenage social behaviour: the online chat, the texting, the surfing, and the emergence of a new teenage sphere that is conducted digitally.\n\nB) New technologies always provoke generational panic, which usually has more to do with adult fears than with the lives of teenagers. In the 1930s, parents worried that radio was gaining \"an irresistible hold of their children\". In the 80s, the great danger was the Sony Walkman(随身听). When you look at today's digital activity, the facts are much more positive than you might expect.\n\nC) Indeed, social scientists who study young people have found that their digital use can be inventive and even beneficial. This is true not just in terms of their social lives, but their education too. So if you use a ton of social media, do you become unable, or unwilling, to engage in face-to-face contact? The evidence suggests not. Research by Amanda Lenhart of the Pew Research Centre, a US think tank, found that the most passionate texters are also the kids most likely to spend time with friends in person. One form of socialising doesn't replace the other. It expands it.\n\nD) \"Kids still spend time face to face,\" Lenhart says. Indeed, as they get older and are given more freedom, they often ease up on social networking. Early on, the web is their \"third space\", but by the late teens, it's replaced in reaction to greater independence. They have to be on Facebook, to know what's going on among friends and family, but they are ambivalent(有矛盾心理的) about it, says Rebecca Eynon, a research fellow at the Oxford Internet Institute, who has interviewed about 200 British teenagers over three years. As they gain experience with living online, they begin to adjust their behaviour, struggling with new communication skills, as they do in the real world.\n\nE) Parents are wrong to worry that kids don't care about privacy. In fact, they spend hours changing Facebook settings or using quick-delete sharing tools, such as Snapchat, to minimise their traces. Or they post a photograph on Instagram, have a pleasant conversation with friends and then delete it so that no traces remain.\n\nF) This is not to say that kids always use good judgment. Like everyone else, they make mistakes—sometimes serious ones. But working out how to behave online is a new social skill. While there's plenty of drama and messiness online, it is not, for most teens, a cycle of non-stop abuse: a Pew study found only 15% of teens said someone had bullied them online in the last 12 months.\n\nG) But surely all this short-form writing is affecting literacy? Certainly, teachers worry. They say that kids use overly casual language and text-speak in writing, and don't have as much patience for long reading and complex arguments. Yet studies of first-year college papers suggest these anxieties may be partly based on misguided nostalgia(怀旧). When Stanford University scholar Andrea Lunsford gathered data on the rates of errors in \"freshman composition\" papers going back to 1917, she found that they were virtually identical to today.\n\nH) But even as error rates stayed stable, student essays have blossomed in size and complexity. They are now six times longer and, unlike older \"what I did this summer\" essays, they offer arguments supported by evidence. Why? Computers have vastly increased the ability of students to gather information, sample different points of view and write more fluidly.\n\nI) When linguist Naomi Baron studied students, instant messaging even there she found surprisingly rare usage of short forms such as \"u\" for \"you\", and as students got older, they began to write in more grammatical sentences. That is because they want to appear more adult, and they know how adults are expected to write. Clearly, teaching teens formal writing is still crucial, but texting probably isn't destroying their ability to learn it.\n\nJ) It is probably true that fewer kids are heavy readers compared with two generations ago, when cheap paperbacks boosted rates of reading. But even back then, a minority of people—perhaps 20%—were lifelong heavy readers, and it was cable TV not the internet, that struck a blow at that culture in the 1980s. Still, 15% or more of kids are found to be deeply bookish. In fact, the online world offers kids remarkable opportunities to become literate and creative because young people can now publish ideas not just to their friends, but to the world. And it turns out that when they write for strangers, their sense of \"authentic audience\" makes them work harder, push themselves further, and create powerful new communicative forms.\n\nK) Few would deny that too much time online can be harmful. Some of the dangers are emotional: hurting someone from a distance is not the same as hurting them face to face. If we're lucky, the legal environment will change to make teenagers' online lives less likely to haunt them later on. Just last week, California passed a law allowing minors to demand that internet firms erase their digital past and the EU has considered similar legislation.\n\nL) Distraction is also a serious issue. When kids switch from chat to music to homework, they are indeed likely to have trouble doing each task well. And studies show that pupils don't fact-check information online—\"smart searching\" is a skill schools need to teach urgently. It's also true that too much social networking and game playing can cut into schoolwork and sleep. This is precisely why parents still need to set firm boundaries around it, as with any other distraction.\n\nM) So what's the best way to cope? The same boring old advice that applies to everything in parenting: moderation. Rebecca Eynon argues that it's key to model good behaviour. Parents who stare non-stop at their phones and don't read books are likely to breed kids who will do the same. As ever, we ought to be careful about our own behaviour.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "先圈出陈述里的主体、条件和变化方向，再到文章中寻找同义表达。",
+      "explanation": "对应C段。not just social lives but education明确说数字使用对社交与学习均有益，不只是技术有创造性。 该段证据（合看相关句）：“Indeed, social scientists who study young people have found that their digital use can be inventive and even beneficial. This is true not just in terms of their social lives, but their education too. So if you use a ton of social media, do you become unable, or unwilling, to engage in face-to-face contact? The evidence suggests not. Research by Amanda Lenhart of the Pew Research Centre, a US think tank, found that the most passionate texters are also the kids most likely to spend time with friends in person. One form of socialising doesn't replace the other. It expands it.”",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening",
+      "explanationType": "previous_project_authored_reviewed_explanation"
+    },
+    {
+      "id": "cet4-2023-12-3-nonlistening-q37",
+      "canonicalId": "cet4-2023-12-3-q37",
+      "number": 37,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "It is urgent that schools teach kids how to verify online information.",
+      "passage": "Teenagers and social networking\n\nA) As a parent of two boys at primary school, I worry about the issues associated with teenagers and social media. Newspapers are constantly filled with frightening accounts of drug addiction and aggressive behaviour supposedly caused by violent video games. But even when these accounts touch on real concerns, they do not really reflect the great mass of everyday teenage social behaviour: the online chat, the texting, the surfing, and the emergence of a new teenage sphere that is conducted digitally.\n\nB) New technologies always provoke generational panic, which usually has more to do with adult fears than with the lives of teenagers. In the 1930s, parents worried that radio was gaining \"an irresistible hold of their children\". In the 80s, the great danger was the Sony Walkman(随身听). When you look at today's digital activity, the facts are much more positive than you might expect.\n\nC) Indeed, social scientists who study young people have found that their digital use can be inventive and even beneficial. This is true not just in terms of their social lives, but their education too. So if you use a ton of social media, do you become unable, or unwilling, to engage in face-to-face contact? The evidence suggests not. Research by Amanda Lenhart of the Pew Research Centre, a US think tank, found that the most passionate texters are also the kids most likely to spend time with friends in person. One form of socialising doesn't replace the other. It expands it.\n\nD) \"Kids still spend time face to face,\" Lenhart says. Indeed, as they get older and are given more freedom, they often ease up on social networking. Early on, the web is their \"third space\", but by the late teens, it's replaced in reaction to greater independence. They have to be on Facebook, to know what's going on among friends and family, but they are ambivalent(有矛盾心理的) about it, says Rebecca Eynon, a research fellow at the Oxford Internet Institute, who has interviewed about 200 British teenagers over three years. As they gain experience with living online, they begin to adjust their behaviour, struggling with new communication skills, as they do in the real world.\n\nE) Parents are wrong to worry that kids don't care about privacy. In fact, they spend hours changing Facebook settings or using quick-delete sharing tools, such as Snapchat, to minimise their traces. Or they post a photograph on Instagram, have a pleasant conversation with friends and then delete it so that no traces remain.\n\nF) This is not to say that kids always use good judgment. Like everyone else, they make mistakes—sometimes serious ones. But working out how to behave online is a new social skill. While there's plenty of drama and messiness online, it is not, for most teens, a cycle of non-stop abuse: a Pew study found only 15% of teens said someone had bullied them online in the last 12 months.\n\nG) But surely all this short-form writing is affecting literacy? Certainly, teachers worry. They say that kids use overly casual language and text-speak in writing, and don't have as much patience for long reading and complex arguments. Yet studies of first-year college papers suggest these anxieties may be partly based on misguided nostalgia(怀旧). When Stanford University scholar Andrea Lunsford gathered data on the rates of errors in \"freshman composition\" papers going back to 1917, she found that they were virtually identical to today.\n\nH) But even as error rates stayed stable, student essays have blossomed in size and complexity. They are now six times longer and, unlike older \"what I did this summer\" essays, they offer arguments supported by evidence. Why? Computers have vastly increased the ability of students to gather information, sample different points of view and write more fluidly.\n\nI) When linguist Naomi Baron studied students, instant messaging even there she found surprisingly rare usage of short forms such as \"u\" for \"you\", and as students got older, they began to write in more grammatical sentences. That is because they want to appear more adult, and they know how adults are expected to write. Clearly, teaching teens formal writing is still crucial, but texting probably isn't destroying their ability to learn it.\n\nJ) It is probably true that fewer kids are heavy readers compared with two generations ago, when cheap paperbacks boosted rates of reading. But even back then, a minority of people—perhaps 20%—were lifelong heavy readers, and it was cable TV not the internet, that struck a blow at that culture in the 1980s. Still, 15% or more of kids are found to be deeply bookish. In fact, the online world offers kids remarkable opportunities to become literate and creative because young people can now publish ideas not just to their friends, but to the world. And it turns out that when they write for strangers, their sense of \"authentic audience\" makes them work harder, push themselves further, and create powerful new communicative forms.\n\nK) Few would deny that too much time online can be harmful. Some of the dangers are emotional: hurting someone from a distance is not the same as hurting them face to face. If we're lucky, the legal environment will change to make teenagers' online lives less likely to haunt them later on. Just last week, California passed a law allowing minors to demand that internet firms erase their digital past and the EU has considered similar legislation.\n\nL) Distraction is also a serious issue. When kids switch from chat to music to homework, they are indeed likely to have trouble doing each task well. And studies show that pupils don't fact-check information online—\"smart searching\" is a skill schools need to teach urgently. It's also true that too much social networking and game playing can cut into schoolwork and sleep. This is precisely why parents still need to set firm boundaries around it, as with any other distraction.\n\nM) So what's the best way to cope? The same boring old advice that applies to everything in parenting: moderation. Rebecca Eynon argues that it's key to model good behaviour. Parents who stare non-stop at their phones and don't read books are likely to breed kids who will do the same. As ever, we ought to be careful about our own behaviour.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "L",
+      "hint": "先圈出陈述里的主体、条件和变化方向，再到文章中寻找同义表达。",
+      "explanation": "对应L段。题干陈述为“It is urgent that schools teach kids how to verify online information.”；该段的关键证据是：“And studies show that pupils don't fact-check information online—\"smart searching\" is a skill schools need to teach urgently.”。同时对照主体、行为和结果，不能只凭同一个词匹配；这份陈述概括了该段的对应信息。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening",
+      "explanationType": "previous_project_authored_reviewed_explanation"
+    },
+    {
+      "id": "cet4-2023-12-3-nonlistening-q38",
+      "canonicalId": "cet4-2023-12-3-q38",
+      "number": 38,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Students now write longer and more complex essays than their counterparts in previous decades while the error rates remain unchanged.",
+      "passage": "Teenagers and social networking\n\nA) As a parent of two boys at primary school, I worry about the issues associated with teenagers and social media. Newspapers are constantly filled with frightening accounts of drug addiction and aggressive behaviour supposedly caused by violent video games. But even when these accounts touch on real concerns, they do not really reflect the great mass of everyday teenage social behaviour: the online chat, the texting, the surfing, and the emergence of a new teenage sphere that is conducted digitally.\n\nB) New technologies always provoke generational panic, which usually has more to do with adult fears than with the lives of teenagers. In the 1930s, parents worried that radio was gaining \"an irresistible hold of their children\". In the 80s, the great danger was the Sony Walkman(随身听). When you look at today's digital activity, the facts are much more positive than you might expect.\n\nC) Indeed, social scientists who study young people have found that their digital use can be inventive and even beneficial. This is true not just in terms of their social lives, but their education too. So if you use a ton of social media, do you become unable, or unwilling, to engage in face-to-face contact? The evidence suggests not. Research by Amanda Lenhart of the Pew Research Centre, a US think tank, found that the most passionate texters are also the kids most likely to spend time with friends in person. One form of socialising doesn't replace the other. It expands it.\n\nD) \"Kids still spend time face to face,\" Lenhart says. Indeed, as they get older and are given more freedom, they often ease up on social networking. Early on, the web is their \"third space\", but by the late teens, it's replaced in reaction to greater independence. They have to be on Facebook, to know what's going on among friends and family, but they are ambivalent(有矛盾心理的) about it, says Rebecca Eynon, a research fellow at the Oxford Internet Institute, who has interviewed about 200 British teenagers over three years. As they gain experience with living online, they begin to adjust their behaviour, struggling with new communication skills, as they do in the real world.\n\nE) Parents are wrong to worry that kids don't care about privacy. In fact, they spend hours changing Facebook settings or using quick-delete sharing tools, such as Snapchat, to minimise their traces. Or they post a photograph on Instagram, have a pleasant conversation with friends and then delete it so that no traces remain.\n\nF) This is not to say that kids always use good judgment. Like everyone else, they make mistakes—sometimes serious ones. But working out how to behave online is a new social skill. While there's plenty of drama and messiness online, it is not, for most teens, a cycle of non-stop abuse: a Pew study found only 15% of teens said someone had bullied them online in the last 12 months.\n\nG) But surely all this short-form writing is affecting literacy? Certainly, teachers worry. They say that kids use overly casual language and text-speak in writing, and don't have as much patience for long reading and complex arguments. Yet studies of first-year college papers suggest these anxieties may be partly based on misguided nostalgia(怀旧). When Stanford University scholar Andrea Lunsford gathered data on the rates of errors in \"freshman composition\" papers going back to 1917, she found that they were virtually identical to today.\n\nH) But even as error rates stayed stable, student essays have blossomed in size and complexity. They are now six times longer and, unlike older \"what I did this summer\" essays, they offer arguments supported by evidence. Why? Computers have vastly increased the ability of students to gather information, sample different points of view and write more fluidly.\n\nI) When linguist Naomi Baron studied students, instant messaging even there she found surprisingly rare usage of short forms such as \"u\" for \"you\", and as students got older, they began to write in more grammatical sentences. That is because they want to appear more adult, and they know how adults are expected to write. Clearly, teaching teens formal writing is still crucial, but texting probably isn't destroying their ability to learn it.\n\nJ) It is probably true that fewer kids are heavy readers compared with two generations ago, when cheap paperbacks boosted rates of reading. But even back then, a minority of people—perhaps 20%—were lifelong heavy readers, and it was cable TV not the internet, that struck a blow at that culture in the 1980s. Still, 15% or more of kids are found to be deeply bookish. In fact, the online world offers kids remarkable opportunities to become literate and creative because young people can now publish ideas not just to their friends, but to the world. And it turns out that when they write for strangers, their sense of \"authentic audience\" makes them work harder, push themselves further, and create powerful new communicative forms.\n\nK) Few would deny that too much time online can be harmful. Some of the dangers are emotional: hurting someone from a distance is not the same as hurting them face to face. If we're lucky, the legal environment will change to make teenagers' online lives less likely to haunt them later on. Just last week, California passed a law allowing minors to demand that internet firms erase their digital past and the EU has considered similar legislation.\n\nL) Distraction is also a serious issue. When kids switch from chat to music to homework, they are indeed likely to have trouble doing each task well. And studies show that pupils don't fact-check information online—\"smart searching\" is a skill schools need to teach urgently. It's also true that too much social networking and game playing can cut into schoolwork and sleep. This is precisely why parents still need to set firm boundaries around it, as with any other distraction.\n\nM) So what's the best way to cope? The same boring old advice that applies to everything in parenting: moderation. Rebecca Eynon argues that it's key to model good behaviour. Parents who stare non-stop at their phones and don't read books are likely to breed kids who will do the same. As ever, we ought to be careful about our own behaviour.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "先圈出陈述里的主体、条件和变化方向，再到文章中寻找同义表达。",
+      "explanation": "对应H段。题干陈述为“Students now write longer and more complex essays than their counterparts in previous decades while the error rates remain unchanged.”；该段的关键证据是：“But even as error rates stayed stable, student essays have blossomed in size and complexity.”。同时对照主体、行为和结果，不能只凭同一个词匹配；这份陈述概括了该段的对应信息。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening",
+      "explanationType": "previous_project_authored_reviewed_explanation"
+    },
+    {
+      "id": "cet4-2023-12-3-nonlistening-q39",
+      "canonicalId": "cet4-2023-12-3-q39",
+      "number": 39,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Newspaper reports of teenagers give a false picture of their behaviour.",
+      "passage": "Teenagers and social networking\n\nA) As a parent of two boys at primary school, I worry about the issues associated with teenagers and social media. Newspapers are constantly filled with frightening accounts of drug addiction and aggressive behaviour supposedly caused by violent video games. But even when these accounts touch on real concerns, they do not really reflect the great mass of everyday teenage social behaviour: the online chat, the texting, the surfing, and the emergence of a new teenage sphere that is conducted digitally.\n\nB) New technologies always provoke generational panic, which usually has more to do with adult fears than with the lives of teenagers. In the 1930s, parents worried that radio was gaining \"an irresistible hold of their children\". In the 80s, the great danger was the Sony Walkman(随身听). When you look at today's digital activity, the facts are much more positive than you might expect.\n\nC) Indeed, social scientists who study young people have found that their digital use can be inventive and even beneficial. This is true not just in terms of their social lives, but their education too. So if you use a ton of social media, do you become unable, or unwilling, to engage in face-to-face contact? The evidence suggests not. Research by Amanda Lenhart of the Pew Research Centre, a US think tank, found that the most passionate texters are also the kids most likely to spend time with friends in person. One form of socialising doesn't replace the other. It expands it.\n\nD) \"Kids still spend time face to face,\" Lenhart says. Indeed, as they get older and are given more freedom, they often ease up on social networking. Early on, the web is their \"third space\", but by the late teens, it's replaced in reaction to greater independence. They have to be on Facebook, to know what's going on among friends and family, but they are ambivalent(有矛盾心理的) about it, says Rebecca Eynon, a research fellow at the Oxford Internet Institute, who has interviewed about 200 British teenagers over three years. As they gain experience with living online, they begin to adjust their behaviour, struggling with new communication skills, as they do in the real world.\n\nE) Parents are wrong to worry that kids don't care about privacy. In fact, they spend hours changing Facebook settings or using quick-delete sharing tools, such as Snapchat, to minimise their traces. Or they post a photograph on Instagram, have a pleasant conversation with friends and then delete it so that no traces remain.\n\nF) This is not to say that kids always use good judgment. Like everyone else, they make mistakes—sometimes serious ones. But working out how to behave online is a new social skill. While there's plenty of drama and messiness online, it is not, for most teens, a cycle of non-stop abuse: a Pew study found only 15% of teens said someone had bullied them online in the last 12 months.\n\nG) But surely all this short-form writing is affecting literacy? Certainly, teachers worry. They say that kids use overly casual language and text-speak in writing, and don't have as much patience for long reading and complex arguments. Yet studies of first-year college papers suggest these anxieties may be partly based on misguided nostalgia(怀旧). When Stanford University scholar Andrea Lunsford gathered data on the rates of errors in \"freshman composition\" papers going back to 1917, she found that they were virtually identical to today.\n\nH) But even as error rates stayed stable, student essays have blossomed in size and complexity. They are now six times longer and, unlike older \"what I did this summer\" essays, they offer arguments supported by evidence. Why? Computers have vastly increased the ability of students to gather information, sample different points of view and write more fluidly.\n\nI) When linguist Naomi Baron studied students, instant messaging even there she found surprisingly rare usage of short forms such as \"u\" for \"you\", and as students got older, they began to write in more grammatical sentences. That is because they want to appear more adult, and they know how adults are expected to write. Clearly, teaching teens formal writing is still crucial, but texting probably isn't destroying their ability to learn it.\n\nJ) It is probably true that fewer kids are heavy readers compared with two generations ago, when cheap paperbacks boosted rates of reading. But even back then, a minority of people—perhaps 20%—were lifelong heavy readers, and it was cable TV not the internet, that struck a blow at that culture in the 1980s. Still, 15% or more of kids are found to be deeply bookish. In fact, the online world offers kids remarkable opportunities to become literate and creative because young people can now publish ideas not just to their friends, but to the world. And it turns out that when they write for strangers, their sense of \"authentic audience\" makes them work harder, push themselves further, and create powerful new communicative forms.\n\nK) Few would deny that too much time online can be harmful. Some of the dangers are emotional: hurting someone from a distance is not the same as hurting them face to face. If we're lucky, the legal environment will change to make teenagers' online lives less likely to haunt them later on. Just last week, California passed a law allowing minors to demand that internet firms erase their digital past and the EU has considered similar legislation.\n\nL) Distraction is also a serious issue. When kids switch from chat to music to homework, they are indeed likely to have trouble doing each task well. And studies show that pupils don't fact-check information online—\"smart searching\" is a skill schools need to teach urgently. It's also true that too much social networking and game playing can cut into schoolwork and sleep. This is precisely why parents still need to set firm boundaries around it, as with any other distraction.\n\nM) So what's the best way to cope? The same boring old advice that applies to everything in parenting: moderation. Rebecca Eynon argues that it's key to model good behaviour. Parents who stare non-stop at their phones and don't read books are likely to breed kids who will do the same. As ever, we ought to be careful about our own behaviour.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "先圈出陈述里的主体、条件和变化方向，再到文章中寻找同义表达。",
+      "explanation": "对应A段。报纸恐吓性报道not really reflect大多数日常行为，说明报道失真，开头父母担忧只是背景。 该段证据（合看相关句）：“As a parent of two boys at primary school, I worry about the issues associated with teenagers and social media. Newspapers are constantly filled with frightening accounts of drug addiction and aggressive behaviour supposedly caused by violent videogames. But even when these accounts touch on real concerns, they do not really reflect the great mass of everyday teenage social behaviour: the online chat, the texting, the surfing, and the emergence of a new teenage sphere that is conducted digitally.”",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening",
+      "explanationType": "previous_project_authored_reviewed_explanation"
+    },
+    {
+      "id": "cet4-2023-12-3-nonlistening-q40",
+      "canonicalId": "cet4-2023-12-3-q40",
+      "number": 40,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Parents are advised to mind their own digital behaviour and set a good example for their kids.",
+      "passage": "Teenagers and social networking\n\nA) As a parent of two boys at primary school, I worry about the issues associated with teenagers and social media. Newspapers are constantly filled with frightening accounts of drug addiction and aggressive behaviour supposedly caused by violent video games. But even when these accounts touch on real concerns, they do not really reflect the great mass of everyday teenage social behaviour: the online chat, the texting, the surfing, and the emergence of a new teenage sphere that is conducted digitally.\n\nB) New technologies always provoke generational panic, which usually has more to do with adult fears than with the lives of teenagers. In the 1930s, parents worried that radio was gaining \"an irresistible hold of their children\". In the 80s, the great danger was the Sony Walkman(随身听). When you look at today's digital activity, the facts are much more positive than you might expect.\n\nC) Indeed, social scientists who study young people have found that their digital use can be inventive and even beneficial. This is true not just in terms of their social lives, but their education too. So if you use a ton of social media, do you become unable, or unwilling, to engage in face-to-face contact? The evidence suggests not. Research by Amanda Lenhart of the Pew Research Centre, a US think tank, found that the most passionate texters are also the kids most likely to spend time with friends in person. One form of socialising doesn't replace the other. It expands it.\n\nD) \"Kids still spend time face to face,\" Lenhart says. Indeed, as they get older and are given more freedom, they often ease up on social networking. Early on, the web is their \"third space\", but by the late teens, it's replaced in reaction to greater independence. They have to be on Facebook, to know what's going on among friends and family, but they are ambivalent(有矛盾心理的) about it, says Rebecca Eynon, a research fellow at the Oxford Internet Institute, who has interviewed about 200 British teenagers over three years. As they gain experience with living online, they begin to adjust their behaviour, struggling with new communication skills, as they do in the real world.\n\nE) Parents are wrong to worry that kids don't care about privacy. In fact, they spend hours changing Facebook settings or using quick-delete sharing tools, such as Snapchat, to minimise their traces. Or they post a photograph on Instagram, have a pleasant conversation with friends and then delete it so that no traces remain.\n\nF) This is not to say that kids always use good judgment. Like everyone else, they make mistakes—sometimes serious ones. But working out how to behave online is a new social skill. While there's plenty of drama and messiness online, it is not, for most teens, a cycle of non-stop abuse: a Pew study found only 15% of teens said someone had bullied them online in the last 12 months.\n\nG) But surely all this short-form writing is affecting literacy? Certainly, teachers worry. They say that kids use overly casual language and text-speak in writing, and don't have as much patience for long reading and complex arguments. Yet studies of first-year college papers suggest these anxieties may be partly based on misguided nostalgia(怀旧). When Stanford University scholar Andrea Lunsford gathered data on the rates of errors in \"freshman composition\" papers going back to 1917, she found that they were virtually identical to today.\n\nH) But even as error rates stayed stable, student essays have blossomed in size and complexity. They are now six times longer and, unlike older \"what I did this summer\" essays, they offer arguments supported by evidence. Why? Computers have vastly increased the ability of students to gather information, sample different points of view and write more fluidly.\n\nI) When linguist Naomi Baron studied students, instant messaging even there she found surprisingly rare usage of short forms such as \"u\" for \"you\", and as students got older, they began to write in more grammatical sentences. That is because they want to appear more adult, and they know how adults are expected to write. Clearly, teaching teens formal writing is still crucial, but texting probably isn't destroying their ability to learn it.\n\nJ) It is probably true that fewer kids are heavy readers compared with two generations ago, when cheap paperbacks boosted rates of reading. But even back then, a minority of people—perhaps 20%—were lifelong heavy readers, and it was cable TV not the internet, that struck a blow at that culture in the 1980s. Still, 15% or more of kids are found to be deeply bookish. In fact, the online world offers kids remarkable opportunities to become literate and creative because young people can now publish ideas not just to their friends, but to the world. And it turns out that when they write for strangers, their sense of \"authentic audience\" makes them work harder, push themselves further, and create powerful new communicative forms.\n\nK) Few would deny that too much time online can be harmful. Some of the dangers are emotional: hurting someone from a distance is not the same as hurting them face to face. If we're lucky, the legal environment will change to make teenagers' online lives less likely to haunt them later on. Just last week, California passed a law allowing minors to demand that internet firms erase their digital past and the EU has considered similar legislation.\n\nL) Distraction is also a serious issue. When kids switch from chat to music to homework, they are indeed likely to have trouble doing each task well. And studies show that pupils don't fact-check information online—\"smart searching\" is a skill schools need to teach urgently. It's also true that too much social networking and game playing can cut into schoolwork and sleep. This is precisely why parents still need to set firm boundaries around it, as with any other distraction.\n\nM) So what's the best way to cope? The same boring old advice that applies to everything in parenting: moderation. Rebecca Eynon argues that it's key to model good behaviour. Parents who stare non-stop at their phones and don't read books are likely to breed kids who will do the same. As ever, we ought to be careful about our own behaviour.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "M",
+      "hint": "先圈出陈述里的主体、条件和变化方向，再到文章中寻找同义表达。",
+      "explanation": "对应M段。父母一直看手机不读书，孩子易效仿，因此需注意自身行为并做良好榜样。 该段证据（合看相关句）：“So what's the best way to cope? The same boring old advice that applies to everything in parenting: moderation. Rebecca Eynon argues that it's key to model good behaviour. Parents who stare non-stop at their phones and don't read books are likely to breed kids who will do the same. As ever, we ought to be careful about our own behaviour.”",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening",
+      "explanationType": "previous_project_authored_reviewed_explanation"
+    },
+    {
+      "id": "cet4-2023-12-3-nonlistening-q41",
+      "canonicalId": "cet4-2023-12-3-q41",
+      "number": 41,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Contrary to parents' belief, kids try hard to leave as few traces as possible on the web.",
+      "passage": "Teenagers and social networking\n\nA) As a parent of two boys at primary school, I worry about the issues associated with teenagers and social media. Newspapers are constantly filled with frightening accounts of drug addiction and aggressive behaviour supposedly caused by violent video games. But even when these accounts touch on real concerns, they do not really reflect the great mass of everyday teenage social behaviour: the online chat, the texting, the surfing, and the emergence of a new teenage sphere that is conducted digitally.\n\nB) New technologies always provoke generational panic, which usually has more to do with adult fears than with the lives of teenagers. In the 1930s, parents worried that radio was gaining \"an irresistible hold of their children\". In the 80s, the great danger was the Sony Walkman(随身听). When you look at today's digital activity, the facts are much more positive than you might expect.\n\nC) Indeed, social scientists who study young people have found that their digital use can be inventive and even beneficial. This is true not just in terms of their social lives, but their education too. So if you use a ton of social media, do you become unable, or unwilling, to engage in face-to-face contact? The evidence suggests not. Research by Amanda Lenhart of the Pew Research Centre, a US think tank, found that the most passionate texters are also the kids most likely to spend time with friends in person. One form of socialising doesn't replace the other. It expands it.\n\nD) \"Kids still spend time face to face,\" Lenhart says. Indeed, as they get older and are given more freedom, they often ease up on social networking. Early on, the web is their \"third space\", but by the late teens, it's replaced in reaction to greater independence. They have to be on Facebook, to know what's going on among friends and family, but they are ambivalent(有矛盾心理的) about it, says Rebecca Eynon, a research fellow at the Oxford Internet Institute, who has interviewed about 200 British teenagers over three years. As they gain experience with living online, they begin to adjust their behaviour, struggling with new communication skills, as they do in the real world.\n\nE) Parents are wrong to worry that kids don't care about privacy. In fact, they spend hours changing Facebook settings or using quick-delete sharing tools, such as Snapchat, to minimise their traces. Or they post a photograph on Instagram, have a pleasant conversation with friends and then delete it so that no traces remain.\n\nF) This is not to say that kids always use good judgment. Like everyone else, they make mistakes—sometimes serious ones. But working out how to behave online is a new social skill. While there's plenty of drama and messiness online, it is not, for most teens, a cycle of non-stop abuse: a Pew study found only 15% of teens said someone had bullied them online in the last 12 months.\n\nG) But surely all this short-form writing is affecting literacy? Certainly, teachers worry. They say that kids use overly casual language and text-speak in writing, and don't have as much patience for long reading and complex arguments. Yet studies of first-year college papers suggest these anxieties may be partly based on misguided nostalgia(怀旧). When Stanford University scholar Andrea Lunsford gathered data on the rates of errors in \"freshman composition\" papers going back to 1917, she found that they were virtually identical to today.\n\nH) But even as error rates stayed stable, student essays have blossomed in size and complexity. They are now six times longer and, unlike older \"what I did this summer\" essays, they offer arguments supported by evidence. Why? Computers have vastly increased the ability of students to gather information, sample different points of view and write more fluidly.\n\nI) When linguist Naomi Baron studied students, instant messaging even there she found surprisingly rare usage of short forms such as \"u\" for \"you\", and as students got older, they began to write in more grammatical sentences. That is because they want to appear more adult, and they know how adults are expected to write. Clearly, teaching teens formal writing is still crucial, but texting probably isn't destroying their ability to learn it.\n\nJ) It is probably true that fewer kids are heavy readers compared with two generations ago, when cheap paperbacks boosted rates of reading. But even back then, a minority of people—perhaps 20%—were lifelong heavy readers, and it was cable TV not the internet, that struck a blow at that culture in the 1980s. Still, 15% or more of kids are found to be deeply bookish. In fact, the online world offers kids remarkable opportunities to become literate and creative because young people can now publish ideas not just to their friends, but to the world. And it turns out that when they write for strangers, their sense of \"authentic audience\" makes them work harder, push themselves further, and create powerful new communicative forms.\n\nK) Few would deny that too much time online can be harmful. Some of the dangers are emotional: hurting someone from a distance is not the same as hurting them face to face. If we're lucky, the legal environment will change to make teenagers' online lives less likely to haunt them later on. Just last week, California passed a law allowing minors to demand that internet firms erase their digital past and the EU has considered similar legislation.\n\nL) Distraction is also a serious issue. When kids switch from chat to music to homework, they are indeed likely to have trouble doing each task well. And studies show that pupils don't fact-check information online—\"smart searching\" is a skill schools need to teach urgently. It's also true that too much social networking and game playing can cut into schoolwork and sleep. This is precisely why parents still need to set firm boundaries around it, as with any other distraction.\n\nM) So what's the best way to cope? The same boring old advice that applies to everything in parenting: moderation. Rebecca Eynon argues that it's key to model good behaviour. Parents who stare non-stop at their phones and don't read books are likely to breed kids who will do the same. As ever, we ought to be careful about our own behaviour.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "先圈出陈述里的主体、条件和变化方向，再到文章中寻找同义表达。",
+      "explanation": "对应E段。孩子反复调隐私设置、用快删工具minimise their traces，主动减少痕迹反驳家長担心。 该段证据（合看相关句）：“Parents are wrong to worry that kids don't care about privacy. In fact, they spend hours changing Facebook settings or using quick-delete sharing tools, such as Snapchat, to minimise their traces. Or they post a photograph on Instagram, have a pleasant conversation with friends and then delete it so that no traces remain.”",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening",
+      "explanationType": "previous_project_authored_reviewed_explanation"
+    },
+    {
+      "id": "cet4-2023-12-3-nonlistening-q42",
+      "canonicalId": "cet4-2023-12-3-q42",
+      "number": 42,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Students' ability to learn formal writing is unlikely to be affected by texting.",
+      "passage": "Teenagers and social networking\n\nA) As a parent of two boys at primary school, I worry about the issues associated with teenagers and social media. Newspapers are constantly filled with frightening accounts of drug addiction and aggressive behaviour supposedly caused by violent video games. But even when these accounts touch on real concerns, they do not really reflect the great mass of everyday teenage social behaviour: the online chat, the texting, the surfing, and the emergence of a new teenage sphere that is conducted digitally.\n\nB) New technologies always provoke generational panic, which usually has more to do with adult fears than with the lives of teenagers. In the 1930s, parents worried that radio was gaining \"an irresistible hold of their children\". In the 80s, the great danger was the Sony Walkman(随身听). When you look at today's digital activity, the facts are much more positive than you might expect.\n\nC) Indeed, social scientists who study young people have found that their digital use can be inventive and even beneficial. This is true not just in terms of their social lives, but their education too. So if you use a ton of social media, do you become unable, or unwilling, to engage in face-to-face contact? The evidence suggests not. Research by Amanda Lenhart of the Pew Research Centre, a US think tank, found that the most passionate texters are also the kids most likely to spend time with friends in person. One form of socialising doesn't replace the other. It expands it.\n\nD) \"Kids still spend time face to face,\" Lenhart says. Indeed, as they get older and are given more freedom, they often ease up on social networking. Early on, the web is their \"third space\", but by the late teens, it's replaced in reaction to greater independence. They have to be on Facebook, to know what's going on among friends and family, but they are ambivalent(有矛盾心理的) about it, says Rebecca Eynon, a research fellow at the Oxford Internet Institute, who has interviewed about 200 British teenagers over three years. As they gain experience with living online, they begin to adjust their behaviour, struggling with new communication skills, as they do in the real world.\n\nE) Parents are wrong to worry that kids don't care about privacy. In fact, they spend hours changing Facebook settings or using quick-delete sharing tools, such as Snapchat, to minimise their traces. Or they post a photograph on Instagram, have a pleasant conversation with friends and then delete it so that no traces remain.\n\nF) This is not to say that kids always use good judgment. Like everyone else, they make mistakes—sometimes serious ones. But working out how to behave online is a new social skill. While there's plenty of drama and messiness online, it is not, for most teens, a cycle of non-stop abuse: a Pew study found only 15% of teens said someone had bullied them online in the last 12 months.\n\nG) But surely all this short-form writing is affecting literacy? Certainly, teachers worry. They say that kids use overly casual language and text-speak in writing, and don't have as much patience for long reading and complex arguments. Yet studies of first-year college papers suggest these anxieties may be partly based on misguided nostalgia(怀旧). When Stanford University scholar Andrea Lunsford gathered data on the rates of errors in \"freshman composition\" papers going back to 1917, she found that they were virtually identical to today.\n\nH) But even as error rates stayed stable, student essays have blossomed in size and complexity. They are now six times longer and, unlike older \"what I did this summer\" essays, they offer arguments supported by evidence. Why? Computers have vastly increased the ability of students to gather information, sample different points of view and write more fluidly.\n\nI) When linguist Naomi Baron studied students, instant messaging even there she found surprisingly rare usage of short forms such as \"u\" for \"you\", and as students got older, they began to write in more grammatical sentences. That is because they want to appear more adult, and they know how adults are expected to write. Clearly, teaching teens formal writing is still crucial, but texting probably isn't destroying their ability to learn it.\n\nJ) It is probably true that fewer kids are heavy readers compared with two generations ago, when cheap paperbacks boosted rates of reading. But even back then, a minority of people—perhaps 20%—were lifelong heavy readers, and it was cable TV not the internet, that struck a blow at that culture in the 1980s. Still, 15% or more of kids are found to be deeply bookish. In fact, the online world offers kids remarkable opportunities to become literate and creative because young people can now publish ideas not just to their friends, but to the world. And it turns out that when they write for strangers, their sense of \"authentic audience\" makes them work harder, push themselves further, and create powerful new communicative forms.\n\nK) Few would deny that too much time online can be harmful. Some of the dangers are emotional: hurting someone from a distance is not the same as hurting them face to face. If we're lucky, the legal environment will change to make teenagers' online lives less likely to haunt them later on. Just last week, California passed a law allowing minors to demand that internet firms erase their digital past and the EU has considered similar legislation.\n\nL) Distraction is also a serious issue. When kids switch from chat to music to homework, they are indeed likely to have trouble doing each task well. And studies show that pupils don't fact-check information online—\"smart searching\" is a skill schools need to teach urgently. It's also true that too much social networking and game playing can cut into schoolwork and sleep. This is precisely why parents still need to set firm boundaries around it, as with any other distraction.\n\nM) So what's the best way to cope? The same boring old advice that applies to everything in parenting: moderation. Rebecca Eynon argues that it's key to model good behaviour. Parents who stare non-stop at their phones and don't read books are likely to breed kids who will do the same. As ever, we ought to be careful about our own behaviour.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "先圈出陈述里的主体、条件和变化方向，再到文章中寻找同义表达。",
+      "explanation": "对应I段。题干陈述为“Students' ability to learn formal writing is unlikely to be affected by texting.”；该段的关键证据是：“Clearly, teaching teens formal writing is still crucial, but texting probably isn't destroying their ability to learn it.”。同时对照主体、行为和结果，不能只凭同一个词匹配；这份陈述概括了该段的对应信息。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening",
+      "explanationType": "previous_project_authored_reviewed_explanation"
+    },
+    {
+      "id": "cet4-2023-12-3-nonlistening-q43",
+      "canonicalId": "cet4-2023-12-3-q43",
+      "number": 43,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Historically, new technologies have always caused great fears among parents.",
+      "passage": "Teenagers and social networking\n\nA) As a parent of two boys at primary school, I worry about the issues associated with teenagers and social media. Newspapers are constantly filled with frightening accounts of drug addiction and aggressive behaviour supposedly caused by violent video games. But even when these accounts touch on real concerns, they do not really reflect the great mass of everyday teenage social behaviour: the online chat, the texting, the surfing, and the emergence of a new teenage sphere that is conducted digitally.\n\nB) New technologies always provoke generational panic, which usually has more to do with adult fears than with the lives of teenagers. In the 1930s, parents worried that radio was gaining \"an irresistible hold of their children\". In the 80s, the great danger was the Sony Walkman(随身听). When you look at today's digital activity, the facts are much more positive than you might expect.\n\nC) Indeed, social scientists who study young people have found that their digital use can be inventive and even beneficial. This is true not just in terms of their social lives, but their education too. So if you use a ton of social media, do you become unable, or unwilling, to engage in face-to-face contact? The evidence suggests not. Research by Amanda Lenhart of the Pew Research Centre, a US think tank, found that the most passionate texters are also the kids most likely to spend time with friends in person. One form of socialising doesn't replace the other. It expands it.\n\nD) \"Kids still spend time face to face,\" Lenhart says. Indeed, as they get older and are given more freedom, they often ease up on social networking. Early on, the web is their \"third space\", but by the late teens, it's replaced in reaction to greater independence. They have to be on Facebook, to know what's going on among friends and family, but they are ambivalent(有矛盾心理的) about it, says Rebecca Eynon, a research fellow at the Oxford Internet Institute, who has interviewed about 200 British teenagers over three years. As they gain experience with living online, they begin to adjust their behaviour, struggling with new communication skills, as they do in the real world.\n\nE) Parents are wrong to worry that kids don't care about privacy. In fact, they spend hours changing Facebook settings or using quick-delete sharing tools, such as Snapchat, to minimise their traces. Or they post a photograph on Instagram, have a pleasant conversation with friends and then delete it so that no traces remain.\n\nF) This is not to say that kids always use good judgment. Like everyone else, they make mistakes—sometimes serious ones. But working out how to behave online is a new social skill. While there's plenty of drama and messiness online, it is not, for most teens, a cycle of non-stop abuse: a Pew study found only 15% of teens said someone had bullied them online in the last 12 months.\n\nG) But surely all this short-form writing is affecting literacy? Certainly, teachers worry. They say that kids use overly casual language and text-speak in writing, and don't have as much patience for long reading and complex arguments. Yet studies of first-year college papers suggest these anxieties may be partly based on misguided nostalgia(怀旧). When Stanford University scholar Andrea Lunsford gathered data on the rates of errors in \"freshman composition\" papers going back to 1917, she found that they were virtually identical to today.\n\nH) But even as error rates stayed stable, student essays have blossomed in size and complexity. They are now six times longer and, unlike older \"what I did this summer\" essays, they offer arguments supported by evidence. Why? Computers have vastly increased the ability of students to gather information, sample different points of view and write more fluidly.\n\nI) When linguist Naomi Baron studied students, instant messaging even there she found surprisingly rare usage of short forms such as \"u\" for \"you\", and as students got older, they began to write in more grammatical sentences. That is because they want to appear more adult, and they know how adults are expected to write. Clearly, teaching teens formal writing is still crucial, but texting probably isn't destroying their ability to learn it.\n\nJ) It is probably true that fewer kids are heavy readers compared with two generations ago, when cheap paperbacks boosted rates of reading. But even back then, a minority of people—perhaps 20%—were lifelong heavy readers, and it was cable TV not the internet, that struck a blow at that culture in the 1980s. Still, 15% or more of kids are found to be deeply bookish. In fact, the online world offers kids remarkable opportunities to become literate and creative because young people can now publish ideas not just to their friends, but to the world. And it turns out that when they write for strangers, their sense of \"authentic audience\" makes them work harder, push themselves further, and create powerful new communicative forms.\n\nK) Few would deny that too much time online can be harmful. Some of the dangers are emotional: hurting someone from a distance is not the same as hurting them face to face. If we're lucky, the legal environment will change to make teenagers' online lives less likely to haunt them later on. Just last week, California passed a law allowing minors to demand that internet firms erase their digital past and the EU has considered similar legislation.\n\nL) Distraction is also a serious issue. When kids switch from chat to music to homework, they are indeed likely to have trouble doing each task well. And studies show that pupils don't fact-check information online—\"smart searching\" is a skill schools need to teach urgently. It's also true that too much social networking and game playing can cut into schoolwork and sleep. This is precisely why parents still need to set firm boundaries around it, as with any other distraction.\n\nM) So what's the best way to cope? The same boring old advice that applies to everything in parenting: moderation. Rebecca Eynon argues that it's key to model good behaviour. Parents who stare non-stop at their phones and don't read books are likely to breed kids who will do the same. As ever, we ought to be careful about our own behaviour.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "先圈出陈述里的主体、条件和变化方向，再到文章中寻找同义表达。",
+      "explanation": "对应B段。题干陈述为“Historically, new technologies have always caused great fears among parents.”；该段的关键证据是：“New technologies always provoke generational panic, which usually has more to do with adult fears than with the lives of teenagers.”。同时对照主体、行为和结果，不能只凭同一个词匹配；这份陈述概括了该段的对应信息。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening",
+      "explanationType": "previous_project_authored_reviewed_explanation"
+    },
+    {
+      "id": "cet4-2023-12-3-nonlistening-q44",
+      "canonicalId": "cet4-2023-12-3-q44",
+      "number": 44,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The reading culture was seriously affected by cable television some four decades ago.",
+      "passage": "Teenagers and social networking\n\nA) As a parent of two boys at primary school, I worry about the issues associated with teenagers and social media. Newspapers are constantly filled with frightening accounts of drug addiction and aggressive behaviour supposedly caused by violent video games. But even when these accounts touch on real concerns, they do not really reflect the great mass of everyday teenage social behaviour: the online chat, the texting, the surfing, and the emergence of a new teenage sphere that is conducted digitally.\n\nB) New technologies always provoke generational panic, which usually has more to do with adult fears than with the lives of teenagers. In the 1930s, parents worried that radio was gaining \"an irresistible hold of their children\". In the 80s, the great danger was the Sony Walkman(随身听). When you look at today's digital activity, the facts are much more positive than you might expect.\n\nC) Indeed, social scientists who study young people have found that their digital use can be inventive and even beneficial. This is true not just in terms of their social lives, but their education too. So if you use a ton of social media, do you become unable, or unwilling, to engage in face-to-face contact? The evidence suggests not. Research by Amanda Lenhart of the Pew Research Centre, a US think tank, found that the most passionate texters are also the kids most likely to spend time with friends in person. One form of socialising doesn't replace the other. It expands it.\n\nD) \"Kids still spend time face to face,\" Lenhart says. Indeed, as they get older and are given more freedom, they often ease up on social networking. Early on, the web is their \"third space\", but by the late teens, it's replaced in reaction to greater independence. They have to be on Facebook, to know what's going on among friends and family, but they are ambivalent(有矛盾心理的) about it, says Rebecca Eynon, a research fellow at the Oxford Internet Institute, who has interviewed about 200 British teenagers over three years. As they gain experience with living online, they begin to adjust their behaviour, struggling with new communication skills, as they do in the real world.\n\nE) Parents are wrong to worry that kids don't care about privacy. In fact, they spend hours changing Facebook settings or using quick-delete sharing tools, such as Snapchat, to minimise their traces. Or they post a photograph on Instagram, have a pleasant conversation with friends and then delete it so that no traces remain.\n\nF) This is not to say that kids always use good judgment. Like everyone else, they make mistakes—sometimes serious ones. But working out how to behave online is a new social skill. While there's plenty of drama and messiness online, it is not, for most teens, a cycle of non-stop abuse: a Pew study found only 15% of teens said someone had bullied them online in the last 12 months.\n\nG) But surely all this short-form writing is affecting literacy? Certainly, teachers worry. They say that kids use overly casual language and text-speak in writing, and don't have as much patience for long reading and complex arguments. Yet studies of first-year college papers suggest these anxieties may be partly based on misguided nostalgia(怀旧). When Stanford University scholar Andrea Lunsford gathered data on the rates of errors in \"freshman composition\" papers going back to 1917, she found that they were virtually identical to today.\n\nH) But even as error rates stayed stable, student essays have blossomed in size and complexity. They are now six times longer and, unlike older \"what I did this summer\" essays, they offer arguments supported by evidence. Why? Computers have vastly increased the ability of students to gather information, sample different points of view and write more fluidly.\n\nI) When linguist Naomi Baron studied students, instant messaging even there she found surprisingly rare usage of short forms such as \"u\" for \"you\", and as students got older, they began to write in more grammatical sentences. That is because they want to appear more adult, and they know how adults are expected to write. Clearly, teaching teens formal writing is still crucial, but texting probably isn't destroying their ability to learn it.\n\nJ) It is probably true that fewer kids are heavy readers compared with two generations ago, when cheap paperbacks boosted rates of reading. But even back then, a minority of people—perhaps 20%—were lifelong heavy readers, and it was cable TV not the internet, that struck a blow at that culture in the 1980s. Still, 15% or more of kids are found to be deeply bookish. In fact, the online world offers kids remarkable opportunities to become literate and creative because young people can now publish ideas not just to their friends, but to the world. And it turns out that when they write for strangers, their sense of \"authentic audience\" makes them work harder, push themselves further, and create powerful new communicative forms.\n\nK) Few would deny that too much time online can be harmful. Some of the dangers are emotional: hurting someone from a distance is not the same as hurting them face to face. If we're lucky, the legal environment will change to make teenagers' online lives less likely to haunt them later on. Just last week, California passed a law allowing minors to demand that internet firms erase their digital past and the EU has considered similar legislation.\n\nL) Distraction is also a serious issue. When kids switch from chat to music to homework, they are indeed likely to have trouble doing each task well. And studies show that pupils don't fact-check information online—\"smart searching\" is a skill schools need to teach urgently. It's also true that too much social networking and game playing can cut into schoolwork and sleep. This is precisely why parents still need to set firm boundaries around it, as with any other distraction.\n\nM) So what's the best way to cope? The same boring old advice that applies to everything in parenting: moderation. Rebecca Eynon argues that it's key to model good behaviour. Parents who stare non-stop at their phones and don't read books are likely to breed kids who will do the same. As ever, we ought to be careful about our own behaviour.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "J",
+      "hint": "先圈出陈述里的主体、条件和变化方向，再到文章中寻找同义表达。",
+      "explanation": "对应J段。题干陈述为“The reading culture was seriously affected by cable television some four decades ago.”；该段的关键证据是：“But even back then, a minority of people - perhaps 20% - were lifelong heavy readers, and it was cable TV, not the internet, that struck a blow at that culture in the 1980s.”。同时对照主体、行为和结果，不能只凭同一个词匹配；这份陈述概括了该段的对应信息。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening",
+      "explanationType": "previous_project_authored_reviewed_explanation"
+    },
+    {
+      "id": "cet4-2023-12-3-nonlistening-q45",
+      "canonicalId": "cet4-2023-12-3-q45",
+      "number": 45,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Teachers say that kids' writing is too casual, using language characteristic of text messages.",
+      "passage": "Teenagers and social networking\n\nA) As a parent of two boys at primary school, I worry about the issues associated with teenagers and social media. Newspapers are constantly filled with frightening accounts of drug addiction and aggressive behaviour supposedly caused by violent video games. But even when these accounts touch on real concerns, they do not really reflect the great mass of everyday teenage social behaviour: the online chat, the texting, the surfing, and the emergence of a new teenage sphere that is conducted digitally.\n\nB) New technologies always provoke generational panic, which usually has more to do with adult fears than with the lives of teenagers. In the 1930s, parents worried that radio was gaining \"an irresistible hold of their children\". In the 80s, the great danger was the Sony Walkman(随身听). When you look at today's digital activity, the facts are much more positive than you might expect.\n\nC) Indeed, social scientists who study young people have found that their digital use can be inventive and even beneficial. This is true not just in terms of their social lives, but their education too. So if you use a ton of social media, do you become unable, or unwilling, to engage in face-to-face contact? The evidence suggests not. Research by Amanda Lenhart of the Pew Research Centre, a US think tank, found that the most passionate texters are also the kids most likely to spend time with friends in person. One form of socialising doesn't replace the other. It expands it.\n\nD) \"Kids still spend time face to face,\" Lenhart says. Indeed, as they get older and are given more freedom, they often ease up on social networking. Early on, the web is their \"third space\", but by the late teens, it's replaced in reaction to greater independence. They have to be on Facebook, to know what's going on among friends and family, but they are ambivalent(有矛盾心理的) about it, says Rebecca Eynon, a research fellow at the Oxford Internet Institute, who has interviewed about 200 British teenagers over three years. As they gain experience with living online, they begin to adjust their behaviour, struggling with new communication skills, as they do in the real world.\n\nE) Parents are wrong to worry that kids don't care about privacy. In fact, they spend hours changing Facebook settings or using quick-delete sharing tools, such as Snapchat, to minimise their traces. Or they post a photograph on Instagram, have a pleasant conversation with friends and then delete it so that no traces remain.\n\nF) This is not to say that kids always use good judgment. Like everyone else, they make mistakes—sometimes serious ones. But working out how to behave online is a new social skill. While there's plenty of drama and messiness online, it is not, for most teens, a cycle of non-stop abuse: a Pew study found only 15% of teens said someone had bullied them online in the last 12 months.\n\nG) But surely all this short-form writing is affecting literacy? Certainly, teachers worry. They say that kids use overly casual language and text-speak in writing, and don't have as much patience for long reading and complex arguments. Yet studies of first-year college papers suggest these anxieties may be partly based on misguided nostalgia(怀旧). When Stanford University scholar Andrea Lunsford gathered data on the rates of errors in \"freshman composition\" papers going back to 1917, she found that they were virtually identical to today.\n\nH) But even as error rates stayed stable, student essays have blossomed in size and complexity. They are now six times longer and, unlike older \"what I did this summer\" essays, they offer arguments supported by evidence. Why? Computers have vastly increased the ability of students to gather information, sample different points of view and write more fluidly.\n\nI) When linguist Naomi Baron studied students, instant messaging even there she found surprisingly rare usage of short forms such as \"u\" for \"you\", and as students got older, they began to write in more grammatical sentences. That is because they want to appear more adult, and they know how adults are expected to write. Clearly, teaching teens formal writing is still crucial, but texting probably isn't destroying their ability to learn it.\n\nJ) It is probably true that fewer kids are heavy readers compared with two generations ago, when cheap paperbacks boosted rates of reading. But even back then, a minority of people—perhaps 20%—were lifelong heavy readers, and it was cable TV not the internet, that struck a blow at that culture in the 1980s. Still, 15% or more of kids are found to be deeply bookish. In fact, the online world offers kids remarkable opportunities to become literate and creative because young people can now publish ideas not just to their friends, but to the world. And it turns out that when they write for strangers, their sense of \"authentic audience\" makes them work harder, push themselves further, and create powerful new communicative forms.\n\nK) Few would deny that too much time online can be harmful. Some of the dangers are emotional: hurting someone from a distance is not the same as hurting them face to face. If we're lucky, the legal environment will change to make teenagers' online lives less likely to haunt them later on. Just last week, California passed a law allowing minors to demand that internet firms erase their digital past and the EU has considered similar legislation.\n\nL) Distraction is also a serious issue. When kids switch from chat to music to homework, they are indeed likely to have trouble doing each task well. And studies show that pupils don't fact-check information online—\"smart searching\" is a skill schools need to teach urgently. It's also true that too much social networking and game playing can cut into schoolwork and sleep. This is precisely why parents still need to set firm boundaries around it, as with any other distraction.\n\nM) So what's the best way to cope? The same boring old advice that applies to everything in parenting: moderation. Rebecca Eynon argues that it's key to model good behaviour. Parents who stare non-stop at their phones and don't read books are likely to breed kids who will do the same. As ever, we ought to be careful about our own behaviour.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "先圈出陈述里的主体、条件和变化方向，再到文章中寻找同义表达。",
+      "explanation": "对应G段。题干陈述为“Teachers say that kids' writing is too casual, using language characteristic of text messages.”；该段的关键证据是：“They say that kids use overly casual language and text-speak in writing, and don't have as much patience for long reading and complex arguments.”。同时对照主体、行为和结果，不能只凭同一个词匹配；这份陈述概括了该段的对应信息。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening",
+      "explanationType": "previous_project_authored_reviewed_explanation"
+    },
+    {
+      "id": "cet4-2023-12-3-nonlistening-q46",
+      "canonicalId": "cet4-2023-12-3-q46",
+      "number": 46,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn from the passage about Red Rum the racehorse?",
+      "passage": "In the history of horse racing, few horses have captured the affection of the British public like Red Rum. Today, three decades after his retirement, he is still one of the best-known and most beloved racehorses of all time.\n\nRed Rum was passed around to several owners before being purchased for Noel Le Mar. The agent who made the purchase was the now-legendary horse trainer Donald \"Ginger\" McCain.\n\nIt wasn't apparent at the time, but Red Rum had a serious bone disease in his foot. For many horses (and many trainers) this would mean the end of a racing career before it even began. For Ginger and Red Rum, though, it was just an obstacle to greatness that had to be overcome.\n\nRed Rum's true talent came out in steeplechases(障碍赛马). His power, speed and jumping ability carried him to his first Grand National title in 1973. The very next year, Red Rum returned to take his second title. He was the first horse to take successive firsts since Reynoldstown in 1935-1936. Red Rum's spirit and grace had already begun to charm the leagues of Grand National fans.\n\nIn the following two years, Red Rum lost out on the title, coming in second both times. When he returned in 1977 to try again, he was largely regarded as past his prime. He was 12 years old and not expected to place highly. He surprised sporting fans around the world when he came in a remarkable 25 lengths ahead of the nearest horse, taking his third Grand National win. To this day, Red Rum's third win is known as one of the greatest moments in horse racing history.\n\nRed Rum was headed for the Grand National once again in 1978 but suffered an injury in one of his heels shortly before the race. He was retired soon after, but his public life and fame by no means decreased with the end of his career. Red Rum traveled all over the country for various engagements. He often led pre-race parades at Aintree Racecourse and was a popular guest at charity benefits and public events.",
+      "options": [
+        {
+          "id": "A",
+          "text": "He captured public affection long before he won national titles."
+        },
+        {
+          "id": "B",
+          "text": "He won enormous fame and love from British people."
+        },
+        {
+          "id": "C",
+          "text": "He became a myth three decades after his retirement."
+        },
+        {
+          "id": "D",
+          "text": "He owed his great success to several well-known horse trainers."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "根据题干定位文章中的相关句，再比较选项是否改变主体、程度或因果。",
+      "explanation": "B。首段说红朗姆即使退役三十年仍是最著名、最受喜爱的赛马之一，说明它享有盛誉和喜爱；不是三十年后才成名。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening",
+      "explanationType": "previous_project_authored_reviewed_explanation"
+    },
+    {
+      "id": "cet4-2023-12-3-nonlistening-q47",
+      "canonicalId": "cet4-2023-12-3-q47",
+      "number": 47,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What did the serious bone disease in Red Rum's foot mean to himself and his trainer?",
+      "passage": "In the history of horse racing, few horses have captured the affection of the British public like Red Rum. Today, three decades after his retirement, he is still one of the best-known and most beloved racehorses of all time.\n\nRed Rum was passed around to several owners before being purchased for Noel Le Mar. The agent who made the purchase was the now-legendary horse trainer Donald \"Ginger\" McCain.\n\nIt wasn't apparent at the time, but Red Rum had a serious bone disease in his foot. For many horses (and many trainers) this would mean the end of a racing career before it even began. For Ginger and Red Rum, though, it was just an obstacle to greatness that had to be overcome.\n\nRed Rum's true talent came out in steeplechases(障碍赛马). His power, speed and jumping ability carried him to his first Grand National title in 1973. The very next year, Red Rum returned to take his second title. He was the first horse to take successive firsts since Reynoldstown in 1935-1936. Red Rum's spirit and grace had already begun to charm the leagues of Grand National fans.\n\nIn the following two years, Red Rum lost out on the title, coming in second both times. When he returned in 1977 to try again, he was largely regarded as past his prime. He was 12 years old and not expected to place highly. He surprised sporting fans around the world when he came in a remarkable 25 lengths ahead of the nearest horse, taking his third Grand National win. To this day, Red Rum's third win is known as one of the greatest moments in horse racing history.\n\nRed Rum was headed for the Grand National once again in 1978 but suffered an injury in one of his heels shortly before the race. He was retired soon after, but his public life and fame by no means decreased with the end of his career. Red Rum traveled all over the country for various engagements. He often led pre-race parades at Aintree Racecourse and was a popular guest at charity benefits and public events.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It was simply a hindrance they had to get over to excel."
+        },
+        {
+          "id": "B",
+          "text": "It was surely a disadvantage though not considered fatal."
+        },
+        {
+          "id": "C",
+          "text": "It was actually the end of a racing career that had just begun."
+        },
+        {
+          "id": "D",
+          "text": "It was really a major obstacle hard to overcome on their own."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "根据题干定位文章中的相关句，再比较选项是否改变主体、程度或因果。",
+      "explanation": "A。骨病对很多马意味着生涯尚未开始就终结，但对金加和红朗姆只是走向卓越必须克服的障碍；题目主体是后者，勿混淆。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening",
+      "explanationType": "previous_project_authored_reviewed_explanation"
+    },
+    {
+      "id": "cet4-2023-12-3-nonlistening-q48",
+      "canonicalId": "cet4-2023-12-3-q48",
+      "number": 48,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author say Red Rum did with his power, speed and jumping ability?",
+      "passage": "In the history of horse racing, few horses have captured the affection of the British public like Red Rum. Today, three decades after his retirement, he is still one of the best-known and most beloved racehorses of all time.\n\nRed Rum was passed around to several owners before being purchased for Noel Le Mar. The agent who made the purchase was the now-legendary horse trainer Donald \"Ginger\" McCain.\n\nIt wasn't apparent at the time, but Red Rum had a serious bone disease in his foot. For many horses (and many trainers) this would mean the end of a racing career before it even began. For Ginger and Red Rum, though, it was just an obstacle to greatness that had to be overcome.\n\nRed Rum's true talent came out in steeplechases(障碍赛马). His power, speed and jumping ability carried him to his first Grand National title in 1973. The very next year, Red Rum returned to take his second title. He was the first horse to take successive firsts since Reynoldstown in 1935-1936. Red Rum's spirit and grace had already begun to charm the leagues of Grand National fans.\n\nIn the following two years, Red Rum lost out on the title, coming in second both times. When he returned in 1977 to try again, he was largely regarded as past his prime. He was 12 years old and not expected to place highly. He surprised sporting fans around the world when he came in a remarkable 25 lengths ahead of the nearest horse, taking his third Grand National win. To this day, Red Rum's third win is known as one of the greatest moments in horse racing history.\n\nRed Rum was headed for the Grand National once again in 1978 but suffered an injury in one of his heels shortly before the race. He was retired soon after, but his public life and fame by no means decreased with the end of his career. Red Rum traveled all over the country for various engagements. He often led pre-race parades at Aintree Racecourse and was a popular guest at charity benefits and public events.",
+      "options": [
+        {
+          "id": "A",
+          "text": "He won his first Grand National title at 12."
+        },
+        {
+          "id": "B",
+          "text": "He took two firsts successively in 1935-1936."
+        },
+        {
+          "id": "C",
+          "text": "He surprised sporting fans worldwide in 1973."
+        },
+        {
+          "id": "D",
+          "text": "He took three Grand National wins in the 1970s."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "根据题干定位文章中的相关句，再比较选项是否改变主体、程度或因果。",
+      "explanation": "D。力量、速度和跳跃使它1973年首次夺冠，1974年再次获胜，1977年第三次夺冠，所以三冠均在20世纪70年代。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening",
+      "explanationType": "previous_project_authored_reviewed_explanation"
+    },
+    {
+      "id": "cet4-2023-12-3-nonlistening-q49",
+      "canonicalId": "cet4-2023-12-3-q49",
+      "number": 49,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What did people generally think of Red Rum when he returned to the racecourse in 1977?",
+      "passage": "In the history of horse racing, few horses have captured the affection of the British public like Red Rum. Today, three decades after his retirement, he is still one of the best-known and most beloved racehorses of all time.\n\nRed Rum was passed around to several owners before being purchased for Noel Le Mar. The agent who made the purchase was the now-legendary horse trainer Donald \"Ginger\" McCain.\n\nIt wasn't apparent at the time, but Red Rum had a serious bone disease in his foot. For many horses (and many trainers) this would mean the end of a racing career before it even began. For Ginger and Red Rum, though, it was just an obstacle to greatness that had to be overcome.\n\nRed Rum's true talent came out in steeplechases(障碍赛马). His power, speed and jumping ability carried him to his first Grand National title in 1973. The very next year, Red Rum returned to take his second title. He was the first horse to take successive firsts since Reynoldstown in 1935-1936. Red Rum's spirit and grace had already begun to charm the leagues of Grand National fans.\n\nIn the following two years, Red Rum lost out on the title, coming in second both times. When he returned in 1977 to try again, he was largely regarded as past his prime. He was 12 years old and not expected to place highly. He surprised sporting fans around the world when he came in a remarkable 25 lengths ahead of the nearest horse, taking his third Grand National win. To this day, Red Rum's third win is known as one of the greatest moments in horse racing history.\n\nRed Rum was headed for the Grand National once again in 1978 but suffered an injury in one of his heels shortly before the race. He was retired soon after, but his public life and fame by no means decreased with the end of his career. Red Rum traveled all over the country for various engagements. He often led pre-race parades at Aintree Racecourse and was a popular guest at charity benefits and public events.",
+      "options": [
+        {
+          "id": "A",
+          "text": "He had already passed the peak of his racing life."
+        },
+        {
+          "id": "B",
+          "text": "He would have no rival in Grand National steeplechases."
+        },
+        {
+          "id": "C",
+          "text": "He had lost his charm with the leagues of Grand National fans."
+        },
+        {
+          "id": "D",
+          "text": "He could be expected to repeat his glory in the prime of his career."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "根据题干定位文章中的相关句，再比较选项是否改变主体、程度或因果。",
+      "explanation": "A。1977年重返赛场时多数人认为它已过巅峰，past his prime对应选项；实际大胜是与预期相反的结果。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening",
+      "explanationType": "previous_project_authored_reviewed_explanation"
+    },
+    {
+      "id": "cet4-2023-12-3-nonlistening-q50",
+      "canonicalId": "cet4-2023-12-3-q50",
+      "number": 50,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What became of Red Rum after his career ended?",
+      "passage": "In the history of horse racing, few horses have captured the affection of the British public like Red Rum. Today, three decades after his retirement, he is still one of the best-known and most beloved racehorses of all time.\n\nRed Rum was passed around to several owners before being purchased for Noel Le Mar. The agent who made the purchase was the now-legendary horse trainer Donald \"Ginger\" McCain.\n\nIt wasn't apparent at the time, but Red Rum had a serious bone disease in his foot. For many horses (and many trainers) this would mean the end of a racing career before it even began. For Ginger and Red Rum, though, it was just an obstacle to greatness that had to be overcome.\n\nRed Rum's true talent came out in steeplechases(障碍赛马). His power, speed and jumping ability carried him to his first Grand National title in 1973. The very next year, Red Rum returned to take his second title. He was the first horse to take successive firsts since Reynoldstown in 1935-1936. Red Rum's spirit and grace had already begun to charm the leagues of Grand National fans.\n\nIn the following two years, Red Rum lost out on the title, coming in second both times. When he returned in 1977 to try again, he was largely regarded as past his prime. He was 12 years old and not expected to place highly. He surprised sporting fans around the world when he came in a remarkable 25 lengths ahead of the nearest horse, taking his third Grand National win. To this day, Red Rum's third win is known as one of the greatest moments in horse racing history.\n\nRed Rum was headed for the Grand National once again in 1978 but suffered an injury in one of his heels shortly before the race. He was retired soon after, but his public life and fame by no means decreased with the end of his career. Red Rum traveled all over the country for various engagements. He often led pre-race parades at Aintree Racecourse and was a popular guest at charity benefits and public events.",
+      "options": [
+        {
+          "id": "A",
+          "text": "He suffered from severe pain in a heel."
+        },
+        {
+          "id": "B",
+          "text": "He spent almost all his time traveling."
+        },
+        {
+          "id": "C",
+          "text": "He lived on various charity benefits."
+        },
+        {
+          "id": "D",
+          "text": "He remained famous and popular."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "根据题干定位文章中的相关句，再比较选项是否改变主体、程度或因果。",
+      "explanation": "D。退役后它继续参加慈善和公众活动，公共生活和名声没有减少，因此仍著名且受欢迎，不是在讨论靠活动谋生。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening",
+      "explanationType": "previous_project_authored_reviewed_explanation"
+    },
+    {
+      "id": "cet4-2023-12-3-nonlistening-q51",
+      "canonicalId": "lazynote-cet4-2023-12-3-q51",
+      "number": 51,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author say businesspeople often do?",
+      "passage": "People in business often make decisions based on their own personal feelings or instincts. It is quite horrifying to see people being guided by some unknown force. But how wise is it, really, to let your instincts drive your decisions?\n\nIn the decision-making process, relying on instincts only makes sense when you have a vast experience to support you. Simply \"feeling\" that something is right or should be done is highly subjective and can drown you.\n\nOn the other hand, there is a more rational approach to making decisions. Data and analysis have long been associated with informed decisions. These reduce the likelihood of errors and increase the chances of success. Big, systematic data is mostly the foundation of most of our decisions, personal and business alike. But with its extreme usability comes a complication: what do you do if you strongly feel something should not be done, even if the data insists that it should?\n\nThis seemingly easy question is what drives the need to understand the relationship between instincts and data in the decision-making process. Without making things complicated, the solution to this dilemma is using data and instincts in conjunction to arrive at the best possible decisions.\n\nInstinctive decisions are always backed by previous experiences or information, which acknowledges that instinctive decisions have worked in the past. Decisions are not about making the choice and braving the consequences because you want to blindly trust your instincts. They are about combining your inner wisdom with the knowledge of systematic data to make the best decisions.\n\nSometimes, rational analysis and data are impractical to be employed in certain situations. Absence of definitive criteria, and time and resource constraints, and novel situations are instances which limit the practicality of data. The only feasible option is to rely on what your instincts tell you. In these situations, instincts can help you make effective and quick decisions.\n\nCombining instinctive and rational analysis produces well-rounded decisions. It reduces the chances of making mistakes, and has increasingly become a favorite approach to decision-making among leaders of today.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Strive to make sense of some unknown forces."
+        },
+        {
+          "id": "B",
+          "text": "Avoid being driven by their own feeling."
+        },
+        {
+          "id": "C",
+          "text": "Draw on a vast wealth of past experience."
+        },
+        {
+          "id": "D",
+          "text": "Rely on instincts in decision-making."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：Rely on instincts in decision-making.\n关键词检索定位到第 1 段的候选相关句：People in business often make decisions based on their own personal feelings or instincts.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet4-2023-12-3-nonlistening-q52",
+      "canonicalId": "cet4-2023-12-3-q52",
+      "number": 52,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What should we take into account in order to make informed decisions?",
+      "passage": "People in business often make decisions based on their own personal feelings or instincts. It is quite horrifying to see people being guided by some unknown force. But how wise is it, really, to let your instincts drive your decisions?\n\nIn the decision-making process, relying on instincts only makes sense when you have a vast experience to support you. Simply \"feeling\" that something is right or should be done is highly subjective and can drown you.\n\nOn the other hand, there is a more rational approach to making decisions. Data and analysis have long been associated with informed decisions. These reduce the likelihood of errors and increase the chances of success. Big, systematic data is mostly the foundation of most of our decisions, personal and business alike. But with its extreme usability comes a complication: what do you do if you strongly feel something should not be done, even if the data insists that it should?\n\nThis seemingly easy question is what drives the need to understand the relationship between instincts and data in the decision-making process. Without making things complicated, the solution to this dilemma is using data and instincts in conjunction to arrive at the best possible decisions.\n\nInstinctive decisions are always backed by previous experiences or information, which acknowledges that instinctive decisions have worked in the past. Decisions are not about making the choice and braving the consequences because you want to blindly trust your instincts. They are about combining your inner wisdom with the knowledge of systematic data to make the best decisions.\n\nSometimes, rational analysis and data are impractical to be employed in certain situations. Absence of definitive criteria, and time and resource constraints, and novel situations are instances which limit the practicality of data. The only feasible option is to rely on what your instincts tell you. In these situations, instincts can help you make effective and quick decisions.\n\nCombining instinctive and rational analysis produces well-rounded decisions. It reduces the chances of making mistakes, and has increasingly become a favorite approach to decision-making among leaders of today.",
+      "options": [
+        {
+          "id": "A",
+          "text": "The likelihood of errors."
+        },
+        {
+          "id": "B",
+          "text": "Systematic data and analysis."
+        },
+        {
+          "id": "C",
+          "text": "The complexity of circumstances."
+        },
+        {
+          "id": "D",
+          "text": "Personal feelings and business strategies"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "根据题干定位文章中的相关句，再比较选项是否改变主体、程度或因果。",
+      "explanation": "B。第三段把数据和分析与明智决策联系起来，说能减少错误增加成功，因此需要系统数据和分析，不是只考虑犯错的可能性。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening",
+      "explanationType": "previous_project_authored_reviewed_explanation"
+    },
+    {
+      "id": "cet4-2023-12-3-nonlistening-q53",
+      "canonicalId": "cet4-2023-12-3-q53",
+      "number": 53,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What should people do in a decision-making process if instincts disagree with data?",
+      "passage": "People in business often make decisions based on their own personal feelings or instincts. It is quite horrifying to see people being guided by some unknown force. But how wise is it, really, to let your instincts drive your decisions?\n\nIn the decision-making process, relying on instincts only makes sense when you have a vast experience to support you. Simply \"feeling\" that something is right or should be done is highly subjective and can drown you.\n\nOn the other hand, there is a more rational approach to making decisions. Data and analysis have long been associated with informed decisions. These reduce the likelihood of errors and increase the chances of success. Big, systematic data is mostly the foundation of most of our decisions, personal and business alike. But with its extreme usability comes a complication: what do you do if you strongly feel something should not be done, even if the data insists that it should?\n\nThis seemingly easy question is what drives the need to understand the relationship between instincts and data in the decision-making process. Without making things complicated, the solution to this dilemma is using data and instincts in conjunction to arrive at the best possible decisions.\n\nInstinctive decisions are always backed by previous experiences or information, which acknowledges that instinctive decisions have worked in the past. Decisions are not about making the choice and braving the consequences because you want to blindly trust your instincts. They are about combining your inner wisdom with the knowledge of systematic data to make the best decisions.\n\nSometimes, rational analysis and data are impractical to be employed in certain situations. Absence of definitive criteria, and time and resource constraints, and novel situations are instances which limit the practicality of data. The only feasible option is to rely on what your instincts tell you. In these situations, instincts can help you make effective and quick decisions.\n\nCombining instinctive and rational analysis produces well-rounded decisions. It reduces the chances of making mistakes, and has increasingly become a favorite approach to decision-making among leaders of today.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Resolve the dilemma with previous experience."
+        },
+        {
+          "id": "B",
+          "text": "Figure out which of the two is more reliable."
+        },
+        {
+          "id": "C",
+          "text": "Combine the two together."
+        },
+        {
+          "id": "D",
+          "text": "Prioritize instincts over data."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "根据题干定位文章中的相关句，再比较选项是否改变主体、程度或因果。",
+      "explanation": "C。当数据与直觉冲突时，第四段主张in conjunction，即两者结合以得到最佳决策；没有要求单凭直觉否定数据。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening",
+      "explanationType": "previous_project_authored_reviewed_explanation"
+    },
+    {
+      "id": "cet4-2023-12-3-nonlistening-q54",
+      "canonicalId": "cet4-2023-12-3-q54",
+      "number": 54,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What should we do when facing various factors that limit the practicality of data?",
+      "passage": "People in business often make decisions based on their own personal feelings or instincts. It is quite horrifying to see people being guided by some unknown force. But how wise is it, really, to let your instincts drive your decisions?\n\nIn the decision-making process, relying on instincts only makes sense when you have a vast experience to support you. Simply \"feeling\" that something is right or should be done is highly subjective and can drown you.\n\nOn the other hand, there is a more rational approach to making decisions. Data and analysis have long been associated with informed decisions. These reduce the likelihood of errors and increase the chances of success. Big, systematic data is mostly the foundation of most of our decisions, personal and business alike. But with its extreme usability comes a complication: what do you do if you strongly feel something should not be done, even if the data insists that it should?\n\nThis seemingly easy question is what drives the need to understand the relationship between instincts and data in the decision-making process. Without making things complicated, the solution to this dilemma is using data and instincts in conjunction to arrive at the best possible decisions.\n\nInstinctive decisions are always backed by previous experiences or information, which acknowledges that instinctive decisions have worked in the past. Decisions are not about making the choice and braving the consequences because you want to blindly trust your instincts. They are about combining your inner wisdom with the knowledge of systematic data to make the best decisions.\n\nSometimes, rational analysis and data are impractical to be employed in certain situations. Absence of definitive criteria, and time and resource constraints, and novel situations are instances which limit the practicality of data. The only feasible option is to rely on what your instincts tell you. In these situations, instincts can help you make effective and quick decisions.\n\nCombining instinctive and rational analysis produces well-rounded decisions. It reduces the chances of making mistakes, and has increasingly become a favorite approach to decision-making among leaders of today.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Make a rational and systematic analysis."
+        },
+        {
+          "id": "B",
+          "text": "Explore the most feasible options."
+        },
+        {
+          "id": "C",
+          "text": "Resort to our inner wisdom."
+        },
+        {
+          "id": "D",
+          "text": "Apply definitive criteria."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "根据题干定位文章中的相关句，再比较选项是否改变主体、程度或因果。",
+      "explanation": "C。当明确标准、时间和资源限制使数据分析不实用时，文章认为唯一可行选择是直觉，也就是经验支持的inner wisdom。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening",
+      "explanationType": "previous_project_authored_reviewed_explanation"
+    },
+    {
+      "id": "cet4-2023-12-3-nonlistening-q55",
+      "canonicalId": "cet4-2023-12-3-q55",
+      "number": 55,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does it take for decisions to become the best according to the author?",
+      "passage": "People in business often make decisions based on their own personal feelings or instincts. It is quite horrifying to see people being guided by some unknown force. But how wise is it, really, to let your instincts drive your decisions?\n\nIn the decision-making process, relying on instincts only makes sense when you have a vast experience to support you. Simply \"feeling\" that something is right or should be done is highly subjective and can drown you.\n\nOn the other hand, there is a more rational approach to making decisions. Data and analysis have long been associated with informed decisions. These reduce the likelihood of errors and increase the chances of success. Big, systematic data is mostly the foundation of most of our decisions, personal and business alike. But with its extreme usability comes a complication: what do you do if you strongly feel something should not be done, even if the data insists that it should?\n\nThis seemingly easy question is what drives the need to understand the relationship between instincts and data in the decision-making process. Without making things complicated, the solution to this dilemma is using data and instincts in conjunction to arrive at the best possible decisions.\n\nInstinctive decisions are always backed by previous experiences or information, which acknowledges that instinctive decisions have worked in the past. Decisions are not about making the choice and braving the consequences because you want to blindly trust your instincts. They are about combining your inner wisdom with the knowledge of systematic data to make the best decisions.\n\nSometimes, rational analysis and data are impractical to be employed in certain situations. Absence of definitive criteria, and time and resource constraints, and novel situations are instances which limit the practicality of data. The only feasible option is to rely on what your instincts tell you. In these situations, instincts can help you make effective and quick decisions.\n\nCombining instinctive and rational analysis produces well-rounded decisions. It reduces the chances of making mistakes, and has increasingly become a favorite approach to decision-making among leaders of today.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Applying instincts and data in conjunction."
+        },
+        {
+          "id": "B",
+          "text": "Assessing all factors when making a choice."
+        },
+        {
+          "id": "C",
+          "text": "Recalling what has actually worked in the past."
+        },
+        {
+          "id": "D",
+          "text": "Refraining from trusting instincts arbitrarily."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "根据题干定位文章中的相关句，再比较选项是否改变主体、程度或因果。",
+      "explanation": "A。最后强调结合直觉与理性分析能得出全面决策，减少错误，因此最佳决定来自两者结合，而不是盲信曾经有效的方法。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening",
+      "explanationType": "previous_project_authored_reviewed_explanation"
+    },
+    {
+      "id": "cet4-2023-12-3-nonlistening-translation",
+      "number": "IV",
+      "level": "CET4",
+      "type": "short_text_self_check",
+      "skill": "translation",
+      "section": "translation",
+      "prompt": "Directions: For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2 .\n\n改革开放以来，中国人民生活水平不断提高，这在人们的饮食 (diet)变化上得到充分体现 。如今，人们不再满足于吃得饱，而是追求吃得更加安全、更加营养、更加健康，食物也愈来愈丰富多样，不再限于本地的农产品。物流业 (logistics industry)的发展使人们很容易品尝到全国各地的特产。毫无疑问，食品质量与饮食结构的改善为增进人们健康提供了有力的保障。",
+      "options": [],
+      "correctAnswer": "Since reform and opening up, the Chinese people's living standards have continued to improve, a change clearly reflected in their diets. Today, people are no longer satisfied merely to have enough food; they seek safer, more nutritious and healthier meals. Food has also become increasingly diverse and is no longer limited to locally produced agricultural products. The development of the logistics industry makes it easy for people to enjoy specialties from all parts of the country. Undoubtedly, improvements in food quality and dietary structure provide strong support for better health.",
+      "referenceAnswer": "Since reform and opening up, the Chinese people's living standards have continued to improve, a change clearly reflected in their diets. Today, people are no longer satisfied merely to have enough food; they seek safer, more nutritious and healthier meals. Food has also become increasingly diverse and is no longer limited to locally produced agricultural products. The development of the logistics industry makes it easy for people to enjoy specialties from all parts of the country. Undoubtedly, improvements in food quality and dietary structure provide strong support for better health.",
+      "hint": "饮食反映生活水平、摆脱本地限制、物流与健康保障是逻辑链。",
+      "explanation": "以下译文为原创参考，可使用其他准确表达。specialties指各地特产而非专业；dietary structure是饮食结构，no longer limited保留变化方向。\n\n逐句核对：living standards…improve是背景，clearly reflected in diets说明充分体现在饮食。不再仅求饱用no longer satisfied merely…，safer/more nutritious/healthier并列三追求。no longer limited to local agricultural products保留本地局限被打破；logistics industry是物流业，specialties from all parts是全国特产。Undoubtedly保留无疑，food quality和dietary structure为两个保障条件，provide support for better health说明最终健康作用。",
+      "rubric": [
+        "练习自评总分15分：信息准确0–8＋语法0–5＋表达0–2；允许拆句、换同义词，不要求逐字匹配参考译文。",
+        "信息准确0–8分：逐项检查——生活提高体现在饮食；不只求饱、更安全营养健康；丰富非仅本地；物流与全国特产；质量结构保障健康。8分=全部关键信息正确；6–7分=少量次要细节遗漏；3–5分=多处遗漏/数字或关系误译；0–2分=核心人物、动作或逻辑严重错误。",
+        "语法0–5分：5分=时态、单复数、主谓一致、从句和介词基本正确；3–4分=少量错误仍易理解；1–2分=多处错误妨碍理解；0分=主要句子结构不可理解。",
+        "表达0–2分：2分=用词搭配自然、因果转折时间衔接清楚；1分=可理解但有中文式生硬表达；0分=词序/词义造成大面积理解困难。",
+        "修订操作：先在中文原题划出时间、数量、地点和连接词，再在自己的译文逐项找对应；为每处漏译或误译写一句修正。此分数是练习估计，不是官方阅卷或机器评分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-12-3-nonlistening"
+    }
+  ]
+}

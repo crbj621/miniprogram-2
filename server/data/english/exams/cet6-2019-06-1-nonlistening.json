@@ -1,0 +1,2105 @@
+{
+  "schemaVersion": 1,
+  "status": "verified_structured",
+  "source": {
+    "id": "cet6-2019-06-1-nonlistening",
+    "textCollection": "https://english-exam.lazynote.cn",
+    "textUrl": "https://english-exam.lazynote.cn/cet6/paper/2019-06-1/",
+    "textSha256": "9e1219545ad78bf2a8b0197a232494fd7086749ea786b3b83ef7d9e5c680e980",
+    "answerSources": [
+      {
+        "section": "part3-section-a",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2019-06-1/part3-section-a/",
+        "sha256": "775bde806f3b820a50879c17092f3d820e62a1b0925107be3acd4ac2db18fc83"
+      },
+      {
+        "section": "part3-section-b",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2019-06-1/part3-section-b/",
+        "sha256": "88e8672b9c7dee81ad309f9562050fd0e668daed04c192150c7114153fde5981"
+      },
+      {
+        "section": "part3-section-c-1",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2019-06-1/part3-section-c-1/",
+        "sha256": "a2741d752f3e5dd61cbea1213e40c0fc73ecbefefeaba8b3c9cb9667230adc7f"
+      },
+      {
+        "section": "part3-section-c-2",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2019-06-1/part3-section-c-2/",
+        "sha256": "afb9f4d6761536ffd26f075076093f79f26841c32c9dd1c52671213b2c33030d"
+      }
+    ],
+    "rightsUrl": "https://english-exam.lazynote.cn",
+    "rights": "Source footer attributes original papers to the National College English Test Committee. Original materials retain their respective rights; no blanket source license is asserted. Commercial explanatory prose is not copied.",
+    "sourceRightsNotice": "© 2026 懒笔记 · 蜀ICP备2024049450号-1 · 川公网安备51019002006323号 · 增值电信业务经营许可证：川B2-20240301 · 真题版权归全国硕士研究生招生考试 / 全国大学英语四六级考试委员会所有 · 隐私政策 · 用户协议",
+    "sourceTermsUrl": "https://english-exam.lazynote.cn/terms/",
+    "reviewedAt": "2026-10-03",
+    "answerStatus": "public_reference_structural_consistency_verified",
+    "explanations": "Project-generated contextual evidence notes. Close-reading locations are keyword-search candidates, not manually verified detailed explanations.",
+    "referenceEssays": "Project-authored full reference examples bound to the original prompts; not official model answers.",
+    "materialSources": [],
+    "corrections": [],
+    "previousReviewedAnswerSources": [],
+    "sourceEdition": "lazynote public original-paper arrangement; set numbering can differ from other collections.",
+    "independentlyConfirmedSharedSource": "",
+    "readingSourceCorrection": null,
+    "sectionSourceReplacement": null,
+    "independentAnswerChecks": [],
+    "sharedSectionSource": {}
+  },
+  "papers": [
+    {
+      "id": "cet6-2019-06-1-nonlistening",
+      "level": "CET6",
+      "year": 2019,
+      "month": 6,
+      "set": 1,
+      "title": "2019年6月英语六级第1套真题（不含听力）",
+      "authenticity": "past_exam",
+      "questionIds": [
+        "cet6-2019-06-1-nonlistening-writing",
+        "cet6-2019-06-1-nonlistening-q26",
+        "cet6-2019-06-1-nonlistening-q27",
+        "cet6-2019-06-1-nonlistening-q28",
+        "cet6-2019-06-1-nonlistening-q29",
+        "cet6-2019-06-1-nonlistening-q30",
+        "cet6-2019-06-1-nonlistening-q31",
+        "cet6-2019-06-1-nonlistening-q32",
+        "cet6-2019-06-1-nonlistening-q33",
+        "cet6-2019-06-1-nonlistening-q34",
+        "cet6-2019-06-1-nonlistening-q35",
+        "cet6-2019-06-1-nonlistening-q36",
+        "cet6-2019-06-1-nonlistening-q37",
+        "cet6-2019-06-1-nonlistening-q38",
+        "cet6-2019-06-1-nonlistening-q39",
+        "cet6-2019-06-1-nonlistening-q40",
+        "cet6-2019-06-1-nonlistening-q41",
+        "cet6-2019-06-1-nonlistening-q42",
+        "cet6-2019-06-1-nonlistening-q43",
+        "cet6-2019-06-1-nonlistening-q44",
+        "cet6-2019-06-1-nonlistening-q45",
+        "cet6-2019-06-1-nonlistening-q46",
+        "cet6-2019-06-1-nonlistening-q47",
+        "cet6-2019-06-1-nonlistening-q48",
+        "cet6-2019-06-1-nonlistening-q49",
+        "cet6-2019-06-1-nonlistening-q50",
+        "cet6-2019-06-1-nonlistening-q51",
+        "cet6-2019-06-1-nonlistening-q52",
+        "cet6-2019-06-1-nonlistening-q53",
+        "cet6-2019-06-1-nonlistening-q54",
+        "cet6-2019-06-1-nonlistening-q55",
+        "cet6-2019-06-1-nonlistening-translation"
+      ],
+      "durationSeconds": 6000,
+      "description": "写作1题、阅读30题、翻译1题，不含听力。客观题答案与题面、选项完成结构一致性核对。",
+      "sourceId": "cet6-2019-06-1-nonlistening",
+      "coverage": {
+        "fullPaper": false,
+        "fullNonListening": true,
+        "listeningExcluded": true,
+        "objectiveNumbers": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "objectiveCount": 30,
+        "subjectiveCount": 2,
+        "sections": [
+          "writing",
+          "reading_word_bank",
+          "reading_matching",
+          "reading_comprehension",
+          "translation"
+        ],
+        "sharedSectionSource": {},
+        "note": "写作1题、阅读30题、翻译1题，不含听力。",
+        "independentlyConfirmedSharedSource": "",
+        "readingSourceCorrection": null,
+        "sectionSourceReplacement": null,
+        "referenceStatus": "project_authored"
+      },
+      "resources": [
+        {
+          "id": "cet6-2019-06-1-nonlistening-source",
+          "type": "web",
+          "title": "原卷来源与题面核对",
+          "url": "https://english-exam.lazynote.cn/cet6/paper/2019-06-1/"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cet6-2019-06-1-nonlistening-writing",
+      "number": "I",
+      "level": "CET6",
+      "type": "short_text_self_check",
+      "skill": "writing",
+      "section": "writing",
+      "prompt": "Directions: For this part, you are allowed 30 minutes to write an essay on the importance of team spirit and communication in the workplace. You should write at least 150 words but no more than 200 words.",
+      "options": [],
+      "correctAnswer": "Team spirit and communication are essential to an effective workplace. Modern tasks often require different kinds of expertise, so individual ability alone rarely guarantees success. People achieve more when they share a goal and exchange information clearly.\n\nTeam spirit encourages colleagues to support one another instead of competing for every credit. For example, when a product is due for release, designers, engineers and sales staff must coordinate their work. If one group encounters a problem, the others should help solve it rather than simply blame them. Clear communication makes such cooperation possible. Regular updates reveal delays early, while careful listening prevents misunderstandings about customers' needs. A team that welcomes questions is also more likely to discover mistakes before they become costly.\n\nTo build these qualities, employers should define shared objectives and provide opportunities for honest discussion. Employees, in turn, should report difficulties promptly and respect different opinions. With mutual support and reliable communication, a workplace can become both more productive and more pleasant.",
+      "referenceAnswer": "Team spirit and communication are essential to an effective workplace. Modern tasks often require different kinds of expertise, so individual ability alone rarely guarantees success. People achieve more when they share a goal and exchange information clearly.\n\nTeam spirit encourages colleagues to support one another instead of competing for every credit. For example, when a product is due for release, designers, engineers and sales staff must coordinate their work. If one group encounters a problem, the others should help solve it rather than simply blame them. Clear communication makes such cooperation possible. Regular updates reveal delays early, while careful listening prevents misunderstandings about customers' needs. A team that welcomes questions is also more likely to discover mistakes before they become costly.\n\nTo build these qualities, employers should define shared objectives and provide opportunities for honest discussion. Employees, in turn, should report difficulties promptly and respect different opinions. With mutual support and reliable communication, a workplace can become both more productive and more pleasant.",
+      "hint": "同时论述团队精神与沟通，说明两者如何共同提升工作效率。",
+      "explanation": "以下为按本题要求独立写成的原创参考范文，作文没有唯一答案。首段提出两个能力的共同价值；第二段用产品上线情境解释协作与沟通的分工，避免把两个关键词只列出来；结尾分别提出雇主和员工可采取的行动。coordinate their work表示协调工作，report difficulties promptly表示及时报告困难。",
+      "rubric": [
+        "任务：同时论述团队精神与沟通，说明两者如何共同提升工作效率。",
+        "论证：明确中心观点，用原因、具体例子或经历展开；结尾回应主题。",
+        "语言：检查主谓一致、时态、搭配和段落衔接；全文控制在150–200词。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-1-nonlistening-q26",
+      "canonicalId": "lazynote-cet6-2019-06-1-q26",
+      "number": 26,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 26 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Pasta is no longer off the menu, after a new review of studies suggested that the carbohydrate can form part of a healthy diet, and even help people lose weight. For years, nutritionists have recommended that pasta be kept to a [26] ____ , to cut calories, prevent fat build-up and stop blood sugar [27] ____ up.\n\nThe low-carbohydrate food movement gave birth to such diets as the Atkins, Paleo and Keto, which advised swapping foods like bread, pasta and potatoes for vegetables, fish and meat. More recently the trend of swapping spaghetti for vegetables has been [28] ____ by clean-eating experts.\n\nBut now a [29] ____ review and analysis of 30 studies by Canadian researchers found that not only does pasta not cause weight gain, but three meals a week can help people drop more than half a kilogram over four months. The reviewers found that pasta had been unfairly demonized(妖魔化) because it had been [30] ____ in with other, more fat-promoting carbohydrates.\n\n\"The study found that pasta didn't [31] ____ to weight gain or increase in body fat,\" said lead author Dr. John Sievenpiper. \"In [32] ____ the evidence, we can now say with some confidence that pasta does not have an [33] ____ effect on body weight outcomes when it is consumed as part of a healthy dietary pattern.\" In fact, analysis actually showed a small weight loss [34] ____ to concerns. Perhaps pasta can be part of a healthy diet.\n\nThose involved in the [35] ____ trials on average ate 3.3 servings of pasta a week instead of other carbohydrates, one serving equaling around half a cup. They lost around half a kilogram over an average follow-up of 12 weeks.",
+      "options": [
+        {
+          "id": "A",
+          "text": "adverse"
+        },
+        {
+          "id": "B",
+          "text": "championed"
+        },
+        {
+          "id": "C",
+          "text": "clinical"
+        },
+        {
+          "id": "D",
+          "text": "contrary"
+        },
+        {
+          "id": "E",
+          "text": "contribute"
+        },
+        {
+          "id": "F",
+          "text": "intimate"
+        },
+        {
+          "id": "G",
+          "text": "lumped"
+        },
+        {
+          "id": "H",
+          "text": "magnified"
+        },
+        {
+          "id": "I",
+          "text": "minimum"
+        },
+        {
+          "id": "J",
+          "text": "radiating"
+        },
+        {
+          "id": "K",
+          "text": "ration"
+        },
+        {
+          "id": "L",
+          "text": "shooting"
+        },
+        {
+          "id": "M",
+          "text": "subscribe"
+        },
+        {
+          "id": "N",
+          "text": "systematic"
+        },
+        {
+          "id": "O",
+          "text": "weighing"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "先看第 26 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 I（minimum）。本空所在句：For years, nutritionists have recommended that pasta be kept to a [26] ____ , to cut calories, prevent fat build-up and stop blood sugar [27] ____ up.\n将本空替换为 minimum 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-1-nonlistening-q27",
+      "canonicalId": "lazynote-cet6-2019-06-1-q27",
+      "number": 27,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 27 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Pasta is no longer off the menu, after a new review of studies suggested that the carbohydrate can form part of a healthy diet, and even help people lose weight. For years, nutritionists have recommended that pasta be kept to a [26] ____ , to cut calories, prevent fat build-up and stop blood sugar [27] ____ up.\n\nThe low-carbohydrate food movement gave birth to such diets as the Atkins, Paleo and Keto, which advised swapping foods like bread, pasta and potatoes for vegetables, fish and meat. More recently the trend of swapping spaghetti for vegetables has been [28] ____ by clean-eating experts.\n\nBut now a [29] ____ review and analysis of 30 studies by Canadian researchers found that not only does pasta not cause weight gain, but three meals a week can help people drop more than half a kilogram over four months. The reviewers found that pasta had been unfairly demonized(妖魔化) because it had been [30] ____ in with other, more fat-promoting carbohydrates.\n\n\"The study found that pasta didn't [31] ____ to weight gain or increase in body fat,\" said lead author Dr. John Sievenpiper. \"In [32] ____ the evidence, we can now say with some confidence that pasta does not have an [33] ____ effect on body weight outcomes when it is consumed as part of a healthy dietary pattern.\" In fact, analysis actually showed a small weight loss [34] ____ to concerns. Perhaps pasta can be part of a healthy diet.\n\nThose involved in the [35] ____ trials on average ate 3.3 servings of pasta a week instead of other carbohydrates, one serving equaling around half a cup. They lost around half a kilogram over an average follow-up of 12 weeks.",
+      "options": [
+        {
+          "id": "A",
+          "text": "adverse"
+        },
+        {
+          "id": "B",
+          "text": "championed"
+        },
+        {
+          "id": "C",
+          "text": "clinical"
+        },
+        {
+          "id": "D",
+          "text": "contrary"
+        },
+        {
+          "id": "E",
+          "text": "contribute"
+        },
+        {
+          "id": "F",
+          "text": "intimate"
+        },
+        {
+          "id": "G",
+          "text": "lumped"
+        },
+        {
+          "id": "H",
+          "text": "magnified"
+        },
+        {
+          "id": "I",
+          "text": "minimum"
+        },
+        {
+          "id": "J",
+          "text": "radiating"
+        },
+        {
+          "id": "K",
+          "text": "ration"
+        },
+        {
+          "id": "L",
+          "text": "shooting"
+        },
+        {
+          "id": "M",
+          "text": "subscribe"
+        },
+        {
+          "id": "N",
+          "text": "systematic"
+        },
+        {
+          "id": "O",
+          "text": "weighing"
+        }
+      ],
+      "correctAnswer": "L",
+      "hint": "先看第 27 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 L（shooting）。本空所在句：For years, nutritionists have recommended that pasta be kept to a [26] ____ , to cut calories, prevent fat build-up and stop blood sugar [27] ____ up.\n将本空替换为 shooting 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-1-nonlistening-q28",
+      "canonicalId": "lazynote-cet6-2019-06-1-q28",
+      "number": 28,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 28 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Pasta is no longer off the menu, after a new review of studies suggested that the carbohydrate can form part of a healthy diet, and even help people lose weight. For years, nutritionists have recommended that pasta be kept to a [26] ____ , to cut calories, prevent fat build-up and stop blood sugar [27] ____ up.\n\nThe low-carbohydrate food movement gave birth to such diets as the Atkins, Paleo and Keto, which advised swapping foods like bread, pasta and potatoes for vegetables, fish and meat. More recently the trend of swapping spaghetti for vegetables has been [28] ____ by clean-eating experts.\n\nBut now a [29] ____ review and analysis of 30 studies by Canadian researchers found that not only does pasta not cause weight gain, but three meals a week can help people drop more than half a kilogram over four months. The reviewers found that pasta had been unfairly demonized(妖魔化) because it had been [30] ____ in with other, more fat-promoting carbohydrates.\n\n\"The study found that pasta didn't [31] ____ to weight gain or increase in body fat,\" said lead author Dr. John Sievenpiper. \"In [32] ____ the evidence, we can now say with some confidence that pasta does not have an [33] ____ effect on body weight outcomes when it is consumed as part of a healthy dietary pattern.\" In fact, analysis actually showed a small weight loss [34] ____ to concerns. Perhaps pasta can be part of a healthy diet.\n\nThose involved in the [35] ____ trials on average ate 3.3 servings of pasta a week instead of other carbohydrates, one serving equaling around half a cup. They lost around half a kilogram over an average follow-up of 12 weeks.",
+      "options": [
+        {
+          "id": "A",
+          "text": "adverse"
+        },
+        {
+          "id": "B",
+          "text": "championed"
+        },
+        {
+          "id": "C",
+          "text": "clinical"
+        },
+        {
+          "id": "D",
+          "text": "contrary"
+        },
+        {
+          "id": "E",
+          "text": "contribute"
+        },
+        {
+          "id": "F",
+          "text": "intimate"
+        },
+        {
+          "id": "G",
+          "text": "lumped"
+        },
+        {
+          "id": "H",
+          "text": "magnified"
+        },
+        {
+          "id": "I",
+          "text": "minimum"
+        },
+        {
+          "id": "J",
+          "text": "radiating"
+        },
+        {
+          "id": "K",
+          "text": "ration"
+        },
+        {
+          "id": "L",
+          "text": "shooting"
+        },
+        {
+          "id": "M",
+          "text": "subscribe"
+        },
+        {
+          "id": "N",
+          "text": "systematic"
+        },
+        {
+          "id": "O",
+          "text": "weighing"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "先看第 28 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 B（championed）。本空所在句：More recently the trend of swapping spaghetti for vegetables has been [28] ____ by clean-eating experts.\n将本空替换为 championed 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-1-nonlistening-q29",
+      "canonicalId": "lazynote-cet6-2019-06-1-q29",
+      "number": 29,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 29 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Pasta is no longer off the menu, after a new review of studies suggested that the carbohydrate can form part of a healthy diet, and even help people lose weight. For years, nutritionists have recommended that pasta be kept to a [26] ____ , to cut calories, prevent fat build-up and stop blood sugar [27] ____ up.\n\nThe low-carbohydrate food movement gave birth to such diets as the Atkins, Paleo and Keto, which advised swapping foods like bread, pasta and potatoes for vegetables, fish and meat. More recently the trend of swapping spaghetti for vegetables has been [28] ____ by clean-eating experts.\n\nBut now a [29] ____ review and analysis of 30 studies by Canadian researchers found that not only does pasta not cause weight gain, but three meals a week can help people drop more than half a kilogram over four months. The reviewers found that pasta had been unfairly demonized(妖魔化) because it had been [30] ____ in with other, more fat-promoting carbohydrates.\n\n\"The study found that pasta didn't [31] ____ to weight gain or increase in body fat,\" said lead author Dr. John Sievenpiper. \"In [32] ____ the evidence, we can now say with some confidence that pasta does not have an [33] ____ effect on body weight outcomes when it is consumed as part of a healthy dietary pattern.\" In fact, analysis actually showed a small weight loss [34] ____ to concerns. Perhaps pasta can be part of a healthy diet.\n\nThose involved in the [35] ____ trials on average ate 3.3 servings of pasta a week instead of other carbohydrates, one serving equaling around half a cup. They lost around half a kilogram over an average follow-up of 12 weeks.",
+      "options": [
+        {
+          "id": "A",
+          "text": "adverse"
+        },
+        {
+          "id": "B",
+          "text": "championed"
+        },
+        {
+          "id": "C",
+          "text": "clinical"
+        },
+        {
+          "id": "D",
+          "text": "contrary"
+        },
+        {
+          "id": "E",
+          "text": "contribute"
+        },
+        {
+          "id": "F",
+          "text": "intimate"
+        },
+        {
+          "id": "G",
+          "text": "lumped"
+        },
+        {
+          "id": "H",
+          "text": "magnified"
+        },
+        {
+          "id": "I",
+          "text": "minimum"
+        },
+        {
+          "id": "J",
+          "text": "radiating"
+        },
+        {
+          "id": "K",
+          "text": "ration"
+        },
+        {
+          "id": "L",
+          "text": "shooting"
+        },
+        {
+          "id": "M",
+          "text": "subscribe"
+        },
+        {
+          "id": "N",
+          "text": "systematic"
+        },
+        {
+          "id": "O",
+          "text": "weighing"
+        }
+      ],
+      "correctAnswer": "N",
+      "hint": "先看第 29 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 N（systematic）。本空所在句：But now a [29] ____ review and analysis of 30 studies by Canadian researchers found that not only does pasta not cause weight gain, but three meals a week can help people drop more than half a kilogram over four months.\n将本空替换为 systematic 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-1-nonlistening-q30",
+      "canonicalId": "lazynote-cet6-2019-06-1-q30",
+      "number": 30,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 30 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Pasta is no longer off the menu, after a new review of studies suggested that the carbohydrate can form part of a healthy diet, and even help people lose weight. For years, nutritionists have recommended that pasta be kept to a [26] ____ , to cut calories, prevent fat build-up and stop blood sugar [27] ____ up.\n\nThe low-carbohydrate food movement gave birth to such diets as the Atkins, Paleo and Keto, which advised swapping foods like bread, pasta and potatoes for vegetables, fish and meat. More recently the trend of swapping spaghetti for vegetables has been [28] ____ by clean-eating experts.\n\nBut now a [29] ____ review and analysis of 30 studies by Canadian researchers found that not only does pasta not cause weight gain, but three meals a week can help people drop more than half a kilogram over four months. The reviewers found that pasta had been unfairly demonized(妖魔化) because it had been [30] ____ in with other, more fat-promoting carbohydrates.\n\n\"The study found that pasta didn't [31] ____ to weight gain or increase in body fat,\" said lead author Dr. John Sievenpiper. \"In [32] ____ the evidence, we can now say with some confidence that pasta does not have an [33] ____ effect on body weight outcomes when it is consumed as part of a healthy dietary pattern.\" In fact, analysis actually showed a small weight loss [34] ____ to concerns. Perhaps pasta can be part of a healthy diet.\n\nThose involved in the [35] ____ trials on average ate 3.3 servings of pasta a week instead of other carbohydrates, one serving equaling around half a cup. They lost around half a kilogram over an average follow-up of 12 weeks.",
+      "options": [
+        {
+          "id": "A",
+          "text": "adverse"
+        },
+        {
+          "id": "B",
+          "text": "championed"
+        },
+        {
+          "id": "C",
+          "text": "clinical"
+        },
+        {
+          "id": "D",
+          "text": "contrary"
+        },
+        {
+          "id": "E",
+          "text": "contribute"
+        },
+        {
+          "id": "F",
+          "text": "intimate"
+        },
+        {
+          "id": "G",
+          "text": "lumped"
+        },
+        {
+          "id": "H",
+          "text": "magnified"
+        },
+        {
+          "id": "I",
+          "text": "minimum"
+        },
+        {
+          "id": "J",
+          "text": "radiating"
+        },
+        {
+          "id": "K",
+          "text": "ration"
+        },
+        {
+          "id": "L",
+          "text": "shooting"
+        },
+        {
+          "id": "M",
+          "text": "subscribe"
+        },
+        {
+          "id": "N",
+          "text": "systematic"
+        },
+        {
+          "id": "O",
+          "text": "weighing"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "先看第 30 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 G（lumped）。本空所在句：The reviewers found that pasta had been unfairly demonized(妖魔化) because it had been [30] ____ in with other, more fat-promoting carbohydrates.\n将本空替换为 lumped 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-1-nonlistening-q31",
+      "canonicalId": "lazynote-cet6-2019-06-1-q31",
+      "number": 31,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 31 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Pasta is no longer off the menu, after a new review of studies suggested that the carbohydrate can form part of a healthy diet, and even help people lose weight. For years, nutritionists have recommended that pasta be kept to a [26] ____ , to cut calories, prevent fat build-up and stop blood sugar [27] ____ up.\n\nThe low-carbohydrate food movement gave birth to such diets as the Atkins, Paleo and Keto, which advised swapping foods like bread, pasta and potatoes for vegetables, fish and meat. More recently the trend of swapping spaghetti for vegetables has been [28] ____ by clean-eating experts.\n\nBut now a [29] ____ review and analysis of 30 studies by Canadian researchers found that not only does pasta not cause weight gain, but three meals a week can help people drop more than half a kilogram over four months. The reviewers found that pasta had been unfairly demonized(妖魔化) because it had been [30] ____ in with other, more fat-promoting carbohydrates.\n\n\"The study found that pasta didn't [31] ____ to weight gain or increase in body fat,\" said lead author Dr. John Sievenpiper. \"In [32] ____ the evidence, we can now say with some confidence that pasta does not have an [33] ____ effect on body weight outcomes when it is consumed as part of a healthy dietary pattern.\" In fact, analysis actually showed a small weight loss [34] ____ to concerns. Perhaps pasta can be part of a healthy diet.\n\nThose involved in the [35] ____ trials on average ate 3.3 servings of pasta a week instead of other carbohydrates, one serving equaling around half a cup. They lost around half a kilogram over an average follow-up of 12 weeks.",
+      "options": [
+        {
+          "id": "A",
+          "text": "adverse"
+        },
+        {
+          "id": "B",
+          "text": "championed"
+        },
+        {
+          "id": "C",
+          "text": "clinical"
+        },
+        {
+          "id": "D",
+          "text": "contrary"
+        },
+        {
+          "id": "E",
+          "text": "contribute"
+        },
+        {
+          "id": "F",
+          "text": "intimate"
+        },
+        {
+          "id": "G",
+          "text": "lumped"
+        },
+        {
+          "id": "H",
+          "text": "magnified"
+        },
+        {
+          "id": "I",
+          "text": "minimum"
+        },
+        {
+          "id": "J",
+          "text": "radiating"
+        },
+        {
+          "id": "K",
+          "text": "ration"
+        },
+        {
+          "id": "L",
+          "text": "shooting"
+        },
+        {
+          "id": "M",
+          "text": "subscribe"
+        },
+        {
+          "id": "N",
+          "text": "systematic"
+        },
+        {
+          "id": "O",
+          "text": "weighing"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "先看第 31 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 E（contribute）。本空所在句：\"The study found that pasta didn't [31] ____ to weight gain or increase in body fat,\" said lead author Dr.\n将本空替换为 contribute 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-1-nonlistening-q32",
+      "canonicalId": "lazynote-cet6-2019-06-1-q32",
+      "number": 32,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 32 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Pasta is no longer off the menu, after a new review of studies suggested that the carbohydrate can form part of a healthy diet, and even help people lose weight. For years, nutritionists have recommended that pasta be kept to a [26] ____ , to cut calories, prevent fat build-up and stop blood sugar [27] ____ up.\n\nThe low-carbohydrate food movement gave birth to such diets as the Atkins, Paleo and Keto, which advised swapping foods like bread, pasta and potatoes for vegetables, fish and meat. More recently the trend of swapping spaghetti for vegetables has been [28] ____ by clean-eating experts.\n\nBut now a [29] ____ review and analysis of 30 studies by Canadian researchers found that not only does pasta not cause weight gain, but three meals a week can help people drop more than half a kilogram over four months. The reviewers found that pasta had been unfairly demonized(妖魔化) because it had been [30] ____ in with other, more fat-promoting carbohydrates.\n\n\"The study found that pasta didn't [31] ____ to weight gain or increase in body fat,\" said lead author Dr. John Sievenpiper. \"In [32] ____ the evidence, we can now say with some confidence that pasta does not have an [33] ____ effect on body weight outcomes when it is consumed as part of a healthy dietary pattern.\" In fact, analysis actually showed a small weight loss [34] ____ to concerns. Perhaps pasta can be part of a healthy diet.\n\nThose involved in the [35] ____ trials on average ate 3.3 servings of pasta a week instead of other carbohydrates, one serving equaling around half a cup. They lost around half a kilogram over an average follow-up of 12 weeks.",
+      "options": [
+        {
+          "id": "A",
+          "text": "adverse"
+        },
+        {
+          "id": "B",
+          "text": "championed"
+        },
+        {
+          "id": "C",
+          "text": "clinical"
+        },
+        {
+          "id": "D",
+          "text": "contrary"
+        },
+        {
+          "id": "E",
+          "text": "contribute"
+        },
+        {
+          "id": "F",
+          "text": "intimate"
+        },
+        {
+          "id": "G",
+          "text": "lumped"
+        },
+        {
+          "id": "H",
+          "text": "magnified"
+        },
+        {
+          "id": "I",
+          "text": "minimum"
+        },
+        {
+          "id": "J",
+          "text": "radiating"
+        },
+        {
+          "id": "K",
+          "text": "ration"
+        },
+        {
+          "id": "L",
+          "text": "shooting"
+        },
+        {
+          "id": "M",
+          "text": "subscribe"
+        },
+        {
+          "id": "N",
+          "text": "systematic"
+        },
+        {
+          "id": "O",
+          "text": "weighing"
+        }
+      ],
+      "correctAnswer": "O",
+      "hint": "先看第 32 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 O（weighing）。本空所在句：\"In [32] ____ the evidence, we can now say with some confidence that pasta does not have an [33] ____ effect on body weight outcomes when it is consumed as part of a healthy dietary pattern.\" In fact, analysis actually showed a small weight loss [34] ____ to concerns.\n将本空替换为 weighing 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-1-nonlistening-q33",
+      "canonicalId": "lazynote-cet6-2019-06-1-q33",
+      "number": 33,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 33 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Pasta is no longer off the menu, after a new review of studies suggested that the carbohydrate can form part of a healthy diet, and even help people lose weight. For years, nutritionists have recommended that pasta be kept to a [26] ____ , to cut calories, prevent fat build-up and stop blood sugar [27] ____ up.\n\nThe low-carbohydrate food movement gave birth to such diets as the Atkins, Paleo and Keto, which advised swapping foods like bread, pasta and potatoes for vegetables, fish and meat. More recently the trend of swapping spaghetti for vegetables has been [28] ____ by clean-eating experts.\n\nBut now a [29] ____ review and analysis of 30 studies by Canadian researchers found that not only does pasta not cause weight gain, but three meals a week can help people drop more than half a kilogram over four months. The reviewers found that pasta had been unfairly demonized(妖魔化) because it had been [30] ____ in with other, more fat-promoting carbohydrates.\n\n\"The study found that pasta didn't [31] ____ to weight gain or increase in body fat,\" said lead author Dr. John Sievenpiper. \"In [32] ____ the evidence, we can now say with some confidence that pasta does not have an [33] ____ effect on body weight outcomes when it is consumed as part of a healthy dietary pattern.\" In fact, analysis actually showed a small weight loss [34] ____ to concerns. Perhaps pasta can be part of a healthy diet.\n\nThose involved in the [35] ____ trials on average ate 3.3 servings of pasta a week instead of other carbohydrates, one serving equaling around half a cup. They lost around half a kilogram over an average follow-up of 12 weeks.",
+      "options": [
+        {
+          "id": "A",
+          "text": "adverse"
+        },
+        {
+          "id": "B",
+          "text": "championed"
+        },
+        {
+          "id": "C",
+          "text": "clinical"
+        },
+        {
+          "id": "D",
+          "text": "contrary"
+        },
+        {
+          "id": "E",
+          "text": "contribute"
+        },
+        {
+          "id": "F",
+          "text": "intimate"
+        },
+        {
+          "id": "G",
+          "text": "lumped"
+        },
+        {
+          "id": "H",
+          "text": "magnified"
+        },
+        {
+          "id": "I",
+          "text": "minimum"
+        },
+        {
+          "id": "J",
+          "text": "radiating"
+        },
+        {
+          "id": "K",
+          "text": "ration"
+        },
+        {
+          "id": "L",
+          "text": "shooting"
+        },
+        {
+          "id": "M",
+          "text": "subscribe"
+        },
+        {
+          "id": "N",
+          "text": "systematic"
+        },
+        {
+          "id": "O",
+          "text": "weighing"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "先看第 33 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 A（adverse）。本空所在句：\"In [32] ____ the evidence, we can now say with some confidence that pasta does not have an [33] ____ effect on body weight outcomes when it is consumed as part of a healthy dietary pattern.\" In fact, analysis actually showed a small weight loss [34] ____ to concerns.\n将本空替换为 adverse 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-1-nonlistening-q34",
+      "canonicalId": "lazynote-cet6-2019-06-1-q34",
+      "number": 34,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 34 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Pasta is no longer off the menu, after a new review of studies suggested that the carbohydrate can form part of a healthy diet, and even help people lose weight. For years, nutritionists have recommended that pasta be kept to a [26] ____ , to cut calories, prevent fat build-up and stop blood sugar [27] ____ up.\n\nThe low-carbohydrate food movement gave birth to such diets as the Atkins, Paleo and Keto, which advised swapping foods like bread, pasta and potatoes for vegetables, fish and meat. More recently the trend of swapping spaghetti for vegetables has been [28] ____ by clean-eating experts.\n\nBut now a [29] ____ review and analysis of 30 studies by Canadian researchers found that not only does pasta not cause weight gain, but three meals a week can help people drop more than half a kilogram over four months. The reviewers found that pasta had been unfairly demonized(妖魔化) because it had been [30] ____ in with other, more fat-promoting carbohydrates.\n\n\"The study found that pasta didn't [31] ____ to weight gain or increase in body fat,\" said lead author Dr. John Sievenpiper. \"In [32] ____ the evidence, we can now say with some confidence that pasta does not have an [33] ____ effect on body weight outcomes when it is consumed as part of a healthy dietary pattern.\" In fact, analysis actually showed a small weight loss [34] ____ to concerns. Perhaps pasta can be part of a healthy diet.\n\nThose involved in the [35] ____ trials on average ate 3.3 servings of pasta a week instead of other carbohydrates, one serving equaling around half a cup. They lost around half a kilogram over an average follow-up of 12 weeks.",
+      "options": [
+        {
+          "id": "A",
+          "text": "adverse"
+        },
+        {
+          "id": "B",
+          "text": "championed"
+        },
+        {
+          "id": "C",
+          "text": "clinical"
+        },
+        {
+          "id": "D",
+          "text": "contrary"
+        },
+        {
+          "id": "E",
+          "text": "contribute"
+        },
+        {
+          "id": "F",
+          "text": "intimate"
+        },
+        {
+          "id": "G",
+          "text": "lumped"
+        },
+        {
+          "id": "H",
+          "text": "magnified"
+        },
+        {
+          "id": "I",
+          "text": "minimum"
+        },
+        {
+          "id": "J",
+          "text": "radiating"
+        },
+        {
+          "id": "K",
+          "text": "ration"
+        },
+        {
+          "id": "L",
+          "text": "shooting"
+        },
+        {
+          "id": "M",
+          "text": "subscribe"
+        },
+        {
+          "id": "N",
+          "text": "systematic"
+        },
+        {
+          "id": "O",
+          "text": "weighing"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "先看第 34 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 D（contrary）。本空所在句：\"In [32] ____ the evidence, we can now say with some confidence that pasta does not have an [33] ____ effect on body weight outcomes when it is consumed as part of a healthy dietary pattern.\" In fact, analysis actually showed a small weight loss [34] ____ to concerns.\n将本空替换为 contrary 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-1-nonlistening-q35",
+      "canonicalId": "lazynote-cet6-2019-06-1-q35",
+      "number": 35,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 35 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Pasta is no longer off the menu, after a new review of studies suggested that the carbohydrate can form part of a healthy diet, and even help people lose weight. For years, nutritionists have recommended that pasta be kept to a [26] ____ , to cut calories, prevent fat build-up and stop blood sugar [27] ____ up.\n\nThe low-carbohydrate food movement gave birth to such diets as the Atkins, Paleo and Keto, which advised swapping foods like bread, pasta and potatoes for vegetables, fish and meat. More recently the trend of swapping spaghetti for vegetables has been [28] ____ by clean-eating experts.\n\nBut now a [29] ____ review and analysis of 30 studies by Canadian researchers found that not only does pasta not cause weight gain, but three meals a week can help people drop more than half a kilogram over four months. The reviewers found that pasta had been unfairly demonized(妖魔化) because it had been [30] ____ in with other, more fat-promoting carbohydrates.\n\n\"The study found that pasta didn't [31] ____ to weight gain or increase in body fat,\" said lead author Dr. John Sievenpiper. \"In [32] ____ the evidence, we can now say with some confidence that pasta does not have an [33] ____ effect on body weight outcomes when it is consumed as part of a healthy dietary pattern.\" In fact, analysis actually showed a small weight loss [34] ____ to concerns. Perhaps pasta can be part of a healthy diet.\n\nThose involved in the [35] ____ trials on average ate 3.3 servings of pasta a week instead of other carbohydrates, one serving equaling around half a cup. They lost around half a kilogram over an average follow-up of 12 weeks.",
+      "options": [
+        {
+          "id": "A",
+          "text": "adverse"
+        },
+        {
+          "id": "B",
+          "text": "championed"
+        },
+        {
+          "id": "C",
+          "text": "clinical"
+        },
+        {
+          "id": "D",
+          "text": "contrary"
+        },
+        {
+          "id": "E",
+          "text": "contribute"
+        },
+        {
+          "id": "F",
+          "text": "intimate"
+        },
+        {
+          "id": "G",
+          "text": "lumped"
+        },
+        {
+          "id": "H",
+          "text": "magnified"
+        },
+        {
+          "id": "I",
+          "text": "minimum"
+        },
+        {
+          "id": "J",
+          "text": "radiating"
+        },
+        {
+          "id": "K",
+          "text": "ration"
+        },
+        {
+          "id": "L",
+          "text": "shooting"
+        },
+        {
+          "id": "M",
+          "text": "subscribe"
+        },
+        {
+          "id": "N",
+          "text": "systematic"
+        },
+        {
+          "id": "O",
+          "text": "weighing"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "先看第 35 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 C（clinical）。本空所在句：Those involved in the [35] ____ trials on average ate 3.3 servings of pasta a week instead of other carbohydrates, one serving equaling around half a cup.\n将本空替换为 clinical 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-1-nonlistening-q36",
+      "canonicalId": "lazynote-cet6-2019-06-1-q36",
+      "number": 36,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Although online retailing has existed for some twenty years, nearly half of the internet retailers still fail to receive satisfactory feedback from consumers, according to a recent survey.",
+      "passage": "The Best Retailers Combine Bricks and Clicks\n\nA) Retail profits are falling sharply. Stores are closing. Malls are emptying. The depressing stories just keep coming. Reading the earnings announcements of large retail stores like Macy's, Nordstrom, and Target is about as uplifting as a tour of an intensive care unit. The internet is apparently taking down yet another industry. Brick and mortar stores(实体店) seem to be going the way of the yellow pages. Sure enough, the Census Bureau just released data showing that online retail sales surged 15.2 percent between the first quarter of 2015 and the first quarter of 2016.\n\nB) But before you dump all of your retail stocks, there are more facts you should consider. Looking only at that 15.2 percent \"surge\" would be misleading. It was an increase that was on a small base of 6.9 percent. Even when a tiny number grows by a large percentage terms, it is often still tiny.\n\nC) More than 20 years after the internet was opened to commerce, the Census Bureau tells us that brick and mortar sales accounted for 92.3 percent of retail sales in the first quarter of 2016. Their data show that only 0.8 percent of retail sales shifted from offline to online between the beginning of 2015 and 2016.\n\nD) So, despite all the talk about drone(无人机) deliveries to your doorstep, all the retail executives expressing anxiety over consumers going online, and even a Presidential candidate exclaiming that Amazon has a \"huge antitrust problem,\" the Census data suggest that physical retail is thriving. Of course, the closed stores, depressed executives, and sinking stocks suggest otherwise. What's the real story?\n\nE) Many firms operating brick and mortar stores are in trouble. The retail industry is getting reinvented, as we describe in our new book Matchmakers. It's standing in the path of what Schumpeter called a gale(大风) of creative destruction. That storm has been brewing for some time, and as it has reached gale force, most large retailers are searching for a response. As the CFO of Macy's put it recently, \"We're frankly scratching our heads.\"\n\nF) But it's not happening as experts predicted. In the peak of the dot-com bubble, brick and mortar retail was one of those industries the internet was going to kill—and quickly. The dot-com bust discredited most predictions of that sort and in the years that followed, conventional retailers' confidence in the future increased as Census continued to report weak online sales. And then the gale hit.\n\nG) It is becoming increasingly clear that retail reinvention isn't a simple battle to the death between bricks and clicks. It is about devising retail models that work for people who are making increasing use of a growing array of internet-connected tools to change how they search, shop, and buy. Creative retailers are using the new technologies to innovate just about everything stores do from managing inventory, to marketing, to getting paid.\n\nH) More than drones dropping a new supply of underwear on your doorstep, Apple's massively successful brick-and-mortar-and-glass retail stores and Amazon's small steps in the same direction are what should keep old-fashioned retailers awake at night. Not to mention the large number of creative new retailers, like Bonobos, that are blending online and offline experiences in creative ways.\n\nI) Retail reinvention is not a simple process, and it's also not happening on what used to be called \"Internet Time.\" Some internet-driven changes have happened quickly, of course. Craigslist quickly overtook newspaper classified ads and turned newspaper economics upside down. But many widely anticipated changes weren't quick, and some haven't really started. With the benefit of hindsight(后见之明), it looks like the internet will transform the economy at something like the pace of other great inventions like electricity. B2B commerce, for example, didn't move mainly online by 2005 as many had predicted in 2000, nor even by 2016, but that doesn't mean it won't do so over the next few decades.\n\nJ) But the gale is still blowing. The sudden decline in foot traffic in recent years, even though it hasn't been accompanied by a massive decline in physical sales, is a critical warning. People can shop more efficiently online and therefore don't need to go to as many stores to find what they want. There's a surplus of physical shopping space for the crowds, which is one reason why stores are downsizing and closing.\n\nK) The rise of the mobile phone has recently added a new level of complexity to the process of retail reinvention. Even five years ago most people faced a choice. Sit at your computer, probably at home or at the office, search and browse, and buy. Or head out to the mall, or Main Street, look and shop, and buy. Now, just about everyone has a smartphone, connected to the internet almost everywhere almost all the time. Even when a retailer gets a customer to walk in the store, she can easily see if there's a better deal online or at another store nearby.\n\nL) So far, the main thing many large retailers have done in response to all this is to open online stores, so people will come to them directly rather than to Amazon and its smaller online rivals. Many are having the same problem that newspapers have. Even if they get online traffic, they struggle to make enough money online to compensate for what they are losing offline.\n\nM) A few seem to be making this work. Among large traditional retailers, Walmart recently reported the best results, leading its stock price to surge, while Macy's, Target, and Nordstrom's dropped. Yet Walmart's year-over-year online sales only grew 7 percent, leading its CEO to lament(哀叹), \"Growth here is too slow.\" Part of the problem is that almost two decades after Amazon filed the one-click patent, the online retail shopping and buying experience is filled with frictions. A recent study graded more than 600 internet retailers on how easy it was for consumers to shop, buy, and pay. Almost half of the sites didn't get a passing grade and only 18 percent got an A or B.\n\nN) The turmoil on the ground in physical retail is hard to square with the Census data. Unfortunately, part of the explanation is that the Census retail data are unreliable. Our deep look into those data and their preparation revealed serious problems. It seems likely that Census simply misclassifies a large chunk of online sales. It is certain that the Census procedures, which lump the online sales of major traditional retailers like Walmart with \"non-store retailers\" like food trucks can mask major changes in individual retail categories. The bureau could easily present their data in more useful ways. But they have chosen not to.\n\nO) Despite the turmoil, brick and mortar won't disappear any time soon. The big questions are which, if any, of the large traditional retailers will still be on the scene in a decade or two because they have successfully reinvented themselves, which new players will operate busy stores on Main Streets and maybe even in shopping malls, and how the shopping and buying experience will have changed in each retail category. Investors shouldn't write off brick and mortar. Whether they should bet on the traditional players who run those stores now is another matter.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        }
+      ],
+      "correctAnswer": "M",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 M 段。题干：Although online retailing has existed for some twenty years, nearly half of the internet retailers still fail to receive satisfactory feedback from consumers, according to a recent survey.\n核对该段原文：A few seem to be making this work. Among large traditional retailers, Walmart recently reported the best results, leading its stock price to surge, while Macy's, Target, and Nordstrom's dropped. Yet Walmart's year-over-year online sales only grew 7 percent, leading its CEO to lament(哀叹), \"Growth here is too slow.\" Part of the problem is that almost two decades after Amazon filed the one-click patent, the online retail shopping and buying experience is filled with frictions. A recent study graded more than 600 internet retailers on how easy it was for consumers to shop, buy, and pay. Almost half of the sites didn't get a passing grade and only 18 percent got an A or B.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-1-nonlistening-q37",
+      "canonicalId": "lazynote-cet6-2019-06-1-q37",
+      "number": 37,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Innovative retailers integrate internet technologies with conventional retailing to create new retail models.",
+      "passage": "The Best Retailers Combine Bricks and Clicks\n\nA) Retail profits are falling sharply. Stores are closing. Malls are emptying. The depressing stories just keep coming. Reading the earnings announcements of large retail stores like Macy's, Nordstrom, and Target is about as uplifting as a tour of an intensive care unit. The internet is apparently taking down yet another industry. Brick and mortar stores(实体店) seem to be going the way of the yellow pages. Sure enough, the Census Bureau just released data showing that online retail sales surged 15.2 percent between the first quarter of 2015 and the first quarter of 2016.\n\nB) But before you dump all of your retail stocks, there are more facts you should consider. Looking only at that 15.2 percent \"surge\" would be misleading. It was an increase that was on a small base of 6.9 percent. Even when a tiny number grows by a large percentage terms, it is often still tiny.\n\nC) More than 20 years after the internet was opened to commerce, the Census Bureau tells us that brick and mortar sales accounted for 92.3 percent of retail sales in the first quarter of 2016. Their data show that only 0.8 percent of retail sales shifted from offline to online between the beginning of 2015 and 2016.\n\nD) So, despite all the talk about drone(无人机) deliveries to your doorstep, all the retail executives expressing anxiety over consumers going online, and even a Presidential candidate exclaiming that Amazon has a \"huge antitrust problem,\" the Census data suggest that physical retail is thriving. Of course, the closed stores, depressed executives, and sinking stocks suggest otherwise. What's the real story?\n\nE) Many firms operating brick and mortar stores are in trouble. The retail industry is getting reinvented, as we describe in our new book Matchmakers. It's standing in the path of what Schumpeter called a gale(大风) of creative destruction. That storm has been brewing for some time, and as it has reached gale force, most large retailers are searching for a response. As the CFO of Macy's put it recently, \"We're frankly scratching our heads.\"\n\nF) But it's not happening as experts predicted. In the peak of the dot-com bubble, brick and mortar retail was one of those industries the internet was going to kill—and quickly. The dot-com bust discredited most predictions of that sort and in the years that followed, conventional retailers' confidence in the future increased as Census continued to report weak online sales. And then the gale hit.\n\nG) It is becoming increasingly clear that retail reinvention isn't a simple battle to the death between bricks and clicks. It is about devising retail models that work for people who are making increasing use of a growing array of internet-connected tools to change how they search, shop, and buy. Creative retailers are using the new technologies to innovate just about everything stores do from managing inventory, to marketing, to getting paid.\n\nH) More than drones dropping a new supply of underwear on your doorstep, Apple's massively successful brick-and-mortar-and-glass retail stores and Amazon's small steps in the same direction are what should keep old-fashioned retailers awake at night. Not to mention the large number of creative new retailers, like Bonobos, that are blending online and offline experiences in creative ways.\n\nI) Retail reinvention is not a simple process, and it's also not happening on what used to be called \"Internet Time.\" Some internet-driven changes have happened quickly, of course. Craigslist quickly overtook newspaper classified ads and turned newspaper economics upside down. But many widely anticipated changes weren't quick, and some haven't really started. With the benefit of hindsight(后见之明), it looks like the internet will transform the economy at something like the pace of other great inventions like electricity. B2B commerce, for example, didn't move mainly online by 2005 as many had predicted in 2000, nor even by 2016, but that doesn't mean it won't do so over the next few decades.\n\nJ) But the gale is still blowing. The sudden decline in foot traffic in recent years, even though it hasn't been accompanied by a massive decline in physical sales, is a critical warning. People can shop more efficiently online and therefore don't need to go to as many stores to find what they want. There's a surplus of physical shopping space for the crowds, which is one reason why stores are downsizing and closing.\n\nK) The rise of the mobile phone has recently added a new level of complexity to the process of retail reinvention. Even five years ago most people faced a choice. Sit at your computer, probably at home or at the office, search and browse, and buy. Or head out to the mall, or Main Street, look and shop, and buy. Now, just about everyone has a smartphone, connected to the internet almost everywhere almost all the time. Even when a retailer gets a customer to walk in the store, she can easily see if there's a better deal online or at another store nearby.\n\nL) So far, the main thing many large retailers have done in response to all this is to open online stores, so people will come to them directly rather than to Amazon and its smaller online rivals. Many are having the same problem that newspapers have. Even if they get online traffic, they struggle to make enough money online to compensate for what they are losing offline.\n\nM) A few seem to be making this work. Among large traditional retailers, Walmart recently reported the best results, leading its stock price to surge, while Macy's, Target, and Nordstrom's dropped. Yet Walmart's year-over-year online sales only grew 7 percent, leading its CEO to lament(哀叹), \"Growth here is too slow.\" Part of the problem is that almost two decades after Amazon filed the one-click patent, the online retail shopping and buying experience is filled with frictions. A recent study graded more than 600 internet retailers on how easy it was for consumers to shop, buy, and pay. Almost half of the sites didn't get a passing grade and only 18 percent got an A or B.\n\nN) The turmoil on the ground in physical retail is hard to square with the Census data. Unfortunately, part of the explanation is that the Census retail data are unreliable. Our deep look into those data and their preparation revealed serious problems. It seems likely that Census simply misclassifies a large chunk of online sales. It is certain that the Census procedures, which lump the online sales of major traditional retailers like Walmart with \"non-store retailers\" like food trucks can mask major changes in individual retail categories. The bureau could easily present their data in more useful ways. But they have chosen not to.\n\nO) Despite the turmoil, brick and mortar won't disappear any time soon. The big questions are which, if any, of the large traditional retailers will still be on the scene in a decade or two because they have successfully reinvented themselves, which new players will operate busy stores on Main Streets and maybe even in shopping malls, and how the shopping and buying experience will have changed in each retail category. Investors shouldn't write off brick and mortar. Whether they should bet on the traditional players who run those stores now is another matter.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 G 段。题干：Innovative retailers integrate internet technologies with conventional retailing to create new retail models.\n核对该段原文：It is becoming increasingly clear that retail reinvention isn't a simple battle to the death between bricks and clicks. It is about devising retail models that work for people who are making increasing use of a growing array of internet-connected tools to change how they search, shop, and buy. Creative retailers are using the new technologies to innovate just about everything stores do from managing inventory, to marketing, to getting paid.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-1-nonlistening-q38",
+      "canonicalId": "lazynote-cet6-2019-06-1-q38",
+      "number": 38,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Despite what the Census data suggest, the value of physical retail's stocks has been dropping.",
+      "passage": "The Best Retailers Combine Bricks and Clicks\n\nA) Retail profits are falling sharply. Stores are closing. Malls are emptying. The depressing stories just keep coming. Reading the earnings announcements of large retail stores like Macy's, Nordstrom, and Target is about as uplifting as a tour of an intensive care unit. The internet is apparently taking down yet another industry. Brick and mortar stores(实体店) seem to be going the way of the yellow pages. Sure enough, the Census Bureau just released data showing that online retail sales surged 15.2 percent between the first quarter of 2015 and the first quarter of 2016.\n\nB) But before you dump all of your retail stocks, there are more facts you should consider. Looking only at that 15.2 percent \"surge\" would be misleading. It was an increase that was on a small base of 6.9 percent. Even when a tiny number grows by a large percentage terms, it is often still tiny.\n\nC) More than 20 years after the internet was opened to commerce, the Census Bureau tells us that brick and mortar sales accounted for 92.3 percent of retail sales in the first quarter of 2016. Their data show that only 0.8 percent of retail sales shifted from offline to online between the beginning of 2015 and 2016.\n\nD) So, despite all the talk about drone(无人机) deliveries to your doorstep, all the retail executives expressing anxiety over consumers going online, and even a Presidential candidate exclaiming that Amazon has a \"huge antitrust problem,\" the Census data suggest that physical retail is thriving. Of course, the closed stores, depressed executives, and sinking stocks suggest otherwise. What's the real story?\n\nE) Many firms operating brick and mortar stores are in trouble. The retail industry is getting reinvented, as we describe in our new book Matchmakers. It's standing in the path of what Schumpeter called a gale(大风) of creative destruction. That storm has been brewing for some time, and as it has reached gale force, most large retailers are searching for a response. As the CFO of Macy's put it recently, \"We're frankly scratching our heads.\"\n\nF) But it's not happening as experts predicted. In the peak of the dot-com bubble, brick and mortar retail was one of those industries the internet was going to kill—and quickly. The dot-com bust discredited most predictions of that sort and in the years that followed, conventional retailers' confidence in the future increased as Census continued to report weak online sales. And then the gale hit.\n\nG) It is becoming increasingly clear that retail reinvention isn't a simple battle to the death between bricks and clicks. It is about devising retail models that work for people who are making increasing use of a growing array of internet-connected tools to change how they search, shop, and buy. Creative retailers are using the new technologies to innovate just about everything stores do from managing inventory, to marketing, to getting paid.\n\nH) More than drones dropping a new supply of underwear on your doorstep, Apple's massively successful brick-and-mortar-and-glass retail stores and Amazon's small steps in the same direction are what should keep old-fashioned retailers awake at night. Not to mention the large number of creative new retailers, like Bonobos, that are blending online and offline experiences in creative ways.\n\nI) Retail reinvention is not a simple process, and it's also not happening on what used to be called \"Internet Time.\" Some internet-driven changes have happened quickly, of course. Craigslist quickly overtook newspaper classified ads and turned newspaper economics upside down. But many widely anticipated changes weren't quick, and some haven't really started. With the benefit of hindsight(后见之明), it looks like the internet will transform the economy at something like the pace of other great inventions like electricity. B2B commerce, for example, didn't move mainly online by 2005 as many had predicted in 2000, nor even by 2016, but that doesn't mean it won't do so over the next few decades.\n\nJ) But the gale is still blowing. The sudden decline in foot traffic in recent years, even though it hasn't been accompanied by a massive decline in physical sales, is a critical warning. People can shop more efficiently online and therefore don't need to go to as many stores to find what they want. There's a surplus of physical shopping space for the crowds, which is one reason why stores are downsizing and closing.\n\nK) The rise of the mobile phone has recently added a new level of complexity to the process of retail reinvention. Even five years ago most people faced a choice. Sit at your computer, probably at home or at the office, search and browse, and buy. Or head out to the mall, or Main Street, look and shop, and buy. Now, just about everyone has a smartphone, connected to the internet almost everywhere almost all the time. Even when a retailer gets a customer to walk in the store, she can easily see if there's a better deal online or at another store nearby.\n\nL) So far, the main thing many large retailers have done in response to all this is to open online stores, so people will come to them directly rather than to Amazon and its smaller online rivals. Many are having the same problem that newspapers have. Even if they get online traffic, they struggle to make enough money online to compensate for what they are losing offline.\n\nM) A few seem to be making this work. Among large traditional retailers, Walmart recently reported the best results, leading its stock price to surge, while Macy's, Target, and Nordstrom's dropped. Yet Walmart's year-over-year online sales only grew 7 percent, leading its CEO to lament(哀叹), \"Growth here is too slow.\" Part of the problem is that almost two decades after Amazon filed the one-click patent, the online retail shopping and buying experience is filled with frictions. A recent study graded more than 600 internet retailers on how easy it was for consumers to shop, buy, and pay. Almost half of the sites didn't get a passing grade and only 18 percent got an A or B.\n\nN) The turmoil on the ground in physical retail is hard to square with the Census data. Unfortunately, part of the explanation is that the Census retail data are unreliable. Our deep look into those data and their preparation revealed serious problems. It seems likely that Census simply misclassifies a large chunk of online sales. It is certain that the Census procedures, which lump the online sales of major traditional retailers like Walmart with \"non-store retailers\" like food trucks can mask major changes in individual retail categories. The bureau could easily present their data in more useful ways. But they have chosen not to.\n\nO) Despite the turmoil, brick and mortar won't disappear any time soon. The big questions are which, if any, of the large traditional retailers will still be on the scene in a decade or two because they have successfully reinvented themselves, which new players will operate busy stores on Main Streets and maybe even in shopping malls, and how the shopping and buying experience will have changed in each retail category. Investors shouldn't write off brick and mortar. Whether they should bet on the traditional players who run those stores now is another matter.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 D 段。题干：Despite what the Census data suggest, the value of physical retail's stocks has been dropping.\n核对该段原文：So, despite all the talk about drone(无人机) deliveries to your doorstep, all the retail executives expressing anxiety over consumers going online, and even a Presidential candidate exclaiming that Amazon has a \"huge antitrust problem,\" the Census data suggest that physical retail is thriving. Of course, the closed stores, depressed executives, and sinking stocks suggest otherwise. What's the real story?\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-1-nonlistening-q39",
+      "canonicalId": "lazynote-cet6-2019-06-1-q39",
+      "number": 39,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Innovative-driven changes in the retail industry didn't take place as quickly as widely anticipated.",
+      "passage": "The Best Retailers Combine Bricks and Clicks\n\nA) Retail profits are falling sharply. Stores are closing. Malls are emptying. The depressing stories just keep coming. Reading the earnings announcements of large retail stores like Macy's, Nordstrom, and Target is about as uplifting as a tour of an intensive care unit. The internet is apparently taking down yet another industry. Brick and mortar stores(实体店) seem to be going the way of the yellow pages. Sure enough, the Census Bureau just released data showing that online retail sales surged 15.2 percent between the first quarter of 2015 and the first quarter of 2016.\n\nB) But before you dump all of your retail stocks, there are more facts you should consider. Looking only at that 15.2 percent \"surge\" would be misleading. It was an increase that was on a small base of 6.9 percent. Even when a tiny number grows by a large percentage terms, it is often still tiny.\n\nC) More than 20 years after the internet was opened to commerce, the Census Bureau tells us that brick and mortar sales accounted for 92.3 percent of retail sales in the first quarter of 2016. Their data show that only 0.8 percent of retail sales shifted from offline to online between the beginning of 2015 and 2016.\n\nD) So, despite all the talk about drone(无人机) deliveries to your doorstep, all the retail executives expressing anxiety over consumers going online, and even a Presidential candidate exclaiming that Amazon has a \"huge antitrust problem,\" the Census data suggest that physical retail is thriving. Of course, the closed stores, depressed executives, and sinking stocks suggest otherwise. What's the real story?\n\nE) Many firms operating brick and mortar stores are in trouble. The retail industry is getting reinvented, as we describe in our new book Matchmakers. It's standing in the path of what Schumpeter called a gale(大风) of creative destruction. That storm has been brewing for some time, and as it has reached gale force, most large retailers are searching for a response. As the CFO of Macy's put it recently, \"We're frankly scratching our heads.\"\n\nF) But it's not happening as experts predicted. In the peak of the dot-com bubble, brick and mortar retail was one of those industries the internet was going to kill—and quickly. The dot-com bust discredited most predictions of that sort and in the years that followed, conventional retailers' confidence in the future increased as Census continued to report weak online sales. And then the gale hit.\n\nG) It is becoming increasingly clear that retail reinvention isn't a simple battle to the death between bricks and clicks. It is about devising retail models that work for people who are making increasing use of a growing array of internet-connected tools to change how they search, shop, and buy. Creative retailers are using the new technologies to innovate just about everything stores do from managing inventory, to marketing, to getting paid.\n\nH) More than drones dropping a new supply of underwear on your doorstep, Apple's massively successful brick-and-mortar-and-glass retail stores and Amazon's small steps in the same direction are what should keep old-fashioned retailers awake at night. Not to mention the large number of creative new retailers, like Bonobos, that are blending online and offline experiences in creative ways.\n\nI) Retail reinvention is not a simple process, and it's also not happening on what used to be called \"Internet Time.\" Some internet-driven changes have happened quickly, of course. Craigslist quickly overtook newspaper classified ads and turned newspaper economics upside down. But many widely anticipated changes weren't quick, and some haven't really started. With the benefit of hindsight(后见之明), it looks like the internet will transform the economy at something like the pace of other great inventions like electricity. B2B commerce, for example, didn't move mainly online by 2005 as many had predicted in 2000, nor even by 2016, but that doesn't mean it won't do so over the next few decades.\n\nJ) But the gale is still blowing. The sudden decline in foot traffic in recent years, even though it hasn't been accompanied by a massive decline in physical sales, is a critical warning. People can shop more efficiently online and therefore don't need to go to as many stores to find what they want. There's a surplus of physical shopping space for the crowds, which is one reason why stores are downsizing and closing.\n\nK) The rise of the mobile phone has recently added a new level of complexity to the process of retail reinvention. Even five years ago most people faced a choice. Sit at your computer, probably at home or at the office, search and browse, and buy. Or head out to the mall, or Main Street, look and shop, and buy. Now, just about everyone has a smartphone, connected to the internet almost everywhere almost all the time. Even when a retailer gets a customer to walk in the store, she can easily see if there's a better deal online or at another store nearby.\n\nL) So far, the main thing many large retailers have done in response to all this is to open online stores, so people will come to them directly rather than to Amazon and its smaller online rivals. Many are having the same problem that newspapers have. Even if they get online traffic, they struggle to make enough money online to compensate for what they are losing offline.\n\nM) A few seem to be making this work. Among large traditional retailers, Walmart recently reported the best results, leading its stock price to surge, while Macy's, Target, and Nordstrom's dropped. Yet Walmart's year-over-year online sales only grew 7 percent, leading its CEO to lament(哀叹), \"Growth here is too slow.\" Part of the problem is that almost two decades after Amazon filed the one-click patent, the online retail shopping and buying experience is filled with frictions. A recent study graded more than 600 internet retailers on how easy it was for consumers to shop, buy, and pay. Almost half of the sites didn't get a passing grade and only 18 percent got an A or B.\n\nN) The turmoil on the ground in physical retail is hard to square with the Census data. Unfortunately, part of the explanation is that the Census retail data are unreliable. Our deep look into those data and their preparation revealed serious problems. It seems likely that Census simply misclassifies a large chunk of online sales. It is certain that the Census procedures, which lump the online sales of major traditional retailers like Walmart with \"non-store retailers\" like food trucks can mask major changes in individual retail categories. The bureau could easily present their data in more useful ways. But they have chosen not to.\n\nO) Despite the turmoil, brick and mortar won't disappear any time soon. The big questions are which, if any, of the large traditional retailers will still be on the scene in a decade or two because they have successfully reinvented themselves, which new players will operate busy stores on Main Streets and maybe even in shopping malls, and how the shopping and buying experience will have changed in each retail category. Investors shouldn't write off brick and mortar. Whether they should bet on the traditional players who run those stores now is another matter.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 I 段。题干：Innovative-driven changes in the retail industry didn't take place as quickly as widely anticipated.\n核对该段原文：Retail reinvention is not a simple process, and it's also not happening on what used to be called \"Internet Time.\" Some internet-driven changes have happened quickly, of course. Craigslist quickly overtook newspaper classified ads and turned newspaper economics upside down. But many widely anticipated changes weren't quick, and some haven't really started. With the benefit of hindsight(后见之明), it looks like the internet will transform the economy at something like the pace of other great inventions like electricity. B2B commerce, for example, didn't move mainly online by 2005 as many had predicted in 2000, nor even by 2016, but that doesn't mean it won't do so over the next few decades.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-1-nonlistening-q40",
+      "canonicalId": "lazynote-cet6-2019-06-1-q40",
+      "number": 40,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Statistics indicate that brick and mortar sales still made up the lion's share of the retail business.",
+      "passage": "The Best Retailers Combine Bricks and Clicks\n\nA) Retail profits are falling sharply. Stores are closing. Malls are emptying. The depressing stories just keep coming. Reading the earnings announcements of large retail stores like Macy's, Nordstrom, and Target is about as uplifting as a tour of an intensive care unit. The internet is apparently taking down yet another industry. Brick and mortar stores(实体店) seem to be going the way of the yellow pages. Sure enough, the Census Bureau just released data showing that online retail sales surged 15.2 percent between the first quarter of 2015 and the first quarter of 2016.\n\nB) But before you dump all of your retail stocks, there are more facts you should consider. Looking only at that 15.2 percent \"surge\" would be misleading. It was an increase that was on a small base of 6.9 percent. Even when a tiny number grows by a large percentage terms, it is often still tiny.\n\nC) More than 20 years after the internet was opened to commerce, the Census Bureau tells us that brick and mortar sales accounted for 92.3 percent of retail sales in the first quarter of 2016. Their data show that only 0.8 percent of retail sales shifted from offline to online between the beginning of 2015 and 2016.\n\nD) So, despite all the talk about drone(无人机) deliveries to your doorstep, all the retail executives expressing anxiety over consumers going online, and even a Presidential candidate exclaiming that Amazon has a \"huge antitrust problem,\" the Census data suggest that physical retail is thriving. Of course, the closed stores, depressed executives, and sinking stocks suggest otherwise. What's the real story?\n\nE) Many firms operating brick and mortar stores are in trouble. The retail industry is getting reinvented, as we describe in our new book Matchmakers. It's standing in the path of what Schumpeter called a gale(大风) of creative destruction. That storm has been brewing for some time, and as it has reached gale force, most large retailers are searching for a response. As the CFO of Macy's put it recently, \"We're frankly scratching our heads.\"\n\nF) But it's not happening as experts predicted. In the peak of the dot-com bubble, brick and mortar retail was one of those industries the internet was going to kill—and quickly. The dot-com bust discredited most predictions of that sort and in the years that followed, conventional retailers' confidence in the future increased as Census continued to report weak online sales. And then the gale hit.\n\nG) It is becoming increasingly clear that retail reinvention isn't a simple battle to the death between bricks and clicks. It is about devising retail models that work for people who are making increasing use of a growing array of internet-connected tools to change how they search, shop, and buy. Creative retailers are using the new technologies to innovate just about everything stores do from managing inventory, to marketing, to getting paid.\n\nH) More than drones dropping a new supply of underwear on your doorstep, Apple's massively successful brick-and-mortar-and-glass retail stores and Amazon's small steps in the same direction are what should keep old-fashioned retailers awake at night. Not to mention the large number of creative new retailers, like Bonobos, that are blending online and offline experiences in creative ways.\n\nI) Retail reinvention is not a simple process, and it's also not happening on what used to be called \"Internet Time.\" Some internet-driven changes have happened quickly, of course. Craigslist quickly overtook newspaper classified ads and turned newspaper economics upside down. But many widely anticipated changes weren't quick, and some haven't really started. With the benefit of hindsight(后见之明), it looks like the internet will transform the economy at something like the pace of other great inventions like electricity. B2B commerce, for example, didn't move mainly online by 2005 as many had predicted in 2000, nor even by 2016, but that doesn't mean it won't do so over the next few decades.\n\nJ) But the gale is still blowing. The sudden decline in foot traffic in recent years, even though it hasn't been accompanied by a massive decline in physical sales, is a critical warning. People can shop more efficiently online and therefore don't need to go to as many stores to find what they want. There's a surplus of physical shopping space for the crowds, which is one reason why stores are downsizing and closing.\n\nK) The rise of the mobile phone has recently added a new level of complexity to the process of retail reinvention. Even five years ago most people faced a choice. Sit at your computer, probably at home or at the office, search and browse, and buy. Or head out to the mall, or Main Street, look and shop, and buy. Now, just about everyone has a smartphone, connected to the internet almost everywhere almost all the time. Even when a retailer gets a customer to walk in the store, she can easily see if there's a better deal online or at another store nearby.\n\nL) So far, the main thing many large retailers have done in response to all this is to open online stores, so people will come to them directly rather than to Amazon and its smaller online rivals. Many are having the same problem that newspapers have. Even if they get online traffic, they struggle to make enough money online to compensate for what they are losing offline.\n\nM) A few seem to be making this work. Among large traditional retailers, Walmart recently reported the best results, leading its stock price to surge, while Macy's, Target, and Nordstrom's dropped. Yet Walmart's year-over-year online sales only grew 7 percent, leading its CEO to lament(哀叹), \"Growth here is too slow.\" Part of the problem is that almost two decades after Amazon filed the one-click patent, the online retail shopping and buying experience is filled with frictions. A recent study graded more than 600 internet retailers on how easy it was for consumers to shop, buy, and pay. Almost half of the sites didn't get a passing grade and only 18 percent got an A or B.\n\nN) The turmoil on the ground in physical retail is hard to square with the Census data. Unfortunately, part of the explanation is that the Census retail data are unreliable. Our deep look into those data and their preparation revealed serious problems. It seems likely that Census simply misclassifies a large chunk of online sales. It is certain that the Census procedures, which lump the online sales of major traditional retailers like Walmart with \"non-store retailers\" like food trucks can mask major changes in individual retail categories. The bureau could easily present their data in more useful ways. But they have chosen not to.\n\nO) Despite the turmoil, brick and mortar won't disappear any time soon. The big questions are which, if any, of the large traditional retailers will still be on the scene in a decade or two because they have successfully reinvented themselves, which new players will operate busy stores on Main Streets and maybe even in shopping malls, and how the shopping and buying experience will have changed in each retail category. Investors shouldn't write off brick and mortar. Whether they should bet on the traditional players who run those stores now is another matter.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 C 段。题干：Statistics indicate that brick and mortar sales still made up the lion's share of the retail business.\n核对该段原文：More than 20 years after the internet was opened to commerce, the Census Bureau tells us that brick and mortar sales accounted for 92.3 percent of retail sales in the first quarter of 2016. Their data show that only 0.8 percent of retail sales shifted from offline to online between the beginning of 2015 and 2016.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-1-nonlistening-q41",
+      "canonicalId": "lazynote-cet6-2019-06-1-q41",
+      "number": 41,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Companies that successfully combine online and offline business models may prove to be a big concern for traditional retailers.",
+      "passage": "The Best Retailers Combine Bricks and Clicks\n\nA) Retail profits are falling sharply. Stores are closing. Malls are emptying. The depressing stories just keep coming. Reading the earnings announcements of large retail stores like Macy's, Nordstrom, and Target is about as uplifting as a tour of an intensive care unit. The internet is apparently taking down yet another industry. Brick and mortar stores(实体店) seem to be going the way of the yellow pages. Sure enough, the Census Bureau just released data showing that online retail sales surged 15.2 percent between the first quarter of 2015 and the first quarter of 2016.\n\nB) But before you dump all of your retail stocks, there are more facts you should consider. Looking only at that 15.2 percent \"surge\" would be misleading. It was an increase that was on a small base of 6.9 percent. Even when a tiny number grows by a large percentage terms, it is often still tiny.\n\nC) More than 20 years after the internet was opened to commerce, the Census Bureau tells us that brick and mortar sales accounted for 92.3 percent of retail sales in the first quarter of 2016. Their data show that only 0.8 percent of retail sales shifted from offline to online between the beginning of 2015 and 2016.\n\nD) So, despite all the talk about drone(无人机) deliveries to your doorstep, all the retail executives expressing anxiety over consumers going online, and even a Presidential candidate exclaiming that Amazon has a \"huge antitrust problem,\" the Census data suggest that physical retail is thriving. Of course, the closed stores, depressed executives, and sinking stocks suggest otherwise. What's the real story?\n\nE) Many firms operating brick and mortar stores are in trouble. The retail industry is getting reinvented, as we describe in our new book Matchmakers. It's standing in the path of what Schumpeter called a gale(大风) of creative destruction. That storm has been brewing for some time, and as it has reached gale force, most large retailers are searching for a response. As the CFO of Macy's put it recently, \"We're frankly scratching our heads.\"\n\nF) But it's not happening as experts predicted. In the peak of the dot-com bubble, brick and mortar retail was one of those industries the internet was going to kill—and quickly. The dot-com bust discredited most predictions of that sort and in the years that followed, conventional retailers' confidence in the future increased as Census continued to report weak online sales. And then the gale hit.\n\nG) It is becoming increasingly clear that retail reinvention isn't a simple battle to the death between bricks and clicks. It is about devising retail models that work for people who are making increasing use of a growing array of internet-connected tools to change how they search, shop, and buy. Creative retailers are using the new technologies to innovate just about everything stores do from managing inventory, to marketing, to getting paid.\n\nH) More than drones dropping a new supply of underwear on your doorstep, Apple's massively successful brick-and-mortar-and-glass retail stores and Amazon's small steps in the same direction are what should keep old-fashioned retailers awake at night. Not to mention the large number of creative new retailers, like Bonobos, that are blending online and offline experiences in creative ways.\n\nI) Retail reinvention is not a simple process, and it's also not happening on what used to be called \"Internet Time.\" Some internet-driven changes have happened quickly, of course. Craigslist quickly overtook newspaper classified ads and turned newspaper economics upside down. But many widely anticipated changes weren't quick, and some haven't really started. With the benefit of hindsight(后见之明), it looks like the internet will transform the economy at something like the pace of other great inventions like electricity. B2B commerce, for example, didn't move mainly online by 2005 as many had predicted in 2000, nor even by 2016, but that doesn't mean it won't do so over the next few decades.\n\nJ) But the gale is still blowing. The sudden decline in foot traffic in recent years, even though it hasn't been accompanied by a massive decline in physical sales, is a critical warning. People can shop more efficiently online and therefore don't need to go to as many stores to find what they want. There's a surplus of physical shopping space for the crowds, which is one reason why stores are downsizing and closing.\n\nK) The rise of the mobile phone has recently added a new level of complexity to the process of retail reinvention. Even five years ago most people faced a choice. Sit at your computer, probably at home or at the office, search and browse, and buy. Or head out to the mall, or Main Street, look and shop, and buy. Now, just about everyone has a smartphone, connected to the internet almost everywhere almost all the time. Even when a retailer gets a customer to walk in the store, she can easily see if there's a better deal online or at another store nearby.\n\nL) So far, the main thing many large retailers have done in response to all this is to open online stores, so people will come to them directly rather than to Amazon and its smaller online rivals. Many are having the same problem that newspapers have. Even if they get online traffic, they struggle to make enough money online to compensate for what they are losing offline.\n\nM) A few seem to be making this work. Among large traditional retailers, Walmart recently reported the best results, leading its stock price to surge, while Macy's, Target, and Nordstrom's dropped. Yet Walmart's year-over-year online sales only grew 7 percent, leading its CEO to lament(哀叹), \"Growth here is too slow.\" Part of the problem is that almost two decades after Amazon filed the one-click patent, the online retail shopping and buying experience is filled with frictions. A recent study graded more than 600 internet retailers on how easy it was for consumers to shop, buy, and pay. Almost half of the sites didn't get a passing grade and only 18 percent got an A or B.\n\nN) The turmoil on the ground in physical retail is hard to square with the Census data. Unfortunately, part of the explanation is that the Census retail data are unreliable. Our deep look into those data and their preparation revealed serious problems. It seems likely that Census simply misclassifies a large chunk of online sales. It is certain that the Census procedures, which lump the online sales of major traditional retailers like Walmart with \"non-store retailers\" like food trucks can mask major changes in individual retail categories. The bureau could easily present their data in more useful ways. But they have chosen not to.\n\nO) Despite the turmoil, brick and mortar won't disappear any time soon. The big questions are which, if any, of the large traditional retailers will still be on the scene in a decade or two because they have successfully reinvented themselves, which new players will operate busy stores on Main Streets and maybe even in shopping malls, and how the shopping and buying experience will have changed in each retail category. Investors shouldn't write off brick and mortar. Whether they should bet on the traditional players who run those stores now is another matter.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 H 段。题干：Companies that successfully combine online and offline business models may prove to be a big concern for traditional retailers.\n核对该段原文：More than drones dropping a new supply of underwear on your doorstep, Apple's massively successful brick-and-mortar-and-glass retail stores and Amazon's small steps in the same direction are what should keep old-fashioned retailers awake at night. Not to mention the large number of creative new retailers, like Bonobos, that are blending online and offline experiences in creative ways.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-1-nonlistening-q42",
+      "canonicalId": "lazynote-cet6-2019-06-1-q42",
+      "number": 42,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Brick and mortar retailers' faith in their business was strengthened when the dot com bubble burst.",
+      "passage": "The Best Retailers Combine Bricks and Clicks\n\nA) Retail profits are falling sharply. Stores are closing. Malls are emptying. The depressing stories just keep coming. Reading the earnings announcements of large retail stores like Macy's, Nordstrom, and Target is about as uplifting as a tour of an intensive care unit. The internet is apparently taking down yet another industry. Brick and mortar stores(实体店) seem to be going the way of the yellow pages. Sure enough, the Census Bureau just released data showing that online retail sales surged 15.2 percent between the first quarter of 2015 and the first quarter of 2016.\n\nB) But before you dump all of your retail stocks, there are more facts you should consider. Looking only at that 15.2 percent \"surge\" would be misleading. It was an increase that was on a small base of 6.9 percent. Even when a tiny number grows by a large percentage terms, it is often still tiny.\n\nC) More than 20 years after the internet was opened to commerce, the Census Bureau tells us that brick and mortar sales accounted for 92.3 percent of retail sales in the first quarter of 2016. Their data show that only 0.8 percent of retail sales shifted from offline to online between the beginning of 2015 and 2016.\n\nD) So, despite all the talk about drone(无人机) deliveries to your doorstep, all the retail executives expressing anxiety over consumers going online, and even a Presidential candidate exclaiming that Amazon has a \"huge antitrust problem,\" the Census data suggest that physical retail is thriving. Of course, the closed stores, depressed executives, and sinking stocks suggest otherwise. What's the real story?\n\nE) Many firms operating brick and mortar stores are in trouble. The retail industry is getting reinvented, as we describe in our new book Matchmakers. It's standing in the path of what Schumpeter called a gale(大风) of creative destruction. That storm has been brewing for some time, and as it has reached gale force, most large retailers are searching for a response. As the CFO of Macy's put it recently, \"We're frankly scratching our heads.\"\n\nF) But it's not happening as experts predicted. In the peak of the dot-com bubble, brick and mortar retail was one of those industries the internet was going to kill—and quickly. The dot-com bust discredited most predictions of that sort and in the years that followed, conventional retailers' confidence in the future increased as Census continued to report weak online sales. And then the gale hit.\n\nG) It is becoming increasingly clear that retail reinvention isn't a simple battle to the death between bricks and clicks. It is about devising retail models that work for people who are making increasing use of a growing array of internet-connected tools to change how they search, shop, and buy. Creative retailers are using the new technologies to innovate just about everything stores do from managing inventory, to marketing, to getting paid.\n\nH) More than drones dropping a new supply of underwear on your doorstep, Apple's massively successful brick-and-mortar-and-glass retail stores and Amazon's small steps in the same direction are what should keep old-fashioned retailers awake at night. Not to mention the large number of creative new retailers, like Bonobos, that are blending online and offline experiences in creative ways.\n\nI) Retail reinvention is not a simple process, and it's also not happening on what used to be called \"Internet Time.\" Some internet-driven changes have happened quickly, of course. Craigslist quickly overtook newspaper classified ads and turned newspaper economics upside down. But many widely anticipated changes weren't quick, and some haven't really started. With the benefit of hindsight(后见之明), it looks like the internet will transform the economy at something like the pace of other great inventions like electricity. B2B commerce, for example, didn't move mainly online by 2005 as many had predicted in 2000, nor even by 2016, but that doesn't mean it won't do so over the next few decades.\n\nJ) But the gale is still blowing. The sudden decline in foot traffic in recent years, even though it hasn't been accompanied by a massive decline in physical sales, is a critical warning. People can shop more efficiently online and therefore don't need to go to as many stores to find what they want. There's a surplus of physical shopping space for the crowds, which is one reason why stores are downsizing and closing.\n\nK) The rise of the mobile phone has recently added a new level of complexity to the process of retail reinvention. Even five years ago most people faced a choice. Sit at your computer, probably at home or at the office, search and browse, and buy. Or head out to the mall, or Main Street, look and shop, and buy. Now, just about everyone has a smartphone, connected to the internet almost everywhere almost all the time. Even when a retailer gets a customer to walk in the store, she can easily see if there's a better deal online or at another store nearby.\n\nL) So far, the main thing many large retailers have done in response to all this is to open online stores, so people will come to them directly rather than to Amazon and its smaller online rivals. Many are having the same problem that newspapers have. Even if they get online traffic, they struggle to make enough money online to compensate for what they are losing offline.\n\nM) A few seem to be making this work. Among large traditional retailers, Walmart recently reported the best results, leading its stock price to surge, while Macy's, Target, and Nordstrom's dropped. Yet Walmart's year-over-year online sales only grew 7 percent, leading its CEO to lament(哀叹), \"Growth here is too slow.\" Part of the problem is that almost two decades after Amazon filed the one-click patent, the online retail shopping and buying experience is filled with frictions. A recent study graded more than 600 internet retailers on how easy it was for consumers to shop, buy, and pay. Almost half of the sites didn't get a passing grade and only 18 percent got an A or B.\n\nN) The turmoil on the ground in physical retail is hard to square with the Census data. Unfortunately, part of the explanation is that the Census retail data are unreliable. Our deep look into those data and their preparation revealed serious problems. It seems likely that Census simply misclassifies a large chunk of online sales. It is certain that the Census procedures, which lump the online sales of major traditional retailers like Walmart with \"non-store retailers\" like food trucks can mask major changes in individual retail categories. The bureau could easily present their data in more useful ways. But they have chosen not to.\n\nO) Despite the turmoil, brick and mortar won't disappear any time soon. The big questions are which, if any, of the large traditional retailers will still be on the scene in a decade or two because they have successfully reinvented themselves, which new players will operate busy stores on Main Streets and maybe even in shopping malls, and how the shopping and buying experience will have changed in each retail category. Investors shouldn't write off brick and mortar. Whether they should bet on the traditional players who run those stores now is another matter.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 F 段。题干：Brick and mortar retailers' faith in their business was strengthened when the dot com bubble burst.\n核对该段原文：But it's not happening as experts predicted. In the peak of the dot-com bubble, brick and mortar retail was one of those industries the internet was going to kill—and quickly. The dot-com bust discredited most predictions of that sort and in the years that followed, conventional retailers' confidence in the future increased as Census continued to report weak online sales. And then the gale hit.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-1-nonlistening-q43",
+      "canonicalId": "lazynote-cet6-2019-06-1-q43",
+      "number": 43,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Despite the tremendous challenges from online retailing, traditional retailing will be here to stay for quite some time.",
+      "passage": "The Best Retailers Combine Bricks and Clicks\n\nA) Retail profits are falling sharply. Stores are closing. Malls are emptying. The depressing stories just keep coming. Reading the earnings announcements of large retail stores like Macy's, Nordstrom, and Target is about as uplifting as a tour of an intensive care unit. The internet is apparently taking down yet another industry. Brick and mortar stores(实体店) seem to be going the way of the yellow pages. Sure enough, the Census Bureau just released data showing that online retail sales surged 15.2 percent between the first quarter of 2015 and the first quarter of 2016.\n\nB) But before you dump all of your retail stocks, there are more facts you should consider. Looking only at that 15.2 percent \"surge\" would be misleading. It was an increase that was on a small base of 6.9 percent. Even when a tiny number grows by a large percentage terms, it is often still tiny.\n\nC) More than 20 years after the internet was opened to commerce, the Census Bureau tells us that brick and mortar sales accounted for 92.3 percent of retail sales in the first quarter of 2016. Their data show that only 0.8 percent of retail sales shifted from offline to online between the beginning of 2015 and 2016.\n\nD) So, despite all the talk about drone(无人机) deliveries to your doorstep, all the retail executives expressing anxiety over consumers going online, and even a Presidential candidate exclaiming that Amazon has a \"huge antitrust problem,\" the Census data suggest that physical retail is thriving. Of course, the closed stores, depressed executives, and sinking stocks suggest otherwise. What's the real story?\n\nE) Many firms operating brick and mortar stores are in trouble. The retail industry is getting reinvented, as we describe in our new book Matchmakers. It's standing in the path of what Schumpeter called a gale(大风) of creative destruction. That storm has been brewing for some time, and as it has reached gale force, most large retailers are searching for a response. As the CFO of Macy's put it recently, \"We're frankly scratching our heads.\"\n\nF) But it's not happening as experts predicted. In the peak of the dot-com bubble, brick and mortar retail was one of those industries the internet was going to kill—and quickly. The dot-com bust discredited most predictions of that sort and in the years that followed, conventional retailers' confidence in the future increased as Census continued to report weak online sales. And then the gale hit.\n\nG) It is becoming increasingly clear that retail reinvention isn't a simple battle to the death between bricks and clicks. It is about devising retail models that work for people who are making increasing use of a growing array of internet-connected tools to change how they search, shop, and buy. Creative retailers are using the new technologies to innovate just about everything stores do from managing inventory, to marketing, to getting paid.\n\nH) More than drones dropping a new supply of underwear on your doorstep, Apple's massively successful brick-and-mortar-and-glass retail stores and Amazon's small steps in the same direction are what should keep old-fashioned retailers awake at night. Not to mention the large number of creative new retailers, like Bonobos, that are blending online and offline experiences in creative ways.\n\nI) Retail reinvention is not a simple process, and it's also not happening on what used to be called \"Internet Time.\" Some internet-driven changes have happened quickly, of course. Craigslist quickly overtook newspaper classified ads and turned newspaper economics upside down. But many widely anticipated changes weren't quick, and some haven't really started. With the benefit of hindsight(后见之明), it looks like the internet will transform the economy at something like the pace of other great inventions like electricity. B2B commerce, for example, didn't move mainly online by 2005 as many had predicted in 2000, nor even by 2016, but that doesn't mean it won't do so over the next few decades.\n\nJ) But the gale is still blowing. The sudden decline in foot traffic in recent years, even though it hasn't been accompanied by a massive decline in physical sales, is a critical warning. People can shop more efficiently online and therefore don't need to go to as many stores to find what they want. There's a surplus of physical shopping space for the crowds, which is one reason why stores are downsizing and closing.\n\nK) The rise of the mobile phone has recently added a new level of complexity to the process of retail reinvention. Even five years ago most people faced a choice. Sit at your computer, probably at home or at the office, search and browse, and buy. Or head out to the mall, or Main Street, look and shop, and buy. Now, just about everyone has a smartphone, connected to the internet almost everywhere almost all the time. Even when a retailer gets a customer to walk in the store, she can easily see if there's a better deal online or at another store nearby.\n\nL) So far, the main thing many large retailers have done in response to all this is to open online stores, so people will come to them directly rather than to Amazon and its smaller online rivals. Many are having the same problem that newspapers have. Even if they get online traffic, they struggle to make enough money online to compensate for what they are losing offline.\n\nM) A few seem to be making this work. Among large traditional retailers, Walmart recently reported the best results, leading its stock price to surge, while Macy's, Target, and Nordstrom's dropped. Yet Walmart's year-over-year online sales only grew 7 percent, leading its CEO to lament(哀叹), \"Growth here is too slow.\" Part of the problem is that almost two decades after Amazon filed the one-click patent, the online retail shopping and buying experience is filled with frictions. A recent study graded more than 600 internet retailers on how easy it was for consumers to shop, buy, and pay. Almost half of the sites didn't get a passing grade and only 18 percent got an A or B.\n\nN) The turmoil on the ground in physical retail is hard to square with the Census data. Unfortunately, part of the explanation is that the Census retail data are unreliable. Our deep look into those data and their preparation revealed serious problems. It seems likely that Census simply misclassifies a large chunk of online sales. It is certain that the Census procedures, which lump the online sales of major traditional retailers like Walmart with \"non-store retailers\" like food trucks can mask major changes in individual retail categories. The bureau could easily present their data in more useful ways. But they have chosen not to.\n\nO) Despite the turmoil, brick and mortar won't disappear any time soon. The big questions are which, if any, of the large traditional retailers will still be on the scene in a decade or two because they have successfully reinvented themselves, which new players will operate busy stores on Main Streets and maybe even in shopping malls, and how the shopping and buying experience will have changed in each retail category. Investors shouldn't write off brick and mortar. Whether they should bet on the traditional players who run those stores now is another matter.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        }
+      ],
+      "correctAnswer": "O",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 O 段。题干：Despite the tremendous challenges from online retailing, traditional retailing will be here to stay for quite some time.\n核对该段原文：Despite the turmoil, brick and mortar won't disappear any time soon. The big questions are which, if any, of the large traditional retailers will still be on the scene in a decade or two because they have successfully reinvented themselves, which new players will operate busy stores on Main Streets and maybe even in shopping malls, and how the shopping and buying experience will have changed in each retail category. Investors shouldn't write off brick and mortar. Whether they should bet on the traditional players who run those stores now is another matter.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-1-nonlistening-q44",
+      "canonicalId": "lazynote-cet6-2019-06-1-q44",
+      "number": 44,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "With the rise of online commerce, physical retail stores are likely to suffer the same fate as the yellow pages.",
+      "passage": "The Best Retailers Combine Bricks and Clicks\n\nA) Retail profits are falling sharply. Stores are closing. Malls are emptying. The depressing stories just keep coming. Reading the earnings announcements of large retail stores like Macy's, Nordstrom, and Target is about as uplifting as a tour of an intensive care unit. The internet is apparently taking down yet another industry. Brick and mortar stores(实体店) seem to be going the way of the yellow pages. Sure enough, the Census Bureau just released data showing that online retail sales surged 15.2 percent between the first quarter of 2015 and the first quarter of 2016.\n\nB) But before you dump all of your retail stocks, there are more facts you should consider. Looking only at that 15.2 percent \"surge\" would be misleading. It was an increase that was on a small base of 6.9 percent. Even when a tiny number grows by a large percentage terms, it is often still tiny.\n\nC) More than 20 years after the internet was opened to commerce, the Census Bureau tells us that brick and mortar sales accounted for 92.3 percent of retail sales in the first quarter of 2016. Their data show that only 0.8 percent of retail sales shifted from offline to online between the beginning of 2015 and 2016.\n\nD) So, despite all the talk about drone(无人机) deliveries to your doorstep, all the retail executives expressing anxiety over consumers going online, and even a Presidential candidate exclaiming that Amazon has a \"huge antitrust problem,\" the Census data suggest that physical retail is thriving. Of course, the closed stores, depressed executives, and sinking stocks suggest otherwise. What's the real story?\n\nE) Many firms operating brick and mortar stores are in trouble. The retail industry is getting reinvented, as we describe in our new book Matchmakers. It's standing in the path of what Schumpeter called a gale(大风) of creative destruction. That storm has been brewing for some time, and as it has reached gale force, most large retailers are searching for a response. As the CFO of Macy's put it recently, \"We're frankly scratching our heads.\"\n\nF) But it's not happening as experts predicted. In the peak of the dot-com bubble, brick and mortar retail was one of those industries the internet was going to kill—and quickly. The dot-com bust discredited most predictions of that sort and in the years that followed, conventional retailers' confidence in the future increased as Census continued to report weak online sales. And then the gale hit.\n\nG) It is becoming increasingly clear that retail reinvention isn't a simple battle to the death between bricks and clicks. It is about devising retail models that work for people who are making increasing use of a growing array of internet-connected tools to change how they search, shop, and buy. Creative retailers are using the new technologies to innovate just about everything stores do from managing inventory, to marketing, to getting paid.\n\nH) More than drones dropping a new supply of underwear on your doorstep, Apple's massively successful brick-and-mortar-and-glass retail stores and Amazon's small steps in the same direction are what should keep old-fashioned retailers awake at night. Not to mention the large number of creative new retailers, like Bonobos, that are blending online and offline experiences in creative ways.\n\nI) Retail reinvention is not a simple process, and it's also not happening on what used to be called \"Internet Time.\" Some internet-driven changes have happened quickly, of course. Craigslist quickly overtook newspaper classified ads and turned newspaper economics upside down. But many widely anticipated changes weren't quick, and some haven't really started. With the benefit of hindsight(后见之明), it looks like the internet will transform the economy at something like the pace of other great inventions like electricity. B2B commerce, for example, didn't move mainly online by 2005 as many had predicted in 2000, nor even by 2016, but that doesn't mean it won't do so over the next few decades.\n\nJ) But the gale is still blowing. The sudden decline in foot traffic in recent years, even though it hasn't been accompanied by a massive decline in physical sales, is a critical warning. People can shop more efficiently online and therefore don't need to go to as many stores to find what they want. There's a surplus of physical shopping space for the crowds, which is one reason why stores are downsizing and closing.\n\nK) The rise of the mobile phone has recently added a new level of complexity to the process of retail reinvention. Even five years ago most people faced a choice. Sit at your computer, probably at home or at the office, search and browse, and buy. Or head out to the mall, or Main Street, look and shop, and buy. Now, just about everyone has a smartphone, connected to the internet almost everywhere almost all the time. Even when a retailer gets a customer to walk in the store, she can easily see if there's a better deal online or at another store nearby.\n\nL) So far, the main thing many large retailers have done in response to all this is to open online stores, so people will come to them directly rather than to Amazon and its smaller online rivals. Many are having the same problem that newspapers have. Even if they get online traffic, they struggle to make enough money online to compensate for what they are losing offline.\n\nM) A few seem to be making this work. Among large traditional retailers, Walmart recently reported the best results, leading its stock price to surge, while Macy's, Target, and Nordstrom's dropped. Yet Walmart's year-over-year online sales only grew 7 percent, leading its CEO to lament(哀叹), \"Growth here is too slow.\" Part of the problem is that almost two decades after Amazon filed the one-click patent, the online retail shopping and buying experience is filled with frictions. A recent study graded more than 600 internet retailers on how easy it was for consumers to shop, buy, and pay. Almost half of the sites didn't get a passing grade and only 18 percent got an A or B.\n\nN) The turmoil on the ground in physical retail is hard to square with the Census data. Unfortunately, part of the explanation is that the Census retail data are unreliable. Our deep look into those data and their preparation revealed serious problems. It seems likely that Census simply misclassifies a large chunk of online sales. It is certain that the Census procedures, which lump the online sales of major traditional retailers like Walmart with \"non-store retailers\" like food trucks can mask major changes in individual retail categories. The bureau could easily present their data in more useful ways. But they have chosen not to.\n\nO) Despite the turmoil, brick and mortar won't disappear any time soon. The big questions are which, if any, of the large traditional retailers will still be on the scene in a decade or two because they have successfully reinvented themselves, which new players will operate busy stores on Main Streets and maybe even in shopping malls, and how the shopping and buying experience will have changed in each retail category. Investors shouldn't write off brick and mortar. Whether they should bet on the traditional players who run those stores now is another matter.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 A 段。题干：With the rise of online commerce, physical retail stores are likely to suffer the same fate as the yellow pages.\n核对该段原文：Retail profits are falling sharply. Stores are closing. Malls are emptying. The depressing stories just keep coming. Reading the earnings announcements of large retail stores like Macy's, Nordstrom, and Target is about as uplifting as a tour of an intensive care unit. The internet is apparently taking down yet another industry. Brick and mortar stores(实体店) seem to be going the way of the yellow pages. Sure enough, the Census Bureau just released data showing that online retail sales surged 15.2 percent between the first quarter of 2015 and the first quarter of 2016.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-1-nonlistening-q45",
+      "canonicalId": "lazynote-cet6-2019-06-1-q45",
+      "number": 45,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The wide use of smartphones has made it more complex for traditional retailers to reinvent their business.",
+      "passage": "The Best Retailers Combine Bricks and Clicks\n\nA) Retail profits are falling sharply. Stores are closing. Malls are emptying. The depressing stories just keep coming. Reading the earnings announcements of large retail stores like Macy's, Nordstrom, and Target is about as uplifting as a tour of an intensive care unit. The internet is apparently taking down yet another industry. Brick and mortar stores(实体店) seem to be going the way of the yellow pages. Sure enough, the Census Bureau just released data showing that online retail sales surged 15.2 percent between the first quarter of 2015 and the first quarter of 2016.\n\nB) But before you dump all of your retail stocks, there are more facts you should consider. Looking only at that 15.2 percent \"surge\" would be misleading. It was an increase that was on a small base of 6.9 percent. Even when a tiny number grows by a large percentage terms, it is often still tiny.\n\nC) More than 20 years after the internet was opened to commerce, the Census Bureau tells us that brick and mortar sales accounted for 92.3 percent of retail sales in the first quarter of 2016. Their data show that only 0.8 percent of retail sales shifted from offline to online between the beginning of 2015 and 2016.\n\nD) So, despite all the talk about drone(无人机) deliveries to your doorstep, all the retail executives expressing anxiety over consumers going online, and even a Presidential candidate exclaiming that Amazon has a \"huge antitrust problem,\" the Census data suggest that physical retail is thriving. Of course, the closed stores, depressed executives, and sinking stocks suggest otherwise. What's the real story?\n\nE) Many firms operating brick and mortar stores are in trouble. The retail industry is getting reinvented, as we describe in our new book Matchmakers. It's standing in the path of what Schumpeter called a gale(大风) of creative destruction. That storm has been brewing for some time, and as it has reached gale force, most large retailers are searching for a response. As the CFO of Macy's put it recently, \"We're frankly scratching our heads.\"\n\nF) But it's not happening as experts predicted. In the peak of the dot-com bubble, brick and mortar retail was one of those industries the internet was going to kill—and quickly. The dot-com bust discredited most predictions of that sort and in the years that followed, conventional retailers' confidence in the future increased as Census continued to report weak online sales. And then the gale hit.\n\nG) It is becoming increasingly clear that retail reinvention isn't a simple battle to the death between bricks and clicks. It is about devising retail models that work for people who are making increasing use of a growing array of internet-connected tools to change how they search, shop, and buy. Creative retailers are using the new technologies to innovate just about everything stores do from managing inventory, to marketing, to getting paid.\n\nH) More than drones dropping a new supply of underwear on your doorstep, Apple's massively successful brick-and-mortar-and-glass retail stores and Amazon's small steps in the same direction are what should keep old-fashioned retailers awake at night. Not to mention the large number of creative new retailers, like Bonobos, that are blending online and offline experiences in creative ways.\n\nI) Retail reinvention is not a simple process, and it's also not happening on what used to be called \"Internet Time.\" Some internet-driven changes have happened quickly, of course. Craigslist quickly overtook newspaper classified ads and turned newspaper economics upside down. But many widely anticipated changes weren't quick, and some haven't really started. With the benefit of hindsight(后见之明), it looks like the internet will transform the economy at something like the pace of other great inventions like electricity. B2B commerce, for example, didn't move mainly online by 2005 as many had predicted in 2000, nor even by 2016, but that doesn't mean it won't do so over the next few decades.\n\nJ) But the gale is still blowing. The sudden decline in foot traffic in recent years, even though it hasn't been accompanied by a massive decline in physical sales, is a critical warning. People can shop more efficiently online and therefore don't need to go to as many stores to find what they want. There's a surplus of physical shopping space for the crowds, which is one reason why stores are downsizing and closing.\n\nK) The rise of the mobile phone has recently added a new level of complexity to the process of retail reinvention. Even five years ago most people faced a choice. Sit at your computer, probably at home or at the office, search and browse, and buy. Or head out to the mall, or Main Street, look and shop, and buy. Now, just about everyone has a smartphone, connected to the internet almost everywhere almost all the time. Even when a retailer gets a customer to walk in the store, she can easily see if there's a better deal online or at another store nearby.\n\nL) So far, the main thing many large retailers have done in response to all this is to open online stores, so people will come to them directly rather than to Amazon and its smaller online rivals. Many are having the same problem that newspapers have. Even if they get online traffic, they struggle to make enough money online to compensate for what they are losing offline.\n\nM) A few seem to be making this work. Among large traditional retailers, Walmart recently reported the best results, leading its stock price to surge, while Macy's, Target, and Nordstrom's dropped. Yet Walmart's year-over-year online sales only grew 7 percent, leading its CEO to lament(哀叹), \"Growth here is too slow.\" Part of the problem is that almost two decades after Amazon filed the one-click patent, the online retail shopping and buying experience is filled with frictions. A recent study graded more than 600 internet retailers on how easy it was for consumers to shop, buy, and pay. Almost half of the sites didn't get a passing grade and only 18 percent got an A or B.\n\nN) The turmoil on the ground in physical retail is hard to square with the Census data. Unfortunately, part of the explanation is that the Census retail data are unreliable. Our deep look into those data and their preparation revealed serious problems. It seems likely that Census simply misclassifies a large chunk of online sales. It is certain that the Census procedures, which lump the online sales of major traditional retailers like Walmart with \"non-store retailers\" like food trucks can mask major changes in individual retail categories. The bureau could easily present their data in more useful ways. But they have chosen not to.\n\nO) Despite the turmoil, brick and mortar won't disappear any time soon. The big questions are which, if any, of the large traditional retailers will still be on the scene in a decade or two because they have successfully reinvented themselves, which new players will operate busy stores on Main Streets and maybe even in shopping malls, and how the shopping and buying experience will have changed in each retail category. Investors shouldn't write off brick and mortar. Whether they should bet on the traditional players who run those stores now is another matter.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 K 段。题干：The wide use of smartphones has made it more complex for traditional retailers to reinvent their business.\n核对该段原文：The rise of the mobile phone has recently added a new level of complexity to the process of retail reinvention. Even five years ago most people faced a choice. Sit at your computer, probably at home or at the office, search and browse, and buy. Or head out to the mall, or Main Street, look and shop, and buy. Now, just about everyone has a smartphone, connected to the internet almost everywhere almost all the time. Even when a retailer gets a customer to walk in the store, she can easily see if there's a better deal online or at another store nearby.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-1-nonlistening-q46",
+      "canonicalId": "lazynote-cet6-2019-06-1-q46",
+      "number": 46,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What did Stephen Hawking think of artificial intelligence?",
+      "passage": "Professor Stephen Hawking has warned that the creation of powerful artificial intelligence (AI) will be \"either the best, or the worst thing, ever to happen to humanity\", and praised the creation of an academic institute dedicated to researching the future of intelligence as \"crucial to the future of our civilisation and our species\".\n\nHawking was speaking at the opening of the Leverhulme Centre for the Future of Intelligence (LCFI) at Cambridge University, a multi-disciplinary institute that will attempt to tackle some of the open-ended questions raised by the rapid pace of development in AI research. \"We spend a great deal of time studying in history,\" Hawking said, \"which, let's face it, is mostly the history of stupidity. So it's a welcome change that people are studying instead the future of intelligence.\"\n\nWhile the world-renowned physicist has often been cautious about AI, raising concerns that humanity could be the architect of its own destruction if it creates a super-intelligence with a will of its own, he was also quick to highlight the positives that AI research can bring. \"The potential benefits of creating intelligence are huge,\" he said. \"We cannot predict what we might achieve when our own minds are amplified by AI. Perhaps with the tools of this new technological revolution, we will be able to undo some of the damage done to the natural world by the last one—industrialisation. And surely we will aim to finally eradicate disease and poverty. And every aspect of our lives will be transformed. In short, success in creating AI could be the biggest event in the history of our civilisation.\"\n\nHuw Price, the centre's academic director and the Bertrand Russell professor of philosophy at Cambridge University, where Hawking is also an academic, said that the centre came about partially as a result of the university's Centre for Existential Risk. That institute examined a wider range of potential problems for humanity, while the LCFI has a narrow focus.\n\nAI pioneer Margaret Boden, professor of cognitive science at the University of Sussex, praised the progress of such discussions. As recently as 2009, she said, the topic wasn't taken seriously, even among AI researchers. \"AI is hugely exciting,\" she said, \"but it has limitations, which present grave dangers given uncritical use.\"\n\nThe academic community is not alone in warning about the potential dangers of AI as well as the potential benefits. A number of pioneers from the technology industry, most famously the entrepreneur Elon Musk, have also expressed their concerns about the damage that a super-intelligent AI could do to humanity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It would be vital to the progress of human civilisation."
+        },
+        {
+          "id": "B",
+          "text": "It might be a blessing or a disaster in the making."
+        },
+        {
+          "id": "C",
+          "text": "It might present challenges as well as opportunities."
+        },
+        {
+          "id": "D",
+          "text": "It would be a significant expansion of human intelligence."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：It might be a blessing or a disaster in the making.\n关键词检索定位到第 1 段的候选相关句：Professor Stephen Hawking has warned that the creation of powerful artificial intelligence (AI) will be \"either the best, or the worst thing, ever to happen to humanity\", and praised the creation of an academic institute dedicated to researching the future of intelligence as \"crucial to the future of our civilisation and our species\".\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-1-nonlistening-q47",
+      "canonicalId": "lazynote-cet6-2019-06-1-q47",
+      "number": 47,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What did Hawking say about the creation of the LCFI?",
+      "passage": "Professor Stephen Hawking has warned that the creation of powerful artificial intelligence (AI) will be \"either the best, or the worst thing, ever to happen to humanity\", and praised the creation of an academic institute dedicated to researching the future of intelligence as \"crucial to the future of our civilisation and our species\".\n\nHawking was speaking at the opening of the Leverhulme Centre for the Future of Intelligence (LCFI) at Cambridge University, a multi-disciplinary institute that will attempt to tackle some of the open-ended questions raised by the rapid pace of development in AI research. \"We spend a great deal of time studying in history,\" Hawking said, \"which, let's face it, is mostly the history of stupidity. So it's a welcome change that people are studying instead the future of intelligence.\"\n\nWhile the world-renowned physicist has often been cautious about AI, raising concerns that humanity could be the architect of its own destruction if it creates a super-intelligence with a will of its own, he was also quick to highlight the positives that AI research can bring. \"The potential benefits of creating intelligence are huge,\" he said. \"We cannot predict what we might achieve when our own minds are amplified by AI. Perhaps with the tools of this new technological revolution, we will be able to undo some of the damage done to the natural world by the last one—industrialisation. And surely we will aim to finally eradicate disease and poverty. And every aspect of our lives will be transformed. In short, success in creating AI could be the biggest event in the history of our civilisation.\"\n\nHuw Price, the centre's academic director and the Bertrand Russell professor of philosophy at Cambridge University, where Hawking is also an academic, said that the centre came about partially as a result of the university's Centre for Existential Risk. That institute examined a wider range of potential problems for humanity, while the LCFI has a narrow focus.\n\nAI pioneer Margaret Boden, professor of cognitive science at the University of Sussex, praised the progress of such discussions. As recently as 2009, she said, the topic wasn't taken seriously, even among AI researchers. \"AI is hugely exciting,\" she said, \"but it has limitations, which present grave dangers given uncritical use.\"\n\nThe academic community is not alone in warning about the potential dangers of AI as well as the potential benefits. A number of pioneers from the technology industry, most famously the entrepreneur Elon Musk, have also expressed their concerns about the damage that a super-intelligent AI could do to humanity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It would accelerate the progress of AI research."
+        },
+        {
+          "id": "B",
+          "text": "It would mark a step forward in the AI industry."
+        },
+        {
+          "id": "C",
+          "text": "It was extremely important to the destiny of humankind."
+        },
+        {
+          "id": "D",
+          "text": "It was an achievement of multi-disciplinary collaboration."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：It was extremely important to the destiny of humankind.\n关键词检索定位到第 1 段的候选相关句：Professor Stephen Hawking has warned that the creation of powerful artificial intelligence (AI) will be \"either the best, or the worst thing, ever to happen to humanity\", and praised the creation of an academic institute dedicated to researching the future of intelligence as \"crucial to the future of our civilisation and our species\".\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-1-nonlistening-q48",
+      "canonicalId": "lazynote-cet6-2019-06-1-q48",
+      "number": 48,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What did Hawking say was a welcome change in AI research?",
+      "passage": "Professor Stephen Hawking has warned that the creation of powerful artificial intelligence (AI) will be \"either the best, or the worst thing, ever to happen to humanity\", and praised the creation of an academic institute dedicated to researching the future of intelligence as \"crucial to the future of our civilisation and our species\".\n\nHawking was speaking at the opening of the Leverhulme Centre for the Future of Intelligence (LCFI) at Cambridge University, a multi-disciplinary institute that will attempt to tackle some of the open-ended questions raised by the rapid pace of development in AI research. \"We spend a great deal of time studying in history,\" Hawking said, \"which, let's face it, is mostly the history of stupidity. So it's a welcome change that people are studying instead the future of intelligence.\"\n\nWhile the world-renowned physicist has often been cautious about AI, raising concerns that humanity could be the architect of its own destruction if it creates a super-intelligence with a will of its own, he was also quick to highlight the positives that AI research can bring. \"The potential benefits of creating intelligence are huge,\" he said. \"We cannot predict what we might achieve when our own minds are amplified by AI. Perhaps with the tools of this new technological revolution, we will be able to undo some of the damage done to the natural world by the last one—industrialisation. And surely we will aim to finally eradicate disease and poverty. And every aspect of our lives will be transformed. In short, success in creating AI could be the biggest event in the history of our civilisation.\"\n\nHuw Price, the centre's academic director and the Bertrand Russell professor of philosophy at Cambridge University, where Hawking is also an academic, said that the centre came about partially as a result of the university's Centre for Existential Risk. That institute examined a wider range of potential problems for humanity, while the LCFI has a narrow focus.\n\nAI pioneer Margaret Boden, professor of cognitive science at the University of Sussex, praised the progress of such discussions. As recently as 2009, she said, the topic wasn't taken seriously, even among AI researchers. \"AI is hugely exciting,\" she said, \"but it has limitations, which present grave dangers given uncritical use.\"\n\nThe academic community is not alone in warning about the potential dangers of AI as well as the potential benefits. A number of pioneers from the technology industry, most famously the entrepreneur Elon Musk, have also expressed their concerns about the damage that a super-intelligent AI could do to humanity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "The shift of research focus from the past to the future."
+        },
+        {
+          "id": "B",
+          "text": "The shift of research from theory to implementation."
+        },
+        {
+          "id": "C",
+          "text": "The greater emphasis on the negative impact of AI."
+        },
+        {
+          "id": "D",
+          "text": "The increasing awareness of mankind's past stupidity."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：The shift of research focus from the past to the future.\n关键词检索定位到第 2 段的候选相关句：Hawking was speaking at the opening of the Leverhulme Centre for the Future of Intelligence (LCFI) at Cambridge University, a multi-disciplinary institute that will attempt to tackle some of the open-ended questions raised by the rapid pace of development in AI research.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-1-nonlistening-q49",
+      "canonicalId": "lazynote-cet6-2019-06-1-q49",
+      "number": 49,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What concerns did Hawking raise about AI?",
+      "passage": "Professor Stephen Hawking has warned that the creation of powerful artificial intelligence (AI) will be \"either the best, or the worst thing, ever to happen to humanity\", and praised the creation of an academic institute dedicated to researching the future of intelligence as \"crucial to the future of our civilisation and our species\".\n\nHawking was speaking at the opening of the Leverhulme Centre for the Future of Intelligence (LCFI) at Cambridge University, a multi-disciplinary institute that will attempt to tackle some of the open-ended questions raised by the rapid pace of development in AI research. \"We spend a great deal of time studying in history,\" Hawking said, \"which, let's face it, is mostly the history of stupidity. So it's a welcome change that people are studying instead the future of intelligence.\"\n\nWhile the world-renowned physicist has often been cautious about AI, raising concerns that humanity could be the architect of its own destruction if it creates a super-intelligence with a will of its own, he was also quick to highlight the positives that AI research can bring. \"The potential benefits of creating intelligence are huge,\" he said. \"We cannot predict what we might achieve when our own minds are amplified by AI. Perhaps with the tools of this new technological revolution, we will be able to undo some of the damage done to the natural world by the last one—industrialisation. And surely we will aim to finally eradicate disease and poverty. And every aspect of our lives will be transformed. In short, success in creating AI could be the biggest event in the history of our civilisation.\"\n\nHuw Price, the centre's academic director and the Bertrand Russell professor of philosophy at Cambridge University, where Hawking is also an academic, said that the centre came about partially as a result of the university's Centre for Existential Risk. That institute examined a wider range of potential problems for humanity, while the LCFI has a narrow focus.\n\nAI pioneer Margaret Boden, professor of cognitive science at the University of Sussex, praised the progress of such discussions. As recently as 2009, she said, the topic wasn't taken seriously, even among AI researchers. \"AI is hugely exciting,\" she said, \"but it has limitations, which present grave dangers given uncritical use.\"\n\nThe academic community is not alone in warning about the potential dangers of AI as well as the potential benefits. A number of pioneers from the technology industry, most famously the entrepreneur Elon Musk, have also expressed their concerns about the damage that a super-intelligent AI could do to humanity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It may exceed human intelligence sooner or later."
+        },
+        {
+          "id": "B",
+          "text": "It may ultimately over-amplify the human mind."
+        },
+        {
+          "id": "C",
+          "text": "Super-intelligence may cause its own destruction."
+        },
+        {
+          "id": "D",
+          "text": "Super-intelligence may eventually ruin mankind."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：Super-intelligence may eventually ruin mankind.\n关键词检索定位到第 3 段的候选相关句：While the world-renowned physicist has often been cautious about AI, raising concerns that humanity could be the architect of its own destruction if it creates a super-intelligence with a will of its own, he was also quick to highlight the positives that AI research can bring.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-1-nonlistening-q50",
+      "canonicalId": "lazynote-cet6-2019-06-1-q50",
+      "number": 50,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn about some entrepreneurs from the technology industry?",
+      "passage": "Professor Stephen Hawking has warned that the creation of powerful artificial intelligence (AI) will be \"either the best, or the worst thing, ever to happen to humanity\", and praised the creation of an academic institute dedicated to researching the future of intelligence as \"crucial to the future of our civilisation and our species\".\n\nHawking was speaking at the opening of the Leverhulme Centre for the Future of Intelligence (LCFI) at Cambridge University, a multi-disciplinary institute that will attempt to tackle some of the open-ended questions raised by the rapid pace of development in AI research. \"We spend a great deal of time studying in history,\" Hawking said, \"which, let's face it, is mostly the history of stupidity. So it's a welcome change that people are studying instead the future of intelligence.\"\n\nWhile the world-renowned physicist has often been cautious about AI, raising concerns that humanity could be the architect of its own destruction if it creates a super-intelligence with a will of its own, he was also quick to highlight the positives that AI research can bring. \"The potential benefits of creating intelligence are huge,\" he said. \"We cannot predict what we might achieve when our own minds are amplified by AI. Perhaps with the tools of this new technological revolution, we will be able to undo some of the damage done to the natural world by the last one—industrialisation. And surely we will aim to finally eradicate disease and poverty. And every aspect of our lives will be transformed. In short, success in creating AI could be the biggest event in the history of our civilisation.\"\n\nHuw Price, the centre's academic director and the Bertrand Russell professor of philosophy at Cambridge University, where Hawking is also an academic, said that the centre came about partially as a result of the university's Centre for Existential Risk. That institute examined a wider range of potential problems for humanity, while the LCFI has a narrow focus.\n\nAI pioneer Margaret Boden, professor of cognitive science at the University of Sussex, praised the progress of such discussions. As recently as 2009, she said, the topic wasn't taken seriously, even among AI researchers. \"AI is hugely exciting,\" she said, \"but it has limitations, which present grave dangers given uncritical use.\"\n\nThe academic community is not alone in warning about the potential dangers of AI as well as the potential benefits. A number of pioneers from the technology industry, most famously the entrepreneur Elon Musk, have also expressed their concerns about the damage that a super-intelligent AI could do to humanity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They are much influenced by the academic community."
+        },
+        {
+          "id": "B",
+          "text": "They are most likely to benefit from AI development."
+        },
+        {
+          "id": "C",
+          "text": "They share the same concerns about AI as academics."
+        },
+        {
+          "id": "D",
+          "text": "They believe they can keep AI under human control."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：They share the same concerns about AI as academics.\n关键词检索定位到第 6 段的候选相关句：A number of pioneers from the technology industry, most famously the entrepreneur Elon Musk, have also expressed their concerns about the damage that a super-intelligent AI could do to humanity.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-1-nonlistening-q51",
+      "canonicalId": "lazynote-cet6-2019-06-1-q51",
+      "number": 51,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the passage say about the startups?",
+      "passage": "The market for products designed specifically for older adults could reach $30 billion by next year, and startups(初创公司) want in on the action. What they sometimes lack is feedback from the people who they hope will use their products. So Brookdale, the country's largest owner of retirement communities, has been inviting a few select entrepreneurs just to move in for a few days, show off their products and hear what the residents have to say.\n\nThat's what brought Dayle Rodriguez, 28, all the way from England to the dining room of Brookdale South Bay in Torrance, California. Rodriguez is the community and marketing manager for a company called Sentab. The startup's product, SentabTV, enables older adults who may not be comfortable with computers to access email, video chat and social media using just their televisions and a remote control.\n\n\"It's nothing new, it's nothing too complicated and it's natural because lots of people have TV remotes,\" says Rodriguez.\n\nBut none of that is the topic of conversation in the Brookdale dining room. Instead, Rodriguez solicits residents' advice on what he should get on his cheeseburger and how he should spend the afternoon. Playing cards was on the agenda, as well as learning to play mahjong(麻将).\n\nRodriguez says it's important that residents here don't feel like he's selling them something. \"I've had more feedback in a passive approach,\" he says. \"Playing pool, playing cards, having dinner, having lunch,\" all work better \"than going through a survey of questions. When they get to know me and to trust me, knowing for sure I'm not selling them something—there'll be more honest feedback from them.\"\n\nRodriguez is just the seventh entrepreneur to move into one of Brookdale's 1,100 senior living communities. Other new products in the program have included a kind of full-body blow dryer and specially designed clothing that allows people with disabilities to dress and undress themselves.\n\nMary Lou Busch, 93, agreed to try the Sentab system. She tells Rodriguez that it might be good for someone, but not for her. \"I have the computer and FaceTime, which I talk with my family on,\" she explains. She also has an iPad and a smartphone. \"So I do pretty much everything I need to do.\"\n\nTo be fair, if Rodriguez had wanted feedback from some more technophobic(害怕技术的) seniors, he might have ended up in the wrong Brookdale community. This one is located in the heart of Southern California's aerospace corridor. Many residents have backgrounds in engineering, business and academic circles.\n\nBut Rodriguez says he's still learning something important by moving into this Brookdale community: \"People are more tech-proficient than we thought.\"\n\nAnd besides, where else would he learn to play mahjong?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They never lose time in upgrading products for seniors."
+        },
+        {
+          "id": "B",
+          "text": "They want to have a share of the seniors' goods market."
+        },
+        {
+          "id": "C",
+          "text": "They invite seniors to their companies to try their products."
+        },
+        {
+          "id": "D",
+          "text": "They try to profit from promoting digital products to seniors."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：They want to have a share of the seniors' goods market.\n关键词检索定位到第 1 段的候选相关句：The market for products designed specifically for older adults could reach $30 billion by next year, and startups(初创公司) want in on the action.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-1-nonlistening-q52",
+      "canonicalId": "lazynote-cet6-2019-06-1-q52",
+      "number": 52,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "Some entrepreneurs have been invited to Brookdale to______.",
+      "passage": "The market for products designed specifically for older adults could reach $30 billion by next year, and startups(初创公司) want in on the action. What they sometimes lack is feedback from the people who they hope will use their products. So Brookdale, the country's largest owner of retirement communities, has been inviting a few select entrepreneurs just to move in for a few days, show off their products and hear what the residents have to say.\n\nThat's what brought Dayle Rodriguez, 28, all the way from England to the dining room of Brookdale South Bay in Torrance, California. Rodriguez is the community and marketing manager for a company called Sentab. The startup's product, SentabTV, enables older adults who may not be comfortable with computers to access email, video chat and social media using just their televisions and a remote control.\n\n\"It's nothing new, it's nothing too complicated and it's natural because lots of people have TV remotes,\" says Rodriguez.\n\nBut none of that is the topic of conversation in the Brookdale dining room. Instead, Rodriguez solicits residents' advice on what he should get on his cheeseburger and how he should spend the afternoon. Playing cards was on the agenda, as well as learning to play mahjong(麻将).\n\nRodriguez says it's important that residents here don't feel like he's selling them something. \"I've had more feedback in a passive approach,\" he says. \"Playing pool, playing cards, having dinner, having lunch,\" all work better \"than going through a survey of questions. When they get to know me and to trust me, knowing for sure I'm not selling them something—there'll be more honest feedback from them.\"\n\nRodriguez is just the seventh entrepreneur to move into one of Brookdale's 1,100 senior living communities. Other new products in the program have included a kind of full-body blow dryer and specially designed clothing that allows people with disabilities to dress and undress themselves.\n\nMary Lou Busch, 93, agreed to try the Sentab system. She tells Rodriguez that it might be good for someone, but not for her. \"I have the computer and FaceTime, which I talk with my family on,\" she explains. She also has an iPad and a smartphone. \"So I do pretty much everything I need to do.\"\n\nTo be fair, if Rodriguez had wanted feedback from some more technophobic(害怕技术的) seniors, he might have ended up in the wrong Brookdale community. This one is located in the heart of Southern California's aerospace corridor. Many residents have backgrounds in engineering, business and academic circles.\n\nBut Rodriguez says he's still learning something important by moving into this Brookdale community: \"People are more tech-proficient than we thought.\"\n\nAnd besides, where else would he learn to play mahjong?",
+      "options": [
+        {
+          "id": "A",
+          "text": "have an interview with potential customers"
+        },
+        {
+          "id": "B",
+          "text": "conduct a survey of retirement communities"
+        },
+        {
+          "id": "C",
+          "text": "collect residents' feedback on their products"
+        },
+        {
+          "id": "D",
+          "text": "show senior residents how to use IT products"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：collect residents' feedback on their products\n关键词检索定位到第 1 段的候选相关句：So Brookdale, the country's largest owner of retirement communities, has been inviting a few select entrepreneurs just to move in for a few days, show off their products and hear what the residents have to say.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-1-nonlistening-q53",
+      "canonicalId": "lazynote-cet6-2019-06-1-q53",
+      "number": 53,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we know about SentabTV?",
+      "passage": "The market for products designed specifically for older adults could reach $30 billion by next year, and startups(初创公司) want in on the action. What they sometimes lack is feedback from the people who they hope will use their products. So Brookdale, the country's largest owner of retirement communities, has been inviting a few select entrepreneurs just to move in for a few days, show off their products and hear what the residents have to say.\n\nThat's what brought Dayle Rodriguez, 28, all the way from England to the dining room of Brookdale South Bay in Torrance, California. Rodriguez is the community and marketing manager for a company called Sentab. The startup's product, SentabTV, enables older adults who may not be comfortable with computers to access email, video chat and social media using just their televisions and a remote control.\n\n\"It's nothing new, it's nothing too complicated and it's natural because lots of people have TV remotes,\" says Rodriguez.\n\nBut none of that is the topic of conversation in the Brookdale dining room. Instead, Rodriguez solicits residents' advice on what he should get on his cheeseburger and how he should spend the afternoon. Playing cards was on the agenda, as well as learning to play mahjong(麻将).\n\nRodriguez says it's important that residents here don't feel like he's selling them something. \"I've had more feedback in a passive approach,\" he says. \"Playing pool, playing cards, having dinner, having lunch,\" all work better \"than going through a survey of questions. When they get to know me and to trust me, knowing for sure I'm not selling them something—there'll be more honest feedback from them.\"\n\nRodriguez is just the seventh entrepreneur to move into one of Brookdale's 1,100 senior living communities. Other new products in the program have included a kind of full-body blow dryer and specially designed clothing that allows people with disabilities to dress and undress themselves.\n\nMary Lou Busch, 93, agreed to try the Sentab system. She tells Rodriguez that it might be good for someone, but not for her. \"I have the computer and FaceTime, which I talk with my family on,\" she explains. She also has an iPad and a smartphone. \"So I do pretty much everything I need to do.\"\n\nTo be fair, if Rodriguez had wanted feedback from some more technophobic(害怕技术的) seniors, he might have ended up in the wrong Brookdale community. This one is located in the heart of Southern California's aerospace corridor. Many residents have backgrounds in engineering, business and academic circles.\n\nBut Rodriguez says he's still learning something important by moving into this Brookdale community: \"People are more tech-proficient than we thought.\"\n\nAnd besides, where else would he learn to play mahjong?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a TV program catering to the interest of the elderly."
+        },
+        {
+          "id": "B",
+          "text": "It is a digital TV which enjoys popularity among seniors."
+        },
+        {
+          "id": "C",
+          "text": "It is a TV specially designed for seniors to view programs."
+        },
+        {
+          "id": "D",
+          "text": "It is a communication system via TV instead of a computer."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：It is a communication system via TV instead of a computer.\n关键词检索定位到第 2 段的候选相关句：The startup's product, SentabTV, enables older adults who may not be comfortable with computers to access email, video chat and social media using just their televisions and a remote control.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-1-nonlistening-q54",
+      "canonicalId": "lazynote-cet6-2019-06-1-q54",
+      "number": 54,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does Rodriguez say is important in promoting products?",
+      "passage": "The market for products designed specifically for older adults could reach $30 billion by next year, and startups(初创公司) want in on the action. What they sometimes lack is feedback from the people who they hope will use their products. So Brookdale, the country's largest owner of retirement communities, has been inviting a few select entrepreneurs just to move in for a few days, show off their products and hear what the residents have to say.\n\nThat's what brought Dayle Rodriguez, 28, all the way from England to the dining room of Brookdale South Bay in Torrance, California. Rodriguez is the community and marketing manager for a company called Sentab. The startup's product, SentabTV, enables older adults who may not be comfortable with computers to access email, video chat and social media using just their televisions and a remote control.\n\n\"It's nothing new, it's nothing too complicated and it's natural because lots of people have TV remotes,\" says Rodriguez.\n\nBut none of that is the topic of conversation in the Brookdale dining room. Instead, Rodriguez solicits residents' advice on what he should get on his cheeseburger and how he should spend the afternoon. Playing cards was on the agenda, as well as learning to play mahjong(麻将).\n\nRodriguez says it's important that residents here don't feel like he's selling them something. \"I've had more feedback in a passive approach,\" he says. \"Playing pool, playing cards, having dinner, having lunch,\" all work better \"than going through a survey of questions. When they get to know me and to trust me, knowing for sure I'm not selling them something—there'll be more honest feedback from them.\"\n\nRodriguez is just the seventh entrepreneur to move into one of Brookdale's 1,100 senior living communities. Other new products in the program have included a kind of full-body blow dryer and specially designed clothing that allows people with disabilities to dress and undress themselves.\n\nMary Lou Busch, 93, agreed to try the Sentab system. She tells Rodriguez that it might be good for someone, but not for her. \"I have the computer and FaceTime, which I talk with my family on,\" she explains. She also has an iPad and a smartphone. \"So I do pretty much everything I need to do.\"\n\nTo be fair, if Rodriguez had wanted feedback from some more technophobic(害怕技术的) seniors, he might have ended up in the wrong Brookdale community. This one is located in the heart of Southern California's aerospace corridor. Many residents have backgrounds in engineering, business and academic circles.\n\nBut Rodriguez says he's still learning something important by moving into this Brookdale community: \"People are more tech-proficient than we thought.\"\n\nAnd besides, where else would he learn to play mahjong?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Winning trust from prospective customers."
+        },
+        {
+          "id": "B",
+          "text": "Knowing the likes and dislikes of customers."
+        },
+        {
+          "id": "C",
+          "text": "Demonstrating their superiority on the spot."
+        },
+        {
+          "id": "D",
+          "text": "Responding promptly to customer feedback."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：Winning trust from prospective customers.\n关键词检索定位到第 5 段的候选相关句：Rodriguez says it's important that residents here don't feel like he's selling them something.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-1-nonlistening-q55",
+      "canonicalId": "lazynote-cet6-2019-06-1-q55",
+      "number": 55,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn about the seniors in the Brookdale community?",
+      "passage": "The market for products designed specifically for older adults could reach $30 billion by next year, and startups(初创公司) want in on the action. What they sometimes lack is feedback from the people who they hope will use their products. So Brookdale, the country's largest owner of retirement communities, has been inviting a few select entrepreneurs just to move in for a few days, show off their products and hear what the residents have to say.\n\nThat's what brought Dayle Rodriguez, 28, all the way from England to the dining room of Brookdale South Bay in Torrance, California. Rodriguez is the community and marketing manager for a company called Sentab. The startup's product, SentabTV, enables older adults who may not be comfortable with computers to access email, video chat and social media using just their televisions and a remote control.\n\n\"It's nothing new, it's nothing too complicated and it's natural because lots of people have TV remotes,\" says Rodriguez.\n\nBut none of that is the topic of conversation in the Brookdale dining room. Instead, Rodriguez solicits residents' advice on what he should get on his cheeseburger and how he should spend the afternoon. Playing cards was on the agenda, as well as learning to play mahjong(麻将).\n\nRodriguez says it's important that residents here don't feel like he's selling them something. \"I've had more feedback in a passive approach,\" he says. \"Playing pool, playing cards, having dinner, having lunch,\" all work better \"than going through a survey of questions. When they get to know me and to trust me, knowing for sure I'm not selling them something—there'll be more honest feedback from them.\"\n\nRodriguez is just the seventh entrepreneur to move into one of Brookdale's 1,100 senior living communities. Other new products in the program have included a kind of full-body blow dryer and specially designed clothing that allows people with disabilities to dress and undress themselves.\n\nMary Lou Busch, 93, agreed to try the Sentab system. She tells Rodriguez that it might be good for someone, but not for her. \"I have the computer and FaceTime, which I talk with my family on,\" she explains. She also has an iPad and a smartphone. \"So I do pretty much everything I need to do.\"\n\nTo be fair, if Rodriguez had wanted feedback from some more technophobic(害怕技术的) seniors, he might have ended up in the wrong Brookdale community. This one is located in the heart of Southern California's aerospace corridor. Many residents have backgrounds in engineering, business and academic circles.\n\nBut Rodriguez says he's still learning something important by moving into this Brookdale community: \"People are more tech-proficient than we thought.\"\n\nAnd besides, where else would he learn to play mahjong?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Most of them are interested in using the Sentab."
+        },
+        {
+          "id": "B",
+          "text": "They are quite at ease with high-tech products."
+        },
+        {
+          "id": "C",
+          "text": "They have much in common with seniors elsewhere."
+        },
+        {
+          "id": "D",
+          "text": "Most of them enjoy a longer life than average people."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：They are quite at ease with high-tech products.\n关键词检索定位到第 8 段的候选相关句：To be fair, if Rodriguez had wanted feedback from some more technophobic(害怕技术的) seniors, he might have ended up in the wrong Brookdale community.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-1-nonlistening-translation",
+      "number": "IV",
+      "level": "CET6",
+      "type": "short_text_self_check",
+      "skill": "translation",
+      "section": "translation",
+      "prompt": "Directions : For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2 .\n\n成语(Chinese idioms)是汉语中的一种独特的表达方式，大多由四个汉字组成。它们高度简练且形式固定，但通常能形象地表达深刻的含义。成语大多数来源于中国古代的文学作品，通常与某些神话、传说或者历史事件有关。如果不知道某个成语的出处，就很难理解其确切含义。因为，学习成语有助于人们更好地理解中国传统文化。成语在日常会话和文学创作中广泛使用。恰当使用成语可以使一个人的语言更具表现力，交流更有效。",
+      "options": [],
+      "correctAnswer": "Chinese idioms are a distinctive form of expression in Chinese, most of which consist of four characters. Highly concise and fixed in form, they often convey profound meanings vividly. Most idioms originate in ancient Chinese literary works and are usually related to myths, legends or historical events. Without knowing the origin of an idiom, it is difficult to understand its exact meaning. Learning idioms therefore helps people better understand traditional Chinese culture. Idioms are widely used in everyday conversation and literary writing. Using them appropriately can make a person's language more expressive and communication more effective.",
+      "referenceAnswer": "Chinese idioms are a distinctive form of expression in Chinese, most of which consist of four characters. Highly concise and fixed in form, they often convey profound meanings vividly. Most idioms originate in ancient Chinese literary works and are usually related to myths, legends or historical events. Without knowing the origin of an idiom, it is difficult to understand its exact meaning. Learning idioms therefore helps people better understand traditional Chinese culture. Idioms are widely used in everyday conversation and literary writing. Using them appropriately can make a person's language more expressive and communication more effective.",
+      "hint": "成语用Chinese idioms；注意四字、形式固定、出处与恰当使用的因果关系。",
+      "explanation": "以下为原创参考译文，准确的同义表达也可接受。most of which引导非限制性定语从句，承接成语大多由四字组成；originate in表达来源于。高度简练和形式固定可用形容词短语放在句首。题面“因为，学习成语”连接词疑似转录异常，译文按上下文以therefore衔接；原题文本及哈希保留。",
+      "rubric": [
+        "信息：逐句核对人物、地点、数字、时间、因果和并列信息，避免漏译或增译。",
+        "表达：成语用Chinese idioms；注意四字、形式固定、出处与恰当使用的因果关系。",
+        "语法：检查时态、语态、主谓一致、冠词与单复数，长句按英语逻辑合理拆分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-1-nonlistening"
+    }
+  ]
+}

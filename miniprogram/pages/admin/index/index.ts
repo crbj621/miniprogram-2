@@ -1,5 +1,6 @@
+import { withSharing } from '../../../utils/page-share'
 import { api } from '../../../utils/api-client'
-Page({
+Page(withSharing({
   refreshPage() { return this.selectComponent("#page-refresh").refresh(() => this.loadStats()) },
   data: {
     adminInfo: null as any,
@@ -30,7 +31,9 @@ Page({
         food: { enabled: true, name: '食堂点餐' },
         canteen: { enabled: true, name: '食堂饭菜评价' },
         forum: { enabled: true, name: '校园动态' },
-        rider: { enabled: true, name: '骑手兼职' }
+        rider: { enabled: true, name: '骑手兼职' },
+        english: { enabled: true, name: '四六级学习' },
+        gifts: { enabled: true, name: '祝福小站' }
       }
     } as any
   },
@@ -153,6 +156,11 @@ Page({
 
   goToCanteenManage() {
     wx.navigateTo({ url: '/packageCanteen/pages/admin/admin' + (this.data.stats.pendingCanteen ? '?tab=submissions' : '') })
+  },
+
+  goToGiftsManage() { wx.navigateTo({ url: '/packageGifts/pages/admin/admin' }) },
+  goToEnglishManage() {
+    wx.navigateTo({ url: '/packageEnglish/pages/admin/admin' })
   },
 
   goToForumPosts() {
@@ -289,4 +297,4 @@ Page({
       }
     })
   }
-})
+}))

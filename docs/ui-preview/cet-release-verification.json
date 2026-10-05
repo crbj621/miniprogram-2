@@ -1,0 +1,195 @@
+{
+  "verifiedAt": "2026-10-03T14:05:13.266003+00:00",
+  "release": "20261003-215659",
+  "backup": "20261003-211810",
+  "archiveSha256": "292e4910c73e6b2ceb2b6a4d4236db0ae5fde73096ec89917331716ac2591e40",
+  "tests": {
+    "typescriptAndRoutes": 63,
+    "npmRegressionGroups": 23,
+    "officialWxmlFiles": 71,
+    "officialWxssFiles": 78,
+    "englishMemoryChecks": 131,
+    "englishMariaDbChecks": 136,
+    "rewardsMemoryChecks": 46,
+    "rewardsMariaDbChecks": 58,
+    "canteenMariaDbChecks": 13,
+    "sourceRebuild": "104/104 identical",
+    "strictCorpus": "passed"
+  },
+  "content": {
+    "words": 8352,
+    "questions": 3654,
+    "storedPapers": 114,
+    "nativeNonListening": 104,
+    "sourceCatalogueArrangements": 104,
+    "newQuestionOccurrences": 3328,
+    "objectiveOccurrences": 3120,
+    "completeSubjectiveReferences": 208,
+    "sharedReadingArrangements": 12,
+    "uniqueNewReadingQuestions": 2760,
+    "canonicalReadingQuestionsIncludingOlderPapers": 2832,
+    "reusedReviewedQuestions": 168,
+    "answerDisputes": 1,
+    "years": "2019-06 through 2026-06"
+  },
+  "production": {
+    "website": {
+      "status": 206,
+      "type": "text/html; charset=utf-8"
+    },
+    "health": {
+      "status": 200,
+      "type": "application/json; charset=utf-8",
+      "body": {
+        "status": "ok",
+        "database": "ok",
+        "functions": 21,
+        "time": "2026-10-03T14:00:26.187Z"
+      }
+    },
+    "modules": {
+      "status": 200,
+      "type": "application/json; charset=utf-8",
+      "body": {
+        "code": 0,
+        "data": {
+          "modules": {
+            "running": true,
+            "food": false,
+            "canteen": true,
+            "forum": false,
+            "rider": false,
+            "english": true
+          }
+        }
+      }
+    },
+    "outfit": {
+      "status": 206,
+      "type": "image/png"
+    },
+    "chart": {
+      "status": 206,
+      "type": "image/jpeg"
+    },
+    "wordAudio": {
+      "status": 206,
+      "type": "audio/mpeg"
+    },
+    "unauthenticatedLearning": 401,
+    "catalog": {
+      "available": 106,
+      "coverage": {
+        "fromYear": 2019,
+        "toYear": 2026,
+        "years": [
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026
+        ],
+        "periods": [
+          "2019年6月",
+          "2019年12月",
+          "2020年7月",
+          "2020年9月",
+          "2020年12月",
+          "2021年6月",
+          "2021年12月",
+          "2022年6月",
+          "2022年9月",
+          "2022年12月",
+          "2023年3月",
+          "2023年6月",
+          "2023年12月",
+          "2024年6月",
+          "2024年12月",
+          "2025年6月",
+          "2025年12月",
+          "2026年6月"
+        ],
+        "completePapers": 104,
+        "questions": 3328,
+        "listeningExcluded": true,
+        "text": "在线真题：2019、2020、2021、2022、2023、2024、2025、2026年 · 104套 · 每套32题（不含听力）",
+        "requestedFromYear": 2019,
+        "requestedLatest": "2026年6月"
+      },
+      "allCompleteHave32Questions": true,
+      "containsListeningResources": false
+    },
+    "testDatabaseRemoved": true,
+    "temporaryDatabaseUserRemoved": true,
+    "noSyntheticProductionRanks": true,
+    "existingUserDataSeeded": false
+  },
+  "officialPreview": {
+    "size": {
+      "total": 2528968,
+      "packages": [
+        {
+          "name": "TOTAL",
+          "size": 2528968
+        },
+        {
+          "name": "main",
+          "size": 1964027
+        },
+        {
+          "name": "/packageCanteen/",
+          "size": 64809
+        },
+        {
+          "name": "/packageEnglish/",
+          "size": 104652
+        },
+        {
+          "name": "/packageFood/",
+          "size": 154499
+        },
+        {
+          "name": "/packageForum/",
+          "size": 150874
+        },
+        {
+          "name": "/packageProfile/",
+          "size": 72328
+        },
+        {
+          "name": "/packageRider/",
+          "size": 17779
+        }
+      ]
+    }
+  },
+  "qr": "C:/Users/Administrator/Downloads/campus-companion-cet-preview-20261003.png",
+  "frontendUpdate": {
+    "wholePaperQuestionCounts": {
+      "CET4": 32,
+      "CET6": 32
+    },
+    "listeningExcluded": true,
+    "studyNext": "fixed footer; scroll reset after rendered card; duplicate next blocked",
+    "automaticAudio": "one context; stale callbacks canceled; stop on hide; replay on show; destroy on unload",
+    "companion": "original base plus transparent garment layers; all layers share basic CSS motions",
+    "newGarmentLayers": 6,
+    "shopItems": 19,
+    "layoutSamples": 36,
+    "layoutFailures": [],
+    "nativePhoneValidation": false
+  },
+  "boundaries": [
+    "Official preview is not formal publication",
+    "Browser screenshots convert WXML fixtures, not real phone screens",
+    "Phone login, Android keyboard, GPS/background running, image upload and automatic audio require device checks",
+    "104 papers are available source catalogue arrangements, not every nationwide version",
+    "New reading explanations are generated context and candidate-location notes, not all manually reviewed detailed explanations",
+    "Subjective references are project authored, not official model answers",
+    "One institutional versus webpage answer dispute is displayed",
+    "Current shared character motion moves flat images; no skeletal limb or blink animation"
+  ]
+}

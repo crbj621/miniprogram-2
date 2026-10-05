@@ -11,9 +11,16 @@
   padding: 20rpx;
   background-color: #fff;
   gap: 20rpx;
+  align-items: center;
+}
+
+.filter-bar picker {
+  flex-shrink: 0;
 }
 
 .picker-btn {
+  box-sizing: border-box;
+  height: 88rpx;
   display: flex;
   align-items: center;
   background-color: #f0f0f0;
@@ -30,6 +37,7 @@
 
 .search-input {
   flex: 1;
+  min-width: 0;
 }
 
 .search-input input {

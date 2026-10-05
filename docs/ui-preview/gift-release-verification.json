@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-04",
+  "release": "20261004-073355",
+  "backup": "/www/backup/campus-api/20261004-071648",
+  "archive": {
+    "path": "C:/Users/Administrator/Downloads/campus-preview-release-20261004.tar.gz",
+    "bytes": 13559681,
+    "sha256": "cdf2844bddf18922fe2a02de42b76920c16147b194e79856949f71cbd114e7d4",
+    "scope": [
+      "server",
+      "admin-web"
+    ]
+  },
+  "production": {
+    "health": "ok",
+    "database": "ok",
+    "functions": 22,
+    "wwwStatus": 200,
+    "modules": {
+      "running": true,
+      "food": false,
+      "canteen": true,
+      "forum": false,
+      "rider": false,
+      "english": true,
+      "gifts": true
+    },
+    "documentSnapshot": {
+      "date": "2026-10-04",
+      "documents": 281,
+      "collections": 41,
+      "uploadedFiles": 58,
+      "otherExistingGiftSitesRetained": 3
+    }
+  },
+  "checks": {
+    "typescriptAndStructure": "passed",
+    "registeredPages": 67,
+    "wxmlFiles": 76,
+    "wxssFiles": 84,
+    "npmRegression": "passed",
+    "giftMemory": 135,
+    "giftPreviewUI": 73,
+    "giftSQL": 147,
+    "englishSQL": 136,
+    "campusRewardsSQL": 58,
+    "canteenSQL": 24,
+    "disposableDatabasesAndUsersCleaned": true
+  },
+  "browser": {
+    "record": "gifts/verification.json",
+    "templates": 8,
+    "widths": [
+      390,
+      320
+    ],
+    "dynamicBackgrounds": 4,
+    "javascriptCspWebglErrors": [],
+    "previewSyncAndAnonymousMessages": "passed"
+  },
+  "publicHttps": {
+    "time": "2026-10-03T23:39:30.231Z",
+    "temporaryFixtures": true,
+    "httpsStatus": 200,
+    "realtimeContent": true,
+    "anonymousBirthday": true,
+    "retainedCandleState": true,
+    "elapsedMs": 121155,
+    "expiredHttpsStatus": 410,
+    "scheduledCleanup": true,
+    "firstTrialCoins": 0,
+    "firstTrialHours": 2,
+    "unlistedExcluded": true,
+    "assetCacheVersion": true,
+    "errors": [],
+    "temporaryFixturesCleaned": true
+  },
+  "native": {
+    "latestUI": "passed",
+    "draggableCanvas": "passed",
+    "backgroundButtonsTwoColumns": "passed",
+    "timelinePublicEntry": "passed",
+    "record": "gifts/native-verification.json",
+    "wholePapers": "2019 and 2026 CET4/CET6 previously loaded 32 questions each; English code unchanged in this preview upgrade"
+  },
+  "wechatPreview": {
+    "totalBytes": 2609972,
+    "mainBytes": 1976940,
+    "giftsBytes": 56437,
+    "qr": "C:/Users/Administrator/Downloads/campus-preview-final-20261004.png",
+    "metadata": "祝福升级微信预览结果.json",
+    "formalPublication": false
+  },
+  "remainingDeviceChecks": [
+    "Android GPS/shaking/known track distance",
+    "background and locked screen running",
+    "actual WeChat friend and Timeline sharing",
+    "photo upload and gestures on a phone",
+    "low-performance device WebGL"
+  ]
+}

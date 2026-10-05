@@ -1,5 +1,6 @@
+import { withSharing } from '../../../utils/page-share'
 import { api } from '../../../utils/api-client'
-Page({
+Page(withSharing({
   data: {
     userInfo: null as any,
     isLoggedIn: false,
@@ -219,6 +220,7 @@ Page({
   },
 
   hideEditNickname() {
+    wx.hideKeyboard()
     this.setData({
       showNicknameModal: false,
       newNickname: ''
@@ -294,4 +296,4 @@ Page({
       }
     })
   }
-})
+}))

@@ -1,3 +1,4 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <mahiro-scroll id="page-refresh" class="page-refresh-scroll" bindrefresh="refreshPage">
 <view class="container">
   <view class="header"><view class="admin-info"><campus-sticker kind="forum" /><view class="info"><view class="name">校园管理控制台</view><view class="role">{{adminInfo.username || adminInfo.account || '管理员'}} · {{adminInfo.role === 'super' ? '超级管理员' : '管理员'}}</view></view></view><button class="logout-btn tech-control" bindtap="logout" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">退出</button></view>
@@ -5,10 +6,12 @@
   <view class="stats-row"><view class="stat-card tech-card"><view class="stat-num">{{stats.runCount}}</view><view class="stat-label">跑步记录</view></view><view class="stat-card tech-card"><view class="stat-num">{{stats.postCount}}</view><view class="stat-label">校园动态</view></view></view>
   <view class="quick-section"><view class="section-title">常用管理</view><view class="quick-grid">
     <button wx:if="{{adminInfo.role === 'super'}}" class="uiverse-blob-card quick-btn tech-card quick-green tech-control" bindtap="openSettings" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"><view class="uiverse-blob uiverse-blob--one" /><view class="uiverse-blob uiverse-blob--two" /><view class="uiverse-blob uiverse-blob--three" /><view class="uiverse-blob uiverse-blob--four" /><view class="uiverse-card-glaze" /><view class="uiverse-card-content"><text>✿ 模块开关</text><text class="quick-note">开启 / 隐藏同学端</text></view></button>
-    <button class="uiverse-blob-card quick-btn tech-card quick-yellow tech-control" bindtap="goToCanteenManage" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"><view class="uiverse-blob uiverse-blob--one" /><view class="uiverse-blob uiverse-blob--two" /><view class="uiverse-blob uiverse-blob--three" /><view class="uiverse-blob uiverse-blob--four" /><view class="uiverse-card-glaze" /><view class="uiverse-card-content"><text>✦ 食堂管理</text><text class="pending-pill" wx:if="{{stats.pendingCanteen}}">{{stats.pendingCanteen}} 份投稿待审</text><text class="quick-note">档口 · 点评 · 投稿审核</text></view></button>
+    <button class="uiverse-blob-card quick-btn tech-card quick-yellow tech-control" bindtap="goToCanteenManage" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"><view class="uiverse-blob uiverse-blob--one" /><view class="uiverse-blob uiverse-blob--two" /><view class="uiverse-blob uiverse-blob--three" /><view class="uiverse-blob uiverse-blob--four" /><view class="uiverse-card-glaze" /><view class="uiverse-card-content"><text>✦ 食堂管理</text><text class="pending-pill" wx:if="{{stats.pendingCanteen}}">{{stats.pendingCanteen}} 份投稿待审</text><text class="pending-pill" wx:if="{{stats.canteenReports}}">{{stats.canteenReports}} 份举报待核对</text><text class="quick-note">档口 · 点评 · 举报核对</text></view></button>
     <button class="uiverse-blob-card quick-btn tech-card quick-green tech-control" bindtap="goToRankManage" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"><view class="uiverse-blob uiverse-blob--one" /><view class="uiverse-blob uiverse-blob--two" /><view class="uiverse-blob uiverse-blob--three" /><view class="uiverse-blob uiverse-blob--four" /><view class="uiverse-card-glaze" /><view class="uiverse-card-content"><text>◎ 跑步管理</text><text class="quick-note">成绩 · 排行 · 示例数据</text></view></button>
     <button class="uiverse-blob-card quick-btn tech-card quick-pink tech-control" bindtap="goToAnnouncements" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"><view class="uiverse-blob uiverse-blob--one" /><view class="uiverse-blob uiverse-blob--two" /><view class="uiverse-blob uiverse-blob--three" /><view class="uiverse-blob uiverse-blob--four" /><view class="uiverse-card-glaze" /><view class="uiverse-card-content"><text>☷ 校园公告</text><text class="quick-note">发布 / 编辑通知</text></view></button>
   </view></view>
+  <view class="menu-section tech-card"><view class="menu-item" bindtap="goToEnglishManage" hover-class="tap-feedback tech-pressed"><text class="menu-icon">✦</text><view class="menu-content"><view class="menu-name">四六级学习管理</view><view class="menu-desc">词库 · 题库状态 · 任务赏金</view></view><text class="menu-arrow">›</text></view></view>
+  <view class="menu-section tech-card"><view class="menu-item" bindtap="goToGiftsManage" hover-class="tap-feedback tech-pressed"><text class="menu-icon">💌</text><view class="menu-content"><view class="menu-name">祝福网站管理</view><view class="menu-desc">发布与下架 · 选择同学发金币</view></view><text class="menu-arrow">›</text></view></view>
   <view class="menu-section tech-card"><button class="group-heading tech-control" data-group="food" bindtap="toggleGroup" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"><text>点餐与骑手事务</text><text>{{expandedGroup === 'food' ? '收起 −' : '展开 ＋'}}</text></button><view wx:if="{{expandedGroup === 'food'}}" class="menu-list">
     <view class="menu-item" bindtap="goToFoodOrders" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"><text class="menu-icon">☷</text><view class="menu-content"><view class="menu-name">订单处理</view><view class="menu-desc">查看订单和制作状态</view></view><text class="menu-arrow">›</text></view>
     <view class="menu-item" bindtap="goToFoodMenus" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"><text class="menu-icon">♧</text><view class="menu-content"><view class="menu-name">点餐菜品</view><view class="menu-desc">价格、库存与上下架</view></view><text class="menu-arrow">›</text></view>
@@ -63,6 +66,11 @@
             <view class="module-name">骑手（{{settingsForm.modules.rider.enabled ? '开启' : '隐藏'}}）</view>
             <tech-switch checked="{{settingsForm.modules.rider.enabled}}" data-key="rider" bindchange="toggleModule" disabled="{{settingsSaving}}" />
           </view>
+          <view class="module-row">
+            <view class="module-name">四六级学习（{{settingsForm.modules.english.enabled ? '开启' : '隐藏'}}）</view>
+            <tech-switch checked="{{settingsForm.modules.english.enabled}}" data-key="english" bindchange="toggleModule" disabled="{{settingsSaving}}" />
+          </view>
+          <view class="module-row"><view class="module-name">祝福小站（{{settingsForm.modules.gifts.enabled ? '开启' : '隐藏'}}）</view><tech-switch checked="{{settingsForm.modules.gifts.enabled}}" data-key="gifts" bindchange="toggleModule" disabled="{{settingsSaving}}" /></view>
         </view>
       </view>
 
@@ -85,3 +93,5 @@
 </view>
 
 </mahiro-scroll>
+
+</block>

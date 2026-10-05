@@ -1,10 +1,14 @@
+import { withSharing } from '../../../utils/page-share'
+import { withPageCopy } from '../../../utils/page-copy'
 import { api } from '../../../utils/api-client'
 import { callFoodFunction } from '../../utils/food-cloud'
 import { getPublicModules } from '../../../utils/public-modules'
+import { getSavedCampusTheme } from '../../../utils/campus-theme'
 
-Page({
+Page(withSharing(withPageCopy('food', {
   refreshPage() { return this.selectComponent("#page-refresh").refresh(() => this.loadShops()) },
   data: {
+    theme: getSavedCampusTheme('food'),
     shops: [] as any[],
     loading: true,
     keyword: '',
@@ -21,6 +25,7 @@ Page({
   },
 
   onShow() {
+    this.setData({ theme: getSavedCampusTheme('food') })
     this.checkLogin()
     this.setData({ riderEnabled: false })
     getPublicModules().then(modules => this.setData({ riderEnabled: modules.food && modules.rider })).catch(() => {})
@@ -157,4 +162,4 @@ Page({
       }
     })
   }
-})
+})))

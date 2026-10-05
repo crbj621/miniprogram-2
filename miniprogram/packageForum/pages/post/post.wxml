@@ -1,3 +1,4 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="container">
   <view class="form-section tech-card">
     <view class="form-item">
@@ -16,13 +17,13 @@
 
     <view class="form-item">
       <text class="form-label">标题</text>
-      <input class="form-input tech-input" placeholder="请输入标题（必填）" value="{{title}}" bindinput="onTitleInput" maxlength="50" placeholder-class="input-placeholder" placeholder-style="color:#8597ad" />
+      <input class="form-input tech-input" placeholder="请输入标题（必填）" value="{{title}}" bindinput="onTitleInput" maxlength="50" adjust-position="{{true}}" cursor-spacing="24" placeholder-class="input-placeholder" placeholder-style="color:#8597ad" />
       <text class="char-count">{{title.length}}/50</text>
     </view>
 
     <view class="form-item">
       <text class="form-label">内容</text>
-      <textarea class="form-textarea tech-input" placeholder="请输入内容（必填）" value="{{content}}" bindinput="onContentInput" maxlength="2000" placeholder-class="input-placeholder" placeholder-style="color:#8597ad" />
+      <textarea class="form-textarea tech-input" placeholder="请输入内容（必填）" value="{{content}}" bindinput="onContentInput" maxlength="2000" adjust-position="{{true}}" cursor-spacing="24" placeholder-class="input-placeholder" placeholder-style="color:#8597ad" />
       <text class="char-count">{{content.length}}/2000</text>
     </view>
 
@@ -52,3 +53,5 @@
     </button>
   </view>
 </view>
+
+</block>

@@ -8,7 +8,7 @@ function load(file, services = {}) {
   const code = ts.transpileModule(fs.readFileSync(file, 'utf8'), { compilerOptions: {
     module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2020
   } }).outputText
-  vm.runInNewContext(code, { exports: {}, require: () => services,
+  vm.runInNewContext(code, { exports: {}, require: () => ({ withSharing: value => value, withPageCopy: (_scope, value) => value, getSavedCampusTheme: () => ({ style: '' }), ...services }),
     Page: input => { value = input }, Component: input => { value = input },
     getApp: () => ({ getGlobalOpenId: () => 'me', isLoggedIn: () => true }),
     wx: { showToast() {} }, console, setTimeout: task => { timers.push(task); return timers.length }, clearTimeout() {} })

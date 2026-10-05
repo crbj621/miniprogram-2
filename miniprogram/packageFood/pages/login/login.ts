@@ -1,4 +1,6 @@
-Page({
+import { withSharing } from '../../../utils/page-share'
+import { withPageCopy } from '../../../utils/page-copy'
+Page(withSharing(withPageCopy('foodLogin', {
   data: {
     isLoading: false,
     userInfo: {
@@ -90,4 +92,4 @@ Page({
       })
     }, 500)
   }
-})
+})))

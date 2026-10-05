@@ -1,5 +1,6 @@
+import { withSharing } from '../../../utils/page-share'
 import { api } from '../../../utils/api-client'
-Page({
+Page(withSharing({
   data: {
     list: [] as any[],
     loading: true,
@@ -10,8 +11,8 @@ Page({
       name: '',
       contact: '',
       phone: '',
-      minPrice: 0,
-      deliveryFee: 0
+      minPrice: '0',
+      deliveryFee: '0'
     },
     showAccountModal: false,
     accountShop: null as any,
@@ -39,8 +40,8 @@ Page({
         name: '',
         contact: '',
         phone: '',
-        minPrice: 0,
-        deliveryFee: 0
+        minPrice: '0',
+        deliveryFee: '0'
       }
     })
   },
@@ -162,8 +163,8 @@ Page({
         name: shop.name || '',
         contact: shop.contact || '',
         phone: shop.phone || '',
-        minPrice: shop.minPrice || 0,
-        deliveryFee: shop.deliveryFee || 0
+        minPrice: String(shop.minPrice || 0),
+        deliveryFee: String(shop.deliveryFee || 0)
       }
     })
   },
@@ -174,9 +175,8 @@ Page({
 
   onEditInput(e: any) {
     const field = e.currentTarget.dataset.field
-    const value = e.currentTarget.dataset.type === 'number' ? Number(e.detail.value) : e.detail.value
     this.setData({
-      [`editForm.${field}`]: value
+      [`editForm.${field}`]: e.detail.value
     })
   },
 
@@ -188,12 +188,20 @@ Page({
       return
     }
 
+    const minPrice = Number(editForm.minPrice)
+    const deliveryFee = Number(editForm.deliveryFee)
+    if (!Number.isFinite(minPrice) || minPrice < 0 || !Number.isFinite(deliveryFee) || deliveryFee < 0) {
+      wx.showToast({ title: '起送价和配送费应为非负金额', icon: 'none' })
+      return
+    }
+    const shopData = { ...editForm, minPrice, deliveryFee }
+
     wx.showLoading({ title: '保存中...' })
     try {
       const actionName = editShop ? 'adminUpdateShopInfo' : 'adminAddShop'
       const requestData = editShop 
-        ? { shopId: editShop._id, shopData: editForm }
-        : { shopData: editForm }
+        ? { shopId: editShop._id, shopData }
+        : { shopData }
 
       const res = await api.call({
         name: 'globalAdmin',
@@ -342,4 +350,4 @@ Page({
       })
     }
   }
-})
+}))

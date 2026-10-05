@@ -1,3 +1,4 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="container">
   <view class="tabs">
     <view class="tab {{currentTab === 'all' ? 'active' : ''}}" bindtap="switchTab" data-status="all" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">全部</view>
@@ -42,3 +43,5 @@
     </view>
   </scroll-view>
 </view>
+
+</block>

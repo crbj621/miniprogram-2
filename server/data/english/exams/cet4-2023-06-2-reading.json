@@ -1,0 +1,1947 @@
+{
+  "schemaVersion": 1,
+  "status": "verified_structured",
+  "source": {
+    "id": "cet4-2023-06-2-reading",
+    "textRepository": "https://github.com/wamich/english-exem-md",
+    "textLicense": "GPL-2.0",
+    "textUrl": "https://github.com/wamich/english-exem-md/blob/main/CET4/2023.06/cet4-2023-06-2.md",
+    "textSha256": "8a34875815f4d10f7e29f13e61e257aa1132c5cc591c7ed7ec8f2f57a28e2d3e",
+    "verificationRepository": "https://github.com/0609x/CET46-Resources",
+    "answerPdfUrl": "https://raw.githubusercontent.com/0609x/CET46-Resources/main/%E5%9B%9B%E7%BA%A7%E7%9C%9F%E9%A2%98/2023.06/%E7%AD%94%E6%A1%88%E8%A7%A3%E6%9E%90/2023%E5%B9%B46%E6%9C%88%E7%AC%AC2%E5%A5%97%E8%8B%B1%E8%AF%AD%E5%9B%9B%E7%BA%A7%E7%9C%9F%E9%A2%98%E8%A7%A3%E6%9E%90.pdf",
+    "answerPdfSha256": "2bc8612f564d9922f98c3975c26773254c02f8ddd8f35b4d18ef323d38a5e65d",
+    "answerRights": "Third-party reference material; repository grants no blanket license. Used to verify answer facts; commercial explanatory prose is not copied.",
+    "rightsUrl": "https://github.com/0609x/CET46-Resources/blob/main/RIGHTS.md",
+    "reviewedAt": "2026-10-03",
+    "answerStatus": "institution_reference_verified_against_options",
+    "explanations": "Project-authored explanations grounded in the question passages and verified answer keys.",
+    "referenceEssays": "Project-authored examples, not official model answers.",
+    "audioSourceUrl": "https://github.com/0609x/CET46-Resources",
+    "corrections": [
+      "Only reading questions 26–55 are included; missing listening and subjective sections are not claimed as a full exam.",
+      "OCR duplicated blank number 32; question PDF confirms first occurrence is blank 31."
+    ]
+  },
+  "papers": [
+    {
+      "id": "cet4-2023-06-2-reading",
+      "level": "CET4",
+      "year": 2023,
+      "month": 6,
+      "set": 2,
+      "title": "2023年6月英语四级第2套真题·阅读专项",
+      "authenticity": "past_exam",
+      "questionIds": [
+        "cet4-2023-06-2-reading-q26",
+        "cet4-2023-06-2-reading-q27",
+        "cet4-2023-06-2-reading-q28",
+        "cet4-2023-06-2-reading-q29",
+        "cet4-2023-06-2-reading-q30",
+        "cet4-2023-06-2-reading-q31",
+        "cet4-2023-06-2-reading-q32",
+        "cet4-2023-06-2-reading-q33",
+        "cet4-2023-06-2-reading-q34",
+        "cet4-2023-06-2-reading-q35",
+        "cet4-2023-06-2-reading-q36",
+        "cet4-2023-06-2-reading-q37",
+        "cet4-2023-06-2-reading-q38",
+        "cet4-2023-06-2-reading-q39",
+        "cet4-2023-06-2-reading-q40",
+        "cet4-2023-06-2-reading-q41",
+        "cet4-2023-06-2-reading-q42",
+        "cet4-2023-06-2-reading-q43",
+        "cet4-2023-06-2-reading-q44",
+        "cet4-2023-06-2-reading-q45",
+        "cet4-2023-06-2-reading-q46",
+        "cet4-2023-06-2-reading-q47",
+        "cet4-2023-06-2-reading-q48",
+        "cet4-2023-06-2-reading-q49",
+        "cet4-2023-06-2-reading-q50",
+        "cet4-2023-06-2-reading-q51",
+        "cet4-2023-06-2-reading-q52",
+        "cet4-2023-06-2-reading-q53",
+        "cet4-2023-06-2-reading-q54",
+        "cet4-2023-06-2-reading-q55"
+      ],
+      "durationSeconds": 2400,
+      "description": "真实题面与机构参考答案已核对，解析和参考作文为本项目编写。仅含第26–55题阅读部分，不是完整考试卷。",
+      "sourceId": "cet4-2023-06-2-reading",
+      "resources": [],
+      "coverage": {
+        "isFullExam": false,
+        "fullPaper": false,
+        "objectiveNumbers": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "objectiveCount": 30,
+        "subjectiveCount": 0,
+        "sections": [
+          "reading_word_bank",
+          "reading_matching",
+          "reading_comprehension"
+        ]
+      }
+    }
+  ],
+  "questions": [
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 26 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Morocco is responding to increasing energy demands by setting up one of the largest solar plants in the world.\n\nThe Noor solar power station is [26] ____ in the city of Ouarzazate and, once completed, will generate 580 million watts of electricity. The World Bank estimates it will serve 1.1 million people. It's [27] ____ to be completed soon.\n\nMorocco's current energy comes [28] ____ from imports. The nation hopes to get 50 percent of its energy from renewable sources by 2030. With demand for energy [29] ____ at an annual rate of 7 percent, the new solar plant could be a [30] ____ part of that goal.\n\n“This makes Morocco a big [31] ____ in the field of solar energy in the Arab region and the African continent. It could also be a forerunner for many other countries in the world that [32] ____ on foreign imports of energy,” said Ali Hajji, a solar energy specialist and engineering professor.\n\nExperts believe that the Middle East and North Africa have huge [33] ____ for solar energy projects. This is partly because of adequate sunlight and partly because technology has become more [34] ____ in the region.\n\n“The last few years have seen a realization of [35] ____ how competitive solar technologies can be,” said Michael Taylor, a senior analyst at the International Renewable Energy Agency.",
+      "options": [
+        {
+          "id": "A",
+          "text": "affordable"
+        },
+        {
+          "id": "B",
+          "text": "ancestor"
+        },
+        {
+          "id": "C",
+          "text": "crucial"
+        },
+        {
+          "id": "D",
+          "text": "depend"
+        },
+        {
+          "id": "E",
+          "text": "initial"
+        },
+        {
+          "id": "F",
+          "text": "insist"
+        },
+        {
+          "id": "G",
+          "text": "just"
+        },
+        {
+          "id": "H",
+          "text": "located"
+        },
+        {
+          "id": "I",
+          "text": "mostly"
+        },
+        {
+          "id": "J",
+          "text": "operating"
+        },
+        {
+          "id": "K",
+          "text": "perhaps"
+        },
+        {
+          "id": "L",
+          "text": "pioneer"
+        },
+        {
+          "id": "M",
+          "text": "potential"
+        },
+        {
+          "id": "N",
+          "text": "rising"
+        },
+        {
+          "id": "O",
+          "text": "scheduled"
+        }
+      ],
+      "id": "cet4-2023-06-2-reading-q26",
+      "number": 26,
+      "level": "CET4",
+      "correctAnswer": "H",
+      "hint": "先看第26空的句法位置和前后搭配，再结合整段话的语义判断。",
+      "explanation": "H，located。系动词后与in搭配，表示位于瓦尔扎扎特。将词填回本句可读为：“The Noor solar power station is located in the city of Ouarzazate and, once completed, will generate 580 million watts of electricity.”。其他选项即使词性相同，也需同时符合这句话所表达的含义。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-06-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 27 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Morocco is responding to increasing energy demands by setting up one of the largest solar plants in the world.\n\nThe Noor solar power station is [26] ____ in the city of Ouarzazate and, once completed, will generate 580 million watts of electricity. The World Bank estimates it will serve 1.1 million people. It's [27] ____ to be completed soon.\n\nMorocco's current energy comes [28] ____ from imports. The nation hopes to get 50 percent of its energy from renewable sources by 2030. With demand for energy [29] ____ at an annual rate of 7 percent, the new solar plant could be a [30] ____ part of that goal.\n\n“This makes Morocco a big [31] ____ in the field of solar energy in the Arab region and the African continent. It could also be a forerunner for many other countries in the world that [32] ____ on foreign imports of energy,” said Ali Hajji, a solar energy specialist and engineering professor.\n\nExperts believe that the Middle East and North Africa have huge [33] ____ for solar energy projects. This is partly because of adequate sunlight and partly because technology has become more [34] ____ in the region.\n\n“The last few years have seen a realization of [35] ____ how competitive solar technologies can be,” said Michael Taylor, a senior analyst at the International Renewable Energy Agency.",
+      "options": [
+        {
+          "id": "A",
+          "text": "affordable"
+        },
+        {
+          "id": "B",
+          "text": "ancestor"
+        },
+        {
+          "id": "C",
+          "text": "crucial"
+        },
+        {
+          "id": "D",
+          "text": "depend"
+        },
+        {
+          "id": "E",
+          "text": "initial"
+        },
+        {
+          "id": "F",
+          "text": "insist"
+        },
+        {
+          "id": "G",
+          "text": "just"
+        },
+        {
+          "id": "H",
+          "text": "located"
+        },
+        {
+          "id": "I",
+          "text": "mostly"
+        },
+        {
+          "id": "J",
+          "text": "operating"
+        },
+        {
+          "id": "K",
+          "text": "perhaps"
+        },
+        {
+          "id": "L",
+          "text": "pioneer"
+        },
+        {
+          "id": "M",
+          "text": "potential"
+        },
+        {
+          "id": "N",
+          "text": "rising"
+        },
+        {
+          "id": "O",
+          "text": "scheduled"
+        }
+      ],
+      "id": "cet4-2023-06-2-reading-q27",
+      "number": 27,
+      "level": "CET4",
+      "correctAnswer": "O",
+      "hint": "先看第27空的句法位置和前后搭配，再结合整段话的语义判断。",
+      "explanation": "O，scheduled。be scheduled to表示计划在不久后完成。将词填回本句可读为：“It's scheduled to be completed soon.”。其他选项即使词性相同，也需同时符合这句话所表达的含义。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-06-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 28 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Morocco is responding to increasing energy demands by setting up one of the largest solar plants in the world.\n\nThe Noor solar power station is [26] ____ in the city of Ouarzazate and, once completed, will generate 580 million watts of electricity. The World Bank estimates it will serve 1.1 million people. It's [27] ____ to be completed soon.\n\nMorocco's current energy comes [28] ____ from imports. The nation hopes to get 50 percent of its energy from renewable sources by 2030. With demand for energy [29] ____ at an annual rate of 7 percent, the new solar plant could be a [30] ____ part of that goal.\n\n“This makes Morocco a big [31] ____ in the field of solar energy in the Arab region and the African continent. It could also be a forerunner for many other countries in the world that [32] ____ on foreign imports of energy,” said Ali Hajji, a solar energy specialist and engineering professor.\n\nExperts believe that the Middle East and North Africa have huge [33] ____ for solar energy projects. This is partly because of adequate sunlight and partly because technology has become more [34] ____ in the region.\n\n“The last few years have seen a realization of [35] ____ how competitive solar technologies can be,” said Michael Taylor, a senior analyst at the International Renewable Energy Agency.",
+      "options": [
+        {
+          "id": "A",
+          "text": "affordable"
+        },
+        {
+          "id": "B",
+          "text": "ancestor"
+        },
+        {
+          "id": "C",
+          "text": "crucial"
+        },
+        {
+          "id": "D",
+          "text": "depend"
+        },
+        {
+          "id": "E",
+          "text": "initial"
+        },
+        {
+          "id": "F",
+          "text": "insist"
+        },
+        {
+          "id": "G",
+          "text": "just"
+        },
+        {
+          "id": "H",
+          "text": "located"
+        },
+        {
+          "id": "I",
+          "text": "mostly"
+        },
+        {
+          "id": "J",
+          "text": "operating"
+        },
+        {
+          "id": "K",
+          "text": "perhaps"
+        },
+        {
+          "id": "L",
+          "text": "pioneer"
+        },
+        {
+          "id": "M",
+          "text": "potential"
+        },
+        {
+          "id": "N",
+          "text": "rising"
+        },
+        {
+          "id": "O",
+          "text": "scheduled"
+        }
+      ],
+      "id": "cet4-2023-06-2-reading-q28",
+      "number": 28,
+      "level": "CET4",
+      "correctAnswer": "I",
+      "hint": "先看第28空的句法位置和前后搭配，再结合整段话的语义判断。",
+      "explanation": "I，mostly。副词说明能源大部分来自进口。将词填回本句可读为：“Morocco's current energy comes mostly from imports.”。其他选项即使词性相同，也需同时符合这句话所表达的含义。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-06-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 29 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Morocco is responding to increasing energy demands by setting up one of the largest solar plants in the world.\n\nThe Noor solar power station is [26] ____ in the city of Ouarzazate and, once completed, will generate 580 million watts of electricity. The World Bank estimates it will serve 1.1 million people. It's [27] ____ to be completed soon.\n\nMorocco's current energy comes [28] ____ from imports. The nation hopes to get 50 percent of its energy from renewable sources by 2030. With demand for energy [29] ____ at an annual rate of 7 percent, the new solar plant could be a [30] ____ part of that goal.\n\n“This makes Morocco a big [31] ____ in the field of solar energy in the Arab region and the African continent. It could also be a forerunner for many other countries in the world that [32] ____ on foreign imports of energy,” said Ali Hajji, a solar energy specialist and engineering professor.\n\nExperts believe that the Middle East and North Africa have huge [33] ____ for solar energy projects. This is partly because of adequate sunlight and partly because technology has become more [34] ____ in the region.\n\n“The last few years have seen a realization of [35] ____ how competitive solar technologies can be,” said Michael Taylor, a senior analyst at the International Renewable Energy Agency.",
+      "options": [
+        {
+          "id": "A",
+          "text": "affordable"
+        },
+        {
+          "id": "B",
+          "text": "ancestor"
+        },
+        {
+          "id": "C",
+          "text": "crucial"
+        },
+        {
+          "id": "D",
+          "text": "depend"
+        },
+        {
+          "id": "E",
+          "text": "initial"
+        },
+        {
+          "id": "F",
+          "text": "insist"
+        },
+        {
+          "id": "G",
+          "text": "just"
+        },
+        {
+          "id": "H",
+          "text": "located"
+        },
+        {
+          "id": "I",
+          "text": "mostly"
+        },
+        {
+          "id": "J",
+          "text": "operating"
+        },
+        {
+          "id": "K",
+          "text": "perhaps"
+        },
+        {
+          "id": "L",
+          "text": "pioneer"
+        },
+        {
+          "id": "M",
+          "text": "potential"
+        },
+        {
+          "id": "N",
+          "text": "rising"
+        },
+        {
+          "id": "O",
+          "text": "scheduled"
+        }
+      ],
+      "id": "cet4-2023-06-2-reading-q29",
+      "number": 29,
+      "level": "CET4",
+      "correctAnswer": "N",
+      "hint": "先看第29空的句法位置和前后搭配，再结合整段话的语义判断。",
+      "explanation": "N，rising。with复合结构中现在分词表示需求以每年7%增长。将词填回本句可读为：“With demand for energy rising at an annual rate of 7 percent, the new solar plant could be a [30] ____ part of that goal.”。其他选项即使词性相同，也需同时符合这句话所表达的含义。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-06-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 30 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Morocco is responding to increasing energy demands by setting up one of the largest solar plants in the world.\n\nThe Noor solar power station is [26] ____ in the city of Ouarzazate and, once completed, will generate 580 million watts of electricity. The World Bank estimates it will serve 1.1 million people. It's [27] ____ to be completed soon.\n\nMorocco's current energy comes [28] ____ from imports. The nation hopes to get 50 percent of its energy from renewable sources by 2030. With demand for energy [29] ____ at an annual rate of 7 percent, the new solar plant could be a [30] ____ part of that goal.\n\n“This makes Morocco a big [31] ____ in the field of solar energy in the Arab region and the African continent. It could also be a forerunner for many other countries in the world that [32] ____ on foreign imports of energy,” said Ali Hajji, a solar energy specialist and engineering professor.\n\nExperts believe that the Middle East and North Africa have huge [33] ____ for solar energy projects. This is partly because of adequate sunlight and partly because technology has become more [34] ____ in the region.\n\n“The last few years have seen a realization of [35] ____ how competitive solar technologies can be,” said Michael Taylor, a senior analyst at the International Renewable Energy Agency.",
+      "options": [
+        {
+          "id": "A",
+          "text": "affordable"
+        },
+        {
+          "id": "B",
+          "text": "ancestor"
+        },
+        {
+          "id": "C",
+          "text": "crucial"
+        },
+        {
+          "id": "D",
+          "text": "depend"
+        },
+        {
+          "id": "E",
+          "text": "initial"
+        },
+        {
+          "id": "F",
+          "text": "insist"
+        },
+        {
+          "id": "G",
+          "text": "just"
+        },
+        {
+          "id": "H",
+          "text": "located"
+        },
+        {
+          "id": "I",
+          "text": "mostly"
+        },
+        {
+          "id": "J",
+          "text": "operating"
+        },
+        {
+          "id": "K",
+          "text": "perhaps"
+        },
+        {
+          "id": "L",
+          "text": "pioneer"
+        },
+        {
+          "id": "M",
+          "text": "potential"
+        },
+        {
+          "id": "N",
+          "text": "rising"
+        },
+        {
+          "id": "O",
+          "text": "scheduled"
+        }
+      ],
+      "id": "cet4-2023-06-2-reading-q30",
+      "number": 30,
+      "level": "CET4",
+      "correctAnswer": "C",
+      "hint": "先看第30空的句法位置和前后搭配，再结合整段话的语义判断。",
+      "explanation": "C，crucial。形容词修饰part，表示新电站是实现目标的关键部分。将词填回本句可读为：“With demand for energy [29] ____ at an annual rate of 7 percent, the new solar plant could be a crucial part of that goal.”。其他选项即使词性相同，也需同时符合这句话所表达的含义。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-06-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 31 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Morocco is responding to increasing energy demands by setting up one of the largest solar plants in the world.\n\nThe Noor solar power station is [26] ____ in the city of Ouarzazate and, once completed, will generate 580 million watts of electricity. The World Bank estimates it will serve 1.1 million people. It's [27] ____ to be completed soon.\n\nMorocco's current energy comes [28] ____ from imports. The nation hopes to get 50 percent of its energy from renewable sources by 2030. With demand for energy [29] ____ at an annual rate of 7 percent, the new solar plant could be a [30] ____ part of that goal.\n\n“This makes Morocco a big [31] ____ in the field of solar energy in the Arab region and the African continent. It could also be a forerunner for many other countries in the world that [32] ____ on foreign imports of energy,” said Ali Hajji, a solar energy specialist and engineering professor.\n\nExperts believe that the Middle East and North Africa have huge [33] ____ for solar energy projects. This is partly because of adequate sunlight and partly because technology has become more [34] ____ in the region.\n\n“The last few years have seen a realization of [35] ____ how competitive solar technologies can be,” said Michael Taylor, a senior analyst at the International Renewable Energy Agency.",
+      "options": [
+        {
+          "id": "A",
+          "text": "affordable"
+        },
+        {
+          "id": "B",
+          "text": "ancestor"
+        },
+        {
+          "id": "C",
+          "text": "crucial"
+        },
+        {
+          "id": "D",
+          "text": "depend"
+        },
+        {
+          "id": "E",
+          "text": "initial"
+        },
+        {
+          "id": "F",
+          "text": "insist"
+        },
+        {
+          "id": "G",
+          "text": "just"
+        },
+        {
+          "id": "H",
+          "text": "located"
+        },
+        {
+          "id": "I",
+          "text": "mostly"
+        },
+        {
+          "id": "J",
+          "text": "operating"
+        },
+        {
+          "id": "K",
+          "text": "perhaps"
+        },
+        {
+          "id": "L",
+          "text": "pioneer"
+        },
+        {
+          "id": "M",
+          "text": "potential"
+        },
+        {
+          "id": "N",
+          "text": "rising"
+        },
+        {
+          "id": "O",
+          "text": "scheduled"
+        }
+      ],
+      "id": "cet4-2023-06-2-reading-q31",
+      "number": 31,
+      "level": "CET4",
+      "correctAnswer": "L",
+      "hint": "先看第31空的句法位置和前后搭配，再结合整段话的语义判断。",
+      "explanation": "L，pioneer。a big后接可数名词，指摩洛哥成为太阳能先驱。将词填回本句可读为：““This makes Morocco a big pioneer in the field of solar energy in the Arab region and the African continent.”。其他选项即使词性相同，也需同时符合这句话所表达的含义。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-06-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 32 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Morocco is responding to increasing energy demands by setting up one of the largest solar plants in the world.\n\nThe Noor solar power station is [26] ____ in the city of Ouarzazate and, once completed, will generate 580 million watts of electricity. The World Bank estimates it will serve 1.1 million people. It's [27] ____ to be completed soon.\n\nMorocco's current energy comes [28] ____ from imports. The nation hopes to get 50 percent of its energy from renewable sources by 2030. With demand for energy [29] ____ at an annual rate of 7 percent, the new solar plant could be a [30] ____ part of that goal.\n\n“This makes Morocco a big [31] ____ in the field of solar energy in the Arab region and the African continent. It could also be a forerunner for many other countries in the world that [32] ____ on foreign imports of energy,” said Ali Hajji, a solar energy specialist and engineering professor.\n\nExperts believe that the Middle East and North Africa have huge [33] ____ for solar energy projects. This is partly because of adequate sunlight and partly because technology has become more [34] ____ in the region.\n\n“The last few years have seen a realization of [35] ____ how competitive solar technologies can be,” said Michael Taylor, a senior analyst at the International Renewable Energy Agency.",
+      "options": [
+        {
+          "id": "A",
+          "text": "affordable"
+        },
+        {
+          "id": "B",
+          "text": "ancestor"
+        },
+        {
+          "id": "C",
+          "text": "crucial"
+        },
+        {
+          "id": "D",
+          "text": "depend"
+        },
+        {
+          "id": "E",
+          "text": "initial"
+        },
+        {
+          "id": "F",
+          "text": "insist"
+        },
+        {
+          "id": "G",
+          "text": "just"
+        },
+        {
+          "id": "H",
+          "text": "located"
+        },
+        {
+          "id": "I",
+          "text": "mostly"
+        },
+        {
+          "id": "J",
+          "text": "operating"
+        },
+        {
+          "id": "K",
+          "text": "perhaps"
+        },
+        {
+          "id": "L",
+          "text": "pioneer"
+        },
+        {
+          "id": "M",
+          "text": "potential"
+        },
+        {
+          "id": "N",
+          "text": "rising"
+        },
+        {
+          "id": "O",
+          "text": "scheduled"
+        }
+      ],
+      "id": "cet4-2023-06-2-reading-q32",
+      "number": 32,
+      "level": "CET4",
+      "correctAnswer": "D",
+      "hint": "先看第32空的句法位置和前后搭配，再结合整段话的语义判断。",
+      "explanation": "D，depend。定语从句谓语与on搭配，说明依赖能源进口。将词填回本句可读为：“It could also be a forerunner for many other countries in the world that depend on foreign imports of energy,” said Ali Hajji, a solar energy specialist and engineering professor.”。其他选项即使词性相同，也需同时符合这句话所表达的含义。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-06-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 33 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Morocco is responding to increasing energy demands by setting up one of the largest solar plants in the world.\n\nThe Noor solar power station is [26] ____ in the city of Ouarzazate and, once completed, will generate 580 million watts of electricity. The World Bank estimates it will serve 1.1 million people. It's [27] ____ to be completed soon.\n\nMorocco's current energy comes [28] ____ from imports. The nation hopes to get 50 percent of its energy from renewable sources by 2030. With demand for energy [29] ____ at an annual rate of 7 percent, the new solar plant could be a [30] ____ part of that goal.\n\n“This makes Morocco a big [31] ____ in the field of solar energy in the Arab region and the African continent. It could also be a forerunner for many other countries in the world that [32] ____ on foreign imports of energy,” said Ali Hajji, a solar energy specialist and engineering professor.\n\nExperts believe that the Middle East and North Africa have huge [33] ____ for solar energy projects. This is partly because of adequate sunlight and partly because technology has become more [34] ____ in the region.\n\n“The last few years have seen a realization of [35] ____ how competitive solar technologies can be,” said Michael Taylor, a senior analyst at the International Renewable Energy Agency.",
+      "options": [
+        {
+          "id": "A",
+          "text": "affordable"
+        },
+        {
+          "id": "B",
+          "text": "ancestor"
+        },
+        {
+          "id": "C",
+          "text": "crucial"
+        },
+        {
+          "id": "D",
+          "text": "depend"
+        },
+        {
+          "id": "E",
+          "text": "initial"
+        },
+        {
+          "id": "F",
+          "text": "insist"
+        },
+        {
+          "id": "G",
+          "text": "just"
+        },
+        {
+          "id": "H",
+          "text": "located"
+        },
+        {
+          "id": "I",
+          "text": "mostly"
+        },
+        {
+          "id": "J",
+          "text": "operating"
+        },
+        {
+          "id": "K",
+          "text": "perhaps"
+        },
+        {
+          "id": "L",
+          "text": "pioneer"
+        },
+        {
+          "id": "M",
+          "text": "potential"
+        },
+        {
+          "id": "N",
+          "text": "rising"
+        },
+        {
+          "id": "O",
+          "text": "scheduled"
+        }
+      ],
+      "id": "cet4-2023-06-2-reading-q33",
+      "number": 33,
+      "level": "CET4",
+      "correctAnswer": "M",
+      "hint": "先看第33空的句法位置和前后搭配，再结合整段话的语义判断。",
+      "explanation": "M，potential。不可数名词表示中东和北非太阳能开发潜力。将词填回本句可读为：“Experts believe that the Middle East and North Africa have huge potential for solar energy projects.”。其他选项即使词性相同，也需同时符合这句话所表达的含义。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-06-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 34 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Morocco is responding to increasing energy demands by setting up one of the largest solar plants in the world.\n\nThe Noor solar power station is [26] ____ in the city of Ouarzazate and, once completed, will generate 580 million watts of electricity. The World Bank estimates it will serve 1.1 million people. It's [27] ____ to be completed soon.\n\nMorocco's current energy comes [28] ____ from imports. The nation hopes to get 50 percent of its energy from renewable sources by 2030. With demand for energy [29] ____ at an annual rate of 7 percent, the new solar plant could be a [30] ____ part of that goal.\n\n“This makes Morocco a big [31] ____ in the field of solar energy in the Arab region and the African continent. It could also be a forerunner for many other countries in the world that [32] ____ on foreign imports of energy,” said Ali Hajji, a solar energy specialist and engineering professor.\n\nExperts believe that the Middle East and North Africa have huge [33] ____ for solar energy projects. This is partly because of adequate sunlight and partly because technology has become more [34] ____ in the region.\n\n“The last few years have seen a realization of [35] ____ how competitive solar technologies can be,” said Michael Taylor, a senior analyst at the International Renewable Energy Agency.",
+      "options": [
+        {
+          "id": "A",
+          "text": "affordable"
+        },
+        {
+          "id": "B",
+          "text": "ancestor"
+        },
+        {
+          "id": "C",
+          "text": "crucial"
+        },
+        {
+          "id": "D",
+          "text": "depend"
+        },
+        {
+          "id": "E",
+          "text": "initial"
+        },
+        {
+          "id": "F",
+          "text": "insist"
+        },
+        {
+          "id": "G",
+          "text": "just"
+        },
+        {
+          "id": "H",
+          "text": "located"
+        },
+        {
+          "id": "I",
+          "text": "mostly"
+        },
+        {
+          "id": "J",
+          "text": "operating"
+        },
+        {
+          "id": "K",
+          "text": "perhaps"
+        },
+        {
+          "id": "L",
+          "text": "pioneer"
+        },
+        {
+          "id": "M",
+          "text": "potential"
+        },
+        {
+          "id": "N",
+          "text": "rising"
+        },
+        {
+          "id": "O",
+          "text": "scheduled"
+        }
+      ],
+      "id": "cet4-2023-06-2-reading-q34",
+      "number": 34,
+      "level": "CET4",
+      "correctAnswer": "A",
+      "hint": "先看第34空的句法位置和前后搭配，再结合整段话的语义判断。",
+      "explanation": "A，affordable。become后用形容词，说明技术越来越负担得起。将词填回本句可读为：“This is partly because of adequate sunlight and partly because technology has become more affordable in the region.”。其他选项即使词性相同，也需同时符合这句话所表达的含义。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-06-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 35 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Morocco is responding to increasing energy demands by setting up one of the largest solar plants in the world.\n\nThe Noor solar power station is [26] ____ in the city of Ouarzazate and, once completed, will generate 580 million watts of electricity. The World Bank estimates it will serve 1.1 million people. It's [27] ____ to be completed soon.\n\nMorocco's current energy comes [28] ____ from imports. The nation hopes to get 50 percent of its energy from renewable sources by 2030. With demand for energy [29] ____ at an annual rate of 7 percent, the new solar plant could be a [30] ____ part of that goal.\n\n“This makes Morocco a big [31] ____ in the field of solar energy in the Arab region and the African continent. It could also be a forerunner for many other countries in the world that [32] ____ on foreign imports of energy,” said Ali Hajji, a solar energy specialist and engineering professor.\n\nExperts believe that the Middle East and North Africa have huge [33] ____ for solar energy projects. This is partly because of adequate sunlight and partly because technology has become more [34] ____ in the region.\n\n“The last few years have seen a realization of [35] ____ how competitive solar technologies can be,” said Michael Taylor, a senior analyst at the International Renewable Energy Agency.",
+      "options": [
+        {
+          "id": "A",
+          "text": "affordable"
+        },
+        {
+          "id": "B",
+          "text": "ancestor"
+        },
+        {
+          "id": "C",
+          "text": "crucial"
+        },
+        {
+          "id": "D",
+          "text": "depend"
+        },
+        {
+          "id": "E",
+          "text": "initial"
+        },
+        {
+          "id": "F",
+          "text": "insist"
+        },
+        {
+          "id": "G",
+          "text": "just"
+        },
+        {
+          "id": "H",
+          "text": "located"
+        },
+        {
+          "id": "I",
+          "text": "mostly"
+        },
+        {
+          "id": "J",
+          "text": "operating"
+        },
+        {
+          "id": "K",
+          "text": "perhaps"
+        },
+        {
+          "id": "L",
+          "text": "pioneer"
+        },
+        {
+          "id": "M",
+          "text": "potential"
+        },
+        {
+          "id": "N",
+          "text": "rising"
+        },
+        {
+          "id": "O",
+          "text": "scheduled"
+        }
+      ],
+      "id": "cet4-2023-06-2-reading-q35",
+      "number": 35,
+      "level": "CET4",
+      "correctAnswer": "G",
+      "hint": "先看第35空的句法位置和前后搭配，再结合整段话的语义判断。",
+      "explanation": "G，just。副词强调人们认识到太阳能究竟有多大竞争力。将词填回本句可读为：““The last few years have seen a realization of just how competitive solar technologies can be,” said Michael Taylor, a senior analyst at the International Renewable Energy Agency.”。其他选项即使词性相同，也需同时符合这句话所表达的含义。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-06-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Chase Carey believes greater use should be made of digital technology to make Formula One more accessible to its fans.",
+      "passage": "New Formula One Chief Hopes to Grab Americans'Attention\n\nA) For the past four decades, the leader of Formula One car racing, one of the biggest annual sporting series in the world, was Bernie Ecclestone, a former motorcycle parts dealer who built it into an international presence essentially on his own.\n\nB) A skilled backroom operator who speaks without a filter, Ecclestone said often that in his opinion, the sport was at its best when he was allowed to act as “a dictator.”\n\nC) Yet now the dictator is gone. After an American company, Liberty Media, acquired the Formula One competition recently, Chase Carey—a former executive with Fox Broadcasting Company and DirecTV who by his own admission is not a fierce racing fan-was named to replace Ecclestone and to try to renovate the organization's management, reach and ambition.\n\nD) Among the goals, Carey said in an interview on Tuesday, is one that just about every global sport seems interested in chasing: increasing interest in the United States. “People have said we're going to 'Americanize'it,\" Carey said. \"And we're not going to do that totally. But realistically, there are some elements of Americanization that the sport could use.”\n\nE) While Formula One commands enormous audiences throughout much of the world, many American sports fans know it as that other motorsport, the one that is not Nascar (纳斯卡车赛). Formula One teams race far more technologically advanced vehicles around tracks all over the world-in magnificent events in places like Malaysia, Monaco, Singapore and the United Arab Emirates, and on tradition-rich tracks like Silverstone in England and Monza in Italy too.\n\nF) The series has an annual race in Austin, Texas. But within “a few years,” Carey said, he plans to bring another to a destination American city, like New York, Los Angeles, Miami or Las Vegas. Carey's ambitious plan is two-fold: first, change the business model of Formula One, which he said was a“one-man show”under Ecclestone that had a largely narrow vision when it came to negotiating partnership deals; and second, alter the way fans experience the sport, both in person and remotely, so that connections between the audience and people within the series are easier to make.\n\nG) Increased digital access for fans, a more behind-the-scenes experience for broadcast viewers and innovation in areas like virtual reality — what is it like to speed around a track inside a Ferrari? — are among the possibilities. “The sport has clearly been underserved,” Carey said. “It doesn't do anything digitally. There's no marketing. It doesn't tell any stories. The goal in this is to make the fans connect to the live experience as much as possible, and the tools you have to do that, we're not using at all.”\n\nH) The larger question, though, is a familiar one: Is there room for Formula One in the ever-crowded sports landscape of the United States? Opinions vary, particularly because viewing habits among consumers continue to evolve. John Bloom, a professor at Shippensburg University who has studied American sports history, said the biggest challenge for any sport trying to increase its presence in the United States was framing itself in a way that had lasting appeal. “Sports generally become popular in some way because they establish a narrative,” Bloom said. “When I think of motorsports in the U.S., what we all think of is Nascar, and the narrative of Nascar is sort of rural, white, working-class Americans, mostly in the South, connecting with the atmosphere of those races. That's the narrative. When I think of the narrative of Formula One, it's a very different kind of audience.”\n\nI) That difference, Carey said, is significant. While some might immediately link Formula One to Nascar in terms of American growth, Carey said Formula One's brand research had indicated there was very little crossover; rather, Formula One fans generally cite other so-called elite events, like Wimbledon or the Ryder Cup, as competitions they enjoy. “Other than they're both cars, the Nascar fan base is a very different fan base,” Carey said. “It's a very regional fan base. Formula One is a global, famous brand of stars. These are machines that shock and awe you.”\n\nJ) Carey's background is in deal making and innovation. At Fox Broadcasting Company, he was a top advisor for years, known for his skill in helping to lead the launch of the company into sports, as well as the start of Fox News Channel. After going to DirecTV, he positioned the satellite provider as a mainstream option in millions of households.\n\nK) Now, after Liberty Media paid $4.4 billion to acquire Formula One, he is charged with making the investment pay off. \"I think they can build Formula One in the U.S.,\" said Patrick Crakes, an executive at InVivo Media Group who spent 25 years at Fox Broadcasting Company before leaving in 2016 as a senior manager at Fox Sports. “People don't work on their cars anymore. They don't want that connection anymore. It's about technology and pushing the limits. It's about speed, danger and risk. And Formula One has that more than any other racing series.”\n\nL) That is what hooked Carey, and he said he thought his experience was not unusual. He recalled attending Formula One's Monaco race last year and being overwhelmed by the ceremony leading up to the event, the way the race charmed the city for days ahead of the start. In his mind, it felt like a Super Bowl (超级碗橄榄球赛).\n\nM) Then, on race day, he watched as the cars rocketed out of a tunnel and went screaming toward a tight turn with the city's harbor and the Mediterranean Sea in the background framing the scene. He was fascinated. “You can't help but be awed,” he said, “and I think that feeling can be translated to the viewer.”\n\nN) He added: “The broader sport is a little too inward-looking, and we need to be more open. In some ways, I'm glad to be coming from the outside. The guys who are in the sport forever are sitting there saying: ‘We can't do that. We can't do that because it's never been done that way.”",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        }
+      ],
+      "id": "cet4-2023-06-2-reading-q36",
+      "number": 36,
+      "level": "CET4",
+      "correctAnswer": "G",
+      "hint": "先圈出陈述里的主体、条件和变化方向，再到文章中寻找同义表达。",
+      "explanation": "对应G段。题干陈述为“Chase Carey believes greater use should be made of digital technology to make Formula One more accessible to its fans.”；该段的关键证据是：“Increased digital access for fans, a more behind-the-scenes experience for broadcast viewers and innovation in areas like virtual reality — what is it like to speed around a track inside a Ferrari?”。同时对照主体、行为和结果，不能只凭同一个词匹配；这份陈述概括了该段的对应信息。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-06-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Chase Carey was deeply impressed by the ceremony preceding last year's Monaco race.",
+      "passage": "New Formula One Chief Hopes to Grab Americans'Attention\n\nA) For the past four decades, the leader of Formula One car racing, one of the biggest annual sporting series in the world, was Bernie Ecclestone, a former motorcycle parts dealer who built it into an international presence essentially on his own.\n\nB) A skilled backroom operator who speaks without a filter, Ecclestone said often that in his opinion, the sport was at its best when he was allowed to act as “a dictator.”\n\nC) Yet now the dictator is gone. After an American company, Liberty Media, acquired the Formula One competition recently, Chase Carey—a former executive with Fox Broadcasting Company and DirecTV who by his own admission is not a fierce racing fan-was named to replace Ecclestone and to try to renovate the organization's management, reach and ambition.\n\nD) Among the goals, Carey said in an interview on Tuesday, is one that just about every global sport seems interested in chasing: increasing interest in the United States. “People have said we're going to 'Americanize'it,\" Carey said. \"And we're not going to do that totally. But realistically, there are some elements of Americanization that the sport could use.”\n\nE) While Formula One commands enormous audiences throughout much of the world, many American sports fans know it as that other motorsport, the one that is not Nascar (纳斯卡车赛). Formula One teams race far more technologically advanced vehicles around tracks all over the world-in magnificent events in places like Malaysia, Monaco, Singapore and the United Arab Emirates, and on tradition-rich tracks like Silverstone in England and Monza in Italy too.\n\nF) The series has an annual race in Austin, Texas. But within “a few years,” Carey said, he plans to bring another to a destination American city, like New York, Los Angeles, Miami or Las Vegas. Carey's ambitious plan is two-fold: first, change the business model of Formula One, which he said was a“one-man show”under Ecclestone that had a largely narrow vision when it came to negotiating partnership deals; and second, alter the way fans experience the sport, both in person and remotely, so that connections between the audience and people within the series are easier to make.\n\nG) Increased digital access for fans, a more behind-the-scenes experience for broadcast viewers and innovation in areas like virtual reality — what is it like to speed around a track inside a Ferrari? — are among the possibilities. “The sport has clearly been underserved,” Carey said. “It doesn't do anything digitally. There's no marketing. It doesn't tell any stories. The goal in this is to make the fans connect to the live experience as much as possible, and the tools you have to do that, we're not using at all.”\n\nH) The larger question, though, is a familiar one: Is there room for Formula One in the ever-crowded sports landscape of the United States? Opinions vary, particularly because viewing habits among consumers continue to evolve. John Bloom, a professor at Shippensburg University who has studied American sports history, said the biggest challenge for any sport trying to increase its presence in the United States was framing itself in a way that had lasting appeal. “Sports generally become popular in some way because they establish a narrative,” Bloom said. “When I think of motorsports in the U.S., what we all think of is Nascar, and the narrative of Nascar is sort of rural, white, working-class Americans, mostly in the South, connecting with the atmosphere of those races. That's the narrative. When I think of the narrative of Formula One, it's a very different kind of audience.”\n\nI) That difference, Carey said, is significant. While some might immediately link Formula One to Nascar in terms of American growth, Carey said Formula One's brand research had indicated there was very little crossover; rather, Formula One fans generally cite other so-called elite events, like Wimbledon or the Ryder Cup, as competitions they enjoy. “Other than they're both cars, the Nascar fan base is a very different fan base,” Carey said. “It's a very regional fan base. Formula One is a global, famous brand of stars. These are machines that shock and awe you.”\n\nJ) Carey's background is in deal making and innovation. At Fox Broadcasting Company, he was a top advisor for years, known for his skill in helping to lead the launch of the company into sports, as well as the start of Fox News Channel. After going to DirecTV, he positioned the satellite provider as a mainstream option in millions of households.\n\nK) Now, after Liberty Media paid $4.4 billion to acquire Formula One, he is charged with making the investment pay off. \"I think they can build Formula One in the U.S.,\" said Patrick Crakes, an executive at InVivo Media Group who spent 25 years at Fox Broadcasting Company before leaving in 2016 as a senior manager at Fox Sports. “People don't work on their cars anymore. They don't want that connection anymore. It's about technology and pushing the limits. It's about speed, danger and risk. And Formula One has that more than any other racing series.”\n\nL) That is what hooked Carey, and he said he thought his experience was not unusual. He recalled attending Formula One's Monaco race last year and being overwhelmed by the ceremony leading up to the event, the way the race charmed the city for days ahead of the start. In his mind, it felt like a Super Bowl (超级碗橄榄球赛).\n\nM) Then, on race day, he watched as the cars rocketed out of a tunnel and went screaming toward a tight turn with the city's harbor and the Mediterranean Sea in the background framing the scene. He was fascinated. “You can't help but be awed,” he said, “and I think that feeling can be translated to the viewer.”\n\nN) He added: “The broader sport is a little too inward-looking, and we need to be more open. In some ways, I'm glad to be coming from the outside. The guys who are in the sport forever are sitting there saying: ‘We can't do that. We can't do that because it's never been done that way.”",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        }
+      ],
+      "id": "cet4-2023-06-2-reading-q37",
+      "number": 37,
+      "level": "CET4",
+      "correctAnswer": "L",
+      "hint": "先圈出陈述里的主体、条件和变化方向，再到文章中寻找同义表达。",
+      "explanation": "对应L段。题干陈述为“Chase Carey was deeply impressed by the ceremony preceding last year's Monaco race.”；该段的关键证据是：“He recalled attending Formula One's Monaco race last year and being overwhelmed by the ceremony leading up to the event, the way the race charmed the city for days ahead of the start.”。同时对照主体、行为和结果，不能只凭同一个词匹配；这份陈述概括了该段的对应信息。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-06-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "One of Chase Carey's goals is to make Formula One more appealing to Americans.",
+      "passage": "New Formula One Chief Hopes to Grab Americans'Attention\n\nA) For the past four decades, the leader of Formula One car racing, one of the biggest annual sporting series in the world, was Bernie Ecclestone, a former motorcycle parts dealer who built it into an international presence essentially on his own.\n\nB) A skilled backroom operator who speaks without a filter, Ecclestone said often that in his opinion, the sport was at its best when he was allowed to act as “a dictator.”\n\nC) Yet now the dictator is gone. After an American company, Liberty Media, acquired the Formula One competition recently, Chase Carey—a former executive with Fox Broadcasting Company and DirecTV who by his own admission is not a fierce racing fan-was named to replace Ecclestone and to try to renovate the organization's management, reach and ambition.\n\nD) Among the goals, Carey said in an interview on Tuesday, is one that just about every global sport seems interested in chasing: increasing interest in the United States. “People have said we're going to 'Americanize'it,\" Carey said. \"And we're not going to do that totally. But realistically, there are some elements of Americanization that the sport could use.”\n\nE) While Formula One commands enormous audiences throughout much of the world, many American sports fans know it as that other motorsport, the one that is not Nascar (纳斯卡车赛). Formula One teams race far more technologically advanced vehicles around tracks all over the world-in magnificent events in places like Malaysia, Monaco, Singapore and the United Arab Emirates, and on tradition-rich tracks like Silverstone in England and Monza in Italy too.\n\nF) The series has an annual race in Austin, Texas. But within “a few years,” Carey said, he plans to bring another to a destination American city, like New York, Los Angeles, Miami or Las Vegas. Carey's ambitious plan is two-fold: first, change the business model of Formula One, which he said was a“one-man show”under Ecclestone that had a largely narrow vision when it came to negotiating partnership deals; and second, alter the way fans experience the sport, both in person and remotely, so that connections between the audience and people within the series are easier to make.\n\nG) Increased digital access for fans, a more behind-the-scenes experience for broadcast viewers and innovation in areas like virtual reality — what is it like to speed around a track inside a Ferrari? — are among the possibilities. “The sport has clearly been underserved,” Carey said. “It doesn't do anything digitally. There's no marketing. It doesn't tell any stories. The goal in this is to make the fans connect to the live experience as much as possible, and the tools you have to do that, we're not using at all.”\n\nH) The larger question, though, is a familiar one: Is there room for Formula One in the ever-crowded sports landscape of the United States? Opinions vary, particularly because viewing habits among consumers continue to evolve. John Bloom, a professor at Shippensburg University who has studied American sports history, said the biggest challenge for any sport trying to increase its presence in the United States was framing itself in a way that had lasting appeal. “Sports generally become popular in some way because they establish a narrative,” Bloom said. “When I think of motorsports in the U.S., what we all think of is Nascar, and the narrative of Nascar is sort of rural, white, working-class Americans, mostly in the South, connecting with the atmosphere of those races. That's the narrative. When I think of the narrative of Formula One, it's a very different kind of audience.”\n\nI) That difference, Carey said, is significant. While some might immediately link Formula One to Nascar in terms of American growth, Carey said Formula One's brand research had indicated there was very little crossover; rather, Formula One fans generally cite other so-called elite events, like Wimbledon or the Ryder Cup, as competitions they enjoy. “Other than they're both cars, the Nascar fan base is a very different fan base,” Carey said. “It's a very regional fan base. Formula One is a global, famous brand of stars. These are machines that shock and awe you.”\n\nJ) Carey's background is in deal making and innovation. At Fox Broadcasting Company, he was a top advisor for years, known for his skill in helping to lead the launch of the company into sports, as well as the start of Fox News Channel. After going to DirecTV, he positioned the satellite provider as a mainstream option in millions of households.\n\nK) Now, after Liberty Media paid $4.4 billion to acquire Formula One, he is charged with making the investment pay off. \"I think they can build Formula One in the U.S.,\" said Patrick Crakes, an executive at InVivo Media Group who spent 25 years at Fox Broadcasting Company before leaving in 2016 as a senior manager at Fox Sports. “People don't work on their cars anymore. They don't want that connection anymore. It's about technology and pushing the limits. It's about speed, danger and risk. And Formula One has that more than any other racing series.”\n\nL) That is what hooked Carey, and he said he thought his experience was not unusual. He recalled attending Formula One's Monaco race last year and being overwhelmed by the ceremony leading up to the event, the way the race charmed the city for days ahead of the start. In his mind, it felt like a Super Bowl (超级碗橄榄球赛).\n\nM) Then, on race day, he watched as the cars rocketed out of a tunnel and went screaming toward a tight turn with the city's harbor and the Mediterranean Sea in the background framing the scene. He was fascinated. “You can't help but be awed,” he said, “and I think that feeling can be translated to the viewer.”\n\nN) He added: “The broader sport is a little too inward-looking, and we need to be more open. In some ways, I'm glad to be coming from the outside. The guys who are in the sport forever are sitting there saying: ‘We can't do that. We can't do that because it's never been done that way.”",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        }
+      ],
+      "id": "cet4-2023-06-2-reading-q38",
+      "number": 38,
+      "level": "CET4",
+      "correctAnswer": "D",
+      "hint": "先圈出陈述里的主体、条件和变化方向，再到文章中寻找同义表达。",
+      "explanation": "对应D段。题干陈述为“One of Chase Carey's goals is to make Formula One more appealing to Americans.”；该段的关键证据是：“Among the goals, Carey said in an interview on Tuesday, is one that just about every global sport seems interested in chasing: increasing interest in the United States.”。同时对照主体、行为和结果，不能只凭同一个词匹配；这份陈述概括了该段的对应信息。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-06-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "A former motorbike parts dealer led Formula One for the past forty years.",
+      "passage": "New Formula One Chief Hopes to Grab Americans'Attention\n\nA) For the past four decades, the leader of Formula One car racing, one of the biggest annual sporting series in the world, was Bernie Ecclestone, a former motorcycle parts dealer who built it into an international presence essentially on his own.\n\nB) A skilled backroom operator who speaks without a filter, Ecclestone said often that in his opinion, the sport was at its best when he was allowed to act as “a dictator.”\n\nC) Yet now the dictator is gone. After an American company, Liberty Media, acquired the Formula One competition recently, Chase Carey—a former executive with Fox Broadcasting Company and DirecTV who by his own admission is not a fierce racing fan-was named to replace Ecclestone and to try to renovate the organization's management, reach and ambition.\n\nD) Among the goals, Carey said in an interview on Tuesday, is one that just about every global sport seems interested in chasing: increasing interest in the United States. “People have said we're going to 'Americanize'it,\" Carey said. \"And we're not going to do that totally. But realistically, there are some elements of Americanization that the sport could use.”\n\nE) While Formula One commands enormous audiences throughout much of the world, many American sports fans know it as that other motorsport, the one that is not Nascar (纳斯卡车赛). Formula One teams race far more technologically advanced vehicles around tracks all over the world-in magnificent events in places like Malaysia, Monaco, Singapore and the United Arab Emirates, and on tradition-rich tracks like Silverstone in England and Monza in Italy too.\n\nF) The series has an annual race in Austin, Texas. But within “a few years,” Carey said, he plans to bring another to a destination American city, like New York, Los Angeles, Miami or Las Vegas. Carey's ambitious plan is two-fold: first, change the business model of Formula One, which he said was a“one-man show”under Ecclestone that had a largely narrow vision when it came to negotiating partnership deals; and second, alter the way fans experience the sport, both in person and remotely, so that connections between the audience and people within the series are easier to make.\n\nG) Increased digital access for fans, a more behind-the-scenes experience for broadcast viewers and innovation in areas like virtual reality — what is it like to speed around a track inside a Ferrari? — are among the possibilities. “The sport has clearly been underserved,” Carey said. “It doesn't do anything digitally. There's no marketing. It doesn't tell any stories. The goal in this is to make the fans connect to the live experience as much as possible, and the tools you have to do that, we're not using at all.”\n\nH) The larger question, though, is a familiar one: Is there room for Formula One in the ever-crowded sports landscape of the United States? Opinions vary, particularly because viewing habits among consumers continue to evolve. John Bloom, a professor at Shippensburg University who has studied American sports history, said the biggest challenge for any sport trying to increase its presence in the United States was framing itself in a way that had lasting appeal. “Sports generally become popular in some way because they establish a narrative,” Bloom said. “When I think of motorsports in the U.S., what we all think of is Nascar, and the narrative of Nascar is sort of rural, white, working-class Americans, mostly in the South, connecting with the atmosphere of those races. That's the narrative. When I think of the narrative of Formula One, it's a very different kind of audience.”\n\nI) That difference, Carey said, is significant. While some might immediately link Formula One to Nascar in terms of American growth, Carey said Formula One's brand research had indicated there was very little crossover; rather, Formula One fans generally cite other so-called elite events, like Wimbledon or the Ryder Cup, as competitions they enjoy. “Other than they're both cars, the Nascar fan base is a very different fan base,” Carey said. “It's a very regional fan base. Formula One is a global, famous brand of stars. These are machines that shock and awe you.”\n\nJ) Carey's background is in deal making and innovation. At Fox Broadcasting Company, he was a top advisor for years, known for his skill in helping to lead the launch of the company into sports, as well as the start of Fox News Channel. After going to DirecTV, he positioned the satellite provider as a mainstream option in millions of households.\n\nK) Now, after Liberty Media paid $4.4 billion to acquire Formula One, he is charged with making the investment pay off. \"I think they can build Formula One in the U.S.,\" said Patrick Crakes, an executive at InVivo Media Group who spent 25 years at Fox Broadcasting Company before leaving in 2016 as a senior manager at Fox Sports. “People don't work on their cars anymore. They don't want that connection anymore. It's about technology and pushing the limits. It's about speed, danger and risk. And Formula One has that more than any other racing series.”\n\nL) That is what hooked Carey, and he said he thought his experience was not unusual. He recalled attending Formula One's Monaco race last year and being overwhelmed by the ceremony leading up to the event, the way the race charmed the city for days ahead of the start. In his mind, it felt like a Super Bowl (超级碗橄榄球赛).\n\nM) Then, on race day, he watched as the cars rocketed out of a tunnel and went screaming toward a tight turn with the city's harbor and the Mediterranean Sea in the background framing the scene. He was fascinated. “You can't help but be awed,” he said, “and I think that feeling can be translated to the viewer.”\n\nN) He added: “The broader sport is a little too inward-looking, and we need to be more open. In some ways, I'm glad to be coming from the outside. The guys who are in the sport forever are sitting there saying: ‘We can't do that. We can't do that because it's never been done that way.”",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        }
+      ],
+      "id": "cet4-2023-06-2-reading-q39",
+      "number": 39,
+      "level": "CET4",
+      "correctAnswer": "A",
+      "hint": "先圈出陈述里的主体、条件和变化方向，再到文章中寻找同义表达。",
+      "explanation": "对应A段。题干陈述为“A former motorbike parts dealer led Formula One for the past forty years.”；该段的关键证据是：“For the past four decades, the leader of Formula One car racing, one of the biggest annual sporting series in the world, was Bernie Ecclestone, a former motorcycle parts dealer who built it into an international presence essentially on his own.”。同时对照主体、行为和结果，不能只凭同一个词匹配；这份陈述概括了该段的对应信息。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-06-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Chase Carey thought the audience of Formula One could be made to share his feeling about the race.",
+      "passage": "New Formula One Chief Hopes to Grab Americans'Attention\n\nA) For the past four decades, the leader of Formula One car racing, one of the biggest annual sporting series in the world, was Bernie Ecclestone, a former motorcycle parts dealer who built it into an international presence essentially on his own.\n\nB) A skilled backroom operator who speaks without a filter, Ecclestone said often that in his opinion, the sport was at its best when he was allowed to act as “a dictator.”\n\nC) Yet now the dictator is gone. After an American company, Liberty Media, acquired the Formula One competition recently, Chase Carey—a former executive with Fox Broadcasting Company and DirecTV who by his own admission is not a fierce racing fan-was named to replace Ecclestone and to try to renovate the organization's management, reach and ambition.\n\nD) Among the goals, Carey said in an interview on Tuesday, is one that just about every global sport seems interested in chasing: increasing interest in the United States. “People have said we're going to 'Americanize'it,\" Carey said. \"And we're not going to do that totally. But realistically, there are some elements of Americanization that the sport could use.”\n\nE) While Formula One commands enormous audiences throughout much of the world, many American sports fans know it as that other motorsport, the one that is not Nascar (纳斯卡车赛). Formula One teams race far more technologically advanced vehicles around tracks all over the world-in magnificent events in places like Malaysia, Monaco, Singapore and the United Arab Emirates, and on tradition-rich tracks like Silverstone in England and Monza in Italy too.\n\nF) The series has an annual race in Austin, Texas. But within “a few years,” Carey said, he plans to bring another to a destination American city, like New York, Los Angeles, Miami or Las Vegas. Carey's ambitious plan is two-fold: first, change the business model of Formula One, which he said was a“one-man show”under Ecclestone that had a largely narrow vision when it came to negotiating partnership deals; and second, alter the way fans experience the sport, both in person and remotely, so that connections between the audience and people within the series are easier to make.\n\nG) Increased digital access for fans, a more behind-the-scenes experience for broadcast viewers and innovation in areas like virtual reality — what is it like to speed around a track inside a Ferrari? — are among the possibilities. “The sport has clearly been underserved,” Carey said. “It doesn't do anything digitally. There's no marketing. It doesn't tell any stories. The goal in this is to make the fans connect to the live experience as much as possible, and the tools you have to do that, we're not using at all.”\n\nH) The larger question, though, is a familiar one: Is there room for Formula One in the ever-crowded sports landscape of the United States? Opinions vary, particularly because viewing habits among consumers continue to evolve. John Bloom, a professor at Shippensburg University who has studied American sports history, said the biggest challenge for any sport trying to increase its presence in the United States was framing itself in a way that had lasting appeal. “Sports generally become popular in some way because they establish a narrative,” Bloom said. “When I think of motorsports in the U.S., what we all think of is Nascar, and the narrative of Nascar is sort of rural, white, working-class Americans, mostly in the South, connecting with the atmosphere of those races. That's the narrative. When I think of the narrative of Formula One, it's a very different kind of audience.”\n\nI) That difference, Carey said, is significant. While some might immediately link Formula One to Nascar in terms of American growth, Carey said Formula One's brand research had indicated there was very little crossover; rather, Formula One fans generally cite other so-called elite events, like Wimbledon or the Ryder Cup, as competitions they enjoy. “Other than they're both cars, the Nascar fan base is a very different fan base,” Carey said. “It's a very regional fan base. Formula One is a global, famous brand of stars. These are machines that shock and awe you.”\n\nJ) Carey's background is in deal making and innovation. At Fox Broadcasting Company, he was a top advisor for years, known for his skill in helping to lead the launch of the company into sports, as well as the start of Fox News Channel. After going to DirecTV, he positioned the satellite provider as a mainstream option in millions of households.\n\nK) Now, after Liberty Media paid $4.4 billion to acquire Formula One, he is charged with making the investment pay off. \"I think they can build Formula One in the U.S.,\" said Patrick Crakes, an executive at InVivo Media Group who spent 25 years at Fox Broadcasting Company before leaving in 2016 as a senior manager at Fox Sports. “People don't work on their cars anymore. They don't want that connection anymore. It's about technology and pushing the limits. It's about speed, danger and risk. And Formula One has that more than any other racing series.”\n\nL) That is what hooked Carey, and he said he thought his experience was not unusual. He recalled attending Formula One's Monaco race last year and being overwhelmed by the ceremony leading up to the event, the way the race charmed the city for days ahead of the start. In his mind, it felt like a Super Bowl (超级碗橄榄球赛).\n\nM) Then, on race day, he watched as the cars rocketed out of a tunnel and went screaming toward a tight turn with the city's harbor and the Mediterranean Sea in the background framing the scene. He was fascinated. “You can't help but be awed,” he said, “and I think that feeling can be translated to the viewer.”\n\nN) He added: “The broader sport is a little too inward-looking, and we need to be more open. In some ways, I'm glad to be coming from the outside. The guys who are in the sport forever are sitting there saying: ‘We can't do that. We can't do that because it's never been done that way.”",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        }
+      ],
+      "id": "cet4-2023-06-2-reading-q40",
+      "number": 40,
+      "level": "CET4",
+      "correctAnswer": "M",
+      "hint": "先圈出陈述里的主体、条件和变化方向，再到文章中寻找同义表达。",
+      "explanation": "对应M段。translated to the viewer对应让观众分享他的震撼感受，前面的赛车场景交代这种感受来源。 该段证据（合看相关句）：“Then, on race day, he watched as the cars rocketed out of a tunnel and went screaming toward a tight turn with the city's harbor and the Mediterranean Sea in the background framing the scene. He was fascinated. “You can't help but be awed,” he said, “and I think that feeling can be translated to the viewer.””",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-06-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Chase Carey used to serve as a top advisor for a major broadcasting company.",
+      "passage": "New Formula One Chief Hopes to Grab Americans'Attention\n\nA) For the past four decades, the leader of Formula One car racing, one of the biggest annual sporting series in the world, was Bernie Ecclestone, a former motorcycle parts dealer who built it into an international presence essentially on his own.\n\nB) A skilled backroom operator who speaks without a filter, Ecclestone said often that in his opinion, the sport was at its best when he was allowed to act as “a dictator.”\n\nC) Yet now the dictator is gone. After an American company, Liberty Media, acquired the Formula One competition recently, Chase Carey—a former executive with Fox Broadcasting Company and DirecTV who by his own admission is not a fierce racing fan-was named to replace Ecclestone and to try to renovate the organization's management, reach and ambition.\n\nD) Among the goals, Carey said in an interview on Tuesday, is one that just about every global sport seems interested in chasing: increasing interest in the United States. “People have said we're going to 'Americanize'it,\" Carey said. \"And we're not going to do that totally. But realistically, there are some elements of Americanization that the sport could use.”\n\nE) While Formula One commands enormous audiences throughout much of the world, many American sports fans know it as that other motorsport, the one that is not Nascar (纳斯卡车赛). Formula One teams race far more technologically advanced vehicles around tracks all over the world-in magnificent events in places like Malaysia, Monaco, Singapore and the United Arab Emirates, and on tradition-rich tracks like Silverstone in England and Monza in Italy too.\n\nF) The series has an annual race in Austin, Texas. But within “a few years,” Carey said, he plans to bring another to a destination American city, like New York, Los Angeles, Miami or Las Vegas. Carey's ambitious plan is two-fold: first, change the business model of Formula One, which he said was a“one-man show”under Ecclestone that had a largely narrow vision when it came to negotiating partnership deals; and second, alter the way fans experience the sport, both in person and remotely, so that connections between the audience and people within the series are easier to make.\n\nG) Increased digital access for fans, a more behind-the-scenes experience for broadcast viewers and innovation in areas like virtual reality — what is it like to speed around a track inside a Ferrari? — are among the possibilities. “The sport has clearly been underserved,” Carey said. “It doesn't do anything digitally. There's no marketing. It doesn't tell any stories. The goal in this is to make the fans connect to the live experience as much as possible, and the tools you have to do that, we're not using at all.”\n\nH) The larger question, though, is a familiar one: Is there room for Formula One in the ever-crowded sports landscape of the United States? Opinions vary, particularly because viewing habits among consumers continue to evolve. John Bloom, a professor at Shippensburg University who has studied American sports history, said the biggest challenge for any sport trying to increase its presence in the United States was framing itself in a way that had lasting appeal. “Sports generally become popular in some way because they establish a narrative,” Bloom said. “When I think of motorsports in the U.S., what we all think of is Nascar, and the narrative of Nascar is sort of rural, white, working-class Americans, mostly in the South, connecting with the atmosphere of those races. That's the narrative. When I think of the narrative of Formula One, it's a very different kind of audience.”\n\nI) That difference, Carey said, is significant. While some might immediately link Formula One to Nascar in terms of American growth, Carey said Formula One's brand research had indicated there was very little crossover; rather, Formula One fans generally cite other so-called elite events, like Wimbledon or the Ryder Cup, as competitions they enjoy. “Other than they're both cars, the Nascar fan base is a very different fan base,” Carey said. “It's a very regional fan base. Formula One is a global, famous brand of stars. These are machines that shock and awe you.”\n\nJ) Carey's background is in deal making and innovation. At Fox Broadcasting Company, he was a top advisor for years, known for his skill in helping to lead the launch of the company into sports, as well as the start of Fox News Channel. After going to DirecTV, he positioned the satellite provider as a mainstream option in millions of households.\n\nK) Now, after Liberty Media paid $4.4 billion to acquire Formula One, he is charged with making the investment pay off. \"I think they can build Formula One in the U.S.,\" said Patrick Crakes, an executive at InVivo Media Group who spent 25 years at Fox Broadcasting Company before leaving in 2016 as a senior manager at Fox Sports. “People don't work on their cars anymore. They don't want that connection anymore. It's about technology and pushing the limits. It's about speed, danger and risk. And Formula One has that more than any other racing series.”\n\nL) That is what hooked Carey, and he said he thought his experience was not unusual. He recalled attending Formula One's Monaco race last year and being overwhelmed by the ceremony leading up to the event, the way the race charmed the city for days ahead of the start. In his mind, it felt like a Super Bowl (超级碗橄榄球赛).\n\nM) Then, on race day, he watched as the cars rocketed out of a tunnel and went screaming toward a tight turn with the city's harbor and the Mediterranean Sea in the background framing the scene. He was fascinated. “You can't help but be awed,” he said, “and I think that feeling can be translated to the viewer.”\n\nN) He added: “The broader sport is a little too inward-looking, and we need to be more open. In some ways, I'm glad to be coming from the outside. The guys who are in the sport forever are sitting there saying: ‘We can't do that. We can't do that because it's never been done that way.”",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        }
+      ],
+      "id": "cet4-2023-06-2-reading-q41",
+      "number": 41,
+      "level": "CET4",
+      "correctAnswer": "J",
+      "hint": "先圈出陈述里的主体、条件和变化方向，再到文章中寻找同义表达。",
+      "explanation": "对应J段。题干陈述为“Chase Carey used to serve as a top advisor for a major broadcasting company.”；该段的关键证据是：“At Fox Broadcasting Company, he was a top advisor for years, known for his skill in helping to lead the launch of the company into sports, as well as the start of Fox News Channel.”。同时对照主体、行为和结果，不能只凭同一个词匹配；这份陈述概括了该段的对应信息。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-06-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Chase Carey intends to make connections easier between the audience and the Formula One racers.",
+      "passage": "New Formula One Chief Hopes to Grab Americans'Attention\n\nA) For the past four decades, the leader of Formula One car racing, one of the biggest annual sporting series in the world, was Bernie Ecclestone, a former motorcycle parts dealer who built it into an international presence essentially on his own.\n\nB) A skilled backroom operator who speaks without a filter, Ecclestone said often that in his opinion, the sport was at its best when he was allowed to act as “a dictator.”\n\nC) Yet now the dictator is gone. After an American company, Liberty Media, acquired the Formula One competition recently, Chase Carey—a former executive with Fox Broadcasting Company and DirecTV who by his own admission is not a fierce racing fan-was named to replace Ecclestone and to try to renovate the organization's management, reach and ambition.\n\nD) Among the goals, Carey said in an interview on Tuesday, is one that just about every global sport seems interested in chasing: increasing interest in the United States. “People have said we're going to 'Americanize'it,\" Carey said. \"And we're not going to do that totally. But realistically, there are some elements of Americanization that the sport could use.”\n\nE) While Formula One commands enormous audiences throughout much of the world, many American sports fans know it as that other motorsport, the one that is not Nascar (纳斯卡车赛). Formula One teams race far more technologically advanced vehicles around tracks all over the world-in magnificent events in places like Malaysia, Monaco, Singapore and the United Arab Emirates, and on tradition-rich tracks like Silverstone in England and Monza in Italy too.\n\nF) The series has an annual race in Austin, Texas. But within “a few years,” Carey said, he plans to bring another to a destination American city, like New York, Los Angeles, Miami or Las Vegas. Carey's ambitious plan is two-fold: first, change the business model of Formula One, which he said was a“one-man show”under Ecclestone that had a largely narrow vision when it came to negotiating partnership deals; and second, alter the way fans experience the sport, both in person and remotely, so that connections between the audience and people within the series are easier to make.\n\nG) Increased digital access for fans, a more behind-the-scenes experience for broadcast viewers and innovation in areas like virtual reality — what is it like to speed around a track inside a Ferrari? — are among the possibilities. “The sport has clearly been underserved,” Carey said. “It doesn't do anything digitally. There's no marketing. It doesn't tell any stories. The goal in this is to make the fans connect to the live experience as much as possible, and the tools you have to do that, we're not using at all.”\n\nH) The larger question, though, is a familiar one: Is there room for Formula One in the ever-crowded sports landscape of the United States? Opinions vary, particularly because viewing habits among consumers continue to evolve. John Bloom, a professor at Shippensburg University who has studied American sports history, said the biggest challenge for any sport trying to increase its presence in the United States was framing itself in a way that had lasting appeal. “Sports generally become popular in some way because they establish a narrative,” Bloom said. “When I think of motorsports in the U.S., what we all think of is Nascar, and the narrative of Nascar is sort of rural, white, working-class Americans, mostly in the South, connecting with the atmosphere of those races. That's the narrative. When I think of the narrative of Formula One, it's a very different kind of audience.”\n\nI) That difference, Carey said, is significant. While some might immediately link Formula One to Nascar in terms of American growth, Carey said Formula One's brand research had indicated there was very little crossover; rather, Formula One fans generally cite other so-called elite events, like Wimbledon or the Ryder Cup, as competitions they enjoy. “Other than they're both cars, the Nascar fan base is a very different fan base,” Carey said. “It's a very regional fan base. Formula One is a global, famous brand of stars. These are machines that shock and awe you.”\n\nJ) Carey's background is in deal making and innovation. At Fox Broadcasting Company, he was a top advisor for years, known for his skill in helping to lead the launch of the company into sports, as well as the start of Fox News Channel. After going to DirecTV, he positioned the satellite provider as a mainstream option in millions of households.\n\nK) Now, after Liberty Media paid $4.4 billion to acquire Formula One, he is charged with making the investment pay off. \"I think they can build Formula One in the U.S.,\" said Patrick Crakes, an executive at InVivo Media Group who spent 25 years at Fox Broadcasting Company before leaving in 2016 as a senior manager at Fox Sports. “People don't work on their cars anymore. They don't want that connection anymore. It's about technology and pushing the limits. It's about speed, danger and risk. And Formula One has that more than any other racing series.”\n\nL) That is what hooked Carey, and he said he thought his experience was not unusual. He recalled attending Formula One's Monaco race last year and being overwhelmed by the ceremony leading up to the event, the way the race charmed the city for days ahead of the start. In his mind, it felt like a Super Bowl (超级碗橄榄球赛).\n\nM) Then, on race day, he watched as the cars rocketed out of a tunnel and went screaming toward a tight turn with the city's harbor and the Mediterranean Sea in the background framing the scene. He was fascinated. “You can't help but be awed,” he said, “and I think that feeling can be translated to the viewer.”\n\nN) He added: “The broader sport is a little too inward-looking, and we need to be more open. In some ways, I'm glad to be coming from the outside. The guys who are in the sport forever are sitting there saying: ‘We can't do that. We can't do that because it's never been done that way.”",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        }
+      ],
+      "id": "cet4-2023-06-2-reading-q42",
+      "number": 42,
+      "level": "CET4",
+      "correctAnswer": "F",
+      "hint": "先圈出陈述里的主体、条件和变化方向，再到文章中寻找同义表达。",
+      "explanation": "对应F段。题干陈述为“Chase Carey intends to make connections easier between the audience and the Formula One racers.”；该段的关键证据是：“Carey's ambitious plan is two-fold: first, change the business model of Formula One, which he said was a“one-man show”under Ecclestone that had a largely narrow vision when it came to negotiating partnership deals; and second, alter the way fans experience the sport, both in person and remotely, so that connections between the audience and people within the series are easier to make.”。同时对照主体、行为和结果，不能只凭同一个词匹配；这份陈述概括了该段的对应信息。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-06-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The new leader of Formula One admitted he was not super interested in car racing.",
+      "passage": "New Formula One Chief Hopes to Grab Americans'Attention\n\nA) For the past four decades, the leader of Formula One car racing, one of the biggest annual sporting series in the world, was Bernie Ecclestone, a former motorcycle parts dealer who built it into an international presence essentially on his own.\n\nB) A skilled backroom operator who speaks without a filter, Ecclestone said often that in his opinion, the sport was at its best when he was allowed to act as “a dictator.”\n\nC) Yet now the dictator is gone. After an American company, Liberty Media, acquired the Formula One competition recently, Chase Carey—a former executive with Fox Broadcasting Company and DirecTV who by his own admission is not a fierce racing fan-was named to replace Ecclestone and to try to renovate the organization's management, reach and ambition.\n\nD) Among the goals, Carey said in an interview on Tuesday, is one that just about every global sport seems interested in chasing: increasing interest in the United States. “People have said we're going to 'Americanize'it,\" Carey said. \"And we're not going to do that totally. But realistically, there are some elements of Americanization that the sport could use.”\n\nE) While Formula One commands enormous audiences throughout much of the world, many American sports fans know it as that other motorsport, the one that is not Nascar (纳斯卡车赛). Formula One teams race far more technologically advanced vehicles around tracks all over the world-in magnificent events in places like Malaysia, Monaco, Singapore and the United Arab Emirates, and on tradition-rich tracks like Silverstone in England and Monza in Italy too.\n\nF) The series has an annual race in Austin, Texas. But within “a few years,” Carey said, he plans to bring another to a destination American city, like New York, Los Angeles, Miami or Las Vegas. Carey's ambitious plan is two-fold: first, change the business model of Formula One, which he said was a“one-man show”under Ecclestone that had a largely narrow vision when it came to negotiating partnership deals; and second, alter the way fans experience the sport, both in person and remotely, so that connections between the audience and people within the series are easier to make.\n\nG) Increased digital access for fans, a more behind-the-scenes experience for broadcast viewers and innovation in areas like virtual reality — what is it like to speed around a track inside a Ferrari? — are among the possibilities. “The sport has clearly been underserved,” Carey said. “It doesn't do anything digitally. There's no marketing. It doesn't tell any stories. The goal in this is to make the fans connect to the live experience as much as possible, and the tools you have to do that, we're not using at all.”\n\nH) The larger question, though, is a familiar one: Is there room for Formula One in the ever-crowded sports landscape of the United States? Opinions vary, particularly because viewing habits among consumers continue to evolve. John Bloom, a professor at Shippensburg University who has studied American sports history, said the biggest challenge for any sport trying to increase its presence in the United States was framing itself in a way that had lasting appeal. “Sports generally become popular in some way because they establish a narrative,” Bloom said. “When I think of motorsports in the U.S., what we all think of is Nascar, and the narrative of Nascar is sort of rural, white, working-class Americans, mostly in the South, connecting with the atmosphere of those races. That's the narrative. When I think of the narrative of Formula One, it's a very different kind of audience.”\n\nI) That difference, Carey said, is significant. While some might immediately link Formula One to Nascar in terms of American growth, Carey said Formula One's brand research had indicated there was very little crossover; rather, Formula One fans generally cite other so-called elite events, like Wimbledon or the Ryder Cup, as competitions they enjoy. “Other than they're both cars, the Nascar fan base is a very different fan base,” Carey said. “It's a very regional fan base. Formula One is a global, famous brand of stars. These are machines that shock and awe you.”\n\nJ) Carey's background is in deal making and innovation. At Fox Broadcasting Company, he was a top advisor for years, known for his skill in helping to lead the launch of the company into sports, as well as the start of Fox News Channel. After going to DirecTV, he positioned the satellite provider as a mainstream option in millions of households.\n\nK) Now, after Liberty Media paid $4.4 billion to acquire Formula One, he is charged with making the investment pay off. \"I think they can build Formula One in the U.S.,\" said Patrick Crakes, an executive at InVivo Media Group who spent 25 years at Fox Broadcasting Company before leaving in 2016 as a senior manager at Fox Sports. “People don't work on their cars anymore. They don't want that connection anymore. It's about technology and pushing the limits. It's about speed, danger and risk. And Formula One has that more than any other racing series.”\n\nL) That is what hooked Carey, and he said he thought his experience was not unusual. He recalled attending Formula One's Monaco race last year and being overwhelmed by the ceremony leading up to the event, the way the race charmed the city for days ahead of the start. In his mind, it felt like a Super Bowl (超级碗橄榄球赛).\n\nM) Then, on race day, he watched as the cars rocketed out of a tunnel and went screaming toward a tight turn with the city's harbor and the Mediterranean Sea in the background framing the scene. He was fascinated. “You can't help but be awed,” he said, “and I think that feeling can be translated to the viewer.”\n\nN) He added: “The broader sport is a little too inward-looking, and we need to be more open. In some ways, I'm glad to be coming from the outside. The guys who are in the sport forever are sitting there saying: ‘We can't do that. We can't do that because it's never been done that way.”",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        }
+      ],
+      "id": "cet4-2023-06-2-reading-q43",
+      "number": 43,
+      "level": "CET4",
+      "correctAnswer": "C",
+      "hint": "先圈出陈述里的主体、条件和变化方向，再到文章中寻找同义表达。",
+      "explanation": "对应C段。题干陈述为“The new leader of Formula One admitted he was not super interested in car racing.”；该段的关键证据是：“After an American company, Liberty Media, acquired the Formula One competition recently, Chase Carey—a former executive with Fox Broadcasting Company and DirecTV who by his own admission is not a fierce racing fan-was named to replace Ecclestone and to try to renovate the organization's management, reach and ambition.”。同时对照主体、行为和结果，不能只凭同一个词匹配；这份陈述概括了该段的对应信息。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-06-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "People's opinions differ as to whether Formula One can be promoted in the U.S.",
+      "passage": "New Formula One Chief Hopes to Grab Americans'Attention\n\nA) For the past four decades, the leader of Formula One car racing, one of the biggest annual sporting series in the world, was Bernie Ecclestone, a former motorcycle parts dealer who built it into an international presence essentially on his own.\n\nB) A skilled backroom operator who speaks without a filter, Ecclestone said often that in his opinion, the sport was at its best when he was allowed to act as “a dictator.”\n\nC) Yet now the dictator is gone. After an American company, Liberty Media, acquired the Formula One competition recently, Chase Carey—a former executive with Fox Broadcasting Company and DirecTV who by his own admission is not a fierce racing fan-was named to replace Ecclestone and to try to renovate the organization's management, reach and ambition.\n\nD) Among the goals, Carey said in an interview on Tuesday, is one that just about every global sport seems interested in chasing: increasing interest in the United States. “People have said we're going to 'Americanize'it,\" Carey said. \"And we're not going to do that totally. But realistically, there are some elements of Americanization that the sport could use.”\n\nE) While Formula One commands enormous audiences throughout much of the world, many American sports fans know it as that other motorsport, the one that is not Nascar (纳斯卡车赛). Formula One teams race far more technologically advanced vehicles around tracks all over the world-in magnificent events in places like Malaysia, Monaco, Singapore and the United Arab Emirates, and on tradition-rich tracks like Silverstone in England and Monza in Italy too.\n\nF) The series has an annual race in Austin, Texas. But within “a few years,” Carey said, he plans to bring another to a destination American city, like New York, Los Angeles, Miami or Las Vegas. Carey's ambitious plan is two-fold: first, change the business model of Formula One, which he said was a“one-man show”under Ecclestone that had a largely narrow vision when it came to negotiating partnership deals; and second, alter the way fans experience the sport, both in person and remotely, so that connections between the audience and people within the series are easier to make.\n\nG) Increased digital access for fans, a more behind-the-scenes experience for broadcast viewers and innovation in areas like virtual reality — what is it like to speed around a track inside a Ferrari? — are among the possibilities. “The sport has clearly been underserved,” Carey said. “It doesn't do anything digitally. There's no marketing. It doesn't tell any stories. The goal in this is to make the fans connect to the live experience as much as possible, and the tools you have to do that, we're not using at all.”\n\nH) The larger question, though, is a familiar one: Is there room for Formula One in the ever-crowded sports landscape of the United States? Opinions vary, particularly because viewing habits among consumers continue to evolve. John Bloom, a professor at Shippensburg University who has studied American sports history, said the biggest challenge for any sport trying to increase its presence in the United States was framing itself in a way that had lasting appeal. “Sports generally become popular in some way because they establish a narrative,” Bloom said. “When I think of motorsports in the U.S., what we all think of is Nascar, and the narrative of Nascar is sort of rural, white, working-class Americans, mostly in the South, connecting with the atmosphere of those races. That's the narrative. When I think of the narrative of Formula One, it's a very different kind of audience.”\n\nI) That difference, Carey said, is significant. While some might immediately link Formula One to Nascar in terms of American growth, Carey said Formula One's brand research had indicated there was very little crossover; rather, Formula One fans generally cite other so-called elite events, like Wimbledon or the Ryder Cup, as competitions they enjoy. “Other than they're both cars, the Nascar fan base is a very different fan base,” Carey said. “It's a very regional fan base. Formula One is a global, famous brand of stars. These are machines that shock and awe you.”\n\nJ) Carey's background is in deal making and innovation. At Fox Broadcasting Company, he was a top advisor for years, known for his skill in helping to lead the launch of the company into sports, as well as the start of Fox News Channel. After going to DirecTV, he positioned the satellite provider as a mainstream option in millions of households.\n\nK) Now, after Liberty Media paid $4.4 billion to acquire Formula One, he is charged with making the investment pay off. \"I think they can build Formula One in the U.S.,\" said Patrick Crakes, an executive at InVivo Media Group who spent 25 years at Fox Broadcasting Company before leaving in 2016 as a senior manager at Fox Sports. “People don't work on their cars anymore. They don't want that connection anymore. It's about technology and pushing the limits. It's about speed, danger and risk. And Formula One has that more than any other racing series.”\n\nL) That is what hooked Carey, and he said he thought his experience was not unusual. He recalled attending Formula One's Monaco race last year and being overwhelmed by the ceremony leading up to the event, the way the race charmed the city for days ahead of the start. In his mind, it felt like a Super Bowl (超级碗橄榄球赛).\n\nM) Then, on race day, he watched as the cars rocketed out of a tunnel and went screaming toward a tight turn with the city's harbor and the Mediterranean Sea in the background framing the scene. He was fascinated. “You can't help but be awed,” he said, “and I think that feeling can be translated to the viewer.”\n\nN) He added: “The broader sport is a little too inward-looking, and we need to be more open. In some ways, I'm glad to be coming from the outside. The guys who are in the sport forever are sitting there saying: ‘We can't do that. We can't do that because it's never been done that way.”",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        }
+      ],
+      "id": "cet4-2023-06-2-reading-q44",
+      "number": 44,
+      "level": "CET4",
+      "correctAnswer": "H",
+      "hint": "先圈出陈述里的主体、条件和变化方向，再到文章中寻找同义表达。",
+      "explanation": "对应H段。Opinions vary与differ同义，明确说明美国能否推广一级方程式存在不同看法；前句只是提出问题。 该段证据（合看相关句）：“The larger question, though, is a familiar one: Is there room for Formula One in the ever-crowded sports landscape of the United States? Opinions vary, particularly because viewing habits among consumers continue to evolve. John Bloom, a professor at Shippensburg University who has studied American sports history, said the biggest challenge for any sport trying to increase its presence in the United States was framing itself in a way that had lasting appeal. “Sports generally become popular in some way because they establish a narrative,” Bloom said. “When I think of motorsports in the U.S., what we all think of is Nascar, and the narrative of Nascar is sort of rural, white, working-class Americans, mostly in the South, connecting with the atmosphere of those races. That's the narrative. When I think of the narrative of Formula One, it's a very different kind of audience.””",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-06-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Compared with other racing series, Formula One focuses more on speed and involves more danger.",
+      "passage": "New Formula One Chief Hopes to Grab Americans'Attention\n\nA) For the past four decades, the leader of Formula One car racing, one of the biggest annual sporting series in the world, was Bernie Ecclestone, a former motorcycle parts dealer who built it into an international presence essentially on his own.\n\nB) A skilled backroom operator who speaks without a filter, Ecclestone said often that in his opinion, the sport was at its best when he was allowed to act as “a dictator.”\n\nC) Yet now the dictator is gone. After an American company, Liberty Media, acquired the Formula One competition recently, Chase Carey—a former executive with Fox Broadcasting Company and DirecTV who by his own admission is not a fierce racing fan-was named to replace Ecclestone and to try to renovate the organization's management, reach and ambition.\n\nD) Among the goals, Carey said in an interview on Tuesday, is one that just about every global sport seems interested in chasing: increasing interest in the United States. “People have said we're going to 'Americanize'it,\" Carey said. \"And we're not going to do that totally. But realistically, there are some elements of Americanization that the sport could use.”\n\nE) While Formula One commands enormous audiences throughout much of the world, many American sports fans know it as that other motorsport, the one that is not Nascar (纳斯卡车赛). Formula One teams race far more technologically advanced vehicles around tracks all over the world-in magnificent events in places like Malaysia, Monaco, Singapore and the United Arab Emirates, and on tradition-rich tracks like Silverstone in England and Monza in Italy too.\n\nF) The series has an annual race in Austin, Texas. But within “a few years,” Carey said, he plans to bring another to a destination American city, like New York, Los Angeles, Miami or Las Vegas. Carey's ambitious plan is two-fold: first, change the business model of Formula One, which he said was a“one-man show”under Ecclestone that had a largely narrow vision when it came to negotiating partnership deals; and second, alter the way fans experience the sport, both in person and remotely, so that connections between the audience and people within the series are easier to make.\n\nG) Increased digital access for fans, a more behind-the-scenes experience for broadcast viewers and innovation in areas like virtual reality — what is it like to speed around a track inside a Ferrari? — are among the possibilities. “The sport has clearly been underserved,” Carey said. “It doesn't do anything digitally. There's no marketing. It doesn't tell any stories. The goal in this is to make the fans connect to the live experience as much as possible, and the tools you have to do that, we're not using at all.”\n\nH) The larger question, though, is a familiar one: Is there room for Formula One in the ever-crowded sports landscape of the United States? Opinions vary, particularly because viewing habits among consumers continue to evolve. John Bloom, a professor at Shippensburg University who has studied American sports history, said the biggest challenge for any sport trying to increase its presence in the United States was framing itself in a way that had lasting appeal. “Sports generally become popular in some way because they establish a narrative,” Bloom said. “When I think of motorsports in the U.S., what we all think of is Nascar, and the narrative of Nascar is sort of rural, white, working-class Americans, mostly in the South, connecting with the atmosphere of those races. That's the narrative. When I think of the narrative of Formula One, it's a very different kind of audience.”\n\nI) That difference, Carey said, is significant. While some might immediately link Formula One to Nascar in terms of American growth, Carey said Formula One's brand research had indicated there was very little crossover; rather, Formula One fans generally cite other so-called elite events, like Wimbledon or the Ryder Cup, as competitions they enjoy. “Other than they're both cars, the Nascar fan base is a very different fan base,” Carey said. “It's a very regional fan base. Formula One is a global, famous brand of stars. These are machines that shock and awe you.”\n\nJ) Carey's background is in deal making and innovation. At Fox Broadcasting Company, he was a top advisor for years, known for his skill in helping to lead the launch of the company into sports, as well as the start of Fox News Channel. After going to DirecTV, he positioned the satellite provider as a mainstream option in millions of households.\n\nK) Now, after Liberty Media paid $4.4 billion to acquire Formula One, he is charged with making the investment pay off. \"I think they can build Formula One in the U.S.,\" said Patrick Crakes, an executive at InVivo Media Group who spent 25 years at Fox Broadcasting Company before leaving in 2016 as a senior manager at Fox Sports. “People don't work on their cars anymore. They don't want that connection anymore. It's about technology and pushing the limits. It's about speed, danger and risk. And Formula One has that more than any other racing series.”\n\nL) That is what hooked Carey, and he said he thought his experience was not unusual. He recalled attending Formula One's Monaco race last year and being overwhelmed by the ceremony leading up to the event, the way the race charmed the city for days ahead of the start. In his mind, it felt like a Super Bowl (超级碗橄榄球赛).\n\nM) Then, on race day, he watched as the cars rocketed out of a tunnel and went screaming toward a tight turn with the city's harbor and the Mediterranean Sea in the background framing the scene. He was fascinated. “You can't help but be awed,” he said, “and I think that feeling can be translated to the viewer.”\n\nN) He added: “The broader sport is a little too inward-looking, and we need to be more open. In some ways, I'm glad to be coming from the outside. The guys who are in the sport forever are sitting there saying: ‘We can't do that. We can't do that because it's never been done that way.”",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        }
+      ],
+      "id": "cet4-2023-06-2-reading-q45",
+      "number": 45,
+      "level": "CET4",
+      "correctAnswer": "K",
+      "hint": "先圈出陈述里的主体、条件和变化方向，再到文章中寻找同义表达。",
+      "explanation": "对应K段。that指前句的speed、danger、risk；more than any other构成与其他赛事比较，须将两句合看。 该段证据（合看相关句）：“Now, after Liberty Media paid $4.4 billion to acquire Formula One, he is charged with making the investment pay off. \"I think they can build Formula One in the U.S.,\" said Patrick Crakes, an executive at InVivo Media Group who spent 25 years at Fox Broadcasting Company before leaving in 2016 as a senior manager at Fox Sports. “People don't work on their cars anymore. They don't want that connection anymore. It's about technology and pushing the limits. It's about speed, danger and risk. And Formula One has that more than any other racing series.””",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-06-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What problem have supermarkets been facing?",
+      "passage": "Supermarkets have long been suffering as one of the thinnest-margined businesses in existence and one of the least-looked-forward-to places to work or visit. For more than a decade, they have been under attack from e-commerce giants, blamed for making Americans fat, and accused of contributing to climate change.\n\nSupermarkets can technically be defined as giants housing 15,000 to 60,000 different products. The revolutionary idea of a self-service grocery, where people could hunt and gather food from aisles rather than asking a clerk to fetch items from behind a counter, first came about in America. There is some debate about which was the very first, but over the years a consensus has built around King Kullen Supermarket, founded in New York in 1930.\n\nFor some 300 years, Americans had fed themselves from small stores and public markets. Shopping for food involved mud, noisy chickens, clouds of flies, nasty smells, bargaining, and getting short-changed. The supermarket imitated the Fordist factory, with its emphasis on efficiency and standardization, and reimagined it as a place to buy food. Supermarkets may not feel cutting-edge now, but they were a revolution in distribution at the time. They were such strange marvels that, on her first official state visit to the United States in 1957, Queen Elizabeth II insisted on an impromptu (即兴的)tour of a suburban-Maryland Giant Food.\n\nThe typical supermarket layout has barely changed over the past 90 years. Most stores open with flowers, fruit and vegetables at the front as a breath of freshness to arouse our appetite. Meanwhile, they keep the milk, eggs, and other daily basics all the way back so you'll travel through as much of the store as possible, and be tempted along the way.\n\nIn the early days, as the supermarket multiplied, so did our suspicion of it. We have long feared that this “revolution in distribution”uses corporate black magic on our appetite. The book The Hidden Persuaders, published in 1957, warned that supermarkets were putting women in a “hypnoidal trance (催眠恍惚状态),“ causing them to wander aisles bumping into boxes and “picking things off shelves at random.”",
+      "options": [
+        {
+          "id": "A",
+          "text": "They are actually on the way to bankruptcy."
+        },
+        {
+          "id": "B",
+          "text": "They have been losing customers and profits."
+        },
+        {
+          "id": "C",
+          "text": "They are forced to use e-commerce strategies."
+        },
+        {
+          "id": "D",
+          "text": "They have difficulty adapting to climate change."
+        }
+      ],
+      "id": "cet4-2023-06-2-reading-q46",
+      "number": 46,
+      "level": "CET4",
+      "correctAnswer": "B",
+      "hint": "根据题干定位文章中的相关句，再比较选项是否改变主体、程度或因果。",
+      "explanation": "B。首段说超市顾客数量和利润都在持续减少，所以问题是客流与利润下降；竞争者和气候批评是背景，不能替代这一结果。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-06-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the passage say about the idea of a self-service grocery?",
+      "passage": "Supermarkets have long been suffering as one of the thinnest-margined businesses in existence and one of the least-looked-forward-to places to work or visit. For more than a decade, they have been under attack from e-commerce giants, blamed for making Americans fat, and accused of contributing to climate change.\n\nSupermarkets can technically be defined as giants housing 15,000 to 60,000 different products. The revolutionary idea of a self-service grocery, where people could hunt and gather food from aisles rather than asking a clerk to fetch items from behind a counter, first came about in America. There is some debate about which was the very first, but over the years a consensus has built around King Kullen Supermarket, founded in New York in 1930.\n\nFor some 300 years, Americans had fed themselves from small stores and public markets. Shopping for food involved mud, noisy chickens, clouds of flies, nasty smells, bargaining, and getting short-changed. The supermarket imitated the Fordist factory, with its emphasis on efficiency and standardization, and reimagined it as a place to buy food. Supermarkets may not feel cutting-edge now, but they were a revolution in distribution at the time. They were such strange marvels that, on her first official state visit to the United States in 1957, Queen Elizabeth II insisted on an impromptu (即兴的)tour of a suburban-Maryland Giant Food.\n\nThe typical supermarket layout has barely changed over the past 90 years. Most stores open with flowers, fruit and vegetables at the front as a breath of freshness to arouse our appetite. Meanwhile, they keep the milk, eggs, and other daily basics all the way back so you'll travel through as much of the store as possible, and be tempted along the way.\n\nIn the early days, as the supermarket multiplied, so did our suspicion of it. We have long feared that this “revolution in distribution”uses corporate black magic on our appetite. The book The Hidden Persuaders, published in 1957, warned that supermarkets were putting women in a “hypnoidal trance (催眠恍惚状态),“ causing them to wander aisles bumping into boxes and “picking things off shelves at random.”",
+      "options": [
+        {
+          "id": "A",
+          "text": "It was put forward by King Kullen."
+        },
+        {
+          "id": "B",
+          "text": "It originated in the United States."
+        },
+        {
+          "id": "C",
+          "text": "It has been under constant debate."
+        },
+        {
+          "id": "D",
+          "text": "It proves revolutionary even today."
+        }
+      ],
+      "id": "cet4-2023-06-2-reading-q47",
+      "number": 47,
+      "level": "CET4",
+      "correctAnswer": "B",
+      "hint": "根据题干定位文章中的相关句，再比较选项是否改变主体、程度或因果。",
+      "explanation": "B。第二段明确说自助杂货店的想法起源于美国；金库伦是后来具体发展者，不能把首创概念限定为该店。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-06-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What did supermarkets do by adopting the Fordist factory approach?",
+      "passage": "Supermarkets have long been suffering as one of the thinnest-margined businesses in existence and one of the least-looked-forward-to places to work or visit. For more than a decade, they have been under attack from e-commerce giants, blamed for making Americans fat, and accused of contributing to climate change.\n\nSupermarkets can technically be defined as giants housing 15,000 to 60,000 different products. The revolutionary idea of a self-service grocery, where people could hunt and gather food from aisles rather than asking a clerk to fetch items from behind a counter, first came about in America. There is some debate about which was the very first, but over the years a consensus has built around King Kullen Supermarket, founded in New York in 1930.\n\nFor some 300 years, Americans had fed themselves from small stores and public markets. Shopping for food involved mud, noisy chickens, clouds of flies, nasty smells, bargaining, and getting short-changed. The supermarket imitated the Fordist factory, with its emphasis on efficiency and standardization, and reimagined it as a place to buy food. Supermarkets may not feel cutting-edge now, but they were a revolution in distribution at the time. They were such strange marvels that, on her first official state visit to the United States in 1957, Queen Elizabeth II insisted on an impromptu (即兴的)tour of a suburban-Maryland Giant Food.\n\nThe typical supermarket layout has barely changed over the past 90 years. Most stores open with flowers, fruit and vegetables at the front as a breath of freshness to arouse our appetite. Meanwhile, they keep the milk, eggs, and other daily basics all the way back so you'll travel through as much of the store as possible, and be tempted along the way.\n\nIn the early days, as the supermarket multiplied, so did our suspicion of it. We have long feared that this “revolution in distribution”uses corporate black magic on our appetite. The book The Hidden Persuaders, published in 1957, warned that supermarkets were putting women in a “hypnoidal trance (催眠恍惚状态),“ causing them to wander aisles bumping into boxes and “picking things off shelves at random.”",
+      "options": [
+        {
+          "id": "A",
+          "text": "They modernized traditional groceries in many ways."
+        },
+        {
+          "id": "B",
+          "text": "They introduced cutting-edge layout of their store s."
+        },
+        {
+          "id": "C",
+          "text": "They improved the quality of the food they sold."
+        },
+        {
+          "id": "D",
+          "text": "They revolutionized the distribution of goods."
+        }
+      ],
+      "id": "cet4-2023-06-2-reading-q48",
+      "number": 48,
+      "level": "CET4",
+      "correctAnswer": "D",
+      "hint": "根据题干定位文章中的相关句，再比较选项是否改变主体、程度或因果。",
+      "explanation": "D。第三段把汽车生产的福特工厂模式转移到食品分销，说明它革命性地改变了食品销售方式，而不仅是店面装修。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-06-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What is the typical supermarket layout intended to do?",
+      "passage": "Supermarkets have long been suffering as one of the thinnest-margined businesses in existence and one of the least-looked-forward-to places to work or visit. For more than a decade, they have been under attack from e-commerce giants, blamed for making Americans fat, and accused of contributing to climate change.\n\nSupermarkets can technically be defined as giants housing 15,000 to 60,000 different products. The revolutionary idea of a self-service grocery, where people could hunt and gather food from aisles rather than asking a clerk to fetch items from behind a counter, first came about in America. There is some debate about which was the very first, but over the years a consensus has built around King Kullen Supermarket, founded in New York in 1930.\n\nFor some 300 years, Americans had fed themselves from small stores and public markets. Shopping for food involved mud, noisy chickens, clouds of flies, nasty smells, bargaining, and getting short-changed. The supermarket imitated the Fordist factory, with its emphasis on efficiency and standardization, and reimagined it as a place to buy food. Supermarkets may not feel cutting-edge now, but they were a revolution in distribution at the time. They were such strange marvels that, on her first official state visit to the United States in 1957, Queen Elizabeth II insisted on an impromptu (即兴的)tour of a suburban-Maryland Giant Food.\n\nThe typical supermarket layout has barely changed over the past 90 years. Most stores open with flowers, fruit and vegetables at the front as a breath of freshness to arouse our appetite. Meanwhile, they keep the milk, eggs, and other daily basics all the way back so you'll travel through as much of the store as possible, and be tempted along the way.\n\nIn the early days, as the supermarket multiplied, so did our suspicion of it. We have long feared that this “revolution in distribution”uses corporate black magic on our appetite. The book The Hidden Persuaders, published in 1957, warned that supermarkets were putting women in a “hypnoidal trance (催眠恍惚状态),“ causing them to wander aisles bumping into boxes and “picking things off shelves at random.”",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arouse customers' appetite to buy flowers, fruit and vegetables."
+        },
+        {
+          "id": "B",
+          "text": "Provide customers easy access to items they want to buy."
+        },
+        {
+          "id": "C",
+          "text": "Induce customers to make more unplanned purchases."
+        },
+        {
+          "id": "D",
+          "text": "Enable customers to have a more enjoyable shopping experience."
+        }
+      ],
+      "id": "cet4-2023-06-2-reading-q49",
+      "number": 49,
+      "level": "CET4",
+      "correctAnswer": "C",
+      "hint": "根据题干定位文章中的相关句，再比较选项是否改变主体、程度或因果。",
+      "explanation": "C。第四段说日用品放在里面，顾客必须穿过更多区域才可买到必需品，这样会增加未计划的购买，布局目的并非方便。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-06-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What have people long feared about supermarkets?",
+      "passage": "Supermarkets have long been suffering as one of the thinnest-margined businesses in existence and one of the least-looked-forward-to places to work or visit. For more than a decade, they have been under attack from e-commerce giants, blamed for making Americans fat, and accused of contributing to climate change.\n\nSupermarkets can technically be defined as giants housing 15,000 to 60,000 different products. The revolutionary idea of a self-service grocery, where people could hunt and gather food from aisles rather than asking a clerk to fetch items from behind a counter, first came about in America. There is some debate about which was the very first, but over the years a consensus has built around King Kullen Supermarket, founded in New York in 1930.\n\nFor some 300 years, Americans had fed themselves from small stores and public markets. Shopping for food involved mud, noisy chickens, clouds of flies, nasty smells, bargaining, and getting short-changed. The supermarket imitated the Fordist factory, with its emphasis on efficiency and standardization, and reimagined it as a place to buy food. Supermarkets may not feel cutting-edge now, but they were a revolution in distribution at the time. They were such strange marvels that, on her first official state visit to the United States in 1957, Queen Elizabeth II insisted on an impromptu (即兴的)tour of a suburban-Maryland Giant Food.\n\nThe typical supermarket layout has barely changed over the past 90 years. Most stores open with flowers, fruit and vegetables at the front as a breath of freshness to arouse our appetite. Meanwhile, they keep the milk, eggs, and other daily basics all the way back so you'll travel through as much of the store as possible, and be tempted along the way.\n\nIn the early days, as the supermarket multiplied, so did our suspicion of it. We have long feared that this “revolution in distribution”uses corporate black magic on our appetite. The book The Hidden Persuaders, published in 1957, warned that supermarkets were putting women in a “hypnoidal trance (催眠恍惚状态),“ causing them to wander aisles bumping into boxes and “picking things off shelves at random.”",
+      "options": [
+        {
+          "id": "A",
+          "text": "They use tricky strategies to promote their business."
+        },
+        {
+          "id": "B",
+          "text": "They are going to replace the local groceries entirely."
+        },
+        {
+          "id": "C",
+          "text": "They apply corporate black magic to the goods on display."
+        },
+        {
+          "id": "D",
+          "text": "They take advantage of the weaknesses of women shoppers."
+        }
+      ],
+      "id": "cet4-2023-06-2-reading-q50",
+      "number": 50,
+      "level": "CET4",
+      "correctAnswer": "A",
+      "hint": "根据题干定位文章中的相关句，再比较选项是否改变主体、程度或因果。",
+      "explanation": "A。末段担忧分销革命利用商业黑魔法操纵人的欲望；它是对营销技巧被滥用的忧虑，不是说所有超市已被证实欺骗女性。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-06-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "Why did America's traditional school year have a three-month summer vacation?",
+      "passage": "The traditional school year, with three months of vacation every summer, was first implemented when America was an agricultural society and the summer months were needed for farm work. Since then, we've completely changed as a nation. Students no longer spend summers farming, but they aren't in school, either. The average American student receives 13 weeks off from school each calendar year - with about ll of those during the summer. Few other countries have more than seven weeks off in a school calendar.\n\nWith the U.S. lagging behind other countries in academics, it's time to consider year-round schooling. One benefit of this change is that students will not fall victim to the “summer slide,” or the well-documented phenomenon where students forget some of the knowledge they have acquired when too much time is taken off from school. Decades of research shows that it can take from 8 to 13 weeks at the beginning of every school year for students to get back to where they were before the summer holiday.\n\nBut year-round schooling isn't just about academics. Teachers and students experience a closer relationship in year-round schools than they do in traditional schools and, in the absence of any long-term break, students do not feel detached from the school environment. These closer bonds and greater attachment pay off. Research shows that students in year-round schools are more self-confident and feel more positive about their schooling experience.\n\nBut don't kids need time to relax? Some childhood development experts believe that time off from school is vital to healthy development as kids are not designed to spend so much of their time inside classrooms and the summer break provides a perfect opportunity to get outside. The problem with this argument is that most children aren't playing outside or even spending time with other kids. While some children visit summer camps, most stay at home, watching TV or playing games on electronic devices, which hardly benefits them.\n\nThe U.S. has changed from a farming economy to a knowledge - and innovation - based economy, so it makes sense for the school year to change as well.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Students needed to help with farm work."
+        },
+        {
+          "id": "B",
+          "text": "Students needed time to learn necessary farming skills."
+        },
+        {
+          "id": "C",
+          "text": "The agricultural society then attached less importance to academics."
+        },
+        {
+          "id": "D",
+          "text": "America lagged behind other countries in making a scientific school calendar."
+        }
+      ],
+      "id": "cet4-2023-06-2-reading-q51",
+      "number": 51,
+      "level": "CET4",
+      "correctAnswer": "A",
+      "hint": "根据题干定位文章中的相关句，再比较选项是否改变主体、程度或因果。",
+      "explanation": "A。首段解释传统长暑假来自农业社会，夏季要做农活，所以学生需帮忙；文章没有说当时不重视学业。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-06-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What benefit will year-round schooling bring students in addition, to improving their learning?",
+      "passage": "The traditional school year, with three months of vacation every summer, was first implemented when America was an agricultural society and the summer months were needed for farm work. Since then, we've completely changed as a nation. Students no longer spend summers farming, but they aren't in school, either. The average American student receives 13 weeks off from school each calendar year - with about ll of those during the summer. Few other countries have more than seven weeks off in a school calendar.\n\nWith the U.S. lagging behind other countries in academics, it's time to consider year-round schooling. One benefit of this change is that students will not fall victim to the “summer slide,” or the well-documented phenomenon where students forget some of the knowledge they have acquired when too much time is taken off from school. Decades of research shows that it can take from 8 to 13 weeks at the beginning of every school year for students to get back to where they were before the summer holiday.\n\nBut year-round schooling isn't just about academics. Teachers and students experience a closer relationship in year-round schools than they do in traditional schools and, in the absence of any long-term break, students do not feel detached from the school environment. These closer bonds and greater attachment pay off. Research shows that students in year-round schools are more self-confident and feel more positive about their schooling experience.\n\nBut don't kids need time to relax? Some childhood development experts believe that time off from school is vital to healthy development as kids are not designed to spend so much of their time inside classrooms and the summer break provides a perfect opportunity to get outside. The problem with this argument is that most children aren't playing outside or even spending time with other kids. While some children visit summer camps, most stay at home, watching TV or playing games on electronic devices, which hardly benefits them.\n\nThe U.S. has changed from a farming economy to a knowledge - and innovation - based economy, so it makes sense for the school year to change as well.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It will help them get back to where their lessons started."
+        },
+        {
+          "id": "B",
+          "text": "It will enable them to absorb what they have learned."
+        },
+        {
+          "id": "C",
+          "text": "It will familiarize them with the school environment."
+        },
+        {
+          "id": "D",
+          "text": "It will strengthen their relationship with teachers."
+        }
+      ],
+      "id": "cet4-2023-06-2-reading-q52",
+      "number": 52,
+      "level": "CET4",
+      "correctAnswer": "D",
+      "hint": "根据题干定位文章中的相关句，再比较选项是否改变主体、程度或因果。",
+      "explanation": "D。第三段说全年上课使师生关系更亲密，亲近感是除学业改善之外的好处，不是单纯更熟悉建筑环境。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-06-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do some childhood development experts believe about the long summer vacation?",
+      "passage": "The traditional school year, with three months of vacation every summer, was first implemented when America was an agricultural society and the summer months were needed for farm work. Since then, we've completely changed as a nation. Students no longer spend summers farming, but they aren't in school, either. The average American student receives 13 weeks off from school each calendar year - with about ll of those during the summer. Few other countries have more than seven weeks off in a school calendar.\n\nWith the U.S. lagging behind other countries in academics, it's time to consider year-round schooling. One benefit of this change is that students will not fall victim to the “summer slide,” or the well-documented phenomenon where students forget some of the knowledge they have acquired when too much time is taken off from school. Decades of research shows that it can take from 8 to 13 weeks at the beginning of every school year for students to get back to where they were before the summer holiday.\n\nBut year-round schooling isn't just about academics. Teachers and students experience a closer relationship in year-round schools than they do in traditional schools and, in the absence of any long-term break, students do not feel detached from the school environment. These closer bonds and greater attachment pay off. Research shows that students in year-round schools are more self-confident and feel more positive about their schooling experience.\n\nBut don't kids need time to relax? Some childhood development experts believe that time off from school is vital to healthy development as kids are not designed to spend so much of their time inside classrooms and the summer break provides a perfect opportunity to get outside. The problem with this argument is that most children aren't playing outside or even spending time with other kids. While some children visit summer camps, most stay at home, watching TV or playing games on electronic devices, which hardly benefits them.\n\nThe U.S. has changed from a farming economy to a knowledge - and innovation - based economy, so it makes sense for the school year to change as well.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It meets students' need to study on their own."
+        },
+        {
+          "id": "B",
+          "text": "It enables students to learn about the outside world."
+        },
+        {
+          "id": "C",
+          "text": "It satisfies students' desire to stay longer at home."
+        },
+        {
+          "id": "D",
+          "text": "It contributes to students' healthy growth."
+        }
+      ],
+      "id": "cet4-2023-06-2-reading-q53",
+      "number": 53,
+      "level": "CET4",
+      "correctAnswer": "D",
+      "hint": "根据题干定位文章中的相关句，再比较选项是否改变主体、程度或因果。",
+      "explanation": "D。专家认为孩子不该花太多时间在课堂，暑假提供外出机会有助于健康成长；本题问专家观点而非作者随后的反驳。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-06-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What is the argument against the experts' idea of a long summer vacation?",
+      "passage": "The traditional school year, with three months of vacation every summer, was first implemented when America was an agricultural society and the summer months were needed for farm work. Since then, we've completely changed as a nation. Students no longer spend summers farming, but they aren't in school, either. The average American student receives 13 weeks off from school each calendar year - with about ll of those during the summer. Few other countries have more than seven weeks off in a school calendar.\n\nWith the U.S. lagging behind other countries in academics, it's time to consider year-round schooling. One benefit of this change is that students will not fall victim to the “summer slide,” or the well-documented phenomenon where students forget some of the knowledge they have acquired when too much time is taken off from school. Decades of research shows that it can take from 8 to 13 weeks at the beginning of every school year for students to get back to where they were before the summer holiday.\n\nBut year-round schooling isn't just about academics. Teachers and students experience a closer relationship in year-round schools than they do in traditional schools and, in the absence of any long-term break, students do not feel detached from the school environment. These closer bonds and greater attachment pay off. Research shows that students in year-round schools are more self-confident and feel more positive about their schooling experience.\n\nBut don't kids need time to relax? Some childhood development experts believe that time off from school is vital to healthy development as kids are not designed to spend so much of their time inside classrooms and the summer break provides a perfect opportunity to get outside. The problem with this argument is that most children aren't playing outside or even spending time with other kids. While some children visit summer camps, most stay at home, watching TV or playing games on electronic devices, which hardly benefits them.\n\nThe U.S. has changed from a farming economy to a knowledge - and innovation - based economy, so it makes sense for the school year to change as well.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It does little good to most students."
+        },
+        {
+          "id": "B",
+          "text": "It benefits few students playing outside."
+        },
+        {
+          "id": "C",
+          "text": "It leads students to neglect their studies."
+        },
+        {
+          "id": "D",
+          "text": "It makes students addicted to computer games."
+        }
+      ],
+      "id": "cet4-2023-06-2-reading-q54",
+      "number": 54,
+      "level": "CET4",
+      "correctAnswer": "A",
+      "hint": "根据题干定位文章中的相关句，再比较选项是否改变主体、程度或因果。",
+      "explanation": "A。作者反驳多数孩子实际上留在家看电视或玩游戏，暑假对他们益处有限；不能进一步推成所有人沉迷游戏。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-06-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author think of the traditional school year in the U.S. today?",
+      "passage": "The traditional school year, with three months of vacation every summer, was first implemented when America was an agricultural society and the summer months were needed for farm work. Since then, we've completely changed as a nation. Students no longer spend summers farming, but they aren't in school, either. The average American student receives 13 weeks off from school each calendar year - with about ll of those during the summer. Few other countries have more than seven weeks off in a school calendar.\n\nWith the U.S. lagging behind other countries in academics, it's time to consider year-round schooling. One benefit of this change is that students will not fall victim to the “summer slide,” or the well-documented phenomenon where students forget some of the knowledge they have acquired when too much time is taken off from school. Decades of research shows that it can take from 8 to 13 weeks at the beginning of every school year for students to get back to where they were before the summer holiday.\n\nBut year-round schooling isn't just about academics. Teachers and students experience a closer relationship in year-round schools than they do in traditional schools and, in the absence of any long-term break, students do not feel detached from the school environment. These closer bonds and greater attachment pay off. Research shows that students in year-round schools are more self-confident and feel more positive about their schooling experience.\n\nBut don't kids need time to relax? Some childhood development experts believe that time off from school is vital to healthy development as kids are not designed to spend so much of their time inside classrooms and the summer break provides a perfect opportunity to get outside. The problem with this argument is that most children aren't playing outside or even spending time with other kids. While some children visit summer camps, most stay at home, watching TV or playing games on electronic devices, which hardly benefits them.\n\nThe U.S. has changed from a farming economy to a knowledge - and innovation - based economy, so it makes sense for the school year to change as well.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Well-grounded."
+        },
+        {
+          "id": "B",
+          "text": "Culture-bound"
+        },
+        {
+          "id": "C",
+          "text": "Outdated."
+        },
+        {
+          "id": "D",
+          "text": "Welcomed."
+        }
+      ],
+      "id": "cet4-2023-06-2-reading-q55",
+      "number": 55,
+      "level": "CET4",
+      "correctAnswer": "C",
+      "hint": "根据题干定位文章中的相关句，再比较选项是否改变主体、程度或因果。",
+      "explanation": "C。末段说经济已由农业转成知识创新型，学年也应改变，隐含传统安排过时，而不是说它完全没有历史依据。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2023-06-2-reading"
+    }
+  ]
+}

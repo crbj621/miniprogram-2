@@ -3,6 +3,43 @@ const path = require('node:path')
 const assert = require('node:assert/strict')
 const ts = require('typescript')
 const root = path.resolve(__dirname, '../miniprogram')
+function localSpreadHandlers(logicFile, ast) {
+  const imports = new Map(), handlers = new Set()
+  for (const statement of ast.statements) {
+    if (!ts.isImportDeclaration(statement) || !statement.importClause || !statement.importClause.namedBindings || !ts.isNamedImports(statement.importClause.namedBindings)) continue
+    const reference = statement.moduleSpecifier.text
+    if (!reference.startsWith('.')) continue
+    for (const binding of statement.importClause.namedBindings.elements) imports.set(binding.name.text, { reference, name: binding.propertyName ? binding.propertyName.text : binding.name.text })
+  }
+  function visit(node) {
+    if (ts.isCallExpression(node) && ts.isIdentifier(node.expression) && ['Page', 'Component'].includes(node.expression.text)) {
+      let options = node.arguments[0]
+      if (options && ts.isCallExpression(options) && ts.isIdentifier(options.expression) && options.expression.text === 'withSharing') options = options.arguments[0]
+      if (options && ts.isObjectLiteralExpression(options)) {
+        for (const property of options.properties) {
+          if (!ts.isSpreadAssignment(property) || !ts.isIdentifier(property.expression)) continue
+          const imported = imports.get(property.expression.text)
+          if (!imported) continue
+          const base = path.resolve(path.dirname(logicFile), imported.reference), file = ['.ts', '.js'].map(extension => base + extension).find(fs.existsSync)
+          if (!file || !path.relative(root, file) || path.relative(root, file).startsWith('..')) continue
+          const shared = ts.createSourceFile(file, fs.readFileSync(file, 'utf8'), ts.ScriptTarget.Latest, true)
+          for (const statement of shared.statements) {
+            if (!ts.isVariableStatement(statement) || !statement.modifiers || !statement.modifiers.some(modifier => modifier.kind === ts.SyntaxKind.ExportKeyword)) continue
+            for (const declaration of statement.declarationList.declarations) {
+              if (!ts.isIdentifier(declaration.name) || declaration.name.text !== imported.name || !declaration.initializer || !ts.isObjectLiteralExpression(declaration.initializer)) continue
+              for (const method of declaration.initializer.properties) {
+                if (ts.isMethodDeclaration(method) || ts.isPropertyAssignment(method) && (ts.isArrowFunction(method.initializer) || ts.isFunctionExpression(method.initializer))) handlers.add(method.name.getText(shared).replace(/^['"]|['"]$/g, ''))
+              }
+            }
+          }
+        }
+      }
+    }
+    ts.forEachChild(node, visit)
+  }
+  visit(ast)
+  return handlers
+}
 const app = JSON.parse(fs.readFileSync(path.join(root, 'app.json'), 'utf8'))
 const pages = new Set(app.pages.concat(app.subpackages.flatMap(pack => pack.pages.map(page => pack.root + '/' + page))))
 function walk(dir) {
@@ -61,7 +98,7 @@ for (const file of files) {
       const logicFile = ['.ts', '.js'].map(ext => file.slice(0, -5) + ext).find(fs.existsSync)
       if (logicFile) {
         const ast = ts.createSourceFile(logicFile, fs.readFileSync(logicFile, 'utf8'), ts.ScriptTarget.Latest, true)
-        const handlers = new Set()
+        const handlers = localSpreadHandlers(logicFile, ast)
         function visit(node) {
           if ((ts.isMethodDeclaration(node) || ts.isFunctionDeclaration(node) || ts.isPropertyAssignment(node)) && node.name) handlers.add(node.name.getText(ast).replace(/^['"]|['"]$/g, ''))
           ts.forEachChild(node, visit)
@@ -79,3 +116,4 @@ for (const file of files) {
   }
 }
 console.log('项目结构检查通过：' + pages.size + ' 个真实页面，路由和组件完整，无重复 TS/JS')
+module.exports = { localSpreadHandlers }

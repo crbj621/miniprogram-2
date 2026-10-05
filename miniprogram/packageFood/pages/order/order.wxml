@@ -1,3 +1,4 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="container" wx:if="{{shop}}">
   <view class="shop-info">
     <image class="shop-logo" src="{{shop.logo}}" mode="aspectFill"></image>
@@ -28,12 +29,12 @@
     <view class="section-title">联系方式</view>
     <view class="form-item">
       <text class="form-label">联系电话</text>
-      <input type="number" placeholder="请输入手机号" value="{{phone}}" bindinput="onPhoneInput" placeholder-style="color:#8597ad" class="tech-input" />
+      <input adjust-position="{{true}}" cursor-spacing="24" type="number" placeholder="请输入手机号" value="{{phone}}" bindinput="onPhoneInput" placeholder-style="color:#8597ad" class="tech-input" />
     </view>
     
     <view class="form-item" wx:if="{{type === 'delivery'}}">
       <text class="form-label">配送地址</text>
-      <textarea placeholder="请输入详细地址" value="{{address}}" bindinput="onAddressInput" placeholder-style="color:#8597ad" class="tech-input"></textarea>
+      <textarea disable-default-padding="{{true}}" adjust-position="{{true}}" cursor-spacing="24" placeholder="请输入详细地址" value="{{address}}" bindinput="onAddressInput" placeholder-style="color:#8597ad" class="tech-input"></textarea>
     </view>
 
     <view class="form-item" wx:if="{{type === 'pickup'}}">
@@ -95,7 +96,7 @@
 
   <view class="section">
     <view class="section-title">备注</view>
-    <textarea class="remark-input tech-input" placeholder="口味、忌口等备注信息" value="{{remark}}" bindinput="onRemarkInput" placeholder-style="color:#8597ad"></textarea>
+    <textarea disable-default-padding="{{true}}" adjust-position="{{true}}" cursor-spacing="24" class="remark-input tech-input" placeholder="口味、忌口等备注信息" value="{{remark}}" bindinput="onRemarkInput" placeholder-style="color:#8597ad"></textarea>
   </view>
 
   <view class="submit-bar">
@@ -108,3 +109,5 @@
     </view>
   </view>
 </view>
+
+</block>

@@ -1,0 +1,1113 @@
+{
+  "startedAt": "2026-10-04T15:31:40.118Z",
+  "time": "2026-10-04T15:32:20.215Z",
+  "browser": "headless Microsoft Edge / native MP4 decoder",
+  "browserVersion": "154.0.4258.53",
+  "sourceHashes": {
+    "scripts/test-gift-videos.js": "7e7a27d9f70a08efa4afcb8e42cf05d6d942bf19ca6514a605649647e252de58",
+    "server/src/gift-web.js": "3677677cd84e4eb5b671507fb41ff7fe448ace6e568e1d5b77d58cfccdf4d163",
+    "server/public/gifts/gift.css": "096b5fa9a3df75f5f12b125ab69037c9fde53795cab630841999996e09e5fa60",
+    "server/public/gifts/gift.js": "9150d3acdfc4d9e4e7ab7e6eb700417d678a385ed5e149b0f2246a52a2882639",
+    "server/public/gifts/background.js": "833ef0bcf56202306ab1844b577f45eaf5c80a7390cf60e5ee223f0d9d8d30e9",
+    "server/data/gifts/catalog.json": "778e36709ee760e59d163c929d9374e244e1a9d26328e90df8c981f89ab7e1b3",
+    "server/public/gifts/backgrounds/video-fire-portrait.jpg": "7941c40fe559ad876aa90a85ebf00f595ceec745f6cdd6c6b35cc4aa4837acf5",
+    "server/public/gifts/backgrounds/video-fire-wide.jpg": "a8af306980779bc4abfea09748bbe65638cd3d6976d7cdad7d940a0d1e92a02c",
+    "server/public/gifts/videos/video-fire-portrait.mp4": "7dacdc641c195b6ef31561a55efa3a2febee9a9757b9fa31665dc38631571226",
+    "server/public/gifts/videos/video-fire-wide.mp4": "1ff909d9ce4db83e550ac1320b0319a1bc4f21b8ec5c9bd55085af63aba82c0f",
+    "server/public/gifts/backgrounds/video-stars-portrait.jpg": "b2451cafd5f60a3384367ec6cb742c97228e6a3edcfcae08405904769475bdb7",
+    "server/public/gifts/backgrounds/video-stars-wide.jpg": "4f66d3eea6b9fa3dd4fb8d9ed17b83fbd356ac028c5124214a473c3d6808863f",
+    "server/public/gifts/videos/video-stars-portrait.mp4": "ab5742eeed5be5183d5b62a2d2faef8ea26eb224d63a24a365bbe9294e7cb3ec",
+    "server/public/gifts/videos/video-stars-wide.mp4": "8036988d8e480c28ed620c8c99371e914d0c8e2825afaf57d86e2e1b47b7e752"
+  },
+  "backgroundCount": 2,
+  "viewportPlayback": 6,
+  "decodedVideoPixels": true,
+  "oneSelectedSource": true,
+  "realLoopWrap": true,
+  "lifecycle": {
+    "hiddenCycles": 3,
+    "visibility": "browser callbacks with simulated document.hidden",
+    "liveReducedMotion": true,
+    "pageTransitions": "constructed PageTransitionEvent persisted hide/show; nonpersisted destroy guard",
+    "resourceRelease": "src removed, load called, paused, HAVE_NOTHING, NETWORK_EMPTY and no buffered ranges; currentSrc may retain its historical URL"
+  },
+  "recovery": {
+    "unavailableVideoPoster": true,
+    "autoplayGestureRetry": true,
+    "oldRejectionCannotStopNewPlayback": true
+  },
+  "birthdayOpaqueBodiesAndGlassPaper": true,
+  "officialDemoAndCSP": true,
+  "boundaries": [
+    "Viewport sizes are desktop browser simulation, not phones.",
+    "PageTransitionEvent tests do not establish a native back-forward cache hit.",
+    "WeChat, iOS autoplay, hardware decoding, cellular performance and locking the phone remain unverified."
+  ],
+  "rows": [
+    {
+      "background": "video-fire",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "poster": {
+        "src": "http://127.0.0.1:56338/gift-assets/backgrounds/video-fire-portrait.jpg",
+        "width": 720,
+        "height": 1280,
+        "colors": 915,
+        "covers": true,
+        "overflow": false
+      },
+      "video": {
+        "src": "http://127.0.0.1:56338/gift-assets/videos/video-fire-portrait.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 8,
+        "time": 0.913982,
+        "colors": 859,
+        "muted": true,
+        "loop": true,
+        "inline": true,
+        "preload": "none",
+        "sources": 0,
+        "opacity": "1",
+        "covers": true,
+        "overflow": false
+      }
+    },
+    {
+      "background": "video-fire",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "poster": {
+        "src": "http://127.0.0.1:56338/gift-assets/backgrounds/video-fire-portrait.jpg",
+        "width": 720,
+        "height": 1280,
+        "colors": 915,
+        "covers": true,
+        "overflow": false
+      },
+      "video": {
+        "src": "http://127.0.0.1:56338/gift-assets/videos/video-fire-portrait.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 8,
+        "time": 1.701446,
+        "colors": 837,
+        "muted": true,
+        "loop": true,
+        "inline": true,
+        "preload": "none",
+        "sources": 0,
+        "opacity": "1",
+        "covers": true,
+        "overflow": false
+      }
+    },
+    {
+      "background": "video-fire",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "poster": {
+        "src": "http://127.0.0.1:56338/gift-assets/backgrounds/video-fire-wide.jpg",
+        "width": 1280,
+        "height": 720,
+        "colors": 763,
+        "covers": true,
+        "overflow": false
+      },
+      "video": {
+        "src": "http://127.0.0.1:56338/gift-assets/videos/video-fire-wide.mp4",
+        "width": 1280,
+        "height": 720,
+        "duration": 8,
+        "time": 0.066125,
+        "colors": 687,
+        "muted": true,
+        "loop": true,
+        "inline": true,
+        "preload": "none",
+        "sources": 0,
+        "opacity": "1",
+        "covers": true,
+        "overflow": false
+      }
+    },
+    {
+      "background": "video-fire",
+      "mode": "lifecycle",
+      "releases": [
+        {
+          "phase": "hidden-0",
+          "src": null,
+          "currentSrc": "http://127.0.0.1:56338/gift-assets/videos/video-fire-portrait.mp4",
+          "paused": true,
+          "readyState": 0,
+          "networkState": 0,
+          "bufferedRanges": 0,
+          "opacity": "0",
+          "loads": 3,
+          "playCalls": 3
+        },
+        {
+          "phase": "hidden-1",
+          "src": null,
+          "currentSrc": "http://127.0.0.1:56338/gift-assets/videos/video-fire-portrait.mp4",
+          "paused": true,
+          "readyState": 0,
+          "networkState": 0,
+          "bufferedRanges": 0,
+          "opacity": "0",
+          "loads": 4,
+          "playCalls": 4
+        },
+        {
+          "phase": "hidden-2",
+          "src": null,
+          "currentSrc": "http://127.0.0.1:56338/gift-assets/videos/video-fire-portrait.mp4",
+          "paused": true,
+          "readyState": 0,
+          "networkState": 0,
+          "bufferedRanges": 0,
+          "opacity": "0",
+          "loads": 5,
+          "playCalls": 5
+        },
+        {
+          "phase": "reduced-motion",
+          "src": null,
+          "currentSrc": "http://127.0.0.1:56338/gift-assets/videos/video-fire-portrait.mp4",
+          "paused": true,
+          "readyState": 0,
+          "networkState": 0,
+          "bufferedRanges": 0,
+          "opacity": "0",
+          "loads": 6,
+          "playCalls": 6
+        },
+        {
+          "phase": "manual-pause",
+          "src": null,
+          "currentSrc": "http://127.0.0.1:56338/gift-assets/videos/video-fire-portrait.mp4",
+          "paused": true,
+          "readyState": 0,
+          "networkState": 0,
+          "bufferedRanges": 0,
+          "opacity": "0",
+          "loads": 7,
+          "playCalls": 7
+        },
+        {
+          "phase": "persisted-hide",
+          "src": null,
+          "currentSrc": "http://127.0.0.1:56338/gift-assets/videos/video-fire-wide.mp4",
+          "paused": true,
+          "readyState": 0,
+          "networkState": 0,
+          "bufferedRanges": 0,
+          "opacity": "0",
+          "loads": 8,
+          "playCalls": 8
+        },
+        {
+          "phase": "destroy",
+          "src": null,
+          "currentSrc": "http://127.0.0.1:56338/gift-assets/videos/video-fire-wide.mp4",
+          "paused": true,
+          "readyState": 0,
+          "networkState": 0,
+          "bufferedRanges": 0,
+          "opacity": "0",
+          "loads": 9,
+          "playCalls": 9
+        }
+      ]
+    },
+    {
+      "background": "video-fire",
+      "mode": "reduced-motion",
+      "poster": {
+        "src": "http://127.0.0.1:56338/gift-assets/backgrounds/video-fire-portrait.jpg",
+        "width": 720,
+        "height": 1280,
+        "colors": 915,
+        "covers": true,
+        "overflow": false
+      },
+      "video": {
+        "src": "http://127.0.0.1:56338/gift-assets/videos/video-fire-portrait.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 8,
+        "time": 0.057201,
+        "colors": 855,
+        "muted": true,
+        "loop": true,
+        "inline": true,
+        "preload": "none",
+        "sources": 0,
+        "opacity": "1",
+        "covers": true,
+        "overflow": false
+      }
+    },
+    {
+      "background": "video-fire",
+      "mode": "no-webgl",
+      "poster": {
+        "src": "http://127.0.0.1:56338/gift-assets/backgrounds/video-fire-portrait.jpg",
+        "width": 720,
+        "height": 1280,
+        "colors": 915,
+        "covers": true,
+        "overflow": false
+      },
+      "video": {
+        "src": "http://127.0.0.1:56338/gift-assets/videos/video-fire-portrait.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 8,
+        "time": 0.095231,
+        "colors": 863,
+        "muted": true,
+        "loop": true,
+        "inline": true,
+        "preload": "none",
+        "sources": 0,
+        "opacity": "1",
+        "covers": true,
+        "overflow": false
+      }
+    },
+    {
+      "background": "video-fire",
+      "mode": "error",
+      "poster": {
+        "src": "http://127.0.0.1:56338/gift-assets/backgrounds/video-fire-portrait.jpg",
+        "width": 720,
+        "height": 1280,
+        "colors": 915,
+        "covers": true,
+        "overflow": false
+      },
+      "video": {
+        "src": "http://127.0.0.1:56338/gift-assets/videos/video-fire-portrait.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 8,
+        "time": 0.056201,
+        "colors": 855,
+        "muted": true,
+        "loop": true,
+        "inline": true,
+        "preload": "none",
+        "sources": 0,
+        "opacity": "1",
+        "covers": true,
+        "overflow": false
+      }
+    },
+    {
+      "background": "video-fire",
+      "mode": "autoplay-blocked",
+      "poster": {
+        "src": "http://127.0.0.1:56338/gift-assets/backgrounds/video-fire-portrait.jpg",
+        "width": 720,
+        "height": 1280,
+        "colors": 915,
+        "covers": true,
+        "overflow": false
+      },
+      "video": {
+        "src": "http://127.0.0.1:56338/gift-assets/videos/video-fire-portrait.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 8,
+        "time": 0.067109,
+        "colors": 855,
+        "muted": true,
+        "loop": true,
+        "inline": true,
+        "preload": "none",
+        "sources": 0,
+        "opacity": "1",
+        "covers": true,
+        "overflow": false
+      }
+    },
+    {
+      "background": "video-fire",
+      "mode": "stale-rejection",
+      "poster": {
+        "src": "http://127.0.0.1:56338/gift-assets/backgrounds/video-fire-portrait.jpg",
+        "width": 720,
+        "height": 1280,
+        "colors": 915,
+        "covers": true,
+        "overflow": false
+      },
+      "video": {
+        "src": "http://127.0.0.1:56338/gift-assets/videos/video-fire-portrait.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 8,
+        "time": 0.264851,
+        "colors": 848,
+        "muted": true,
+        "loop": true,
+        "inline": true,
+        "preload": "none",
+        "sources": 0,
+        "opacity": "1",
+        "covers": true,
+        "overflow": false
+      }
+    },
+    {
+      "background": "video-fire",
+      "mode": "birthday",
+      "materials": {
+        "bodies": [
+          {
+            "selector": "icing",
+            "opacity": 1,
+            "alphas": [
+              1,
+              1
+            ]
+          },
+          {
+            "selector": "drip",
+            "opacity": 1,
+            "alphas": [
+              1
+            ]
+          },
+          {
+            "selector": "drip",
+            "opacity": 1,
+            "alphas": [
+              1
+            ]
+          },
+          {
+            "selector": "drip",
+            "opacity": 1,
+            "alphas": [
+              1
+            ]
+          },
+          {
+            "selector": "drip",
+            "opacity": 1,
+            "alphas": [
+              1
+            ]
+          },
+          {
+            "selector": "drip",
+            "opacity": 1,
+            "alphas": [
+              1
+            ]
+          },
+          {
+            "selector": "layer top",
+            "opacity": 1,
+            "alphas": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "selector": "layer middle",
+            "opacity": 1,
+            "alphas": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "selector": "layer bottom",
+            "opacity": 1,
+            "alphas": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "selector": "candle",
+            "opacity": 1,
+            "alphas": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "selector": "candle",
+            "opacity": 1,
+            "alphas": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "selector": "candle",
+            "opacity": 1,
+            "alphas": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "selector": "candle",
+            "opacity": 1,
+            "alphas": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "selector": "candle",
+            "opacity": 1,
+            "alphas": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "selector": "candle",
+            "opacity": 1,
+            "alphas": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "selector": "candle",
+            "opacity": 1,
+            "alphas": [
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        ],
+        "glass": [
+          {
+            "selector": "envelope opened",
+            "opacity": 1,
+            "alphas": [
+              0.13,
+              0.1
+            ]
+          },
+          {
+            "selector": "envelope-letter",
+            "opacity": 1,
+            "alphas": [
+              0.18,
+              0.1
+            ]
+          },
+          {
+            "selector": "envelope-fold",
+            "opacity": 1,
+            "alphas": [
+              0.18,
+              0.15
+            ]
+          },
+          {
+            "selector": "envelope-flap",
+            "opacity": 1,
+            "alphas": [
+              0.25,
+              0.15
+            ]
+          },
+          {
+            "selector": "revealed",
+            "opacity": 1,
+            "alphas": [
+              0.19
+            ]
+          }
+        ],
+        "ancestorOpacity": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "candles": 7,
+        "flames": 35,
+        "overflow": false
+      }
+    },
+    {
+      "background": "video-stars",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "poster": {
+        "src": "http://127.0.0.1:56338/gift-assets/backgrounds/video-stars-portrait.jpg",
+        "width": 720,
+        "height": 1280,
+        "colors": 648,
+        "covers": true,
+        "overflow": false
+      },
+      "video": {
+        "src": "http://127.0.0.1:56338/gift-assets/videos/video-stars-portrait.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 6,
+        "time": 0.103448,
+        "colors": 529,
+        "muted": true,
+        "loop": true,
+        "inline": true,
+        "preload": "none",
+        "sources": 0,
+        "opacity": "1",
+        "covers": true,
+        "overflow": false
+      }
+    },
+    {
+      "background": "video-stars",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "poster": {
+        "src": "http://127.0.0.1:56338/gift-assets/backgrounds/video-stars-portrait.jpg",
+        "width": 720,
+        "height": 1280,
+        "colors": 648,
+        "covers": true,
+        "overflow": false
+      },
+      "video": {
+        "src": "http://127.0.0.1:56338/gift-assets/videos/video-stars-portrait.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 6,
+        "time": 0.602758,
+        "colors": 620,
+        "muted": true,
+        "loop": true,
+        "inline": true,
+        "preload": "none",
+        "sources": 0,
+        "opacity": "1",
+        "covers": true,
+        "overflow": false
+      }
+    },
+    {
+      "background": "video-stars",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "poster": {
+        "src": "http://127.0.0.1:56338/gift-assets/backgrounds/video-stars-wide.jpg",
+        "width": 1280,
+        "height": 720,
+        "colors": 787,
+        "covers": true,
+        "overflow": false
+      },
+      "video": {
+        "src": "http://127.0.0.1:56338/gift-assets/videos/video-stars-wide.mp4",
+        "width": 1280,
+        "height": 720,
+        "duration": 6,
+        "time": 0.10297,
+        "colors": 606,
+        "muted": true,
+        "loop": true,
+        "inline": true,
+        "preload": "none",
+        "sources": 0,
+        "opacity": "1",
+        "covers": true,
+        "overflow": false
+      }
+    },
+    {
+      "background": "video-stars",
+      "mode": "lifecycle",
+      "releases": [
+        {
+          "phase": "hidden-0",
+          "src": null,
+          "currentSrc": "http://127.0.0.1:56338/gift-assets/videos/video-stars-portrait.mp4",
+          "paused": true,
+          "readyState": 0,
+          "networkState": 0,
+          "bufferedRanges": 0,
+          "opacity": "0",
+          "loads": 3,
+          "playCalls": 3
+        },
+        {
+          "phase": "hidden-1",
+          "src": null,
+          "currentSrc": "http://127.0.0.1:56338/gift-assets/videos/video-stars-portrait.mp4",
+          "paused": true,
+          "readyState": 0,
+          "networkState": 0,
+          "bufferedRanges": 0,
+          "opacity": "0",
+          "loads": 4,
+          "playCalls": 4
+        },
+        {
+          "phase": "hidden-2",
+          "src": null,
+          "currentSrc": "http://127.0.0.1:56338/gift-assets/videos/video-stars-portrait.mp4",
+          "paused": true,
+          "readyState": 0,
+          "networkState": 0,
+          "bufferedRanges": 0,
+          "opacity": "0",
+          "loads": 5,
+          "playCalls": 5
+        },
+        {
+          "phase": "reduced-motion",
+          "src": null,
+          "currentSrc": "http://127.0.0.1:56338/gift-assets/videos/video-stars-portrait.mp4",
+          "paused": true,
+          "readyState": 0,
+          "networkState": 0,
+          "bufferedRanges": 0,
+          "opacity": "0",
+          "loads": 6,
+          "playCalls": 6
+        },
+        {
+          "phase": "manual-pause",
+          "src": null,
+          "currentSrc": "http://127.0.0.1:56338/gift-assets/videos/video-stars-portrait.mp4",
+          "paused": true,
+          "readyState": 0,
+          "networkState": 0,
+          "bufferedRanges": 0,
+          "opacity": "0",
+          "loads": 7,
+          "playCalls": 7
+        },
+        {
+          "phase": "persisted-hide",
+          "src": null,
+          "currentSrc": "http://127.0.0.1:56338/gift-assets/videos/video-stars-wide.mp4",
+          "paused": true,
+          "readyState": 0,
+          "networkState": 0,
+          "bufferedRanges": 0,
+          "opacity": "0",
+          "loads": 8,
+          "playCalls": 8
+        },
+        {
+          "phase": "destroy",
+          "src": null,
+          "currentSrc": "http://127.0.0.1:56338/gift-assets/videos/video-stars-wide.mp4",
+          "paused": true,
+          "readyState": 0,
+          "networkState": 0,
+          "bufferedRanges": 0,
+          "opacity": "0",
+          "loads": 9,
+          "playCalls": 9
+        }
+      ]
+    },
+    {
+      "background": "video-stars",
+      "mode": "reduced-motion",
+      "poster": {
+        "src": "http://127.0.0.1:56338/gift-assets/backgrounds/video-stars-portrait.jpg",
+        "width": 720,
+        "height": 1280,
+        "colors": 648,
+        "covers": true,
+        "overflow": false
+      },
+      "video": {
+        "src": "http://127.0.0.1:56338/gift-assets/videos/video-stars-portrait.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 6,
+        "time": 0.062093,
+        "colors": 506,
+        "muted": true,
+        "loop": true,
+        "inline": true,
+        "preload": "none",
+        "sources": 0,
+        "opacity": "1",
+        "covers": true,
+        "overflow": false
+      }
+    },
+    {
+      "background": "video-stars",
+      "mode": "no-webgl",
+      "poster": {
+        "src": "http://127.0.0.1:56338/gift-assets/backgrounds/video-stars-portrait.jpg",
+        "width": 720,
+        "height": 1280,
+        "colors": 649,
+        "covers": true,
+        "overflow": false
+      },
+      "video": {
+        "src": "http://127.0.0.1:56338/gift-assets/videos/video-stars-portrait.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 6,
+        "time": 0.092289,
+        "colors": 529,
+        "muted": true,
+        "loop": true,
+        "inline": true,
+        "preload": "none",
+        "sources": 0,
+        "opacity": "1",
+        "covers": true,
+        "overflow": false
+      }
+    },
+    {
+      "background": "video-stars",
+      "mode": "error",
+      "poster": {
+        "src": "http://127.0.0.1:56338/gift-assets/backgrounds/video-stars-portrait.jpg",
+        "width": 720,
+        "height": 1280,
+        "colors": 648,
+        "covers": true,
+        "overflow": false
+      },
+      "video": {
+        "src": "http://127.0.0.1:56338/gift-assets/videos/video-stars-portrait.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 6,
+        "time": 0.057574,
+        "colors": 506,
+        "muted": true,
+        "loop": true,
+        "inline": true,
+        "preload": "none",
+        "sources": 0,
+        "opacity": "1",
+        "covers": true,
+        "overflow": false
+      }
+    },
+    {
+      "background": "video-stars",
+      "mode": "autoplay-blocked",
+      "poster": {
+        "src": "http://127.0.0.1:56338/gift-assets/backgrounds/video-stars-portrait.jpg",
+        "width": 720,
+        "height": 1280,
+        "colors": 648,
+        "covers": true,
+        "overflow": false
+      },
+      "video": {
+        "src": "http://127.0.0.1:56338/gift-assets/videos/video-stars-portrait.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 6,
+        "time": 0.055972,
+        "colors": 506,
+        "muted": true,
+        "loop": true,
+        "inline": true,
+        "preload": "none",
+        "sources": 0,
+        "opacity": "1",
+        "covers": true,
+        "overflow": false
+      }
+    },
+    {
+      "background": "video-stars",
+      "mode": "stale-rejection",
+      "poster": {
+        "src": "http://127.0.0.1:56338/gift-assets/backgrounds/video-stars-portrait.jpg",
+        "width": 720,
+        "height": 1280,
+        "colors": 648,
+        "covers": true,
+        "overflow": false
+      },
+      "video": {
+        "src": "http://127.0.0.1:56338/gift-assets/videos/video-stars-portrait.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 6,
+        "time": 0.306514,
+        "colors": 563,
+        "muted": true,
+        "loop": true,
+        "inline": true,
+        "preload": "none",
+        "sources": 0,
+        "opacity": "1",
+        "covers": true,
+        "overflow": false
+      }
+    },
+    {
+      "background": "video-stars",
+      "mode": "birthday",
+      "materials": {
+        "bodies": [
+          {
+            "selector": "icing",
+            "opacity": 1,
+            "alphas": [
+              1,
+              1
+            ]
+          },
+          {
+            "selector": "drip",
+            "opacity": 1,
+            "alphas": [
+              1
+            ]
+          },
+          {
+            "selector": "drip",
+            "opacity": 1,
+            "alphas": [
+              1
+            ]
+          },
+          {
+            "selector": "drip",
+            "opacity": 1,
+            "alphas": [
+              1
+            ]
+          },
+          {
+            "selector": "drip",
+            "opacity": 1,
+            "alphas": [
+              1
+            ]
+          },
+          {
+            "selector": "drip",
+            "opacity": 1,
+            "alphas": [
+              1
+            ]
+          },
+          {
+            "selector": "layer top",
+            "opacity": 1,
+            "alphas": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "selector": "layer middle",
+            "opacity": 1,
+            "alphas": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "selector": "layer bottom",
+            "opacity": 1,
+            "alphas": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "selector": "candle",
+            "opacity": 1,
+            "alphas": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "selector": "candle",
+            "opacity": 1,
+            "alphas": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "selector": "candle",
+            "opacity": 1,
+            "alphas": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "selector": "candle",
+            "opacity": 1,
+            "alphas": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "selector": "candle",
+            "opacity": 1,
+            "alphas": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "selector": "candle",
+            "opacity": 1,
+            "alphas": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "selector": "candle",
+            "opacity": 1,
+            "alphas": [
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        ],
+        "glass": [
+          {
+            "selector": "envelope opened",
+            "opacity": 1,
+            "alphas": [
+              0.13,
+              0.1
+            ]
+          },
+          {
+            "selector": "envelope-letter",
+            "opacity": 1,
+            "alphas": [
+              0.18,
+              0.1
+            ]
+          },
+          {
+            "selector": "envelope-fold",
+            "opacity": 1,
+            "alphas": [
+              0.18,
+              0.15
+            ]
+          },
+          {
+            "selector": "envelope-flap",
+            "opacity": 1,
+            "alphas": [
+              0.25,
+              0.15
+            ]
+          },
+          {
+            "selector": "revealed",
+            "opacity": 1,
+            "alphas": [
+              0.19
+            ]
+          }
+        ],
+        "ancestorOpacity": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "candles": 7,
+        "flames": 35,
+        "overflow": false
+      }
+    }
+  ],
+  "errors": []
+}

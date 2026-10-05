@@ -1,0 +1,47 @@
+{
+  "vocabulary": {
+    "repository": "https://github.com/KyleBing/english-vocabulary",
+    "commit": "c4c6c80879ff17d7025c28fb853a4991c8e6be6a",
+    "license": "BSD-3-Clause",
+    "origin": "Repository attributes vocabulary to kajweb/dict; dictionary data is not an official CET syllabus."
+  },
+  "counts": {
+    "CET4": 4449,
+    "CET6": 3903
+  },
+  "import": {
+    "CET4": {
+      "sourceRecords": 7508,
+      "imported": 4425,
+      "missingExampleOrMeaning": 150,
+      "duplicates": 2933,
+      "sha256": "e70511755f8da283ce25d37dd0662b0db35180aad0735c0767eedb37b8508e98"
+    },
+    "CET6": {
+      "sourceRecords": 5651,
+      "imported": 3879,
+      "missingExampleOrMeaning": 119,
+      "duplicates": 1653,
+      "sha256": "2c2f65773b7d272334efeb5ad302382b18f791c58bb238a6feb777a7c4b81f8b"
+    }
+  },
+  "practiceSource": "User supplied CET site, PROJECT-NONCOMMERCIAL-1.0",
+  "practiceQuestionCount": 32,
+  "practiceSources": [
+    {
+      "id": "source-original-demo",
+      "title": "拾词 CET 原创示例内容",
+      "kind": "original",
+      "source_url": null,
+      "license_name": "PROJECT-NONCOMMERCIAL-1.0",
+      "attribution_text": "拾词 CET 学习站原创示例内容，仅用于非商业学习。",
+      "rights_status": "cleared",
+      "redistribution_allowed": 1,
+      "commercial_use_allowed": 0,
+      "notes": "词义、例句、题目与解析为本项目首版原创示例；不对应任何官方真题。"
+    }
+  ],
+  "latestCompletedExam": "2026-06",
+  "resourceCount": 50,
+  "note": "Audio is fetched on demand; historical paper resources are not a complete structured question bank."
+}

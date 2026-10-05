@@ -1,6 +1,7 @@
+import { withSharing } from '../../../utils/page-share'
 import { callFoodFunction } from '../../utils/food-cloud'
 
-Page({
+Page(withSharing({
   data: {
     shopId: '',
     shop: null as any,
@@ -176,4 +177,4 @@ Page({
       url: `/packageFood/pages/order/order`
     })
   }
-})
+}))

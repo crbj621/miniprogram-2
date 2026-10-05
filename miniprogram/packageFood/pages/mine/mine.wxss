@@ -165,7 +165,10 @@
   margin-bottom: 30rpx;
 }
 
-.become-btn {
+.become-btn.tech-control {
+  width: auto;
+  margin-left: 0;
+  margin-right: 0;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: #fff;
   font-size: 30rpx;
@@ -182,7 +185,10 @@
   padding-bottom: 40rpx;
 }
 
-.logout-btn {
+.logout-btn.tech-control {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
   background-color: #fff;
   color: #ff4d4f;
   font-size: 30rpx;

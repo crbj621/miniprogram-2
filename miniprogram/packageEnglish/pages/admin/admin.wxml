@@ -1,0 +1,17 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
+<view class="english-page english-admin-page">
+  <view class="hero"><text class="kicker">内容与奖励</text><text class="title">英语学习管理</text><text class="subtitle">核对当前内容与资源，管理每日任务金币。</text></view>
+  <view wx:if="{{state === 'loading'}}" class="card admin-status"><tech-loader/><text class="muted">正在读取服务器配置…</text></view>
+  <view wx:elif="{{state === 'error'}}" class="card"><view class="error">{{error}}</view><button class="tech-control action" bindtap="loadOverview" hover-class="tech-pressed">重新加载</button></view>
+  <block wx:else>
+    <view class="card"><text class="card-title">当前内容</text><view class="grid"><view class="stat"><text class="stat-number">{{overview.counts.words}}</text><text class="stat-label">词库条目</text></view><view class="stat"><text class="stat-number">{{overview.counts.questions}}</text><text class="stat-label">结构化题目</text></view><view class="stat"><text class="stat-number">{{overview.counts.originalPapers}}</text><text class="stat-label">原创练习卷</text></view><view class="stat"><text class="stat-number">{{overview.counts.learners}}</text><text class="stat-label">已有学习档案</text></view></view></view>
+    <view class="card"><text class="card-title">历年真题资源与缺口</text><view class="resource-count"><text class="resource-number">{{overview.counts.pastExamResources}}</text><text class="muted">组历年资料入口</text></view><text class="notice">{{overview.limitations}}</text><view class="grid"><view class="stat"><text class="stat-number">{{overview.counts.realPapers || 0}}</text><text class="stat-label">在线真题范围卷</text></view><view class="stat"><text class="stat-number">{{overview.counts.fullRealPapers || 0}}</text><text class="stat-label">其中完整真题</text></view></view><text class="muted">真题范围卷、完整真题、原创卷和资料入口分别统计；资料入口不等同在线题库。</text></view>
+    <view class="card"><view class="row between"><text class="card-title">任务金币奖励</text><text class="badge">{{isSuperAdmin ? '超级管理员' : '只读'}}</text></view><text class="muted">奖励为0–100的整数金币，获赞次数上限为0–20；新配置按服务器生效规则执行。</text>
+      <view wx:for="{{rewardFields}}" wx:key="key" class="reward-field"><view class="reward-copy"><text class="reward-label">{{item.name}}</text><text class="reward-description">{{item.description}}</text></view><view class="reward-input"><input class="tech-input" type="number" value="{{form[item.key]}}" data-key="{{item.key}}" bindinput="onRewardInput" disabled="{{!isSuperAdmin || saving || state !== 'ready'}}" adjust-position="{{true}}" cursor-spacing="24" maxlength="3" /><text>{{item.unit}}</text></view></view>
+      <view class="current-rules"><text>挑战题数：{{overview.settings.challengeQuestionCount}} 道</text><text>挑战时限：{{overview.settings.challengeDurationSeconds}} 秒</text><text>挑战答案：{{overview.settings.revealChallengeAnswersNextDay ? '次日开放' : '按当前服务规则开放'}}</text></view>
+      <view wx:if="{{saveError}}" class="error">{{saveError}}</view><button wx:if="{{isSuperAdmin}}" class="tech-control tech-primary action" bindtap="saveRewards" disabled="{{saving || state !== 'ready'}}" hover-class="tech-pressed">{{saving ? '正在保存…' : '保存奖励配置'}}</button><text wx:else class="notice">奖励配置由超级管理员保存。</text>
+    </view>
+  </block>
+</view>
+
+</block>

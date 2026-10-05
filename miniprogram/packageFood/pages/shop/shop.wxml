@@ -1,3 +1,4 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="container" wx:if="{{shop}}">
   <swiper class="banner-swiper" indicator-dots autoplay circular interval="3000" duration="500" wx:if="{{shop.banners && shop.banners.length > 0}}">
     <swiper-item wx:for="{{shop.banners}}" wx:key="*this">
@@ -99,3 +100,5 @@
     </view>
   </view>
 </view>
+
+</block>

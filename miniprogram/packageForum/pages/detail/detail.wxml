@@ -1,4 +1,5 @@
-<view class="page">
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
+<view class="page {{keyboardHeight > 0 ? 'keyboard-open' : ''}}" style="height: {{keyboardViewportHeight ? keyboardViewportHeight + 'px' : '100vh'}}">
   <view class="header">
     <view class="header-bg"></view>
     <view class="header-content">
@@ -106,7 +107,7 @@
   
   <view class="input-bar">
     <view class="input-wrapper">
-      <input class="comment-input tech-input" placeholder="{{replyTo ? '回复 @' + replyToName : '写评论...'}}" value="{{commentContent}}" bindinput="onCommentInput" bindconfirm="onSubmitComment" placeholder-style="color:#8597ad" />
+      <input class="comment-input tech-input" placeholder="{{replyTo ? '回复 @' + replyToName : '写评论...'}}" value="{{commentContent}}" bindinput="onCommentInput" bindconfirm="onSubmitComment" bindfocus="onComposerFocus" bindkeyboardheightchange="onKeyboardHeightChange" adjust-position="{{false}}" always-embed="{{true}}" hold-keyboard="{{true}}" confirm-hold="{{true}}" confirm-type="send" placeholder-style="color:#8597ad" />
     </view>
     <view class="send-btn {{commentContent && !commentSubmitting ? 'active' : ''}} tech-control tech-primary" bindtap="onSubmitComment" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
       <text class="send-icon">✈️</text>
@@ -115,14 +116,14 @@
   </view>
 </view>
 
-<view class="modal-mask" wx:if="{{showReportModal}}" bindtap="onHideReport" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
-  <view class="modal-box tech-card" catchtap="" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+<view class="modal-mask" wx:if="{{showReportModal}}" bindtap="onHideReport">
+  <view class="modal-box tech-card" catchtap="">
     <view class="modal-header">
       <text class="modal-title">🚨 举报动态</text>
       <view class="modal-close tap-action" bindtap="onHideReport" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">×</view>
     </view>
     <view class="modal-body">
-      <textarea class="report-input tech-input" placeholder="请输入举报理由..." value="{{reportReason}}" bindinput="onReportInput" maxlength="200" placeholder-style="color:#8597ad"></textarea>
+      <textarea class="report-input tech-input" placeholder="请输入举报理由..." value="{{reportReason}}" bindinput="onReportInput" maxlength="200" fixed="{{true}}" adjust-position="{{true}}" cursor-spacing="24" placeholder-style="color:#8597ad"></textarea>
     </view>
     <view class="modal-footer">
       <view class="modal-btn cancel tech-control" bindtap="onHideReport" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">取消</view>
@@ -130,3 +131,5 @@
     </view>
   </view>
 </view>
+
+</block>

@@ -31,7 +31,9 @@
   gap: 30rpx;
 }
 
-.btn {
+.container .btn {
+  margin-left: 0;
+  margin-right: 0;
   width: 80%;
   border-radius: 44rpx;
   font-weight: 500;
@@ -87,16 +89,20 @@
 .team-title-row {
   display: flex;
   align-items: center;
+  gap: 16rpx;
 }
 
 .team-name {
+  flex: 1;
+  min-width: 0;
+  overflow-wrap: break-word;
   font-size: 40rpx;
   font-weight: bold;
   color: #333;
-  margin-right: 20rpx;
 }
 
 .team-tag {
+  flex-shrink: 0;
   font-size: 22rpx;
   color: #667eea;
   background-color: #f0f2ff;
@@ -144,6 +150,7 @@
   display: flex;
   justify-content: center;
   gap: 20rpx;
+  flex-wrap: wrap;
 }
 
 .member-list {
@@ -190,11 +197,14 @@
 
 .nickname {
   flex: 1;
+  min-width: 0;
+  overflow-wrap: break-word;
   font-size: 30rpx;
   color: #333;
 }
 
 .role {
+  flex-shrink: 0;
   font-size: 22rpx;
   color: #667eea;
   background-color: #f0f2ff;
@@ -213,19 +223,23 @@
   right: 0;
   bottom: 0;
   background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32rpx;
+  box-sizing: border-box;
   z-index: 100;
 }
 
 .modal-content {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80%;
+  width: 100%;
+  max-width: 640rpx;
+  max-height: 85vh;
+  box-sizing: border-box;
   background-color: #fff;
   border-radius: 20rpx;
   z-index: 101;
-  overflow: hidden;
+  overflow-y: auto;
 }
 
 .modal-header {
@@ -266,10 +280,13 @@
 
 .modal-footer .btn {
   flex: 1;
+  width: 0;
+  min-width: 0;
+  margin: 0;
   border-radius: 0;
   padding: 30rpx 0;
 }
 /* Shared card rhythm replaces the inherited tutorial flex container. */
-.container { display: block; height: auto; min-height: 100vh; box-sizing: border-box; padding: 28rpx; background: #f0f5fa; color: #2a465e; }.team-page-heading { display: flex; align-items: center; justify-content: space-between; gap: 14rpx; margin-bottom: 28rpx; }.team-eyebrow,.team-page-title { display: block; }.team-eyebrow { font-size: 19rpx; color: #76a0bb; letter-spacing: 3rpx; }.team-page-title { margin-top: 12rpx; font-size: 37rpx; font-weight: 750; }.team-page-heading button { margin: 0; width: 76rpx; padding: 0; background: #fff; color: #6b9cbd; border-radius: 22rpx; font-size: 36rpx; }.no-team { padding: 80rpx 28rpx; border-radius: 32rpx; background: #fff; border: 2rpx solid #dfe9f1; }.empty-text { color: #879db0; font-size: 29rpx; }.btn.primary { background: linear-gradient(120deg,#348ac4,#38b1c6); }.team-info { width: 100%; background: #fff; border: 2rpx solid #dfe9f1; border-radius: 32rpx; overflow: hidden; box-sizing: border-box; }.team-header { background: #ecf6fc; }.invite-section { background: #f5f9fc; }.invite-code { color: #3684b4; }.team-actions { display: flex; flex-direction: column; gap: 18rpx; padding: 24rpx; }.team-actions .btn { width: 100%; }.pending-team { padding: 28rpx; color: #8b84b1; font-size: 25rpx; }.pending-team > view { display: grid; grid-template-columns: 1fr 1fr; gap: 16rpx; margin-top: 18rpx; }.pending-team button { margin: 0; width: 100%; font-size: 24rpx; border-radius: 20rpx; background: #f0eef9; color: #8b84b1; }
+.container { display: block; height: auto; min-height: 100vh; box-sizing: border-box; padding: 28rpx; background: #f0f5fa; color: #2a465e; }.team-page-heading { display: flex; align-items: center; justify-content: space-between; gap: 14rpx; margin-bottom: 28rpx; }.team-eyebrow,.team-page-title { display: block; }.team-eyebrow { font-size: 19rpx; color: #76a0bb; letter-spacing: 3rpx; }.team-page-title { margin-top: 12rpx; font-size: 37rpx; font-weight: 750; }.team-page-heading button.tech-control { margin: 0; width: 76rpx; padding: 0; background: #fff; color: #6b9cbd; border-radius: 22rpx; font-size: 36rpx; }.no-team { padding: 80rpx 28rpx; border-radius: 32rpx; background: #fff; border: 2rpx solid #dfe9f1; }.empty-text { color: #879db0; font-size: 29rpx; }.btn.primary { background: linear-gradient(120deg,#348ac4,#38b1c6); }.team-info { width: 100%; background: #fff; border: 2rpx solid #dfe9f1; border-radius: 32rpx; overflow: hidden; box-sizing: border-box; }.team-header { background: #ecf6fc; }.invite-section { background: #f5f9fc; }.invite-code { color: #3684b4; }.team-actions { display: flex; flex-direction: column; gap: 18rpx; padding: 24rpx; }.team-actions .btn { width: 100%; }.pending-team { padding: 28rpx; color: #8b84b1; font-size: 25rpx; }.pending-team > view { display: grid; grid-template-columns: 1fr 1fr; gap: 16rpx; margin-top: 18rpx; }.pending-team button.tech-control { margin: 0; width: 100%; font-size: 24rpx; border-radius: 20rpx; background: #f0eef9; color: #8b84b1; }
 
 @import "../../../styles/tech-ui.wxss";

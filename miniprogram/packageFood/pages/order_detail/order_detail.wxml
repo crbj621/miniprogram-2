@@ -1,3 +1,4 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="container" wx:if="{{order}}">
   <view class="status-card status-{{order.status}}">
     <view class="status-icon">
@@ -67,3 +68,5 @@
     <view class="btn cancel tech-control" bindtap="cancelOrder" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">取消订单</view>
   </view>
 </view>
+
+</block>

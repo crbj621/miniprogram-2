@@ -1,0 +1,2225 @@
+{
+  "schemaVersion": 1,
+  "status": "verified_structured",
+  "source": {
+    "id": "cet6-2025-12-3-nonlistening",
+    "textCollection": "https://english-exam.lazynote.cn",
+    "textUrl": "https://english-exam.lazynote.cn/cet6/paper/2025-12-3/",
+    "textSha256": "3b7adb15fa69cdc107415b279d408ec88be67802ac73fd4f0cfe7b35dfcc3de5",
+    "answerSources": [
+      {
+        "section": "part3-section-a",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2025-12-3/part3-section-a/",
+        "sha256": "c0eefd8e01936f43ab3ab0332397f8d231460e267081f3e30ff7f673bd083a81"
+      },
+      {
+        "section": "part3-section-b",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2025-12-3/part3-section-b/",
+        "sha256": "5f3b8aa63a1a0d4046c529cb121eccac6a94dbff2a3b2ca00553b4782f8067a6"
+      },
+      {
+        "section": "part3-section-c-1",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2025-12-3/part3-section-c/",
+        "sha256": "dd5d91c9c169a46153ff0a05cdaebd8bf042f5276aad857b5d87773c8b1bab03"
+      },
+      {
+        "section": "part3-section-c-2",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2025-12-3/part3-section-c-2/",
+        "sha256": "ab627f79cd389126d700cd330f2ace5554791b23215b0b127b3c0c699d40ee7c"
+      }
+    ],
+    "rightsUrl": "https://english-exam.lazynote.cn",
+    "rights": "Source footer attributes original papers to the National College English Test Committee. Original materials retain their respective rights; no blanket source license is asserted. Commercial explanatory prose is not copied.",
+    "sourceRightsNotice": "© 2026 懒笔记 · 蜀ICP备2024049450号-1 · 川公网安备51019002006323号 · 增值电信业务经营许可证：川B2-20240301 · 真题版权归全国硕士研究生招生考试 / 全国大学英语四六级考试委员会所有 · 隐私政策 · 用户协议",
+    "sourceTermsUrl": "https://english-exam.lazynote.cn/terms/",
+    "reviewedAt": "2026-10-03",
+    "answerStatus": "public_reference_structural_consistency_verified",
+    "explanations": "Project-generated contextual evidence notes. Close-reading locations are keyword-search candidates, not manually verified detailed explanations.",
+    "referenceEssays": "Project-authored full reference examples bound to the original prompts; not official model answers.",
+    "materialSources": [],
+    "corrections": [],
+    "previousReviewedAnswerSources": [],
+    "sourceEdition": "lazynote public original-paper arrangement; set numbering can differ from other collections.",
+    "independentlyConfirmedSharedSource": "",
+    "readingSourceCorrection": null,
+    "sectionSourceReplacement": null,
+    "independentAnswerChecks": [],
+    "sharedSectionSource": {}
+  },
+  "papers": [
+    {
+      "id": "cet6-2025-12-3-nonlistening",
+      "level": "CET6",
+      "year": 2025,
+      "month": 12,
+      "set": 3,
+      "title": "2025年12月英语六级第3套真题（不含听力）",
+      "authenticity": "past_exam",
+      "questionIds": [
+        "cet6-2025-12-3-nonlistening-writing",
+        "cet6-2025-12-3-nonlistening-q26",
+        "cet6-2025-12-3-nonlistening-q27",
+        "cet6-2025-12-3-nonlistening-q28",
+        "cet6-2025-12-3-nonlistening-q29",
+        "cet6-2025-12-3-nonlistening-q30",
+        "cet6-2025-12-3-nonlistening-q31",
+        "cet6-2025-12-3-nonlistening-q32",
+        "cet6-2025-12-3-nonlistening-q33",
+        "cet6-2025-12-3-nonlistening-q34",
+        "cet6-2025-12-3-nonlistening-q35",
+        "cet6-2025-12-3-nonlistening-q36",
+        "cet6-2025-12-3-nonlistening-q37",
+        "cet6-2025-12-3-nonlistening-q38",
+        "cet6-2025-12-3-nonlistening-q39",
+        "cet6-2025-12-3-nonlistening-q40",
+        "cet6-2025-12-3-nonlistening-q41",
+        "cet6-2025-12-3-nonlistening-q42",
+        "cet6-2025-12-3-nonlistening-q43",
+        "cet6-2025-12-3-nonlistening-q44",
+        "cet6-2025-12-3-nonlistening-q45",
+        "cet6-2025-12-3-nonlistening-q46",
+        "cet6-2025-12-3-nonlistening-q47",
+        "cet6-2025-12-3-nonlistening-q48",
+        "cet6-2025-12-3-nonlistening-q49",
+        "cet6-2025-12-3-nonlistening-q50",
+        "cet6-2025-12-3-nonlistening-q51",
+        "cet6-2025-12-3-nonlistening-q52",
+        "cet6-2025-12-3-nonlistening-q53",
+        "cet6-2025-12-3-nonlistening-q54",
+        "cet6-2025-12-3-nonlistening-q55",
+        "cet6-2025-12-3-nonlistening-translation"
+      ],
+      "durationSeconds": 6000,
+      "description": "写作1题、阅读30题、翻译1题，不含听力。客观题答案与题面、选项完成结构一致性核对。",
+      "sourceId": "cet6-2025-12-3-nonlistening",
+      "coverage": {
+        "fullPaper": false,
+        "fullNonListening": true,
+        "listeningExcluded": true,
+        "objectiveNumbers": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "objectiveCount": 30,
+        "subjectiveCount": 2,
+        "sections": [
+          "writing",
+          "reading_word_bank",
+          "reading_matching",
+          "reading_comprehension",
+          "translation"
+        ],
+        "sharedSectionSource": {},
+        "note": "写作1题、阅读30题、翻译1题，不含听力。",
+        "independentlyConfirmedSharedSource": "",
+        "readingSourceCorrection": null,
+        "sectionSourceReplacement": null,
+        "referenceStatus": "project_authored"
+      },
+      "resources": [
+        {
+          "id": "cet6-2025-12-3-nonlistening-source",
+          "type": "web",
+          "title": "原卷来源与题面核对",
+          "url": "https://english-exam.lazynote.cn/cet6/paper/2025-12-3/"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cet6-2025-12-3-nonlistening-writing",
+      "number": "I",
+      "level": "CET6",
+      "type": "short_text_self_check",
+      "skill": "writing",
+      "section": "writing",
+      "prompt": "Directions: For this part, you are allowed 30 minutes to write an essay that begins with the sentence \" Living in an increasingly competitive world, college students should better prepare themselves to confront various challenges. \" You can make comments, cite examples or use your personal experiences to develop your essay. You should write at least 150 words but no more than 200 words. You should copy the sentence given in quotes at the beginning of your essay.",
+      "options": [],
+      "correctAnswer": "Living in an increasingly competitive world, college students should better prepare themselves to confront various challenges. Preparation involves building reliable abilities and learning how to respond constructively when a task becomes difficult or an outcome is uncertain.\n\nAcademic knowledge provides an essential foundation, but students also need communication, time management and practical experience. A group project, for example, can teach them to divide responsibilities, negotiate disagreements and meet a deadline. Reflecting on this experience helps turn activity into usable skills. Emotional resilience is equally important. A disappointing result should lead to questions about methods and preparation rather than an immediate conclusion of personal failure. Seeking advice and making an improved plan are effective ways to regain direction. Competition is easier to manage when progress is measured against meaningful goals instead of constant comparison with everyone else.\n\nUniversities can offer guidance, practical opportunities and accessible support. Students should begin preparing early, test their skills in manageable situations and review what they learn. Through steady effort and thoughtful adjustment, they can become more confident in facing the demands of study, employment and everyday life.",
+      "referenceAnswer": "Living in an increasingly competitive world, college students should better prepare themselves to confront various challenges. Preparation involves building reliable abilities and learning how to respond constructively when a task becomes difficult or an outcome is uncertain.\n\nAcademic knowledge provides an essential foundation, but students also need communication, time management and practical experience. A group project, for example, can teach them to divide responsibilities, negotiate disagreements and meet a deadline. Reflecting on this experience helps turn activity into usable skills. Emotional resilience is equally important. A disappointing result should lead to questions about methods and preparation rather than an immediate conclusion of personal failure. Seeking advice and making an improved plan are effective ways to regain direction. Competition is easier to manage when progress is measured against meaningful goals instead of constant comparison with everyone else.\n\nUniversities can offer guidance, practical opportunities and accessible support. Students should begin preparing early, test their skills in manageable situations and review what they learn. Through steady effort and thoughtful adjustment, they can become more confident in facing the demands of study, employment and everyday life.",
+      "hint": "照写首句，从知识技能、心理韧性和实际练习说明应对不同挑战。",
+      "explanation": "以下为按本题要求独立写成的原创参考范文，作文没有唯一答案。小组项目与结果失利两个例子分别展开技能和心理应对；末段写早准备、小范围练习与复盘。competitive不要求把他人当敌人，范文以自身目标衡量进步并保留合作能力。",
+      "rubric": [
+        "任务：照写首句，从知识技能、心理韧性和实际练习说明应对不同挑战。",
+        "论证：明确中心观点，用原因、具体例子或经历展开；结尾回应主题。",
+        "语言：检查主谓一致、时态、搭配和段落衔接；全文控制在150–200词。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2025-12-3-nonlistening-q26",
+      "canonicalId": "lazynote-cet6-2025-12-3-q26",
+      "number": 26,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 26 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "It's best to think of an accent as a distinct, systematic and rule-governed way of speaking. Accent is not a [26] ____ for dialect, but it's related. Dialect is an umbrella term for the way a community pronounces words, creates words, and orders words; accent refers to that first part only.\n\nMany [27] ____ presume that there is a single standard way of speaking in each country, with one single standard accent, and that this perceived standard is [28] ____ the best form of speech, but linguists(语言学家) often point out that the concept of a standard accent is better understood as an ideal rather than a [29] ____ . In other words, no one speaks \"standard English\"; rather, it is an imagined way of using language that exists only in grammar and style books.\n\nOne reason linguists agree there is no one true standard is that, through the years, there have been [30] ____ supposed standards, depending on time and place. The standard for English in British newsreels(新闻片) from the 1950s, for example, differs greatly from the standard found on American national news broadcasts today. In fact, there has never been a single standard that's been fully agreed upon — and broadcast outlets across the [31] ____ have never consistently held to those standards anyway.\n\nEven so, this idea of a standard accent is [32] ____ and many workplace and educational environments perpetuate the idea that accents that [33] ____ from the current standard are less appropriate, or even inappropriate. Scholars have found that southern US accent features are more accepted in [34] ____ such as government, law and service-oriented workplaces, but less accepted in the technology sector. The acceptability of nonstandard accents may [35] ____ with differences in class and culture, with newer or higher prestige industries expecting more standard speech in the workplace.",
+      "options": [
+        {
+          "id": "A",
+          "text": "affix"
+        },
+        {
+          "id": "B",
+          "text": "correlate"
+        },
+        {
+          "id": "C",
+          "text": "deviate"
+        },
+        {
+          "id": "D",
+          "text": "domains"
+        },
+        {
+          "id": "E",
+          "text": "influential"
+        },
+        {
+          "id": "F",
+          "text": "inherently"
+        },
+        {
+          "id": "G",
+          "text": "laymen"
+        },
+        {
+          "id": "H",
+          "text": "multiple"
+        },
+        {
+          "id": "I",
+          "text": "properties"
+        },
+        {
+          "id": "J",
+          "text": "reality"
+        },
+        {
+          "id": "K",
+          "text": "reciprocally"
+        },
+        {
+          "id": "L",
+          "text": "specimen"
+        },
+        {
+          "id": "M",
+          "text": "spectrum"
+        },
+        {
+          "id": "N",
+          "text": "synonym"
+        },
+        {
+          "id": "O",
+          "text": "unanimous"
+        }
+      ],
+      "correctAnswer": "N",
+      "hint": "先看第 26 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 N（synonym）。本空所在句：Accent is not a [26] ____ for dialect, but it's related.\n将本空替换为 synonym 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2025-12-3-nonlistening-q27",
+      "canonicalId": "lazynote-cet6-2025-12-3-q27",
+      "number": 27,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 27 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "It's best to think of an accent as a distinct, systematic and rule-governed way of speaking. Accent is not a [26] ____ for dialect, but it's related. Dialect is an umbrella term for the way a community pronounces words, creates words, and orders words; accent refers to that first part only.\n\nMany [27] ____ presume that there is a single standard way of speaking in each country, with one single standard accent, and that this perceived standard is [28] ____ the best form of speech, but linguists(语言学家) often point out that the concept of a standard accent is better understood as an ideal rather than a [29] ____ . In other words, no one speaks \"standard English\"; rather, it is an imagined way of using language that exists only in grammar and style books.\n\nOne reason linguists agree there is no one true standard is that, through the years, there have been [30] ____ supposed standards, depending on time and place. The standard for English in British newsreels(新闻片) from the 1950s, for example, differs greatly from the standard found on American national news broadcasts today. In fact, there has never been a single standard that's been fully agreed upon — and broadcast outlets across the [31] ____ have never consistently held to those standards anyway.\n\nEven so, this idea of a standard accent is [32] ____ and many workplace and educational environments perpetuate the idea that accents that [33] ____ from the current standard are less appropriate, or even inappropriate. Scholars have found that southern US accent features are more accepted in [34] ____ such as government, law and service-oriented workplaces, but less accepted in the technology sector. The acceptability of nonstandard accents may [35] ____ with differences in class and culture, with newer or higher prestige industries expecting more standard speech in the workplace.",
+      "options": [
+        {
+          "id": "A",
+          "text": "affix"
+        },
+        {
+          "id": "B",
+          "text": "correlate"
+        },
+        {
+          "id": "C",
+          "text": "deviate"
+        },
+        {
+          "id": "D",
+          "text": "domains"
+        },
+        {
+          "id": "E",
+          "text": "influential"
+        },
+        {
+          "id": "F",
+          "text": "inherently"
+        },
+        {
+          "id": "G",
+          "text": "laymen"
+        },
+        {
+          "id": "H",
+          "text": "multiple"
+        },
+        {
+          "id": "I",
+          "text": "properties"
+        },
+        {
+          "id": "J",
+          "text": "reality"
+        },
+        {
+          "id": "K",
+          "text": "reciprocally"
+        },
+        {
+          "id": "L",
+          "text": "specimen"
+        },
+        {
+          "id": "M",
+          "text": "spectrum"
+        },
+        {
+          "id": "N",
+          "text": "synonym"
+        },
+        {
+          "id": "O",
+          "text": "unanimous"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "先看第 27 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 G（laymen）。本空所在句：Many [27] ____ presume that there is a single standard way of speaking in each country, with one single standard accent, and that this perceived standard is [28] ____ the best form of speech, but linguists(语言学家) often point out that the concept of a standard accent is better understood as an ideal rather than a [29] ____ .\n将本空替换为 laymen 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2025-12-3-nonlistening-q28",
+      "canonicalId": "lazynote-cet6-2025-12-3-q28",
+      "number": 28,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 28 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "It's best to think of an accent as a distinct, systematic and rule-governed way of speaking. Accent is not a [26] ____ for dialect, but it's related. Dialect is an umbrella term for the way a community pronounces words, creates words, and orders words; accent refers to that first part only.\n\nMany [27] ____ presume that there is a single standard way of speaking in each country, with one single standard accent, and that this perceived standard is [28] ____ the best form of speech, but linguists(语言学家) often point out that the concept of a standard accent is better understood as an ideal rather than a [29] ____ . In other words, no one speaks \"standard English\"; rather, it is an imagined way of using language that exists only in grammar and style books.\n\nOne reason linguists agree there is no one true standard is that, through the years, there have been [30] ____ supposed standards, depending on time and place. The standard for English in British newsreels(新闻片) from the 1950s, for example, differs greatly from the standard found on American national news broadcasts today. In fact, there has never been a single standard that's been fully agreed upon — and broadcast outlets across the [31] ____ have never consistently held to those standards anyway.\n\nEven so, this idea of a standard accent is [32] ____ and many workplace and educational environments perpetuate the idea that accents that [33] ____ from the current standard are less appropriate, or even inappropriate. Scholars have found that southern US accent features are more accepted in [34] ____ such as government, law and service-oriented workplaces, but less accepted in the technology sector. The acceptability of nonstandard accents may [35] ____ with differences in class and culture, with newer or higher prestige industries expecting more standard speech in the workplace.",
+      "options": [
+        {
+          "id": "A",
+          "text": "affix"
+        },
+        {
+          "id": "B",
+          "text": "correlate"
+        },
+        {
+          "id": "C",
+          "text": "deviate"
+        },
+        {
+          "id": "D",
+          "text": "domains"
+        },
+        {
+          "id": "E",
+          "text": "influential"
+        },
+        {
+          "id": "F",
+          "text": "inherently"
+        },
+        {
+          "id": "G",
+          "text": "laymen"
+        },
+        {
+          "id": "H",
+          "text": "multiple"
+        },
+        {
+          "id": "I",
+          "text": "properties"
+        },
+        {
+          "id": "J",
+          "text": "reality"
+        },
+        {
+          "id": "K",
+          "text": "reciprocally"
+        },
+        {
+          "id": "L",
+          "text": "specimen"
+        },
+        {
+          "id": "M",
+          "text": "spectrum"
+        },
+        {
+          "id": "N",
+          "text": "synonym"
+        },
+        {
+          "id": "O",
+          "text": "unanimous"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "先看第 28 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 F（inherently）。本空所在句：Many [27] ____ presume that there is a single standard way of speaking in each country, with one single standard accent, and that this perceived standard is [28] ____ the best form of speech, but linguists(语言学家) often point out that the concept of a standard accent is better understood as an ideal rather than a [29] ____ .\n将本空替换为 inherently 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2025-12-3-nonlistening-q29",
+      "canonicalId": "lazynote-cet6-2025-12-3-q29",
+      "number": 29,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 29 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "It's best to think of an accent as a distinct, systematic and rule-governed way of speaking. Accent is not a [26] ____ for dialect, but it's related. Dialect is an umbrella term for the way a community pronounces words, creates words, and orders words; accent refers to that first part only.\n\nMany [27] ____ presume that there is a single standard way of speaking in each country, with one single standard accent, and that this perceived standard is [28] ____ the best form of speech, but linguists(语言学家) often point out that the concept of a standard accent is better understood as an ideal rather than a [29] ____ . In other words, no one speaks \"standard English\"; rather, it is an imagined way of using language that exists only in grammar and style books.\n\nOne reason linguists agree there is no one true standard is that, through the years, there have been [30] ____ supposed standards, depending on time and place. The standard for English in British newsreels(新闻片) from the 1950s, for example, differs greatly from the standard found on American national news broadcasts today. In fact, there has never been a single standard that's been fully agreed upon — and broadcast outlets across the [31] ____ have never consistently held to those standards anyway.\n\nEven so, this idea of a standard accent is [32] ____ and many workplace and educational environments perpetuate the idea that accents that [33] ____ from the current standard are less appropriate, or even inappropriate. Scholars have found that southern US accent features are more accepted in [34] ____ such as government, law and service-oriented workplaces, but less accepted in the technology sector. The acceptability of nonstandard accents may [35] ____ with differences in class and culture, with newer or higher prestige industries expecting more standard speech in the workplace.",
+      "options": [
+        {
+          "id": "A",
+          "text": "affix"
+        },
+        {
+          "id": "B",
+          "text": "correlate"
+        },
+        {
+          "id": "C",
+          "text": "deviate"
+        },
+        {
+          "id": "D",
+          "text": "domains"
+        },
+        {
+          "id": "E",
+          "text": "influential"
+        },
+        {
+          "id": "F",
+          "text": "inherently"
+        },
+        {
+          "id": "G",
+          "text": "laymen"
+        },
+        {
+          "id": "H",
+          "text": "multiple"
+        },
+        {
+          "id": "I",
+          "text": "properties"
+        },
+        {
+          "id": "J",
+          "text": "reality"
+        },
+        {
+          "id": "K",
+          "text": "reciprocally"
+        },
+        {
+          "id": "L",
+          "text": "specimen"
+        },
+        {
+          "id": "M",
+          "text": "spectrum"
+        },
+        {
+          "id": "N",
+          "text": "synonym"
+        },
+        {
+          "id": "O",
+          "text": "unanimous"
+        }
+      ],
+      "correctAnswer": "J",
+      "hint": "先看第 29 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 J（reality）。本空所在句：Many [27] ____ presume that there is a single standard way of speaking in each country, with one single standard accent, and that this perceived standard is [28] ____ the best form of speech, but linguists(语言学家) often point out that the concept of a standard accent is better understood as an ideal rather than a [29] ____ .\n将本空替换为 reality 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2025-12-3-nonlistening-q30",
+      "canonicalId": "lazynote-cet6-2025-12-3-q30",
+      "number": 30,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 30 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "It's best to think of an accent as a distinct, systematic and rule-governed way of speaking. Accent is not a [26] ____ for dialect, but it's related. Dialect is an umbrella term for the way a community pronounces words, creates words, and orders words; accent refers to that first part only.\n\nMany [27] ____ presume that there is a single standard way of speaking in each country, with one single standard accent, and that this perceived standard is [28] ____ the best form of speech, but linguists(语言学家) often point out that the concept of a standard accent is better understood as an ideal rather than a [29] ____ . In other words, no one speaks \"standard English\"; rather, it is an imagined way of using language that exists only in grammar and style books.\n\nOne reason linguists agree there is no one true standard is that, through the years, there have been [30] ____ supposed standards, depending on time and place. The standard for English in British newsreels(新闻片) from the 1950s, for example, differs greatly from the standard found on American national news broadcasts today. In fact, there has never been a single standard that's been fully agreed upon — and broadcast outlets across the [31] ____ have never consistently held to those standards anyway.\n\nEven so, this idea of a standard accent is [32] ____ and many workplace and educational environments perpetuate the idea that accents that [33] ____ from the current standard are less appropriate, or even inappropriate. Scholars have found that southern US accent features are more accepted in [34] ____ such as government, law and service-oriented workplaces, but less accepted in the technology sector. The acceptability of nonstandard accents may [35] ____ with differences in class and culture, with newer or higher prestige industries expecting more standard speech in the workplace.",
+      "options": [
+        {
+          "id": "A",
+          "text": "affix"
+        },
+        {
+          "id": "B",
+          "text": "correlate"
+        },
+        {
+          "id": "C",
+          "text": "deviate"
+        },
+        {
+          "id": "D",
+          "text": "domains"
+        },
+        {
+          "id": "E",
+          "text": "influential"
+        },
+        {
+          "id": "F",
+          "text": "inherently"
+        },
+        {
+          "id": "G",
+          "text": "laymen"
+        },
+        {
+          "id": "H",
+          "text": "multiple"
+        },
+        {
+          "id": "I",
+          "text": "properties"
+        },
+        {
+          "id": "J",
+          "text": "reality"
+        },
+        {
+          "id": "K",
+          "text": "reciprocally"
+        },
+        {
+          "id": "L",
+          "text": "specimen"
+        },
+        {
+          "id": "M",
+          "text": "spectrum"
+        },
+        {
+          "id": "N",
+          "text": "synonym"
+        },
+        {
+          "id": "O",
+          "text": "unanimous"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "先看第 30 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 H（multiple）。本空所在句：One reason linguists agree there is no one true standard is that, through the years, there have been [30] ____ supposed standards, depending on time and place.\n将本空替换为 multiple 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2025-12-3-nonlistening-q31",
+      "canonicalId": "lazynote-cet6-2025-12-3-q31",
+      "number": 31,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 31 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "It's best to think of an accent as a distinct, systematic and rule-governed way of speaking. Accent is not a [26] ____ for dialect, but it's related. Dialect is an umbrella term for the way a community pronounces words, creates words, and orders words; accent refers to that first part only.\n\nMany [27] ____ presume that there is a single standard way of speaking in each country, with one single standard accent, and that this perceived standard is [28] ____ the best form of speech, but linguists(语言学家) often point out that the concept of a standard accent is better understood as an ideal rather than a [29] ____ . In other words, no one speaks \"standard English\"; rather, it is an imagined way of using language that exists only in grammar and style books.\n\nOne reason linguists agree there is no one true standard is that, through the years, there have been [30] ____ supposed standards, depending on time and place. The standard for English in British newsreels(新闻片) from the 1950s, for example, differs greatly from the standard found on American national news broadcasts today. In fact, there has never been a single standard that's been fully agreed upon — and broadcast outlets across the [31] ____ have never consistently held to those standards anyway.\n\nEven so, this idea of a standard accent is [32] ____ and many workplace and educational environments perpetuate the idea that accents that [33] ____ from the current standard are less appropriate, or even inappropriate. Scholars have found that southern US accent features are more accepted in [34] ____ such as government, law and service-oriented workplaces, but less accepted in the technology sector. The acceptability of nonstandard accents may [35] ____ with differences in class and culture, with newer or higher prestige industries expecting more standard speech in the workplace.",
+      "options": [
+        {
+          "id": "A",
+          "text": "affix"
+        },
+        {
+          "id": "B",
+          "text": "correlate"
+        },
+        {
+          "id": "C",
+          "text": "deviate"
+        },
+        {
+          "id": "D",
+          "text": "domains"
+        },
+        {
+          "id": "E",
+          "text": "influential"
+        },
+        {
+          "id": "F",
+          "text": "inherently"
+        },
+        {
+          "id": "G",
+          "text": "laymen"
+        },
+        {
+          "id": "H",
+          "text": "multiple"
+        },
+        {
+          "id": "I",
+          "text": "properties"
+        },
+        {
+          "id": "J",
+          "text": "reality"
+        },
+        {
+          "id": "K",
+          "text": "reciprocally"
+        },
+        {
+          "id": "L",
+          "text": "specimen"
+        },
+        {
+          "id": "M",
+          "text": "spectrum"
+        },
+        {
+          "id": "N",
+          "text": "synonym"
+        },
+        {
+          "id": "O",
+          "text": "unanimous"
+        }
+      ],
+      "correctAnswer": "M",
+      "hint": "先看第 31 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 M（spectrum）。本空所在句：In fact, there has never been a single standard that's been fully agreed upon — and broadcast outlets across the [31] ____ have never consistently held to those standards anyway.\n将本空替换为 spectrum 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2025-12-3-nonlistening-q32",
+      "canonicalId": "lazynote-cet6-2025-12-3-q32",
+      "number": 32,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 32 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "It's best to think of an accent as a distinct, systematic and rule-governed way of speaking. Accent is not a [26] ____ for dialect, but it's related. Dialect is an umbrella term for the way a community pronounces words, creates words, and orders words; accent refers to that first part only.\n\nMany [27] ____ presume that there is a single standard way of speaking in each country, with one single standard accent, and that this perceived standard is [28] ____ the best form of speech, but linguists(语言学家) often point out that the concept of a standard accent is better understood as an ideal rather than a [29] ____ . In other words, no one speaks \"standard English\"; rather, it is an imagined way of using language that exists only in grammar and style books.\n\nOne reason linguists agree there is no one true standard is that, through the years, there have been [30] ____ supposed standards, depending on time and place. The standard for English in British newsreels(新闻片) from the 1950s, for example, differs greatly from the standard found on American national news broadcasts today. In fact, there has never been a single standard that's been fully agreed upon — and broadcast outlets across the [31] ____ have never consistently held to those standards anyway.\n\nEven so, this idea of a standard accent is [32] ____ and many workplace and educational environments perpetuate the idea that accents that [33] ____ from the current standard are less appropriate, or even inappropriate. Scholars have found that southern US accent features are more accepted in [34] ____ such as government, law and service-oriented workplaces, but less accepted in the technology sector. The acceptability of nonstandard accents may [35] ____ with differences in class and culture, with newer or higher prestige industries expecting more standard speech in the workplace.",
+      "options": [
+        {
+          "id": "A",
+          "text": "affix"
+        },
+        {
+          "id": "B",
+          "text": "correlate"
+        },
+        {
+          "id": "C",
+          "text": "deviate"
+        },
+        {
+          "id": "D",
+          "text": "domains"
+        },
+        {
+          "id": "E",
+          "text": "influential"
+        },
+        {
+          "id": "F",
+          "text": "inherently"
+        },
+        {
+          "id": "G",
+          "text": "laymen"
+        },
+        {
+          "id": "H",
+          "text": "multiple"
+        },
+        {
+          "id": "I",
+          "text": "properties"
+        },
+        {
+          "id": "J",
+          "text": "reality"
+        },
+        {
+          "id": "K",
+          "text": "reciprocally"
+        },
+        {
+          "id": "L",
+          "text": "specimen"
+        },
+        {
+          "id": "M",
+          "text": "spectrum"
+        },
+        {
+          "id": "N",
+          "text": "synonym"
+        },
+        {
+          "id": "O",
+          "text": "unanimous"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "先看第 32 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 E（influential）。本空所在句：Even so, this idea of a standard accent is [32] ____ and many workplace and educational environments perpetuate the idea that accents that [33] ____ from the current standard are less appropriate, or even inappropriate.\n将本空替换为 influential 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2025-12-3-nonlistening-q33",
+      "canonicalId": "lazynote-cet6-2025-12-3-q33",
+      "number": 33,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 33 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "It's best to think of an accent as a distinct, systematic and rule-governed way of speaking. Accent is not a [26] ____ for dialect, but it's related. Dialect is an umbrella term for the way a community pronounces words, creates words, and orders words; accent refers to that first part only.\n\nMany [27] ____ presume that there is a single standard way of speaking in each country, with one single standard accent, and that this perceived standard is [28] ____ the best form of speech, but linguists(语言学家) often point out that the concept of a standard accent is better understood as an ideal rather than a [29] ____ . In other words, no one speaks \"standard English\"; rather, it is an imagined way of using language that exists only in grammar and style books.\n\nOne reason linguists agree there is no one true standard is that, through the years, there have been [30] ____ supposed standards, depending on time and place. The standard for English in British newsreels(新闻片) from the 1950s, for example, differs greatly from the standard found on American national news broadcasts today. In fact, there has never been a single standard that's been fully agreed upon — and broadcast outlets across the [31] ____ have never consistently held to those standards anyway.\n\nEven so, this idea of a standard accent is [32] ____ and many workplace and educational environments perpetuate the idea that accents that [33] ____ from the current standard are less appropriate, or even inappropriate. Scholars have found that southern US accent features are more accepted in [34] ____ such as government, law and service-oriented workplaces, but less accepted in the technology sector. The acceptability of nonstandard accents may [35] ____ with differences in class and culture, with newer or higher prestige industries expecting more standard speech in the workplace.",
+      "options": [
+        {
+          "id": "A",
+          "text": "affix"
+        },
+        {
+          "id": "B",
+          "text": "correlate"
+        },
+        {
+          "id": "C",
+          "text": "deviate"
+        },
+        {
+          "id": "D",
+          "text": "domains"
+        },
+        {
+          "id": "E",
+          "text": "influential"
+        },
+        {
+          "id": "F",
+          "text": "inherently"
+        },
+        {
+          "id": "G",
+          "text": "laymen"
+        },
+        {
+          "id": "H",
+          "text": "multiple"
+        },
+        {
+          "id": "I",
+          "text": "properties"
+        },
+        {
+          "id": "J",
+          "text": "reality"
+        },
+        {
+          "id": "K",
+          "text": "reciprocally"
+        },
+        {
+          "id": "L",
+          "text": "specimen"
+        },
+        {
+          "id": "M",
+          "text": "spectrum"
+        },
+        {
+          "id": "N",
+          "text": "synonym"
+        },
+        {
+          "id": "O",
+          "text": "unanimous"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "先看第 33 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 C（deviate）。本空所在句：Even so, this idea of a standard accent is [32] ____ and many workplace and educational environments perpetuate the idea that accents that [33] ____ from the current standard are less appropriate, or even inappropriate.\n将本空替换为 deviate 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2025-12-3-nonlistening-q34",
+      "canonicalId": "lazynote-cet6-2025-12-3-q34",
+      "number": 34,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 34 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "It's best to think of an accent as a distinct, systematic and rule-governed way of speaking. Accent is not a [26] ____ for dialect, but it's related. Dialect is an umbrella term for the way a community pronounces words, creates words, and orders words; accent refers to that first part only.\n\nMany [27] ____ presume that there is a single standard way of speaking in each country, with one single standard accent, and that this perceived standard is [28] ____ the best form of speech, but linguists(语言学家) often point out that the concept of a standard accent is better understood as an ideal rather than a [29] ____ . In other words, no one speaks \"standard English\"; rather, it is an imagined way of using language that exists only in grammar and style books.\n\nOne reason linguists agree there is no one true standard is that, through the years, there have been [30] ____ supposed standards, depending on time and place. The standard for English in British newsreels(新闻片) from the 1950s, for example, differs greatly from the standard found on American national news broadcasts today. In fact, there has never been a single standard that's been fully agreed upon — and broadcast outlets across the [31] ____ have never consistently held to those standards anyway.\n\nEven so, this idea of a standard accent is [32] ____ and many workplace and educational environments perpetuate the idea that accents that [33] ____ from the current standard are less appropriate, or even inappropriate. Scholars have found that southern US accent features are more accepted in [34] ____ such as government, law and service-oriented workplaces, but less accepted in the technology sector. The acceptability of nonstandard accents may [35] ____ with differences in class and culture, with newer or higher prestige industries expecting more standard speech in the workplace.",
+      "options": [
+        {
+          "id": "A",
+          "text": "affix"
+        },
+        {
+          "id": "B",
+          "text": "correlate"
+        },
+        {
+          "id": "C",
+          "text": "deviate"
+        },
+        {
+          "id": "D",
+          "text": "domains"
+        },
+        {
+          "id": "E",
+          "text": "influential"
+        },
+        {
+          "id": "F",
+          "text": "inherently"
+        },
+        {
+          "id": "G",
+          "text": "laymen"
+        },
+        {
+          "id": "H",
+          "text": "multiple"
+        },
+        {
+          "id": "I",
+          "text": "properties"
+        },
+        {
+          "id": "J",
+          "text": "reality"
+        },
+        {
+          "id": "K",
+          "text": "reciprocally"
+        },
+        {
+          "id": "L",
+          "text": "specimen"
+        },
+        {
+          "id": "M",
+          "text": "spectrum"
+        },
+        {
+          "id": "N",
+          "text": "synonym"
+        },
+        {
+          "id": "O",
+          "text": "unanimous"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "先看第 34 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 D（domains）。本空所在句：Scholars have found that southern US accent features are more accepted in [34] ____ such as government, law and service-oriented workplaces, but less accepted in the technology sector.\n将本空替换为 domains 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2025-12-3-nonlistening-q35",
+      "canonicalId": "lazynote-cet6-2025-12-3-q35",
+      "number": 35,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 35 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "It's best to think of an accent as a distinct, systematic and rule-governed way of speaking. Accent is not a [26] ____ for dialect, but it's related. Dialect is an umbrella term for the way a community pronounces words, creates words, and orders words; accent refers to that first part only.\n\nMany [27] ____ presume that there is a single standard way of speaking in each country, with one single standard accent, and that this perceived standard is [28] ____ the best form of speech, but linguists(语言学家) often point out that the concept of a standard accent is better understood as an ideal rather than a [29] ____ . In other words, no one speaks \"standard English\"; rather, it is an imagined way of using language that exists only in grammar and style books.\n\nOne reason linguists agree there is no one true standard is that, through the years, there have been [30] ____ supposed standards, depending on time and place. The standard for English in British newsreels(新闻片) from the 1950s, for example, differs greatly from the standard found on American national news broadcasts today. In fact, there has never been a single standard that's been fully agreed upon — and broadcast outlets across the [31] ____ have never consistently held to those standards anyway.\n\nEven so, this idea of a standard accent is [32] ____ and many workplace and educational environments perpetuate the idea that accents that [33] ____ from the current standard are less appropriate, or even inappropriate. Scholars have found that southern US accent features are more accepted in [34] ____ such as government, law and service-oriented workplaces, but less accepted in the technology sector. The acceptability of nonstandard accents may [35] ____ with differences in class and culture, with newer or higher prestige industries expecting more standard speech in the workplace.",
+      "options": [
+        {
+          "id": "A",
+          "text": "affix"
+        },
+        {
+          "id": "B",
+          "text": "correlate"
+        },
+        {
+          "id": "C",
+          "text": "deviate"
+        },
+        {
+          "id": "D",
+          "text": "domains"
+        },
+        {
+          "id": "E",
+          "text": "influential"
+        },
+        {
+          "id": "F",
+          "text": "inherently"
+        },
+        {
+          "id": "G",
+          "text": "laymen"
+        },
+        {
+          "id": "H",
+          "text": "multiple"
+        },
+        {
+          "id": "I",
+          "text": "properties"
+        },
+        {
+          "id": "J",
+          "text": "reality"
+        },
+        {
+          "id": "K",
+          "text": "reciprocally"
+        },
+        {
+          "id": "L",
+          "text": "specimen"
+        },
+        {
+          "id": "M",
+          "text": "spectrum"
+        },
+        {
+          "id": "N",
+          "text": "synonym"
+        },
+        {
+          "id": "O",
+          "text": "unanimous"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "先看第 35 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 B（correlate）。本空所在句：The acceptability of nonstandard accents may [35] ____ with differences in class and culture, with newer or higher prestige industries expecting more standard speech in the workplace.\n将本空替换为 correlate 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2025-12-3-nonlistening-q36",
+      "canonicalId": "lazynote-cet6-2025-12-3-q36",
+      "number": 36,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Upon seeing a flashing yellow arrow, a driver should let pedestrians and traffic pass first before taking the turn.",
+      "passage": "The History and Meaning of Colored Traffic Lights\n\nA) Timed traffic lights are set according to schedules that are supposed to coordinate with peak traffic hours. Cities need to monitor and update signal light time schedules at least every two years to keep these systems effective. In Los Angeles, California, an ambitious project to go a step further and synchronize(使同步) every red light in Los Angeles cost over 400 million dollars. Ask a resident of the city and they are likely to agree that saving time on the road is well worth it. If implemented nationwide, synchronization could shave 10% off traffic congestion(堵塞) and 20% off air pollution. Congestion costs time, money, and lives. Big data can help improve how millions of people safely share the road. However, none of this would be possible without the traffic light!\n\nB) The first traffic light was invented in London in the 1860's, but it was hardly recognizable — or effective. It had been adapted from the railroad signal system by a railway manager, John Peak Knight, in 1868. The railroads used red gas lights at night to signal stops and green gas lights during the daytime. Knight installed a similar gas light, semaphore(臂板信号) system near London's Westminster Bridge in December of 1868.\n\nC) The life of the first traffic light signal was short-lived. A gas leak caused one of the signal lights to explode on its police officer operator within a month of being installed.\n\nD) Automating traffic signals stalled after the London incident. Forty years passed before cars crowding city streets urged the development of traffic lights in the United States. London would not see another traffic light until 1929.\n\nE) The United States is a car culture like no other country. Unlike most European cities that started urban planning when horses were high-tech, many cities in the United States were designed around urban sprawl, suburban tracts, and motor cars.\n\nF) As traffic and cities grew, so did the race to solve growing traffic problems. The first traffic signals were semaphores. Semaphores are towers with moving arms signaling for traffic to stop or go. They could be manual or automatic. There was no consistent design. Various models were invented and put into place in cities as the need arose.\n\nG) In 1912, Lester Wire was a police officer exhausted by traffic at Main Street and 200 South. He developed a manually switched stop light. The four-sided box, raised on a ten-foot pole, looked like a birdhouse and was operated manually by an officer. The officer would flip a switch to change between the dipped red and green lights.\n\nH) Like the 1910 semaphore, the first electric signal used words. However, the words were no longer written on arms that raised and fell. The words \"stop\" or \"move\" were on lights. The posts lit up on each of four corner-posts around an intersection(十字路口). It was not automated, though. A booth with an operator was required to flip the switches.\n\nI) The system allowed police officers to move from the middle of the street to a corner. From that vantage(有利地位), an officer could oversee the crowd. If an emergency vehicle came, the officer could flip a switch and clear the intersection by triggering all red lights. The emergency vehicle could now pass effortlessly. Finally, in San Francisco the first red and green electric light system that could be operated automatically (or manually) was introduced in 1917.\n\nJ) In 1920, the first three-color light system was introduced in Detroit — also known as Motor City, USA. The evolution of traffic light signals could not have a more appropriate context than Motor City. Ford Motor Company was founded in Detroit in 1903 (and other motor companies followed). Ford made cars affordable for more common people, rather than the wealthy, by creating larger scale factory production.\n\nK) Stop and go were insufficient for the new volumes of cars zooming through intersections. Streets were full of new numbers of cars in addition to delivery wagons, bustling crowds, bicycles, horse-drawn carriages, and street cars. The introduction of the cautionary yellow light helped increase driver safety, decreasing accidents that come from running red lights.\n\nL) Stop lights were incredibly important in chaotic city streets. Crosswalks weren't even introduced until 1951. The first pedestrian fatality in the United States was in 1899.\n\nM) The development of the modern traffic light may have started in London, but it grew up in the United States. In Cleveland, an African-American inventor named Garrett Morgan came up with an affordable, patented traffic signal. The yellow light made intersections safer than the old stop and go system. The new design was inexpensive enough that it allowed the installation of a lot more lights.\n\nN) Morgan sold the patent to General Electric — and the spread of the traffic light was green lighted. Green means go. It is that simple, but it's still best to check both ways for oncoming traffic that may not be paying attention or is running the light. Yellow means slow down and prepare to stop. It does not mean full-throttle(全速) ahead. While you may get away with gunning it into the intersection, running a yellow can lead to tickets and dangerous accidents. Red lights are a clear and consistent warning to stop. Even where right turns are allowed on red lights, you must come to a complete stop before turning right. You must also yield to any through traffic, which has the right of way. In most states and cities, you can take a right on red unless otherwise indicated. New York City does not allow a right on red.\n\nO) Red arrows mean you cannot turn right on a red in most states. The green arrow, in these cases, is the only time you can make the turn. However, you can take a right on a red arrow after a full stop in the states of Illinois, Kansas, Louisiana, Maryland, Michigan, New Hampshire, North Dakota, Oregon, South Carolina, Utah, Washington State and Wyoming.\n\nP) Flashing Red is the same as a stop sign, generally used at four-way intersections where there is minimal traffic. When arriving at a flashing red light, make a full and complete stop. Flashing Red Arrows similarly mean to stop and then proceed to take the turn. Flashing Yellow lights mean yield or signal caution, like outside of a fire station. There are no all-direction flashing yellow lights, since it is prohibited in the United States. If you have a flashing yellow light, you are to yield to oncoming traffic.\n\nQ) Flashing Yellow Arrows are part of a four-signal traffic light. These are used in some states after a protected green turn signal, or arrow, but before a steady yellow arrow. When a flashing yellow arrow is shown, you can take the turn after yielding to pedestrians and traffic. Steady Yellow Arrows maintain the normal yellow light caution in three-light signals, meaning to stop or prepare to stop. In a four-signal system that has a flashing yellow arrow, the steady yellow arrow is a signal that the yield period is ending. The red arrow is about to start. Vehicles should stop if safely possible. Traffic tickets are possible for running a steady yellow arrow.\n\nR) Traffic light meaning is fairly consistent across the board with various deviations. Green means it's safe to proceed (though you should still exercise caution). Yellow means caution and yield. Red means danger and stop. Always drive defensively and obey traffic signals.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        },
+        {
+          "id": "Q",
+          "text": "Q 段"
+        },
+        {
+          "id": "R",
+          "text": "R 段"
+        }
+      ],
+      "correctAnswer": "Q",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 Q 段。题干：Upon seeing a flashing yellow arrow, a driver should let pedestrians and traffic pass first before taking the turn.\n核对该段原文：Flashing Yellow Arrows are part of a four-signal traffic light. These are used in some states after a protected green turn signal, or arrow, but before a steady yellow arrow. When a flashing yellow arrow is shown, you can take the turn after yielding to pedestrians and traffic. Steady Yellow Arrows maintain the normal yellow light caution in three-light signals, meaning to stop or prepare to stop. In a four-signal system that has a flashing yellow arrow, the steady yellow arrow is a signal that the yield period is ending. The red arrow is about to start. Vehicles should stop if safely possible. Traffic tickets are possible for running a steady yellow arrow.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2025-12-3-nonlistening-q37",
+      "canonicalId": "lazynote-cet6-2025-12-3-q37",
+      "number": 37,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The red and green automatic traffic light system originated in an American city.",
+      "passage": "The History and Meaning of Colored Traffic Lights\n\nA) Timed traffic lights are set according to schedules that are supposed to coordinate with peak traffic hours. Cities need to monitor and update signal light time schedules at least every two years to keep these systems effective. In Los Angeles, California, an ambitious project to go a step further and synchronize(使同步) every red light in Los Angeles cost over 400 million dollars. Ask a resident of the city and they are likely to agree that saving time on the road is well worth it. If implemented nationwide, synchronization could shave 10% off traffic congestion(堵塞) and 20% off air pollution. Congestion costs time, money, and lives. Big data can help improve how millions of people safely share the road. However, none of this would be possible without the traffic light!\n\nB) The first traffic light was invented in London in the 1860's, but it was hardly recognizable — or effective. It had been adapted from the railroad signal system by a railway manager, John Peak Knight, in 1868. The railroads used red gas lights at night to signal stops and green gas lights during the daytime. Knight installed a similar gas light, semaphore(臂板信号) system near London's Westminster Bridge in December of 1868.\n\nC) The life of the first traffic light signal was short-lived. A gas leak caused one of the signal lights to explode on its police officer operator within a month of being installed.\n\nD) Automating traffic signals stalled after the London incident. Forty years passed before cars crowding city streets urged the development of traffic lights in the United States. London would not see another traffic light until 1929.\n\nE) The United States is a car culture like no other country. Unlike most European cities that started urban planning when horses were high-tech, many cities in the United States were designed around urban sprawl, suburban tracts, and motor cars.\n\nF) As traffic and cities grew, so did the race to solve growing traffic problems. The first traffic signals were semaphores. Semaphores are towers with moving arms signaling for traffic to stop or go. They could be manual or automatic. There was no consistent design. Various models were invented and put into place in cities as the need arose.\n\nG) In 1912, Lester Wire was a police officer exhausted by traffic at Main Street and 200 South. He developed a manually switched stop light. The four-sided box, raised on a ten-foot pole, looked like a birdhouse and was operated manually by an officer. The officer would flip a switch to change between the dipped red and green lights.\n\nH) Like the 1910 semaphore, the first electric signal used words. However, the words were no longer written on arms that raised and fell. The words \"stop\" or \"move\" were on lights. The posts lit up on each of four corner-posts around an intersection(十字路口). It was not automated, though. A booth with an operator was required to flip the switches.\n\nI) The system allowed police officers to move from the middle of the street to a corner. From that vantage(有利地位), an officer could oversee the crowd. If an emergency vehicle came, the officer could flip a switch and clear the intersection by triggering all red lights. The emergency vehicle could now pass effortlessly. Finally, in San Francisco the first red and green electric light system that could be operated automatically (or manually) was introduced in 1917.\n\nJ) In 1920, the first three-color light system was introduced in Detroit — also known as Motor City, USA. The evolution of traffic light signals could not have a more appropriate context than Motor City. Ford Motor Company was founded in Detroit in 1903 (and other motor companies followed). Ford made cars affordable for more common people, rather than the wealthy, by creating larger scale factory production.\n\nK) Stop and go were insufficient for the new volumes of cars zooming through intersections. Streets were full of new numbers of cars in addition to delivery wagons, bustling crowds, bicycles, horse-drawn carriages, and street cars. The introduction of the cautionary yellow light helped increase driver safety, decreasing accidents that come from running red lights.\n\nL) Stop lights were incredibly important in chaotic city streets. Crosswalks weren't even introduced until 1951. The first pedestrian fatality in the United States was in 1899.\n\nM) The development of the modern traffic light may have started in London, but it grew up in the United States. In Cleveland, an African-American inventor named Garrett Morgan came up with an affordable, patented traffic signal. The yellow light made intersections safer than the old stop and go system. The new design was inexpensive enough that it allowed the installation of a lot more lights.\n\nN) Morgan sold the patent to General Electric — and the spread of the traffic light was green lighted. Green means go. It is that simple, but it's still best to check both ways for oncoming traffic that may not be paying attention or is running the light. Yellow means slow down and prepare to stop. It does not mean full-throttle(全速) ahead. While you may get away with gunning it into the intersection, running a yellow can lead to tickets and dangerous accidents. Red lights are a clear and consistent warning to stop. Even where right turns are allowed on red lights, you must come to a complete stop before turning right. You must also yield to any through traffic, which has the right of way. In most states and cities, you can take a right on red unless otherwise indicated. New York City does not allow a right on red.\n\nO) Red arrows mean you cannot turn right on a red in most states. The green arrow, in these cases, is the only time you can make the turn. However, you can take a right on a red arrow after a full stop in the states of Illinois, Kansas, Louisiana, Maryland, Michigan, New Hampshire, North Dakota, Oregon, South Carolina, Utah, Washington State and Wyoming.\n\nP) Flashing Red is the same as a stop sign, generally used at four-way intersections where there is minimal traffic. When arriving at a flashing red light, make a full and complete stop. Flashing Red Arrows similarly mean to stop and then proceed to take the turn. Flashing Yellow lights mean yield or signal caution, like outside of a fire station. There are no all-direction flashing yellow lights, since it is prohibited in the United States. If you have a flashing yellow light, you are to yield to oncoming traffic.\n\nQ) Flashing Yellow Arrows are part of a four-signal traffic light. These are used in some states after a protected green turn signal, or arrow, but before a steady yellow arrow. When a flashing yellow arrow is shown, you can take the turn after yielding to pedestrians and traffic. Steady Yellow Arrows maintain the normal yellow light caution in three-light signals, meaning to stop or prepare to stop. In a four-signal system that has a flashing yellow arrow, the steady yellow arrow is a signal that the yield period is ending. The red arrow is about to start. Vehicles should stop if safely possible. Traffic tickets are possible for running a steady yellow arrow.\n\nR) Traffic light meaning is fairly consistent across the board with various deviations. Green means it's safe to proceed (though you should still exercise caution). Yellow means caution and yield. Red means danger and stop. Always drive defensively and obey traffic signals.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        },
+        {
+          "id": "Q",
+          "text": "Q 段"
+        },
+        {
+          "id": "R",
+          "text": "R 段"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 I 段。题干：The red and green automatic traffic light system originated in an American city.\n核对该段原文：The system allowed police officers to move from the middle of the street to a corner. From that vantage(有利地位), an officer could oversee the crowd. If an emergency vehicle came, the officer could flip a switch and clear the intersection by triggering all red lights. The emergency vehicle could now pass effortlessly. Finally, in San Francisco the first red and green electric light system that could be operated automatically (or manually) was introduced in 1917.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2025-12-3-nonlistening-q38",
+      "canonicalId": "lazynote-cet6-2025-12-3-q38",
+      "number": 38,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Residents of an American city tend to share the opinion that time saved on the road justifies the cost of upgrading its traffic light system.",
+      "passage": "The History and Meaning of Colored Traffic Lights\n\nA) Timed traffic lights are set according to schedules that are supposed to coordinate with peak traffic hours. Cities need to monitor and update signal light time schedules at least every two years to keep these systems effective. In Los Angeles, California, an ambitious project to go a step further and synchronize(使同步) every red light in Los Angeles cost over 400 million dollars. Ask a resident of the city and they are likely to agree that saving time on the road is well worth it. If implemented nationwide, synchronization could shave 10% off traffic congestion(堵塞) and 20% off air pollution. Congestion costs time, money, and lives. Big data can help improve how millions of people safely share the road. However, none of this would be possible without the traffic light!\n\nB) The first traffic light was invented in London in the 1860's, but it was hardly recognizable — or effective. It had been adapted from the railroad signal system by a railway manager, John Peak Knight, in 1868. The railroads used red gas lights at night to signal stops and green gas lights during the daytime. Knight installed a similar gas light, semaphore(臂板信号) system near London's Westminster Bridge in December of 1868.\n\nC) The life of the first traffic light signal was short-lived. A gas leak caused one of the signal lights to explode on its police officer operator within a month of being installed.\n\nD) Automating traffic signals stalled after the London incident. Forty years passed before cars crowding city streets urged the development of traffic lights in the United States. London would not see another traffic light until 1929.\n\nE) The United States is a car culture like no other country. Unlike most European cities that started urban planning when horses were high-tech, many cities in the United States were designed around urban sprawl, suburban tracts, and motor cars.\n\nF) As traffic and cities grew, so did the race to solve growing traffic problems. The first traffic signals were semaphores. Semaphores are towers with moving arms signaling for traffic to stop or go. They could be manual or automatic. There was no consistent design. Various models were invented and put into place in cities as the need arose.\n\nG) In 1912, Lester Wire was a police officer exhausted by traffic at Main Street and 200 South. He developed a manually switched stop light. The four-sided box, raised on a ten-foot pole, looked like a birdhouse and was operated manually by an officer. The officer would flip a switch to change between the dipped red and green lights.\n\nH) Like the 1910 semaphore, the first electric signal used words. However, the words were no longer written on arms that raised and fell. The words \"stop\" or \"move\" were on lights. The posts lit up on each of four corner-posts around an intersection(十字路口). It was not automated, though. A booth with an operator was required to flip the switches.\n\nI) The system allowed police officers to move from the middle of the street to a corner. From that vantage(有利地位), an officer could oversee the crowd. If an emergency vehicle came, the officer could flip a switch and clear the intersection by triggering all red lights. The emergency vehicle could now pass effortlessly. Finally, in San Francisco the first red and green electric light system that could be operated automatically (or manually) was introduced in 1917.\n\nJ) In 1920, the first three-color light system was introduced in Detroit — also known as Motor City, USA. The evolution of traffic light signals could not have a more appropriate context than Motor City. Ford Motor Company was founded in Detroit in 1903 (and other motor companies followed). Ford made cars affordable for more common people, rather than the wealthy, by creating larger scale factory production.\n\nK) Stop and go were insufficient for the new volumes of cars zooming through intersections. Streets were full of new numbers of cars in addition to delivery wagons, bustling crowds, bicycles, horse-drawn carriages, and street cars. The introduction of the cautionary yellow light helped increase driver safety, decreasing accidents that come from running red lights.\n\nL) Stop lights were incredibly important in chaotic city streets. Crosswalks weren't even introduced until 1951. The first pedestrian fatality in the United States was in 1899.\n\nM) The development of the modern traffic light may have started in London, but it grew up in the United States. In Cleveland, an African-American inventor named Garrett Morgan came up with an affordable, patented traffic signal. The yellow light made intersections safer than the old stop and go system. The new design was inexpensive enough that it allowed the installation of a lot more lights.\n\nN) Morgan sold the patent to General Electric — and the spread of the traffic light was green lighted. Green means go. It is that simple, but it's still best to check both ways for oncoming traffic that may not be paying attention or is running the light. Yellow means slow down and prepare to stop. It does not mean full-throttle(全速) ahead. While you may get away with gunning it into the intersection, running a yellow can lead to tickets and dangerous accidents. Red lights are a clear and consistent warning to stop. Even where right turns are allowed on red lights, you must come to a complete stop before turning right. You must also yield to any through traffic, which has the right of way. In most states and cities, you can take a right on red unless otherwise indicated. New York City does not allow a right on red.\n\nO) Red arrows mean you cannot turn right on a red in most states. The green arrow, in these cases, is the only time you can make the turn. However, you can take a right on a red arrow after a full stop in the states of Illinois, Kansas, Louisiana, Maryland, Michigan, New Hampshire, North Dakota, Oregon, South Carolina, Utah, Washington State and Wyoming.\n\nP) Flashing Red is the same as a stop sign, generally used at four-way intersections where there is minimal traffic. When arriving at a flashing red light, make a full and complete stop. Flashing Red Arrows similarly mean to stop and then proceed to take the turn. Flashing Yellow lights mean yield or signal caution, like outside of a fire station. There are no all-direction flashing yellow lights, since it is prohibited in the United States. If you have a flashing yellow light, you are to yield to oncoming traffic.\n\nQ) Flashing Yellow Arrows are part of a four-signal traffic light. These are used in some states after a protected green turn signal, or arrow, but before a steady yellow arrow. When a flashing yellow arrow is shown, you can take the turn after yielding to pedestrians and traffic. Steady Yellow Arrows maintain the normal yellow light caution in three-light signals, meaning to stop or prepare to stop. In a four-signal system that has a flashing yellow arrow, the steady yellow arrow is a signal that the yield period is ending. The red arrow is about to start. Vehicles should stop if safely possible. Traffic tickets are possible for running a steady yellow arrow.\n\nR) Traffic light meaning is fairly consistent across the board with various deviations. Green means it's safe to proceed (though you should still exercise caution). Yellow means caution and yield. Red means danger and stop. Always drive defensively and obey traffic signals.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        },
+        {
+          "id": "Q",
+          "text": "Q 段"
+        },
+        {
+          "id": "R",
+          "text": "R 段"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 A 段。题干：Residents of an American city tend to share the opinion that time saved on the road justifies the cost of upgrading its traffic light system.\n核对该段原文：Timed traffic lights are set according to schedules that are supposed to coordinate with peak traffic hours. Cities need to monitor and update signal light time schedules at least every two years to keep these systems effective. In Los Angeles, California, an ambitious project to go a step further and synchronize(使同步) every red light in Los Angeles cost over 400 million dollars. Ask a resident of the city and they are likely to agree that saving time on the road is well worth it. If implemented nationwide, synchronization could shave 10% off traffic congestion(堵塞) and 20% off air pollution. Congestion costs time, money, and lives. Big data can help improve how millions of people safely share the road. However, none of this would be possible without the traffic light!\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2025-12-3-nonlistening-q39",
+      "canonicalId": "lazynote-cet6-2025-12-3-q39",
+      "number": 39,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Mass production of cars made it possible for ordinary people to buy them.",
+      "passage": "The History and Meaning of Colored Traffic Lights\n\nA) Timed traffic lights are set according to schedules that are supposed to coordinate with peak traffic hours. Cities need to monitor and update signal light time schedules at least every two years to keep these systems effective. In Los Angeles, California, an ambitious project to go a step further and synchronize(使同步) every red light in Los Angeles cost over 400 million dollars. Ask a resident of the city and they are likely to agree that saving time on the road is well worth it. If implemented nationwide, synchronization could shave 10% off traffic congestion(堵塞) and 20% off air pollution. Congestion costs time, money, and lives. Big data can help improve how millions of people safely share the road. However, none of this would be possible without the traffic light!\n\nB) The first traffic light was invented in London in the 1860's, but it was hardly recognizable — or effective. It had been adapted from the railroad signal system by a railway manager, John Peak Knight, in 1868. The railroads used red gas lights at night to signal stops and green gas lights during the daytime. Knight installed a similar gas light, semaphore(臂板信号) system near London's Westminster Bridge in December of 1868.\n\nC) The life of the first traffic light signal was short-lived. A gas leak caused one of the signal lights to explode on its police officer operator within a month of being installed.\n\nD) Automating traffic signals stalled after the London incident. Forty years passed before cars crowding city streets urged the development of traffic lights in the United States. London would not see another traffic light until 1929.\n\nE) The United States is a car culture like no other country. Unlike most European cities that started urban planning when horses were high-tech, many cities in the United States were designed around urban sprawl, suburban tracts, and motor cars.\n\nF) As traffic and cities grew, so did the race to solve growing traffic problems. The first traffic signals were semaphores. Semaphores are towers with moving arms signaling for traffic to stop or go. They could be manual or automatic. There was no consistent design. Various models were invented and put into place in cities as the need arose.\n\nG) In 1912, Lester Wire was a police officer exhausted by traffic at Main Street and 200 South. He developed a manually switched stop light. The four-sided box, raised on a ten-foot pole, looked like a birdhouse and was operated manually by an officer. The officer would flip a switch to change between the dipped red and green lights.\n\nH) Like the 1910 semaphore, the first electric signal used words. However, the words were no longer written on arms that raised and fell. The words \"stop\" or \"move\" were on lights. The posts lit up on each of four corner-posts around an intersection(十字路口). It was not automated, though. A booth with an operator was required to flip the switches.\n\nI) The system allowed police officers to move from the middle of the street to a corner. From that vantage(有利地位), an officer could oversee the crowd. If an emergency vehicle came, the officer could flip a switch and clear the intersection by triggering all red lights. The emergency vehicle could now pass effortlessly. Finally, in San Francisco the first red and green electric light system that could be operated automatically (or manually) was introduced in 1917.\n\nJ) In 1920, the first three-color light system was introduced in Detroit — also known as Motor City, USA. The evolution of traffic light signals could not have a more appropriate context than Motor City. Ford Motor Company was founded in Detroit in 1903 (and other motor companies followed). Ford made cars affordable for more common people, rather than the wealthy, by creating larger scale factory production.\n\nK) Stop and go were insufficient for the new volumes of cars zooming through intersections. Streets were full of new numbers of cars in addition to delivery wagons, bustling crowds, bicycles, horse-drawn carriages, and street cars. The introduction of the cautionary yellow light helped increase driver safety, decreasing accidents that come from running red lights.\n\nL) Stop lights were incredibly important in chaotic city streets. Crosswalks weren't even introduced until 1951. The first pedestrian fatality in the United States was in 1899.\n\nM) The development of the modern traffic light may have started in London, but it grew up in the United States. In Cleveland, an African-American inventor named Garrett Morgan came up with an affordable, patented traffic signal. The yellow light made intersections safer than the old stop and go system. The new design was inexpensive enough that it allowed the installation of a lot more lights.\n\nN) Morgan sold the patent to General Electric — and the spread of the traffic light was green lighted. Green means go. It is that simple, but it's still best to check both ways for oncoming traffic that may not be paying attention or is running the light. Yellow means slow down and prepare to stop. It does not mean full-throttle(全速) ahead. While you may get away with gunning it into the intersection, running a yellow can lead to tickets and dangerous accidents. Red lights are a clear and consistent warning to stop. Even where right turns are allowed on red lights, you must come to a complete stop before turning right. You must also yield to any through traffic, which has the right of way. In most states and cities, you can take a right on red unless otherwise indicated. New York City does not allow a right on red.\n\nO) Red arrows mean you cannot turn right on a red in most states. The green arrow, in these cases, is the only time you can make the turn. However, you can take a right on a red arrow after a full stop in the states of Illinois, Kansas, Louisiana, Maryland, Michigan, New Hampshire, North Dakota, Oregon, South Carolina, Utah, Washington State and Wyoming.\n\nP) Flashing Red is the same as a stop sign, generally used at four-way intersections where there is minimal traffic. When arriving at a flashing red light, make a full and complete stop. Flashing Red Arrows similarly mean to stop and then proceed to take the turn. Flashing Yellow lights mean yield or signal caution, like outside of a fire station. There are no all-direction flashing yellow lights, since it is prohibited in the United States. If you have a flashing yellow light, you are to yield to oncoming traffic.\n\nQ) Flashing Yellow Arrows are part of a four-signal traffic light. These are used in some states after a protected green turn signal, or arrow, but before a steady yellow arrow. When a flashing yellow arrow is shown, you can take the turn after yielding to pedestrians and traffic. Steady Yellow Arrows maintain the normal yellow light caution in three-light signals, meaning to stop or prepare to stop. In a four-signal system that has a flashing yellow arrow, the steady yellow arrow is a signal that the yield period is ending. The red arrow is about to start. Vehicles should stop if safely possible. Traffic tickets are possible for running a steady yellow arrow.\n\nR) Traffic light meaning is fairly consistent across the board with various deviations. Green means it's safe to proceed (though you should still exercise caution). Yellow means caution and yield. Red means danger and stop. Always drive defensively and obey traffic signals.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        },
+        {
+          "id": "Q",
+          "text": "Q 段"
+        },
+        {
+          "id": "R",
+          "text": "R 段"
+        }
+      ],
+      "correctAnswer": "J",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 J 段。题干：Mass production of cars made it possible for ordinary people to buy them.\n核对该段原文：In 1920, the first three-color light system was introduced in Detroit — also known as Motor City, USA. The evolution of traffic light signals could not have a more appropriate context than Motor City. Ford Motor Company was founded in Detroit in 1903 (and other motor companies followed). Ford made cars affordable for more common people, rather than the wealthy, by creating larger scale factory production.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2025-12-3-nonlistening-q40",
+      "canonicalId": "lazynote-cet6-2025-12-3-q40",
+      "number": 40,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "What a traffic light means is almost the same everywhere despite some variations.",
+      "passage": "The History and Meaning of Colored Traffic Lights\n\nA) Timed traffic lights are set according to schedules that are supposed to coordinate with peak traffic hours. Cities need to monitor and update signal light time schedules at least every two years to keep these systems effective. In Los Angeles, California, an ambitious project to go a step further and synchronize(使同步) every red light in Los Angeles cost over 400 million dollars. Ask a resident of the city and they are likely to agree that saving time on the road is well worth it. If implemented nationwide, synchronization could shave 10% off traffic congestion(堵塞) and 20% off air pollution. Congestion costs time, money, and lives. Big data can help improve how millions of people safely share the road. However, none of this would be possible without the traffic light!\n\nB) The first traffic light was invented in London in the 1860's, but it was hardly recognizable — or effective. It had been adapted from the railroad signal system by a railway manager, John Peak Knight, in 1868. The railroads used red gas lights at night to signal stops and green gas lights during the daytime. Knight installed a similar gas light, semaphore(臂板信号) system near London's Westminster Bridge in December of 1868.\n\nC) The life of the first traffic light signal was short-lived. A gas leak caused one of the signal lights to explode on its police officer operator within a month of being installed.\n\nD) Automating traffic signals stalled after the London incident. Forty years passed before cars crowding city streets urged the development of traffic lights in the United States. London would not see another traffic light until 1929.\n\nE) The United States is a car culture like no other country. Unlike most European cities that started urban planning when horses were high-tech, many cities in the United States were designed around urban sprawl, suburban tracts, and motor cars.\n\nF) As traffic and cities grew, so did the race to solve growing traffic problems. The first traffic signals were semaphores. Semaphores are towers with moving arms signaling for traffic to stop or go. They could be manual or automatic. There was no consistent design. Various models were invented and put into place in cities as the need arose.\n\nG) In 1912, Lester Wire was a police officer exhausted by traffic at Main Street and 200 South. He developed a manually switched stop light. The four-sided box, raised on a ten-foot pole, looked like a birdhouse and was operated manually by an officer. The officer would flip a switch to change between the dipped red and green lights.\n\nH) Like the 1910 semaphore, the first electric signal used words. However, the words were no longer written on arms that raised and fell. The words \"stop\" or \"move\" were on lights. The posts lit up on each of four corner-posts around an intersection(十字路口). It was not automated, though. A booth with an operator was required to flip the switches.\n\nI) The system allowed police officers to move from the middle of the street to a corner. From that vantage(有利地位), an officer could oversee the crowd. If an emergency vehicle came, the officer could flip a switch and clear the intersection by triggering all red lights. The emergency vehicle could now pass effortlessly. Finally, in San Francisco the first red and green electric light system that could be operated automatically (or manually) was introduced in 1917.\n\nJ) In 1920, the first three-color light system was introduced in Detroit — also known as Motor City, USA. The evolution of traffic light signals could not have a more appropriate context than Motor City. Ford Motor Company was founded in Detroit in 1903 (and other motor companies followed). Ford made cars affordable for more common people, rather than the wealthy, by creating larger scale factory production.\n\nK) Stop and go were insufficient for the new volumes of cars zooming through intersections. Streets were full of new numbers of cars in addition to delivery wagons, bustling crowds, bicycles, horse-drawn carriages, and street cars. The introduction of the cautionary yellow light helped increase driver safety, decreasing accidents that come from running red lights.\n\nL) Stop lights were incredibly important in chaotic city streets. Crosswalks weren't even introduced until 1951. The first pedestrian fatality in the United States was in 1899.\n\nM) The development of the modern traffic light may have started in London, but it grew up in the United States. In Cleveland, an African-American inventor named Garrett Morgan came up with an affordable, patented traffic signal. The yellow light made intersections safer than the old stop and go system. The new design was inexpensive enough that it allowed the installation of a lot more lights.\n\nN) Morgan sold the patent to General Electric — and the spread of the traffic light was green lighted. Green means go. It is that simple, but it's still best to check both ways for oncoming traffic that may not be paying attention or is running the light. Yellow means slow down and prepare to stop. It does not mean full-throttle(全速) ahead. While you may get away with gunning it into the intersection, running a yellow can lead to tickets and dangerous accidents. Red lights are a clear and consistent warning to stop. Even where right turns are allowed on red lights, you must come to a complete stop before turning right. You must also yield to any through traffic, which has the right of way. In most states and cities, you can take a right on red unless otherwise indicated. New York City does not allow a right on red.\n\nO) Red arrows mean you cannot turn right on a red in most states. The green arrow, in these cases, is the only time you can make the turn. However, you can take a right on a red arrow after a full stop in the states of Illinois, Kansas, Louisiana, Maryland, Michigan, New Hampshire, North Dakota, Oregon, South Carolina, Utah, Washington State and Wyoming.\n\nP) Flashing Red is the same as a stop sign, generally used at four-way intersections where there is minimal traffic. When arriving at a flashing red light, make a full and complete stop. Flashing Red Arrows similarly mean to stop and then proceed to take the turn. Flashing Yellow lights mean yield or signal caution, like outside of a fire station. There are no all-direction flashing yellow lights, since it is prohibited in the United States. If you have a flashing yellow light, you are to yield to oncoming traffic.\n\nQ) Flashing Yellow Arrows are part of a four-signal traffic light. These are used in some states after a protected green turn signal, or arrow, but before a steady yellow arrow. When a flashing yellow arrow is shown, you can take the turn after yielding to pedestrians and traffic. Steady Yellow Arrows maintain the normal yellow light caution in three-light signals, meaning to stop or prepare to stop. In a four-signal system that has a flashing yellow arrow, the steady yellow arrow is a signal that the yield period is ending. The red arrow is about to start. Vehicles should stop if safely possible. Traffic tickets are possible for running a steady yellow arrow.\n\nR) Traffic light meaning is fairly consistent across the board with various deviations. Green means it's safe to proceed (though you should still exercise caution). Yellow means caution and yield. Red means danger and stop. Always drive defensively and obey traffic signals.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        },
+        {
+          "id": "Q",
+          "text": "Q 段"
+        },
+        {
+          "id": "R",
+          "text": "R 段"
+        }
+      ],
+      "correctAnswer": "R",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 R 段。题干：What a traffic light means is almost the same everywhere despite some variations.\n核对该段原文：Traffic light meaning is fairly consistent across the board with various deviations. Green means it's safe to proceed (though you should still exercise caution). Yellow means caution and yield. Red means danger and stop. Always drive defensively and obey traffic signals.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2025-12-3-nonlistening-q41",
+      "canonicalId": "lazynote-cet6-2025-12-3-q41",
+      "number": 41,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Pedestrian crossings came into being only in the mid-twentieth century.",
+      "passage": "The History and Meaning of Colored Traffic Lights\n\nA) Timed traffic lights are set according to schedules that are supposed to coordinate with peak traffic hours. Cities need to monitor and update signal light time schedules at least every two years to keep these systems effective. In Los Angeles, California, an ambitious project to go a step further and synchronize(使同步) every red light in Los Angeles cost over 400 million dollars. Ask a resident of the city and they are likely to agree that saving time on the road is well worth it. If implemented nationwide, synchronization could shave 10% off traffic congestion(堵塞) and 20% off air pollution. Congestion costs time, money, and lives. Big data can help improve how millions of people safely share the road. However, none of this would be possible without the traffic light!\n\nB) The first traffic light was invented in London in the 1860's, but it was hardly recognizable — or effective. It had been adapted from the railroad signal system by a railway manager, John Peak Knight, in 1868. The railroads used red gas lights at night to signal stops and green gas lights during the daytime. Knight installed a similar gas light, semaphore(臂板信号) system near London's Westminster Bridge in December of 1868.\n\nC) The life of the first traffic light signal was short-lived. A gas leak caused one of the signal lights to explode on its police officer operator within a month of being installed.\n\nD) Automating traffic signals stalled after the London incident. Forty years passed before cars crowding city streets urged the development of traffic lights in the United States. London would not see another traffic light until 1929.\n\nE) The United States is a car culture like no other country. Unlike most European cities that started urban planning when horses were high-tech, many cities in the United States were designed around urban sprawl, suburban tracts, and motor cars.\n\nF) As traffic and cities grew, so did the race to solve growing traffic problems. The first traffic signals were semaphores. Semaphores are towers with moving arms signaling for traffic to stop or go. They could be manual or automatic. There was no consistent design. Various models were invented and put into place in cities as the need arose.\n\nG) In 1912, Lester Wire was a police officer exhausted by traffic at Main Street and 200 South. He developed a manually switched stop light. The four-sided box, raised on a ten-foot pole, looked like a birdhouse and was operated manually by an officer. The officer would flip a switch to change between the dipped red and green lights.\n\nH) Like the 1910 semaphore, the first electric signal used words. However, the words were no longer written on arms that raised and fell. The words \"stop\" or \"move\" were on lights. The posts lit up on each of four corner-posts around an intersection(十字路口). It was not automated, though. A booth with an operator was required to flip the switches.\n\nI) The system allowed police officers to move from the middle of the street to a corner. From that vantage(有利地位), an officer could oversee the crowd. If an emergency vehicle came, the officer could flip a switch and clear the intersection by triggering all red lights. The emergency vehicle could now pass effortlessly. Finally, in San Francisco the first red and green electric light system that could be operated automatically (or manually) was introduced in 1917.\n\nJ) In 1920, the first three-color light system was introduced in Detroit — also known as Motor City, USA. The evolution of traffic light signals could not have a more appropriate context than Motor City. Ford Motor Company was founded in Detroit in 1903 (and other motor companies followed). Ford made cars affordable for more common people, rather than the wealthy, by creating larger scale factory production.\n\nK) Stop and go were insufficient for the new volumes of cars zooming through intersections. Streets were full of new numbers of cars in addition to delivery wagons, bustling crowds, bicycles, horse-drawn carriages, and street cars. The introduction of the cautionary yellow light helped increase driver safety, decreasing accidents that come from running red lights.\n\nL) Stop lights were incredibly important in chaotic city streets. Crosswalks weren't even introduced until 1951. The first pedestrian fatality in the United States was in 1899.\n\nM) The development of the modern traffic light may have started in London, but it grew up in the United States. In Cleveland, an African-American inventor named Garrett Morgan came up with an affordable, patented traffic signal. The yellow light made intersections safer than the old stop and go system. The new design was inexpensive enough that it allowed the installation of a lot more lights.\n\nN) Morgan sold the patent to General Electric — and the spread of the traffic light was green lighted. Green means go. It is that simple, but it's still best to check both ways for oncoming traffic that may not be paying attention or is running the light. Yellow means slow down and prepare to stop. It does not mean full-throttle(全速) ahead. While you may get away with gunning it into the intersection, running a yellow can lead to tickets and dangerous accidents. Red lights are a clear and consistent warning to stop. Even where right turns are allowed on red lights, you must come to a complete stop before turning right. You must also yield to any through traffic, which has the right of way. In most states and cities, you can take a right on red unless otherwise indicated. New York City does not allow a right on red.\n\nO) Red arrows mean you cannot turn right on a red in most states. The green arrow, in these cases, is the only time you can make the turn. However, you can take a right on a red arrow after a full stop in the states of Illinois, Kansas, Louisiana, Maryland, Michigan, New Hampshire, North Dakota, Oregon, South Carolina, Utah, Washington State and Wyoming.\n\nP) Flashing Red is the same as a stop sign, generally used at four-way intersections where there is minimal traffic. When arriving at a flashing red light, make a full and complete stop. Flashing Red Arrows similarly mean to stop and then proceed to take the turn. Flashing Yellow lights mean yield or signal caution, like outside of a fire station. There are no all-direction flashing yellow lights, since it is prohibited in the United States. If you have a flashing yellow light, you are to yield to oncoming traffic.\n\nQ) Flashing Yellow Arrows are part of a four-signal traffic light. These are used in some states after a protected green turn signal, or arrow, but before a steady yellow arrow. When a flashing yellow arrow is shown, you can take the turn after yielding to pedestrians and traffic. Steady Yellow Arrows maintain the normal yellow light caution in three-light signals, meaning to stop or prepare to stop. In a four-signal system that has a flashing yellow arrow, the steady yellow arrow is a signal that the yield period is ending. The red arrow is about to start. Vehicles should stop if safely possible. Traffic tickets are possible for running a steady yellow arrow.\n\nR) Traffic light meaning is fairly consistent across the board with various deviations. Green means it's safe to proceed (though you should still exercise caution). Yellow means caution and yield. Red means danger and stop. Always drive defensively and obey traffic signals.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        },
+        {
+          "id": "Q",
+          "text": "Q 段"
+        },
+        {
+          "id": "R",
+          "text": "R 段"
+        }
+      ],
+      "correctAnswer": "L",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 L 段。题干：Pedestrian crossings came into being only in the mid-twentieth century.\n核对该段原文：Stop lights were incredibly important in chaotic city streets. Crosswalks weren't even introduced until 1951. The first pedestrian fatality in the United States was in 1899.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2025-12-3-nonlistening-q42",
+      "canonicalId": "lazynote-cet6-2025-12-3-q42",
+      "number": 42,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "People raced to address increasing traffic problems along with the expansion of cities and traffic.",
+      "passage": "The History and Meaning of Colored Traffic Lights\n\nA) Timed traffic lights are set according to schedules that are supposed to coordinate with peak traffic hours. Cities need to monitor and update signal light time schedules at least every two years to keep these systems effective. In Los Angeles, California, an ambitious project to go a step further and synchronize(使同步) every red light in Los Angeles cost over 400 million dollars. Ask a resident of the city and they are likely to agree that saving time on the road is well worth it. If implemented nationwide, synchronization could shave 10% off traffic congestion(堵塞) and 20% off air pollution. Congestion costs time, money, and lives. Big data can help improve how millions of people safely share the road. However, none of this would be possible without the traffic light!\n\nB) The first traffic light was invented in London in the 1860's, but it was hardly recognizable — or effective. It had been adapted from the railroad signal system by a railway manager, John Peak Knight, in 1868. The railroads used red gas lights at night to signal stops and green gas lights during the daytime. Knight installed a similar gas light, semaphore(臂板信号) system near London's Westminster Bridge in December of 1868.\n\nC) The life of the first traffic light signal was short-lived. A gas leak caused one of the signal lights to explode on its police officer operator within a month of being installed.\n\nD) Automating traffic signals stalled after the London incident. Forty years passed before cars crowding city streets urged the development of traffic lights in the United States. London would not see another traffic light until 1929.\n\nE) The United States is a car culture like no other country. Unlike most European cities that started urban planning when horses were high-tech, many cities in the United States were designed around urban sprawl, suburban tracts, and motor cars.\n\nF) As traffic and cities grew, so did the race to solve growing traffic problems. The first traffic signals were semaphores. Semaphores are towers with moving arms signaling for traffic to stop or go. They could be manual or automatic. There was no consistent design. Various models were invented and put into place in cities as the need arose.\n\nG) In 1912, Lester Wire was a police officer exhausted by traffic at Main Street and 200 South. He developed a manually switched stop light. The four-sided box, raised on a ten-foot pole, looked like a birdhouse and was operated manually by an officer. The officer would flip a switch to change between the dipped red and green lights.\n\nH) Like the 1910 semaphore, the first electric signal used words. However, the words were no longer written on arms that raised and fell. The words \"stop\" or \"move\" were on lights. The posts lit up on each of four corner-posts around an intersection(十字路口). It was not automated, though. A booth with an operator was required to flip the switches.\n\nI) The system allowed police officers to move from the middle of the street to a corner. From that vantage(有利地位), an officer could oversee the crowd. If an emergency vehicle came, the officer could flip a switch and clear the intersection by triggering all red lights. The emergency vehicle could now pass effortlessly. Finally, in San Francisco the first red and green electric light system that could be operated automatically (or manually) was introduced in 1917.\n\nJ) In 1920, the first three-color light system was introduced in Detroit — also known as Motor City, USA. The evolution of traffic light signals could not have a more appropriate context than Motor City. Ford Motor Company was founded in Detroit in 1903 (and other motor companies followed). Ford made cars affordable for more common people, rather than the wealthy, by creating larger scale factory production.\n\nK) Stop and go were insufficient for the new volumes of cars zooming through intersections. Streets were full of new numbers of cars in addition to delivery wagons, bustling crowds, bicycles, horse-drawn carriages, and street cars. The introduction of the cautionary yellow light helped increase driver safety, decreasing accidents that come from running red lights.\n\nL) Stop lights were incredibly important in chaotic city streets. Crosswalks weren't even introduced until 1951. The first pedestrian fatality in the United States was in 1899.\n\nM) The development of the modern traffic light may have started in London, but it grew up in the United States. In Cleveland, an African-American inventor named Garrett Morgan came up with an affordable, patented traffic signal. The yellow light made intersections safer than the old stop and go system. The new design was inexpensive enough that it allowed the installation of a lot more lights.\n\nN) Morgan sold the patent to General Electric — and the spread of the traffic light was green lighted. Green means go. It is that simple, but it's still best to check both ways for oncoming traffic that may not be paying attention or is running the light. Yellow means slow down and prepare to stop. It does not mean full-throttle(全速) ahead. While you may get away with gunning it into the intersection, running a yellow can lead to tickets and dangerous accidents. Red lights are a clear and consistent warning to stop. Even where right turns are allowed on red lights, you must come to a complete stop before turning right. You must also yield to any through traffic, which has the right of way. In most states and cities, you can take a right on red unless otherwise indicated. New York City does not allow a right on red.\n\nO) Red arrows mean you cannot turn right on a red in most states. The green arrow, in these cases, is the only time you can make the turn. However, you can take a right on a red arrow after a full stop in the states of Illinois, Kansas, Louisiana, Maryland, Michigan, New Hampshire, North Dakota, Oregon, South Carolina, Utah, Washington State and Wyoming.\n\nP) Flashing Red is the same as a stop sign, generally used at four-way intersections where there is minimal traffic. When arriving at a flashing red light, make a full and complete stop. Flashing Red Arrows similarly mean to stop and then proceed to take the turn. Flashing Yellow lights mean yield or signal caution, like outside of a fire station. There are no all-direction flashing yellow lights, since it is prohibited in the United States. If you have a flashing yellow light, you are to yield to oncoming traffic.\n\nQ) Flashing Yellow Arrows are part of a four-signal traffic light. These are used in some states after a protected green turn signal, or arrow, but before a steady yellow arrow. When a flashing yellow arrow is shown, you can take the turn after yielding to pedestrians and traffic. Steady Yellow Arrows maintain the normal yellow light caution in three-light signals, meaning to stop or prepare to stop. In a four-signal system that has a flashing yellow arrow, the steady yellow arrow is a signal that the yield period is ending. The red arrow is about to start. Vehicles should stop if safely possible. Traffic tickets are possible for running a steady yellow arrow.\n\nR) Traffic light meaning is fairly consistent across the board with various deviations. Green means it's safe to proceed (though you should still exercise caution). Yellow means caution and yield. Red means danger and stop. Always drive defensively and obey traffic signals.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        },
+        {
+          "id": "Q",
+          "text": "Q 段"
+        },
+        {
+          "id": "R",
+          "text": "R 段"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 F 段。题干：People raced to address increasing traffic problems along with the expansion of cities and traffic.\n核对该段原文：As traffic and cities grew, so did the race to solve growing traffic problems. The first traffic signals were semaphores. Semaphores are towers with moving arms signaling for traffic to stop or go. They could be manual or automatic. There was no consistent design. Various models were invented and put into place in cities as the need arose.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2025-12-3-nonlistening-q43",
+      "canonicalId": "lazynote-cet6-2025-12-3-q43",
+      "number": 43,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "When the warning yellow light was introduced, driving became safer and traffic accidents reduced.",
+      "passage": "The History and Meaning of Colored Traffic Lights\n\nA) Timed traffic lights are set according to schedules that are supposed to coordinate with peak traffic hours. Cities need to monitor and update signal light time schedules at least every two years to keep these systems effective. In Los Angeles, California, an ambitious project to go a step further and synchronize(使同步) every red light in Los Angeles cost over 400 million dollars. Ask a resident of the city and they are likely to agree that saving time on the road is well worth it. If implemented nationwide, synchronization could shave 10% off traffic congestion(堵塞) and 20% off air pollution. Congestion costs time, money, and lives. Big data can help improve how millions of people safely share the road. However, none of this would be possible without the traffic light!\n\nB) The first traffic light was invented in London in the 1860's, but it was hardly recognizable — or effective. It had been adapted from the railroad signal system by a railway manager, John Peak Knight, in 1868. The railroads used red gas lights at night to signal stops and green gas lights during the daytime. Knight installed a similar gas light, semaphore(臂板信号) system near London's Westminster Bridge in December of 1868.\n\nC) The life of the first traffic light signal was short-lived. A gas leak caused one of the signal lights to explode on its police officer operator within a month of being installed.\n\nD) Automating traffic signals stalled after the London incident. Forty years passed before cars crowding city streets urged the development of traffic lights in the United States. London would not see another traffic light until 1929.\n\nE) The United States is a car culture like no other country. Unlike most European cities that started urban planning when horses were high-tech, many cities in the United States were designed around urban sprawl, suburban tracts, and motor cars.\n\nF) As traffic and cities grew, so did the race to solve growing traffic problems. The first traffic signals were semaphores. Semaphores are towers with moving arms signaling for traffic to stop or go. They could be manual or automatic. There was no consistent design. Various models were invented and put into place in cities as the need arose.\n\nG) In 1912, Lester Wire was a police officer exhausted by traffic at Main Street and 200 South. He developed a manually switched stop light. The four-sided box, raised on a ten-foot pole, looked like a birdhouse and was operated manually by an officer. The officer would flip a switch to change between the dipped red and green lights.\n\nH) Like the 1910 semaphore, the first electric signal used words. However, the words were no longer written on arms that raised and fell. The words \"stop\" or \"move\" were on lights. The posts lit up on each of four corner-posts around an intersection(十字路口). It was not automated, though. A booth with an operator was required to flip the switches.\n\nI) The system allowed police officers to move from the middle of the street to a corner. From that vantage(有利地位), an officer could oversee the crowd. If an emergency vehicle came, the officer could flip a switch and clear the intersection by triggering all red lights. The emergency vehicle could now pass effortlessly. Finally, in San Francisco the first red and green electric light system that could be operated automatically (or manually) was introduced in 1917.\n\nJ) In 1920, the first three-color light system was introduced in Detroit — also known as Motor City, USA. The evolution of traffic light signals could not have a more appropriate context than Motor City. Ford Motor Company was founded in Detroit in 1903 (and other motor companies followed). Ford made cars affordable for more common people, rather than the wealthy, by creating larger scale factory production.\n\nK) Stop and go were insufficient for the new volumes of cars zooming through intersections. Streets were full of new numbers of cars in addition to delivery wagons, bustling crowds, bicycles, horse-drawn carriages, and street cars. The introduction of the cautionary yellow light helped increase driver safety, decreasing accidents that come from running red lights.\n\nL) Stop lights were incredibly important in chaotic city streets. Crosswalks weren't even introduced until 1951. The first pedestrian fatality in the United States was in 1899.\n\nM) The development of the modern traffic light may have started in London, but it grew up in the United States. In Cleveland, an African-American inventor named Garrett Morgan came up with an affordable, patented traffic signal. The yellow light made intersections safer than the old stop and go system. The new design was inexpensive enough that it allowed the installation of a lot more lights.\n\nN) Morgan sold the patent to General Electric — and the spread of the traffic light was green lighted. Green means go. It is that simple, but it's still best to check both ways for oncoming traffic that may not be paying attention or is running the light. Yellow means slow down and prepare to stop. It does not mean full-throttle(全速) ahead. While you may get away with gunning it into the intersection, running a yellow can lead to tickets and dangerous accidents. Red lights are a clear and consistent warning to stop. Even where right turns are allowed on red lights, you must come to a complete stop before turning right. You must also yield to any through traffic, which has the right of way. In most states and cities, you can take a right on red unless otherwise indicated. New York City does not allow a right on red.\n\nO) Red arrows mean you cannot turn right on a red in most states. The green arrow, in these cases, is the only time you can make the turn. However, you can take a right on a red arrow after a full stop in the states of Illinois, Kansas, Louisiana, Maryland, Michigan, New Hampshire, North Dakota, Oregon, South Carolina, Utah, Washington State and Wyoming.\n\nP) Flashing Red is the same as a stop sign, generally used at four-way intersections where there is minimal traffic. When arriving at a flashing red light, make a full and complete stop. Flashing Red Arrows similarly mean to stop and then proceed to take the turn. Flashing Yellow lights mean yield or signal caution, like outside of a fire station. There are no all-direction flashing yellow lights, since it is prohibited in the United States. If you have a flashing yellow light, you are to yield to oncoming traffic.\n\nQ) Flashing Yellow Arrows are part of a four-signal traffic light. These are used in some states after a protected green turn signal, or arrow, but before a steady yellow arrow. When a flashing yellow arrow is shown, you can take the turn after yielding to pedestrians and traffic. Steady Yellow Arrows maintain the normal yellow light caution in three-light signals, meaning to stop or prepare to stop. In a four-signal system that has a flashing yellow arrow, the steady yellow arrow is a signal that the yield period is ending. The red arrow is about to start. Vehicles should stop if safely possible. Traffic tickets are possible for running a steady yellow arrow.\n\nR) Traffic light meaning is fairly consistent across the board with various deviations. Green means it's safe to proceed (though you should still exercise caution). Yellow means caution and yield. Red means danger and stop. Always drive defensively and obey traffic signals.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        },
+        {
+          "id": "Q",
+          "text": "Q 段"
+        },
+        {
+          "id": "R",
+          "text": "R 段"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 K 段。题干：When the warning yellow light was introduced, driving became safer and traffic accidents reduced.\n核对该段原文：Stop and go were insufficient for the new volumes of cars zooming through intersections. Streets were full of new numbers of cars in addition to delivery wagons, bustling crowds, bicycles, horse-drawn carriages, and street cars. The introduction of the cautionary yellow light helped increase driver safety, decreasing accidents that come from running red lights.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2025-12-3-nonlistening-q44",
+      "canonicalId": "lazynote-cet6-2025-12-3-q44",
+      "number": 44,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The signal system on the railroad served as the basis for the first traffic light.",
+      "passage": "The History and Meaning of Colored Traffic Lights\n\nA) Timed traffic lights are set according to schedules that are supposed to coordinate with peak traffic hours. Cities need to monitor and update signal light time schedules at least every two years to keep these systems effective. In Los Angeles, California, an ambitious project to go a step further and synchronize(使同步) every red light in Los Angeles cost over 400 million dollars. Ask a resident of the city and they are likely to agree that saving time on the road is well worth it. If implemented nationwide, synchronization could shave 10% off traffic congestion(堵塞) and 20% off air pollution. Congestion costs time, money, and lives. Big data can help improve how millions of people safely share the road. However, none of this would be possible without the traffic light!\n\nB) The first traffic light was invented in London in the 1860's, but it was hardly recognizable — or effective. It had been adapted from the railroad signal system by a railway manager, John Peak Knight, in 1868. The railroads used red gas lights at night to signal stops and green gas lights during the daytime. Knight installed a similar gas light, semaphore(臂板信号) system near London's Westminster Bridge in December of 1868.\n\nC) The life of the first traffic light signal was short-lived. A gas leak caused one of the signal lights to explode on its police officer operator within a month of being installed.\n\nD) Automating traffic signals stalled after the London incident. Forty years passed before cars crowding city streets urged the development of traffic lights in the United States. London would not see another traffic light until 1929.\n\nE) The United States is a car culture like no other country. Unlike most European cities that started urban planning when horses were high-tech, many cities in the United States were designed around urban sprawl, suburban tracts, and motor cars.\n\nF) As traffic and cities grew, so did the race to solve growing traffic problems. The first traffic signals were semaphores. Semaphores are towers with moving arms signaling for traffic to stop or go. They could be manual or automatic. There was no consistent design. Various models were invented and put into place in cities as the need arose.\n\nG) In 1912, Lester Wire was a police officer exhausted by traffic at Main Street and 200 South. He developed a manually switched stop light. The four-sided box, raised on a ten-foot pole, looked like a birdhouse and was operated manually by an officer. The officer would flip a switch to change between the dipped red and green lights.\n\nH) Like the 1910 semaphore, the first electric signal used words. However, the words were no longer written on arms that raised and fell. The words \"stop\" or \"move\" were on lights. The posts lit up on each of four corner-posts around an intersection(十字路口). It was not automated, though. A booth with an operator was required to flip the switches.\n\nI) The system allowed police officers to move from the middle of the street to a corner. From that vantage(有利地位), an officer could oversee the crowd. If an emergency vehicle came, the officer could flip a switch and clear the intersection by triggering all red lights. The emergency vehicle could now pass effortlessly. Finally, in San Francisco the first red and green electric light system that could be operated automatically (or manually) was introduced in 1917.\n\nJ) In 1920, the first three-color light system was introduced in Detroit — also known as Motor City, USA. The evolution of traffic light signals could not have a more appropriate context than Motor City. Ford Motor Company was founded in Detroit in 1903 (and other motor companies followed). Ford made cars affordable for more common people, rather than the wealthy, by creating larger scale factory production.\n\nK) Stop and go were insufficient for the new volumes of cars zooming through intersections. Streets were full of new numbers of cars in addition to delivery wagons, bustling crowds, bicycles, horse-drawn carriages, and street cars. The introduction of the cautionary yellow light helped increase driver safety, decreasing accidents that come from running red lights.\n\nL) Stop lights were incredibly important in chaotic city streets. Crosswalks weren't even introduced until 1951. The first pedestrian fatality in the United States was in 1899.\n\nM) The development of the modern traffic light may have started in London, but it grew up in the United States. In Cleveland, an African-American inventor named Garrett Morgan came up with an affordable, patented traffic signal. The yellow light made intersections safer than the old stop and go system. The new design was inexpensive enough that it allowed the installation of a lot more lights.\n\nN) Morgan sold the patent to General Electric — and the spread of the traffic light was green lighted. Green means go. It is that simple, but it's still best to check both ways for oncoming traffic that may not be paying attention or is running the light. Yellow means slow down and prepare to stop. It does not mean full-throttle(全速) ahead. While you may get away with gunning it into the intersection, running a yellow can lead to tickets and dangerous accidents. Red lights are a clear and consistent warning to stop. Even where right turns are allowed on red lights, you must come to a complete stop before turning right. You must also yield to any through traffic, which has the right of way. In most states and cities, you can take a right on red unless otherwise indicated. New York City does not allow a right on red.\n\nO) Red arrows mean you cannot turn right on a red in most states. The green arrow, in these cases, is the only time you can make the turn. However, you can take a right on a red arrow after a full stop in the states of Illinois, Kansas, Louisiana, Maryland, Michigan, New Hampshire, North Dakota, Oregon, South Carolina, Utah, Washington State and Wyoming.\n\nP) Flashing Red is the same as a stop sign, generally used at four-way intersections where there is minimal traffic. When arriving at a flashing red light, make a full and complete stop. Flashing Red Arrows similarly mean to stop and then proceed to take the turn. Flashing Yellow lights mean yield or signal caution, like outside of a fire station. There are no all-direction flashing yellow lights, since it is prohibited in the United States. If you have a flashing yellow light, you are to yield to oncoming traffic.\n\nQ) Flashing Yellow Arrows are part of a four-signal traffic light. These are used in some states after a protected green turn signal, or arrow, but before a steady yellow arrow. When a flashing yellow arrow is shown, you can take the turn after yielding to pedestrians and traffic. Steady Yellow Arrows maintain the normal yellow light caution in three-light signals, meaning to stop or prepare to stop. In a four-signal system that has a flashing yellow arrow, the steady yellow arrow is a signal that the yield period is ending. The red arrow is about to start. Vehicles should stop if safely possible. Traffic tickets are possible for running a steady yellow arrow.\n\nR) Traffic light meaning is fairly consistent across the board with various deviations. Green means it's safe to proceed (though you should still exercise caution). Yellow means caution and yield. Red means danger and stop. Always drive defensively and obey traffic signals.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        },
+        {
+          "id": "Q",
+          "text": "Q 段"
+        },
+        {
+          "id": "R",
+          "text": "R 段"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 B 段。题干：The signal system on the railroad served as the basis for the first traffic light.\n核对该段原文：The first traffic light was invented in London in the 1860's, but it was hardly recognizable — or effective. It had been adapted from the railroad signal system by a railway manager, John Peak Knight, in 1868. The railroads used red gas lights at night to signal stops and green gas lights during the daytime. Knight installed a similar gas light, semaphore(臂板信号) system near London's Westminster Bridge in December of 1868.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2025-12-3-nonlistening-q45",
+      "canonicalId": "lazynote-cet6-2025-12-3-q45",
+      "number": 45,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Even though a green light signals \"go\", attention should be paid to traffic on either side in case some driver is being careless or ignoring a red light.",
+      "passage": "The History and Meaning of Colored Traffic Lights\n\nA) Timed traffic lights are set according to schedules that are supposed to coordinate with peak traffic hours. Cities need to monitor and update signal light time schedules at least every two years to keep these systems effective. In Los Angeles, California, an ambitious project to go a step further and synchronize(使同步) every red light in Los Angeles cost over 400 million dollars. Ask a resident of the city and they are likely to agree that saving time on the road is well worth it. If implemented nationwide, synchronization could shave 10% off traffic congestion(堵塞) and 20% off air pollution. Congestion costs time, money, and lives. Big data can help improve how millions of people safely share the road. However, none of this would be possible without the traffic light!\n\nB) The first traffic light was invented in London in the 1860's, but it was hardly recognizable — or effective. It had been adapted from the railroad signal system by a railway manager, John Peak Knight, in 1868. The railroads used red gas lights at night to signal stops and green gas lights during the daytime. Knight installed a similar gas light, semaphore(臂板信号) system near London's Westminster Bridge in December of 1868.\n\nC) The life of the first traffic light signal was short-lived. A gas leak caused one of the signal lights to explode on its police officer operator within a month of being installed.\n\nD) Automating traffic signals stalled after the London incident. Forty years passed before cars crowding city streets urged the development of traffic lights in the United States. London would not see another traffic light until 1929.\n\nE) The United States is a car culture like no other country. Unlike most European cities that started urban planning when horses were high-tech, many cities in the United States were designed around urban sprawl, suburban tracts, and motor cars.\n\nF) As traffic and cities grew, so did the race to solve growing traffic problems. The first traffic signals were semaphores. Semaphores are towers with moving arms signaling for traffic to stop or go. They could be manual or automatic. There was no consistent design. Various models were invented and put into place in cities as the need arose.\n\nG) In 1912, Lester Wire was a police officer exhausted by traffic at Main Street and 200 South. He developed a manually switched stop light. The four-sided box, raised on a ten-foot pole, looked like a birdhouse and was operated manually by an officer. The officer would flip a switch to change between the dipped red and green lights.\n\nH) Like the 1910 semaphore, the first electric signal used words. However, the words were no longer written on arms that raised and fell. The words \"stop\" or \"move\" were on lights. The posts lit up on each of four corner-posts around an intersection(十字路口). It was not automated, though. A booth with an operator was required to flip the switches.\n\nI) The system allowed police officers to move from the middle of the street to a corner. From that vantage(有利地位), an officer could oversee the crowd. If an emergency vehicle came, the officer could flip a switch and clear the intersection by triggering all red lights. The emergency vehicle could now pass effortlessly. Finally, in San Francisco the first red and green electric light system that could be operated automatically (or manually) was introduced in 1917.\n\nJ) In 1920, the first three-color light system was introduced in Detroit — also known as Motor City, USA. The evolution of traffic light signals could not have a more appropriate context than Motor City. Ford Motor Company was founded in Detroit in 1903 (and other motor companies followed). Ford made cars affordable for more common people, rather than the wealthy, by creating larger scale factory production.\n\nK) Stop and go were insufficient for the new volumes of cars zooming through intersections. Streets were full of new numbers of cars in addition to delivery wagons, bustling crowds, bicycles, horse-drawn carriages, and street cars. The introduction of the cautionary yellow light helped increase driver safety, decreasing accidents that come from running red lights.\n\nL) Stop lights were incredibly important in chaotic city streets. Crosswalks weren't even introduced until 1951. The first pedestrian fatality in the United States was in 1899.\n\nM) The development of the modern traffic light may have started in London, but it grew up in the United States. In Cleveland, an African-American inventor named Garrett Morgan came up with an affordable, patented traffic signal. The yellow light made intersections safer than the old stop and go system. The new design was inexpensive enough that it allowed the installation of a lot more lights.\n\nN) Morgan sold the patent to General Electric — and the spread of the traffic light was green lighted. Green means go. It is that simple, but it's still best to check both ways for oncoming traffic that may not be paying attention or is running the light. Yellow means slow down and prepare to stop. It does not mean full-throttle(全速) ahead. While you may get away with gunning it into the intersection, running a yellow can lead to tickets and dangerous accidents. Red lights are a clear and consistent warning to stop. Even where right turns are allowed on red lights, you must come to a complete stop before turning right. You must also yield to any through traffic, which has the right of way. In most states and cities, you can take a right on red unless otherwise indicated. New York City does not allow a right on red.\n\nO) Red arrows mean you cannot turn right on a red in most states. The green arrow, in these cases, is the only time you can make the turn. However, you can take a right on a red arrow after a full stop in the states of Illinois, Kansas, Louisiana, Maryland, Michigan, New Hampshire, North Dakota, Oregon, South Carolina, Utah, Washington State and Wyoming.\n\nP) Flashing Red is the same as a stop sign, generally used at four-way intersections where there is minimal traffic. When arriving at a flashing red light, make a full and complete stop. Flashing Red Arrows similarly mean to stop and then proceed to take the turn. Flashing Yellow lights mean yield or signal caution, like outside of a fire station. There are no all-direction flashing yellow lights, since it is prohibited in the United States. If you have a flashing yellow light, you are to yield to oncoming traffic.\n\nQ) Flashing Yellow Arrows are part of a four-signal traffic light. These are used in some states after a protected green turn signal, or arrow, but before a steady yellow arrow. When a flashing yellow arrow is shown, you can take the turn after yielding to pedestrians and traffic. Steady Yellow Arrows maintain the normal yellow light caution in three-light signals, meaning to stop or prepare to stop. In a four-signal system that has a flashing yellow arrow, the steady yellow arrow is a signal that the yield period is ending. The red arrow is about to start. Vehicles should stop if safely possible. Traffic tickets are possible for running a steady yellow arrow.\n\nR) Traffic light meaning is fairly consistent across the board with various deviations. Green means it's safe to proceed (though you should still exercise caution). Yellow means caution and yield. Red means danger and stop. Always drive defensively and obey traffic signals.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        },
+        {
+          "id": "Q",
+          "text": "Q 段"
+        },
+        {
+          "id": "R",
+          "text": "R 段"
+        }
+      ],
+      "correctAnswer": "N",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 N 段。题干：Even though a green light signals \"go\", attention should be paid to traffic on either side in case some driver is being careless or ignoring a red light.\n核对该段原文：Morgan sold the patent to General Electric — and the spread of the traffic light was green lighted. Green means go. It is that simple, but it's still best to check both ways for oncoming traffic that may not be paying attention or is running the light. Yellow means slow down and prepare to stop. It does not mean full-throttle(全速) ahead. While you may get away with gunning it into the intersection, running a yellow can lead to tickets and dangerous accidents. Red lights are a clear and consistent warning to stop. Even where right turns are allowed on red lights, you must come to a complete stop before turning right. You must also yield to any through traffic, which has the right of way. In most states and cities, you can take a right on red unless otherwise indicated. New York City does not allow a right on red.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2025-12-3-nonlistening-q46",
+      "canonicalId": "lazynote-cet6-2025-12-3-q46",
+      "number": 46,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn from the passage about practicing mindfulness?",
+      "passage": "Mindfulness has been shown to have a number of meaningful health benefits — it can help reduce anxiety and promote healing in those suffering from chronic illness.\n\nThe practice is based on an insight first described in ancient Buddhist texts that human beings have the capacity to observe experience without being caught up in it. This means simply that it is possible to observe ourselves having a craving, or a happy thought, or even a scary emotion, without reacting in the moment in a way that amplifies the feeling or sends the mind spiraling off into thinking about old memories or anticipating events.\n\nThis practice of mindfulness can help calm the mind and the body as we learn not to react to experience with likes and dislikes or judgments of good and bad. It does not make us cold or indifferent but more fully present.\n\nOne of the challenges of practicing mindfulness in our contemporary world is that there has been a profound transformation in human attention. The artist Jenny Odell argues that in our \"attention economy\" human attention has been transformed into a commodity that big corporations buy and sell. This economy rests on a technological revolution of mobile phones and social media that makes it possible for corporations to target our attention with their content at every moment.\n\nThe devices most people use are a perpetual diversion from the present moment. The result is that it can feel as though our ability to focus, and be fully present, has been stolen. But mindfulness can help us resist the attention economy and relish the things that make life special, like being together with those we love.\n\nMost mindfulness research focuses on the individual benefits of the practice, but some scholars assert that we can not only practice mindfulness for ourselves but also practice it for others. It can help us build stronger, healthier relationships.\n\nThe sad truth is that living in the attention economy, most of us have become bad listeners. However, just as it is possible to watch ourselves having an experience without reacting, it's possible to watch another person have an experience without getting tied up in reactivity and judgment.\n\nThe gift of mindfulness is a practice of listening with compassion to others describe their experiences. To give this gift means putting away your phone, turning off social media, and setting aside other common distractions. It means practicing being fully present in another person's presence and listening to them with complete attention without judgment, while resisting the urge to make the interaction about you.\n\nIf we judge the value of gifts based on their price, this gift may seem worthless, but in a distracted world, it is a precious one.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It triggers our mind to reflect on past experiences or anticipate future events."
+        },
+        {
+          "id": "B",
+          "text": "It focuses our attention on the present moment without making judgments."
+        },
+        {
+          "id": "C",
+          "text": "It concentrates our mind on our personal feelings, happy or scary."
+        },
+        {
+          "id": "D",
+          "text": "It helps our mind to stay calm when facing judgments from others."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：It focuses our attention on the present moment without making judgments.\n关键词检索定位到第 8 段的候选相关句：It means practicing being fully present in another person's presence and listening to them with complete attention without judgment, while resisting the urge to make the interaction about you.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2025-12-3-nonlistening-q47",
+      "canonicalId": "lazynote-cet6-2025-12-3-q47",
+      "number": 47,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we see in today's \"attention economy\" according to Jenny Odell?",
+      "passage": "Mindfulness has been shown to have a number of meaningful health benefits — it can help reduce anxiety and promote healing in those suffering from chronic illness.\n\nThe practice is based on an insight first described in ancient Buddhist texts that human beings have the capacity to observe experience without being caught up in it. This means simply that it is possible to observe ourselves having a craving, or a happy thought, or even a scary emotion, without reacting in the moment in a way that amplifies the feeling or sends the mind spiraling off into thinking about old memories or anticipating events.\n\nThis practice of mindfulness can help calm the mind and the body as we learn not to react to experience with likes and dislikes or judgments of good and bad. It does not make us cold or indifferent but more fully present.\n\nOne of the challenges of practicing mindfulness in our contemporary world is that there has been a profound transformation in human attention. The artist Jenny Odell argues that in our \"attention economy\" human attention has been transformed into a commodity that big corporations buy and sell. This economy rests on a technological revolution of mobile phones and social media that makes it possible for corporations to target our attention with their content at every moment.\n\nThe devices most people use are a perpetual diversion from the present moment. The result is that it can feel as though our ability to focus, and be fully present, has been stolen. But mindfulness can help us resist the attention economy and relish the things that make life special, like being together with those we love.\n\nMost mindfulness research focuses on the individual benefits of the practice, but some scholars assert that we can not only practice mindfulness for ourselves but also practice it for others. It can help us build stronger, healthier relationships.\n\nThe sad truth is that living in the attention economy, most of us have become bad listeners. However, just as it is possible to watch ourselves having an experience without reacting, it's possible to watch another person have an experience without getting tied up in reactivity and judgment.\n\nThe gift of mindfulness is a practice of listening with compassion to others describe their experiences. To give this gift means putting away your phone, turning off social media, and setting aside other common distractions. It means practicing being fully present in another person's presence and listening to them with complete attention without judgment, while resisting the urge to make the interaction about you.\n\nIf we judge the value of gifts based on their price, this gift may seem worthless, but in a distracted world, it is a precious one.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Focus on technological advances continuously updates products and services."
+        },
+        {
+          "id": "B",
+          "text": "People's attention is turned into something that can be bought and sold."
+        },
+        {
+          "id": "C",
+          "text": "Businesses profit from selling mobile phones and revolutionizing social media."
+        },
+        {
+          "id": "D",
+          "text": "People tend to purchase products and services without careful thinking."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：People's attention is turned into something that can be bought and sold.\n关键词检索定位到第 4 段的候选相关句：The artist Jenny Odell argues that in our \"attention economy\" human attention has been transformed into a commodity that big corporations buy and sell.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2025-12-3-nonlistening-q48",
+      "canonicalId": "lazynote-cet6-2025-12-3-q48",
+      "number": 48,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What happens with the prevalent use of mobile phones or social media?",
+      "passage": "Mindfulness has been shown to have a number of meaningful health benefits — it can help reduce anxiety and promote healing in those suffering from chronic illness.\n\nThe practice is based on an insight first described in ancient Buddhist texts that human beings have the capacity to observe experience without being caught up in it. This means simply that it is possible to observe ourselves having a craving, or a happy thought, or even a scary emotion, without reacting in the moment in a way that amplifies the feeling or sends the mind spiraling off into thinking about old memories or anticipating events.\n\nThis practice of mindfulness can help calm the mind and the body as we learn not to react to experience with likes and dislikes or judgments of good and bad. It does not make us cold or indifferent but more fully present.\n\nOne of the challenges of practicing mindfulness in our contemporary world is that there has been a profound transformation in human attention. The artist Jenny Odell argues that in our \"attention economy\" human attention has been transformed into a commodity that big corporations buy and sell. This economy rests on a technological revolution of mobile phones and social media that makes it possible for corporations to target our attention with their content at every moment.\n\nThe devices most people use are a perpetual diversion from the present moment. The result is that it can feel as though our ability to focus, and be fully present, has been stolen. But mindfulness can help us resist the attention economy and relish the things that make life special, like being together with those we love.\n\nMost mindfulness research focuses on the individual benefits of the practice, but some scholars assert that we can not only practice mindfulness for ourselves but also practice it for others. It can help us build stronger, healthier relationships.\n\nThe sad truth is that living in the attention economy, most of us have become bad listeners. However, just as it is possible to watch ourselves having an experience without reacting, it's possible to watch another person have an experience without getting tied up in reactivity and judgment.\n\nThe gift of mindfulness is a practice of listening with compassion to others describe their experiences. To give this gift means putting away your phone, turning off social media, and setting aside other common distractions. It means practicing being fully present in another person's presence and listening to them with complete attention without judgment, while resisting the urge to make the interaction about you.\n\nIf we judge the value of gifts based on their price, this gift may seem worthless, but in a distracted world, it is a precious one.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They keep distracting users from the here and now."
+        },
+        {
+          "id": "B",
+          "text": "They render users incapable of resisting temptation."
+        },
+        {
+          "id": "C",
+          "text": "They rob users of their ability to observe experience."
+        },
+        {
+          "id": "D",
+          "text": "They tempt users to endorse the attention economy."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：They keep distracting users from the here and now.\n关键词检索定位到第 4 段的候选相关句：This economy rests on a technological revolution of mobile phones and social media that makes it possible for corporations to target our attention with their content at every moment.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2025-12-3-nonlistening-q49",
+      "canonicalId": "lazynote-cet6-2025-12-3-q49",
+      "number": 49,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What benefit can practicing mindfulness bring to us according to some scholars?",
+      "passage": "Mindfulness has been shown to have a number of meaningful health benefits — it can help reduce anxiety and promote healing in those suffering from chronic illness.\n\nThe practice is based on an insight first described in ancient Buddhist texts that human beings have the capacity to observe experience without being caught up in it. This means simply that it is possible to observe ourselves having a craving, or a happy thought, or even a scary emotion, without reacting in the moment in a way that amplifies the feeling or sends the mind spiraling off into thinking about old memories or anticipating events.\n\nThis practice of mindfulness can help calm the mind and the body as we learn not to react to experience with likes and dislikes or judgments of good and bad. It does not make us cold or indifferent but more fully present.\n\nOne of the challenges of practicing mindfulness in our contemporary world is that there has been a profound transformation in human attention. The artist Jenny Odell argues that in our \"attention economy\" human attention has been transformed into a commodity that big corporations buy and sell. This economy rests on a technological revolution of mobile phones and social media that makes it possible for corporations to target our attention with their content at every moment.\n\nThe devices most people use are a perpetual diversion from the present moment. The result is that it can feel as though our ability to focus, and be fully present, has been stolen. But mindfulness can help us resist the attention economy and relish the things that make life special, like being together with those we love.\n\nMost mindfulness research focuses on the individual benefits of the practice, but some scholars assert that we can not only practice mindfulness for ourselves but also practice it for others. It can help us build stronger, healthier relationships.\n\nThe sad truth is that living in the attention economy, most of us have become bad listeners. However, just as it is possible to watch ourselves having an experience without reacting, it's possible to watch another person have an experience without getting tied up in reactivity and judgment.\n\nThe gift of mindfulness is a practice of listening with compassion to others describe their experiences. To give this gift means putting away your phone, turning off social media, and setting aside other common distractions. It means practicing being fully present in another person's presence and listening to them with complete attention without judgment, while resisting the urge to make the interaction about you.\n\nIf we judge the value of gifts based on their price, this gift may seem worthless, but in a distracted world, it is a precious one.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It prevents us from making arbitrary judgments about others."
+        },
+        {
+          "id": "B",
+          "text": "It shifts our attention from material things to spiritual pursuits."
+        },
+        {
+          "id": "C",
+          "text": "It is conducive to our forging better interpersonal relationships."
+        },
+        {
+          "id": "D",
+          "text": "It is helpful in regaining our ability to enjoy what we have in life."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：It is conducive to our forging better interpersonal relationships.\n关键词检索定位到第 6 段的候选相关句：Most mindfulness research focuses on the individual benefits of the practice, but some scholars assert that we can not only practice mindfulness for ourselves but also practice it for others.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2025-12-3-nonlistening-q50",
+      "canonicalId": "lazynote-cet6-2025-12-3-q50",
+      "number": 50,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author suggest we do in another person's presence?",
+      "passage": "Mindfulness has been shown to have a number of meaningful health benefits — it can help reduce anxiety and promote healing in those suffering from chronic illness.\n\nThe practice is based on an insight first described in ancient Buddhist texts that human beings have the capacity to observe experience without being caught up in it. This means simply that it is possible to observe ourselves having a craving, or a happy thought, or even a scary emotion, without reacting in the moment in a way that amplifies the feeling or sends the mind spiraling off into thinking about old memories or anticipating events.\n\nThis practice of mindfulness can help calm the mind and the body as we learn not to react to experience with likes and dislikes or judgments of good and bad. It does not make us cold or indifferent but more fully present.\n\nOne of the challenges of practicing mindfulness in our contemporary world is that there has been a profound transformation in human attention. The artist Jenny Odell argues that in our \"attention economy\" human attention has been transformed into a commodity that big corporations buy and sell. This economy rests on a technological revolution of mobile phones and social media that makes it possible for corporations to target our attention with their content at every moment.\n\nThe devices most people use are a perpetual diversion from the present moment. The result is that it can feel as though our ability to focus, and be fully present, has been stolen. But mindfulness can help us resist the attention economy and relish the things that make life special, like being together with those we love.\n\nMost mindfulness research focuses on the individual benefits of the practice, but some scholars assert that we can not only practice mindfulness for ourselves but also practice it for others. It can help us build stronger, healthier relationships.\n\nThe sad truth is that living in the attention economy, most of us have become bad listeners. However, just as it is possible to watch ourselves having an experience without reacting, it's possible to watch another person have an experience without getting tied up in reactivity and judgment.\n\nThe gift of mindfulness is a practice of listening with compassion to others describe their experiences. To give this gift means putting away your phone, turning off social media, and setting aside other common distractions. It means practicing being fully present in another person's presence and listening to them with complete attention without judgment, while resisting the urge to make the interaction about you.\n\nIf we judge the value of gifts based on their price, this gift may seem worthless, but in a distracted world, it is a precious one.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Share each other's experience frankly and compassionately."
+        },
+        {
+          "id": "B",
+          "text": "Pay full attention to establishing close relationships with them."
+        },
+        {
+          "id": "C",
+          "text": "Be attentive listeners while refraining from making judgments."
+        },
+        {
+          "id": "D",
+          "text": "Remind them of the distraction from mobile phones and social media."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：Be attentive listeners while refraining from making judgments.\n关键词检索定位到第 8 段的候选相关句：It means practicing being fully present in another person's presence and listening to them with complete attention without judgment, while resisting the urge to make the interaction about you.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2025-12-3-nonlistening-q51",
+      "canonicalId": "lazynote-cet6-2025-12-3-q51",
+      "number": 51,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "How did the author respond to the Captcha test?",
+      "passage": "The other day I had to log into a service I hadn't used before. Since I was a new user, the website decided that it needed to check I wasn't a robot and so set me a Captcha test to determine whether the user is a person or a machine.\n\nI was presented with an image of a roadside scene over which was laid a grid. My \"challenge\" was to click on each cell in the grid that contained a traffic sign. I did so, a bit irritated. Then I was presented with another image and another grid — also with a request to identify road signs. Like a lamb, I complied, after which the website accepted my input.\n\nAnd then I realised what I had been doing was adding to a dataset for training the machine-learning software that guides self-driving cars. So, to gain access to an automated service that will benefit financially from my input, I first have to do some unpaid labor to help improve the performance of autonomous vehicles.\n\nNeat, eh? But note also the delicious additional irony that the Captcha is described as an \"automated Turing test\". The Turing test was conceived, you may recall, as a way of enabling humans to determine whether a machine could respond in such a way that one couldn't tell whether it was a human or a robot. So we have wandered into a world in which machines make us do tricks to prove that we are humans!\n\nThe strangest aspect of this unparalleled shift is how under-discussed it has been. The metaphor of the boiling frog comes to mind. Have we become so subtly conditioned by digital technology that we don't see what's been happening to us? Have we been conditioned to accept a world governed by \"smart\" tech, trading convenience to the point where we become a bit like machines ourselves?\n\nIn a recent startling and thoughtful book, two scholars — Brett Frischmann, a law professor, and Evan Selinger, a philosopher — argue that the answer to that question is \"yes\".\n\nAnd they're right. There's nothing technophobic(技术恐惧的) about that. We shape our tools and then our tools shape us. Technology is supposed to provide tools that serve human ends. But, as the machine-learning Captcha demonstrates, a significant proportion of digital tech now sees (and uses) humans as means to ends that are not ours. In the process, they reduce us to the status of cheery rats running on treadmills(踏车) designed by people who do not have our interests at heart. So back to the frog metaphor. Are we smart enough to jump out before it's too late? You don't even have to Google it to know the answer.",
+      "options": [
+        {
+          "id": "A",
+          "text": "He clicked on the cells randomly."
+        },
+        {
+          "id": "B",
+          "text": "He accepted the challenge readily."
+        },
+        {
+          "id": "C",
+          "text": "He completed it confidently."
+        },
+        {
+          "id": "D",
+          "text": "He worked on it submissively."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：He worked on it submissively.\n关键词检索定位到第 1 段的候选相关句：Since I was a new user, the website decided that it needed to check I wasn't a robot and so set me a Captcha test to determine whether the user is a person or a machine.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2025-12-3-nonlistening-q52",
+      "canonicalId": "lazynote-cet6-2025-12-3-q52",
+      "number": 52,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What is ironic about the Captcha test?",
+      "passage": "The other day I had to log into a service I hadn't used before. Since I was a new user, the website decided that it needed to check I wasn't a robot and so set me a Captcha test to determine whether the user is a person or a machine.\n\nI was presented with an image of a roadside scene over which was laid a grid. My \"challenge\" was to click on each cell in the grid that contained a traffic sign. I did so, a bit irritated. Then I was presented with another image and another grid — also with a request to identify road signs. Like a lamb, I complied, after which the website accepted my input.\n\nAnd then I realised what I had been doing was adding to a dataset for training the machine-learning software that guides self-driving cars. So, to gain access to an automated service that will benefit financially from my input, I first have to do some unpaid labor to help improve the performance of autonomous vehicles.\n\nNeat, eh? But note also the delicious additional irony that the Captcha is described as an \"automated Turing test\". The Turing test was conceived, you may recall, as a way of enabling humans to determine whether a machine could respond in such a way that one couldn't tell whether it was a human or a robot. So we have wandered into a world in which machines make us do tricks to prove that we are humans!\n\nThe strangest aspect of this unparalleled shift is how under-discussed it has been. The metaphor of the boiling frog comes to mind. Have we become so subtly conditioned by digital technology that we don't see what's been happening to us? Have we been conditioned to accept a world governed by \"smart\" tech, trading convenience to the point where we become a bit like machines ourselves?\n\nIn a recent startling and thoughtful book, two scholars — Brett Frischmann, a law professor, and Evan Selinger, a philosopher — argue that the answer to that question is \"yes\".\n\nAnd they're right. There's nothing technophobic(技术恐惧的) about that. We shape our tools and then our tools shape us. Technology is supposed to provide tools that serve human ends. But, as the machine-learning Captcha demonstrates, a significant proportion of digital tech now sees (and uses) humans as means to ends that are not ours. In the process, they reduce us to the status of cheery rats running on treadmills(踏车) designed by people who do not have our interests at heart. So back to the frog metaphor. Are we smart enough to jump out before it's too late? You don't even have to Google it to know the answer.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A machine can respond to the test as well as humans do."
+        },
+        {
+          "id": "B",
+          "text": "A machine can outperform humans in object identification."
+        },
+        {
+          "id": "C",
+          "text": "A test designed to test machines is now used by machines to test humans."
+        },
+        {
+          "id": "D",
+          "text": "A test conceived to tell a human from a robot can now do tricks humans can't."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：A test designed to test machines is now used by machines to test humans.\n关键词检索定位到第 7 段的候选相关句：But, as the machine-learning Captcha demonstrates, a significant proportion of digital tech now sees (and uses) humans as means to ends that are not ours.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2025-12-3-nonlistening-q53",
+      "canonicalId": "lazynote-cet6-2025-12-3-q53",
+      "number": 53,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "Why does the author use the metaphor of the boiling frog?",
+      "passage": "The other day I had to log into a service I hadn't used before. Since I was a new user, the website decided that it needed to check I wasn't a robot and so set me a Captcha test to determine whether the user is a person or a machine.\n\nI was presented with an image of a roadside scene over which was laid a grid. My \"challenge\" was to click on each cell in the grid that contained a traffic sign. I did so, a bit irritated. Then I was presented with another image and another grid — also with a request to identify road signs. Like a lamb, I complied, after which the website accepted my input.\n\nAnd then I realised what I had been doing was adding to a dataset for training the machine-learning software that guides self-driving cars. So, to gain access to an automated service that will benefit financially from my input, I first have to do some unpaid labor to help improve the performance of autonomous vehicles.\n\nNeat, eh? But note also the delicious additional irony that the Captcha is described as an \"automated Turing test\". The Turing test was conceived, you may recall, as a way of enabling humans to determine whether a machine could respond in such a way that one couldn't tell whether it was a human or a robot. So we have wandered into a world in which machines make us do tricks to prove that we are humans!\n\nThe strangest aspect of this unparalleled shift is how under-discussed it has been. The metaphor of the boiling frog comes to mind. Have we become so subtly conditioned by digital technology that we don't see what's been happening to us? Have we been conditioned to accept a world governed by \"smart\" tech, trading convenience to the point where we become a bit like machines ourselves?\n\nIn a recent startling and thoughtful book, two scholars — Brett Frischmann, a law professor, and Evan Selinger, a philosopher — argue that the answer to that question is \"yes\".\n\nAnd they're right. There's nothing technophobic(技术恐惧的) about that. We shape our tools and then our tools shape us. Technology is supposed to provide tools that serve human ends. But, as the machine-learning Captcha demonstrates, a significant proportion of digital tech now sees (and uses) humans as means to ends that are not ours. In the process, they reduce us to the status of cheery rats running on treadmills(踏车) designed by people who do not have our interests at heart. So back to the frog metaphor. Are we smart enough to jump out before it's too late? You don't even have to Google it to know the answer.",
+      "options": [
+        {
+          "id": "A",
+          "text": "To show that humans are unwilling to trade convenience for control by smart tech."
+        },
+        {
+          "id": "B",
+          "text": "To show that humans are unaware of the potential danger brought by smart tech."
+        },
+        {
+          "id": "C",
+          "text": "To question whether humans are conditioned to accept digital tech."
+        },
+        {
+          "id": "D",
+          "text": "To question whether humans are as vulnerable as the boiling frog."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：To show that humans are unaware of the potential danger brought by smart tech.\n关键词检索定位到第 5 段的候选相关句：The metaphor of the boiling frog comes to mind.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2025-12-3-nonlistening-q54",
+      "canonicalId": "lazynote-cet6-2025-12-3-q54",
+      "number": 54,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "Why does the author think that Brett Frischmann and Evan Selinger are right?",
+      "passage": "The other day I had to log into a service I hadn't used before. Since I was a new user, the website decided that it needed to check I wasn't a robot and so set me a Captcha test to determine whether the user is a person or a machine.\n\nI was presented with an image of a roadside scene over which was laid a grid. My \"challenge\" was to click on each cell in the grid that contained a traffic sign. I did so, a bit irritated. Then I was presented with another image and another grid — also with a request to identify road signs. Like a lamb, I complied, after which the website accepted my input.\n\nAnd then I realised what I had been doing was adding to a dataset for training the machine-learning software that guides self-driving cars. So, to gain access to an automated service that will benefit financially from my input, I first have to do some unpaid labor to help improve the performance of autonomous vehicles.\n\nNeat, eh? But note also the delicious additional irony that the Captcha is described as an \"automated Turing test\". The Turing test was conceived, you may recall, as a way of enabling humans to determine whether a machine could respond in such a way that one couldn't tell whether it was a human or a robot. So we have wandered into a world in which machines make us do tricks to prove that we are humans!\n\nThe strangest aspect of this unparalleled shift is how under-discussed it has been. The metaphor of the boiling frog comes to mind. Have we become so subtly conditioned by digital technology that we don't see what's been happening to us? Have we been conditioned to accept a world governed by \"smart\" tech, trading convenience to the point where we become a bit like machines ourselves?\n\nIn a recent startling and thoughtful book, two scholars — Brett Frischmann, a law professor, and Evan Selinger, a philosopher — argue that the answer to that question is \"yes\".\n\nAnd they're right. There's nothing technophobic(技术恐惧的) about that. We shape our tools and then our tools shape us. Technology is supposed to provide tools that serve human ends. But, as the machine-learning Captcha demonstrates, a significant proportion of digital tech now sees (and uses) humans as means to ends that are not ours. In the process, they reduce us to the status of cheery rats running on treadmills(踏车) designed by people who do not have our interests at heart. So back to the frog metaphor. Are we smart enough to jump out before it's too late? You don't even have to Google it to know the answer.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A large part of digital tech is now making use of humans to meet its own ends."
+        },
+        {
+          "id": "B",
+          "text": "Humans are now fast locked in a race against digital tech to control the world."
+        },
+        {
+          "id": "C",
+          "text": "Digital tech can serve human needs in ways previously thought impossible."
+        },
+        {
+          "id": "D",
+          "text": "Digital tech is now doing thinking while humans are doing repetitive work."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：A large part of digital tech is now making use of humans to meet its own ends.\n关键词检索定位到第 7 段的候选相关句：But, as the machine-learning Captcha demonstrates, a significant proportion of digital tech now sees (and uses) humans as means to ends that are not ours.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2025-12-3-nonlistening-q55",
+      "canonicalId": "lazynote-cet6-2025-12-3-q55",
+      "number": 55,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author imply by asking \"Are we smart enough to jump out before it's too late?\" at the end of the passage?",
+      "passage": "The other day I had to log into a service I hadn't used before. Since I was a new user, the website decided that it needed to check I wasn't a robot and so set me a Captcha test to determine whether the user is a person or a machine.\n\nI was presented with an image of a roadside scene over which was laid a grid. My \"challenge\" was to click on each cell in the grid that contained a traffic sign. I did so, a bit irritated. Then I was presented with another image and another grid — also with a request to identify road signs. Like a lamb, I complied, after which the website accepted my input.\n\nAnd then I realised what I had been doing was adding to a dataset for training the machine-learning software that guides self-driving cars. So, to gain access to an automated service that will benefit financially from my input, I first have to do some unpaid labor to help improve the performance of autonomous vehicles.\n\nNeat, eh? But note also the delicious additional irony that the Captcha is described as an \"automated Turing test\". The Turing test was conceived, you may recall, as a way of enabling humans to determine whether a machine could respond in such a way that one couldn't tell whether it was a human or a robot. So we have wandered into a world in which machines make us do tricks to prove that we are humans!\n\nThe strangest aspect of this unparalleled shift is how under-discussed it has been. The metaphor of the boiling frog comes to mind. Have we become so subtly conditioned by digital technology that we don't see what's been happening to us? Have we been conditioned to accept a world governed by \"smart\" tech, trading convenience to the point where we become a bit like machines ourselves?\n\nIn a recent startling and thoughtful book, two scholars — Brett Frischmann, a law professor, and Evan Selinger, a philosopher — argue that the answer to that question is \"yes\".\n\nAnd they're right. There's nothing technophobic(技术恐惧的) about that. We shape our tools and then our tools shape us. Technology is supposed to provide tools that serve human ends. But, as the machine-learning Captcha demonstrates, a significant proportion of digital tech now sees (and uses) humans as means to ends that are not ours. In the process, they reduce us to the status of cheery rats running on treadmills(踏车) designed by people who do not have our interests at heart. So back to the frog metaphor. Are we smart enough to jump out before it's too late? You don't even have to Google it to know the answer.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is not sensible to expect digital tech to take humans' interest to heart."
+        },
+        {
+          "id": "B",
+          "text": "It is hard to say whether technology or humans will get the upper hand."
+        },
+        {
+          "id": "C",
+          "text": "We may have to search the web to get the answer to the question."
+        },
+        {
+          "id": "D",
+          "text": "We may not awake in time to the danger digital tech poses to us."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：We may not awake in time to the danger digital tech poses to us.\n关键词检索定位到第 7 段的候选相关句：Are we smart enough to jump out before it's too late?\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2025-12-3-nonlistening-translation",
+      "number": "IV",
+      "level": "CET6",
+      "type": "short_text_self_check",
+      "skill": "translation",
+      "section": "translation",
+      "prompt": "Directions : For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2 .\n\n节俭 (frugality) 是中华民族的传统美德。在中国古代，生产力低下，先人们深知劳动成果来之不易，因而秉持节俭的理念。到了物质极大丰富的今天，中国人民依然坚持节俭的生活方式，体现了理性消费的生活理念和对劳动的尊重。近年来，中国政府持续加强节约型社会的建设，倡导\"光盘行动\"，减少食物浪费，提倡简约低碳的生活方式，推进资源循环利用，反对过度消费。节约型社会的建设有力地推动了中国经济的高质量发展。",
+      "options": [],
+      "correctAnswer": "Frugality is a traditional virtue of the Chinese nation. In ancient China, productivity was low, and people knew how hard it was to obtain the fruits of labor, so they upheld the principle of thrift. Today, despite abundant material resources, Chinese people still maintain a frugal lifestyle, reflecting rational consumption and respect for labor. In recent years, the Chinese government has continued to strengthen the construction of a resource conserving society. It promotes the \"Clean Your Plate\" campaign to reduce food waste, advocates a simple, low carbon lifestyle, advances the recycling of resources and opposes excessive consumption. Building a resource conserving society has strongly promoted the high quality development of China's economy.",
+      "referenceAnswer": "Frugality is a traditional virtue of the Chinese nation. In ancient China, productivity was low, and people knew how hard it was to obtain the fruits of labor, so they upheld the principle of thrift. Today, despite abundant material resources, Chinese people still maintain a frugal lifestyle, reflecting rational consumption and respect for labor. In recent years, the Chinese government has continued to strengthen the construction of a resource conserving society. It promotes the \"Clean Your Plate\" campaign to reduce food waste, advocates a simple, low carbon lifestyle, advances the recycling of resources and opposes excessive consumption. Building a resource conserving society has strongly promoted the high quality development of China's economy.",
+      "hint": "古今节俭原因、光盘减食物浪费、低碳、循环利用与反过度消费均要保留。",
+      "explanation": "以下为原创参考译文，准确的同义表达也可接受。frugality使用题目提示，fruits of labor为劳动成果。despite…表达物质丰富仍节俭的让步；Clean Your Plate对应光盘行动，而非清洁盘子的卫生运动。resource conserving society为节约型社会，强调资源节约。",
+      "rubric": [
+        "信息：逐句核对人物、地点、数字、时间、因果和并列信息，避免漏译或增译。",
+        "表达：古今节俭原因、光盘减食物浪费、低碳、循环利用与反过度消费均要保留。",
+        "语法：检查时态、语态、主谓一致、冠词与单复数，长句按英语逻辑合理拆分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2025-12-3-nonlistening"
+    }
+  ]
+}

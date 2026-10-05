@@ -1,0 +1,1985 @@
+{
+  "schemaVersion": 1,
+  "status": "verified_structured",
+  "source": {
+    "id": "cet6-2019-12-3-nonlistening",
+    "textCollection": "https://english-exam.lazynote.cn",
+    "textUrl": "https://english-exam.lazynote.cn/cet6/paper/2019-12-3/",
+    "textSha256": "dad06608a1a153718fa758e343ef0180a4b70e5b4b53aedf78fc8c925ed13cde",
+    "answerSources": [
+      {
+        "section": "part3-section-a",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2019-12-3/part3-section-a/",
+        "sha256": "83e4768946995a30a8c14dfe3d1db007806077ebe39f947db73b997caf35dc68"
+      },
+      {
+        "section": "part3-section-b",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2019-12-3/part3-section-b/",
+        "sha256": "db912fc4bddf84bad3161f84f593ca34fd455be51ee54d6a30d7ac66f86f0c73"
+      },
+      {
+        "section": "part3-section-c-1",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2019-12-3/part3-section-c-1/",
+        "sha256": "cd70e71537659d3e42c9dccfd24405d0fb5c42396b29a6bfee7cbfa9c7737528"
+      },
+      {
+        "section": "part3-section-c-2",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2019-12-3/part3-section-c-2/",
+        "sha256": "4013ad5a33960d4e6aa0f317c9f2dd63348a08f9363772018d14d972324ade5b"
+      }
+    ],
+    "rightsUrl": "https://english-exam.lazynote.cn",
+    "rights": "Source footer attributes original papers to the National College English Test Committee. Original materials retain their respective rights; no blanket source license is asserted. Commercial explanatory prose is not copied.",
+    "sourceRightsNotice": "© 2026 懒笔记 · 蜀ICP备2024049450号-1 · 川公网安备51019002006323号 · 增值电信业务经营许可证：川B2-20240301 · 真题版权归全国硕士研究生招生考试 / 全国大学英语四六级考试委员会所有 · 隐私政策 · 用户协议",
+    "sourceTermsUrl": "https://english-exam.lazynote.cn/terms/",
+    "reviewedAt": "2026-10-03",
+    "answerStatus": "public_reference_structural_consistency_verified",
+    "explanations": "Project-generated contextual evidence notes. Close-reading locations are keyword-search candidates, not manually verified detailed explanations.",
+    "referenceEssays": "Project-authored full reference examples bound to the original prompts; not official model answers.",
+    "materialSources": [],
+    "corrections": [],
+    "previousReviewedAnswerSources": [],
+    "sourceEdition": "lazynote public original-paper arrangement; set numbering can differ from other collections.",
+    "independentlyConfirmedSharedSource": "",
+    "readingSourceCorrection": null,
+    "sectionSourceReplacement": null,
+    "independentAnswerChecks": [],
+    "sharedSectionSource": {}
+  },
+  "papers": [
+    {
+      "id": "cet6-2019-12-3-nonlistening",
+      "level": "CET6",
+      "year": 2019,
+      "month": 12,
+      "set": 3,
+      "title": "2019年12月英语六级第3套真题（不含听力）",
+      "authenticity": "past_exam",
+      "questionIds": [
+        "cet6-2019-12-3-nonlistening-writing",
+        "cet6-2019-12-3-nonlistening-q26",
+        "cet6-2019-12-3-nonlistening-q27",
+        "cet6-2019-12-3-nonlistening-q28",
+        "cet6-2019-12-3-nonlistening-q29",
+        "cet6-2019-12-3-nonlistening-q30",
+        "cet6-2019-12-3-nonlistening-q31",
+        "cet6-2019-12-3-nonlistening-q32",
+        "cet6-2019-12-3-nonlistening-q33",
+        "cet6-2019-12-3-nonlistening-q34",
+        "cet6-2019-12-3-nonlistening-q35",
+        "cet6-2019-12-3-nonlistening-q36",
+        "cet6-2019-12-3-nonlistening-q37",
+        "cet6-2019-12-3-nonlistening-q38",
+        "cet6-2019-12-3-nonlistening-q39",
+        "cet6-2019-12-3-nonlistening-q40",
+        "cet6-2019-12-3-nonlistening-q41",
+        "cet6-2019-12-3-nonlistening-q42",
+        "cet6-2019-12-3-nonlistening-q43",
+        "cet6-2019-12-3-nonlistening-q44",
+        "cet6-2019-12-3-nonlistening-q45",
+        "cet6-2019-12-3-nonlistening-q46",
+        "cet6-2019-12-3-nonlistening-q47",
+        "cet6-2019-12-3-nonlistening-q48",
+        "cet6-2019-12-3-nonlistening-q49",
+        "cet6-2019-12-3-nonlistening-q50",
+        "cet6-2019-12-3-nonlistening-q51",
+        "cet6-2019-12-3-nonlistening-q52",
+        "cet6-2019-12-3-nonlistening-q53",
+        "cet6-2019-12-3-nonlistening-q54",
+        "cet6-2019-12-3-nonlistening-q55",
+        "cet6-2019-12-3-nonlistening-translation"
+      ],
+      "durationSeconds": 6000,
+      "description": "写作1题、阅读30题、翻译1题，不含听力。客观题答案与题面、选项完成结构一致性核对。",
+      "sourceId": "cet6-2019-12-3-nonlistening",
+      "coverage": {
+        "fullPaper": false,
+        "fullNonListening": true,
+        "listeningExcluded": true,
+        "objectiveNumbers": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "objectiveCount": 30,
+        "subjectiveCount": 2,
+        "sections": [
+          "writing",
+          "reading_word_bank",
+          "reading_matching",
+          "reading_comprehension",
+          "translation"
+        ],
+        "sharedSectionSource": {},
+        "note": "写作1题、阅读30题、翻译1题，不含听力。",
+        "independentlyConfirmedSharedSource": "",
+        "readingSourceCorrection": null,
+        "sectionSourceReplacement": null,
+        "referenceStatus": "project_authored"
+      },
+      "resources": [
+        {
+          "id": "cet6-2019-12-3-nonlistening-source",
+          "type": "web",
+          "title": "原卷来源与题面核对",
+          "url": "https://english-exam.lazynote.cn/cet6/paper/2019-12-3/"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cet6-2019-12-3-nonlistening-writing",
+      "number": "I",
+      "level": "CET6",
+      "type": "short_text_self_check",
+      "skill": "writing",
+      "section": "writing",
+      "prompt": "Directions: For this part, you are allowed 30 minutes to write an essay on the importance of having a sense of community responsibility. You should write at least 150 words but no more than 200 words.",
+      "options": [],
+      "correctAnswer": "A sense of community responsibility encourages people to care about the shared place in which they live. Clean surroundings, reliable support and friendly relationships are created through residents' participation rather than appearing automatically.\n\nCommunity responsibility can take many practical forms. Residents who dispose of rubbish properly help protect public spaces, while those who keep noise down show consideration for their neighbors. More active participation is equally valuable. For instance, university students can join a neighborhood program that teaches older residents to use essential digital services. Such assistance reduces inconvenience and brings different generations into contact. When residents discuss local problems together, they are also more likely to find fair solutions than when everyone complains privately. Shared effort gives people a stronger sense of belonging and encourages further cooperation.\n\nTo promote this spirit, communities should make volunteering accessible and communicate clearly about local needs. Individuals can begin with one manageable commitment and keep it consistently. Caring for our community improves others' lives and makes the neighborhood a better home for ourselves.",
+      "referenceAnswer": "A sense of community responsibility encourages people to care about the shared place in which they live. Clean surroundings, reliable support and friendly relationships are created through residents' participation rather than appearing automatically.\n\nCommunity responsibility can take many practical forms. Residents who dispose of rubbish properly help protect public spaces, while those who keep noise down show consideration for their neighbors. More active participation is equally valuable. For instance, university students can join a neighborhood program that teaches older residents to use essential digital services. Such assistance reduces inconvenience and brings different generations into contact. When residents discuss local problems together, they are also more likely to find fair solutions than when everyone complains privately. Shared effort gives people a stronger sense of belonging and encourages further cooperation.\n\nTo promote this spirit, communities should make volunteering accessible and communicate clearly about local needs. Individuals can begin with one manageable commitment and keep it consistently. Caring for our community improves others' lives and makes the neighborhood a better home for ourselves.",
+      "hint": "社区责任要落到公共环境、邻里互助和居民参与，提出可持续行动。",
+      "explanation": "以下为按本题要求独立写成的原创参考范文，作文没有唯一答案。首段说明社区质量需要共同参与；数字服务帮助老人的例子连接互助与归属感；结尾提出社区组织和个人双方行动。a sense of belonging表示归属感，manageable commitment指能力范围内可以持续的承诺。",
+      "rubric": [
+        "任务：社区责任要落到公共环境、邻里互助和居民参与，提出可持续行动。",
+        "论证：明确中心观点，用原因、具体例子或经历展开；结尾回应主题。",
+        "语言：检查主谓一致、时态、搭配和段落衔接；全文控制在150–200词。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-12-3-nonlistening-q26",
+      "canonicalId": "lazynote-cet6-2019-12-3-q26",
+      "number": 26,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 26 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The number of devices you can talk to is multiplying—first it was your phone, then your car, and now you can tell your kitchen appliance what to do. But even without gadgets that understand our spoken commands, research suggests that, as bizarre as it sounds, under certain [26] ____ , people regularly ascribe human traits to everyday objects.\n\nSometimes we see things as human because we are [27] ____ . In one experiment, people who reported feeling isolated were more likely than others to attribute [28] ____ to various gadgets. In turn, feeling close to objects can [29] ____ loneliness. When college students were reminded of a time they had been [30] ____ in a social setting they compensated by exaggerating their number of friends—unless they were first given tasks that caused them to interact with their phone as if it had human qualities. The phone [31] ____ stood in for real friends.\n\nAt other times, we personify products in an effort to understand them. One study found that three in four respondents yelled at their computer. Further, the more their computer gave them problems, the more likely the respondents were to report that it had its own \"beliefs and [32] ____ \".\n\nSo how do people assign traits to an object? In part, we rely on looks. On humans, wide faces are [33] ____ with dominance. Similarly, people rated cars, clocks and watches with wide faces as more dominant-looking than narrow-faced ones, and preferred them—especially in [34] ____ situations. An analysis of car sales in Germany found that cars with grilles(护栅) that were upturned like smiles sold best. The purchasers saw this [35] ____ as increasing a car's friendliness.",
+      "options": [
+        {
+          "id": "A",
+          "text": "alleviate"
+        },
+        {
+          "id": "B",
+          "text": "apparently"
+        },
+        {
+          "id": "C",
+          "text": "arrogant"
+        },
+        {
+          "id": "D",
+          "text": "associated"
+        },
+        {
+          "id": "E",
+          "text": "circumstances"
+        },
+        {
+          "id": "F",
+          "text": "competitive"
+        },
+        {
+          "id": "G",
+          "text": "conceded"
+        },
+        {
+          "id": "H",
+          "text": "consciousness"
+        },
+        {
+          "id": "I",
+          "text": "desires"
+        },
+        {
+          "id": "J",
+          "text": "excluded"
+        },
+        {
+          "id": "K",
+          "text": "feature"
+        },
+        {
+          "id": "L",
+          "text": "lonely"
+        },
+        {
+          "id": "M",
+          "text": "separate"
+        },
+        {
+          "id": "N",
+          "text": "spectacularly"
+        },
+        {
+          "id": "O",
+          "text": "warrant"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "先看第 26 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 E（circumstances）。本空所在句：But even without gadgets that understand our spoken commands, research suggests that, as bizarre as it sounds, under certain [26] ____ , people regularly ascribe human traits to everyday objects.\n将本空替换为 circumstances 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-12-3-nonlistening-q27",
+      "canonicalId": "lazynote-cet6-2019-12-3-q27",
+      "number": 27,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 27 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The number of devices you can talk to is multiplying—first it was your phone, then your car, and now you can tell your kitchen appliance what to do. But even without gadgets that understand our spoken commands, research suggests that, as bizarre as it sounds, under certain [26] ____ , people regularly ascribe human traits to everyday objects.\n\nSometimes we see things as human because we are [27] ____ . In one experiment, people who reported feeling isolated were more likely than others to attribute [28] ____ to various gadgets. In turn, feeling close to objects can [29] ____ loneliness. When college students were reminded of a time they had been [30] ____ in a social setting they compensated by exaggerating their number of friends—unless they were first given tasks that caused them to interact with their phone as if it had human qualities. The phone [31] ____ stood in for real friends.\n\nAt other times, we personify products in an effort to understand them. One study found that three in four respondents yelled at their computer. Further, the more their computer gave them problems, the more likely the respondents were to report that it had its own \"beliefs and [32] ____ \".\n\nSo how do people assign traits to an object? In part, we rely on looks. On humans, wide faces are [33] ____ with dominance. Similarly, people rated cars, clocks and watches with wide faces as more dominant-looking than narrow-faced ones, and preferred them—especially in [34] ____ situations. An analysis of car sales in Germany found that cars with grilles(护栅) that were upturned like smiles sold best. The purchasers saw this [35] ____ as increasing a car's friendliness.",
+      "options": [
+        {
+          "id": "A",
+          "text": "alleviate"
+        },
+        {
+          "id": "B",
+          "text": "apparently"
+        },
+        {
+          "id": "C",
+          "text": "arrogant"
+        },
+        {
+          "id": "D",
+          "text": "associated"
+        },
+        {
+          "id": "E",
+          "text": "circumstances"
+        },
+        {
+          "id": "F",
+          "text": "competitive"
+        },
+        {
+          "id": "G",
+          "text": "conceded"
+        },
+        {
+          "id": "H",
+          "text": "consciousness"
+        },
+        {
+          "id": "I",
+          "text": "desires"
+        },
+        {
+          "id": "J",
+          "text": "excluded"
+        },
+        {
+          "id": "K",
+          "text": "feature"
+        },
+        {
+          "id": "L",
+          "text": "lonely"
+        },
+        {
+          "id": "M",
+          "text": "separate"
+        },
+        {
+          "id": "N",
+          "text": "spectacularly"
+        },
+        {
+          "id": "O",
+          "text": "warrant"
+        }
+      ],
+      "correctAnswer": "L",
+      "hint": "先看第 27 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 L（lonely）。本空所在句：Sometimes we see things as human because we are [27] ____ .\n将本空替换为 lonely 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-12-3-nonlistening-q28",
+      "canonicalId": "lazynote-cet6-2019-12-3-q28",
+      "number": 28,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 28 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The number of devices you can talk to is multiplying—first it was your phone, then your car, and now you can tell your kitchen appliance what to do. But even without gadgets that understand our spoken commands, research suggests that, as bizarre as it sounds, under certain [26] ____ , people regularly ascribe human traits to everyday objects.\n\nSometimes we see things as human because we are [27] ____ . In one experiment, people who reported feeling isolated were more likely than others to attribute [28] ____ to various gadgets. In turn, feeling close to objects can [29] ____ loneliness. When college students were reminded of a time they had been [30] ____ in a social setting they compensated by exaggerating their number of friends—unless they were first given tasks that caused them to interact with their phone as if it had human qualities. The phone [31] ____ stood in for real friends.\n\nAt other times, we personify products in an effort to understand them. One study found that three in four respondents yelled at their computer. Further, the more their computer gave them problems, the more likely the respondents were to report that it had its own \"beliefs and [32] ____ \".\n\nSo how do people assign traits to an object? In part, we rely on looks. On humans, wide faces are [33] ____ with dominance. Similarly, people rated cars, clocks and watches with wide faces as more dominant-looking than narrow-faced ones, and preferred them—especially in [34] ____ situations. An analysis of car sales in Germany found that cars with grilles(护栅) that were upturned like smiles sold best. The purchasers saw this [35] ____ as increasing a car's friendliness.",
+      "options": [
+        {
+          "id": "A",
+          "text": "alleviate"
+        },
+        {
+          "id": "B",
+          "text": "apparently"
+        },
+        {
+          "id": "C",
+          "text": "arrogant"
+        },
+        {
+          "id": "D",
+          "text": "associated"
+        },
+        {
+          "id": "E",
+          "text": "circumstances"
+        },
+        {
+          "id": "F",
+          "text": "competitive"
+        },
+        {
+          "id": "G",
+          "text": "conceded"
+        },
+        {
+          "id": "H",
+          "text": "consciousness"
+        },
+        {
+          "id": "I",
+          "text": "desires"
+        },
+        {
+          "id": "J",
+          "text": "excluded"
+        },
+        {
+          "id": "K",
+          "text": "feature"
+        },
+        {
+          "id": "L",
+          "text": "lonely"
+        },
+        {
+          "id": "M",
+          "text": "separate"
+        },
+        {
+          "id": "N",
+          "text": "spectacularly"
+        },
+        {
+          "id": "O",
+          "text": "warrant"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "先看第 28 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 H（consciousness）。本空所在句：In one experiment, people who reported feeling isolated were more likely than others to attribute [28] ____ to various gadgets.\n将本空替换为 consciousness 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-12-3-nonlistening-q29",
+      "canonicalId": "lazynote-cet6-2019-12-3-q29",
+      "number": 29,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 29 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The number of devices you can talk to is multiplying—first it was your phone, then your car, and now you can tell your kitchen appliance what to do. But even without gadgets that understand our spoken commands, research suggests that, as bizarre as it sounds, under certain [26] ____ , people regularly ascribe human traits to everyday objects.\n\nSometimes we see things as human because we are [27] ____ . In one experiment, people who reported feeling isolated were more likely than others to attribute [28] ____ to various gadgets. In turn, feeling close to objects can [29] ____ loneliness. When college students were reminded of a time they had been [30] ____ in a social setting they compensated by exaggerating their number of friends—unless they were first given tasks that caused them to interact with their phone as if it had human qualities. The phone [31] ____ stood in for real friends.\n\nAt other times, we personify products in an effort to understand them. One study found that three in four respondents yelled at their computer. Further, the more their computer gave them problems, the more likely the respondents were to report that it had its own \"beliefs and [32] ____ \".\n\nSo how do people assign traits to an object? In part, we rely on looks. On humans, wide faces are [33] ____ with dominance. Similarly, people rated cars, clocks and watches with wide faces as more dominant-looking than narrow-faced ones, and preferred them—especially in [34] ____ situations. An analysis of car sales in Germany found that cars with grilles(护栅) that were upturned like smiles sold best. The purchasers saw this [35] ____ as increasing a car's friendliness.",
+      "options": [
+        {
+          "id": "A",
+          "text": "alleviate"
+        },
+        {
+          "id": "B",
+          "text": "apparently"
+        },
+        {
+          "id": "C",
+          "text": "arrogant"
+        },
+        {
+          "id": "D",
+          "text": "associated"
+        },
+        {
+          "id": "E",
+          "text": "circumstances"
+        },
+        {
+          "id": "F",
+          "text": "competitive"
+        },
+        {
+          "id": "G",
+          "text": "conceded"
+        },
+        {
+          "id": "H",
+          "text": "consciousness"
+        },
+        {
+          "id": "I",
+          "text": "desires"
+        },
+        {
+          "id": "J",
+          "text": "excluded"
+        },
+        {
+          "id": "K",
+          "text": "feature"
+        },
+        {
+          "id": "L",
+          "text": "lonely"
+        },
+        {
+          "id": "M",
+          "text": "separate"
+        },
+        {
+          "id": "N",
+          "text": "spectacularly"
+        },
+        {
+          "id": "O",
+          "text": "warrant"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "先看第 29 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 A（alleviate）。本空所在句：In turn, feeling close to objects can [29] ____ loneliness.\n将本空替换为 alleviate 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-12-3-nonlistening-q30",
+      "canonicalId": "lazynote-cet6-2019-12-3-q30",
+      "number": 30,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 30 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The number of devices you can talk to is multiplying—first it was your phone, then your car, and now you can tell your kitchen appliance what to do. But even without gadgets that understand our spoken commands, research suggests that, as bizarre as it sounds, under certain [26] ____ , people regularly ascribe human traits to everyday objects.\n\nSometimes we see things as human because we are [27] ____ . In one experiment, people who reported feeling isolated were more likely than others to attribute [28] ____ to various gadgets. In turn, feeling close to objects can [29] ____ loneliness. When college students were reminded of a time they had been [30] ____ in a social setting they compensated by exaggerating their number of friends—unless they were first given tasks that caused them to interact with their phone as if it had human qualities. The phone [31] ____ stood in for real friends.\n\nAt other times, we personify products in an effort to understand them. One study found that three in four respondents yelled at their computer. Further, the more their computer gave them problems, the more likely the respondents were to report that it had its own \"beliefs and [32] ____ \".\n\nSo how do people assign traits to an object? In part, we rely on looks. On humans, wide faces are [33] ____ with dominance. Similarly, people rated cars, clocks and watches with wide faces as more dominant-looking than narrow-faced ones, and preferred them—especially in [34] ____ situations. An analysis of car sales in Germany found that cars with grilles(护栅) that were upturned like smiles sold best. The purchasers saw this [35] ____ as increasing a car's friendliness.",
+      "options": [
+        {
+          "id": "A",
+          "text": "alleviate"
+        },
+        {
+          "id": "B",
+          "text": "apparently"
+        },
+        {
+          "id": "C",
+          "text": "arrogant"
+        },
+        {
+          "id": "D",
+          "text": "associated"
+        },
+        {
+          "id": "E",
+          "text": "circumstances"
+        },
+        {
+          "id": "F",
+          "text": "competitive"
+        },
+        {
+          "id": "G",
+          "text": "conceded"
+        },
+        {
+          "id": "H",
+          "text": "consciousness"
+        },
+        {
+          "id": "I",
+          "text": "desires"
+        },
+        {
+          "id": "J",
+          "text": "excluded"
+        },
+        {
+          "id": "K",
+          "text": "feature"
+        },
+        {
+          "id": "L",
+          "text": "lonely"
+        },
+        {
+          "id": "M",
+          "text": "separate"
+        },
+        {
+          "id": "N",
+          "text": "spectacularly"
+        },
+        {
+          "id": "O",
+          "text": "warrant"
+        }
+      ],
+      "correctAnswer": "J",
+      "hint": "先看第 30 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 J（excluded）。本空所在句：When college students were reminded of a time they had been [30] ____ in a social setting they compensated by exaggerating their number of friends—unless they were first given tasks that caused them to interact with their phone as if it had human qualities.\n将本空替换为 excluded 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-12-3-nonlistening-q31",
+      "canonicalId": "lazynote-cet6-2019-12-3-q31",
+      "number": 31,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 31 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The number of devices you can talk to is multiplying—first it was your phone, then your car, and now you can tell your kitchen appliance what to do. But even without gadgets that understand our spoken commands, research suggests that, as bizarre as it sounds, under certain [26] ____ , people regularly ascribe human traits to everyday objects.\n\nSometimes we see things as human because we are [27] ____ . In one experiment, people who reported feeling isolated were more likely than others to attribute [28] ____ to various gadgets. In turn, feeling close to objects can [29] ____ loneliness. When college students were reminded of a time they had been [30] ____ in a social setting they compensated by exaggerating their number of friends—unless they were first given tasks that caused them to interact with their phone as if it had human qualities. The phone [31] ____ stood in for real friends.\n\nAt other times, we personify products in an effort to understand them. One study found that three in four respondents yelled at their computer. Further, the more their computer gave them problems, the more likely the respondents were to report that it had its own \"beliefs and [32] ____ \".\n\nSo how do people assign traits to an object? In part, we rely on looks. On humans, wide faces are [33] ____ with dominance. Similarly, people rated cars, clocks and watches with wide faces as more dominant-looking than narrow-faced ones, and preferred them—especially in [34] ____ situations. An analysis of car sales in Germany found that cars with grilles(护栅) that were upturned like smiles sold best. The purchasers saw this [35] ____ as increasing a car's friendliness.",
+      "options": [
+        {
+          "id": "A",
+          "text": "alleviate"
+        },
+        {
+          "id": "B",
+          "text": "apparently"
+        },
+        {
+          "id": "C",
+          "text": "arrogant"
+        },
+        {
+          "id": "D",
+          "text": "associated"
+        },
+        {
+          "id": "E",
+          "text": "circumstances"
+        },
+        {
+          "id": "F",
+          "text": "competitive"
+        },
+        {
+          "id": "G",
+          "text": "conceded"
+        },
+        {
+          "id": "H",
+          "text": "consciousness"
+        },
+        {
+          "id": "I",
+          "text": "desires"
+        },
+        {
+          "id": "J",
+          "text": "excluded"
+        },
+        {
+          "id": "K",
+          "text": "feature"
+        },
+        {
+          "id": "L",
+          "text": "lonely"
+        },
+        {
+          "id": "M",
+          "text": "separate"
+        },
+        {
+          "id": "N",
+          "text": "spectacularly"
+        },
+        {
+          "id": "O",
+          "text": "warrant"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "先看第 31 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 B（apparently）。本空所在句：The phone [31] ____ stood in for real friends.\n将本空替换为 apparently 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-12-3-nonlistening-q32",
+      "canonicalId": "lazynote-cet6-2019-12-3-q32",
+      "number": 32,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 32 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The number of devices you can talk to is multiplying—first it was your phone, then your car, and now you can tell your kitchen appliance what to do. But even without gadgets that understand our spoken commands, research suggests that, as bizarre as it sounds, under certain [26] ____ , people regularly ascribe human traits to everyday objects.\n\nSometimes we see things as human because we are [27] ____ . In one experiment, people who reported feeling isolated were more likely than others to attribute [28] ____ to various gadgets. In turn, feeling close to objects can [29] ____ loneliness. When college students were reminded of a time they had been [30] ____ in a social setting they compensated by exaggerating their number of friends—unless they were first given tasks that caused them to interact with their phone as if it had human qualities. The phone [31] ____ stood in for real friends.\n\nAt other times, we personify products in an effort to understand them. One study found that three in four respondents yelled at their computer. Further, the more their computer gave them problems, the more likely the respondents were to report that it had its own \"beliefs and [32] ____ \".\n\nSo how do people assign traits to an object? In part, we rely on looks. On humans, wide faces are [33] ____ with dominance. Similarly, people rated cars, clocks and watches with wide faces as more dominant-looking than narrow-faced ones, and preferred them—especially in [34] ____ situations. An analysis of car sales in Germany found that cars with grilles(护栅) that were upturned like smiles sold best. The purchasers saw this [35] ____ as increasing a car's friendliness.",
+      "options": [
+        {
+          "id": "A",
+          "text": "alleviate"
+        },
+        {
+          "id": "B",
+          "text": "apparently"
+        },
+        {
+          "id": "C",
+          "text": "arrogant"
+        },
+        {
+          "id": "D",
+          "text": "associated"
+        },
+        {
+          "id": "E",
+          "text": "circumstances"
+        },
+        {
+          "id": "F",
+          "text": "competitive"
+        },
+        {
+          "id": "G",
+          "text": "conceded"
+        },
+        {
+          "id": "H",
+          "text": "consciousness"
+        },
+        {
+          "id": "I",
+          "text": "desires"
+        },
+        {
+          "id": "J",
+          "text": "excluded"
+        },
+        {
+          "id": "K",
+          "text": "feature"
+        },
+        {
+          "id": "L",
+          "text": "lonely"
+        },
+        {
+          "id": "M",
+          "text": "separate"
+        },
+        {
+          "id": "N",
+          "text": "spectacularly"
+        },
+        {
+          "id": "O",
+          "text": "warrant"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "先看第 32 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 I（desires）。本空所在句：Further, the more their computer gave them problems, the more likely the respondents were to report that it had its own \"beliefs and [32] ____ \".\n将本空替换为 desires 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-12-3-nonlistening-q33",
+      "canonicalId": "lazynote-cet6-2019-12-3-q33",
+      "number": 33,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 33 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The number of devices you can talk to is multiplying—first it was your phone, then your car, and now you can tell your kitchen appliance what to do. But even without gadgets that understand our spoken commands, research suggests that, as bizarre as it sounds, under certain [26] ____ , people regularly ascribe human traits to everyday objects.\n\nSometimes we see things as human because we are [27] ____ . In one experiment, people who reported feeling isolated were more likely than others to attribute [28] ____ to various gadgets. In turn, feeling close to objects can [29] ____ loneliness. When college students were reminded of a time they had been [30] ____ in a social setting they compensated by exaggerating their number of friends—unless they were first given tasks that caused them to interact with their phone as if it had human qualities. The phone [31] ____ stood in for real friends.\n\nAt other times, we personify products in an effort to understand them. One study found that three in four respondents yelled at their computer. Further, the more their computer gave them problems, the more likely the respondents were to report that it had its own \"beliefs and [32] ____ \".\n\nSo how do people assign traits to an object? In part, we rely on looks. On humans, wide faces are [33] ____ with dominance. Similarly, people rated cars, clocks and watches with wide faces as more dominant-looking than narrow-faced ones, and preferred them—especially in [34] ____ situations. An analysis of car sales in Germany found that cars with grilles(护栅) that were upturned like smiles sold best. The purchasers saw this [35] ____ as increasing a car's friendliness.",
+      "options": [
+        {
+          "id": "A",
+          "text": "alleviate"
+        },
+        {
+          "id": "B",
+          "text": "apparently"
+        },
+        {
+          "id": "C",
+          "text": "arrogant"
+        },
+        {
+          "id": "D",
+          "text": "associated"
+        },
+        {
+          "id": "E",
+          "text": "circumstances"
+        },
+        {
+          "id": "F",
+          "text": "competitive"
+        },
+        {
+          "id": "G",
+          "text": "conceded"
+        },
+        {
+          "id": "H",
+          "text": "consciousness"
+        },
+        {
+          "id": "I",
+          "text": "desires"
+        },
+        {
+          "id": "J",
+          "text": "excluded"
+        },
+        {
+          "id": "K",
+          "text": "feature"
+        },
+        {
+          "id": "L",
+          "text": "lonely"
+        },
+        {
+          "id": "M",
+          "text": "separate"
+        },
+        {
+          "id": "N",
+          "text": "spectacularly"
+        },
+        {
+          "id": "O",
+          "text": "warrant"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "先看第 33 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 D（associated）。本空所在句：On humans, wide faces are [33] ____ with dominance.\n将本空替换为 associated 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-12-3-nonlistening-q34",
+      "canonicalId": "lazynote-cet6-2019-12-3-q34",
+      "number": 34,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 34 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The number of devices you can talk to is multiplying—first it was your phone, then your car, and now you can tell your kitchen appliance what to do. But even without gadgets that understand our spoken commands, research suggests that, as bizarre as it sounds, under certain [26] ____ , people regularly ascribe human traits to everyday objects.\n\nSometimes we see things as human because we are [27] ____ . In one experiment, people who reported feeling isolated were more likely than others to attribute [28] ____ to various gadgets. In turn, feeling close to objects can [29] ____ loneliness. When college students were reminded of a time they had been [30] ____ in a social setting they compensated by exaggerating their number of friends—unless they were first given tasks that caused them to interact with their phone as if it had human qualities. The phone [31] ____ stood in for real friends.\n\nAt other times, we personify products in an effort to understand them. One study found that three in four respondents yelled at their computer. Further, the more their computer gave them problems, the more likely the respondents were to report that it had its own \"beliefs and [32] ____ \".\n\nSo how do people assign traits to an object? In part, we rely on looks. On humans, wide faces are [33] ____ with dominance. Similarly, people rated cars, clocks and watches with wide faces as more dominant-looking than narrow-faced ones, and preferred them—especially in [34] ____ situations. An analysis of car sales in Germany found that cars with grilles(护栅) that were upturned like smiles sold best. The purchasers saw this [35] ____ as increasing a car's friendliness.",
+      "options": [
+        {
+          "id": "A",
+          "text": "alleviate"
+        },
+        {
+          "id": "B",
+          "text": "apparently"
+        },
+        {
+          "id": "C",
+          "text": "arrogant"
+        },
+        {
+          "id": "D",
+          "text": "associated"
+        },
+        {
+          "id": "E",
+          "text": "circumstances"
+        },
+        {
+          "id": "F",
+          "text": "competitive"
+        },
+        {
+          "id": "G",
+          "text": "conceded"
+        },
+        {
+          "id": "H",
+          "text": "consciousness"
+        },
+        {
+          "id": "I",
+          "text": "desires"
+        },
+        {
+          "id": "J",
+          "text": "excluded"
+        },
+        {
+          "id": "K",
+          "text": "feature"
+        },
+        {
+          "id": "L",
+          "text": "lonely"
+        },
+        {
+          "id": "M",
+          "text": "separate"
+        },
+        {
+          "id": "N",
+          "text": "spectacularly"
+        },
+        {
+          "id": "O",
+          "text": "warrant"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "先看第 34 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 F（competitive）。本空所在句：Similarly, people rated cars, clocks and watches with wide faces as more dominant-looking than narrow-faced ones, and preferred them—especially in [34] ____ situations.\n将本空替换为 competitive 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-12-3-nonlistening-q35",
+      "canonicalId": "lazynote-cet6-2019-12-3-q35",
+      "number": 35,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 35 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The number of devices you can talk to is multiplying—first it was your phone, then your car, and now you can tell your kitchen appliance what to do. But even without gadgets that understand our spoken commands, research suggests that, as bizarre as it sounds, under certain [26] ____ , people regularly ascribe human traits to everyday objects.\n\nSometimes we see things as human because we are [27] ____ . In one experiment, people who reported feeling isolated were more likely than others to attribute [28] ____ to various gadgets. In turn, feeling close to objects can [29] ____ loneliness. When college students were reminded of a time they had been [30] ____ in a social setting they compensated by exaggerating their number of friends—unless they were first given tasks that caused them to interact with their phone as if it had human qualities. The phone [31] ____ stood in for real friends.\n\nAt other times, we personify products in an effort to understand them. One study found that three in four respondents yelled at their computer. Further, the more their computer gave them problems, the more likely the respondents were to report that it had its own \"beliefs and [32] ____ \".\n\nSo how do people assign traits to an object? In part, we rely on looks. On humans, wide faces are [33] ____ with dominance. Similarly, people rated cars, clocks and watches with wide faces as more dominant-looking than narrow-faced ones, and preferred them—especially in [34] ____ situations. An analysis of car sales in Germany found that cars with grilles(护栅) that were upturned like smiles sold best. The purchasers saw this [35] ____ as increasing a car's friendliness.",
+      "options": [
+        {
+          "id": "A",
+          "text": "alleviate"
+        },
+        {
+          "id": "B",
+          "text": "apparently"
+        },
+        {
+          "id": "C",
+          "text": "arrogant"
+        },
+        {
+          "id": "D",
+          "text": "associated"
+        },
+        {
+          "id": "E",
+          "text": "circumstances"
+        },
+        {
+          "id": "F",
+          "text": "competitive"
+        },
+        {
+          "id": "G",
+          "text": "conceded"
+        },
+        {
+          "id": "H",
+          "text": "consciousness"
+        },
+        {
+          "id": "I",
+          "text": "desires"
+        },
+        {
+          "id": "J",
+          "text": "excluded"
+        },
+        {
+          "id": "K",
+          "text": "feature"
+        },
+        {
+          "id": "L",
+          "text": "lonely"
+        },
+        {
+          "id": "M",
+          "text": "separate"
+        },
+        {
+          "id": "N",
+          "text": "spectacularly"
+        },
+        {
+          "id": "O",
+          "text": "warrant"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "先看第 35 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 K（feature）。本空所在句：The purchasers saw this [35] ____ as increasing a car's friendliness.\n将本空替换为 feature 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-12-3-nonlistening-q36",
+      "canonicalId": "lazynote-cet6-2019-12-3-q36",
+      "number": 36,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Farmers going grass-fed are not affected by the ever-changing milk prices of the global market.",
+      "passage": "Why More Farmers Are Making The Switch to Grass-Fed Meat and Dairy\n\nA) Though he didn't come from a farming family, from a young age Tim Joseph was fascinated by the idea of living off the land. Reading magazines like The Stockman Grass Farmer and Graze, he got hooked on the idea of grass-fed agriculture. The idea that all energy and wealth comes from the sun really intrigued him. He thought the shorter the distance between the sun and the end product, the higher the profit to the farmer.\n\nB) Joseph wanted to put this theory to the test. In 2009, he and his wife Laura launched Maple Hill Creamery, an organic, all grass-fed yogurt company in northern New York. He quickly learned what the market has demonstrated: Demand for grass-fed products currently exceeds supply. Grass-fed beef is enjoying a 25-30% annual growth rate. Sales of grass-fed yogurt and kefir, on the other hand, have in the last year increased by over 38%. This is in comparison with a drop of just under 1% in the total yogurt and kefir market, according to natural and organic market research company SPINS. Joseph's top priority became getting his hands on enough grass-fed milk to keep customers satisfied, since his own 64-cow herd wasn't going to suffice.\n\nC) His first partnership was with Paul and Phyllis Amburgh, owners of the Dharma Lea farm in New York. The Amburghs, too, were true believers in grass-fed. In addition to supplying milk from their own 85-head herd, they began to help other farmers in the area convert from conventional to certified organic and grass-fed in order to enter the Maple Hill supply chain. Since 2010, the couple has helped 125 small dairy farms convert to grass-fed, with more than 80% of those farms coming on board during the last two years.\n\nD) All this conversion has helped Maple Hill grow 40-50% every year since it began, with no end in sight. Joseph has learned that a farmer has to have a certain mindset to successfully convert. But convincing open-minded dairy people is actually not that hard, when you look at the economics. Grass-fed milk can fetch up 2.5 times the price of conventional milk. Another factor is the squeeze that conventional dairy farmers have felt as the price of grain they feed their cows has gone up, tightening their profit margins. By replacing expensive grain feed with regenerative management practices, grass-fed farmers are insulated from jumps in the price of feed. These practices include grazing animals on grasses grown from the pastureland's natural seed bank, and fertilized by the cows' own fertilizer.\n\nE) Champions of this type of regenerative grazing also point to its animal welfare, climate and health benefits: Grass-fed animals live longer out of confinement. Grazing herds stimulate microbial activity in the soil, helping to capture water and separate carbon. And grass-fed dairy and meat have been shown to be higher in certain nutrients and healthy fats.\n\nF) In the grass fed system, farmers are also not subject to the wildly fluctuating milk prices of the international commodity market. The unpredictability of global demand and the lag-time it takes to add more cows to a herd to meet demand can result in events like the recent cheese surplus. Going grass-fed is a safe refuge, a way for family-scale farms to stay viable. Usually a farmer will get to the point where financially, what they're doing is not working. That's when they call Maple Hill. If the farm is well managed and has enough land, and the desire to convert is sincere, a relationship can begin. Through regular regional educational meetings, a large annual meeting, individual farm visits and thousands of phone calls, the Amburghs pass on the principles of pasture management. Maple Hill signs a contract pledging to buy the farmer's milk at a guaranteed base price, plus quality premiums and incentives for higher protein, butter-fat and other solids.\n\nG) While Maple Hill's conversion program is unusually hands-on and comprehensive, it's just one of a growing number of businesses committed to slowly changing the way America farms. Joseph calls sharing his knowledge network through peer-to-peer learning a core piece of the company's culture. Last summer, Massachusetts grass-fed beef advocate John Smith launched Big Picture Beef, a network of small grass-fed beef farms in New England and New York that is projected to bring to market 2,500 head of cattle from 125 producers this year. Early indications are that Smith will have no shortage of farm members. Since he began to informally announce the network at farming conferences and on social media, he's received a steady stream of inquiries from interested farmers.\n\nH) Shinn says he'll provide services ranging from formal seminars to on-farm workshops on holistic management, to one-on-one hand-holding and an almost 24/7 phone hotline for farmers who are converting. In exchange, he guarantees an above-market price for each animal and a calf-to-customer electronic ear tag ID system like that used in the European Union.\n\nI) Though advocates portray grass fed products as a win-win situation for all, they do have downsides. Price, for one, is an issue. Joseph says his products are priced 10-20% above organic versions, but depending on the product chosen, compared to non-organic conventional yogurt, consumers could pay a premium of 30-50% or more for grass-fed. As for the meat, Smith says his grass-fed hamburger will be priced 20-25% over the conventional alternative. But a look at the prices on online grocer Fresh Direct suggests a grass-fed premium of anywhere from 35-60%.\n\nJ) And not every farmer has the option of going grass-fed. For both beef and dairy production it requires, at least in the beginning, more pastureland. Grass-fed beef production tends to be more labor-intensive as well. But Smith counters that if you factor in the hidden cost of government corn subsidies, environment degradation, and decreased human health and animal welfare, grass-fed is the more cost-effective model. \"The sun provides the lowest cost of production and the cheapest meat,\" he says.\n\nK) Another grass-fed booster spurring farmers to convert is EPIC, which makes meat-based protein bars. Founders Taylor Collins and his wife, Katie Forrest, used to be endurance athletes; now they're advocates of grass-fed meat. Soon after launching EPIC's most successful product—the Bison Bacon Cranberry Bar—Collins and Forrest found they'd exhausted their sources for bison raised exclusively on pasture. When they started researching the supply chain, they learned that only 2-3% of all bison is actually grass-fed. The rest is feed-lot confined and fed grain and corn.\n\nL) But after General Mills bought EPIC in 2016, Collins and Forrest suddenly had the resources they needed to expand their supply chain. So the company teamed up with Wisconsin-based rancher Northstar Bison. EPIC fronted the money for the purchase of $2.5 million worth of young bison that will be raised according to its grass-fed protocols, with a guaranteed purchase price. The message to young people who might not otherwise be able to afford to break into the business is, \"'You can purchase this $3 million piece of land here, because I'm guaranteeing you today you'll have 1,000 bison on it.' We're bringing new blood into the old, conventional farming ecosystem, which is really cool to see,\" Collins explains.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 F 段。题干：Farmers going grass-fed are not affected by the ever-changing milk prices of the global market.\n核对该段原文：In the grass fed system, farmers are also not subject to the wildly fluctuating milk prices of the international commodity market. The unpredictability of global demand and the lag-time it takes to add more cows to a herd to meet demand can result in events like the recent cheese surplus. Going grass-fed is a safe refuge, a way for family-scale farms to stay viable. Usually a farmer will get to the point where financially, what they're doing is not working. That's when they call Maple Hill. If the farm is well managed and has enough land, and the desire to convert is sincere, a relationship can begin. Through regular regional educational meetings, a large annual meeting, individual farm visits and thousands of phone calls, the Amburghs pass on the principles of pasture management. Maple Hill signs a contract pledging to buy the farmer's milk at a guaranteed base price, plus quality premiums and incentives for higher protein, butter-fat and other solids.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-12-3-nonlistening-q37",
+      "canonicalId": "lazynote-cet6-2019-12-3-q37",
+      "number": 37,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Over the years, Tim Joseph's partners have helped many dairy farmers to switch to grass-fed.",
+      "passage": "Why More Farmers Are Making The Switch to Grass-Fed Meat and Dairy\n\nA) Though he didn't come from a farming family, from a young age Tim Joseph was fascinated by the idea of living off the land. Reading magazines like The Stockman Grass Farmer and Graze, he got hooked on the idea of grass-fed agriculture. The idea that all energy and wealth comes from the sun really intrigued him. He thought the shorter the distance between the sun and the end product, the higher the profit to the farmer.\n\nB) Joseph wanted to put this theory to the test. In 2009, he and his wife Laura launched Maple Hill Creamery, an organic, all grass-fed yogurt company in northern New York. He quickly learned what the market has demonstrated: Demand for grass-fed products currently exceeds supply. Grass-fed beef is enjoying a 25-30% annual growth rate. Sales of grass-fed yogurt and kefir, on the other hand, have in the last year increased by over 38%. This is in comparison with a drop of just under 1% in the total yogurt and kefir market, according to natural and organic market research company SPINS. Joseph's top priority became getting his hands on enough grass-fed milk to keep customers satisfied, since his own 64-cow herd wasn't going to suffice.\n\nC) His first partnership was with Paul and Phyllis Amburgh, owners of the Dharma Lea farm in New York. The Amburghs, too, were true believers in grass-fed. In addition to supplying milk from their own 85-head herd, they began to help other farmers in the area convert from conventional to certified organic and grass-fed in order to enter the Maple Hill supply chain. Since 2010, the couple has helped 125 small dairy farms convert to grass-fed, with more than 80% of those farms coming on board during the last two years.\n\nD) All this conversion has helped Maple Hill grow 40-50% every year since it began, with no end in sight. Joseph has learned that a farmer has to have a certain mindset to successfully convert. But convincing open-minded dairy people is actually not that hard, when you look at the economics. Grass-fed milk can fetch up 2.5 times the price of conventional milk. Another factor is the squeeze that conventional dairy farmers have felt as the price of grain they feed their cows has gone up, tightening their profit margins. By replacing expensive grain feed with regenerative management practices, grass-fed farmers are insulated from jumps in the price of feed. These practices include grazing animals on grasses grown from the pastureland's natural seed bank, and fertilized by the cows' own fertilizer.\n\nE) Champions of this type of regenerative grazing also point to its animal welfare, climate and health benefits: Grass-fed animals live longer out of confinement. Grazing herds stimulate microbial activity in the soil, helping to capture water and separate carbon. And grass-fed dairy and meat have been shown to be higher in certain nutrients and healthy fats.\n\nF) In the grass fed system, farmers are also not subject to the wildly fluctuating milk prices of the international commodity market. The unpredictability of global demand and the lag-time it takes to add more cows to a herd to meet demand can result in events like the recent cheese surplus. Going grass-fed is a safe refuge, a way for family-scale farms to stay viable. Usually a farmer will get to the point where financially, what they're doing is not working. That's when they call Maple Hill. If the farm is well managed and has enough land, and the desire to convert is sincere, a relationship can begin. Through regular regional educational meetings, a large annual meeting, individual farm visits and thousands of phone calls, the Amburghs pass on the principles of pasture management. Maple Hill signs a contract pledging to buy the farmer's milk at a guaranteed base price, plus quality premiums and incentives for higher protein, butter-fat and other solids.\n\nG) While Maple Hill's conversion program is unusually hands-on and comprehensive, it's just one of a growing number of businesses committed to slowly changing the way America farms. Joseph calls sharing his knowledge network through peer-to-peer learning a core piece of the company's culture. Last summer, Massachusetts grass-fed beef advocate John Smith launched Big Picture Beef, a network of small grass-fed beef farms in New England and New York that is projected to bring to market 2,500 head of cattle from 125 producers this year. Early indications are that Smith will have no shortage of farm members. Since he began to informally announce the network at farming conferences and on social media, he's received a steady stream of inquiries from interested farmers.\n\nH) Shinn says he'll provide services ranging from formal seminars to on-farm workshops on holistic management, to one-on-one hand-holding and an almost 24/7 phone hotline for farmers who are converting. In exchange, he guarantees an above-market price for each animal and a calf-to-customer electronic ear tag ID system like that used in the European Union.\n\nI) Though advocates portray grass fed products as a win-win situation for all, they do have downsides. Price, for one, is an issue. Joseph says his products are priced 10-20% above organic versions, but depending on the product chosen, compared to non-organic conventional yogurt, consumers could pay a premium of 30-50% or more for grass-fed. As for the meat, Smith says his grass-fed hamburger will be priced 20-25% over the conventional alternative. But a look at the prices on online grocer Fresh Direct suggests a grass-fed premium of anywhere from 35-60%.\n\nJ) And not every farmer has the option of going grass-fed. For both beef and dairy production it requires, at least in the beginning, more pastureland. Grass-fed beef production tends to be more labor-intensive as well. But Smith counters that if you factor in the hidden cost of government corn subsidies, environment degradation, and decreased human health and animal welfare, grass-fed is the more cost-effective model. \"The sun provides the lowest cost of production and the cheapest meat,\" he says.\n\nK) Another grass-fed booster spurring farmers to convert is EPIC, which makes meat-based protein bars. Founders Taylor Collins and his wife, Katie Forrest, used to be endurance athletes; now they're advocates of grass-fed meat. Soon after launching EPIC's most successful product—the Bison Bacon Cranberry Bar—Collins and Forrest found they'd exhausted their sources for bison raised exclusively on pasture. When they started researching the supply chain, they learned that only 2-3% of all bison is actually grass-fed. The rest is feed-lot confined and fed grain and corn.\n\nL) But after General Mills bought EPIC in 2016, Collins and Forrest suddenly had the resources they needed to expand their supply chain. So the company teamed up with Wisconsin-based rancher Northstar Bison. EPIC fronted the money for the purchase of $2.5 million worth of young bison that will be raised according to its grass-fed protocols, with a guaranteed purchase price. The message to young people who might not otherwise be able to afford to break into the business is, \"'You can purchase this $3 million piece of land here, because I'm guaranteeing you today you'll have 1,000 bison on it.' We're bringing new blood into the old, conventional farming ecosystem, which is really cool to see,\" Collins explains.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 C 段。题干：Over the years, Tim Joseph's partners have helped many dairy farmers to switch to grass-fed.\n核对该段原文：His first partnership was with Paul and Phyllis Amburgh, owners of the Dharma Lea farm in New York. The Amburghs, too, were true believers in grass-fed. In addition to supplying milk from their own 85-head herd, they began to help other farmers in the area convert from conventional to certified organic and grass-fed in order to enter the Maple Hill supply chain. Since 2010, the couple has helped 125 small dairy farms convert to grass-fed, with more than 80% of those farms coming on board during the last two years.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-12-3-nonlistening-q38",
+      "canonicalId": "lazynote-cet6-2019-12-3-q38",
+      "number": 38,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "One advocate believes that many other benefits should be taken into consideration when we assess the cost-effectiveness of grass-fed farming.",
+      "passage": "Why More Farmers Are Making The Switch to Grass-Fed Meat and Dairy\n\nA) Though he didn't come from a farming family, from a young age Tim Joseph was fascinated by the idea of living off the land. Reading magazines like The Stockman Grass Farmer and Graze, he got hooked on the idea of grass-fed agriculture. The idea that all energy and wealth comes from the sun really intrigued him. He thought the shorter the distance between the sun and the end product, the higher the profit to the farmer.\n\nB) Joseph wanted to put this theory to the test. In 2009, he and his wife Laura launched Maple Hill Creamery, an organic, all grass-fed yogurt company in northern New York. He quickly learned what the market has demonstrated: Demand for grass-fed products currently exceeds supply. Grass-fed beef is enjoying a 25-30% annual growth rate. Sales of grass-fed yogurt and kefir, on the other hand, have in the last year increased by over 38%. This is in comparison with a drop of just under 1% in the total yogurt and kefir market, according to natural and organic market research company SPINS. Joseph's top priority became getting his hands on enough grass-fed milk to keep customers satisfied, since his own 64-cow herd wasn't going to suffice.\n\nC) His first partnership was with Paul and Phyllis Amburgh, owners of the Dharma Lea farm in New York. The Amburghs, too, were true believers in grass-fed. In addition to supplying milk from their own 85-head herd, they began to help other farmers in the area convert from conventional to certified organic and grass-fed in order to enter the Maple Hill supply chain. Since 2010, the couple has helped 125 small dairy farms convert to grass-fed, with more than 80% of those farms coming on board during the last two years.\n\nD) All this conversion has helped Maple Hill grow 40-50% every year since it began, with no end in sight. Joseph has learned that a farmer has to have a certain mindset to successfully convert. But convincing open-minded dairy people is actually not that hard, when you look at the economics. Grass-fed milk can fetch up 2.5 times the price of conventional milk. Another factor is the squeeze that conventional dairy farmers have felt as the price of grain they feed their cows has gone up, tightening their profit margins. By replacing expensive grain feed with regenerative management practices, grass-fed farmers are insulated from jumps in the price of feed. These practices include grazing animals on grasses grown from the pastureland's natural seed bank, and fertilized by the cows' own fertilizer.\n\nE) Champions of this type of regenerative grazing also point to its animal welfare, climate and health benefits: Grass-fed animals live longer out of confinement. Grazing herds stimulate microbial activity in the soil, helping to capture water and separate carbon. And grass-fed dairy and meat have been shown to be higher in certain nutrients and healthy fats.\n\nF) In the grass fed system, farmers are also not subject to the wildly fluctuating milk prices of the international commodity market. The unpredictability of global demand and the lag-time it takes to add more cows to a herd to meet demand can result in events like the recent cheese surplus. Going grass-fed is a safe refuge, a way for family-scale farms to stay viable. Usually a farmer will get to the point where financially, what they're doing is not working. That's when they call Maple Hill. If the farm is well managed and has enough land, and the desire to convert is sincere, a relationship can begin. Through regular regional educational meetings, a large annual meeting, individual farm visits and thousands of phone calls, the Amburghs pass on the principles of pasture management. Maple Hill signs a contract pledging to buy the farmer's milk at a guaranteed base price, plus quality premiums and incentives for higher protein, butter-fat and other solids.\n\nG) While Maple Hill's conversion program is unusually hands-on and comprehensive, it's just one of a growing number of businesses committed to slowly changing the way America farms. Joseph calls sharing his knowledge network through peer-to-peer learning a core piece of the company's culture. Last summer, Massachusetts grass-fed beef advocate John Smith launched Big Picture Beef, a network of small grass-fed beef farms in New England and New York that is projected to bring to market 2,500 head of cattle from 125 producers this year. Early indications are that Smith will have no shortage of farm members. Since he began to informally announce the network at farming conferences and on social media, he's received a steady stream of inquiries from interested farmers.\n\nH) Shinn says he'll provide services ranging from formal seminars to on-farm workshops on holistic management, to one-on-one hand-holding and an almost 24/7 phone hotline for farmers who are converting. In exchange, he guarantees an above-market price for each animal and a calf-to-customer electronic ear tag ID system like that used in the European Union.\n\nI) Though advocates portray grass fed products as a win-win situation for all, they do have downsides. Price, for one, is an issue. Joseph says his products are priced 10-20% above organic versions, but depending on the product chosen, compared to non-organic conventional yogurt, consumers could pay a premium of 30-50% or more for grass-fed. As for the meat, Smith says his grass-fed hamburger will be priced 20-25% over the conventional alternative. But a look at the prices on online grocer Fresh Direct suggests a grass-fed premium of anywhere from 35-60%.\n\nJ) And not every farmer has the option of going grass-fed. For both beef and dairy production it requires, at least in the beginning, more pastureland. Grass-fed beef production tends to be more labor-intensive as well. But Smith counters that if you factor in the hidden cost of government corn subsidies, environment degradation, and decreased human health and animal welfare, grass-fed is the more cost-effective model. \"The sun provides the lowest cost of production and the cheapest meat,\" he says.\n\nK) Another grass-fed booster spurring farmers to convert is EPIC, which makes meat-based protein bars. Founders Taylor Collins and his wife, Katie Forrest, used to be endurance athletes; now they're advocates of grass-fed meat. Soon after launching EPIC's most successful product—the Bison Bacon Cranberry Bar—Collins and Forrest found they'd exhausted their sources for bison raised exclusively on pasture. When they started researching the supply chain, they learned that only 2-3% of all bison is actually grass-fed. The rest is feed-lot confined and fed grain and corn.\n\nL) But after General Mills bought EPIC in 2016, Collins and Forrest suddenly had the resources they needed to expand their supply chain. So the company teamed up with Wisconsin-based rancher Northstar Bison. EPIC fronted the money for the purchase of $2.5 million worth of young bison that will be raised according to its grass-fed protocols, with a guaranteed purchase price. The message to young people who might not otherwise be able to afford to break into the business is, \"'You can purchase this $3 million piece of land here, because I'm guaranteeing you today you'll have 1,000 bison on it.' We're bringing new blood into the old, conventional farming ecosystem, which is really cool to see,\" Collins explains.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "J",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 J 段。题干：One advocate believes that many other benefits should be taken into consideration when we assess the cost-effectiveness of grass-fed farming.\n核对该段原文：And not every farmer has the option of going grass-fed. For both beef and dairy production it requires, at least in the beginning, more pastureland. Grass-fed beef production tends to be more labor-intensive as well. But Smith counters that if you factor in the hidden cost of government corn subsidies, environment degradation, and decreased human health and animal welfare, grass-fed is the more cost-effective model. \"The sun provides the lowest cost of production and the cheapest meat,\" he says.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-12-3-nonlistening-q39",
+      "canonicalId": "lazynote-cet6-2019-12-3-q39",
+      "number": 39,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Many dairy farmers were persuaded to switch to grass-fed when they saw its advantage in terms of profits.",
+      "passage": "Why More Farmers Are Making The Switch to Grass-Fed Meat and Dairy\n\nA) Though he didn't come from a farming family, from a young age Tim Joseph was fascinated by the idea of living off the land. Reading magazines like The Stockman Grass Farmer and Graze, he got hooked on the idea of grass-fed agriculture. The idea that all energy and wealth comes from the sun really intrigued him. He thought the shorter the distance between the sun and the end product, the higher the profit to the farmer.\n\nB) Joseph wanted to put this theory to the test. In 2009, he and his wife Laura launched Maple Hill Creamery, an organic, all grass-fed yogurt company in northern New York. He quickly learned what the market has demonstrated: Demand for grass-fed products currently exceeds supply. Grass-fed beef is enjoying a 25-30% annual growth rate. Sales of grass-fed yogurt and kefir, on the other hand, have in the last year increased by over 38%. This is in comparison with a drop of just under 1% in the total yogurt and kefir market, according to natural and organic market research company SPINS. Joseph's top priority became getting his hands on enough grass-fed milk to keep customers satisfied, since his own 64-cow herd wasn't going to suffice.\n\nC) His first partnership was with Paul and Phyllis Amburgh, owners of the Dharma Lea farm in New York. The Amburghs, too, were true believers in grass-fed. In addition to supplying milk from their own 85-head herd, they began to help other farmers in the area convert from conventional to certified organic and grass-fed in order to enter the Maple Hill supply chain. Since 2010, the couple has helped 125 small dairy farms convert to grass-fed, with more than 80% of those farms coming on board during the last two years.\n\nD) All this conversion has helped Maple Hill grow 40-50% every year since it began, with no end in sight. Joseph has learned that a farmer has to have a certain mindset to successfully convert. But convincing open-minded dairy people is actually not that hard, when you look at the economics. Grass-fed milk can fetch up 2.5 times the price of conventional milk. Another factor is the squeeze that conventional dairy farmers have felt as the price of grain they feed their cows has gone up, tightening their profit margins. By replacing expensive grain feed with regenerative management practices, grass-fed farmers are insulated from jumps in the price of feed. These practices include grazing animals on grasses grown from the pastureland's natural seed bank, and fertilized by the cows' own fertilizer.\n\nE) Champions of this type of regenerative grazing also point to its animal welfare, climate and health benefits: Grass-fed animals live longer out of confinement. Grazing herds stimulate microbial activity in the soil, helping to capture water and separate carbon. And grass-fed dairy and meat have been shown to be higher in certain nutrients and healthy fats.\n\nF) In the grass fed system, farmers are also not subject to the wildly fluctuating milk prices of the international commodity market. The unpredictability of global demand and the lag-time it takes to add more cows to a herd to meet demand can result in events like the recent cheese surplus. Going grass-fed is a safe refuge, a way for family-scale farms to stay viable. Usually a farmer will get to the point where financially, what they're doing is not working. That's when they call Maple Hill. If the farm is well managed and has enough land, and the desire to convert is sincere, a relationship can begin. Through regular regional educational meetings, a large annual meeting, individual farm visits and thousands of phone calls, the Amburghs pass on the principles of pasture management. Maple Hill signs a contract pledging to buy the farmer's milk at a guaranteed base price, plus quality premiums and incentives for higher protein, butter-fat and other solids.\n\nG) While Maple Hill's conversion program is unusually hands-on and comprehensive, it's just one of a growing number of businesses committed to slowly changing the way America farms. Joseph calls sharing his knowledge network through peer-to-peer learning a core piece of the company's culture. Last summer, Massachusetts grass-fed beef advocate John Smith launched Big Picture Beef, a network of small grass-fed beef farms in New England and New York that is projected to bring to market 2,500 head of cattle from 125 producers this year. Early indications are that Smith will have no shortage of farm members. Since he began to informally announce the network at farming conferences and on social media, he's received a steady stream of inquiries from interested farmers.\n\nH) Shinn says he'll provide services ranging from formal seminars to on-farm workshops on holistic management, to one-on-one hand-holding and an almost 24/7 phone hotline for farmers who are converting. In exchange, he guarantees an above-market price for each animal and a calf-to-customer electronic ear tag ID system like that used in the European Union.\n\nI) Though advocates portray grass fed products as a win-win situation for all, they do have downsides. Price, for one, is an issue. Joseph says his products are priced 10-20% above organic versions, but depending on the product chosen, compared to non-organic conventional yogurt, consumers could pay a premium of 30-50% or more for grass-fed. As for the meat, Smith says his grass-fed hamburger will be priced 20-25% over the conventional alternative. But a look at the prices on online grocer Fresh Direct suggests a grass-fed premium of anywhere from 35-60%.\n\nJ) And not every farmer has the option of going grass-fed. For both beef and dairy production it requires, at least in the beginning, more pastureland. Grass-fed beef production tends to be more labor-intensive as well. But Smith counters that if you factor in the hidden cost of government corn subsidies, environment degradation, and decreased human health and animal welfare, grass-fed is the more cost-effective model. \"The sun provides the lowest cost of production and the cheapest meat,\" he says.\n\nK) Another grass-fed booster spurring farmers to convert is EPIC, which makes meat-based protein bars. Founders Taylor Collins and his wife, Katie Forrest, used to be endurance athletes; now they're advocates of grass-fed meat. Soon after launching EPIC's most successful product—the Bison Bacon Cranberry Bar—Collins and Forrest found they'd exhausted their sources for bison raised exclusively on pasture. When they started researching the supply chain, they learned that only 2-3% of all bison is actually grass-fed. The rest is feed-lot confined and fed grain and corn.\n\nL) But after General Mills bought EPIC in 2016, Collins and Forrest suddenly had the resources they needed to expand their supply chain. So the company teamed up with Wisconsin-based rancher Northstar Bison. EPIC fronted the money for the purchase of $2.5 million worth of young bison that will be raised according to its grass-fed protocols, with a guaranteed purchase price. The message to young people who might not otherwise be able to afford to break into the business is, \"'You can purchase this $3 million piece of land here, because I'm guaranteeing you today you'll have 1,000 bison on it.' We're bringing new blood into the old, conventional farming ecosystem, which is really cool to see,\" Collins explains.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 D 段。题干：Many dairy farmers were persuaded to switch to grass-fed when they saw its advantage in terms of profits.\n核对该段原文：All this conversion has helped Maple Hill grow 40-50% every year since it began, with no end in sight. Joseph has learned that a farmer has to have a certain mindset to successfully convert. But convincing open-minded dairy people is actually not that hard, when you look at the economics. Grass-fed milk can fetch up 2.5 times the price of conventional milk. Another factor is the squeeze that conventional dairy farmers have felt as the price of grain they feed their cows has gone up, tightening their profit margins. By replacing expensive grain feed with regenerative management practices, grass-fed farmers are insulated from jumps in the price of feed. These practices include grazing animals on grasses grown from the pastureland's natural seed bank, and fertilized by the cows' own fertilizer.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-12-3-nonlistening-q40",
+      "canonicalId": "lazynote-cet6-2019-12-3-q40",
+      "number": 40,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Tim Joseph's grass-fed program is only one example of how American farming practice is changing.",
+      "passage": "Why More Farmers Are Making The Switch to Grass-Fed Meat and Dairy\n\nA) Though he didn't come from a farming family, from a young age Tim Joseph was fascinated by the idea of living off the land. Reading magazines like The Stockman Grass Farmer and Graze, he got hooked on the idea of grass-fed agriculture. The idea that all energy and wealth comes from the sun really intrigued him. He thought the shorter the distance between the sun and the end product, the higher the profit to the farmer.\n\nB) Joseph wanted to put this theory to the test. In 2009, he and his wife Laura launched Maple Hill Creamery, an organic, all grass-fed yogurt company in northern New York. He quickly learned what the market has demonstrated: Demand for grass-fed products currently exceeds supply. Grass-fed beef is enjoying a 25-30% annual growth rate. Sales of grass-fed yogurt and kefir, on the other hand, have in the last year increased by over 38%. This is in comparison with a drop of just under 1% in the total yogurt and kefir market, according to natural and organic market research company SPINS. Joseph's top priority became getting his hands on enough grass-fed milk to keep customers satisfied, since his own 64-cow herd wasn't going to suffice.\n\nC) His first partnership was with Paul and Phyllis Amburgh, owners of the Dharma Lea farm in New York. The Amburghs, too, were true believers in grass-fed. In addition to supplying milk from their own 85-head herd, they began to help other farmers in the area convert from conventional to certified organic and grass-fed in order to enter the Maple Hill supply chain. Since 2010, the couple has helped 125 small dairy farms convert to grass-fed, with more than 80% of those farms coming on board during the last two years.\n\nD) All this conversion has helped Maple Hill grow 40-50% every year since it began, with no end in sight. Joseph has learned that a farmer has to have a certain mindset to successfully convert. But convincing open-minded dairy people is actually not that hard, when you look at the economics. Grass-fed milk can fetch up 2.5 times the price of conventional milk. Another factor is the squeeze that conventional dairy farmers have felt as the price of grain they feed their cows has gone up, tightening their profit margins. By replacing expensive grain feed with regenerative management practices, grass-fed farmers are insulated from jumps in the price of feed. These practices include grazing animals on grasses grown from the pastureland's natural seed bank, and fertilized by the cows' own fertilizer.\n\nE) Champions of this type of regenerative grazing also point to its animal welfare, climate and health benefits: Grass-fed animals live longer out of confinement. Grazing herds stimulate microbial activity in the soil, helping to capture water and separate carbon. And grass-fed dairy and meat have been shown to be higher in certain nutrients and healthy fats.\n\nF) In the grass fed system, farmers are also not subject to the wildly fluctuating milk prices of the international commodity market. The unpredictability of global demand and the lag-time it takes to add more cows to a herd to meet demand can result in events like the recent cheese surplus. Going grass-fed is a safe refuge, a way for family-scale farms to stay viable. Usually a farmer will get to the point where financially, what they're doing is not working. That's when they call Maple Hill. If the farm is well managed and has enough land, and the desire to convert is sincere, a relationship can begin. Through regular regional educational meetings, a large annual meeting, individual farm visits and thousands of phone calls, the Amburghs pass on the principles of pasture management. Maple Hill signs a contract pledging to buy the farmer's milk at a guaranteed base price, plus quality premiums and incentives for higher protein, butter-fat and other solids.\n\nG) While Maple Hill's conversion program is unusually hands-on and comprehensive, it's just one of a growing number of businesses committed to slowly changing the way America farms. Joseph calls sharing his knowledge network through peer-to-peer learning a core piece of the company's culture. Last summer, Massachusetts grass-fed beef advocate John Smith launched Big Picture Beef, a network of small grass-fed beef farms in New England and New York that is projected to bring to market 2,500 head of cattle from 125 producers this year. Early indications are that Smith will have no shortage of farm members. Since he began to informally announce the network at farming conferences and on social media, he's received a steady stream of inquiries from interested farmers.\n\nH) Shinn says he'll provide services ranging from formal seminars to on-farm workshops on holistic management, to one-on-one hand-holding and an almost 24/7 phone hotline for farmers who are converting. In exchange, he guarantees an above-market price for each animal and a calf-to-customer electronic ear tag ID system like that used in the European Union.\n\nI) Though advocates portray grass fed products as a win-win situation for all, they do have downsides. Price, for one, is an issue. Joseph says his products are priced 10-20% above organic versions, but depending on the product chosen, compared to non-organic conventional yogurt, consumers could pay a premium of 30-50% or more for grass-fed. As for the meat, Smith says his grass-fed hamburger will be priced 20-25% over the conventional alternative. But a look at the prices on online grocer Fresh Direct suggests a grass-fed premium of anywhere from 35-60%.\n\nJ) And not every farmer has the option of going grass-fed. For both beef and dairy production it requires, at least in the beginning, more pastureland. Grass-fed beef production tends to be more labor-intensive as well. But Smith counters that if you factor in the hidden cost of government corn subsidies, environment degradation, and decreased human health and animal welfare, grass-fed is the more cost-effective model. \"The sun provides the lowest cost of production and the cheapest meat,\" he says.\n\nK) Another grass-fed booster spurring farmers to convert is EPIC, which makes meat-based protein bars. Founders Taylor Collins and his wife, Katie Forrest, used to be endurance athletes; now they're advocates of grass-fed meat. Soon after launching EPIC's most successful product—the Bison Bacon Cranberry Bar—Collins and Forrest found they'd exhausted their sources for bison raised exclusively on pasture. When they started researching the supply chain, they learned that only 2-3% of all bison is actually grass-fed. The rest is feed-lot confined and fed grain and corn.\n\nL) But after General Mills bought EPIC in 2016, Collins and Forrest suddenly had the resources they needed to expand their supply chain. So the company teamed up with Wisconsin-based rancher Northstar Bison. EPIC fronted the money for the purchase of $2.5 million worth of young bison that will be raised according to its grass-fed protocols, with a guaranteed purchase price. The message to young people who might not otherwise be able to afford to break into the business is, \"'You can purchase this $3 million piece of land here, because I'm guaranteeing you today you'll have 1,000 bison on it.' We're bringing new blood into the old, conventional farming ecosystem, which is really cool to see,\" Collins explains.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 G 段。题干：Tim Joseph's grass-fed program is only one example of how American farming practice is changing.\n核对该段原文：While Maple Hill's conversion program is unusually hands-on and comprehensive, it's just one of a growing number of businesses committed to slowly changing the way America farms. Joseph calls sharing his knowledge network through peer-to-peer learning a core piece of the company's culture. Last summer, Massachusetts grass-fed beef advocate John Smith launched Big Picture Beef, a network of small grass-fed beef farms in New England and New York that is projected to bring to market 2,500 head of cattle from 125 producers this year. Early indications are that Smith will have no shortage of farm members. Since he began to informally announce the network at farming conferences and on social media, he's received a steady stream of inquiries from interested farmers.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-12-3-nonlistening-q41",
+      "canonicalId": "lazynote-cet6-2019-12-3-q41",
+      "number": 41,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Tim Joseph was fascinated by the notion that sunlight brings energy and wealth to mankind.",
+      "passage": "Why More Farmers Are Making The Switch to Grass-Fed Meat and Dairy\n\nA) Though he didn't come from a farming family, from a young age Tim Joseph was fascinated by the idea of living off the land. Reading magazines like The Stockman Grass Farmer and Graze, he got hooked on the idea of grass-fed agriculture. The idea that all energy and wealth comes from the sun really intrigued him. He thought the shorter the distance between the sun and the end product, the higher the profit to the farmer.\n\nB) Joseph wanted to put this theory to the test. In 2009, he and his wife Laura launched Maple Hill Creamery, an organic, all grass-fed yogurt company in northern New York. He quickly learned what the market has demonstrated: Demand for grass-fed products currently exceeds supply. Grass-fed beef is enjoying a 25-30% annual growth rate. Sales of grass-fed yogurt and kefir, on the other hand, have in the last year increased by over 38%. This is in comparison with a drop of just under 1% in the total yogurt and kefir market, according to natural and organic market research company SPINS. Joseph's top priority became getting his hands on enough grass-fed milk to keep customers satisfied, since his own 64-cow herd wasn't going to suffice.\n\nC) His first partnership was with Paul and Phyllis Amburgh, owners of the Dharma Lea farm in New York. The Amburghs, too, were true believers in grass-fed. In addition to supplying milk from their own 85-head herd, they began to help other farmers in the area convert from conventional to certified organic and grass-fed in order to enter the Maple Hill supply chain. Since 2010, the couple has helped 125 small dairy farms convert to grass-fed, with more than 80% of those farms coming on board during the last two years.\n\nD) All this conversion has helped Maple Hill grow 40-50% every year since it began, with no end in sight. Joseph has learned that a farmer has to have a certain mindset to successfully convert. But convincing open-minded dairy people is actually not that hard, when you look at the economics. Grass-fed milk can fetch up 2.5 times the price of conventional milk. Another factor is the squeeze that conventional dairy farmers have felt as the price of grain they feed their cows has gone up, tightening their profit margins. By replacing expensive grain feed with regenerative management practices, grass-fed farmers are insulated from jumps in the price of feed. These practices include grazing animals on grasses grown from the pastureland's natural seed bank, and fertilized by the cows' own fertilizer.\n\nE) Champions of this type of regenerative grazing also point to its animal welfare, climate and health benefits: Grass-fed animals live longer out of confinement. Grazing herds stimulate microbial activity in the soil, helping to capture water and separate carbon. And grass-fed dairy and meat have been shown to be higher in certain nutrients and healthy fats.\n\nF) In the grass fed system, farmers are also not subject to the wildly fluctuating milk prices of the international commodity market. The unpredictability of global demand and the lag-time it takes to add more cows to a herd to meet demand can result in events like the recent cheese surplus. Going grass-fed is a safe refuge, a way for family-scale farms to stay viable. Usually a farmer will get to the point where financially, what they're doing is not working. That's when they call Maple Hill. If the farm is well managed and has enough land, and the desire to convert is sincere, a relationship can begin. Through regular regional educational meetings, a large annual meeting, individual farm visits and thousands of phone calls, the Amburghs pass on the principles of pasture management. Maple Hill signs a contract pledging to buy the farmer's milk at a guaranteed base price, plus quality premiums and incentives for higher protein, butter-fat and other solids.\n\nG) While Maple Hill's conversion program is unusually hands-on and comprehensive, it's just one of a growing number of businesses committed to slowly changing the way America farms. Joseph calls sharing his knowledge network through peer-to-peer learning a core piece of the company's culture. Last summer, Massachusetts grass-fed beef advocate John Smith launched Big Picture Beef, a network of small grass-fed beef farms in New England and New York that is projected to bring to market 2,500 head of cattle from 125 producers this year. Early indications are that Smith will have no shortage of farm members. Since he began to informally announce the network at farming conferences and on social media, he's received a steady stream of inquiries from interested farmers.\n\nH) Shinn says he'll provide services ranging from formal seminars to on-farm workshops on holistic management, to one-on-one hand-holding and an almost 24/7 phone hotline for farmers who are converting. In exchange, he guarantees an above-market price for each animal and a calf-to-customer electronic ear tag ID system like that used in the European Union.\n\nI) Though advocates portray grass fed products as a win-win situation for all, they do have downsides. Price, for one, is an issue. Joseph says his products are priced 10-20% above organic versions, but depending on the product chosen, compared to non-organic conventional yogurt, consumers could pay a premium of 30-50% or more for grass-fed. As for the meat, Smith says his grass-fed hamburger will be priced 20-25% over the conventional alternative. But a look at the prices on online grocer Fresh Direct suggests a grass-fed premium of anywhere from 35-60%.\n\nJ) And not every farmer has the option of going grass-fed. For both beef and dairy production it requires, at least in the beginning, more pastureland. Grass-fed beef production tends to be more labor-intensive as well. But Smith counters that if you factor in the hidden cost of government corn subsidies, environment degradation, and decreased human health and animal welfare, grass-fed is the more cost-effective model. \"The sun provides the lowest cost of production and the cheapest meat,\" he says.\n\nK) Another grass-fed booster spurring farmers to convert is EPIC, which makes meat-based protein bars. Founders Taylor Collins and his wife, Katie Forrest, used to be endurance athletes; now they're advocates of grass-fed meat. Soon after launching EPIC's most successful product—the Bison Bacon Cranberry Bar—Collins and Forrest found they'd exhausted their sources for bison raised exclusively on pasture. When they started researching the supply chain, they learned that only 2-3% of all bison is actually grass-fed. The rest is feed-lot confined and fed grain and corn.\n\nL) But after General Mills bought EPIC in 2016, Collins and Forrest suddenly had the resources they needed to expand their supply chain. So the company teamed up with Wisconsin-based rancher Northstar Bison. EPIC fronted the money for the purchase of $2.5 million worth of young bison that will be raised according to its grass-fed protocols, with a guaranteed purchase price. The message to young people who might not otherwise be able to afford to break into the business is, \"'You can purchase this $3 million piece of land here, because I'm guaranteeing you today you'll have 1,000 bison on it.' We're bringing new blood into the old, conventional farming ecosystem, which is really cool to see,\" Collins explains.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 A 段。题干：Tim Joseph was fascinated by the notion that sunlight brings energy and wealth to mankind.\n核对该段原文：Though he didn't come from a farming family, from a young age Tim Joseph was fascinated by the idea of living off the land. Reading magazines like The Stockman Grass Farmer and Graze, he got hooked on the idea of grass-fed agriculture. The idea that all energy and wealth comes from the sun really intrigued him. He thought the shorter the distance between the sun and the end product, the higher the profit to the farmer.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-12-3-nonlistening-q42",
+      "canonicalId": "lazynote-cet6-2019-12-3-q42",
+      "number": 42,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "One problem with grass-fed products is that they are usually more expensive than conventional ones.",
+      "passage": "Why More Farmers Are Making The Switch to Grass-Fed Meat and Dairy\n\nA) Though he didn't come from a farming family, from a young age Tim Joseph was fascinated by the idea of living off the land. Reading magazines like The Stockman Grass Farmer and Graze, he got hooked on the idea of grass-fed agriculture. The idea that all energy and wealth comes from the sun really intrigued him. He thought the shorter the distance between the sun and the end product, the higher the profit to the farmer.\n\nB) Joseph wanted to put this theory to the test. In 2009, he and his wife Laura launched Maple Hill Creamery, an organic, all grass-fed yogurt company in northern New York. He quickly learned what the market has demonstrated: Demand for grass-fed products currently exceeds supply. Grass-fed beef is enjoying a 25-30% annual growth rate. Sales of grass-fed yogurt and kefir, on the other hand, have in the last year increased by over 38%. This is in comparison with a drop of just under 1% in the total yogurt and kefir market, according to natural and organic market research company SPINS. Joseph's top priority became getting his hands on enough grass-fed milk to keep customers satisfied, since his own 64-cow herd wasn't going to suffice.\n\nC) His first partnership was with Paul and Phyllis Amburgh, owners of the Dharma Lea farm in New York. The Amburghs, too, were true believers in grass-fed. In addition to supplying milk from their own 85-head herd, they began to help other farmers in the area convert from conventional to certified organic and grass-fed in order to enter the Maple Hill supply chain. Since 2010, the couple has helped 125 small dairy farms convert to grass-fed, with more than 80% of those farms coming on board during the last two years.\n\nD) All this conversion has helped Maple Hill grow 40-50% every year since it began, with no end in sight. Joseph has learned that a farmer has to have a certain mindset to successfully convert. But convincing open-minded dairy people is actually not that hard, when you look at the economics. Grass-fed milk can fetch up 2.5 times the price of conventional milk. Another factor is the squeeze that conventional dairy farmers have felt as the price of grain they feed their cows has gone up, tightening their profit margins. By replacing expensive grain feed with regenerative management practices, grass-fed farmers are insulated from jumps in the price of feed. These practices include grazing animals on grasses grown from the pastureland's natural seed bank, and fertilized by the cows' own fertilizer.\n\nE) Champions of this type of regenerative grazing also point to its animal welfare, climate and health benefits: Grass-fed animals live longer out of confinement. Grazing herds stimulate microbial activity in the soil, helping to capture water and separate carbon. And grass-fed dairy and meat have been shown to be higher in certain nutrients and healthy fats.\n\nF) In the grass fed system, farmers are also not subject to the wildly fluctuating milk prices of the international commodity market. The unpredictability of global demand and the lag-time it takes to add more cows to a herd to meet demand can result in events like the recent cheese surplus. Going grass-fed is a safe refuge, a way for family-scale farms to stay viable. Usually a farmer will get to the point where financially, what they're doing is not working. That's when they call Maple Hill. If the farm is well managed and has enough land, and the desire to convert is sincere, a relationship can begin. Through regular regional educational meetings, a large annual meeting, individual farm visits and thousands of phone calls, the Amburghs pass on the principles of pasture management. Maple Hill signs a contract pledging to buy the farmer's milk at a guaranteed base price, plus quality premiums and incentives for higher protein, butter-fat and other solids.\n\nG) While Maple Hill's conversion program is unusually hands-on and comprehensive, it's just one of a growing number of businesses committed to slowly changing the way America farms. Joseph calls sharing his knowledge network through peer-to-peer learning a core piece of the company's culture. Last summer, Massachusetts grass-fed beef advocate John Smith launched Big Picture Beef, a network of small grass-fed beef farms in New England and New York that is projected to bring to market 2,500 head of cattle from 125 producers this year. Early indications are that Smith will have no shortage of farm members. Since he began to informally announce the network at farming conferences and on social media, he's received a steady stream of inquiries from interested farmers.\n\nH) Shinn says he'll provide services ranging from formal seminars to on-farm workshops on holistic management, to one-on-one hand-holding and an almost 24/7 phone hotline for farmers who are converting. In exchange, he guarantees an above-market price for each animal and a calf-to-customer electronic ear tag ID system like that used in the European Union.\n\nI) Though advocates portray grass fed products as a win-win situation for all, they do have downsides. Price, for one, is an issue. Joseph says his products are priced 10-20% above organic versions, but depending on the product chosen, compared to non-organic conventional yogurt, consumers could pay a premium of 30-50% or more for grass-fed. As for the meat, Smith says his grass-fed hamburger will be priced 20-25% over the conventional alternative. But a look at the prices on online grocer Fresh Direct suggests a grass-fed premium of anywhere from 35-60%.\n\nJ) And not every farmer has the option of going grass-fed. For both beef and dairy production it requires, at least in the beginning, more pastureland. Grass-fed beef production tends to be more labor-intensive as well. But Smith counters that if you factor in the hidden cost of government corn subsidies, environment degradation, and decreased human health and animal welfare, grass-fed is the more cost-effective model. \"The sun provides the lowest cost of production and the cheapest meat,\" he says.\n\nK) Another grass-fed booster spurring farmers to convert is EPIC, which makes meat-based protein bars. Founders Taylor Collins and his wife, Katie Forrest, used to be endurance athletes; now they're advocates of grass-fed meat. Soon after launching EPIC's most successful product—the Bison Bacon Cranberry Bar—Collins and Forrest found they'd exhausted their sources for bison raised exclusively on pasture. When they started researching the supply chain, they learned that only 2-3% of all bison is actually grass-fed. The rest is feed-lot confined and fed grain and corn.\n\nL) But after General Mills bought EPIC in 2016, Collins and Forrest suddenly had the resources they needed to expand their supply chain. So the company teamed up with Wisconsin-based rancher Northstar Bison. EPIC fronted the money for the purchase of $2.5 million worth of young bison that will be raised according to its grass-fed protocols, with a guaranteed purchase price. The message to young people who might not otherwise be able to afford to break into the business is, \"'You can purchase this $3 million piece of land here, because I'm guaranteeing you today you'll have 1,000 bison on it.' We're bringing new blood into the old, conventional farming ecosystem, which is really cool to see,\" Collins explains.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 I 段。题干：One problem with grass-fed products is that they are usually more expensive than conventional ones.\n核对该段原文：Though advocates portray grass fed products as a win-win situation for all, they do have downsides. Price, for one, is an issue. Joseph says his products are priced 10-20% above organic versions, but depending on the product chosen, compared to non-organic conventional yogurt, consumers could pay a premium of 30-50% or more for grass-fed. As for the meat, Smith says his grass-fed hamburger will be priced 20-25% over the conventional alternative. But a look at the prices on online grocer Fresh Direct suggests a grass-fed premium of anywhere from 35-60%.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-12-3-nonlistening-q43",
+      "canonicalId": "lazynote-cet6-2019-12-3-q43",
+      "number": 43,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Grass fed products have proved to be healthier and more nutritious.",
+      "passage": "Why More Farmers Are Making The Switch to Grass-Fed Meat and Dairy\n\nA) Though he didn't come from a farming family, from a young age Tim Joseph was fascinated by the idea of living off the land. Reading magazines like The Stockman Grass Farmer and Graze, he got hooked on the idea of grass-fed agriculture. The idea that all energy and wealth comes from the sun really intrigued him. He thought the shorter the distance between the sun and the end product, the higher the profit to the farmer.\n\nB) Joseph wanted to put this theory to the test. In 2009, he and his wife Laura launched Maple Hill Creamery, an organic, all grass-fed yogurt company in northern New York. He quickly learned what the market has demonstrated: Demand for grass-fed products currently exceeds supply. Grass-fed beef is enjoying a 25-30% annual growth rate. Sales of grass-fed yogurt and kefir, on the other hand, have in the last year increased by over 38%. This is in comparison with a drop of just under 1% in the total yogurt and kefir market, according to natural and organic market research company SPINS. Joseph's top priority became getting his hands on enough grass-fed milk to keep customers satisfied, since his own 64-cow herd wasn't going to suffice.\n\nC) His first partnership was with Paul and Phyllis Amburgh, owners of the Dharma Lea farm in New York. The Amburghs, too, were true believers in grass-fed. In addition to supplying milk from their own 85-head herd, they began to help other farmers in the area convert from conventional to certified organic and grass-fed in order to enter the Maple Hill supply chain. Since 2010, the couple has helped 125 small dairy farms convert to grass-fed, with more than 80% of those farms coming on board during the last two years.\n\nD) All this conversion has helped Maple Hill grow 40-50% every year since it began, with no end in sight. Joseph has learned that a farmer has to have a certain mindset to successfully convert. But convincing open-minded dairy people is actually not that hard, when you look at the economics. Grass-fed milk can fetch up 2.5 times the price of conventional milk. Another factor is the squeeze that conventional dairy farmers have felt as the price of grain they feed their cows has gone up, tightening their profit margins. By replacing expensive grain feed with regenerative management practices, grass-fed farmers are insulated from jumps in the price of feed. These practices include grazing animals on grasses grown from the pastureland's natural seed bank, and fertilized by the cows' own fertilizer.\n\nE) Champions of this type of regenerative grazing also point to its animal welfare, climate and health benefits: Grass-fed animals live longer out of confinement. Grazing herds stimulate microbial activity in the soil, helping to capture water and separate carbon. And grass-fed dairy and meat have been shown to be higher in certain nutrients and healthy fats.\n\nF) In the grass fed system, farmers are also not subject to the wildly fluctuating milk prices of the international commodity market. The unpredictability of global demand and the lag-time it takes to add more cows to a herd to meet demand can result in events like the recent cheese surplus. Going grass-fed is a safe refuge, a way for family-scale farms to stay viable. Usually a farmer will get to the point where financially, what they're doing is not working. That's when they call Maple Hill. If the farm is well managed and has enough land, and the desire to convert is sincere, a relationship can begin. Through regular regional educational meetings, a large annual meeting, individual farm visits and thousands of phone calls, the Amburghs pass on the principles of pasture management. Maple Hill signs a contract pledging to buy the farmer's milk at a guaranteed base price, plus quality premiums and incentives for higher protein, butter-fat and other solids.\n\nG) While Maple Hill's conversion program is unusually hands-on and comprehensive, it's just one of a growing number of businesses committed to slowly changing the way America farms. Joseph calls sharing his knowledge network through peer-to-peer learning a core piece of the company's culture. Last summer, Massachusetts grass-fed beef advocate John Smith launched Big Picture Beef, a network of small grass-fed beef farms in New England and New York that is projected to bring to market 2,500 head of cattle from 125 producers this year. Early indications are that Smith will have no shortage of farm members. Since he began to informally announce the network at farming conferences and on social media, he's received a steady stream of inquiries from interested farmers.\n\nH) Shinn says he'll provide services ranging from formal seminars to on-farm workshops on holistic management, to one-on-one hand-holding and an almost 24/7 phone hotline for farmers who are converting. In exchange, he guarantees an above-market price for each animal and a calf-to-customer electronic ear tag ID system like that used in the European Union.\n\nI) Though advocates portray grass fed products as a win-win situation for all, they do have downsides. Price, for one, is an issue. Joseph says his products are priced 10-20% above organic versions, but depending on the product chosen, compared to non-organic conventional yogurt, consumers could pay a premium of 30-50% or more for grass-fed. As for the meat, Smith says his grass-fed hamburger will be priced 20-25% over the conventional alternative. But a look at the prices on online grocer Fresh Direct suggests a grass-fed premium of anywhere from 35-60%.\n\nJ) And not every farmer has the option of going grass-fed. For both beef and dairy production it requires, at least in the beginning, more pastureland. Grass-fed beef production tends to be more labor-intensive as well. But Smith counters that if you factor in the hidden cost of government corn subsidies, environment degradation, and decreased human health and animal welfare, grass-fed is the more cost-effective model. \"The sun provides the lowest cost of production and the cheapest meat,\" he says.\n\nK) Another grass-fed booster spurring farmers to convert is EPIC, which makes meat-based protein bars. Founders Taylor Collins and his wife, Katie Forrest, used to be endurance athletes; now they're advocates of grass-fed meat. Soon after launching EPIC's most successful product—the Bison Bacon Cranberry Bar—Collins and Forrest found they'd exhausted their sources for bison raised exclusively on pasture. When they started researching the supply chain, they learned that only 2-3% of all bison is actually grass-fed. The rest is feed-lot confined and fed grain and corn.\n\nL) But after General Mills bought EPIC in 2016, Collins and Forrest suddenly had the resources they needed to expand their supply chain. So the company teamed up with Wisconsin-based rancher Northstar Bison. EPIC fronted the money for the purchase of $2.5 million worth of young bison that will be raised according to its grass-fed protocols, with a guaranteed purchase price. The message to young people who might not otherwise be able to afford to break into the business is, \"'You can purchase this $3 million piece of land here, because I'm guaranteeing you today you'll have 1,000 bison on it.' We're bringing new blood into the old, conventional farming ecosystem, which is really cool to see,\" Collins explains.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 E 段。题干：Grass fed products have proved to be healthier and more nutritious.\n核对该段原文：Champions of this type of regenerative grazing also point to its animal welfare, climate and health benefits: Grass-fed animals live longer out of confinement. Grazing herds stimulate microbial activity in the soil, helping to capture water and separate carbon. And grass-fed dairy and meat have been shown to be higher in certain nutrients and healthy fats.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-12-3-nonlistening-q44",
+      "canonicalId": "lazynote-cet6-2019-12-3-q44",
+      "number": 44,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "When Tim Joseph started his business, he found grass-fed products fell short of demand.",
+      "passage": "Why More Farmers Are Making The Switch to Grass-Fed Meat and Dairy\n\nA) Though he didn't come from a farming family, from a young age Tim Joseph was fascinated by the idea of living off the land. Reading magazines like The Stockman Grass Farmer and Graze, he got hooked on the idea of grass-fed agriculture. The idea that all energy and wealth comes from the sun really intrigued him. He thought the shorter the distance between the sun and the end product, the higher the profit to the farmer.\n\nB) Joseph wanted to put this theory to the test. In 2009, he and his wife Laura launched Maple Hill Creamery, an organic, all grass-fed yogurt company in northern New York. He quickly learned what the market has demonstrated: Demand for grass-fed products currently exceeds supply. Grass-fed beef is enjoying a 25-30% annual growth rate. Sales of grass-fed yogurt and kefir, on the other hand, have in the last year increased by over 38%. This is in comparison with a drop of just under 1% in the total yogurt and kefir market, according to natural and organic market research company SPINS. Joseph's top priority became getting his hands on enough grass-fed milk to keep customers satisfied, since his own 64-cow herd wasn't going to suffice.\n\nC) His first partnership was with Paul and Phyllis Amburgh, owners of the Dharma Lea farm in New York. The Amburghs, too, were true believers in grass-fed. In addition to supplying milk from their own 85-head herd, they began to help other farmers in the area convert from conventional to certified organic and grass-fed in order to enter the Maple Hill supply chain. Since 2010, the couple has helped 125 small dairy farms convert to grass-fed, with more than 80% of those farms coming on board during the last two years.\n\nD) All this conversion has helped Maple Hill grow 40-50% every year since it began, with no end in sight. Joseph has learned that a farmer has to have a certain mindset to successfully convert. But convincing open-minded dairy people is actually not that hard, when you look at the economics. Grass-fed milk can fetch up 2.5 times the price of conventional milk. Another factor is the squeeze that conventional dairy farmers have felt as the price of grain they feed their cows has gone up, tightening their profit margins. By replacing expensive grain feed with regenerative management practices, grass-fed farmers are insulated from jumps in the price of feed. These practices include grazing animals on grasses grown from the pastureland's natural seed bank, and fertilized by the cows' own fertilizer.\n\nE) Champions of this type of regenerative grazing also point to its animal welfare, climate and health benefits: Grass-fed animals live longer out of confinement. Grazing herds stimulate microbial activity in the soil, helping to capture water and separate carbon. And grass-fed dairy and meat have been shown to be higher in certain nutrients and healthy fats.\n\nF) In the grass fed system, farmers are also not subject to the wildly fluctuating milk prices of the international commodity market. The unpredictability of global demand and the lag-time it takes to add more cows to a herd to meet demand can result in events like the recent cheese surplus. Going grass-fed is a safe refuge, a way for family-scale farms to stay viable. Usually a farmer will get to the point where financially, what they're doing is not working. That's when they call Maple Hill. If the farm is well managed and has enough land, and the desire to convert is sincere, a relationship can begin. Through regular regional educational meetings, a large annual meeting, individual farm visits and thousands of phone calls, the Amburghs pass on the principles of pasture management. Maple Hill signs a contract pledging to buy the farmer's milk at a guaranteed base price, plus quality premiums and incentives for higher protein, butter-fat and other solids.\n\nG) While Maple Hill's conversion program is unusually hands-on and comprehensive, it's just one of a growing number of businesses committed to slowly changing the way America farms. Joseph calls sharing his knowledge network through peer-to-peer learning a core piece of the company's culture. Last summer, Massachusetts grass-fed beef advocate John Smith launched Big Picture Beef, a network of small grass-fed beef farms in New England and New York that is projected to bring to market 2,500 head of cattle from 125 producers this year. Early indications are that Smith will have no shortage of farm members. Since he began to informally announce the network at farming conferences and on social media, he's received a steady stream of inquiries from interested farmers.\n\nH) Shinn says he'll provide services ranging from formal seminars to on-farm workshops on holistic management, to one-on-one hand-holding and an almost 24/7 phone hotline for farmers who are converting. In exchange, he guarantees an above-market price for each animal and a calf-to-customer electronic ear tag ID system like that used in the European Union.\n\nI) Though advocates portray grass fed products as a win-win situation for all, they do have downsides. Price, for one, is an issue. Joseph says his products are priced 10-20% above organic versions, but depending on the product chosen, compared to non-organic conventional yogurt, consumers could pay a premium of 30-50% or more for grass-fed. As for the meat, Smith says his grass-fed hamburger will be priced 20-25% over the conventional alternative. But a look at the prices on online grocer Fresh Direct suggests a grass-fed premium of anywhere from 35-60%.\n\nJ) And not every farmer has the option of going grass-fed. For both beef and dairy production it requires, at least in the beginning, more pastureland. Grass-fed beef production tends to be more labor-intensive as well. But Smith counters that if you factor in the hidden cost of government corn subsidies, environment degradation, and decreased human health and animal welfare, grass-fed is the more cost-effective model. \"The sun provides the lowest cost of production and the cheapest meat,\" he says.\n\nK) Another grass-fed booster spurring farmers to convert is EPIC, which makes meat-based protein bars. Founders Taylor Collins and his wife, Katie Forrest, used to be endurance athletes; now they're advocates of grass-fed meat. Soon after launching EPIC's most successful product—the Bison Bacon Cranberry Bar—Collins and Forrest found they'd exhausted their sources for bison raised exclusively on pasture. When they started researching the supply chain, they learned that only 2-3% of all bison is actually grass-fed. The rest is feed-lot confined and fed grain and corn.\n\nL) But after General Mills bought EPIC in 2016, Collins and Forrest suddenly had the resources they needed to expand their supply chain. So the company teamed up with Wisconsin-based rancher Northstar Bison. EPIC fronted the money for the purchase of $2.5 million worth of young bison that will be raised according to its grass-fed protocols, with a guaranteed purchase price. The message to young people who might not otherwise be able to afford to break into the business is, \"'You can purchase this $3 million piece of land here, because I'm guaranteeing you today you'll have 1,000 bison on it.' We're bringing new blood into the old, conventional farming ecosystem, which is really cool to see,\" Collins explains.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 B 段。题干：When Tim Joseph started his business, he found grass-fed products fell short of demand.\n核对该段原文：Joseph wanted to put this theory to the test. In 2009, he and his wife Laura launched Maple Hill Creamery, an organic, all grass-fed yogurt company in northern New York. He quickly learned what the market has demonstrated: Demand for grass-fed products currently exceeds supply. Grass-fed beef is enjoying a 25-30% annual growth rate. Sales of grass-fed yogurt and kefir, on the other hand, have in the last year increased by over 38%. This is in comparison with a drop of just under 1% in the total yogurt and kefir market, according to natural and organic market research company SPINS. Joseph's top priority became getting his hands on enough grass-fed milk to keep customers satisfied, since his own 64-cow herd wasn't going to suffice.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-12-3-nonlistening-q45",
+      "canonicalId": "lazynote-cet6-2019-12-3-q45",
+      "number": 45,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "A snack bar producer discovered that the supply of purely grass-fed bison meat was scarce.",
+      "passage": "Why More Farmers Are Making The Switch to Grass-Fed Meat and Dairy\n\nA) Though he didn't come from a farming family, from a young age Tim Joseph was fascinated by the idea of living off the land. Reading magazines like The Stockman Grass Farmer and Graze, he got hooked on the idea of grass-fed agriculture. The idea that all energy and wealth comes from the sun really intrigued him. He thought the shorter the distance between the sun and the end product, the higher the profit to the farmer.\n\nB) Joseph wanted to put this theory to the test. In 2009, he and his wife Laura launched Maple Hill Creamery, an organic, all grass-fed yogurt company in northern New York. He quickly learned what the market has demonstrated: Demand for grass-fed products currently exceeds supply. Grass-fed beef is enjoying a 25-30% annual growth rate. Sales of grass-fed yogurt and kefir, on the other hand, have in the last year increased by over 38%. This is in comparison with a drop of just under 1% in the total yogurt and kefir market, according to natural and organic market research company SPINS. Joseph's top priority became getting his hands on enough grass-fed milk to keep customers satisfied, since his own 64-cow herd wasn't going to suffice.\n\nC) His first partnership was with Paul and Phyllis Amburgh, owners of the Dharma Lea farm in New York. The Amburghs, too, were true believers in grass-fed. In addition to supplying milk from their own 85-head herd, they began to help other farmers in the area convert from conventional to certified organic and grass-fed in order to enter the Maple Hill supply chain. Since 2010, the couple has helped 125 small dairy farms convert to grass-fed, with more than 80% of those farms coming on board during the last two years.\n\nD) All this conversion has helped Maple Hill grow 40-50% every year since it began, with no end in sight. Joseph has learned that a farmer has to have a certain mindset to successfully convert. But convincing open-minded dairy people is actually not that hard, when you look at the economics. Grass-fed milk can fetch up 2.5 times the price of conventional milk. Another factor is the squeeze that conventional dairy farmers have felt as the price of grain they feed their cows has gone up, tightening their profit margins. By replacing expensive grain feed with regenerative management practices, grass-fed farmers are insulated from jumps in the price of feed. These practices include grazing animals on grasses grown from the pastureland's natural seed bank, and fertilized by the cows' own fertilizer.\n\nE) Champions of this type of regenerative grazing also point to its animal welfare, climate and health benefits: Grass-fed animals live longer out of confinement. Grazing herds stimulate microbial activity in the soil, helping to capture water and separate carbon. And grass-fed dairy and meat have been shown to be higher in certain nutrients and healthy fats.\n\nF) In the grass fed system, farmers are also not subject to the wildly fluctuating milk prices of the international commodity market. The unpredictability of global demand and the lag-time it takes to add more cows to a herd to meet demand can result in events like the recent cheese surplus. Going grass-fed is a safe refuge, a way for family-scale farms to stay viable. Usually a farmer will get to the point where financially, what they're doing is not working. That's when they call Maple Hill. If the farm is well managed and has enough land, and the desire to convert is sincere, a relationship can begin. Through regular regional educational meetings, a large annual meeting, individual farm visits and thousands of phone calls, the Amburghs pass on the principles of pasture management. Maple Hill signs a contract pledging to buy the farmer's milk at a guaranteed base price, plus quality premiums and incentives for higher protein, butter-fat and other solids.\n\nG) While Maple Hill's conversion program is unusually hands-on and comprehensive, it's just one of a growing number of businesses committed to slowly changing the way America farms. Joseph calls sharing his knowledge network through peer-to-peer learning a core piece of the company's culture. Last summer, Massachusetts grass-fed beef advocate John Smith launched Big Picture Beef, a network of small grass-fed beef farms in New England and New York that is projected to bring to market 2,500 head of cattle from 125 producers this year. Early indications are that Smith will have no shortage of farm members. Since he began to informally announce the network at farming conferences and on social media, he's received a steady stream of inquiries from interested farmers.\n\nH) Shinn says he'll provide services ranging from formal seminars to on-farm workshops on holistic management, to one-on-one hand-holding and an almost 24/7 phone hotline for farmers who are converting. In exchange, he guarantees an above-market price for each animal and a calf-to-customer electronic ear tag ID system like that used in the European Union.\n\nI) Though advocates portray grass fed products as a win-win situation for all, they do have downsides. Price, for one, is an issue. Joseph says his products are priced 10-20% above organic versions, but depending on the product chosen, compared to non-organic conventional yogurt, consumers could pay a premium of 30-50% or more for grass-fed. As for the meat, Smith says his grass-fed hamburger will be priced 20-25% over the conventional alternative. But a look at the prices on online grocer Fresh Direct suggests a grass-fed premium of anywhere from 35-60%.\n\nJ) And not every farmer has the option of going grass-fed. For both beef and dairy production it requires, at least in the beginning, more pastureland. Grass-fed beef production tends to be more labor-intensive as well. But Smith counters that if you factor in the hidden cost of government corn subsidies, environment degradation, and decreased human health and animal welfare, grass-fed is the more cost-effective model. \"The sun provides the lowest cost of production and the cheapest meat,\" he says.\n\nK) Another grass-fed booster spurring farmers to convert is EPIC, which makes meat-based protein bars. Founders Taylor Collins and his wife, Katie Forrest, used to be endurance athletes; now they're advocates of grass-fed meat. Soon after launching EPIC's most successful product—the Bison Bacon Cranberry Bar—Collins and Forrest found they'd exhausted their sources for bison raised exclusively on pasture. When they started researching the supply chain, they learned that only 2-3% of all bison is actually grass-fed. The rest is feed-lot confined and fed grain and corn.\n\nL) But after General Mills bought EPIC in 2016, Collins and Forrest suddenly had the resources they needed to expand their supply chain. So the company teamed up with Wisconsin-based rancher Northstar Bison. EPIC fronted the money for the purchase of $2.5 million worth of young bison that will be raised according to its grass-fed protocols, with a guaranteed purchase price. The message to young people who might not otherwise be able to afford to break into the business is, \"'You can purchase this $3 million piece of land here, because I'm guaranteeing you today you'll have 1,000 bison on it.' We're bringing new blood into the old, conventional farming ecosystem, which is really cool to see,\" Collins explains.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 K 段。题干：A snack bar producer discovered that the supply of purely grass-fed bison meat was scarce.\n核对该段原文：Another grass-fed booster spurring farmers to convert is EPIC, which makes meat-based protein bars. Founders Taylor Collins and his wife, Katie Forrest, used to be endurance athletes; now they're advocates of grass-fed meat. Soon after launching EPIC's most successful product—the Bison Bacon Cranberry Bar—Collins and Forrest found they'd exhausted their sources for bison raised exclusively on pasture. When they started researching the supply chain, they learned that only 2-3% of all bison is actually grass-fed. The rest is feed-lot confined and fed grain and corn.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-12-3-nonlistening-q46",
+      "canonicalId": "lazynote-cet6-2019-12-3-q46",
+      "number": 46,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author say best schools should do?",
+      "passage": "Schools are not just a microcosm of society; they mediate it too. The best seek to alleviate the external pressures on their pupils while equipping them better to understand and handle the world outside—at once sheltering them and broadening their horizons. This is ambitious in any circumstances, and in a divided and unequal society the two ideals can clash outright.\n\nTrips that many adults would consider the adventure of a lifetime—treks in Borneo, a sports tour to Barbados—appear to have become almost routine at some state schools. Parents are being asked for thousands of pounds. Though schools cannot profit from these trips, the companies that arrange them do. Meanwhile, pupils arrive at school hungry because their families can't afford breakfast. The Child Poverty Action Group says nine out of 30 in every classroom fall below the poverty line. The discrepancy is startlingly apparent. Introducing a fundraising requirement for students does not help, as better-off children can tap up richer aunts and neighbours.\n\nProbing the rock pools of a local beach or practising French on a language exchange can fire children's passions, boost their skills and open their eyes to life's possibilities. Educational outings help bright but disadvantaged students to get better scores in A-level tests. In this globalised age, there is a good case for international travel, and some parents say they can manage the cost of a school trip abroad more easily than a family holiday. Even in the face of immense and mounting financial pressures, some schools have shown remarkable determination and ingenuity in ensuring that all their pupils are able to take up opportunities that may be truly life-changing. They should be applauded. Methods such as whole-school fundraising, with the proceeds pooled, can help to extend opportunities and fuel community spirit.\n\nBut £3,000 trips cannot be justified when the average income for families with children is just over £30,000. Such initiatives close doors for many pupils. Some parents pull their children out of school because of expensive field trips. Even parents who can see that a trip is little more than a party or celebration may well feel guilt that their child is left behind.\n\nThe Department for Education's guidance says schools can charge only for board and lodging if the trip is part of the syllabus, and that students receiving government aid are exempt from these costs. However, many schools seem to ignore the advice; and it does not cover the kind of glamorous, exotic trips, which are becoming increasingly common. Schools cannot be expected to bring together communities single-handed. But the least we should expect is that they do not foster divisions and exclude those who are already disadvantaged.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prepare students to both challenge and change the divided unequal society."
+        },
+        {
+          "id": "B",
+          "text": "Protect students from social pressures and enable them to face the world."
+        },
+        {
+          "id": "C",
+          "text": "Motivate students to develop their physical as well as intellectual abilities."
+        },
+        {
+          "id": "D",
+          "text": "Encourage students to be ambitious and help them to achieve their goals."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：Protect students from social pressures and enable them to face the world.\n关键词检索定位到第 1 段的候选相关句：The best seek to alleviate the external pressures on their pupils while equipping them better to understand and handle the world outside—at once sheltering them and broadening their horizons.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-12-3-nonlistening-q47",
+      "canonicalId": "lazynote-cet6-2019-12-3-q47",
+      "number": 47,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author think about school field trips?",
+      "passage": "Schools are not just a microcosm of society; they mediate it too. The best seek to alleviate the external pressures on their pupils while equipping them better to understand and handle the world outside—at once sheltering them and broadening their horizons. This is ambitious in any circumstances, and in a divided and unequal society the two ideals can clash outright.\n\nTrips that many adults would consider the adventure of a lifetime—treks in Borneo, a sports tour to Barbados—appear to have become almost routine at some state schools. Parents are being asked for thousands of pounds. Though schools cannot profit from these trips, the companies that arrange them do. Meanwhile, pupils arrive at school hungry because their families can't afford breakfast. The Child Poverty Action Group says nine out of 30 in every classroom fall below the poverty line. The discrepancy is startlingly apparent. Introducing a fundraising requirement for students does not help, as better-off children can tap up richer aunts and neighbours.\n\nProbing the rock pools of a local beach or practising French on a language exchange can fire children's passions, boost their skills and open their eyes to life's possibilities. Educational outings help bright but disadvantaged students to get better scores in A-level tests. In this globalised age, there is a good case for international travel, and some parents say they can manage the cost of a school trip abroad more easily than a family holiday. Even in the face of immense and mounting financial pressures, some schools have shown remarkable determination and ingenuity in ensuring that all their pupils are able to take up opportunities that may be truly life-changing. They should be applauded. Methods such as whole-school fundraising, with the proceeds pooled, can help to extend opportunities and fuel community spirit.\n\nBut £3,000 trips cannot be justified when the average income for families with children is just over £30,000. Such initiatives close doors for many pupils. Some parents pull their children out of school because of expensive field trips. Even parents who can see that a trip is little more than a party or celebration may well feel guilt that their child is left behind.\n\nThe Department for Education's guidance says schools can charge only for board and lodging if the trip is part of the syllabus, and that students receiving government aid are exempt from these costs. However, many schools seem to ignore the advice; and it does not cover the kind of glamorous, exotic trips, which are becoming increasingly common. Schools cannot be expected to bring together communities single-handed. But the least we should expect is that they do not foster divisions and exclude those who are already disadvantaged.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They enable students from different backgrounds to mix with each other."
+        },
+        {
+          "id": "B",
+          "text": "They widen the gap between privileged and disadvantaged students."
+        },
+        {
+          "id": "C",
+          "text": "They give the disadvantaged students a chance to see the world."
+        },
+        {
+          "id": "D",
+          "text": "They only benefit students with rich relatives and neighbours."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：They widen the gap between privileged and disadvantaged students.\n关键词检索定位到第 4 段的候选相关句：Some parents pull their children out of school because of expensive field trips.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-12-3-nonlistening-q48",
+      "canonicalId": "lazynote-cet6-2019-12-3-q48",
+      "number": 48,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author suggest can help build community spirit?",
+      "passage": "Schools are not just a microcosm of society; they mediate it too. The best seek to alleviate the external pressures on their pupils while equipping them better to understand and handle the world outside—at once sheltering them and broadening their horizons. This is ambitious in any circumstances, and in a divided and unequal society the two ideals can clash outright.\n\nTrips that many adults would consider the adventure of a lifetime—treks in Borneo, a sports tour to Barbados—appear to have become almost routine at some state schools. Parents are being asked for thousands of pounds. Though schools cannot profit from these trips, the companies that arrange them do. Meanwhile, pupils arrive at school hungry because their families can't afford breakfast. The Child Poverty Action Group says nine out of 30 in every classroom fall below the poverty line. The discrepancy is startlingly apparent. Introducing a fundraising requirement for students does not help, as better-off children can tap up richer aunts and neighbours.\n\nProbing the rock pools of a local beach or practising French on a language exchange can fire children's passions, boost their skills and open their eyes to life's possibilities. Educational outings help bright but disadvantaged students to get better scores in A-level tests. In this globalised age, there is a good case for international travel, and some parents say they can manage the cost of a school trip abroad more easily than a family holiday. Even in the face of immense and mounting financial pressures, some schools have shown remarkable determination and ingenuity in ensuring that all their pupils are able to take up opportunities that may be truly life-changing. They should be applauded. Methods such as whole-school fundraising, with the proceeds pooled, can help to extend opportunities and fuel community spirit.\n\nBut £3,000 trips cannot be justified when the average income for families with children is just over £30,000. Such initiatives close doors for many pupils. Some parents pull their children out of school because of expensive field trips. Even parents who can see that a trip is little more than a party or celebration may well feel guilt that their child is left behind.\n\nThe Department for Education's guidance says schools can charge only for board and lodging if the trip is part of the syllabus, and that students receiving government aid are exempt from these costs. However, many schools seem to ignore the advice; and it does not cover the kind of glamorous, exotic trips, which are becoming increasingly common. Schools cannot be expected to bring together communities single-handed. But the least we should expect is that they do not foster divisions and exclude those who are already disadvantaged.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Events aiming to improve community services."
+        },
+        {
+          "id": "B",
+          "text": "Activities that help to fuel students' ingenuity."
+        },
+        {
+          "id": "C",
+          "text": "Events that require mutual understanding."
+        },
+        {
+          "id": "D",
+          "text": "Activities involving all students on campus."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：Activities involving all students on campus.\n关键词检索定位到第 3 段的候选相关句：Methods such as whole-school fundraising, with the proceeds pooled, can help to extend opportunities and fuel community spirit.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-12-3-nonlistening-q49",
+      "canonicalId": "lazynote-cet6-2019-12-3-q49",
+      "number": 49,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn about low-income parents regarding school field trips?",
+      "passage": "Schools are not just a microcosm of society; they mediate it too. The best seek to alleviate the external pressures on their pupils while equipping them better to understand and handle the world outside—at once sheltering them and broadening their horizons. This is ambitious in any circumstances, and in a divided and unequal society the two ideals can clash outright.\n\nTrips that many adults would consider the adventure of a lifetime—treks in Borneo, a sports tour to Barbados—appear to have become almost routine at some state schools. Parents are being asked for thousands of pounds. Though schools cannot profit from these trips, the companies that arrange them do. Meanwhile, pupils arrive at school hungry because their families can't afford breakfast. The Child Poverty Action Group says nine out of 30 in every classroom fall below the poverty line. The discrepancy is startlingly apparent. Introducing a fundraising requirement for students does not help, as better-off children can tap up richer aunts and neighbours.\n\nProbing the rock pools of a local beach or practising French on a language exchange can fire children's passions, boost their skills and open their eyes to life's possibilities. Educational outings help bright but disadvantaged students to get better scores in A-level tests. In this globalised age, there is a good case for international travel, and some parents say they can manage the cost of a school trip abroad more easily than a family holiday. Even in the face of immense and mounting financial pressures, some schools have shown remarkable determination and ingenuity in ensuring that all their pupils are able to take up opportunities that may be truly life-changing. They should be applauded. Methods such as whole-school fundraising, with the proceeds pooled, can help to extend opportunities and fuel community spirit.\n\nBut £3,000 trips cannot be justified when the average income for families with children is just over £30,000. Such initiatives close doors for many pupils. Some parents pull their children out of school because of expensive field trips. Even parents who can see that a trip is little more than a party or celebration may well feel guilt that their child is left behind.\n\nThe Department for Education's guidance says schools can charge only for board and lodging if the trip is part of the syllabus, and that students receiving government aid are exempt from these costs. However, many schools seem to ignore the advice; and it does not cover the kind of glamorous, exotic trips, which are becoming increasingly common. Schools cannot be expected to bring together communities single-handed. But the least we should expect is that they do not foster divisions and exclude those who are already disadvantaged.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They want their children to participate even though they don't see much benefit."
+        },
+        {
+          "id": "B",
+          "text": "They don't want their kids to participate but find it hard to keep them from going."
+        },
+        {
+          "id": "C",
+          "text": "They don't want their kids to miss any chance to broaden their horizons despite the cost."
+        },
+        {
+          "id": "D",
+          "text": "They want their children to experience adventures but they don't want them to run risks."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：They want their children to participate even though they don't see much benefit.\n关键词检索定位到第 4 段的候选相关句：Some parents pull their children out of school because of expensive field trips.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-12-3-nonlistening-q50",
+      "canonicalId": "lazynote-cet6-2019-12-3-q50",
+      "number": 50,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What is the author's expectation of schools?",
+      "passage": "Schools are not just a microcosm of society; they mediate it too. The best seek to alleviate the external pressures on their pupils while equipping them better to understand and handle the world outside—at once sheltering them and broadening their horizons. This is ambitious in any circumstances, and in a divided and unequal society the two ideals can clash outright.\n\nTrips that many adults would consider the adventure of a lifetime—treks in Borneo, a sports tour to Barbados—appear to have become almost routine at some state schools. Parents are being asked for thousands of pounds. Though schools cannot profit from these trips, the companies that arrange them do. Meanwhile, pupils arrive at school hungry because their families can't afford breakfast. The Child Poverty Action Group says nine out of 30 in every classroom fall below the poverty line. The discrepancy is startlingly apparent. Introducing a fundraising requirement for students does not help, as better-off children can tap up richer aunts and neighbours.\n\nProbing the rock pools of a local beach or practising French on a language exchange can fire children's passions, boost their skills and open their eyes to life's possibilities. Educational outings help bright but disadvantaged students to get better scores in A-level tests. In this globalised age, there is a good case for international travel, and some parents say they can manage the cost of a school trip abroad more easily than a family holiday. Even in the face of immense and mounting financial pressures, some schools have shown remarkable determination and ingenuity in ensuring that all their pupils are able to take up opportunities that may be truly life-changing. They should be applauded. Methods such as whole-school fundraising, with the proceeds pooled, can help to extend opportunities and fuel community spirit.\n\nBut £3,000 trips cannot be justified when the average income for families with children is just over £30,000. Such initiatives close doors for many pupils. Some parents pull their children out of school because of expensive field trips. Even parents who can see that a trip is little more than a party or celebration may well feel guilt that their child is left behind.\n\nThe Department for Education's guidance says schools can charge only for board and lodging if the trip is part of the syllabus, and that students receiving government aid are exempt from these costs. However, many schools seem to ignore the advice; and it does not cover the kind of glamorous, exotic trips, which are becoming increasingly common. Schools cannot be expected to bring together communities single-handed. But the least we should expect is that they do not foster divisions and exclude those who are already disadvantaged.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bringing a community together with ingenuity."
+        },
+        {
+          "id": "B",
+          "text": "Resolving the existing discrepancies in society."
+        },
+        {
+          "id": "C",
+          "text": "Avoiding creating new gaps among students."
+        },
+        {
+          "id": "D",
+          "text": "Giving poor students preferential treatment."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：Avoiding creating new gaps among students.\n关键词检索定位到第 5 段的候选相关句：The Department for Education's guidance says schools can charge only for board and lodging if the trip is part of the syllabus, and that students receiving government aid are exempt from these costs.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-12-3-nonlistening-q51",
+      "canonicalId": "lazynote-cet6-2019-12-3-q51",
+      "number": 51,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What will happen by 2100, according to a new study?",
+      "passage": "Rising temperatures and overfishing in the pristine(未受污染的) waters around the Antarctic could see king penguin populations pushed to the brink of extinction by the end of the century, according to a new study. The study's report states that as global warming transforms the environment in the world's last great wilderness, 70 percent of king penguins could either disappear or be forced to find new breeding grounds.\n\nCo-author Celine Le Bohec, from the University of Strasbourg in France, warned: \"If there are no actions aimed at halting or controlling global warming, and the pace of the current human-induced changes such as climate change and overfishing stays the same, the species may soon disappear.\" The findings come amid growing concern over the future of the Antarctic. Earlier this month a separate study found that a combination of climate change and industrial fishing is threatening the krill(磷虾) population in Antarctic waters, with a potentially disastrous impact on whales, seals and penguins. But today's report is the starkest warning yet of the potentially devastating impact of climate change and human exploitation on the Antarctic's delicate ecosystems.\n\nLe Bohec said: \"Unless current greenhouse gas emissions drop, 70 percent of king penguins—1.1 million breeding pairs—will be forced to relocate their breeding grounds, or face extinction by 2100.\" King penguins are the second-largest type of penguin and only breed on specific isolated islands in the Southern Ocean where there is no ice cover and easy access to the sea. As the ocean warms, a body of water called the Antarctic Polar Front—an upward movement of nutrient-rich sea that supports a huge abundance of marine life—is being pushed further south. This means that king penguins, which feed on fish and krill in this body of water, have to travel further to their feeding grounds, leaving their hungry chicks for longer. And as the distance between their breeding grounds and their food grows, entire colonies could be wiped out.\n\nLe Bohec said: \"The plight of the king penguin should serve as a warning about the future of the entire marine environment in the Antarctic. Penguins, like other seabirds and marine mammals, occupy higher levels in the food chain and they are what we call bio-indicators of their ecosystems.\" Penguins are sensitive indicators of changes in marine ecosystems. As such, they are key species for understanding and predicting impacts of global change on Antarctic and sub-Antarctic marine ecosystems. The report found that although some king penguins may be able to relocate to new breeding grounds closer to their retreating food source, suitable new habitats would be scarce. Only a handful of islands in the Southern Ocean are suitable for sustaining large breeding colonies.",
+      "options": [
+        {
+          "id": "A",
+          "text": "King penguins in the Antarctic will be on the verge of dying out."
+        },
+        {
+          "id": "B",
+          "text": "Sea water will rise to a much higher level around the Antarctic."
+        },
+        {
+          "id": "C",
+          "text": "The melting ice cover will destroy the great Antarctic wilderness."
+        },
+        {
+          "id": "D",
+          "text": "The pristine waters around the Antarctic will disappear forever."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：King penguins in the Antarctic will be on the verge of dying out.\n关键词检索定位到第 1 段的候选相关句：Rising temperatures and overfishing in the pristine(未受污染的) waters around the Antarctic could see king penguin populations pushed to the brink of extinction by the end of the century, according to a new study.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-12-3-nonlistening-q52",
+      "canonicalId": "lazynote-cet6-2019-12-3-q52",
+      "number": 52,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn from the findings of a separate study?",
+      "passage": "Rising temperatures and overfishing in the pristine(未受污染的) waters around the Antarctic could see king penguin populations pushed to the brink of extinction by the end of the century, according to a new study. The study's report states that as global warming transforms the environment in the world's last great wilderness, 70 percent of king penguins could either disappear or be forced to find new breeding grounds.\n\nCo-author Celine Le Bohec, from the University of Strasbourg in France, warned: \"If there are no actions aimed at halting or controlling global warming, and the pace of the current human-induced changes such as climate change and overfishing stays the same, the species may soon disappear.\" The findings come amid growing concern over the future of the Antarctic. Earlier this month a separate study found that a combination of climate change and industrial fishing is threatening the krill(磷虾) population in Antarctic waters, with a potentially disastrous impact on whales, seals and penguins. But today's report is the starkest warning yet of the potentially devastating impact of climate change and human exploitation on the Antarctic's delicate ecosystems.\n\nLe Bohec said: \"Unless current greenhouse gas emissions drop, 70 percent of king penguins—1.1 million breeding pairs—will be forced to relocate their breeding grounds, or face extinction by 2100.\" King penguins are the second-largest type of penguin and only breed on specific isolated islands in the Southern Ocean where there is no ice cover and easy access to the sea. As the ocean warms, a body of water called the Antarctic Polar Front—an upward movement of nutrient-rich sea that supports a huge abundance of marine life—is being pushed further south. This means that king penguins, which feed on fish and krill in this body of water, have to travel further to their feeding grounds, leaving their hungry chicks for longer. And as the distance between their breeding grounds and their food grows, entire colonies could be wiped out.\n\nLe Bohec said: \"The plight of the king penguin should serve as a warning about the future of the entire marine environment in the Antarctic. Penguins, like other seabirds and marine mammals, occupy higher levels in the food chain and they are what we call bio-indicators of their ecosystems.\" Penguins are sensitive indicators of changes in marine ecosystems. As such, they are key species for understanding and predicting impacts of global change on Antarctic and sub-Antarctic marine ecosystems. The report found that although some king penguins may be able to relocate to new breeding grounds closer to their retreating food source, suitable new habitats would be scarce. Only a handful of islands in the Southern Ocean are suitable for sustaining large breeding colonies.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Shrinking krill population and rising temperatures could force Antarctic whales to migrate."
+        },
+        {
+          "id": "B",
+          "text": "Human activities have accelerated climate change in the Antarctic region in recent years."
+        },
+        {
+          "id": "C",
+          "text": "Industrial fishing and climate change could be fatal to certain Antarctic species."
+        },
+        {
+          "id": "D",
+          "text": "Krill fishing in the Antarctic has worsened the pollution of the pristine waters."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：Industrial fishing and climate change could be fatal to certain Antarctic species.\n关键词检索定位到第 2 段的候选相关句：Earlier this month a separate study found that a combination of climate change and industrial fishing is threatening the krill(磷虾) population in Antarctic waters, with a potentially disastrous impact on whales, seals and penguins.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-12-3-nonlistening-q53",
+      "canonicalId": "lazynote-cet6-2019-12-3-q53",
+      "number": 53,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the passage say about king penguins?",
+      "passage": "Rising temperatures and overfishing in the pristine(未受污染的) waters around the Antarctic could see king penguin populations pushed to the brink of extinction by the end of the century, according to a new study. The study's report states that as global warming transforms the environment in the world's last great wilderness, 70 percent of king penguins could either disappear or be forced to find new breeding grounds.\n\nCo-author Celine Le Bohec, from the University of Strasbourg in France, warned: \"If there are no actions aimed at halting or controlling global warming, and the pace of the current human-induced changes such as climate change and overfishing stays the same, the species may soon disappear.\" The findings come amid growing concern over the future of the Antarctic. Earlier this month a separate study found that a combination of climate change and industrial fishing is threatening the krill(磷虾) population in Antarctic waters, with a potentially disastrous impact on whales, seals and penguins. But today's report is the starkest warning yet of the potentially devastating impact of climate change and human exploitation on the Antarctic's delicate ecosystems.\n\nLe Bohec said: \"Unless current greenhouse gas emissions drop, 70 percent of king penguins—1.1 million breeding pairs—will be forced to relocate their breeding grounds, or face extinction by 2100.\" King penguins are the second-largest type of penguin and only breed on specific isolated islands in the Southern Ocean where there is no ice cover and easy access to the sea. As the ocean warms, a body of water called the Antarctic Polar Front—an upward movement of nutrient-rich sea that supports a huge abundance of marine life—is being pushed further south. This means that king penguins, which feed on fish and krill in this body of water, have to travel further to their feeding grounds, leaving their hungry chicks for longer. And as the distance between their breeding grounds and their food grows, entire colonies could be wiped out.\n\nLe Bohec said: \"The plight of the king penguin should serve as a warning about the future of the entire marine environment in the Antarctic. Penguins, like other seabirds and marine mammals, occupy higher levels in the food chain and they are what we call bio-indicators of their ecosystems.\" Penguins are sensitive indicators of changes in marine ecosystems. As such, they are key species for understanding and predicting impacts of global change on Antarctic and sub-Antarctic marine ecosystems. The report found that although some king penguins may be able to relocate to new breeding grounds closer to their retreating food source, suitable new habitats would be scarce. Only a handful of islands in the Southern Ocean are suitable for sustaining large breeding colonies.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They will turn out to be the second-largest species of birds to become extinct."
+        },
+        {
+          "id": "B",
+          "text": "Many of them will have to migrate to isolated islands in the Southern Ocean."
+        },
+        {
+          "id": "C",
+          "text": "They feed primarily on only a few kinds of krill in the Antarctic Polar Front."
+        },
+        {
+          "id": "D",
+          "text": "The majority of them may have to find new breeding grounds in the future."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：The majority of them may have to find new breeding grounds in the future.\n关键词检索定位到第 1 段的候选相关句：The study's report states that as global warming transforms the environment in the world's last great wilderness, 70 percent of king penguins could either disappear or be forced to find new breeding grounds.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-12-3-nonlistening-q54",
+      "canonicalId": "lazynote-cet6-2019-12-3-q54",
+      "number": 54,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What happens when sea levels rise in the Antarctic?",
+      "passage": "Rising temperatures and overfishing in the pristine(未受污染的) waters around the Antarctic could see king penguin populations pushed to the brink of extinction by the end of the century, according to a new study. The study's report states that as global warming transforms the environment in the world's last great wilderness, 70 percent of king penguins could either disappear or be forced to find new breeding grounds.\n\nCo-author Celine Le Bohec, from the University of Strasbourg in France, warned: \"If there are no actions aimed at halting or controlling global warming, and the pace of the current human-induced changes such as climate change and overfishing stays the same, the species may soon disappear.\" The findings come amid growing concern over the future of the Antarctic. Earlier this month a separate study found that a combination of climate change and industrial fishing is threatening the krill(磷虾) population in Antarctic waters, with a potentially disastrous impact on whales, seals and penguins. But today's report is the starkest warning yet of the potentially devastating impact of climate change and human exploitation on the Antarctic's delicate ecosystems.\n\nLe Bohec said: \"Unless current greenhouse gas emissions drop, 70 percent of king penguins—1.1 million breeding pairs—will be forced to relocate their breeding grounds, or face extinction by 2100.\" King penguins are the second-largest type of penguin and only breed on specific isolated islands in the Southern Ocean where there is no ice cover and easy access to the sea. As the ocean warms, a body of water called the Antarctic Polar Front—an upward movement of nutrient-rich sea that supports a huge abundance of marine life—is being pushed further south. This means that king penguins, which feed on fish and krill in this body of water, have to travel further to their feeding grounds, leaving their hungry chicks for longer. And as the distance between their breeding grounds and their food grows, entire colonies could be wiped out.\n\nLe Bohec said: \"The plight of the king penguin should serve as a warning about the future of the entire marine environment in the Antarctic. Penguins, like other seabirds and marine mammals, occupy higher levels in the food chain and they are what we call bio-indicators of their ecosystems.\" Penguins are sensitive indicators of changes in marine ecosystems. As such, they are key species for understanding and predicting impacts of global change on Antarctic and sub-Antarctic marine ecosystems. The report found that although some king penguins may be able to relocate to new breeding grounds closer to their retreating food source, suitable new habitats would be scarce. Only a handful of islands in the Southern Ocean are suitable for sustaining large breeding colonies.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Many baby king penguins can't have food in time."
+        },
+        {
+          "id": "B",
+          "text": "Many king penguins could no longer live on krill."
+        },
+        {
+          "id": "C",
+          "text": "Whales will invade king penguins' breeding grounds."
+        },
+        {
+          "id": "D",
+          "text": "Whales will have to travel long distances to find food."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：Many baby king penguins can't have food in time.\n关键词检索定位到第 1 段的候选相关句：Rising temperatures and overfishing in the pristine(未受污染的) waters around the Antarctic could see king penguin populations pushed to the brink of extinction by the end of the century, according to a new study.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-12-3-nonlistening-q55",
+      "canonicalId": "lazynote-cet6-2019-12-3-q55",
+      "number": 55,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn about the Southern Ocean?",
+      "passage": "Rising temperatures and overfishing in the pristine(未受污染的) waters around the Antarctic could see king penguin populations pushed to the brink of extinction by the end of the century, according to a new study. The study's report states that as global warming transforms the environment in the world's last great wilderness, 70 percent of king penguins could either disappear or be forced to find new breeding grounds.\n\nCo-author Celine Le Bohec, from the University of Strasbourg in France, warned: \"If there are no actions aimed at halting or controlling global warming, and the pace of the current human-induced changes such as climate change and overfishing stays the same, the species may soon disappear.\" The findings come amid growing concern over the future of the Antarctic. Earlier this month a separate study found that a combination of climate change and industrial fishing is threatening the krill(磷虾) population in Antarctic waters, with a potentially disastrous impact on whales, seals and penguins. But today's report is the starkest warning yet of the potentially devastating impact of climate change and human exploitation on the Antarctic's delicate ecosystems.\n\nLe Bohec said: \"Unless current greenhouse gas emissions drop, 70 percent of king penguins—1.1 million breeding pairs—will be forced to relocate their breeding grounds, or face extinction by 2100.\" King penguins are the second-largest type of penguin and only breed on specific isolated islands in the Southern Ocean where there is no ice cover and easy access to the sea. As the ocean warms, a body of water called the Antarctic Polar Front—an upward movement of nutrient-rich sea that supports a huge abundance of marine life—is being pushed further south. This means that king penguins, which feed on fish and krill in this body of water, have to travel further to their feeding grounds, leaving their hungry chicks for longer. And as the distance between their breeding grounds and their food grows, entire colonies could be wiped out.\n\nLe Bohec said: \"The plight of the king penguin should serve as a warning about the future of the entire marine environment in the Antarctic. Penguins, like other seabirds and marine mammals, occupy higher levels in the food chain and they are what we call bio-indicators of their ecosystems.\" Penguins are sensitive indicators of changes in marine ecosystems. As such, they are key species for understanding and predicting impacts of global change on Antarctic and sub-Antarctic marine ecosystems. The report found that although some king penguins may be able to relocate to new breeding grounds closer to their retreating food source, suitable new habitats would be scarce. Only a handful of islands in the Southern Ocean are suitable for sustaining large breeding colonies.",
+      "options": [
+        {
+          "id": "A",
+          "text": "The king penguins there are reluctant to leave for new breeding grounds."
+        },
+        {
+          "id": "B",
+          "text": "Its conservation is key to the sustainable propagation of Antarctic species."
+        },
+        {
+          "id": "C",
+          "text": "It is most likely to become the ultimate retreat for species like the king penguin."
+        },
+        {
+          "id": "D",
+          "text": "Only a few of its islands can serve as huge breeding grounds for king penguins."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：Only a few of its islands can serve as huge breeding grounds for king penguins.\n关键词检索定位到第 3 段的候选相关句：Le Bohec said: \"Unless current greenhouse gas emissions drop, 70 percent of king penguins—1.1 million breeding pairs—will be forced to relocate their breeding grounds, or face extinction by 2100.\" King penguins are the second-largest type of penguin and only breed on specific isolated islands in the Southern Ocean where there is no ice cover and easy access to the sea.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-12-3-nonlistening-translation",
+      "number": "IV",
+      "level": "CET6",
+      "type": "short_text_self_check",
+      "skill": "translation",
+      "section": "translation",
+      "prompt": "Directions : For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2 .\n\n荷花(lotus flower)是中国的名花之一，深受人们喜爱。中国许多地方的湖泊和池塘都适宜荷花生长。荷花色彩鲜艳，夏日清晨绽放，夜晚闭合。花期长达两三个月，吸引来自各地的游客前往观赏。荷花具有多种功能，既能绿化水面，又能美化庭园，还可净化水质、减少污染、改善环境。荷花迎骄阳而不惧，出污泥而不染，象征纯洁、高雅，常常用来比喻人的高尚品德，历来是诗人画家创作的重要题材。荷花盛开的地方也是许多摄影爱好者经常光顾之地。",
+      "options": [],
+      "correctAnswer": "The lotus is one of China's famous flowers and is deeply loved by people. Lakes and ponds in many parts of China provide suitable conditions for its growth. Brightly colored lotus flowers open on summer mornings and close at night. Their flowering season lasts two or three months, attracting visitors from across the country. The lotus serves several purposes: it adds greenery to water surfaces, beautifies gardens, purifies water, reduces pollution and improves the environment. Braving the blazing sun and emerging unstained from the mud, it symbolizes purity and elegance and is often used as a metaphor for noble character. It has long been an important subject for poets and painters. Places where lotus flowers bloom are also frequently visited by photography enthusiasts.",
+      "referenceAnswer": "The lotus is one of China's famous flowers and is deeply loved by people. Lakes and ponds in many parts of China provide suitable conditions for its growth. Brightly colored lotus flowers open on summer mornings and close at night. Their flowering season lasts two or three months, attracting visitors from across the country. The lotus serves several purposes: it adds greenery to water surfaces, beautifies gardens, purifies water, reduces pollution and improves the environment. Braving the blazing sun and emerging unstained from the mud, it symbolizes purity and elegance and is often used as a metaphor for noble character. It has long been an important subject for poets and painters. Places where lotus flowers bloom are also frequently visited by photography enthusiasts.",
+      "hint": "区分每日开合与两三个月花期；多种功能和文化寓意均需保留。",
+      "explanation": "以下为原创参考译文，准确的同义表达也可接受。flowering season表示花期，不能译为每朵花持续两三个月。emerging unstained from the mud对应出污泥而不染；metaphor for noble character保留比喻人的高尚品德。绿化、美化、净化、减少污染、改善环境五项功能逐一呈现。",
+      "rubric": [
+        "信息：逐句核对人物、地点、数字、时间、因果和并列信息，避免漏译或增译。",
+        "表达：区分每日开合与两三个月花期；多种功能和文化寓意均需保留。",
+        "语法：检查时态、语态、主谓一致、冠词与单复数，长句按英语逻辑合理拆分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-12-3-nonlistening"
+    }
+  ]
+}

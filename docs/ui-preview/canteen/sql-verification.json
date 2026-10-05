@@ -1,0 +1,19 @@
+{
+  "kind": "isolated-mariadb-regression",
+  "generatedAt": "2026-10-04T21:48:25.415Z",
+  "script": "server/scripts/test-canteen-interactions.js",
+  "checksPassed": 29,
+  "exitCode": 0,
+  "cleanupVerified": { "temporaryDatabasesRemaining": 0, "temporaryDatabaseUsersRemaining": 0, "uploadedReleaseArchiveRemoved": true },
+  "scope": "temporary campus_test_ database with dedicated database user; trap removed database/user/extracted release directory; no production test users or comments",
+  "localGates": {
+    "typescriptAndStructure": true,
+    "wxml": 76,
+    "wxss": 84,
+    "canteenBusiness": true,
+    "canteenReviewUi": true,
+    "canteenSubmissionUi": true,
+    "fullNpmTest": true
+  },
+  "boundary": "Browser conversion and official preview are not real WeChat user login, photo upload or Android keyboard verification."
+}

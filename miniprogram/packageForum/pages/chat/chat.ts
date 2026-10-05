@@ -1,5 +1,7 @@
+import { withSharing } from '../../../utils/page-share'
 import { api } from '../../../utils/api-client'
-Page({
+import { createKeyboardViewport } from '../../../utils/keyboard-viewport'
+Page(withSharing({
   data: {
     toOpenid: '',
     toName: '',
@@ -7,11 +9,18 @@ Page({
     myAvatar: '',
     messages: [] as any[],
     inputContent: '',
+    sending: false,
+    keyboardViewportHeight: 0,
+    keyboardHeight: 0,
     loading: false,
     scrollToView: ''
   },
 
+  keyboardViewport: null as ReturnType<typeof createKeyboardViewport>,
+  messagesRequestId: 0,
+
   onLoad(options: any) {
+    this.keyboardViewport = createKeyboardViewport(this)
     const app = getApp()
     if (!app.isLoggedIn()) {
       wx.redirectTo({
@@ -39,12 +48,26 @@ Page({
   },
 
   onShow() {
+    if (this.keyboardViewport) this.keyboardViewport.start()
     const app = getApp()
     if (app.isLoggedIn()) this.loadMessages()
   },
 
+  onHide() { if (this.keyboardViewport) this.keyboardViewport.stop() },
+  onUnload() { if (this.keyboardViewport) this.keyboardViewport.stop() },
+  onResize(event: any) { if (this.keyboardViewport) this.keyboardViewport.resize(event) },
+  onKeyboardHeightChange(event: any) { if (this.keyboardViewport) this.keyboardViewport.onHeightChange(event) },
+
+  onComposerFocus(event: any) {
+    if (!this.keyboardViewport) return
+    this.keyboardViewport.start()
+    this.keyboardViewport.onHeightChange(event)
+    if (this.data.messages.length) this.setData({ scrollToView: 'msg-' + (this.data.messages.length - 1) })
+  },
+
   async loadMessages() {
     if (!this.data.toOpenid) return
+    const requestId = ++this.messagesRequestId
     
     this.setData({ loading: true })
     
@@ -57,6 +80,7 @@ Page({
         }
       }) as any
 
+      if (requestId !== this.messagesRequestId) return
       if (res.result && res.result.success) {
         const app = getApp()
         const myOpenid = app.getOpenIdSync()
@@ -77,7 +101,7 @@ Page({
     } catch (err) {
       console.error('加载消息失败:', err)
     } finally {
-      this.setData({ loading: false })
+      if (requestId === this.messagesRequestId) this.setData({ loading: false })
     }
   },
 
@@ -100,8 +124,9 @@ Page({
   },
 
   async onSend() {
-    const content = this.data.inputContent.trim()
-    if (!content) return
+    const draft = this.data.inputContent
+    const content = draft.trim()
+    if (!content || this.data.sending) return
     
     const app = getApp()
     if (!app.isLoggedIn()) {
@@ -110,20 +135,7 @@ Page({
     }
     const userInfo = app.getUserInfo()
     
-    this.setData({ inputContent: '' })
-    
-    const tempMsg = {
-      _id: 'temp_' + Date.now(),
-      content: content,
-      fromOpenid: app.getOpenIdSync(),
-      toOpenid: this.data.toOpenid,
-      isMine: true
-    }
-    
-    this.setData({
-      messages: [...this.data.messages, tempMsg],
-      scrollToView: 'msg-' + this.data.messages.length
-    })
+    this.setData({ sending: true })
     
     try {
       const res = await api.call({
@@ -139,22 +151,33 @@ Page({
         }
       }) as any
 
-      if (res.result && res.result.success) {
-        const messages = this.data.messages.map((m: any) => {
-          if (m._id === tempMsg._id) {
-            return { ...m, _id: res.result.messageId }
-          }
-          return m
-        })
-        this.setData({ messages })
+      if (!res.result || !res.result.success) throw new Error((res.result && res.result.errMsg) || '发送失败，请重试')
+      // A list request started before this send must not erase the new message.
+      this.messagesRequestId++
+      const message = {
+        _id: res.result.messageId,
+        content,
+        fromOpenid: app.getOpenIdSync(),
+        toOpenid: this.data.toOpenid,
+        isMine: true
       }
+      const messages = this.data.messages.some((item: any) => item._id === message._id)
+        ? this.data.messages : [...this.data.messages, message]
+      this.setData({
+        messages,
+        loading: false,
+        inputContent: this.data.inputContent === draft ? '' : this.data.inputContent,
+        scrollToView: 'msg-' + (messages.length - 1)
+      })
     } catch (err) {
       console.error('发送消息失败:', err)
-      wx.showToast({ title: '发送失败', icon: 'none' })
+      wx.showToast({ title: '发送失败，内容已保留', icon: 'none' })
+    } finally {
+      this.setData({ sending: false })
     }
   },
 
   goBack() {
     wx.navigateBack()
   }
-})
+}))

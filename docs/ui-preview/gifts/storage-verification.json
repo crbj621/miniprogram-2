@@ -1,0 +1,281 @@
+{
+  "schemaVersion": 1,
+  "scope": "Read-only production aggregates; disposable SQL regression only. No production cleanup or deployment.",
+  "productionSnapshot": {
+    "capturedAt": "2026-10-04T08:57:51.396Z",
+    "release": "20261004-155832",
+    "databaseTransaction": "START TRANSACTION READ ONLY; SELECT only; ROLLBACK",
+    "collections": {
+      "gift_sites": 3,
+      "gift_previews": 0,
+      "gift_domains": 3,
+      "gift_uploads": 2,
+      "gift_messages": 6,
+      "gift_message_visitors": 4
+    },
+    "siteStatus": {
+      "active": 3,
+      "expired": 0
+    },
+    "previewStatus": {
+      "active": 0,
+      "expired": 0
+    },
+    "orphanContent": {
+      "messages": 0,
+      "visitors": 0,
+      "domains": 0
+    },
+    "uniqueReferencedImages": 2,
+    "giftFiles": {
+      "count": 2,
+      "bytes": 98170,
+      "unrecognized": 0,
+      "oldUnreferenced": 0,
+      "withoutMetadata": 0,
+      "emptyOwnerFolders": 0,
+      "metadataWithoutPhysicalFile": 0
+    },
+    "uploadModuleInventory": {
+      "avatars": {
+        "files": 26,
+        "bytes": 146391
+      },
+      "canteen-reviews": {
+        "files": 3,
+        "bytes": 218398
+      },
+      "canteen-submissions": {
+        "files": 1,
+        "bytes": 46266
+      },
+      "delivery": {
+        "files": 1,
+        "bytes": 57362
+      },
+      "english-cache": {
+        "files": 24,
+        "bytes": 60565693
+      },
+      "forum": {
+        "files": 1,
+        "bytes": 38592
+      },
+      "gift-sites": {
+        "files": 2,
+        "bytes": 98170
+      },
+      "regression": {
+        "files": 0,
+        "bytes": 0
+      }
+    },
+    "uploadTotals": {
+      "files": 58,
+      "bytes": 61170872
+    },
+    "userContentIncluded": false
+  },
+  "serviceSnapshot": {
+    "service": "campus-api",
+    "activeState": "active",
+    "subState": "running",
+    "unitFileState": "enabled",
+    "activeSince": "2026-10-04T15:58:34+08:00",
+    "independentGiftSystemdTimers": [],
+    "mechanism": "Enabled campus-api systemd service runs in-process cleanup; no independent gift cleanup timer.",
+    "cleanupStartup": true,
+    "expiredSitesAndImagesIntervalSeconds": 900,
+    "previewCleanupIntervalSeconds": 30,
+    "cleanupErrorCountPast24Hours": 0,
+    "boundary": "Cleanup pauses when the API service is stopped; next startup runs catch-up cleanup."
+  },
+  "cleanupSemantics": {
+    "previewLeaseSeconds": 120,
+    "previewNote": "Editor renews its lease. ReleasePreview keeps a final 120-second lease, so expiry means two minutes after the last renewal/release.",
+    "trialDurationHours": 2,
+    "publicAccessStopsImmediatelyOnExpiry": true,
+    "contentRowsRemoved": [
+      "gift_sites",
+      "gift_previews",
+      "gift_domains",
+      "gift_messages",
+      "gift_message_visitors"
+    ],
+    "qualificationRowsRemoved": "Unreferenced expired gift_uploads rows, including missing-file legacy records.",
+    "newUploadGraceHours": 24,
+    "physicalDeletion": "Only recognized generated files beneath the absolute gift-sites upload root; preserve every live site/preview reference.",
+    "failureRecovery": "Revoke reusable qualification in the same SQL transaction, commit before unlink, and retry identifiable orphans on the next sweep.",
+    "emptyDirectoryDeletion": "Owner advisory lock shared with uploads; rmdir only and never recursive user-directory deletion.",
+    "sharedImages": "One physical uploaded file may serve multiple owner sites/previews; keep it until its final reference is gone.",
+    "sharedLibraryAssets": "Templates, backgrounds, media, and libraries under server/public/gifts are shared; site creation does not copy a process, package, or asset tree for each site.",
+    "retainedBusinessRecords": [
+      "Wallet profiles and giftTrialUsedAt entitlement",
+      "english_coin_ledger financial records",
+      "administrative audit records"
+    ],
+    "backupBoundary": "Site deletion does not erase release archives or database/upload backups. They require their own retention policy.",
+    "storageBoundary": "Deleting MariaDB rows frees reusable database pages; it does not promise immediate filesystem shrinkage of database files."
+  },
+  "uploadLimits": {
+    "authenticated": true,
+    "maxFilesPerRequest": 1,
+    "configuredMaxFileBytes": 10485760,
+    "requestsPerIpPerMinute": 60,
+    "perUserTotalFileOrByteQuota": null,
+    "conclusion": "Unreferenced uploads are reclaimed after the 24-hour editing grace plus sweep delay. There is no per-user aggregate quota, so uploads can accumulate temporarily within that window; sustained/high-volume uploads can still consume storage.",
+    "supportedGiftMimeTypes": [
+      "image/jpeg",
+      "image/png",
+      "image/webp"
+    ],
+    "legacyGifHandling": "New gift GIF uploads are rejected before saving; old generated GIF/other-extension orphans are recycled after grace.",
+    "policyChangesAdded": false
+  },
+  "rootCauseFixes": [
+    {
+      "file": "server/services/gift_sites/index.js",
+      "issue": "Old generated GIF/wrong-extension files, no-file qualifications, and empty owner directories were not reclaimed.",
+      "fix": "Conservative generated-name inventory, physical reference matching, grace checks, missing-file metadata cleanup, and locked empty-directory removal."
+    },
+    {
+      "file": "server/src/app.js",
+      "issue": "Raw prefix dispatch allowed leading slash, backslash, dot, and Windows absolute/case aliases to bypass gift upload qualification.",
+      "fix": "Resolve the same normalized physical namespace as the SDK before routing to owner-locked uploadImage."
+    },
+    {
+      "file": "server/services/gift_sites/index.js",
+      "issue": "Publishing acquired upload qualification before consuming preview, reversing cleanup's preview/upload lock order.",
+      "fix": "Consume preview before validating uploads in the same transaction; errors roll back preview, wallet, site, and ledger."
+    },
+    {
+      "file": "server/services/gift_sites/index.js",
+      "issue": "A reference can be committed while cleanup waits for an upload qualification row.",
+      "fix": "Check site/preview references again after acquiring qualification locks."
+    }
+  ],
+  "forumReview": {
+    "modified": false,
+    "currentMechanism": "Soft deletion and immediate ordinary uploads; no matching registry or physical-file recycler.",
+    "uploadInventoryIsAggregateOnly": true,
+    "issues": [
+      {
+        "file": "miniprogram/packageForum/pages/post/post.ts",
+        "lines": [
+          65,
+          95
+        ],
+        "issue": "Choosing a photo uploads immediately; removing selection or cancelling a post leaves the uploaded file."
+      },
+      {
+        "file": "server/services/forum/index.js",
+        "lines": [
+          1060,
+          1768,
+          1440
+        ],
+        "issue": "User/admin post and comment deletion mainly set deleted status; content and related collections are not physically cascaded."
+      },
+      {
+        "file": "server/services/globalAdmin/index.js",
+        "lines": [
+          1398,
+          1419,
+          1602
+        ],
+        "issue": "Hard/batch/old-post cleanup removes post rows without consistently removing comments, likes, collections, reports, notifications, or image files."
+      },
+      {
+        "file": "server/services/globalAdmin/index.js",
+        "lines": [
+          1623
+        ],
+        "issue": "cleanDeletedPosts filters isDeleted:true, while forum deletion writes status:deleted."
+      },
+      {
+        "file": "server/services/globalAdmin/index.js",
+        "lines": [
+          1641,
+          1567
+        ],
+        "issue": "cleanOrphanImages reports completion without scanning/unlinking; reported storage use is hardcoded zero."
+      },
+      {
+        "file": "server/services/forum/index.js",
+        "lines": [
+          941,
+          1054
+        ],
+        "issue": "Image URLs may be shared and replacement does not validate upload ownership or recycle prior images."
+      },
+      {
+        "file": "server/services/saveUserInfo/index.js",
+        "lines": [
+          32
+        ],
+        "issue": "Old avatar files require reference scanning across users and historical author/chat snapshots before deletion."
+      }
+    ],
+    "proposedApproach": "Add module-specific upload registry and ownership validation, decide deleted-content retention, make deletion cascades consistent, then apply delayed reference-aware GC with transaction locks and retryable unlinks. Copying the gift directory scan alone would risk deleting shared/snapshot references.",
+    "verificationSuggestions": [
+      "Disposable database and temporary uploads: cancellation, failed posting, removed selected image and 24-hour grace.",
+      "Shared-image references: deleting one consumer preserves the file; removing all consumers eventually reclaims it.",
+      "Consistent deletion cascades across ordinary, moderator and batch paths.",
+      "Real multi-connection publication/cleanup races, unlink failure retry and already-missing files.",
+      "Preserve avatar snapshots and unrelated/external files; reject traversal and unsupported formats."
+    ]
+  },
+  "verification": {
+    "localMemory": {
+      "passed": true,
+      "checks": 214,
+      "platform": "win32",
+      "command": "node server/scripts/test-gift-sites.js"
+    },
+    "serverSyntax": {
+      "passed": true,
+      "command": "npm --prefix server run check"
+    },
+    "isolatedSql": {
+      "passed": true,
+      "checks": 239,
+      "command": "bash /tmp/campus-video-sql-review-20261004.sh gifts-only",
+      "schemaPrefix": "campus_english_review_20261004_",
+      "independentTemporaryAccount": true,
+      "temporaryUploadDirectory": true,
+      "productionCleanupInvoked": false,
+      "multiConnectionCases": [
+        "Cleanup wins: publishing waits for preview before acquiring upload; expired qualification and file are removed; publishing fails normally and restores preview/wallet/site/ledger.",
+        "Publishing wins: cleanup initially reads an empty site snapshot and waits on preview; after publication commits, the second reference check preserves the new site's file and qualification."
+      ],
+      "unsuccessfulTestSetupAttempts": [
+        "Additional upload-routing fixtures made the gate wait for the wrong file; fixed by running races before upload-routing fixtures.",
+        "Initial image fixture omitted required fontSize/color; fixed with valid normalized-layout parameters and early-return diagnostic guards."
+      ]
+    },
+    "cleanupProof": {
+      "capturedAt": "2026-10-04T09:29:50.380731+00:00",
+      "remainingReviewDatabases": 0,
+      "remainingReviewUserRows": 0,
+      "remainingTemporaryGiftUploadDirectories": 0,
+      "remainingTemporaryReviewStage": false,
+      "temporaryReviewStageRemoved": true,
+      "archivePreservedForDeployment": true,
+      "queryScope": "Read-only aggregate checks of review DB schema/account prefixes and /tmp test prefixes. Only the owned disposable review stage was removed.",
+      "archiveSha256": "cb1b643cf37566ea0c4647108f7b5c80b1950b4f59d40f86ac9d79ba1b31724a"
+    },
+    "releaseArchive": {
+      "remotePath": "/tmp/campus-video-release-20261004.tar.gz",
+      "bytes": 25129911,
+      "sha256": "cb1b643cf37566ea0c4647108f7b5c80b1950b4f59d40f86ac9d79ba1b31724a"
+    },
+    "productionCleanupExecuted": false,
+    "productionDeploymentExecuted": false,
+    "limits": "Regression uses disposable SQL and temporary files. Snapshot is the production state before the new deployment.",
+    "independentCodeReview": {
+      "completed": true,
+      "remainingBlockingFindings": 0,
+      "productionAccessByReviewer": false
+    }
+  }
+}

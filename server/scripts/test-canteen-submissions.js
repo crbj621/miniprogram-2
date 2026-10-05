@@ -23,7 +23,7 @@ async function main() {
   const id = submitted[0].id
   check(!(await call(student, 'moderateSubmission', { id, status: 'approved' })).success, 'student cannot moderate')
   check(!(await call(prefix + '-other', 'mySubmissions')).submissions.some(row => row._id === id), 'private submission history')
-  check(!(await call(student, 'list')).dishes.some(row => row.submissionId === id), 'pending content is not public')
+  check((await call(student, 'list')).dishes.some(row => row.submissionId === id), 'new submission is automatically public')
   const reviews = await Promise.all([call(admin, 'moderateSubmission', { id, status: 'approved' }), call(admin, 'moderateSubmission', { id, status: 'approved' })])
   check(reviews.every(row => row.success), 'concurrent moderation succeeds once')
   const dishes = (await db.collection('canteen_dishes').where({ submissionId: id }).get()).data

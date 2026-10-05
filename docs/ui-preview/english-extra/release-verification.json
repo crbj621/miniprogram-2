@@ -1,0 +1,106 @@
+{
+  "capturedAt": "2026-10-04T14:39:53.455Z",
+  "current": "/opt/campus-api/releases/20261004-223617",
+  "service": "active",
+  "health": {
+    "status": "ok",
+    "database": "ok",
+    "functions": 22,
+    "time": "2026-10-04T14:39:53.470Z"
+  },
+  "archive": {
+    "path": "/tmp/campus-english-extra-release-20261004.tar.gz",
+    "bytes": 25132926,
+    "sha256": "e15cf5013af7a971d6ad50843254701db4e728f2a3e4f1e16eee45ca5018e77f"
+  },
+  "websiteSha256": "3044d274ff336c8cb5fe6dc87b6fca840e92b9ca3b695acfb4b2953c4e03d8a5",
+  "sourceHashes": {
+    "server/services/english_learning/index.js": "8f6ae58a6b3aa964f89ba86efb4f7895223163f91053b2b8ebca59283edb1f72",
+    "server/scripts/test-english-learning.js": "bf369f82993e3add96bf4b6a45461794cfbf823c2d06c4298550ea13e99866db",
+    "server/data/gifts/catalog.json": "778e36709ee760e59d163c929d9374e244e1a9d26328e90df8c981f89ab7e1b3",
+    "server/src/gift-web.js": "919fa021a43e028f63033e69cbab5397fa7218e9f54fd817185b43a439a35067",
+    "server/public/gifts/background.js": "80014488a91632f72ac7efbc539d1c332d3f5e8a84843225bbece64abc235e09",
+    "server/public/gifts/gift.css": "29084ce53e99abad6ee06fa943f5c056fb904c01cd46471582c4242de0194f94"
+  },
+  "businessDocuments": 333,
+  "businessCollections": 43,
+  "temporarySql": {
+    "databases": 0,
+    "userRows": 0,
+    "reviewStageRemoved": true
+  },
+  "productionReadOnlyGiftSnapshot": {
+    "collections": {
+      "gift_sites": 2,
+      "gift_previews": 0,
+      "gift_messages": 7,
+      "gift_message_visitors": 4,
+      "gift_domains": 2,
+      "gift_uploads": 2
+    },
+    "expiredSites": 0,
+    "expiredPreviews": 0
+  },
+  "publicHealth": {
+    "status": "ok",
+    "database": "ok",
+    "functions": 22,
+    "time": "2026-10-04T14:39:53.907Z"
+  },
+  "backup": "/www/backup/campus-api/20261004-223558",
+  "checks": {
+    "englishMemory": 186,
+    "englishIsolatedMariaDB": 193,
+    "giftMemory": 214,
+    "giftIsolatedMariaDB": 239,
+    "routes": 67,
+    "wxml": 76,
+    "wxss": 84,
+    "englishBrowserLayoutSamples": 40,
+    "nativeFeedbackAudioAndMapStates": 7
+  },
+  "preview": {
+    "size": {
+      "total": 2648771,
+      "packages": [
+        {
+          "name": "TOTAL",
+          "size": 2648771
+        },
+        {
+          "name": "main",
+          "size": 1984620
+        },
+        {
+          "name": "/packageCanteen/",
+          "size": 69406
+        },
+        {
+          "name": "/packageEnglish/",
+          "size": 133756
+        },
+        {
+          "name": "/packageFood/",
+          "size": 156958
+        },
+        {
+          "name": "/packageForum/",
+          "size": 153054
+        },
+        {
+          "name": "/packageGifts/",
+          "size": 59324
+        },
+        {
+          "name": "/packageProfile/",
+          "size": 73367
+        },
+        {
+          "name": "/packageRider/",
+          "size": 18286
+        }
+      ]
+    }
+  },
+  "scope": "Only server/admin-web deployed, prior backup preserved. Production SQL reads were aggregates only. English writes ran in a disposable schema; no production test users/coins/exam or gift sites created. Native map/audio use local fixtures, not phone GPS/hearing or formal WeChat release."
+}

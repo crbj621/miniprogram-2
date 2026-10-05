@@ -1,5 +1,6 @@
+import { withSharing } from '../../../utils/page-share'
 import { api } from '../../../utils/api-client'
-Page({
+Page(withSharing({
   data: {
     categoryList: [
       { key: 'gossip', name: '灌水区' },
@@ -156,4 +157,4 @@ Page({
       this.setData({ submitting: false })
     }
   }
-})
+}))

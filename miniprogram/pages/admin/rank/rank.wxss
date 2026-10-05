@@ -16,7 +16,8 @@
   align-items: center;
   background-color: #f0f0f0;
   border-radius: 30rpx;
-  padding: 16rpx 24rpx;
+  padding: 0 20rpx;
+  min-height: 88rpx;
 }
 
 .search-box icon {
@@ -99,15 +100,19 @@
 
 .item-content {
   flex: 1;
+  min-width: 0;
   margin-left: 20rpx;
 }
 
 .item-header {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 8rpx;
 }
 
 .rank {
+  flex-shrink: 0;
   background-color: #faad14;
   color: #fff;
   font-size: 22rpx;
@@ -117,6 +122,7 @@
 }
 
 .username {
+  overflow-wrap: break-word;
   font-size: 30rpx;
   font-weight: bold;
   color: #333;
@@ -151,6 +157,6 @@
   color: #7e94a6;
   font-size: 28rpx;
 }
-.demo-tools { display: grid; grid-template-columns: 1fr 1fr; gap: 16rpx; padding: 24rpx 28rpx 0; }.demo-tools button { margin: 0; width: 100%; font-size: 24rpx; background: #edf6fc; color: #6a93ae; border-radius: 20rpx; min-height: 82rpx; }
+.demo-tools { display: grid; grid-template-columns: 1fr 1fr; gap: 16rpx; padding: 24rpx 28rpx 0; }.demo-tools button.tech-control { margin: 0; width: 100%; font-size: 24rpx; background: #edf6fc; color: #6a93ae; border-radius: 20rpx; min-height: 82rpx; }
 
 @import "../../../styles/tech-ui.wxss";

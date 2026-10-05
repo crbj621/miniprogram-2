@@ -1,8 +1,10 @@
-<view class="page">
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
+<view class="page campus-theme {{theme.key !== 'default' ? 'campus-theme-enabled' : ''}}" style="{{theme.style}}">
   <!-- 用户卡片 -->
   <view class="user-card">
+    <text wx:if="{{theme.key !== 'default'}}" class="campus-theme-decoration campus-theme-profile-decoration">{{theme.decoration}}</text>
     <view class="card-bg"></view>
-    <view class="card-content">
+    <view class="card-content campus-theme-surface">
       <!-- 已登录 -->
       <block wx:if="{{isLoggedIn && userInfo}}">
         <view class="user-main">
@@ -129,26 +131,25 @@
   </block>
 
   <!-- 搜索好友弹窗 -->
-  <view class="modal-overlay" wx:if="{{showSearchModal}}" bindtap="hideSearchModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
-    <view class="modal-box tech-card" catchtap="catchTapPrevent" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+  <view class="modal-overlay" wx:if="{{showSearchModal}}" bindtap="hideSearchModal">
+    <view class="modal-box tech-card" catchtap="catchTapPrevent">
       <view class="modal-header">
         <text class="modal-title">🔍 搜索好友</text>
         <view class="modal-close tap-action" bindtap="hideSearchModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">×</view>
       </view>
-      <view class="modal-body">
+      <view class="modal-body search-modal-body">
         <view class="search-tabs">
           <view class="search-tab {{searchType === 'name' ? 'active' : ''}}" bindtap="switchSearchType" data-type="name" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">按昵称</view>
           <view class="search-tab {{searchType === 'id' ? 'active' : ''}}" bindtap="switchSearchType" data-type="id" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">按ID</view>
         </view>
         <view class="search-box">
-          <tech-search class="tech-search-host"><input 
+          <tech-search class="tech-search-host"><input adjust-position="{{true}}" 
             class="search-input tech-input" 
             placeholder="{{searchType === 'name' ? '输入好友昵称' : '输入6位用户ID'}}" 
             value="{{searchKeyword}}"
             bindinput="onSearchInput"
             bindconfirm="searchFriend"
             confirm-type="search"
-            adjust-position="false"
             cursor-spacing="40"
           placeholder-style="color:#8597ad" /></tech-search>
           <view class="search-btn tech-control" bindtap="searchFriend" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">搜索</view>
@@ -174,8 +175,8 @@
   </view>
 
   <!-- 二维码弹窗 -->
-  <view class="modal-overlay" wx:if="{{showQrModal}}" bindtap="hideQrModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
-    <view class="modal-box qr-modal tech-card" catchtap="" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+  <view class="modal-overlay" wx:if="{{showQrModal}}" bindtap="hideQrModal">
+    <view class="modal-box qr-modal tech-card" catchtap="">
       <view class="modal-header">
         <text class="modal-title">📱 我的二维码</text>
         <view class="modal-close tap-action" bindtap="hideQrModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">×</view>
@@ -198,3 +199,5 @@
 
   <run-tabbar selected="{{2}}"></run-tabbar>
 </view>
+
+</block>

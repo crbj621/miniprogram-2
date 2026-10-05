@@ -1,3 +1,4 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="container">
   <view class="filter-bar">
     <picker mode="selector" range="{{statusList}}" range-key="name" value="{{statusIndex}}" bindchange="onStatusChange">
@@ -24,3 +25,5 @@
     <view class="empty" wx:if="{{!loading && reports.length === 0}}">暂无举报</view>
   </scroll-view>
 </view>
+
+</block>

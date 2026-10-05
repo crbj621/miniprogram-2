@@ -1,24 +1,8 @@
-const messages = [
-  ['把日常过成小欢喜', '跑一步 · 吃好饭 · 收藏校园时光'],
-  ['今天也要闪闪发光', '带上好心情，去发现一点小美好'],
-  ['给今天加一点甜', '好好吃饭，也好好喜欢自己'],
-  ['小小步伐也算进步', '慢慢跑，今天的你已经很棒啦'],
-  ['把快乐装进口袋', '和朋友碰面，让日常热闹一点'],
-  ['今天的好运已送达', '伸个懒腰，新的故事开始啦'],
-  ['和校园撞个满怀', '抬头看看，风景就在身边'],
-  ['生活正在悄悄发芽', '认真过好今天，就很了不起'],
-  ['让心情轻盈一点', '去吹吹风，给自己一点空闲'],
-  ['今天也有小确幸', '一顿热饭，一段路，一个笑脸'],
-  ['把温柔留给自己', '累了就歇一会儿，慢慢来就好'],
-  ['在日常里收集星光', '把喜欢的瞬间，分享给同学吧'],
-  ['奔向自己的小晴天', '走出门，快乐也许就在下一站'],
-  ['今天值得好好期待', '运动一点点，快乐多一点点']
-]
 const colors = ['#5268a6', '#95627d', '#397e77', '#87659b', '#946946', '#536fa0', '#7b6f35']
 
 // 按北京时间的自然日选择，同一天稳定；页面再次显示时更新。
 export function getPortalDaily(timestamp = Date.now()) {
   const day = Math.floor((timestamp + 8 * 60 * 60 * 1000) / 86400000)
-  const index = ((day % messages.length) + messages.length) % messages.length
-  return { title: messages[index][0], subtitle: messages[index][1], color: colors[index % colors.length] }
+  const index = ((day % colors.length) + colors.length) % colors.length
+  return { color: colors[index] }
 }

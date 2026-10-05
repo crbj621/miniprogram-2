@@ -1,0 +1,1985 @@
+{
+  "schemaVersion": 1,
+  "status": "verified_structured",
+  "source": {
+    "id": "cet6-2023-12-3-nonlistening",
+    "textCollection": "https://english-exam.lazynote.cn",
+    "textUrl": "https://english-exam.lazynote.cn/cet6/paper/2023-12-3/",
+    "textSha256": "3da84eb98f0219377a0c4ac6c5e77e4cb0406d11d252630f8615c70dd547daff",
+    "answerSources": [
+      {
+        "section": "part3-section-a",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2023-12-3/part3-section-a/",
+        "sha256": "ae39db7e5a256ca789db1e357914dcf467e1b92d7831d8c024a8a11b413608b3"
+      },
+      {
+        "section": "part3-section-b",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2023-12-3/part3-section-b/",
+        "sha256": "c12b690897152543311a2b834ead11e365294a345f052b8b5846a6897e40667f"
+      },
+      {
+        "section": "part3-section-c-1",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2023-12-3/part3-section-c-1/",
+        "sha256": "99058ddb999e80b2f65060c6cb30c6a98100ae67bc8fcca9c7a244801329306d"
+      },
+      {
+        "section": "part3-section-c-2",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2023-12-3/part3-section-c-2/",
+        "sha256": "f38fce658076efe15509b31c4bbc62a59a5946f839d19749a7d9fc750503468e"
+      }
+    ],
+    "rightsUrl": "https://english-exam.lazynote.cn",
+    "rights": "Source footer attributes original papers to the National College English Test Committee. Original materials retain their respective rights; no blanket source license is asserted. Commercial explanatory prose is not copied.",
+    "sourceRightsNotice": "© 2026 懒笔记 · 蜀ICP备2024049450号-1 · 川公网安备51019002006323号 · 增值电信业务经营许可证：川B2-20240301 · 真题版权归全国硕士研究生招生考试 / 全国大学英语四六级考试委员会所有 · 隐私政策 · 用户协议",
+    "sourceTermsUrl": "https://english-exam.lazynote.cn/terms/",
+    "reviewedAt": "2026-10-03",
+    "answerStatus": "public_reference_structural_consistency_verified",
+    "explanations": "Project-generated contextual evidence notes. Close-reading locations are keyword-search candidates, not manually verified detailed explanations.",
+    "referenceEssays": "Project-authored full reference examples bound to the original prompts; not official model answers.",
+    "materialSources": [],
+    "corrections": [],
+    "previousReviewedAnswerSources": [],
+    "sourceEdition": "lazynote public original-paper arrangement; set numbering can differ from other collections.",
+    "independentlyConfirmedSharedSource": "",
+    "readingSourceCorrection": null,
+    "sectionSourceReplacement": null,
+    "independentAnswerChecks": [],
+    "sharedSectionSource": {}
+  },
+  "papers": [
+    {
+      "id": "cet6-2023-12-3-nonlistening",
+      "level": "CET6",
+      "year": 2023,
+      "month": 12,
+      "set": 3,
+      "title": "2023年12月英语六级第3套真题（不含听力）",
+      "authenticity": "past_exam",
+      "questionIds": [
+        "cet6-2023-12-3-nonlistening-writing",
+        "cet6-2023-12-3-nonlistening-q26",
+        "cet6-2023-12-3-nonlistening-q27",
+        "cet6-2023-12-3-nonlistening-q28",
+        "cet6-2023-12-3-nonlistening-q29",
+        "cet6-2023-12-3-nonlistening-q30",
+        "cet6-2023-12-3-nonlistening-q31",
+        "cet6-2023-12-3-nonlistening-q32",
+        "cet6-2023-12-3-nonlistening-q33",
+        "cet6-2023-12-3-nonlistening-q34",
+        "cet6-2023-12-3-nonlistening-q35",
+        "cet6-2023-12-3-nonlistening-q36",
+        "cet6-2023-12-3-nonlistening-q37",
+        "cet6-2023-12-3-nonlistening-q38",
+        "cet6-2023-12-3-nonlistening-q39",
+        "cet6-2023-12-3-nonlistening-q40",
+        "cet6-2023-12-3-nonlistening-q41",
+        "cet6-2023-12-3-nonlistening-q42",
+        "cet6-2023-12-3-nonlistening-q43",
+        "cet6-2023-12-3-nonlistening-q44",
+        "cet6-2023-12-3-nonlistening-q45",
+        "cet6-2023-12-3-nonlistening-q46",
+        "cet6-2023-12-3-nonlistening-q47",
+        "cet6-2023-12-3-nonlistening-q48",
+        "cet6-2023-12-3-nonlistening-q49",
+        "cet6-2023-12-3-nonlistening-q50",
+        "cet6-2023-12-3-nonlistening-q51",
+        "cet6-2023-12-3-nonlistening-q52",
+        "cet6-2023-12-3-nonlistening-q53",
+        "cet6-2023-12-3-nonlistening-q54",
+        "cet6-2023-12-3-nonlistening-q55",
+        "cet6-2023-12-3-nonlistening-translation"
+      ],
+      "durationSeconds": 6000,
+      "description": "写作1题、阅读30题、翻译1题，不含听力。客观题答案与题面、选项完成结构一致性核对。",
+      "sourceId": "cet6-2023-12-3-nonlistening",
+      "coverage": {
+        "fullPaper": false,
+        "fullNonListening": true,
+        "listeningExcluded": true,
+        "objectiveNumbers": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "objectiveCount": 30,
+        "subjectiveCount": 2,
+        "sections": [
+          "writing",
+          "reading_word_bank",
+          "reading_matching",
+          "reading_comprehension",
+          "translation"
+        ],
+        "sharedSectionSource": {},
+        "note": "写作1题、阅读30题、翻译1题，不含听力。",
+        "independentlyConfirmedSharedSource": "",
+        "readingSourceCorrection": null,
+        "sectionSourceReplacement": null,
+        "referenceStatus": "project_authored"
+      },
+      "resources": [
+        {
+          "id": "cet6-2023-12-3-nonlistening-source",
+          "type": "web",
+          "title": "原卷来源与题面核对",
+          "url": "https://english-exam.lazynote.cn/cet6/paper/2023-12-3/"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cet6-2023-12-3-nonlistening-writing",
+      "number": "I",
+      "level": "CET6",
+      "type": "short_text_self_check",
+      "skill": "writing",
+      "section": "writing",
+      "prompt": "Directions: For this part, you are allowed 30 minutes to write an essay that begins with the sentence “With their valuable skills and experience, elderly people can continue to make significant contributions to society.\" You can make comments, cite examples or use your personal experiences to develop your essay. You should write at least 150 words but no more than 200 words.",
+      "options": [],
+      "correctAnswer": "With their valuable skills and experience, elderly people can continue to make significant contributions to society. Retirement from a full time job does not remove a person's knowledge, judgment or ability to support others.\n\nOlder people can contribute in many settings. An experienced engineer who advises young colleagues helps preserve practical knowledge that may not be written in a textbook. A retired teacher who volunteers in a community reading program can improve children's confidence and encourage lasting interests. Elderly residents may also offer useful perspectives on local needs and strengthen connections between generations. These contributions benefit society while giving participants a sense of purpose. However, participation should be based on choice and individual ability, with appropriate support rather than pressure to remain constantly productive.\n\nCommunities and employers can create flexible opportunities, remove unnecessary age barriers and recognize the value of different forms of service. Younger people should listen respectfully and learn from experience without assuming that age determines every ability. By welcoming older people's voluntary participation, society can use its shared knowledge more fully and build more inclusive relationships.",
+      "referenceAnswer": "With their valuable skills and experience, elderly people can continue to make significant contributions to society. Retirement from a full time job does not remove a person's knowledge, judgment or ability to support others.\n\nOlder people can contribute in many settings. An experienced engineer who advises young colleagues helps preserve practical knowledge that may not be written in a textbook. A retired teacher who volunteers in a community reading program can improve children's confidence and encourage lasting interests. Elderly residents may also offer useful perspectives on local needs and strengthen connections between generations. These contributions benefit society while giving participants a sense of purpose. However, participation should be based on choice and individual ability, with appropriate support rather than pressure to remain constantly productive.\n\nCommunities and employers can create flexible opportunities, remove unnecessary age barriers and recognize the value of different forms of service. Younger people should listen respectfully and learn from experience without assuming that age determines every ability. By welcoming older people's voluntary participation, society can use its shared knowledge more fully and build more inclusive relationships.",
+      "hint": "保留首句，举出传授经验、社区服务等贡献，说明自愿与适当支持。",
+      "explanation": "以下为按本题要求独立写成的原创参考范文，作文没有唯一答案。工程师与教师例子分别对应技能传承和社会服务；主体兼顾参与者的意义感与自由选择。末段提出弹性机会和年龄障碍，不能把继续贡献写成每位老人必须继续劳动。",
+      "rubric": [
+        "任务：保留首句，举出传授经验、社区服务等贡献，说明自愿与适当支持。",
+        "论证：明确中心观点，用原因、具体例子或经历展开；结尾回应主题。",
+        "语言：检查主谓一致、时态、搭配和段落衔接；全文控制在150–200词。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2023-12-3-nonlistening-q26",
+      "canonicalId": "lazynote-cet6-2023-12-3-q26",
+      "number": 26,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 26 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Modern U.S. cities were designed to make exercise unnecessary. Cars and elevators once symbolized urban areas as machines for more efficient living. Now it is clear that these improvements provide great benefits but also [26] ____ health costs. Recent studies show that urban [27] ____ encourages more driving and is associated with heavier weight. This [28] ____ suggests that the layout and design of cities can hinder or promote healthier lifestyle choices and it is [29] ____ that urban planners bear this in mind.\n\nUnfortunately, urban planning still centers in large part on solving the problems of the past. Of course cities still need to [30] ____ standard public health practices, such as separating toxic facilities from homes and restricting heavy truck traffic through [31] ____ residential areas. But it's also important to create healthier cities—and the discussion is already underway. More and more city planners are paying increasing attention to encouraging physical activity by making it easier and safer for people to recreate, walk, bike and take public transportation. Many studies of [32] ____ show that people live the longest in environments where physical activity is part of everyday life.\n\nProviding more walkable spaces, better protected bike lanes and more [33] ____ spaces are important steps. But even smaller changes can be effective.\n\nCities can close off streets on weekends to encourage communities to get out and walk. They also can provide more seating in public places, so that less-fit residents can rest during their journeys. Using public spaces in cities as places where people can exercise promotes [34] ____ , rather than allowing physical activity to become restricted to private gyms with often-expensive monthly fees that [35] ____ less wealthy people from joining.",
+      "options": [
+        {
+          "id": "A",
+          "text": "correlation"
+        },
+        {
+          "id": "B",
+          "text": "dense"
+        },
+        {
+          "id": "C",
+          "text": "deter"
+        },
+        {
+          "id": "D",
+          "text": "equity"
+        },
+        {
+          "id": "E",
+          "text": "foster"
+        },
+        {
+          "id": "F",
+          "text": "imperative"
+        },
+        {
+          "id": "G",
+          "text": "impose"
+        },
+        {
+          "id": "H",
+          "text": "irrespective"
+        },
+        {
+          "id": "I",
+          "text": "longevity"
+        },
+        {
+          "id": "J",
+          "text": "navigate"
+        },
+        {
+          "id": "K",
+          "text": "recreational"
+        },
+        {
+          "id": "L",
+          "text": "rotten"
+        },
+        {
+          "id": "M",
+          "text": "sprawl"
+        },
+        {
+          "id": "N",
+          "text": "vibrate"
+        },
+        {
+          "id": "O",
+          "text": "vicinity"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "先看第 26 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 G（impose）。本空所在句：Now it is clear that these improvements provide great benefits but also [26] ____ health costs.\n将本空替换为 impose 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2023-12-3-nonlistening-q27",
+      "canonicalId": "lazynote-cet6-2023-12-3-q27",
+      "number": 27,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 27 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Modern U.S. cities were designed to make exercise unnecessary. Cars and elevators once symbolized urban areas as machines for more efficient living. Now it is clear that these improvements provide great benefits but also [26] ____ health costs. Recent studies show that urban [27] ____ encourages more driving and is associated with heavier weight. This [28] ____ suggests that the layout and design of cities can hinder or promote healthier lifestyle choices and it is [29] ____ that urban planners bear this in mind.\n\nUnfortunately, urban planning still centers in large part on solving the problems of the past. Of course cities still need to [30] ____ standard public health practices, such as separating toxic facilities from homes and restricting heavy truck traffic through [31] ____ residential areas. But it's also important to create healthier cities—and the discussion is already underway. More and more city planners are paying increasing attention to encouraging physical activity by making it easier and safer for people to recreate, walk, bike and take public transportation. Many studies of [32] ____ show that people live the longest in environments where physical activity is part of everyday life.\n\nProviding more walkable spaces, better protected bike lanes and more [33] ____ spaces are important steps. But even smaller changes can be effective.\n\nCities can close off streets on weekends to encourage communities to get out and walk. They also can provide more seating in public places, so that less-fit residents can rest during their journeys. Using public spaces in cities as places where people can exercise promotes [34] ____ , rather than allowing physical activity to become restricted to private gyms with often-expensive monthly fees that [35] ____ less wealthy people from joining.",
+      "options": [
+        {
+          "id": "A",
+          "text": "correlation"
+        },
+        {
+          "id": "B",
+          "text": "dense"
+        },
+        {
+          "id": "C",
+          "text": "deter"
+        },
+        {
+          "id": "D",
+          "text": "equity"
+        },
+        {
+          "id": "E",
+          "text": "foster"
+        },
+        {
+          "id": "F",
+          "text": "imperative"
+        },
+        {
+          "id": "G",
+          "text": "impose"
+        },
+        {
+          "id": "H",
+          "text": "irrespective"
+        },
+        {
+          "id": "I",
+          "text": "longevity"
+        },
+        {
+          "id": "J",
+          "text": "navigate"
+        },
+        {
+          "id": "K",
+          "text": "recreational"
+        },
+        {
+          "id": "L",
+          "text": "rotten"
+        },
+        {
+          "id": "M",
+          "text": "sprawl"
+        },
+        {
+          "id": "N",
+          "text": "vibrate"
+        },
+        {
+          "id": "O",
+          "text": "vicinity"
+        }
+      ],
+      "correctAnswer": "M",
+      "hint": "先看第 27 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 M（sprawl）。本空所在句：Recent studies show that urban [27] ____ encourages more driving and is associated with heavier weight.\n将本空替换为 sprawl 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2023-12-3-nonlistening-q28",
+      "canonicalId": "lazynote-cet6-2023-12-3-q28",
+      "number": 28,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 28 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Modern U.S. cities were designed to make exercise unnecessary. Cars and elevators once symbolized urban areas as machines for more efficient living. Now it is clear that these improvements provide great benefits but also [26] ____ health costs. Recent studies show that urban [27] ____ encourages more driving and is associated with heavier weight. This [28] ____ suggests that the layout and design of cities can hinder or promote healthier lifestyle choices and it is [29] ____ that urban planners bear this in mind.\n\nUnfortunately, urban planning still centers in large part on solving the problems of the past. Of course cities still need to [30] ____ standard public health practices, such as separating toxic facilities from homes and restricting heavy truck traffic through [31] ____ residential areas. But it's also important to create healthier cities—and the discussion is already underway. More and more city planners are paying increasing attention to encouraging physical activity by making it easier and safer for people to recreate, walk, bike and take public transportation. Many studies of [32] ____ show that people live the longest in environments where physical activity is part of everyday life.\n\nProviding more walkable spaces, better protected bike lanes and more [33] ____ spaces are important steps. But even smaller changes can be effective.\n\nCities can close off streets on weekends to encourage communities to get out and walk. They also can provide more seating in public places, so that less-fit residents can rest during their journeys. Using public spaces in cities as places where people can exercise promotes [34] ____ , rather than allowing physical activity to become restricted to private gyms with often-expensive monthly fees that [35] ____ less wealthy people from joining.",
+      "options": [
+        {
+          "id": "A",
+          "text": "correlation"
+        },
+        {
+          "id": "B",
+          "text": "dense"
+        },
+        {
+          "id": "C",
+          "text": "deter"
+        },
+        {
+          "id": "D",
+          "text": "equity"
+        },
+        {
+          "id": "E",
+          "text": "foster"
+        },
+        {
+          "id": "F",
+          "text": "imperative"
+        },
+        {
+          "id": "G",
+          "text": "impose"
+        },
+        {
+          "id": "H",
+          "text": "irrespective"
+        },
+        {
+          "id": "I",
+          "text": "longevity"
+        },
+        {
+          "id": "J",
+          "text": "navigate"
+        },
+        {
+          "id": "K",
+          "text": "recreational"
+        },
+        {
+          "id": "L",
+          "text": "rotten"
+        },
+        {
+          "id": "M",
+          "text": "sprawl"
+        },
+        {
+          "id": "N",
+          "text": "vibrate"
+        },
+        {
+          "id": "O",
+          "text": "vicinity"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "先看第 28 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 A（correlation）。本空所在句：This [28] ____ suggests that the layout and design of cities can hinder or promote healthier lifestyle choices and it is [29] ____ that urban planners bear this in mind.\n将本空替换为 correlation 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2023-12-3-nonlistening-q29",
+      "canonicalId": "lazynote-cet6-2023-12-3-q29",
+      "number": 29,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 29 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Modern U.S. cities were designed to make exercise unnecessary. Cars and elevators once symbolized urban areas as machines for more efficient living. Now it is clear that these improvements provide great benefits but also [26] ____ health costs. Recent studies show that urban [27] ____ encourages more driving and is associated with heavier weight. This [28] ____ suggests that the layout and design of cities can hinder or promote healthier lifestyle choices and it is [29] ____ that urban planners bear this in mind.\n\nUnfortunately, urban planning still centers in large part on solving the problems of the past. Of course cities still need to [30] ____ standard public health practices, such as separating toxic facilities from homes and restricting heavy truck traffic through [31] ____ residential areas. But it's also important to create healthier cities—and the discussion is already underway. More and more city planners are paying increasing attention to encouraging physical activity by making it easier and safer for people to recreate, walk, bike and take public transportation. Many studies of [32] ____ show that people live the longest in environments where physical activity is part of everyday life.\n\nProviding more walkable spaces, better protected bike lanes and more [33] ____ spaces are important steps. But even smaller changes can be effective.\n\nCities can close off streets on weekends to encourage communities to get out and walk. They also can provide more seating in public places, so that less-fit residents can rest during their journeys. Using public spaces in cities as places where people can exercise promotes [34] ____ , rather than allowing physical activity to become restricted to private gyms with often-expensive monthly fees that [35] ____ less wealthy people from joining.",
+      "options": [
+        {
+          "id": "A",
+          "text": "correlation"
+        },
+        {
+          "id": "B",
+          "text": "dense"
+        },
+        {
+          "id": "C",
+          "text": "deter"
+        },
+        {
+          "id": "D",
+          "text": "equity"
+        },
+        {
+          "id": "E",
+          "text": "foster"
+        },
+        {
+          "id": "F",
+          "text": "imperative"
+        },
+        {
+          "id": "G",
+          "text": "impose"
+        },
+        {
+          "id": "H",
+          "text": "irrespective"
+        },
+        {
+          "id": "I",
+          "text": "longevity"
+        },
+        {
+          "id": "J",
+          "text": "navigate"
+        },
+        {
+          "id": "K",
+          "text": "recreational"
+        },
+        {
+          "id": "L",
+          "text": "rotten"
+        },
+        {
+          "id": "M",
+          "text": "sprawl"
+        },
+        {
+          "id": "N",
+          "text": "vibrate"
+        },
+        {
+          "id": "O",
+          "text": "vicinity"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "先看第 29 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 F（imperative）。本空所在句：This [28] ____ suggests that the layout and design of cities can hinder or promote healthier lifestyle choices and it is [29] ____ that urban planners bear this in mind.\n将本空替换为 imperative 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2023-12-3-nonlistening-q30",
+      "canonicalId": "lazynote-cet6-2023-12-3-q30",
+      "number": 30,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 30 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Modern U.S. cities were designed to make exercise unnecessary. Cars and elevators once symbolized urban areas as machines for more efficient living. Now it is clear that these improvements provide great benefits but also [26] ____ health costs. Recent studies show that urban [27] ____ encourages more driving and is associated with heavier weight. This [28] ____ suggests that the layout and design of cities can hinder or promote healthier lifestyle choices and it is [29] ____ that urban planners bear this in mind.\n\nUnfortunately, urban planning still centers in large part on solving the problems of the past. Of course cities still need to [30] ____ standard public health practices, such as separating toxic facilities from homes and restricting heavy truck traffic through [31] ____ residential areas. But it's also important to create healthier cities—and the discussion is already underway. More and more city planners are paying increasing attention to encouraging physical activity by making it easier and safer for people to recreate, walk, bike and take public transportation. Many studies of [32] ____ show that people live the longest in environments where physical activity is part of everyday life.\n\nProviding more walkable spaces, better protected bike lanes and more [33] ____ spaces are important steps. But even smaller changes can be effective.\n\nCities can close off streets on weekends to encourage communities to get out and walk. They also can provide more seating in public places, so that less-fit residents can rest during their journeys. Using public spaces in cities as places where people can exercise promotes [34] ____ , rather than allowing physical activity to become restricted to private gyms with often-expensive monthly fees that [35] ____ less wealthy people from joining.",
+      "options": [
+        {
+          "id": "A",
+          "text": "correlation"
+        },
+        {
+          "id": "B",
+          "text": "dense"
+        },
+        {
+          "id": "C",
+          "text": "deter"
+        },
+        {
+          "id": "D",
+          "text": "equity"
+        },
+        {
+          "id": "E",
+          "text": "foster"
+        },
+        {
+          "id": "F",
+          "text": "imperative"
+        },
+        {
+          "id": "G",
+          "text": "impose"
+        },
+        {
+          "id": "H",
+          "text": "irrespective"
+        },
+        {
+          "id": "I",
+          "text": "longevity"
+        },
+        {
+          "id": "J",
+          "text": "navigate"
+        },
+        {
+          "id": "K",
+          "text": "recreational"
+        },
+        {
+          "id": "L",
+          "text": "rotten"
+        },
+        {
+          "id": "M",
+          "text": "sprawl"
+        },
+        {
+          "id": "N",
+          "text": "vibrate"
+        },
+        {
+          "id": "O",
+          "text": "vicinity"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "先看第 30 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 E（foster）。本空所在句：Of course cities still need to [30] ____ standard public health practices, such as separating toxic facilities from homes and restricting heavy truck traffic through [31] ____ residential areas.\n将本空替换为 foster 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2023-12-3-nonlistening-q31",
+      "canonicalId": "lazynote-cet6-2023-12-3-q31",
+      "number": 31,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 31 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Modern U.S. cities were designed to make exercise unnecessary. Cars and elevators once symbolized urban areas as machines for more efficient living. Now it is clear that these improvements provide great benefits but also [26] ____ health costs. Recent studies show that urban [27] ____ encourages more driving and is associated with heavier weight. This [28] ____ suggests that the layout and design of cities can hinder or promote healthier lifestyle choices and it is [29] ____ that urban planners bear this in mind.\n\nUnfortunately, urban planning still centers in large part on solving the problems of the past. Of course cities still need to [30] ____ standard public health practices, such as separating toxic facilities from homes and restricting heavy truck traffic through [31] ____ residential areas. But it's also important to create healthier cities—and the discussion is already underway. More and more city planners are paying increasing attention to encouraging physical activity by making it easier and safer for people to recreate, walk, bike and take public transportation. Many studies of [32] ____ show that people live the longest in environments where physical activity is part of everyday life.\n\nProviding more walkable spaces, better protected bike lanes and more [33] ____ spaces are important steps. But even smaller changes can be effective.\n\nCities can close off streets on weekends to encourage communities to get out and walk. They also can provide more seating in public places, so that less-fit residents can rest during their journeys. Using public spaces in cities as places where people can exercise promotes [34] ____ , rather than allowing physical activity to become restricted to private gyms with often-expensive monthly fees that [35] ____ less wealthy people from joining.",
+      "options": [
+        {
+          "id": "A",
+          "text": "correlation"
+        },
+        {
+          "id": "B",
+          "text": "dense"
+        },
+        {
+          "id": "C",
+          "text": "deter"
+        },
+        {
+          "id": "D",
+          "text": "equity"
+        },
+        {
+          "id": "E",
+          "text": "foster"
+        },
+        {
+          "id": "F",
+          "text": "imperative"
+        },
+        {
+          "id": "G",
+          "text": "impose"
+        },
+        {
+          "id": "H",
+          "text": "irrespective"
+        },
+        {
+          "id": "I",
+          "text": "longevity"
+        },
+        {
+          "id": "J",
+          "text": "navigate"
+        },
+        {
+          "id": "K",
+          "text": "recreational"
+        },
+        {
+          "id": "L",
+          "text": "rotten"
+        },
+        {
+          "id": "M",
+          "text": "sprawl"
+        },
+        {
+          "id": "N",
+          "text": "vibrate"
+        },
+        {
+          "id": "O",
+          "text": "vicinity"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "先看第 31 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 B（dense）。本空所在句：Of course cities still need to [30] ____ standard public health practices, such as separating toxic facilities from homes and restricting heavy truck traffic through [31] ____ residential areas.\n将本空替换为 dense 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2023-12-3-nonlistening-q32",
+      "canonicalId": "lazynote-cet6-2023-12-3-q32",
+      "number": 32,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 32 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Modern U.S. cities were designed to make exercise unnecessary. Cars and elevators once symbolized urban areas as machines for more efficient living. Now it is clear that these improvements provide great benefits but also [26] ____ health costs. Recent studies show that urban [27] ____ encourages more driving and is associated with heavier weight. This [28] ____ suggests that the layout and design of cities can hinder or promote healthier lifestyle choices and it is [29] ____ that urban planners bear this in mind.\n\nUnfortunately, urban planning still centers in large part on solving the problems of the past. Of course cities still need to [30] ____ standard public health practices, such as separating toxic facilities from homes and restricting heavy truck traffic through [31] ____ residential areas. But it's also important to create healthier cities—and the discussion is already underway. More and more city planners are paying increasing attention to encouraging physical activity by making it easier and safer for people to recreate, walk, bike and take public transportation. Many studies of [32] ____ show that people live the longest in environments where physical activity is part of everyday life.\n\nProviding more walkable spaces, better protected bike lanes and more [33] ____ spaces are important steps. But even smaller changes can be effective.\n\nCities can close off streets on weekends to encourage communities to get out and walk. They also can provide more seating in public places, so that less-fit residents can rest during their journeys. Using public spaces in cities as places where people can exercise promotes [34] ____ , rather than allowing physical activity to become restricted to private gyms with often-expensive monthly fees that [35] ____ less wealthy people from joining.",
+      "options": [
+        {
+          "id": "A",
+          "text": "correlation"
+        },
+        {
+          "id": "B",
+          "text": "dense"
+        },
+        {
+          "id": "C",
+          "text": "deter"
+        },
+        {
+          "id": "D",
+          "text": "equity"
+        },
+        {
+          "id": "E",
+          "text": "foster"
+        },
+        {
+          "id": "F",
+          "text": "imperative"
+        },
+        {
+          "id": "G",
+          "text": "impose"
+        },
+        {
+          "id": "H",
+          "text": "irrespective"
+        },
+        {
+          "id": "I",
+          "text": "longevity"
+        },
+        {
+          "id": "J",
+          "text": "navigate"
+        },
+        {
+          "id": "K",
+          "text": "recreational"
+        },
+        {
+          "id": "L",
+          "text": "rotten"
+        },
+        {
+          "id": "M",
+          "text": "sprawl"
+        },
+        {
+          "id": "N",
+          "text": "vibrate"
+        },
+        {
+          "id": "O",
+          "text": "vicinity"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "先看第 32 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 I（longevity）。本空所在句：Many studies of [32] ____ show that people live the longest in environments where physical activity is part of everyday life.\n将本空替换为 longevity 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2023-12-3-nonlistening-q33",
+      "canonicalId": "lazynote-cet6-2023-12-3-q33",
+      "number": 33,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 33 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Modern U.S. cities were designed to make exercise unnecessary. Cars and elevators once symbolized urban areas as machines for more efficient living. Now it is clear that these improvements provide great benefits but also [26] ____ health costs. Recent studies show that urban [27] ____ encourages more driving and is associated with heavier weight. This [28] ____ suggests that the layout and design of cities can hinder or promote healthier lifestyle choices and it is [29] ____ that urban planners bear this in mind.\n\nUnfortunately, urban planning still centers in large part on solving the problems of the past. Of course cities still need to [30] ____ standard public health practices, such as separating toxic facilities from homes and restricting heavy truck traffic through [31] ____ residential areas. But it's also important to create healthier cities—and the discussion is already underway. More and more city planners are paying increasing attention to encouraging physical activity by making it easier and safer for people to recreate, walk, bike and take public transportation. Many studies of [32] ____ show that people live the longest in environments where physical activity is part of everyday life.\n\nProviding more walkable spaces, better protected bike lanes and more [33] ____ spaces are important steps. But even smaller changes can be effective.\n\nCities can close off streets on weekends to encourage communities to get out and walk. They also can provide more seating in public places, so that less-fit residents can rest during their journeys. Using public spaces in cities as places where people can exercise promotes [34] ____ , rather than allowing physical activity to become restricted to private gyms with often-expensive monthly fees that [35] ____ less wealthy people from joining.",
+      "options": [
+        {
+          "id": "A",
+          "text": "correlation"
+        },
+        {
+          "id": "B",
+          "text": "dense"
+        },
+        {
+          "id": "C",
+          "text": "deter"
+        },
+        {
+          "id": "D",
+          "text": "equity"
+        },
+        {
+          "id": "E",
+          "text": "foster"
+        },
+        {
+          "id": "F",
+          "text": "imperative"
+        },
+        {
+          "id": "G",
+          "text": "impose"
+        },
+        {
+          "id": "H",
+          "text": "irrespective"
+        },
+        {
+          "id": "I",
+          "text": "longevity"
+        },
+        {
+          "id": "J",
+          "text": "navigate"
+        },
+        {
+          "id": "K",
+          "text": "recreational"
+        },
+        {
+          "id": "L",
+          "text": "rotten"
+        },
+        {
+          "id": "M",
+          "text": "sprawl"
+        },
+        {
+          "id": "N",
+          "text": "vibrate"
+        },
+        {
+          "id": "O",
+          "text": "vicinity"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "先看第 33 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 K（recreational）。本空所在句：Providing more walkable spaces, better protected bike lanes and more [33] ____ spaces are important steps.\n将本空替换为 recreational 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2023-12-3-nonlistening-q34",
+      "canonicalId": "lazynote-cet6-2023-12-3-q34",
+      "number": 34,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 34 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Modern U.S. cities were designed to make exercise unnecessary. Cars and elevators once symbolized urban areas as machines for more efficient living. Now it is clear that these improvements provide great benefits but also [26] ____ health costs. Recent studies show that urban [27] ____ encourages more driving and is associated with heavier weight. This [28] ____ suggests that the layout and design of cities can hinder or promote healthier lifestyle choices and it is [29] ____ that urban planners bear this in mind.\n\nUnfortunately, urban planning still centers in large part on solving the problems of the past. Of course cities still need to [30] ____ standard public health practices, such as separating toxic facilities from homes and restricting heavy truck traffic through [31] ____ residential areas. But it's also important to create healthier cities—and the discussion is already underway. More and more city planners are paying increasing attention to encouraging physical activity by making it easier and safer for people to recreate, walk, bike and take public transportation. Many studies of [32] ____ show that people live the longest in environments where physical activity is part of everyday life.\n\nProviding more walkable spaces, better protected bike lanes and more [33] ____ spaces are important steps. But even smaller changes can be effective.\n\nCities can close off streets on weekends to encourage communities to get out and walk. They also can provide more seating in public places, so that less-fit residents can rest during their journeys. Using public spaces in cities as places where people can exercise promotes [34] ____ , rather than allowing physical activity to become restricted to private gyms with often-expensive monthly fees that [35] ____ less wealthy people from joining.",
+      "options": [
+        {
+          "id": "A",
+          "text": "correlation"
+        },
+        {
+          "id": "B",
+          "text": "dense"
+        },
+        {
+          "id": "C",
+          "text": "deter"
+        },
+        {
+          "id": "D",
+          "text": "equity"
+        },
+        {
+          "id": "E",
+          "text": "foster"
+        },
+        {
+          "id": "F",
+          "text": "imperative"
+        },
+        {
+          "id": "G",
+          "text": "impose"
+        },
+        {
+          "id": "H",
+          "text": "irrespective"
+        },
+        {
+          "id": "I",
+          "text": "longevity"
+        },
+        {
+          "id": "J",
+          "text": "navigate"
+        },
+        {
+          "id": "K",
+          "text": "recreational"
+        },
+        {
+          "id": "L",
+          "text": "rotten"
+        },
+        {
+          "id": "M",
+          "text": "sprawl"
+        },
+        {
+          "id": "N",
+          "text": "vibrate"
+        },
+        {
+          "id": "O",
+          "text": "vicinity"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "先看第 34 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 D（equity）。本空所在句：Using public spaces in cities as places where people can exercise promotes [34] ____ , rather than allowing physical activity to become restricted to private gyms with often-expensive monthly fees that [35] ____ less wealthy people from joining.\n将本空替换为 equity 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2023-12-3-nonlistening-q35",
+      "canonicalId": "lazynote-cet6-2023-12-3-q35",
+      "number": 35,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 35 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Modern U.S. cities were designed to make exercise unnecessary. Cars and elevators once symbolized urban areas as machines for more efficient living. Now it is clear that these improvements provide great benefits but also [26] ____ health costs. Recent studies show that urban [27] ____ encourages more driving and is associated with heavier weight. This [28] ____ suggests that the layout and design of cities can hinder or promote healthier lifestyle choices and it is [29] ____ that urban planners bear this in mind.\n\nUnfortunately, urban planning still centers in large part on solving the problems of the past. Of course cities still need to [30] ____ standard public health practices, such as separating toxic facilities from homes and restricting heavy truck traffic through [31] ____ residential areas. But it's also important to create healthier cities—and the discussion is already underway. More and more city planners are paying increasing attention to encouraging physical activity by making it easier and safer for people to recreate, walk, bike and take public transportation. Many studies of [32] ____ show that people live the longest in environments where physical activity is part of everyday life.\n\nProviding more walkable spaces, better protected bike lanes and more [33] ____ spaces are important steps. But even smaller changes can be effective.\n\nCities can close off streets on weekends to encourage communities to get out and walk. They also can provide more seating in public places, so that less-fit residents can rest during their journeys. Using public spaces in cities as places where people can exercise promotes [34] ____ , rather than allowing physical activity to become restricted to private gyms with often-expensive monthly fees that [35] ____ less wealthy people from joining.",
+      "options": [
+        {
+          "id": "A",
+          "text": "correlation"
+        },
+        {
+          "id": "B",
+          "text": "dense"
+        },
+        {
+          "id": "C",
+          "text": "deter"
+        },
+        {
+          "id": "D",
+          "text": "equity"
+        },
+        {
+          "id": "E",
+          "text": "foster"
+        },
+        {
+          "id": "F",
+          "text": "imperative"
+        },
+        {
+          "id": "G",
+          "text": "impose"
+        },
+        {
+          "id": "H",
+          "text": "irrespective"
+        },
+        {
+          "id": "I",
+          "text": "longevity"
+        },
+        {
+          "id": "J",
+          "text": "navigate"
+        },
+        {
+          "id": "K",
+          "text": "recreational"
+        },
+        {
+          "id": "L",
+          "text": "rotten"
+        },
+        {
+          "id": "M",
+          "text": "sprawl"
+        },
+        {
+          "id": "N",
+          "text": "vibrate"
+        },
+        {
+          "id": "O",
+          "text": "vicinity"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "先看第 35 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 C（deter）。本空所在句：Using public spaces in cities as places where people can exercise promotes [34] ____ , rather than allowing physical activity to become restricted to private gyms with often-expensive monthly fees that [35] ____ less wealthy people from joining.\n将本空替换为 deter 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2023-12-3-nonlistening-q36",
+      "canonicalId": "lazynote-cet6-2023-12-3-q36",
+      "number": 36,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Research indicates that brain training is likely to boost one's ability at specific tasks, but not one's other cognitive abilities.",
+      "passage": "Can Learning a Foreign Language Prevent Dementia?\n\nA) You may have heard that learning another language is one method for preventing or at least postponing the onset of dementia. Dementia refers to the loss of cognitive abilities, and one of its most common forms is Alzheimer's disease(阿尔茨海默氏病). At this time, the causes of the disease are not well understood, and consequently, there are no proven steps that people can take to prevent it. Nonetheless, some researchers have suggested that learning a foreign language might help delay the onset of dementia.\n\nB) To explore this possibility more deeply, let's look at some of the common misconceptions about dementia and the aging brain. First of all, dementia is not an inevitable part of the normal aging process. Most older adults do not develop Alzheimer's disease or other forms of dementia. It is also important to remember that dementia is not the same thing as normal forgetfulness. At any age, we might experience difficulty finding the exact word we want or have trouble remembering the name of the person we just met. People with dementia have more serious problems, like feeling confused or getting lost in a familiar place. Think of it this way: If you forget where you parked your car at the mall, that's normal; if you forget how to drive a car, that may be a signal that something more serious is going on.\n\nC) The idea that dementia can be prevented is based on the comparison of the brain to a muscle. When people talk about the brain, they sometimes say things like \"It is important to exercise your brain\" or \"To stay mentally fit, you have to give your brain a workout.\" Although these are colorful analogies, in reality the brain is not a muscle. Unlike muscles, the brain is always active and works even during periods of rest and sleep. In addition, although some muscle cells have a lifespan of only a few days, brain cells last a lifetime. Not only that, but it has been shown that new brain cells are being created throughout one's lifespan.\n\nD) While it makes for a colorful analogy, comparing the brain to a muscle is inaccurate and misleading. So, if the brain is not a muscle, can it still be exercised? Once again, researchers don't know for sure. There are now many computer, online, and mobile device applications that claim to be able to \"train your brain,\" and they typically tap into a variety of cognitive abilities. However, research suggests that although this type of training may improve one's abilities at the tasks themselves, they don't seem to improve other abilities. In other words, practicing a letter-detection task will, over time, improve your letter-detection skills, but it will not necessarily enhance your other perceptual abilities.\n\nE) However, there is some reason to believe that learning languages might be different. The best evidence that foreign language learning confers cognitive benefits comes from research with those who are already bilingual(双语的). Bilingualism most commonly occurs when children are exposed to two languages, either in the home (mom speaks Dutch, dad speaks Spanish) or more formally in early schooling. But bilingualism certainly occurs in adulthood as well.\n\nF) Bilingualism and multilingualism are actually more common than you might think. In fact, it has been estimated that there are fewer monolingual speakers in the world than bilinguals and multilinguals. Although in many countries most inhabitants share just one language, other countries have several official languages. Switzerland, for example, has four official languages: German, French, Italian, and Romansh. Throughout large parts of Africa, Arabic, Swahili, French, and English are often known and used by individuals who speak a different, native language in their home than they do in the marketplace. So bilingualism and multilingualism are to be found throughout the world. And with regard to cognitive abilities, the research on those who speak more than one language paints an encouraging picture.\n\nG) For one thing, bilinguals are better at multitasking. One explanation of this superiority is that speakers of two languages are continually inhibiting one of their languages, and this process of inhibition confers general cognitive benefits to other activities. In fact, bilingual individuals outperform their monolingual counterparts on a variety of cognitive tasks, such as following complex instructions, and switching to new instructions. For the sake of completeness, it should be noted that the advantages of being bilingual are not universal across all cognitive domains. Bilingual individuals have been shown to have smaller vocabularies and to take longer in retrieving words from memory when compared to monolinguals. In the long run, however, the cognitive and linguistic advantages of being bilingual far outweigh these two drawbacks.\n\nH) If the benefits of being bilingual spill over to other aspects of cognition, then we would expect to see a lower incidence of Alzheimer's disease in bilinguals than in monolinguals, or at least a later onset of Alzheimer's for bilinguals. In fact, there is evidence to support this claim. The psychologist Ellen Bialystok and her colleagues obtained the histories of 184 individuals who had made use of a memory clinic in Toronto. For those who showed signs of dementia, the monolinguals in the sample had an average age of 71.4 years at time of onset. The bilinguals, in contrast, received their diagnosis at 75.5 years, on average. In a study of this sort, a difference of four years is highly significant, and could not be explained by other systematic differences between the two groups. For example, the monolinguals reported, on average, a year and a half more schooling than their bilingual counterparts, so the effect was clearly not due to formal education.\n\nI) A separate study, conducted in India, found strikingly similar results: bilingual patients developed symptoms of dementia 4.5 years later than monolinguals, even after other potential factors, such as gender and occupation, were controlled for. In addition, researchers have reported other positive effects of bilingualism for cognitive abilities in later life, even when the person acquired the language in adulthood. Crucially, Bialystok suggested that the positive benefits of being bilingual were only found in those who used both languages all the time.\n\nJ) But encouraging as these kinds of studies are, they still have not established exactly how or why differences between bilinguals and monolinguals exist. Because these studies looked back at the histories of people who were already bilingual, the results can only say that a difference between the two groups was found, but not why that difference occurred. Further research is needed to determine what caused the differences in age of onset between the two groups.\n\nK) Other studies of successful aging suggest that being connected to one's community and having plenty of social interaction is also important in delaying or even preventing the onset of dementia. Once again, however, the results are far less clear than the popular media might lead you to believe. Older individuals who lead active social lives are, almost by definition, healthier than their counterparts who rarely leave their homes or interact with others. So we can't really say whether being socially active prevents the onset of dementia, or if people who don't have dementia are more likely to be socially active.\n\nL) But even if studying a foreign language is not a magical cure-all, there is one thing it will do: It will make you a better speaker of a foreign language. Doing that confers a whole host of advantages we do know about.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 D 段。题干：Research indicates that brain training is likely to boost one's ability at specific tasks, but not one's other cognitive abilities.\n核对该段原文：While it makes for a colorful analogy, comparing the brain to a muscle is inaccurate and misleading. So, if the brain is not a muscle, can it still be exercised? Once again, researchers don't know for sure. There are now many computer, online, and mobile device applications that claim to be able to \"train your brain,\" and they typically tap into a variety of cognitive abilities. However, research suggests that although this type of training may improve one's abilities at the tasks themselves, they don't seem to improve other abilities. In other words, practicing a letter-detection task will, over time, improve your letter-detection skills, but it will not necessarily enhance your other perceptual abilities.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2023-12-3-nonlistening-q37",
+      "canonicalId": "lazynote-cet6-2023-12-3-q37",
+      "number": 37,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "According to estimates, the number of people who speak two languages or more is greater than those who speak one language only.",
+      "passage": "Can Learning a Foreign Language Prevent Dementia?\n\nA) You may have heard that learning another language is one method for preventing or at least postponing the onset of dementia. Dementia refers to the loss of cognitive abilities, and one of its most common forms is Alzheimer's disease(阿尔茨海默氏病). At this time, the causes of the disease are not well understood, and consequently, there are no proven steps that people can take to prevent it. Nonetheless, some researchers have suggested that learning a foreign language might help delay the onset of dementia.\n\nB) To explore this possibility more deeply, let's look at some of the common misconceptions about dementia and the aging brain. First of all, dementia is not an inevitable part of the normal aging process. Most older adults do not develop Alzheimer's disease or other forms of dementia. It is also important to remember that dementia is not the same thing as normal forgetfulness. At any age, we might experience difficulty finding the exact word we want or have trouble remembering the name of the person we just met. People with dementia have more serious problems, like feeling confused or getting lost in a familiar place. Think of it this way: If you forget where you parked your car at the mall, that's normal; if you forget how to drive a car, that may be a signal that something more serious is going on.\n\nC) The idea that dementia can be prevented is based on the comparison of the brain to a muscle. When people talk about the brain, they sometimes say things like \"It is important to exercise your brain\" or \"To stay mentally fit, you have to give your brain a workout.\" Although these are colorful analogies, in reality the brain is not a muscle. Unlike muscles, the brain is always active and works even during periods of rest and sleep. In addition, although some muscle cells have a lifespan of only a few days, brain cells last a lifetime. Not only that, but it has been shown that new brain cells are being created throughout one's lifespan.\n\nD) While it makes for a colorful analogy, comparing the brain to a muscle is inaccurate and misleading. So, if the brain is not a muscle, can it still be exercised? Once again, researchers don't know for sure. There are now many computer, online, and mobile device applications that claim to be able to \"train your brain,\" and they typically tap into a variety of cognitive abilities. However, research suggests that although this type of training may improve one's abilities at the tasks themselves, they don't seem to improve other abilities. In other words, practicing a letter-detection task will, over time, improve your letter-detection skills, but it will not necessarily enhance your other perceptual abilities.\n\nE) However, there is some reason to believe that learning languages might be different. The best evidence that foreign language learning confers cognitive benefits comes from research with those who are already bilingual(双语的). Bilingualism most commonly occurs when children are exposed to two languages, either in the home (mom speaks Dutch, dad speaks Spanish) or more formally in early schooling. But bilingualism certainly occurs in adulthood as well.\n\nF) Bilingualism and multilingualism are actually more common than you might think. In fact, it has been estimated that there are fewer monolingual speakers in the world than bilinguals and multilinguals. Although in many countries most inhabitants share just one language, other countries have several official languages. Switzerland, for example, has four official languages: German, French, Italian, and Romansh. Throughout large parts of Africa, Arabic, Swahili, French, and English are often known and used by individuals who speak a different, native language in their home than they do in the marketplace. So bilingualism and multilingualism are to be found throughout the world. And with regard to cognitive abilities, the research on those who speak more than one language paints an encouraging picture.\n\nG) For one thing, bilinguals are better at multitasking. One explanation of this superiority is that speakers of two languages are continually inhibiting one of their languages, and this process of inhibition confers general cognitive benefits to other activities. In fact, bilingual individuals outperform their monolingual counterparts on a variety of cognitive tasks, such as following complex instructions, and switching to new instructions. For the sake of completeness, it should be noted that the advantages of being bilingual are not universal across all cognitive domains. Bilingual individuals have been shown to have smaller vocabularies and to take longer in retrieving words from memory when compared to monolinguals. In the long run, however, the cognitive and linguistic advantages of being bilingual far outweigh these two drawbacks.\n\nH) If the benefits of being bilingual spill over to other aspects of cognition, then we would expect to see a lower incidence of Alzheimer's disease in bilinguals than in monolinguals, or at least a later onset of Alzheimer's for bilinguals. In fact, there is evidence to support this claim. The psychologist Ellen Bialystok and her colleagues obtained the histories of 184 individuals who had made use of a memory clinic in Toronto. For those who showed signs of dementia, the monolinguals in the sample had an average age of 71.4 years at time of onset. The bilinguals, in contrast, received their diagnosis at 75.5 years, on average. In a study of this sort, a difference of four years is highly significant, and could not be explained by other systematic differences between the two groups. For example, the monolinguals reported, on average, a year and a half more schooling than their bilingual counterparts, so the effect was clearly not due to formal education.\n\nI) A separate study, conducted in India, found strikingly similar results: bilingual patients developed symptoms of dementia 4.5 years later than monolinguals, even after other potential factors, such as gender and occupation, were controlled for. In addition, researchers have reported other positive effects of bilingualism for cognitive abilities in later life, even when the person acquired the language in adulthood. Crucially, Bialystok suggested that the positive benefits of being bilingual were only found in those who used both languages all the time.\n\nJ) But encouraging as these kinds of studies are, they still have not established exactly how or why differences between bilinguals and monolinguals exist. Because these studies looked back at the histories of people who were already bilingual, the results can only say that a difference between the two groups was found, but not why that difference occurred. Further research is needed to determine what caused the differences in age of onset between the two groups.\n\nK) Other studies of successful aging suggest that being connected to one's community and having plenty of social interaction is also important in delaying or even preventing the onset of dementia. Once again, however, the results are far less clear than the popular media might lead you to believe. Older individuals who lead active social lives are, almost by definition, healthier than their counterparts who rarely leave their homes or interact with others. So we can't really say whether being socially active prevents the onset of dementia, or if people who don't have dementia are more likely to be socially active.\n\nL) But even if studying a foreign language is not a magical cure-all, there is one thing it will do: It will make you a better speaker of a foreign language. Doing that confers a whole host of advantages we do know about.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 F 段。题干：According to estimates, the number of people who speak two languages or more is greater than those who speak one language only.\n核对该段原文：Bilingualism and multilingualism are actually more common than you might think. In fact, it has been estimated that there are fewer monolingual speakers in the world than bilinguals and multilinguals. Although in many countries most inhabitants share just one language, other countries have several official languages. Switzerland, for example, has four official languages: German, French, Italian, and Romansh. Throughout large parts of Africa, Arabic, Swahili, French, and English are often known and used by individuals who speak a different, native language in their home than they do in the marketplace. So bilingualism and multilingualism are to be found throughout the world. And with regard to cognitive abilities, the research on those who speak more than one language paints an encouraging picture.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2023-12-3-nonlistening-q38",
+      "canonicalId": "lazynote-cet6-2023-12-3-q38",
+      "number": 38,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "For the time being, we do not know what causes people to lose their cognitive abilities, or what we can do to prevent it.",
+      "passage": "Can Learning a Foreign Language Prevent Dementia?\n\nA) You may have heard that learning another language is one method for preventing or at least postponing the onset of dementia. Dementia refers to the loss of cognitive abilities, and one of its most common forms is Alzheimer's disease(阿尔茨海默氏病). At this time, the causes of the disease are not well understood, and consequently, there are no proven steps that people can take to prevent it. Nonetheless, some researchers have suggested that learning a foreign language might help delay the onset of dementia.\n\nB) To explore this possibility more deeply, let's look at some of the common misconceptions about dementia and the aging brain. First of all, dementia is not an inevitable part of the normal aging process. Most older adults do not develop Alzheimer's disease or other forms of dementia. It is also important to remember that dementia is not the same thing as normal forgetfulness. At any age, we might experience difficulty finding the exact word we want or have trouble remembering the name of the person we just met. People with dementia have more serious problems, like feeling confused or getting lost in a familiar place. Think of it this way: If you forget where you parked your car at the mall, that's normal; if you forget how to drive a car, that may be a signal that something more serious is going on.\n\nC) The idea that dementia can be prevented is based on the comparison of the brain to a muscle. When people talk about the brain, they sometimes say things like \"It is important to exercise your brain\" or \"To stay mentally fit, you have to give your brain a workout.\" Although these are colorful analogies, in reality the brain is not a muscle. Unlike muscles, the brain is always active and works even during periods of rest and sleep. In addition, although some muscle cells have a lifespan of only a few days, brain cells last a lifetime. Not only that, but it has been shown that new brain cells are being created throughout one's lifespan.\n\nD) While it makes for a colorful analogy, comparing the brain to a muscle is inaccurate and misleading. So, if the brain is not a muscle, can it still be exercised? Once again, researchers don't know for sure. There are now many computer, online, and mobile device applications that claim to be able to \"train your brain,\" and they typically tap into a variety of cognitive abilities. However, research suggests that although this type of training may improve one's abilities at the tasks themselves, they don't seem to improve other abilities. In other words, practicing a letter-detection task will, over time, improve your letter-detection skills, but it will not necessarily enhance your other perceptual abilities.\n\nE) However, there is some reason to believe that learning languages might be different. The best evidence that foreign language learning confers cognitive benefits comes from research with those who are already bilingual(双语的). Bilingualism most commonly occurs when children are exposed to two languages, either in the home (mom speaks Dutch, dad speaks Spanish) or more formally in early schooling. But bilingualism certainly occurs in adulthood as well.\n\nF) Bilingualism and multilingualism are actually more common than you might think. In fact, it has been estimated that there are fewer monolingual speakers in the world than bilinguals and multilinguals. Although in many countries most inhabitants share just one language, other countries have several official languages. Switzerland, for example, has four official languages: German, French, Italian, and Romansh. Throughout large parts of Africa, Arabic, Swahili, French, and English are often known and used by individuals who speak a different, native language in their home than they do in the marketplace. So bilingualism and multilingualism are to be found throughout the world. And with regard to cognitive abilities, the research on those who speak more than one language paints an encouraging picture.\n\nG) For one thing, bilinguals are better at multitasking. One explanation of this superiority is that speakers of two languages are continually inhibiting one of their languages, and this process of inhibition confers general cognitive benefits to other activities. In fact, bilingual individuals outperform their monolingual counterparts on a variety of cognitive tasks, such as following complex instructions, and switching to new instructions. For the sake of completeness, it should be noted that the advantages of being bilingual are not universal across all cognitive domains. Bilingual individuals have been shown to have smaller vocabularies and to take longer in retrieving words from memory when compared to monolinguals. In the long run, however, the cognitive and linguistic advantages of being bilingual far outweigh these two drawbacks.\n\nH) If the benefits of being bilingual spill over to other aspects of cognition, then we would expect to see a lower incidence of Alzheimer's disease in bilinguals than in monolinguals, or at least a later onset of Alzheimer's for bilinguals. In fact, there is evidence to support this claim. The psychologist Ellen Bialystok and her colleagues obtained the histories of 184 individuals who had made use of a memory clinic in Toronto. For those who showed signs of dementia, the monolinguals in the sample had an average age of 71.4 years at time of onset. The bilinguals, in contrast, received their diagnosis at 75.5 years, on average. In a study of this sort, a difference of four years is highly significant, and could not be explained by other systematic differences between the two groups. For example, the monolinguals reported, on average, a year and a half more schooling than their bilingual counterparts, so the effect was clearly not due to formal education.\n\nI) A separate study, conducted in India, found strikingly similar results: bilingual patients developed symptoms of dementia 4.5 years later than monolinguals, even after other potential factors, such as gender and occupation, were controlled for. In addition, researchers have reported other positive effects of bilingualism for cognitive abilities in later life, even when the person acquired the language in adulthood. Crucially, Bialystok suggested that the positive benefits of being bilingual were only found in those who used both languages all the time.\n\nJ) But encouraging as these kinds of studies are, they still have not established exactly how or why differences between bilinguals and monolinguals exist. Because these studies looked back at the histories of people who were already bilingual, the results can only say that a difference between the two groups was found, but not why that difference occurred. Further research is needed to determine what caused the differences in age of onset between the two groups.\n\nK) Other studies of successful aging suggest that being connected to one's community and having plenty of social interaction is also important in delaying or even preventing the onset of dementia. Once again, however, the results are far less clear than the popular media might lead you to believe. Older individuals who lead active social lives are, almost by definition, healthier than their counterparts who rarely leave their homes or interact with others. So we can't really say whether being socially active prevents the onset of dementia, or if people who don't have dementia are more likely to be socially active.\n\nL) But even if studying a foreign language is not a magical cure-all, there is one thing it will do: It will make you a better speaker of a foreign language. Doing that confers a whole host of advantages we do know about.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 A 段。题干：For the time being, we do not know what causes people to lose their cognitive abilities, or what we can do to prevent it.\n核对该段原文：You may have heard that learning another language is one method for preventing or at least postponing the onset of dementia. Dementia refers to the loss of cognitive abilities, and one of its most common forms is Alzheimer's disease(阿尔茨海默氏病). At this time, the causes of the disease are not well understood, and consequently, there are no proven steps that people can take to prevent it. Nonetheless, some researchers have suggested that learning a foreign language might help delay the onset of dementia.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2023-12-3-nonlistening-q39",
+      "canonicalId": "lazynote-cet6-2023-12-3-q39",
+      "number": 39,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "It is hard to determine whether people who are free from dementia tend to have more social activities, or more social activities keep people away from dementia.",
+      "passage": "Can Learning a Foreign Language Prevent Dementia?\n\nA) You may have heard that learning another language is one method for preventing or at least postponing the onset of dementia. Dementia refers to the loss of cognitive abilities, and one of its most common forms is Alzheimer's disease(阿尔茨海默氏病). At this time, the causes of the disease are not well understood, and consequently, there are no proven steps that people can take to prevent it. Nonetheless, some researchers have suggested that learning a foreign language might help delay the onset of dementia.\n\nB) To explore this possibility more deeply, let's look at some of the common misconceptions about dementia and the aging brain. First of all, dementia is not an inevitable part of the normal aging process. Most older adults do not develop Alzheimer's disease or other forms of dementia. It is also important to remember that dementia is not the same thing as normal forgetfulness. At any age, we might experience difficulty finding the exact word we want or have trouble remembering the name of the person we just met. People with dementia have more serious problems, like feeling confused or getting lost in a familiar place. Think of it this way: If you forget where you parked your car at the mall, that's normal; if you forget how to drive a car, that may be a signal that something more serious is going on.\n\nC) The idea that dementia can be prevented is based on the comparison of the brain to a muscle. When people talk about the brain, they sometimes say things like \"It is important to exercise your brain\" or \"To stay mentally fit, you have to give your brain a workout.\" Although these are colorful analogies, in reality the brain is not a muscle. Unlike muscles, the brain is always active and works even during periods of rest and sleep. In addition, although some muscle cells have a lifespan of only a few days, brain cells last a lifetime. Not only that, but it has been shown that new brain cells are being created throughout one's lifespan.\n\nD) While it makes for a colorful analogy, comparing the brain to a muscle is inaccurate and misleading. So, if the brain is not a muscle, can it still be exercised? Once again, researchers don't know for sure. There are now many computer, online, and mobile device applications that claim to be able to \"train your brain,\" and they typically tap into a variety of cognitive abilities. However, research suggests that although this type of training may improve one's abilities at the tasks themselves, they don't seem to improve other abilities. In other words, practicing a letter-detection task will, over time, improve your letter-detection skills, but it will not necessarily enhance your other perceptual abilities.\n\nE) However, there is some reason to believe that learning languages might be different. The best evidence that foreign language learning confers cognitive benefits comes from research with those who are already bilingual(双语的). Bilingualism most commonly occurs when children are exposed to two languages, either in the home (mom speaks Dutch, dad speaks Spanish) or more formally in early schooling. But bilingualism certainly occurs in adulthood as well.\n\nF) Bilingualism and multilingualism are actually more common than you might think. In fact, it has been estimated that there are fewer monolingual speakers in the world than bilinguals and multilinguals. Although in many countries most inhabitants share just one language, other countries have several official languages. Switzerland, for example, has four official languages: German, French, Italian, and Romansh. Throughout large parts of Africa, Arabic, Swahili, French, and English are often known and used by individuals who speak a different, native language in their home than they do in the marketplace. So bilingualism and multilingualism are to be found throughout the world. And with regard to cognitive abilities, the research on those who speak more than one language paints an encouraging picture.\n\nG) For one thing, bilinguals are better at multitasking. One explanation of this superiority is that speakers of two languages are continually inhibiting one of their languages, and this process of inhibition confers general cognitive benefits to other activities. In fact, bilingual individuals outperform their monolingual counterparts on a variety of cognitive tasks, such as following complex instructions, and switching to new instructions. For the sake of completeness, it should be noted that the advantages of being bilingual are not universal across all cognitive domains. Bilingual individuals have been shown to have smaller vocabularies and to take longer in retrieving words from memory when compared to monolinguals. In the long run, however, the cognitive and linguistic advantages of being bilingual far outweigh these two drawbacks.\n\nH) If the benefits of being bilingual spill over to other aspects of cognition, then we would expect to see a lower incidence of Alzheimer's disease in bilinguals than in monolinguals, or at least a later onset of Alzheimer's for bilinguals. In fact, there is evidence to support this claim. The psychologist Ellen Bialystok and her colleagues obtained the histories of 184 individuals who had made use of a memory clinic in Toronto. For those who showed signs of dementia, the monolinguals in the sample had an average age of 71.4 years at time of onset. The bilinguals, in contrast, received their diagnosis at 75.5 years, on average. In a study of this sort, a difference of four years is highly significant, and could not be explained by other systematic differences between the two groups. For example, the monolinguals reported, on average, a year and a half more schooling than their bilingual counterparts, so the effect was clearly not due to formal education.\n\nI) A separate study, conducted in India, found strikingly similar results: bilingual patients developed symptoms of dementia 4.5 years later than monolinguals, even after other potential factors, such as gender and occupation, were controlled for. In addition, researchers have reported other positive effects of bilingualism for cognitive abilities in later life, even when the person acquired the language in adulthood. Crucially, Bialystok suggested that the positive benefits of being bilingual were only found in those who used both languages all the time.\n\nJ) But encouraging as these kinds of studies are, they still have not established exactly how or why differences between bilinguals and monolinguals exist. Because these studies looked back at the histories of people who were already bilingual, the results can only say that a difference between the two groups was found, but not why that difference occurred. Further research is needed to determine what caused the differences in age of onset between the two groups.\n\nK) Other studies of successful aging suggest that being connected to one's community and having plenty of social interaction is also important in delaying or even preventing the onset of dementia. Once again, however, the results are far less clear than the popular media might lead you to believe. Older individuals who lead active social lives are, almost by definition, healthier than their counterparts who rarely leave their homes or interact with others. So we can't really say whether being socially active prevents the onset of dementia, or if people who don't have dementia are more likely to be socially active.\n\nL) But even if studying a foreign language is not a magical cure-all, there is one thing it will do: It will make you a better speaker of a foreign language. Doing that confers a whole host of advantages we do know about.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 K 段。题干：It is hard to determine whether people who are free from dementia tend to have more social activities, or more social activities keep people away from dementia.\n核对该段原文：Other studies of successful aging suggest that being connected to one's community and having plenty of social interaction is also important in delaying or even preventing the onset of dementia. Once again, however, the results are far less clear than the popular media might lead you to believe. Older individuals who lead active social lives are, almost by definition, healthier than their counterparts who rarely leave their homes or interact with others. So we can't really say whether being socially active prevents the onset of dementia, or if people who don't have dementia are more likely to be socially active.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2023-12-3-nonlistening-q40",
+      "canonicalId": "lazynote-cet6-2023-12-3-q40",
+      "number": 40,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "There is evidence that learning foreign languages might be beneficial to boosting one's cognitive abilities.",
+      "passage": "Can Learning a Foreign Language Prevent Dementia?\n\nA) You may have heard that learning another language is one method for preventing or at least postponing the onset of dementia. Dementia refers to the loss of cognitive abilities, and one of its most common forms is Alzheimer's disease(阿尔茨海默氏病). At this time, the causes of the disease are not well understood, and consequently, there are no proven steps that people can take to prevent it. Nonetheless, some researchers have suggested that learning a foreign language might help delay the onset of dementia.\n\nB) To explore this possibility more deeply, let's look at some of the common misconceptions about dementia and the aging brain. First of all, dementia is not an inevitable part of the normal aging process. Most older adults do not develop Alzheimer's disease or other forms of dementia. It is also important to remember that dementia is not the same thing as normal forgetfulness. At any age, we might experience difficulty finding the exact word we want or have trouble remembering the name of the person we just met. People with dementia have more serious problems, like feeling confused or getting lost in a familiar place. Think of it this way: If you forget where you parked your car at the mall, that's normal; if you forget how to drive a car, that may be a signal that something more serious is going on.\n\nC) The idea that dementia can be prevented is based on the comparison of the brain to a muscle. When people talk about the brain, they sometimes say things like \"It is important to exercise your brain\" or \"To stay mentally fit, you have to give your brain a workout.\" Although these are colorful analogies, in reality the brain is not a muscle. Unlike muscles, the brain is always active and works even during periods of rest and sleep. In addition, although some muscle cells have a lifespan of only a few days, brain cells last a lifetime. Not only that, but it has been shown that new brain cells are being created throughout one's lifespan.\n\nD) While it makes for a colorful analogy, comparing the brain to a muscle is inaccurate and misleading. So, if the brain is not a muscle, can it still be exercised? Once again, researchers don't know for sure. There are now many computer, online, and mobile device applications that claim to be able to \"train your brain,\" and they typically tap into a variety of cognitive abilities. However, research suggests that although this type of training may improve one's abilities at the tasks themselves, they don't seem to improve other abilities. In other words, practicing a letter-detection task will, over time, improve your letter-detection skills, but it will not necessarily enhance your other perceptual abilities.\n\nE) However, there is some reason to believe that learning languages might be different. The best evidence that foreign language learning confers cognitive benefits comes from research with those who are already bilingual(双语的). Bilingualism most commonly occurs when children are exposed to two languages, either in the home (mom speaks Dutch, dad speaks Spanish) or more formally in early schooling. But bilingualism certainly occurs in adulthood as well.\n\nF) Bilingualism and multilingualism are actually more common than you might think. In fact, it has been estimated that there are fewer monolingual speakers in the world than bilinguals and multilinguals. Although in many countries most inhabitants share just one language, other countries have several official languages. Switzerland, for example, has four official languages: German, French, Italian, and Romansh. Throughout large parts of Africa, Arabic, Swahili, French, and English are often known and used by individuals who speak a different, native language in their home than they do in the marketplace. So bilingualism and multilingualism are to be found throughout the world. And with regard to cognitive abilities, the research on those who speak more than one language paints an encouraging picture.\n\nG) For one thing, bilinguals are better at multitasking. One explanation of this superiority is that speakers of two languages are continually inhibiting one of their languages, and this process of inhibition confers general cognitive benefits to other activities. In fact, bilingual individuals outperform their monolingual counterparts on a variety of cognitive tasks, such as following complex instructions, and switching to new instructions. For the sake of completeness, it should be noted that the advantages of being bilingual are not universal across all cognitive domains. Bilingual individuals have been shown to have smaller vocabularies and to take longer in retrieving words from memory when compared to monolinguals. In the long run, however, the cognitive and linguistic advantages of being bilingual far outweigh these two drawbacks.\n\nH) If the benefits of being bilingual spill over to other aspects of cognition, then we would expect to see a lower incidence of Alzheimer's disease in bilinguals than in monolinguals, or at least a later onset of Alzheimer's for bilinguals. In fact, there is evidence to support this claim. The psychologist Ellen Bialystok and her colleagues obtained the histories of 184 individuals who had made use of a memory clinic in Toronto. For those who showed signs of dementia, the monolinguals in the sample had an average age of 71.4 years at time of onset. The bilinguals, in contrast, received their diagnosis at 75.5 years, on average. In a study of this sort, a difference of four years is highly significant, and could not be explained by other systematic differences between the two groups. For example, the monolinguals reported, on average, a year and a half more schooling than their bilingual counterparts, so the effect was clearly not due to formal education.\n\nI) A separate study, conducted in India, found strikingly similar results: bilingual patients developed symptoms of dementia 4.5 years later than monolinguals, even after other potential factors, such as gender and occupation, were controlled for. In addition, researchers have reported other positive effects of bilingualism for cognitive abilities in later life, even when the person acquired the language in adulthood. Crucially, Bialystok suggested that the positive benefits of being bilingual were only found in those who used both languages all the time.\n\nJ) But encouraging as these kinds of studies are, they still have not established exactly how or why differences between bilinguals and monolinguals exist. Because these studies looked back at the histories of people who were already bilingual, the results can only say that a difference between the two groups was found, but not why that difference occurred. Further research is needed to determine what caused the differences in age of onset between the two groups.\n\nK) Other studies of successful aging suggest that being connected to one's community and having plenty of social interaction is also important in delaying or even preventing the onset of dementia. Once again, however, the results are far less clear than the popular media might lead you to believe. Older individuals who lead active social lives are, almost by definition, healthier than their counterparts who rarely leave their homes or interact with others. So we can't really say whether being socially active prevents the onset of dementia, or if people who don't have dementia are more likely to be socially active.\n\nL) But even if studying a foreign language is not a magical cure-all, there is one thing it will do: It will make you a better speaker of a foreign language. Doing that confers a whole host of advantages we do know about.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 E 段。题干：There is evidence that learning foreign languages might be beneficial to boosting one's cognitive abilities.\n核对该段原文：However, there is some reason to believe that learning languages might be different. The best evidence that foreign language learning confers cognitive benefits comes from research with those who are already bilingual(双语的). Bilingualism most commonly occurs when children are exposed to two languages, either in the home (mom speaks Dutch, dad speaks Spanish) or more formally in early schooling. But bilingualism certainly occurs in adulthood as well.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2023-12-3-nonlistening-q41",
+      "canonicalId": "lazynote-cet6-2023-12-3-q41",
+      "number": 41,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "It was suggested that only those who always spoke two languages could benefit from bilingualism.",
+      "passage": "Can Learning a Foreign Language Prevent Dementia?\n\nA) You may have heard that learning another language is one method for preventing or at least postponing the onset of dementia. Dementia refers to the loss of cognitive abilities, and one of its most common forms is Alzheimer's disease(阿尔茨海默氏病). At this time, the causes of the disease are not well understood, and consequently, there are no proven steps that people can take to prevent it. Nonetheless, some researchers have suggested that learning a foreign language might help delay the onset of dementia.\n\nB) To explore this possibility more deeply, let's look at some of the common misconceptions about dementia and the aging brain. First of all, dementia is not an inevitable part of the normal aging process. Most older adults do not develop Alzheimer's disease or other forms of dementia. It is also important to remember that dementia is not the same thing as normal forgetfulness. At any age, we might experience difficulty finding the exact word we want or have trouble remembering the name of the person we just met. People with dementia have more serious problems, like feeling confused or getting lost in a familiar place. Think of it this way: If you forget where you parked your car at the mall, that's normal; if you forget how to drive a car, that may be a signal that something more serious is going on.\n\nC) The idea that dementia can be prevented is based on the comparison of the brain to a muscle. When people talk about the brain, they sometimes say things like \"It is important to exercise your brain\" or \"To stay mentally fit, you have to give your brain a workout.\" Although these are colorful analogies, in reality the brain is not a muscle. Unlike muscles, the brain is always active and works even during periods of rest and sleep. In addition, although some muscle cells have a lifespan of only a few days, brain cells last a lifetime. Not only that, but it has been shown that new brain cells are being created throughout one's lifespan.\n\nD) While it makes for a colorful analogy, comparing the brain to a muscle is inaccurate and misleading. So, if the brain is not a muscle, can it still be exercised? Once again, researchers don't know for sure. There are now many computer, online, and mobile device applications that claim to be able to \"train your brain,\" and they typically tap into a variety of cognitive abilities. However, research suggests that although this type of training may improve one's abilities at the tasks themselves, they don't seem to improve other abilities. In other words, practicing a letter-detection task will, over time, improve your letter-detection skills, but it will not necessarily enhance your other perceptual abilities.\n\nE) However, there is some reason to believe that learning languages might be different. The best evidence that foreign language learning confers cognitive benefits comes from research with those who are already bilingual(双语的). Bilingualism most commonly occurs when children are exposed to two languages, either in the home (mom speaks Dutch, dad speaks Spanish) or more formally in early schooling. But bilingualism certainly occurs in adulthood as well.\n\nF) Bilingualism and multilingualism are actually more common than you might think. In fact, it has been estimated that there are fewer monolingual speakers in the world than bilinguals and multilinguals. Although in many countries most inhabitants share just one language, other countries have several official languages. Switzerland, for example, has four official languages: German, French, Italian, and Romansh. Throughout large parts of Africa, Arabic, Swahili, French, and English are often known and used by individuals who speak a different, native language in their home than they do in the marketplace. So bilingualism and multilingualism are to be found throughout the world. And with regard to cognitive abilities, the research on those who speak more than one language paints an encouraging picture.\n\nG) For one thing, bilinguals are better at multitasking. One explanation of this superiority is that speakers of two languages are continually inhibiting one of their languages, and this process of inhibition confers general cognitive benefits to other activities. In fact, bilingual individuals outperform their monolingual counterparts on a variety of cognitive tasks, such as following complex instructions, and switching to new instructions. For the sake of completeness, it should be noted that the advantages of being bilingual are not universal across all cognitive domains. Bilingual individuals have been shown to have smaller vocabularies and to take longer in retrieving words from memory when compared to monolinguals. In the long run, however, the cognitive and linguistic advantages of being bilingual far outweigh these two drawbacks.\n\nH) If the benefits of being bilingual spill over to other aspects of cognition, then we would expect to see a lower incidence of Alzheimer's disease in bilinguals than in monolinguals, or at least a later onset of Alzheimer's for bilinguals. In fact, there is evidence to support this claim. The psychologist Ellen Bialystok and her colleagues obtained the histories of 184 individuals who had made use of a memory clinic in Toronto. For those who showed signs of dementia, the monolinguals in the sample had an average age of 71.4 years at time of onset. The bilinguals, in contrast, received their diagnosis at 75.5 years, on average. In a study of this sort, a difference of four years is highly significant, and could not be explained by other systematic differences between the two groups. For example, the monolinguals reported, on average, a year and a half more schooling than their bilingual counterparts, so the effect was clearly not due to formal education.\n\nI) A separate study, conducted in India, found strikingly similar results: bilingual patients developed symptoms of dementia 4.5 years later than monolinguals, even after other potential factors, such as gender and occupation, were controlled for. In addition, researchers have reported other positive effects of bilingualism for cognitive abilities in later life, even when the person acquired the language in adulthood. Crucially, Bialystok suggested that the positive benefits of being bilingual were only found in those who used both languages all the time.\n\nJ) But encouraging as these kinds of studies are, they still have not established exactly how or why differences between bilinguals and monolinguals exist. Because these studies looked back at the histories of people who were already bilingual, the results can only say that a difference between the two groups was found, but not why that difference occurred. Further research is needed to determine what caused the differences in age of onset between the two groups.\n\nK) Other studies of successful aging suggest that being connected to one's community and having plenty of social interaction is also important in delaying or even preventing the onset of dementia. Once again, however, the results are far less clear than the popular media might lead you to believe. Older individuals who lead active social lives are, almost by definition, healthier than their counterparts who rarely leave their homes or interact with others. So we can't really say whether being socially active prevents the onset of dementia, or if people who don't have dementia are more likely to be socially active.\n\nL) But even if studying a foreign language is not a magical cure-all, there is one thing it will do: It will make you a better speaker of a foreign language. Doing that confers a whole host of advantages we do know about.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 I 段。题干：It was suggested that only those who always spoke two languages could benefit from bilingualism.\n核对该段原文：A separate study, conducted in India, found strikingly similar results: bilingual patients developed symptoms of dementia 4.5 years later than monolinguals, even after other potential factors, such as gender and occupation, were controlled for. In addition, researchers have reported other positive effects of bilingualism for cognitive abilities in later life, even when the person acquired the language in adulthood. Crucially, Bialystok suggested that the positive benefits of being bilingual were only found in those who used both languages all the time.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2023-12-3-nonlistening-q42",
+      "canonicalId": "lazynote-cet6-2023-12-3-q42",
+      "number": 42,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The brain is different from muscles in that it keeps working even when the body is at rest.",
+      "passage": "Can Learning a Foreign Language Prevent Dementia?\n\nA) You may have heard that learning another language is one method for preventing or at least postponing the onset of dementia. Dementia refers to the loss of cognitive abilities, and one of its most common forms is Alzheimer's disease(阿尔茨海默氏病). At this time, the causes of the disease are not well understood, and consequently, there are no proven steps that people can take to prevent it. Nonetheless, some researchers have suggested that learning a foreign language might help delay the onset of dementia.\n\nB) To explore this possibility more deeply, let's look at some of the common misconceptions about dementia and the aging brain. First of all, dementia is not an inevitable part of the normal aging process. Most older adults do not develop Alzheimer's disease or other forms of dementia. It is also important to remember that dementia is not the same thing as normal forgetfulness. At any age, we might experience difficulty finding the exact word we want or have trouble remembering the name of the person we just met. People with dementia have more serious problems, like feeling confused or getting lost in a familiar place. Think of it this way: If you forget where you parked your car at the mall, that's normal; if you forget how to drive a car, that may be a signal that something more serious is going on.\n\nC) The idea that dementia can be prevented is based on the comparison of the brain to a muscle. When people talk about the brain, they sometimes say things like \"It is important to exercise your brain\" or \"To stay mentally fit, you have to give your brain a workout.\" Although these are colorful analogies, in reality the brain is not a muscle. Unlike muscles, the brain is always active and works even during periods of rest and sleep. In addition, although some muscle cells have a lifespan of only a few days, brain cells last a lifetime. Not only that, but it has been shown that new brain cells are being created throughout one's lifespan.\n\nD) While it makes for a colorful analogy, comparing the brain to a muscle is inaccurate and misleading. So, if the brain is not a muscle, can it still be exercised? Once again, researchers don't know for sure. There are now many computer, online, and mobile device applications that claim to be able to \"train your brain,\" and they typically tap into a variety of cognitive abilities. However, research suggests that although this type of training may improve one's abilities at the tasks themselves, they don't seem to improve other abilities. In other words, practicing a letter-detection task will, over time, improve your letter-detection skills, but it will not necessarily enhance your other perceptual abilities.\n\nE) However, there is some reason to believe that learning languages might be different. The best evidence that foreign language learning confers cognitive benefits comes from research with those who are already bilingual(双语的). Bilingualism most commonly occurs when children are exposed to two languages, either in the home (mom speaks Dutch, dad speaks Spanish) or more formally in early schooling. But bilingualism certainly occurs in adulthood as well.\n\nF) Bilingualism and multilingualism are actually more common than you might think. In fact, it has been estimated that there are fewer monolingual speakers in the world than bilinguals and multilinguals. Although in many countries most inhabitants share just one language, other countries have several official languages. Switzerland, for example, has four official languages: German, French, Italian, and Romansh. Throughout large parts of Africa, Arabic, Swahili, French, and English are often known and used by individuals who speak a different, native language in their home than they do in the marketplace. So bilingualism and multilingualism are to be found throughout the world. And with regard to cognitive abilities, the research on those who speak more than one language paints an encouraging picture.\n\nG) For one thing, bilinguals are better at multitasking. One explanation of this superiority is that speakers of two languages are continually inhibiting one of their languages, and this process of inhibition confers general cognitive benefits to other activities. In fact, bilingual individuals outperform their monolingual counterparts on a variety of cognitive tasks, such as following complex instructions, and switching to new instructions. For the sake of completeness, it should be noted that the advantages of being bilingual are not universal across all cognitive domains. Bilingual individuals have been shown to have smaller vocabularies and to take longer in retrieving words from memory when compared to monolinguals. In the long run, however, the cognitive and linguistic advantages of being bilingual far outweigh these two drawbacks.\n\nH) If the benefits of being bilingual spill over to other aspects of cognition, then we would expect to see a lower incidence of Alzheimer's disease in bilinguals than in monolinguals, or at least a later onset of Alzheimer's for bilinguals. In fact, there is evidence to support this claim. The psychologist Ellen Bialystok and her colleagues obtained the histories of 184 individuals who had made use of a memory clinic in Toronto. For those who showed signs of dementia, the monolinguals in the sample had an average age of 71.4 years at time of onset. The bilinguals, in contrast, received their diagnosis at 75.5 years, on average. In a study of this sort, a difference of four years is highly significant, and could not be explained by other systematic differences between the two groups. For example, the monolinguals reported, on average, a year and a half more schooling than their bilingual counterparts, so the effect was clearly not due to formal education.\n\nI) A separate study, conducted in India, found strikingly similar results: bilingual patients developed symptoms of dementia 4.5 years later than monolinguals, even after other potential factors, such as gender and occupation, were controlled for. In addition, researchers have reported other positive effects of bilingualism for cognitive abilities in later life, even when the person acquired the language in adulthood. Crucially, Bialystok suggested that the positive benefits of being bilingual were only found in those who used both languages all the time.\n\nJ) But encouraging as these kinds of studies are, they still have not established exactly how or why differences between bilinguals and monolinguals exist. Because these studies looked back at the histories of people who were already bilingual, the results can only say that a difference between the two groups was found, but not why that difference occurred. Further research is needed to determine what caused the differences in age of onset between the two groups.\n\nK) Other studies of successful aging suggest that being connected to one's community and having plenty of social interaction is also important in delaying or even preventing the onset of dementia. Once again, however, the results are far less clear than the popular media might lead you to believe. Older individuals who lead active social lives are, almost by definition, healthier than their counterparts who rarely leave their homes or interact with others. So we can't really say whether being socially active prevents the onset of dementia, or if people who don't have dementia are more likely to be socially active.\n\nL) But even if studying a foreign language is not a magical cure-all, there is one thing it will do: It will make you a better speaker of a foreign language. Doing that confers a whole host of advantages we do know about.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 C 段。题干：The brain is different from muscles in that it keeps working even when the body is at rest.\n核对该段原文：The idea that dementia can be prevented is based on the comparison of the brain to a muscle. When people talk about the brain, they sometimes say things like \"It is important to exercise your brain\" or \"To stay mentally fit, you have to give your brain a workout.\" Although these are colorful analogies, in reality the brain is not a muscle. Unlike muscles, the brain is always active and works even during periods of rest and sleep. In addition, although some muscle cells have a lifespan of only a few days, brain cells last a lifetime. Not only that, but it has been shown that new brain cells are being created throughout one's lifespan.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2023-12-3-nonlistening-q43",
+      "canonicalId": "lazynote-cet6-2023-12-3-q43",
+      "number": 43,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "People who speak two languages do better at a number of cognitive tasks than those who speak only one language.",
+      "passage": "Can Learning a Foreign Language Prevent Dementia?\n\nA) You may have heard that learning another language is one method for preventing or at least postponing the onset of dementia. Dementia refers to the loss of cognitive abilities, and one of its most common forms is Alzheimer's disease(阿尔茨海默氏病). At this time, the causes of the disease are not well understood, and consequently, there are no proven steps that people can take to prevent it. Nonetheless, some researchers have suggested that learning a foreign language might help delay the onset of dementia.\n\nB) To explore this possibility more deeply, let's look at some of the common misconceptions about dementia and the aging brain. First of all, dementia is not an inevitable part of the normal aging process. Most older adults do not develop Alzheimer's disease or other forms of dementia. It is also important to remember that dementia is not the same thing as normal forgetfulness. At any age, we might experience difficulty finding the exact word we want or have trouble remembering the name of the person we just met. People with dementia have more serious problems, like feeling confused or getting lost in a familiar place. Think of it this way: If you forget where you parked your car at the mall, that's normal; if you forget how to drive a car, that may be a signal that something more serious is going on.\n\nC) The idea that dementia can be prevented is based on the comparison of the brain to a muscle. When people talk about the brain, they sometimes say things like \"It is important to exercise your brain\" or \"To stay mentally fit, you have to give your brain a workout.\" Although these are colorful analogies, in reality the brain is not a muscle. Unlike muscles, the brain is always active and works even during periods of rest and sleep. In addition, although some muscle cells have a lifespan of only a few days, brain cells last a lifetime. Not only that, but it has been shown that new brain cells are being created throughout one's lifespan.\n\nD) While it makes for a colorful analogy, comparing the brain to a muscle is inaccurate and misleading. So, if the brain is not a muscle, can it still be exercised? Once again, researchers don't know for sure. There are now many computer, online, and mobile device applications that claim to be able to \"train your brain,\" and they typically tap into a variety of cognitive abilities. However, research suggests that although this type of training may improve one's abilities at the tasks themselves, they don't seem to improve other abilities. In other words, practicing a letter-detection task will, over time, improve your letter-detection skills, but it will not necessarily enhance your other perceptual abilities.\n\nE) However, there is some reason to believe that learning languages might be different. The best evidence that foreign language learning confers cognitive benefits comes from research with those who are already bilingual(双语的). Bilingualism most commonly occurs when children are exposed to two languages, either in the home (mom speaks Dutch, dad speaks Spanish) or more formally in early schooling. But bilingualism certainly occurs in adulthood as well.\n\nF) Bilingualism and multilingualism are actually more common than you might think. In fact, it has been estimated that there are fewer monolingual speakers in the world than bilinguals and multilinguals. Although in many countries most inhabitants share just one language, other countries have several official languages. Switzerland, for example, has four official languages: German, French, Italian, and Romansh. Throughout large parts of Africa, Arabic, Swahili, French, and English are often known and used by individuals who speak a different, native language in their home than they do in the marketplace. So bilingualism and multilingualism are to be found throughout the world. And with regard to cognitive abilities, the research on those who speak more than one language paints an encouraging picture.\n\nG) For one thing, bilinguals are better at multitasking. One explanation of this superiority is that speakers of two languages are continually inhibiting one of their languages, and this process of inhibition confers general cognitive benefits to other activities. In fact, bilingual individuals outperform their monolingual counterparts on a variety of cognitive tasks, such as following complex instructions, and switching to new instructions. For the sake of completeness, it should be noted that the advantages of being bilingual are not universal across all cognitive domains. Bilingual individuals have been shown to have smaller vocabularies and to take longer in retrieving words from memory when compared to monolinguals. In the long run, however, the cognitive and linguistic advantages of being bilingual far outweigh these two drawbacks.\n\nH) If the benefits of being bilingual spill over to other aspects of cognition, then we would expect to see a lower incidence of Alzheimer's disease in bilinguals than in monolinguals, or at least a later onset of Alzheimer's for bilinguals. In fact, there is evidence to support this claim. The psychologist Ellen Bialystok and her colleagues obtained the histories of 184 individuals who had made use of a memory clinic in Toronto. For those who showed signs of dementia, the monolinguals in the sample had an average age of 71.4 years at time of onset. The bilinguals, in contrast, received their diagnosis at 75.5 years, on average. In a study of this sort, a difference of four years is highly significant, and could not be explained by other systematic differences between the two groups. For example, the monolinguals reported, on average, a year and a half more schooling than their bilingual counterparts, so the effect was clearly not due to formal education.\n\nI) A separate study, conducted in India, found strikingly similar results: bilingual patients developed symptoms of dementia 4.5 years later than monolinguals, even after other potential factors, such as gender and occupation, were controlled for. In addition, researchers have reported other positive effects of bilingualism for cognitive abilities in later life, even when the person acquired the language in adulthood. Crucially, Bialystok suggested that the positive benefits of being bilingual were only found in those who used both languages all the time.\n\nJ) But encouraging as these kinds of studies are, they still have not established exactly how or why differences between bilinguals and monolinguals exist. Because these studies looked back at the histories of people who were already bilingual, the results can only say that a difference between the two groups was found, but not why that difference occurred. Further research is needed to determine what caused the differences in age of onset between the two groups.\n\nK) Other studies of successful aging suggest that being connected to one's community and having plenty of social interaction is also important in delaying or even preventing the onset of dementia. Once again, however, the results are far less clear than the popular media might lead you to believe. Older individuals who lead active social lives are, almost by definition, healthier than their counterparts who rarely leave their homes or interact with others. So we can't really say whether being socially active prevents the onset of dementia, or if people who don't have dementia are more likely to be socially active.\n\nL) But even if studying a foreign language is not a magical cure-all, there is one thing it will do: It will make you a better speaker of a foreign language. Doing that confers a whole host of advantages we do know about.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 G 段。题干：People who speak two languages do better at a number of cognitive tasks than those who speak only one language.\n核对该段原文：For one thing, bilinguals are better at multitasking. One explanation of this superiority is that speakers of two languages are continually inhibiting one of their languages, and this process of inhibition confers general cognitive benefits to other activities. In fact, bilingual individuals outperform their monolingual counterparts on a variety of cognitive tasks, such as following complex instructions, and switching to new instructions. For the sake of completeness, it should be noted that the advantages of being bilingual are not universal across all cognitive domains. Bilingual individuals have been shown to have smaller vocabularies and to take longer in retrieving words from memory when compared to monolinguals. In the long run, however, the cognitive and linguistic advantages of being bilingual far outweigh these two drawbacks.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2023-12-3-nonlistening-q44",
+      "canonicalId": "lazynote-cet6-2023-12-3-q44",
+      "number": 44,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Dementia is different from being merely forgetful and entails more serious trouble.",
+      "passage": "Can Learning a Foreign Language Prevent Dementia?\n\nA) You may have heard that learning another language is one method for preventing or at least postponing the onset of dementia. Dementia refers to the loss of cognitive abilities, and one of its most common forms is Alzheimer's disease(阿尔茨海默氏病). At this time, the causes of the disease are not well understood, and consequently, there are no proven steps that people can take to prevent it. Nonetheless, some researchers have suggested that learning a foreign language might help delay the onset of dementia.\n\nB) To explore this possibility more deeply, let's look at some of the common misconceptions about dementia and the aging brain. First of all, dementia is not an inevitable part of the normal aging process. Most older adults do not develop Alzheimer's disease or other forms of dementia. It is also important to remember that dementia is not the same thing as normal forgetfulness. At any age, we might experience difficulty finding the exact word we want or have trouble remembering the name of the person we just met. People with dementia have more serious problems, like feeling confused or getting lost in a familiar place. Think of it this way: If you forget where you parked your car at the mall, that's normal; if you forget how to drive a car, that may be a signal that something more serious is going on.\n\nC) The idea that dementia can be prevented is based on the comparison of the brain to a muscle. When people talk about the brain, they sometimes say things like \"It is important to exercise your brain\" or \"To stay mentally fit, you have to give your brain a workout.\" Although these are colorful analogies, in reality the brain is not a muscle. Unlike muscles, the brain is always active and works even during periods of rest and sleep. In addition, although some muscle cells have a lifespan of only a few days, brain cells last a lifetime. Not only that, but it has been shown that new brain cells are being created throughout one's lifespan.\n\nD) While it makes for a colorful analogy, comparing the brain to a muscle is inaccurate and misleading. So, if the brain is not a muscle, can it still be exercised? Once again, researchers don't know for sure. There are now many computer, online, and mobile device applications that claim to be able to \"train your brain,\" and they typically tap into a variety of cognitive abilities. However, research suggests that although this type of training may improve one's abilities at the tasks themselves, they don't seem to improve other abilities. In other words, practicing a letter-detection task will, over time, improve your letter-detection skills, but it will not necessarily enhance your other perceptual abilities.\n\nE) However, there is some reason to believe that learning languages might be different. The best evidence that foreign language learning confers cognitive benefits comes from research with those who are already bilingual(双语的). Bilingualism most commonly occurs when children are exposed to two languages, either in the home (mom speaks Dutch, dad speaks Spanish) or more formally in early schooling. But bilingualism certainly occurs in adulthood as well.\n\nF) Bilingualism and multilingualism are actually more common than you might think. In fact, it has been estimated that there are fewer monolingual speakers in the world than bilinguals and multilinguals. Although in many countries most inhabitants share just one language, other countries have several official languages. Switzerland, for example, has four official languages: German, French, Italian, and Romansh. Throughout large parts of Africa, Arabic, Swahili, French, and English are often known and used by individuals who speak a different, native language in their home than they do in the marketplace. So bilingualism and multilingualism are to be found throughout the world. And with regard to cognitive abilities, the research on those who speak more than one language paints an encouraging picture.\n\nG) For one thing, bilinguals are better at multitasking. One explanation of this superiority is that speakers of two languages are continually inhibiting one of their languages, and this process of inhibition confers general cognitive benefits to other activities. In fact, bilingual individuals outperform their monolingual counterparts on a variety of cognitive tasks, such as following complex instructions, and switching to new instructions. For the sake of completeness, it should be noted that the advantages of being bilingual are not universal across all cognitive domains. Bilingual individuals have been shown to have smaller vocabularies and to take longer in retrieving words from memory when compared to monolinguals. In the long run, however, the cognitive and linguistic advantages of being bilingual far outweigh these two drawbacks.\n\nH) If the benefits of being bilingual spill over to other aspects of cognition, then we would expect to see a lower incidence of Alzheimer's disease in bilinguals than in monolinguals, or at least a later onset of Alzheimer's for bilinguals. In fact, there is evidence to support this claim. The psychologist Ellen Bialystok and her colleagues obtained the histories of 184 individuals who had made use of a memory clinic in Toronto. For those who showed signs of dementia, the monolinguals in the sample had an average age of 71.4 years at time of onset. The bilinguals, in contrast, received their diagnosis at 75.5 years, on average. In a study of this sort, a difference of four years is highly significant, and could not be explained by other systematic differences between the two groups. For example, the monolinguals reported, on average, a year and a half more schooling than their bilingual counterparts, so the effect was clearly not due to formal education.\n\nI) A separate study, conducted in India, found strikingly similar results: bilingual patients developed symptoms of dementia 4.5 years later than monolinguals, even after other potential factors, such as gender and occupation, were controlled for. In addition, researchers have reported other positive effects of bilingualism for cognitive abilities in later life, even when the person acquired the language in adulthood. Crucially, Bialystok suggested that the positive benefits of being bilingual were only found in those who used both languages all the time.\n\nJ) But encouraging as these kinds of studies are, they still have not established exactly how or why differences between bilinguals and monolinguals exist. Because these studies looked back at the histories of people who were already bilingual, the results can only say that a difference between the two groups was found, but not why that difference occurred. Further research is needed to determine what caused the differences in age of onset between the two groups.\n\nK) Other studies of successful aging suggest that being connected to one's community and having plenty of social interaction is also important in delaying or even preventing the onset of dementia. Once again, however, the results are far less clear than the popular media might lead you to believe. Older individuals who lead active social lives are, almost by definition, healthier than their counterparts who rarely leave their homes or interact with others. So we can't really say whether being socially active prevents the onset of dementia, or if people who don't have dementia are more likely to be socially active.\n\nL) But even if studying a foreign language is not a magical cure-all, there is one thing it will do: It will make you a better speaker of a foreign language. Doing that confers a whole host of advantages we do know about.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 B 段。题干：Dementia is different from being merely forgetful and entails more serious trouble.\n核对该段原文：To explore this possibility more deeply, let's look at some of the common misconceptions about dementia and the aging brain. First of all, dementia is not an inevitable part of the normal aging process. Most older adults do not develop Alzheimer's disease or other forms of dementia. It is also important to remember that dementia is not the same thing as normal forgetfulness. At any age, we might experience difficulty finding the exact word we want or have trouble remembering the name of the person we just met. People with dementia have more serious problems, like feeling confused or getting lost in a familiar place. Think of it this way: If you forget where you parked your car at the mall, that's normal; if you forget how to drive a car, that may be a signal that something more serious is going on.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2023-12-3-nonlistening-q45",
+      "canonicalId": "lazynote-cet6-2023-12-3-q45",
+      "number": 45,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "It is claimed that more monolinguals suffer from Alzheimer's disease than bilinguals.",
+      "passage": "Can Learning a Foreign Language Prevent Dementia?\n\nA) You may have heard that learning another language is one method for preventing or at least postponing the onset of dementia. Dementia refers to the loss of cognitive abilities, and one of its most common forms is Alzheimer's disease(阿尔茨海默氏病). At this time, the causes of the disease are not well understood, and consequently, there are no proven steps that people can take to prevent it. Nonetheless, some researchers have suggested that learning a foreign language might help delay the onset of dementia.\n\nB) To explore this possibility more deeply, let's look at some of the common misconceptions about dementia and the aging brain. First of all, dementia is not an inevitable part of the normal aging process. Most older adults do not develop Alzheimer's disease or other forms of dementia. It is also important to remember that dementia is not the same thing as normal forgetfulness. At any age, we might experience difficulty finding the exact word we want or have trouble remembering the name of the person we just met. People with dementia have more serious problems, like feeling confused or getting lost in a familiar place. Think of it this way: If you forget where you parked your car at the mall, that's normal; if you forget how to drive a car, that may be a signal that something more serious is going on.\n\nC) The idea that dementia can be prevented is based on the comparison of the brain to a muscle. When people talk about the brain, they sometimes say things like \"It is important to exercise your brain\" or \"To stay mentally fit, you have to give your brain a workout.\" Although these are colorful analogies, in reality the brain is not a muscle. Unlike muscles, the brain is always active and works even during periods of rest and sleep. In addition, although some muscle cells have a lifespan of only a few days, brain cells last a lifetime. Not only that, but it has been shown that new brain cells are being created throughout one's lifespan.\n\nD) While it makes for a colorful analogy, comparing the brain to a muscle is inaccurate and misleading. So, if the brain is not a muscle, can it still be exercised? Once again, researchers don't know for sure. There are now many computer, online, and mobile device applications that claim to be able to \"train your brain,\" and they typically tap into a variety of cognitive abilities. However, research suggests that although this type of training may improve one's abilities at the tasks themselves, they don't seem to improve other abilities. In other words, practicing a letter-detection task will, over time, improve your letter-detection skills, but it will not necessarily enhance your other perceptual abilities.\n\nE) However, there is some reason to believe that learning languages might be different. The best evidence that foreign language learning confers cognitive benefits comes from research with those who are already bilingual(双语的). Bilingualism most commonly occurs when children are exposed to two languages, either in the home (mom speaks Dutch, dad speaks Spanish) or more formally in early schooling. But bilingualism certainly occurs in adulthood as well.\n\nF) Bilingualism and multilingualism are actually more common than you might think. In fact, it has been estimated that there are fewer monolingual speakers in the world than bilinguals and multilinguals. Although in many countries most inhabitants share just one language, other countries have several official languages. Switzerland, for example, has four official languages: German, French, Italian, and Romansh. Throughout large parts of Africa, Arabic, Swahili, French, and English are often known and used by individuals who speak a different, native language in their home than they do in the marketplace. So bilingualism and multilingualism are to be found throughout the world. And with regard to cognitive abilities, the research on those who speak more than one language paints an encouraging picture.\n\nG) For one thing, bilinguals are better at multitasking. One explanation of this superiority is that speakers of two languages are continually inhibiting one of their languages, and this process of inhibition confers general cognitive benefits to other activities. In fact, bilingual individuals outperform their monolingual counterparts on a variety of cognitive tasks, such as following complex instructions, and switching to new instructions. For the sake of completeness, it should be noted that the advantages of being bilingual are not universal across all cognitive domains. Bilingual individuals have been shown to have smaller vocabularies and to take longer in retrieving words from memory when compared to monolinguals. In the long run, however, the cognitive and linguistic advantages of being bilingual far outweigh these two drawbacks.\n\nH) If the benefits of being bilingual spill over to other aspects of cognition, then we would expect to see a lower incidence of Alzheimer's disease in bilinguals than in monolinguals, or at least a later onset of Alzheimer's for bilinguals. In fact, there is evidence to support this claim. The psychologist Ellen Bialystok and her colleagues obtained the histories of 184 individuals who had made use of a memory clinic in Toronto. For those who showed signs of dementia, the monolinguals in the sample had an average age of 71.4 years at time of onset. The bilinguals, in contrast, received their diagnosis at 75.5 years, on average. In a study of this sort, a difference of four years is highly significant, and could not be explained by other systematic differences between the two groups. For example, the monolinguals reported, on average, a year and a half more schooling than their bilingual counterparts, so the effect was clearly not due to formal education.\n\nI) A separate study, conducted in India, found strikingly similar results: bilingual patients developed symptoms of dementia 4.5 years later than monolinguals, even after other potential factors, such as gender and occupation, were controlled for. In addition, researchers have reported other positive effects of bilingualism for cognitive abilities in later life, even when the person acquired the language in adulthood. Crucially, Bialystok suggested that the positive benefits of being bilingual were only found in those who used both languages all the time.\n\nJ) But encouraging as these kinds of studies are, they still have not established exactly how or why differences between bilinguals and monolinguals exist. Because these studies looked back at the histories of people who were already bilingual, the results can only say that a difference between the two groups was found, but not why that difference occurred. Further research is needed to determine what caused the differences in age of onset between the two groups.\n\nK) Other studies of successful aging suggest that being connected to one's community and having plenty of social interaction is also important in delaying or even preventing the onset of dementia. Once again, however, the results are far less clear than the popular media might lead you to believe. Older individuals who lead active social lives are, almost by definition, healthier than their counterparts who rarely leave their homes or interact with others. So we can't really say whether being socially active prevents the onset of dementia, or if people who don't have dementia are more likely to be socially active.\n\nL) But even if studying a foreign language is not a magical cure-all, there is one thing it will do: It will make you a better speaker of a foreign language. Doing that confers a whole host of advantages we do know about.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 H 段。题干：It is claimed that more monolinguals suffer from Alzheimer's disease than bilinguals.\n核对该段原文：If the benefits of being bilingual spill over to other aspects of cognition, then we would expect to see a lower incidence of Alzheimer's disease in bilinguals than in monolinguals, or at least a later onset of Alzheimer's for bilinguals. In fact, there is evidence to support this claim. The psychologist Ellen Bialystok and her colleagues obtained the histories of 184 individuals who had made use of a memory clinic in Toronto. For those who showed signs of dementia, the monolinguals in the sample had an average age of 71.4 years at time of onset. The bilinguals, in contrast, received their diagnosis at 75.5 years, on average. In a study of this sort, a difference of four years is highly significant, and could not be explained by other systematic differences between the two groups. For example, the monolinguals reported, on average, a year and a half more schooling than their bilingual counterparts, so the effect was clearly not due to formal education.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2023-12-3-nonlistening-q46",
+      "canonicalId": "lazynote-cet6-2023-12-3-q46",
+      "number": 46,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "How can research serve its full purpose according to the author?",
+      "passage": "Research is meant to benefit society by raising public awareness and creating products and innovations that enhance development. For research to serve its full purpose, the results must leave the confines of research laboratories and academic journals.\n\nFindings effectively communicated can go a long way to serve the interests of the public. They can help address social injustices or improve treatments offered to patients.\n\nMany researchers seem to be content with sharing the results of their studies in academic journals or at conferences. But few journals allow everybody to read the findings. Even articles freely available are usually written in academic language incomprehensible to the average reader.\n\nFor researchers in the tenure-track system, their main goal is winning tenure, which in part can be achieved by getting a number of papers published in prominent journals. Pressures like this mean community-level outreach is not prioritised.\n\nMany researchers lack the writing skills to describe their results to a general audience. They may also worry about whether the public will understand their findings, or about findings being used to influence controversial policies. These concerns cause some researchers to shy away from communicating their findings outside the academic community.\n\nPropagating research findings beyond academic publications is particularly crucial for addressing certain social discrepancies. It can help families, communities, healthcare providers, policymakers, government agencies and other stakeholders to understand and respond to crises that plague society.\n\nThe benefits of sharing findings flow both ways. Engaging with other researchers and the public can lead to unexpected new connections and new ideas that could suggest fruitful new directions for research.\n\nTo benefit both researchers and the communities, the need to find innovative, accessible ways to share the work cannot be overstated.\n\nInstitutions and funding organisations should support more researchers to publish in open access journals so that the public doesn't have to pay to read them. Institutions and researchers should invest in partnerships that expand capacity for sharing results more broadly.\n\nFurthermore, ethics committees should make it mandatory for researchers to share their results with the public. Every research participant should opt in or out of receiving results, as part of the process of giving informed consent.\n\nThere could be misunderstanding of the findings presented by the researcher because of technical terms. But this can be resolved by researchers engaging the services of professional writers or communication officers to help with translating their study into more accessible language and share it widely with media outlets and the public.\n\nSharing results with the people who are most affected by them makes us better researchers and ensures that our work can be used to improve people's lives. Institutions and collaborators must recognise the value of doing so.",
+      "options": [
+        {
+          "id": "A",
+          "text": "With researchers being aware of public interests."
+        },
+        {
+          "id": "B",
+          "text": "With its findings published in prominent journals."
+        },
+        {
+          "id": "C",
+          "text": "With researchers creating products that enhance social development."
+        },
+        {
+          "id": "D",
+          "text": "With its findings properly communicated beyond the academic circle."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：With its findings properly communicated beyond the academic circle.\n关键词检索定位到第 1 段的候选相关句：For research to serve its full purpose, the results must leave the confines of research laboratories and academic journals.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2023-12-3-nonlistening-q47",
+      "canonicalId": "lazynote-cet6-2023-12-3-q47",
+      "number": 47,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "Why do ordinary readers find it difficult to access the results of researchers' studies?",
+      "passage": "Research is meant to benefit society by raising public awareness and creating products and innovations that enhance development. For research to serve its full purpose, the results must leave the confines of research laboratories and academic journals.\n\nFindings effectively communicated can go a long way to serve the interests of the public. They can help address social injustices or improve treatments offered to patients.\n\nMany researchers seem to be content with sharing the results of their studies in academic journals or at conferences. But few journals allow everybody to read the findings. Even articles freely available are usually written in academic language incomprehensible to the average reader.\n\nFor researchers in the tenure-track system, their main goal is winning tenure, which in part can be achieved by getting a number of papers published in prominent journals. Pressures like this mean community-level outreach is not prioritised.\n\nMany researchers lack the writing skills to describe their results to a general audience. They may also worry about whether the public will understand their findings, or about findings being used to influence controversial policies. These concerns cause some researchers to shy away from communicating their findings outside the academic community.\n\nPropagating research findings beyond academic publications is particularly crucial for addressing certain social discrepancies. It can help families, communities, healthcare providers, policymakers, government agencies and other stakeholders to understand and respond to crises that plague society.\n\nThe benefits of sharing findings flow both ways. Engaging with other researchers and the public can lead to unexpected new connections and new ideas that could suggest fruitful new directions for research.\n\nTo benefit both researchers and the communities, the need to find innovative, accessible ways to share the work cannot be overstated.\n\nInstitutions and funding organisations should support more researchers to publish in open access journals so that the public doesn't have to pay to read them. Institutions and researchers should invest in partnerships that expand capacity for sharing results more broadly.\n\nFurthermore, ethics committees should make it mandatory for researchers to share their results with the public. Every research participant should opt in or out of receiving results, as part of the process of giving informed consent.\n\nThere could be misunderstanding of the findings presented by the researcher because of technical terms. But this can be resolved by researchers engaging the services of professional writers or communication officers to help with translating their study into more accessible language and share it widely with media outlets and the public.\n\nSharing results with the people who are most affected by them makes us better researchers and ensures that our work can be used to improve people's lives. Institutions and collaborators must recognise the value of doing so.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They cannot understand the academic language used for reporting these results."
+        },
+        {
+          "id": "B",
+          "text": "They feel intimidated by the jargon researchers use to describe their findings."
+        },
+        {
+          "id": "C",
+          "text": "They do not attend conferences where these results are freely available."
+        },
+        {
+          "id": "D",
+          "text": "They have few chances to locate the journals that publish these findings."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：They cannot understand the academic language used for reporting these results.\n关键词检索定位到第 3 段的候选相关句：Many researchers seem to be content with sharing the results of their studies in academic journals or at conferences.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2023-12-3-nonlistening-q48",
+      "canonicalId": "lazynote-cet6-2023-12-3-q48",
+      "number": 48,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What is one of the reasons some researchers won't prioritise communicating their findings to the public?",
+      "passage": "Research is meant to benefit society by raising public awareness and creating products and innovations that enhance development. For research to serve its full purpose, the results must leave the confines of research laboratories and academic journals.\n\nFindings effectively communicated can go a long way to serve the interests of the public. They can help address social injustices or improve treatments offered to patients.\n\nMany researchers seem to be content with sharing the results of their studies in academic journals or at conferences. But few journals allow everybody to read the findings. Even articles freely available are usually written in academic language incomprehensible to the average reader.\n\nFor researchers in the tenure-track system, their main goal is winning tenure, which in part can be achieved by getting a number of papers published in prominent journals. Pressures like this mean community-level outreach is not prioritised.\n\nMany researchers lack the writing skills to describe their results to a general audience. They may also worry about whether the public will understand their findings, or about findings being used to influence controversial policies. These concerns cause some researchers to shy away from communicating their findings outside the academic community.\n\nPropagating research findings beyond academic publications is particularly crucial for addressing certain social discrepancies. It can help families, communities, healthcare providers, policymakers, government agencies and other stakeholders to understand and respond to crises that plague society.\n\nThe benefits of sharing findings flow both ways. Engaging with other researchers and the public can lead to unexpected new connections and new ideas that could suggest fruitful new directions for research.\n\nTo benefit both researchers and the communities, the need to find innovative, accessible ways to share the work cannot be overstated.\n\nInstitutions and funding organisations should support more researchers to publish in open access journals so that the public doesn't have to pay to read them. Institutions and researchers should invest in partnerships that expand capacity for sharing results more broadly.\n\nFurthermore, ethics committees should make it mandatory for researchers to share their results with the public. Every research participant should opt in or out of receiving results, as part of the process of giving informed consent.\n\nThere could be misunderstanding of the findings presented by the researcher because of technical terms. But this can be resolved by researchers engaging the services of professional writers or communication officers to help with translating their study into more accessible language and share it widely with media outlets and the public.\n\nSharing results with the people who are most affected by them makes us better researchers and ensures that our work can be used to improve people's lives. Institutions and collaborators must recognise the value of doing so.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They can thrive on the papers published."
+        },
+        {
+          "id": "B",
+          "text": "Their top consideration is to win tenure"
+        },
+        {
+          "id": "C",
+          "text": "Their main goal is gaining recognition in their field."
+        },
+        {
+          "id": "D",
+          "text": "They have to struggle to reach out to the community."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：Their top consideration is to win tenure\n关键词检索定位到第 5 段的候选相关句：These concerns cause some researchers to shy away from communicating their findings outside the academic community.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2023-12-3-nonlistening-q49",
+      "canonicalId": "lazynote-cet6-2023-12-3-q49",
+      "number": 49,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "How can sharing findings benefit researchers themselves?",
+      "passage": "Research is meant to benefit society by raising public awareness and creating products and innovations that enhance development. For research to serve its full purpose, the results must leave the confines of research laboratories and academic journals.\n\nFindings effectively communicated can go a long way to serve the interests of the public. They can help address social injustices or improve treatments offered to patients.\n\nMany researchers seem to be content with sharing the results of their studies in academic journals or at conferences. But few journals allow everybody to read the findings. Even articles freely available are usually written in academic language incomprehensible to the average reader.\n\nFor researchers in the tenure-track system, their main goal is winning tenure, which in part can be achieved by getting a number of papers published in prominent journals. Pressures like this mean community-level outreach is not prioritised.\n\nMany researchers lack the writing skills to describe their results to a general audience. They may also worry about whether the public will understand their findings, or about findings being used to influence controversial policies. These concerns cause some researchers to shy away from communicating their findings outside the academic community.\n\nPropagating research findings beyond academic publications is particularly crucial for addressing certain social discrepancies. It can help families, communities, healthcare providers, policymakers, government agencies and other stakeholders to understand and respond to crises that plague society.\n\nThe benefits of sharing findings flow both ways. Engaging with other researchers and the public can lead to unexpected new connections and new ideas that could suggest fruitful new directions for research.\n\nTo benefit both researchers and the communities, the need to find innovative, accessible ways to share the work cannot be overstated.\n\nInstitutions and funding organisations should support more researchers to publish in open access journals so that the public doesn't have to pay to read them. Institutions and researchers should invest in partnerships that expand capacity for sharing results more broadly.\n\nFurthermore, ethics committees should make it mandatory for researchers to share their results with the public. Every research participant should opt in or out of receiving results, as part of the process of giving informed consent.\n\nThere could be misunderstanding of the findings presented by the researcher because of technical terms. But this can be resolved by researchers engaging the services of professional writers or communication officers to help with translating their study into more accessible language and share it widely with media outlets and the public.\n\nSharing results with the people who are most affected by them makes us better researchers and ensures that our work can be used to improve people's lives. Institutions and collaborators must recognise the value of doing so.",
+      "options": [
+        {
+          "id": "A",
+          "text": "By helping them to identify new research directions."
+        },
+        {
+          "id": "B",
+          "text": "By enabling them to understand crises plaguing society."
+        },
+        {
+          "id": "C",
+          "text": "By enabling them to effectively address social discrepancies."
+        },
+        {
+          "id": "D",
+          "text": "By helping them to forge ties with government agencies."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：By helping them to identify new research directions.\n关键词检索定位到第 7 段的候选相关句：Engaging with other researchers and the public can lead to unexpected new connections and new ideas that could suggest fruitful new directions for research.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2023-12-3-nonlistening-q50",
+      "canonicalId": "lazynote-cet6-2023-12-3-q50",
+      "number": 50,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "Why are researchers advised to engage the services of professional writers or communication officers?",
+      "passage": "Research is meant to benefit society by raising public awareness and creating products and innovations that enhance development. For research to serve its full purpose, the results must leave the confines of research laboratories and academic journals.\n\nFindings effectively communicated can go a long way to serve the interests of the public. They can help address social injustices or improve treatments offered to patients.\n\nMany researchers seem to be content with sharing the results of their studies in academic journals or at conferences. But few journals allow everybody to read the findings. Even articles freely available are usually written in academic language incomprehensible to the average reader.\n\nFor researchers in the tenure-track system, their main goal is winning tenure, which in part can be achieved by getting a number of papers published in prominent journals. Pressures like this mean community-level outreach is not prioritised.\n\nMany researchers lack the writing skills to describe their results to a general audience. They may also worry about whether the public will understand their findings, or about findings being used to influence controversial policies. These concerns cause some researchers to shy away from communicating their findings outside the academic community.\n\nPropagating research findings beyond academic publications is particularly crucial for addressing certain social discrepancies. It can help families, communities, healthcare providers, policymakers, government agencies and other stakeholders to understand and respond to crises that plague society.\n\nThe benefits of sharing findings flow both ways. Engaging with other researchers and the public can lead to unexpected new connections and new ideas that could suggest fruitful new directions for research.\n\nTo benefit both researchers and the communities, the need to find innovative, accessible ways to share the work cannot be overstated.\n\nInstitutions and funding organisations should support more researchers to publish in open access journals so that the public doesn't have to pay to read them. Institutions and researchers should invest in partnerships that expand capacity for sharing results more broadly.\n\nFurthermore, ethics committees should make it mandatory for researchers to share their results with the public. Every research participant should opt in or out of receiving results, as part of the process of giving informed consent.\n\nThere could be misunderstanding of the findings presented by the researcher because of technical terms. But this can be resolved by researchers engaging the services of professional writers or communication officers to help with translating their study into more accessible language and share it widely with media outlets and the public.\n\nSharing results with the people who are most affected by them makes us better researchers and ensures that our work can be used to improve people's lives. Institutions and collaborators must recognise the value of doing so.",
+      "options": [
+        {
+          "id": "A",
+          "text": "To satisfy ethics committees' mandatory requirements of researchers."
+        },
+        {
+          "id": "B",
+          "text": "To translate their study into languages accessible to readers overseas."
+        },
+        {
+          "id": "C",
+          "text": "To make their publications correctly understood by the public."
+        },
+        {
+          "id": "D",
+          "text": "To render their findings acceptable by prominent journals."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：To make their publications correctly understood by the public.\n关键词检索定位到第 11 段的候选相关句：But this can be resolved by researchers engaging the services of professional writers or communication officers to help with translating their study into more accessible language and share it widely with media outlets and the public.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2023-12-3-nonlistening-q51",
+      "canonicalId": "lazynote-cet6-2023-12-3-q51",
+      "number": 51,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn about spiders in the UK since the middle ages?",
+      "passage": "Spiders make their presence felt in late August and through early autumn. This is the mating season of some of the most common varieties, when male house spiders come out of hidden corners to look for females, and garden spiders reach adult size and spin their most dazzling webs.\n\nYet while the spider is a familiar fixture of nursery poems or songs and Halloween decorations, its relationship with humans is complicated. Fear of spiders is common and has serious impacts on the lives of sufferers. Its prevalence appears unrelated to any rational assessment of risk. Spiders in the UK are almost all harmless. Farmland species perform valuable ecosystem services, by preying on insects that are our competitors for crops. But they are a constant source of human anxieties—with a cultural association with witches and wickedness dating back to the middle ages.\n\nDoes this perhaps explain, in part, the lack of data about how spiders are faring in our age of ecological crisis? British butterflies are the most studied group of insects in the world, due to the long tradition of collecting and observing them. But spider conservationists point out that it was only in the 1980s that the classification of house spiders was properly sorted out. And while information about insect populations is gathered by experiments that measure the numbers hitting windscreens or traps, there have been few attempts to count spiders.\n\nThe huge reductions in the numbers of flying insects can only mean a reduction in spiders' food supply. A recent landmark study identified a 75% fall in insect populations between 1989 and 2016, with pesticide use thought to be to blame along with the destruction of wild areas for development. This means the overall picture for spiders is worrying, as it is for most creatures. But conservationists are most concerned about those varieties that are threatened due to habitat loss and fragmentation, which makes it impossible for them to migrate.\n\nOf around 650 spider species regularly recorded in the UK, the majority thrive in marshes and wasteland. Conservation efforts, often led by determined individuals, have helped some species to recover by reintroducing them to new areas. With rewilding now firmly on the environmental policy agenda, the hope is that in future, spiders will be enabled to migrate by themselves, adapting to climate change by moving along wildlife corridors.\n\nIt seems unlikely that spiders will ever attract the same level of human enthusiasm as bees, birds or butterflies, in spite of their unique status as nature's spinners. But as they reveal themselves in all their splendour this autumn, it would be a good thing if more animal lovers recognised the ways in which spiders are simply terrific.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They have been generally misconceived."
+        },
+        {
+          "id": "B",
+          "text": "They have adversely impacted crop growth."
+        },
+        {
+          "id": "C",
+          "text": "They have been a constant reminder of bad luck."
+        },
+        {
+          "id": "D",
+          "text": "They have made their presence felt when spinning webs."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：They have been generally misconceived.\n关键词检索定位到第 3 段的候选相关句：Does this perhaps explain, in part, the lack of data about how spiders are faring in our age of ecological crisis?\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2023-12-3-nonlistening-q52",
+      "canonicalId": "lazynote-cet6-2023-12-3-q52",
+      "number": 52,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What have spiders been associated with in the UK for centuries?",
+      "passage": "Spiders make their presence felt in late August and through early autumn. This is the mating season of some of the most common varieties, when male house spiders come out of hidden corners to look for females, and garden spiders reach adult size and spin their most dazzling webs.\n\nYet while the spider is a familiar fixture of nursery poems or songs and Halloween decorations, its relationship with humans is complicated. Fear of spiders is common and has serious impacts on the lives of sufferers. Its prevalence appears unrelated to any rational assessment of risk. Spiders in the UK are almost all harmless. Farmland species perform valuable ecosystem services, by preying on insects that are our competitors for crops. But they are a constant source of human anxieties—with a cultural association with witches and wickedness dating back to the middle ages.\n\nDoes this perhaps explain, in part, the lack of data about how spiders are faring in our age of ecological crisis? British butterflies are the most studied group of insects in the world, due to the long tradition of collecting and observing them. But spider conservationists point out that it was only in the 1980s that the classification of house spiders was properly sorted out. And while information about insect populations is gathered by experiments that measure the numbers hitting windscreens or traps, there have been few attempts to count spiders.\n\nThe huge reductions in the numbers of flying insects can only mean a reduction in spiders' food supply. A recent landmark study identified a 75% fall in insect populations between 1989 and 2016, with pesticide use thought to be to blame along with the destruction of wild areas for development. This means the overall picture for spiders is worrying, as it is for most creatures. But conservationists are most concerned about those varieties that are threatened due to habitat loss and fragmentation, which makes it impossible for them to migrate.\n\nOf around 650 spider species regularly recorded in the UK, the majority thrive in marshes and wasteland. Conservation efforts, often led by determined individuals, have helped some species to recover by reintroducing them to new areas. With rewilding now firmly on the environmental policy agenda, the hope is that in future, spiders will be enabled to migrate by themselves, adapting to climate change by moving along wildlife corridors.\n\nIt seems unlikely that spiders will ever attract the same level of human enthusiasm as bees, birds or butterflies, in spite of their unique status as nature's spinners. But as they reveal themselves in all their splendour this autumn, it would be a good thing if more animal lovers recognised the ways in which spiders are simply terrific.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Harm."
+        },
+        {
+          "id": "B",
+          "text": "Evil."
+        },
+        {
+          "id": "C",
+          "text": "Suffering."
+        },
+        {
+          "id": "D",
+          "text": "Aggression."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：Evil.\n关键词检索定位到第 3 段的候选相关句：And while information about insect populations is gathered by experiments that measure the numbers hitting windscreens or traps, there have been few attempts to count spiders.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2023-12-3-nonlistening-q53",
+      "canonicalId": "lazynote-cet6-2023-12-3-q53",
+      "number": 53,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What partly accounts for the reduction in spiders' food supply?",
+      "passage": "Spiders make their presence felt in late August and through early autumn. This is the mating season of some of the most common varieties, when male house spiders come out of hidden corners to look for females, and garden spiders reach adult size and spin their most dazzling webs.\n\nYet while the spider is a familiar fixture of nursery poems or songs and Halloween decorations, its relationship with humans is complicated. Fear of spiders is common and has serious impacts on the lives of sufferers. Its prevalence appears unrelated to any rational assessment of risk. Spiders in the UK are almost all harmless. Farmland species perform valuable ecosystem services, by preying on insects that are our competitors for crops. But they are a constant source of human anxieties—with a cultural association with witches and wickedness dating back to the middle ages.\n\nDoes this perhaps explain, in part, the lack of data about how spiders are faring in our age of ecological crisis? British butterflies are the most studied group of insects in the world, due to the long tradition of collecting and observing them. But spider conservationists point out that it was only in the 1980s that the classification of house spiders was properly sorted out. And while information about insect populations is gathered by experiments that measure the numbers hitting windscreens or traps, there have been few attempts to count spiders.\n\nThe huge reductions in the numbers of flying insects can only mean a reduction in spiders' food supply. A recent landmark study identified a 75% fall in insect populations between 1989 and 2016, with pesticide use thought to be to blame along with the destruction of wild areas for development. This means the overall picture for spiders is worrying, as it is for most creatures. But conservationists are most concerned about those varieties that are threatened due to habitat loss and fragmentation, which makes it impossible for them to migrate.\n\nOf around 650 spider species regularly recorded in the UK, the majority thrive in marshes and wasteland. Conservation efforts, often led by determined individuals, have helped some species to recover by reintroducing them to new areas. With rewilding now firmly on the environmental policy agenda, the hope is that in future, spiders will be enabled to migrate by themselves, adapting to climate change by moving along wildlife corridors.\n\nIt seems unlikely that spiders will ever attract the same level of human enthusiasm as bees, birds or butterflies, in spite of their unique status as nature's spinners. But as they reveal themselves in all their splendour this autumn, it would be a good thing if more animal lovers recognised the ways in which spiders are simply terrific.",
+      "options": [
+        {
+          "id": "A",
+          "text": "The long tradition of collecting insects."
+        },
+        {
+          "id": "B",
+          "text": "Fast reproduction of their competitors."
+        },
+        {
+          "id": "C",
+          "text": "Chemicals used for killing insects."
+        },
+        {
+          "id": "D",
+          "text": "The extinction of a lot of wildlife"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：Chemicals used for killing insects.\n关键词检索定位到第 4 段的候选相关句：The huge reductions in the numbers of flying insects can only mean a reduction in spiders' food supply.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2023-12-3-nonlistening-q54",
+      "canonicalId": "lazynote-cet6-2023-12-3-q54",
+      "number": 54,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the passage say is conservationists' biggest worry?",
+      "passage": "Spiders make their presence felt in late August and through early autumn. This is the mating season of some of the most common varieties, when male house spiders come out of hidden corners to look for females, and garden spiders reach adult size and spin their most dazzling webs.\n\nYet while the spider is a familiar fixture of nursery poems or songs and Halloween decorations, its relationship with humans is complicated. Fear of spiders is common and has serious impacts on the lives of sufferers. Its prevalence appears unrelated to any rational assessment of risk. Spiders in the UK are almost all harmless. Farmland species perform valuable ecosystem services, by preying on insects that are our competitors for crops. But they are a constant source of human anxieties—with a cultural association with witches and wickedness dating back to the middle ages.\n\nDoes this perhaps explain, in part, the lack of data about how spiders are faring in our age of ecological crisis? British butterflies are the most studied group of insects in the world, due to the long tradition of collecting and observing them. But spider conservationists point out that it was only in the 1980s that the classification of house spiders was properly sorted out. And while information about insect populations is gathered by experiments that measure the numbers hitting windscreens or traps, there have been few attempts to count spiders.\n\nThe huge reductions in the numbers of flying insects can only mean a reduction in spiders' food supply. A recent landmark study identified a 75% fall in insect populations between 1989 and 2016, with pesticide use thought to be to blame along with the destruction of wild areas for development. This means the overall picture for spiders is worrying, as it is for most creatures. But conservationists are most concerned about those varieties that are threatened due to habitat loss and fragmentation, which makes it impossible for them to migrate.\n\nOf around 650 spider species regularly recorded in the UK, the majority thrive in marshes and wasteland. Conservation efforts, often led by determined individuals, have helped some species to recover by reintroducing them to new areas. With rewilding now firmly on the environmental policy agenda, the hope is that in future, spiders will be enabled to migrate by themselves, adapting to climate change by moving along wildlife corridors.\n\nIt seems unlikely that spiders will ever attract the same level of human enthusiasm as bees, birds or butterflies, in spite of their unique status as nature's spinners. But as they reveal themselves in all their splendour this autumn, it would be a good thing if more animal lovers recognised the ways in which spiders are simply terrific.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A variety of spiders are threatened due to pollution of marshes and wasteland."
+        },
+        {
+          "id": "B",
+          "text": "Certain species of spiders are endangered due to loss of their natural homes."
+        },
+        {
+          "id": "C",
+          "text": "An increasing number of spiders are being killed by deadly pesticides."
+        },
+        {
+          "id": "D",
+          "text": "More and more spider species are found losing their ability to migrate."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：Certain species of spiders are endangered due to loss of their natural homes.\n关键词检索定位到第 4 段的候选相关句：But conservationists are most concerned about those varieties that are threatened due to habitat loss and fragmentation, which makes it impossible for them to migrate.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2023-12-3-nonlistening-q55",
+      "canonicalId": "lazynote-cet6-2023-12-3-q55",
+      "number": 55,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What wish does the author express close to the end of the passage?",
+      "passage": "Spiders make their presence felt in late August and through early autumn. This is the mating season of some of the most common varieties, when male house spiders come out of hidden corners to look for females, and garden spiders reach adult size and spin their most dazzling webs.\n\nYet while the spider is a familiar fixture of nursery poems or songs and Halloween decorations, its relationship with humans is complicated. Fear of spiders is common and has serious impacts on the lives of sufferers. Its prevalence appears unrelated to any rational assessment of risk. Spiders in the UK are almost all harmless. Farmland species perform valuable ecosystem services, by preying on insects that are our competitors for crops. But they are a constant source of human anxieties—with a cultural association with witches and wickedness dating back to the middle ages.\n\nDoes this perhaps explain, in part, the lack of data about how spiders are faring in our age of ecological crisis? British butterflies are the most studied group of insects in the world, due to the long tradition of collecting and observing them. But spider conservationists point out that it was only in the 1980s that the classification of house spiders was properly sorted out. And while information about insect populations is gathered by experiments that measure the numbers hitting windscreens or traps, there have been few attempts to count spiders.\n\nThe huge reductions in the numbers of flying insects can only mean a reduction in spiders' food supply. A recent landmark study identified a 75% fall in insect populations between 1989 and 2016, with pesticide use thought to be to blame along with the destruction of wild areas for development. This means the overall picture for spiders is worrying, as it is for most creatures. But conservationists are most concerned about those varieties that are threatened due to habitat loss and fragmentation, which makes it impossible for them to migrate.\n\nOf around 650 spider species regularly recorded in the UK, the majority thrive in marshes and wasteland. Conservation efforts, often led by determined individuals, have helped some species to recover by reintroducing them to new areas. With rewilding now firmly on the environmental policy agenda, the hope is that in future, spiders will be enabled to migrate by themselves, adapting to climate change by moving along wildlife corridors.\n\nIt seems unlikely that spiders will ever attract the same level of human enthusiasm as bees, birds or butterflies, in spite of their unique status as nature's spinners. But as they reveal themselves in all their splendour this autumn, it would be a good thing if more animal lovers recognised the ways in which spiders are simply terrific.",
+      "options": [
+        {
+          "id": "A",
+          "text": "More people would recognise spiders' unique status in the ecosystem."
+        },
+        {
+          "id": "B",
+          "text": "People would show greater enthusiasm for spiders than for butterflies."
+        },
+        {
+          "id": "C",
+          "text": "There would be sufficient corridors for spiders to move along."
+        },
+        {
+          "id": "D",
+          "text": "There would be more people appreciating spiders' splendour."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：There would be more people appreciating spiders' splendour.\n关键词检索定位到第 3 段的候选相关句：And while information about insect populations is gathered by experiments that measure the numbers hitting windscreens or traps, there have been few attempts to count spiders.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    },
+    {
+      "id": "cet6-2023-12-3-nonlistening-translation",
+      "number": "IV",
+      "level": "CET6",
+      "type": "short_text_self_check",
+      "skill": "translation",
+      "section": "translation",
+      "prompt": "Directions : For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2 .\n\n近年来，中国老龄人口持续增长。中国政府正采取各种措施，推进养老服务体系建设，使老年人晚年生活健康幸福。全国兴建了各类养老服务机构。为了提升养老机构的服务质量，政府颁布了一系列标准，加强对养老机构的监管。许多城市为方便老年人用餐，开设了社区食堂，为他们提供价格实惠的饭菜。行动不便的老年人还能享受上门送餐服务。同时，中国还在积极探索居家和社区养老等其他养老模式，以确保所有老年人老有所养。",
+      "options": [],
+      "correctAnswer": "In recent years, China's elderly population has continued to grow. The Chinese government is taking various measures to develop an elderly care service system so that older people can enjoy healthy and happy later years. Different kinds of elderly care institutions have been built across the country. To improve their service quality, the government has issued a series of standards and strengthened supervision. Many cities have opened community canteens to make dining more convenient for older people, offering affordable meals. Those with limited mobility can also receive meals delivered to their homes. Meanwhile, China is actively exploring other care models, including home based and community care, to ensure that all older people receive the care they need.",
+      "referenceAnswer": "In recent years, China's elderly population has continued to grow. The Chinese government is taking various measures to develop an elderly care service system so that older people can enjoy healthy and happy later years. Different kinds of elderly care institutions have been built across the country. To improve their service quality, the government has issued a series of standards and strengthened supervision. Many cities have opened community canteens to make dining more convenient for older people, offering affordable meals. Those with limited mobility can also receive meals delivered to their homes. Meanwhile, China is actively exploring other care models, including home based and community care, to ensure that all older people receive the care they need.",
+      "hint": "机构建设、标准监管、社区食堂、行动不便者送餐与其他养老模式均译出。",
+      "explanation": "以下为原创参考译文，准确的同义表达也可接受。later years表示晚年；affordable meals对应价格实惠。those with limited mobility是行动不便者，不泛化为所有老人；home based and community care保留居家和社区两种方式，ensure引出老有所养目标。",
+      "rubric": [
+        "信息：逐句核对人物、地点、数字、时间、因果和并列信息，避免漏译或增译。",
+        "表达：机构建设、标准监管、社区食堂、行动不便者送餐与其他养老模式均译出。",
+        "语法：检查时态、语态、主谓一致、冠词与单复数，长句按英语逻辑合理拆分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-3-nonlistening"
+    }
+  ]
+}

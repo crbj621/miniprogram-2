@@ -1,0 +1,133 @@
+{
+  "generatedAt": "2026-10-05T04:16:25.996Z",
+  "current": "/opt/campus-api/releases/20261005-121505",
+  "serviceState": "active",
+  "health": {
+    "status": "ok",
+    "database": "ok",
+    "functions": 22,
+    "time": "2026-10-05T04:16:25.967Z"
+  },
+  "before": {
+    "canteen_dishes": 4,
+    "canteen_ratings": 9,
+    "canteen_report_cases": 1,
+    "canteen_reports": 2,
+    "canteen_review_likes": 6,
+    "canteen_reviews": 11,
+    "canteen_stalls": 3,
+    "canteen_submissions": 3
+  },
+  "after": {
+    "canteen_dishes": 4,
+    "canteen_ratings": 9,
+    "canteen_report_cases": 1,
+    "canteen_reports": 2,
+    "canteen_review_likes": 6,
+    "canteen_reviews": 11,
+    "canteen_stalls": 3,
+    "canteen_submissions": 3
+  },
+  "legacyRatingPairs": 9,
+  "comments": [
+    {
+      "dishId": "103a0604cc7a1f328f193d3e",
+      "success": true,
+      "count": 1,
+      "reviewCount": 1,
+      "score": 5,
+      "returnedComments": 1,
+      "privateOpenidExposed": false
+    },
+    {
+      "dishId": "f5ccc77d57e8862d9c48da0d",
+      "success": true,
+      "count": 2,
+      "reviewCount": 2,
+      "score": 4,
+      "returnedComments": 2,
+      "privateOpenidExposed": false
+    },
+    {
+      "dishId": "84597879936b57317e6d5ab8",
+      "success": true,
+      "count": 5,
+      "reviewCount": 6,
+      "score": 3.4,
+      "returnedComments": 6,
+      "privateOpenidExposed": false
+    },
+    {
+      "dishId": "d3611565cf0625bb90b968c9",
+      "success": true,
+      "count": 1,
+      "reviewCount": 1,
+      "score": 1,
+      "returnedComments": 1,
+      "privateOpenidExposed": false
+    }
+  ],
+  "picks": [
+    {
+      "mode": "quality",
+      "success": true,
+      "dishId": "f5ccc77d57e8862d9c48da0d"
+    },
+    {
+      "mode": "all",
+      "success": true,
+      "dishId": "84597879936b57317e6d5ab8"
+    },
+    {
+      "mode": "unusual",
+      "success": true,
+      "dishId": null
+    }
+  ],
+  "hashes": {
+    "server/services/canteen_reviews/index.js": "ad2622467fc8c884a225008c1c36f816a708eca64334a2a0e099b7211f020911",
+    "server/src/campus-rewards.js": "cbba0b74d91654a7be585e4d068f96959888d14bf5f713072491b2dd31d1feb0",
+    "server/scripts/test-canteen-interactions.js": "3f3c812284df3be2c42a9f5415f5bdca6397ff1857b81a494bbd1f6f4f034fef",
+    "server/src/data-store/index.js": "7d16e4e3e44c4fc32ebbf05bdcd088ff0358b7274800665b479883240007d726",
+    "server/src/app.js": "b789f3a175bc5d533858b57c6622cbd71c4351af8005f057c23ead0e1db50bcd"
+  },
+  "originalSiteSha256": "3044d274ff336c8cb5fe6dc87b6fca840e92b9ca3b695acfb4b2953c4e03d8a5",
+  "checks": {
+    "healthy": true,
+    "originalSiteUnchanged": true,
+    "oldDocumentsUnchanged": true,
+    "legacyRatingsMigrated": true,
+    "oneRatingPerUserDish": true,
+    "commentsReadable": true,
+    "mealsReadable": true,
+    "lunchDinnerSharePublishedDishes": true,
+    "randomReadable": true
+  },
+  "kind": "published-client-backward-compatibility",
+  "preDeployBackup": "/www/backup/campus-api/20261005-121359",
+  "releaseArchive": {
+    "files": 274,
+    "bytes": 25152275,
+    "sha256": "1bd9293a235c0391cd6b75c2b307713f4adf3a2de4b466e26b88305cbe197843"
+  },
+  "localGates": {
+    "canteenBusiness": true,
+    "canteenReviewUi": true,
+    "canteenSubmissionUi": true,
+    "typescriptStructureAndServerSyntax": true
+  },
+  "sqlRegression": {
+    "script": "server/scripts/test-canteen-interactions.js",
+    "checksPassed": 43,
+    "exitCode": 0,
+    "scope": "disposable campus_test_ database with dedicated database user; no production test users or comments"
+  },
+  "cleanupVerified": {
+    "temporaryDatabasesRemaining": 0,
+    "temporaryDatabaseUsersRemaining": 0,
+    "uploadedReleaseArchiveRemoved": true
+  },
+  "localSourceHashesMatch": true,
+  "contract": "Published old clients omit clientId and require score 1-5; ordered rating anchor handles current retry, changed content, A-B-A, deletion and old/new interleaving. Modern clientId preserves optional score and pure chat. Both versions retain authorization and contested-rating restrictions.",
+  "boundary": "Server deployment only. No official mini program release or real-phone authenticated comment submission performed."
+}

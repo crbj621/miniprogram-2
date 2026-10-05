@@ -1,7 +1,11 @@
+import { withSharing } from '../../../utils/page-share'
+import { withPageCopy } from '../../../utils/page-copy'
 import { api } from '../../../utils/api-client'
-Page({
+import { getSavedCampusTheme } from '../../../utils/campus-theme'
+Page(withSharing(withPageCopy('forum', {
   refreshPage() { return this.selectComponent("#page-refresh").refresh(() => this.loadPosts()) },
   data: {
+    theme: getSavedCampusTheme('forum'),
     categories: [] as Array<{key: string, name: string}>,
     categoryOptions: [{ key: '', name: '全部分区' }] as Array<{key: string, name: string}>,
     categoryIndex: 0,
@@ -27,6 +31,7 @@ Page({
   },
 
   onShow() {
+    this.setData({ theme: getSavedCampusTheme('forum') })
     this.loadUnreadCount()
   },
 
@@ -278,4 +283,4 @@ Page({
       }
     })
   }
-})
+})))

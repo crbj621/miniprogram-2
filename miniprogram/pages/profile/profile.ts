@@ -1,8 +1,11 @@
+import { withSharing } from '../../utils/page-share'
 import { api } from '../../utils/api-client'
 import { getPublicModules } from '../../utils/public-modules'
+import { getSavedCampusTheme } from '../../utils/campus-theme'
 
-Page({
+Page(withSharing({
   data: {
+    theme: getSavedCampusTheme('profile'),
     // 个人中心来源：用于决定功能区优先级（running/forum/food）
     source: 'profile',
     menuGroups: [] as any[],
@@ -56,6 +59,7 @@ Page({
   },
 
   onShow() {
+    this.setData({ theme: getSavedCampusTheme('profile') })
     const app = getApp()
     const isLoggedIn = app.isLoggedIn()
     const userInfo = isLoggedIn ? app.getUserInfo() : null
@@ -323,10 +327,11 @@ Page({
     this.setData({ searchType: e.currentTarget.dataset.type, searchKeyword: '', searchResults: [], hasSearched: false })
   },
 
-  onSearchInput(e: any) { this.setData({ searchKeyword: e.detail.value.toUpperCase() }) },
+  onSearchInput(e: any) { this.setData({ searchKeyword: e.detail.value }) },
 
   searchFriend() {
-    const keyword = this.data.searchKeyword.trim()
+    const rawKeyword = this.data.searchKeyword.trim()
+    const keyword = this.data.searchType === 'id' ? rawKeyword.toUpperCase() : rawKeyword
     if (!keyword) { wx.showToast({ title: '请输入搜索内容', icon: 'none' }); return }
     if (this.data.searchType === 'id' && keyword.length !== 6) { wx.showToast({ title: '用户ID为6位', icon: 'none' }); return }
     wx.showLoading({ title: '搜索中...' })
@@ -475,4 +480,4 @@ Page({
       query: `addFriend=${this.data.userId}`
     }
   }
-})
+}))

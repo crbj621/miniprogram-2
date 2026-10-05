@@ -1,3 +1,4 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <!--pages/profile/coupons/coupons.wxml-->
 <view class="container">
   <view class="header">
@@ -68,3 +69,5 @@
     <view class="go-run-btn tech-control" bindtap="goRun" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">去跑步</view>
   </view>
 </view>
+
+</block>

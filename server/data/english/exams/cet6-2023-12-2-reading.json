@@ -1,0 +1,1907 @@
+{
+  "schemaVersion": 1,
+  "status": "verified_structured",
+  "source": {
+    "id": "cet6-2023-12-2-reading",
+    "textRepository": "https://github.com/wamich/english-exem-md",
+    "textLicense": "GPL-2.0",
+    "textUrl": "https://github.com/wamich/english-exem-md/blob/main/CET6/2023.12/cet6-2023-12-2.md",
+    "textSha256": "689987780265332507ce4190ae46cc2ae7b77eb09ec5fad14dee8f0435daaa61",
+    "verificationRepository": "https://github.com/0609x/CET46-Resources",
+    "answerPdfUrl": "https://raw.githubusercontent.com/0609x/CET46-Resources/main/%E5%85%AD%E7%BA%A7%E7%9C%9F%E9%A2%98/2023.12/%E7%AD%94%E6%A1%88%E8%A7%A3%E6%9E%90/2023.12%E8%8B%B1%E8%AF%AD%E5%85%AD%E7%BA%A7%E8%A7%A3%E6%9E%90%E7%AC%AC2%E5%A5%97%281%29.pdf",
+    "answerPdfSha256": "3f4d4fe95fe3fb499e68c80da3fd60814fad8a95e356bfc52d876d12726c244d",
+    "answerRights": "Third-party reference material; repository grants no blanket license. Used to verify answer facts; commercial explanatory prose is not copied.",
+    "rightsUrl": "https://github.com/0609x/CET46-Resources/blob/main/RIGHTS.md",
+    "reviewedAt": "2026-10-03",
+    "answerStatus": "institution_reference_verified_against_options",
+    "explanations": "Project-authored explanations grounded in the question passages and verified answer keys.",
+    "referenceEssays": "Project-authored examples, not official model answers.",
+    "audioSourceUrl": "https://github.com/0609x/CET46-Resources",
+    "corrections": [
+      "Only reading questions 26–55 are included; missing listening and subjective sections are not claimed as a full exam.",
+      "Question 48 option D says Most families, while the passage says poorer families. Institution reference D retained with an explicit explanation caveat; no invented population statistic."
+    ]
+  },
+  "papers": [
+    {
+      "id": "cet6-2023-12-2-reading",
+      "level": "CET6",
+      "year": 2023,
+      "month": 12,
+      "set": 2,
+      "title": "2023年12月英语六级第2套真题·阅读专项",
+      "authenticity": "past_exam",
+      "questionIds": [
+        "cet6-2023-12-2-reading-q26",
+        "cet6-2023-12-2-reading-q27",
+        "cet6-2023-12-2-reading-q28",
+        "cet6-2023-12-2-reading-q29",
+        "cet6-2023-12-2-reading-q30",
+        "cet6-2023-12-2-reading-q31",
+        "cet6-2023-12-2-reading-q32",
+        "cet6-2023-12-2-reading-q33",
+        "cet6-2023-12-2-reading-q34",
+        "cet6-2023-12-2-reading-q35",
+        "cet6-2023-12-2-reading-q36",
+        "cet6-2023-12-2-reading-q37",
+        "cet6-2023-12-2-reading-q38",
+        "cet6-2023-12-2-reading-q39",
+        "cet6-2023-12-2-reading-q40",
+        "cet6-2023-12-2-reading-q41",
+        "cet6-2023-12-2-reading-q42",
+        "cet6-2023-12-2-reading-q43",
+        "cet6-2023-12-2-reading-q44",
+        "cet6-2023-12-2-reading-q45",
+        "cet6-2023-12-2-reading-q46",
+        "cet6-2023-12-2-reading-q47",
+        "cet6-2023-12-2-reading-q48",
+        "cet6-2023-12-2-reading-q49",
+        "cet6-2023-12-2-reading-q50",
+        "cet6-2023-12-2-reading-q51",
+        "cet6-2023-12-2-reading-q52",
+        "cet6-2023-12-2-reading-q53",
+        "cet6-2023-12-2-reading-q54",
+        "cet6-2023-12-2-reading-q55"
+      ],
+      "durationSeconds": 2400,
+      "description": "真实题面与机构参考答案已核对，解析和参考作文为本项目编写。仅含第26–55题阅读部分，不是完整考试卷。",
+      "sourceId": "cet6-2023-12-2-reading",
+      "resources": [],
+      "coverage": {
+        "isFullExam": false,
+        "fullPaper": false,
+        "objectiveNumbers": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "objectiveCount": 30,
+        "subjectiveCount": 0,
+        "sections": [
+          "reading_word_bank",
+          "reading_matching",
+          "reading_comprehension"
+        ]
+      }
+    }
+  ],
+  "questions": [
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 26 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Our brains respond to language expressing facts differently than they do to words conveying possibility, scientists at New York University have recently found. Their work offers new insights into the impact word choice has on how we [26] ____ between statements expressing what is real versus what is merely possible.\n\nThe researchers assert their findings are important because we are presented with false information all the time. Some of this is [27] ____, as is the case with deceptive advertisements, but the problem is [28] ____ by individuals who believe they are sharing correct information. Thus, it is more important than ever to separate the factual from the possible or merely [29] ____ in how we communicate. This is especially true as the study makes clear that information presented as fact [30] ____ special responses in our brains, which are distinct from when we process the same content with clear indicators of [31] ____.\n\nIn their new study, the scientists intended to [32] ____ how the brain computes possibilities as expressed by words such as \"may,\" \"might,\" and \"if.\" The researchers compared brain responses to statements expressing factual [33] ____ and those expressing possibility. \"There is a monster under my bed\" exemplifies a factual statement. \"I will stay home,\" is also factual. This is opposed to statements that express possibility, like \"There might be a monster under my bed,\" or \"If it rains, I will stay home.\" The results of the study showed that factual language [34] ____ a rapid increase in brain activity, with the brain responding more powerfully and showing more engagement with factual phrases compared to those communicating possibility. Thus, facts rule when it comes to the brain. Brain regions involved in processing [35] ____ rapidly distinguish facts from possibilities. Further, these regions respond in a much more robust fashion to factual statements.",
+      "options": [
+        {
+          "id": "A",
+          "text": "activated"
+        },
+        {
+          "id": "B",
+          "text": "aggravated"
+        },
+        {
+          "id": "C",
+          "text": "ascertain"
+        },
+        {
+          "id": "D",
+          "text": "deliberate"
+        },
+        {
+          "id": "E",
+          "text": "differentiate"
+        },
+        {
+          "id": "F",
+          "text": "discourse"
+        },
+        {
+          "id": "G",
+          "text": "evokes"
+        },
+        {
+          "id": "H",
+          "text": "inhibit"
+        },
+        {
+          "id": "I",
+          "text": "manuscript"
+        },
+        {
+          "id": "J",
+          "text": "marvels"
+        },
+        {
+          "id": "K",
+          "text": "remnants"
+        },
+        {
+          "id": "L",
+          "text": "scenarios"
+        },
+        {
+          "id": "M",
+          "text": "speculative"
+        },
+        {
+          "id": "N",
+          "text": "unanimous"
+        },
+        {
+          "id": "O",
+          "text": "uncertainty"
+        }
+      ],
+      "id": "cet6-2023-12-2-reading-q26",
+      "number": 26,
+      "level": "CET6",
+      "correctAnswer": "E",
+      "hint": "先看第26空的句法位置和前后搭配，再结合整段话的语义判断。",
+      "explanation": "E，differentiate。与between搭配，区分真实陈述与可能性。将词填回本句可读为：“Their work offers new insights into the impact word choice has on how we differentiate between statements expressing what is real versus what is merely possible.”。其他选项即使词性相同，也需同时符合这句话所表达的含义。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 27 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Our brains respond to language expressing facts differently than they do to words conveying possibility, scientists at New York University have recently found. Their work offers new insights into the impact word choice has on how we [26] ____ between statements expressing what is real versus what is merely possible.\n\nThe researchers assert their findings are important because we are presented with false information all the time. Some of this is [27] ____, as is the case with deceptive advertisements, but the problem is [28] ____ by individuals who believe they are sharing correct information. Thus, it is more important than ever to separate the factual from the possible or merely [29] ____ in how we communicate. This is especially true as the study makes clear that information presented as fact [30] ____ special responses in our brains, which are distinct from when we process the same content with clear indicators of [31] ____.\n\nIn their new study, the scientists intended to [32] ____ how the brain computes possibilities as expressed by words such as \"may,\" \"might,\" and \"if.\" The researchers compared brain responses to statements expressing factual [33] ____ and those expressing possibility. \"There is a monster under my bed\" exemplifies a factual statement. \"I will stay home,\" is also factual. This is opposed to statements that express possibility, like \"There might be a monster under my bed,\" or \"If it rains, I will stay home.\" The results of the study showed that factual language [34] ____ a rapid increase in brain activity, with the brain responding more powerfully and showing more engagement with factual phrases compared to those communicating possibility. Thus, facts rule when it comes to the brain. Brain regions involved in processing [35] ____ rapidly distinguish facts from possibilities. Further, these regions respond in a much more robust fashion to factual statements.",
+      "options": [
+        {
+          "id": "A",
+          "text": "activated"
+        },
+        {
+          "id": "B",
+          "text": "aggravated"
+        },
+        {
+          "id": "C",
+          "text": "ascertain"
+        },
+        {
+          "id": "D",
+          "text": "deliberate"
+        },
+        {
+          "id": "E",
+          "text": "differentiate"
+        },
+        {
+          "id": "F",
+          "text": "discourse"
+        },
+        {
+          "id": "G",
+          "text": "evokes"
+        },
+        {
+          "id": "H",
+          "text": "inhibit"
+        },
+        {
+          "id": "I",
+          "text": "manuscript"
+        },
+        {
+          "id": "J",
+          "text": "marvels"
+        },
+        {
+          "id": "K",
+          "text": "remnants"
+        },
+        {
+          "id": "L",
+          "text": "scenarios"
+        },
+        {
+          "id": "M",
+          "text": "speculative"
+        },
+        {
+          "id": "N",
+          "text": "unanimous"
+        },
+        {
+          "id": "O",
+          "text": "uncertainty"
+        }
+      ],
+      "id": "cet6-2023-12-2-reading-q27",
+      "number": 27,
+      "level": "CET6",
+      "correctAnswer": "D",
+      "hint": "先看第27空的句法位置和前后搭配，再结合整段话的语义判断。",
+      "explanation": "D，deliberate。形容词指出欺骗性广告中的错误信息有时是故意的。将词填回本句可读为：“Some of this is deliberate, as is the case with deceptive advertisements, but the problem is [28] ____ by individuals who believe they are sharing correct information.”。其他选项即使词性相同，也需同时符合这句话所表达的含义。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 28 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Our brains respond to language expressing facts differently than they do to words conveying possibility, scientists at New York University have recently found. Their work offers new insights into the impact word choice has on how we [26] ____ between statements expressing what is real versus what is merely possible.\n\nThe researchers assert their findings are important because we are presented with false information all the time. Some of this is [27] ____, as is the case with deceptive advertisements, but the problem is [28] ____ by individuals who believe they are sharing correct information. Thus, it is more important than ever to separate the factual from the possible or merely [29] ____ in how we communicate. This is especially true as the study makes clear that information presented as fact [30] ____ special responses in our brains, which are distinct from when we process the same content with clear indicators of [31] ____.\n\nIn their new study, the scientists intended to [32] ____ how the brain computes possibilities as expressed by words such as \"may,\" \"might,\" and \"if.\" The researchers compared brain responses to statements expressing factual [33] ____ and those expressing possibility. \"There is a monster under my bed\" exemplifies a factual statement. \"I will stay home,\" is also factual. This is opposed to statements that express possibility, like \"There might be a monster under my bed,\" or \"If it rains, I will stay home.\" The results of the study showed that factual language [34] ____ a rapid increase in brain activity, with the brain responding more powerfully and showing more engagement with factual phrases compared to those communicating possibility. Thus, facts rule when it comes to the brain. Brain regions involved in processing [35] ____ rapidly distinguish facts from possibilities. Further, these regions respond in a much more robust fashion to factual statements.",
+      "options": [
+        {
+          "id": "A",
+          "text": "activated"
+        },
+        {
+          "id": "B",
+          "text": "aggravated"
+        },
+        {
+          "id": "C",
+          "text": "ascertain"
+        },
+        {
+          "id": "D",
+          "text": "deliberate"
+        },
+        {
+          "id": "E",
+          "text": "differentiate"
+        },
+        {
+          "id": "F",
+          "text": "discourse"
+        },
+        {
+          "id": "G",
+          "text": "evokes"
+        },
+        {
+          "id": "H",
+          "text": "inhibit"
+        },
+        {
+          "id": "I",
+          "text": "manuscript"
+        },
+        {
+          "id": "J",
+          "text": "marvels"
+        },
+        {
+          "id": "K",
+          "text": "remnants"
+        },
+        {
+          "id": "L",
+          "text": "scenarios"
+        },
+        {
+          "id": "M",
+          "text": "speculative"
+        },
+        {
+          "id": "N",
+          "text": "unanimous"
+        },
+        {
+          "id": "O",
+          "text": "uncertainty"
+        }
+      ],
+      "id": "cet6-2023-12-2-reading-q28",
+      "number": 28,
+      "level": "CET6",
+      "correctAnswer": "B",
+      "hint": "先看第28空的句法位置和前后搭配，再结合整段话的语义判断。",
+      "explanation": "B，aggravated。被动结构，误以为正确而分享的人使问题加重。将词填回本句可读为：“Some of this is [27] ____, as is the case with deceptive advertisements, but the problem is aggravated by individuals who believe they are sharing correct information.”。其他选项即使词性相同，也需同时符合这句话所表达的含义。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 29 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Our brains respond to language expressing facts differently than they do to words conveying possibility, scientists at New York University have recently found. Their work offers new insights into the impact word choice has on how we [26] ____ between statements expressing what is real versus what is merely possible.\n\nThe researchers assert their findings are important because we are presented with false information all the time. Some of this is [27] ____, as is the case with deceptive advertisements, but the problem is [28] ____ by individuals who believe they are sharing correct information. Thus, it is more important than ever to separate the factual from the possible or merely [29] ____ in how we communicate. This is especially true as the study makes clear that information presented as fact [30] ____ special responses in our brains, which are distinct from when we process the same content with clear indicators of [31] ____.\n\nIn their new study, the scientists intended to [32] ____ how the brain computes possibilities as expressed by words such as \"may,\" \"might,\" and \"if.\" The researchers compared brain responses to statements expressing factual [33] ____ and those expressing possibility. \"There is a monster under my bed\" exemplifies a factual statement. \"I will stay home,\" is also factual. This is opposed to statements that express possibility, like \"There might be a monster under my bed,\" or \"If it rains, I will stay home.\" The results of the study showed that factual language [34] ____ a rapid increase in brain activity, with the brain responding more powerfully and showing more engagement with factual phrases compared to those communicating possibility. Thus, facts rule when it comes to the brain. Brain regions involved in processing [35] ____ rapidly distinguish facts from possibilities. Further, these regions respond in a much more robust fashion to factual statements.",
+      "options": [
+        {
+          "id": "A",
+          "text": "activated"
+        },
+        {
+          "id": "B",
+          "text": "aggravated"
+        },
+        {
+          "id": "C",
+          "text": "ascertain"
+        },
+        {
+          "id": "D",
+          "text": "deliberate"
+        },
+        {
+          "id": "E",
+          "text": "differentiate"
+        },
+        {
+          "id": "F",
+          "text": "discourse"
+        },
+        {
+          "id": "G",
+          "text": "evokes"
+        },
+        {
+          "id": "H",
+          "text": "inhibit"
+        },
+        {
+          "id": "I",
+          "text": "manuscript"
+        },
+        {
+          "id": "J",
+          "text": "marvels"
+        },
+        {
+          "id": "K",
+          "text": "remnants"
+        },
+        {
+          "id": "L",
+          "text": "scenarios"
+        },
+        {
+          "id": "M",
+          "text": "speculative"
+        },
+        {
+          "id": "N",
+          "text": "unanimous"
+        },
+        {
+          "id": "O",
+          "text": "uncertainty"
+        }
+      ],
+      "id": "cet6-2023-12-2-reading-q29",
+      "number": 29,
+      "level": "CET6",
+      "correctAnswer": "M",
+      "hint": "先看第29空的句法位置和前后搭配，再结合整段话的语义判断。",
+      "explanation": "M，speculative。形容词表示推测的，与事实相对。将词填回本句可读为：“Thus, it is more important than ever to separate the factual from the possible or merely speculative in how we communicate.”。其他选项即使词性相同，也需同时符合这句话所表达的含义。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 30 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Our brains respond to language expressing facts differently than they do to words conveying possibility, scientists at New York University have recently found. Their work offers new insights into the impact word choice has on how we [26] ____ between statements expressing what is real versus what is merely possible.\n\nThe researchers assert their findings are important because we are presented with false information all the time. Some of this is [27] ____, as is the case with deceptive advertisements, but the problem is [28] ____ by individuals who believe they are sharing correct information. Thus, it is more important than ever to separate the factual from the possible or merely [29] ____ in how we communicate. This is especially true as the study makes clear that information presented as fact [30] ____ special responses in our brains, which are distinct from when we process the same content with clear indicators of [31] ____.\n\nIn their new study, the scientists intended to [32] ____ how the brain computes possibilities as expressed by words such as \"may,\" \"might,\" and \"if.\" The researchers compared brain responses to statements expressing factual [33] ____ and those expressing possibility. \"There is a monster under my bed\" exemplifies a factual statement. \"I will stay home,\" is also factual. This is opposed to statements that express possibility, like \"There might be a monster under my bed,\" or \"If it rains, I will stay home.\" The results of the study showed that factual language [34] ____ a rapid increase in brain activity, with the brain responding more powerfully and showing more engagement with factual phrases compared to those communicating possibility. Thus, facts rule when it comes to the brain. Brain regions involved in processing [35] ____ rapidly distinguish facts from possibilities. Further, these regions respond in a much more robust fashion to factual statements.",
+      "options": [
+        {
+          "id": "A",
+          "text": "activated"
+        },
+        {
+          "id": "B",
+          "text": "aggravated"
+        },
+        {
+          "id": "C",
+          "text": "ascertain"
+        },
+        {
+          "id": "D",
+          "text": "deliberate"
+        },
+        {
+          "id": "E",
+          "text": "differentiate"
+        },
+        {
+          "id": "F",
+          "text": "discourse"
+        },
+        {
+          "id": "G",
+          "text": "evokes"
+        },
+        {
+          "id": "H",
+          "text": "inhibit"
+        },
+        {
+          "id": "I",
+          "text": "manuscript"
+        },
+        {
+          "id": "J",
+          "text": "marvels"
+        },
+        {
+          "id": "K",
+          "text": "remnants"
+        },
+        {
+          "id": "L",
+          "text": "scenarios"
+        },
+        {
+          "id": "M",
+          "text": "speculative"
+        },
+        {
+          "id": "N",
+          "text": "unanimous"
+        },
+        {
+          "id": "O",
+          "text": "uncertainty"
+        }
+      ],
+      "id": "cet6-2023-12-2-reading-q30",
+      "number": 30,
+      "level": "CET6",
+      "correctAnswer": "G",
+      "hint": "先看第30空的句法位置和前后搭配，再结合整段话的语义判断。",
+      "explanation": "G，evokes。单数主语information搭配第三人称谓语，表示唤起特殊反应。将词填回本句可读为：“This is especially true as the study makes clear that information presented as fact evokes special responses in our brains, which are distinct from when we process the same content with clear indicators of [31] ____.”。其他选项即使词性相同，也需同时符合这句话所表达的含义。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 31 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Our brains respond to language expressing facts differently than they do to words conveying possibility, scientists at New York University have recently found. Their work offers new insights into the impact word choice has on how we [26] ____ between statements expressing what is real versus what is merely possible.\n\nThe researchers assert their findings are important because we are presented with false information all the time. Some of this is [27] ____, as is the case with deceptive advertisements, but the problem is [28] ____ by individuals who believe they are sharing correct information. Thus, it is more important than ever to separate the factual from the possible or merely [29] ____ in how we communicate. This is especially true as the study makes clear that information presented as fact [30] ____ special responses in our brains, which are distinct from when we process the same content with clear indicators of [31] ____.\n\nIn their new study, the scientists intended to [32] ____ how the brain computes possibilities as expressed by words such as \"may,\" \"might,\" and \"if.\" The researchers compared brain responses to statements expressing factual [33] ____ and those expressing possibility. \"There is a monster under my bed\" exemplifies a factual statement. \"I will stay home,\" is also factual. This is opposed to statements that express possibility, like \"There might be a monster under my bed,\" or \"If it rains, I will stay home.\" The results of the study showed that factual language [34] ____ a rapid increase in brain activity, with the brain responding more powerfully and showing more engagement with factual phrases compared to those communicating possibility. Thus, facts rule when it comes to the brain. Brain regions involved in processing [35] ____ rapidly distinguish facts from possibilities. Further, these regions respond in a much more robust fashion to factual statements.",
+      "options": [
+        {
+          "id": "A",
+          "text": "activated"
+        },
+        {
+          "id": "B",
+          "text": "aggravated"
+        },
+        {
+          "id": "C",
+          "text": "ascertain"
+        },
+        {
+          "id": "D",
+          "text": "deliberate"
+        },
+        {
+          "id": "E",
+          "text": "differentiate"
+        },
+        {
+          "id": "F",
+          "text": "discourse"
+        },
+        {
+          "id": "G",
+          "text": "evokes"
+        },
+        {
+          "id": "H",
+          "text": "inhibit"
+        },
+        {
+          "id": "I",
+          "text": "manuscript"
+        },
+        {
+          "id": "J",
+          "text": "marvels"
+        },
+        {
+          "id": "K",
+          "text": "remnants"
+        },
+        {
+          "id": "L",
+          "text": "scenarios"
+        },
+        {
+          "id": "M",
+          "text": "speculative"
+        },
+        {
+          "id": "N",
+          "text": "unanimous"
+        },
+        {
+          "id": "O",
+          "text": "uncertainty"
+        }
+      ],
+      "id": "cet6-2023-12-2-reading-q31",
+      "number": 31,
+      "level": "CET6",
+      "correctAnswer": "O",
+      "hint": "先看第31空的句法位置和前后搭配，再结合整段话的语义判断。",
+      "explanation": "O，uncertainty。名词表示不确定，与明确事实区分。将词填回本句可读为：“This is especially true as the study makes clear that information presented as fact [30] ____ special responses in our brains, which are distinct from when we process the same content with clear indicators of uncertainty.”。其他选项即使词性相同，也需同时符合这句话所表达的含义。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 32 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Our brains respond to language expressing facts differently than they do to words conveying possibility, scientists at New York University have recently found. Their work offers new insights into the impact word choice has on how we [26] ____ between statements expressing what is real versus what is merely possible.\n\nThe researchers assert their findings are important because we are presented with false information all the time. Some of this is [27] ____, as is the case with deceptive advertisements, but the problem is [28] ____ by individuals who believe they are sharing correct information. Thus, it is more important than ever to separate the factual from the possible or merely [29] ____ in how we communicate. This is especially true as the study makes clear that information presented as fact [30] ____ special responses in our brains, which are distinct from when we process the same content with clear indicators of [31] ____.\n\nIn their new study, the scientists intended to [32] ____ how the brain computes possibilities as expressed by words such as \"may,\" \"might,\" and \"if.\" The researchers compared brain responses to statements expressing factual [33] ____ and those expressing possibility. \"There is a monster under my bed\" exemplifies a factual statement. \"I will stay home,\" is also factual. This is opposed to statements that express possibility, like \"There might be a monster under my bed,\" or \"If it rains, I will stay home.\" The results of the study showed that factual language [34] ____ a rapid increase in brain activity, with the brain responding more powerfully and showing more engagement with factual phrases compared to those communicating possibility. Thus, facts rule when it comes to the brain. Brain regions involved in processing [35] ____ rapidly distinguish facts from possibilities. Further, these regions respond in a much more robust fashion to factual statements.",
+      "options": [
+        {
+          "id": "A",
+          "text": "activated"
+        },
+        {
+          "id": "B",
+          "text": "aggravated"
+        },
+        {
+          "id": "C",
+          "text": "ascertain"
+        },
+        {
+          "id": "D",
+          "text": "deliberate"
+        },
+        {
+          "id": "E",
+          "text": "differentiate"
+        },
+        {
+          "id": "F",
+          "text": "discourse"
+        },
+        {
+          "id": "G",
+          "text": "evokes"
+        },
+        {
+          "id": "H",
+          "text": "inhibit"
+        },
+        {
+          "id": "I",
+          "text": "manuscript"
+        },
+        {
+          "id": "J",
+          "text": "marvels"
+        },
+        {
+          "id": "K",
+          "text": "remnants"
+        },
+        {
+          "id": "L",
+          "text": "scenarios"
+        },
+        {
+          "id": "M",
+          "text": "speculative"
+        },
+        {
+          "id": "N",
+          "text": "unanimous"
+        },
+        {
+          "id": "O",
+          "text": "uncertainty"
+        }
+      ],
+      "id": "cet6-2023-12-2-reading-q32",
+      "number": 32,
+      "level": "CET6",
+      "correctAnswer": "C",
+      "hint": "先看第32空的句法位置和前后搭配，再结合整段话的语义判断。",
+      "explanation": "C，ascertain。intended to后动词原形，表示查明大脑怎样处理可能性。将词填回本句可读为：“In their new study, the scientists intended to ascertain how the brain computes possibilities as expressed by words such as \"may,\" \"might,\" and \"if.\" The researchers compared brain responses to statements expressing factual [33] ____ and those expressing possibility.”。其他选项即使词性相同，也需同时符合这句话所表达的含义。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 33 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Our brains respond to language expressing facts differently than they do to words conveying possibility, scientists at New York University have recently found. Their work offers new insights into the impact word choice has on how we [26] ____ between statements expressing what is real versus what is merely possible.\n\nThe researchers assert their findings are important because we are presented with false information all the time. Some of this is [27] ____, as is the case with deceptive advertisements, but the problem is [28] ____ by individuals who believe they are sharing correct information. Thus, it is more important than ever to separate the factual from the possible or merely [29] ____ in how we communicate. This is especially true as the study makes clear that information presented as fact [30] ____ special responses in our brains, which are distinct from when we process the same content with clear indicators of [31] ____.\n\nIn their new study, the scientists intended to [32] ____ how the brain computes possibilities as expressed by words such as \"may,\" \"might,\" and \"if.\" The researchers compared brain responses to statements expressing factual [33] ____ and those expressing possibility. \"There is a monster under my bed\" exemplifies a factual statement. \"I will stay home,\" is also factual. This is opposed to statements that express possibility, like \"There might be a monster under my bed,\" or \"If it rains, I will stay home.\" The results of the study showed that factual language [34] ____ a rapid increase in brain activity, with the brain responding more powerfully and showing more engagement with factual phrases compared to those communicating possibility. Thus, facts rule when it comes to the brain. Brain regions involved in processing [35] ____ rapidly distinguish facts from possibilities. Further, these regions respond in a much more robust fashion to factual statements.",
+      "options": [
+        {
+          "id": "A",
+          "text": "activated"
+        },
+        {
+          "id": "B",
+          "text": "aggravated"
+        },
+        {
+          "id": "C",
+          "text": "ascertain"
+        },
+        {
+          "id": "D",
+          "text": "deliberate"
+        },
+        {
+          "id": "E",
+          "text": "differentiate"
+        },
+        {
+          "id": "F",
+          "text": "discourse"
+        },
+        {
+          "id": "G",
+          "text": "evokes"
+        },
+        {
+          "id": "H",
+          "text": "inhibit"
+        },
+        {
+          "id": "I",
+          "text": "manuscript"
+        },
+        {
+          "id": "J",
+          "text": "marvels"
+        },
+        {
+          "id": "K",
+          "text": "remnants"
+        },
+        {
+          "id": "L",
+          "text": "scenarios"
+        },
+        {
+          "id": "M",
+          "text": "speculative"
+        },
+        {
+          "id": "N",
+          "text": "unanimous"
+        },
+        {
+          "id": "O",
+          "text": "uncertainty"
+        }
+      ],
+      "id": "cet6-2023-12-2-reading-q33",
+      "number": 33,
+      "level": "CET6",
+      "correctAnswer": "L",
+      "hint": "先看第33空的句法位置和前后搭配，再结合整段话的语义判断。",
+      "explanation": "L，scenarios。名词复数指表达事实的不同情境。将词填回本句可读为：“In their new study, the scientists intended to [32] ____ how the brain computes possibilities as expressed by words such as \"may,\" \"might,\" and \"if.\" The researchers compared brain responses to statements expressing factual scenarios and those expressing possibility.”。其他选项即使词性相同，也需同时符合这句话所表达的含义。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 34 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Our brains respond to language expressing facts differently than they do to words conveying possibility, scientists at New York University have recently found. Their work offers new insights into the impact word choice has on how we [26] ____ between statements expressing what is real versus what is merely possible.\n\nThe researchers assert their findings are important because we are presented with false information all the time. Some of this is [27] ____, as is the case with deceptive advertisements, but the problem is [28] ____ by individuals who believe they are sharing correct information. Thus, it is more important than ever to separate the factual from the possible or merely [29] ____ in how we communicate. This is especially true as the study makes clear that information presented as fact [30] ____ special responses in our brains, which are distinct from when we process the same content with clear indicators of [31] ____.\n\nIn their new study, the scientists intended to [32] ____ how the brain computes possibilities as expressed by words such as \"may,\" \"might,\" and \"if.\" The researchers compared brain responses to statements expressing factual [33] ____ and those expressing possibility. \"There is a monster under my bed\" exemplifies a factual statement. \"I will stay home,\" is also factual. This is opposed to statements that express possibility, like \"There might be a monster under my bed,\" or \"If it rains, I will stay home.\" The results of the study showed that factual language [34] ____ a rapid increase in brain activity, with the brain responding more powerfully and showing more engagement with factual phrases compared to those communicating possibility. Thus, facts rule when it comes to the brain. Brain regions involved in processing [35] ____ rapidly distinguish facts from possibilities. Further, these regions respond in a much more robust fashion to factual statements.",
+      "options": [
+        {
+          "id": "A",
+          "text": "activated"
+        },
+        {
+          "id": "B",
+          "text": "aggravated"
+        },
+        {
+          "id": "C",
+          "text": "ascertain"
+        },
+        {
+          "id": "D",
+          "text": "deliberate"
+        },
+        {
+          "id": "E",
+          "text": "differentiate"
+        },
+        {
+          "id": "F",
+          "text": "discourse"
+        },
+        {
+          "id": "G",
+          "text": "evokes"
+        },
+        {
+          "id": "H",
+          "text": "inhibit"
+        },
+        {
+          "id": "I",
+          "text": "manuscript"
+        },
+        {
+          "id": "J",
+          "text": "marvels"
+        },
+        {
+          "id": "K",
+          "text": "remnants"
+        },
+        {
+          "id": "L",
+          "text": "scenarios"
+        },
+        {
+          "id": "M",
+          "text": "speculative"
+        },
+        {
+          "id": "N",
+          "text": "unanimous"
+        },
+        {
+          "id": "O",
+          "text": "uncertainty"
+        }
+      ],
+      "id": "cet6-2023-12-2-reading-q34",
+      "number": 34,
+      "level": "CET6",
+      "correctAnswer": "A",
+      "hint": "先看第34空的句法位置和前后搭配，再结合整段话的语义判断。",
+      "explanation": "A，activated。过去式谓语，事实语言激发大脑活动增加。将词填回本句可读为：“This is opposed to statements that express possibility, like \"There might be a monster under my bed,\" or \"If it rains, I will stay home.\" The results of the study showed that factual language activated a rapid increase in brain activity, with the brain responding more powerfully and showing more engagement with factual phrases compared to those communicating possibility.”。其他选项即使词性相同，也需同时符合这句话所表达的含义。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 35 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Our brains respond to language expressing facts differently than they do to words conveying possibility, scientists at New York University have recently found. Their work offers new insights into the impact word choice has on how we [26] ____ between statements expressing what is real versus what is merely possible.\n\nThe researchers assert their findings are important because we are presented with false information all the time. Some of this is [27] ____, as is the case with deceptive advertisements, but the problem is [28] ____ by individuals who believe they are sharing correct information. Thus, it is more important than ever to separate the factual from the possible or merely [29] ____ in how we communicate. This is especially true as the study makes clear that information presented as fact [30] ____ special responses in our brains, which are distinct from when we process the same content with clear indicators of [31] ____.\n\nIn their new study, the scientists intended to [32] ____ how the brain computes possibilities as expressed by words such as \"may,\" \"might,\" and \"if.\" The researchers compared brain responses to statements expressing factual [33] ____ and those expressing possibility. \"There is a monster under my bed\" exemplifies a factual statement. \"I will stay home,\" is also factual. This is opposed to statements that express possibility, like \"There might be a monster under my bed,\" or \"If it rains, I will stay home.\" The results of the study showed that factual language [34] ____ a rapid increase in brain activity, with the brain responding more powerfully and showing more engagement with factual phrases compared to those communicating possibility. Thus, facts rule when it comes to the brain. Brain regions involved in processing [35] ____ rapidly distinguish facts from possibilities. Further, these regions respond in a much more robust fashion to factual statements.",
+      "options": [
+        {
+          "id": "A",
+          "text": "activated"
+        },
+        {
+          "id": "B",
+          "text": "aggravated"
+        },
+        {
+          "id": "C",
+          "text": "ascertain"
+        },
+        {
+          "id": "D",
+          "text": "deliberate"
+        },
+        {
+          "id": "E",
+          "text": "differentiate"
+        },
+        {
+          "id": "F",
+          "text": "discourse"
+        },
+        {
+          "id": "G",
+          "text": "evokes"
+        },
+        {
+          "id": "H",
+          "text": "inhibit"
+        },
+        {
+          "id": "I",
+          "text": "manuscript"
+        },
+        {
+          "id": "J",
+          "text": "marvels"
+        },
+        {
+          "id": "K",
+          "text": "remnants"
+        },
+        {
+          "id": "L",
+          "text": "scenarios"
+        },
+        {
+          "id": "M",
+          "text": "speculative"
+        },
+        {
+          "id": "N",
+          "text": "unanimous"
+        },
+        {
+          "id": "O",
+          "text": "uncertainty"
+        }
+      ],
+      "id": "cet6-2023-12-2-reading-q35",
+      "number": 35,
+      "level": "CET6",
+      "correctAnswer": "F",
+      "hint": "先看第35空的句法位置和前后搭配，再结合整段话的语义判断。",
+      "explanation": "F，discourse。名词表示处理话语的大脑区域。将词填回本句可读为：“Brain regions involved in processing discourse rapidly distinguish facts from possibilities.”。其他选项即使词性相同，也需同时符合这句话所表达的含义。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Exploration of shipwrecks on the sea floor is crucial in updating our understanding of humanity's past.",
+      "passage": "Treasure Fever\n\nA) Most visitors come to Cape Canaveral, on the northeast coast of Florida, for the tourist attractions. It's home to the second-busiest cruise ship port in the world and is a gateway to the cosmos. Nearly 1.5 million visitors flock here every year to watch rockets, spacecraft, and satellites blast off into the solar system from Kennedy Space Center Visitor Complex. Nearly 64 kilometers of undeveloped beach and 648 square kilometers of protected refuge fan out from the cape's sandy shores.\n\nB) Yet some of Cape Canaveral's most legendary attractions lie unseen, wedged under the sea's surface in mud and sand, for this part of the world has a reputation as a deadly ship trap. Over the centuries, dozens of majestic Old World sailing ships smashed and sank on this irregular stretch of windy Florida coast. They were vessels built for war and commerce, crossing the globe carrying everything from coins to cannons, boxes of silver and gold, chests of jewels and porcelain, and pearls from the Caribbean.\n\nC) Cape Canaveral contains one of the greatest concentrations of colonial shipwrecks in the world. In recent years, advances in radar, diving, detection equipment, computers, and GPS have transformed the hunt. The naked eye might see a pile of rocks, but technology can reveal the precious artifacts (人工制品) that lie hidden on the ocean floor.\n\nD) As technology renders the seabed more accessible, the hunt for treasure-filled ships has drawn a fresh tide of salvors (打捞人员) and their investors — as well as marine archaeologists (考古学家) wanting to bring to light the lost relics. But of late, when salvors have found vessels, their rights have been challenged in court. The big question: who should have control of these treasures?\n\nE) High-stakes fights over shipwrecks pit archaeologists against treasure hunters in a vicious cycle of accusations. Archaeologists regard themselves as protectors of history, and they see salvors as careless destroyers. Salvors feel they do the hard work of searching for ships, only to have them stolen from under them when discovered. This kind of clash inevitably takes place on a grand scale. Aside from the salvors, their investors, and the maritime archaeologists who serve as expert witnesses, the battles sweep in local and international governments and organizations like UNESCO that work to protect under-water heritage. The court cases that ensue stretch on for years. Are finders keepers, or do the ships belong to the countries that made them and sent them sailing centuries ago? Where once salvors and archaeologists worked side by side, now they belong to opposing, and equally contemptuous, tribes.\n\nF) Nearly three million vessels lie wrecked on the Earth's ocean floor — from old canoes to the Titanic — and likely less than one percent have been explored. Some — like an ancient Roman ship found off Antikythera Greece, dated between 70 and 60 BC and carrying astonishingly sophisticated gears and dials for navigating by the sun — are critical to a new understanding of our past. No wonder there is an eternal stirring among everybody from salvors to scholars to find them.\n\nG) In May 2016, a salvor named Bobby Pritchett, president of Global Marine Exploration (GME) in Tampa, Florida, announced that he had discovered scattered remains of a ship buried a kilometer off Cape Canaveral. Over the prior three years, he and his crew had obtained 14 state permits to survey a nearly 260-square-kilometer area off the cape; they worked 250 days a year, backed by investor funds of, he claims, US $4 million. It was hard work. Crew members were up at dawn, dragging sensors from their expedition vessels back and forth, day in and day out, year after year, to detect metal of any kind. Using computer technology, Pritchett and his crew created intricate, color-coded maps marked with the GPS coordinates of thousands of finds, all invisible under a meter of sand.\n\nH) One day in 2015, the magnetometer (磁力计) picked up metal that turned out to be an iron cannon; when the divers blew the sand away, they also discovered a more precious bronze cannon with markings indicating French royalty and, not far off, a famous marble column carved with the coat of arms of France, known from historical paintings. The discovery was cause for celebration. The artifacts indicated the divers had likely found the wreck of La Trinite, a 16th-century French vessel that had been at the center of a bloody battle between France and Spain that changed the fate of the United States of America.\n\nI) And then the legal storm began, with GME and Pritchett pitted against Florida and France. The Sunken Military Craft Act of 2004, a U.S. federal act, protects any vessel that was on a military mission, allowing the originating country to claim their ship even centuries later. In 2018, two long years after Pritchett's discovery, the federal district court ruled in favor of France. For Pritchett, the decision was devastating. Millions of dollars of investor funding and years of labor were lost.\n\nJ) But this is far from the first time a salvor has lost all rights to a discovery. In 2012, for instance, Spain won a five-year legal battle against Odyssey Marine Exploration, which had hauled 594,000 gold and silver coins from a Spanish wreck off the coast of Portugal across the Atlantic to the United States. \"Treasure hunters can be naive,\" says attorney David Concannon, who has had several maritime archaeologists as clients and represented two sides in the battles over the Titanic for 20 years. \"Many treasure hunters don't understand they are going to have to fight for their rights against a government that has an endless supply of money for legal battles that treasure hunters are likely to lose.\"\n\nK) Putting an inflated price on artifacts rather than viewing them as cultural and historical treasures that transcend any price is what irritates many archaeologists. For the archaeologist, everything in a wreck matters — hair, fabric, a fragment of a newspaper, rat bones — all things speak volumes. Archaeologists don't want artifacts ending up in a private collection instead of taking humanity on a journey of understanding.\n\nL) George Bass is one of the pioneers of under-water archaeology, and a researcher at Texas A&M University. He has testified in court against treasure hunters, but says archaeology is not without its own serious problems. He believes archaeologists need to do a better job themselves instead of routinely criticizing treasure hunters. “Archaeology has a terrible reputation for not publishing enough on its excavations (发掘) and finds,” he says. Gathering data, unearthing and meticulously preserving and examining finds, verifying identity and origin, piecing together the larger story, and writing and publishing a comprehensive paper or book can take decades. A bit cynically, Bass describes colleagues who never published because they waited so long they became ill or died. Who is more at fault, Bass asks, the professional archaeologist who carefully excavates a site and never publishes on it or the treasure hunter who locates a submerged wreck, salvages part, conserves part, and publishes a book on the operation?\n\nM) Pritchett concedes that his find deserves careful excavation and preservation. “I think what I found should go in a museum,” he says. “But I also think I should get paid for what I found. Indeed, it's a bit of a mystery why governments, archaeologists, and treasure hunters can't work together — and why salvors aren't at least given a substantial finder's fee before the original owner takes possession of the vessel and its artifacts.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "id": "cet6-2023-12-2-reading-q36",
+      "number": 36,
+      "level": "CET6",
+      "correctAnswer": "F",
+      "hint": "先圈出陈述里的主体、条件和变化方向，再到文章中寻找同义表达。",
+      "explanation": "对应F段。题干陈述为“Exploration of shipwrecks on the sea floor is crucial in updating our understanding of humanity's past.”；该段的关键证据是：“Some — like an ancient Roman ship found off Antikythera Greece, dated between 70 and 60 BC and carrying astonishingly sophisticated gears and dials for navigating by the sun — are critical to a new understanding of our past.”。同时对照主体、行为和结果，不能只凭同一个词匹配；这份陈述概括了该段的对应信息。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Quite a number of majestic ships sailing from Europe to America were wrecked off the Florida coast over the centuries.",
+      "passage": "Treasure Fever\n\nA) Most visitors come to Cape Canaveral, on the northeast coast of Florida, for the tourist attractions. It's home to the second-busiest cruise ship port in the world and is a gateway to the cosmos. Nearly 1.5 million visitors flock here every year to watch rockets, spacecraft, and satellites blast off into the solar system from Kennedy Space Center Visitor Complex. Nearly 64 kilometers of undeveloped beach and 648 square kilometers of protected refuge fan out from the cape's sandy shores.\n\nB) Yet some of Cape Canaveral's most legendary attractions lie unseen, wedged under the sea's surface in mud and sand, for this part of the world has a reputation as a deadly ship trap. Over the centuries, dozens of majestic Old World sailing ships smashed and sank on this irregular stretch of windy Florida coast. They were vessels built for war and commerce, crossing the globe carrying everything from coins to cannons, boxes of silver and gold, chests of jewels and porcelain, and pearls from the Caribbean.\n\nC) Cape Canaveral contains one of the greatest concentrations of colonial shipwrecks in the world. In recent years, advances in radar, diving, detection equipment, computers, and GPS have transformed the hunt. The naked eye might see a pile of rocks, but technology can reveal the precious artifacts (人工制品) that lie hidden on the ocean floor.\n\nD) As technology renders the seabed more accessible, the hunt for treasure-filled ships has drawn a fresh tide of salvors (打捞人员) and their investors — as well as marine archaeologists (考古学家) wanting to bring to light the lost relics. But of late, when salvors have found vessels, their rights have been challenged in court. The big question: who should have control of these treasures?\n\nE) High-stakes fights over shipwrecks pit archaeologists against treasure hunters in a vicious cycle of accusations. Archaeologists regard themselves as protectors of history, and they see salvors as careless destroyers. Salvors feel they do the hard work of searching for ships, only to have them stolen from under them when discovered. This kind of clash inevitably takes place on a grand scale. Aside from the salvors, their investors, and the maritime archaeologists who serve as expert witnesses, the battles sweep in local and international governments and organizations like UNESCO that work to protect under-water heritage. The court cases that ensue stretch on for years. Are finders keepers, or do the ships belong to the countries that made them and sent them sailing centuries ago? Where once salvors and archaeologists worked side by side, now they belong to opposing, and equally contemptuous, tribes.\n\nF) Nearly three million vessels lie wrecked on the Earth's ocean floor — from old canoes to the Titanic — and likely less than one percent have been explored. Some — like an ancient Roman ship found off Antikythera Greece, dated between 70 and 60 BC and carrying astonishingly sophisticated gears and dials for navigating by the sun — are critical to a new understanding of our past. No wonder there is an eternal stirring among everybody from salvors to scholars to find them.\n\nG) In May 2016, a salvor named Bobby Pritchett, president of Global Marine Exploration (GME) in Tampa, Florida, announced that he had discovered scattered remains of a ship buried a kilometer off Cape Canaveral. Over the prior three years, he and his crew had obtained 14 state permits to survey a nearly 260-square-kilometer area off the cape; they worked 250 days a year, backed by investor funds of, he claims, US $4 million. It was hard work. Crew members were up at dawn, dragging sensors from their expedition vessels back and forth, day in and day out, year after year, to detect metal of any kind. Using computer technology, Pritchett and his crew created intricate, color-coded maps marked with the GPS coordinates of thousands of finds, all invisible under a meter of sand.\n\nH) One day in 2015, the magnetometer (磁力计) picked up metal that turned out to be an iron cannon; when the divers blew the sand away, they also discovered a more precious bronze cannon with markings indicating French royalty and, not far off, a famous marble column carved with the coat of arms of France, known from historical paintings. The discovery was cause for celebration. The artifacts indicated the divers had likely found the wreck of La Trinite, a 16th-century French vessel that had been at the center of a bloody battle between France and Spain that changed the fate of the United States of America.\n\nI) And then the legal storm began, with GME and Pritchett pitted against Florida and France. The Sunken Military Craft Act of 2004, a U.S. federal act, protects any vessel that was on a military mission, allowing the originating country to claim their ship even centuries later. In 2018, two long years after Pritchett's discovery, the federal district court ruled in favor of France. For Pritchett, the decision was devastating. Millions of dollars of investor funding and years of labor were lost.\n\nJ) But this is far from the first time a salvor has lost all rights to a discovery. In 2012, for instance, Spain won a five-year legal battle against Odyssey Marine Exploration, which had hauled 594,000 gold and silver coins from a Spanish wreck off the coast of Portugal across the Atlantic to the United States. \"Treasure hunters can be naive,\" says attorney David Concannon, who has had several maritime archaeologists as clients and represented two sides in the battles over the Titanic for 20 years. \"Many treasure hunters don't understand they are going to have to fight for their rights against a government that has an endless supply of money for legal battles that treasure hunters are likely to lose.\"\n\nK) Putting an inflated price on artifacts rather than viewing them as cultural and historical treasures that transcend any price is what irritates many archaeologists. For the archaeologist, everything in a wreck matters — hair, fabric, a fragment of a newspaper, rat bones — all things speak volumes. Archaeologists don't want artifacts ending up in a private collection instead of taking humanity on a journey of understanding.\n\nL) George Bass is one of the pioneers of under-water archaeology, and a researcher at Texas A&M University. He has testified in court against treasure hunters, but says archaeology is not without its own serious problems. He believes archaeologists need to do a better job themselves instead of routinely criticizing treasure hunters. “Archaeology has a terrible reputation for not publishing enough on its excavations (发掘) and finds,” he says. Gathering data, unearthing and meticulously preserving and examining finds, verifying identity and origin, piecing together the larger story, and writing and publishing a comprehensive paper or book can take decades. A bit cynically, Bass describes colleagues who never published because they waited so long they became ill or died. Who is more at fault, Bass asks, the professional archaeologist who carefully excavates a site and never publishes on it or the treasure hunter who locates a submerged wreck, salvages part, conserves part, and publishes a book on the operation?\n\nM) Pritchett concedes that his find deserves careful excavation and preservation. “I think what I found should go in a museum,” he says. “But I also think I should get paid for what I found. Indeed, it's a bit of a mystery why governments, archaeologists, and treasure hunters can't work together — and why salvors aren't at least given a substantial finder's fee before the original owner takes possession of the vessel and its artifacts.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "id": "cet6-2023-12-2-reading-q37",
+      "number": 37,
+      "level": "CET6",
+      "correctAnswer": "B",
+      "hint": "先圈出陈述里的主体、条件和变化方向，再到文章中寻找同义表达。",
+      "explanation": "对应B段。题干陈述为“Quite a number of majestic ships sailing from Europe to America were wrecked off the Florida coast over the centuries.”；该段的关键证据是：“Over the centuries, dozens of majestic Old World sailing ships smashed and sank on this irregular stretch of windy Florida coast.”。同时对照主体、行为和结果，不能只凭同一个词匹配；这份陈述概括了该段的对应信息。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Pritchett suffered a heavy loss when a US district court ruled against him.",
+      "passage": "Treasure Fever\n\nA) Most visitors come to Cape Canaveral, on the northeast coast of Florida, for the tourist attractions. It's home to the second-busiest cruise ship port in the world and is a gateway to the cosmos. Nearly 1.5 million visitors flock here every year to watch rockets, spacecraft, and satellites blast off into the solar system from Kennedy Space Center Visitor Complex. Nearly 64 kilometers of undeveloped beach and 648 square kilometers of protected refuge fan out from the cape's sandy shores.\n\nB) Yet some of Cape Canaveral's most legendary attractions lie unseen, wedged under the sea's surface in mud and sand, for this part of the world has a reputation as a deadly ship trap. Over the centuries, dozens of majestic Old World sailing ships smashed and sank on this irregular stretch of windy Florida coast. They were vessels built for war and commerce, crossing the globe carrying everything from coins to cannons, boxes of silver and gold, chests of jewels and porcelain, and pearls from the Caribbean.\n\nC) Cape Canaveral contains one of the greatest concentrations of colonial shipwrecks in the world. In recent years, advances in radar, diving, detection equipment, computers, and GPS have transformed the hunt. The naked eye might see a pile of rocks, but technology can reveal the precious artifacts (人工制品) that lie hidden on the ocean floor.\n\nD) As technology renders the seabed more accessible, the hunt for treasure-filled ships has drawn a fresh tide of salvors (打捞人员) and their investors — as well as marine archaeologists (考古学家) wanting to bring to light the lost relics. But of late, when salvors have found vessels, their rights have been challenged in court. The big question: who should have control of these treasures?\n\nE) High-stakes fights over shipwrecks pit archaeologists against treasure hunters in a vicious cycle of accusations. Archaeologists regard themselves as protectors of history, and they see salvors as careless destroyers. Salvors feel they do the hard work of searching for ships, only to have them stolen from under them when discovered. This kind of clash inevitably takes place on a grand scale. Aside from the salvors, their investors, and the maritime archaeologists who serve as expert witnesses, the battles sweep in local and international governments and organizations like UNESCO that work to protect under-water heritage. The court cases that ensue stretch on for years. Are finders keepers, or do the ships belong to the countries that made them and sent them sailing centuries ago? Where once salvors and archaeologists worked side by side, now they belong to opposing, and equally contemptuous, tribes.\n\nF) Nearly three million vessels lie wrecked on the Earth's ocean floor — from old canoes to the Titanic — and likely less than one percent have been explored. Some — like an ancient Roman ship found off Antikythera Greece, dated between 70 and 60 BC and carrying astonishingly sophisticated gears and dials for navigating by the sun — are critical to a new understanding of our past. No wonder there is an eternal stirring among everybody from salvors to scholars to find them.\n\nG) In May 2016, a salvor named Bobby Pritchett, president of Global Marine Exploration (GME) in Tampa, Florida, announced that he had discovered scattered remains of a ship buried a kilometer off Cape Canaveral. Over the prior three years, he and his crew had obtained 14 state permits to survey a nearly 260-square-kilometer area off the cape; they worked 250 days a year, backed by investor funds of, he claims, US $4 million. It was hard work. Crew members were up at dawn, dragging sensors from their expedition vessels back and forth, day in and day out, year after year, to detect metal of any kind. Using computer technology, Pritchett and his crew created intricate, color-coded maps marked with the GPS coordinates of thousands of finds, all invisible under a meter of sand.\n\nH) One day in 2015, the magnetometer (磁力计) picked up metal that turned out to be an iron cannon; when the divers blew the sand away, they also discovered a more precious bronze cannon with markings indicating French royalty and, not far off, a famous marble column carved with the coat of arms of France, known from historical paintings. The discovery was cause for celebration. The artifacts indicated the divers had likely found the wreck of La Trinite, a 16th-century French vessel that had been at the center of a bloody battle between France and Spain that changed the fate of the United States of America.\n\nI) And then the legal storm began, with GME and Pritchett pitted against Florida and France. The Sunken Military Craft Act of 2004, a U.S. federal act, protects any vessel that was on a military mission, allowing the originating country to claim their ship even centuries later. In 2018, two long years after Pritchett's discovery, the federal district court ruled in favor of France. For Pritchett, the decision was devastating. Millions of dollars of investor funding and years of labor were lost.\n\nJ) But this is far from the first time a salvor has lost all rights to a discovery. In 2012, for instance, Spain won a five-year legal battle against Odyssey Marine Exploration, which had hauled 594,000 gold and silver coins from a Spanish wreck off the coast of Portugal across the Atlantic to the United States. \"Treasure hunters can be naive,\" says attorney David Concannon, who has had several maritime archaeologists as clients and represented two sides in the battles over the Titanic for 20 years. \"Many treasure hunters don't understand they are going to have to fight for their rights against a government that has an endless supply of money for legal battles that treasure hunters are likely to lose.\"\n\nK) Putting an inflated price on artifacts rather than viewing them as cultural and historical treasures that transcend any price is what irritates many archaeologists. For the archaeologist, everything in a wreck matters — hair, fabric, a fragment of a newspaper, rat bones — all things speak volumes. Archaeologists don't want artifacts ending up in a private collection instead of taking humanity on a journey of understanding.\n\nL) George Bass is one of the pioneers of under-water archaeology, and a researcher at Texas A&M University. He has testified in court against treasure hunters, but says archaeology is not without its own serious problems. He believes archaeologists need to do a better job themselves instead of routinely criticizing treasure hunters. “Archaeology has a terrible reputation for not publishing enough on its excavations (发掘) and finds,” he says. Gathering data, unearthing and meticulously preserving and examining finds, verifying identity and origin, piecing together the larger story, and writing and publishing a comprehensive paper or book can take decades. A bit cynically, Bass describes colleagues who never published because they waited so long they became ill or died. Who is more at fault, Bass asks, the professional archaeologist who carefully excavates a site and never publishes on it or the treasure hunter who locates a submerged wreck, salvages part, conserves part, and publishes a book on the operation?\n\nM) Pritchett concedes that his find deserves careful excavation and preservation. “I think what I found should go in a museum,” he says. “But I also think I should get paid for what I found. Indeed, it's a bit of a mystery why governments, archaeologists, and treasure hunters can't work together — and why salvors aren't at least given a substantial finder's fee before the original owner takes possession of the vessel and its artifacts.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "id": "cet6-2023-12-2-reading-q38",
+      "number": 38,
+      "level": "CET6",
+      "correctAnswer": "I",
+      "hint": "先圈出陈述里的主体、条件和变化方向，再到文章中寻找同义表达。",
+      "explanation": "对应I段。法院支持法国而非Pritchett，随后说明数百万资金与多年劳动损失，完整因果对应题干。 该段证据（合看相关句）：“And then the legal storm began, with GME and Pritchett pitted against Florida and France. The Sunken Military Craft Act of 2004, a U.S. federal act, protects any vessel that was on a military mission, allowing the originating country to claim their ship even centuries later. In 2018, two long years after Pritchett's discovery, the federal district court ruled in favor of France. For Pritchett, the decision was devastating. Millions of dollars of investor funding and years of labor were lost.”",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Recently, people who found treasures in shipwrecks have been sued over their rights to own them.",
+      "passage": "Treasure Fever\n\nA) Most visitors come to Cape Canaveral, on the northeast coast of Florida, for the tourist attractions. It's home to the second-busiest cruise ship port in the world and is a gateway to the cosmos. Nearly 1.5 million visitors flock here every year to watch rockets, spacecraft, and satellites blast off into the solar system from Kennedy Space Center Visitor Complex. Nearly 64 kilometers of undeveloped beach and 648 square kilometers of protected refuge fan out from the cape's sandy shores.\n\nB) Yet some of Cape Canaveral's most legendary attractions lie unseen, wedged under the sea's surface in mud and sand, for this part of the world has a reputation as a deadly ship trap. Over the centuries, dozens of majestic Old World sailing ships smashed and sank on this irregular stretch of windy Florida coast. They were vessels built for war and commerce, crossing the globe carrying everything from coins to cannons, boxes of silver and gold, chests of jewels and porcelain, and pearls from the Caribbean.\n\nC) Cape Canaveral contains one of the greatest concentrations of colonial shipwrecks in the world. In recent years, advances in radar, diving, detection equipment, computers, and GPS have transformed the hunt. The naked eye might see a pile of rocks, but technology can reveal the precious artifacts (人工制品) that lie hidden on the ocean floor.\n\nD) As technology renders the seabed more accessible, the hunt for treasure-filled ships has drawn a fresh tide of salvors (打捞人员) and their investors — as well as marine archaeologists (考古学家) wanting to bring to light the lost relics. But of late, when salvors have found vessels, their rights have been challenged in court. The big question: who should have control of these treasures?\n\nE) High-stakes fights over shipwrecks pit archaeologists against treasure hunters in a vicious cycle of accusations. Archaeologists regard themselves as protectors of history, and they see salvors as careless destroyers. Salvors feel they do the hard work of searching for ships, only to have them stolen from under them when discovered. This kind of clash inevitably takes place on a grand scale. Aside from the salvors, their investors, and the maritime archaeologists who serve as expert witnesses, the battles sweep in local and international governments and organizations like UNESCO that work to protect under-water heritage. The court cases that ensue stretch on for years. Are finders keepers, or do the ships belong to the countries that made them and sent them sailing centuries ago? Where once salvors and archaeologists worked side by side, now they belong to opposing, and equally contemptuous, tribes.\n\nF) Nearly three million vessels lie wrecked on the Earth's ocean floor — from old canoes to the Titanic — and likely less than one percent have been explored. Some — like an ancient Roman ship found off Antikythera Greece, dated between 70 and 60 BC and carrying astonishingly sophisticated gears and dials for navigating by the sun — are critical to a new understanding of our past. No wonder there is an eternal stirring among everybody from salvors to scholars to find them.\n\nG) In May 2016, a salvor named Bobby Pritchett, president of Global Marine Exploration (GME) in Tampa, Florida, announced that he had discovered scattered remains of a ship buried a kilometer off Cape Canaveral. Over the prior three years, he and his crew had obtained 14 state permits to survey a nearly 260-square-kilometer area off the cape; they worked 250 days a year, backed by investor funds of, he claims, US $4 million. It was hard work. Crew members were up at dawn, dragging sensors from their expedition vessels back and forth, day in and day out, year after year, to detect metal of any kind. Using computer technology, Pritchett and his crew created intricate, color-coded maps marked with the GPS coordinates of thousands of finds, all invisible under a meter of sand.\n\nH) One day in 2015, the magnetometer (磁力计) picked up metal that turned out to be an iron cannon; when the divers blew the sand away, they also discovered a more precious bronze cannon with markings indicating French royalty and, not far off, a famous marble column carved with the coat of arms of France, known from historical paintings. The discovery was cause for celebration. The artifacts indicated the divers had likely found the wreck of La Trinite, a 16th-century French vessel that had been at the center of a bloody battle between France and Spain that changed the fate of the United States of America.\n\nI) And then the legal storm began, with GME and Pritchett pitted against Florida and France. The Sunken Military Craft Act of 2004, a U.S. federal act, protects any vessel that was on a military mission, allowing the originating country to claim their ship even centuries later. In 2018, two long years after Pritchett's discovery, the federal district court ruled in favor of France. For Pritchett, the decision was devastating. Millions of dollars of investor funding and years of labor were lost.\n\nJ) But this is far from the first time a salvor has lost all rights to a discovery. In 2012, for instance, Spain won a five-year legal battle against Odyssey Marine Exploration, which had hauled 594,000 gold and silver coins from a Spanish wreck off the coast of Portugal across the Atlantic to the United States. \"Treasure hunters can be naive,\" says attorney David Concannon, who has had several maritime archaeologists as clients and represented two sides in the battles over the Titanic for 20 years. \"Many treasure hunters don't understand they are going to have to fight for their rights against a government that has an endless supply of money for legal battles that treasure hunters are likely to lose.\"\n\nK) Putting an inflated price on artifacts rather than viewing them as cultural and historical treasures that transcend any price is what irritates many archaeologists. For the archaeologist, everything in a wreck matters — hair, fabric, a fragment of a newspaper, rat bones — all things speak volumes. Archaeologists don't want artifacts ending up in a private collection instead of taking humanity on a journey of understanding.\n\nL) George Bass is one of the pioneers of under-water archaeology, and a researcher at Texas A&M University. He has testified in court against treasure hunters, but says archaeology is not without its own serious problems. He believes archaeologists need to do a better job themselves instead of routinely criticizing treasure hunters. “Archaeology has a terrible reputation for not publishing enough on its excavations (发掘) and finds,” he says. Gathering data, unearthing and meticulously preserving and examining finds, verifying identity and origin, piecing together the larger story, and writing and publishing a comprehensive paper or book can take decades. A bit cynically, Bass describes colleagues who never published because they waited so long they became ill or died. Who is more at fault, Bass asks, the professional archaeologist who carefully excavates a site and never publishes on it or the treasure hunter who locates a submerged wreck, salvages part, conserves part, and publishes a book on the operation?\n\nM) Pritchett concedes that his find deserves careful excavation and preservation. “I think what I found should go in a museum,” he says. “But I also think I should get paid for what I found. Indeed, it's a bit of a mystery why governments, archaeologists, and treasure hunters can't work together — and why salvors aren't at least given a substantial finder's fee before the original owner takes possession of the vessel and its artifacts.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "id": "cet6-2023-12-2-reading-q39",
+      "number": 39,
+      "level": "CET6",
+      "correctAnswer": "D",
+      "hint": "先圈出陈述里的主体、条件和变化方向，再到文章中寻找同义表达。",
+      "explanation": "对应D段。题干陈述为“Recently, people who found treasures in shipwrecks have been sued over their rights to own them.”；该段的关键证据是：“But of late, when salvors have found vessels, their rights have been challenged in court.”。同时对照主体、行为和结果，不能只凭同一个词匹配；这份陈述概括了该段的对应信息。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Pritchett claims he got support of millions of dollars from investors for his shipwreck exploration.",
+      "passage": "Treasure Fever\n\nA) Most visitors come to Cape Canaveral, on the northeast coast of Florida, for the tourist attractions. It's home to the second-busiest cruise ship port in the world and is a gateway to the cosmos. Nearly 1.5 million visitors flock here every year to watch rockets, spacecraft, and satellites blast off into the solar system from Kennedy Space Center Visitor Complex. Nearly 64 kilometers of undeveloped beach and 648 square kilometers of protected refuge fan out from the cape's sandy shores.\n\nB) Yet some of Cape Canaveral's most legendary attractions lie unseen, wedged under the sea's surface in mud and sand, for this part of the world has a reputation as a deadly ship trap. Over the centuries, dozens of majestic Old World sailing ships smashed and sank on this irregular stretch of windy Florida coast. They were vessels built for war and commerce, crossing the globe carrying everything from coins to cannons, boxes of silver and gold, chests of jewels and porcelain, and pearls from the Caribbean.\n\nC) Cape Canaveral contains one of the greatest concentrations of colonial shipwrecks in the world. In recent years, advances in radar, diving, detection equipment, computers, and GPS have transformed the hunt. The naked eye might see a pile of rocks, but technology can reveal the precious artifacts (人工制品) that lie hidden on the ocean floor.\n\nD) As technology renders the seabed more accessible, the hunt for treasure-filled ships has drawn a fresh tide of salvors (打捞人员) and their investors — as well as marine archaeologists (考古学家) wanting to bring to light the lost relics. But of late, when salvors have found vessels, their rights have been challenged in court. The big question: who should have control of these treasures?\n\nE) High-stakes fights over shipwrecks pit archaeologists against treasure hunters in a vicious cycle of accusations. Archaeologists regard themselves as protectors of history, and they see salvors as careless destroyers. Salvors feel they do the hard work of searching for ships, only to have them stolen from under them when discovered. This kind of clash inevitably takes place on a grand scale. Aside from the salvors, their investors, and the maritime archaeologists who serve as expert witnesses, the battles sweep in local and international governments and organizations like UNESCO that work to protect under-water heritage. The court cases that ensue stretch on for years. Are finders keepers, or do the ships belong to the countries that made them and sent them sailing centuries ago? Where once salvors and archaeologists worked side by side, now they belong to opposing, and equally contemptuous, tribes.\n\nF) Nearly three million vessels lie wrecked on the Earth's ocean floor — from old canoes to the Titanic — and likely less than one percent have been explored. Some — like an ancient Roman ship found off Antikythera Greece, dated between 70 and 60 BC and carrying astonishingly sophisticated gears and dials for navigating by the sun — are critical to a new understanding of our past. No wonder there is an eternal stirring among everybody from salvors to scholars to find them.\n\nG) In May 2016, a salvor named Bobby Pritchett, president of Global Marine Exploration (GME) in Tampa, Florida, announced that he had discovered scattered remains of a ship buried a kilometer off Cape Canaveral. Over the prior three years, he and his crew had obtained 14 state permits to survey a nearly 260-square-kilometer area off the cape; they worked 250 days a year, backed by investor funds of, he claims, US $4 million. It was hard work. Crew members were up at dawn, dragging sensors from their expedition vessels back and forth, day in and day out, year after year, to detect metal of any kind. Using computer technology, Pritchett and his crew created intricate, color-coded maps marked with the GPS coordinates of thousands of finds, all invisible under a meter of sand.\n\nH) One day in 2015, the magnetometer (磁力计) picked up metal that turned out to be an iron cannon; when the divers blew the sand away, they also discovered a more precious bronze cannon with markings indicating French royalty and, not far off, a famous marble column carved with the coat of arms of France, known from historical paintings. The discovery was cause for celebration. The artifacts indicated the divers had likely found the wreck of La Trinite, a 16th-century French vessel that had been at the center of a bloody battle between France and Spain that changed the fate of the United States of America.\n\nI) And then the legal storm began, with GME and Pritchett pitted against Florida and France. The Sunken Military Craft Act of 2004, a U.S. federal act, protects any vessel that was on a military mission, allowing the originating country to claim their ship even centuries later. In 2018, two long years after Pritchett's discovery, the federal district court ruled in favor of France. For Pritchett, the decision was devastating. Millions of dollars of investor funding and years of labor were lost.\n\nJ) But this is far from the first time a salvor has lost all rights to a discovery. In 2012, for instance, Spain won a five-year legal battle against Odyssey Marine Exploration, which had hauled 594,000 gold and silver coins from a Spanish wreck off the coast of Portugal across the Atlantic to the United States. \"Treasure hunters can be naive,\" says attorney David Concannon, who has had several maritime archaeologists as clients and represented two sides in the battles over the Titanic for 20 years. \"Many treasure hunters don't understand they are going to have to fight for their rights against a government that has an endless supply of money for legal battles that treasure hunters are likely to lose.\"\n\nK) Putting an inflated price on artifacts rather than viewing them as cultural and historical treasures that transcend any price is what irritates many archaeologists. For the archaeologist, everything in a wreck matters — hair, fabric, a fragment of a newspaper, rat bones — all things speak volumes. Archaeologists don't want artifacts ending up in a private collection instead of taking humanity on a journey of understanding.\n\nL) George Bass is one of the pioneers of under-water archaeology, and a researcher at Texas A&M University. He has testified in court against treasure hunters, but says archaeology is not without its own serious problems. He believes archaeologists need to do a better job themselves instead of routinely criticizing treasure hunters. “Archaeology has a terrible reputation for not publishing enough on its excavations (发掘) and finds,” he says. Gathering data, unearthing and meticulously preserving and examining finds, verifying identity and origin, piecing together the larger story, and writing and publishing a comprehensive paper or book can take decades. A bit cynically, Bass describes colleagues who never published because they waited so long they became ill or died. Who is more at fault, Bass asks, the professional archaeologist who carefully excavates a site and never publishes on it or the treasure hunter who locates a submerged wreck, salvages part, conserves part, and publishes a book on the operation?\n\nM) Pritchett concedes that his find deserves careful excavation and preservation. “I think what I found should go in a museum,” he says. “But I also think I should get paid for what I found. Indeed, it's a bit of a mystery why governments, archaeologists, and treasure hunters can't work together — and why salvors aren't at least given a substantial finder's fee before the original owner takes possession of the vessel and its artifacts.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "id": "cet6-2023-12-2-reading-q40",
+      "number": 40,
+      "level": "CET6",
+      "correctAnswer": "G",
+      "hint": "先圈出陈述里的主体、条件和变化方向，再到文章中寻找同义表达。",
+      "explanation": "对应G段。he claims限定为Pritchett自称，投资者的US $4 million对应millions，发现地点不是投资来源。 该段证据（合看相关句）：“In May 2016, a salvor named Bobby Pritchett, president of Global Marine Exploration (GME) in Tampa, Florida, announced that he had discovered scattered remains of a ship buried a kilometer off Cape Canaveral. Over the prior three years, he and his crew had obtained 14 state permits to survey a nearly 260-square-kilometer area off the cape; they worked 250 days a year, backed by investor funds of, he claims, US $4 million. It was hard work. Crew members were up at dawn, dragging sensors from their expedition vessels back and forth, day in and day out, year after year, to detect metal of any kind. Using computer technology, Pritchett and his crew created intricate, color-coded maps marked with the GPS coordinates of thousands of finds, all invisible under a meter of sand.”",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "One pioneer marine scientist thinks archaeologists should make greater efforts to publish their findings.",
+      "passage": "Treasure Fever\n\nA) Most visitors come to Cape Canaveral, on the northeast coast of Florida, for the tourist attractions. It's home to the second-busiest cruise ship port in the world and is a gateway to the cosmos. Nearly 1.5 million visitors flock here every year to watch rockets, spacecraft, and satellites blast off into the solar system from Kennedy Space Center Visitor Complex. Nearly 64 kilometers of undeveloped beach and 648 square kilometers of protected refuge fan out from the cape's sandy shores.\n\nB) Yet some of Cape Canaveral's most legendary attractions lie unseen, wedged under the sea's surface in mud and sand, for this part of the world has a reputation as a deadly ship trap. Over the centuries, dozens of majestic Old World sailing ships smashed and sank on this irregular stretch of windy Florida coast. They were vessels built for war and commerce, crossing the globe carrying everything from coins to cannons, boxes of silver and gold, chests of jewels and porcelain, and pearls from the Caribbean.\n\nC) Cape Canaveral contains one of the greatest concentrations of colonial shipwrecks in the world. In recent years, advances in radar, diving, detection equipment, computers, and GPS have transformed the hunt. The naked eye might see a pile of rocks, but technology can reveal the precious artifacts (人工制品) that lie hidden on the ocean floor.\n\nD) As technology renders the seabed more accessible, the hunt for treasure-filled ships has drawn a fresh tide of salvors (打捞人员) and their investors — as well as marine archaeologists (考古学家) wanting to bring to light the lost relics. But of late, when salvors have found vessels, their rights have been challenged in court. The big question: who should have control of these treasures?\n\nE) High-stakes fights over shipwrecks pit archaeologists against treasure hunters in a vicious cycle of accusations. Archaeologists regard themselves as protectors of history, and they see salvors as careless destroyers. Salvors feel they do the hard work of searching for ships, only to have them stolen from under them when discovered. This kind of clash inevitably takes place on a grand scale. Aside from the salvors, their investors, and the maritime archaeologists who serve as expert witnesses, the battles sweep in local and international governments and organizations like UNESCO that work to protect under-water heritage. The court cases that ensue stretch on for years. Are finders keepers, or do the ships belong to the countries that made them and sent them sailing centuries ago? Where once salvors and archaeologists worked side by side, now they belong to opposing, and equally contemptuous, tribes.\n\nF) Nearly three million vessels lie wrecked on the Earth's ocean floor — from old canoes to the Titanic — and likely less than one percent have been explored. Some — like an ancient Roman ship found off Antikythera Greece, dated between 70 and 60 BC and carrying astonishingly sophisticated gears and dials for navigating by the sun — are critical to a new understanding of our past. No wonder there is an eternal stirring among everybody from salvors to scholars to find them.\n\nG) In May 2016, a salvor named Bobby Pritchett, president of Global Marine Exploration (GME) in Tampa, Florida, announced that he had discovered scattered remains of a ship buried a kilometer off Cape Canaveral. Over the prior three years, he and his crew had obtained 14 state permits to survey a nearly 260-square-kilometer area off the cape; they worked 250 days a year, backed by investor funds of, he claims, US $4 million. It was hard work. Crew members were up at dawn, dragging sensors from their expedition vessels back and forth, day in and day out, year after year, to detect metal of any kind. Using computer technology, Pritchett and his crew created intricate, color-coded maps marked with the GPS coordinates of thousands of finds, all invisible under a meter of sand.\n\nH) One day in 2015, the magnetometer (磁力计) picked up metal that turned out to be an iron cannon; when the divers blew the sand away, they also discovered a more precious bronze cannon with markings indicating French royalty and, not far off, a famous marble column carved with the coat of arms of France, known from historical paintings. The discovery was cause for celebration. The artifacts indicated the divers had likely found the wreck of La Trinite, a 16th-century French vessel that had been at the center of a bloody battle between France and Spain that changed the fate of the United States of America.\n\nI) And then the legal storm began, with GME and Pritchett pitted against Florida and France. The Sunken Military Craft Act of 2004, a U.S. federal act, protects any vessel that was on a military mission, allowing the originating country to claim their ship even centuries later. In 2018, two long years after Pritchett's discovery, the federal district court ruled in favor of France. For Pritchett, the decision was devastating. Millions of dollars of investor funding and years of labor were lost.\n\nJ) But this is far from the first time a salvor has lost all rights to a discovery. In 2012, for instance, Spain won a five-year legal battle against Odyssey Marine Exploration, which had hauled 594,000 gold and silver coins from a Spanish wreck off the coast of Portugal across the Atlantic to the United States. \"Treasure hunters can be naive,\" says attorney David Concannon, who has had several maritime archaeologists as clients and represented two sides in the battles over the Titanic for 20 years. \"Many treasure hunters don't understand they are going to have to fight for their rights against a government that has an endless supply of money for legal battles that treasure hunters are likely to lose.\"\n\nK) Putting an inflated price on artifacts rather than viewing them as cultural and historical treasures that transcend any price is what irritates many archaeologists. For the archaeologist, everything in a wreck matters — hair, fabric, a fragment of a newspaper, rat bones — all things speak volumes. Archaeologists don't want artifacts ending up in a private collection instead of taking humanity on a journey of understanding.\n\nL) George Bass is one of the pioneers of under-water archaeology, and a researcher at Texas A&M University. He has testified in court against treasure hunters, but says archaeology is not without its own serious problems. He believes archaeologists need to do a better job themselves instead of routinely criticizing treasure hunters. “Archaeology has a terrible reputation for not publishing enough on its excavations (发掘) and finds,” he says. Gathering data, unearthing and meticulously preserving and examining finds, verifying identity and origin, piecing together the larger story, and writing and publishing a comprehensive paper or book can take decades. A bit cynically, Bass describes colleagues who never published because they waited so long they became ill or died. Who is more at fault, Bass asks, the professional archaeologist who carefully excavates a site and never publishes on it or the treasure hunter who locates a submerged wreck, salvages part, conserves part, and publishes a book on the operation?\n\nM) Pritchett concedes that his find deserves careful excavation and preservation. “I think what I found should go in a museum,” he says. “But I also think I should get paid for what I found. Indeed, it's a bit of a mystery why governments, archaeologists, and treasure hunters can't work together — and why salvors aren't at least given a substantial finder's fee before the original owner takes possession of the vessel and its artifacts.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "id": "cet6-2023-12-2-reading-q41",
+      "number": 41,
+      "level": "CET6",
+      "correctAnswer": "L",
+      "hint": "先圈出陈述里的主体、条件和变化方向，再到文章中寻找同义表达。",
+      "explanation": "对应L段。Bass批评not publishing enough，要求考古者更努力公布成果，不只是批评寻宝者。 该段证据（合看相关句）：“George Bass is one of the pioneers of under-water archaeology, and a researcher at Texas A&M University. He has testified in court against treasure hunters, but says archaeology is not without its own serious problems. He believes archaeologists need to do a better job themselves instead of routinely criticizing treasure hunters. “Archaeology has a terrible reputation for not publishing enough on its excavations (发掘) and finds,” he says. Gathering data, unearthing and meticulously preserving and examining finds, verifying identity and origin, piecing together the larger story, and writing and publishing a comprehensive paper or book can take decades. A bit cynically, Bass describes colleagues who never published because they waited so long they became ill or died. Who is more at fault, Bass asks, the professional archaeologist who carefully excavates a site and never publishes on it or the treasure hunter who locates a submerged wreck, salvages part, conserves part, and publishes a book on the operation?”",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "With technological advancement in recent years, salvors now can detect the invaluable man-made objects lying buried under the sea.",
+      "passage": "Treasure Fever\n\nA) Most visitors come to Cape Canaveral, on the northeast coast of Florida, for the tourist attractions. It's home to the second-busiest cruise ship port in the world and is a gateway to the cosmos. Nearly 1.5 million visitors flock here every year to watch rockets, spacecraft, and satellites blast off into the solar system from Kennedy Space Center Visitor Complex. Nearly 64 kilometers of undeveloped beach and 648 square kilometers of protected refuge fan out from the cape's sandy shores.\n\nB) Yet some of Cape Canaveral's most legendary attractions lie unseen, wedged under the sea's surface in mud and sand, for this part of the world has a reputation as a deadly ship trap. Over the centuries, dozens of majestic Old World sailing ships smashed and sank on this irregular stretch of windy Florida coast. They were vessels built for war and commerce, crossing the globe carrying everything from coins to cannons, boxes of silver and gold, chests of jewels and porcelain, and pearls from the Caribbean.\n\nC) Cape Canaveral contains one of the greatest concentrations of colonial shipwrecks in the world. In recent years, advances in radar, diving, detection equipment, computers, and GPS have transformed the hunt. The naked eye might see a pile of rocks, but technology can reveal the precious artifacts (人工制品) that lie hidden on the ocean floor.\n\nD) As technology renders the seabed more accessible, the hunt for treasure-filled ships has drawn a fresh tide of salvors (打捞人员) and their investors — as well as marine archaeologists (考古学家) wanting to bring to light the lost relics. But of late, when salvors have found vessels, their rights have been challenged in court. The big question: who should have control of these treasures?\n\nE) High-stakes fights over shipwrecks pit archaeologists against treasure hunters in a vicious cycle of accusations. Archaeologists regard themselves as protectors of history, and they see salvors as careless destroyers. Salvors feel they do the hard work of searching for ships, only to have them stolen from under them when discovered. This kind of clash inevitably takes place on a grand scale. Aside from the salvors, their investors, and the maritime archaeologists who serve as expert witnesses, the battles sweep in local and international governments and organizations like UNESCO that work to protect under-water heritage. The court cases that ensue stretch on for years. Are finders keepers, or do the ships belong to the countries that made them and sent them sailing centuries ago? Where once salvors and archaeologists worked side by side, now they belong to opposing, and equally contemptuous, tribes.\n\nF) Nearly three million vessels lie wrecked on the Earth's ocean floor — from old canoes to the Titanic — and likely less than one percent have been explored. Some — like an ancient Roman ship found off Antikythera Greece, dated between 70 and 60 BC and carrying astonishingly sophisticated gears and dials for navigating by the sun — are critical to a new understanding of our past. No wonder there is an eternal stirring among everybody from salvors to scholars to find them.\n\nG) In May 2016, a salvor named Bobby Pritchett, president of Global Marine Exploration (GME) in Tampa, Florida, announced that he had discovered scattered remains of a ship buried a kilometer off Cape Canaveral. Over the prior three years, he and his crew had obtained 14 state permits to survey a nearly 260-square-kilometer area off the cape; they worked 250 days a year, backed by investor funds of, he claims, US $4 million. It was hard work. Crew members were up at dawn, dragging sensors from their expedition vessels back and forth, day in and day out, year after year, to detect metal of any kind. Using computer technology, Pritchett and his crew created intricate, color-coded maps marked with the GPS coordinates of thousands of finds, all invisible under a meter of sand.\n\nH) One day in 2015, the magnetometer (磁力计) picked up metal that turned out to be an iron cannon; when the divers blew the sand away, they also discovered a more precious bronze cannon with markings indicating French royalty and, not far off, a famous marble column carved with the coat of arms of France, known from historical paintings. The discovery was cause for celebration. The artifacts indicated the divers had likely found the wreck of La Trinite, a 16th-century French vessel that had been at the center of a bloody battle between France and Spain that changed the fate of the United States of America.\n\nI) And then the legal storm began, with GME and Pritchett pitted against Florida and France. The Sunken Military Craft Act of 2004, a U.S. federal act, protects any vessel that was on a military mission, allowing the originating country to claim their ship even centuries later. In 2018, two long years after Pritchett's discovery, the federal district court ruled in favor of France. For Pritchett, the decision was devastating. Millions of dollars of investor funding and years of labor were lost.\n\nJ) But this is far from the first time a salvor has lost all rights to a discovery. In 2012, for instance, Spain won a five-year legal battle against Odyssey Marine Exploration, which had hauled 594,000 gold and silver coins from a Spanish wreck off the coast of Portugal across the Atlantic to the United States. \"Treasure hunters can be naive,\" says attorney David Concannon, who has had several maritime archaeologists as clients and represented two sides in the battles over the Titanic for 20 years. \"Many treasure hunters don't understand they are going to have to fight for their rights against a government that has an endless supply of money for legal battles that treasure hunters are likely to lose.\"\n\nK) Putting an inflated price on artifacts rather than viewing them as cultural and historical treasures that transcend any price is what irritates many archaeologists. For the archaeologist, everything in a wreck matters — hair, fabric, a fragment of a newspaper, rat bones — all things speak volumes. Archaeologists don't want artifacts ending up in a private collection instead of taking humanity on a journey of understanding.\n\nL) George Bass is one of the pioneers of under-water archaeology, and a researcher at Texas A&M University. He has testified in court against treasure hunters, but says archaeology is not without its own serious problems. He believes archaeologists need to do a better job themselves instead of routinely criticizing treasure hunters. “Archaeology has a terrible reputation for not publishing enough on its excavations (发掘) and finds,” he says. Gathering data, unearthing and meticulously preserving and examining finds, verifying identity and origin, piecing together the larger story, and writing and publishing a comprehensive paper or book can take decades. A bit cynically, Bass describes colleagues who never published because they waited so long they became ill or died. Who is more at fault, Bass asks, the professional archaeologist who carefully excavates a site and never publishes on it or the treasure hunter who locates a submerged wreck, salvages part, conserves part, and publishes a book on the operation?\n\nM) Pritchett concedes that his find deserves careful excavation and preservation. “I think what I found should go in a museum,” he says. “But I also think I should get paid for what I found. Indeed, it's a bit of a mystery why governments, archaeologists, and treasure hunters can't work together — and why salvors aren't at least given a substantial finder's fee before the original owner takes possession of the vessel and its artifacts.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "id": "cet6-2023-12-2-reading-q42",
+      "number": 42,
+      "level": "CET6",
+      "correctAnswer": "C",
+      "hint": "先圈出陈述里的主体、条件和变化方向，再到文章中寻找同义表达。",
+      "explanation": "对应C段。技术reveals precious artifacts hidden on ocean floor对应检测隐藏文物；前句列举技术进步来源。 该段证据（合看相关句）：“Cape Canaveral contains one of the greatest concentrations of colonial shipwrecks in the world. In recent years, advances in radar, diving, detection equipment, computers, and GPS have transformed the hunt. The naked eye might see a pile of rocks, but technology can reveal the precious artifacts (人工制品) that lie hidden on the ocean floor.”",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "According to a lawyer, many treasure hunters are susceptible to loss because they are unaware they face a financially stronger opponent in court.",
+      "passage": "Treasure Fever\n\nA) Most visitors come to Cape Canaveral, on the northeast coast of Florida, for the tourist attractions. It's home to the second-busiest cruise ship port in the world and is a gateway to the cosmos. Nearly 1.5 million visitors flock here every year to watch rockets, spacecraft, and satellites blast off into the solar system from Kennedy Space Center Visitor Complex. Nearly 64 kilometers of undeveloped beach and 648 square kilometers of protected refuge fan out from the cape's sandy shores.\n\nB) Yet some of Cape Canaveral's most legendary attractions lie unseen, wedged under the sea's surface in mud and sand, for this part of the world has a reputation as a deadly ship trap. Over the centuries, dozens of majestic Old World sailing ships smashed and sank on this irregular stretch of windy Florida coast. They were vessels built for war and commerce, crossing the globe carrying everything from coins to cannons, boxes of silver and gold, chests of jewels and porcelain, and pearls from the Caribbean.\n\nC) Cape Canaveral contains one of the greatest concentrations of colonial shipwrecks in the world. In recent years, advances in radar, diving, detection equipment, computers, and GPS have transformed the hunt. The naked eye might see a pile of rocks, but technology can reveal the precious artifacts (人工制品) that lie hidden on the ocean floor.\n\nD) As technology renders the seabed more accessible, the hunt for treasure-filled ships has drawn a fresh tide of salvors (打捞人员) and their investors — as well as marine archaeologists (考古学家) wanting to bring to light the lost relics. But of late, when salvors have found vessels, their rights have been challenged in court. The big question: who should have control of these treasures?\n\nE) High-stakes fights over shipwrecks pit archaeologists against treasure hunters in a vicious cycle of accusations. Archaeologists regard themselves as protectors of history, and they see salvors as careless destroyers. Salvors feel they do the hard work of searching for ships, only to have them stolen from under them when discovered. This kind of clash inevitably takes place on a grand scale. Aside from the salvors, their investors, and the maritime archaeologists who serve as expert witnesses, the battles sweep in local and international governments and organizations like UNESCO that work to protect under-water heritage. The court cases that ensue stretch on for years. Are finders keepers, or do the ships belong to the countries that made them and sent them sailing centuries ago? Where once salvors and archaeologists worked side by side, now they belong to opposing, and equally contemptuous, tribes.\n\nF) Nearly three million vessels lie wrecked on the Earth's ocean floor — from old canoes to the Titanic — and likely less than one percent have been explored. Some — like an ancient Roman ship found off Antikythera Greece, dated between 70 and 60 BC and carrying astonishingly sophisticated gears and dials for navigating by the sun — are critical to a new understanding of our past. No wonder there is an eternal stirring among everybody from salvors to scholars to find them.\n\nG) In May 2016, a salvor named Bobby Pritchett, president of Global Marine Exploration (GME) in Tampa, Florida, announced that he had discovered scattered remains of a ship buried a kilometer off Cape Canaveral. Over the prior three years, he and his crew had obtained 14 state permits to survey a nearly 260-square-kilometer area off the cape; they worked 250 days a year, backed by investor funds of, he claims, US $4 million. It was hard work. Crew members were up at dawn, dragging sensors from their expedition vessels back and forth, day in and day out, year after year, to detect metal of any kind. Using computer technology, Pritchett and his crew created intricate, color-coded maps marked with the GPS coordinates of thousands of finds, all invisible under a meter of sand.\n\nH) One day in 2015, the magnetometer (磁力计) picked up metal that turned out to be an iron cannon; when the divers blew the sand away, they also discovered a more precious bronze cannon with markings indicating French royalty and, not far off, a famous marble column carved with the coat of arms of France, known from historical paintings. The discovery was cause for celebration. The artifacts indicated the divers had likely found the wreck of La Trinite, a 16th-century French vessel that had been at the center of a bloody battle between France and Spain that changed the fate of the United States of America.\n\nI) And then the legal storm began, with GME and Pritchett pitted against Florida and France. The Sunken Military Craft Act of 2004, a U.S. federal act, protects any vessel that was on a military mission, allowing the originating country to claim their ship even centuries later. In 2018, two long years after Pritchett's discovery, the federal district court ruled in favor of France. For Pritchett, the decision was devastating. Millions of dollars of investor funding and years of labor were lost.\n\nJ) But this is far from the first time a salvor has lost all rights to a discovery. In 2012, for instance, Spain won a five-year legal battle against Odyssey Marine Exploration, which had hauled 594,000 gold and silver coins from a Spanish wreck off the coast of Portugal across the Atlantic to the United States. \"Treasure hunters can be naive,\" says attorney David Concannon, who has had several maritime archaeologists as clients and represented two sides in the battles over the Titanic for 20 years. \"Many treasure hunters don't understand they are going to have to fight for their rights against a government that has an endless supply of money for legal battles that treasure hunters are likely to lose.\"\n\nK) Putting an inflated price on artifacts rather than viewing them as cultural and historical treasures that transcend any price is what irritates many archaeologists. For the archaeologist, everything in a wreck matters — hair, fabric, a fragment of a newspaper, rat bones — all things speak volumes. Archaeologists don't want artifacts ending up in a private collection instead of taking humanity on a journey of understanding.\n\nL) George Bass is one of the pioneers of under-water archaeology, and a researcher at Texas A&M University. He has testified in court against treasure hunters, but says archaeology is not without its own serious problems. He believes archaeologists need to do a better job themselves instead of routinely criticizing treasure hunters. “Archaeology has a terrible reputation for not publishing enough on its excavations (发掘) and finds,” he says. Gathering data, unearthing and meticulously preserving and examining finds, verifying identity and origin, piecing together the larger story, and writing and publishing a comprehensive paper or book can take decades. A bit cynically, Bass describes colleagues who never published because they waited so long they became ill or died. Who is more at fault, Bass asks, the professional archaeologist who carefully excavates a site and never publishes on it or the treasure hunter who locates a submerged wreck, salvages part, conserves part, and publishes a book on the operation?\n\nM) Pritchett concedes that his find deserves careful excavation and preservation. “I think what I found should go in a museum,” he says. “But I also think I should get paid for what I found. Indeed, it's a bit of a mystery why governments, archaeologists, and treasure hunters can't work together — and why salvors aren't at least given a substantial finder's fee before the original owner takes possession of the vessel and its artifacts.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "id": "cet6-2023-12-2-reading-q43",
+      "number": 43,
+      "level": "CET6",
+      "correctAnswer": "J",
+      "hint": "先圈出陈述里的主体、条件和变化方向，再到文章中寻找同义表达。",
+      "explanation": "对应J段。题干陈述为“According to a lawyer, many treasure hunters are susceptible to loss because they are unaware they face a financially stronger opponent in court.”；该段的关键证据是：“\"Many treasure hunters don't understand they are going to have to fight for their rights against a government that has an endless supply of money for legal battles that treasure hunters are likely to lose.\"”。同时对照主体、行为和结果，不能只凭同一个词匹配；这份陈述概括了该段的对应信息。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Salvors of treasures in sunken ships and marine archaeologists are now hostile to each other.",
+      "passage": "Treasure Fever\n\nA) Most visitors come to Cape Canaveral, on the northeast coast of Florida, for the tourist attractions. It's home to the second-busiest cruise ship port in the world and is a gateway to the cosmos. Nearly 1.5 million visitors flock here every year to watch rockets, spacecraft, and satellites blast off into the solar system from Kennedy Space Center Visitor Complex. Nearly 64 kilometers of undeveloped beach and 648 square kilometers of protected refuge fan out from the cape's sandy shores.\n\nB) Yet some of Cape Canaveral's most legendary attractions lie unseen, wedged under the sea's surface in mud and sand, for this part of the world has a reputation as a deadly ship trap. Over the centuries, dozens of majestic Old World sailing ships smashed and sank on this irregular stretch of windy Florida coast. They were vessels built for war and commerce, crossing the globe carrying everything from coins to cannons, boxes of silver and gold, chests of jewels and porcelain, and pearls from the Caribbean.\n\nC) Cape Canaveral contains one of the greatest concentrations of colonial shipwrecks in the world. In recent years, advances in radar, diving, detection equipment, computers, and GPS have transformed the hunt. The naked eye might see a pile of rocks, but technology can reveal the precious artifacts (人工制品) that lie hidden on the ocean floor.\n\nD) As technology renders the seabed more accessible, the hunt for treasure-filled ships has drawn a fresh tide of salvors (打捞人员) and their investors — as well as marine archaeologists (考古学家) wanting to bring to light the lost relics. But of late, when salvors have found vessels, their rights have been challenged in court. The big question: who should have control of these treasures?\n\nE) High-stakes fights over shipwrecks pit archaeologists against treasure hunters in a vicious cycle of accusations. Archaeologists regard themselves as protectors of history, and they see salvors as careless destroyers. Salvors feel they do the hard work of searching for ships, only to have them stolen from under them when discovered. This kind of clash inevitably takes place on a grand scale. Aside from the salvors, their investors, and the maritime archaeologists who serve as expert witnesses, the battles sweep in local and international governments and organizations like UNESCO that work to protect under-water heritage. The court cases that ensue stretch on for years. Are finders keepers, or do the ships belong to the countries that made them and sent them sailing centuries ago? Where once salvors and archaeologists worked side by side, now they belong to opposing, and equally contemptuous, tribes.\n\nF) Nearly three million vessels lie wrecked on the Earth's ocean floor — from old canoes to the Titanic — and likely less than one percent have been explored. Some — like an ancient Roman ship found off Antikythera Greece, dated between 70 and 60 BC and carrying astonishingly sophisticated gears and dials for navigating by the sun — are critical to a new understanding of our past. No wonder there is an eternal stirring among everybody from salvors to scholars to find them.\n\nG) In May 2016, a salvor named Bobby Pritchett, president of Global Marine Exploration (GME) in Tampa, Florida, announced that he had discovered scattered remains of a ship buried a kilometer off Cape Canaveral. Over the prior three years, he and his crew had obtained 14 state permits to survey a nearly 260-square-kilometer area off the cape; they worked 250 days a year, backed by investor funds of, he claims, US $4 million. It was hard work. Crew members were up at dawn, dragging sensors from their expedition vessels back and forth, day in and day out, year after year, to detect metal of any kind. Using computer technology, Pritchett and his crew created intricate, color-coded maps marked with the GPS coordinates of thousands of finds, all invisible under a meter of sand.\n\nH) One day in 2015, the magnetometer (磁力计) picked up metal that turned out to be an iron cannon; when the divers blew the sand away, they also discovered a more precious bronze cannon with markings indicating French royalty and, not far off, a famous marble column carved with the coat of arms of France, known from historical paintings. The discovery was cause for celebration. The artifacts indicated the divers had likely found the wreck of La Trinite, a 16th-century French vessel that had been at the center of a bloody battle between France and Spain that changed the fate of the United States of America.\n\nI) And then the legal storm began, with GME and Pritchett pitted against Florida and France. The Sunken Military Craft Act of 2004, a U.S. federal act, protects any vessel that was on a military mission, allowing the originating country to claim their ship even centuries later. In 2018, two long years after Pritchett's discovery, the federal district court ruled in favor of France. For Pritchett, the decision was devastating. Millions of dollars of investor funding and years of labor were lost.\n\nJ) But this is far from the first time a salvor has lost all rights to a discovery. In 2012, for instance, Spain won a five-year legal battle against Odyssey Marine Exploration, which had hauled 594,000 gold and silver coins from a Spanish wreck off the coast of Portugal across the Atlantic to the United States. \"Treasure hunters can be naive,\" says attorney David Concannon, who has had several maritime archaeologists as clients and represented two sides in the battles over the Titanic for 20 years. \"Many treasure hunters don't understand they are going to have to fight for their rights against a government that has an endless supply of money for legal battles that treasure hunters are likely to lose.\"\n\nK) Putting an inflated price on artifacts rather than viewing them as cultural and historical treasures that transcend any price is what irritates many archaeologists. For the archaeologist, everything in a wreck matters — hair, fabric, a fragment of a newspaper, rat bones — all things speak volumes. Archaeologists don't want artifacts ending up in a private collection instead of taking humanity on a journey of understanding.\n\nL) George Bass is one of the pioneers of under-water archaeology, and a researcher at Texas A&M University. He has testified in court against treasure hunters, but says archaeology is not without its own serious problems. He believes archaeologists need to do a better job themselves instead of routinely criticizing treasure hunters. “Archaeology has a terrible reputation for not publishing enough on its excavations (发掘) and finds,” he says. Gathering data, unearthing and meticulously preserving and examining finds, verifying identity and origin, piecing together the larger story, and writing and publishing a comprehensive paper or book can take decades. A bit cynically, Bass describes colleagues who never published because they waited so long they became ill or died. Who is more at fault, Bass asks, the professional archaeologist who carefully excavates a site and never publishes on it or the treasure hunter who locates a submerged wreck, salvages part, conserves part, and publishes a book on the operation?\n\nM) Pritchett concedes that his find deserves careful excavation and preservation. “I think what I found should go in a museum,” he says. “But I also think I should get paid for what I found. Indeed, it's a bit of a mystery why governments, archaeologists, and treasure hunters can't work together — and why salvors aren't at least given a substantial finder's fee before the original owner takes possession of the vessel and its artifacts.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "id": "cet6-2023-12-2-reading-q44",
+      "number": 44,
+      "level": "CET6",
+      "correctAnswer": "E",
+      "hint": "先圈出陈述里的主体、条件和变化方向，再到文章中寻找同义表达。",
+      "explanation": "对应E段。打捞者和考古者曾并肩，如今opposing and contemptuous，体现敌对轻蔑，需注意once与now时间对比。 该段证据（合看相关句）：“High-stakes fights over shipwrecks pit archaeologists against treasure hunters in a vicious cycle of accusations. Archaeologists regard themselves as protectors of history, and they see salvors as careless destroyers. Salvors feel they do the hard work of searching for ships, only to have them stolen from under them when discovered. This kind of clash inevitably takes place on a grand scale. Aside from the salvors, their investors, and the maritime archaeologists who serve as expert witnesses, the battles sweep in local and international governments and organizations like UNESCO that work to protect under-water heritage. The court cases that ensue stretch on for years. Are finders keepers, or do the ships belong to the countries that made them and sent them sailing centuries ago? Where once salvors and archaeologists worked side by side, now they belong to opposing, and equally contemptuous, tribes.”",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Archaeologists want to see artifacts help humans understand their past instead of being sold to private collectors at an outrageous price.",
+      "passage": "Treasure Fever\n\nA) Most visitors come to Cape Canaveral, on the northeast coast of Florida, for the tourist attractions. It's home to the second-busiest cruise ship port in the world and is a gateway to the cosmos. Nearly 1.5 million visitors flock here every year to watch rockets, spacecraft, and satellites blast off into the solar system from Kennedy Space Center Visitor Complex. Nearly 64 kilometers of undeveloped beach and 648 square kilometers of protected refuge fan out from the cape's sandy shores.\n\nB) Yet some of Cape Canaveral's most legendary attractions lie unseen, wedged under the sea's surface in mud and sand, for this part of the world has a reputation as a deadly ship trap. Over the centuries, dozens of majestic Old World sailing ships smashed and sank on this irregular stretch of windy Florida coast. They were vessels built for war and commerce, crossing the globe carrying everything from coins to cannons, boxes of silver and gold, chests of jewels and porcelain, and pearls from the Caribbean.\n\nC) Cape Canaveral contains one of the greatest concentrations of colonial shipwrecks in the world. In recent years, advances in radar, diving, detection equipment, computers, and GPS have transformed the hunt. The naked eye might see a pile of rocks, but technology can reveal the precious artifacts (人工制品) that lie hidden on the ocean floor.\n\nD) As technology renders the seabed more accessible, the hunt for treasure-filled ships has drawn a fresh tide of salvors (打捞人员) and their investors — as well as marine archaeologists (考古学家) wanting to bring to light the lost relics. But of late, when salvors have found vessels, their rights have been challenged in court. The big question: who should have control of these treasures?\n\nE) High-stakes fights over shipwrecks pit archaeologists against treasure hunters in a vicious cycle of accusations. Archaeologists regard themselves as protectors of history, and they see salvors as careless destroyers. Salvors feel they do the hard work of searching for ships, only to have them stolen from under them when discovered. This kind of clash inevitably takes place on a grand scale. Aside from the salvors, their investors, and the maritime archaeologists who serve as expert witnesses, the battles sweep in local and international governments and organizations like UNESCO that work to protect under-water heritage. The court cases that ensue stretch on for years. Are finders keepers, or do the ships belong to the countries that made them and sent them sailing centuries ago? Where once salvors and archaeologists worked side by side, now they belong to opposing, and equally contemptuous, tribes.\n\nF) Nearly three million vessels lie wrecked on the Earth's ocean floor — from old canoes to the Titanic — and likely less than one percent have been explored. Some — like an ancient Roman ship found off Antikythera Greece, dated between 70 and 60 BC and carrying astonishingly sophisticated gears and dials for navigating by the sun — are critical to a new understanding of our past. No wonder there is an eternal stirring among everybody from salvors to scholars to find them.\n\nG) In May 2016, a salvor named Bobby Pritchett, president of Global Marine Exploration (GME) in Tampa, Florida, announced that he had discovered scattered remains of a ship buried a kilometer off Cape Canaveral. Over the prior three years, he and his crew had obtained 14 state permits to survey a nearly 260-square-kilometer area off the cape; they worked 250 days a year, backed by investor funds of, he claims, US $4 million. It was hard work. Crew members were up at dawn, dragging sensors from their expedition vessels back and forth, day in and day out, year after year, to detect metal of any kind. Using computer technology, Pritchett and his crew created intricate, color-coded maps marked with the GPS coordinates of thousands of finds, all invisible under a meter of sand.\n\nH) One day in 2015, the magnetometer (磁力计) picked up metal that turned out to be an iron cannon; when the divers blew the sand away, they also discovered a more precious bronze cannon with markings indicating French royalty and, not far off, a famous marble column carved with the coat of arms of France, known from historical paintings. The discovery was cause for celebration. The artifacts indicated the divers had likely found the wreck of La Trinite, a 16th-century French vessel that had been at the center of a bloody battle between France and Spain that changed the fate of the United States of America.\n\nI) And then the legal storm began, with GME and Pritchett pitted against Florida and France. The Sunken Military Craft Act of 2004, a U.S. federal act, protects any vessel that was on a military mission, allowing the originating country to claim their ship even centuries later. In 2018, two long years after Pritchett's discovery, the federal district court ruled in favor of France. For Pritchett, the decision was devastating. Millions of dollars of investor funding and years of labor were lost.\n\nJ) But this is far from the first time a salvor has lost all rights to a discovery. In 2012, for instance, Spain won a five-year legal battle against Odyssey Marine Exploration, which had hauled 594,000 gold and silver coins from a Spanish wreck off the coast of Portugal across the Atlantic to the United States. \"Treasure hunters can be naive,\" says attorney David Concannon, who has had several maritime archaeologists as clients and represented two sides in the battles over the Titanic for 20 years. \"Many treasure hunters don't understand they are going to have to fight for their rights against a government that has an endless supply of money for legal battles that treasure hunters are likely to lose.\"\n\nK) Putting an inflated price on artifacts rather than viewing them as cultural and historical treasures that transcend any price is what irritates many archaeologists. For the archaeologist, everything in a wreck matters — hair, fabric, a fragment of a newspaper, rat bones — all things speak volumes. Archaeologists don't want artifacts ending up in a private collection instead of taking humanity on a journey of understanding.\n\nL) George Bass is one of the pioneers of under-water archaeology, and a researcher at Texas A&M University. He has testified in court against treasure hunters, but says archaeology is not without its own serious problems. He believes archaeologists need to do a better job themselves instead of routinely criticizing treasure hunters. “Archaeology has a terrible reputation for not publishing enough on its excavations (发掘) and finds,” he says. Gathering data, unearthing and meticulously preserving and examining finds, verifying identity and origin, piecing together the larger story, and writing and publishing a comprehensive paper or book can take decades. A bit cynically, Bass describes colleagues who never published because they waited so long they became ill or died. Who is more at fault, Bass asks, the professional archaeologist who carefully excavates a site and never publishes on it or the treasure hunter who locates a submerged wreck, salvages part, conserves part, and publishes a book on the operation?\n\nM) Pritchett concedes that his find deserves careful excavation and preservation. “I think what I found should go in a museum,” he says. “But I also think I should get paid for what I found. Indeed, it's a bit of a mystery why governments, archaeologists, and treasure hunters can't work together — and why salvors aren't at least given a substantial finder's fee before the original owner takes possession of the vessel and its artifacts.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "id": "cet6-2023-12-2-reading-q45",
+      "number": 45,
+      "level": "CET6",
+      "correctAnswer": "K",
+      "hint": "先圈出陈述里的主体、条件和变化方向，再到文章中寻找同义表达。",
+      "explanation": "对应K段。题干陈述为“Archaeologists want to see artifacts help humans understand their past instead of being sold to private collectors at an outrageous price.”；该段的关键证据是：“Archaeologists don't want artifacts ending up in a private collection instead of taking humanity on a journey of understanding.”。同时对照主体、行为和结果，不能只凭同一个词匹配；这份陈述概括了该段的对应信息。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn about singer and actress Selena Gomez in the past four and a half years?",
+      "passage": "Could you get by without using the internet for four and a half years? That's exactly what singer and actress Selena Gomez has done in a bid to improve her mental health.\n\nShe has spoken extensively about the relationship between her social media usage and her mental wellbeing, recalling feeling like “an addict” when she became Instagram's most followed user in 2016. “Taking a break from social media was the best decision that I've ever made for my mental health”, says she. “The unnecessary hate and comparisons went away once I put my phone down.”\n\nDitching the web at large, however, is a far more subtle and complicated prospect. The increasing digitisation of our society means that everything from paying a gas bill to plotting a route to a friend's house and even making a phone call is at the mercy of your internet connection. Actively opting out of using the internet becomes a matter of privilege.\n\nMs Gomez's multi-millionaire status has allowed her to take the “social” out of social media, so she can continue to leverage her enormous fame while keeping the trolls (恶意挑衅的帖子) at bay. The fact that she's still the second most-followed woman on Instagram suggests it's entirely possible to maintain a significant web profile to promote various projects - by way of a dedicated team - without being exposed to the cruel comments, hate mail, and rape or death threats.\n\nIt goes without saying that this is fundamentally different from how the rest of us without beauty deals and films to publicise use the likes of Instagram, TikTok, and Twitter, but even the concept of a digital detox (戒瘾) requires having a device and connectivity to choose to disconnect from.\n\nThe UK's digital divide has worsened over the past two years, leaving poorer families without broadband connections in their homes. Digital exclusion is a major threat to wider societal equality in the UK, so witnessing companies like Facebook championing the metaverse (元宇宙) as the next great frontier when schoolchildren are struggling to complete their homework feels particularly irritating.\n\nConsequently, it's worth bearing in mind that while deleting all social media accounts will undoubtedly make some feel infinitely better, many other people benefit from the strong sense of community that sharing platforms can breed.\n\nInternet access will continue to grow in importance as we edge further towards web 3.0, and greater resources and initiatives are needed to provide the underprivileged with the connectivity they desperately need to learn, work, and live. It's crucial that people who feel that social media is having a detrimental effect on their mental health are allowed to switch off and for those living in digital exclusion to be able to switch on in the first place.",
+      "options": [
+        {
+          "id": "A",
+          "text": "She has had worsening mental problems."
+        },
+        {
+          "id": "B",
+          "text": "She has won Instagram's most followers."
+        },
+        {
+          "id": "C",
+          "text": "She has refrained from using social media."
+        },
+        {
+          "id": "D",
+          "text": "She has succeeded in a bid on the internet"
+        }
+      ],
+      "id": "cet6-2023-12-2-reading-q46",
+      "number": 46,
+      "level": "CET6",
+      "correctAnswer": "C",
+      "hint": "根据题干定位文章中的相关句，再比较选项是否改变主体、程度或因果。",
+      "explanation": "C。首段说Selena Gomez为改善心理健康四年半不使用互联网，答案是停止使用社交媒体，并非心理问题因此加重。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "Why does actively opting out of using the internet become a matter of privilege?",
+      "passage": "Could you get by without using the internet for four and a half years? That's exactly what singer and actress Selena Gomez has done in a bid to improve her mental health.\n\nShe has spoken extensively about the relationship between her social media usage and her mental wellbeing, recalling feeling like “an addict” when she became Instagram's most followed user in 2016. “Taking a break from social media was the best decision that I've ever made for my mental health”, says she. “The unnecessary hate and comparisons went away once I put my phone down.”\n\nDitching the web at large, however, is a far more subtle and complicated prospect. The increasing digitisation of our society means that everything from paying a gas bill to plotting a route to a friend's house and even making a phone call is at the mercy of your internet connection. Actively opting out of using the internet becomes a matter of privilege.\n\nMs Gomez's multi-millionaire status has allowed her to take the “social” out of social media, so she can continue to leverage her enormous fame while keeping the trolls (恶意挑衅的帖子) at bay. The fact that she's still the second most-followed woman on Instagram suggests it's entirely possible to maintain a significant web profile to promote various projects - by way of a dedicated team - without being exposed to the cruel comments, hate mail, and rape or death threats.\n\nIt goes without saying that this is fundamentally different from how the rest of us without beauty deals and films to publicise use the likes of Instagram, TikTok, and Twitter, but even the concept of a digital detox (戒瘾) requires having a device and connectivity to choose to disconnect from.\n\nThe UK's digital divide has worsened over the past two years, leaving poorer families without broadband connections in their homes. Digital exclusion is a major threat to wider societal equality in the UK, so witnessing companies like Facebook championing the metaverse (元宇宙) as the next great frontier when schoolchildren are struggling to complete their homework feels particularly irritating.\n\nConsequently, it's worth bearing in mind that while deleting all social media accounts will undoubtedly make some feel infinitely better, many other people benefit from the strong sense of community that sharing platforms can breed.\n\nInternet access will continue to grow in importance as we edge further towards web 3.0, and greater resources and initiatives are needed to provide the underprivileged with the connectivity they desperately need to learn, work, and live. It's crucial that people who feel that social media is having a detrimental effect on their mental health are allowed to switch off and for those living in digital exclusion to be able to switch on in the first place.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Most people find it subtle and complicated to give up using the internet."
+        },
+        {
+          "id": "B",
+          "text": "Most people can hardly ditch the web while avoiding hate and comparisons."
+        },
+        {
+          "id": "C",
+          "text": "Most people can hardly get by without the internet due to growing digitisation."
+        },
+        {
+          "id": "D",
+          "text": "Most people have been seriously addicted to the web without being aware of it."
+        }
+      ],
+      "id": "cet6-2023-12-2-reading-q47",
+      "number": 47,
+      "level": "CET6",
+      "correctAnswer": "C",
+      "hint": "根据题干定位文章中的相关句，再比较选项是否改变主体、程度或因果。",
+      "explanation": "C。第三段说从缴费、找路线到打电话都受网络连接制约；数字化社会让普通人难以脱网，因此主动退出成为有条件者的特权。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "Why does the author say “witnessing companies...feels particularly irritating” (Lines 2-4, Para. 6)?",
+      "passage": "Could you get by without using the internet for four and a half years? That's exactly what singer and actress Selena Gomez has done in a bid to improve her mental health.\n\nShe has spoken extensively about the relationship between her social media usage and her mental wellbeing, recalling feeling like “an addict” when she became Instagram's most followed user in 2016. “Taking a break from social media was the best decision that I've ever made for my mental health”, says she. “The unnecessary hate and comparisons went away once I put my phone down.”\n\nDitching the web at large, however, is a far more subtle and complicated prospect. The increasing digitisation of our society means that everything from paying a gas bill to plotting a route to a friend's house and even making a phone call is at the mercy of your internet connection. Actively opting out of using the internet becomes a matter of privilege.\n\nMs Gomez's multi-millionaire status has allowed her to take the “social” out of social media, so she can continue to leverage her enormous fame while keeping the trolls (恶意挑衅的帖子) at bay. The fact that she's still the second most-followed woman on Instagram suggests it's entirely possible to maintain a significant web profile to promote various projects - by way of a dedicated team - without being exposed to the cruel comments, hate mail, and rape or death threats.\n\nIt goes without saying that this is fundamentally different from how the rest of us without beauty deals and films to publicise use the likes of Instagram, TikTok, and Twitter, but even the concept of a digital detox (戒瘾) requires having a device and connectivity to choose to disconnect from.\n\nThe UK's digital divide has worsened over the past two years, leaving poorer families without broadband connections in their homes. Digital exclusion is a major threat to wider societal equality in the UK, so witnessing companies like Facebook championing the metaverse (元宇宙) as the next great frontier when schoolchildren are struggling to complete their homework feels particularly irritating.\n\nConsequently, it's worth bearing in mind that while deleting all social media accounts will undoubtedly make some feel infinitely better, many other people benefit from the strong sense of community that sharing platforms can breed.\n\nInternet access will continue to grow in importance as we edge further towards web 3.0, and greater resources and initiatives are needed to provide the underprivileged with the connectivity they desperately need to learn, work, and live. It's crucial that people who feel that social media is having a detrimental effect on their mental health are allowed to switch off and for those living in digital exclusion to be able to switch on in the first place.",
+      "options": [
+        {
+          "id": "A",
+          "text": "The UK digital divide would further worsen due to the metaverse."
+        },
+        {
+          "id": "B",
+          "text": "The concept of the metaverse is believed to be still quite illusory."
+        },
+        {
+          "id": "C",
+          "text": "School children would be drawn farther away from the real world."
+        },
+        {
+          "id": "D",
+          "text": "Most families in the UK do not have stable broadband connections."
+        }
+      ],
+      "id": "cet6-2023-12-2-reading-q48",
+      "number": 48,
+      "level": "CET6",
+      "correctAnswer": "D",
+      "hint": "根据题干定位文章中的相关句，再比较选项是否改变主体、程度或因果。",
+      "explanation": "D（机构参考答案）。第六段贫困家庭缺乏宽带、学生难完成功课，与大企业热炒元宇宙形成反差。A把因果颠倒，B、C无对应依据。注意原文是poorer families，未提供“多数家庭”统计比例；原题D的Most比原文表述更宽，应理解选项意在指出现实宽带不足，不能当成英国全国家庭统计事实。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What is worth bearing in mind concerning social media platforms?",
+      "passage": "Could you get by without using the internet for four and a half years? That's exactly what singer and actress Selena Gomez has done in a bid to improve her mental health.\n\nShe has spoken extensively about the relationship between her social media usage and her mental wellbeing, recalling feeling like “an addict” when she became Instagram's most followed user in 2016. “Taking a break from social media was the best decision that I've ever made for my mental health”, says she. “The unnecessary hate and comparisons went away once I put my phone down.”\n\nDitching the web at large, however, is a far more subtle and complicated prospect. The increasing digitisation of our society means that everything from paying a gas bill to plotting a route to a friend's house and even making a phone call is at the mercy of your internet connection. Actively opting out of using the internet becomes a matter of privilege.\n\nMs Gomez's multi-millionaire status has allowed her to take the “social” out of social media, so she can continue to leverage her enormous fame while keeping the trolls (恶意挑衅的帖子) at bay. The fact that she's still the second most-followed woman on Instagram suggests it's entirely possible to maintain a significant web profile to promote various projects - by way of a dedicated team - without being exposed to the cruel comments, hate mail, and rape or death threats.\n\nIt goes without saying that this is fundamentally different from how the rest of us without beauty deals and films to publicise use the likes of Instagram, TikTok, and Twitter, but even the concept of a digital detox (戒瘾) requires having a device and connectivity to choose to disconnect from.\n\nThe UK's digital divide has worsened over the past two years, leaving poorer families without broadband connections in their homes. Digital exclusion is a major threat to wider societal equality in the UK, so witnessing companies like Facebook championing the metaverse (元宇宙) as the next great frontier when schoolchildren are struggling to complete their homework feels particularly irritating.\n\nConsequently, it's worth bearing in mind that while deleting all social media accounts will undoubtedly make some feel infinitely better, many other people benefit from the strong sense of community that sharing platforms can breed.\n\nInternet access will continue to grow in importance as we edge further towards web 3.0, and greater resources and initiatives are needed to provide the underprivileged with the connectivity they desperately need to learn, work, and live. It's crucial that people who feel that social media is having a detrimental effect on their mental health are allowed to switch off and for those living in digital exclusion to be able to switch on in the first place.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They are conducive to promoting societal equality."
+        },
+        {
+          "id": "B",
+          "text": "They help many people feel connected with others."
+        },
+        {
+          "id": "C",
+          "text": "They provide a necessary device for a digital detox."
+        },
+        {
+          "id": "D",
+          "text": "They create a virtual community on the internet."
+        }
+      ],
+      "id": "cet6-2023-12-2-reading-q49",
+      "number": 49,
+      "level": "CET6",
+      "correctAnswer": "B",
+      "hint": "根据题干定位文章中的相关句，再比较选项是否改变主体、程度或因果。",
+      "explanation": "B。倒数第二段说很多人从共享平台带来的强烈社区感中受益，因此让人感觉与他人相连；不能简化成所有平台保证社会平等。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author think is really important for those living in digital exclusion?",
+      "passage": "Could you get by without using the internet for four and a half years? That's exactly what singer and actress Selena Gomez has done in a bid to improve her mental health.\n\nShe has spoken extensively about the relationship between her social media usage and her mental wellbeing, recalling feeling like “an addict” when she became Instagram's most followed user in 2016. “Taking a break from social media was the best decision that I've ever made for my mental health”, says she. “The unnecessary hate and comparisons went away once I put my phone down.”\n\nDitching the web at large, however, is a far more subtle and complicated prospect. The increasing digitisation of our society means that everything from paying a gas bill to plotting a route to a friend's house and even making a phone call is at the mercy of your internet connection. Actively opting out of using the internet becomes a matter of privilege.\n\nMs Gomez's multi-millionaire status has allowed her to take the “social” out of social media, so she can continue to leverage her enormous fame while keeping the trolls (恶意挑衅的帖子) at bay. The fact that she's still the second most-followed woman on Instagram suggests it's entirely possible to maintain a significant web profile to promote various projects - by way of a dedicated team - without being exposed to the cruel comments, hate mail, and rape or death threats.\n\nIt goes without saying that this is fundamentally different from how the rest of us without beauty deals and films to publicise use the likes of Instagram, TikTok, and Twitter, but even the concept of a digital detox (戒瘾) requires having a device and connectivity to choose to disconnect from.\n\nThe UK's digital divide has worsened over the past two years, leaving poorer families without broadband connections in their homes. Digital exclusion is a major threat to wider societal equality in the UK, so witnessing companies like Facebook championing the metaverse (元宇宙) as the next great frontier when schoolchildren are struggling to complete their homework feels particularly irritating.\n\nConsequently, it's worth bearing in mind that while deleting all social media accounts will undoubtedly make some feel infinitely better, many other people benefit from the strong sense of community that sharing platforms can breed.\n\nInternet access will continue to grow in importance as we edge further towards web 3.0, and greater resources and initiatives are needed to provide the underprivileged with the connectivity they desperately need to learn, work, and live. It's crucial that people who feel that social media is having a detrimental effect on their mental health are allowed to switch off and for those living in digital exclusion to be able to switch on in the first place.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Having access to the internet."
+        },
+        {
+          "id": "B",
+          "text": "Edging further towards web 3.0."
+        },
+        {
+          "id": "C",
+          "text": "Getting more educational resources."
+        },
+        {
+          "id": "D",
+          "text": "Opening more social media accounts."
+        }
+      ],
+      "id": "cet6-2023-12-2-reading-q50",
+      "number": 50,
+      "level": "CET6",
+      "correctAnswer": "A",
+      "hint": "根据题干定位文章中的相关句，再比较选项是否改变主体、程度或因果。",
+      "explanation": "A。结尾区分需要退出的人和生活在数字隔绝的人，对后者关键是先能够上线，获得学习工作生活所需连接，而非开更多账号。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author think is easy to see in many areas of contemporary life?",
+      "passage": "Psychologists have long been in disagreement as to whether competition is a learned or a genetic component of human behavior. Whatever it is, you cannot but recognize the effect competition is exerting in academics and many other areas of contemporary life.\n\nPsychologically speaking, competition has been seen as an inevitable consequence of human drives. According to Sigmund Freud, humans are born screaming for attention and full of organic drives for fulfillment in various areas. Initially, we compete for the attention of our parents. Thereafter, we are at the mercy of a battle between our base impulses for self-fulfillment and social and cultural norms which prohibit pure indulgence.\n\nCurrent work in anthropology (人类学) has suggested, however, that this view of the role of competition in human behavior may be incorrect. Thomas Hobbes, one of the great philosophers of the seventeenth century, is perhaps best remembered for his characterization of the “natural world,” that is, the world before the imposition of the will of humanity, as being “nasty, brutish, and short.” This image of the pre-rational world is still widely held, reinforced by Charles Darwin's highly influential work, The Origin of Species, which established the doctrine of natural selection. This doctrine, which takes for granted that those species best able to adapt to and master the natural environment in which they live will survive, has suggested that the struggle for survival is an inherent human trait which determines a person's success. Darwin's theory has even been summarized as “survival of the fittest” — a phrase Darwin himself never used — further highlighting competition's role in success.\n\nAs it has often been pointed out, however, there is nothing in the concept of natural selection that suggests that competition is the most successful strategy for survival of the fittest. Darwin asserted in The Origin of Species that the struggles he was describing should be viewed as metaphors and could easily include dependence and cooperation.\n\nMany studies have been conducted to test the importance placed on competition as opposed to other values, such as cooperation — by various cultures, and generally conclude that Americans uniquely praise competition as natural, inevitable, and desirable. In 1937, the world-renowned anthropologist Margaret Mead published Cooperation and Competition among Primitive Peoples, based on her studies of several societies that did not prize competition, and, in fact, seemed at times to place a negative value on it. One such society was the Zuni Indians of Arizona, and they, Mead found, valued cooperation far more than competition. After studying dozens of such cultures, Mead's final conclusion was that competitiveness is a culturally created aspect of human behavior, and that its prevalence in a particular society is relative to how that society values it.",
+      "options": [
+        {
+          "id": "A",
+          "text": "The disagreement on the inevitability of competition."
+        },
+        {
+          "id": "B",
+          "text": "The consequence of psychological investigation."
+        },
+        {
+          "id": "C",
+          "text": "The effect of human drives."
+        },
+        {
+          "id": "D",
+          "text": "The impact of competition."
+        }
+      ],
+      "id": "cet6-2023-12-2-reading-q51",
+      "number": 51,
+      "level": "CET6",
+      "correctAnswer": "D",
+      "hint": "根据题干定位文章中的相关句，再比较选项是否改变主体、程度或因果。",
+      "explanation": "D。首段认为无论竞争来自学习还是遗传，都不得不承认它在学术和现代生活领域中的作用，故易见的是竞争影响。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "According to psychology, what do people strive to do following the initial stage of their life?",
+      "passage": "Psychologists have long been in disagreement as to whether competition is a learned or a genetic component of human behavior. Whatever it is, you cannot but recognize the effect competition is exerting in academics and many other areas of contemporary life.\n\nPsychologically speaking, competition has been seen as an inevitable consequence of human drives. According to Sigmund Freud, humans are born screaming for attention and full of organic drives for fulfillment in various areas. Initially, we compete for the attention of our parents. Thereafter, we are at the mercy of a battle between our base impulses for self-fulfillment and social and cultural norms which prohibit pure indulgence.\n\nCurrent work in anthropology (人类学) has suggested, however, that this view of the role of competition in human behavior may be incorrect. Thomas Hobbes, one of the great philosophers of the seventeenth century, is perhaps best remembered for his characterization of the “natural world,” that is, the world before the imposition of the will of humanity, as being “nasty, brutish, and short.” This image of the pre-rational world is still widely held, reinforced by Charles Darwin's highly influential work, The Origin of Species, which established the doctrine of natural selection. This doctrine, which takes for granted that those species best able to adapt to and master the natural environment in which they live will survive, has suggested that the struggle for survival is an inherent human trait which determines a person's success. Darwin's theory has even been summarized as “survival of the fittest” — a phrase Darwin himself never used — further highlighting competition's role in success.\n\nAs it has often been pointed out, however, there is nothing in the concept of natural selection that suggests that competition is the most successful strategy for survival of the fittest. Darwin asserted in The Origin of Species that the struggles he was describing should be viewed as metaphors and could easily include dependence and cooperation.\n\nMany studies have been conducted to test the importance placed on competition as opposed to other values, such as cooperation — by various cultures, and generally conclude that Americans uniquely praise competition as natural, inevitable, and desirable. In 1937, the world-renowned anthropologist Margaret Mead published Cooperation and Competition among Primitive Peoples, based on her studies of several societies that did not prize competition, and, in fact, seemed at times to place a negative value on it. One such society was the Zuni Indians of Arizona, and they, Mead found, valued cooperation far more than competition. After studying dozens of such cultures, Mead's final conclusion was that competitiveness is a culturally created aspect of human behavior, and that its prevalence in a particular society is relative to how that society values it.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fulfill individual needs without incurring adverse effects of human drives."
+        },
+        {
+          "id": "B",
+          "text": "Indulge in cultural pursuits while keeping their base impulses at bay."
+        },
+        {
+          "id": "C",
+          "text": "Gain extensive recognition without exposing pure indulgence."
+        },
+        {
+          "id": "D",
+          "text": "Satisfy their own desires while observing social conventions."
+        }
+      ],
+      "id": "cet6-2023-12-2-reading-q52",
+      "number": 52,
+      "level": "CET6",
+      "correctAnswer": "D",
+      "hint": "根据题干定位文章中的相关句，再比较选项是否改变主体、程度或因果。",
+      "explanation": "D。第二段说人在自我满足冲动与限制放纵的社会文化规范间挣扎，因此在遵守规范的同时满足欲望，不能说摆脱人类因素。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn about the “natural world” characterized by Thomas Hobbes?",
+      "passage": "Psychologists have long been in disagreement as to whether competition is a learned or a genetic component of human behavior. Whatever it is, you cannot but recognize the effect competition is exerting in academics and many other areas of contemporary life.\n\nPsychologically speaking, competition has been seen as an inevitable consequence of human drives. According to Sigmund Freud, humans are born screaming for attention and full of organic drives for fulfillment in various areas. Initially, we compete for the attention of our parents. Thereafter, we are at the mercy of a battle between our base impulses for self-fulfillment and social and cultural norms which prohibit pure indulgence.\n\nCurrent work in anthropology (人类学) has suggested, however, that this view of the role of competition in human behavior may be incorrect. Thomas Hobbes, one of the great philosophers of the seventeenth century, is perhaps best remembered for his characterization of the “natural world,” that is, the world before the imposition of the will of humanity, as being “nasty, brutish, and short.” This image of the pre-rational world is still widely held, reinforced by Charles Darwin's highly influential work, The Origin of Species, which established the doctrine of natural selection. This doctrine, which takes for granted that those species best able to adapt to and master the natural environment in which they live will survive, has suggested that the struggle for survival is an inherent human trait which determines a person's success. Darwin's theory has even been summarized as “survival of the fittest” — a phrase Darwin himself never used — further highlighting competition's role in success.\n\nAs it has often been pointed out, however, there is nothing in the concept of natural selection that suggests that competition is the most successful strategy for survival of the fittest. Darwin asserted in The Origin of Species that the struggles he was describing should be viewed as metaphors and could easily include dependence and cooperation.\n\nMany studies have been conducted to test the importance placed on competition as opposed to other values, such as cooperation — by various cultures, and generally conclude that Americans uniquely praise competition as natural, inevitable, and desirable. In 1937, the world-renowned anthropologist Margaret Mead published Cooperation and Competition among Primitive Peoples, based on her studies of several societies that did not prize competition, and, in fact, seemed at times to place a negative value on it. One such society was the Zuni Indians of Arizona, and they, Mead found, valued cooperation far more than competition. After studying dozens of such cultures, Mead's final conclusion was that competitiveness is a culturally created aspect of human behavior, and that its prevalence in a particular society is relative to how that society values it.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It gets misrepresented by philosophers and anthropologists."
+        },
+        {
+          "id": "B",
+          "text": "It gets distorted in Darwin's The Origin of Species."
+        },
+        {
+          "id": "C",
+          "text": "It is free from the rational intervention of humans."
+        },
+        {
+          "id": "D",
+          "text": "It is the pre-rational world rarely appreciated nowadays."
+        }
+      ],
+      "id": "cet6-2023-12-2-reading-q53",
+      "number": 53,
+      "level": "CET6",
+      "correctAnswer": "C",
+      "hint": "根据题干定位文章中的相关句，再比较选项是否改变主体、程度或因果。",
+      "explanation": "C。霍布斯自然世界被定义为强加人类意志之前的世界，即尚未有人类理性干预；这种图像仍广泛存在，不是少有人接受。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What can we conclude from Darwin's assertion in The Origin of Species?",
+      "passage": "Psychologists have long been in disagreement as to whether competition is a learned or a genetic component of human behavior. Whatever it is, you cannot but recognize the effect competition is exerting in academics and many other areas of contemporary life.\n\nPsychologically speaking, competition has been seen as an inevitable consequence of human drives. According to Sigmund Freud, humans are born screaming for attention and full of organic drives for fulfillment in various areas. Initially, we compete for the attention of our parents. Thereafter, we are at the mercy of a battle between our base impulses for self-fulfillment and social and cultural norms which prohibit pure indulgence.\n\nCurrent work in anthropology (人类学) has suggested, however, that this view of the role of competition in human behavior may be incorrect. Thomas Hobbes, one of the great philosophers of the seventeenth century, is perhaps best remembered for his characterization of the “natural world,” that is, the world before the imposition of the will of humanity, as being “nasty, brutish, and short.” This image of the pre-rational world is still widely held, reinforced by Charles Darwin's highly influential work, The Origin of Species, which established the doctrine of natural selection. This doctrine, which takes for granted that those species best able to adapt to and master the natural environment in which they live will survive, has suggested that the struggle for survival is an inherent human trait which determines a person's success. Darwin's theory has even been summarized as “survival of the fittest” — a phrase Darwin himself never used — further highlighting competition's role in success.\n\nAs it has often been pointed out, however, there is nothing in the concept of natural selection that suggests that competition is the most successful strategy for survival of the fittest. Darwin asserted in The Origin of Species that the struggles he was describing should be viewed as metaphors and could easily include dependence and cooperation.\n\nMany studies have been conducted to test the importance placed on competition as opposed to other values, such as cooperation — by various cultures, and generally conclude that Americans uniquely praise competition as natural, inevitable, and desirable. In 1937, the world-renowned anthropologist Margaret Mead published Cooperation and Competition among Primitive Peoples, based on her studies of several societies that did not prize competition, and, in fact, seemed at times to place a negative value on it. One such society was the Zuni Indians of Arizona, and they, Mead found, valued cooperation far more than competition. After studying dozens of such cultures, Mead's final conclusion was that competitiveness is a culturally created aspect of human behavior, and that its prevalence in a particular society is relative to how that society values it.",
+      "options": [
+        {
+          "id": "A",
+          "text": "All species inherently depend on others for survival."
+        },
+        {
+          "id": "B",
+          "text": "Struggles for survival do not exclude mutual support."
+        },
+        {
+          "id": "C",
+          "text": "Competition weighs as much as cooperation as a survival strategy."
+        },
+        {
+          "id": "D",
+          "text": "The strongest species proves to be the fittest in natural selection."
+        }
+      ],
+      "id": "cet6-2023-12-2-reading-q54",
+      "number": 54,
+      "level": "CET6",
+      "correctAnswer": "B",
+      "hint": "根据题干定位文章中的相关句，再比较选项是否改变主体、程度或因果。",
+      "explanation": "B。达尔文说明斗争是比喻，可以包含依赖与合作，因此为生存斗争不排除互助；原文没有比较竞争与合作同等重要。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-2-reading"
+    },
+    {
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What conclusion did Margaret Mead reach after studying dozens of different cultures?",
+      "passage": "Psychologists have long been in disagreement as to whether competition is a learned or a genetic component of human behavior. Whatever it is, you cannot but recognize the effect competition is exerting in academics and many other areas of contemporary life.\n\nPsychologically speaking, competition has been seen as an inevitable consequence of human drives. According to Sigmund Freud, humans are born screaming for attention and full of organic drives for fulfillment in various areas. Initially, we compete for the attention of our parents. Thereafter, we are at the mercy of a battle between our base impulses for self-fulfillment and social and cultural norms which prohibit pure indulgence.\n\nCurrent work in anthropology (人类学) has suggested, however, that this view of the role of competition in human behavior may be incorrect. Thomas Hobbes, one of the great philosophers of the seventeenth century, is perhaps best remembered for his characterization of the “natural world,” that is, the world before the imposition of the will of humanity, as being “nasty, brutish, and short.” This image of the pre-rational world is still widely held, reinforced by Charles Darwin's highly influential work, The Origin of Species, which established the doctrine of natural selection. This doctrine, which takes for granted that those species best able to adapt to and master the natural environment in which they live will survive, has suggested that the struggle for survival is an inherent human trait which determines a person's success. Darwin's theory has even been summarized as “survival of the fittest” — a phrase Darwin himself never used — further highlighting competition's role in success.\n\nAs it has often been pointed out, however, there is nothing in the concept of natural selection that suggests that competition is the most successful strategy for survival of the fittest. Darwin asserted in The Origin of Species that the struggles he was describing should be viewed as metaphors and could easily include dependence and cooperation.\n\nMany studies have been conducted to test the importance placed on competition as opposed to other values, such as cooperation — by various cultures, and generally conclude that Americans uniquely praise competition as natural, inevitable, and desirable. In 1937, the world-renowned anthropologist Margaret Mead published Cooperation and Competition among Primitive Peoples, based on her studies of several societies that did not prize competition, and, in fact, seemed at times to place a negative value on it. One such society was the Zuni Indians of Arizona, and they, Mead found, valued cooperation far more than competition. After studying dozens of such cultures, Mead's final conclusion was that competitiveness is a culturally created aspect of human behavior, and that its prevalence in a particular society is relative to how that society values it.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is characteristic of humans to be competitive."
+        },
+        {
+          "id": "B",
+          "text": "Americans are uniquely opposed to cooperation."
+        },
+        {
+          "id": "C",
+          "text": "Competition is relatively more prevalent in Western societies."
+        },
+        {
+          "id": "D",
+          "text": "People's attitude towards competition is actually culture-bound."
+        }
+      ],
+      "id": "cet6-2023-12-2-reading-q55",
+      "number": 55,
+      "level": "CET6",
+      "correctAnswer": "D",
+      "hint": "根据题干定位文章中的相关句，再比较选项是否改变主体、程度或因果。",
+      "explanation": "D。米德比较多种文化后认为竞争性由文化形成，其普遍程度取决于社会赋予它的价值，不能概括为天生且所有社会一样。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-12-2-reading"
+    }
+  ]
+}

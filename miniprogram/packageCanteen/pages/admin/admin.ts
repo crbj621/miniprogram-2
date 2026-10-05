@@ -1,19 +1,21 @@
+import { withSharing } from '../../../utils/page-share'
 import { api } from '../../../utils/api-client'
-import { callCanteen } from '../../utils/api'
+import { callCanteen, mealOptions, mealSelection, mealIndex } from '../../utils/api'
 
 function emptyStall() { return { id: '', name: '', location: '', description: '', image: '', status: 'draft' } }
 function emptyDish() { return { id: '', stallId: '', name: '', price: '', description: '', image: '', status: 'draft' } }
 
-Page({
+Page(withSharing({
   refreshPage() { return this.selectComponent("#page-refresh").refresh(() => this.load()) },
   data: {
     stalls: [] as any[], dishes: [] as any[], reviews: [] as any[],
-    submissions: [] as any[],
+    submissions: [] as any[], reports: [] as any[], photos: [] as any[], disputes: [] as any[],
+    mealOptions, dishMealIndex: 1,
     tab: 'stalls', stallForm: emptyStall(), dishForm: emptyDish(),
     stallIndex: 0, uploading: false, saving: false, loading: true
   },
   onLoad(options: any) {
-    if (['stalls', 'dishes', 'reviews', 'submissions'].includes(options.tab)) this.setData({ tab: options.tab })
+    if (['stalls', 'dishes', 'reviews', 'submissions', 'reports', 'photos', 'disputes'].includes(options.tab)) this.setData({ tab: options.tab })
     this.load()
   },
   async load() {
@@ -21,7 +23,8 @@ Page({
     try {
       await callCanteen('init')
       const result = await callCanteen('adminCatalog')
-      this.setData({ stalls: result.stalls || [], dishes: result.dishes || [], reviews: result.reviews || [], submissions: result.submissions || [], loading: false })
+      const reasons: any = { inaccurate: '信息不准确', spam: '广告或重复内容', inappropriate: '不适当内容' }
+      this.setData({ stalls: result.stalls || [], dishes: result.dishes || [], reviews: result.reviews || [], photos: result.photos || [], disputes: result.disputes || [], submissions: result.submissions || [], reports: (result.reports || []).map((row: any) => ({ ...row, reasonsText: [...new Set((row.reasons || []).map((reason: string) => reasons[reason] || reason))].join('、') })), loading: false })
       return true
     } catch (error: any) {
       this.setData({ loading: false })
@@ -30,6 +33,38 @@ Page({
     }
   },
   switchTab(e: any) { this.setData({ tab: e.currentTarget.dataset.tab }) },
+  chooseMeal(e: any) { if (!this.data.saving) this.setData({ dishMealIndex: Number(e.detail.value) }) },
+  previewPhoto(e: any) { wx.previewImage({ urls: [e.currentTarget.dataset.image] }) },
+  async setCover(e: any) {
+    if (this.data.saving) return
+    this.setData({ saving: true })
+    try { await callCanteen('setStallCover', { id: e.currentTarget.dataset.id }); wx.showToast({ title: '封面已更新', icon: 'success' }); await this.load() }
+    catch (error: any) { wx.showToast({ title: error.message || '设置失败', icon: 'none' }) }
+    finally { this.setData({ saving: false }) }
+  },
+  async resolveDispute(e: any) {
+    if (this.data.saving) return
+    const { id, resolution } = e.currentTarget.dataset
+    this.setData({ saving: true })
+    try {
+      const confirmed = await new Promise<any>((resolve, reject) => wx.showModal({ title: resolution === 'restore' ? '核实后恢复评分？' : '确认排除这条评分？', content: '请先核对内容，处理只影响这条评论对应的评分，不会恢复已删除的评论。', success: resolve, fail: reject }))
+      if (!confirmed.confirm) return
+      await callCanteen('resolveDispute', { id, resolution }); await this.load()
+    } catch (error: any) { wx.showToast({ title: error.message || '处理失败', icon: 'none' }) }
+    finally { this.setData({ saving: false }) }
+  },
+  openReportTarget(e: any) { wx.navigateTo({ url: '/packageCanteen/pages/dish/dish?id=' + encodeURIComponent(e.currentTarget.dataset.id) }) },
+  resolveReport(e: any) {
+    if (this.data.saving) return
+    const { id, resolution } = e.currentTarget.dataset
+    wx.showModal({ title: resolution === 'hide' ? '核实后下架内容？' : '标记内容无误？', content: '请先核对举报涉及的菜品或评价，再完成处理。', success: async result => {
+      if (!result.confirm) return
+      this.setData({ saving: true })
+      try { await callCanteen('resolveReport', { id, resolution }); await this.load() }
+      catch (error: any) { wx.showToast({ title: error.message || '处理失败', icon: 'none' }) }
+      finally { this.setData({ saving: false }) }
+    } })
+  },
   onPullDownRefresh() { this.load().finally(() => wx.stopPullDownRefresh()) },
   moderate(e: any) {
     if (this.data.saving) return
@@ -58,12 +93,12 @@ Page({
     const row = this.data.dishes.find((item: any) => item._id === e.currentTarget.dataset.id)
     if (!row) return
     const stallIndex = Math.max(0, this.data.stalls.findIndex((stall: any) => stall._id === row.stallId))
-    this.setData({ tab: 'dishes', stallIndex, dishForm: { id: row._id, stallId: row.stallId,
+    this.setData({ tab: 'dishes', stallIndex, dishMealIndex: mealIndex(row.meals), dishForm: { id: row._id, stallId: row.stallId,
       name: row.name, price: row.price == null ? '' : String(row.price),
       description: row.description || '', image: row.image || '', status: row.status } })
   },
   resetStall() { this.setData({ stallForm: emptyStall() }) },
-  resetDish() { this.setData({ dishForm: emptyDish(), stallIndex: 0 }) },
+  resetDish() { this.setData({ dishForm: emptyDish(), stallIndex: 0, dishMealIndex: 1 }) },
   chooseImage(e: any) {
     const type = e.currentTarget.dataset.type
     wx.chooseMedia({ count: 1, mediaType: ['image'], sourceType: ['camera', 'album'], success: async (result: any) => {
@@ -97,7 +132,7 @@ Page({
     if (this.data.saving || this.data.uploading) return
     this.setData({ saving: true })
     try {
-      const form = { ...this.data.dishForm }
+      const form = { ...this.data.dishForm, meals: mealSelection(this.data.dishMealIndex) }
       if (!form.stallId && this.data.stalls.length) form.stallId = this.data.stalls[this.data.stallIndex]._id
       await callCanteen('saveDish', form)
       wx.showToast({ title: '菜品已保存', icon: 'success' })
@@ -114,4 +149,4 @@ Page({
       catch (error: any) { wx.showToast({ title: error.message || '操作失败', icon: 'none' }) }
     } })
   }
-})
+}))

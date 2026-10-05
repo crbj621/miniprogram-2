@@ -1,0 +1,8 @@
+@import "../../styles/english.wxss";
+.admin-status { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:24rpx; min-height:240rpx; }
+.resource-count { display:flex; align-items:center; gap:20rpx; }.resource-number { font-size:52rpx; font-weight:750; color:#718bb1; }
+.reward-field { display:flex; align-items:center; gap:18rpx; padding:24rpx 0; border-bottom:2rpx solid #edf1f8; }.reward-copy { flex:1; min-width:0; }.reward-label { display:block; font-size:27rpx; font-weight:650; color:#526c8d; }.reward-description { display:block; font-size:22rpx; color:#8999ae; line-height:1.5; margin-top:8rpx; }
+.reward-input { display:flex; align-items:center; gap:10rpx; width:188rpx; flex-shrink:0; color:#8292ac; font-size:22rpx; }.english-admin-page .reward-input input.tech-input { width:124rpx; padding:0 12rpx; text-align:center; font-size:27rpx; }
+.current-rules { padding:20rpx; margin-top:20rpx; border-radius:20rpx; background:#f5f7fc; }.current-rules text { display:block; color:#8a99ad; font-size:23rpx; line-height:1.8; }
+.english-admin-page .row .card-title { margin-bottom:0; }
+@media (max-width:340px) { .reward-field { flex-wrap:wrap; }.reward-copy { flex-basis:100%; }.reward-input { margin-left:auto; } }

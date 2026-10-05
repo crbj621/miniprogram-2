@@ -29,6 +29,8 @@ async function main() {
   still.gps(34, 115, 10, 0)
   for (let i = 1; i <= 10; i++) still.gps(34 + i * 0.0001, 115, 10, 0)
   assert.equal(still.page.data.totalMeter, 0, '静止设备缓慢漂移不累计')
+  for (let i = 1; i <= 10; i++) still.gps(34 + i * 0.00008, 115, 20, 0, 12)
+  assert.equal(still.page.data.totalMeter, 0, '甩手机步数不能绕过 GPS 静止检查')
   const gap = pageFrom(file)
   gap.page.data.isRunning = true; gap.page.setupLocationListener()
   gap.gps(34, 115); gap.gps(34.001, 115, 10, 2.5, 20, 30)
@@ -36,10 +38,10 @@ async function main() {
   gap.page.data.indoorMode = true
   gap.page.registerStep(Date.now(), 1.2, 1)
   const estimated = gap.page.data.totalMeter
-  assert.ok(estimated > 0)
+  assert.equal(estimated, 0, '室内传感器峰值不能直接换算成米数')
   gap.page.data.indoorMode = false
   gap.gps(34.002, 115)
-  assert.equal(gap.page.data.totalMeter, estimated, '估距后的定位恢复重新建立锚点')
+  assert.equal(gap.page.data.totalMeter, estimated, '无定位后的定位恢复重新建立锚点')
   assert.equal(gap.page.data.steps, 21, '展示真实传感器累计，不由距离反算')
   const counted = scale => {
     const detector = new StepDetector()

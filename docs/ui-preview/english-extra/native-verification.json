@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-10-04T14:35:08.424Z",
+  "kind": "wechat-devtools-native-local-fixture",
+  "boundary": "Public-share routes skip business lifecycle; local fixture map state and native local feedback WAV playback only. No GPS, learning API, login, reward or server writes; not Android/iOS phone hearing or GPS verification.",
+  "checks": [
+    {
+      "kind": "map-scale",
+      "state": "ready",
+      "scale": 16
+    },
+    {
+      "kind": "map-scale",
+      "state": "running",
+      "scale": 18
+    },
+    {
+      "kind": "map-scale",
+      "state": "paused",
+      "scale": 18
+    },
+    {
+      "kind": "map-scale",
+      "state": "resumed",
+      "scale": 18
+    },
+    {
+      "kind": "map-scale",
+      "state": "finished",
+      "scale": 16
+    },
+    {
+      "kind": "native-local-feedback-audio",
+      "correct": true,
+      "events": [
+        "play"
+      ],
+      "src": "/packageEnglish/assets/audio/correct.wav",
+      "duration": 0.28,
+      "ended": true
+    },
+    {
+      "kind": "native-local-feedback-audio",
+      "correct": false,
+      "events": [
+        "play"
+      ],
+      "src": "/packageEnglish/assets/audio/retry.wav",
+      "duration": 0.24,
+      "ended": true
+    }
+  ],
+  "errors": []
+}

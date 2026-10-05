@@ -1,0 +1,25 @@
+@import "../../styles/english.wxss";
+.attempt-page.has-actions { padding-bottom:calc(148rpx + env(safe-area-inset-bottom)); }
+.attempt-header { display:flex; align-items:flex-start; gap:18rpx; padding:2rpx 4rpx 18rpx; }
+.attempt-title { flex:1; min-width:0; color:var(--campus-theme-accent,#5274a1); font-size:29rpx; font-weight:700; line-height:1.5; }
+.attempt-mode { flex-shrink:0; margin-top:6rpx; color:#8292ac; font-size:21rpx; line-height:1.5; }
+.attempt-progress { display:flex; align-items:center; gap:18rpx; margin-bottom:20rpx; }
+.attempt-progress .muted { flex:1; }
+.attempt-progress .timer { font-size:29rpx; }
+.question-heading { display:flex; align-items:center; justify-content:space-between; gap:18rpx; margin-bottom:18rpx; }
+.question-heading .section-label { margin:0; }
+.question-heading .badge { flex-shrink:0; }
+.question-tools { display:flex; justify-content:flex-end; gap:14rpx; margin-top:20rpx; }
+.navigation-section + .navigation-section { margin-top:24rpx; }
+.navigation-label { display:block; color:#8292ac; font-size:23rpx; margin-bottom:12rpx; }
+.navigation-grid { display:flex; flex-wrap:wrap; gap:12rpx; }
+.attempt-actions { position:fixed; z-index:20; left:0; right:0; bottom:0; display:flex; align-items:center; gap:16rpx; padding:18rpx 24rpx calc(18rpx + env(safe-area-inset-bottom)); background:rgba(247,249,255,.97); border-top:2rpx solid var(--campus-theme-line,#d8e4f3); box-sizing:border-box; }
+.attempt-actions button.tab { min-height:44px; }
+.attempt-actions button.tech-primary { flex:2; }
+.material-body { margin-top:24rpx; }
+.material-chart-wrap { margin-top:20rpx; }
+.material-chart { width:100%; height:auto; display:block; border-radius:14rpx; background:#fff; }
+.review-option { font-size:26rpx; line-height:1.8; padding:14rpx; margin-top:12rpx; background:#f5f8fc; border-radius:14rpx; white-space:pre-wrap; word-break:break-word; }
+.answer-correct { color:#438875; background:#e9f8f1; }
+.answer-wrong { color:#a4687b; background:#fff0f5; }
+.english-page .question-navigation button.small { min-width:64rpx; min-height:44px; padding:12rpx; }

@@ -1,3 +1,4 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="page">
   <view class="header">
     <view class="header-bg"></view>
@@ -115,15 +116,15 @@
     <view class="logout-btn tech-control" bindtap="logout" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">退出登录</view>
   </view>
 
-  <view class="modal-overlay" wx:if="{{showNicknameModal}}" bindtap="hideEditNickname" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
-    <view class="modal-box tech-card" catchtap="" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
+  <view class="modal-overlay" wx:if="{{showNicknameModal}}" bindtap="hideEditNickname">
+    <view class="modal-box tech-card" catchtap="">
       <view class="modal-header">
         <text class="modal-title">修改昵称</text>
         <view class="modal-close tap-action" bindtap="hideEditNickname" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">×</view>
       </view>
       <view class="modal-body">
         <view class="input-wrapper">
-          <input class="nickname-input tech-input" placeholder="请输入新昵称" value="{{newNickname}}" bindinput="onNicknameInput" maxlength="10" focus="{{showNicknameModal}}" placeholder-class="input-placeholder" placeholder-style="color:#8597ad" />
+          <input class="nickname-input tech-input" placeholder="请输入新昵称" value="{{newNickname}}" bindinput="onNicknameInput" maxlength="10" focus="{{showNicknameModal}}" adjust-position="{{true}}" cursor-spacing="24" placeholder-class="input-placeholder" placeholder-style="color:#8597ad" />
           <text class="char-count">{{newNickname.length}}/10</text>
         </view>
       </view>
@@ -134,3 +135,5 @@
     </view>
   </view>
 </view>
+
+</block>

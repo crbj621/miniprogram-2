@@ -41,10 +41,10 @@ async function main() {
   assert.equal(legacy.data.modules.food, false, '旧布尔值 false 必须保持隐藏')
   assert.equal(legacy.data.modules.running, false, '旧 run 键必须兼容为 running')
   const list = await call('getModuleList')
-  assert.deepEqual(list.data.list.map(row => row.key).sort(), ['running', 'food', 'canteen', 'forum', 'rider'].sort())
-  const changed = await call('updateGlobalSettings', { modules: { running: { enabled: true }, canteen: { enabled: true }, food: { enabled: false }, forum: { enabled: false }, rider: { enabled: false } } })
+  assert.deepEqual(list.data.list.map(row => row.key).sort(), ['running', 'food', 'canteen', 'forum', 'rider', 'english', 'gifts'].sort())
+  const changed = await call('updateGlobalSettings', { modules: { running: { enabled: true }, canteen: { enabled: true }, food: { enabled: false }, forum: { enabled: false }, rider: { enabled: false }, english: { enabled: false }, gifts: { enabled: false } } })
   assert.equal(changed.code, 0)
-  assert.deepEqual((await call('getPublicModules')).data.modules, { running: true, food: false, canteen: true, forum: false, rider: false })
+  assert.deepEqual((await call('getPublicModules')).data.modules, { running: true, food: false, canteen: true, forum: false, rider: false, english: false, gifts: false })
   assert.equal(rows('global_settings')[0].contactEmail, 'keep@example.com', '只改模块时保留其他设置')
   assert.equal((await call('updateModuleStatus', { module: 'rider', enabled: true })).code, 0)
   assert.equal((await call('getPublicModules')).data.modules.rider, true)
@@ -60,6 +60,6 @@ async function main() {
     assert.notEqual((await call('updateModuleStatus', { module: 'food', enabled: true })).code, 0)
     assert.notEqual((await call('updateGlobalSettings', { modules: { food: false } })).code, 0)
   }
-  console.log('模块格式兼容、五项开关、部分保存与权限：通过')
+  console.log('模块格式兼容、七项开关、部分保存与权限：通过')
 }
 main().catch(error => { console.error(error.message); process.exitCode = 1 })

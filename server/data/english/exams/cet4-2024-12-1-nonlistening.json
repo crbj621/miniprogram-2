@@ -1,0 +1,1989 @@
+{
+  "schemaVersion": 1,
+  "status": "verified_structured",
+  "source": {
+    "id": "cet4-2024-12-1-nonlistening",
+    "textCollection": "https://english-exam.lazynote.cn",
+    "textUrl": "https://english-exam.lazynote.cn/cet4/paper/2024-12-1/",
+    "textSha256": "7ed780393558bda0565bdbedd9c50ef9db78db95b1d376221d57205f13bf2d0f",
+    "answerSources": [
+      {
+        "section": "part3-section-a",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2024-12-1/part3-section-a/",
+        "sha256": "352909a7c609777e4e1110410bcec73d01cb6f79e3c7589e11a38f4573ef22b3"
+      },
+      {
+        "section": "part3-section-b",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2024-12-1/part3-section-b/",
+        "sha256": "471575e101d9be430871080c33430e50ca1f5ca4418acb2e920ffc323c7ac9e0"
+      },
+      {
+        "section": "part3-section-c-1",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2024-12-1/part3-section-c-1/",
+        "sha256": "238a7d7771f20f18a9e606db4ff117f13b6d5bb8222830d4c509481fd6bb22b8"
+      },
+      {
+        "section": "part3-section-c-2",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2024-12-1/part3-section-c-2/",
+        "sha256": "7da90cf33c514413a5888cdc2afbb6d94d845c45a9887ddd6267a61dff3547fa"
+      }
+    ],
+    "rightsUrl": "https://english-exam.lazynote.cn",
+    "rights": "Source footer attributes original papers to the National College English Test Committee. Original materials retain their respective rights; no blanket source license is asserted. Commercial explanatory prose is not copied.",
+    "sourceRightsNotice": "© 2026 懒笔记 · 蜀ICP备2024049450号-1 · 川公网安备51019002006323号 · 增值电信业务经营许可证：川B2-20240301 · 真题版权归全国硕士研究生招生考试 / 全国大学英语四六级考试委员会所有 · 隐私政策 · 用户协议",
+    "sourceTermsUrl": "https://english-exam.lazynote.cn/terms/",
+    "reviewedAt": "2026-10-03",
+    "answerStatus": "public_reference_structural_consistency_verified",
+    "explanations": "Project-generated contextual evidence notes. Close-reading locations are keyword-search candidates, not manually verified detailed explanations.",
+    "referenceEssays": "Project-authored full reference examples bound to the original prompts; not official model answers.",
+    "materialSources": [],
+    "corrections": [],
+    "previousReviewedAnswerSources": [],
+    "sourceEdition": "lazynote public original-paper arrangement; set numbering can differ from other collections.",
+    "independentlyConfirmedSharedSource": "",
+    "readingSourceCorrection": null,
+    "sectionSourceReplacement": null,
+    "independentAnswerChecks": [],
+    "sharedSectionSource": {}
+  },
+  "papers": [
+    {
+      "id": "cet4-2024-12-1-nonlistening",
+      "level": "CET4",
+      "year": 2024,
+      "month": 12,
+      "set": 1,
+      "title": "2024年12月英语四级第1套真题（不含听力）",
+      "authenticity": "past_exam",
+      "questionIds": [
+        "cet4-2024-12-1-nonlistening-writing",
+        "cet4-2024-12-1-nonlistening-q26",
+        "cet4-2024-12-1-nonlistening-q27",
+        "cet4-2024-12-1-nonlistening-q28",
+        "cet4-2024-12-1-nonlistening-q29",
+        "cet4-2024-12-1-nonlistening-q30",
+        "cet4-2024-12-1-nonlistening-q31",
+        "cet4-2024-12-1-nonlistening-q32",
+        "cet4-2024-12-1-nonlistening-q33",
+        "cet4-2024-12-1-nonlistening-q34",
+        "cet4-2024-12-1-nonlistening-q35",
+        "cet4-2024-12-1-nonlistening-q36",
+        "cet4-2024-12-1-nonlistening-q37",
+        "cet4-2024-12-1-nonlistening-q38",
+        "cet4-2024-12-1-nonlistening-q39",
+        "cet4-2024-12-1-nonlistening-q40",
+        "cet4-2024-12-1-nonlistening-q41",
+        "cet4-2024-12-1-nonlistening-q42",
+        "cet4-2024-12-1-nonlistening-q43",
+        "cet4-2024-12-1-nonlistening-q44",
+        "cet4-2024-12-1-nonlistening-q45",
+        "cet4-2024-12-1-nonlistening-q46",
+        "cet4-2024-12-1-nonlistening-q47",
+        "cet4-2024-12-1-nonlistening-q48",
+        "cet4-2024-12-1-nonlistening-q49",
+        "cet4-2024-12-1-nonlistening-q50",
+        "cet4-2024-12-1-nonlistening-q51",
+        "cet4-2024-12-1-nonlistening-q52",
+        "cet4-2024-12-1-nonlistening-q53",
+        "cet4-2024-12-1-nonlistening-q54",
+        "cet4-2024-12-1-nonlistening-q55",
+        "cet4-2024-12-1-nonlistening-translation"
+      ],
+      "durationSeconds": 6000,
+      "description": "写作1题、阅读30题、翻译1题，不含听力。客观题答案与题面、选项完成结构一致性核对。",
+      "sourceId": "cet4-2024-12-1-nonlistening",
+      "coverage": {
+        "fullPaper": false,
+        "fullNonListening": true,
+        "listeningExcluded": true,
+        "objectiveNumbers": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "objectiveCount": 30,
+        "subjectiveCount": 2,
+        "sections": [
+          "writing",
+          "reading_word_bank",
+          "reading_matching",
+          "reading_comprehension",
+          "translation"
+        ],
+        "sharedSectionSource": {},
+        "note": "写作1题、阅读30题、翻译1题，不含听力。",
+        "independentlyConfirmedSharedSource": "",
+        "readingSourceCorrection": null,
+        "sectionSourceReplacement": null,
+        "referenceStatus": "project_authored"
+      },
+      "resources": [
+        {
+          "id": "cet4-2024-12-1-nonlistening-source",
+          "type": "web",
+          "title": "原卷来源与题面核对",
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2024-12-1/"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cet4-2024-12-1-nonlistening-writing",
+      "number": "I",
+      "level": "CET4",
+      "type": "short_text_self_check",
+      "skill": "writing",
+      "section": "writing",
+      "prompt": "Directions: Suppose the business school of your university is conducting a survey to collect students' opinions on the express delivery service industry in China. You are to write a response about its recent development and its impact on people's lives. You will have 30 minutes to write the essay. You should write at least 120 words but no more than 180 words.",
+      "options": [],
+      "correctAnswer": "China's express delivery industry has developed rapidly, supported by online shopping and growing demand for convenient services. Parcels now connect shops and customers across long distances, making many everyday purchases easier.\n\nThis development has changed people's lives in several ways. Students can order books that local shops do not stock, while small businesses can reach customers beyond their hometowns. Delivery services also create jobs. However, large amounts of packaging produce waste, and couriers may face heavy workloads during busy periods. Convenience should therefore be considered together with environmental and working conditions.\n\nI suggest encouraging reusable packaging, convenient collection points and realistic delivery schedules. Customers can combine orders where possible and treat delivery workers with respect. With better service standards and responsible choices, the industry can continue to improve daily life. Its success should be measured by reliable service and sustainable development as well as speed.",
+      "referenceAnswer": "China's express delivery industry has developed rapidly, supported by online shopping and growing demand for convenient services. Parcels now connect shops and customers across long distances, making many everyday purchases easier.\n\nThis development has changed people's lives in several ways. Students can order books that local shops do not stock, while small businesses can reach customers beyond their hometowns. Delivery services also create jobs. However, large amounts of packaging produce waste, and couriers may face heavy workloads during busy periods. Convenience should therefore be considered together with environmental and working conditions.\n\nI suggest encouraging reusable packaging, convenient collection points and realistic delivery schedules. Customers can combine orders where possible and treat delivery workers with respect. With better service standards and responsible choices, the industry can continue to improve daily life. Its success should be measured by reliable service and sustainable development as well as speed.",
+      "hint": "回应调查必须写近期发展及生活影响；收益后举一个问题，再提具体改进，避免编造增长数字。",
+      "explanation": "以下为原创参考范文，作文没有唯一答案。题目包含两个任务：recent development与impact。首段用网购和便利需求解释发展；第二段举买书、小商家拓展顾客和就业，随后点出包装及工作负担；结尾从包装、取件、配送时间提出改进。reach customers beyond their hometowns比只写convenient更具体，combine orders指合并订单以减少包装。while连接两个并列收益，However转向问题，therefore引出评价尺度。不需要虚构市场规模或引用不存在的调查，普通校园例子足以支持观点。\n\n练习方法：先用提示列三段提纲，在30分钟内独立写作，再按下方标准逐项打分；把失分最多的一段重写。参考范文约145词（缩写、连字符词按一词，含标题或书信称呼落款），满足120–180词要求；评分用于练习自检，不代表官方阅卷分数。",
+      "rubric": [
+        "练习自评总分15分：题目覆盖0–6＋结构0–4＋语言0–5，先独立写完再对照；观点不同于范文也可得满分，只要有合理支持。",
+        "题目覆盖0–6分：该题检查——回应调查必须写近期发展及生活影响；收益后举一个问题，再提具体改进，避免编造增长数字。。6分=任务完整且有具体理由/活动/例证；4–5分=切题但细节偏薄；2–3分=遗漏主要任务；0–1分=基本离题。",
+        "结构0–4分：4分=开头明确任务、主体按逻辑展开、结尾回扣，段间自然；3分=顺序清楚但局部衔接生硬；1–2分=跳跃或机械罗列；0分=内容难以组织理解。",
+        "语言0–5分：5分=语法和用词基本准确、句型有变化；3–4分=少量错误但不影响理解；1–2分=反复出现时态、主谓一致或搭配错误并影响阅读；0分=多数句子不能理解。",
+        "格式与修订：按原题保持120–180词；新闻/书信/提案用对应体裁，明确要求的首句逐字保留。若超限、少写任务或缺必要格式，先修改再评分，不把字数达标当作内容满分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-1-nonlistening-q26",
+      "canonicalId": "lazynote-cet4-2024-12-1-q26",
+      "number": 26,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 26 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "When Toni Morrison died in 2019, the world lost one of its most influential authors. But Morrison was not an early success. Her first novel was not published until she was 39, and her last appeared when she was 84. And Morrison was not [26] ____ in this regard. Numerous writers produce masterpieces well into their 70s and beyond. Such [27] ____ accomplishments highlight an important point. Our capacity to speak, write and learn new vocabulary does not seem to [28] ____ with age. Our eyesight may dim and our recall may weaken, but, by comparison, our ability to produce and to [29] ____ language is well preserved into older adulthood.\n\nIndeed, the latest research that has emerged on language and aging shows that language mastery is a [30] ____ that we begin as infants and continue on for the rest of our lives. Some aspects of our language abilities, such as our knowledge of word meanings, [31] ____ improve during middle and late adulthood. One study, for example, found that adults over sixty had an average vocabulary size of over 21,000 words. The researchers also studied a [32] ____ of college students and found that their average vocabulary contained [33] ____ 16,000 words. In another study, older adults, with an average age of 75, [34] ____ better than participants in their youth or middle years on tasks that required them to determine the meaning of words. Thus, language seems to be a skill that, contrary to what many might [35] ____ , does not weaken with age.",
+      "options": [
+        {
+          "id": "A",
+          "text": "actually"
+        },
+        {
+          "id": "B",
+          "text": "approximately"
+        },
+        {
+          "id": "C",
+          "text": "assume"
+        },
+        {
+          "id": "D",
+          "text": "component"
+        },
+        {
+          "id": "E",
+          "text": "comprehend"
+        },
+        {
+          "id": "F",
+          "text": "deteriorate"
+        },
+        {
+          "id": "G",
+          "text": "equivalent"
+        },
+        {
+          "id": "H",
+          "text": "journey"
+        },
+        {
+          "id": "I",
+          "text": "literary"
+        },
+        {
+          "id": "J",
+          "text": "performed"
+        },
+        {
+          "id": "K",
+          "text": "rarely"
+        },
+        {
+          "id": "L",
+          "text": "sample"
+        },
+        {
+          "id": "M",
+          "text": "undermined"
+        },
+        {
+          "id": "N",
+          "text": "unique"
+        },
+        {
+          "id": "O",
+          "text": "unit"
+        }
+      ],
+      "correctAnswer": "N",
+      "hint": "先看第 26 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 N（unique）。本空所在句：And Morrison was not [26] ____ in this regard.\n将本空替换为 unique 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-1-nonlistening-q27",
+      "canonicalId": "lazynote-cet4-2024-12-1-q27",
+      "number": 27,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 27 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "When Toni Morrison died in 2019, the world lost one of its most influential authors. But Morrison was not an early success. Her first novel was not published until she was 39, and her last appeared when she was 84. And Morrison was not [26] ____ in this regard. Numerous writers produce masterpieces well into their 70s and beyond. Such [27] ____ accomplishments highlight an important point. Our capacity to speak, write and learn new vocabulary does not seem to [28] ____ with age. Our eyesight may dim and our recall may weaken, but, by comparison, our ability to produce and to [29] ____ language is well preserved into older adulthood.\n\nIndeed, the latest research that has emerged on language and aging shows that language mastery is a [30] ____ that we begin as infants and continue on for the rest of our lives. Some aspects of our language abilities, such as our knowledge of word meanings, [31] ____ improve during middle and late adulthood. One study, for example, found that adults over sixty had an average vocabulary size of over 21,000 words. The researchers also studied a [32] ____ of college students and found that their average vocabulary contained [33] ____ 16,000 words. In another study, older adults, with an average age of 75, [34] ____ better than participants in their youth or middle years on tasks that required them to determine the meaning of words. Thus, language seems to be a skill that, contrary to what many might [35] ____ , does not weaken with age.",
+      "options": [
+        {
+          "id": "A",
+          "text": "actually"
+        },
+        {
+          "id": "B",
+          "text": "approximately"
+        },
+        {
+          "id": "C",
+          "text": "assume"
+        },
+        {
+          "id": "D",
+          "text": "component"
+        },
+        {
+          "id": "E",
+          "text": "comprehend"
+        },
+        {
+          "id": "F",
+          "text": "deteriorate"
+        },
+        {
+          "id": "G",
+          "text": "equivalent"
+        },
+        {
+          "id": "H",
+          "text": "journey"
+        },
+        {
+          "id": "I",
+          "text": "literary"
+        },
+        {
+          "id": "J",
+          "text": "performed"
+        },
+        {
+          "id": "K",
+          "text": "rarely"
+        },
+        {
+          "id": "L",
+          "text": "sample"
+        },
+        {
+          "id": "M",
+          "text": "undermined"
+        },
+        {
+          "id": "N",
+          "text": "unique"
+        },
+        {
+          "id": "O",
+          "text": "unit"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "先看第 27 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 I（literary）。本空所在句：Such [27] ____ accomplishments highlight an important point.\n将本空替换为 literary 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-1-nonlistening-q28",
+      "canonicalId": "lazynote-cet4-2024-12-1-q28",
+      "number": 28,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 28 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "When Toni Morrison died in 2019, the world lost one of its most influential authors. But Morrison was not an early success. Her first novel was not published until she was 39, and her last appeared when she was 84. And Morrison was not [26] ____ in this regard. Numerous writers produce masterpieces well into their 70s and beyond. Such [27] ____ accomplishments highlight an important point. Our capacity to speak, write and learn new vocabulary does not seem to [28] ____ with age. Our eyesight may dim and our recall may weaken, but, by comparison, our ability to produce and to [29] ____ language is well preserved into older adulthood.\n\nIndeed, the latest research that has emerged on language and aging shows that language mastery is a [30] ____ that we begin as infants and continue on for the rest of our lives. Some aspects of our language abilities, such as our knowledge of word meanings, [31] ____ improve during middle and late adulthood. One study, for example, found that adults over sixty had an average vocabulary size of over 21,000 words. The researchers also studied a [32] ____ of college students and found that their average vocabulary contained [33] ____ 16,000 words. In another study, older adults, with an average age of 75, [34] ____ better than participants in their youth or middle years on tasks that required them to determine the meaning of words. Thus, language seems to be a skill that, contrary to what many might [35] ____ , does not weaken with age.",
+      "options": [
+        {
+          "id": "A",
+          "text": "actually"
+        },
+        {
+          "id": "B",
+          "text": "approximately"
+        },
+        {
+          "id": "C",
+          "text": "assume"
+        },
+        {
+          "id": "D",
+          "text": "component"
+        },
+        {
+          "id": "E",
+          "text": "comprehend"
+        },
+        {
+          "id": "F",
+          "text": "deteriorate"
+        },
+        {
+          "id": "G",
+          "text": "equivalent"
+        },
+        {
+          "id": "H",
+          "text": "journey"
+        },
+        {
+          "id": "I",
+          "text": "literary"
+        },
+        {
+          "id": "J",
+          "text": "performed"
+        },
+        {
+          "id": "K",
+          "text": "rarely"
+        },
+        {
+          "id": "L",
+          "text": "sample"
+        },
+        {
+          "id": "M",
+          "text": "undermined"
+        },
+        {
+          "id": "N",
+          "text": "unique"
+        },
+        {
+          "id": "O",
+          "text": "unit"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "先看第 28 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 F（deteriorate）。本空所在句：Our capacity to speak, write and learn new vocabulary does not seem to [28] ____ with age.\n将本空替换为 deteriorate 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-1-nonlistening-q29",
+      "canonicalId": "lazynote-cet4-2024-12-1-q29",
+      "number": 29,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 29 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "When Toni Morrison died in 2019, the world lost one of its most influential authors. But Morrison was not an early success. Her first novel was not published until she was 39, and her last appeared when she was 84. And Morrison was not [26] ____ in this regard. Numerous writers produce masterpieces well into their 70s and beyond. Such [27] ____ accomplishments highlight an important point. Our capacity to speak, write and learn new vocabulary does not seem to [28] ____ with age. Our eyesight may dim and our recall may weaken, but, by comparison, our ability to produce and to [29] ____ language is well preserved into older adulthood.\n\nIndeed, the latest research that has emerged on language and aging shows that language mastery is a [30] ____ that we begin as infants and continue on for the rest of our lives. Some aspects of our language abilities, such as our knowledge of word meanings, [31] ____ improve during middle and late adulthood. One study, for example, found that adults over sixty had an average vocabulary size of over 21,000 words. The researchers also studied a [32] ____ of college students and found that their average vocabulary contained [33] ____ 16,000 words. In another study, older adults, with an average age of 75, [34] ____ better than participants in their youth or middle years on tasks that required them to determine the meaning of words. Thus, language seems to be a skill that, contrary to what many might [35] ____ , does not weaken with age.",
+      "options": [
+        {
+          "id": "A",
+          "text": "actually"
+        },
+        {
+          "id": "B",
+          "text": "approximately"
+        },
+        {
+          "id": "C",
+          "text": "assume"
+        },
+        {
+          "id": "D",
+          "text": "component"
+        },
+        {
+          "id": "E",
+          "text": "comprehend"
+        },
+        {
+          "id": "F",
+          "text": "deteriorate"
+        },
+        {
+          "id": "G",
+          "text": "equivalent"
+        },
+        {
+          "id": "H",
+          "text": "journey"
+        },
+        {
+          "id": "I",
+          "text": "literary"
+        },
+        {
+          "id": "J",
+          "text": "performed"
+        },
+        {
+          "id": "K",
+          "text": "rarely"
+        },
+        {
+          "id": "L",
+          "text": "sample"
+        },
+        {
+          "id": "M",
+          "text": "undermined"
+        },
+        {
+          "id": "N",
+          "text": "unique"
+        },
+        {
+          "id": "O",
+          "text": "unit"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "先看第 29 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 E（comprehend）。本空所在句：Our eyesight may dim and our recall may weaken, but, by comparison, our ability to produce and to [29] ____ language is well preserved into older adulthood.\n将本空替换为 comprehend 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-1-nonlistening-q30",
+      "canonicalId": "lazynote-cet4-2024-12-1-q30",
+      "number": 30,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 30 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "When Toni Morrison died in 2019, the world lost one of its most influential authors. But Morrison was not an early success. Her first novel was not published until she was 39, and her last appeared when she was 84. And Morrison was not [26] ____ in this regard. Numerous writers produce masterpieces well into their 70s and beyond. Such [27] ____ accomplishments highlight an important point. Our capacity to speak, write and learn new vocabulary does not seem to [28] ____ with age. Our eyesight may dim and our recall may weaken, but, by comparison, our ability to produce and to [29] ____ language is well preserved into older adulthood.\n\nIndeed, the latest research that has emerged on language and aging shows that language mastery is a [30] ____ that we begin as infants and continue on for the rest of our lives. Some aspects of our language abilities, such as our knowledge of word meanings, [31] ____ improve during middle and late adulthood. One study, for example, found that adults over sixty had an average vocabulary size of over 21,000 words. The researchers also studied a [32] ____ of college students and found that their average vocabulary contained [33] ____ 16,000 words. In another study, older adults, with an average age of 75, [34] ____ better than participants in their youth or middle years on tasks that required them to determine the meaning of words. Thus, language seems to be a skill that, contrary to what many might [35] ____ , does not weaken with age.",
+      "options": [
+        {
+          "id": "A",
+          "text": "actually"
+        },
+        {
+          "id": "B",
+          "text": "approximately"
+        },
+        {
+          "id": "C",
+          "text": "assume"
+        },
+        {
+          "id": "D",
+          "text": "component"
+        },
+        {
+          "id": "E",
+          "text": "comprehend"
+        },
+        {
+          "id": "F",
+          "text": "deteriorate"
+        },
+        {
+          "id": "G",
+          "text": "equivalent"
+        },
+        {
+          "id": "H",
+          "text": "journey"
+        },
+        {
+          "id": "I",
+          "text": "literary"
+        },
+        {
+          "id": "J",
+          "text": "performed"
+        },
+        {
+          "id": "K",
+          "text": "rarely"
+        },
+        {
+          "id": "L",
+          "text": "sample"
+        },
+        {
+          "id": "M",
+          "text": "undermined"
+        },
+        {
+          "id": "N",
+          "text": "unique"
+        },
+        {
+          "id": "O",
+          "text": "unit"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "先看第 30 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 H（journey）。本空所在句：Indeed, the latest research that has emerged on language and aging shows that language mastery is a [30] ____ that we begin as infants and continue on for the rest of our lives.\n将本空替换为 journey 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-1-nonlistening-q31",
+      "canonicalId": "lazynote-cet4-2024-12-1-q31",
+      "number": 31,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 31 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "When Toni Morrison died in 2019, the world lost one of its most influential authors. But Morrison was not an early success. Her first novel was not published until she was 39, and her last appeared when she was 84. And Morrison was not [26] ____ in this regard. Numerous writers produce masterpieces well into their 70s and beyond. Such [27] ____ accomplishments highlight an important point. Our capacity to speak, write and learn new vocabulary does not seem to [28] ____ with age. Our eyesight may dim and our recall may weaken, but, by comparison, our ability to produce and to [29] ____ language is well preserved into older adulthood.\n\nIndeed, the latest research that has emerged on language and aging shows that language mastery is a [30] ____ that we begin as infants and continue on for the rest of our lives. Some aspects of our language abilities, such as our knowledge of word meanings, [31] ____ improve during middle and late adulthood. One study, for example, found that adults over sixty had an average vocabulary size of over 21,000 words. The researchers also studied a [32] ____ of college students and found that their average vocabulary contained [33] ____ 16,000 words. In another study, older adults, with an average age of 75, [34] ____ better than participants in their youth or middle years on tasks that required them to determine the meaning of words. Thus, language seems to be a skill that, contrary to what many might [35] ____ , does not weaken with age.",
+      "options": [
+        {
+          "id": "A",
+          "text": "actually"
+        },
+        {
+          "id": "B",
+          "text": "approximately"
+        },
+        {
+          "id": "C",
+          "text": "assume"
+        },
+        {
+          "id": "D",
+          "text": "component"
+        },
+        {
+          "id": "E",
+          "text": "comprehend"
+        },
+        {
+          "id": "F",
+          "text": "deteriorate"
+        },
+        {
+          "id": "G",
+          "text": "equivalent"
+        },
+        {
+          "id": "H",
+          "text": "journey"
+        },
+        {
+          "id": "I",
+          "text": "literary"
+        },
+        {
+          "id": "J",
+          "text": "performed"
+        },
+        {
+          "id": "K",
+          "text": "rarely"
+        },
+        {
+          "id": "L",
+          "text": "sample"
+        },
+        {
+          "id": "M",
+          "text": "undermined"
+        },
+        {
+          "id": "N",
+          "text": "unique"
+        },
+        {
+          "id": "O",
+          "text": "unit"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "先看第 31 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 A（actually）。本空所在句：Some aspects of our language abilities, such as our knowledge of word meanings, [31] ____ improve during middle and late adulthood.\n将本空替换为 actually 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-1-nonlistening-q32",
+      "canonicalId": "lazynote-cet4-2024-12-1-q32",
+      "number": 32,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 32 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "When Toni Morrison died in 2019, the world lost one of its most influential authors. But Morrison was not an early success. Her first novel was not published until she was 39, and her last appeared when she was 84. And Morrison was not [26] ____ in this regard. Numerous writers produce masterpieces well into their 70s and beyond. Such [27] ____ accomplishments highlight an important point. Our capacity to speak, write and learn new vocabulary does not seem to [28] ____ with age. Our eyesight may dim and our recall may weaken, but, by comparison, our ability to produce and to [29] ____ language is well preserved into older adulthood.\n\nIndeed, the latest research that has emerged on language and aging shows that language mastery is a [30] ____ that we begin as infants and continue on for the rest of our lives. Some aspects of our language abilities, such as our knowledge of word meanings, [31] ____ improve during middle and late adulthood. One study, for example, found that adults over sixty had an average vocabulary size of over 21,000 words. The researchers also studied a [32] ____ of college students and found that their average vocabulary contained [33] ____ 16,000 words. In another study, older adults, with an average age of 75, [34] ____ better than participants in their youth or middle years on tasks that required them to determine the meaning of words. Thus, language seems to be a skill that, contrary to what many might [35] ____ , does not weaken with age.",
+      "options": [
+        {
+          "id": "A",
+          "text": "actually"
+        },
+        {
+          "id": "B",
+          "text": "approximately"
+        },
+        {
+          "id": "C",
+          "text": "assume"
+        },
+        {
+          "id": "D",
+          "text": "component"
+        },
+        {
+          "id": "E",
+          "text": "comprehend"
+        },
+        {
+          "id": "F",
+          "text": "deteriorate"
+        },
+        {
+          "id": "G",
+          "text": "equivalent"
+        },
+        {
+          "id": "H",
+          "text": "journey"
+        },
+        {
+          "id": "I",
+          "text": "literary"
+        },
+        {
+          "id": "J",
+          "text": "performed"
+        },
+        {
+          "id": "K",
+          "text": "rarely"
+        },
+        {
+          "id": "L",
+          "text": "sample"
+        },
+        {
+          "id": "M",
+          "text": "undermined"
+        },
+        {
+          "id": "N",
+          "text": "unique"
+        },
+        {
+          "id": "O",
+          "text": "unit"
+        }
+      ],
+      "correctAnswer": "L",
+      "hint": "先看第 32 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 L（sample）。本空所在句：The researchers also studied a [32] ____ of college students and found that their average vocabulary contained [33] ____ 16,000 words.\n将本空替换为 sample 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-1-nonlistening-q33",
+      "canonicalId": "lazynote-cet4-2024-12-1-q33",
+      "number": 33,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 33 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "When Toni Morrison died in 2019, the world lost one of its most influential authors. But Morrison was not an early success. Her first novel was not published until she was 39, and her last appeared when she was 84. And Morrison was not [26] ____ in this regard. Numerous writers produce masterpieces well into their 70s and beyond. Such [27] ____ accomplishments highlight an important point. Our capacity to speak, write and learn new vocabulary does not seem to [28] ____ with age. Our eyesight may dim and our recall may weaken, but, by comparison, our ability to produce and to [29] ____ language is well preserved into older adulthood.\n\nIndeed, the latest research that has emerged on language and aging shows that language mastery is a [30] ____ that we begin as infants and continue on for the rest of our lives. Some aspects of our language abilities, such as our knowledge of word meanings, [31] ____ improve during middle and late adulthood. One study, for example, found that adults over sixty had an average vocabulary size of over 21,000 words. The researchers also studied a [32] ____ of college students and found that their average vocabulary contained [33] ____ 16,000 words. In another study, older adults, with an average age of 75, [34] ____ better than participants in their youth or middle years on tasks that required them to determine the meaning of words. Thus, language seems to be a skill that, contrary to what many might [35] ____ , does not weaken with age.",
+      "options": [
+        {
+          "id": "A",
+          "text": "actually"
+        },
+        {
+          "id": "B",
+          "text": "approximately"
+        },
+        {
+          "id": "C",
+          "text": "assume"
+        },
+        {
+          "id": "D",
+          "text": "component"
+        },
+        {
+          "id": "E",
+          "text": "comprehend"
+        },
+        {
+          "id": "F",
+          "text": "deteriorate"
+        },
+        {
+          "id": "G",
+          "text": "equivalent"
+        },
+        {
+          "id": "H",
+          "text": "journey"
+        },
+        {
+          "id": "I",
+          "text": "literary"
+        },
+        {
+          "id": "J",
+          "text": "performed"
+        },
+        {
+          "id": "K",
+          "text": "rarely"
+        },
+        {
+          "id": "L",
+          "text": "sample"
+        },
+        {
+          "id": "M",
+          "text": "undermined"
+        },
+        {
+          "id": "N",
+          "text": "unique"
+        },
+        {
+          "id": "O",
+          "text": "unit"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "先看第 33 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 B（approximately）。本空所在句：The researchers also studied a [32] ____ of college students and found that their average vocabulary contained [33] ____ 16,000 words.\n将本空替换为 approximately 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-1-nonlistening-q34",
+      "canonicalId": "lazynote-cet4-2024-12-1-q34",
+      "number": 34,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 34 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "When Toni Morrison died in 2019, the world lost one of its most influential authors. But Morrison was not an early success. Her first novel was not published until she was 39, and her last appeared when she was 84. And Morrison was not [26] ____ in this regard. Numerous writers produce masterpieces well into their 70s and beyond. Such [27] ____ accomplishments highlight an important point. Our capacity to speak, write and learn new vocabulary does not seem to [28] ____ with age. Our eyesight may dim and our recall may weaken, but, by comparison, our ability to produce and to [29] ____ language is well preserved into older adulthood.\n\nIndeed, the latest research that has emerged on language and aging shows that language mastery is a [30] ____ that we begin as infants and continue on for the rest of our lives. Some aspects of our language abilities, such as our knowledge of word meanings, [31] ____ improve during middle and late adulthood. One study, for example, found that adults over sixty had an average vocabulary size of over 21,000 words. The researchers also studied a [32] ____ of college students and found that their average vocabulary contained [33] ____ 16,000 words. In another study, older adults, with an average age of 75, [34] ____ better than participants in their youth or middle years on tasks that required them to determine the meaning of words. Thus, language seems to be a skill that, contrary to what many might [35] ____ , does not weaken with age.",
+      "options": [
+        {
+          "id": "A",
+          "text": "actually"
+        },
+        {
+          "id": "B",
+          "text": "approximately"
+        },
+        {
+          "id": "C",
+          "text": "assume"
+        },
+        {
+          "id": "D",
+          "text": "component"
+        },
+        {
+          "id": "E",
+          "text": "comprehend"
+        },
+        {
+          "id": "F",
+          "text": "deteriorate"
+        },
+        {
+          "id": "G",
+          "text": "equivalent"
+        },
+        {
+          "id": "H",
+          "text": "journey"
+        },
+        {
+          "id": "I",
+          "text": "literary"
+        },
+        {
+          "id": "J",
+          "text": "performed"
+        },
+        {
+          "id": "K",
+          "text": "rarely"
+        },
+        {
+          "id": "L",
+          "text": "sample"
+        },
+        {
+          "id": "M",
+          "text": "undermined"
+        },
+        {
+          "id": "N",
+          "text": "unique"
+        },
+        {
+          "id": "O",
+          "text": "unit"
+        }
+      ],
+      "correctAnswer": "J",
+      "hint": "先看第 34 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 J（performed）。本空所在句：In another study, older adults, with an average age of 75, [34] ____ better than participants in their youth or middle years on tasks that required them to determine the meaning of words.\n将本空替换为 performed 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-1-nonlistening-q35",
+      "canonicalId": "lazynote-cet4-2024-12-1-q35",
+      "number": 35,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 35 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "When Toni Morrison died in 2019, the world lost one of its most influential authors. But Morrison was not an early success. Her first novel was not published until she was 39, and her last appeared when she was 84. And Morrison was not [26] ____ in this regard. Numerous writers produce masterpieces well into their 70s and beyond. Such [27] ____ accomplishments highlight an important point. Our capacity to speak, write and learn new vocabulary does not seem to [28] ____ with age. Our eyesight may dim and our recall may weaken, but, by comparison, our ability to produce and to [29] ____ language is well preserved into older adulthood.\n\nIndeed, the latest research that has emerged on language and aging shows that language mastery is a [30] ____ that we begin as infants and continue on for the rest of our lives. Some aspects of our language abilities, such as our knowledge of word meanings, [31] ____ improve during middle and late adulthood. One study, for example, found that adults over sixty had an average vocabulary size of over 21,000 words. The researchers also studied a [32] ____ of college students and found that their average vocabulary contained [33] ____ 16,000 words. In another study, older adults, with an average age of 75, [34] ____ better than participants in their youth or middle years on tasks that required them to determine the meaning of words. Thus, language seems to be a skill that, contrary to what many might [35] ____ , does not weaken with age.",
+      "options": [
+        {
+          "id": "A",
+          "text": "actually"
+        },
+        {
+          "id": "B",
+          "text": "approximately"
+        },
+        {
+          "id": "C",
+          "text": "assume"
+        },
+        {
+          "id": "D",
+          "text": "component"
+        },
+        {
+          "id": "E",
+          "text": "comprehend"
+        },
+        {
+          "id": "F",
+          "text": "deteriorate"
+        },
+        {
+          "id": "G",
+          "text": "equivalent"
+        },
+        {
+          "id": "H",
+          "text": "journey"
+        },
+        {
+          "id": "I",
+          "text": "literary"
+        },
+        {
+          "id": "J",
+          "text": "performed"
+        },
+        {
+          "id": "K",
+          "text": "rarely"
+        },
+        {
+          "id": "L",
+          "text": "sample"
+        },
+        {
+          "id": "M",
+          "text": "undermined"
+        },
+        {
+          "id": "N",
+          "text": "unique"
+        },
+        {
+          "id": "O",
+          "text": "unit"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "先看第 35 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 C（assume）。本空所在句：Thus, language seems to be a skill that, contrary to what many might [35] ____ , does not weaken with age.\n将本空替换为 assume 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-1-nonlistening-q36",
+      "canonicalId": "lazynote-cet4-2024-12-1-q36",
+      "number": 36,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "According to a management expert, work-life balance is not as simple as giving equal amounts of time to work and personal life.",
+      "passage": "Why it's wrong to look at work-life balance as an achievement\n\nA) Few topics have been so endlessly analysed as work-life balance. The quest to attain this mysterious state has dominated discussion around careers for years—especially for working parents. The concept is often presented as something to achieve, or a goal to reach. And once you've reached it, congratulations: you've made it; you're a successful human being of the 21st century.\n\nB) But the problem is that we often tell ourselves: \"I'm going to put in eight hours' worth of work, and then I'm going to put in eight hours' worth of 'me time', which will include my family, my hobbies, my workout, my everything,\" says Anat Lechner, clinical associate professor of management at New York University. \"I don't think it's such a simple formula.\"\n\nC) And, according to new findings, it may not be. Some researchers are now encouraging us to stop thinking about work-life balance as an achievement that you either hit or don't. Instead, they suggest it may be more of a lifelong process—a continuous, never-ending exercise that requires self-awareness and timely adjustments. Researchers Ioana Lupu and Mayra Ruiz-Castro argue that work-life balance is \"a cycle, not an achievement\". In their 2020 study, the researchers interviewed nearly 80 employees at two London-based firms—an equal number of men and women between the ages of 30 and 50, all with at least one dependent child—who worked in middle or senior management roles.\n\nD) Although it sounds like the respondents had a lot in common, here's what separated them: about 30% of the men and 50% of the women reported resisting working long hours. The other respondents, meanwhile, all worked long hours because they thought that's what successful professionals should do.\n\nE) Lupu and Ruiz-Castro looked at those who rejected the long hours and they found that those workers actually had strikingly similar strategies for maintaining their work-life balance. They had a tendency to reflect and question assumptions in the name of self-awareness and regularly took steps to adjust the things standing in their way to work-life balance.\n\nF) Lupu and Ruiz-Castro identified five steps that the respondents in the study who had better work-life balance used in their jobs. First, they paused and reconsidered beliefs such as \"I'm a professional, so I should work, work, work\", and asked themselves questions like, \"What's currently causing me stress?\" Second, after identifying the cause, they zeroed in on their resultant emotions. Did they feel angry, sad, energised? Third, they reprioritised, asking \"Is working long hours really worth cutting back on family time?\", for example. Fourth, they considered their alternatives: is there anything at work that could be changed to accommodate these new priorities? And finally, they implemented changes, like asking their supervisor for greater flexibility, or deciding not to take on every project that comes their way.\n\nG) This five-step process is something anyone can adopt. Going through the steps, and constantly checking in with yourself, can help you shift and adapt your professional life to something that will better harmonise with your personal one. \"Awareness of your emotional state is essential in order to determine the changes you want to make in your work and in your life,\" says Lupu.\n\nH) New York University's Lechner agrees that finding that balance is an ongoing pursuit. It's not simply about dividing up the hours in your day between work, the gym, kids and chores. If the underlying emotional sources of stress are still there, then the time you actually spend at home may not be enjoyable. \"We come home and even though physically we are there, mentally we still may be processing things that happened at work. We're not present,\" she says. What we call \"work-life balance\" is actually just a substitute to having a sense of fulfillment and contentment.\n\nI) Of course, finding that balance probably shouldn't be something you have to do by yourself. Research by Erin Kelly, professor of work and organisation studies at MIT, shows companies and managers can play a key role in creating a better environment for workers. For her book Overload: How Good Jobs Went Bad and What to Do about It, she and co-author Phyllis Moen split more than 1,000 employees at a Fortune 500 company into two groups, one that worked under a management redesign and one that continued working within the existing management structure.\n\nJ) Under the management redesign, many steps were taken to ensure better work-life balance and prevent burnout(精疲力竭). Managers were regularly reminded to explicitly support their employees. Workers were allowed to make changes, like cancelling 9 am meetings. All of this was done in the name of increasing job satisfaction and giving workers greater flexibility, and to assure workers that it was something management was committed to. Unsurprisingly, Kelly and Moen found that employees in the redesign group reported less stress and less burnout. They were less likely to quit their jobs; indeed, over the next four years, they were 40% less likely to quit than those who kept working under the old policies.\n\nK) \"Work-life balance is understood to be an individual's response, so people think 'it's up to me to manage the craziness of my work life'\", says Kelly. But organisations need to examine the demands they're placing on employees. \"The root problem is not how the two pieces of work and life come together. It's that we have unrealistic expectations of what we're asked to do on the work side.\" If your workplace isn't an environment where work-life balance is possible in the first place, any effort you attempt to make toward it on a personal level will be in vain.\n\nL) That's a conversation that appears to be gathering pace. The new prevalence of remote and flexible working models will likely all play important roles in how we balance our professional and personal lives. And if it seems like finding that perfect balance remains difficult to achieve, the experts say that keeping some perspective can help. For millions of people, work is about being able to put food on the table. Talking about work-life balance \"is a very privileged conversation\", says Lechner. \"If we're reflecting, maybe we should also reflect on that.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 B 段。题干：According to a management expert, work-life balance is not as simple as giving equal amounts of time to work and personal life.\n核对该段原文：But the problem is that we often tell ourselves: \"I'm going to put in eight hours' worth of work, and then I'm going to put in eight hours' worth of 'me time', which will include my family, my hobbies, my workout, my everything,\" says Anat Lechner, clinical associate professor of management at New York University. \"I don't think it's such a simple formula.\"\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-1-nonlistening-q37",
+      "canonicalId": "lazynote-cet4-2024-12-1-q37",
+      "number": 37,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Research found that those who are given greater flexibility at work are less stressed and more likely to stay in their jobs.",
+      "passage": "Why it's wrong to look at work-life balance as an achievement\n\nA) Few topics have been so endlessly analysed as work-life balance. The quest to attain this mysterious state has dominated discussion around careers for years—especially for working parents. The concept is often presented as something to achieve, or a goal to reach. And once you've reached it, congratulations: you've made it; you're a successful human being of the 21st century.\n\nB) But the problem is that we often tell ourselves: \"I'm going to put in eight hours' worth of work, and then I'm going to put in eight hours' worth of 'me time', which will include my family, my hobbies, my workout, my everything,\" says Anat Lechner, clinical associate professor of management at New York University. \"I don't think it's such a simple formula.\"\n\nC) And, according to new findings, it may not be. Some researchers are now encouraging us to stop thinking about work-life balance as an achievement that you either hit or don't. Instead, they suggest it may be more of a lifelong process—a continuous, never-ending exercise that requires self-awareness and timely adjustments. Researchers Ioana Lupu and Mayra Ruiz-Castro argue that work-life balance is \"a cycle, not an achievement\". In their 2020 study, the researchers interviewed nearly 80 employees at two London-based firms—an equal number of men and women between the ages of 30 and 50, all with at least one dependent child—who worked in middle or senior management roles.\n\nD) Although it sounds like the respondents had a lot in common, here's what separated them: about 30% of the men and 50% of the women reported resisting working long hours. The other respondents, meanwhile, all worked long hours because they thought that's what successful professionals should do.\n\nE) Lupu and Ruiz-Castro looked at those who rejected the long hours and they found that those workers actually had strikingly similar strategies for maintaining their work-life balance. They had a tendency to reflect and question assumptions in the name of self-awareness and regularly took steps to adjust the things standing in their way to work-life balance.\n\nF) Lupu and Ruiz-Castro identified five steps that the respondents in the study who had better work-life balance used in their jobs. First, they paused and reconsidered beliefs such as \"I'm a professional, so I should work, work, work\", and asked themselves questions like, \"What's currently causing me stress?\" Second, after identifying the cause, they zeroed in on their resultant emotions. Did they feel angry, sad, energised? Third, they reprioritised, asking \"Is working long hours really worth cutting back on family time?\", for example. Fourth, they considered their alternatives: is there anything at work that could be changed to accommodate these new priorities? And finally, they implemented changes, like asking their supervisor for greater flexibility, or deciding not to take on every project that comes their way.\n\nG) This five-step process is something anyone can adopt. Going through the steps, and constantly checking in with yourself, can help you shift and adapt your professional life to something that will better harmonise with your personal one. \"Awareness of your emotional state is essential in order to determine the changes you want to make in your work and in your life,\" says Lupu.\n\nH) New York University's Lechner agrees that finding that balance is an ongoing pursuit. It's not simply about dividing up the hours in your day between work, the gym, kids and chores. If the underlying emotional sources of stress are still there, then the time you actually spend at home may not be enjoyable. \"We come home and even though physically we are there, mentally we still may be processing things that happened at work. We're not present,\" she says. What we call \"work-life balance\" is actually just a substitute to having a sense of fulfillment and contentment.\n\nI) Of course, finding that balance probably shouldn't be something you have to do by yourself. Research by Erin Kelly, professor of work and organisation studies at MIT, shows companies and managers can play a key role in creating a better environment for workers. For her book Overload: How Good Jobs Went Bad and What to Do about It, she and co-author Phyllis Moen split more than 1,000 employees at a Fortune 500 company into two groups, one that worked under a management redesign and one that continued working within the existing management structure.\n\nJ) Under the management redesign, many steps were taken to ensure better work-life balance and prevent burnout(精疲力竭). Managers were regularly reminded to explicitly support their employees. Workers were allowed to make changes, like cancelling 9 am meetings. All of this was done in the name of increasing job satisfaction and giving workers greater flexibility, and to assure workers that it was something management was committed to. Unsurprisingly, Kelly and Moen found that employees in the redesign group reported less stress and less burnout. They were less likely to quit their jobs; indeed, over the next four years, they were 40% less likely to quit than those who kept working under the old policies.\n\nK) \"Work-life balance is understood to be an individual's response, so people think 'it's up to me to manage the craziness of my work life'\", says Kelly. But organisations need to examine the demands they're placing on employees. \"The root problem is not how the two pieces of work and life come together. It's that we have unrealistic expectations of what we're asked to do on the work side.\" If your workplace isn't an environment where work-life balance is possible in the first place, any effort you attempt to make toward it on a personal level will be in vain.\n\nL) That's a conversation that appears to be gathering pace. The new prevalence of remote and flexible working models will likely all play important roles in how we balance our professional and personal lives. And if it seems like finding that perfect balance remains difficult to achieve, the experts say that keeping some perspective can help. For millions of people, work is about being able to put food on the table. Talking about work-life balance \"is a very privileged conversation\", says Lechner. \"If we're reflecting, maybe we should also reflect on that.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "J",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 J 段。题干：Research found that those who are given greater flexibility at work are less stressed and more likely to stay in their jobs.\n核对该段原文：Under the management redesign, many steps were taken to ensure better work-life balance and prevent burnout(精疲力竭). Managers were regularly reminded to explicitly support their employees. Workers were allowed to make changes, like cancelling 9 am meetings. All of this was done in the name of increasing job satisfaction and giving workers greater flexibility, and to assure workers that it was something management was committed to. Unsurprisingly, Kelly and Moen found that employees in the redesign group reported less stress and less burnout. They were less likely to quit their jobs; indeed, over the next four years, they were 40% less likely to quit than those who kept working under the old policies.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-1-nonlistening-q38",
+      "canonicalId": "lazynote-cet4-2024-12-1-q38",
+      "number": 38,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Workers who rejected working long hours tended to make regular adjustments in order to achieve work-life balance.",
+      "passage": "Why it's wrong to look at work-life balance as an achievement\n\nA) Few topics have been so endlessly analysed as work-life balance. The quest to attain this mysterious state has dominated discussion around careers for years—especially for working parents. The concept is often presented as something to achieve, or a goal to reach. And once you've reached it, congratulations: you've made it; you're a successful human being of the 21st century.\n\nB) But the problem is that we often tell ourselves: \"I'm going to put in eight hours' worth of work, and then I'm going to put in eight hours' worth of 'me time', which will include my family, my hobbies, my workout, my everything,\" says Anat Lechner, clinical associate professor of management at New York University. \"I don't think it's such a simple formula.\"\n\nC) And, according to new findings, it may not be. Some researchers are now encouraging us to stop thinking about work-life balance as an achievement that you either hit or don't. Instead, they suggest it may be more of a lifelong process—a continuous, never-ending exercise that requires self-awareness and timely adjustments. Researchers Ioana Lupu and Mayra Ruiz-Castro argue that work-life balance is \"a cycle, not an achievement\". In their 2020 study, the researchers interviewed nearly 80 employees at two London-based firms—an equal number of men and women between the ages of 30 and 50, all with at least one dependent child—who worked in middle or senior management roles.\n\nD) Although it sounds like the respondents had a lot in common, here's what separated them: about 30% of the men and 50% of the women reported resisting working long hours. The other respondents, meanwhile, all worked long hours because they thought that's what successful professionals should do.\n\nE) Lupu and Ruiz-Castro looked at those who rejected the long hours and they found that those workers actually had strikingly similar strategies for maintaining their work-life balance. They had a tendency to reflect and question assumptions in the name of self-awareness and regularly took steps to adjust the things standing in their way to work-life balance.\n\nF) Lupu and Ruiz-Castro identified five steps that the respondents in the study who had better work-life balance used in their jobs. First, they paused and reconsidered beliefs such as \"I'm a professional, so I should work, work, work\", and asked themselves questions like, \"What's currently causing me stress?\" Second, after identifying the cause, they zeroed in on their resultant emotions. Did they feel angry, sad, energised? Third, they reprioritised, asking \"Is working long hours really worth cutting back on family time?\", for example. Fourth, they considered their alternatives: is there anything at work that could be changed to accommodate these new priorities? And finally, they implemented changes, like asking their supervisor for greater flexibility, or deciding not to take on every project that comes their way.\n\nG) This five-step process is something anyone can adopt. Going through the steps, and constantly checking in with yourself, can help you shift and adapt your professional life to something that will better harmonise with your personal one. \"Awareness of your emotional state is essential in order to determine the changes you want to make in your work and in your life,\" says Lupu.\n\nH) New York University's Lechner agrees that finding that balance is an ongoing pursuit. It's not simply about dividing up the hours in your day between work, the gym, kids and chores. If the underlying emotional sources of stress are still there, then the time you actually spend at home may not be enjoyable. \"We come home and even though physically we are there, mentally we still may be processing things that happened at work. We're not present,\" she says. What we call \"work-life balance\" is actually just a substitute to having a sense of fulfillment and contentment.\n\nI) Of course, finding that balance probably shouldn't be something you have to do by yourself. Research by Erin Kelly, professor of work and organisation studies at MIT, shows companies and managers can play a key role in creating a better environment for workers. For her book Overload: How Good Jobs Went Bad and What to Do about It, she and co-author Phyllis Moen split more than 1,000 employees at a Fortune 500 company into two groups, one that worked under a management redesign and one that continued working within the existing management structure.\n\nJ) Under the management redesign, many steps were taken to ensure better work-life balance and prevent burnout(精疲力竭). Managers were regularly reminded to explicitly support their employees. Workers were allowed to make changes, like cancelling 9 am meetings. All of this was done in the name of increasing job satisfaction and giving workers greater flexibility, and to assure workers that it was something management was committed to. Unsurprisingly, Kelly and Moen found that employees in the redesign group reported less stress and less burnout. They were less likely to quit their jobs; indeed, over the next four years, they were 40% less likely to quit than those who kept working under the old policies.\n\nK) \"Work-life balance is understood to be an individual's response, so people think 'it's up to me to manage the craziness of my work life'\", says Kelly. But organisations need to examine the demands they're placing on employees. \"The root problem is not how the two pieces of work and life come together. It's that we have unrealistic expectations of what we're asked to do on the work side.\" If your workplace isn't an environment where work-life balance is possible in the first place, any effort you attempt to make toward it on a personal level will be in vain.\n\nL) That's a conversation that appears to be gathering pace. The new prevalence of remote and flexible working models will likely all play important roles in how we balance our professional and personal lives. And if it seems like finding that perfect balance remains difficult to achieve, the experts say that keeping some perspective can help. For millions of people, work is about being able to put food on the table. Talking about work-life balance \"is a very privileged conversation\", says Lechner. \"If we're reflecting, maybe we should also reflect on that.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 E 段。题干：Workers who rejected working long hours tended to make regular adjustments in order to achieve work-life balance.\n核对该段原文：Lupu and Ruiz-Castro looked at those who rejected the long hours and they found that those workers actually had strikingly similar strategies for maintaining their work-life balance. They had a tendency to reflect and question assumptions in the name of self-awareness and regularly took steps to adjust the things standing in their way to work-life balance.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-1-nonlistening-q39",
+      "canonicalId": "lazynote-cet4-2024-12-1-q39",
+      "number": 39,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Talking about work-life balance is said to be a privilege reserved for the better-off, not for those who barely make a living.",
+      "passage": "Why it's wrong to look at work-life balance as an achievement\n\nA) Few topics have been so endlessly analysed as work-life balance. The quest to attain this mysterious state has dominated discussion around careers for years—especially for working parents. The concept is often presented as something to achieve, or a goal to reach. And once you've reached it, congratulations: you've made it; you're a successful human being of the 21st century.\n\nB) But the problem is that we often tell ourselves: \"I'm going to put in eight hours' worth of work, and then I'm going to put in eight hours' worth of 'me time', which will include my family, my hobbies, my workout, my everything,\" says Anat Lechner, clinical associate professor of management at New York University. \"I don't think it's such a simple formula.\"\n\nC) And, according to new findings, it may not be. Some researchers are now encouraging us to stop thinking about work-life balance as an achievement that you either hit or don't. Instead, they suggest it may be more of a lifelong process—a continuous, never-ending exercise that requires self-awareness and timely adjustments. Researchers Ioana Lupu and Mayra Ruiz-Castro argue that work-life balance is \"a cycle, not an achievement\". In their 2020 study, the researchers interviewed nearly 80 employees at two London-based firms—an equal number of men and women between the ages of 30 and 50, all with at least one dependent child—who worked in middle or senior management roles.\n\nD) Although it sounds like the respondents had a lot in common, here's what separated them: about 30% of the men and 50% of the women reported resisting working long hours. The other respondents, meanwhile, all worked long hours because they thought that's what successful professionals should do.\n\nE) Lupu and Ruiz-Castro looked at those who rejected the long hours and they found that those workers actually had strikingly similar strategies for maintaining their work-life balance. They had a tendency to reflect and question assumptions in the name of self-awareness and regularly took steps to adjust the things standing in their way to work-life balance.\n\nF) Lupu and Ruiz-Castro identified five steps that the respondents in the study who had better work-life balance used in their jobs. First, they paused and reconsidered beliefs such as \"I'm a professional, so I should work, work, work\", and asked themselves questions like, \"What's currently causing me stress?\" Second, after identifying the cause, they zeroed in on their resultant emotions. Did they feel angry, sad, energised? Third, they reprioritised, asking \"Is working long hours really worth cutting back on family time?\", for example. Fourth, they considered their alternatives: is there anything at work that could be changed to accommodate these new priorities? And finally, they implemented changes, like asking their supervisor for greater flexibility, or deciding not to take on every project that comes their way.\n\nG) This five-step process is something anyone can adopt. Going through the steps, and constantly checking in with yourself, can help you shift and adapt your professional life to something that will better harmonise with your personal one. \"Awareness of your emotional state is essential in order to determine the changes you want to make in your work and in your life,\" says Lupu.\n\nH) New York University's Lechner agrees that finding that balance is an ongoing pursuit. It's not simply about dividing up the hours in your day between work, the gym, kids and chores. If the underlying emotional sources of stress are still there, then the time you actually spend at home may not be enjoyable. \"We come home and even though physically we are there, mentally we still may be processing things that happened at work. We're not present,\" she says. What we call \"work-life balance\" is actually just a substitute to having a sense of fulfillment and contentment.\n\nI) Of course, finding that balance probably shouldn't be something you have to do by yourself. Research by Erin Kelly, professor of work and organisation studies at MIT, shows companies and managers can play a key role in creating a better environment for workers. For her book Overload: How Good Jobs Went Bad and What to Do about It, she and co-author Phyllis Moen split more than 1,000 employees at a Fortune 500 company into two groups, one that worked under a management redesign and one that continued working within the existing management structure.\n\nJ) Under the management redesign, many steps were taken to ensure better work-life balance and prevent burnout(精疲力竭). Managers were regularly reminded to explicitly support their employees. Workers were allowed to make changes, like cancelling 9 am meetings. All of this was done in the name of increasing job satisfaction and giving workers greater flexibility, and to assure workers that it was something management was committed to. Unsurprisingly, Kelly and Moen found that employees in the redesign group reported less stress and less burnout. They were less likely to quit their jobs; indeed, over the next four years, they were 40% less likely to quit than those who kept working under the old policies.\n\nK) \"Work-life balance is understood to be an individual's response, so people think 'it's up to me to manage the craziness of my work life'\", says Kelly. But organisations need to examine the demands they're placing on employees. \"The root problem is not how the two pieces of work and life come together. It's that we have unrealistic expectations of what we're asked to do on the work side.\" If your workplace isn't an environment where work-life balance is possible in the first place, any effort you attempt to make toward it on a personal level will be in vain.\n\nL) That's a conversation that appears to be gathering pace. The new prevalence of remote and flexible working models will likely all play important roles in how we balance our professional and personal lives. And if it seems like finding that perfect balance remains difficult to achieve, the experts say that keeping some perspective can help. For millions of people, work is about being able to put food on the table. Talking about work-life balance \"is a very privileged conversation\", says Lechner. \"If we're reflecting, maybe we should also reflect on that.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "L",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 L 段。题干：Talking about work-life balance is said to be a privilege reserved for the better-off, not for those who barely make a living.\n核对该段原文：That's a conversation that appears to be gathering pace. The new prevalence of remote and flexible working models will likely all play important roles in how we balance our professional and personal lives. And if it seems like finding that perfect balance remains difficult to achieve, the experts say that keeping some perspective can help. For millions of people, work is about being able to put food on the table. Talking about work-life balance \"is a very privileged conversation\", says Lechner. \"If we're reflecting, maybe we should also reflect on that.\"\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-1-nonlistening-q40",
+      "canonicalId": "lazynote-cet4-2024-12-1-q40",
+      "number": 40,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Knowing one's emotional state is of utmost importance in deciding what changes to make for a better work-life balance.",
+      "passage": "Why it's wrong to look at work-life balance as an achievement\n\nA) Few topics have been so endlessly analysed as work-life balance. The quest to attain this mysterious state has dominated discussion around careers for years—especially for working parents. The concept is often presented as something to achieve, or a goal to reach. And once you've reached it, congratulations: you've made it; you're a successful human being of the 21st century.\n\nB) But the problem is that we often tell ourselves: \"I'm going to put in eight hours' worth of work, and then I'm going to put in eight hours' worth of 'me time', which will include my family, my hobbies, my workout, my everything,\" says Anat Lechner, clinical associate professor of management at New York University. \"I don't think it's such a simple formula.\"\n\nC) And, according to new findings, it may not be. Some researchers are now encouraging us to stop thinking about work-life balance as an achievement that you either hit or don't. Instead, they suggest it may be more of a lifelong process—a continuous, never-ending exercise that requires self-awareness and timely adjustments. Researchers Ioana Lupu and Mayra Ruiz-Castro argue that work-life balance is \"a cycle, not an achievement\". In their 2020 study, the researchers interviewed nearly 80 employees at two London-based firms—an equal number of men and women between the ages of 30 and 50, all with at least one dependent child—who worked in middle or senior management roles.\n\nD) Although it sounds like the respondents had a lot in common, here's what separated them: about 30% of the men and 50% of the women reported resisting working long hours. The other respondents, meanwhile, all worked long hours because they thought that's what successful professionals should do.\n\nE) Lupu and Ruiz-Castro looked at those who rejected the long hours and they found that those workers actually had strikingly similar strategies for maintaining their work-life balance. They had a tendency to reflect and question assumptions in the name of self-awareness and regularly took steps to adjust the things standing in their way to work-life balance.\n\nF) Lupu and Ruiz-Castro identified five steps that the respondents in the study who had better work-life balance used in their jobs. First, they paused and reconsidered beliefs such as \"I'm a professional, so I should work, work, work\", and asked themselves questions like, \"What's currently causing me stress?\" Second, after identifying the cause, they zeroed in on their resultant emotions. Did they feel angry, sad, energised? Third, they reprioritised, asking \"Is working long hours really worth cutting back on family time?\", for example. Fourth, they considered their alternatives: is there anything at work that could be changed to accommodate these new priorities? And finally, they implemented changes, like asking their supervisor for greater flexibility, or deciding not to take on every project that comes their way.\n\nG) This five-step process is something anyone can adopt. Going through the steps, and constantly checking in with yourself, can help you shift and adapt your professional life to something that will better harmonise with your personal one. \"Awareness of your emotional state is essential in order to determine the changes you want to make in your work and in your life,\" says Lupu.\n\nH) New York University's Lechner agrees that finding that balance is an ongoing pursuit. It's not simply about dividing up the hours in your day between work, the gym, kids and chores. If the underlying emotional sources of stress are still there, then the time you actually spend at home may not be enjoyable. \"We come home and even though physically we are there, mentally we still may be processing things that happened at work. We're not present,\" she says. What we call \"work-life balance\" is actually just a substitute to having a sense of fulfillment and contentment.\n\nI) Of course, finding that balance probably shouldn't be something you have to do by yourself. Research by Erin Kelly, professor of work and organisation studies at MIT, shows companies and managers can play a key role in creating a better environment for workers. For her book Overload: How Good Jobs Went Bad and What to Do about It, she and co-author Phyllis Moen split more than 1,000 employees at a Fortune 500 company into two groups, one that worked under a management redesign and one that continued working within the existing management structure.\n\nJ) Under the management redesign, many steps were taken to ensure better work-life balance and prevent burnout(精疲力竭). Managers were regularly reminded to explicitly support their employees. Workers were allowed to make changes, like cancelling 9 am meetings. All of this was done in the name of increasing job satisfaction and giving workers greater flexibility, and to assure workers that it was something management was committed to. Unsurprisingly, Kelly and Moen found that employees in the redesign group reported less stress and less burnout. They were less likely to quit their jobs; indeed, over the next four years, they were 40% less likely to quit than those who kept working under the old policies.\n\nK) \"Work-life balance is understood to be an individual's response, so people think 'it's up to me to manage the craziness of my work life'\", says Kelly. But organisations need to examine the demands they're placing on employees. \"The root problem is not how the two pieces of work and life come together. It's that we have unrealistic expectations of what we're asked to do on the work side.\" If your workplace isn't an environment where work-life balance is possible in the first place, any effort you attempt to make toward it on a personal level will be in vain.\n\nL) That's a conversation that appears to be gathering pace. The new prevalence of remote and flexible working models will likely all play important roles in how we balance our professional and personal lives. And if it seems like finding that perfect balance remains difficult to achieve, the experts say that keeping some perspective can help. For millions of people, work is about being able to put food on the table. Talking about work-life balance \"is a very privileged conversation\", says Lechner. \"If we're reflecting, maybe we should also reflect on that.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 G 段。题干：Knowing one's emotional state is of utmost importance in deciding what changes to make for a better work-life balance.\n核对该段原文：This five-step process is something anyone can adopt. Going through the steps, and constantly checking in with yourself, can help you shift and adapt your professional life to something that will better harmonise with your personal one. \"Awareness of your emotional state is essential in order to determine the changes you want to make in your work and in your life,\" says Lupu.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-1-nonlistening-q41",
+      "canonicalId": "lazynote-cet4-2024-12-1-q41",
+      "number": 41,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "More female professionals reported being reluctant to work overtime than their male counterparts.",
+      "passage": "Why it's wrong to look at work-life balance as an achievement\n\nA) Few topics have been so endlessly analysed as work-life balance. The quest to attain this mysterious state has dominated discussion around careers for years—especially for working parents. The concept is often presented as something to achieve, or a goal to reach. And once you've reached it, congratulations: you've made it; you're a successful human being of the 21st century.\n\nB) But the problem is that we often tell ourselves: \"I'm going to put in eight hours' worth of work, and then I'm going to put in eight hours' worth of 'me time', which will include my family, my hobbies, my workout, my everything,\" says Anat Lechner, clinical associate professor of management at New York University. \"I don't think it's such a simple formula.\"\n\nC) And, according to new findings, it may not be. Some researchers are now encouraging us to stop thinking about work-life balance as an achievement that you either hit or don't. Instead, they suggest it may be more of a lifelong process—a continuous, never-ending exercise that requires self-awareness and timely adjustments. Researchers Ioana Lupu and Mayra Ruiz-Castro argue that work-life balance is \"a cycle, not an achievement\". In their 2020 study, the researchers interviewed nearly 80 employees at two London-based firms—an equal number of men and women between the ages of 30 and 50, all with at least one dependent child—who worked in middle or senior management roles.\n\nD) Although it sounds like the respondents had a lot in common, here's what separated them: about 30% of the men and 50% of the women reported resisting working long hours. The other respondents, meanwhile, all worked long hours because they thought that's what successful professionals should do.\n\nE) Lupu and Ruiz-Castro looked at those who rejected the long hours and they found that those workers actually had strikingly similar strategies for maintaining their work-life balance. They had a tendency to reflect and question assumptions in the name of self-awareness and regularly took steps to adjust the things standing in their way to work-life balance.\n\nF) Lupu and Ruiz-Castro identified five steps that the respondents in the study who had better work-life balance used in their jobs. First, they paused and reconsidered beliefs such as \"I'm a professional, so I should work, work, work\", and asked themselves questions like, \"What's currently causing me stress?\" Second, after identifying the cause, they zeroed in on their resultant emotions. Did they feel angry, sad, energised? Third, they reprioritised, asking \"Is working long hours really worth cutting back on family time?\", for example. Fourth, they considered their alternatives: is there anything at work that could be changed to accommodate these new priorities? And finally, they implemented changes, like asking their supervisor for greater flexibility, or deciding not to take on every project that comes their way.\n\nG) This five-step process is something anyone can adopt. Going through the steps, and constantly checking in with yourself, can help you shift and adapt your professional life to something that will better harmonise with your personal one. \"Awareness of your emotional state is essential in order to determine the changes you want to make in your work and in your life,\" says Lupu.\n\nH) New York University's Lechner agrees that finding that balance is an ongoing pursuit. It's not simply about dividing up the hours in your day between work, the gym, kids and chores. If the underlying emotional sources of stress are still there, then the time you actually spend at home may not be enjoyable. \"We come home and even though physically we are there, mentally we still may be processing things that happened at work. We're not present,\" she says. What we call \"work-life balance\" is actually just a substitute to having a sense of fulfillment and contentment.\n\nI) Of course, finding that balance probably shouldn't be something you have to do by yourself. Research by Erin Kelly, professor of work and organisation studies at MIT, shows companies and managers can play a key role in creating a better environment for workers. For her book Overload: How Good Jobs Went Bad and What to Do about It, she and co-author Phyllis Moen split more than 1,000 employees at a Fortune 500 company into two groups, one that worked under a management redesign and one that continued working within the existing management structure.\n\nJ) Under the management redesign, many steps were taken to ensure better work-life balance and prevent burnout(精疲力竭). Managers were regularly reminded to explicitly support their employees. Workers were allowed to make changes, like cancelling 9 am meetings. All of this was done in the name of increasing job satisfaction and giving workers greater flexibility, and to assure workers that it was something management was committed to. Unsurprisingly, Kelly and Moen found that employees in the redesign group reported less stress and less burnout. They were less likely to quit their jobs; indeed, over the next four years, they were 40% less likely to quit than those who kept working under the old policies.\n\nK) \"Work-life balance is understood to be an individual's response, so people think 'it's up to me to manage the craziness of my work life'\", says Kelly. But organisations need to examine the demands they're placing on employees. \"The root problem is not how the two pieces of work and life come together. It's that we have unrealistic expectations of what we're asked to do on the work side.\" If your workplace isn't an environment where work-life balance is possible in the first place, any effort you attempt to make toward it on a personal level will be in vain.\n\nL) That's a conversation that appears to be gathering pace. The new prevalence of remote and flexible working models will likely all play important roles in how we balance our professional and personal lives. And if it seems like finding that perfect balance remains difficult to achieve, the experts say that keeping some perspective can help. For millions of people, work is about being able to put food on the table. Talking about work-life balance \"is a very privileged conversation\", says Lechner. \"If we're reflecting, maybe we should also reflect on that.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 D 段。题干：More female professionals reported being reluctant to work overtime than their male counterparts.\n核对该段原文：Although it sounds like the respondents had a lot in common, here's what separated them: about 30% of the men and 50% of the women reported resisting working long hours. The other respondents, meanwhile, all worked long hours because they thought that's what successful professionals should do.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-1-nonlistening-q42",
+      "canonicalId": "lazynote-cet4-2024-12-1-q42",
+      "number": 42,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Without organisational support, any personal effort to maintain work-life balance will be unsuccessful.",
+      "passage": "Why it's wrong to look at work-life balance as an achievement\n\nA) Few topics have been so endlessly analysed as work-life balance. The quest to attain this mysterious state has dominated discussion around careers for years—especially for working parents. The concept is often presented as something to achieve, or a goal to reach. And once you've reached it, congratulations: you've made it; you're a successful human being of the 21st century.\n\nB) But the problem is that we often tell ourselves: \"I'm going to put in eight hours' worth of work, and then I'm going to put in eight hours' worth of 'me time', which will include my family, my hobbies, my workout, my everything,\" says Anat Lechner, clinical associate professor of management at New York University. \"I don't think it's such a simple formula.\"\n\nC) And, according to new findings, it may not be. Some researchers are now encouraging us to stop thinking about work-life balance as an achievement that you either hit or don't. Instead, they suggest it may be more of a lifelong process—a continuous, never-ending exercise that requires self-awareness and timely adjustments. Researchers Ioana Lupu and Mayra Ruiz-Castro argue that work-life balance is \"a cycle, not an achievement\". In their 2020 study, the researchers interviewed nearly 80 employees at two London-based firms—an equal number of men and women between the ages of 30 and 50, all with at least one dependent child—who worked in middle or senior management roles.\n\nD) Although it sounds like the respondents had a lot in common, here's what separated them: about 30% of the men and 50% of the women reported resisting working long hours. The other respondents, meanwhile, all worked long hours because they thought that's what successful professionals should do.\n\nE) Lupu and Ruiz-Castro looked at those who rejected the long hours and they found that those workers actually had strikingly similar strategies for maintaining their work-life balance. They had a tendency to reflect and question assumptions in the name of self-awareness and regularly took steps to adjust the things standing in their way to work-life balance.\n\nF) Lupu and Ruiz-Castro identified five steps that the respondents in the study who had better work-life balance used in their jobs. First, they paused and reconsidered beliefs such as \"I'm a professional, so I should work, work, work\", and asked themselves questions like, \"What's currently causing me stress?\" Second, after identifying the cause, they zeroed in on their resultant emotions. Did they feel angry, sad, energised? Third, they reprioritised, asking \"Is working long hours really worth cutting back on family time?\", for example. Fourth, they considered their alternatives: is there anything at work that could be changed to accommodate these new priorities? And finally, they implemented changes, like asking their supervisor for greater flexibility, or deciding not to take on every project that comes their way.\n\nG) This five-step process is something anyone can adopt. Going through the steps, and constantly checking in with yourself, can help you shift and adapt your professional life to something that will better harmonise with your personal one. \"Awareness of your emotional state is essential in order to determine the changes you want to make in your work and in your life,\" says Lupu.\n\nH) New York University's Lechner agrees that finding that balance is an ongoing pursuit. It's not simply about dividing up the hours in your day between work, the gym, kids and chores. If the underlying emotional sources of stress are still there, then the time you actually spend at home may not be enjoyable. \"We come home and even though physically we are there, mentally we still may be processing things that happened at work. We're not present,\" she says. What we call \"work-life balance\" is actually just a substitute to having a sense of fulfillment and contentment.\n\nI) Of course, finding that balance probably shouldn't be something you have to do by yourself. Research by Erin Kelly, professor of work and organisation studies at MIT, shows companies and managers can play a key role in creating a better environment for workers. For her book Overload: How Good Jobs Went Bad and What to Do about It, she and co-author Phyllis Moen split more than 1,000 employees at a Fortune 500 company into two groups, one that worked under a management redesign and one that continued working within the existing management structure.\n\nJ) Under the management redesign, many steps were taken to ensure better work-life balance and prevent burnout(精疲力竭). Managers were regularly reminded to explicitly support their employees. Workers were allowed to make changes, like cancelling 9 am meetings. All of this was done in the name of increasing job satisfaction and giving workers greater flexibility, and to assure workers that it was something management was committed to. Unsurprisingly, Kelly and Moen found that employees in the redesign group reported less stress and less burnout. They were less likely to quit their jobs; indeed, over the next four years, they were 40% less likely to quit than those who kept working under the old policies.\n\nK) \"Work-life balance is understood to be an individual's response, so people think 'it's up to me to manage the craziness of my work life'\", says Kelly. But organisations need to examine the demands they're placing on employees. \"The root problem is not how the two pieces of work and life come together. It's that we have unrealistic expectations of what we're asked to do on the work side.\" If your workplace isn't an environment where work-life balance is possible in the first place, any effort you attempt to make toward it on a personal level will be in vain.\n\nL) That's a conversation that appears to be gathering pace. The new prevalence of remote and flexible working models will likely all play important roles in how we balance our professional and personal lives. And if it seems like finding that perfect balance remains difficult to achieve, the experts say that keeping some perspective can help. For millions of people, work is about being able to put food on the table. Talking about work-life balance \"is a very privileged conversation\", says Lechner. \"If we're reflecting, maybe we should also reflect on that.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 K 段。题干：Without organisational support, any personal effort to maintain work-life balance will be unsuccessful.\n核对该段原文：\"Work-life balance is understood to be an individual's response, so people think 'it's up to me to manage the craziness of my work life'\", says Kelly. But organisations need to examine the demands they're placing on employees. \"The root problem is not how the two pieces of work and life come together. It's that we have unrealistic expectations of what we're asked to do on the work side.\" If your workplace isn't an environment where work-life balance is possible in the first place, any effort you attempt to make toward it on a personal level will be in vain.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-1-nonlistening-q43",
+      "canonicalId": "lazynote-cet4-2024-12-1-q43",
+      "number": 43,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The question of how to achieve work-life balance has long been the main subject of discussion among workers.",
+      "passage": "Why it's wrong to look at work-life balance as an achievement\n\nA) Few topics have been so endlessly analysed as work-life balance. The quest to attain this mysterious state has dominated discussion around careers for years—especially for working parents. The concept is often presented as something to achieve, or a goal to reach. And once you've reached it, congratulations: you've made it; you're a successful human being of the 21st century.\n\nB) But the problem is that we often tell ourselves: \"I'm going to put in eight hours' worth of work, and then I'm going to put in eight hours' worth of 'me time', which will include my family, my hobbies, my workout, my everything,\" says Anat Lechner, clinical associate professor of management at New York University. \"I don't think it's such a simple formula.\"\n\nC) And, according to new findings, it may not be. Some researchers are now encouraging us to stop thinking about work-life balance as an achievement that you either hit or don't. Instead, they suggest it may be more of a lifelong process—a continuous, never-ending exercise that requires self-awareness and timely adjustments. Researchers Ioana Lupu and Mayra Ruiz-Castro argue that work-life balance is \"a cycle, not an achievement\". In their 2020 study, the researchers interviewed nearly 80 employees at two London-based firms—an equal number of men and women between the ages of 30 and 50, all with at least one dependent child—who worked in middle or senior management roles.\n\nD) Although it sounds like the respondents had a lot in common, here's what separated them: about 30% of the men and 50% of the women reported resisting working long hours. The other respondents, meanwhile, all worked long hours because they thought that's what successful professionals should do.\n\nE) Lupu and Ruiz-Castro looked at those who rejected the long hours and they found that those workers actually had strikingly similar strategies for maintaining their work-life balance. They had a tendency to reflect and question assumptions in the name of self-awareness and regularly took steps to adjust the things standing in their way to work-life balance.\n\nF) Lupu and Ruiz-Castro identified five steps that the respondents in the study who had better work-life balance used in their jobs. First, they paused and reconsidered beliefs such as \"I'm a professional, so I should work, work, work\", and asked themselves questions like, \"What's currently causing me stress?\" Second, after identifying the cause, they zeroed in on their resultant emotions. Did they feel angry, sad, energised? Third, they reprioritised, asking \"Is working long hours really worth cutting back on family time?\", for example. Fourth, they considered their alternatives: is there anything at work that could be changed to accommodate these new priorities? And finally, they implemented changes, like asking their supervisor for greater flexibility, or deciding not to take on every project that comes their way.\n\nG) This five-step process is something anyone can adopt. Going through the steps, and constantly checking in with yourself, can help you shift and adapt your professional life to something that will better harmonise with your personal one. \"Awareness of your emotional state is essential in order to determine the changes you want to make in your work and in your life,\" says Lupu.\n\nH) New York University's Lechner agrees that finding that balance is an ongoing pursuit. It's not simply about dividing up the hours in your day between work, the gym, kids and chores. If the underlying emotional sources of stress are still there, then the time you actually spend at home may not be enjoyable. \"We come home and even though physically we are there, mentally we still may be processing things that happened at work. We're not present,\" she says. What we call \"work-life balance\" is actually just a substitute to having a sense of fulfillment and contentment.\n\nI) Of course, finding that balance probably shouldn't be something you have to do by yourself. Research by Erin Kelly, professor of work and organisation studies at MIT, shows companies and managers can play a key role in creating a better environment for workers. For her book Overload: How Good Jobs Went Bad and What to Do about It, she and co-author Phyllis Moen split more than 1,000 employees at a Fortune 500 company into two groups, one that worked under a management redesign and one that continued working within the existing management structure.\n\nJ) Under the management redesign, many steps were taken to ensure better work-life balance and prevent burnout(精疲力竭). Managers were regularly reminded to explicitly support their employees. Workers were allowed to make changes, like cancelling 9 am meetings. All of this was done in the name of increasing job satisfaction and giving workers greater flexibility, and to assure workers that it was something management was committed to. Unsurprisingly, Kelly and Moen found that employees in the redesign group reported less stress and less burnout. They were less likely to quit their jobs; indeed, over the next four years, they were 40% less likely to quit than those who kept working under the old policies.\n\nK) \"Work-life balance is understood to be an individual's response, so people think 'it's up to me to manage the craziness of my work life'\", says Kelly. But organisations need to examine the demands they're placing on employees. \"The root problem is not how the two pieces of work and life come together. It's that we have unrealistic expectations of what we're asked to do on the work side.\" If your workplace isn't an environment where work-life balance is possible in the first place, any effort you attempt to make toward it on a personal level will be in vain.\n\nL) That's a conversation that appears to be gathering pace. The new prevalence of remote and flexible working models will likely all play important roles in how we balance our professional and personal lives. And if it seems like finding that perfect balance remains difficult to achieve, the experts say that keeping some perspective can help. For millions of people, work is about being able to put food on the table. Talking about work-life balance \"is a very privileged conversation\", says Lechner. \"If we're reflecting, maybe we should also reflect on that.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 A 段。题干：The question of how to achieve work-life balance has long been the main subject of discussion among workers.\n核对该段原文：Few topics have been so endlessly analysed as work-life balance. The quest to attain this mysterious state has dominated discussion around careers for years—especially for working parents. The concept is often presented as something to achieve, or a goal to reach. And once you've reached it, congratulations: you've made it; you're a successful human being of the 21st century.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-1-nonlistening-q44",
+      "canonicalId": "lazynote-cet4-2024-12-1-q44",
+      "number": 44,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "You may not actually experience emotional wellbeing at home if you remain occupied with what happened at work.",
+      "passage": "Why it's wrong to look at work-life balance as an achievement\n\nA) Few topics have been so endlessly analysed as work-life balance. The quest to attain this mysterious state has dominated discussion around careers for years—especially for working parents. The concept is often presented as something to achieve, or a goal to reach. And once you've reached it, congratulations: you've made it; you're a successful human being of the 21st century.\n\nB) But the problem is that we often tell ourselves: \"I'm going to put in eight hours' worth of work, and then I'm going to put in eight hours' worth of 'me time', which will include my family, my hobbies, my workout, my everything,\" says Anat Lechner, clinical associate professor of management at New York University. \"I don't think it's such a simple formula.\"\n\nC) And, according to new findings, it may not be. Some researchers are now encouraging us to stop thinking about work-life balance as an achievement that you either hit or don't. Instead, they suggest it may be more of a lifelong process—a continuous, never-ending exercise that requires self-awareness and timely adjustments. Researchers Ioana Lupu and Mayra Ruiz-Castro argue that work-life balance is \"a cycle, not an achievement\". In their 2020 study, the researchers interviewed nearly 80 employees at two London-based firms—an equal number of men and women between the ages of 30 and 50, all with at least one dependent child—who worked in middle or senior management roles.\n\nD) Although it sounds like the respondents had a lot in common, here's what separated them: about 30% of the men and 50% of the women reported resisting working long hours. The other respondents, meanwhile, all worked long hours because they thought that's what successful professionals should do.\n\nE) Lupu and Ruiz-Castro looked at those who rejected the long hours and they found that those workers actually had strikingly similar strategies for maintaining their work-life balance. They had a tendency to reflect and question assumptions in the name of self-awareness and regularly took steps to adjust the things standing in their way to work-life balance.\n\nF) Lupu and Ruiz-Castro identified five steps that the respondents in the study who had better work-life balance used in their jobs. First, they paused and reconsidered beliefs such as \"I'm a professional, so I should work, work, work\", and asked themselves questions like, \"What's currently causing me stress?\" Second, after identifying the cause, they zeroed in on their resultant emotions. Did they feel angry, sad, energised? Third, they reprioritised, asking \"Is working long hours really worth cutting back on family time?\", for example. Fourth, they considered their alternatives: is there anything at work that could be changed to accommodate these new priorities? And finally, they implemented changes, like asking their supervisor for greater flexibility, or deciding not to take on every project that comes their way.\n\nG) This five-step process is something anyone can adopt. Going through the steps, and constantly checking in with yourself, can help you shift and adapt your professional life to something that will better harmonise with your personal one. \"Awareness of your emotional state is essential in order to determine the changes you want to make in your work and in your life,\" says Lupu.\n\nH) New York University's Lechner agrees that finding that balance is an ongoing pursuit. It's not simply about dividing up the hours in your day between work, the gym, kids and chores. If the underlying emotional sources of stress are still there, then the time you actually spend at home may not be enjoyable. \"We come home and even though physically we are there, mentally we still may be processing things that happened at work. We're not present,\" she says. What we call \"work-life balance\" is actually just a substitute to having a sense of fulfillment and contentment.\n\nI) Of course, finding that balance probably shouldn't be something you have to do by yourself. Research by Erin Kelly, professor of work and organisation studies at MIT, shows companies and managers can play a key role in creating a better environment for workers. For her book Overload: How Good Jobs Went Bad and What to Do about It, she and co-author Phyllis Moen split more than 1,000 employees at a Fortune 500 company into two groups, one that worked under a management redesign and one that continued working within the existing management structure.\n\nJ) Under the management redesign, many steps were taken to ensure better work-life balance and prevent burnout(精疲力竭). Managers were regularly reminded to explicitly support their employees. Workers were allowed to make changes, like cancelling 9 am meetings. All of this was done in the name of increasing job satisfaction and giving workers greater flexibility, and to assure workers that it was something management was committed to. Unsurprisingly, Kelly and Moen found that employees in the redesign group reported less stress and less burnout. They were less likely to quit their jobs; indeed, over the next four years, they were 40% less likely to quit than those who kept working under the old policies.\n\nK) \"Work-life balance is understood to be an individual's response, so people think 'it's up to me to manage the craziness of my work life'\", says Kelly. But organisations need to examine the demands they're placing on employees. \"The root problem is not how the two pieces of work and life come together. It's that we have unrealistic expectations of what we're asked to do on the work side.\" If your workplace isn't an environment where work-life balance is possible in the first place, any effort you attempt to make toward it on a personal level will be in vain.\n\nL) That's a conversation that appears to be gathering pace. The new prevalence of remote and flexible working models will likely all play important roles in how we balance our professional and personal lives. And if it seems like finding that perfect balance remains difficult to achieve, the experts say that keeping some perspective can help. For millions of people, work is about being able to put food on the table. Talking about work-life balance \"is a very privileged conversation\", says Lechner. \"If we're reflecting, maybe we should also reflect on that.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 H 段。题干：You may not actually experience emotional wellbeing at home if you remain occupied with what happened at work.\n核对该段原文：New York University's Lechner agrees that finding that balance is an ongoing pursuit. It's not simply about dividing up the hours in your day between work, the gym, kids and chores. If the underlying emotional sources of stress are still there, then the time you actually spend at home may not be enjoyable. \"We come home and even though physically we are there, mentally we still may be processing things that happened at work. We're not present,\" she says. What we call \"work-life balance\" is actually just a substitute to having a sense of fulfillment and contentment.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-1-nonlistening-q45",
+      "canonicalId": "lazynote-cet4-2024-12-1-q45",
+      "number": 45,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Some researchers suggest that work-life balance is not a goal to achieve, but a process for life to be adjusted promptly.",
+      "passage": "Why it's wrong to look at work-life balance as an achievement\n\nA) Few topics have been so endlessly analysed as work-life balance. The quest to attain this mysterious state has dominated discussion around careers for years—especially for working parents. The concept is often presented as something to achieve, or a goal to reach. And once you've reached it, congratulations: you've made it; you're a successful human being of the 21st century.\n\nB) But the problem is that we often tell ourselves: \"I'm going to put in eight hours' worth of work, and then I'm going to put in eight hours' worth of 'me time', which will include my family, my hobbies, my workout, my everything,\" says Anat Lechner, clinical associate professor of management at New York University. \"I don't think it's such a simple formula.\"\n\nC) And, according to new findings, it may not be. Some researchers are now encouraging us to stop thinking about work-life balance as an achievement that you either hit or don't. Instead, they suggest it may be more of a lifelong process—a continuous, never-ending exercise that requires self-awareness and timely adjustments. Researchers Ioana Lupu and Mayra Ruiz-Castro argue that work-life balance is \"a cycle, not an achievement\". In their 2020 study, the researchers interviewed nearly 80 employees at two London-based firms—an equal number of men and women between the ages of 30 and 50, all with at least one dependent child—who worked in middle or senior management roles.\n\nD) Although it sounds like the respondents had a lot in common, here's what separated them: about 30% of the men and 50% of the women reported resisting working long hours. The other respondents, meanwhile, all worked long hours because they thought that's what successful professionals should do.\n\nE) Lupu and Ruiz-Castro looked at those who rejected the long hours and they found that those workers actually had strikingly similar strategies for maintaining their work-life balance. They had a tendency to reflect and question assumptions in the name of self-awareness and regularly took steps to adjust the things standing in their way to work-life balance.\n\nF) Lupu and Ruiz-Castro identified five steps that the respondents in the study who had better work-life balance used in their jobs. First, they paused and reconsidered beliefs such as \"I'm a professional, so I should work, work, work\", and asked themselves questions like, \"What's currently causing me stress?\" Second, after identifying the cause, they zeroed in on their resultant emotions. Did they feel angry, sad, energised? Third, they reprioritised, asking \"Is working long hours really worth cutting back on family time?\", for example. Fourth, they considered their alternatives: is there anything at work that could be changed to accommodate these new priorities? And finally, they implemented changes, like asking their supervisor for greater flexibility, or deciding not to take on every project that comes their way.\n\nG) This five-step process is something anyone can adopt. Going through the steps, and constantly checking in with yourself, can help you shift and adapt your professional life to something that will better harmonise with your personal one. \"Awareness of your emotional state is essential in order to determine the changes you want to make in your work and in your life,\" says Lupu.\n\nH) New York University's Lechner agrees that finding that balance is an ongoing pursuit. It's not simply about dividing up the hours in your day between work, the gym, kids and chores. If the underlying emotional sources of stress are still there, then the time you actually spend at home may not be enjoyable. \"We come home and even though physically we are there, mentally we still may be processing things that happened at work. We're not present,\" she says. What we call \"work-life balance\" is actually just a substitute to having a sense of fulfillment and contentment.\n\nI) Of course, finding that balance probably shouldn't be something you have to do by yourself. Research by Erin Kelly, professor of work and organisation studies at MIT, shows companies and managers can play a key role in creating a better environment for workers. For her book Overload: How Good Jobs Went Bad and What to Do about It, she and co-author Phyllis Moen split more than 1,000 employees at a Fortune 500 company into two groups, one that worked under a management redesign and one that continued working within the existing management structure.\n\nJ) Under the management redesign, many steps were taken to ensure better work-life balance and prevent burnout(精疲力竭). Managers were regularly reminded to explicitly support their employees. Workers were allowed to make changes, like cancelling 9 am meetings. All of this was done in the name of increasing job satisfaction and giving workers greater flexibility, and to assure workers that it was something management was committed to. Unsurprisingly, Kelly and Moen found that employees in the redesign group reported less stress and less burnout. They were less likely to quit their jobs; indeed, over the next four years, they were 40% less likely to quit than those who kept working under the old policies.\n\nK) \"Work-life balance is understood to be an individual's response, so people think 'it's up to me to manage the craziness of my work life'\", says Kelly. But organisations need to examine the demands they're placing on employees. \"The root problem is not how the two pieces of work and life come together. It's that we have unrealistic expectations of what we're asked to do on the work side.\" If your workplace isn't an environment where work-life balance is possible in the first place, any effort you attempt to make toward it on a personal level will be in vain.\n\nL) That's a conversation that appears to be gathering pace. The new prevalence of remote and flexible working models will likely all play important roles in how we balance our professional and personal lives. And if it seems like finding that perfect balance remains difficult to achieve, the experts say that keeping some perspective can help. For millions of people, work is about being able to put food on the table. Talking about work-life balance \"is a very privileged conversation\", says Lechner. \"If we're reflecting, maybe we should also reflect on that.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 C 段。题干：Some researchers suggest that work-life balance is not a goal to achieve, but a process for life to be adjusted promptly.\n核对该段原文：And, according to new findings, it may not be. Some researchers are now encouraging us to stop thinking about work-life balance as an achievement that you either hit or don't. Instead, they suggest it may be more of a lifelong process—a continuous, never-ending exercise that requires self-awareness and timely adjustments. Researchers Ioana Lupu and Mayra Ruiz-Castro argue that work-life balance is \"a cycle, not an achievement\". In their 2020 study, the researchers interviewed nearly 80 employees at two London-based firms—an equal number of men and women between the ages of 30 and 50, all with at least one dependent child—who worked in middle or senior management roles.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-1-nonlistening-q46",
+      "canonicalId": "lazynote-cet4-2024-12-1-q46",
+      "number": 46,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author want to emphasise in the first paragraph?",
+      "passage": "The weakening of the human connection to nature might be good for economic growth but is bad for people. A tipping point was reached in 2020 when human-made materials—such as steel, concrete and plastic—were found to weigh more than all life on Earth. Continuing to grow concrete forests rather than real ones is shortsighted. Simply being in the nearest wood has such health benefits that the Woodland Trust successfully lobbied for it to be prescribed by doctors.\n\nYet slipping from popular culture is the wonder and beauty of the natural world. For every three nature-related words in hit songs of the 1950s, researchers found, there was only slightly more than one 50 years later. It is not a moment too soon that teenagers will be able to take a natural history test, given that for decades children have been able to name more video game characters than wildlife species.\n\nPart of remedying this social disease would be for parliament to pass a \"right to grow\" law, allowing anyone to turn underused public spaces into vegetable and fruit gardens. The idea is for people to get back in touch with the soil—while producing food sustainably.\n\nVegetable planting has a respectable tradition. In April 1649, locals responded to high prices and food shortages by cultivating vegetables on common land in Southern England. The practice of throwing seed bombs to turn vacant plots of land green took off in 1970s New York, and has been revived(使复活) by green-thumbed(有园艺才能的) social media influencers who defy local US regulations in a war on ugly spots in cities.\n\nApart from the urgent task of providing more healthy nutrients to those who increasingly can't afford them, publicly accessible fruit and vegetable gardens connect what we eat to where it comes from—the means of production, if you will. They can make unlovely spaces lovely, and marry use and beauty as well as help promote a sense of community. Plants are also, of course, our first defence against species loss and climate change. Such planting is a small step for humanity—in the right direction.",
+      "options": [
+        {
+          "id": "A",
+          "text": "The year 2020 was a big turning point in human history."
+        },
+        {
+          "id": "B",
+          "text": "Economic growth benefits people little in the long run."
+        },
+        {
+          "id": "C",
+          "text": "It is unwise to weaken the human connection to nature."
+        },
+        {
+          "id": "D",
+          "text": "It is harmful to mankind to use human-made materials."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：It is unwise to weaken the human connection to nature.\n关键词检索定位到第 1 段的候选相关句：The weakening of the human connection to nature might be good for economic growth but is bad for people.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-1-nonlistening-q47",
+      "canonicalId": "lazynote-cet4-2024-12-1-q47",
+      "number": 47,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What did researchers find about popular culture?",
+      "passage": "The weakening of the human connection to nature might be good for economic growth but is bad for people. A tipping point was reached in 2020 when human-made materials—such as steel, concrete and plastic—were found to weigh more than all life on Earth. Continuing to grow concrete forests rather than real ones is shortsighted. Simply being in the nearest wood has such health benefits that the Woodland Trust successfully lobbied for it to be prescribed by doctors.\n\nYet slipping from popular culture is the wonder and beauty of the natural world. For every three nature-related words in hit songs of the 1950s, researchers found, there was only slightly more than one 50 years later. It is not a moment too soon that teenagers will be able to take a natural history test, given that for decades children have been able to name more video game characters than wildlife species.\n\nPart of remedying this social disease would be for parliament to pass a \"right to grow\" law, allowing anyone to turn underused public spaces into vegetable and fruit gardens. The idea is for people to get back in touch with the soil—while producing food sustainably.\n\nVegetable planting has a respectable tradition. In April 1649, locals responded to high prices and food shortages by cultivating vegetables on common land in Southern England. The practice of throwing seed bombs to turn vacant plots of land green took off in 1970s New York, and has been revived(使复活) by green-thumbed(有园艺才能的) social media influencers who defy local US regulations in a war on ugly spots in cities.\n\nApart from the urgent task of providing more healthy nutrients to those who increasingly can't afford them, publicly accessible fruit and vegetable gardens connect what we eat to where it comes from—the means of production, if you will. They can make unlovely spaces lovely, and marry use and beauty as well as help promote a sense of community. Plants are also, of course, our first defence against species loss and climate change. Such planting is a small step for humanity—in the right direction.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is increasingly detached from the natural world."
+        },
+        {
+          "id": "B",
+          "text": "It is filled with all kinds of video game characters."
+        },
+        {
+          "id": "C",
+          "text": "It is especially appealing to the taste of teenagers."
+        },
+        {
+          "id": "D",
+          "text": "It is still impacted by the hit songs of the 1950s."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：It is increasingly detached from the natural world.\n关键词检索定位到第 2 段的候选相关句：Yet slipping from popular culture is the wonder and beauty of the natural world.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-1-nonlistening-q48",
+      "canonicalId": "lazynote-cet4-2024-12-1-q48",
+      "number": 48,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author propose people do?",
+      "passage": "The weakening of the human connection to nature might be good for economic growth but is bad for people. A tipping point was reached in 2020 when human-made materials—such as steel, concrete and plastic—were found to weigh more than all life on Earth. Continuing to grow concrete forests rather than real ones is shortsighted. Simply being in the nearest wood has such health benefits that the Woodland Trust successfully lobbied for it to be prescribed by doctors.\n\nYet slipping from popular culture is the wonder and beauty of the natural world. For every three nature-related words in hit songs of the 1950s, researchers found, there was only slightly more than one 50 years later. It is not a moment too soon that teenagers will be able to take a natural history test, given that for decades children have been able to name more video game characters than wildlife species.\n\nPart of remedying this social disease would be for parliament to pass a \"right to grow\" law, allowing anyone to turn underused public spaces into vegetable and fruit gardens. The idea is for people to get back in touch with the soil—while producing food sustainably.\n\nVegetable planting has a respectable tradition. In April 1649, locals responded to high prices and food shortages by cultivating vegetables on common land in Southern England. The practice of throwing seed bombs to turn vacant plots of land green took off in 1970s New York, and has been revived(使复活) by green-thumbed(有园艺才能的) social media influencers who defy local US regulations in a war on ugly spots in cities.\n\nApart from the urgent task of providing more healthy nutrients to those who increasingly can't afford them, publicly accessible fruit and vegetable gardens connect what we eat to where it comes from—the means of production, if you will. They can make unlovely spaces lovely, and marry use and beauty as well as help promote a sense of community. Plants are also, of course, our first defence against species loss and climate change. Such planting is a small step for humanity—in the right direction.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Take measures to ensure sustainable food development."
+        },
+        {
+          "id": "B",
+          "text": "Reconnect with nature through the right to grow."
+        },
+        {
+          "id": "C",
+          "text": "Stand by the parliament in fighting social diseases."
+        },
+        {
+          "id": "D",
+          "text": "Cover public spaces with fruit trees and vegetable plants."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：Reconnect with nature through the right to grow.\n关键词检索定位到第 3 段的候选相关句：Part of remedying this social disease would be for parliament to pass a \"right to grow\" law, allowing anyone to turn underused public spaces into vegetable and fruit gardens.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-1-nonlistening-q49",
+      "canonicalId": "lazynote-cet4-2024-12-1-q49",
+      "number": 49,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn from the passage about vegetable planting?",
+      "passage": "The weakening of the human connection to nature might be good for economic growth but is bad for people. A tipping point was reached in 2020 when human-made materials—such as steel, concrete and plastic—were found to weigh more than all life on Earth. Continuing to grow concrete forests rather than real ones is shortsighted. Simply being in the nearest wood has such health benefits that the Woodland Trust successfully lobbied for it to be prescribed by doctors.\n\nYet slipping from popular culture is the wonder and beauty of the natural world. For every three nature-related words in hit songs of the 1950s, researchers found, there was only slightly more than one 50 years later. It is not a moment too soon that teenagers will be able to take a natural history test, given that for decades children have been able to name more video game characters than wildlife species.\n\nPart of remedying this social disease would be for parliament to pass a \"right to grow\" law, allowing anyone to turn underused public spaces into vegetable and fruit gardens. The idea is for people to get back in touch with the soil—while producing food sustainably.\n\nVegetable planting has a respectable tradition. In April 1649, locals responded to high prices and food shortages by cultivating vegetables on common land in Southern England. The practice of throwing seed bombs to turn vacant plots of land green took off in 1970s New York, and has been revived(使复活) by green-thumbed(有园艺才能的) social media influencers who defy local US regulations in a war on ugly spots in cities.\n\nApart from the urgent task of providing more healthy nutrients to those who increasingly can't afford them, publicly accessible fruit and vegetable gardens connect what we eat to where it comes from—the means of production, if you will. They can make unlovely spaces lovely, and marry use and beauty as well as help promote a sense of community. Plants are also, of course, our first defence against species loss and climate change. Such planting is a small step for humanity—in the right direction.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It all started in 1649 in Southern England."
+        },
+        {
+          "id": "B",
+          "text": "It is protected by US government regulations."
+        },
+        {
+          "id": "C",
+          "text": "It has long been used to increase food supply and improve urban landscape."
+        },
+        {
+          "id": "D",
+          "text": "It has been popularised worldwide with the increasing influence of social media."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：It has long been used to increase food supply and improve urban landscape.\n关键词检索定位到第 4 段的候选相关句：Vegetable planting has a respectable tradition.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-1-nonlistening-q50",
+      "canonicalId": "lazynote-cet4-2024-12-1-q50",
+      "number": 50,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What can publicly accessible fruit and vegetable gardens do apart from their practical functions?",
+      "passage": "The weakening of the human connection to nature might be good for economic growth but is bad for people. A tipping point was reached in 2020 when human-made materials—such as steel, concrete and plastic—were found to weigh more than all life on Earth. Continuing to grow concrete forests rather than real ones is shortsighted. Simply being in the nearest wood has such health benefits that the Woodland Trust successfully lobbied for it to be prescribed by doctors.\n\nYet slipping from popular culture is the wonder and beauty of the natural world. For every three nature-related words in hit songs of the 1950s, researchers found, there was only slightly more than one 50 years later. It is not a moment too soon that teenagers will be able to take a natural history test, given that for decades children have been able to name more video game characters than wildlife species.\n\nPart of remedying this social disease would be for parliament to pass a \"right to grow\" law, allowing anyone to turn underused public spaces into vegetable and fruit gardens. The idea is for people to get back in touch with the soil—while producing food sustainably.\n\nVegetable planting has a respectable tradition. In April 1649, locals responded to high prices and food shortages by cultivating vegetables on common land in Southern England. The practice of throwing seed bombs to turn vacant plots of land green took off in 1970s New York, and has been revived(使复活) by green-thumbed(有园艺才能的) social media influencers who defy local US regulations in a war on ugly spots in cities.\n\nApart from the urgent task of providing more healthy nutrients to those who increasingly can't afford them, publicly accessible fruit and vegetable gardens connect what we eat to where it comes from—the means of production, if you will. They can make unlovely spaces lovely, and marry use and beauty as well as help promote a sense of community. Plants are also, of course, our first defence against species loss and climate change. Such planting is a small step for humanity—in the right direction.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Raise people's environmental awareness."
+        },
+        {
+          "id": "B",
+          "text": "Add to the great variety of plant species."
+        },
+        {
+          "id": "C",
+          "text": "Act as the first defence against natural disasters."
+        },
+        {
+          "id": "D",
+          "text": "Enhance people's community spirit."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：Enhance people's community spirit.\n关键词检索定位到第 5 段的候选相关句：Apart from the urgent task of providing more healthy nutrients to those who increasingly can't afford them, publicly accessible fruit and vegetable gardens connect what we eat to where it comes from—the means of production, if you will.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-1-nonlistening-q51",
+      "canonicalId": "lazynote-cet4-2024-12-1-q51",
+      "number": 51,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the passage say about the engineering profession in the United States?",
+      "passage": "Engineering in the U.S. has long been a male-dominated profession. Fifty years ago, it looked like that might change.\n\nIn 1970, the percentage of women majoring in engineering was less than 1%. In 1979, that number was 9%. Many hoped women would continue to enter the field at the same rate. But that's not what happened. Today, only 21% of engineering majors are women, a number largely unchanged since 2000.\n\nI am a historian who, along with my colleagues, surveyed 251 women engineers who graduated from college in the 1970s. These pioneers reflected on the challenges they faced—and had advice for women entering the field today.\n\nOne survey taker explained, \"The greatest challenge for me was continuing to believe in myself, when all the messages I was getting were that I would never be taken seriously or promoted or given raises at the same rate as men, who were clearly less qualified and not as smart as I was.\"\n\nA chemical engineer who worked in manufacturing agreed, \"You have to prove yourself just because you are female. And you have to work twice as hard!\"\n\nA civil engineer said, \"We are 'women engineers.' People don't refer to a man as a 'man engineer'—he's an engineer. We are constantly reminded that we don't truly belong.\" Another civil engineer stated, \"On many levels, you're never quite one of the groups.\"\n\nWomen also talked about family caregiving responsibilities. A retired vice president from a major chemical company stated, \"Young women engineers are on an equal footing until they have children, then they struggle to balance work and family—and compete with men who don't have the same household responsibilities.\"\n\nBut over the years things have changed a lot. Young women engineers are more accepted mostly because there are just more of them.\n\nMany women engineers hailed the benefits of their chosen career. A program manager in manufacturing stated that engineering is the best degree. A mechanical engineer said, \"It will give you the flexibility to do almost anything. It is also satisfying to see the effects of what you have done.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "It has seen a change in attitude towards women engineers since 1979."
+        },
+        {
+          "id": "B",
+          "text": "It witnessed a significant increase in women engineers in the 1970s."
+        },
+        {
+          "id": "C",
+          "text": "It has experienced the gradual weakening of male dominance."
+        },
+        {
+          "id": "D",
+          "text": "It boasted the largest number of engineering majors in 2000."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：It witnessed a significant increase in women engineers in the 1970s.\n关键词检索定位到第 1 段的候选相关句：Engineering in the U.S. has long been a male-dominated profession.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-1-nonlistening-q52",
+      "canonicalId": "lazynote-cet4-2024-12-1-q52",
+      "number": 52,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does one survey taker say was her greatest challenge?",
+      "passage": "Engineering in the U.S. has long been a male-dominated profession. Fifty years ago, it looked like that might change.\n\nIn 1970, the percentage of women majoring in engineering was less than 1%. In 1979, that number was 9%. Many hoped women would continue to enter the field at the same rate. But that's not what happened. Today, only 21% of engineering majors are women, a number largely unchanged since 2000.\n\nI am a historian who, along with my colleagues, surveyed 251 women engineers who graduated from college in the 1970s. These pioneers reflected on the challenges they faced—and had advice for women entering the field today.\n\nOne survey taker explained, \"The greatest challenge for me was continuing to believe in myself, when all the messages I was getting were that I would never be taken seriously or promoted or given raises at the same rate as men, who were clearly less qualified and not as smart as I was.\"\n\nA chemical engineer who worked in manufacturing agreed, \"You have to prove yourself just because you are female. And you have to work twice as hard!\"\n\nA civil engineer said, \"We are 'women engineers.' People don't refer to a man as a 'man engineer'—he's an engineer. We are constantly reminded that we don't truly belong.\" Another civil engineer stated, \"On many levels, you're never quite one of the groups.\"\n\nWomen also talked about family caregiving responsibilities. A retired vice president from a major chemical company stated, \"Young women engineers are on an equal footing until they have children, then they struggle to balance work and family—and compete with men who don't have the same household responsibilities.\"\n\nBut over the years things have changed a lot. Young women engineers are more accepted mostly because there are just more of them.\n\nMany women engineers hailed the benefits of their chosen career. A program manager in manufacturing stated that engineering is the best degree. A mechanical engineer said, \"It will give you the flexibility to do almost anything. It is also satisfying to see the effects of what you have done.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "Not to feel superior to less qualified male engineers."
+        },
+        {
+          "id": "B",
+          "text": "Not to take seriously all the messages she was getting."
+        },
+        {
+          "id": "C",
+          "text": "Not to think highly of her qualifications when promoted or given a pay raise."
+        },
+        {
+          "id": "D",
+          "text": "Not to lose self-confidence though constantly discouraged or unfairly treated."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：Not to lose self-confidence though constantly discouraged or unfairly treated.\n关键词检索定位到第 4 段的候选相关句：One survey taker explained, \"The greatest challenge for me was continuing to believe in myself, when all the messages I was getting were that I would never be taken seriously or promoted or given raises at the same rate as men, who were clearly less qualified and not as smart as I was.\"\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-1-nonlistening-q53",
+      "canonicalId": "lazynote-cet4-2024-12-1-q53",
+      "number": 53,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "How do women engineers frequently feel according to the two civil engineers?",
+      "passage": "Engineering in the U.S. has long been a male-dominated profession. Fifty years ago, it looked like that might change.\n\nIn 1970, the percentage of women majoring in engineering was less than 1%. In 1979, that number was 9%. Many hoped women would continue to enter the field at the same rate. But that's not what happened. Today, only 21% of engineering majors are women, a number largely unchanged since 2000.\n\nI am a historian who, along with my colleagues, surveyed 251 women engineers who graduated from college in the 1970s. These pioneers reflected on the challenges they faced—and had advice for women entering the field today.\n\nOne survey taker explained, \"The greatest challenge for me was continuing to believe in myself, when all the messages I was getting were that I would never be taken seriously or promoted or given raises at the same rate as men, who were clearly less qualified and not as smart as I was.\"\n\nA chemical engineer who worked in manufacturing agreed, \"You have to prove yourself just because you are female. And you have to work twice as hard!\"\n\nA civil engineer said, \"We are 'women engineers.' People don't refer to a man as a 'man engineer'—he's an engineer. We are constantly reminded that we don't truly belong.\" Another civil engineer stated, \"On many levels, you're never quite one of the groups.\"\n\nWomen also talked about family caregiving responsibilities. A retired vice president from a major chemical company stated, \"Young women engineers are on an equal footing until they have children, then they struggle to balance work and family—and compete with men who don't have the same household responsibilities.\"\n\nBut over the years things have changed a lot. Young women engineers are more accepted mostly because there are just more of them.\n\nMany women engineers hailed the benefits of their chosen career. A program manager in manufacturing stated that engineering is the best degree. A mechanical engineer said, \"It will give you the flexibility to do almost anything. It is also satisfying to see the effects of what you have done.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "Disqualified on many levels."
+        },
+        {
+          "id": "B",
+          "text": "Excluded from the group."
+        },
+        {
+          "id": "C",
+          "text": "Overworked by their organizations."
+        },
+        {
+          "id": "D",
+          "text": "Looked down upon by male colleagues."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：Excluded from the group.\n关键词检索定位到第 6 段的候选相关句：A civil engineer said, \"We are 'women engineers.' People don't refer to a man as a 'man engineer'—he's an engineer.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-1-nonlistening-q54",
+      "canonicalId": "lazynote-cet4-2024-12-1-q54",
+      "number": 54,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What probably makes young women engineers more accepted nowadays?",
+      "passage": "Engineering in the U.S. has long been a male-dominated profession. Fifty years ago, it looked like that might change.\n\nIn 1970, the percentage of women majoring in engineering was less than 1%. In 1979, that number was 9%. Many hoped women would continue to enter the field at the same rate. But that's not what happened. Today, only 21% of engineering majors are women, a number largely unchanged since 2000.\n\nI am a historian who, along with my colleagues, surveyed 251 women engineers who graduated from college in the 1970s. These pioneers reflected on the challenges they faced—and had advice for women entering the field today.\n\nOne survey taker explained, \"The greatest challenge for me was continuing to believe in myself, when all the messages I was getting were that I would never be taken seriously or promoted or given raises at the same rate as men, who were clearly less qualified and not as smart as I was.\"\n\nA chemical engineer who worked in manufacturing agreed, \"You have to prove yourself just because you are female. And you have to work twice as hard!\"\n\nA civil engineer said, \"We are 'women engineers.' People don't refer to a man as a 'man engineer'—he's an engineer. We are constantly reminded that we don't truly belong.\" Another civil engineer stated, \"On many levels, you're never quite one of the groups.\"\n\nWomen also talked about family caregiving responsibilities. A retired vice president from a major chemical company stated, \"Young women engineers are on an equal footing until they have children, then they struggle to balance work and family—and compete with men who don't have the same household responsibilities.\"\n\nBut over the years things have changed a lot. Young women engineers are more accepted mostly because there are just more of them.\n\nMany women engineers hailed the benefits of their chosen career. A program manager in manufacturing stated that engineering is the best degree. A mechanical engineer said, \"It will give you the flexibility to do almost anything. It is also satisfying to see the effects of what you have done.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "Their success in gaining an equal footing."
+        },
+        {
+          "id": "B",
+          "text": "Their ability to balance work and family."
+        },
+        {
+          "id": "C",
+          "text": "The change in their responsibilities."
+        },
+        {
+          "id": "D",
+          "text": "The increase in their number."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：The increase in their number.\n关键词检索定位到第 8 段的候选相关句：Young women engineers are more accepted mostly because there are just more of them.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-1-nonlistening-q55",
+      "canonicalId": "lazynote-cet4-2024-12-1-q55",
+      "number": 55,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What can we conclude about many female engineers from the statement of a mechanical engineer?",
+      "passage": "Engineering in the U.S. has long been a male-dominated profession. Fifty years ago, it looked like that might change.\n\nIn 1970, the percentage of women majoring in engineering was less than 1%. In 1979, that number was 9%. Many hoped women would continue to enter the field at the same rate. But that's not what happened. Today, only 21% of engineering majors are women, a number largely unchanged since 2000.\n\nI am a historian who, along with my colleagues, surveyed 251 women engineers who graduated from college in the 1970s. These pioneers reflected on the challenges they faced—and had advice for women entering the field today.\n\nOne survey taker explained, \"The greatest challenge for me was continuing to believe in myself, when all the messages I was getting were that I would never be taken seriously or promoted or given raises at the same rate as men, who were clearly less qualified and not as smart as I was.\"\n\nA chemical engineer who worked in manufacturing agreed, \"You have to prove yourself just because you are female. And you have to work twice as hard!\"\n\nA civil engineer said, \"We are 'women engineers.' People don't refer to a man as a 'man engineer'—he's an engineer. We are constantly reminded that we don't truly belong.\" Another civil engineer stated, \"On many levels, you're never quite one of the groups.\"\n\nWomen also talked about family caregiving responsibilities. A retired vice president from a major chemical company stated, \"Young women engineers are on an equal footing until they have children, then they struggle to balance work and family—and compete with men who don't have the same household responsibilities.\"\n\nBut over the years things have changed a lot. Young women engineers are more accepted mostly because there are just more of them.\n\nMany women engineers hailed the benefits of their chosen career. A program manager in manufacturing stated that engineering is the best degree. A mechanical engineer said, \"It will give you the flexibility to do almost anything. It is also satisfying to see the effects of what you have done.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "They take great pride in their chosen career."
+        },
+        {
+          "id": "B",
+          "text": "They have reaped the benefits of being flexible."
+        },
+        {
+          "id": "C",
+          "text": "They enjoy doing engineering to the best degree."
+        },
+        {
+          "id": "D",
+          "text": "They have proved capable of doing almost anything."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：They take great pride in their chosen career.\n关键词检索定位到第 9 段的候选相关句：Many women engineers hailed the benefits of their chosen career.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2024-12-1-nonlistening-translation",
+      "number": "IV",
+      "level": "CET4",
+      "type": "short_text_self_check",
+      "skill": "translation",
+      "section": "translation",
+      "prompt": "Directions: For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2 .\n\n中国政府十分重视环境保护。近年来,中国在减少空气、水和土壤污染上取得了显著成效。为了不断改善人们的生活环境,中国采取了一系列有效措施,包括大力发展清洁能源,改善公共交通,推广共享单车,实施垃圾分类。通过这些措施,中国的城市和农村正在绿起来、美起来。中国还积极参与国际合作,为全球环境保护做出了重要贡献。",
+      "options": [],
+      "correctAnswer": "The Chinese government attaches great importance to environmental protection. In recent years, China has achieved remarkable results in reducing air, water and soil pollution. To keep improving people's living environment, it has adopted a series of effective measures, including vigorously developing clean energy, improving public transport, promoting shared bicycles and introducing waste sorting. Through these measures, China's cities and rural areas are becoming greener and more beautiful. China also actively participates in international cooperation and has made important contributions to global environmental protection.",
+      "referenceAnswer": "The Chinese government attaches great importance to environmental protection. In recent years, China has achieved remarkable results in reducing air, water and soil pollution. To keep improving people's living environment, it has adopted a series of effective measures, including vigorously developing clean energy, improving public transport, promoting shared bicycles and introducing waste sorting. Through these measures, China's cities and rural areas are becoming greener and more beautiful. China also actively participates in international cooperation and has made important contributions to global environmental protection.",
+      "hint": "抓住重视→成效→四项措施→城乡变化→国际合作；air、water、soil三类污染都要保留。",
+      "explanation": "以下为原创参考译文，其他准确表达同样可接受。①attach great importance to后接名词，to不是不定式标记。②in recent years常配现在完成时has achieved；reducing air, water and soil pollution中三个定语并列。③adopt measures是采取措施，including后四个动名词developing、improving、promoting、introducing保持平行；waste sorting译垃圾分类。④cities and rural areas不漏农村，are becoming greener and more beautiful表达正在发生的变化。⑤participates in international cooperation与has made contributions to体现参与及结果。清洁能源用clean energy，不应缩小为只发展太阳能。",
+      "rubric": [
+        "练习自评总分15分：信息准确0–8＋语法0–5＋表达0–2；允许拆句、换同义词，不要求逐字匹配参考译文。",
+        "信息准确0–8分：逐项检查——环保重视；空气水土成效；清洁能源、公交、共享单车、分类；城乡更绿美；国际合作及全球贡献。8分=全部关键信息正确；6–7分=少量次要细节遗漏；3–5分=多处遗漏/数字或关系误译；0–2分=核心人物、动作或逻辑严重错误。",
+        "语法0–5分：5分=时态、单复数、主谓一致、从句和介词基本正确；3–4分=少量错误仍易理解；1–2分=多处错误妨碍理解；0分=主要句子结构不可理解。",
+        "表达0–2分：2分=用词搭配自然、因果转折时间衔接清楚；1分=可理解但有中文式生硬表达；0分=词序/词义造成大面积理解困难。",
+        "修订操作：先在中文原题划出时间、数量、地点和连接词，再在自己的译文逐项找对应；为每处漏译或误译写一句修正。此分数是练习估计，不是官方阅卷或机器评分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2024-12-1-nonlistening"
+    }
+  ]
+}

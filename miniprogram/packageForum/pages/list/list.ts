@@ -1,7 +1,8 @@
+import { withSharing } from '../../../utils/page-share'
 import { api } from '../../../utils/api-client'
 type ListMode = 'all' | 'posts' | 'collections' | 'comments'
 
-Page({
+Page(withSharing({
   data: {
     mode: 'all' as ListMode,
     category: '',
@@ -258,4 +259,4 @@ Page({
     }
     wx.navigateTo({ url: '/packageForum/pages/post/post' })
   }
-})
+}))

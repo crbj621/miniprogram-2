@@ -1,5 +1,6 @@
+import { withSharing } from '../../../utils/page-share'
 import { api } from '../../../utils/api-client'
-Page({
+Page(withSharing({
   data: {
     list: [] as any[],
     keyword: '',
@@ -170,4 +171,4 @@ Page({
       wx.showToast({ title: '删除失败', icon: 'none' })
     }
   }
-})
+}))

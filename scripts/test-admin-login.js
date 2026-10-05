@@ -11,7 +11,7 @@ function createPage(call) {
   let page
   const stored = new Map()
   const context = {
-    exports: {}, require: () => ({ api: { call } }),
+    exports: {}, require: () => ({ withSharing: value => value, api: { call } }),
     Page: value => { page = value },
     wx: { showToast() {}, setStorageSync: (key, value) => stored.set(key, value), redirectTo() {} },
     setTimeout: callback => callback()

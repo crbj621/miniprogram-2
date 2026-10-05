@@ -1,0 +1,106 @@
+{
+  "generatedAt": "2026-10-04T21:42:17.754Z",
+  "current": "/opt/campus-api/releases/20261005-053554",
+  "serviceState": "active",
+  "health": {
+    "status": "ok",
+    "database": "ok",
+    "functions": 22,
+    "time": "2026-10-04T21:42:17.724Z"
+  },
+  "before": {
+    "canteen_dishes": 4,
+    "canteen_ratings": 9,
+    "canteen_report_cases": 1,
+    "canteen_reports": 1,
+    "canteen_review_likes": 6,
+    "canteen_reviews": 9,
+    "canteen_stalls": 3,
+    "canteen_submissions": 3
+  },
+  "after": {
+    "canteen_dishes": 4,
+    "canteen_ratings": 9,
+    "canteen_report_cases": 1,
+    "canteen_reports": 1,
+    "canteen_review_likes": 6,
+    "canteen_reviews": 9,
+    "canteen_stalls": 3,
+    "canteen_submissions": 3
+  },
+  "legacyRatingPairs": 9,
+  "comments": [
+    {
+      "dishId": "103a0604cc7a1f328f193d3e",
+      "success": true,
+      "count": 1,
+      "reviewCount": 1,
+      "score": 5,
+      "returnedComments": 1,
+      "privateOpenidExposed": false
+    },
+    {
+      "dishId": "f5ccc77d57e8862d9c48da0d",
+      "success": true,
+      "count": 2,
+      "reviewCount": 2,
+      "score": 4,
+      "returnedComments": 2,
+      "privateOpenidExposed": false
+    },
+    {
+      "dishId": "84597879936b57317e6d5ab8",
+      "success": true,
+      "count": 5,
+      "reviewCount": 5,
+      "score": 3.4,
+      "returnedComments": 5,
+      "privateOpenidExposed": false
+    },
+    {
+      "dishId": "d3611565cf0625bb90b968c9",
+      "success": true,
+      "count": 1,
+      "reviewCount": 1,
+      "score": 1,
+      "returnedComments": 1,
+      "privateOpenidExposed": false
+    }
+  ],
+  "picks": [
+    {
+      "mode": "quality",
+      "success": true,
+      "dishId": "f5ccc77d57e8862d9c48da0d"
+    },
+    {
+      "mode": "all",
+      "success": true,
+      "dishId": "84597879936b57317e6d5ab8"
+    },
+    {
+      "mode": "unusual",
+      "success": true,
+      "dishId": null
+    }
+  ],
+  "hashes": {
+    "server/services/canteen_reviews/index.js": "8245c74fa434cfabc39b029ac2f0a08560e40b3da76c2a9884a5b4b9567d78f3",
+    "server/src/campus-rewards.js": "cbba0b74d91654a7be585e4d068f96959888d14bf5f713072491b2dd31d1feb0",
+    "server/scripts/test-canteen-interactions.js": "edbe6b4d12fb6384504df9dba36c7199c6c7df7c75b2cb5bea289dc598f92abe",
+    "server/src/data-store/index.js": "7d16e4e3e44c4fc32ebbf05bdcd088ff0358b7274800665b479883240007d726",
+    "server/src/app.js": "b789f3a175bc5d533858b57c6622cbd71c4351af8005f057c23ead0e1db50bcd"
+  },
+  "originalSiteSha256": "3044d274ff336c8cb5fe6dc87b6fca840e92b9ca3b695acfb4b2953c4e03d8a5",
+  "checks": {
+    "healthy": true,
+    "originalSiteUnchanged": true,
+    "oldDocumentsUnchanged": true,
+    "legacyRatingsMigrated": true,
+    "oneRatingPerUserDish": true,
+    "commentsReadable": true,
+    "mealsReadable": true,
+    "lunchDinnerSharePublishedDishes": true,
+    "randomReadable": true
+  }
+}

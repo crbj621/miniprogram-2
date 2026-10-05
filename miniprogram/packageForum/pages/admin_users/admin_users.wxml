@@ -1,6 +1,7 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="container">
   <view class="search-bar">
-    <tech-search class="tech-search-host"><input class="search-input tech-input" placeholder="搜索用户昵称" value="{{keyword}}" bindinput="onKeywordInput" bindconfirm="onSearch" placeholder-style="color:#8597ad" /></tech-search>
+    <tech-search class="tech-search-host"><input class="search-input tech-input" placeholder="搜索用户昵称" value="{{keyword}}" bindinput="onKeywordInput" bindconfirm="onSearch" adjust-position="{{true}}" cursor-spacing="24" placeholder-style="color:#8597ad" /></tech-search>
     <view class="search-btn tech-control" bindtap="onSearch" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">搜索</view>
   </view>
 
@@ -33,3 +34,5 @@
     <view class="empty" wx:if="{{!loading && users.length === 0}}">暂无用户</view>
   </scroll-view>
 </view>
+
+</block>

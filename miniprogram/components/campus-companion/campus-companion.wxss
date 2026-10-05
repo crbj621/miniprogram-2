@@ -1,0 +1,26 @@
+:host { display:block; width:100%; height:100%; }
+.companion-stage { width:100%; height:100%; position:relative; overflow:visible; }
+.companion-shadow { position:absolute; left:22%; right:22%; bottom:3%; height:8%; border-radius:50%; background:radial-gradient(ellipse,#9dabc538,transparent 72%); }
+.companion-figure { position:absolute; inset:0; transform-origin:50% 92%; animation:companion-idle 3.8s ease-in-out infinite; }
+.companion-layer { position:absolute; inset:0; width:100%; height:100%; display:block; pointer-events:none; }
+.companion-body { z-index:1; }.companion-outfit { z-index:2; }.companion-shoes { z-index:3; }.companion-accessory { z-index:4; }
+.companion-dialogue { position:absolute; z-index:6; left:50%; bottom:96%; transform:translateX(-50%); width:240rpx; box-sizing:border-box; padding:12rpx 16rpx; border:2rpx solid #edcddd; border-radius:22rpx; background:#fff9fdef; color:#a5748f; box-shadow:0 5rpx 20rpx #b9809d15; font-size:22rpx; line-height:1.6; text-align:center; }
+.companion-motion--wobble .companion-figure { animation:companion-wobble .55s ease-in-out 3; }
+.companion-motion--hop .companion-figure { animation:companion-hop .7s ease-in-out 2; }
+.companion-motion--nod .companion-figure { animation:companion-nod .45s ease-in-out 4; }
+.companion-stage--paused .companion-figure,.companion-stage--paused .companion-food,.companion-stage--paused .companion-heart { animation-play-state:paused; }
+.companion-empty { height:100%; display:flex; flex-direction:column; justify-content:center; align-items:center; gap:12rpx; text-align:center; color:#8a99b0; font-size:20rpx; }
+.companion-empty-symbol { font-size:64rpx; color:#b3c3df; }
+.companion-reaction { position:absolute; z-index:5; top:0; right:-8rpx; display:flex; align-items:center; gap:4rpx; border:1rpx solid #e5cfdc; border-radius:22rpx; background:#fff7fc; padding:8rpx 12rpx; color:#a5788d; font-size:20rpx; animation:reaction-appear 1.8s ease both; white-space:nowrap; }
+.companion-food { position:absolute; z-index:5; left:10%; top:58%; font-size:44rpx; animation:food-to-face 1.8s ease both; }
+.companion-heart { position:absolute; z-index:5; right:12%; top:38%; color:#df8bb0; font-size:40rpx; animation:heart-rise 1.8s ease both; }
+.companion-stage--feeding .companion-figure { animation:feeding-bounce .45s ease-in-out 4; }
+@keyframes feeding-bounce { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-6rpx) rotate(1deg); } }
+@keyframes reaction-appear { 0% { opacity:0; transform:scale(.8); } 15%,80% { opacity:1; transform:scale(1); } 100% { opacity:0; } }
+@keyframes food-to-face { 0% { opacity:0; transform:translate(0,18rpx) scale(.7); } 20% { opacity:1; } 65% { opacity:1; transform:translate(36rpx,-70rpx) scale(1); } 100% { opacity:0; transform:translate(36rpx,-70rpx) scale(.5); } }
+@keyframes heart-rise { 0% { opacity:0; transform:translateY(20rpx) scale(.5); } 35% { opacity:1; } 100% { opacity:0; transform:translateY(-50rpx) scale(1.1); } }
+@keyframes companion-idle { 0%,100% { transform:translateY(0) scale(1); } 50% { transform:translateY(-3rpx) scale(1.012); } }
+@keyframes companion-wobble { 0%,100% { transform:rotate(0); } 25% { transform:rotate(-2.5deg); } 75% { transform:rotate(2.5deg); } }
+@keyframes companion-hop { 0%,100% { transform:translateY(0) scale(1); } 25% { transform:translateY(2rpx) scale(1.02,.98); } 55% { transform:translateY(-12rpx) scale(.98,1.02); } }
+@keyframes companion-nod { 0%,100% { transform:scale(1); } 50% { transform:translateY(3rpx) scale(1.015,.985); } }
+@media (prefers-reduced-motion:reduce) { .companion-figure,.companion-stage--feeding .companion-figure,.companion-motion--wobble .companion-figure,.companion-motion--hop .companion-figure,.companion-motion--nod .companion-figure,.companion-food,.companion-heart,.companion-reaction { animation:none; } }

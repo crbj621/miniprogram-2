@@ -5,8 +5,8 @@
   align-items: center;
   justify-content: center;
   padding: 40rpx;
+  box-sizing: border-box;
   position: relative;
-  overflow: hidden;
 }
 
 .bg-image {
@@ -30,6 +30,8 @@
 
 .login-content {
   width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,13 +65,14 @@
 
 .form-section {
   width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 24rpx;
   padding: 40rpx;
   margin-bottom: 40rpx;
   box-shadow: 0 10rpx 40rpx rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(10px);
 }
 
 .form-item {
@@ -88,7 +91,9 @@
   font-weight: 500;
 }
 
-.avatar-btn {
+.avatar-btn.tech-control {
+  margin-left: 0;
+  margin-right: 0;
   display: flex;
   align-items: center;
   background-color: #f5f5f5;
@@ -104,6 +109,7 @@
 }
 
 .avatar-img {
+  flex-shrink: 0;
   width: 100rpx;
   height: 100rpx;
   border-radius: 50%;
@@ -114,12 +120,14 @@
 }
 
 .avatar-tip {
+  min-width: 0;
   font-size: 28rpx;
   color: #666;
 }
 
 .nickname-input {
   width: 100%;
+  min-width: 0;
   height: 88rpx;
   background-color: #f5f5f5;
   border-radius: 16rpx;
@@ -128,7 +136,9 @@
   box-sizing: border-box;
 }
 
-.login-btn {
+.login-btn.tech-control {
+  margin-left: 0;
+  margin-right: 0;
   width: 100%;
   height: 96rpx;
   background: #ff9a9e;
@@ -155,11 +165,28 @@
   color: #fff;
 }
 
-.skip-login {
-  margin-top: 40rpx;
+.login-content .skip-login.tech-control {
+  width: 100%;
+  height: 88rpx;
+  min-height: 88rpx;
+  margin: 32rpx 0 0;
+  padding: 0 24rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: normal;
   font-size: 28rpx;
-  color: #666;
+  font-weight: 700;
+  color: #4b3972 !important;
+  background: linear-gradient(105deg, #ffadd5 0%, #cbb4ff 52%, #8be9ff 100%) !important;
+  border: 2rpx solid rgba(255, 255, 255, 0.92) !important;
+  border-radius: 44rpx;
+  box-shadow: 0 8rpx 24rpx rgba(192, 138, 220, 0.28), inset 0 2rpx 8rpx rgba(255, 255, 255, 0.55) !important;
   text-shadow: none;
+}
+
+.login-content .skip-login.tech-pressed {
+  box-shadow: 0 3rpx 12rpx rgba(158, 124, 205, 0.24), inset 0 2rpx 8rpx rgba(255, 255, 255, 0.55) !important;
 }
 
 @import "../../styles/tech-ui.wxss";

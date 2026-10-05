@@ -7,17 +7,19 @@ export interface RunPoint {
   steps: number
 }
 
-// GPS 只累计实际采集的连续路段；暂停、丢点和步数估距后必须重新建锚点。
+// GPS 只累计实际采集的连续路段；摇手机产生的传感器步数不能证明位移。
 export class RunTracker {
   private anchor: RunPoint | null = null
   private previous: RunPoint | null = null
   private lastIncrement = 0
   private broken = false
+  private motionCandidate: RunPoint | null = null
   constructor(private distance: (a: RunPoint, b: RunPoint) => number) {}
   breakSegment() {
     this.anchor = null
     this.previous = null
     this.lastIncrement = 0
+    this.motionCandidate = null
     this.broken = true
   }
   sample(point: RunPoint): { delta: number; draw: boolean; newSegment: boolean; rollback: boolean; gap: boolean } {
@@ -37,22 +39,41 @@ export class RunTracker {
       result.draw = true
       this.previous = null
       this.lastIncrement = 0
+      this.motionCandidate = null
       this.anchor = point
       this.broken = false
       return result
     }
     if (elapsed < 0.5) return result
     const meters = this.distance(anchor, point)
-    const stepDelta = point.steps - anchor.steps
     if (!Number.isFinite(meters) || meters / elapsed > 12 || meters > 180) {
       result.gap = true
       this.breakSegment()
       return result
     }
-    // 已知静止且没有脚步：不把缓慢漂移累计成运动距离。
-    if (point.speed >= 0 && point.speed < 0.6 && stepDelta <= 0) return result
-    if (meters < Math.max(2, Math.min(6, point.accuracy * 0.1))) return result
-    if (this.previous && stepDelta <= 0 && anchor.steps <= this.previous.steps &&
+    // GPS 速度已知静止时重建锚点，避免漂移随时间积累；计步不能绕过此检查。
+    if (point.speed >= 0 && point.speed < 0.6) {
+      this.anchor = point
+      this.motionCandidate = null
+      return result
+    }
+    const threshold = Math.max(4, Math.min(12, Math.max(anchor.accuracy, point.accuracy) * 0.35))
+    if (meters < threshold) return result
+    if (point.speed < 0) {
+      // 无速度设备须有两次方向一致的连续位移；一个跳点或缓慢漂移不能计距。
+      const candidate = this.motionCandidate
+      if (meters / elapsed < 1 || !candidate) { this.motionCandidate = point; return result }
+      const dt = (point.time - candidate.time) / 1000
+      const next = this.distance(candidate, point)
+      const first = this.distance(anchor, candidate)
+      const cosine = first && next ? (meters * meters - first * first - next * next) / (2 * first * next) : -1
+      if (dt <= 0 || dt > 10 || next / dt < 0.6 || cosine < 0.5 || meters < Math.max(8, threshold)) {
+        this.motionCandidate = point
+        return result
+      }
+    }
+    this.motionCandidate = null
+    if (this.previous &&
         this.lastIncrement > 15 && this.distance(this.previous, point) < 8) {
       result.delta = -this.lastIncrement
       result.rollback = true

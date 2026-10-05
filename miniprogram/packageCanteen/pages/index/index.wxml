@@ -1,7 +1,9 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <mahiro-scroll id="page-refresh" class="page-refresh-scroll" bindrefresh="refreshPage">
-<view class="page">
-  <view class="campus-heading"><view class="campus-heading-copy"><text class="campus-kicker">校园生活 · 吃前看看</text><text class="campus-title">食堂饭菜评价</text><text class="campus-subtitle">把真实评价，变成你的觅食指南</text></view><campus-sticker kind="canteen" /></view>
-  <view class="random card tech-card">
+<view class="page campus-theme {{theme.key !== 'default' ? 'campus-theme-enabled' : ''}}" style="{{theme.style}}">
+  <view class="campus-heading campus-theme-surface"><view class="campus-heading-copy"><text class="campus-kicker">{{pageCopy.title}}</text><text class="campus-title">食堂饭菜评价<text wx:if="{{theme.key !== 'default'}}" class="campus-theme-decoration">{{theme.decoration}}</text></text><text class="campus-subtitle">{{pageCopy.subtitle}}</text></view><campus-sticker kind="canteen" /></view>
+  <view class="meal-tabs"><button wx:for="{{meals}}" wx:key="key" class="tech-control {{meal === item.key ? 'selected' : ''}}" data-meal="{{item.key}}" bindtap="chooseMeal" hover-class="tech-pressed">{{item.label}}</button></view><text class="meal-note">午晚餐共用菜品 · 按供应时段筛选</text>
+  <view class="random card tech-card campus-theme-surface">
     <view class="discovery-actions"><button bindtap="goSubmit" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100" class="tech-control">＋ 投稿我的发现</button><button bindtap="load" loading="{{loading}}" disabled="{{loading}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100" class="tech-control">刷新 ↻</button></view>
     <view class="section-title">今天不知道吃什么？</view>
     <view class="modes">
@@ -20,23 +22,25 @@
     </view>
     <text class="empty-tip" wx:if="{{randomMessage}}">{{randomMessage}}</text>
   </view>
-  <view class="search"><view class="campus-search-icon"></view><tech-search class="tech-search-host"><input placeholder="搜索档口或菜品" value="{{keyword}}" bindinput="onKeyword" bindconfirm="search" placeholder-style="color:#8597ad" class="tech-input" /></tech-search><button bindtap="search" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100" class="tech-control">搜索</button></view>
+  <view class="search"><view class="campus-search-icon"></view><tech-search class="tech-search-host"><input adjust-position="{{true}}" cursor-spacing="24" placeholder="搜索档口或菜品" value="{{keyword}}" bindinput="onKeyword" bindconfirm="search" placeholder-style="color:#8597ad" class="tech-input" /></tech-search><button bindtap="search" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100" class="tech-control">搜索</button></view>
   <view class="tabs"><button class="{{tab === 'stalls' ? 'selected' : ''}} tech-control" data-tab="stalls" bindtap="switchTab" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">档口排行</button><button class="{{tab === 'dishes' ? 'selected' : ''}} tech-control" data-tab="dishes" bindtap="switchTab" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">菜品排行</button></view>
   <view wx:if="{{loading}}" class="empty-tip"><tech-loader/>加载中…</view>
   <block wx:elif="{{tab === 'stalls'}}">
     <view class="list-card tech-card" wx:for="{{stalls}}" wx:key="_id" data-id="{{item._id}}" bindtap="goStall" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
       <image wx:if="{{item.image}}" src="{{item.image}}" mode="aspectFill"></image><view wx:else class="placeholder"><campus-sticker kind="food" /></view>
-      <view class="list-copy"><text class="list-name">{{index + 1}}. {{item.name}}</text><text>{{item.location}} · {{item.dishCount}} 道菜</text><text class="score">{{item.reviewCount ? item.score + ' 分 · ' + item.reviewCount + ' 条评价' : '暂无评分'}} <text wx:if="{{item.verdict}}" class="verdict {{item.verdict === '避雷' ? 'danger' : ''}}">{{item.verdict}}</text></text></view><text>›</text>
+      <view class="list-copy"><text class="list-name">{{index + 1}}. {{item.name}}</text><text>{{item.location}} · {{item.dishCount}} 道菜</text><text class="score">{{item.count ? item.score + ' 分 · ' + item.count + ' 份评分' : '暂无评分'}} <text wx:if="{{item.verdict}}" class="verdict {{item.verdict === '避雷' ? 'danger' : ''}}">{{item.verdict}}</text></text></view><text>›</text>
     </view>
-    <view class="empty-tip" wx:if="{{!loading && !stalls.length}}">还没有发布档口，管理员可在后台添加</view>
+    <view class="empty-tip" wx:if="{{!loading && !stalls.length}}">这里还没有公开档口，来投稿第一份发现吧</view>
   </block>
   <block wx:else>
     <view class="list-card tech-card" wx:for="{{dishes}}" wx:key="_id" data-id="{{item._id}}" bindtap="goDish" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
       <image wx:if="{{item.image}}" src="{{item.image}}" mode="aspectFill"></image><view wx:else class="placeholder"><campus-sticker kind="food" /></view>
-      <view class="list-copy"><text class="list-name">{{index + 1}}. {{item.name}}</text><text wx:if="{{item.price !== null}}">¥{{item.price}}</text><text class="score">{{item.count ? item.score + ' 分 · ' + item.count + ' 条评价' : '暂无评分'}} <text wx:if="{{item.verdict}}" class="verdict {{item.verdict === '避雷' ? 'danger' : ''}}">{{item.verdict}}</text></text></view><text>›</text>
+      <view class="list-copy"><text class="list-name">{{index + 1}}. {{item.name}}</text><text wx:if="{{item.price !== null}}">¥{{item.price}}</text><text class="score">{{item.count ? item.score + ' 分 · ' + item.count + ' 人评分' : '暂无评分'}} <text wx:if="{{item.verdict}}" class="verdict {{item.verdict === '避雷' ? 'danger' : ''}}">{{item.verdict}}</text></text></view><text>›</text>
     </view>
-    <view class="empty-tip" wx:if="{{!loading && !dishes.length}}">还没有发布菜品</view>
+    <view class="empty-tip" wx:if="{{!loading && !dishes.length}}">这个餐次还没有菜品，试试其他餐次或补充发现</view>
   </block>
 </view>
 
 </mahiro-scroll>
+
+</block>

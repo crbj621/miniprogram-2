@@ -1,6 +1,7 @@
+const { withSharing } = require('../../../utils/page-share')
 const { api } = require('../../../utils/api-client')
 const states = ['', 'pending', 'processing', 'ready', 'completed', 'cancelled']
-Page({
+Page(withSharing({
   data: { orders: [], loading: false, updating: false, status: '', statusIndex: 0, page: 1, hasMore: true },
   refreshPage() { return this.selectComponent('#page-refresh').refresh(() => this.loadOrders()) },
   onLoad() { this.loadOrders() },
@@ -46,4 +47,4 @@ Page({
     } catch (error) { wx.showToast({ title: error.message || '操作失败', icon: 'none' }) }
     finally { this.setData({ updating: false }) }
   }
-})
+}))

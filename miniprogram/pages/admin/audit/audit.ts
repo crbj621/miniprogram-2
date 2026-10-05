@@ -1,5 +1,6 @@
+import { withSharing } from '../../../utils/page-share'
 import { api } from '../../../utils/api-client'
-Page({
+Page(withSharing({
   data: {
     list: [] as any[],
     loading: true,
@@ -140,4 +141,4 @@ Page({
       wx.showToast({ title: '操作失败', icon: 'none' })
     }
   }
-})
+}))

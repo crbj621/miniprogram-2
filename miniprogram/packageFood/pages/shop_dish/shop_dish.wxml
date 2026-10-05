@@ -1,3 +1,4 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <wxs module="utils">
 module.exports = {
   isFeatured: function(featuredDishes, dishId) {
@@ -56,8 +57,8 @@ module.exports = {
     </view>
   </view>
 
-  <view class="modal-mask" wx:if="{{showModal}}" bindtap="hideModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"></view>
-  <view class="modal-content tech-card" wx:if="{{showModal}}">
+  <view class="modal-mask" wx:if="{{showModal}}" bindtap="hideModal"></view>
+  <view class="modal-wrap" wx:if="{{showModal}}" bindtap="hideModal"><view class="modal-content tech-card" catchtap="">
     <view class="modal-header">
       <text class="modal-title">{{isEdit ? '编辑菜品' : '添加菜品'}}</text>
       <view class="modal-close tap-action" bindtap="hideModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">×</view>
@@ -65,31 +66,31 @@ module.exports = {
     <scroll-view scroll-y class="modal-body">
       <view class="form-item">
         <text class="form-label">菜品名称 <text class="required">*</text></text>
-        <input class="form-input large tech-input" placeholder="请输入菜品名称" value="{{form.name}}" data-field="name" bindinput="onInputChange" placeholder-style="color:#8597ad" />
+        <input adjust-position="{{true}}" cursor-spacing="24" class="form-input large tech-input" placeholder="请输入菜品名称" value="{{form.name}}" data-field="name" bindinput="onInputChange" placeholder-style="color:#8597ad" />
       </view>
 
       <view class="form-item">
         <text class="form-label">菜品分类 <text class="required">*</text></text>
-        <input class="form-input tech-input" placeholder="如：热销、主食、饮品" value="{{form.category}}" data-field="category" bindinput="onInputChange" placeholder-style="color:#8597ad" />
+        <input adjust-position="{{true}}" cursor-spacing="24" class="form-input tech-input" placeholder="如：热销、主食、饮品" value="{{form.category}}" data-field="category" bindinput="onInputChange" placeholder-style="color:#8597ad" />
       </view>
 
       <view class="form-row">
         <view class="form-item half">
           <text class="form-label">价格 <text class="required">*</text></text>
           <view class="input-with-unit">
-            <input class="form-input tech-input" type="digit" placeholder="0.00" value="{{form.price}}" data-field="price" bindinput="onInputChange" placeholder-style="color:#8597ad" />
+            <input adjust-position="{{true}}" cursor-spacing="24" class="form-input tech-input" type="digit" placeholder="0.00" value="{{form.price}}" data-field="price" bindinput="onInputChange" placeholder-style="color:#8597ad" />
             <text class="unit">元</text>
           </view>
         </view>
         <view class="form-item half">
           <text class="form-label">库存</text>
-          <input class="form-input tech-input" type="number" placeholder="999" value="{{form.stock}}" data-field="stock" bindinput="onInputChange" placeholder-style="color:#8597ad" />
+          <input adjust-position="{{true}}" cursor-spacing="24" class="form-input tech-input" type="number" placeholder="999" value="{{form.stock}}" data-field="stock" bindinput="onInputChange" placeholder-style="color:#8597ad" />
         </view>
       </view>
 
       <view class="form-item">
         <text class="form-label">菜品描述</text>
-        <textarea class="form-textarea tech-input" placeholder="请输入菜品描述（选填）" value="{{form.description}}" data-field="description" bindinput="onInputChange" placeholder-style="color:#8597ad"></textarea>
+        <textarea fixed="{{true}}" disable-default-padding="{{true}}" adjust-position="{{true}}" cursor-spacing="24" class="form-textarea tech-input" placeholder="请输入菜品描述（选填）" value="{{form.description}}" data-field="description" bindinput="onInputChange" placeholder-style="color:#8597ad"></textarea>
       </view>
 
       <view class="form-item">
@@ -107,5 +108,7 @@ module.exports = {
       <button class="cancel-btn tech-control" bindtap="hideModal" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">取消</button>
       <button class="confirm-btn tech-control tech-primary" bindtap="saveDish" loading="{{saving}}" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">{{saving ? '保存中...' : '保存'}}</button>
     </view>
-  </view>
+  </view></view>
 </view>
+
+</block>

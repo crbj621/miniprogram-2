@@ -1,5 +1,7 @@
+import { withSharing } from '../../../utils/page-share'
 import { api } from '../../../utils/api-client'
-Page({
+import { createKeyboardViewport } from '../../../utils/keyboard-viewport'
+Page(withSharing({
   data: {
     postId: '',
     post: {} as any,
@@ -11,10 +13,15 @@ Page({
     reportReason: '',
     currentOpenid: '',
     commentSubmitting: false,
-    postActionLoading: false
+    postActionLoading: false,
+    keyboardViewportHeight: 0,
+    keyboardHeight: 0
   },
 
+  keyboardViewport: null as ReturnType<typeof createKeyboardViewport>,
+
   onLoad(options: any) {
+    this.keyboardViewport = createKeyboardViewport(this)
     const app = getApp()
     this.setData({
       postId: options.id,
@@ -22,6 +29,17 @@ Page({
     })
     this.loadPostDetail()
     this.loadComments()
+  },
+
+  onHide() { if (this.keyboardViewport) this.keyboardViewport.stop() },
+  onUnload() { if (this.keyboardViewport) this.keyboardViewport.stop() },
+  onResize(event: any) { if (this.keyboardViewport) this.keyboardViewport.resize(event) },
+  onKeyboardHeightChange(event: any) { if (this.keyboardViewport) this.keyboardViewport.onHeightChange(event) },
+
+  onComposerFocus(event: any) {
+    if (!this.keyboardViewport || this.data.showReportModal) return
+    this.keyboardViewport.start()
+    this.keyboardViewport.onHeightChange(event)
   },
 
   async loadPostDetail() {
@@ -104,7 +122,9 @@ Page({
 
   async onSubmitComment() {
     if (!this.ensureLoggedIn() || this.data.commentSubmitting) return
-    const content = this.data.commentContent.trim()
+    const draft = this.data.commentContent
+    const replyTo = this.data.replyTo
+    const content = draft.trim()
     if (!content) {
       wx.showToast({ title: '请输入评论内容', icon: 'none' })
       return
@@ -122,7 +142,7 @@ Page({
           data: {
             postId: this.data.postId,
             content: content,
-            replyTo: this.data.replyTo,
+            replyTo,
             nickname: (userInfo && userInfo.nickName) || '',
             avatar: (userInfo && userInfo.avatarUrl) || ''
           }
@@ -130,20 +150,18 @@ Page({
       }) as any
 
       if (res.result && res.result.success) {
-        this.setData({
-          commentContent: '',
-          replyTo: '',
-          replyToName: ''
-        })
+        if (this.data.commentContent === draft && this.data.replyTo === replyTo) {
+          this.setData({ commentContent: '', replyTo: '', replyToName: '' })
+        }
         this.loadComments()
         this.loadPostDetail()
         wx.showToast({ title: '评论成功', icon: 'success' })
       } else {
-        wx.showToast({ title: res.result.msg || '评论失败', icon: 'none' })
+        wx.showToast({ title: (res.result && res.result.msg) || '评论失败，内容已保留', icon: 'none' })
       }
     } catch (err) {
       console.error('评论失败:', err)
-      wx.showToast({ title: '评论失败', icon: 'none' })
+      wx.showToast({ title: '评论失败，内容已保留', icon: 'none' })
     } finally {
       this.setData({ commentSubmitting: false })
     }
@@ -300,10 +318,13 @@ Page({
 
   onShowReport() {
     if (!this.ensureLoggedIn()) return
+    if (this.keyboardViewport) this.keyboardViewport.stop()
+    wx.hideKeyboard()
     this.setData({ showReportModal: true })
   },
 
   onHideReport() {
+    wx.hideKeyboard()
     this.setData({ showReportModal: false, reportReason: '' })
   },
 
@@ -370,4 +391,4 @@ Page({
       wx.navigateTo({ url: url })
     }
   }
-})
+}))

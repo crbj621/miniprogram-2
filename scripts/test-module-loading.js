@@ -4,11 +4,11 @@ const path = require('node:path')
 const vm = require('node:vm')
 const ts = require('typescript')
 
-const flags = { running: true, food: false, canteen: true, forum: false, rider: false }
+const flags = { running: true, food: false, canteen: true, forum: false, rider: false, english: false, gifts: false }
 
 async function checkPage(name) {
   let response = { result: { code: -1, message: 'Unknown action: getPublicModules' } }
-  const wx = { cloud: { callFunction: async () => {
+  const wx = { getStorageSync: () => '', setStorageSync() {}, cloud: { callFunction: async () => {
     if (response instanceof Error) throw response
     return response
   } } }

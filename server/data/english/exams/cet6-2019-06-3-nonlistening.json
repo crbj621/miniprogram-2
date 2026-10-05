@@ -1,0 +1,2025 @@
+{
+  "schemaVersion": 1,
+  "status": "verified_structured",
+  "source": {
+    "id": "cet6-2019-06-3-nonlistening",
+    "textCollection": "https://english-exam.lazynote.cn",
+    "textUrl": "https://english-exam.lazynote.cn/cet6/paper/2019-06-3/",
+    "textSha256": "4ba9cd6346cf9110e7f60222164b3bf900c623d3572d6fbc47fdcae00dd27dc3",
+    "answerSources": [
+      {
+        "section": "part3-section-a",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2019-06-3/part3-section-a/",
+        "sha256": "549a3043e189ef32e1646ddcea46369eedfb6ad50ec811844d6be7820d129495"
+      },
+      {
+        "section": "part3-section-b",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2019-06-3/part3-section-b/",
+        "sha256": "a10ea3e40882b0c7704e7ab58e0f90c16b396eb131e135a3a901e4cdc1e7182e"
+      },
+      {
+        "section": "part3-section-c-1",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2019-06-3/part3-section-c-1/",
+        "sha256": "5957cdfeb694316f5674eadee72ed6e0b5964f7132c00febacf4356fed4fc87e"
+      },
+      {
+        "section": "part3-section-c-2",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2019-06-3/part3-section-c-2/",
+        "sha256": "d04f642ad260777fd41b94f735351b7e8c2917aa6fcecb605fc9c1236e172a29"
+      }
+    ],
+    "rightsUrl": "https://english-exam.lazynote.cn",
+    "rights": "Source footer attributes original papers to the National College English Test Committee. Original materials retain their respective rights; no blanket source license is asserted. Commercial explanatory prose is not copied.",
+    "sourceRightsNotice": "© 2026 懒笔记 · 蜀ICP备2024049450号-1 · 川公网安备51019002006323号 · 增值电信业务经营许可证：川B2-20240301 · 真题版权归全国硕士研究生招生考试 / 全国大学英语四六级考试委员会所有 · 隐私政策 · 用户协议",
+    "sourceTermsUrl": "https://english-exam.lazynote.cn/terms/",
+    "reviewedAt": "2026-10-03",
+    "answerStatus": "public_reference_structural_consistency_verified",
+    "explanations": "Project-generated contextual evidence notes. Close-reading locations are keyword-search candidates, not manually verified detailed explanations.",
+    "referenceEssays": "Project-authored full reference examples bound to the original prompts; not official model answers.",
+    "materialSources": [],
+    "corrections": [],
+    "previousReviewedAnswerSources": [],
+    "sourceEdition": "lazynote public original-paper arrangement; set numbering can differ from other collections.",
+    "independentlyConfirmedSharedSource": "",
+    "readingSourceCorrection": null,
+    "sectionSourceReplacement": null,
+    "independentAnswerChecks": [],
+    "sharedSectionSource": {}
+  },
+  "papers": [
+    {
+      "id": "cet6-2019-06-3-nonlistening",
+      "level": "CET6",
+      "year": 2019,
+      "month": 6,
+      "set": 3,
+      "title": "2019年6月英语六级第3套真题（不含听力）",
+      "authenticity": "past_exam",
+      "questionIds": [
+        "cet6-2019-06-3-nonlistening-writing",
+        "cet6-2019-06-3-nonlistening-q26",
+        "cet6-2019-06-3-nonlistening-q27",
+        "cet6-2019-06-3-nonlistening-q28",
+        "cet6-2019-06-3-nonlistening-q29",
+        "cet6-2019-06-3-nonlistening-q30",
+        "cet6-2019-06-3-nonlistening-q31",
+        "cet6-2019-06-3-nonlistening-q32",
+        "cet6-2019-06-3-nonlistening-q33",
+        "cet6-2019-06-3-nonlistening-q34",
+        "cet6-2019-06-3-nonlistening-q35",
+        "cet6-2019-06-3-nonlistening-q36",
+        "cet6-2019-06-3-nonlistening-q37",
+        "cet6-2019-06-3-nonlistening-q38",
+        "cet6-2019-06-3-nonlistening-q39",
+        "cet6-2019-06-3-nonlistening-q40",
+        "cet6-2019-06-3-nonlistening-q41",
+        "cet6-2019-06-3-nonlistening-q42",
+        "cet6-2019-06-3-nonlistening-q43",
+        "cet6-2019-06-3-nonlistening-q44",
+        "cet6-2019-06-3-nonlistening-q45",
+        "cet6-2019-06-3-nonlistening-q46",
+        "cet6-2019-06-3-nonlistening-q47",
+        "cet6-2019-06-3-nonlistening-q48",
+        "cet6-2019-06-3-nonlistening-q49",
+        "cet6-2019-06-3-nonlistening-q50",
+        "cet6-2019-06-3-nonlistening-q51",
+        "cet6-2019-06-3-nonlistening-q52",
+        "cet6-2019-06-3-nonlistening-q53",
+        "cet6-2019-06-3-nonlistening-q54",
+        "cet6-2019-06-3-nonlistening-q55",
+        "cet6-2019-06-3-nonlistening-translation"
+      ],
+      "durationSeconds": 6000,
+      "description": "写作1题、阅读30题、翻译1题，不含听力。客观题答案与题面、选项完成结构一致性核对。",
+      "sourceId": "cet6-2019-06-3-nonlistening",
+      "coverage": {
+        "fullPaper": false,
+        "fullNonListening": true,
+        "listeningExcluded": true,
+        "objectiveNumbers": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "objectiveCount": 30,
+        "subjectiveCount": 2,
+        "sections": [
+          "writing",
+          "reading_word_bank",
+          "reading_matching",
+          "reading_comprehension",
+          "translation"
+        ],
+        "sharedSectionSource": {},
+        "note": "写作1题、阅读30题、翻译1题，不含听力。",
+        "independentlyConfirmedSharedSource": "",
+        "readingSourceCorrection": null,
+        "sectionSourceReplacement": null,
+        "referenceStatus": "project_authored"
+      },
+      "resources": [
+        {
+          "id": "cet6-2019-06-3-nonlistening-source",
+          "type": "web",
+          "title": "原卷来源与题面核对",
+          "url": "https://english-exam.lazynote.cn/cet6/paper/2019-06-3/"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cet6-2019-06-3-nonlistening-writing",
+      "number": "I",
+      "level": "CET6",
+      "type": "short_text_self_check",
+      "skill": "writing",
+      "section": "writing",
+      "prompt": "Directions: For this part, you are allowed 30 minutes to write an essay on the importance of motivation and methods in learning. You should write at least 150 words but no more than 200 words.",
+      "options": [],
+      "correctAnswer": "Motivation and suitable methods are equally important in learning. Motivation gives us a reason to begin and continue, while effective methods help turn our effort into measurable progress. Neither can fully replace the other.\n\nA student who wants to study abroad may be highly motivated to improve English. However, repeatedly reading a word list without using the words may produce disappointing results. If the student combines spaced review with reading, speaking and regular feedback, the same amount of study time can become more productive. Conversely, even a carefully designed study plan will fail if the learner has no interest in following it. A clear personal goal, divided into smaller tasks, makes daily practice easier to sustain. Seeing progress then strengthens motivation and creates a positive cycle.\n\nTherefore, learners should first identify why a subject matters to them and then test which approaches work best. Teachers can support both processes by explaining the value of learning and offering practical guidance. Meaningful goals and thoughtful methods together make lasting achievement possible.",
+      "referenceAnswer": "Motivation and suitable methods are equally important in learning. Motivation gives us a reason to begin and continue, while effective methods help turn our effort into measurable progress. Neither can fully replace the other.\n\nA student who wants to study abroad may be highly motivated to improve English. However, repeatedly reading a word list without using the words may produce disappointing results. If the student combines spaced review with reading, speaking and regular feedback, the same amount of study time can become more productive. Conversely, even a carefully designed study plan will fail if the learner has no interest in following it. A clear personal goal, divided into smaller tasks, makes daily practice easier to sustain. Seeing progress then strengthens motivation and creates a positive cycle.\n\nTherefore, learners should first identify why a subject matters to them and then test which approaches work best. Teachers can support both processes by explaining the value of learning and offering practical guidance. Meaningful goals and thoughtful methods together make lasting achievement possible.",
+      "hint": "论述动力与方法互补，用学习实例说明只具备其中一项的局限。",
+      "explanation": "以下为按本题要求独立写成的原创参考范文，作文没有唯一答案。第一段分别定义动力和方法；主体用英语学习同时说明有动力但方法低效、方法好但缺动力两种情况；结尾提出先定目标、再检验方法的路径。spaced review表示间隔复习，positive cycle表示正向循环。",
+      "rubric": [
+        "任务：论述动力与方法互补，用学习实例说明只具备其中一项的局限。",
+        "论证：明确中心观点，用原因、具体例子或经历展开；结尾回应主题。",
+        "语言：检查主谓一致、时态、搭配和段落衔接；全文控制在150–200词。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-3-nonlistening-q26",
+      "canonicalId": "lazynote-cet6-2019-06-3-q26",
+      "number": 26,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 26 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Steel is valued for its reliability, but not when it gets cold. Most forms of steel [26] ____ become brittle(脆的) at temperatures below about -25℃ unless they are mixed with other metals. Now, though, a novel type of steel has been developed that resists [27] ____ at much lower temperatures, while retaining its strength and toughness—without the need for expensive [28] ____ .\n\nSteel's fragility at low temperatures first became a major concern during the Second World War. After German U-boats torpedoed(用鱼雷攻击) numerous British ships, a 2700-strong fleet of cheap-and-cheerful \"Liberty ships\" was introduced to replace the lost vessels, providing a lifeline for the [29] ____ British. But the steel shells of hundreds of the ships [30] ____ in the icy North Atlantic, and 12 broke in half and sank.\n\nBrittleness remains a problem when building steel structures in cold conditions, such as oil rigs in the Arctic. So scientists have [31] ____ to find a solution by mixing it with expensive metals such as nickel.\n\nYuuji Kimura and colleagues in Japan tried a more physical [32] ____ . Rather than adding other metals, they developed a complex mechanical process involving repeated heating and very severe mechanical deformation, known as temp forming.\n\nThe resulting steel appears to achieve a combination of strength and toughness that is [33] ____ to that of modern steels that are very rich in alloy content and, therefore, very expensive.\n\nKimura's team intends to use its tempformed steel to make ultra-high strength parts, such as bolts. They hope to reduce both the number of [34] ____ needed in a construction job and their weight—by replacing solid supports with [35] ____ tubes, for example. This could reduce the amount of steel needed to make everything from automobiles to buildings and bridges.",
+      "options": [
+        {
+          "id": "A",
+          "text": "abruptly"
+        },
+        {
+          "id": "B",
+          "text": "additives"
+        },
+        {
+          "id": "C",
+          "text": "approach"
+        },
+        {
+          "id": "D",
+          "text": "ardently"
+        },
+        {
+          "id": "E",
+          "text": "besieged"
+        },
+        {
+          "id": "F",
+          "text": "channel"
+        },
+        {
+          "id": "G",
+          "text": "comparable"
+        },
+        {
+          "id": "H",
+          "text": "components"
+        },
+        {
+          "id": "I",
+          "text": "cracked"
+        },
+        {
+          "id": "J",
+          "text": "fractures"
+        },
+        {
+          "id": "K",
+          "text": "hollow"
+        },
+        {
+          "id": "L",
+          "text": "relevant"
+        },
+        {
+          "id": "M",
+          "text": "reshuffled"
+        },
+        {
+          "id": "N",
+          "text": "strived"
+        },
+        {
+          "id": "O",
+          "text": "violent"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "先看第 26 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 A（abruptly）。本空所在句：Most forms of steel [26] ____ become brittle(脆的) at temperatures below about -25℃ unless they are mixed with other metals.\n将本空替换为 abruptly 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-3-nonlistening-q27",
+      "canonicalId": "lazynote-cet6-2019-06-3-q27",
+      "number": 27,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 27 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Steel is valued for its reliability, but not when it gets cold. Most forms of steel [26] ____ become brittle(脆的) at temperatures below about -25℃ unless they are mixed with other metals. Now, though, a novel type of steel has been developed that resists [27] ____ at much lower temperatures, while retaining its strength and toughness—without the need for expensive [28] ____ .\n\nSteel's fragility at low temperatures first became a major concern during the Second World War. After German U-boats torpedoed(用鱼雷攻击) numerous British ships, a 2700-strong fleet of cheap-and-cheerful \"Liberty ships\" was introduced to replace the lost vessels, providing a lifeline for the [29] ____ British. But the steel shells of hundreds of the ships [30] ____ in the icy North Atlantic, and 12 broke in half and sank.\n\nBrittleness remains a problem when building steel structures in cold conditions, such as oil rigs in the Arctic. So scientists have [31] ____ to find a solution by mixing it with expensive metals such as nickel.\n\nYuuji Kimura and colleagues in Japan tried a more physical [32] ____ . Rather than adding other metals, they developed a complex mechanical process involving repeated heating and very severe mechanical deformation, known as temp forming.\n\nThe resulting steel appears to achieve a combination of strength and toughness that is [33] ____ to that of modern steels that are very rich in alloy content and, therefore, very expensive.\n\nKimura's team intends to use its tempformed steel to make ultra-high strength parts, such as bolts. They hope to reduce both the number of [34] ____ needed in a construction job and their weight—by replacing solid supports with [35] ____ tubes, for example. This could reduce the amount of steel needed to make everything from automobiles to buildings and bridges.",
+      "options": [
+        {
+          "id": "A",
+          "text": "abruptly"
+        },
+        {
+          "id": "B",
+          "text": "additives"
+        },
+        {
+          "id": "C",
+          "text": "approach"
+        },
+        {
+          "id": "D",
+          "text": "ardently"
+        },
+        {
+          "id": "E",
+          "text": "besieged"
+        },
+        {
+          "id": "F",
+          "text": "channel"
+        },
+        {
+          "id": "G",
+          "text": "comparable"
+        },
+        {
+          "id": "H",
+          "text": "components"
+        },
+        {
+          "id": "I",
+          "text": "cracked"
+        },
+        {
+          "id": "J",
+          "text": "fractures"
+        },
+        {
+          "id": "K",
+          "text": "hollow"
+        },
+        {
+          "id": "L",
+          "text": "relevant"
+        },
+        {
+          "id": "M",
+          "text": "reshuffled"
+        },
+        {
+          "id": "N",
+          "text": "strived"
+        },
+        {
+          "id": "O",
+          "text": "violent"
+        }
+      ],
+      "correctAnswer": "J",
+      "hint": "先看第 27 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 J（fractures）。本空所在句：Now, though, a novel type of steel has been developed that resists [27] ____ at much lower temperatures, while retaining its strength and toughness—without the need for expensive [28] ____ .\n将本空替换为 fractures 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-3-nonlistening-q28",
+      "canonicalId": "lazynote-cet6-2019-06-3-q28",
+      "number": 28,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 28 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Steel is valued for its reliability, but not when it gets cold. Most forms of steel [26] ____ become brittle(脆的) at temperatures below about -25℃ unless they are mixed with other metals. Now, though, a novel type of steel has been developed that resists [27] ____ at much lower temperatures, while retaining its strength and toughness—without the need for expensive [28] ____ .\n\nSteel's fragility at low temperatures first became a major concern during the Second World War. After German U-boats torpedoed(用鱼雷攻击) numerous British ships, a 2700-strong fleet of cheap-and-cheerful \"Liberty ships\" was introduced to replace the lost vessels, providing a lifeline for the [29] ____ British. But the steel shells of hundreds of the ships [30] ____ in the icy North Atlantic, and 12 broke in half and sank.\n\nBrittleness remains a problem when building steel structures in cold conditions, such as oil rigs in the Arctic. So scientists have [31] ____ to find a solution by mixing it with expensive metals such as nickel.\n\nYuuji Kimura and colleagues in Japan tried a more physical [32] ____ . Rather than adding other metals, they developed a complex mechanical process involving repeated heating and very severe mechanical deformation, known as temp forming.\n\nThe resulting steel appears to achieve a combination of strength and toughness that is [33] ____ to that of modern steels that are very rich in alloy content and, therefore, very expensive.\n\nKimura's team intends to use its tempformed steel to make ultra-high strength parts, such as bolts. They hope to reduce both the number of [34] ____ needed in a construction job and their weight—by replacing solid supports with [35] ____ tubes, for example. This could reduce the amount of steel needed to make everything from automobiles to buildings and bridges.",
+      "options": [
+        {
+          "id": "A",
+          "text": "abruptly"
+        },
+        {
+          "id": "B",
+          "text": "additives"
+        },
+        {
+          "id": "C",
+          "text": "approach"
+        },
+        {
+          "id": "D",
+          "text": "ardently"
+        },
+        {
+          "id": "E",
+          "text": "besieged"
+        },
+        {
+          "id": "F",
+          "text": "channel"
+        },
+        {
+          "id": "G",
+          "text": "comparable"
+        },
+        {
+          "id": "H",
+          "text": "components"
+        },
+        {
+          "id": "I",
+          "text": "cracked"
+        },
+        {
+          "id": "J",
+          "text": "fractures"
+        },
+        {
+          "id": "K",
+          "text": "hollow"
+        },
+        {
+          "id": "L",
+          "text": "relevant"
+        },
+        {
+          "id": "M",
+          "text": "reshuffled"
+        },
+        {
+          "id": "N",
+          "text": "strived"
+        },
+        {
+          "id": "O",
+          "text": "violent"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "先看第 28 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 B（additives）。本空所在句：Now, though, a novel type of steel has been developed that resists [27] ____ at much lower temperatures, while retaining its strength and toughness—without the need for expensive [28] ____ .\n将本空替换为 additives 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-3-nonlistening-q29",
+      "canonicalId": "lazynote-cet6-2019-06-3-q29",
+      "number": 29,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 29 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Steel is valued for its reliability, but not when it gets cold. Most forms of steel [26] ____ become brittle(脆的) at temperatures below about -25℃ unless they are mixed with other metals. Now, though, a novel type of steel has been developed that resists [27] ____ at much lower temperatures, while retaining its strength and toughness—without the need for expensive [28] ____ .\n\nSteel's fragility at low temperatures first became a major concern during the Second World War. After German U-boats torpedoed(用鱼雷攻击) numerous British ships, a 2700-strong fleet of cheap-and-cheerful \"Liberty ships\" was introduced to replace the lost vessels, providing a lifeline for the [29] ____ British. But the steel shells of hundreds of the ships [30] ____ in the icy North Atlantic, and 12 broke in half and sank.\n\nBrittleness remains a problem when building steel structures in cold conditions, such as oil rigs in the Arctic. So scientists have [31] ____ to find a solution by mixing it with expensive metals such as nickel.\n\nYuuji Kimura and colleagues in Japan tried a more physical [32] ____ . Rather than adding other metals, they developed a complex mechanical process involving repeated heating and very severe mechanical deformation, known as temp forming.\n\nThe resulting steel appears to achieve a combination of strength and toughness that is [33] ____ to that of modern steels that are very rich in alloy content and, therefore, very expensive.\n\nKimura's team intends to use its tempformed steel to make ultra-high strength parts, such as bolts. They hope to reduce both the number of [34] ____ needed in a construction job and their weight—by replacing solid supports with [35] ____ tubes, for example. This could reduce the amount of steel needed to make everything from automobiles to buildings and bridges.",
+      "options": [
+        {
+          "id": "A",
+          "text": "abruptly"
+        },
+        {
+          "id": "B",
+          "text": "additives"
+        },
+        {
+          "id": "C",
+          "text": "approach"
+        },
+        {
+          "id": "D",
+          "text": "ardently"
+        },
+        {
+          "id": "E",
+          "text": "besieged"
+        },
+        {
+          "id": "F",
+          "text": "channel"
+        },
+        {
+          "id": "G",
+          "text": "comparable"
+        },
+        {
+          "id": "H",
+          "text": "components"
+        },
+        {
+          "id": "I",
+          "text": "cracked"
+        },
+        {
+          "id": "J",
+          "text": "fractures"
+        },
+        {
+          "id": "K",
+          "text": "hollow"
+        },
+        {
+          "id": "L",
+          "text": "relevant"
+        },
+        {
+          "id": "M",
+          "text": "reshuffled"
+        },
+        {
+          "id": "N",
+          "text": "strived"
+        },
+        {
+          "id": "O",
+          "text": "violent"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "先看第 29 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 E（besieged）。本空所在句：After German U-boats torpedoed(用鱼雷攻击) numerous British ships, a 2700-strong fleet of cheap-and-cheerful \"Liberty ships\" was introduced to replace the lost vessels, providing a lifeline for the [29] ____ British.\n将本空替换为 besieged 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-3-nonlistening-q30",
+      "canonicalId": "lazynote-cet6-2019-06-3-q30",
+      "number": 30,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 30 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Steel is valued for its reliability, but not when it gets cold. Most forms of steel [26] ____ become brittle(脆的) at temperatures below about -25℃ unless they are mixed with other metals. Now, though, a novel type of steel has been developed that resists [27] ____ at much lower temperatures, while retaining its strength and toughness—without the need for expensive [28] ____ .\n\nSteel's fragility at low temperatures first became a major concern during the Second World War. After German U-boats torpedoed(用鱼雷攻击) numerous British ships, a 2700-strong fleet of cheap-and-cheerful \"Liberty ships\" was introduced to replace the lost vessels, providing a lifeline for the [29] ____ British. But the steel shells of hundreds of the ships [30] ____ in the icy North Atlantic, and 12 broke in half and sank.\n\nBrittleness remains a problem when building steel structures in cold conditions, such as oil rigs in the Arctic. So scientists have [31] ____ to find a solution by mixing it with expensive metals such as nickel.\n\nYuuji Kimura and colleagues in Japan tried a more physical [32] ____ . Rather than adding other metals, they developed a complex mechanical process involving repeated heating and very severe mechanical deformation, known as temp forming.\n\nThe resulting steel appears to achieve a combination of strength and toughness that is [33] ____ to that of modern steels that are very rich in alloy content and, therefore, very expensive.\n\nKimura's team intends to use its tempformed steel to make ultra-high strength parts, such as bolts. They hope to reduce both the number of [34] ____ needed in a construction job and their weight—by replacing solid supports with [35] ____ tubes, for example. This could reduce the amount of steel needed to make everything from automobiles to buildings and bridges.",
+      "options": [
+        {
+          "id": "A",
+          "text": "abruptly"
+        },
+        {
+          "id": "B",
+          "text": "additives"
+        },
+        {
+          "id": "C",
+          "text": "approach"
+        },
+        {
+          "id": "D",
+          "text": "ardently"
+        },
+        {
+          "id": "E",
+          "text": "besieged"
+        },
+        {
+          "id": "F",
+          "text": "channel"
+        },
+        {
+          "id": "G",
+          "text": "comparable"
+        },
+        {
+          "id": "H",
+          "text": "components"
+        },
+        {
+          "id": "I",
+          "text": "cracked"
+        },
+        {
+          "id": "J",
+          "text": "fractures"
+        },
+        {
+          "id": "K",
+          "text": "hollow"
+        },
+        {
+          "id": "L",
+          "text": "relevant"
+        },
+        {
+          "id": "M",
+          "text": "reshuffled"
+        },
+        {
+          "id": "N",
+          "text": "strived"
+        },
+        {
+          "id": "O",
+          "text": "violent"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "先看第 30 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 I（cracked）。本空所在句：But the steel shells of hundreds of the ships [30] ____ in the icy North Atlantic, and 12 broke in half and sank.\n将本空替换为 cracked 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-3-nonlistening-q31",
+      "canonicalId": "lazynote-cet6-2019-06-3-q31",
+      "number": 31,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 31 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Steel is valued for its reliability, but not when it gets cold. Most forms of steel [26] ____ become brittle(脆的) at temperatures below about -25℃ unless they are mixed with other metals. Now, though, a novel type of steel has been developed that resists [27] ____ at much lower temperatures, while retaining its strength and toughness—without the need for expensive [28] ____ .\n\nSteel's fragility at low temperatures first became a major concern during the Second World War. After German U-boats torpedoed(用鱼雷攻击) numerous British ships, a 2700-strong fleet of cheap-and-cheerful \"Liberty ships\" was introduced to replace the lost vessels, providing a lifeline for the [29] ____ British. But the steel shells of hundreds of the ships [30] ____ in the icy North Atlantic, and 12 broke in half and sank.\n\nBrittleness remains a problem when building steel structures in cold conditions, such as oil rigs in the Arctic. So scientists have [31] ____ to find a solution by mixing it with expensive metals such as nickel.\n\nYuuji Kimura and colleagues in Japan tried a more physical [32] ____ . Rather than adding other metals, they developed a complex mechanical process involving repeated heating and very severe mechanical deformation, known as temp forming.\n\nThe resulting steel appears to achieve a combination of strength and toughness that is [33] ____ to that of modern steels that are very rich in alloy content and, therefore, very expensive.\n\nKimura's team intends to use its tempformed steel to make ultra-high strength parts, such as bolts. They hope to reduce both the number of [34] ____ needed in a construction job and their weight—by replacing solid supports with [35] ____ tubes, for example. This could reduce the amount of steel needed to make everything from automobiles to buildings and bridges.",
+      "options": [
+        {
+          "id": "A",
+          "text": "abruptly"
+        },
+        {
+          "id": "B",
+          "text": "additives"
+        },
+        {
+          "id": "C",
+          "text": "approach"
+        },
+        {
+          "id": "D",
+          "text": "ardently"
+        },
+        {
+          "id": "E",
+          "text": "besieged"
+        },
+        {
+          "id": "F",
+          "text": "channel"
+        },
+        {
+          "id": "G",
+          "text": "comparable"
+        },
+        {
+          "id": "H",
+          "text": "components"
+        },
+        {
+          "id": "I",
+          "text": "cracked"
+        },
+        {
+          "id": "J",
+          "text": "fractures"
+        },
+        {
+          "id": "K",
+          "text": "hollow"
+        },
+        {
+          "id": "L",
+          "text": "relevant"
+        },
+        {
+          "id": "M",
+          "text": "reshuffled"
+        },
+        {
+          "id": "N",
+          "text": "strived"
+        },
+        {
+          "id": "O",
+          "text": "violent"
+        }
+      ],
+      "correctAnswer": "N",
+      "hint": "先看第 31 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 N（strived）。本空所在句：So scientists have [31] ____ to find a solution by mixing it with expensive metals such as nickel.\n将本空替换为 strived 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-3-nonlistening-q32",
+      "canonicalId": "lazynote-cet6-2019-06-3-q32",
+      "number": 32,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 32 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Steel is valued for its reliability, but not when it gets cold. Most forms of steel [26] ____ become brittle(脆的) at temperatures below about -25℃ unless they are mixed with other metals. Now, though, a novel type of steel has been developed that resists [27] ____ at much lower temperatures, while retaining its strength and toughness—without the need for expensive [28] ____ .\n\nSteel's fragility at low temperatures first became a major concern during the Second World War. After German U-boats torpedoed(用鱼雷攻击) numerous British ships, a 2700-strong fleet of cheap-and-cheerful \"Liberty ships\" was introduced to replace the lost vessels, providing a lifeline for the [29] ____ British. But the steel shells of hundreds of the ships [30] ____ in the icy North Atlantic, and 12 broke in half and sank.\n\nBrittleness remains a problem when building steel structures in cold conditions, such as oil rigs in the Arctic. So scientists have [31] ____ to find a solution by mixing it with expensive metals such as nickel.\n\nYuuji Kimura and colleagues in Japan tried a more physical [32] ____ . Rather than adding other metals, they developed a complex mechanical process involving repeated heating and very severe mechanical deformation, known as temp forming.\n\nThe resulting steel appears to achieve a combination of strength and toughness that is [33] ____ to that of modern steels that are very rich in alloy content and, therefore, very expensive.\n\nKimura's team intends to use its tempformed steel to make ultra-high strength parts, such as bolts. They hope to reduce both the number of [34] ____ needed in a construction job and their weight—by replacing solid supports with [35] ____ tubes, for example. This could reduce the amount of steel needed to make everything from automobiles to buildings and bridges.",
+      "options": [
+        {
+          "id": "A",
+          "text": "abruptly"
+        },
+        {
+          "id": "B",
+          "text": "additives"
+        },
+        {
+          "id": "C",
+          "text": "approach"
+        },
+        {
+          "id": "D",
+          "text": "ardently"
+        },
+        {
+          "id": "E",
+          "text": "besieged"
+        },
+        {
+          "id": "F",
+          "text": "channel"
+        },
+        {
+          "id": "G",
+          "text": "comparable"
+        },
+        {
+          "id": "H",
+          "text": "components"
+        },
+        {
+          "id": "I",
+          "text": "cracked"
+        },
+        {
+          "id": "J",
+          "text": "fractures"
+        },
+        {
+          "id": "K",
+          "text": "hollow"
+        },
+        {
+          "id": "L",
+          "text": "relevant"
+        },
+        {
+          "id": "M",
+          "text": "reshuffled"
+        },
+        {
+          "id": "N",
+          "text": "strived"
+        },
+        {
+          "id": "O",
+          "text": "violent"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "先看第 32 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 C（approach）。本空所在句：Yuuji Kimura and colleagues in Japan tried a more physical [32] ____ .\n将本空替换为 approach 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-3-nonlistening-q33",
+      "canonicalId": "lazynote-cet6-2019-06-3-q33",
+      "number": 33,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 33 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Steel is valued for its reliability, but not when it gets cold. Most forms of steel [26] ____ become brittle(脆的) at temperatures below about -25℃ unless they are mixed with other metals. Now, though, a novel type of steel has been developed that resists [27] ____ at much lower temperatures, while retaining its strength and toughness—without the need for expensive [28] ____ .\n\nSteel's fragility at low temperatures first became a major concern during the Second World War. After German U-boats torpedoed(用鱼雷攻击) numerous British ships, a 2700-strong fleet of cheap-and-cheerful \"Liberty ships\" was introduced to replace the lost vessels, providing a lifeline for the [29] ____ British. But the steel shells of hundreds of the ships [30] ____ in the icy North Atlantic, and 12 broke in half and sank.\n\nBrittleness remains a problem when building steel structures in cold conditions, such as oil rigs in the Arctic. So scientists have [31] ____ to find a solution by mixing it with expensive metals such as nickel.\n\nYuuji Kimura and colleagues in Japan tried a more physical [32] ____ . Rather than adding other metals, they developed a complex mechanical process involving repeated heating and very severe mechanical deformation, known as temp forming.\n\nThe resulting steel appears to achieve a combination of strength and toughness that is [33] ____ to that of modern steels that are very rich in alloy content and, therefore, very expensive.\n\nKimura's team intends to use its tempformed steel to make ultra-high strength parts, such as bolts. They hope to reduce both the number of [34] ____ needed in a construction job and their weight—by replacing solid supports with [35] ____ tubes, for example. This could reduce the amount of steel needed to make everything from automobiles to buildings and bridges.",
+      "options": [
+        {
+          "id": "A",
+          "text": "abruptly"
+        },
+        {
+          "id": "B",
+          "text": "additives"
+        },
+        {
+          "id": "C",
+          "text": "approach"
+        },
+        {
+          "id": "D",
+          "text": "ardently"
+        },
+        {
+          "id": "E",
+          "text": "besieged"
+        },
+        {
+          "id": "F",
+          "text": "channel"
+        },
+        {
+          "id": "G",
+          "text": "comparable"
+        },
+        {
+          "id": "H",
+          "text": "components"
+        },
+        {
+          "id": "I",
+          "text": "cracked"
+        },
+        {
+          "id": "J",
+          "text": "fractures"
+        },
+        {
+          "id": "K",
+          "text": "hollow"
+        },
+        {
+          "id": "L",
+          "text": "relevant"
+        },
+        {
+          "id": "M",
+          "text": "reshuffled"
+        },
+        {
+          "id": "N",
+          "text": "strived"
+        },
+        {
+          "id": "O",
+          "text": "violent"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "先看第 33 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 G（comparable）。本空所在句：The resulting steel appears to achieve a combination of strength and toughness that is [33] ____ to that of modern steels that are very rich in alloy content and, therefore, very expensive.\n将本空替换为 comparable 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-3-nonlistening-q34",
+      "canonicalId": "lazynote-cet6-2019-06-3-q34",
+      "number": 34,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 34 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Steel is valued for its reliability, but not when it gets cold. Most forms of steel [26] ____ become brittle(脆的) at temperatures below about -25℃ unless they are mixed with other metals. Now, though, a novel type of steel has been developed that resists [27] ____ at much lower temperatures, while retaining its strength and toughness—without the need for expensive [28] ____ .\n\nSteel's fragility at low temperatures first became a major concern during the Second World War. After German U-boats torpedoed(用鱼雷攻击) numerous British ships, a 2700-strong fleet of cheap-and-cheerful \"Liberty ships\" was introduced to replace the lost vessels, providing a lifeline for the [29] ____ British. But the steel shells of hundreds of the ships [30] ____ in the icy North Atlantic, and 12 broke in half and sank.\n\nBrittleness remains a problem when building steel structures in cold conditions, such as oil rigs in the Arctic. So scientists have [31] ____ to find a solution by mixing it with expensive metals such as nickel.\n\nYuuji Kimura and colleagues in Japan tried a more physical [32] ____ . Rather than adding other metals, they developed a complex mechanical process involving repeated heating and very severe mechanical deformation, known as temp forming.\n\nThe resulting steel appears to achieve a combination of strength and toughness that is [33] ____ to that of modern steels that are very rich in alloy content and, therefore, very expensive.\n\nKimura's team intends to use its tempformed steel to make ultra-high strength parts, such as bolts. They hope to reduce both the number of [34] ____ needed in a construction job and their weight—by replacing solid supports with [35] ____ tubes, for example. This could reduce the amount of steel needed to make everything from automobiles to buildings and bridges.",
+      "options": [
+        {
+          "id": "A",
+          "text": "abruptly"
+        },
+        {
+          "id": "B",
+          "text": "additives"
+        },
+        {
+          "id": "C",
+          "text": "approach"
+        },
+        {
+          "id": "D",
+          "text": "ardently"
+        },
+        {
+          "id": "E",
+          "text": "besieged"
+        },
+        {
+          "id": "F",
+          "text": "channel"
+        },
+        {
+          "id": "G",
+          "text": "comparable"
+        },
+        {
+          "id": "H",
+          "text": "components"
+        },
+        {
+          "id": "I",
+          "text": "cracked"
+        },
+        {
+          "id": "J",
+          "text": "fractures"
+        },
+        {
+          "id": "K",
+          "text": "hollow"
+        },
+        {
+          "id": "L",
+          "text": "relevant"
+        },
+        {
+          "id": "M",
+          "text": "reshuffled"
+        },
+        {
+          "id": "N",
+          "text": "strived"
+        },
+        {
+          "id": "O",
+          "text": "violent"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "先看第 34 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 H（components）。本空所在句：They hope to reduce both the number of [34] ____ needed in a construction job and their weight—by replacing solid supports with [35] ____ tubes, for example.\n将本空替换为 components 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-3-nonlistening-q35",
+      "canonicalId": "lazynote-cet6-2019-06-3-q35",
+      "number": 35,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 35 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Steel is valued for its reliability, but not when it gets cold. Most forms of steel [26] ____ become brittle(脆的) at temperatures below about -25℃ unless they are mixed with other metals. Now, though, a novel type of steel has been developed that resists [27] ____ at much lower temperatures, while retaining its strength and toughness—without the need for expensive [28] ____ .\n\nSteel's fragility at low temperatures first became a major concern during the Second World War. After German U-boats torpedoed(用鱼雷攻击) numerous British ships, a 2700-strong fleet of cheap-and-cheerful \"Liberty ships\" was introduced to replace the lost vessels, providing a lifeline for the [29] ____ British. But the steel shells of hundreds of the ships [30] ____ in the icy North Atlantic, and 12 broke in half and sank.\n\nBrittleness remains a problem when building steel structures in cold conditions, such as oil rigs in the Arctic. So scientists have [31] ____ to find a solution by mixing it with expensive metals such as nickel.\n\nYuuji Kimura and colleagues in Japan tried a more physical [32] ____ . Rather than adding other metals, they developed a complex mechanical process involving repeated heating and very severe mechanical deformation, known as temp forming.\n\nThe resulting steel appears to achieve a combination of strength and toughness that is [33] ____ to that of modern steels that are very rich in alloy content and, therefore, very expensive.\n\nKimura's team intends to use its tempformed steel to make ultra-high strength parts, such as bolts. They hope to reduce both the number of [34] ____ needed in a construction job and their weight—by replacing solid supports with [35] ____ tubes, for example. This could reduce the amount of steel needed to make everything from automobiles to buildings and bridges.",
+      "options": [
+        {
+          "id": "A",
+          "text": "abruptly"
+        },
+        {
+          "id": "B",
+          "text": "additives"
+        },
+        {
+          "id": "C",
+          "text": "approach"
+        },
+        {
+          "id": "D",
+          "text": "ardently"
+        },
+        {
+          "id": "E",
+          "text": "besieged"
+        },
+        {
+          "id": "F",
+          "text": "channel"
+        },
+        {
+          "id": "G",
+          "text": "comparable"
+        },
+        {
+          "id": "H",
+          "text": "components"
+        },
+        {
+          "id": "I",
+          "text": "cracked"
+        },
+        {
+          "id": "J",
+          "text": "fractures"
+        },
+        {
+          "id": "K",
+          "text": "hollow"
+        },
+        {
+          "id": "L",
+          "text": "relevant"
+        },
+        {
+          "id": "M",
+          "text": "reshuffled"
+        },
+        {
+          "id": "N",
+          "text": "strived"
+        },
+        {
+          "id": "O",
+          "text": "violent"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "先看第 35 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 K（hollow）。本空所在句：They hope to reduce both the number of [34] ____ needed in a construction job and their weight—by replacing solid supports with [35] ____ tubes, for example.\n将本空替换为 hollow 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-3-nonlistening-q36",
+      "canonicalId": "lazynote-cet6-2019-06-3-q36",
+      "number": 36,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Given the easier accessibility to space, it is time to think about how to prevent misuse of satellites.",
+      "passage": "The future of personal satellite technology is here—are we ready for it?\n\nA) Satellites used to be the exclusive playthings of rich governments and wealthy corporations. But increasingly, as space becomes more democratized, they are coming within reach of ordinary people. Just like drones(无人机) before them, miniature satellites are beginning to fundamentally transform our conceptions of who gets to do what up above our heads.\n\nB) As a recent report from the National Academy of Sciences highlights, these satellites hold tremendous potential for making satellite-based science more accessible than ever before. However, as the cost of getting your own satellite in orbit drops sharply, the risks of irresponsible use grow. The question here is no longer \"Can we?\" but \"Should we?\" What are the potential downsides of having a slice of space densely populated by equipment built by people not traditionally labeled as \"professionals\"? And what would the responsible and beneficial development and use of this technology actually look like? Some of the answers may come from a nonprofit organization that has been building and launching amateur satellites for nearly 50 years.\n\nC) Having your personal satellite launched into orbit might sound like an idea straight out of science fiction. But over the past few decades a unique class of satellites has been created that fits the bill: CubeSats. The \"Cube\" here simply refers to the satellite's shape. The most common CubeSat is a 10cm cube, so small that a single CubeSat could easily be mistaken for a paperweight on your desk. These mini-satellites can fit in a launch vehicle's formerly \"wasted space.\" Multiples can be deployed in combination for more complex missions than could be achieved by one CubeSat alone.\n\nD) Within their compact bodies these minute satellites are able to house sensors and communications receivers/transmitters that enable operators to study Earth from space, as well as space around Earth. They're primarily designed for Low Earth Orbit (LEO)—an easily accessible region of space from around 200 to 800 miles above Earth, where human-tended missions like the Hubble Space Telescope and the International Space Station (ISS) hang out. But they can attain more distant orbits; NASA plans for most of its future Earth-escaping payloads (to the moon and Mars especially) to carry CubeSats.\n\nE) Because they're so small and light, it costs much less to get a CubeSat into Earth's orbit than a traditional communications or GPS satellite. For instance, a research group here at Arizona State University recently claimed their developmental small CubeSats could cost as little as $3,000 to put in orbit. This decrease in cost allows researchers, hobbyists and even elementary school groups to put simple instruments into LEO or even have them deployed from the ISS.\n\nF) The first CubeSat was created in the early 2000s, as a way of enabling Stanford graduate students to design, build, test and operate a spacecraft with similar capabilities to the USSR's Sputnik(前苏联的人造卫星). Since then, NASA, the National Reconnaissance Office and even Boeing have all launched and operated CubeSats. There are more than 130 currently in operation. The NASA Educational Launch of Nano Satellite program, which offers free launches for educational groups and science missions, is now open to U.S. nonprofit corporations as well. Clearly, satellites are not just for rocket scientists anymore.\n\nG) The National Academy of Sciences report emphasizes CubeSats' importance in scientific discovery and the training of future space scientists and engineers. Yet it also acknowledges that widespread deployment of LEO CubeSats isn't risk-free. The greatest concern the authors raise is space debris—pieces of \"junk\" that orbit the earth, with the potential to cause serious damage if they collide with operational units, including the ISS.\n\nH) Currently, there aren't many CubeSats and they're tracked closely. Yet as LEO opens up to more amateur satellites, they may pose an increasing threat. As the report authors point out, even near-misses might lead to the \"creation of a burdensome regulatory framework and affect the future disposition of science CubeSats.\"\n\nI) CubeSat researchers suggest that now's the time to ponder unexpected and unintended possible consequences of more people than ever having access to their own small slice of space. In an era when you can simply buy a CubeSat kit off the shelf, how can we trust the satellites over our heads were developed with good intentions by people who knew what they were doing? Some \"expert amateurs\" in the satellite game could provide some inspiration for how to proceed responsibly.\n\nJ) In 1969, the Radio Amateur Satellite Corporation (AMSAT) was created in order to foster ham radio enthusiasts'(业余无线电爱好者) participation in space research and communication. It continued the efforts, begun in 1961, by Project OSCAR—a U.S.-based group that built and launched the very first nongovernmental satellite just four years after Sputnik. As an organization of volunteers, AMSAT was putting \"amateur\" satellites in orbit decades before the current CubeSat craze. And over time, its members have learned a thing or two about responsibility. Here, open-source development has been a central principle. Within the organization, AMSAT has a philosophy of open sourcing everything making technical data on all aspects of their satellites fully available to everyone in the organization, and when possible, the public. According to a member of the team responsible for FOX 1-A, AMSAT's first CubeSat, this means that there's no way to sneak something like explosives or an energy emitter into an amateur satellite when everyone has access to the designs and implementation.\n\nK) However, they're more cautious about sharing information with nonmembers, as the organization guards against others developing the ability to hijack and take control of their satellites. This form of \"self-governance\" is possible within long-standing amateur organizations that, over time, are able to build a sense of responsibility to community members, as well as society in general. But what happens when new players emerge, who don't have deep roots within the existing culture?\n\nL) Hobbyists and students are gaining access to technologies without being part of a long-standing amateur establishment. They're still constrained by funders, launch providers and a series of regulations—all of which rein in what CubeSat developers can and cannot do. But there's a danger they're ill-equipped to think through potential unintended consequences. What these unintended consequences might be is admittedly far from clear. Yet we know innovators can be remarkably creative with taking technologies in unexpected directions. Think of something as seemingly benign as the cellphone—we have microfinance and text-based social networking at one end of the spectrum, and improvised(临时制作的) explosive devices at the other.\n\nM) This is where a culture of social responsibility around CubeSats becomes important – not simply to ensure that physical risks are minimized, but to engage with a much larger community in anticipating and managing less obvious consequences of the technology. This is not an easy task. Yet the evidence from AMSAT and other areas of technology development suggests that responsible amateur communities can and do emerge around novel technologies. The challenge here, of course, is ensuring that what an amateur community considers to be responsible, actually is. Here's where there needs to be a much wider public conversation that extends beyond government agencies and scientific communities to include students, hobbyists, and anyone who may potentially stand to be affected by the use of CubeSat technology.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 I 段。题干：Given the easier accessibility to space, it is time to think about how to prevent misuse of satellites.\n核对该段原文：CubeSat researchers suggest that now's the time to ponder unexpected and unintended possible consequences of more people than ever having access to their own small slice of space. In an era when you can simply buy a CubeSat kit off the shelf, how can we trust the satellites over our heads were developed with good intentions by people who knew what they were doing? Some \"expert amateurs\" in the satellite game could provide some inspiration for how to proceed responsibly.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-3-nonlistening-q37",
+      "canonicalId": "lazynote-cet6-2019-06-3-q37",
+      "number": 37,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "A group of mini-satellites can work together to accomplish more complex tasks.",
+      "passage": "The future of personal satellite technology is here—are we ready for it?\n\nA) Satellites used to be the exclusive playthings of rich governments and wealthy corporations. But increasingly, as space becomes more democratized, they are coming within reach of ordinary people. Just like drones(无人机) before them, miniature satellites are beginning to fundamentally transform our conceptions of who gets to do what up above our heads.\n\nB) As a recent report from the National Academy of Sciences highlights, these satellites hold tremendous potential for making satellite-based science more accessible than ever before. However, as the cost of getting your own satellite in orbit drops sharply, the risks of irresponsible use grow. The question here is no longer \"Can we?\" but \"Should we?\" What are the potential downsides of having a slice of space densely populated by equipment built by people not traditionally labeled as \"professionals\"? And what would the responsible and beneficial development and use of this technology actually look like? Some of the answers may come from a nonprofit organization that has been building and launching amateur satellites for nearly 50 years.\n\nC) Having your personal satellite launched into orbit might sound like an idea straight out of science fiction. But over the past few decades a unique class of satellites has been created that fits the bill: CubeSats. The \"Cube\" here simply refers to the satellite's shape. The most common CubeSat is a 10cm cube, so small that a single CubeSat could easily be mistaken for a paperweight on your desk. These mini-satellites can fit in a launch vehicle's formerly \"wasted space.\" Multiples can be deployed in combination for more complex missions than could be achieved by one CubeSat alone.\n\nD) Within their compact bodies these minute satellites are able to house sensors and communications receivers/transmitters that enable operators to study Earth from space, as well as space around Earth. They're primarily designed for Low Earth Orbit (LEO)—an easily accessible region of space from around 200 to 800 miles above Earth, where human-tended missions like the Hubble Space Telescope and the International Space Station (ISS) hang out. But they can attain more distant orbits; NASA plans for most of its future Earth-escaping payloads (to the moon and Mars especially) to carry CubeSats.\n\nE) Because they're so small and light, it costs much less to get a CubeSat into Earth's orbit than a traditional communications or GPS satellite. For instance, a research group here at Arizona State University recently claimed their developmental small CubeSats could cost as little as $3,000 to put in orbit. This decrease in cost allows researchers, hobbyists and even elementary school groups to put simple instruments into LEO or even have them deployed from the ISS.\n\nF) The first CubeSat was created in the early 2000s, as a way of enabling Stanford graduate students to design, build, test and operate a spacecraft with similar capabilities to the USSR's Sputnik(前苏联的人造卫星). Since then, NASA, the National Reconnaissance Office and even Boeing have all launched and operated CubeSats. There are more than 130 currently in operation. The NASA Educational Launch of Nano Satellite program, which offers free launches for educational groups and science missions, is now open to U.S. nonprofit corporations as well. Clearly, satellites are not just for rocket scientists anymore.\n\nG) The National Academy of Sciences report emphasizes CubeSats' importance in scientific discovery and the training of future space scientists and engineers. Yet it also acknowledges that widespread deployment of LEO CubeSats isn't risk-free. The greatest concern the authors raise is space debris—pieces of \"junk\" that orbit the earth, with the potential to cause serious damage if they collide with operational units, including the ISS.\n\nH) Currently, there aren't many CubeSats and they're tracked closely. Yet as LEO opens up to more amateur satellites, they may pose an increasing threat. As the report authors point out, even near-misses might lead to the \"creation of a burdensome regulatory framework and affect the future disposition of science CubeSats.\"\n\nI) CubeSat researchers suggest that now's the time to ponder unexpected and unintended possible consequences of more people than ever having access to their own small slice of space. In an era when you can simply buy a CubeSat kit off the shelf, how can we trust the satellites over our heads were developed with good intentions by people who knew what they were doing? Some \"expert amateurs\" in the satellite game could provide some inspiration for how to proceed responsibly.\n\nJ) In 1969, the Radio Amateur Satellite Corporation (AMSAT) was created in order to foster ham radio enthusiasts'(业余无线电爱好者) participation in space research and communication. It continued the efforts, begun in 1961, by Project OSCAR—a U.S.-based group that built and launched the very first nongovernmental satellite just four years after Sputnik. As an organization of volunteers, AMSAT was putting \"amateur\" satellites in orbit decades before the current CubeSat craze. And over time, its members have learned a thing or two about responsibility. Here, open-source development has been a central principle. Within the organization, AMSAT has a philosophy of open sourcing everything making technical data on all aspects of their satellites fully available to everyone in the organization, and when possible, the public. According to a member of the team responsible for FOX 1-A, AMSAT's first CubeSat, this means that there's no way to sneak something like explosives or an energy emitter into an amateur satellite when everyone has access to the designs and implementation.\n\nK) However, they're more cautious about sharing information with nonmembers, as the organization guards against others developing the ability to hijack and take control of their satellites. This form of \"self-governance\" is possible within long-standing amateur organizations that, over time, are able to build a sense of responsibility to community members, as well as society in general. But what happens when new players emerge, who don't have deep roots within the existing culture?\n\nL) Hobbyists and students are gaining access to technologies without being part of a long-standing amateur establishment. They're still constrained by funders, launch providers and a series of regulations—all of which rein in what CubeSat developers can and cannot do. But there's a danger they're ill-equipped to think through potential unintended consequences. What these unintended consequences might be is admittedly far from clear. Yet we know innovators can be remarkably creative with taking technologies in unexpected directions. Think of something as seemingly benign as the cellphone—we have microfinance and text-based social networking at one end of the spectrum, and improvised(临时制作的) explosive devices at the other.\n\nM) This is where a culture of social responsibility around CubeSats becomes important – not simply to ensure that physical risks are minimized, but to engage with a much larger community in anticipating and managing less obvious consequences of the technology. This is not an easy task. Yet the evidence from AMSAT and other areas of technology development suggests that responsible amateur communities can and do emerge around novel technologies. The challenge here, of course, is ensuring that what an amateur community considers to be responsible, actually is. Here's where there needs to be a much wider public conversation that extends beyond government agencies and scientific communities to include students, hobbyists, and anyone who may potentially stand to be affected by the use of CubeSat technology.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 C 段。题干：A group of mini-satellites can work together to accomplish more complex tasks.\n核对该段原文：Having your personal satellite launched into orbit might sound like an idea straight out of science fiction. But over the past few decades a unique class of satellites has been created that fits the bill: CubeSats. The \"Cube\" here simply refers to the satellite's shape. The most common CubeSat is a 10cm cube, so small that a single CubeSat could easily be mistaken for a paperweight on your desk. These mini-satellites can fit in a launch vehicle's formerly \"wasted space.\" Multiples can be deployed in combination for more complex missions than could be achieved by one CubeSat alone.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-3-nonlistening-q38",
+      "canonicalId": "lazynote-cet6-2019-06-3-q38",
+      "number": 38,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The greater accessibility of mini-satellites increases the risks of their irresponsible use.",
+      "passage": "The future of personal satellite technology is here—are we ready for it?\n\nA) Satellites used to be the exclusive playthings of rich governments and wealthy corporations. But increasingly, as space becomes more democratized, they are coming within reach of ordinary people. Just like drones(无人机) before them, miniature satellites are beginning to fundamentally transform our conceptions of who gets to do what up above our heads.\n\nB) As a recent report from the National Academy of Sciences highlights, these satellites hold tremendous potential for making satellite-based science more accessible than ever before. However, as the cost of getting your own satellite in orbit drops sharply, the risks of irresponsible use grow. The question here is no longer \"Can we?\" but \"Should we?\" What are the potential downsides of having a slice of space densely populated by equipment built by people not traditionally labeled as \"professionals\"? And what would the responsible and beneficial development and use of this technology actually look like? Some of the answers may come from a nonprofit organization that has been building and launching amateur satellites for nearly 50 years.\n\nC) Having your personal satellite launched into orbit might sound like an idea straight out of science fiction. But over the past few decades a unique class of satellites has been created that fits the bill: CubeSats. The \"Cube\" here simply refers to the satellite's shape. The most common CubeSat is a 10cm cube, so small that a single CubeSat could easily be mistaken for a paperweight on your desk. These mini-satellites can fit in a launch vehicle's formerly \"wasted space.\" Multiples can be deployed in combination for more complex missions than could be achieved by one CubeSat alone.\n\nD) Within their compact bodies these minute satellites are able to house sensors and communications receivers/transmitters that enable operators to study Earth from space, as well as space around Earth. They're primarily designed for Low Earth Orbit (LEO)—an easily accessible region of space from around 200 to 800 miles above Earth, where human-tended missions like the Hubble Space Telescope and the International Space Station (ISS) hang out. But they can attain more distant orbits; NASA plans for most of its future Earth-escaping payloads (to the moon and Mars especially) to carry CubeSats.\n\nE) Because they're so small and light, it costs much less to get a CubeSat into Earth's orbit than a traditional communications or GPS satellite. For instance, a research group here at Arizona State University recently claimed their developmental small CubeSats could cost as little as $3,000 to put in orbit. This decrease in cost allows researchers, hobbyists and even elementary school groups to put simple instruments into LEO or even have them deployed from the ISS.\n\nF) The first CubeSat was created in the early 2000s, as a way of enabling Stanford graduate students to design, build, test and operate a spacecraft with similar capabilities to the USSR's Sputnik(前苏联的人造卫星). Since then, NASA, the National Reconnaissance Office and even Boeing have all launched and operated CubeSats. There are more than 130 currently in operation. The NASA Educational Launch of Nano Satellite program, which offers free launches for educational groups and science missions, is now open to U.S. nonprofit corporations as well. Clearly, satellites are not just for rocket scientists anymore.\n\nG) The National Academy of Sciences report emphasizes CubeSats' importance in scientific discovery and the training of future space scientists and engineers. Yet it also acknowledges that widespread deployment of LEO CubeSats isn't risk-free. The greatest concern the authors raise is space debris—pieces of \"junk\" that orbit the earth, with the potential to cause serious damage if they collide with operational units, including the ISS.\n\nH) Currently, there aren't many CubeSats and they're tracked closely. Yet as LEO opens up to more amateur satellites, they may pose an increasing threat. As the report authors point out, even near-misses might lead to the \"creation of a burdensome regulatory framework and affect the future disposition of science CubeSats.\"\n\nI) CubeSat researchers suggest that now's the time to ponder unexpected and unintended possible consequences of more people than ever having access to their own small slice of space. In an era when you can simply buy a CubeSat kit off the shelf, how can we trust the satellites over our heads were developed with good intentions by people who knew what they were doing? Some \"expert amateurs\" in the satellite game could provide some inspiration for how to proceed responsibly.\n\nJ) In 1969, the Radio Amateur Satellite Corporation (AMSAT) was created in order to foster ham radio enthusiasts'(业余无线电爱好者) participation in space research and communication. It continued the efforts, begun in 1961, by Project OSCAR—a U.S.-based group that built and launched the very first nongovernmental satellite just four years after Sputnik. As an organization of volunteers, AMSAT was putting \"amateur\" satellites in orbit decades before the current CubeSat craze. And over time, its members have learned a thing or two about responsibility. Here, open-source development has been a central principle. Within the organization, AMSAT has a philosophy of open sourcing everything making technical data on all aspects of their satellites fully available to everyone in the organization, and when possible, the public. According to a member of the team responsible for FOX 1-A, AMSAT's first CubeSat, this means that there's no way to sneak something like explosives or an energy emitter into an amateur satellite when everyone has access to the designs and implementation.\n\nK) However, they're more cautious about sharing information with nonmembers, as the organization guards against others developing the ability to hijack and take control of their satellites. This form of \"self-governance\" is possible within long-standing amateur organizations that, over time, are able to build a sense of responsibility to community members, as well as society in general. But what happens when new players emerge, who don't have deep roots within the existing culture?\n\nL) Hobbyists and students are gaining access to technologies without being part of a long-standing amateur establishment. They're still constrained by funders, launch providers and a series of regulations—all of which rein in what CubeSat developers can and cannot do. But there's a danger they're ill-equipped to think through potential unintended consequences. What these unintended consequences might be is admittedly far from clear. Yet we know innovators can be remarkably creative with taking technologies in unexpected directions. Think of something as seemingly benign as the cellphone—we have microfinance and text-based social networking at one end of the spectrum, and improvised(临时制作的) explosive devices at the other.\n\nM) This is where a culture of social responsibility around CubeSats becomes important – not simply to ensure that physical risks are minimized, but to engage with a much larger community in anticipating and managing less obvious consequences of the technology. This is not an easy task. Yet the evidence from AMSAT and other areas of technology development suggests that responsible amateur communities can and do emerge around novel technologies. The challenge here, of course, is ensuring that what an amateur community considers to be responsible, actually is. Here's where there needs to be a much wider public conversation that extends beyond government agencies and scientific communities to include students, hobbyists, and anyone who may potentially stand to be affected by the use of CubeSat technology.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 B 段。题干：The greater accessibility of mini-satellites increases the risks of their irresponsible use.\n核对该段原文：As a recent report from the National Academy of Sciences highlights, these satellites hold tremendous potential for making satellite-based science more accessible than ever before. However, as the cost of getting your own satellite in orbit drops sharply, the risks of irresponsible use grow. The question here is no longer \"Can we?\" but \"Should we?\" What are the potential downsides of having a slice of space densely populated by equipment built by people not traditionally labeled as \"professionals\"? And what would the responsible and beneficial development and use of this technology actually look like? Some of the answers may come from a nonprofit organization that has been building and launching amateur satellites for nearly 50 years.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-3-nonlistening-q39",
+      "canonicalId": "lazynote-cet6-2019-06-3-q39",
+      "number": 39,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Even school pupils can have their CubeSats put in orbit owing to the lowered launching cost.",
+      "passage": "The future of personal satellite technology is here—are we ready for it?\n\nA) Satellites used to be the exclusive playthings of rich governments and wealthy corporations. But increasingly, as space becomes more democratized, they are coming within reach of ordinary people. Just like drones(无人机) before them, miniature satellites are beginning to fundamentally transform our conceptions of who gets to do what up above our heads.\n\nB) As a recent report from the National Academy of Sciences highlights, these satellites hold tremendous potential for making satellite-based science more accessible than ever before. However, as the cost of getting your own satellite in orbit drops sharply, the risks of irresponsible use grow. The question here is no longer \"Can we?\" but \"Should we?\" What are the potential downsides of having a slice of space densely populated by equipment built by people not traditionally labeled as \"professionals\"? And what would the responsible and beneficial development and use of this technology actually look like? Some of the answers may come from a nonprofit organization that has been building and launching amateur satellites for nearly 50 years.\n\nC) Having your personal satellite launched into orbit might sound like an idea straight out of science fiction. But over the past few decades a unique class of satellites has been created that fits the bill: CubeSats. The \"Cube\" here simply refers to the satellite's shape. The most common CubeSat is a 10cm cube, so small that a single CubeSat could easily be mistaken for a paperweight on your desk. These mini-satellites can fit in a launch vehicle's formerly \"wasted space.\" Multiples can be deployed in combination for more complex missions than could be achieved by one CubeSat alone.\n\nD) Within their compact bodies these minute satellites are able to house sensors and communications receivers/transmitters that enable operators to study Earth from space, as well as space around Earth. They're primarily designed for Low Earth Orbit (LEO)—an easily accessible region of space from around 200 to 800 miles above Earth, where human-tended missions like the Hubble Space Telescope and the International Space Station (ISS) hang out. But they can attain more distant orbits; NASA plans for most of its future Earth-escaping payloads (to the moon and Mars especially) to carry CubeSats.\n\nE) Because they're so small and light, it costs much less to get a CubeSat into Earth's orbit than a traditional communications or GPS satellite. For instance, a research group here at Arizona State University recently claimed their developmental small CubeSats could cost as little as $3,000 to put in orbit. This decrease in cost allows researchers, hobbyists and even elementary school groups to put simple instruments into LEO or even have them deployed from the ISS.\n\nF) The first CubeSat was created in the early 2000s, as a way of enabling Stanford graduate students to design, build, test and operate a spacecraft with similar capabilities to the USSR's Sputnik(前苏联的人造卫星). Since then, NASA, the National Reconnaissance Office and even Boeing have all launched and operated CubeSats. There are more than 130 currently in operation. The NASA Educational Launch of Nano Satellite program, which offers free launches for educational groups and science missions, is now open to U.S. nonprofit corporations as well. Clearly, satellites are not just for rocket scientists anymore.\n\nG) The National Academy of Sciences report emphasizes CubeSats' importance in scientific discovery and the training of future space scientists and engineers. Yet it also acknowledges that widespread deployment of LEO CubeSats isn't risk-free. The greatest concern the authors raise is space debris—pieces of \"junk\" that orbit the earth, with the potential to cause serious damage if they collide with operational units, including the ISS.\n\nH) Currently, there aren't many CubeSats and they're tracked closely. Yet as LEO opens up to more amateur satellites, they may pose an increasing threat. As the report authors point out, even near-misses might lead to the \"creation of a burdensome regulatory framework and affect the future disposition of science CubeSats.\"\n\nI) CubeSat researchers suggest that now's the time to ponder unexpected and unintended possible consequences of more people than ever having access to their own small slice of space. In an era when you can simply buy a CubeSat kit off the shelf, how can we trust the satellites over our heads were developed with good intentions by people who knew what they were doing? Some \"expert amateurs\" in the satellite game could provide some inspiration for how to proceed responsibly.\n\nJ) In 1969, the Radio Amateur Satellite Corporation (AMSAT) was created in order to foster ham radio enthusiasts'(业余无线电爱好者) participation in space research and communication. It continued the efforts, begun in 1961, by Project OSCAR—a U.S.-based group that built and launched the very first nongovernmental satellite just four years after Sputnik. As an organization of volunteers, AMSAT was putting \"amateur\" satellites in orbit decades before the current CubeSat craze. And over time, its members have learned a thing or two about responsibility. Here, open-source development has been a central principle. Within the organization, AMSAT has a philosophy of open sourcing everything making technical data on all aspects of their satellites fully available to everyone in the organization, and when possible, the public. According to a member of the team responsible for FOX 1-A, AMSAT's first CubeSat, this means that there's no way to sneak something like explosives or an energy emitter into an amateur satellite when everyone has access to the designs and implementation.\n\nK) However, they're more cautious about sharing information with nonmembers, as the organization guards against others developing the ability to hijack and take control of their satellites. This form of \"self-governance\" is possible within long-standing amateur organizations that, over time, are able to build a sense of responsibility to community members, as well as society in general. But what happens when new players emerge, who don't have deep roots within the existing culture?\n\nL) Hobbyists and students are gaining access to technologies without being part of a long-standing amateur establishment. They're still constrained by funders, launch providers and a series of regulations—all of which rein in what CubeSat developers can and cannot do. But there's a danger they're ill-equipped to think through potential unintended consequences. What these unintended consequences might be is admittedly far from clear. Yet we know innovators can be remarkably creative with taking technologies in unexpected directions. Think of something as seemingly benign as the cellphone—we have microfinance and text-based social networking at one end of the spectrum, and improvised(临时制作的) explosive devices at the other.\n\nM) This is where a culture of social responsibility around CubeSats becomes important – not simply to ensure that physical risks are minimized, but to engage with a much larger community in anticipating and managing less obvious consequences of the technology. This is not an easy task. Yet the evidence from AMSAT and other areas of technology development suggests that responsible amateur communities can and do emerge around novel technologies. The challenge here, of course, is ensuring that what an amateur community considers to be responsible, actually is. Here's where there needs to be a much wider public conversation that extends beyond government agencies and scientific communities to include students, hobbyists, and anyone who may potentially stand to be affected by the use of CubeSat technology.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 E 段。题干：Even school pupils can have their CubeSats put in orbit owing to the lowered launching cost.\n核对该段原文：Because they're so small and light, it costs much less to get a CubeSat into Earth's orbit than a traditional communications or GPS satellite. For instance, a research group here at Arizona State University recently claimed their developmental small CubeSats could cost as little as $3,000 to put in orbit. This decrease in cost allows researchers, hobbyists and even elementary school groups to put simple instruments into LEO or even have them deployed from the ISS.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-3-nonlistening-q40",
+      "canonicalId": "lazynote-cet6-2019-06-3-q40",
+      "number": 40,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "AMSAT is careful about sharing information with outsiders to prevent hijacking of their satellites.",
+      "passage": "The future of personal satellite technology is here—are we ready for it?\n\nA) Satellites used to be the exclusive playthings of rich governments and wealthy corporations. But increasingly, as space becomes more democratized, they are coming within reach of ordinary people. Just like drones(无人机) before them, miniature satellites are beginning to fundamentally transform our conceptions of who gets to do what up above our heads.\n\nB) As a recent report from the National Academy of Sciences highlights, these satellites hold tremendous potential for making satellite-based science more accessible than ever before. However, as the cost of getting your own satellite in orbit drops sharply, the risks of irresponsible use grow. The question here is no longer \"Can we?\" but \"Should we?\" What are the potential downsides of having a slice of space densely populated by equipment built by people not traditionally labeled as \"professionals\"? And what would the responsible and beneficial development and use of this technology actually look like? Some of the answers may come from a nonprofit organization that has been building and launching amateur satellites for nearly 50 years.\n\nC) Having your personal satellite launched into orbit might sound like an idea straight out of science fiction. But over the past few decades a unique class of satellites has been created that fits the bill: CubeSats. The \"Cube\" here simply refers to the satellite's shape. The most common CubeSat is a 10cm cube, so small that a single CubeSat could easily be mistaken for a paperweight on your desk. These mini-satellites can fit in a launch vehicle's formerly \"wasted space.\" Multiples can be deployed in combination for more complex missions than could be achieved by one CubeSat alone.\n\nD) Within their compact bodies these minute satellites are able to house sensors and communications receivers/transmitters that enable operators to study Earth from space, as well as space around Earth. They're primarily designed for Low Earth Orbit (LEO)—an easily accessible region of space from around 200 to 800 miles above Earth, where human-tended missions like the Hubble Space Telescope and the International Space Station (ISS) hang out. But they can attain more distant orbits; NASA plans for most of its future Earth-escaping payloads (to the moon and Mars especially) to carry CubeSats.\n\nE) Because they're so small and light, it costs much less to get a CubeSat into Earth's orbit than a traditional communications or GPS satellite. For instance, a research group here at Arizona State University recently claimed their developmental small CubeSats could cost as little as $3,000 to put in orbit. This decrease in cost allows researchers, hobbyists and even elementary school groups to put simple instruments into LEO or even have them deployed from the ISS.\n\nF) The first CubeSat was created in the early 2000s, as a way of enabling Stanford graduate students to design, build, test and operate a spacecraft with similar capabilities to the USSR's Sputnik(前苏联的人造卫星). Since then, NASA, the National Reconnaissance Office and even Boeing have all launched and operated CubeSats. There are more than 130 currently in operation. The NASA Educational Launch of Nano Satellite program, which offers free launches for educational groups and science missions, is now open to U.S. nonprofit corporations as well. Clearly, satellites are not just for rocket scientists anymore.\n\nG) The National Academy of Sciences report emphasizes CubeSats' importance in scientific discovery and the training of future space scientists and engineers. Yet it also acknowledges that widespread deployment of LEO CubeSats isn't risk-free. The greatest concern the authors raise is space debris—pieces of \"junk\" that orbit the earth, with the potential to cause serious damage if they collide with operational units, including the ISS.\n\nH) Currently, there aren't many CubeSats and they're tracked closely. Yet as LEO opens up to more amateur satellites, they may pose an increasing threat. As the report authors point out, even near-misses might lead to the \"creation of a burdensome regulatory framework and affect the future disposition of science CubeSats.\"\n\nI) CubeSat researchers suggest that now's the time to ponder unexpected and unintended possible consequences of more people than ever having access to their own small slice of space. In an era when you can simply buy a CubeSat kit off the shelf, how can we trust the satellites over our heads were developed with good intentions by people who knew what they were doing? Some \"expert amateurs\" in the satellite game could provide some inspiration for how to proceed responsibly.\n\nJ) In 1969, the Radio Amateur Satellite Corporation (AMSAT) was created in order to foster ham radio enthusiasts'(业余无线电爱好者) participation in space research and communication. It continued the efforts, begun in 1961, by Project OSCAR—a U.S.-based group that built and launched the very first nongovernmental satellite just four years after Sputnik. As an organization of volunteers, AMSAT was putting \"amateur\" satellites in orbit decades before the current CubeSat craze. And over time, its members have learned a thing or two about responsibility. Here, open-source development has been a central principle. Within the organization, AMSAT has a philosophy of open sourcing everything making technical data on all aspects of their satellites fully available to everyone in the organization, and when possible, the public. According to a member of the team responsible for FOX 1-A, AMSAT's first CubeSat, this means that there's no way to sneak something like explosives or an energy emitter into an amateur satellite when everyone has access to the designs and implementation.\n\nK) However, they're more cautious about sharing information with nonmembers, as the organization guards against others developing the ability to hijack and take control of their satellites. This form of \"self-governance\" is possible within long-standing amateur organizations that, over time, are able to build a sense of responsibility to community members, as well as society in general. But what happens when new players emerge, who don't have deep roots within the existing culture?\n\nL) Hobbyists and students are gaining access to technologies without being part of a long-standing amateur establishment. They're still constrained by funders, launch providers and a series of regulations—all of which rein in what CubeSat developers can and cannot do. But there's a danger they're ill-equipped to think through potential unintended consequences. What these unintended consequences might be is admittedly far from clear. Yet we know innovators can be remarkably creative with taking technologies in unexpected directions. Think of something as seemingly benign as the cellphone—we have microfinance and text-based social networking at one end of the spectrum, and improvised(临时制作的) explosive devices at the other.\n\nM) This is where a culture of social responsibility around CubeSats becomes important – not simply to ensure that physical risks are minimized, but to engage with a much larger community in anticipating and managing less obvious consequences of the technology. This is not an easy task. Yet the evidence from AMSAT and other areas of technology development suggests that responsible amateur communities can and do emerge around novel technologies. The challenge here, of course, is ensuring that what an amateur community considers to be responsible, actually is. Here's where there needs to be a much wider public conversation that extends beyond government agencies and scientific communities to include students, hobbyists, and anyone who may potentially stand to be affected by the use of CubeSat technology.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 K 段。题干：AMSAT is careful about sharing information with outsiders to prevent hijacking of their satellites.\n核对该段原文：However, they're more cautious about sharing information with nonmembers, as the organization guards against others developing the ability to hijack and take control of their satellites. This form of \"self-governance\" is possible within long-standing amateur organizations that, over time, are able to build a sense of responsibility to community members, as well as society in general. But what happens when new players emerge, who don't have deep roots within the existing culture?\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-3-nonlistening-q41",
+      "canonicalId": "lazynote-cet6-2019-06-3-q41",
+      "number": 41,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "NASA offers to launch CubeSats free of charge for educational and research purposes.",
+      "passage": "The future of personal satellite technology is here—are we ready for it?\n\nA) Satellites used to be the exclusive playthings of rich governments and wealthy corporations. But increasingly, as space becomes more democratized, they are coming within reach of ordinary people. Just like drones(无人机) before them, miniature satellites are beginning to fundamentally transform our conceptions of who gets to do what up above our heads.\n\nB) As a recent report from the National Academy of Sciences highlights, these satellites hold tremendous potential for making satellite-based science more accessible than ever before. However, as the cost of getting your own satellite in orbit drops sharply, the risks of irresponsible use grow. The question here is no longer \"Can we?\" but \"Should we?\" What are the potential downsides of having a slice of space densely populated by equipment built by people not traditionally labeled as \"professionals\"? And what would the responsible and beneficial development and use of this technology actually look like? Some of the answers may come from a nonprofit organization that has been building and launching amateur satellites for nearly 50 years.\n\nC) Having your personal satellite launched into orbit might sound like an idea straight out of science fiction. But over the past few decades a unique class of satellites has been created that fits the bill: CubeSats. The \"Cube\" here simply refers to the satellite's shape. The most common CubeSat is a 10cm cube, so small that a single CubeSat could easily be mistaken for a paperweight on your desk. These mini-satellites can fit in a launch vehicle's formerly \"wasted space.\" Multiples can be deployed in combination for more complex missions than could be achieved by one CubeSat alone.\n\nD) Within their compact bodies these minute satellites are able to house sensors and communications receivers/transmitters that enable operators to study Earth from space, as well as space around Earth. They're primarily designed for Low Earth Orbit (LEO)—an easily accessible region of space from around 200 to 800 miles above Earth, where human-tended missions like the Hubble Space Telescope and the International Space Station (ISS) hang out. But they can attain more distant orbits; NASA plans for most of its future Earth-escaping payloads (to the moon and Mars especially) to carry CubeSats.\n\nE) Because they're so small and light, it costs much less to get a CubeSat into Earth's orbit than a traditional communications or GPS satellite. For instance, a research group here at Arizona State University recently claimed their developmental small CubeSats could cost as little as $3,000 to put in orbit. This decrease in cost allows researchers, hobbyists and even elementary school groups to put simple instruments into LEO or even have them deployed from the ISS.\n\nF) The first CubeSat was created in the early 2000s, as a way of enabling Stanford graduate students to design, build, test and operate a spacecraft with similar capabilities to the USSR's Sputnik(前苏联的人造卫星). Since then, NASA, the National Reconnaissance Office and even Boeing have all launched and operated CubeSats. There are more than 130 currently in operation. The NASA Educational Launch of Nano Satellite program, which offers free launches for educational groups and science missions, is now open to U.S. nonprofit corporations as well. Clearly, satellites are not just for rocket scientists anymore.\n\nG) The National Academy of Sciences report emphasizes CubeSats' importance in scientific discovery and the training of future space scientists and engineers. Yet it also acknowledges that widespread deployment of LEO CubeSats isn't risk-free. The greatest concern the authors raise is space debris—pieces of \"junk\" that orbit the earth, with the potential to cause serious damage if they collide with operational units, including the ISS.\n\nH) Currently, there aren't many CubeSats and they're tracked closely. Yet as LEO opens up to more amateur satellites, they may pose an increasing threat. As the report authors point out, even near-misses might lead to the \"creation of a burdensome regulatory framework and affect the future disposition of science CubeSats.\"\n\nI) CubeSat researchers suggest that now's the time to ponder unexpected and unintended possible consequences of more people than ever having access to their own small slice of space. In an era when you can simply buy a CubeSat kit off the shelf, how can we trust the satellites over our heads were developed with good intentions by people who knew what they were doing? Some \"expert amateurs\" in the satellite game could provide some inspiration for how to proceed responsibly.\n\nJ) In 1969, the Radio Amateur Satellite Corporation (AMSAT) was created in order to foster ham radio enthusiasts'(业余无线电爱好者) participation in space research and communication. It continued the efforts, begun in 1961, by Project OSCAR—a U.S.-based group that built and launched the very first nongovernmental satellite just four years after Sputnik. As an organization of volunteers, AMSAT was putting \"amateur\" satellites in orbit decades before the current CubeSat craze. And over time, its members have learned a thing or two about responsibility. Here, open-source development has been a central principle. Within the organization, AMSAT has a philosophy of open sourcing everything making technical data on all aspects of their satellites fully available to everyone in the organization, and when possible, the public. According to a member of the team responsible for FOX 1-A, AMSAT's first CubeSat, this means that there's no way to sneak something like explosives or an energy emitter into an amateur satellite when everyone has access to the designs and implementation.\n\nK) However, they're more cautious about sharing information with nonmembers, as the organization guards against others developing the ability to hijack and take control of their satellites. This form of \"self-governance\" is possible within long-standing amateur organizations that, over time, are able to build a sense of responsibility to community members, as well as society in general. But what happens when new players emerge, who don't have deep roots within the existing culture?\n\nL) Hobbyists and students are gaining access to technologies without being part of a long-standing amateur establishment. They're still constrained by funders, launch providers and a series of regulations—all of which rein in what CubeSat developers can and cannot do. But there's a danger they're ill-equipped to think through potential unintended consequences. What these unintended consequences might be is admittedly far from clear. Yet we know innovators can be remarkably creative with taking technologies in unexpected directions. Think of something as seemingly benign as the cellphone—we have microfinance and text-based social networking at one end of the spectrum, and improvised(临时制作的) explosive devices at the other.\n\nM) This is where a culture of social responsibility around CubeSats becomes important – not simply to ensure that physical risks are minimized, but to engage with a much larger community in anticipating and managing less obvious consequences of the technology. This is not an easy task. Yet the evidence from AMSAT and other areas of technology development suggests that responsible amateur communities can and do emerge around novel technologies. The challenge here, of course, is ensuring that what an amateur community considers to be responsible, actually is. Here's where there needs to be a much wider public conversation that extends beyond government agencies and scientific communities to include students, hobbyists, and anyone who may potentially stand to be affected by the use of CubeSat technology.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 F 段。题干：NASA offers to launch CubeSats free of charge for educational and research purposes.\n核对该段原文：The first CubeSat was created in the early 2000s, as a way of enabling Stanford graduate students to design, build, test and operate a spacecraft with similar capabilities to the USSR's Sputnik(前苏联的人造卫星). Since then, NASA, the National Reconnaissance Office and even Boeing have all launched and operated CubeSats. There are more than 130 currently in operation. The NASA Educational Launch of Nano Satellite program, which offers free launches for educational groups and science missions, is now open to U.S. nonprofit corporations as well. Clearly, satellites are not just for rocket scientists anymore.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-3-nonlistening-q42",
+      "canonicalId": "lazynote-cet6-2019-06-3-q42",
+      "number": 42,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Even with constraints, it is possible for some creative developers to take the CubeSat technology in directions that result in harmful outcomes.",
+      "passage": "The future of personal satellite technology is here—are we ready for it?\n\nA) Satellites used to be the exclusive playthings of rich governments and wealthy corporations. But increasingly, as space becomes more democratized, they are coming within reach of ordinary people. Just like drones(无人机) before them, miniature satellites are beginning to fundamentally transform our conceptions of who gets to do what up above our heads.\n\nB) As a recent report from the National Academy of Sciences highlights, these satellites hold tremendous potential for making satellite-based science more accessible than ever before. However, as the cost of getting your own satellite in orbit drops sharply, the risks of irresponsible use grow. The question here is no longer \"Can we?\" but \"Should we?\" What are the potential downsides of having a slice of space densely populated by equipment built by people not traditionally labeled as \"professionals\"? And what would the responsible and beneficial development and use of this technology actually look like? Some of the answers may come from a nonprofit organization that has been building and launching amateur satellites for nearly 50 years.\n\nC) Having your personal satellite launched into orbit might sound like an idea straight out of science fiction. But over the past few decades a unique class of satellites has been created that fits the bill: CubeSats. The \"Cube\" here simply refers to the satellite's shape. The most common CubeSat is a 10cm cube, so small that a single CubeSat could easily be mistaken for a paperweight on your desk. These mini-satellites can fit in a launch vehicle's formerly \"wasted space.\" Multiples can be deployed in combination for more complex missions than could be achieved by one CubeSat alone.\n\nD) Within their compact bodies these minute satellites are able to house sensors and communications receivers/transmitters that enable operators to study Earth from space, as well as space around Earth. They're primarily designed for Low Earth Orbit (LEO)—an easily accessible region of space from around 200 to 800 miles above Earth, where human-tended missions like the Hubble Space Telescope and the International Space Station (ISS) hang out. But they can attain more distant orbits; NASA plans for most of its future Earth-escaping payloads (to the moon and Mars especially) to carry CubeSats.\n\nE) Because they're so small and light, it costs much less to get a CubeSat into Earth's orbit than a traditional communications or GPS satellite. For instance, a research group here at Arizona State University recently claimed their developmental small CubeSats could cost as little as $3,000 to put in orbit. This decrease in cost allows researchers, hobbyists and even elementary school groups to put simple instruments into LEO or even have them deployed from the ISS.\n\nF) The first CubeSat was created in the early 2000s, as a way of enabling Stanford graduate students to design, build, test and operate a spacecraft with similar capabilities to the USSR's Sputnik(前苏联的人造卫星). Since then, NASA, the National Reconnaissance Office and even Boeing have all launched and operated CubeSats. There are more than 130 currently in operation. The NASA Educational Launch of Nano Satellite program, which offers free launches for educational groups and science missions, is now open to U.S. nonprofit corporations as well. Clearly, satellites are not just for rocket scientists anymore.\n\nG) The National Academy of Sciences report emphasizes CubeSats' importance in scientific discovery and the training of future space scientists and engineers. Yet it also acknowledges that widespread deployment of LEO CubeSats isn't risk-free. The greatest concern the authors raise is space debris—pieces of \"junk\" that orbit the earth, with the potential to cause serious damage if they collide with operational units, including the ISS.\n\nH) Currently, there aren't many CubeSats and they're tracked closely. Yet as LEO opens up to more amateur satellites, they may pose an increasing threat. As the report authors point out, even near-misses might lead to the \"creation of a burdensome regulatory framework and affect the future disposition of science CubeSats.\"\n\nI) CubeSat researchers suggest that now's the time to ponder unexpected and unintended possible consequences of more people than ever having access to their own small slice of space. In an era when you can simply buy a CubeSat kit off the shelf, how can we trust the satellites over our heads were developed with good intentions by people who knew what they were doing? Some \"expert amateurs\" in the satellite game could provide some inspiration for how to proceed responsibly.\n\nJ) In 1969, the Radio Amateur Satellite Corporation (AMSAT) was created in order to foster ham radio enthusiasts'(业余无线电爱好者) participation in space research and communication. It continued the efforts, begun in 1961, by Project OSCAR—a U.S.-based group that built and launched the very first nongovernmental satellite just four years after Sputnik. As an organization of volunteers, AMSAT was putting \"amateur\" satellites in orbit decades before the current CubeSat craze. And over time, its members have learned a thing or two about responsibility. Here, open-source development has been a central principle. Within the organization, AMSAT has a philosophy of open sourcing everything making technical data on all aspects of their satellites fully available to everyone in the organization, and when possible, the public. According to a member of the team responsible for FOX 1-A, AMSAT's first CubeSat, this means that there's no way to sneak something like explosives or an energy emitter into an amateur satellite when everyone has access to the designs and implementation.\n\nK) However, they're more cautious about sharing information with nonmembers, as the organization guards against others developing the ability to hijack and take control of their satellites. This form of \"self-governance\" is possible within long-standing amateur organizations that, over time, are able to build a sense of responsibility to community members, as well as society in general. But what happens when new players emerge, who don't have deep roots within the existing culture?\n\nL) Hobbyists and students are gaining access to technologies without being part of a long-standing amateur establishment. They're still constrained by funders, launch providers and a series of regulations—all of which rein in what CubeSat developers can and cannot do. But there's a danger they're ill-equipped to think through potential unintended consequences. What these unintended consequences might be is admittedly far from clear. Yet we know innovators can be remarkably creative with taking technologies in unexpected directions. Think of something as seemingly benign as the cellphone—we have microfinance and text-based social networking at one end of the spectrum, and improvised(临时制作的) explosive devices at the other.\n\nM) This is where a culture of social responsibility around CubeSats becomes important – not simply to ensure that physical risks are minimized, but to engage with a much larger community in anticipating and managing less obvious consequences of the technology. This is not an easy task. Yet the evidence from AMSAT and other areas of technology development suggests that responsible amateur communities can and do emerge around novel technologies. The challenge here, of course, is ensuring that what an amateur community considers to be responsible, actually is. Here's where there needs to be a much wider public conversation that extends beyond government agencies and scientific communities to include students, hobbyists, and anyone who may potentially stand to be affected by the use of CubeSat technology.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "L",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 L 段。题干：Even with constraints, it is possible for some creative developers to take the CubeSat technology in directions that result in harmful outcomes.\n核对该段原文：Hobbyists and students are gaining access to technologies without being part of a long-standing amateur establishment. They're still constrained by funders, launch providers and a series of regulations—all of which rein in what CubeSat developers can and cannot do. But there's a danger they're ill-equipped to think through potential unintended consequences. What these unintended consequences might be is admittedly far from clear. Yet we know innovators can be remarkably creative with taking technologies in unexpected directions. Think of something as seemingly benign as the cellphone—we have microfinance and text-based social networking at one end of the spectrum, and improvised(临时制作的) explosive devices at the other.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-3-nonlistening-q43",
+      "canonicalId": "lazynote-cet6-2019-06-3-q43",
+      "number": 43,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "While making significant contributions to space science, CubeSats may pose hazards to other space vehicles.",
+      "passage": "The future of personal satellite technology is here—are we ready for it?\n\nA) Satellites used to be the exclusive playthings of rich governments and wealthy corporations. But increasingly, as space becomes more democratized, they are coming within reach of ordinary people. Just like drones(无人机) before them, miniature satellites are beginning to fundamentally transform our conceptions of who gets to do what up above our heads.\n\nB) As a recent report from the National Academy of Sciences highlights, these satellites hold tremendous potential for making satellite-based science more accessible than ever before. However, as the cost of getting your own satellite in orbit drops sharply, the risks of irresponsible use grow. The question here is no longer \"Can we?\" but \"Should we?\" What are the potential downsides of having a slice of space densely populated by equipment built by people not traditionally labeled as \"professionals\"? And what would the responsible and beneficial development and use of this technology actually look like? Some of the answers may come from a nonprofit organization that has been building and launching amateur satellites for nearly 50 years.\n\nC) Having your personal satellite launched into orbit might sound like an idea straight out of science fiction. But over the past few decades a unique class of satellites has been created that fits the bill: CubeSats. The \"Cube\" here simply refers to the satellite's shape. The most common CubeSat is a 10cm cube, so small that a single CubeSat could easily be mistaken for a paperweight on your desk. These mini-satellites can fit in a launch vehicle's formerly \"wasted space.\" Multiples can be deployed in combination for more complex missions than could be achieved by one CubeSat alone.\n\nD) Within their compact bodies these minute satellites are able to house sensors and communications receivers/transmitters that enable operators to study Earth from space, as well as space around Earth. They're primarily designed for Low Earth Orbit (LEO)—an easily accessible region of space from around 200 to 800 miles above Earth, where human-tended missions like the Hubble Space Telescope and the International Space Station (ISS) hang out. But they can attain more distant orbits; NASA plans for most of its future Earth-escaping payloads (to the moon and Mars especially) to carry CubeSats.\n\nE) Because they're so small and light, it costs much less to get a CubeSat into Earth's orbit than a traditional communications or GPS satellite. For instance, a research group here at Arizona State University recently claimed their developmental small CubeSats could cost as little as $3,000 to put in orbit. This decrease in cost allows researchers, hobbyists and even elementary school groups to put simple instruments into LEO or even have them deployed from the ISS.\n\nF) The first CubeSat was created in the early 2000s, as a way of enabling Stanford graduate students to design, build, test and operate a spacecraft with similar capabilities to the USSR's Sputnik(前苏联的人造卫星). Since then, NASA, the National Reconnaissance Office and even Boeing have all launched and operated CubeSats. There are more than 130 currently in operation. The NASA Educational Launch of Nano Satellite program, which offers free launches for educational groups and science missions, is now open to U.S. nonprofit corporations as well. Clearly, satellites are not just for rocket scientists anymore.\n\nG) The National Academy of Sciences report emphasizes CubeSats' importance in scientific discovery and the training of future space scientists and engineers. Yet it also acknowledges that widespread deployment of LEO CubeSats isn't risk-free. The greatest concern the authors raise is space debris—pieces of \"junk\" that orbit the earth, with the potential to cause serious damage if they collide with operational units, including the ISS.\n\nH) Currently, there aren't many CubeSats and they're tracked closely. Yet as LEO opens up to more amateur satellites, they may pose an increasing threat. As the report authors point out, even near-misses might lead to the \"creation of a burdensome regulatory framework and affect the future disposition of science CubeSats.\"\n\nI) CubeSat researchers suggest that now's the time to ponder unexpected and unintended possible consequences of more people than ever having access to their own small slice of space. In an era when you can simply buy a CubeSat kit off the shelf, how can we trust the satellites over our heads were developed with good intentions by people who knew what they were doing? Some \"expert amateurs\" in the satellite game could provide some inspiration for how to proceed responsibly.\n\nJ) In 1969, the Radio Amateur Satellite Corporation (AMSAT) was created in order to foster ham radio enthusiasts'(业余无线电爱好者) participation in space research and communication. It continued the efforts, begun in 1961, by Project OSCAR—a U.S.-based group that built and launched the very first nongovernmental satellite just four years after Sputnik. As an organization of volunteers, AMSAT was putting \"amateur\" satellites in orbit decades before the current CubeSat craze. And over time, its members have learned a thing or two about responsibility. Here, open-source development has been a central principle. Within the organization, AMSAT has a philosophy of open sourcing everything making technical data on all aspects of their satellites fully available to everyone in the organization, and when possible, the public. According to a member of the team responsible for FOX 1-A, AMSAT's first CubeSat, this means that there's no way to sneak something like explosives or an energy emitter into an amateur satellite when everyone has access to the designs and implementation.\n\nK) However, they're more cautious about sharing information with nonmembers, as the organization guards against others developing the ability to hijack and take control of their satellites. This form of \"self-governance\" is possible within long-standing amateur organizations that, over time, are able to build a sense of responsibility to community members, as well as society in general. But what happens when new players emerge, who don't have deep roots within the existing culture?\n\nL) Hobbyists and students are gaining access to technologies without being part of a long-standing amateur establishment. They're still constrained by funders, launch providers and a series of regulations—all of which rein in what CubeSat developers can and cannot do. But there's a danger they're ill-equipped to think through potential unintended consequences. What these unintended consequences might be is admittedly far from clear. Yet we know innovators can be remarkably creative with taking technologies in unexpected directions. Think of something as seemingly benign as the cellphone—we have microfinance and text-based social networking at one end of the spectrum, and improvised(临时制作的) explosive devices at the other.\n\nM) This is where a culture of social responsibility around CubeSats becomes important – not simply to ensure that physical risks are minimized, but to engage with a much larger community in anticipating and managing less obvious consequences of the technology. This is not an easy task. Yet the evidence from AMSAT and other areas of technology development suggests that responsible amateur communities can and do emerge around novel technologies. The challenge here, of course, is ensuring that what an amateur community considers to be responsible, actually is. Here's where there needs to be a much wider public conversation that extends beyond government agencies and scientific communities to include students, hobbyists, and anyone who may potentially stand to be affected by the use of CubeSat technology.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 G 段。题干：While making significant contributions to space science, CubeSats may pose hazards to other space vehicles.\n核对该段原文：The National Academy of Sciences report emphasizes CubeSats' importance in scientific discovery and the training of future space scientists and engineers. Yet it also acknowledges that widespread deployment of LEO CubeSats isn't risk-free. The greatest concern the authors raise is space debris—pieces of \"junk\" that orbit the earth, with the potential to cause serious damage if they collide with operational units, including the ISS.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-3-nonlistening-q44",
+      "canonicalId": "lazynote-cet6-2019-06-3-q44",
+      "number": 44,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Mini-satellites enable operators to study Earth from LEO and space around it.",
+      "passage": "The future of personal satellite technology is here—are we ready for it?\n\nA) Satellites used to be the exclusive playthings of rich governments and wealthy corporations. But increasingly, as space becomes more democratized, they are coming within reach of ordinary people. Just like drones(无人机) before them, miniature satellites are beginning to fundamentally transform our conceptions of who gets to do what up above our heads.\n\nB) As a recent report from the National Academy of Sciences highlights, these satellites hold tremendous potential for making satellite-based science more accessible than ever before. However, as the cost of getting your own satellite in orbit drops sharply, the risks of irresponsible use grow. The question here is no longer \"Can we?\" but \"Should we?\" What are the potential downsides of having a slice of space densely populated by equipment built by people not traditionally labeled as \"professionals\"? And what would the responsible and beneficial development and use of this technology actually look like? Some of the answers may come from a nonprofit organization that has been building and launching amateur satellites for nearly 50 years.\n\nC) Having your personal satellite launched into orbit might sound like an idea straight out of science fiction. But over the past few decades a unique class of satellites has been created that fits the bill: CubeSats. The \"Cube\" here simply refers to the satellite's shape. The most common CubeSat is a 10cm cube, so small that a single CubeSat could easily be mistaken for a paperweight on your desk. These mini-satellites can fit in a launch vehicle's formerly \"wasted space.\" Multiples can be deployed in combination for more complex missions than could be achieved by one CubeSat alone.\n\nD) Within their compact bodies these minute satellites are able to house sensors and communications receivers/transmitters that enable operators to study Earth from space, as well as space around Earth. They're primarily designed for Low Earth Orbit (LEO)—an easily accessible region of space from around 200 to 800 miles above Earth, where human-tended missions like the Hubble Space Telescope and the International Space Station (ISS) hang out. But they can attain more distant orbits; NASA plans for most of its future Earth-escaping payloads (to the moon and Mars especially) to carry CubeSats.\n\nE) Because they're so small and light, it costs much less to get a CubeSat into Earth's orbit than a traditional communications or GPS satellite. For instance, a research group here at Arizona State University recently claimed their developmental small CubeSats could cost as little as $3,000 to put in orbit. This decrease in cost allows researchers, hobbyists and even elementary school groups to put simple instruments into LEO or even have them deployed from the ISS.\n\nF) The first CubeSat was created in the early 2000s, as a way of enabling Stanford graduate students to design, build, test and operate a spacecraft with similar capabilities to the USSR's Sputnik(前苏联的人造卫星). Since then, NASA, the National Reconnaissance Office and even Boeing have all launched and operated CubeSats. There are more than 130 currently in operation. The NASA Educational Launch of Nano Satellite program, which offers free launches for educational groups and science missions, is now open to U.S. nonprofit corporations as well. Clearly, satellites are not just for rocket scientists anymore.\n\nG) The National Academy of Sciences report emphasizes CubeSats' importance in scientific discovery and the training of future space scientists and engineers. Yet it also acknowledges that widespread deployment of LEO CubeSats isn't risk-free. The greatest concern the authors raise is space debris—pieces of \"junk\" that orbit the earth, with the potential to cause serious damage if they collide with operational units, including the ISS.\n\nH) Currently, there aren't many CubeSats and they're tracked closely. Yet as LEO opens up to more amateur satellites, they may pose an increasing threat. As the report authors point out, even near-misses might lead to the \"creation of a burdensome regulatory framework and affect the future disposition of science CubeSats.\"\n\nI) CubeSat researchers suggest that now's the time to ponder unexpected and unintended possible consequences of more people than ever having access to their own small slice of space. In an era when you can simply buy a CubeSat kit off the shelf, how can we trust the satellites over our heads were developed with good intentions by people who knew what they were doing? Some \"expert amateurs\" in the satellite game could provide some inspiration for how to proceed responsibly.\n\nJ) In 1969, the Radio Amateur Satellite Corporation (AMSAT) was created in order to foster ham radio enthusiasts'(业余无线电爱好者) participation in space research and communication. It continued the efforts, begun in 1961, by Project OSCAR—a U.S.-based group that built and launched the very first nongovernmental satellite just four years after Sputnik. As an organization of volunteers, AMSAT was putting \"amateur\" satellites in orbit decades before the current CubeSat craze. And over time, its members have learned a thing or two about responsibility. Here, open-source development has been a central principle. Within the organization, AMSAT has a philosophy of open sourcing everything making technical data on all aspects of their satellites fully available to everyone in the organization, and when possible, the public. According to a member of the team responsible for FOX 1-A, AMSAT's first CubeSat, this means that there's no way to sneak something like explosives or an energy emitter into an amateur satellite when everyone has access to the designs and implementation.\n\nK) However, they're more cautious about sharing information with nonmembers, as the organization guards against others developing the ability to hijack and take control of their satellites. This form of \"self-governance\" is possible within long-standing amateur organizations that, over time, are able to build a sense of responsibility to community members, as well as society in general. But what happens when new players emerge, who don't have deep roots within the existing culture?\n\nL) Hobbyists and students are gaining access to technologies without being part of a long-standing amateur establishment. They're still constrained by funders, launch providers and a series of regulations—all of which rein in what CubeSat developers can and cannot do. But there's a danger they're ill-equipped to think through potential unintended consequences. What these unintended consequences might be is admittedly far from clear. Yet we know innovators can be remarkably creative with taking technologies in unexpected directions. Think of something as seemingly benign as the cellphone—we have microfinance and text-based social networking at one end of the spectrum, and improvised(临时制作的) explosive devices at the other.\n\nM) This is where a culture of social responsibility around CubeSats becomes important – not simply to ensure that physical risks are minimized, but to engage with a much larger community in anticipating and managing less obvious consequences of the technology. This is not an easy task. Yet the evidence from AMSAT and other areas of technology development suggests that responsible amateur communities can and do emerge around novel technologies. The challenge here, of course, is ensuring that what an amateur community considers to be responsible, actually is. Here's where there needs to be a much wider public conversation that extends beyond government agencies and scientific communities to include students, hobbyists, and anyone who may potentially stand to be affected by the use of CubeSat technology.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 D 段。题干：Mini-satellites enable operators to study Earth from LEO and space around it.\n核对该段原文：Within their compact bodies these minute satellites are able to house sensors and communications receivers/transmitters that enable operators to study Earth from space, as well as space around Earth. They're primarily designed for Low Earth Orbit (LEO)—an easily accessible region of space from around 200 to 800 miles above Earth, where human-tended missions like the Hubble Space Telescope and the International Space Station (ISS) hang out. But they can attain more distant orbits; NASA plans for most of its future Earth-escaping payloads (to the moon and Mars especially) to carry CubeSats.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-3-nonlistening-q45",
+      "canonicalId": "lazynote-cet6-2019-06-3-q45",
+      "number": 45,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "AMSAT operates on the principle of having all its technical data accessible to its members, preventing the abuse of amateur satellites.",
+      "passage": "The future of personal satellite technology is here—are we ready for it?\n\nA) Satellites used to be the exclusive playthings of rich governments and wealthy corporations. But increasingly, as space becomes more democratized, they are coming within reach of ordinary people. Just like drones(无人机) before them, miniature satellites are beginning to fundamentally transform our conceptions of who gets to do what up above our heads.\n\nB) As a recent report from the National Academy of Sciences highlights, these satellites hold tremendous potential for making satellite-based science more accessible than ever before. However, as the cost of getting your own satellite in orbit drops sharply, the risks of irresponsible use grow. The question here is no longer \"Can we?\" but \"Should we?\" What are the potential downsides of having a slice of space densely populated by equipment built by people not traditionally labeled as \"professionals\"? And what would the responsible and beneficial development and use of this technology actually look like? Some of the answers may come from a nonprofit organization that has been building and launching amateur satellites for nearly 50 years.\n\nC) Having your personal satellite launched into orbit might sound like an idea straight out of science fiction. But over the past few decades a unique class of satellites has been created that fits the bill: CubeSats. The \"Cube\" here simply refers to the satellite's shape. The most common CubeSat is a 10cm cube, so small that a single CubeSat could easily be mistaken for a paperweight on your desk. These mini-satellites can fit in a launch vehicle's formerly \"wasted space.\" Multiples can be deployed in combination for more complex missions than could be achieved by one CubeSat alone.\n\nD) Within their compact bodies these minute satellites are able to house sensors and communications receivers/transmitters that enable operators to study Earth from space, as well as space around Earth. They're primarily designed for Low Earth Orbit (LEO)—an easily accessible region of space from around 200 to 800 miles above Earth, where human-tended missions like the Hubble Space Telescope and the International Space Station (ISS) hang out. But they can attain more distant orbits; NASA plans for most of its future Earth-escaping payloads (to the moon and Mars especially) to carry CubeSats.\n\nE) Because they're so small and light, it costs much less to get a CubeSat into Earth's orbit than a traditional communications or GPS satellite. For instance, a research group here at Arizona State University recently claimed their developmental small CubeSats could cost as little as $3,000 to put in orbit. This decrease in cost allows researchers, hobbyists and even elementary school groups to put simple instruments into LEO or even have them deployed from the ISS.\n\nF) The first CubeSat was created in the early 2000s, as a way of enabling Stanford graduate students to design, build, test and operate a spacecraft with similar capabilities to the USSR's Sputnik(前苏联的人造卫星). Since then, NASA, the National Reconnaissance Office and even Boeing have all launched and operated CubeSats. There are more than 130 currently in operation. The NASA Educational Launch of Nano Satellite program, which offers free launches for educational groups and science missions, is now open to U.S. nonprofit corporations as well. Clearly, satellites are not just for rocket scientists anymore.\n\nG) The National Academy of Sciences report emphasizes CubeSats' importance in scientific discovery and the training of future space scientists and engineers. Yet it also acknowledges that widespread deployment of LEO CubeSats isn't risk-free. The greatest concern the authors raise is space debris—pieces of \"junk\" that orbit the earth, with the potential to cause serious damage if they collide with operational units, including the ISS.\n\nH) Currently, there aren't many CubeSats and they're tracked closely. Yet as LEO opens up to more amateur satellites, they may pose an increasing threat. As the report authors point out, even near-misses might lead to the \"creation of a burdensome regulatory framework and affect the future disposition of science CubeSats.\"\n\nI) CubeSat researchers suggest that now's the time to ponder unexpected and unintended possible consequences of more people than ever having access to their own small slice of space. In an era when you can simply buy a CubeSat kit off the shelf, how can we trust the satellites over our heads were developed with good intentions by people who knew what they were doing? Some \"expert amateurs\" in the satellite game could provide some inspiration for how to proceed responsibly.\n\nJ) In 1969, the Radio Amateur Satellite Corporation (AMSAT) was created in order to foster ham radio enthusiasts'(业余无线电爱好者) participation in space research and communication. It continued the efforts, begun in 1961, by Project OSCAR—a U.S.-based group that built and launched the very first nongovernmental satellite just four years after Sputnik. As an organization of volunteers, AMSAT was putting \"amateur\" satellites in orbit decades before the current CubeSat craze. And over time, its members have learned a thing or two about responsibility. Here, open-source development has been a central principle. Within the organization, AMSAT has a philosophy of open sourcing everything making technical data on all aspects of their satellites fully available to everyone in the organization, and when possible, the public. According to a member of the team responsible for FOX 1-A, AMSAT's first CubeSat, this means that there's no way to sneak something like explosives or an energy emitter into an amateur satellite when everyone has access to the designs and implementation.\n\nK) However, they're more cautious about sharing information with nonmembers, as the organization guards against others developing the ability to hijack and take control of their satellites. This form of \"self-governance\" is possible within long-standing amateur organizations that, over time, are able to build a sense of responsibility to community members, as well as society in general. But what happens when new players emerge, who don't have deep roots within the existing culture?\n\nL) Hobbyists and students are gaining access to technologies without being part of a long-standing amateur establishment. They're still constrained by funders, launch providers and a series of regulations—all of which rein in what CubeSat developers can and cannot do. But there's a danger they're ill-equipped to think through potential unintended consequences. What these unintended consequences might be is admittedly far from clear. Yet we know innovators can be remarkably creative with taking technologies in unexpected directions. Think of something as seemingly benign as the cellphone—we have microfinance and text-based social networking at one end of the spectrum, and improvised(临时制作的) explosive devices at the other.\n\nM) This is where a culture of social responsibility around CubeSats becomes important – not simply to ensure that physical risks are minimized, but to engage with a much larger community in anticipating and managing less obvious consequences of the technology. This is not an easy task. Yet the evidence from AMSAT and other areas of technology development suggests that responsible amateur communities can and do emerge around novel technologies. The challenge here, of course, is ensuring that what an amateur community considers to be responsible, actually is. Here's where there needs to be a much wider public conversation that extends beyond government agencies and scientific communities to include students, hobbyists, and anyone who may potentially stand to be affected by the use of CubeSat technology.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "J",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 J 段。题干：AMSAT operates on the principle of having all its technical data accessible to its members, preventing the abuse of amateur satellites.\n核对该段原文：In 1969, the Radio Amateur Satellite Corporation (AMSAT) was created in order to foster ham radio enthusiasts'(业余无线电爱好者) participation in space research and communication. It continued the efforts, begun in 1961, by Project OSCAR—a U.S.-based group that built and launched the very first nongovernmental satellite just four years after Sputnik. As an organization of volunteers, AMSAT was putting \"amateur\" satellites in orbit decades before the current CubeSat craze. And over time, its members have learned a thing or two about responsibility. Here, open-source development has been a central principle. Within the organization, AMSAT has a philosophy of open sourcing everything making technical data on all aspects of their satellites fully available to everyone in the organization, and when possible, the public. According to a member of the team responsible for FOX 1-A, AMSAT's first CubeSat, this means that there's no way to sneak something like explosives or an energy emitter into an amateur satellite when everyone has access to the designs and implementation.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-3-nonlistening-q46",
+      "canonicalId": "lazynote-cet6-2019-06-3-q46",
+      "number": 46,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What did the author realize when he re-entered the corporate world?",
+      "passage": "When I re-entered the full-time workforce a few years ago after a decade of solitary self-employment, there was one thing I was looking forward to the most: the opportunity to have work friends once again. It wasn't until I entered the corporate world that I realized, for me at least, being friends with colleagues didn't emerge as a priority at all. This is surprising when you consider the prevailing emphasis by scholars and trainers and managers on the importance of cultivating close interpersonal relationships at work. So much research has explored the way in which collegial(同事的) ties can help overcome a range of workplace issues affecting productivity and the quality of work output such as team-based conflict, jealousy, undermining, anger, and more.\n\nPerhaps my expectations of lunches, water-cooler gossip and caring, deep-and-meaningful conversations were a legacy of the last time I was in that kind of office environment. Whereas now, as I near the end of my fourth decade, I realize work can be fully functional and entirely fulfilling without needing to be best mates with the people sitting next to you.\n\nIn an academic analysis just published in the profoundly-respected Journal of Management, researchers have looked at the concept of \"indifferent relationships\". It's a simple term that encapsulates(概括) the fact that relationships at work can reasonably be non-intimate, inconsequential, unimportant and even, dare I say it, disposable or substitutable.\n\nIndifferent relationships are neither positive nor negative. The limited research conducted thus far indicates they're especially dominant among those who value independence over cooperation, and harmony over confrontation. Indifference is also the preferred option among those who are socially lazy. Maintaining relationships over the long term takes effort. For some of us, too much effort.\n\nAs noted above, indifferent relationships may not always be the most helpful approach in resolving some of the issues that pop up at work. But there are nonetheless several empirically proven benefits. One of those is efficiency. Less time chatting and socializing means more time working and churning(产出).\n\nThe other is self-esteem. As human beings, we're primed to compare ourselves to each other in what is an anxiety-inducing phenomenon. Apparently, we look down on acquaintances more so than friends. Since the former is most common among those inclined towards indifferent relationships, their predominance can bolster individuals' sense of self-worth.\n\nEgo aside, a third advantage is that the emotional neutrality of indifferent relationships has been found to enhance critical evaluation, to strengthen one's focus on task resolution, and to gain greater access to valuable information. None of that might be as fun as after-work socializing but, hey, I'll take it anyway.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Making new friends with his workmates was not as easy as he had anticipated."
+        },
+        {
+          "id": "B",
+          "text": "Cultivating positive interpersonal relationships helped him expel solitary feelings."
+        },
+        {
+          "id": "C",
+          "text": "Working in the corporate world requires more interpersonal skills than self-employment."
+        },
+        {
+          "id": "D",
+          "text": "Building close relationships with his colleagues was not as important as he had expected."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：Building close relationships with his colleagues was not as important as he had expected.\n关键词检索定位到第 1 段的候选相关句：It wasn't until I entered the corporate world that I realized, for me at least, being friends with colleagues didn't emerge as a priority at all.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-3-nonlistening-q47",
+      "canonicalId": "lazynote-cet6-2019-06-3-q47",
+      "number": 47,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn from many studies about collegial relationships?",
+      "passage": "When I re-entered the full-time workforce a few years ago after a decade of solitary self-employment, there was one thing I was looking forward to the most: the opportunity to have work friends once again. It wasn't until I entered the corporate world that I realized, for me at least, being friends with colleagues didn't emerge as a priority at all. This is surprising when you consider the prevailing emphasis by scholars and trainers and managers on the importance of cultivating close interpersonal relationships at work. So much research has explored the way in which collegial(同事的) ties can help overcome a range of workplace issues affecting productivity and the quality of work output such as team-based conflict, jealousy, undermining, anger, and more.\n\nPerhaps my expectations of lunches, water-cooler gossip and caring, deep-and-meaningful conversations were a legacy of the last time I was in that kind of office environment. Whereas now, as I near the end of my fourth decade, I realize work can be fully functional and entirely fulfilling without needing to be best mates with the people sitting next to you.\n\nIn an academic analysis just published in the profoundly-respected Journal of Management, researchers have looked at the concept of \"indifferent relationships\". It's a simple term that encapsulates(概括) the fact that relationships at work can reasonably be non-intimate, inconsequential, unimportant and even, dare I say it, disposable or substitutable.\n\nIndifferent relationships are neither positive nor negative. The limited research conducted thus far indicates they're especially dominant among those who value independence over cooperation, and harmony over confrontation. Indifference is also the preferred option among those who are socially lazy. Maintaining relationships over the long term takes effort. For some of us, too much effort.\n\nAs noted above, indifferent relationships may not always be the most helpful approach in resolving some of the issues that pop up at work. But there are nonetheless several empirically proven benefits. One of those is efficiency. Less time chatting and socializing means more time working and churning(产出).\n\nThe other is self-esteem. As human beings, we're primed to compare ourselves to each other in what is an anxiety-inducing phenomenon. Apparently, we look down on acquaintances more so than friends. Since the former is most common among those inclined towards indifferent relationships, their predominance can bolster individuals' sense of self-worth.\n\nEgo aside, a third advantage is that the emotional neutrality of indifferent relationships has been found to enhance critical evaluation, to strengthen one's focus on task resolution, and to gain greater access to valuable information. None of that might be as fun as after-work socializing but, hey, I'll take it anyway.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inharmonious relationships have an adverse effect on productivity."
+        },
+        {
+          "id": "B",
+          "text": "Harmonious relationships are what many companies aim to cultivate."
+        },
+        {
+          "id": "C",
+          "text": "Close collegial relationships contribute very little to product quality."
+        },
+        {
+          "id": "D",
+          "text": "Conflicting relationships in the workplace exist almost everywhere."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：Inharmonious relationships have an adverse effect on productivity.\n关键词检索定位到第 1 段的候选相关句：So much research has explored the way in which collegial(同事的) ties can help overcome a range of workplace issues affecting productivity and the quality of work output such as team-based conflict, jealousy, undermining, anger, and more.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-3-nonlistening-q48",
+      "canonicalId": "lazynote-cet6-2019-06-3-q48",
+      "number": 48,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What can be inferred about relationships at work from an academic analysis?",
+      "passage": "When I re-entered the full-time workforce a few years ago after a decade of solitary self-employment, there was one thing I was looking forward to the most: the opportunity to have work friends once again. It wasn't until I entered the corporate world that I realized, for me at least, being friends with colleagues didn't emerge as a priority at all. This is surprising when you consider the prevailing emphasis by scholars and trainers and managers on the importance of cultivating close interpersonal relationships at work. So much research has explored the way in which collegial(同事的) ties can help overcome a range of workplace issues affecting productivity and the quality of work output such as team-based conflict, jealousy, undermining, anger, and more.\n\nPerhaps my expectations of lunches, water-cooler gossip and caring, deep-and-meaningful conversations were a legacy of the last time I was in that kind of office environment. Whereas now, as I near the end of my fourth decade, I realize work can be fully functional and entirely fulfilling without needing to be best mates with the people sitting next to you.\n\nIn an academic analysis just published in the profoundly-respected Journal of Management, researchers have looked at the concept of \"indifferent relationships\". It's a simple term that encapsulates(概括) the fact that relationships at work can reasonably be non-intimate, inconsequential, unimportant and even, dare I say it, disposable or substitutable.\n\nIndifferent relationships are neither positive nor negative. The limited research conducted thus far indicates they're especially dominant among those who value independence over cooperation, and harmony over confrontation. Indifference is also the preferred option among those who are socially lazy. Maintaining relationships over the long term takes effort. For some of us, too much effort.\n\nAs noted above, indifferent relationships may not always be the most helpful approach in resolving some of the issues that pop up at work. But there are nonetheless several empirically proven benefits. One of those is efficiency. Less time chatting and socializing means more time working and churning(产出).\n\nThe other is self-esteem. As human beings, we're primed to compare ourselves to each other in what is an anxiety-inducing phenomenon. Apparently, we look down on acquaintances more so than friends. Since the former is most common among those inclined towards indifferent relationships, their predominance can bolster individuals' sense of self-worth.\n\nEgo aside, a third advantage is that the emotional neutrality of indifferent relationships has been found to enhance critical evaluation, to strengthen one's focus on task resolution, and to gain greater access to valuable information. None of that might be as fun as after-work socializing but, hey, I'll take it anyway.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They should be cultivated."
+        },
+        {
+          "id": "B",
+          "text": "They are virtually irrelevant."
+        },
+        {
+          "id": "C",
+          "text": "They are vital to corporate culture."
+        },
+        {
+          "id": "D",
+          "text": "They should be reasonably intimate."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：They are virtually irrelevant.\n关键词检索定位到第 3 段的候选相关句：In an academic analysis just published in the profoundly-respected Journal of Management, researchers have looked at the concept of \"indifferent relationships\".\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-3-nonlistening-q49",
+      "canonicalId": "lazynote-cet6-2019-06-3-q49",
+      "number": 49,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author say about people who are socially lazy?",
+      "passage": "When I re-entered the full-time workforce a few years ago after a decade of solitary self-employment, there was one thing I was looking forward to the most: the opportunity to have work friends once again. It wasn't until I entered the corporate world that I realized, for me at least, being friends with colleagues didn't emerge as a priority at all. This is surprising when you consider the prevailing emphasis by scholars and trainers and managers on the importance of cultivating close interpersonal relationships at work. So much research has explored the way in which collegial(同事的) ties can help overcome a range of workplace issues affecting productivity and the quality of work output such as team-based conflict, jealousy, undermining, anger, and more.\n\nPerhaps my expectations of lunches, water-cooler gossip and caring, deep-and-meaningful conversations were a legacy of the last time I was in that kind of office environment. Whereas now, as I near the end of my fourth decade, I realize work can be fully functional and entirely fulfilling without needing to be best mates with the people sitting next to you.\n\nIn an academic analysis just published in the profoundly-respected Journal of Management, researchers have looked at the concept of \"indifferent relationships\". It's a simple term that encapsulates(概括) the fact that relationships at work can reasonably be non-intimate, inconsequential, unimportant and even, dare I say it, disposable or substitutable.\n\nIndifferent relationships are neither positive nor negative. The limited research conducted thus far indicates they're especially dominant among those who value independence over cooperation, and harmony over confrontation. Indifference is also the preferred option among those who are socially lazy. Maintaining relationships over the long term takes effort. For some of us, too much effort.\n\nAs noted above, indifferent relationships may not always be the most helpful approach in resolving some of the issues that pop up at work. But there are nonetheless several empirically proven benefits. One of those is efficiency. Less time chatting and socializing means more time working and churning(产出).\n\nThe other is self-esteem. As human beings, we're primed to compare ourselves to each other in what is an anxiety-inducing phenomenon. Apparently, we look down on acquaintances more so than friends. Since the former is most common among those inclined towards indifferent relationships, their predominance can bolster individuals' sense of self-worth.\n\nEgo aside, a third advantage is that the emotional neutrality of indifferent relationships has been found to enhance critical evaluation, to strengthen one's focus on task resolution, and to gain greater access to valuable information. None of that might be as fun as after-work socializing but, hey, I'll take it anyway.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They feel Uncomfortable when engaging in social interactions."
+        },
+        {
+          "id": "B",
+          "text": "They often find themselves in confrontation with their colleagues."
+        },
+        {
+          "id": "C",
+          "text": "They are Unwilling to make efforts to maintain Workplace relationships."
+        },
+        {
+          "id": "D",
+          "text": "They lack basic communication skills in dealing with interpersonal issues."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：They are Unwilling to make efforts to maintain Workplace relationships.\n关键词检索定位到第 3 段的候选相关句：It's a simple term that encapsulates(概括) the fact that relationships at work can reasonably be non-intimate, inconsequential, unimportant and even, dare I say it, disposable or substitutable.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-3-nonlistening-q50",
+      "canonicalId": "lazynote-cet6-2019-06-3-q50",
+      "number": 50,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What is one of the benefits of indifferent relationships?",
+      "passage": "When I re-entered the full-time workforce a few years ago after a decade of solitary self-employment, there was one thing I was looking forward to the most: the opportunity to have work friends once again. It wasn't until I entered the corporate world that I realized, for me at least, being friends with colleagues didn't emerge as a priority at all. This is surprising when you consider the prevailing emphasis by scholars and trainers and managers on the importance of cultivating close interpersonal relationships at work. So much research has explored the way in which collegial(同事的) ties can help overcome a range of workplace issues affecting productivity and the quality of work output such as team-based conflict, jealousy, undermining, anger, and more.\n\nPerhaps my expectations of lunches, water-cooler gossip and caring, deep-and-meaningful conversations were a legacy of the last time I was in that kind of office environment. Whereas now, as I near the end of my fourth decade, I realize work can be fully functional and entirely fulfilling without needing to be best mates with the people sitting next to you.\n\nIn an academic analysis just published in the profoundly-respected Journal of Management, researchers have looked at the concept of \"indifferent relationships\". It's a simple term that encapsulates(概括) the fact that relationships at work can reasonably be non-intimate, inconsequential, unimportant and even, dare I say it, disposable or substitutable.\n\nIndifferent relationships are neither positive nor negative. The limited research conducted thus far indicates they're especially dominant among those who value independence over cooperation, and harmony over confrontation. Indifference is also the preferred option among those who are socially lazy. Maintaining relationships over the long term takes effort. For some of us, too much effort.\n\nAs noted above, indifferent relationships may not always be the most helpful approach in resolving some of the issues that pop up at work. But there are nonetheless several empirically proven benefits. One of those is efficiency. Less time chatting and socializing means more time working and churning(产出).\n\nThe other is self-esteem. As human beings, we're primed to compare ourselves to each other in what is an anxiety-inducing phenomenon. Apparently, we look down on acquaintances more so than friends. Since the former is most common among those inclined towards indifferent relationships, their predominance can bolster individuals' sense of self-worth.\n\nEgo aside, a third advantage is that the emotional neutrality of indifferent relationships has been found to enhance critical evaluation, to strengthen one's focus on task resolution, and to gain greater access to valuable information. None of that might be as fun as after-work socializing but, hey, I'll take it anyway.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They provide fun at work."
+        },
+        {
+          "id": "B",
+          "text": "They help control emotions."
+        },
+        {
+          "id": "C",
+          "text": "They help resolve differences."
+        },
+        {
+          "id": "D",
+          "text": "They improve Work efficiency."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：They improve Work efficiency.\n关键词检索定位到第 5 段的候选相关句：As noted above, indifferent relationships may not always be the most helpful approach in resolving some of the issues that pop up at work.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-3-nonlistening-q51",
+      "canonicalId": "lazynote-cet6-2019-06-3-q51",
+      "number": 51,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What is the author's greatest concern about the use of AI?",
+      "passage": "In a few decades, artificial intelligence (AI) will surpass many of the abilities that we believe make us special. This is a grand challenge for our age and it may require an \"irrational\" response.\n\nOne of the most significant pieces of news from the US in early 2017 was the efforts of Google to make autonomous driving a reality. According to a report, Google's self-driving cars clocked 1,023,330 km, and required human intervention 124 times. That is one intervention about every 8,047 km of autonomous driving. But even more impressive is the progress in just a single year: human interventions fell from 0.8 times per thousand miles to 0.2, a 400% improvement. With such progress, Google's cars will easily surpass my own driving ability later this year.\n\nDriving once seemed to be a very human skill. But we said that about chess, too. Then a computer beat the human world champion, repeatedly. The board game Go(围棋) took over from chess as a new test for human thinking in 2016, when a computer beat one of the world's leading professional Go players. With computers conquering what used to be deeply human tasks, what will it mean in the future to be human? I worry about my six-year-old son. What will his place be in a world where machines beat us in one area after another? He'll never calculate faster, never drive better, or even fly more safely. Actually, it all comes down to a fairly simple question: What's so special about us? It can't be skills like arithmetic, which machines already excel in. So far, machines have a pretty hard time emulating creativity, arbitrary enough not to be predicted by a computer, and yet more than simple randomness.\n\nPerhaps, if we continue to improve information-processing machines, we'll soon have helpful rational assistants. So we must aim to complement the rationality of the machine, rather than to compete with it. If I'm right, we should foster a creative spirit because a dose of illogical creativity will complement the rationality of the machine. Unfortunately, however, our education system has not caught up to the approaching reality. Indeed, our schools and universities are structured to mould pupils to be mostly obedient servants of rationality, and to develop outdated skills in interacting with outdated machines. We need to help our children learn how to best work with smart computers to improve human decision-making. But most of all we need to keep the long-term perspective in mind: that even if computers will outsmart us, we can still be the most creative. Because if we aren't, we won't be providing much value in future ecosystems, and that may put in question the foundation for our existence.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Computers are performing lots of creative tasks."
+        },
+        {
+          "id": "B",
+          "text": "Many abilities will cease to be unique to human beings."
+        },
+        {
+          "id": "C",
+          "text": "Computers may become more rational than humans."
+        },
+        {
+          "id": "D",
+          "text": "Many human skills are fast becoming outdated."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：Many abilities will cease to be unique to human beings.\n关键词检索定位到第 1 段的候选相关句：In a few decades, artificial intelligence (AI) will surpass many of the abilities that we believe make us special.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-3-nonlistening-q52",
+      "canonicalId": "lazynote-cet6-2019-06-3-q52",
+      "number": 52,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What impresses the author most in the field of AI?",
+      "passage": "In a few decades, artificial intelligence (AI) will surpass many of the abilities that we believe make us special. This is a grand challenge for our age and it may require an \"irrational\" response.\n\nOne of the most significant pieces of news from the US in early 2017 was the efforts of Google to make autonomous driving a reality. According to a report, Google's self-driving cars clocked 1,023,330 km, and required human intervention 124 times. That is one intervention about every 8,047 km of autonomous driving. But even more impressive is the progress in just a single year: human interventions fell from 0.8 times per thousand miles to 0.2, a 400% improvement. With such progress, Google's cars will easily surpass my own driving ability later this year.\n\nDriving once seemed to be a very human skill. But we said that about chess, too. Then a computer beat the human world champion, repeatedly. The board game Go(围棋) took over from chess as a new test for human thinking in 2016, when a computer beat one of the world's leading professional Go players. With computers conquering what used to be deeply human tasks, what will it mean in the future to be human? I worry about my six-year-old son. What will his place be in a world where machines beat us in one area after another? He'll never calculate faster, never drive better, or even fly more safely. Actually, it all comes down to a fairly simple question: What's so special about us? It can't be skills like arithmetic, which machines already excel in. So far, machines have a pretty hard time emulating creativity, arbitrary enough not to be predicted by a computer, and yet more than simple randomness.\n\nPerhaps, if we continue to improve information-processing machines, we'll soon have helpful rational assistants. So we must aim to complement the rationality of the machine, rather than to compete with it. If I'm right, we should foster a creative spirit because a dose of illogical creativity will complement the rationality of the machine. Unfortunately, however, our education system has not caught up to the approaching reality. Indeed, our schools and universities are structured to mould pupils to be mostly obedient servants of rationality, and to develop outdated skills in interacting with outdated machines. We need to help our children learn how to best work with smart computers to improve human decision-making. But most of all we need to keep the long-term perspective in mind: that even if computers will outsmart us, we can still be the most creative. Because if we aren't, we won't be providing much value in future ecosystems, and that may put in question the foundation for our existence.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Google's experimental driverless cars require little human intervention."
+        },
+        {
+          "id": "B",
+          "text": "Google's cars have surpassed his driving ability in just a single year."
+        },
+        {
+          "id": "C",
+          "text": "Google has made huge progress in autonomous driving in a short time."
+        },
+        {
+          "id": "D",
+          "text": "Google has become a world leader in the field of autonomous driving."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：Google has made huge progress in autonomous driving in a short time.\n关键词检索定位到第 2 段的候选相关句：One of the most significant pieces of news from the US in early 2017 was the efforts of Google to make autonomous driving a reality.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-3-nonlistening-q53",
+      "canonicalId": "lazynote-cet6-2019-06-3-q53",
+      "number": 53,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn from the passage about creativity?",
+      "passage": "In a few decades, artificial intelligence (AI) will surpass many of the abilities that we believe make us special. This is a grand challenge for our age and it may require an \"irrational\" response.\n\nOne of the most significant pieces of news from the US in early 2017 was the efforts of Google to make autonomous driving a reality. According to a report, Google's self-driving cars clocked 1,023,330 km, and required human intervention 124 times. That is one intervention about every 8,047 km of autonomous driving. But even more impressive is the progress in just a single year: human interventions fell from 0.8 times per thousand miles to 0.2, a 400% improvement. With such progress, Google's cars will easily surpass my own driving ability later this year.\n\nDriving once seemed to be a very human skill. But we said that about chess, too. Then a computer beat the human world champion, repeatedly. The board game Go(围棋) took over from chess as a new test for human thinking in 2016, when a computer beat one of the world's leading professional Go players. With computers conquering what used to be deeply human tasks, what will it mean in the future to be human? I worry about my six-year-old son. What will his place be in a world where machines beat us in one area after another? He'll never calculate faster, never drive better, or even fly more safely. Actually, it all comes down to a fairly simple question: What's so special about us? It can't be skills like arithmetic, which machines already excel in. So far, machines have a pretty hard time emulating creativity, arbitrary enough not to be predicted by a computer, and yet more than simple randomness.\n\nPerhaps, if we continue to improve information-processing machines, we'll soon have helpful rational assistants. So we must aim to complement the rationality of the machine, rather than to compete with it. If I'm right, we should foster a creative spirit because a dose of illogical creativity will complement the rationality of the machine. Unfortunately, however, our education system has not caught up to the approaching reality. Indeed, our schools and universities are structured to mould pupils to be mostly obedient servants of rationality, and to develop outdated skills in interacting with outdated machines. We need to help our children learn how to best work with smart computers to improve human decision-making. But most of all we need to keep the long-term perspective in mind: that even if computers will outsmart us, we can still be the most creative. Because if we aren't, we won't be providing much value in future ecosystems, and that may put in question the foundation for our existence.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is rational."
+        },
+        {
+          "id": "B",
+          "text": "It is predictable."
+        },
+        {
+          "id": "C",
+          "text": "It is human specific."
+        },
+        {
+          "id": "D",
+          "text": "It is yet to be emulated by AI."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：It is yet to be emulated by AI.\n关键词检索定位到第 3 段的候选相关句：So far, machines have a pretty hard time emulating creativity, arbitrary enough not to be predicted by a computer, and yet more than simple randomness.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-3-nonlistening-q54",
+      "canonicalId": "lazynote-cet6-2019-06-3-q54",
+      "number": 54,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What should schools help children do in the era of AI?",
+      "passage": "In a few decades, artificial intelligence (AI) will surpass many of the abilities that we believe make us special. This is a grand challenge for our age and it may require an \"irrational\" response.\n\nOne of the most significant pieces of news from the US in early 2017 was the efforts of Google to make autonomous driving a reality. According to a report, Google's self-driving cars clocked 1,023,330 km, and required human intervention 124 times. That is one intervention about every 8,047 km of autonomous driving. But even more impressive is the progress in just a single year: human interventions fell from 0.8 times per thousand miles to 0.2, a 400% improvement. With such progress, Google's cars will easily surpass my own driving ability later this year.\n\nDriving once seemed to be a very human skill. But we said that about chess, too. Then a computer beat the human world champion, repeatedly. The board game Go(围棋) took over from chess as a new test for human thinking in 2016, when a computer beat one of the world's leading professional Go players. With computers conquering what used to be deeply human tasks, what will it mean in the future to be human? I worry about my six-year-old son. What will his place be in a world where machines beat us in one area after another? He'll never calculate faster, never drive better, or even fly more safely. Actually, it all comes down to a fairly simple question: What's so special about us? It can't be skills like arithmetic, which machines already excel in. So far, machines have a pretty hard time emulating creativity, arbitrary enough not to be predicted by a computer, and yet more than simple randomness.\n\nPerhaps, if we continue to improve information-processing machines, we'll soon have helpful rational assistants. So we must aim to complement the rationality of the machine, rather than to compete with it. If I'm right, we should foster a creative spirit because a dose of illogical creativity will complement the rationality of the machine. Unfortunately, however, our education system has not caught up to the approaching reality. Indeed, our schools and universities are structured to mould pupils to be mostly obedient servants of rationality, and to develop outdated skills in interacting with outdated machines. We need to help our children learn how to best work with smart computers to improve human decision-making. But most of all we need to keep the long-term perspective in mind: that even if computers will outsmart us, we can still be the most creative. Because if we aren't, we won't be providing much value in future ecosystems, and that may put in question the foundation for our existence.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cultivate original thinking."
+        },
+        {
+          "id": "B",
+          "text": "Learn to work independently."
+        },
+        {
+          "id": "C",
+          "text": "Compete with smart machines."
+        },
+        {
+          "id": "D",
+          "text": "Understand how AI works."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：Cultivate original thinking.\n关键词检索定位到第 4 段的候选相关句：We need to help our children learn how to best work with smart computers to improve human decision-making.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-3-nonlistening-q55",
+      "canonicalId": "lazynote-cet6-2019-06-3-q55",
+      "number": 55,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "How can we humans justify our future existence?",
+      "passage": "In a few decades, artificial intelligence (AI) will surpass many of the abilities that we believe make us special. This is a grand challenge for our age and it may require an \"irrational\" response.\n\nOne of the most significant pieces of news from the US in early 2017 was the efforts of Google to make autonomous driving a reality. According to a report, Google's self-driving cars clocked 1,023,330 km, and required human intervention 124 times. That is one intervention about every 8,047 km of autonomous driving. But even more impressive is the progress in just a single year: human interventions fell from 0.8 times per thousand miles to 0.2, a 400% improvement. With such progress, Google's cars will easily surpass my own driving ability later this year.\n\nDriving once seemed to be a very human skill. But we said that about chess, too. Then a computer beat the human world champion, repeatedly. The board game Go(围棋) took over from chess as a new test for human thinking in 2016, when a computer beat one of the world's leading professional Go players. With computers conquering what used to be deeply human tasks, what will it mean in the future to be human? I worry about my six-year-old son. What will his place be in a world where machines beat us in one area after another? He'll never calculate faster, never drive better, or even fly more safely. Actually, it all comes down to a fairly simple question: What's so special about us? It can't be skills like arithmetic, which machines already excel in. So far, machines have a pretty hard time emulating creativity, arbitrary enough not to be predicted by a computer, and yet more than simple randomness.\n\nPerhaps, if we continue to improve information-processing machines, we'll soon have helpful rational assistants. So we must aim to complement the rationality of the machine, rather than to compete with it. If I'm right, we should foster a creative spirit because a dose of illogical creativity will complement the rationality of the machine. Unfortunately, however, our education system has not caught up to the approaching reality. Indeed, our schools and universities are structured to mould pupils to be mostly obedient servants of rationality, and to develop outdated skills in interacting with outdated machines. We need to help our children learn how to best work with smart computers to improve human decision-making. But most of all we need to keep the long-term perspective in mind: that even if computers will outsmart us, we can still be the most creative. Because if we aren't, we won't be providing much value in future ecosystems, and that may put in question the foundation for our existence.",
+      "options": [
+        {
+          "id": "A",
+          "text": "By constantly outsmarting computers."
+        },
+        {
+          "id": "B",
+          "text": "By adopting a long-term perspective."
+        },
+        {
+          "id": "C",
+          "text": "By rationally compromising with AI."
+        },
+        {
+          "id": "D",
+          "text": "By providing value with our creativity."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：By providing value with our creativity.\n关键词检索定位到第 4 段的候选相关句：Because if we aren't, we won't be providing much value in future ecosystems, and that may put in question the foundation for our existence.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    },
+    {
+      "id": "cet6-2019-06-3-nonlistening-translation",
+      "number": "IV",
+      "level": "CET6",
+      "type": "short_text_self_check",
+      "skill": "translation",
+      "section": "translation",
+      "prompt": "Directions : For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2 .\n\n汉语现在是世界上用作本族语人数最多的语言。汉语与西方语言的一个重要区别在于它是以方块字(character)而不是以字母构成的。目前仍在使用的书写系统中，汉语是最古老的。在中国，来自不同地区的人可能听不懂对方的方言，但由于汉子有统一的书写形式，他们交流起来几乎没有任何困难。汉语历史上对团结中华民族发挥了重要作用。今天，随着中国经济的快速增长和全球影响力的增强，越来越多其他国家的人也开始学习汉语。",
+      "options": [],
+      "correctAnswer": "Chinese now has more native speakers than any other language in the world. An important difference between Chinese and Western languages is that it is written with characters rather than letters. Of the writing systems still in use, Chinese is the oldest. People from different regions of China may not understand one another's dialects, but they have hardly any difficulty communicating in writing because Chinese characters have a uniform written form. Chinese has played an important role in uniting the Chinese nation throughout history. Today, with China's rapid economic growth and increasing global influence, more and more people in other countries are beginning to learn Chinese.",
+      "referenceAnswer": "Chinese now has more native speakers than any other language in the world. An important difference between Chinese and Western languages is that it is written with characters rather than letters. Of the writing systems still in use, Chinese is the oldest. People from different regions of China may not understand one another's dialects, but they have hardly any difficulty communicating in writing because Chinese characters have a uniform written form. Chinese has played an important role in uniting the Chinese nation throughout history. Today, with China's rapid economic growth and increasing global influence, more and more people in other countries are beginning to learn Chinese.",
+      "hint": "本族语用native speakers；区分汉字与字母，强调统一书写促进交流。",
+      "explanation": "以下为原创参考译文，准确的同义表达也可接受。more…than any other…表达人数最多；Of the writing systems still in use限定最古老的比较范围。题面“汉子”据上下文按“汉字”理解，原题及哈希不改；communicating in writing说明统一书写的交流方式，不能推出口语方言完全互通。",
+      "rubric": [
+        "信息：逐句核对人物、地点、数字、时间、因果和并列信息，避免漏译或增译。",
+        "表达：本族语用native speakers；区分汉字与字母，强调统一书写促进交流。",
+        "语法：检查时态、语态、主谓一致、冠词与单复数，长句按英语逻辑合理拆分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2019-06-3-nonlistening"
+    }
+  ]
+}

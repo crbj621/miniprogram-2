@@ -40,6 +40,7 @@
 
 .avatar-box {
   position: relative;
+  flex-shrink: 0;
   margin-right: 24rpx;
 }
 
@@ -71,6 +72,7 @@
 
 .user-detail {
   flex: 1;
+  min-width: 0;
   padding-top: 50rpx;
 }
 
@@ -81,12 +83,15 @@
 }
 
 .nickname {
+  min-width: 0;
+  word-break: break-all;
   font-size: 40rpx;
   font-weight: 700;
   color: #1a1a1a;
 }
 
 .edit-badge {
+  flex-shrink: 0;
   font-size: 20rpx;
   color: #ff9a9e;
   background: rgba(255, 154, 158, 0.1);
@@ -180,11 +185,13 @@
 
 .stat-item {
   flex: 1;
+  min-width: 0;
   text-align: center;
 }
 
 .stat-num {
   display: block;
+  word-break: break-all;
   font-size: 44rpx;
   font-weight: 700;
   color: #ff9a9e;
@@ -239,6 +246,7 @@
 }
 
 .menu-icon-wrap {
+  flex-shrink: 0;
   width: 80rpx;
   height: 80rpx;
   border-radius: 20rpx;
@@ -255,6 +263,8 @@
 
 .menu-content {
   flex: 1;
+  min-width: 0;
+  word-break: break-all;
 }
 
 .menu-title {
@@ -294,12 +304,15 @@
 .modal-box {
   width: 85%;
   max-height: 70vh;
+  display: flex;
+  flex-direction: column;
   background: #ffffff;
   border-radius: 32rpx;
   overflow: hidden;
 }
 
 .modal-header {
+  flex-shrink: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -347,6 +360,8 @@
 
 .search-box {
   display: flex;
+  align-items: center;
+  flex-shrink: 0;
   gap: 16rpx;
   margin-bottom: 20rpx;
 }
@@ -362,7 +377,8 @@
 
 .search-btn {
   width: 140rpx;
-  height: 80rpx;
+  height: 88rpx;
+  flex-shrink: 0;
   background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
   border-radius: 16rpx;
   display: flex;
@@ -373,8 +389,13 @@
 }
 
 .results-scroll {
-  max-height: 400rpx;
+  height: 400rpx;
+  min-height: 0;
+  flex-shrink: 1;
 }
+
+.search-modal-body { min-height: 0; display: flex; flex-direction: column; }
+.search-modal-body .search-tabs { flex-shrink: 0; }
 
 .result-item {
   display: flex;
@@ -386,6 +407,7 @@
 }
 
 .result-avatar {
+  flex-shrink: 0;
   width: 80rpx;
   height: 80rpx;
   border-radius: 50%;
@@ -394,6 +416,8 @@
 
 .result-info {
   flex: 1;
+  min-width: 0;
+  word-break: break-all;
 }
 
 .result-name {
@@ -411,6 +435,7 @@
 }
 
 .result-action {
+  flex-shrink: 0;
   padding: 12rpx 32rpx;
   background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
   border-radius: 30rpx;

@@ -1,5 +1,6 @@
+import { withSharing } from '../../../utils/page-share'
 import { api } from '../../../utils/api-client'
-Page({
+Page(withSharing({
   data: {
     shopId: '',
     logs: [] as any[],
@@ -39,4 +40,4 @@ Page({
       this.setData({ loading: false })
     }
   }
-})
+}))

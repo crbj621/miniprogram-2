@@ -1,10 +1,14 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <mahiro-scroll id="page-refresh" class="page-refresh-scroll" bindrefresh="refreshPage">
 <view class="page" wx:if="{{stall}}">
   <image wx:if="{{stall.image}}" class="cover" src="{{stall.image}}" mode="aspectFill" bindtap="preview"></image><view wx:else class="cover placeholder">🍽</view>
-  <view class="info"><text class="title">{{stall.name}}</text><text class="location">📍 {{stall.location}}</text><text class="desc">{{stall.description}}</text><view class="meta"><text>{{stall.reviewCount ? stall.score + ' 分' : '暂无评分'}}</text><text>{{stall.dishCount}} 道菜 · {{stall.reviewCount}} 条评价</text></view></view>
+  <view class="info"><text class="title">{{stall.name}}</text><text class="location">📍 {{stall.location}}</text><text class="desc">{{stall.description}}</text><view class="meta"><text>{{stall.count ? stall.score + ' 分' : '暂无评分'}}</text><text>{{stall.dishCount}} 道菜 · {{stall.count}} 份评分 · {{stall.reviewCount}} 条评论</text></view><view class="contribute-actions"><button class="tech-control" data-kind="photo" bindtap="contribute">📷 给档口补实拍</button><button class="tech-control" data-kind="dish" bindtap="contribute">＋ 补充菜品</button></view></view>
+  <view wx:if="{{photos.length}}" class="photo-section"><text class="photo-heading">档口投稿图片 · {{photos.length}} 张</text><view class="stall-photo-grid"><view wx:for="{{photos}}" wx:key="_id" class="stall-photo"><image src="{{item.image}}" mode="aspectFill" data-image="{{item.image}}" bindtap="previewPhoto" /><text>{{item.nickname}} {{item.isCover ? '· 当前封面' : ''}}</text></view></view></view>
   <view class="heading">菜品逐个看</view>
-  <view class="dish" wx:for="{{dishes}}" wx:key="_id" data-id="{{item._id}}" bindtap="goDish" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"><image wx:if="{{item.image}}" src="{{item.image}}" mode="aspectFill"></image><view wx:else class="thumb-placeholder">🍚</view><view class="copy"><text class="name">{{item.name}}</text><text class="description">{{item.description}}</text><text class="score">{{item.count ? item.score + ' 分 · ' + item.count + ' 条评价' : '暂无评分，来打第一分'}} <text wx:if="{{item.verdict}}">{{item.verdict}}</text></text></view><text class="arrow">›</text></view>
+  <view class="dish" wx:for="{{dishes}}" wx:key="_id" data-id="{{item._id}}" bindtap="goDish" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"><image wx:if="{{item.image}}" src="{{item.image}}" mode="aspectFill"></image><view wx:else class="thumb-placeholder">🍚</view><view class="copy"><text class="name">{{item.name}}</text><text class="description">{{item.description}}</text><text class="score">{{item.count ? item.score + ' 分 · ' + item.count + ' 人评分' : '暂无评分，来打第一分'}} <text wx:if="{{item.verdict}}">{{item.verdict}}</text></text></view><text class="arrow">›</text></view>
   <view wx:if="{{!dishes.length}}" class="empty">这个档口还没有发布菜品</view>
 </view>
 
 </mahiro-scroll>
+
+</block>

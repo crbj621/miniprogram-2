@@ -1,0 +1,13 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
+<view class="tasks-page" style="{{theme.style}}">
+  <view class="hero"><text class="kicker">CAMPUS · DAILY TASKS</text><text class="title">每日任务与金币 ✨</text><text class="muted">学习、跑步与校园互动，共用一个金币钱包。</text></view>
+  <view wx:if="{{error}}" class="error">{{error}}<button class="action tech-control" bindtap="loadRewards" disabled="{{loading || saving || claiming}}">重新加载</button></view><view wx:if="{{loading && !rewards}}" class="card muted">正在同步任务与金币…</view>
+  <block wx:if="{{rewards}}">
+    <view class="card"><text class="card-title">{{rewards.date}} · 我的钱包</text><view class="wallet"><view><text class="wallet-number">{{rewards.coins}}</text><text class="muted">可用金币</text></view><view><text class="wallet-number">{{rewards.earnedToday}}</text><text class="muted">今日校园任务所得</text></view></view><button class="action tech-control tech-primary" bindtap="claimRewards" loading="{{claiming}}" disabled="{{loading || saving || claiming}}">同步进度并领取已完成奖励</button><text wx:if="{{savedNote}}" class="notice">{{savedNote}}</text></view>
+    <view class="card"><text class="card-title">我的每日跑步目标 🏃</text><text class="muted">今日目标 {{rewards.runGoalKm}} 公里；累计服务器认可的GPS跑步距离，达标即可领取任务金币。</text><text class="field-label">每日公里数（0.5—20，保留一位小数）</text><input class="tech-input" type="digit" value="{{goalKm}}" bindinput="inputGoal" adjust-position="{{true}}" cursor-spacing="24" maxlength="5" /><text wx:if="{{rewards.runGoalFrozen}}" class="notice">今天已有有效跑步记录，新目标从次日生效。</text><text wx:if="{{rewards.pendingRunGoal}}" class="notice">待生效：{{rewards.pendingRunGoal.appliesOn}}起，每日 {{rewards.pendingRunGoal.goalKm}} 公里。</text><button class="action tech-control" bindtap="saveGoal" loading="{{saving}}" disabled="{{loading || saving || claiming}}">保存每日跑步目标</button></view>
+    <view wx:for="{{tasks}}" wx:key="id" class="card"><view class="task-heading"><text class="card-title">{{item.label}}</text><text class="reward">+{{item.reward}} 金币</text></view><text class="task-progress">{{item.progress}} / {{item.target}} {{item.unit}}</text><text class="muted">{{item.statusText}} · 今日已获 {{item.earned || 0}} 金币</text><button wx:if="{{item.path}}" class="action tech-control {{item.available ? 'tech-primary' : ''}}" data-id="{{item.id}}" bindtap="openTask" disabled="{{!item.available}}">{{item.available ? '去完成任务' : '模块暂未开放'}}</button></view>
+    <view class="notice">任务奖励金额以各项标注为准。评价或评论、有效晒图每日各结算首次；同一人给同一条评论点赞只结算一次，获赞上限见任务进度。</view><button class="action tech-control" bindtap="openWardrobe">打开衣橱与主题</button>
+  </block>
+</view>
+
+</block>

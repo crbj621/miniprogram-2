@@ -1,13 +1,15 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="container">
   <view class="login-heading"><campus-sticker kind="forum" /><text class="welcome">校园管理控制台</text><text class="welcome-note">CAMPUS / CONTROL CENTER</text></view>
   <view class="login-card tech-card">
     <text class="title">管理员登录</text><text class="subtitle">模块开关、档口与评价管理</text>
     <view class="form">
-      <view class="field"><text class="label">管理员账号</text><input type="text" class="input tech-input" placeholder="请输入账号" value="{{username}}" bindinput="onUsernameInput" disabled="{{loading}}" placeholder-style="color:#8597ad" /></view>
-      <view class="field"><text class="label">登录密码</text><input type="text" password class="input tech-input" placeholder="请输入密码" value="{{password}}" bindinput="onPasswordInput" bindconfirm="onLogin" confirm-type="done" disabled="{{loading}}" placeholder-style="color:#8597ad" /></view>
+      <view class="field"><text class="label">管理员账号</text><input adjust-position="{{true}}" cursor-spacing="24" type="text" class="input tech-input" placeholder="请输入账号" value="{{username}}" bindinput="onUsernameInput" disabled="{{loading}}" placeholder-style="color:#8597ad" /></view>
+      <view class="field"><text class="label">登录密码</text><input adjust-position="{{true}}" cursor-spacing="24" type="text" password class="input tech-input" placeholder="请输入密码" value="{{password}}" bindinput="onPasswordInput" bindconfirm="onLogin" confirm-type="done" disabled="{{loading}}" placeholder-style="color:#8597ad" /></view>
       <view class="error" wx:if="{{error}}">{{error}}</view>
       <button class="login-btn uiverse-sweep uiverse-sweep--tint tech-control tech-primary" bindtap="onLogin" loading="{{loading}}" disabled="{{loading}}" hover-class="uiverse-sweep-pressed tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"><view class="uiverse-sweep-plane" />{{loading ? '正在登录…' : '进入管理台'}}</button>
     </view>
   </view>
   <text class="footer">使用统一的服务器管理员账号</text>
 </view>
+</block>

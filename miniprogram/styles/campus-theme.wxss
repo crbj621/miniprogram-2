@@ -1,0 +1,13 @@
+/* Purchased themes recolor selected surfaces; page backgrounds and images stay page-owned. */
+.campus-theme.campus-theme-enabled .tech-control { color:var(--campus-theme-accent) !important; background:var(--campus-theme-soft) !important; border-color:var(--campus-theme-line) !important; }
+.campus-theme.campus-theme-enabled .tech-control.tech-primary,.campus-theme.campus-theme-enabled .tech-control.active,.campus-theme.campus-theme-enabled .tech-control.selected { background:var(--campus-theme-button) !important; }
+.campus-theme.campus-theme-enabled .tech-control.tech-danger { color:#aa5c78 !important; background:#fff1f6 !important; border-color:#e6b5cb !important; }
+.campus-theme.campus-theme-enabled .tech-card,.campus-theme.campus-theme-enabled .run-sheet { border-color:var(--campus-theme-line) !important; }
+.campus-theme.campus-theme-enabled .campus-theme-surface,.campus-theme.campus-theme-enabled .tech-card.campus-theme-surface { background:linear-gradient(145deg,rgba(255,255,255,.76),var(--campus-theme-tint)) !important; }
+.campus-theme.campus-theme-enabled .campus-title,.campus-theme.campus-theme-enabled .hud-title { color:var(--campus-theme-accent); }
+.campus-theme.campus-theme-enabled .category-select,.campus-theme.campus-theme-enabled .category-menu { border-color:var(--campus-theme-line); }
+.campus-theme.campus-theme-enabled .category-select { background:var(--campus-theme-button); }
+.campus-theme.campus-theme-enabled .category-select-value,.campus-theme.campus-theme-enabled .category-check { color:var(--campus-theme-accent); }
+.campus-theme.campus-theme-enabled .category-option.is-selected { background:var(--campus-theme-soft); color:var(--campus-theme-accent); }
+.campus-theme-decoration { display:inline-block; margin-left:10rpx; font-size:28rpx; font-weight:400; color:var(--campus-theme-accent); pointer-events:none; }
+.campus-theme-profile-decoration { position:absolute; right:24rpx; top:18rpx; z-index:2; font-size:44rpx; }

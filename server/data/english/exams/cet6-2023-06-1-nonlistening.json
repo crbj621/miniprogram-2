@@ -1,0 +1,2025 @@
+{
+  "schemaVersion": 1,
+  "status": "verified_structured",
+  "source": {
+    "id": "cet6-2023-06-1-nonlistening",
+    "textCollection": "https://english-exam.lazynote.cn",
+    "textUrl": "https://english-exam.lazynote.cn/cet6/paper/2023-06-1/",
+    "textSha256": "2fe694796f198568bac56677d0fe1344393495af3b2740ac59a2e1ffbdfdce3d",
+    "answerSources": [
+      {
+        "section": "part3-section-a",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2023-06-1/part3-section-a/",
+        "sha256": "098c94267b4215ff961e494982cb9a5220fd6402508659b6642cfb297d6c4682"
+      },
+      {
+        "section": "part3-section-b",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2023-06-1/part3-section-b/",
+        "sha256": "f005e638f1a958e86f7136ebeb3c3808b799320673dd8761027b7dfc9bbaf186"
+      },
+      {
+        "section": "part3-section-c-1",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2023-06-1/part3-section-c-1/",
+        "sha256": "29d632d50164ce04a1b43c61f498229a808cac5ae32014a24a665bb8218678ae"
+      },
+      {
+        "section": "part3-section-c-2",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2023-06-1/part3-section-c-2/",
+        "sha256": "9b629bd7637b1e39357ab6d7f8236b068929152791fd38a1ca14840ed0b3ff4f"
+      }
+    ],
+    "rightsUrl": "https://english-exam.lazynote.cn",
+    "rights": "Source footer attributes original papers to the National College English Test Committee. Original materials retain their respective rights; no blanket source license is asserted. Commercial explanatory prose is not copied.",
+    "sourceRightsNotice": "© 2026 懒笔记 · 蜀ICP备2024049450号-1 · 川公网安备51019002006323号 · 增值电信业务经营许可证：川B2-20240301 · 真题版权归全国硕士研究生招生考试 / 全国大学英语四六级考试委员会所有 · 隐私政策 · 用户协议",
+    "sourceTermsUrl": "https://english-exam.lazynote.cn/terms/",
+    "reviewedAt": "2026-10-03",
+    "answerStatus": "public_reference_structural_consistency_verified",
+    "explanations": "Project-generated contextual evidence notes. Close-reading locations are keyword-search candidates, not manually verified detailed explanations.",
+    "referenceEssays": "Project-authored full reference examples bound to the original prompts; not official model answers.",
+    "materialSources": [],
+    "corrections": [],
+    "previousReviewedAnswerSources": [],
+    "sourceEdition": "lazynote public original-paper arrangement; set numbering can differ from other collections.",
+    "independentlyConfirmedSharedSource": "",
+    "readingSourceCorrection": null,
+    "sectionSourceReplacement": null,
+    "independentAnswerChecks": [],
+    "sharedSectionSource": {}
+  },
+  "papers": [
+    {
+      "id": "cet6-2023-06-1-nonlistening",
+      "level": "CET6",
+      "year": 2023,
+      "month": 6,
+      "set": 1,
+      "title": "2023年6月英语六级第1套真题（不含听力）",
+      "authenticity": "past_exam",
+      "questionIds": [
+        "cet6-2023-06-1-nonlistening-writing",
+        "cet6-2023-06-1-nonlistening-q26",
+        "cet6-2023-06-1-nonlistening-q27",
+        "cet6-2023-06-1-nonlistening-q28",
+        "cet6-2023-06-1-nonlistening-q29",
+        "cet6-2023-06-1-nonlistening-q30",
+        "cet6-2023-06-1-nonlistening-q31",
+        "cet6-2023-06-1-nonlistening-q32",
+        "cet6-2023-06-1-nonlistening-q33",
+        "cet6-2023-06-1-nonlistening-q34",
+        "cet6-2023-06-1-nonlistening-q35",
+        "cet6-2023-06-1-nonlistening-q36",
+        "cet6-2023-06-1-nonlistening-q37",
+        "cet6-2023-06-1-nonlistening-q38",
+        "cet6-2023-06-1-nonlistening-q39",
+        "cet6-2023-06-1-nonlistening-q40",
+        "cet6-2023-06-1-nonlistening-q41",
+        "cet6-2023-06-1-nonlistening-q42",
+        "cet6-2023-06-1-nonlistening-q43",
+        "cet6-2023-06-1-nonlistening-q44",
+        "cet6-2023-06-1-nonlistening-q45",
+        "cet6-2023-06-1-nonlistening-q46",
+        "cet6-2023-06-1-nonlistening-q47",
+        "cet6-2023-06-1-nonlistening-q48",
+        "cet6-2023-06-1-nonlistening-q49",
+        "cet6-2023-06-1-nonlistening-q50",
+        "cet6-2023-06-1-nonlistening-q51",
+        "cet6-2023-06-1-nonlistening-q52",
+        "cet6-2023-06-1-nonlistening-q53",
+        "cet6-2023-06-1-nonlistening-q54",
+        "cet6-2023-06-1-nonlistening-q55",
+        "cet6-2023-06-1-nonlistening-translation"
+      ],
+      "durationSeconds": 6000,
+      "description": "写作1题、阅读30题、翻译1题，不含听力。客观题答案与题面、选项完成结构一致性核对。",
+      "sourceId": "cet6-2023-06-1-nonlistening",
+      "coverage": {
+        "fullPaper": false,
+        "fullNonListening": true,
+        "listeningExcluded": true,
+        "objectiveNumbers": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "objectiveCount": 30,
+        "subjectiveCount": 2,
+        "sections": [
+          "writing",
+          "reading_word_bank",
+          "reading_matching",
+          "reading_comprehension",
+          "translation"
+        ],
+        "sharedSectionSource": {},
+        "note": "写作1题、阅读30题、翻译1题，不含听力。",
+        "independentlyConfirmedSharedSource": "",
+        "readingSourceCorrection": null,
+        "sectionSourceReplacement": null,
+        "referenceStatus": "project_authored"
+      },
+      "resources": [
+        {
+          "id": "cet6-2023-06-1-nonlistening-source",
+          "type": "web",
+          "title": "原卷来源与题面核对",
+          "url": "https://english-exam.lazynote.cn/cet6/paper/2023-06-1/"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cet6-2023-06-1-nonlistening-writing",
+      "number": "I",
+      "level": "CET6",
+      "type": "short_text_self_check",
+      "skill": "writing",
+      "section": "writing",
+      "prompt": "Directions: For this part, you are allowed 30 minutes to write an essay that begins with the sentence \"Today there is a growing awareness that mental well-being needs to be given as much attention as physical health.\" You can make comments, cite examples or use your personal experiences to develop your essay. You should write at least 150 words but no more than 200 words",
+      "options": [],
+      "correctAnswer": "Today there is a growing awareness that mental well-being needs to be given as much attention as physical health. Emotional difficulties can affect learning, relationships and daily routines, so caring for the mind should be part of an ordinary healthy life.\n\nFor college students, pressure may come from examinations, financial concerns or uncertainty about the future. Ignoring these feelings does not necessarily make them disappear. Regular sleep, physical activity and conversations with trusted people can provide useful support. In my experience, discussing an overwhelming assignment with a classmate helped me divide it into manageable steps and regain confidence. Universities also have a responsibility to make counseling accessible and explain how students can seek help. Such services are more effective when people understand that asking for support is a reasonable response to difficulty.\n\nWe should avoid judging others by outward calm or treating emotional struggles as a personal failure. By noticing problems early and supporting appropriate help, families, schools and individuals can protect mental wellbeing alongside physical health and create a more caring environment for everyone.",
+      "referenceAnswer": "Today there is a growing awareness that mental well-being needs to be given as much attention as physical health. Emotional difficulties can affect learning, relationships and daily routines, so caring for the mind should be part of an ordinary healthy life.\n\nFor college students, pressure may come from examinations, financial concerns or uncertainty about the future. Ignoring these feelings does not necessarily make them disappear. Regular sleep, physical activity and conversations with trusted people can provide useful support. In my experience, discussing an overwhelming assignment with a classmate helped me divide it into manageable steps and regain confidence. Universities also have a responsibility to make counseling accessible and explain how students can seek help. Such services are more effective when people understand that asking for support is a reasonable response to difficulty.\n\nWe should avoid judging others by outward calm or treating emotional struggles as a personal failure. By noticing problems early and supporting appropriate help, families, schools and individuals can protect mental wellbeing alongside physical health and create a more caring environment for everyone.",
+      "hint": "保留首句，把心理健康同身体健康并重，结合压力情境与支持措施。",
+      "explanation": "以下为按本题要求独立写成的原创参考范文，作文没有唯一答案。主体从考试压力等来源到睡眠、运动、沟通和学校咨询服务，形成可操作论证；示例经历是写作设定。mental well-being保留首句题面拼写，不擅自把心理健康等同永远开心。",
+      "rubric": [
+        "任务：保留首句，把心理健康同身体健康并重，结合压力情境与支持措施。",
+        "论证：明确中心观点，用原因、具体例子或经历展开；结尾回应主题。",
+        "语言：检查主谓一致、时态、搭配和段落衔接；全文控制在150–200词。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2023-06-1-nonlistening-q26",
+      "canonicalId": "lazynote-cet6-2023-06-1-q26",
+      "number": 26,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 26 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Scientists recently examined studies on dog intelligence and compared them with research into the minds of other intelligent animals. The researchers found that dogs are among the more intelligent carnivores(食肉动物), social hunters and domestic animals, but that their intelligence does not [26] ____ other intelligent animals in any of those categories. Though a significant body of research has examined dog cognition [27] ____ , the authors of this new study found little to warrant the [28] ____ of work that has been devoted to the topic.\n\nStephen Lea, lead author of the new study, argues that many researchers seem to have designed their studies to [29] ____ how clever dogs are, rather than simply to study dogs' brains. Lea and a colleague examined more than 300 studies of dog cognition, comparing the studies' results with those from research into other animals. The researchers made specific comparisons between the different species in different categories of intelligence. These comparisons [30] ____ that dogs are intelligent, but their intelligence is not as [31] ____ as some researchers might have believed.\n\nIn many areas, though, comparisons were not possible. For example, the researchers noted that both dogs and cats are known to be able to recognize and [32] ____ human voices. But the investigators could not find any data to indicate which species can remember a greater number of [33] ____ human voices, so it was impossible to compare the two on that front. However, not all researchers agree [34] ____ with the findings of this study. Zachary Silver, an American researcher, believes the authors of the new study [35] ____ the idea that an excessive amount of research has been devoted to dogs, as the field of dog cognition is young, and there is much to be learned about how dogs think.",
+      "options": [
+        {
+          "id": "A",
+          "text": "affirmed"
+        },
+        {
+          "id": "B",
+          "text": "approximately"
+        },
+        {
+          "id": "C",
+          "text": "completely"
+        },
+        {
+          "id": "D",
+          "text": "differentiate"
+        },
+        {
+          "id": "E",
+          "text": "distinct"
+        },
+        {
+          "id": "F",
+          "text": "domain"
+        },
+        {
+          "id": "G",
+          "text": "formidable"
+        },
+        {
+          "id": "H",
+          "text": "outperformed"
+        },
+        {
+          "id": "I",
+          "text": "overstated"
+        },
+        {
+          "id": "J",
+          "text": "pledge"
+        },
+        {
+          "id": "K",
+          "text": "previously"
+        },
+        {
+          "id": "L",
+          "text": "prospective"
+        },
+        {
+          "id": "M",
+          "text": "prove"
+        },
+        {
+          "id": "N",
+          "text": "surpass"
+        },
+        {
+          "id": "O",
+          "text": "volume"
+        }
+      ],
+      "correctAnswer": "N",
+      "hint": "先看第 26 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 N（surpass）。本空所在句：The researchers found that dogs are among the more intelligent carnivores(食肉动物), social hunters and domestic animals, but that their intelligence does not [26] ____ other intelligent animals in any of those categories.\n将本空替换为 surpass 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2023-06-1-nonlistening-q27",
+      "canonicalId": "lazynote-cet6-2023-06-1-q27",
+      "number": 27,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 27 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Scientists recently examined studies on dog intelligence and compared them with research into the minds of other intelligent animals. The researchers found that dogs are among the more intelligent carnivores(食肉动物), social hunters and domestic animals, but that their intelligence does not [26] ____ other intelligent animals in any of those categories. Though a significant body of research has examined dog cognition [27] ____ , the authors of this new study found little to warrant the [28] ____ of work that has been devoted to the topic.\n\nStephen Lea, lead author of the new study, argues that many researchers seem to have designed their studies to [29] ____ how clever dogs are, rather than simply to study dogs' brains. Lea and a colleague examined more than 300 studies of dog cognition, comparing the studies' results with those from research into other animals. The researchers made specific comparisons between the different species in different categories of intelligence. These comparisons [30] ____ that dogs are intelligent, but their intelligence is not as [31] ____ as some researchers might have believed.\n\nIn many areas, though, comparisons were not possible. For example, the researchers noted that both dogs and cats are known to be able to recognize and [32] ____ human voices. But the investigators could not find any data to indicate which species can remember a greater number of [33] ____ human voices, so it was impossible to compare the two on that front. However, not all researchers agree [34] ____ with the findings of this study. Zachary Silver, an American researcher, believes the authors of the new study [35] ____ the idea that an excessive amount of research has been devoted to dogs, as the field of dog cognition is young, and there is much to be learned about how dogs think.",
+      "options": [
+        {
+          "id": "A",
+          "text": "affirmed"
+        },
+        {
+          "id": "B",
+          "text": "approximately"
+        },
+        {
+          "id": "C",
+          "text": "completely"
+        },
+        {
+          "id": "D",
+          "text": "differentiate"
+        },
+        {
+          "id": "E",
+          "text": "distinct"
+        },
+        {
+          "id": "F",
+          "text": "domain"
+        },
+        {
+          "id": "G",
+          "text": "formidable"
+        },
+        {
+          "id": "H",
+          "text": "outperformed"
+        },
+        {
+          "id": "I",
+          "text": "overstated"
+        },
+        {
+          "id": "J",
+          "text": "pledge"
+        },
+        {
+          "id": "K",
+          "text": "previously"
+        },
+        {
+          "id": "L",
+          "text": "prospective"
+        },
+        {
+          "id": "M",
+          "text": "prove"
+        },
+        {
+          "id": "N",
+          "text": "surpass"
+        },
+        {
+          "id": "O",
+          "text": "volume"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "先看第 27 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 K（previously）。本空所在句：Though a significant body of research has examined dog cognition [27] ____ , the authors of this new study found little to warrant the [28] ____ of work that has been devoted to the topic.\n将本空替换为 previously 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2023-06-1-nonlistening-q28",
+      "canonicalId": "lazynote-cet6-2023-06-1-q28",
+      "number": 28,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 28 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Scientists recently examined studies on dog intelligence and compared them with research into the minds of other intelligent animals. The researchers found that dogs are among the more intelligent carnivores(食肉动物), social hunters and domestic animals, but that their intelligence does not [26] ____ other intelligent animals in any of those categories. Though a significant body of research has examined dog cognition [27] ____ , the authors of this new study found little to warrant the [28] ____ of work that has been devoted to the topic.\n\nStephen Lea, lead author of the new study, argues that many researchers seem to have designed their studies to [29] ____ how clever dogs are, rather than simply to study dogs' brains. Lea and a colleague examined more than 300 studies of dog cognition, comparing the studies' results with those from research into other animals. The researchers made specific comparisons between the different species in different categories of intelligence. These comparisons [30] ____ that dogs are intelligent, but their intelligence is not as [31] ____ as some researchers might have believed.\n\nIn many areas, though, comparisons were not possible. For example, the researchers noted that both dogs and cats are known to be able to recognize and [32] ____ human voices. But the investigators could not find any data to indicate which species can remember a greater number of [33] ____ human voices, so it was impossible to compare the two on that front. However, not all researchers agree [34] ____ with the findings of this study. Zachary Silver, an American researcher, believes the authors of the new study [35] ____ the idea that an excessive amount of research has been devoted to dogs, as the field of dog cognition is young, and there is much to be learned about how dogs think.",
+      "options": [
+        {
+          "id": "A",
+          "text": "affirmed"
+        },
+        {
+          "id": "B",
+          "text": "approximately"
+        },
+        {
+          "id": "C",
+          "text": "completely"
+        },
+        {
+          "id": "D",
+          "text": "differentiate"
+        },
+        {
+          "id": "E",
+          "text": "distinct"
+        },
+        {
+          "id": "F",
+          "text": "domain"
+        },
+        {
+          "id": "G",
+          "text": "formidable"
+        },
+        {
+          "id": "H",
+          "text": "outperformed"
+        },
+        {
+          "id": "I",
+          "text": "overstated"
+        },
+        {
+          "id": "J",
+          "text": "pledge"
+        },
+        {
+          "id": "K",
+          "text": "previously"
+        },
+        {
+          "id": "L",
+          "text": "prospective"
+        },
+        {
+          "id": "M",
+          "text": "prove"
+        },
+        {
+          "id": "N",
+          "text": "surpass"
+        },
+        {
+          "id": "O",
+          "text": "volume"
+        }
+      ],
+      "correctAnswer": "O",
+      "hint": "先看第 28 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 O（volume）。本空所在句：Though a significant body of research has examined dog cognition [27] ____ , the authors of this new study found little to warrant the [28] ____ of work that has been devoted to the topic.\n将本空替换为 volume 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2023-06-1-nonlistening-q29",
+      "canonicalId": "lazynote-cet6-2023-06-1-q29",
+      "number": 29,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 29 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Scientists recently examined studies on dog intelligence and compared them with research into the minds of other intelligent animals. The researchers found that dogs are among the more intelligent carnivores(食肉动物), social hunters and domestic animals, but that their intelligence does not [26] ____ other intelligent animals in any of those categories. Though a significant body of research has examined dog cognition [27] ____ , the authors of this new study found little to warrant the [28] ____ of work that has been devoted to the topic.\n\nStephen Lea, lead author of the new study, argues that many researchers seem to have designed their studies to [29] ____ how clever dogs are, rather than simply to study dogs' brains. Lea and a colleague examined more than 300 studies of dog cognition, comparing the studies' results with those from research into other animals. The researchers made specific comparisons between the different species in different categories of intelligence. These comparisons [30] ____ that dogs are intelligent, but their intelligence is not as [31] ____ as some researchers might have believed.\n\nIn many areas, though, comparisons were not possible. For example, the researchers noted that both dogs and cats are known to be able to recognize and [32] ____ human voices. But the investigators could not find any data to indicate which species can remember a greater number of [33] ____ human voices, so it was impossible to compare the two on that front. However, not all researchers agree [34] ____ with the findings of this study. Zachary Silver, an American researcher, believes the authors of the new study [35] ____ the idea that an excessive amount of research has been devoted to dogs, as the field of dog cognition is young, and there is much to be learned about how dogs think.",
+      "options": [
+        {
+          "id": "A",
+          "text": "affirmed"
+        },
+        {
+          "id": "B",
+          "text": "approximately"
+        },
+        {
+          "id": "C",
+          "text": "completely"
+        },
+        {
+          "id": "D",
+          "text": "differentiate"
+        },
+        {
+          "id": "E",
+          "text": "distinct"
+        },
+        {
+          "id": "F",
+          "text": "domain"
+        },
+        {
+          "id": "G",
+          "text": "formidable"
+        },
+        {
+          "id": "H",
+          "text": "outperformed"
+        },
+        {
+          "id": "I",
+          "text": "overstated"
+        },
+        {
+          "id": "J",
+          "text": "pledge"
+        },
+        {
+          "id": "K",
+          "text": "previously"
+        },
+        {
+          "id": "L",
+          "text": "prospective"
+        },
+        {
+          "id": "M",
+          "text": "prove"
+        },
+        {
+          "id": "N",
+          "text": "surpass"
+        },
+        {
+          "id": "O",
+          "text": "volume"
+        }
+      ],
+      "correctAnswer": "M",
+      "hint": "先看第 29 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 M（prove）。本空所在句：Stephen Lea, lead author of the new study, argues that many researchers seem to have designed their studies to [29] ____ how clever dogs are, rather than simply to study dogs' brains.\n将本空替换为 prove 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2023-06-1-nonlistening-q30",
+      "canonicalId": "lazynote-cet6-2023-06-1-q30",
+      "number": 30,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 30 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Scientists recently examined studies on dog intelligence and compared them with research into the minds of other intelligent animals. The researchers found that dogs are among the more intelligent carnivores(食肉动物), social hunters and domestic animals, but that their intelligence does not [26] ____ other intelligent animals in any of those categories. Though a significant body of research has examined dog cognition [27] ____ , the authors of this new study found little to warrant the [28] ____ of work that has been devoted to the topic.\n\nStephen Lea, lead author of the new study, argues that many researchers seem to have designed their studies to [29] ____ how clever dogs are, rather than simply to study dogs' brains. Lea and a colleague examined more than 300 studies of dog cognition, comparing the studies' results with those from research into other animals. The researchers made specific comparisons between the different species in different categories of intelligence. These comparisons [30] ____ that dogs are intelligent, but their intelligence is not as [31] ____ as some researchers might have believed.\n\nIn many areas, though, comparisons were not possible. For example, the researchers noted that both dogs and cats are known to be able to recognize and [32] ____ human voices. But the investigators could not find any data to indicate which species can remember a greater number of [33] ____ human voices, so it was impossible to compare the two on that front. However, not all researchers agree [34] ____ with the findings of this study. Zachary Silver, an American researcher, believes the authors of the new study [35] ____ the idea that an excessive amount of research has been devoted to dogs, as the field of dog cognition is young, and there is much to be learned about how dogs think.",
+      "options": [
+        {
+          "id": "A",
+          "text": "affirmed"
+        },
+        {
+          "id": "B",
+          "text": "approximately"
+        },
+        {
+          "id": "C",
+          "text": "completely"
+        },
+        {
+          "id": "D",
+          "text": "differentiate"
+        },
+        {
+          "id": "E",
+          "text": "distinct"
+        },
+        {
+          "id": "F",
+          "text": "domain"
+        },
+        {
+          "id": "G",
+          "text": "formidable"
+        },
+        {
+          "id": "H",
+          "text": "outperformed"
+        },
+        {
+          "id": "I",
+          "text": "overstated"
+        },
+        {
+          "id": "J",
+          "text": "pledge"
+        },
+        {
+          "id": "K",
+          "text": "previously"
+        },
+        {
+          "id": "L",
+          "text": "prospective"
+        },
+        {
+          "id": "M",
+          "text": "prove"
+        },
+        {
+          "id": "N",
+          "text": "surpass"
+        },
+        {
+          "id": "O",
+          "text": "volume"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "先看第 30 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 A（affirmed）。本空所在句：These comparisons [30] ____ that dogs are intelligent, but their intelligence is not as [31] ____ as some researchers might have believed.\n将本空替换为 affirmed 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2023-06-1-nonlistening-q31",
+      "canonicalId": "lazynote-cet6-2023-06-1-q31",
+      "number": 31,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 31 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Scientists recently examined studies on dog intelligence and compared them with research into the minds of other intelligent animals. The researchers found that dogs are among the more intelligent carnivores(食肉动物), social hunters and domestic animals, but that their intelligence does not [26] ____ other intelligent animals in any of those categories. Though a significant body of research has examined dog cognition [27] ____ , the authors of this new study found little to warrant the [28] ____ of work that has been devoted to the topic.\n\nStephen Lea, lead author of the new study, argues that many researchers seem to have designed their studies to [29] ____ how clever dogs are, rather than simply to study dogs' brains. Lea and a colleague examined more than 300 studies of dog cognition, comparing the studies' results with those from research into other animals. The researchers made specific comparisons between the different species in different categories of intelligence. These comparisons [30] ____ that dogs are intelligent, but their intelligence is not as [31] ____ as some researchers might have believed.\n\nIn many areas, though, comparisons were not possible. For example, the researchers noted that both dogs and cats are known to be able to recognize and [32] ____ human voices. But the investigators could not find any data to indicate which species can remember a greater number of [33] ____ human voices, so it was impossible to compare the two on that front. However, not all researchers agree [34] ____ with the findings of this study. Zachary Silver, an American researcher, believes the authors of the new study [35] ____ the idea that an excessive amount of research has been devoted to dogs, as the field of dog cognition is young, and there is much to be learned about how dogs think.",
+      "options": [
+        {
+          "id": "A",
+          "text": "affirmed"
+        },
+        {
+          "id": "B",
+          "text": "approximately"
+        },
+        {
+          "id": "C",
+          "text": "completely"
+        },
+        {
+          "id": "D",
+          "text": "differentiate"
+        },
+        {
+          "id": "E",
+          "text": "distinct"
+        },
+        {
+          "id": "F",
+          "text": "domain"
+        },
+        {
+          "id": "G",
+          "text": "formidable"
+        },
+        {
+          "id": "H",
+          "text": "outperformed"
+        },
+        {
+          "id": "I",
+          "text": "overstated"
+        },
+        {
+          "id": "J",
+          "text": "pledge"
+        },
+        {
+          "id": "K",
+          "text": "previously"
+        },
+        {
+          "id": "L",
+          "text": "prospective"
+        },
+        {
+          "id": "M",
+          "text": "prove"
+        },
+        {
+          "id": "N",
+          "text": "surpass"
+        },
+        {
+          "id": "O",
+          "text": "volume"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "先看第 31 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 G（formidable）。本空所在句：These comparisons [30] ____ that dogs are intelligent, but their intelligence is not as [31] ____ as some researchers might have believed.\n将本空替换为 formidable 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2023-06-1-nonlistening-q32",
+      "canonicalId": "lazynote-cet6-2023-06-1-q32",
+      "number": 32,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 32 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Scientists recently examined studies on dog intelligence and compared them with research into the minds of other intelligent animals. The researchers found that dogs are among the more intelligent carnivores(食肉动物), social hunters and domestic animals, but that their intelligence does not [26] ____ other intelligent animals in any of those categories. Though a significant body of research has examined dog cognition [27] ____ , the authors of this new study found little to warrant the [28] ____ of work that has been devoted to the topic.\n\nStephen Lea, lead author of the new study, argues that many researchers seem to have designed their studies to [29] ____ how clever dogs are, rather than simply to study dogs' brains. Lea and a colleague examined more than 300 studies of dog cognition, comparing the studies' results with those from research into other animals. The researchers made specific comparisons between the different species in different categories of intelligence. These comparisons [30] ____ that dogs are intelligent, but their intelligence is not as [31] ____ as some researchers might have believed.\n\nIn many areas, though, comparisons were not possible. For example, the researchers noted that both dogs and cats are known to be able to recognize and [32] ____ human voices. But the investigators could not find any data to indicate which species can remember a greater number of [33] ____ human voices, so it was impossible to compare the two on that front. However, not all researchers agree [34] ____ with the findings of this study. Zachary Silver, an American researcher, believes the authors of the new study [35] ____ the idea that an excessive amount of research has been devoted to dogs, as the field of dog cognition is young, and there is much to be learned about how dogs think.",
+      "options": [
+        {
+          "id": "A",
+          "text": "affirmed"
+        },
+        {
+          "id": "B",
+          "text": "approximately"
+        },
+        {
+          "id": "C",
+          "text": "completely"
+        },
+        {
+          "id": "D",
+          "text": "differentiate"
+        },
+        {
+          "id": "E",
+          "text": "distinct"
+        },
+        {
+          "id": "F",
+          "text": "domain"
+        },
+        {
+          "id": "G",
+          "text": "formidable"
+        },
+        {
+          "id": "H",
+          "text": "outperformed"
+        },
+        {
+          "id": "I",
+          "text": "overstated"
+        },
+        {
+          "id": "J",
+          "text": "pledge"
+        },
+        {
+          "id": "K",
+          "text": "previously"
+        },
+        {
+          "id": "L",
+          "text": "prospective"
+        },
+        {
+          "id": "M",
+          "text": "prove"
+        },
+        {
+          "id": "N",
+          "text": "surpass"
+        },
+        {
+          "id": "O",
+          "text": "volume"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "先看第 32 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 D（differentiate）。本空所在句：For example, the researchers noted that both dogs and cats are known to be able to recognize and [32] ____ human voices.\n将本空替换为 differentiate 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2023-06-1-nonlistening-q33",
+      "canonicalId": "lazynote-cet6-2023-06-1-q33",
+      "number": 33,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 33 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Scientists recently examined studies on dog intelligence and compared them with research into the minds of other intelligent animals. The researchers found that dogs are among the more intelligent carnivores(食肉动物), social hunters and domestic animals, but that their intelligence does not [26] ____ other intelligent animals in any of those categories. Though a significant body of research has examined dog cognition [27] ____ , the authors of this new study found little to warrant the [28] ____ of work that has been devoted to the topic.\n\nStephen Lea, lead author of the new study, argues that many researchers seem to have designed their studies to [29] ____ how clever dogs are, rather than simply to study dogs' brains. Lea and a colleague examined more than 300 studies of dog cognition, comparing the studies' results with those from research into other animals. The researchers made specific comparisons between the different species in different categories of intelligence. These comparisons [30] ____ that dogs are intelligent, but their intelligence is not as [31] ____ as some researchers might have believed.\n\nIn many areas, though, comparisons were not possible. For example, the researchers noted that both dogs and cats are known to be able to recognize and [32] ____ human voices. But the investigators could not find any data to indicate which species can remember a greater number of [33] ____ human voices, so it was impossible to compare the two on that front. However, not all researchers agree [34] ____ with the findings of this study. Zachary Silver, an American researcher, believes the authors of the new study [35] ____ the idea that an excessive amount of research has been devoted to dogs, as the field of dog cognition is young, and there is much to be learned about how dogs think.",
+      "options": [
+        {
+          "id": "A",
+          "text": "affirmed"
+        },
+        {
+          "id": "B",
+          "text": "approximately"
+        },
+        {
+          "id": "C",
+          "text": "completely"
+        },
+        {
+          "id": "D",
+          "text": "differentiate"
+        },
+        {
+          "id": "E",
+          "text": "distinct"
+        },
+        {
+          "id": "F",
+          "text": "domain"
+        },
+        {
+          "id": "G",
+          "text": "formidable"
+        },
+        {
+          "id": "H",
+          "text": "outperformed"
+        },
+        {
+          "id": "I",
+          "text": "overstated"
+        },
+        {
+          "id": "J",
+          "text": "pledge"
+        },
+        {
+          "id": "K",
+          "text": "previously"
+        },
+        {
+          "id": "L",
+          "text": "prospective"
+        },
+        {
+          "id": "M",
+          "text": "prove"
+        },
+        {
+          "id": "N",
+          "text": "surpass"
+        },
+        {
+          "id": "O",
+          "text": "volume"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "先看第 33 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 E（distinct）。本空所在句：But the investigators could not find any data to indicate which species can remember a greater number of [33] ____ human voices, so it was impossible to compare the two on that front.\n将本空替换为 distinct 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2023-06-1-nonlistening-q34",
+      "canonicalId": "lazynote-cet6-2023-06-1-q34",
+      "number": 34,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 34 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Scientists recently examined studies on dog intelligence and compared them with research into the minds of other intelligent animals. The researchers found that dogs are among the more intelligent carnivores(食肉动物), social hunters and domestic animals, but that their intelligence does not [26] ____ other intelligent animals in any of those categories. Though a significant body of research has examined dog cognition [27] ____ , the authors of this new study found little to warrant the [28] ____ of work that has been devoted to the topic.\n\nStephen Lea, lead author of the new study, argues that many researchers seem to have designed their studies to [29] ____ how clever dogs are, rather than simply to study dogs' brains. Lea and a colleague examined more than 300 studies of dog cognition, comparing the studies' results with those from research into other animals. The researchers made specific comparisons between the different species in different categories of intelligence. These comparisons [30] ____ that dogs are intelligent, but their intelligence is not as [31] ____ as some researchers might have believed.\n\nIn many areas, though, comparisons were not possible. For example, the researchers noted that both dogs and cats are known to be able to recognize and [32] ____ human voices. But the investigators could not find any data to indicate which species can remember a greater number of [33] ____ human voices, so it was impossible to compare the two on that front. However, not all researchers agree [34] ____ with the findings of this study. Zachary Silver, an American researcher, believes the authors of the new study [35] ____ the idea that an excessive amount of research has been devoted to dogs, as the field of dog cognition is young, and there is much to be learned about how dogs think.",
+      "options": [
+        {
+          "id": "A",
+          "text": "affirmed"
+        },
+        {
+          "id": "B",
+          "text": "approximately"
+        },
+        {
+          "id": "C",
+          "text": "completely"
+        },
+        {
+          "id": "D",
+          "text": "differentiate"
+        },
+        {
+          "id": "E",
+          "text": "distinct"
+        },
+        {
+          "id": "F",
+          "text": "domain"
+        },
+        {
+          "id": "G",
+          "text": "formidable"
+        },
+        {
+          "id": "H",
+          "text": "outperformed"
+        },
+        {
+          "id": "I",
+          "text": "overstated"
+        },
+        {
+          "id": "J",
+          "text": "pledge"
+        },
+        {
+          "id": "K",
+          "text": "previously"
+        },
+        {
+          "id": "L",
+          "text": "prospective"
+        },
+        {
+          "id": "M",
+          "text": "prove"
+        },
+        {
+          "id": "N",
+          "text": "surpass"
+        },
+        {
+          "id": "O",
+          "text": "volume"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "先看第 34 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 C（completely）。本空所在句：However, not all researchers agree [34] ____ with the findings of this study.\n将本空替换为 completely 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2023-06-1-nonlistening-q35",
+      "canonicalId": "lazynote-cet6-2023-06-1-q35",
+      "number": 35,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 35 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "Scientists recently examined studies on dog intelligence and compared them with research into the minds of other intelligent animals. The researchers found that dogs are among the more intelligent carnivores(食肉动物), social hunters and domestic animals, but that their intelligence does not [26] ____ other intelligent animals in any of those categories. Though a significant body of research has examined dog cognition [27] ____ , the authors of this new study found little to warrant the [28] ____ of work that has been devoted to the topic.\n\nStephen Lea, lead author of the new study, argues that many researchers seem to have designed their studies to [29] ____ how clever dogs are, rather than simply to study dogs' brains. Lea and a colleague examined more than 300 studies of dog cognition, comparing the studies' results with those from research into other animals. The researchers made specific comparisons between the different species in different categories of intelligence. These comparisons [30] ____ that dogs are intelligent, but their intelligence is not as [31] ____ as some researchers might have believed.\n\nIn many areas, though, comparisons were not possible. For example, the researchers noted that both dogs and cats are known to be able to recognize and [32] ____ human voices. But the investigators could not find any data to indicate which species can remember a greater number of [33] ____ human voices, so it was impossible to compare the two on that front. However, not all researchers agree [34] ____ with the findings of this study. Zachary Silver, an American researcher, believes the authors of the new study [35] ____ the idea that an excessive amount of research has been devoted to dogs, as the field of dog cognition is young, and there is much to be learned about how dogs think.",
+      "options": [
+        {
+          "id": "A",
+          "text": "affirmed"
+        },
+        {
+          "id": "B",
+          "text": "approximately"
+        },
+        {
+          "id": "C",
+          "text": "completely"
+        },
+        {
+          "id": "D",
+          "text": "differentiate"
+        },
+        {
+          "id": "E",
+          "text": "distinct"
+        },
+        {
+          "id": "F",
+          "text": "domain"
+        },
+        {
+          "id": "G",
+          "text": "formidable"
+        },
+        {
+          "id": "H",
+          "text": "outperformed"
+        },
+        {
+          "id": "I",
+          "text": "overstated"
+        },
+        {
+          "id": "J",
+          "text": "pledge"
+        },
+        {
+          "id": "K",
+          "text": "previously"
+        },
+        {
+          "id": "L",
+          "text": "prospective"
+        },
+        {
+          "id": "M",
+          "text": "prove"
+        },
+        {
+          "id": "N",
+          "text": "surpass"
+        },
+        {
+          "id": "O",
+          "text": "volume"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "先看第 35 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 I（overstated）。本空所在句：Zachary Silver, an American researcher, believes the authors of the new study [35] ____ the idea that an excessive amount of research has been devoted to dogs, as the field of dog cognition is young, and there is much to be learned about how dogs think.\n将本空替换为 overstated 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2023-06-1-nonlistening-q36",
+      "canonicalId": "lazynote-cet6-2023-06-1-q36",
+      "number": 36,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "It does us far more good to focus on things we can be grateful for than what makes us sad and resentful.",
+      "passage": "The lifesaving power of gratitude\n\nA) Gratitude may be more beneficial than we commonly suppose. One recent study asked participants to write a note of thanks to someone and then estimate how surprised and happy the recipient would feel—an impact that they consistently underestimated. Another study assessed the health benefits of writing thank-you notes. The researchers found that writing as few as three weekly thank-you notes over the course of three weeks improved life satisfaction, increased happy feelings and reduced symptoms of depression.\n\nB) While this research into gratitude is relatively new, the principles involved are anything but. Students of mine in a political philosophy course at Indiana University are reading Daniel Defoe's 300-year-old Robinson Crusoe, often regarded as the first novel published in English. Left alone on an unknown island with no apparent prospect of rescue or escape, Crusoe has much to lament(悲叹). But instead of giving in to despair, he makes a list of things for which he is grateful, including the fact that he is the sole survivor from the shipwreck(海难) and has been able to salvage many useful items from the wreckage.\n\nC) Defoe's masterpiece, which is often ranked as one of the world's greatest novels, provides a portrait of gratitude in action that is as timely and relevant today as it has ever been. It is also one with which contemporary psychology and medicine are just beginning to catch up. Simply put, for most of us, it is far more helpful to focus on the things in life for which we can express gratitude than those that incline us toward resentment and lamentation.\n\nD) When we focus on the things we regret, such as failed relationships, family disputes, and setbacks in career and finance, we tend to become more regretful. Conversely, when we focus on the things we are grateful for, a greater sense of happiness tends to spread through our lives. And while no one would argue for cultivating a false sense of blessedness, there is mounting evidence that counting our blessings is one of the best habits we can develop to promote mental and physical health.\n\nE) Gratitude has long enjoyed a privileged position in many of the world's cultural traditions. For example, some ancient Western philosophers counsel gratitude that is both enduring and complete, and some Eastern thinkers portray it as not merely an attitude but a virtue to be put into practice.\n\nF) Recent scientific studies support these ancient teachings. Individuals who regularly engage in gratitude exercises, such as counting their blessings or expressing gratitude to others, exhibit increased satisfaction with relationships and fewer symptoms of physical illness. And the benefits are not only psychological and physical. They may also be moral—those who practice gratitude also view their lives less materialistically and suffer from less envy.\n\nG) There are multiple explanations for such benefits of gratefulness. One is the fact that expressing gratitude encourages others to continue being generous, thus promoting a virtuous cycle of goodness in relationships. Similarly, grateful people may be more likely to reciprocate(回报) with acts of kindness of their own. Broadly speaking, a community in which people feel grateful to one another is likely to be a more pleasant place to live than one characterized by mutual suspicion and resentment. The beneficial effects of gratitude may extend even further. For example, when many people feel good about what someone else has done for them, they experience a sense of being lifted up, with a corresponding enhancement of their regard for humanity. Some are inspired to attempt to become better people themselves, doing more to help bring out the best in others and bringing more goodness into the world around them.\n\nH) Gratitude also tends to strengthen a sense of connection with others. When people want to do good things that inspire gratitude, the level of dedication in relationships tends to grow and relationships seem to last longer. And when people feel more connected, they are more likely to choose to spend their time with one another and demonstrate their feelings of affection in daily acts.\n\nI) Of course, acts of kindness can also foster discomfort. For example, if people feel they are not worthy of kindness or suspect that some ulterior(别有用心的) motive lies behind it, the benefits of gratitude will not be realized. Likewise, receiving a kindness can give rise to a sense of indebtedness, leaving beneficiaries feeling that they must now pay back whatever good they have received. Gratitude can flourish only if people are secure enough in themselves and sufficiently trusting to allow it to do so. Another obstacle to gratitude is often called a sense of entitlement. Instead of experiencing a benefaction(善行) as a good turn, people sometimes regard it as a mere payment of what they are owed, for which no one deserves any moral credit.\n\nJ) There are a number of practical steps anyone can take to promote a sense of gratitude. One is simply spending time on a regular basis thinking about someone who has made a difference, or perhaps writing a thank-you note or expressing such gratitude in person. Others are found in ancient religious disciplines, such as reflecting on benefactions received from another person or actually praying for the health and happiness of a benefactor. In addition to benefactions received, it is also possible to focus on opportunities to do good oneself, whether those acted on in the past or hoped for in the future. Some people are most grateful not for what others have done for them but for chances they enjoyed to help others. In regularly reflecting on the things in his life he is grateful for, Defoe's Crusoe believes that he becomes a far better person than he would have been had he remained in the society from which he originally set out on his voyage.\n\nK) Reflecting on generosity and gratitude, the great basketball coach John Wooden once offered two counsels to his players and students. First, he said, \"It is impossible to have a perfect day unless you have done something for someone who will never be able to repay you.\" In saying this, Wooden sought to promote purely generous acts, as opposed to those performed with an expectation of reward. Second, he said, \"Give thanks for your blessings every day.\"\n\nL) Some faith traditions incorporate such practices into the rhythm of daily life. For example, adherents of some religions offer prayers of thanksgiving every morning before rising and every night before lying down to sleep. Others offer thanks throughout the day, such as before meals. Other less frequent special events, such as births, deaths and marriages, may also be heralded by such prayers.\n\nM) When Defoe depicted Robinson Crusoe making thanksgiving a daily part of his island life, he was anticipating findings in social science and medicine that would not appear for hundreds of years. Yet he was also reflecting the wisdom of religious and philosophical traditions that extend back thousands of years. Gratitude is one of the healthiest and most nourishing of all states of mind, and those who adopt it as a habit are enriching not only their own lives but also the lives of those around them.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 C 段。题干：It does us far more good to focus on things we can be grateful for than what makes us sad and resentful.\n核对该段原文：Defoe's masterpiece, which is often ranked as one of the world's greatest novels, provides a portrait of gratitude in action that is as timely and relevant today as it has ever been. It is also one with which contemporary psychology and medicine are just beginning to catch up. Simply put, for most of us, it is far more helpful to focus on the things in life for which we can express gratitude than those that incline us toward resentment and lamentation.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2023-06-1-nonlistening-q37",
+      "canonicalId": "lazynote-cet6-2023-06-1-q37",
+      "number": 37,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The beneficial impacts of gratitude can extend from individuals to their community and to the wider society.",
+      "passage": "The lifesaving power of gratitude\n\nA) Gratitude may be more beneficial than we commonly suppose. One recent study asked participants to write a note of thanks to someone and then estimate how surprised and happy the recipient would feel—an impact that they consistently underestimated. Another study assessed the health benefits of writing thank-you notes. The researchers found that writing as few as three weekly thank-you notes over the course of three weeks improved life satisfaction, increased happy feelings and reduced symptoms of depression.\n\nB) While this research into gratitude is relatively new, the principles involved are anything but. Students of mine in a political philosophy course at Indiana University are reading Daniel Defoe's 300-year-old Robinson Crusoe, often regarded as the first novel published in English. Left alone on an unknown island with no apparent prospect of rescue or escape, Crusoe has much to lament(悲叹). But instead of giving in to despair, he makes a list of things for which he is grateful, including the fact that he is the sole survivor from the shipwreck(海难) and has been able to salvage many useful items from the wreckage.\n\nC) Defoe's masterpiece, which is often ranked as one of the world's greatest novels, provides a portrait of gratitude in action that is as timely and relevant today as it has ever been. It is also one with which contemporary psychology and medicine are just beginning to catch up. Simply put, for most of us, it is far more helpful to focus on the things in life for which we can express gratitude than those that incline us toward resentment and lamentation.\n\nD) When we focus on the things we regret, such as failed relationships, family disputes, and setbacks in career and finance, we tend to become more regretful. Conversely, when we focus on the things we are grateful for, a greater sense of happiness tends to spread through our lives. And while no one would argue for cultivating a false sense of blessedness, there is mounting evidence that counting our blessings is one of the best habits we can develop to promote mental and physical health.\n\nE) Gratitude has long enjoyed a privileged position in many of the world's cultural traditions. For example, some ancient Western philosophers counsel gratitude that is both enduring and complete, and some Eastern thinkers portray it as not merely an attitude but a virtue to be put into practice.\n\nF) Recent scientific studies support these ancient teachings. Individuals who regularly engage in gratitude exercises, such as counting their blessings or expressing gratitude to others, exhibit increased satisfaction with relationships and fewer symptoms of physical illness. And the benefits are not only psychological and physical. They may also be moral—those who practice gratitude also view their lives less materialistically and suffer from less envy.\n\nG) There are multiple explanations for such benefits of gratefulness. One is the fact that expressing gratitude encourages others to continue being generous, thus promoting a virtuous cycle of goodness in relationships. Similarly, grateful people may be more likely to reciprocate(回报) with acts of kindness of their own. Broadly speaking, a community in which people feel grateful to one another is likely to be a more pleasant place to live than one characterized by mutual suspicion and resentment. The beneficial effects of gratitude may extend even further. For example, when many people feel good about what someone else has done for them, they experience a sense of being lifted up, with a corresponding enhancement of their regard for humanity. Some are inspired to attempt to become better people themselves, doing more to help bring out the best in others and bringing more goodness into the world around them.\n\nH) Gratitude also tends to strengthen a sense of connection with others. When people want to do good things that inspire gratitude, the level of dedication in relationships tends to grow and relationships seem to last longer. And when people feel more connected, they are more likely to choose to spend their time with one another and demonstrate their feelings of affection in daily acts.\n\nI) Of course, acts of kindness can also foster discomfort. For example, if people feel they are not worthy of kindness or suspect that some ulterior(别有用心的) motive lies behind it, the benefits of gratitude will not be realized. Likewise, receiving a kindness can give rise to a sense of indebtedness, leaving beneficiaries feeling that they must now pay back whatever good they have received. Gratitude can flourish only if people are secure enough in themselves and sufficiently trusting to allow it to do so. Another obstacle to gratitude is often called a sense of entitlement. Instead of experiencing a benefaction(善行) as a good turn, people sometimes regard it as a mere payment of what they are owed, for which no one deserves any moral credit.\n\nJ) There are a number of practical steps anyone can take to promote a sense of gratitude. One is simply spending time on a regular basis thinking about someone who has made a difference, or perhaps writing a thank-you note or expressing such gratitude in person. Others are found in ancient religious disciplines, such as reflecting on benefactions received from another person or actually praying for the health and happiness of a benefactor. In addition to benefactions received, it is also possible to focus on opportunities to do good oneself, whether those acted on in the past or hoped for in the future. Some people are most grateful not for what others have done for them but for chances they enjoyed to help others. In regularly reflecting on the things in his life he is grateful for, Defoe's Crusoe believes that he becomes a far better person than he would have been had he remained in the society from which he originally set out on his voyage.\n\nK) Reflecting on generosity and gratitude, the great basketball coach John Wooden once offered two counsels to his players and students. First, he said, \"It is impossible to have a perfect day unless you have done something for someone who will never be able to repay you.\" In saying this, Wooden sought to promote purely generous acts, as opposed to those performed with an expectation of reward. Second, he said, \"Give thanks for your blessings every day.\"\n\nL) Some faith traditions incorporate such practices into the rhythm of daily life. For example, adherents of some religions offer prayers of thanksgiving every morning before rising and every night before lying down to sleep. Others offer thanks throughout the day, such as before meals. Other less frequent special events, such as births, deaths and marriages, may also be heralded by such prayers.\n\nM) When Defoe depicted Robinson Crusoe making thanksgiving a daily part of his island life, he was anticipating findings in social science and medicine that would not appear for hundreds of years. Yet he was also reflecting the wisdom of religious and philosophical traditions that extend back thousands of years. Gratitude is one of the healthiest and most nourishing of all states of mind, and those who adopt it as a habit are enriching not only their own lives but also the lives of those around them.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 G 段。题干：The beneficial impacts of gratitude can extend from individuals to their community and to the wider society.\n核对该段原文：There are multiple explanations for such benefits of gratefulness. One is the fact that expressing gratitude encourages others to continue being generous, thus promoting a virtuous cycle of goodness in relationships. Similarly, grateful people may be more likely to reciprocate(回报) with acts of kindness of their own. Broadly speaking, a community in which people feel grateful to one another is likely to be a more pleasant place to live than one characterized by mutual suspicion and resentment. The beneficial effects of gratitude may extend even further. For example, when many people feel good about what someone else has done for them, they experience a sense of being lifted up, with a corresponding enhancement of their regard for humanity. Some are inspired to attempt to become better people themselves, doing more to help bring out the best in others and bringing more goodness into the world around them.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2023-06-1-nonlistening-q38",
+      "canonicalId": "lazynote-cet6-2023-06-1-q38",
+      "number": 38,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The participants in a recent study repeatedly underestimated the positive effect on those who received thank-you notes.",
+      "passage": "The lifesaving power of gratitude\n\nA) Gratitude may be more beneficial than we commonly suppose. One recent study asked participants to write a note of thanks to someone and then estimate how surprised and happy the recipient would feel—an impact that they consistently underestimated. Another study assessed the health benefits of writing thank-you notes. The researchers found that writing as few as three weekly thank-you notes over the course of three weeks improved life satisfaction, increased happy feelings and reduced symptoms of depression.\n\nB) While this research into gratitude is relatively new, the principles involved are anything but. Students of mine in a political philosophy course at Indiana University are reading Daniel Defoe's 300-year-old Robinson Crusoe, often regarded as the first novel published in English. Left alone on an unknown island with no apparent prospect of rescue or escape, Crusoe has much to lament(悲叹). But instead of giving in to despair, he makes a list of things for which he is grateful, including the fact that he is the sole survivor from the shipwreck(海难) and has been able to salvage many useful items from the wreckage.\n\nC) Defoe's masterpiece, which is often ranked as one of the world's greatest novels, provides a portrait of gratitude in action that is as timely and relevant today as it has ever been. It is also one with which contemporary psychology and medicine are just beginning to catch up. Simply put, for most of us, it is far more helpful to focus on the things in life for which we can express gratitude than those that incline us toward resentment and lamentation.\n\nD) When we focus on the things we regret, such as failed relationships, family disputes, and setbacks in career and finance, we tend to become more regretful. Conversely, when we focus on the things we are grateful for, a greater sense of happiness tends to spread through our lives. And while no one would argue for cultivating a false sense of blessedness, there is mounting evidence that counting our blessings is one of the best habits we can develop to promote mental and physical health.\n\nE) Gratitude has long enjoyed a privileged position in many of the world's cultural traditions. For example, some ancient Western philosophers counsel gratitude that is both enduring and complete, and some Eastern thinkers portray it as not merely an attitude but a virtue to be put into practice.\n\nF) Recent scientific studies support these ancient teachings. Individuals who regularly engage in gratitude exercises, such as counting their blessings or expressing gratitude to others, exhibit increased satisfaction with relationships and fewer symptoms of physical illness. And the benefits are not only psychological and physical. They may also be moral—those who practice gratitude also view their lives less materialistically and suffer from less envy.\n\nG) There are multiple explanations for such benefits of gratefulness. One is the fact that expressing gratitude encourages others to continue being generous, thus promoting a virtuous cycle of goodness in relationships. Similarly, grateful people may be more likely to reciprocate(回报) with acts of kindness of their own. Broadly speaking, a community in which people feel grateful to one another is likely to be a more pleasant place to live than one characterized by mutual suspicion and resentment. The beneficial effects of gratitude may extend even further. For example, when many people feel good about what someone else has done for them, they experience a sense of being lifted up, with a corresponding enhancement of their regard for humanity. Some are inspired to attempt to become better people themselves, doing more to help bring out the best in others and bringing more goodness into the world around them.\n\nH) Gratitude also tends to strengthen a sense of connection with others. When people want to do good things that inspire gratitude, the level of dedication in relationships tends to grow and relationships seem to last longer. And when people feel more connected, they are more likely to choose to spend their time with one another and demonstrate their feelings of affection in daily acts.\n\nI) Of course, acts of kindness can also foster discomfort. For example, if people feel they are not worthy of kindness or suspect that some ulterior(别有用心的) motive lies behind it, the benefits of gratitude will not be realized. Likewise, receiving a kindness can give rise to a sense of indebtedness, leaving beneficiaries feeling that they must now pay back whatever good they have received. Gratitude can flourish only if people are secure enough in themselves and sufficiently trusting to allow it to do so. Another obstacle to gratitude is often called a sense of entitlement. Instead of experiencing a benefaction(善行) as a good turn, people sometimes regard it as a mere payment of what they are owed, for which no one deserves any moral credit.\n\nJ) There are a number of practical steps anyone can take to promote a sense of gratitude. One is simply spending time on a regular basis thinking about someone who has made a difference, or perhaps writing a thank-you note or expressing such gratitude in person. Others are found in ancient religious disciplines, such as reflecting on benefactions received from another person or actually praying for the health and happiness of a benefactor. In addition to benefactions received, it is also possible to focus on opportunities to do good oneself, whether those acted on in the past or hoped for in the future. Some people are most grateful not for what others have done for them but for chances they enjoyed to help others. In regularly reflecting on the things in his life he is grateful for, Defoe's Crusoe believes that he becomes a far better person than he would have been had he remained in the society from which he originally set out on his voyage.\n\nK) Reflecting on generosity and gratitude, the great basketball coach John Wooden once offered two counsels to his players and students. First, he said, \"It is impossible to have a perfect day unless you have done something for someone who will never be able to repay you.\" In saying this, Wooden sought to promote purely generous acts, as opposed to those performed with an expectation of reward. Second, he said, \"Give thanks for your blessings every day.\"\n\nL) Some faith traditions incorporate such practices into the rhythm of daily life. For example, adherents of some religions offer prayers of thanksgiving every morning before rising and every night before lying down to sleep. Others offer thanks throughout the day, such as before meals. Other less frequent special events, such as births, deaths and marriages, may also be heralded by such prayers.\n\nM) When Defoe depicted Robinson Crusoe making thanksgiving a daily part of his island life, he was anticipating findings in social science and medicine that would not appear for hundreds of years. Yet he was also reflecting the wisdom of religious and philosophical traditions that extend back thousands of years. Gratitude is one of the healthiest and most nourishing of all states of mind, and those who adopt it as a habit are enriching not only their own lives but also the lives of those around them.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 A 段。题干：The participants in a recent study repeatedly underestimated the positive effect on those who received thank-you notes.\n核对该段原文：Gratitude may be more beneficial than we commonly suppose. One recent study asked participants to write a note of thanks to someone and then estimate how surprised and happy the recipient would feel—an impact that they consistently underestimated. Another study assessed the health benefits of writing thank-you notes. The researchers found that writing as few as three weekly thank-you notes over the course of three weeks improved life satisfaction, increased happy feelings and reduced symptoms of depression.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2023-06-1-nonlistening-q39",
+      "canonicalId": "lazynote-cet6-2023-06-1-q39",
+      "number": 39,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Good deeds can sometimes make people feel uncomfortable.",
+      "passage": "The lifesaving power of gratitude\n\nA) Gratitude may be more beneficial than we commonly suppose. One recent study asked participants to write a note of thanks to someone and then estimate how surprised and happy the recipient would feel—an impact that they consistently underestimated. Another study assessed the health benefits of writing thank-you notes. The researchers found that writing as few as three weekly thank-you notes over the course of three weeks improved life satisfaction, increased happy feelings and reduced symptoms of depression.\n\nB) While this research into gratitude is relatively new, the principles involved are anything but. Students of mine in a political philosophy course at Indiana University are reading Daniel Defoe's 300-year-old Robinson Crusoe, often regarded as the first novel published in English. Left alone on an unknown island with no apparent prospect of rescue or escape, Crusoe has much to lament(悲叹). But instead of giving in to despair, he makes a list of things for which he is grateful, including the fact that he is the sole survivor from the shipwreck(海难) and has been able to salvage many useful items from the wreckage.\n\nC) Defoe's masterpiece, which is often ranked as one of the world's greatest novels, provides a portrait of gratitude in action that is as timely and relevant today as it has ever been. It is also one with which contemporary psychology and medicine are just beginning to catch up. Simply put, for most of us, it is far more helpful to focus on the things in life for which we can express gratitude than those that incline us toward resentment and lamentation.\n\nD) When we focus on the things we regret, such as failed relationships, family disputes, and setbacks in career and finance, we tend to become more regretful. Conversely, when we focus on the things we are grateful for, a greater sense of happiness tends to spread through our lives. And while no one would argue for cultivating a false sense of blessedness, there is mounting evidence that counting our blessings is one of the best habits we can develop to promote mental and physical health.\n\nE) Gratitude has long enjoyed a privileged position in many of the world's cultural traditions. For example, some ancient Western philosophers counsel gratitude that is both enduring and complete, and some Eastern thinkers portray it as not merely an attitude but a virtue to be put into practice.\n\nF) Recent scientific studies support these ancient teachings. Individuals who regularly engage in gratitude exercises, such as counting their blessings or expressing gratitude to others, exhibit increased satisfaction with relationships and fewer symptoms of physical illness. And the benefits are not only psychological and physical. They may also be moral—those who practice gratitude also view their lives less materialistically and suffer from less envy.\n\nG) There are multiple explanations for such benefits of gratefulness. One is the fact that expressing gratitude encourages others to continue being generous, thus promoting a virtuous cycle of goodness in relationships. Similarly, grateful people may be more likely to reciprocate(回报) with acts of kindness of their own. Broadly speaking, a community in which people feel grateful to one another is likely to be a more pleasant place to live than one characterized by mutual suspicion and resentment. The beneficial effects of gratitude may extend even further. For example, when many people feel good about what someone else has done for them, they experience a sense of being lifted up, with a corresponding enhancement of their regard for humanity. Some are inspired to attempt to become better people themselves, doing more to help bring out the best in others and bringing more goodness into the world around them.\n\nH) Gratitude also tends to strengthen a sense of connection with others. When people want to do good things that inspire gratitude, the level of dedication in relationships tends to grow and relationships seem to last longer. And when people feel more connected, they are more likely to choose to spend their time with one another and demonstrate their feelings of affection in daily acts.\n\nI) Of course, acts of kindness can also foster discomfort. For example, if people feel they are not worthy of kindness or suspect that some ulterior(别有用心的) motive lies behind it, the benefits of gratitude will not be realized. Likewise, receiving a kindness can give rise to a sense of indebtedness, leaving beneficiaries feeling that they must now pay back whatever good they have received. Gratitude can flourish only if people are secure enough in themselves and sufficiently trusting to allow it to do so. Another obstacle to gratitude is often called a sense of entitlement. Instead of experiencing a benefaction(善行) as a good turn, people sometimes regard it as a mere payment of what they are owed, for which no one deserves any moral credit.\n\nJ) There are a number of practical steps anyone can take to promote a sense of gratitude. One is simply spending time on a regular basis thinking about someone who has made a difference, or perhaps writing a thank-you note or expressing such gratitude in person. Others are found in ancient religious disciplines, such as reflecting on benefactions received from another person or actually praying for the health and happiness of a benefactor. In addition to benefactions received, it is also possible to focus on opportunities to do good oneself, whether those acted on in the past or hoped for in the future. Some people are most grateful not for what others have done for them but for chances they enjoyed to help others. In regularly reflecting on the things in his life he is grateful for, Defoe's Crusoe believes that he becomes a far better person than he would have been had he remained in the society from which he originally set out on his voyage.\n\nK) Reflecting on generosity and gratitude, the great basketball coach John Wooden once offered two counsels to his players and students. First, he said, \"It is impossible to have a perfect day unless you have done something for someone who will never be able to repay you.\" In saying this, Wooden sought to promote purely generous acts, as opposed to those performed with an expectation of reward. Second, he said, \"Give thanks for your blessings every day.\"\n\nL) Some faith traditions incorporate such practices into the rhythm of daily life. For example, adherents of some religions offer prayers of thanksgiving every morning before rising and every night before lying down to sleep. Others offer thanks throughout the day, such as before meals. Other less frequent special events, such as births, deaths and marriages, may also be heralded by such prayers.\n\nM) When Defoe depicted Robinson Crusoe making thanksgiving a daily part of his island life, he was anticipating findings in social science and medicine that would not appear for hundreds of years. Yet he was also reflecting the wisdom of religious and philosophical traditions that extend back thousands of years. Gratitude is one of the healthiest and most nourishing of all states of mind, and those who adopt it as a habit are enriching not only their own lives but also the lives of those around them.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 I 段。题干：Good deeds can sometimes make people feel uncomfortable.\n核对该段原文：Of course, acts of kindness can also foster discomfort. For example, if people feel they are not worthy of kindness or suspect that some ulterior(别有用心的) motive lies behind it, the benefits of gratitude will not be realized. Likewise, receiving a kindness can give rise to a sense of indebtedness, leaving beneficiaries feeling that they must now pay back whatever good they have received. Gratitude can flourish only if people are secure enough in themselves and sufficiently trusting to allow it to do so. Another obstacle to gratitude is often called a sense of entitlement. Instead of experiencing a benefaction(善行) as a good turn, people sometimes regard it as a mere payment of what they are owed, for which no one deserves any moral credit.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2023-06-1-nonlistening-q40",
+      "canonicalId": "lazynote-cet6-2023-06-1-q40",
+      "number": 40,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "People who regularly express gratitude can benefit in moral terms.",
+      "passage": "The lifesaving power of gratitude\n\nA) Gratitude may be more beneficial than we commonly suppose. One recent study asked participants to write a note of thanks to someone and then estimate how surprised and happy the recipient would feel—an impact that they consistently underestimated. Another study assessed the health benefits of writing thank-you notes. The researchers found that writing as few as three weekly thank-you notes over the course of three weeks improved life satisfaction, increased happy feelings and reduced symptoms of depression.\n\nB) While this research into gratitude is relatively new, the principles involved are anything but. Students of mine in a political philosophy course at Indiana University are reading Daniel Defoe's 300-year-old Robinson Crusoe, often regarded as the first novel published in English. Left alone on an unknown island with no apparent prospect of rescue or escape, Crusoe has much to lament(悲叹). But instead of giving in to despair, he makes a list of things for which he is grateful, including the fact that he is the sole survivor from the shipwreck(海难) and has been able to salvage many useful items from the wreckage.\n\nC) Defoe's masterpiece, which is often ranked as one of the world's greatest novels, provides a portrait of gratitude in action that is as timely and relevant today as it has ever been. It is also one with which contemporary psychology and medicine are just beginning to catch up. Simply put, for most of us, it is far more helpful to focus on the things in life for which we can express gratitude than those that incline us toward resentment and lamentation.\n\nD) When we focus on the things we regret, such as failed relationships, family disputes, and setbacks in career and finance, we tend to become more regretful. Conversely, when we focus on the things we are grateful for, a greater sense of happiness tends to spread through our lives. And while no one would argue for cultivating a false sense of blessedness, there is mounting evidence that counting our blessings is one of the best habits we can develop to promote mental and physical health.\n\nE) Gratitude has long enjoyed a privileged position in many of the world's cultural traditions. For example, some ancient Western philosophers counsel gratitude that is both enduring and complete, and some Eastern thinkers portray it as not merely an attitude but a virtue to be put into practice.\n\nF) Recent scientific studies support these ancient teachings. Individuals who regularly engage in gratitude exercises, such as counting their blessings or expressing gratitude to others, exhibit increased satisfaction with relationships and fewer symptoms of physical illness. And the benefits are not only psychological and physical. They may also be moral—those who practice gratitude also view their lives less materialistically and suffer from less envy.\n\nG) There are multiple explanations for such benefits of gratefulness. One is the fact that expressing gratitude encourages others to continue being generous, thus promoting a virtuous cycle of goodness in relationships. Similarly, grateful people may be more likely to reciprocate(回报) with acts of kindness of their own. Broadly speaking, a community in which people feel grateful to one another is likely to be a more pleasant place to live than one characterized by mutual suspicion and resentment. The beneficial effects of gratitude may extend even further. For example, when many people feel good about what someone else has done for them, they experience a sense of being lifted up, with a corresponding enhancement of their regard for humanity. Some are inspired to attempt to become better people themselves, doing more to help bring out the best in others and bringing more goodness into the world around them.\n\nH) Gratitude also tends to strengthen a sense of connection with others. When people want to do good things that inspire gratitude, the level of dedication in relationships tends to grow and relationships seem to last longer. And when people feel more connected, they are more likely to choose to spend their time with one another and demonstrate their feelings of affection in daily acts.\n\nI) Of course, acts of kindness can also foster discomfort. For example, if people feel they are not worthy of kindness or suspect that some ulterior(别有用心的) motive lies behind it, the benefits of gratitude will not be realized. Likewise, receiving a kindness can give rise to a sense of indebtedness, leaving beneficiaries feeling that they must now pay back whatever good they have received. Gratitude can flourish only if people are secure enough in themselves and sufficiently trusting to allow it to do so. Another obstacle to gratitude is often called a sense of entitlement. Instead of experiencing a benefaction(善行) as a good turn, people sometimes regard it as a mere payment of what they are owed, for which no one deserves any moral credit.\n\nJ) There are a number of practical steps anyone can take to promote a sense of gratitude. One is simply spending time on a regular basis thinking about someone who has made a difference, or perhaps writing a thank-you note or expressing such gratitude in person. Others are found in ancient religious disciplines, such as reflecting on benefactions received from another person or actually praying for the health and happiness of a benefactor. In addition to benefactions received, it is also possible to focus on opportunities to do good oneself, whether those acted on in the past or hoped for in the future. Some people are most grateful not for what others have done for them but for chances they enjoyed to help others. In regularly reflecting on the things in his life he is grateful for, Defoe's Crusoe believes that he becomes a far better person than he would have been had he remained in the society from which he originally set out on his voyage.\n\nK) Reflecting on generosity and gratitude, the great basketball coach John Wooden once offered two counsels to his players and students. First, he said, \"It is impossible to have a perfect day unless you have done something for someone who will never be able to repay you.\" In saying this, Wooden sought to promote purely generous acts, as opposed to those performed with an expectation of reward. Second, he said, \"Give thanks for your blessings every day.\"\n\nL) Some faith traditions incorporate such practices into the rhythm of daily life. For example, adherents of some religions offer prayers of thanksgiving every morning before rising and every night before lying down to sleep. Others offer thanks throughout the day, such as before meals. Other less frequent special events, such as births, deaths and marriages, may also be heralded by such prayers.\n\nM) When Defoe depicted Robinson Crusoe making thanksgiving a daily part of his island life, he was anticipating findings in social science and medicine that would not appear for hundreds of years. Yet he was also reflecting the wisdom of religious and philosophical traditions that extend back thousands of years. Gratitude is one of the healthiest and most nourishing of all states of mind, and those who adopt it as a habit are enriching not only their own lives but also the lives of those around them.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 F 段。题干：People who regularly express gratitude can benefit in moral terms.\n核对该段原文：Recent scientific studies support these ancient teachings. Individuals who regularly engage in gratitude exercises, such as counting their blessings or expressing gratitude to others, exhibit increased satisfaction with relationships and fewer symptoms of physical illness. And the benefits are not only psychological and physical. They may also be moral—those who practice gratitude also view their lives less materialistically and suffer from less envy.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2023-06-1-nonlistening-q41",
+      "canonicalId": "lazynote-cet6-2023-06-1-q41",
+      "number": 41,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "A basketball coach advocated performing generous acts without expecting anything in return.",
+      "passage": "The lifesaving power of gratitude\n\nA) Gratitude may be more beneficial than we commonly suppose. One recent study asked participants to write a note of thanks to someone and then estimate how surprised and happy the recipient would feel—an impact that they consistently underestimated. Another study assessed the health benefits of writing thank-you notes. The researchers found that writing as few as three weekly thank-you notes over the course of three weeks improved life satisfaction, increased happy feelings and reduced symptoms of depression.\n\nB) While this research into gratitude is relatively new, the principles involved are anything but. Students of mine in a political philosophy course at Indiana University are reading Daniel Defoe's 300-year-old Robinson Crusoe, often regarded as the first novel published in English. Left alone on an unknown island with no apparent prospect of rescue or escape, Crusoe has much to lament(悲叹). But instead of giving in to despair, he makes a list of things for which he is grateful, including the fact that he is the sole survivor from the shipwreck(海难) and has been able to salvage many useful items from the wreckage.\n\nC) Defoe's masterpiece, which is often ranked as one of the world's greatest novels, provides a portrait of gratitude in action that is as timely and relevant today as it has ever been. It is also one with which contemporary psychology and medicine are just beginning to catch up. Simply put, for most of us, it is far more helpful to focus on the things in life for which we can express gratitude than those that incline us toward resentment and lamentation.\n\nD) When we focus on the things we regret, such as failed relationships, family disputes, and setbacks in career and finance, we tend to become more regretful. Conversely, when we focus on the things we are grateful for, a greater sense of happiness tends to spread through our lives. And while no one would argue for cultivating a false sense of blessedness, there is mounting evidence that counting our blessings is one of the best habits we can develop to promote mental and physical health.\n\nE) Gratitude has long enjoyed a privileged position in many of the world's cultural traditions. For example, some ancient Western philosophers counsel gratitude that is both enduring and complete, and some Eastern thinkers portray it as not merely an attitude but a virtue to be put into practice.\n\nF) Recent scientific studies support these ancient teachings. Individuals who regularly engage in gratitude exercises, such as counting their blessings or expressing gratitude to others, exhibit increased satisfaction with relationships and fewer symptoms of physical illness. And the benefits are not only psychological and physical. They may also be moral—those who practice gratitude also view their lives less materialistically and suffer from less envy.\n\nG) There are multiple explanations for such benefits of gratefulness. One is the fact that expressing gratitude encourages others to continue being generous, thus promoting a virtuous cycle of goodness in relationships. Similarly, grateful people may be more likely to reciprocate(回报) with acts of kindness of their own. Broadly speaking, a community in which people feel grateful to one another is likely to be a more pleasant place to live than one characterized by mutual suspicion and resentment. The beneficial effects of gratitude may extend even further. For example, when many people feel good about what someone else has done for them, they experience a sense of being lifted up, with a corresponding enhancement of their regard for humanity. Some are inspired to attempt to become better people themselves, doing more to help bring out the best in others and bringing more goodness into the world around them.\n\nH) Gratitude also tends to strengthen a sense of connection with others. When people want to do good things that inspire gratitude, the level of dedication in relationships tends to grow and relationships seem to last longer. And when people feel more connected, they are more likely to choose to spend their time with one another and demonstrate their feelings of affection in daily acts.\n\nI) Of course, acts of kindness can also foster discomfort. For example, if people feel they are not worthy of kindness or suspect that some ulterior(别有用心的) motive lies behind it, the benefits of gratitude will not be realized. Likewise, receiving a kindness can give rise to a sense of indebtedness, leaving beneficiaries feeling that they must now pay back whatever good they have received. Gratitude can flourish only if people are secure enough in themselves and sufficiently trusting to allow it to do so. Another obstacle to gratitude is often called a sense of entitlement. Instead of experiencing a benefaction(善行) as a good turn, people sometimes regard it as a mere payment of what they are owed, for which no one deserves any moral credit.\n\nJ) There are a number of practical steps anyone can take to promote a sense of gratitude. One is simply spending time on a regular basis thinking about someone who has made a difference, or perhaps writing a thank-you note or expressing such gratitude in person. Others are found in ancient religious disciplines, such as reflecting on benefactions received from another person or actually praying for the health and happiness of a benefactor. In addition to benefactions received, it is also possible to focus on opportunities to do good oneself, whether those acted on in the past or hoped for in the future. Some people are most grateful not for what others have done for them but for chances they enjoyed to help others. In regularly reflecting on the things in his life he is grateful for, Defoe's Crusoe believes that he becomes a far better person than he would have been had he remained in the society from which he originally set out on his voyage.\n\nK) Reflecting on generosity and gratitude, the great basketball coach John Wooden once offered two counsels to his players and students. First, he said, \"It is impossible to have a perfect day unless you have done something for someone who will never be able to repay you.\" In saying this, Wooden sought to promote purely generous acts, as opposed to those performed with an expectation of reward. Second, he said, \"Give thanks for your blessings every day.\"\n\nL) Some faith traditions incorporate such practices into the rhythm of daily life. For example, adherents of some religions offer prayers of thanksgiving every morning before rising and every night before lying down to sleep. Others offer thanks throughout the day, such as before meals. Other less frequent special events, such as births, deaths and marriages, may also be heralded by such prayers.\n\nM) When Defoe depicted Robinson Crusoe making thanksgiving a daily part of his island life, he was anticipating findings in social science and medicine that would not appear for hundreds of years. Yet he was also reflecting the wisdom of religious and philosophical traditions that extend back thousands of years. Gratitude is one of the healthiest and most nourishing of all states of mind, and those who adopt it as a habit are enriching not only their own lives but also the lives of those around them.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 K 段。题干：A basketball coach advocated performing generous acts without expecting anything in return.\n核对该段原文：Reflecting on generosity and gratitude, the great basketball coach John Wooden once offered two counsels to his players and students. First, he said, \"It is impossible to have a perfect day unless you have done something for someone who will never be able to repay you.\" In saying this, Wooden sought to promote purely generous acts, as opposed to those performed with an expectation of reward. Second, he said, \"Give thanks for your blessings every day.\"\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2023-06-1-nonlistening-q42",
+      "canonicalId": "lazynote-cet6-2023-06-1-q42",
+      "number": 42,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "More and more evidence shows it makes us mentally and physically healthier to routinely count our blessings.",
+      "passage": "The lifesaving power of gratitude\n\nA) Gratitude may be more beneficial than we commonly suppose. One recent study asked participants to write a note of thanks to someone and then estimate how surprised and happy the recipient would feel—an impact that they consistently underestimated. Another study assessed the health benefits of writing thank-you notes. The researchers found that writing as few as three weekly thank-you notes over the course of three weeks improved life satisfaction, increased happy feelings and reduced symptoms of depression.\n\nB) While this research into gratitude is relatively new, the principles involved are anything but. Students of mine in a political philosophy course at Indiana University are reading Daniel Defoe's 300-year-old Robinson Crusoe, often regarded as the first novel published in English. Left alone on an unknown island with no apparent prospect of rescue or escape, Crusoe has much to lament(悲叹). But instead of giving in to despair, he makes a list of things for which he is grateful, including the fact that he is the sole survivor from the shipwreck(海难) and has been able to salvage many useful items from the wreckage.\n\nC) Defoe's masterpiece, which is often ranked as one of the world's greatest novels, provides a portrait of gratitude in action that is as timely and relevant today as it has ever been. It is also one with which contemporary psychology and medicine are just beginning to catch up. Simply put, for most of us, it is far more helpful to focus on the things in life for which we can express gratitude than those that incline us toward resentment and lamentation.\n\nD) When we focus on the things we regret, such as failed relationships, family disputes, and setbacks in career and finance, we tend to become more regretful. Conversely, when we focus on the things we are grateful for, a greater sense of happiness tends to spread through our lives. And while no one would argue for cultivating a false sense of blessedness, there is mounting evidence that counting our blessings is one of the best habits we can develop to promote mental and physical health.\n\nE) Gratitude has long enjoyed a privileged position in many of the world's cultural traditions. For example, some ancient Western philosophers counsel gratitude that is both enduring and complete, and some Eastern thinkers portray it as not merely an attitude but a virtue to be put into practice.\n\nF) Recent scientific studies support these ancient teachings. Individuals who regularly engage in gratitude exercises, such as counting their blessings or expressing gratitude to others, exhibit increased satisfaction with relationships and fewer symptoms of physical illness. And the benefits are not only psychological and physical. They may also be moral—those who practice gratitude also view their lives less materialistically and suffer from less envy.\n\nG) There are multiple explanations for such benefits of gratefulness. One is the fact that expressing gratitude encourages others to continue being generous, thus promoting a virtuous cycle of goodness in relationships. Similarly, grateful people may be more likely to reciprocate(回报) with acts of kindness of their own. Broadly speaking, a community in which people feel grateful to one another is likely to be a more pleasant place to live than one characterized by mutual suspicion and resentment. The beneficial effects of gratitude may extend even further. For example, when many people feel good about what someone else has done for them, they experience a sense of being lifted up, with a corresponding enhancement of their regard for humanity. Some are inspired to attempt to become better people themselves, doing more to help bring out the best in others and bringing more goodness into the world around them.\n\nH) Gratitude also tends to strengthen a sense of connection with others. When people want to do good things that inspire gratitude, the level of dedication in relationships tends to grow and relationships seem to last longer. And when people feel more connected, they are more likely to choose to spend their time with one another and demonstrate their feelings of affection in daily acts.\n\nI) Of course, acts of kindness can also foster discomfort. For example, if people feel they are not worthy of kindness or suspect that some ulterior(别有用心的) motive lies behind it, the benefits of gratitude will not be realized. Likewise, receiving a kindness can give rise to a sense of indebtedness, leaving beneficiaries feeling that they must now pay back whatever good they have received. Gratitude can flourish only if people are secure enough in themselves and sufficiently trusting to allow it to do so. Another obstacle to gratitude is often called a sense of entitlement. Instead of experiencing a benefaction(善行) as a good turn, people sometimes regard it as a mere payment of what they are owed, for which no one deserves any moral credit.\n\nJ) There are a number of practical steps anyone can take to promote a sense of gratitude. One is simply spending time on a regular basis thinking about someone who has made a difference, or perhaps writing a thank-you note or expressing such gratitude in person. Others are found in ancient religious disciplines, such as reflecting on benefactions received from another person or actually praying for the health and happiness of a benefactor. In addition to benefactions received, it is also possible to focus on opportunities to do good oneself, whether those acted on in the past or hoped for in the future. Some people are most grateful not for what others have done for them but for chances they enjoyed to help others. In regularly reflecting on the things in his life he is grateful for, Defoe's Crusoe believes that he becomes a far better person than he would have been had he remained in the society from which he originally set out on his voyage.\n\nK) Reflecting on generosity and gratitude, the great basketball coach John Wooden once offered two counsels to his players and students. First, he said, \"It is impossible to have a perfect day unless you have done something for someone who will never be able to repay you.\" In saying this, Wooden sought to promote purely generous acts, as opposed to those performed with an expectation of reward. Second, he said, \"Give thanks for your blessings every day.\"\n\nL) Some faith traditions incorporate such practices into the rhythm of daily life. For example, adherents of some religions offer prayers of thanksgiving every morning before rising and every night before lying down to sleep. Others offer thanks throughout the day, such as before meals. Other less frequent special events, such as births, deaths and marriages, may also be heralded by such prayers.\n\nM) When Defoe depicted Robinson Crusoe making thanksgiving a daily part of his island life, he was anticipating findings in social science and medicine that would not appear for hundreds of years. Yet he was also reflecting the wisdom of religious and philosophical traditions that extend back thousands of years. Gratitude is one of the healthiest and most nourishing of all states of mind, and those who adopt it as a habit are enriching not only their own lives but also the lives of those around them.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 D 段。题干：More and more evidence shows it makes us mentally and physically healthier to routinely count our blessings.\n核对该段原文：When we focus on the things we regret, such as failed relationships, family disputes, and setbacks in career and finance, we tend to become more regretful. Conversely, when we focus on the things we are grateful for, a greater sense of happiness tends to spread through our lives. And while no one would argue for cultivating a false sense of blessedness, there is mounting evidence that counting our blessings is one of the best habits we can develop to promote mental and physical health.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2023-06-1-nonlistening-q43",
+      "canonicalId": "lazynote-cet6-2023-06-1-q43",
+      "number": 43,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Of all states of mind, feeling grateful is considered one of the most healthy and beneficial.",
+      "passage": "The lifesaving power of gratitude\n\nA) Gratitude may be more beneficial than we commonly suppose. One recent study asked participants to write a note of thanks to someone and then estimate how surprised and happy the recipient would feel—an impact that they consistently underestimated. Another study assessed the health benefits of writing thank-you notes. The researchers found that writing as few as three weekly thank-you notes over the course of three weeks improved life satisfaction, increased happy feelings and reduced symptoms of depression.\n\nB) While this research into gratitude is relatively new, the principles involved are anything but. Students of mine in a political philosophy course at Indiana University are reading Daniel Defoe's 300-year-old Robinson Crusoe, often regarded as the first novel published in English. Left alone on an unknown island with no apparent prospect of rescue or escape, Crusoe has much to lament(悲叹). But instead of giving in to despair, he makes a list of things for which he is grateful, including the fact that he is the sole survivor from the shipwreck(海难) and has been able to salvage many useful items from the wreckage.\n\nC) Defoe's masterpiece, which is often ranked as one of the world's greatest novels, provides a portrait of gratitude in action that is as timely and relevant today as it has ever been. It is also one with which contemporary psychology and medicine are just beginning to catch up. Simply put, for most of us, it is far more helpful to focus on the things in life for which we can express gratitude than those that incline us toward resentment and lamentation.\n\nD) When we focus on the things we regret, such as failed relationships, family disputes, and setbacks in career and finance, we tend to become more regretful. Conversely, when we focus on the things we are grateful for, a greater sense of happiness tends to spread through our lives. And while no one would argue for cultivating a false sense of blessedness, there is mounting evidence that counting our blessings is one of the best habits we can develop to promote mental and physical health.\n\nE) Gratitude has long enjoyed a privileged position in many of the world's cultural traditions. For example, some ancient Western philosophers counsel gratitude that is both enduring and complete, and some Eastern thinkers portray it as not merely an attitude but a virtue to be put into practice.\n\nF) Recent scientific studies support these ancient teachings. Individuals who regularly engage in gratitude exercises, such as counting their blessings or expressing gratitude to others, exhibit increased satisfaction with relationships and fewer symptoms of physical illness. And the benefits are not only psychological and physical. They may also be moral—those who practice gratitude also view their lives less materialistically and suffer from less envy.\n\nG) There are multiple explanations for such benefits of gratefulness. One is the fact that expressing gratitude encourages others to continue being generous, thus promoting a virtuous cycle of goodness in relationships. Similarly, grateful people may be more likely to reciprocate(回报) with acts of kindness of their own. Broadly speaking, a community in which people feel grateful to one another is likely to be a more pleasant place to live than one characterized by mutual suspicion and resentment. The beneficial effects of gratitude may extend even further. For example, when many people feel good about what someone else has done for them, they experience a sense of being lifted up, with a corresponding enhancement of their regard for humanity. Some are inspired to attempt to become better people themselves, doing more to help bring out the best in others and bringing more goodness into the world around them.\n\nH) Gratitude also tends to strengthen a sense of connection with others. When people want to do good things that inspire gratitude, the level of dedication in relationships tends to grow and relationships seem to last longer. And when people feel more connected, they are more likely to choose to spend their time with one another and demonstrate their feelings of affection in daily acts.\n\nI) Of course, acts of kindness can also foster discomfort. For example, if people feel they are not worthy of kindness or suspect that some ulterior(别有用心的) motive lies behind it, the benefits of gratitude will not be realized. Likewise, receiving a kindness can give rise to a sense of indebtedness, leaving beneficiaries feeling that they must now pay back whatever good they have received. Gratitude can flourish only if people are secure enough in themselves and sufficiently trusting to allow it to do so. Another obstacle to gratitude is often called a sense of entitlement. Instead of experiencing a benefaction(善行) as a good turn, people sometimes regard it as a mere payment of what they are owed, for which no one deserves any moral credit.\n\nJ) There are a number of practical steps anyone can take to promote a sense of gratitude. One is simply spending time on a regular basis thinking about someone who has made a difference, or perhaps writing a thank-you note or expressing such gratitude in person. Others are found in ancient religious disciplines, such as reflecting on benefactions received from another person or actually praying for the health and happiness of a benefactor. In addition to benefactions received, it is also possible to focus on opportunities to do good oneself, whether those acted on in the past or hoped for in the future. Some people are most grateful not for what others have done for them but for chances they enjoyed to help others. In regularly reflecting on the things in his life he is grateful for, Defoe's Crusoe believes that he becomes a far better person than he would have been had he remained in the society from which he originally set out on his voyage.\n\nK) Reflecting on generosity and gratitude, the great basketball coach John Wooden once offered two counsels to his players and students. First, he said, \"It is impossible to have a perfect day unless you have done something for someone who will never be able to repay you.\" In saying this, Wooden sought to promote purely generous acts, as opposed to those performed with an expectation of reward. Second, he said, \"Give thanks for your blessings every day.\"\n\nL) Some faith traditions incorporate such practices into the rhythm of daily life. For example, adherents of some religions offer prayers of thanksgiving every morning before rising and every night before lying down to sleep. Others offer thanks throughout the day, such as before meals. Other less frequent special events, such as births, deaths and marriages, may also be heralded by such prayers.\n\nM) When Defoe depicted Robinson Crusoe making thanksgiving a daily part of his island life, he was anticipating findings in social science and medicine that would not appear for hundreds of years. Yet he was also reflecting the wisdom of religious and philosophical traditions that extend back thousands of years. Gratitude is one of the healthiest and most nourishing of all states of mind, and those who adopt it as a habit are enriching not only their own lives but also the lives of those around them.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "M",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 M 段。题干：Of all states of mind, feeling grateful is considered one of the most healthy and beneficial.\n核对该段原文：When Defoe depicted Robinson Crusoe making thanksgiving a daily part of his island life, he was anticipating findings in social science and medicine that would not appear for hundreds of years. Yet he was also reflecting the wisdom of religious and philosophical traditions that extend back thousands of years. Gratitude is one of the healthiest and most nourishing of all states of mind, and those who adopt it as a habit are enriching not only their own lives but also the lives of those around them.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2023-06-1-nonlistening-q44",
+      "canonicalId": "lazynote-cet6-2023-06-1-q44",
+      "number": 44,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The principles underlying the research into gratitude are nothing new at all.",
+      "passage": "The lifesaving power of gratitude\n\nA) Gratitude may be more beneficial than we commonly suppose. One recent study asked participants to write a note of thanks to someone and then estimate how surprised and happy the recipient would feel—an impact that they consistently underestimated. Another study assessed the health benefits of writing thank-you notes. The researchers found that writing as few as three weekly thank-you notes over the course of three weeks improved life satisfaction, increased happy feelings and reduced symptoms of depression.\n\nB) While this research into gratitude is relatively new, the principles involved are anything but. Students of mine in a political philosophy course at Indiana University are reading Daniel Defoe's 300-year-old Robinson Crusoe, often regarded as the first novel published in English. Left alone on an unknown island with no apparent prospect of rescue or escape, Crusoe has much to lament(悲叹). But instead of giving in to despair, he makes a list of things for which he is grateful, including the fact that he is the sole survivor from the shipwreck(海难) and has been able to salvage many useful items from the wreckage.\n\nC) Defoe's masterpiece, which is often ranked as one of the world's greatest novels, provides a portrait of gratitude in action that is as timely and relevant today as it has ever been. It is also one with which contemporary psychology and medicine are just beginning to catch up. Simply put, for most of us, it is far more helpful to focus on the things in life for which we can express gratitude than those that incline us toward resentment and lamentation.\n\nD) When we focus on the things we regret, such as failed relationships, family disputes, and setbacks in career and finance, we tend to become more regretful. Conversely, when we focus on the things we are grateful for, a greater sense of happiness tends to spread through our lives. And while no one would argue for cultivating a false sense of blessedness, there is mounting evidence that counting our blessings is one of the best habits we can develop to promote mental and physical health.\n\nE) Gratitude has long enjoyed a privileged position in many of the world's cultural traditions. For example, some ancient Western philosophers counsel gratitude that is both enduring and complete, and some Eastern thinkers portray it as not merely an attitude but a virtue to be put into practice.\n\nF) Recent scientific studies support these ancient teachings. Individuals who regularly engage in gratitude exercises, such as counting their blessings or expressing gratitude to others, exhibit increased satisfaction with relationships and fewer symptoms of physical illness. And the benefits are not only psychological and physical. They may also be moral—those who practice gratitude also view their lives less materialistically and suffer from less envy.\n\nG) There are multiple explanations for such benefits of gratefulness. One is the fact that expressing gratitude encourages others to continue being generous, thus promoting a virtuous cycle of goodness in relationships. Similarly, grateful people may be more likely to reciprocate(回报) with acts of kindness of their own. Broadly speaking, a community in which people feel grateful to one another is likely to be a more pleasant place to live than one characterized by mutual suspicion and resentment. The beneficial effects of gratitude may extend even further. For example, when many people feel good about what someone else has done for them, they experience a sense of being lifted up, with a corresponding enhancement of their regard for humanity. Some are inspired to attempt to become better people themselves, doing more to help bring out the best in others and bringing more goodness into the world around them.\n\nH) Gratitude also tends to strengthen a sense of connection with others. When people want to do good things that inspire gratitude, the level of dedication in relationships tends to grow and relationships seem to last longer. And when people feel more connected, they are more likely to choose to spend their time with one another and demonstrate their feelings of affection in daily acts.\n\nI) Of course, acts of kindness can also foster discomfort. For example, if people feel they are not worthy of kindness or suspect that some ulterior(别有用心的) motive lies behind it, the benefits of gratitude will not be realized. Likewise, receiving a kindness can give rise to a sense of indebtedness, leaving beneficiaries feeling that they must now pay back whatever good they have received. Gratitude can flourish only if people are secure enough in themselves and sufficiently trusting to allow it to do so. Another obstacle to gratitude is often called a sense of entitlement. Instead of experiencing a benefaction(善行) as a good turn, people sometimes regard it as a mere payment of what they are owed, for which no one deserves any moral credit.\n\nJ) There are a number of practical steps anyone can take to promote a sense of gratitude. One is simply spending time on a regular basis thinking about someone who has made a difference, or perhaps writing a thank-you note or expressing such gratitude in person. Others are found in ancient religious disciplines, such as reflecting on benefactions received from another person or actually praying for the health and happiness of a benefactor. In addition to benefactions received, it is also possible to focus on opportunities to do good oneself, whether those acted on in the past or hoped for in the future. Some people are most grateful not for what others have done for them but for chances they enjoyed to help others. In regularly reflecting on the things in his life he is grateful for, Defoe's Crusoe believes that he becomes a far better person than he would have been had he remained in the society from which he originally set out on his voyage.\n\nK) Reflecting on generosity and gratitude, the great basketball coach John Wooden once offered two counsels to his players and students. First, he said, \"It is impossible to have a perfect day unless you have done something for someone who will never be able to repay you.\" In saying this, Wooden sought to promote purely generous acts, as opposed to those performed with an expectation of reward. Second, he said, \"Give thanks for your blessings every day.\"\n\nL) Some faith traditions incorporate such practices into the rhythm of daily life. For example, adherents of some religions offer prayers of thanksgiving every morning before rising and every night before lying down to sleep. Others offer thanks throughout the day, such as before meals. Other less frequent special events, such as births, deaths and marriages, may also be heralded by such prayers.\n\nM) When Defoe depicted Robinson Crusoe making thanksgiving a daily part of his island life, he was anticipating findings in social science and medicine that would not appear for hundreds of years. Yet he was also reflecting the wisdom of religious and philosophical traditions that extend back thousands of years. Gratitude is one of the healthiest and most nourishing of all states of mind, and those who adopt it as a habit are enriching not only their own lives but also the lives of those around them.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 B 段。题干：The principles underlying the research into gratitude are nothing new at all.\n核对该段原文：While this research into gratitude is relatively new, the principles involved are anything but. Students of mine in a political philosophy course at Indiana University are reading Daniel Defoe's 300-year-old Robinson Crusoe, often regarded as the first novel published in English. Left alone on an unknown island with no apparent prospect of rescue or escape, Crusoe has much to lament(悲叹). But instead of giving in to despair, he makes a list of things for which he is grateful, including the fact that he is the sole survivor from the shipwreck(海难) and has been able to salvage many useful items from the wreckage.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2023-06-1-nonlistening-q45",
+      "canonicalId": "lazynote-cet6-2023-06-1-q45",
+      "number": 45,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Gratitude is likely to enhance one's sense of being connected with other people.",
+      "passage": "The lifesaving power of gratitude\n\nA) Gratitude may be more beneficial than we commonly suppose. One recent study asked participants to write a note of thanks to someone and then estimate how surprised and happy the recipient would feel—an impact that they consistently underestimated. Another study assessed the health benefits of writing thank-you notes. The researchers found that writing as few as three weekly thank-you notes over the course of three weeks improved life satisfaction, increased happy feelings and reduced symptoms of depression.\n\nB) While this research into gratitude is relatively new, the principles involved are anything but. Students of mine in a political philosophy course at Indiana University are reading Daniel Defoe's 300-year-old Robinson Crusoe, often regarded as the first novel published in English. Left alone on an unknown island with no apparent prospect of rescue or escape, Crusoe has much to lament(悲叹). But instead of giving in to despair, he makes a list of things for which he is grateful, including the fact that he is the sole survivor from the shipwreck(海难) and has been able to salvage many useful items from the wreckage.\n\nC) Defoe's masterpiece, which is often ranked as one of the world's greatest novels, provides a portrait of gratitude in action that is as timely and relevant today as it has ever been. It is also one with which contemporary psychology and medicine are just beginning to catch up. Simply put, for most of us, it is far more helpful to focus on the things in life for which we can express gratitude than those that incline us toward resentment and lamentation.\n\nD) When we focus on the things we regret, such as failed relationships, family disputes, and setbacks in career and finance, we tend to become more regretful. Conversely, when we focus on the things we are grateful for, a greater sense of happiness tends to spread through our lives. And while no one would argue for cultivating a false sense of blessedness, there is mounting evidence that counting our blessings is one of the best habits we can develop to promote mental and physical health.\n\nE) Gratitude has long enjoyed a privileged position in many of the world's cultural traditions. For example, some ancient Western philosophers counsel gratitude that is both enduring and complete, and some Eastern thinkers portray it as not merely an attitude but a virtue to be put into practice.\n\nF) Recent scientific studies support these ancient teachings. Individuals who regularly engage in gratitude exercises, such as counting their blessings or expressing gratitude to others, exhibit increased satisfaction with relationships and fewer symptoms of physical illness. And the benefits are not only psychological and physical. They may also be moral—those who practice gratitude also view their lives less materialistically and suffer from less envy.\n\nG) There are multiple explanations for such benefits of gratefulness. One is the fact that expressing gratitude encourages others to continue being generous, thus promoting a virtuous cycle of goodness in relationships. Similarly, grateful people may be more likely to reciprocate(回报) with acts of kindness of their own. Broadly speaking, a community in which people feel grateful to one another is likely to be a more pleasant place to live than one characterized by mutual suspicion and resentment. The beneficial effects of gratitude may extend even further. For example, when many people feel good about what someone else has done for them, they experience a sense of being lifted up, with a corresponding enhancement of their regard for humanity. Some are inspired to attempt to become better people themselves, doing more to help bring out the best in others and bringing more goodness into the world around them.\n\nH) Gratitude also tends to strengthen a sense of connection with others. When people want to do good things that inspire gratitude, the level of dedication in relationships tends to grow and relationships seem to last longer. And when people feel more connected, they are more likely to choose to spend their time with one another and demonstrate their feelings of affection in daily acts.\n\nI) Of course, acts of kindness can also foster discomfort. For example, if people feel they are not worthy of kindness or suspect that some ulterior(别有用心的) motive lies behind it, the benefits of gratitude will not be realized. Likewise, receiving a kindness can give rise to a sense of indebtedness, leaving beneficiaries feeling that they must now pay back whatever good they have received. Gratitude can flourish only if people are secure enough in themselves and sufficiently trusting to allow it to do so. Another obstacle to gratitude is often called a sense of entitlement. Instead of experiencing a benefaction(善行) as a good turn, people sometimes regard it as a mere payment of what they are owed, for which no one deserves any moral credit.\n\nJ) There are a number of practical steps anyone can take to promote a sense of gratitude. One is simply spending time on a regular basis thinking about someone who has made a difference, or perhaps writing a thank-you note or expressing such gratitude in person. Others are found in ancient religious disciplines, such as reflecting on benefactions received from another person or actually praying for the health and happiness of a benefactor. In addition to benefactions received, it is also possible to focus on opportunities to do good oneself, whether those acted on in the past or hoped for in the future. Some people are most grateful not for what others have done for them but for chances they enjoyed to help others. In regularly reflecting on the things in his life he is grateful for, Defoe's Crusoe believes that he becomes a far better person than he would have been had he remained in the society from which he originally set out on his voyage.\n\nK) Reflecting on generosity and gratitude, the great basketball coach John Wooden once offered two counsels to his players and students. First, he said, \"It is impossible to have a perfect day unless you have done something for someone who will never be able to repay you.\" In saying this, Wooden sought to promote purely generous acts, as opposed to those performed with an expectation of reward. Second, he said, \"Give thanks for your blessings every day.\"\n\nL) Some faith traditions incorporate such practices into the rhythm of daily life. For example, adherents of some religions offer prayers of thanksgiving every morning before rising and every night before lying down to sleep. Others offer thanks throughout the day, such as before meals. Other less frequent special events, such as births, deaths and marriages, may also be heralded by such prayers.\n\nM) When Defoe depicted Robinson Crusoe making thanksgiving a daily part of his island life, he was anticipating findings in social science and medicine that would not appear for hundreds of years. Yet he was also reflecting the wisdom of religious and philosophical traditions that extend back thousands of years. Gratitude is one of the healthiest and most nourishing of all states of mind, and those who adopt it as a habit are enriching not only their own lives but also the lives of those around them.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 H 段。题干：Gratitude is likely to enhance one's sense of being connected with other people.\n核对该段原文：Gratitude also tends to strengthen a sense of connection with others. When people want to do good things that inspire gratitude, the level of dedication in relationships tends to grow and relationships seem to last longer. And when people feel more connected, they are more likely to choose to spend their time with one another and demonstrate their feelings of affection in daily acts.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2023-06-1-nonlistening-q46",
+      "canonicalId": "lazynote-cet6-2023-06-1-q46",
+      "number": 46,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn about the deeper implications of AI?",
+      "passage": "Technology is never a neutral tool for achieving human ends. Technological innovations reshape people as they use these innovations to control their environment. Artificial intelligence, for example, is altering humanity.\n\nWhile the term AI conjures up anxieties about killer robots or catastrophic levels of unemployment, there are other, deeper implications. As AI increasingly shapes the human experience, how does this change what it means to be human? Central to the problem is a person's capacity to make choices, particularly judgments that have moral implications.\n\nAristotle argued that the capacity for making practical judgments depends on regularly making them—on habit and practice. We see the emergence of machines as substitute judges in a variety of everyday contexts as a potential threat to people learning how to effectively exercise judgment themselves.\n\nIn the workplace, managers routinely make decisions about who to hire or fire and which loan to approve, to name a few. These are areas where algorithmic(算法的) prescription is replacing human judgment, and so people who might have had the chance to develop practical judgment in these areas no longer will.\n\nRecommendation engines, which are increasingly prevalent intermediaries in people's consumption of culture, may serve to constrain choice and minimize luck. By presenting consumers with algorithmically selected choices of what to watch, read, stream and visit next, companies are replacing human taste with machine taste. In one sense, this is helpful. After all, machines can survey a wider range of choices than any individual is likely to have the time or energy to do on their own.\n\nAt the same time, though, this selection is optimizing for what people are likely to prefer based on what they've preferred in the past. We think there is some risk that people's options will be constrained by their past in a new and unanticipated way.\n\nAs machine learning algorithms improve and as they train on more extensive data sets, larger parts of everyday life are likely to become utterly predictable. The predictions are going to get better and better, and they will ultimately make common experiences more efficient and pleasant.\n\nAlgorithms could soon—if they don't already—have a better idea about which show you'd like to watch next and which job candidate you should hire than you do. One day, humans may even find a way for machines to make these decisions without some of the biases that humans typically display.\n\nBut to the extent that unpredictability is part of how people understand themselves and part of what people like about themselves, humanity is in the process of losing something significant. As they become more and more predictable, the creatures inhabiting the increasingly AI-mediated world will become less and less like us.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is causing catastrophic levels of unemployment."
+        },
+        {
+          "id": "B",
+          "text": "It is doing physical harm to human operators."
+        },
+        {
+          "id": "C",
+          "text": "It is altering moral judgments."
+        },
+        {
+          "id": "D",
+          "text": "It is reshaping humanity."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：It is reshaping humanity.\n关键词检索定位到第 2 段的候选相关句：While the term AI conjures up anxieties about killer robots or catastrophic levels of unemployment, there are other, deeper implications.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2023-06-1-nonlistening-q47",
+      "canonicalId": "lazynote-cet6-2023-06-1-q47",
+      "number": 47,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What is the consequence of algorithmic prescription replacing human judgment?",
+      "passage": "Technology is never a neutral tool for achieving human ends. Technological innovations reshape people as they use these innovations to control their environment. Artificial intelligence, for example, is altering humanity.\n\nWhile the term AI conjures up anxieties about killer robots or catastrophic levels of unemployment, there are other, deeper implications. As AI increasingly shapes the human experience, how does this change what it means to be human? Central to the problem is a person's capacity to make choices, particularly judgments that have moral implications.\n\nAristotle argued that the capacity for making practical judgments depends on regularly making them—on habit and practice. We see the emergence of machines as substitute judges in a variety of everyday contexts as a potential threat to people learning how to effectively exercise judgment themselves.\n\nIn the workplace, managers routinely make decisions about who to hire or fire and which loan to approve, to name a few. These are areas where algorithmic(算法的) prescription is replacing human judgment, and so people who might have had the chance to develop practical judgment in these areas no longer will.\n\nRecommendation engines, which are increasingly prevalent intermediaries in people's consumption of culture, may serve to constrain choice and minimize luck. By presenting consumers with algorithmically selected choices of what to watch, read, stream and visit next, companies are replacing human taste with machine taste. In one sense, this is helpful. After all, machines can survey a wider range of choices than any individual is likely to have the time or energy to do on their own.\n\nAt the same time, though, this selection is optimizing for what people are likely to prefer based on what they've preferred in the past. We think there is some risk that people's options will be constrained by their past in a new and unanticipated way.\n\nAs machine learning algorithms improve and as they train on more extensive data sets, larger parts of everyday life are likely to become utterly predictable. The predictions are going to get better and better, and they will ultimately make common experiences more efficient and pleasant.\n\nAlgorithms could soon—if they don't already—have a better idea about which show you'd like to watch next and which job candidate you should hire than you do. One day, humans may even find a way for machines to make these decisions without some of the biases that humans typically display.\n\nBut to the extent that unpredictability is part of how people understand themselves and part of what people like about themselves, humanity is in the process of losing something significant. As they become more and more predictable, the creatures inhabiting the increasingly AI-mediated world will become less and less like us.",
+      "options": [
+        {
+          "id": "A",
+          "text": "People lose the chance to cultivate the ability to make practical judgments."
+        },
+        {
+          "id": "B",
+          "text": "People are prevented from participating in making major decisions in the workplace."
+        },
+        {
+          "id": "C",
+          "text": "Managers no longer have the chance to decide which loan to approve."
+        },
+        {
+          "id": "D",
+          "text": "Managers do not need to take the trouble to determine who to hire or fire."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：People lose the chance to cultivate the ability to make practical judgments.\n关键词检索定位到第 4 段的候选相关句：These are areas where algorithmic(算法的) prescription is replacing human judgment, and so people who might have had the chance to develop practical judgment in these areas no longer will.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2023-06-1-nonlistening-q48",
+      "canonicalId": "lazynote-cet6-2023-06-1-q48",
+      "number": 48,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What may result from increasing application of recommendation engines in our consumption of culture?",
+      "passage": "Technology is never a neutral tool for achieving human ends. Technological innovations reshape people as they use these innovations to control their environment. Artificial intelligence, for example, is altering humanity.\n\nWhile the term AI conjures up anxieties about killer robots or catastrophic levels of unemployment, there are other, deeper implications. As AI increasingly shapes the human experience, how does this change what it means to be human? Central to the problem is a person's capacity to make choices, particularly judgments that have moral implications.\n\nAristotle argued that the capacity for making practical judgments depends on regularly making them—on habit and practice. We see the emergence of machines as substitute judges in a variety of everyday contexts as a potential threat to people learning how to effectively exercise judgment themselves.\n\nIn the workplace, managers routinely make decisions about who to hire or fire and which loan to approve, to name a few. These are areas where algorithmic(算法的) prescription is replacing human judgment, and so people who might have had the chance to develop practical judgment in these areas no longer will.\n\nRecommendation engines, which are increasingly prevalent intermediaries in people's consumption of culture, may serve to constrain choice and minimize luck. By presenting consumers with algorithmically selected choices of what to watch, read, stream and visit next, companies are replacing human taste with machine taste. In one sense, this is helpful. After all, machines can survey a wider range of choices than any individual is likely to have the time or energy to do on their own.\n\nAt the same time, though, this selection is optimizing for what people are likely to prefer based on what they've preferred in the past. We think there is some risk that people's options will be constrained by their past in a new and unanticipated way.\n\nAs machine learning algorithms improve and as they train on more extensive data sets, larger parts of everyday life are likely to become utterly predictable. The predictions are going to get better and better, and they will ultimately make common experiences more efficient and pleasant.\n\nAlgorithms could soon—if they don't already—have a better idea about which show you'd like to watch next and which job candidate you should hire than you do. One day, humans may even find a way for machines to make these decisions without some of the biases that humans typically display.\n\nBut to the extent that unpredictability is part of how people understand themselves and part of what people like about themselves, humanity is in the process of losing something significant. As they become more and more predictable, the creatures inhabiting the increasingly AI-mediated world will become less and less like us.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Consumers will have much limited choice."
+        },
+        {
+          "id": "B",
+          "text": "Consumers will actually enjoy better luck."
+        },
+        {
+          "id": "C",
+          "text": "It will be easier to decide on what to enjoy."
+        },
+        {
+          "id": "D",
+          "text": "Humans will develop tastes similar to machines'."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：Consumers will have much limited choice.\n关键词检索定位到第 5 段的候选相关句：Recommendation engines, which are increasingly prevalent intermediaries in people's consumption of culture, may serve to constrain choice and minimize luck.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2023-06-1-nonlistening-q49",
+      "canonicalId": "lazynote-cet6-2023-06-1-q49",
+      "number": 49,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What is likely to happen to larger parts of our daily life as machine learning algorithms improve?",
+      "passage": "Technology is never a neutral tool for achieving human ends. Technological innovations reshape people as they use these innovations to control their environment. Artificial intelligence, for example, is altering humanity.\n\nWhile the term AI conjures up anxieties about killer robots or catastrophic levels of unemployment, there are other, deeper implications. As AI increasingly shapes the human experience, how does this change what it means to be human? Central to the problem is a person's capacity to make choices, particularly judgments that have moral implications.\n\nAristotle argued that the capacity for making practical judgments depends on regularly making them—on habit and practice. We see the emergence of machines as substitute judges in a variety of everyday contexts as a potential threat to people learning how to effectively exercise judgment themselves.\n\nIn the workplace, managers routinely make decisions about who to hire or fire and which loan to approve, to name a few. These are areas where algorithmic(算法的) prescription is replacing human judgment, and so people who might have had the chance to develop practical judgment in these areas no longer will.\n\nRecommendation engines, which are increasingly prevalent intermediaries in people's consumption of culture, may serve to constrain choice and minimize luck. By presenting consumers with algorithmically selected choices of what to watch, read, stream and visit next, companies are replacing human taste with machine taste. In one sense, this is helpful. After all, machines can survey a wider range of choices than any individual is likely to have the time or energy to do on their own.\n\nAt the same time, though, this selection is optimizing for what people are likely to prefer based on what they've preferred in the past. We think there is some risk that people's options will be constrained by their past in a new and unanticipated way.\n\nAs machine learning algorithms improve and as they train on more extensive data sets, larger parts of everyday life are likely to become utterly predictable. The predictions are going to get better and better, and they will ultimately make common experiences more efficient and pleasant.\n\nAlgorithms could soon—if they don't already—have a better idea about which show you'd like to watch next and which job candidate you should hire than you do. One day, humans may even find a way for machines to make these decisions without some of the biases that humans typically display.\n\nBut to the extent that unpredictability is part of how people understand themselves and part of what people like about themselves, humanity is in the process of losing something significant. As they become more and more predictable, the creatures inhabiting the increasingly AI-mediated world will become less and less like us.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They will turn out to be more pleasant."
+        },
+        {
+          "id": "B",
+          "text": "They will repeat our past experience."
+        },
+        {
+          "id": "C",
+          "text": "They can be completely anticipated."
+        },
+        {
+          "id": "D",
+          "text": "They may become better and better."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：They can be completely anticipated.\n关键词检索定位到第 7 段的候选相关句：As machine learning algorithms improve and as they train on more extensive data sets, larger parts of everyday life are likely to become utterly predictable.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2023-06-1-nonlistening-q50",
+      "canonicalId": "lazynote-cet6-2023-06-1-q50",
+      "number": 50,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "Why does the author say the creatures living in the more and more AI-mediated world will become increasingly unlike us?",
+      "passage": "Technology is never a neutral tool for achieving human ends. Technological innovations reshape people as they use these innovations to control their environment. Artificial intelligence, for example, is altering humanity.\n\nWhile the term AI conjures up anxieties about killer robots or catastrophic levels of unemployment, there are other, deeper implications. As AI increasingly shapes the human experience, how does this change what it means to be human? Central to the problem is a person's capacity to make choices, particularly judgments that have moral implications.\n\nAristotle argued that the capacity for making practical judgments depends on regularly making them—on habit and practice. We see the emergence of machines as substitute judges in a variety of everyday contexts as a potential threat to people learning how to effectively exercise judgment themselves.\n\nIn the workplace, managers routinely make decisions about who to hire or fire and which loan to approve, to name a few. These are areas where algorithmic(算法的) prescription is replacing human judgment, and so people who might have had the chance to develop practical judgment in these areas no longer will.\n\nRecommendation engines, which are increasingly prevalent intermediaries in people's consumption of culture, may serve to constrain choice and minimize luck. By presenting consumers with algorithmically selected choices of what to watch, read, stream and visit next, companies are replacing human taste with machine taste. In one sense, this is helpful. After all, machines can survey a wider range of choices than any individual is likely to have the time or energy to do on their own.\n\nAt the same time, though, this selection is optimizing for what people are likely to prefer based on what they've preferred in the past. We think there is some risk that people's options will be constrained by their past in a new and unanticipated way.\n\nAs machine learning algorithms improve and as they train on more extensive data sets, larger parts of everyday life are likely to become utterly predictable. The predictions are going to get better and better, and they will ultimately make common experiences more efficient and pleasant.\n\nAlgorithms could soon—if they don't already—have a better idea about which show you'd like to watch next and which job candidate you should hire than you do. One day, humans may even find a way for machines to make these decisions without some of the biases that humans typically display.\n\nBut to the extent that unpredictability is part of how people understand themselves and part of what people like about themselves, humanity is in the process of losing something significant. As they become more and more predictable, the creatures inhabiting the increasingly AI-mediated world will become less and less like us.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They will have lost the most significant human element of being intelligent."
+        },
+        {
+          "id": "B",
+          "text": "They will no longer possess the human characteristic of being unpredictable."
+        },
+        {
+          "id": "C",
+          "text": "They will not be able to understand themselves as we can do today."
+        },
+        {
+          "id": "D",
+          "text": "They will be deprived of what their predecessors were proud of about themselves."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：They will no longer possess the human characteristic of being unpredictable.\n关键词检索定位到第 9 段的候选相关句：As they become more and more predictable, the creatures inhabiting the increasingly AI-mediated world will become less and less like us.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2023-06-1-nonlistening-q51",
+      "canonicalId": "lazynote-cet6-2023-06-1-q51",
+      "number": 51,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn about phonics in many American classrooms?",
+      "passage": "Phonics, which involves sounding out words syllable(音节) by syllable, is the best way to teach children to read. But in many classrooms, this can be a dirty word. So much so that some teachers have had to sneak phonics teaching materials into the classroom. Most American children are taught to read in a way that study after study has found to be wrong.\n\nThe consequences of this are striking. Less than half of all American adults were proficient readers in 2017. American fourth graders rank 15th on the Progress in International Literacy Study, an international exam.\n\nAmerica is stuck in a debate about teaching children to read that has been going on for decades. Some advocate teaching symbol-sound relationships (the sound k can be spelled as c, k, ck, or ch), known as phonics. Others support an immersive approach (using pictures of a cat to learn the word cat), known as \"whole language\". Most teachers today, almost three out of four according to a survey by the Ed Week Research Centre in 2019, use a mix called \"balanced literacy\". This combination of methods is ineffective. \"You can't sprinkle in a little phonics,\" says Tenette Smith, executive director of elementary education and reading at Mississippi's education department. \"It has to be systematic and explicitly taught.\"\n\nMississippi, often behind in social policy, has set an example here. In a state once notorious for its low reading scores, the Mississippi state legislature passed new literacy standards in 2013. Since then Mississippi has seen remarkable gains. Its fourth graders have moved from 49th (out of 50 states) to 29th on the National Assessment of Educational Progress, a nationwide exam. In 2019 it was the only state to improve its scores. For the first time since measurement began, Mississippi's pupils are now average readers, a remarkable achievement in such a poor state.\n\nMississippi's success is attributed to implementing reading methods supported by a body of research known as the science of reading. In 1997 Congress requested the National Institute of Child Health and Human Development and the Department of Education to convene a National Reading Panel to end the \"reading wars\" and synthesize the evidence. The panel found that phonics, along with explicit instruction in phonemic(音位的) awareness, fluency and comprehension, worked best.\n\nYet over two decades on, \"balanced literacy\" is still being taught in classrooms. But advances in statistics and brain imaging have disproved the whole-language method. To the teacher who is a proficient reader, literacy seems like a natural process that requires educated guessing, rather than the deliberate process emphasized by phonics. Teachers can imagine that they learned to read through osmosis(潜移默化) when they were children. Without proper training, they bring this to classrooms.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is ill reputed."
+        },
+        {
+          "id": "B",
+          "text": "It is mostly misapplied."
+        },
+        {
+          "id": "C",
+          "text": "It is arbitrarily excluded."
+        },
+        {
+          "id": "D",
+          "text": "It is misrepresented."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：It is ill reputed.\n关键词检索定位到第 1 段的候选相关句：But in many classrooms, this can be a dirty word.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2023-06-1-nonlistening-q52",
+      "canonicalId": "lazynote-cet6-2023-06-1-q52",
+      "number": 52,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What has America been witnessing for decades?",
+      "passage": "Phonics, which involves sounding out words syllable(音节) by syllable, is the best way to teach children to read. But in many classrooms, this can be a dirty word. So much so that some teachers have had to sneak phonics teaching materials into the classroom. Most American children are taught to read in a way that study after study has found to be wrong.\n\nThe consequences of this are striking. Less than half of all American adults were proficient readers in 2017. American fourth graders rank 15th on the Progress in International Literacy Study, an international exam.\n\nAmerica is stuck in a debate about teaching children to read that has been going on for decades. Some advocate teaching symbol-sound relationships (the sound k can be spelled as c, k, ck, or ch), known as phonics. Others support an immersive approach (using pictures of a cat to learn the word cat), known as \"whole language\". Most teachers today, almost three out of four according to a survey by the Ed Week Research Centre in 2019, use a mix called \"balanced literacy\". This combination of methods is ineffective. \"You can't sprinkle in a little phonics,\" says Tenette Smith, executive director of elementary education and reading at Mississippi's education department. \"It has to be systematic and explicitly taught.\"\n\nMississippi, often behind in social policy, has set an example here. In a state once notorious for its low reading scores, the Mississippi state legislature passed new literacy standards in 2013. Since then Mississippi has seen remarkable gains. Its fourth graders have moved from 49th (out of 50 states) to 29th on the National Assessment of Educational Progress, a nationwide exam. In 2019 it was the only state to improve its scores. For the first time since measurement began, Mississippi's pupils are now average readers, a remarkable achievement in such a poor state.\n\nMississippi's success is attributed to implementing reading methods supported by a body of research known as the science of reading. In 1997 Congress requested the National Institute of Child Health and Human Development and the Department of Education to convene a National Reading Panel to end the \"reading wars\" and synthesize the evidence. The panel found that phonics, along with explicit instruction in phonemic(音位的) awareness, fluency and comprehension, worked best.\n\nYet over two decades on, \"balanced literacy\" is still being taught in classrooms. But advances in statistics and brain imaging have disproved the whole-language method. To the teacher who is a proficient reader, literacy seems like a natural process that requires educated guessing, rather than the deliberate process emphasized by phonics. Teachers can imagine that they learned to read through osmosis(潜移默化) when they were children. Without proper training, they bring this to classrooms.",
+      "options": [
+        {
+          "id": "A",
+          "text": "An obsession with innovating teaching methodologies of reading."
+        },
+        {
+          "id": "B",
+          "text": "An enduring debate over the approach to teaching children to read."
+        },
+        {
+          "id": "C",
+          "text": "An increasing concern with many children's inadequacy in literacy."
+        },
+        {
+          "id": "D",
+          "text": "An ever-forceful advocacy of a combined method for teaching reading."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：An enduring debate over the approach to teaching children to read.\n关键词检索定位到第 3 段的候选相关句：America is stuck in a debate about teaching children to read that has been going on for decades.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2023-06-1-nonlistening-q53",
+      "canonicalId": "lazynote-cet6-2023-06-1-q53",
+      "number": 53,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "Why does Tenette Smith think a combination of teaching methods is ineffective?",
+      "passage": "Phonics, which involves sounding out words syllable(音节) by syllable, is the best way to teach children to read. But in many classrooms, this can be a dirty word. So much so that some teachers have had to sneak phonics teaching materials into the classroom. Most American children are taught to read in a way that study after study has found to be wrong.\n\nThe consequences of this are striking. Less than half of all American adults were proficient readers in 2017. American fourth graders rank 15th on the Progress in International Literacy Study, an international exam.\n\nAmerica is stuck in a debate about teaching children to read that has been going on for decades. Some advocate teaching symbol-sound relationships (the sound k can be spelled as c, k, ck, or ch), known as phonics. Others support an immersive approach (using pictures of a cat to learn the word cat), known as \"whole language\". Most teachers today, almost three out of four according to a survey by the Ed Week Research Centre in 2019, use a mix called \"balanced literacy\". This combination of methods is ineffective. \"You can't sprinkle in a little phonics,\" says Tenette Smith, executive director of elementary education and reading at Mississippi's education department. \"It has to be systematic and explicitly taught.\"\n\nMississippi, often behind in social policy, has set an example here. In a state once notorious for its low reading scores, the Mississippi state legislature passed new literacy standards in 2013. Since then Mississippi has seen remarkable gains. Its fourth graders have moved from 49th (out of 50 states) to 29th on the National Assessment of Educational Progress, a nationwide exam. In 2019 it was the only state to improve its scores. For the first time since measurement began, Mississippi's pupils are now average readers, a remarkable achievement in such a poor state.\n\nMississippi's success is attributed to implementing reading methods supported by a body of research known as the science of reading. In 1997 Congress requested the National Institute of Child Health and Human Development and the Department of Education to convene a National Reading Panel to end the \"reading wars\" and synthesize the evidence. The panel found that phonics, along with explicit instruction in phonemic(音位的) awareness, fluency and comprehension, worked best.\n\nYet over two decades on, \"balanced literacy\" is still being taught in classrooms. But advances in statistics and brain imaging have disproved the whole-language method. To the teacher who is a proficient reader, literacy seems like a natural process that requires educated guessing, rather than the deliberate process emphasized by phonics. Teachers can imagine that they learned to read through osmosis(潜移默化) when they were children. Without proper training, they bring this to classrooms.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elementary schoolchildren will be frustrated when taught with several methods combined."
+        },
+        {
+          "id": "B",
+          "text": "Phonics has to be systematically applied and clearly taught to achieve the desired effect."
+        },
+        {
+          "id": "C",
+          "text": "Sprinkling in a little phonics deters the progress of even adequately motivated children."
+        },
+        {
+          "id": "D",
+          "text": "Balanced literacy fails to sustain children's interest in developing a good reading habit."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：Phonics has to be systematically applied and clearly taught to achieve the desired effect.\n关键词检索定位到第 3 段的候选相关句：This combination of methods is ineffective.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2023-06-1-nonlistening-q54",
+      "canonicalId": "lazynote-cet6-2023-06-1-q54",
+      "number": 54,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author say Mississippi's success is attributed to?",
+      "passage": "Phonics, which involves sounding out words syllable(音节) by syllable, is the best way to teach children to read. But in many classrooms, this can be a dirty word. So much so that some teachers have had to sneak phonics teaching materials into the classroom. Most American children are taught to read in a way that study after study has found to be wrong.\n\nThe consequences of this are striking. Less than half of all American adults were proficient readers in 2017. American fourth graders rank 15th on the Progress in International Literacy Study, an international exam.\n\nAmerica is stuck in a debate about teaching children to read that has been going on for decades. Some advocate teaching symbol-sound relationships (the sound k can be spelled as c, k, ck, or ch), known as phonics. Others support an immersive approach (using pictures of a cat to learn the word cat), known as \"whole language\". Most teachers today, almost three out of four according to a survey by the Ed Week Research Centre in 2019, use a mix called \"balanced literacy\". This combination of methods is ineffective. \"You can't sprinkle in a little phonics,\" says Tenette Smith, executive director of elementary education and reading at Mississippi's education department. \"It has to be systematic and explicitly taught.\"\n\nMississippi, often behind in social policy, has set an example here. In a state once notorious for its low reading scores, the Mississippi state legislature passed new literacy standards in 2013. Since then Mississippi has seen remarkable gains. Its fourth graders have moved from 49th (out of 50 states) to 29th on the National Assessment of Educational Progress, a nationwide exam. In 2019 it was the only state to improve its scores. For the first time since measurement began, Mississippi's pupils are now average readers, a remarkable achievement in such a poor state.\n\nMississippi's success is attributed to implementing reading methods supported by a body of research known as the science of reading. In 1997 Congress requested the National Institute of Child Health and Human Development and the Department of Education to convene a National Reading Panel to end the \"reading wars\" and synthesize the evidence. The panel found that phonics, along with explicit instruction in phonemic(音位的) awareness, fluency and comprehension, worked best.\n\nYet over two decades on, \"balanced literacy\" is still being taught in classrooms. But advances in statistics and brain imaging have disproved the whole-language method. To the teacher who is a proficient reader, literacy seems like a natural process that requires educated guessing, rather than the deliberate process emphasized by phonics. Teachers can imagine that they learned to read through osmosis(潜移默化) when they were children. Without proper training, they bring this to classrooms.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Convening a National Reading Panel to synthesize research evidence."
+        },
+        {
+          "id": "B",
+          "text": "Placing sufficient emphasis upon both fluency and comprehension."
+        },
+        {
+          "id": "C",
+          "text": "Adopting scientifically grounded approaches to teaching reading."
+        },
+        {
+          "id": "D",
+          "text": "Obtaining support from Congress to upgrade teaching methods."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：Adopting scientifically grounded approaches to teaching reading.\n关键词检索定位到第 5 段的候选相关句：Mississippi's success is attributed to implementing reading methods supported by a body of research known as the science of reading.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2023-06-1-nonlistening-q55",
+      "canonicalId": "lazynote-cet6-2023-06-1-q55",
+      "number": 55,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What have advances in statistics and brain imaging proved ineffective?",
+      "passage": "Phonics, which involves sounding out words syllable(音节) by syllable, is the best way to teach children to read. But in many classrooms, this can be a dirty word. So much so that some teachers have had to sneak phonics teaching materials into the classroom. Most American children are taught to read in a way that study after study has found to be wrong.\n\nThe consequences of this are striking. Less than half of all American adults were proficient readers in 2017. American fourth graders rank 15th on the Progress in International Literacy Study, an international exam.\n\nAmerica is stuck in a debate about teaching children to read that has been going on for decades. Some advocate teaching symbol-sound relationships (the sound k can be spelled as c, k, ck, or ch), known as phonics. Others support an immersive approach (using pictures of a cat to learn the word cat), known as \"whole language\". Most teachers today, almost three out of four according to a survey by the Ed Week Research Centre in 2019, use a mix called \"balanced literacy\". This combination of methods is ineffective. \"You can't sprinkle in a little phonics,\" says Tenette Smith, executive director of elementary education and reading at Mississippi's education department. \"It has to be systematic and explicitly taught.\"\n\nMississippi, often behind in social policy, has set an example here. In a state once notorious for its low reading scores, the Mississippi state legislature passed new literacy standards in 2013. Since then Mississippi has seen remarkable gains. Its fourth graders have moved from 49th (out of 50 states) to 29th on the National Assessment of Educational Progress, a nationwide exam. In 2019 it was the only state to improve its scores. For the first time since measurement began, Mississippi's pupils are now average readers, a remarkable achievement in such a poor state.\n\nMississippi's success is attributed to implementing reading methods supported by a body of research known as the science of reading. In 1997 Congress requested the National Institute of Child Health and Human Development and the Department of Education to convene a National Reading Panel to end the \"reading wars\" and synthesize the evidence. The panel found that phonics, along with explicit instruction in phonemic(音位的) awareness, fluency and comprehension, worked best.\n\nYet over two decades on, \"balanced literacy\" is still being taught in classrooms. But advances in statistics and brain imaging have disproved the whole-language method. To the teacher who is a proficient reader, literacy seems like a natural process that requires educated guessing, rather than the deliberate process emphasized by phonics. Teachers can imagine that they learned to read through osmosis(潜移默化) when they were children. Without proper training, they bring this to classrooms.",
+      "options": [
+        {
+          "id": "A",
+          "text": "The teaching of symbol-sound relationships."
+        },
+        {
+          "id": "B",
+          "text": "Explicit instruction in phonemic awareness."
+        },
+        {
+          "id": "C",
+          "text": "Efforts to end the reading wars."
+        },
+        {
+          "id": "D",
+          "text": "The immersive approach."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：The immersive approach.\n关键词检索定位到第 6 段的候选相关句：But advances in statistics and brain imaging have disproved the whole-language method.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    },
+    {
+      "id": "cet6-2023-06-1-nonlistening-translation",
+      "number": "IV",
+      "level": "CET6",
+      "type": "short_text_self_check",
+      "skill": "translation",
+      "section": "translation",
+      "prompt": "Directions : For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2 .\n\n近年来,越来越多的中国文化产品走向全球市场, 日益受到海外消费者的青睐。随着中国对外文化贸易的快速发展,中国文化产品出口额已持续多年位居世界前列,形成了一批具有国际影响力的文化企业、产品和品牌。数据显示,中国的出版物、影视作品、网络文学与动漫作品等在海外的销售量连年攀升。中国政府出台了一系列政策鼓励和支持更多具有中国元素的优秀文化产品走出国门,扩大海外市场份额,进一步提升中国文化的世界影响力。",
+      "options": [],
+      "correctAnswer": "In recent years, increasing numbers of Chinese cultural products have entered the global market and gained popularity among overseas consumers. With the rapid growth of China's foreign cultural trade, its cultural product exports have ranked among the world's leading levels for many consecutive years. A number of cultural enterprises, products and brands with international influence have emerged. Data show that overseas sales of Chinese publications, films and television productions, online literature and animation have increased year after year. The Chinese government has introduced a series of policies to encourage and support more outstanding cultural products featuring Chinese elements to go abroad, expand their share of overseas markets and further increase the global influence of Chinese culture.",
+      "referenceAnswer": "In recent years, increasing numbers of Chinese cultural products have entered the global market and gained popularity among overseas consumers. With the rapid growth of China's foreign cultural trade, its cultural product exports have ranked among the world's leading levels for many consecutive years. A number of cultural enterprises, products and brands with international influence have emerged. Data show that overseas sales of Chinese publications, films and television productions, online literature and animation have increased year after year. The Chinese government has introduced a series of policies to encourage and support more outstanding cultural products featuring Chinese elements to go abroad, expand their share of overseas markets and further increase the global influence of Chinese culture.",
+      "hint": "世界前列不是全球第一；四类作品、连续多年和政策三个目的均保留。",
+      "explanation": "以下为原创参考译文，准确的同义表达也可接受。ranked among the world's leading levels保留前列而非唯一第一；consecutive years强调连续。films and television productions对应影视，online literature为网络文学。go abroad、expand、increase并列政策目标，不能只译出口增长。",
+      "rubric": [
+        "信息：逐句核对人物、地点、数字、时间、因果和并列信息，避免漏译或增译。",
+        "表达：世界前列不是全球第一；四类作品、连续多年和政策三个目的均保留。",
+        "语法：检查时态、语态、主谓一致、冠词与单复数，长句按英语逻辑合理拆分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2023-06-1-nonlistening"
+    }
+  ]
+}

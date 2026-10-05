@@ -1,6 +1,7 @@
+const { withSharing } = require('../../../utils/page-share')
 const { api } = require('../../../utils/api-client')
 const emptyForm = () => ({ name: '', price: '', category: '默认分类', description: '', stock: '999', isAvailable: true, image: '' })
-Page({
+Page(withSharing({
   data: { shops: [], shopIndex: 0, shopId: '', menus: [], loading: false, saving: false, uploading: false,
     showAddModal: false, editingId: '', formData: emptyForm() },
   refreshPage() { return this.selectComponent('#page-refresh').refresh(() => this.loadMenus()) },
@@ -66,4 +67,4 @@ Page({
     } catch (error) { wx.showToast({ title: error.message || '操作失败', icon: 'none' }) }
     finally { this.setData({ saving: false }) }
   }
-})
+}))

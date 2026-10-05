@@ -1,0 +1,1949 @@
+{
+  "schemaVersion": 1,
+  "status": "verified_structured",
+  "source": {
+    "id": "cet4-2019-12-1-nonlistening",
+    "textCollection": "https://english-exam.lazynote.cn",
+    "textUrl": "https://english-exam.lazynote.cn/cet4/paper/2019-12-1/",
+    "textSha256": "5b9a7da84984bef05732075823ef8309b65725c4c8fd687541dac1b90f74b630",
+    "answerSources": [
+      {
+        "section": "part3-section-a",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2019-12-1/part3-section-a/",
+        "sha256": "268e74e13eed727c736361ca4bee950b5f9dde106c7830b82115848ab6856d41"
+      },
+      {
+        "section": "part3-section-b",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2019-12-1/part3-section-b/",
+        "sha256": "861dfa3620cbf290d6204b4cbb209a45ca7013cdccb2f4fb09804fdbf345dcd7"
+      },
+      {
+        "section": "part3-section-c-1",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2019-12-1/part3-section-c-1/",
+        "sha256": "5b9137b0d1a3f3d87537332ae2038504deaf0b446aff38327896f5fccdda0cb9"
+      },
+      {
+        "section": "part3-section-c-2",
+        "url": "https://english-exam.lazynote.cn/cet4/sections/2019-12-1/part3-section-c-2/",
+        "sha256": "9d7b65da103f3ed8343bbe3ac721dc03bac3b5fa18c282670c39e7d65b170e74"
+      }
+    ],
+    "rightsUrl": "https://english-exam.lazynote.cn",
+    "rights": "Source footer attributes original papers to the National College English Test Committee. Original materials retain their respective rights; no blanket source license is asserted. Commercial explanatory prose is not copied.",
+    "sourceRightsNotice": "© 2026 懒笔记 · 蜀ICP备2024049450号-1 · 川公网安备51019002006323号 · 增值电信业务经营许可证：川B2-20240301 · 真题版权归全国硕士研究生招生考试 / 全国大学英语四六级考试委员会所有 · 隐私政策 · 用户协议",
+    "sourceTermsUrl": "https://english-exam.lazynote.cn/terms/",
+    "reviewedAt": "2026-10-03",
+    "answerStatus": "public_reference_structural_consistency_verified",
+    "explanations": "Project-generated contextual evidence notes. Close-reading locations are keyword-search candidates, not manually verified detailed explanations.",
+    "referenceEssays": "Project-authored full reference examples bound to the original prompts; not official model answers.",
+    "materialSources": [],
+    "corrections": [],
+    "previousReviewedAnswerSources": [],
+    "sourceEdition": "lazynote public original-paper arrangement; set numbering can differ from other collections.",
+    "independentlyConfirmedSharedSource": "",
+    "readingSourceCorrection": null,
+    "sectionSourceReplacement": null,
+    "independentAnswerChecks": [],
+    "sharedSectionSource": {}
+  },
+  "papers": [
+    {
+      "id": "cet4-2019-12-1-nonlistening",
+      "level": "CET4",
+      "year": 2019,
+      "month": 12,
+      "set": 1,
+      "title": "2019年12月英语四级第1套真题（不含听力）",
+      "authenticity": "past_exam",
+      "questionIds": [
+        "cet4-2019-12-1-nonlistening-writing",
+        "cet4-2019-12-1-nonlistening-q26",
+        "cet4-2019-12-1-nonlistening-q27",
+        "cet4-2019-12-1-nonlistening-q28",
+        "cet4-2019-12-1-nonlistening-q29",
+        "cet4-2019-12-1-nonlistening-q30",
+        "cet4-2019-12-1-nonlistening-q31",
+        "cet4-2019-12-1-nonlistening-q32",
+        "cet4-2019-12-1-nonlistening-q33",
+        "cet4-2019-12-1-nonlistening-q34",
+        "cet4-2019-12-1-nonlistening-q35",
+        "cet4-2019-12-1-nonlistening-q36",
+        "cet4-2019-12-1-nonlistening-q37",
+        "cet4-2019-12-1-nonlistening-q38",
+        "cet4-2019-12-1-nonlistening-q39",
+        "cet4-2019-12-1-nonlistening-q40",
+        "cet4-2019-12-1-nonlistening-q41",
+        "cet4-2019-12-1-nonlistening-q42",
+        "cet4-2019-12-1-nonlistening-q43",
+        "cet4-2019-12-1-nonlistening-q44",
+        "cet4-2019-12-1-nonlistening-q45",
+        "cet4-2019-12-1-nonlistening-q46",
+        "cet4-2019-12-1-nonlistening-q47",
+        "cet4-2019-12-1-nonlistening-q48",
+        "cet4-2019-12-1-nonlistening-q49",
+        "cet4-2019-12-1-nonlistening-q50",
+        "cet4-2019-12-1-nonlistening-q51",
+        "cet4-2019-12-1-nonlistening-q52",
+        "cet4-2019-12-1-nonlistening-q53",
+        "cet4-2019-12-1-nonlistening-q54",
+        "cet4-2019-12-1-nonlistening-q55",
+        "cet4-2019-12-1-nonlistening-translation"
+      ],
+      "durationSeconds": 6000,
+      "description": "写作1题、阅读30题、翻译1题，不含听力。客观题答案与题面、选项完成结构一致性核对。",
+      "sourceId": "cet4-2019-12-1-nonlistening",
+      "coverage": {
+        "fullPaper": false,
+        "fullNonListening": true,
+        "listeningExcluded": true,
+        "objectiveNumbers": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "objectiveCount": 30,
+        "subjectiveCount": 2,
+        "sections": [
+          "writing",
+          "reading_word_bank",
+          "reading_matching",
+          "reading_comprehension",
+          "translation"
+        ],
+        "sharedSectionSource": {},
+        "note": "写作1题、阅读30题、翻译1题，不含听力。",
+        "independentlyConfirmedSharedSource": "",
+        "readingSourceCorrection": null,
+        "sectionSourceReplacement": null,
+        "referenceStatus": "project_authored"
+      },
+      "resources": [
+        {
+          "id": "cet4-2019-12-1-nonlistening-source",
+          "type": "web",
+          "title": "原卷来源与题面核对",
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2019-12-1/"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cet4-2019-12-1-nonlistening-writing",
+      "number": "I",
+      "level": "CET4",
+      "type": "short_text_self_check",
+      "skill": "writing",
+      "section": "writing",
+      "prompt": "Directions: For this part, you are allowed 30 minutes to write a letter to a foreign friend who wants to teach English in China. Please recommend a city to him. You should write at least 120 words but no more than 180 words.",
+      "options": [],
+      "correctAnswer": "Dear Alex,\n\nI am delighted to hear that you would like to teach English in China. I recommend Chengdu, a city where you could enjoy an interesting cultural experience while developing your teaching skills.\n\nFirst, the city has many schools and language centers, so you can explore suitable positions and compare their requirements carefully. It would be wise to confirm the employer's qualifications and the necessary work documents before accepting an offer. Second, Chengdu offers a friendly environment for learning about Chinese life. You can visit museums, try local food and practice Chinese during everyday conversations. Its convenient public transport also makes it easier to explore different neighborhoods.\n\nI suggest contacting potential schools in advance and asking about their curriculum and support for international teachers. If you decide to visit, I would be happy to help you plan your first week.\n\nBest wishes,\nLi Ming",
+      "referenceAnswer": "Dear Alex,\n\nI am delighted to hear that you would like to teach English in China. I recommend Chengdu, a city where you could enjoy an interesting cultural experience while developing your teaching skills.\n\nFirst, the city has many schools and language centers, so you can explore suitable positions and compare their requirements carefully. It would be wise to confirm the employer's qualifications and the necessary work documents before accepting an offer. Second, Chengdu offers a friendly environment for learning about Chinese life. You can visit museums, try local food and practice Chinese during everyday conversations. Its convenient public transport also makes it easier to explore different neighborhoods.\n\nI suggest contacting potential schools in advance and asking about their curriculum and support for international teachers. If you decide to visit, I would be happy to help you plan your first week.\n\nBest wishes,\nLi Ming",
+      "hint": "写给朋友的信需明确推荐一座城市，并围绕在中国教英语解释理由。",
+      "explanation": "以下为按题意独立写成的参考范文，作文没有唯一答案。以成都为具体推荐，理由聚焦教学机会、文化与生活；不能把题目写成旅游介绍。称呼和落款保持书信体。\n\n书信顺序是回应朋友来意→明确推荐成都→两类理由→准备建议→友好收尾。I recommend…可直接点题，confirm the employer’s qualifications是核实雇主资质，in advance是提前。把教学岗位、文化体验和交通作为相关理由，不能只列景点名称。用would like to、I suggest和would be happy to保持礼貌语气；称呼与落款不可省略，例子中的工作手续提醒不表示已核验某个职位。\n\n练习方法：先用提示列三段提纲，在30分钟内独立写作，再按下方标准逐项打分；把失分最多的一段重写。参考范文约145词（缩写、连字符词按一词，含标题或书信称呼落款），满足120–180词要求；评分用于练习自检，不代表官方阅卷分数。",
+      "rubric": [
+        "练习自评总分15分：题目覆盖0–6＋结构0–4＋语言0–5，先独立写完再对照；观点不同于范文也可得满分，只要有合理支持。",
+        "题目覆盖0–6分：该题检查——写给朋友的信需明确推荐一座城市，并围绕在中国教英语解释理由。。6分=任务完整且有具体理由/活动/例证；4–5分=切题但细节偏薄；2–3分=遗漏主要任务；0–1分=基本离题。",
+        "结构0–4分：4分=开头明确任务、主体按逻辑展开、结尾回扣，段间自然；3分=顺序清楚但局部衔接生硬；1–2分=跳跃或机械罗列；0分=内容难以组织理解。",
+        "语言0–5分：5分=语法和用词基本准确、句型有变化；3–4分=少量错误但不影响理解；1–2分=反复出现时态、主谓一致或搭配错误并影响阅读；0分=多数句子不能理解。",
+        "格式与修订：按原题保持120–180词；新闻/书信/提案用对应体裁，明确要求的首句逐字保留。若超限、少写任务或缺必要格式，先修改再评分，不把字数达标当作内容满分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2019-12-1-nonlistening-q26",
+      "canonicalId": "lazynote-cet4-2019-12-1-q26",
+      "number": 26,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 26 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "When traveling overseas, do you buy water in plastic bottles or take your chances with tap water? Imagine you are wandering about on a Thai island or [26] ____ the ruins of Angkor. It's hot so you grab a bottle of water from a local vendor. It's the safe thing to do, right? The bottle is [27] ____ , and the label says \"pure water\". But maybe what's inside is not so [28] ____ . Would you still be drinking it if you knew that more than 90 percent of all bottled water sold around the world [29] ____ microplastics?\n\nThat's the conclusion of a recently [30] ____ study, which analysed 259 bottles from 11 brands sold in nine countries, [31] ____ an average of 325 plastic particles per liter of water. These microplastics included a [32] ____ commonly known as PET and widely used in the manufacture of clothing and food and [33] ____ containers. The study was conducted at the State University of New York on behalf of Orb Media, a journalism organisation. About a million bottles are bought every minute, not only by thirsty tourists but also by many of the 2.1 billion worldwide who live with unsafe drinking water.\n\nConfronted with this [34] ____ , several bottled-water manufacturers including Nestle and Coca-Cola undertook their own studies using the same methodology. These studies showed that their water did contain microplastics, but far less than the Orb study suggested. Regardless, the World Health Organisation has launched a review into the [35] ____ health risks of drinking water from plastic bottles.",
+      "options": [
+        {
+          "id": "A",
+          "text": "adequate"
+        },
+        {
+          "id": "B",
+          "text": "admiring"
+        },
+        {
+          "id": "C",
+          "text": "contains"
+        },
+        {
+          "id": "D",
+          "text": "defending"
+        },
+        {
+          "id": "E",
+          "text": "evidence"
+        },
+        {
+          "id": "F",
+          "text": "instant"
+        },
+        {
+          "id": "G",
+          "text": "liquid"
+        },
+        {
+          "id": "H",
+          "text": "modified"
+        },
+        {
+          "id": "I",
+          "text": "natural"
+        },
+        {
+          "id": "J",
+          "text": "potential"
+        },
+        {
+          "id": "K",
+          "text": "released"
+        },
+        {
+          "id": "L",
+          "text": "revealing"
+        },
+        {
+          "id": "M",
+          "text": "sealed"
+        },
+        {
+          "id": "N",
+          "text": "solves"
+        },
+        {
+          "id": "O",
+          "text": "substance"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "先看第 26 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 B（admiring）。本空所在句：Imagine you are wandering about on a Thai island or [26] ____ the ruins of Angkor.\n将本空替换为 admiring 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2019-12-1-nonlistening-q27",
+      "canonicalId": "lazynote-cet4-2019-12-1-q27",
+      "number": 27,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 27 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "When traveling overseas, do you buy water in plastic bottles or take your chances with tap water? Imagine you are wandering about on a Thai island or [26] ____ the ruins of Angkor. It's hot so you grab a bottle of water from a local vendor. It's the safe thing to do, right? The bottle is [27] ____ , and the label says \"pure water\". But maybe what's inside is not so [28] ____ . Would you still be drinking it if you knew that more than 90 percent of all bottled water sold around the world [29] ____ microplastics?\n\nThat's the conclusion of a recently [30] ____ study, which analysed 259 bottles from 11 brands sold in nine countries, [31] ____ an average of 325 plastic particles per liter of water. These microplastics included a [32] ____ commonly known as PET and widely used in the manufacture of clothing and food and [33] ____ containers. The study was conducted at the State University of New York on behalf of Orb Media, a journalism organisation. About a million bottles are bought every minute, not only by thirsty tourists but also by many of the 2.1 billion worldwide who live with unsafe drinking water.\n\nConfronted with this [34] ____ , several bottled-water manufacturers including Nestle and Coca-Cola undertook their own studies using the same methodology. These studies showed that their water did contain microplastics, but far less than the Orb study suggested. Regardless, the World Health Organisation has launched a review into the [35] ____ health risks of drinking water from plastic bottles.",
+      "options": [
+        {
+          "id": "A",
+          "text": "adequate"
+        },
+        {
+          "id": "B",
+          "text": "admiring"
+        },
+        {
+          "id": "C",
+          "text": "contains"
+        },
+        {
+          "id": "D",
+          "text": "defending"
+        },
+        {
+          "id": "E",
+          "text": "evidence"
+        },
+        {
+          "id": "F",
+          "text": "instant"
+        },
+        {
+          "id": "G",
+          "text": "liquid"
+        },
+        {
+          "id": "H",
+          "text": "modified"
+        },
+        {
+          "id": "I",
+          "text": "natural"
+        },
+        {
+          "id": "J",
+          "text": "potential"
+        },
+        {
+          "id": "K",
+          "text": "released"
+        },
+        {
+          "id": "L",
+          "text": "revealing"
+        },
+        {
+          "id": "M",
+          "text": "sealed"
+        },
+        {
+          "id": "N",
+          "text": "solves"
+        },
+        {
+          "id": "O",
+          "text": "substance"
+        }
+      ],
+      "correctAnswer": "M",
+      "hint": "先看第 27 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 M（sealed）。本空所在句：The bottle is [27] ____ , and the label says \"pure water\".\n将本空替换为 sealed 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2019-12-1-nonlistening-q28",
+      "canonicalId": "lazynote-cet4-2019-12-1-q28",
+      "number": 28,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 28 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "When traveling overseas, do you buy water in plastic bottles or take your chances with tap water? Imagine you are wandering about on a Thai island or [26] ____ the ruins of Angkor. It's hot so you grab a bottle of water from a local vendor. It's the safe thing to do, right? The bottle is [27] ____ , and the label says \"pure water\". But maybe what's inside is not so [28] ____ . Would you still be drinking it if you knew that more than 90 percent of all bottled water sold around the world [29] ____ microplastics?\n\nThat's the conclusion of a recently [30] ____ study, which analysed 259 bottles from 11 brands sold in nine countries, [31] ____ an average of 325 plastic particles per liter of water. These microplastics included a [32] ____ commonly known as PET and widely used in the manufacture of clothing and food and [33] ____ containers. The study was conducted at the State University of New York on behalf of Orb Media, a journalism organisation. About a million bottles are bought every minute, not only by thirsty tourists but also by many of the 2.1 billion worldwide who live with unsafe drinking water.\n\nConfronted with this [34] ____ , several bottled-water manufacturers including Nestle and Coca-Cola undertook their own studies using the same methodology. These studies showed that their water did contain microplastics, but far less than the Orb study suggested. Regardless, the World Health Organisation has launched a review into the [35] ____ health risks of drinking water from plastic bottles.",
+      "options": [
+        {
+          "id": "A",
+          "text": "adequate"
+        },
+        {
+          "id": "B",
+          "text": "admiring"
+        },
+        {
+          "id": "C",
+          "text": "contains"
+        },
+        {
+          "id": "D",
+          "text": "defending"
+        },
+        {
+          "id": "E",
+          "text": "evidence"
+        },
+        {
+          "id": "F",
+          "text": "instant"
+        },
+        {
+          "id": "G",
+          "text": "liquid"
+        },
+        {
+          "id": "H",
+          "text": "modified"
+        },
+        {
+          "id": "I",
+          "text": "natural"
+        },
+        {
+          "id": "J",
+          "text": "potential"
+        },
+        {
+          "id": "K",
+          "text": "released"
+        },
+        {
+          "id": "L",
+          "text": "revealing"
+        },
+        {
+          "id": "M",
+          "text": "sealed"
+        },
+        {
+          "id": "N",
+          "text": "solves"
+        },
+        {
+          "id": "O",
+          "text": "substance"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "先看第 28 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 I（natural）。本空所在句：But maybe what's inside is not so [28] ____ .\n将本空替换为 natural 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2019-12-1-nonlistening-q29",
+      "canonicalId": "lazynote-cet4-2019-12-1-q29",
+      "number": 29,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 29 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "When traveling overseas, do you buy water in plastic bottles or take your chances with tap water? Imagine you are wandering about on a Thai island or [26] ____ the ruins of Angkor. It's hot so you grab a bottle of water from a local vendor. It's the safe thing to do, right? The bottle is [27] ____ , and the label says \"pure water\". But maybe what's inside is not so [28] ____ . Would you still be drinking it if you knew that more than 90 percent of all bottled water sold around the world [29] ____ microplastics?\n\nThat's the conclusion of a recently [30] ____ study, which analysed 259 bottles from 11 brands sold in nine countries, [31] ____ an average of 325 plastic particles per liter of water. These microplastics included a [32] ____ commonly known as PET and widely used in the manufacture of clothing and food and [33] ____ containers. The study was conducted at the State University of New York on behalf of Orb Media, a journalism organisation. About a million bottles are bought every minute, not only by thirsty tourists but also by many of the 2.1 billion worldwide who live with unsafe drinking water.\n\nConfronted with this [34] ____ , several bottled-water manufacturers including Nestle and Coca-Cola undertook their own studies using the same methodology. These studies showed that their water did contain microplastics, but far less than the Orb study suggested. Regardless, the World Health Organisation has launched a review into the [35] ____ health risks of drinking water from plastic bottles.",
+      "options": [
+        {
+          "id": "A",
+          "text": "adequate"
+        },
+        {
+          "id": "B",
+          "text": "admiring"
+        },
+        {
+          "id": "C",
+          "text": "contains"
+        },
+        {
+          "id": "D",
+          "text": "defending"
+        },
+        {
+          "id": "E",
+          "text": "evidence"
+        },
+        {
+          "id": "F",
+          "text": "instant"
+        },
+        {
+          "id": "G",
+          "text": "liquid"
+        },
+        {
+          "id": "H",
+          "text": "modified"
+        },
+        {
+          "id": "I",
+          "text": "natural"
+        },
+        {
+          "id": "J",
+          "text": "potential"
+        },
+        {
+          "id": "K",
+          "text": "released"
+        },
+        {
+          "id": "L",
+          "text": "revealing"
+        },
+        {
+          "id": "M",
+          "text": "sealed"
+        },
+        {
+          "id": "N",
+          "text": "solves"
+        },
+        {
+          "id": "O",
+          "text": "substance"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "先看第 29 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 C（contains）。本空所在句：Would you still be drinking it if you knew that more than 90 percent of all bottled water sold around the world [29] ____ microplastics?\n将本空替换为 contains 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2019-12-1-nonlistening-q30",
+      "canonicalId": "lazynote-cet4-2019-12-1-q30",
+      "number": 30,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 30 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "When traveling overseas, do you buy water in plastic bottles or take your chances with tap water? Imagine you are wandering about on a Thai island or [26] ____ the ruins of Angkor. It's hot so you grab a bottle of water from a local vendor. It's the safe thing to do, right? The bottle is [27] ____ , and the label says \"pure water\". But maybe what's inside is not so [28] ____ . Would you still be drinking it if you knew that more than 90 percent of all bottled water sold around the world [29] ____ microplastics?\n\nThat's the conclusion of a recently [30] ____ study, which analysed 259 bottles from 11 brands sold in nine countries, [31] ____ an average of 325 plastic particles per liter of water. These microplastics included a [32] ____ commonly known as PET and widely used in the manufacture of clothing and food and [33] ____ containers. The study was conducted at the State University of New York on behalf of Orb Media, a journalism organisation. About a million bottles are bought every minute, not only by thirsty tourists but also by many of the 2.1 billion worldwide who live with unsafe drinking water.\n\nConfronted with this [34] ____ , several bottled-water manufacturers including Nestle and Coca-Cola undertook their own studies using the same methodology. These studies showed that their water did contain microplastics, but far less than the Orb study suggested. Regardless, the World Health Organisation has launched a review into the [35] ____ health risks of drinking water from plastic bottles.",
+      "options": [
+        {
+          "id": "A",
+          "text": "adequate"
+        },
+        {
+          "id": "B",
+          "text": "admiring"
+        },
+        {
+          "id": "C",
+          "text": "contains"
+        },
+        {
+          "id": "D",
+          "text": "defending"
+        },
+        {
+          "id": "E",
+          "text": "evidence"
+        },
+        {
+          "id": "F",
+          "text": "instant"
+        },
+        {
+          "id": "G",
+          "text": "liquid"
+        },
+        {
+          "id": "H",
+          "text": "modified"
+        },
+        {
+          "id": "I",
+          "text": "natural"
+        },
+        {
+          "id": "J",
+          "text": "potential"
+        },
+        {
+          "id": "K",
+          "text": "released"
+        },
+        {
+          "id": "L",
+          "text": "revealing"
+        },
+        {
+          "id": "M",
+          "text": "sealed"
+        },
+        {
+          "id": "N",
+          "text": "solves"
+        },
+        {
+          "id": "O",
+          "text": "substance"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "先看第 30 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 K（released）。本空所在句：That's the conclusion of a recently [30] ____ study, which analysed 259 bottles from 11 brands sold in nine countries, [31] ____ an average of 325 plastic particles per liter of water.\n将本空替换为 released 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2019-12-1-nonlistening-q31",
+      "canonicalId": "lazynote-cet4-2019-12-1-q31",
+      "number": 31,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 31 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "When traveling overseas, do you buy water in plastic bottles or take your chances with tap water? Imagine you are wandering about on a Thai island or [26] ____ the ruins of Angkor. It's hot so you grab a bottle of water from a local vendor. It's the safe thing to do, right? The bottle is [27] ____ , and the label says \"pure water\". But maybe what's inside is not so [28] ____ . Would you still be drinking it if you knew that more than 90 percent of all bottled water sold around the world [29] ____ microplastics?\n\nThat's the conclusion of a recently [30] ____ study, which analysed 259 bottles from 11 brands sold in nine countries, [31] ____ an average of 325 plastic particles per liter of water. These microplastics included a [32] ____ commonly known as PET and widely used in the manufacture of clothing and food and [33] ____ containers. The study was conducted at the State University of New York on behalf of Orb Media, a journalism organisation. About a million bottles are bought every minute, not only by thirsty tourists but also by many of the 2.1 billion worldwide who live with unsafe drinking water.\n\nConfronted with this [34] ____ , several bottled-water manufacturers including Nestle and Coca-Cola undertook their own studies using the same methodology. These studies showed that their water did contain microplastics, but far less than the Orb study suggested. Regardless, the World Health Organisation has launched a review into the [35] ____ health risks of drinking water from plastic bottles.",
+      "options": [
+        {
+          "id": "A",
+          "text": "adequate"
+        },
+        {
+          "id": "B",
+          "text": "admiring"
+        },
+        {
+          "id": "C",
+          "text": "contains"
+        },
+        {
+          "id": "D",
+          "text": "defending"
+        },
+        {
+          "id": "E",
+          "text": "evidence"
+        },
+        {
+          "id": "F",
+          "text": "instant"
+        },
+        {
+          "id": "G",
+          "text": "liquid"
+        },
+        {
+          "id": "H",
+          "text": "modified"
+        },
+        {
+          "id": "I",
+          "text": "natural"
+        },
+        {
+          "id": "J",
+          "text": "potential"
+        },
+        {
+          "id": "K",
+          "text": "released"
+        },
+        {
+          "id": "L",
+          "text": "revealing"
+        },
+        {
+          "id": "M",
+          "text": "sealed"
+        },
+        {
+          "id": "N",
+          "text": "solves"
+        },
+        {
+          "id": "O",
+          "text": "substance"
+        }
+      ],
+      "correctAnswer": "L",
+      "hint": "先看第 31 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 L（revealing）。本空所在句：That's the conclusion of a recently [30] ____ study, which analysed 259 bottles from 11 brands sold in nine countries, [31] ____ an average of 325 plastic particles per liter of water.\n将本空替换为 revealing 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2019-12-1-nonlistening-q32",
+      "canonicalId": "lazynote-cet4-2019-12-1-q32",
+      "number": 32,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 32 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "When traveling overseas, do you buy water in plastic bottles or take your chances with tap water? Imagine you are wandering about on a Thai island or [26] ____ the ruins of Angkor. It's hot so you grab a bottle of water from a local vendor. It's the safe thing to do, right? The bottle is [27] ____ , and the label says \"pure water\". But maybe what's inside is not so [28] ____ . Would you still be drinking it if you knew that more than 90 percent of all bottled water sold around the world [29] ____ microplastics?\n\nThat's the conclusion of a recently [30] ____ study, which analysed 259 bottles from 11 brands sold in nine countries, [31] ____ an average of 325 plastic particles per liter of water. These microplastics included a [32] ____ commonly known as PET and widely used in the manufacture of clothing and food and [33] ____ containers. The study was conducted at the State University of New York on behalf of Orb Media, a journalism organisation. About a million bottles are bought every minute, not only by thirsty tourists but also by many of the 2.1 billion worldwide who live with unsafe drinking water.\n\nConfronted with this [34] ____ , several bottled-water manufacturers including Nestle and Coca-Cola undertook their own studies using the same methodology. These studies showed that their water did contain microplastics, but far less than the Orb study suggested. Regardless, the World Health Organisation has launched a review into the [35] ____ health risks of drinking water from plastic bottles.",
+      "options": [
+        {
+          "id": "A",
+          "text": "adequate"
+        },
+        {
+          "id": "B",
+          "text": "admiring"
+        },
+        {
+          "id": "C",
+          "text": "contains"
+        },
+        {
+          "id": "D",
+          "text": "defending"
+        },
+        {
+          "id": "E",
+          "text": "evidence"
+        },
+        {
+          "id": "F",
+          "text": "instant"
+        },
+        {
+          "id": "G",
+          "text": "liquid"
+        },
+        {
+          "id": "H",
+          "text": "modified"
+        },
+        {
+          "id": "I",
+          "text": "natural"
+        },
+        {
+          "id": "J",
+          "text": "potential"
+        },
+        {
+          "id": "K",
+          "text": "released"
+        },
+        {
+          "id": "L",
+          "text": "revealing"
+        },
+        {
+          "id": "M",
+          "text": "sealed"
+        },
+        {
+          "id": "N",
+          "text": "solves"
+        },
+        {
+          "id": "O",
+          "text": "substance"
+        }
+      ],
+      "correctAnswer": "O",
+      "hint": "先看第 32 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 O（substance）。本空所在句：These microplastics included a [32] ____ commonly known as PET and widely used in the manufacture of clothing and food and [33] ____ containers.\n将本空替换为 substance 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2019-12-1-nonlistening-q33",
+      "canonicalId": "lazynote-cet4-2019-12-1-q33",
+      "number": 33,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 33 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "When traveling overseas, do you buy water in plastic bottles or take your chances with tap water? Imagine you are wandering about on a Thai island or [26] ____ the ruins of Angkor. It's hot so you grab a bottle of water from a local vendor. It's the safe thing to do, right? The bottle is [27] ____ , and the label says \"pure water\". But maybe what's inside is not so [28] ____ . Would you still be drinking it if you knew that more than 90 percent of all bottled water sold around the world [29] ____ microplastics?\n\nThat's the conclusion of a recently [30] ____ study, which analysed 259 bottles from 11 brands sold in nine countries, [31] ____ an average of 325 plastic particles per liter of water. These microplastics included a [32] ____ commonly known as PET and widely used in the manufacture of clothing and food and [33] ____ containers. The study was conducted at the State University of New York on behalf of Orb Media, a journalism organisation. About a million bottles are bought every minute, not only by thirsty tourists but also by many of the 2.1 billion worldwide who live with unsafe drinking water.\n\nConfronted with this [34] ____ , several bottled-water manufacturers including Nestle and Coca-Cola undertook their own studies using the same methodology. These studies showed that their water did contain microplastics, but far less than the Orb study suggested. Regardless, the World Health Organisation has launched a review into the [35] ____ health risks of drinking water from plastic bottles.",
+      "options": [
+        {
+          "id": "A",
+          "text": "adequate"
+        },
+        {
+          "id": "B",
+          "text": "admiring"
+        },
+        {
+          "id": "C",
+          "text": "contains"
+        },
+        {
+          "id": "D",
+          "text": "defending"
+        },
+        {
+          "id": "E",
+          "text": "evidence"
+        },
+        {
+          "id": "F",
+          "text": "instant"
+        },
+        {
+          "id": "G",
+          "text": "liquid"
+        },
+        {
+          "id": "H",
+          "text": "modified"
+        },
+        {
+          "id": "I",
+          "text": "natural"
+        },
+        {
+          "id": "J",
+          "text": "potential"
+        },
+        {
+          "id": "K",
+          "text": "released"
+        },
+        {
+          "id": "L",
+          "text": "revealing"
+        },
+        {
+          "id": "M",
+          "text": "sealed"
+        },
+        {
+          "id": "N",
+          "text": "solves"
+        },
+        {
+          "id": "O",
+          "text": "substance"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "先看第 33 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 G（liquid）。本空所在句：These microplastics included a [32] ____ commonly known as PET and widely used in the manufacture of clothing and food and [33] ____ containers.\n将本空替换为 liquid 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2019-12-1-nonlistening-q34",
+      "canonicalId": "lazynote-cet4-2019-12-1-q34",
+      "number": 34,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 34 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "When traveling overseas, do you buy water in plastic bottles or take your chances with tap water? Imagine you are wandering about on a Thai island or [26] ____ the ruins of Angkor. It's hot so you grab a bottle of water from a local vendor. It's the safe thing to do, right? The bottle is [27] ____ , and the label says \"pure water\". But maybe what's inside is not so [28] ____ . Would you still be drinking it if you knew that more than 90 percent of all bottled water sold around the world [29] ____ microplastics?\n\nThat's the conclusion of a recently [30] ____ study, which analysed 259 bottles from 11 brands sold in nine countries, [31] ____ an average of 325 plastic particles per liter of water. These microplastics included a [32] ____ commonly known as PET and widely used in the manufacture of clothing and food and [33] ____ containers. The study was conducted at the State University of New York on behalf of Orb Media, a journalism organisation. About a million bottles are bought every minute, not only by thirsty tourists but also by many of the 2.1 billion worldwide who live with unsafe drinking water.\n\nConfronted with this [34] ____ , several bottled-water manufacturers including Nestle and Coca-Cola undertook their own studies using the same methodology. These studies showed that their water did contain microplastics, but far less than the Orb study suggested. Regardless, the World Health Organisation has launched a review into the [35] ____ health risks of drinking water from plastic bottles.",
+      "options": [
+        {
+          "id": "A",
+          "text": "adequate"
+        },
+        {
+          "id": "B",
+          "text": "admiring"
+        },
+        {
+          "id": "C",
+          "text": "contains"
+        },
+        {
+          "id": "D",
+          "text": "defending"
+        },
+        {
+          "id": "E",
+          "text": "evidence"
+        },
+        {
+          "id": "F",
+          "text": "instant"
+        },
+        {
+          "id": "G",
+          "text": "liquid"
+        },
+        {
+          "id": "H",
+          "text": "modified"
+        },
+        {
+          "id": "I",
+          "text": "natural"
+        },
+        {
+          "id": "J",
+          "text": "potential"
+        },
+        {
+          "id": "K",
+          "text": "released"
+        },
+        {
+          "id": "L",
+          "text": "revealing"
+        },
+        {
+          "id": "M",
+          "text": "sealed"
+        },
+        {
+          "id": "N",
+          "text": "solves"
+        },
+        {
+          "id": "O",
+          "text": "substance"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "先看第 34 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 E（evidence）。本空所在句：Confronted with this [34] ____ , several bottled-water manufacturers including Nestle and Coca-Cola undertook their own studies using the same methodology.\n将本空替换为 evidence 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2019-12-1-nonlistening-q35",
+      "canonicalId": "lazynote-cet4-2019-12-1-q35",
+      "number": 35,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 35 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "When traveling overseas, do you buy water in plastic bottles or take your chances with tap water? Imagine you are wandering about on a Thai island or [26] ____ the ruins of Angkor. It's hot so you grab a bottle of water from a local vendor. It's the safe thing to do, right? The bottle is [27] ____ , and the label says \"pure water\". But maybe what's inside is not so [28] ____ . Would you still be drinking it if you knew that more than 90 percent of all bottled water sold around the world [29] ____ microplastics?\n\nThat's the conclusion of a recently [30] ____ study, which analysed 259 bottles from 11 brands sold in nine countries, [31] ____ an average of 325 plastic particles per liter of water. These microplastics included a [32] ____ commonly known as PET and widely used in the manufacture of clothing and food and [33] ____ containers. The study was conducted at the State University of New York on behalf of Orb Media, a journalism organisation. About a million bottles are bought every minute, not only by thirsty tourists but also by many of the 2.1 billion worldwide who live with unsafe drinking water.\n\nConfronted with this [34] ____ , several bottled-water manufacturers including Nestle and Coca-Cola undertook their own studies using the same methodology. These studies showed that their water did contain microplastics, but far less than the Orb study suggested. Regardless, the World Health Organisation has launched a review into the [35] ____ health risks of drinking water from plastic bottles.",
+      "options": [
+        {
+          "id": "A",
+          "text": "adequate"
+        },
+        {
+          "id": "B",
+          "text": "admiring"
+        },
+        {
+          "id": "C",
+          "text": "contains"
+        },
+        {
+          "id": "D",
+          "text": "defending"
+        },
+        {
+          "id": "E",
+          "text": "evidence"
+        },
+        {
+          "id": "F",
+          "text": "instant"
+        },
+        {
+          "id": "G",
+          "text": "liquid"
+        },
+        {
+          "id": "H",
+          "text": "modified"
+        },
+        {
+          "id": "I",
+          "text": "natural"
+        },
+        {
+          "id": "J",
+          "text": "potential"
+        },
+        {
+          "id": "K",
+          "text": "released"
+        },
+        {
+          "id": "L",
+          "text": "revealing"
+        },
+        {
+          "id": "M",
+          "text": "sealed"
+        },
+        {
+          "id": "N",
+          "text": "solves"
+        },
+        {
+          "id": "O",
+          "text": "substance"
+        }
+      ],
+      "correctAnswer": "J",
+      "hint": "先看第 35 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 J（potential）。本空所在句：Regardless, the World Health Organisation has launched a review into the [35] ____ health risks of drinking water from plastic bottles.\n将本空替换为 potential 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2019-12-1-nonlistening-q36",
+      "canonicalId": "lazynote-cet4-2019-12-1-q36",
+      "number": 36,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The United States Postal Service has a system to ensure its employees' safety.",
+      "passage": "The quiet heroism of mail delivery\n\nA) On Wednesday, a polar wind brought bitter cold to the Midwest. Overnight, Chicago reached a low of 21 degrees Fahrenheit below zero, making it slightly colder than Antarctica(南极洲), Alaska, and the North Pole. Wind chills were 64 degrees below zero in Park Rapids, Minnesota and 45 degrees below zero in Buffalo, North Dakota, according to the National Weather Service. Schools, restaurants, and businesses closed, and more than 1,000 flights were canceled.\n\nB) Even the United States Postal Service (USPS) suspended mail delivery. \"Due to this arctic outbreak and concerns for the safety of USPS employees,\" USPS announced Wednesday morning, \"the Postal Service is suspending delivery Jan. 30 in some 3-digit ZIP Code locations.\" Twelve regions were listed as unsafe on Wednesday; on Thursday, eight remained.\n\nC) As global surface temperatures increase, so does the likelihood of extreme weather. In 2018 alone, wildfires, volcanic eruptions, hurricanes, mudslides, and other natural disasters cost at least $49 billion in the United States. As my colleague Vann Newkirk reported, Puerto Rico is still confronting economic and structural destruction and resource scarcity from 2017's Hurricane Maria. Natural disasters can wreck a community's infrastructure, disrupting systems for months or years. Some services, however, remind us that life will eventually return, in some form, to normal.\n\nD) Days after the deadly 2017 wildfires in Santa Rosa, California, a drone(无人机) caught footage(连续镜头) of a USPS worker, Trevor Smith, driving through burned homes in that familiar white van, collecting mail in an affected area. The video is striking: The operation is familiar, but the scene looks like the end of the world. According to Rae Ann Haight, the program manager for the national-preparedness office at USPS, Smith was fulfilling a request made by some of the home owners to pick up any mail that was left untouched. For Smith, this was just another day on the job. \"I followed my route like I normally do,\" Smith told a reporter. \"As I came across a box that was up but with no house, I checked, and there was mail—outgoing mail—in it. And so we picked those up and carried on.\"\n\nE) USPS has sophisticated emergency plans for natural disasters. Across the country, 285 emergency management teams are devoted to crisis control. These teams are trained annually using a framework known as the three Ps: people, property, product. After mail service stops due to weather, the agency's top priority is ensuring that employees are safe. Then it evaluates the health of infrastructure, such as the roads that mail carriers drive on. Finally, it decides when and how to re-open operations. If the destruction is extreme, mail addressed to the area will get sent elsewhere. In response to Hurricane Katrina in 2005, USPS redirected incoming New Orleans mail to existing mail facilities in Houston. Mail that was already processed in New Orleans facilities was moved to an upper floor so it would be protected from water damage.\n\nF) As soon as it's safe enough to be outside, couriers(邮递员) start distributing accumulated mail on the still-accessible routes. USPS urges those without standing addresses to file change-of-address forms with their new location. After Hurricane Katrina hit in 2005, mail facilities were set up in dozens of locations across the country in the two weeks that USPS was unable to provide street delivery.\n\nG) Every day, USPS processes, on average, 493.4 million pieces of mail—anything from postcards to Social Security checks to medicine. Spokespeople from both USPS and UPS told me all mail is important. But some mail can be extremely sensitive and timely. According to data released in January 2017, 56 percent of bills are paid online, which means that just under half of payments still rely on delivery services to be completed.\n\nH) It can be hard to identify which parcels are carrying crucial items such as Social Security checks, but USPS and UPS try their best to prioritize sensitive material. They will coordinate with the Social Security Administration to make sure that Social Security checks reach the right people in a timely fashion. After Hurricane Florence and Hurricane Michael last fall, USPS worked with state and local election boards to make sure that absentee ballots were available and received on time.\n\nI) Mail companies are logistics(物流) companies, which puts them in a special position to help when disaster strikes. In a 2011 USPS case study, the agency emphasized its massive infrastructure as a \"unique federal asset\" to be called upon in a disaster or terrorist attack. \"I think we're unique as a federal agency,\" USPS official Mike Swigart told me, \"because we're in literally every community in this country…We're obligated to deliver to that point on a daily basis.\"\n\nJ) Private courier companies, which have more dollars to spend, use their expertise in logistics to help revitalize damaged areas after a disaster. For more than a decade, FedEx has supported the American Red Cross in its effort to get emergency supplies to areas affected by disasters, both domestically and internationally. In 2012, the company distributed more than 1,200 MedPacks to Medical Reserve Corps groups in California. They also donated space for 3.1 million pounds of charitable shipping globally. Last October, the company pledged $1 million in cash and transportation support for Hurricanes Florence and Michael. UPS's charitable arm, the UPS Foundation, uses the company's logistics to help disaster-struck areas rebuild. \"We realize that as a company with people, trucks, warehouses, we needed to play a larger role,\" said Eduardo Martinez, the president of the UPS Foundation. The company employs its trucks and planes to deliver food, medicine, and water. The day before I spoke to Martinez in November, he had been touring the damage from Hurricane Michael in Florida with the American Red Cross. \"We have an obligation to make sure our communities are thriving,\" he said.\n\nK) Rebuilding can take a long time, and even then, impressions of the disaster may still remain. Returning to a normal life can be difficult, but some small routines—mail delivery being one of them—may help residents remember that their communities are still their communities. \"When they see that carrier back out on the street,\" Swigart said, \"that's the first sign to them that life is starting to return to normal.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 E 段。题干：The United States Postal Service has a system to ensure its employees' safety.\n核对该段原文：USPS has sophisticated emergency plans for natural disasters. Across the country, 285 emergency management teams are devoted to crisis control. These teams are trained annually using a framework known as the three Ps: people, property, product. After mail service stops due to weather, the agency's top priority is ensuring that employees are safe. Then it evaluates the health of infrastructure, such as the roads that mail carriers drive on. Finally, it decides when and how to re-open operations. If the destruction is extreme, mail addressed to the area will get sent elsewhere. In response to Hurricane Katrina in 2005, USPS redirected incoming New Orleans mail to existing mail facilities in Houston. Mail that was already processed in New Orleans facilities was moved to an upper floor so it would be protected from water damage.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2019-12-1-nonlistening-q37",
+      "canonicalId": "lazynote-cet4-2019-12-1-q37",
+      "number": 37,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "One official says USPS is unique in that it has more direct reach to communities compared with other federal agencies.",
+      "passage": "The quiet heroism of mail delivery\n\nA) On Wednesday, a polar wind brought bitter cold to the Midwest. Overnight, Chicago reached a low of 21 degrees Fahrenheit below zero, making it slightly colder than Antarctica(南极洲), Alaska, and the North Pole. Wind chills were 64 degrees below zero in Park Rapids, Minnesota and 45 degrees below zero in Buffalo, North Dakota, according to the National Weather Service. Schools, restaurants, and businesses closed, and more than 1,000 flights were canceled.\n\nB) Even the United States Postal Service (USPS) suspended mail delivery. \"Due to this arctic outbreak and concerns for the safety of USPS employees,\" USPS announced Wednesday morning, \"the Postal Service is suspending delivery Jan. 30 in some 3-digit ZIP Code locations.\" Twelve regions were listed as unsafe on Wednesday; on Thursday, eight remained.\n\nC) As global surface temperatures increase, so does the likelihood of extreme weather. In 2018 alone, wildfires, volcanic eruptions, hurricanes, mudslides, and other natural disasters cost at least $49 billion in the United States. As my colleague Vann Newkirk reported, Puerto Rico is still confronting economic and structural destruction and resource scarcity from 2017's Hurricane Maria. Natural disasters can wreck a community's infrastructure, disrupting systems for months or years. Some services, however, remind us that life will eventually return, in some form, to normal.\n\nD) Days after the deadly 2017 wildfires in Santa Rosa, California, a drone(无人机) caught footage(连续镜头) of a USPS worker, Trevor Smith, driving through burned homes in that familiar white van, collecting mail in an affected area. The video is striking: The operation is familiar, but the scene looks like the end of the world. According to Rae Ann Haight, the program manager for the national-preparedness office at USPS, Smith was fulfilling a request made by some of the home owners to pick up any mail that was left untouched. For Smith, this was just another day on the job. \"I followed my route like I normally do,\" Smith told a reporter. \"As I came across a box that was up but with no house, I checked, and there was mail—outgoing mail—in it. And so we picked those up and carried on.\"\n\nE) USPS has sophisticated emergency plans for natural disasters. Across the country, 285 emergency management teams are devoted to crisis control. These teams are trained annually using a framework known as the three Ps: people, property, product. After mail service stops due to weather, the agency's top priority is ensuring that employees are safe. Then it evaluates the health of infrastructure, such as the roads that mail carriers drive on. Finally, it decides when and how to re-open operations. If the destruction is extreme, mail addressed to the area will get sent elsewhere. In response to Hurricane Katrina in 2005, USPS redirected incoming New Orleans mail to existing mail facilities in Houston. Mail that was already processed in New Orleans facilities was moved to an upper floor so it would be protected from water damage.\n\nF) As soon as it's safe enough to be outside, couriers(邮递员) start distributing accumulated mail on the still-accessible routes. USPS urges those without standing addresses to file change-of-address forms with their new location. After Hurricane Katrina hit in 2005, mail facilities were set up in dozens of locations across the country in the two weeks that USPS was unable to provide street delivery.\n\nG) Every day, USPS processes, on average, 493.4 million pieces of mail—anything from postcards to Social Security checks to medicine. Spokespeople from both USPS and UPS told me all mail is important. But some mail can be extremely sensitive and timely. According to data released in January 2017, 56 percent of bills are paid online, which means that just under half of payments still rely on delivery services to be completed.\n\nH) It can be hard to identify which parcels are carrying crucial items such as Social Security checks, but USPS and UPS try their best to prioritize sensitive material. They will coordinate with the Social Security Administration to make sure that Social Security checks reach the right people in a timely fashion. After Hurricane Florence and Hurricane Michael last fall, USPS worked with state and local election boards to make sure that absentee ballots were available and received on time.\n\nI) Mail companies are logistics(物流) companies, which puts them in a special position to help when disaster strikes. In a 2011 USPS case study, the agency emphasized its massive infrastructure as a \"unique federal asset\" to be called upon in a disaster or terrorist attack. \"I think we're unique as a federal agency,\" USPS official Mike Swigart told me, \"because we're in literally every community in this country…We're obligated to deliver to that point on a daily basis.\"\n\nJ) Private courier companies, which have more dollars to spend, use their expertise in logistics to help revitalize damaged areas after a disaster. For more than a decade, FedEx has supported the American Red Cross in its effort to get emergency supplies to areas affected by disasters, both domestically and internationally. In 2012, the company distributed more than 1,200 MedPacks to Medical Reserve Corps groups in California. They also donated space for 3.1 million pounds of charitable shipping globally. Last October, the company pledged $1 million in cash and transportation support for Hurricanes Florence and Michael. UPS's charitable arm, the UPS Foundation, uses the company's logistics to help disaster-struck areas rebuild. \"We realize that as a company with people, trucks, warehouses, we needed to play a larger role,\" said Eduardo Martinez, the president of the UPS Foundation. The company employs its trucks and planes to deliver food, medicine, and water. The day before I spoke to Martinez in November, he had been touring the damage from Hurricane Michael in Florida with the American Red Cross. \"We have an obligation to make sure our communities are thriving,\" he said.\n\nK) Rebuilding can take a long time, and even then, impressions of the disaster may still remain. Returning to a normal life can be difficult, but some small routines—mail delivery being one of them—may help residents remember that their communities are still their communities. \"When they see that carrier back out on the street,\" Swigart said, \"that's the first sign to them that life is starting to return to normal.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 I 段。题干：One official says USPS is unique in that it has more direct reach to communities compared with other federal agencies.\n核对该段原文：Mail companies are logistics(物流) companies, which puts them in a special position to help when disaster strikes. In a 2011 USPS case study, the agency emphasized its massive infrastructure as a \"unique federal asset\" to be called upon in a disaster or terrorist attack. \"I think we're unique as a federal agency,\" USPS official Mike Swigart told me, \"because we're in literally every community in this country…We're obligated to deliver to that point on a daily basis.\"\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2019-12-1-nonlistening-q38",
+      "canonicalId": "lazynote-cet4-2019-12-1-q38",
+      "number": 38,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Natural disasters can have a long-lasting impact on community life.",
+      "passage": "The quiet heroism of mail delivery\n\nA) On Wednesday, a polar wind brought bitter cold to the Midwest. Overnight, Chicago reached a low of 21 degrees Fahrenheit below zero, making it slightly colder than Antarctica(南极洲), Alaska, and the North Pole. Wind chills were 64 degrees below zero in Park Rapids, Minnesota and 45 degrees below zero in Buffalo, North Dakota, according to the National Weather Service. Schools, restaurants, and businesses closed, and more than 1,000 flights were canceled.\n\nB) Even the United States Postal Service (USPS) suspended mail delivery. \"Due to this arctic outbreak and concerns for the safety of USPS employees,\" USPS announced Wednesday morning, \"the Postal Service is suspending delivery Jan. 30 in some 3-digit ZIP Code locations.\" Twelve regions were listed as unsafe on Wednesday; on Thursday, eight remained.\n\nC) As global surface temperatures increase, so does the likelihood of extreme weather. In 2018 alone, wildfires, volcanic eruptions, hurricanes, mudslides, and other natural disasters cost at least $49 billion in the United States. As my colleague Vann Newkirk reported, Puerto Rico is still confronting economic and structural destruction and resource scarcity from 2017's Hurricane Maria. Natural disasters can wreck a community's infrastructure, disrupting systems for months or years. Some services, however, remind us that life will eventually return, in some form, to normal.\n\nD) Days after the deadly 2017 wildfires in Santa Rosa, California, a drone(无人机) caught footage(连续镜头) of a USPS worker, Trevor Smith, driving through burned homes in that familiar white van, collecting mail in an affected area. The video is striking: The operation is familiar, but the scene looks like the end of the world. According to Rae Ann Haight, the program manager for the national-preparedness office at USPS, Smith was fulfilling a request made by some of the home owners to pick up any mail that was left untouched. For Smith, this was just another day on the job. \"I followed my route like I normally do,\" Smith told a reporter. \"As I came across a box that was up but with no house, I checked, and there was mail—outgoing mail—in it. And so we picked those up and carried on.\"\n\nE) USPS has sophisticated emergency plans for natural disasters. Across the country, 285 emergency management teams are devoted to crisis control. These teams are trained annually using a framework known as the three Ps: people, property, product. After mail service stops due to weather, the agency's top priority is ensuring that employees are safe. Then it evaluates the health of infrastructure, such as the roads that mail carriers drive on. Finally, it decides when and how to re-open operations. If the destruction is extreme, mail addressed to the area will get sent elsewhere. In response to Hurricane Katrina in 2005, USPS redirected incoming New Orleans mail to existing mail facilities in Houston. Mail that was already processed in New Orleans facilities was moved to an upper floor so it would be protected from water damage.\n\nF) As soon as it's safe enough to be outside, couriers(邮递员) start distributing accumulated mail on the still-accessible routes. USPS urges those without standing addresses to file change-of-address forms with their new location. After Hurricane Katrina hit in 2005, mail facilities were set up in dozens of locations across the country in the two weeks that USPS was unable to provide street delivery.\n\nG) Every day, USPS processes, on average, 493.4 million pieces of mail—anything from postcards to Social Security checks to medicine. Spokespeople from both USPS and UPS told me all mail is important. But some mail can be extremely sensitive and timely. According to data released in January 2017, 56 percent of bills are paid online, which means that just under half of payments still rely on delivery services to be completed.\n\nH) It can be hard to identify which parcels are carrying crucial items such as Social Security checks, but USPS and UPS try their best to prioritize sensitive material. They will coordinate with the Social Security Administration to make sure that Social Security checks reach the right people in a timely fashion. After Hurricane Florence and Hurricane Michael last fall, USPS worked with state and local election boards to make sure that absentee ballots were available and received on time.\n\nI) Mail companies are logistics(物流) companies, which puts them in a special position to help when disaster strikes. In a 2011 USPS case study, the agency emphasized its massive infrastructure as a \"unique federal asset\" to be called upon in a disaster or terrorist attack. \"I think we're unique as a federal agency,\" USPS official Mike Swigart told me, \"because we're in literally every community in this country…We're obligated to deliver to that point on a daily basis.\"\n\nJ) Private courier companies, which have more dollars to spend, use their expertise in logistics to help revitalize damaged areas after a disaster. For more than a decade, FedEx has supported the American Red Cross in its effort to get emergency supplies to areas affected by disasters, both domestically and internationally. In 2012, the company distributed more than 1,200 MedPacks to Medical Reserve Corps groups in California. They also donated space for 3.1 million pounds of charitable shipping globally. Last October, the company pledged $1 million in cash and transportation support for Hurricanes Florence and Michael. UPS's charitable arm, the UPS Foundation, uses the company's logistics to help disaster-struck areas rebuild. \"We realize that as a company with people, trucks, warehouses, we needed to play a larger role,\" said Eduardo Martinez, the president of the UPS Foundation. The company employs its trucks and planes to deliver food, medicine, and water. The day before I spoke to Martinez in November, he had been touring the damage from Hurricane Michael in Florida with the American Red Cross. \"We have an obligation to make sure our communities are thriving,\" he said.\n\nK) Rebuilding can take a long time, and even then, impressions of the disaster may still remain. Returning to a normal life can be difficult, but some small routines—mail delivery being one of them—may help residents remember that their communities are still their communities. \"When they see that carrier back out on the street,\" Swigart said, \"that's the first sign to them that life is starting to return to normal.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 C 段。题干：Natural disasters can have a long-lasting impact on community life.\n核对该段原文：As global surface temperatures increase, so does the likelihood of extreme weather. In 2018 alone, wildfires, volcanic eruptions, hurricanes, mudslides, and other natural disasters cost at least $49 billion in the United States. As my colleague Vann Newkirk reported, Puerto Rico is still confronting economic and structural destruction and resource scarcity from 2017's Hurricane Maria. Natural disasters can wreck a community's infrastructure, disrupting systems for months or years. Some services, however, remind us that life will eventually return, in some form, to normal.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2019-12-1-nonlistening-q39",
+      "canonicalId": "lazynote-cet4-2019-12-1-q39",
+      "number": 39,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Mail delivery service is still responsible for the completion of almost half of payments.",
+      "passage": "The quiet heroism of mail delivery\n\nA) On Wednesday, a polar wind brought bitter cold to the Midwest. Overnight, Chicago reached a low of 21 degrees Fahrenheit below zero, making it slightly colder than Antarctica(南极洲), Alaska, and the North Pole. Wind chills were 64 degrees below zero in Park Rapids, Minnesota and 45 degrees below zero in Buffalo, North Dakota, according to the National Weather Service. Schools, restaurants, and businesses closed, and more than 1,000 flights were canceled.\n\nB) Even the United States Postal Service (USPS) suspended mail delivery. \"Due to this arctic outbreak and concerns for the safety of USPS employees,\" USPS announced Wednesday morning, \"the Postal Service is suspending delivery Jan. 30 in some 3-digit ZIP Code locations.\" Twelve regions were listed as unsafe on Wednesday; on Thursday, eight remained.\n\nC) As global surface temperatures increase, so does the likelihood of extreme weather. In 2018 alone, wildfires, volcanic eruptions, hurricanes, mudslides, and other natural disasters cost at least $49 billion in the United States. As my colleague Vann Newkirk reported, Puerto Rico is still confronting economic and structural destruction and resource scarcity from 2017's Hurricane Maria. Natural disasters can wreck a community's infrastructure, disrupting systems for months or years. Some services, however, remind us that life will eventually return, in some form, to normal.\n\nD) Days after the deadly 2017 wildfires in Santa Rosa, California, a drone(无人机) caught footage(连续镜头) of a USPS worker, Trevor Smith, driving through burned homes in that familiar white van, collecting mail in an affected area. The video is striking: The operation is familiar, but the scene looks like the end of the world. According to Rae Ann Haight, the program manager for the national-preparedness office at USPS, Smith was fulfilling a request made by some of the home owners to pick up any mail that was left untouched. For Smith, this was just another day on the job. \"I followed my route like I normally do,\" Smith told a reporter. \"As I came across a box that was up but with no house, I checked, and there was mail—outgoing mail—in it. And so we picked those up and carried on.\"\n\nE) USPS has sophisticated emergency plans for natural disasters. Across the country, 285 emergency management teams are devoted to crisis control. These teams are trained annually using a framework known as the three Ps: people, property, product. After mail service stops due to weather, the agency's top priority is ensuring that employees are safe. Then it evaluates the health of infrastructure, such as the roads that mail carriers drive on. Finally, it decides when and how to re-open operations. If the destruction is extreme, mail addressed to the area will get sent elsewhere. In response to Hurricane Katrina in 2005, USPS redirected incoming New Orleans mail to existing mail facilities in Houston. Mail that was already processed in New Orleans facilities was moved to an upper floor so it would be protected from water damage.\n\nF) As soon as it's safe enough to be outside, couriers(邮递员) start distributing accumulated mail on the still-accessible routes. USPS urges those without standing addresses to file change-of-address forms with their new location. After Hurricane Katrina hit in 2005, mail facilities were set up in dozens of locations across the country in the two weeks that USPS was unable to provide street delivery.\n\nG) Every day, USPS processes, on average, 493.4 million pieces of mail—anything from postcards to Social Security checks to medicine. Spokespeople from both USPS and UPS told me all mail is important. But some mail can be extremely sensitive and timely. According to data released in January 2017, 56 percent of bills are paid online, which means that just under half of payments still rely on delivery services to be completed.\n\nH) It can be hard to identify which parcels are carrying crucial items such as Social Security checks, but USPS and UPS try their best to prioritize sensitive material. They will coordinate with the Social Security Administration to make sure that Social Security checks reach the right people in a timely fashion. After Hurricane Florence and Hurricane Michael last fall, USPS worked with state and local election boards to make sure that absentee ballots were available and received on time.\n\nI) Mail companies are logistics(物流) companies, which puts them in a special position to help when disaster strikes. In a 2011 USPS case study, the agency emphasized its massive infrastructure as a \"unique federal asset\" to be called upon in a disaster or terrorist attack. \"I think we're unique as a federal agency,\" USPS official Mike Swigart told me, \"because we're in literally every community in this country…We're obligated to deliver to that point on a daily basis.\"\n\nJ) Private courier companies, which have more dollars to spend, use their expertise in logistics to help revitalize damaged areas after a disaster. For more than a decade, FedEx has supported the American Red Cross in its effort to get emergency supplies to areas affected by disasters, both domestically and internationally. In 2012, the company distributed more than 1,200 MedPacks to Medical Reserve Corps groups in California. They also donated space for 3.1 million pounds of charitable shipping globally. Last October, the company pledged $1 million in cash and transportation support for Hurricanes Florence and Michael. UPS's charitable arm, the UPS Foundation, uses the company's logistics to help disaster-struck areas rebuild. \"We realize that as a company with people, trucks, warehouses, we needed to play a larger role,\" said Eduardo Martinez, the president of the UPS Foundation. The company employs its trucks and planes to deliver food, medicine, and water. The day before I spoke to Martinez in November, he had been touring the damage from Hurricane Michael in Florida with the American Red Cross. \"We have an obligation to make sure our communities are thriving,\" he said.\n\nK) Rebuilding can take a long time, and even then, impressions of the disaster may still remain. Returning to a normal life can be difficult, but some small routines—mail delivery being one of them—may help residents remember that their communities are still their communities. \"When they see that carrier back out on the street,\" Swigart said, \"that's the first sign to them that life is starting to return to normal.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 G 段。题干：Mail delivery service is still responsible for the completion of almost half of payments.\n核对该段原文：Every day, USPS processes, on average, 493.4 million pieces of mail—anything from postcards to Social Security checks to medicine. Spokespeople from both USPS and UPS told me all mail is important. But some mail can be extremely sensitive and timely. According to data released in January 2017, 56 percent of bills are paid online, which means that just under half of payments still rely on delivery services to be completed.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2019-12-1-nonlistening-q40",
+      "canonicalId": "lazynote-cet4-2019-12-1-q40",
+      "number": 40,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The sight of a mailman on the street is a reassuring sign of life becoming normal again.",
+      "passage": "The quiet heroism of mail delivery\n\nA) On Wednesday, a polar wind brought bitter cold to the Midwest. Overnight, Chicago reached a low of 21 degrees Fahrenheit below zero, making it slightly colder than Antarctica(南极洲), Alaska, and the North Pole. Wind chills were 64 degrees below zero in Park Rapids, Minnesota and 45 degrees below zero in Buffalo, North Dakota, according to the National Weather Service. Schools, restaurants, and businesses closed, and more than 1,000 flights were canceled.\n\nB) Even the United States Postal Service (USPS) suspended mail delivery. \"Due to this arctic outbreak and concerns for the safety of USPS employees,\" USPS announced Wednesday morning, \"the Postal Service is suspending delivery Jan. 30 in some 3-digit ZIP Code locations.\" Twelve regions were listed as unsafe on Wednesday; on Thursday, eight remained.\n\nC) As global surface temperatures increase, so does the likelihood of extreme weather. In 2018 alone, wildfires, volcanic eruptions, hurricanes, mudslides, and other natural disasters cost at least $49 billion in the United States. As my colleague Vann Newkirk reported, Puerto Rico is still confronting economic and structural destruction and resource scarcity from 2017's Hurricane Maria. Natural disasters can wreck a community's infrastructure, disrupting systems for months or years. Some services, however, remind us that life will eventually return, in some form, to normal.\n\nD) Days after the deadly 2017 wildfires in Santa Rosa, California, a drone(无人机) caught footage(连续镜头) of a USPS worker, Trevor Smith, driving through burned homes in that familiar white van, collecting mail in an affected area. The video is striking: The operation is familiar, but the scene looks like the end of the world. According to Rae Ann Haight, the program manager for the national-preparedness office at USPS, Smith was fulfilling a request made by some of the home owners to pick up any mail that was left untouched. For Smith, this was just another day on the job. \"I followed my route like I normally do,\" Smith told a reporter. \"As I came across a box that was up but with no house, I checked, and there was mail—outgoing mail—in it. And so we picked those up and carried on.\"\n\nE) USPS has sophisticated emergency plans for natural disasters. Across the country, 285 emergency management teams are devoted to crisis control. These teams are trained annually using a framework known as the three Ps: people, property, product. After mail service stops due to weather, the agency's top priority is ensuring that employees are safe. Then it evaluates the health of infrastructure, such as the roads that mail carriers drive on. Finally, it decides when and how to re-open operations. If the destruction is extreme, mail addressed to the area will get sent elsewhere. In response to Hurricane Katrina in 2005, USPS redirected incoming New Orleans mail to existing mail facilities in Houston. Mail that was already processed in New Orleans facilities was moved to an upper floor so it would be protected from water damage.\n\nF) As soon as it's safe enough to be outside, couriers(邮递员) start distributing accumulated mail on the still-accessible routes. USPS urges those without standing addresses to file change-of-address forms with their new location. After Hurricane Katrina hit in 2005, mail facilities were set up in dozens of locations across the country in the two weeks that USPS was unable to provide street delivery.\n\nG) Every day, USPS processes, on average, 493.4 million pieces of mail—anything from postcards to Social Security checks to medicine. Spokespeople from both USPS and UPS told me all mail is important. But some mail can be extremely sensitive and timely. According to data released in January 2017, 56 percent of bills are paid online, which means that just under half of payments still rely on delivery services to be completed.\n\nH) It can be hard to identify which parcels are carrying crucial items such as Social Security checks, but USPS and UPS try their best to prioritize sensitive material. They will coordinate with the Social Security Administration to make sure that Social Security checks reach the right people in a timely fashion. After Hurricane Florence and Hurricane Michael last fall, USPS worked with state and local election boards to make sure that absentee ballots were available and received on time.\n\nI) Mail companies are logistics(物流) companies, which puts them in a special position to help when disaster strikes. In a 2011 USPS case study, the agency emphasized its massive infrastructure as a \"unique federal asset\" to be called upon in a disaster or terrorist attack. \"I think we're unique as a federal agency,\" USPS official Mike Swigart told me, \"because we're in literally every community in this country…We're obligated to deliver to that point on a daily basis.\"\n\nJ) Private courier companies, which have more dollars to spend, use their expertise in logistics to help revitalize damaged areas after a disaster. For more than a decade, FedEx has supported the American Red Cross in its effort to get emergency supplies to areas affected by disasters, both domestically and internationally. In 2012, the company distributed more than 1,200 MedPacks to Medical Reserve Corps groups in California. They also donated space for 3.1 million pounds of charitable shipping globally. Last October, the company pledged $1 million in cash and transportation support for Hurricanes Florence and Michael. UPS's charitable arm, the UPS Foundation, uses the company's logistics to help disaster-struck areas rebuild. \"We realize that as a company with people, trucks, warehouses, we needed to play a larger role,\" said Eduardo Martinez, the president of the UPS Foundation. The company employs its trucks and planes to deliver food, medicine, and water. The day before I spoke to Martinez in November, he had been touring the damage from Hurricane Michael in Florida with the American Red Cross. \"We have an obligation to make sure our communities are thriving,\" he said.\n\nK) Rebuilding can take a long time, and even then, impressions of the disaster may still remain. Returning to a normal life can be difficult, but some small routines—mail delivery being one of them—may help residents remember that their communities are still their communities. \"When they see that carrier back out on the street,\" Swigart said, \"that's the first sign to them that life is starting to return to normal.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 K 段。题干：The sight of a mailman on the street is a reassuring sign of life becoming normal again.\n核对该段原文：Rebuilding can take a long time, and even then, impressions of the disaster may still remain. Returning to a normal life can be difficult, but some small routines—mail delivery being one of them—may help residents remember that their communities are still their communities. \"When they see that carrier back out on the street,\" Swigart said, \"that's the first sign to them that life is starting to return to normal.\"\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2019-12-1-nonlistening-q41",
+      "canonicalId": "lazynote-cet4-2019-12-1-q41",
+      "number": 41,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "After Hurricane Katrina interrupted routine delivery, temporary mail service points were set up.",
+      "passage": "The quiet heroism of mail delivery\n\nA) On Wednesday, a polar wind brought bitter cold to the Midwest. Overnight, Chicago reached a low of 21 degrees Fahrenheit below zero, making it slightly colder than Antarctica(南极洲), Alaska, and the North Pole. Wind chills were 64 degrees below zero in Park Rapids, Minnesota and 45 degrees below zero in Buffalo, North Dakota, according to the National Weather Service. Schools, restaurants, and businesses closed, and more than 1,000 flights were canceled.\n\nB) Even the United States Postal Service (USPS) suspended mail delivery. \"Due to this arctic outbreak and concerns for the safety of USPS employees,\" USPS announced Wednesday morning, \"the Postal Service is suspending delivery Jan. 30 in some 3-digit ZIP Code locations.\" Twelve regions were listed as unsafe on Wednesday; on Thursday, eight remained.\n\nC) As global surface temperatures increase, so does the likelihood of extreme weather. In 2018 alone, wildfires, volcanic eruptions, hurricanes, mudslides, and other natural disasters cost at least $49 billion in the United States. As my colleague Vann Newkirk reported, Puerto Rico is still confronting economic and structural destruction and resource scarcity from 2017's Hurricane Maria. Natural disasters can wreck a community's infrastructure, disrupting systems for months or years. Some services, however, remind us that life will eventually return, in some form, to normal.\n\nD) Days after the deadly 2017 wildfires in Santa Rosa, California, a drone(无人机) caught footage(连续镜头) of a USPS worker, Trevor Smith, driving through burned homes in that familiar white van, collecting mail in an affected area. The video is striking: The operation is familiar, but the scene looks like the end of the world. According to Rae Ann Haight, the program manager for the national-preparedness office at USPS, Smith was fulfilling a request made by some of the home owners to pick up any mail that was left untouched. For Smith, this was just another day on the job. \"I followed my route like I normally do,\" Smith told a reporter. \"As I came across a box that was up but with no house, I checked, and there was mail—outgoing mail—in it. And so we picked those up and carried on.\"\n\nE) USPS has sophisticated emergency plans for natural disasters. Across the country, 285 emergency management teams are devoted to crisis control. These teams are trained annually using a framework known as the three Ps: people, property, product. After mail service stops due to weather, the agency's top priority is ensuring that employees are safe. Then it evaluates the health of infrastructure, such as the roads that mail carriers drive on. Finally, it decides when and how to re-open operations. If the destruction is extreme, mail addressed to the area will get sent elsewhere. In response to Hurricane Katrina in 2005, USPS redirected incoming New Orleans mail to existing mail facilities in Houston. Mail that was already processed in New Orleans facilities was moved to an upper floor so it would be protected from water damage.\n\nF) As soon as it's safe enough to be outside, couriers(邮递员) start distributing accumulated mail on the still-accessible routes. USPS urges those without standing addresses to file change-of-address forms with their new location. After Hurricane Katrina hit in 2005, mail facilities were set up in dozens of locations across the country in the two weeks that USPS was unable to provide street delivery.\n\nG) Every day, USPS processes, on average, 493.4 million pieces of mail—anything from postcards to Social Security checks to medicine. Spokespeople from both USPS and UPS told me all mail is important. But some mail can be extremely sensitive and timely. According to data released in January 2017, 56 percent of bills are paid online, which means that just under half of payments still rely on delivery services to be completed.\n\nH) It can be hard to identify which parcels are carrying crucial items such as Social Security checks, but USPS and UPS try their best to prioritize sensitive material. They will coordinate with the Social Security Administration to make sure that Social Security checks reach the right people in a timely fashion. After Hurricane Florence and Hurricane Michael last fall, USPS worked with state and local election boards to make sure that absentee ballots were available and received on time.\n\nI) Mail companies are logistics(物流) companies, which puts them in a special position to help when disaster strikes. In a 2011 USPS case study, the agency emphasized its massive infrastructure as a \"unique federal asset\" to be called upon in a disaster or terrorist attack. \"I think we're unique as a federal agency,\" USPS official Mike Swigart told me, \"because we're in literally every community in this country…We're obligated to deliver to that point on a daily basis.\"\n\nJ) Private courier companies, which have more dollars to spend, use their expertise in logistics to help revitalize damaged areas after a disaster. For more than a decade, FedEx has supported the American Red Cross in its effort to get emergency supplies to areas affected by disasters, both domestically and internationally. In 2012, the company distributed more than 1,200 MedPacks to Medical Reserve Corps groups in California. They also donated space for 3.1 million pounds of charitable shipping globally. Last October, the company pledged $1 million in cash and transportation support for Hurricanes Florence and Michael. UPS's charitable arm, the UPS Foundation, uses the company's logistics to help disaster-struck areas rebuild. \"We realize that as a company with people, trucks, warehouses, we needed to play a larger role,\" said Eduardo Martinez, the president of the UPS Foundation. The company employs its trucks and planes to deliver food, medicine, and water. The day before I spoke to Martinez in November, he had been touring the damage from Hurricane Michael in Florida with the American Red Cross. \"We have an obligation to make sure our communities are thriving,\" he said.\n\nK) Rebuilding can take a long time, and even then, impressions of the disaster may still remain. Returning to a normal life can be difficult, but some small routines—mail delivery being one of them—may help residents remember that their communities are still their communities. \"When they see that carrier back out on the street,\" Swigart said, \"that's the first sign to them that life is starting to return to normal.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 F 段。题干：After Hurricane Katrina interrupted routine delivery, temporary mail service points were set up.\n核对该段原文：As soon as it's safe enough to be outside, couriers(邮递员) start distributing accumulated mail on the still-accessible routes. USPS urges those without standing addresses to file change-of-address forms with their new location. After Hurricane Katrina hit in 2005, mail facilities were set up in dozens of locations across the country in the two weeks that USPS was unable to provide street delivery.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2019-12-1-nonlistening-q42",
+      "canonicalId": "lazynote-cet4-2019-12-1-q42",
+      "number": 42,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Postal service in some regions in the U.S. was suspended due to extreme cold weather.",
+      "passage": "The quiet heroism of mail delivery\n\nA) On Wednesday, a polar wind brought bitter cold to the Midwest. Overnight, Chicago reached a low of 21 degrees Fahrenheit below zero, making it slightly colder than Antarctica(南极洲), Alaska, and the North Pole. Wind chills were 64 degrees below zero in Park Rapids, Minnesota and 45 degrees below zero in Buffalo, North Dakota, according to the National Weather Service. Schools, restaurants, and businesses closed, and more than 1,000 flights were canceled.\n\nB) Even the United States Postal Service (USPS) suspended mail delivery. \"Due to this arctic outbreak and concerns for the safety of USPS employees,\" USPS announced Wednesday morning, \"the Postal Service is suspending delivery Jan. 30 in some 3-digit ZIP Code locations.\" Twelve regions were listed as unsafe on Wednesday; on Thursday, eight remained.\n\nC) As global surface temperatures increase, so does the likelihood of extreme weather. In 2018 alone, wildfires, volcanic eruptions, hurricanes, mudslides, and other natural disasters cost at least $49 billion in the United States. As my colleague Vann Newkirk reported, Puerto Rico is still confronting economic and structural destruction and resource scarcity from 2017's Hurricane Maria. Natural disasters can wreck a community's infrastructure, disrupting systems for months or years. Some services, however, remind us that life will eventually return, in some form, to normal.\n\nD) Days after the deadly 2017 wildfires in Santa Rosa, California, a drone(无人机) caught footage(连续镜头) of a USPS worker, Trevor Smith, driving through burned homes in that familiar white van, collecting mail in an affected area. The video is striking: The operation is familiar, but the scene looks like the end of the world. According to Rae Ann Haight, the program manager for the national-preparedness office at USPS, Smith was fulfilling a request made by some of the home owners to pick up any mail that was left untouched. For Smith, this was just another day on the job. \"I followed my route like I normally do,\" Smith told a reporter. \"As I came across a box that was up but with no house, I checked, and there was mail—outgoing mail—in it. And so we picked those up and carried on.\"\n\nE) USPS has sophisticated emergency plans for natural disasters. Across the country, 285 emergency management teams are devoted to crisis control. These teams are trained annually using a framework known as the three Ps: people, property, product. After mail service stops due to weather, the agency's top priority is ensuring that employees are safe. Then it evaluates the health of infrastructure, such as the roads that mail carriers drive on. Finally, it decides when and how to re-open operations. If the destruction is extreme, mail addressed to the area will get sent elsewhere. In response to Hurricane Katrina in 2005, USPS redirected incoming New Orleans mail to existing mail facilities in Houston. Mail that was already processed in New Orleans facilities was moved to an upper floor so it would be protected from water damage.\n\nF) As soon as it's safe enough to be outside, couriers(邮递员) start distributing accumulated mail on the still-accessible routes. USPS urges those without standing addresses to file change-of-address forms with their new location. After Hurricane Katrina hit in 2005, mail facilities were set up in dozens of locations across the country in the two weeks that USPS was unable to provide street delivery.\n\nG) Every day, USPS processes, on average, 493.4 million pieces of mail—anything from postcards to Social Security checks to medicine. Spokespeople from both USPS and UPS told me all mail is important. But some mail can be extremely sensitive and timely. According to data released in January 2017, 56 percent of bills are paid online, which means that just under half of payments still rely on delivery services to be completed.\n\nH) It can be hard to identify which parcels are carrying crucial items such as Social Security checks, but USPS and UPS try their best to prioritize sensitive material. They will coordinate with the Social Security Administration to make sure that Social Security checks reach the right people in a timely fashion. After Hurricane Florence and Hurricane Michael last fall, USPS worked with state and local election boards to make sure that absentee ballots were available and received on time.\n\nI) Mail companies are logistics(物流) companies, which puts them in a special position to help when disaster strikes. In a 2011 USPS case study, the agency emphasized its massive infrastructure as a \"unique federal asset\" to be called upon in a disaster or terrorist attack. \"I think we're unique as a federal agency,\" USPS official Mike Swigart told me, \"because we're in literally every community in this country…We're obligated to deliver to that point on a daily basis.\"\n\nJ) Private courier companies, which have more dollars to spend, use their expertise in logistics to help revitalize damaged areas after a disaster. For more than a decade, FedEx has supported the American Red Cross in its effort to get emergency supplies to areas affected by disasters, both domestically and internationally. In 2012, the company distributed more than 1,200 MedPacks to Medical Reserve Corps groups in California. They also donated space for 3.1 million pounds of charitable shipping globally. Last October, the company pledged $1 million in cash and transportation support for Hurricanes Florence and Michael. UPS's charitable arm, the UPS Foundation, uses the company's logistics to help disaster-struck areas rebuild. \"We realize that as a company with people, trucks, warehouses, we needed to play a larger role,\" said Eduardo Martinez, the president of the UPS Foundation. The company employs its trucks and planes to deliver food, medicine, and water. The day before I spoke to Martinez in November, he had been touring the damage from Hurricane Michael in Florida with the American Red Cross. \"We have an obligation to make sure our communities are thriving,\" he said.\n\nK) Rebuilding can take a long time, and even then, impressions of the disaster may still remain. Returning to a normal life can be difficult, but some small routines—mail delivery being one of them—may help residents remember that their communities are still their communities. \"When they see that carrier back out on the street,\" Swigart said, \"that's the first sign to them that life is starting to return to normal.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 B 段。题干：Postal service in some regions in the U.S. was suspended due to extreme cold weather.\n核对该段原文：Even the United States Postal Service (USPS) suspended mail delivery. \"Due to this arctic outbreak and concerns for the safety of USPS employees,\" USPS announced Wednesday morning, \"the Postal Service is suspending delivery Jan. 30 in some 3-digit ZIP Code locations.\" Twelve regions were listed as unsafe on Wednesday; on Thursday, eight remained.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2019-12-1-nonlistening-q43",
+      "canonicalId": "lazynote-cet4-2019-12-1-q43",
+      "number": 43,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Private postal companies also support disaster relief efforts by distributing urgent supplies.",
+      "passage": "The quiet heroism of mail delivery\n\nA) On Wednesday, a polar wind brought bitter cold to the Midwest. Overnight, Chicago reached a low of 21 degrees Fahrenheit below zero, making it slightly colder than Antarctica(南极洲), Alaska, and the North Pole. Wind chills were 64 degrees below zero in Park Rapids, Minnesota and 45 degrees below zero in Buffalo, North Dakota, according to the National Weather Service. Schools, restaurants, and businesses closed, and more than 1,000 flights were canceled.\n\nB) Even the United States Postal Service (USPS) suspended mail delivery. \"Due to this arctic outbreak and concerns for the safety of USPS employees,\" USPS announced Wednesday morning, \"the Postal Service is suspending delivery Jan. 30 in some 3-digit ZIP Code locations.\" Twelve regions were listed as unsafe on Wednesday; on Thursday, eight remained.\n\nC) As global surface temperatures increase, so does the likelihood of extreme weather. In 2018 alone, wildfires, volcanic eruptions, hurricanes, mudslides, and other natural disasters cost at least $49 billion in the United States. As my colleague Vann Newkirk reported, Puerto Rico is still confronting economic and structural destruction and resource scarcity from 2017's Hurricane Maria. Natural disasters can wreck a community's infrastructure, disrupting systems for months or years. Some services, however, remind us that life will eventually return, in some form, to normal.\n\nD) Days after the deadly 2017 wildfires in Santa Rosa, California, a drone(无人机) caught footage(连续镜头) of a USPS worker, Trevor Smith, driving through burned homes in that familiar white van, collecting mail in an affected area. The video is striking: The operation is familiar, but the scene looks like the end of the world. According to Rae Ann Haight, the program manager for the national-preparedness office at USPS, Smith was fulfilling a request made by some of the home owners to pick up any mail that was left untouched. For Smith, this was just another day on the job. \"I followed my route like I normally do,\" Smith told a reporter. \"As I came across a box that was up but with no house, I checked, and there was mail—outgoing mail—in it. And so we picked those up and carried on.\"\n\nE) USPS has sophisticated emergency plans for natural disasters. Across the country, 285 emergency management teams are devoted to crisis control. These teams are trained annually using a framework known as the three Ps: people, property, product. After mail service stops due to weather, the agency's top priority is ensuring that employees are safe. Then it evaluates the health of infrastructure, such as the roads that mail carriers drive on. Finally, it decides when and how to re-open operations. If the destruction is extreme, mail addressed to the area will get sent elsewhere. In response to Hurricane Katrina in 2005, USPS redirected incoming New Orleans mail to existing mail facilities in Houston. Mail that was already processed in New Orleans facilities was moved to an upper floor so it would be protected from water damage.\n\nF) As soon as it's safe enough to be outside, couriers(邮递员) start distributing accumulated mail on the still-accessible routes. USPS urges those without standing addresses to file change-of-address forms with their new location. After Hurricane Katrina hit in 2005, mail facilities were set up in dozens of locations across the country in the two weeks that USPS was unable to provide street delivery.\n\nG) Every day, USPS processes, on average, 493.4 million pieces of mail—anything from postcards to Social Security checks to medicine. Spokespeople from both USPS and UPS told me all mail is important. But some mail can be extremely sensitive and timely. According to data released in January 2017, 56 percent of bills are paid online, which means that just under half of payments still rely on delivery services to be completed.\n\nH) It can be hard to identify which parcels are carrying crucial items such as Social Security checks, but USPS and UPS try their best to prioritize sensitive material. They will coordinate with the Social Security Administration to make sure that Social Security checks reach the right people in a timely fashion. After Hurricane Florence and Hurricane Michael last fall, USPS worked with state and local election boards to make sure that absentee ballots were available and received on time.\n\nI) Mail companies are logistics(物流) companies, which puts them in a special position to help when disaster strikes. In a 2011 USPS case study, the agency emphasized its massive infrastructure as a \"unique federal asset\" to be called upon in a disaster or terrorist attack. \"I think we're unique as a federal agency,\" USPS official Mike Swigart told me, \"because we're in literally every community in this country…We're obligated to deliver to that point on a daily basis.\"\n\nJ) Private courier companies, which have more dollars to spend, use their expertise in logistics to help revitalize damaged areas after a disaster. For more than a decade, FedEx has supported the American Red Cross in its effort to get emergency supplies to areas affected by disasters, both domestically and internationally. In 2012, the company distributed more than 1,200 MedPacks to Medical Reserve Corps groups in California. They also donated space for 3.1 million pounds of charitable shipping globally. Last October, the company pledged $1 million in cash and transportation support for Hurricanes Florence and Michael. UPS's charitable arm, the UPS Foundation, uses the company's logistics to help disaster-struck areas rebuild. \"We realize that as a company with people, trucks, warehouses, we needed to play a larger role,\" said Eduardo Martinez, the president of the UPS Foundation. The company employs its trucks and planes to deliver food, medicine, and water. The day before I spoke to Martinez in November, he had been touring the damage from Hurricane Michael in Florida with the American Red Cross. \"We have an obligation to make sure our communities are thriving,\" he said.\n\nK) Rebuilding can take a long time, and even then, impressions of the disaster may still remain. Returning to a normal life can be difficult, but some small routines—mail delivery being one of them—may help residents remember that their communities are still their communities. \"When they see that carrier back out on the street,\" Swigart said, \"that's the first sign to them that life is starting to return to normal.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "J",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 J 段。题干：Private postal companies also support disaster relief efforts by distributing urgent supplies.\n核对该段原文：Private courier companies, which have more dollars to spend, use their expertise in logistics to help revitalize damaged areas after a disaster. For more than a decade, FedEx has supported the American Red Cross in its effort to get emergency supplies to areas affected by disasters, both domestically and internationally. In 2012, the company distributed more than 1,200 MedPacks to Medical Reserve Corps groups in California. They also donated space for 3.1 million pounds of charitable shipping globally. Last October, the company pledged $1 million in cash and transportation support for Hurricanes Florence and Michael. UPS's charitable arm, the UPS Foundation, uses the company's logistics to help disaster-struck areas rebuild. \"We realize that as a company with people, trucks, warehouses, we needed to play a larger role,\" said Eduardo Martinez, the president of the UPS Foundation. The company employs its trucks and planes to deliver food, medicine, and water. The day before I spoke to Martinez in November, he had been touring the damage from Hurricane Michael in Florida with the American Red Cross. \"We have an obligation to make sure our communities are thriving,\" he said.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2019-12-1-nonlistening-q44",
+      "canonicalId": "lazynote-cet4-2019-12-1-q44",
+      "number": 44,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "A dedicated USPS employee was on the job carrying out duties in spite of extreme conditions.",
+      "passage": "The quiet heroism of mail delivery\n\nA) On Wednesday, a polar wind brought bitter cold to the Midwest. Overnight, Chicago reached a low of 21 degrees Fahrenheit below zero, making it slightly colder than Antarctica(南极洲), Alaska, and the North Pole. Wind chills were 64 degrees below zero in Park Rapids, Minnesota and 45 degrees below zero in Buffalo, North Dakota, according to the National Weather Service. Schools, restaurants, and businesses closed, and more than 1,000 flights were canceled.\n\nB) Even the United States Postal Service (USPS) suspended mail delivery. \"Due to this arctic outbreak and concerns for the safety of USPS employees,\" USPS announced Wednesday morning, \"the Postal Service is suspending delivery Jan. 30 in some 3-digit ZIP Code locations.\" Twelve regions were listed as unsafe on Wednesday; on Thursday, eight remained.\n\nC) As global surface temperatures increase, so does the likelihood of extreme weather. In 2018 alone, wildfires, volcanic eruptions, hurricanes, mudslides, and other natural disasters cost at least $49 billion in the United States. As my colleague Vann Newkirk reported, Puerto Rico is still confronting economic and structural destruction and resource scarcity from 2017's Hurricane Maria. Natural disasters can wreck a community's infrastructure, disrupting systems for months or years. Some services, however, remind us that life will eventually return, in some form, to normal.\n\nD) Days after the deadly 2017 wildfires in Santa Rosa, California, a drone(无人机) caught footage(连续镜头) of a USPS worker, Trevor Smith, driving through burned homes in that familiar white van, collecting mail in an affected area. The video is striking: The operation is familiar, but the scene looks like the end of the world. According to Rae Ann Haight, the program manager for the national-preparedness office at USPS, Smith was fulfilling a request made by some of the home owners to pick up any mail that was left untouched. For Smith, this was just another day on the job. \"I followed my route like I normally do,\" Smith told a reporter. \"As I came across a box that was up but with no house, I checked, and there was mail—outgoing mail—in it. And so we picked those up and carried on.\"\n\nE) USPS has sophisticated emergency plans for natural disasters. Across the country, 285 emergency management teams are devoted to crisis control. These teams are trained annually using a framework known as the three Ps: people, property, product. After mail service stops due to weather, the agency's top priority is ensuring that employees are safe. Then it evaluates the health of infrastructure, such as the roads that mail carriers drive on. Finally, it decides when and how to re-open operations. If the destruction is extreme, mail addressed to the area will get sent elsewhere. In response to Hurricane Katrina in 2005, USPS redirected incoming New Orleans mail to existing mail facilities in Houston. Mail that was already processed in New Orleans facilities was moved to an upper floor so it would be protected from water damage.\n\nF) As soon as it's safe enough to be outside, couriers(邮递员) start distributing accumulated mail on the still-accessible routes. USPS urges those without standing addresses to file change-of-address forms with their new location. After Hurricane Katrina hit in 2005, mail facilities were set up in dozens of locations across the country in the two weeks that USPS was unable to provide street delivery.\n\nG) Every day, USPS processes, on average, 493.4 million pieces of mail—anything from postcards to Social Security checks to medicine. Spokespeople from both USPS and UPS told me all mail is important. But some mail can be extremely sensitive and timely. According to data released in January 2017, 56 percent of bills are paid online, which means that just under half of payments still rely on delivery services to be completed.\n\nH) It can be hard to identify which parcels are carrying crucial items such as Social Security checks, but USPS and UPS try their best to prioritize sensitive material. They will coordinate with the Social Security Administration to make sure that Social Security checks reach the right people in a timely fashion. After Hurricane Florence and Hurricane Michael last fall, USPS worked with state and local election boards to make sure that absentee ballots were available and received on time.\n\nI) Mail companies are logistics(物流) companies, which puts them in a special position to help when disaster strikes. In a 2011 USPS case study, the agency emphasized its massive infrastructure as a \"unique federal asset\" to be called upon in a disaster or terrorist attack. \"I think we're unique as a federal agency,\" USPS official Mike Swigart told me, \"because we're in literally every community in this country…We're obligated to deliver to that point on a daily basis.\"\n\nJ) Private courier companies, which have more dollars to spend, use their expertise in logistics to help revitalize damaged areas after a disaster. For more than a decade, FedEx has supported the American Red Cross in its effort to get emergency supplies to areas affected by disasters, both domestically and internationally. In 2012, the company distributed more than 1,200 MedPacks to Medical Reserve Corps groups in California. They also donated space for 3.1 million pounds of charitable shipping globally. Last October, the company pledged $1 million in cash and transportation support for Hurricanes Florence and Michael. UPS's charitable arm, the UPS Foundation, uses the company's logistics to help disaster-struck areas rebuild. \"We realize that as a company with people, trucks, warehouses, we needed to play a larger role,\" said Eduardo Martinez, the president of the UPS Foundation. The company employs its trucks and planes to deliver food, medicine, and water. The day before I spoke to Martinez in November, he had been touring the damage from Hurricane Michael in Florida with the American Red Cross. \"We have an obligation to make sure our communities are thriving,\" he said.\n\nK) Rebuilding can take a long time, and even then, impressions of the disaster may still remain. Returning to a normal life can be difficult, but some small routines—mail delivery being one of them—may help residents remember that their communities are still their communities. \"When they see that carrier back out on the street,\" Swigart said, \"that's the first sign to them that life is starting to return to normal.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 D 段。题干：A dedicated USPS employee was on the job carrying out duties in spite of extreme conditions.\n核对该段原文：Days after the deadly 2017 wildfires in Santa Rosa, California, a drone(无人机) caught footage(连续镜头) of a USPS worker, Trevor Smith, driving through burned homes in that familiar white van, collecting mail in an affected area. The video is striking: The operation is familiar, but the scene looks like the end of the world. According to Rae Ann Haight, the program manager for the national-preparedness office at USPS, Smith was fulfilling a request made by some of the home owners to pick up any mail that was left untouched. For Smith, this was just another day on the job. \"I followed my route like I normally do,\" Smith told a reporter. \"As I came across a box that was up but with no house, I checked, and there was mail—outgoing mail—in it. And so we picked those up and carried on.\"\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2019-12-1-nonlistening-q45",
+      "canonicalId": "lazynote-cet4-2019-12-1-q45",
+      "number": 45,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Postal services work hard to identify items that require priority treatment.",
+      "passage": "The quiet heroism of mail delivery\n\nA) On Wednesday, a polar wind brought bitter cold to the Midwest. Overnight, Chicago reached a low of 21 degrees Fahrenheit below zero, making it slightly colder than Antarctica(南极洲), Alaska, and the North Pole. Wind chills were 64 degrees below zero in Park Rapids, Minnesota and 45 degrees below zero in Buffalo, North Dakota, according to the National Weather Service. Schools, restaurants, and businesses closed, and more than 1,000 flights were canceled.\n\nB) Even the United States Postal Service (USPS) suspended mail delivery. \"Due to this arctic outbreak and concerns for the safety of USPS employees,\" USPS announced Wednesday morning, \"the Postal Service is suspending delivery Jan. 30 in some 3-digit ZIP Code locations.\" Twelve regions were listed as unsafe on Wednesday; on Thursday, eight remained.\n\nC) As global surface temperatures increase, so does the likelihood of extreme weather. In 2018 alone, wildfires, volcanic eruptions, hurricanes, mudslides, and other natural disasters cost at least $49 billion in the United States. As my colleague Vann Newkirk reported, Puerto Rico is still confronting economic and structural destruction and resource scarcity from 2017's Hurricane Maria. Natural disasters can wreck a community's infrastructure, disrupting systems for months or years. Some services, however, remind us that life will eventually return, in some form, to normal.\n\nD) Days after the deadly 2017 wildfires in Santa Rosa, California, a drone(无人机) caught footage(连续镜头) of a USPS worker, Trevor Smith, driving through burned homes in that familiar white van, collecting mail in an affected area. The video is striking: The operation is familiar, but the scene looks like the end of the world. According to Rae Ann Haight, the program manager for the national-preparedness office at USPS, Smith was fulfilling a request made by some of the home owners to pick up any mail that was left untouched. For Smith, this was just another day on the job. \"I followed my route like I normally do,\" Smith told a reporter. \"As I came across a box that was up but with no house, I checked, and there was mail—outgoing mail—in it. And so we picked those up and carried on.\"\n\nE) USPS has sophisticated emergency plans for natural disasters. Across the country, 285 emergency management teams are devoted to crisis control. These teams are trained annually using a framework known as the three Ps: people, property, product. After mail service stops due to weather, the agency's top priority is ensuring that employees are safe. Then it evaluates the health of infrastructure, such as the roads that mail carriers drive on. Finally, it decides when and how to re-open operations. If the destruction is extreme, mail addressed to the area will get sent elsewhere. In response to Hurricane Katrina in 2005, USPS redirected incoming New Orleans mail to existing mail facilities in Houston. Mail that was already processed in New Orleans facilities was moved to an upper floor so it would be protected from water damage.\n\nF) As soon as it's safe enough to be outside, couriers(邮递员) start distributing accumulated mail on the still-accessible routes. USPS urges those without standing addresses to file change-of-address forms with their new location. After Hurricane Katrina hit in 2005, mail facilities were set up in dozens of locations across the country in the two weeks that USPS was unable to provide street delivery.\n\nG) Every day, USPS processes, on average, 493.4 million pieces of mail—anything from postcards to Social Security checks to medicine. Spokespeople from both USPS and UPS told me all mail is important. But some mail can be extremely sensitive and timely. According to data released in January 2017, 56 percent of bills are paid online, which means that just under half of payments still rely on delivery services to be completed.\n\nH) It can be hard to identify which parcels are carrying crucial items such as Social Security checks, but USPS and UPS try their best to prioritize sensitive material. They will coordinate with the Social Security Administration to make sure that Social Security checks reach the right people in a timely fashion. After Hurricane Florence and Hurricane Michael last fall, USPS worked with state and local election boards to make sure that absentee ballots were available and received on time.\n\nI) Mail companies are logistics(物流) companies, which puts them in a special position to help when disaster strikes. In a 2011 USPS case study, the agency emphasized its massive infrastructure as a \"unique federal asset\" to be called upon in a disaster or terrorist attack. \"I think we're unique as a federal agency,\" USPS official Mike Swigart told me, \"because we're in literally every community in this country…We're obligated to deliver to that point on a daily basis.\"\n\nJ) Private courier companies, which have more dollars to spend, use their expertise in logistics to help revitalize damaged areas after a disaster. For more than a decade, FedEx has supported the American Red Cross in its effort to get emergency supplies to areas affected by disasters, both domestically and internationally. In 2012, the company distributed more than 1,200 MedPacks to Medical Reserve Corps groups in California. They also donated space for 3.1 million pounds of charitable shipping globally. Last October, the company pledged $1 million in cash and transportation support for Hurricanes Florence and Michael. UPS's charitable arm, the UPS Foundation, uses the company's logistics to help disaster-struck areas rebuild. \"We realize that as a company with people, trucks, warehouses, we needed to play a larger role,\" said Eduardo Martinez, the president of the UPS Foundation. The company employs its trucks and planes to deliver food, medicine, and water. The day before I spoke to Martinez in November, he had been touring the damage from Hurricane Michael in Florida with the American Red Cross. \"We have an obligation to make sure our communities are thriving,\" he said.\n\nK) Rebuilding can take a long time, and even then, impressions of the disaster may still remain. Returning to a normal life can be difficult, but some small routines—mail delivery being one of them—may help residents remember that their communities are still their communities. \"When they see that carrier back out on the street,\" Swigart said, \"that's the first sign to them that life is starting to return to normal.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 H 段。题干：Postal services work hard to identify items that require priority treatment.\n核对该段原文：It can be hard to identify which parcels are carrying crucial items such as Social Security checks, but USPS and UPS try their best to prioritize sensitive material. They will coordinate with the Social Security Administration to make sure that Social Security checks reach the right people in a timely fashion. After Hurricane Florence and Hurricane Michael last fall, USPS worked with state and local election boards to make sure that absentee ballots were available and received on time.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2019-12-1-nonlistening-q46",
+      "canonicalId": "lazynote-cet4-2019-12-1-q46",
+      "number": 46,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn about Knowledge-Based Artificial Intelligence?",
+      "passage": "Professor Ashok Goel of Georgia Tech developed an artificially intelligent teaching assistant to help handle the enormous number of student questions in the online class, Knowledge-Based Artificial Intelligence. This online course is a core requirement of Georgia Tech's online Master of Science in Computer Science program. Professor Goel already had eight teaching assistants, but that wasn't enough to deal with the overwhelming number of daily questions from students.\n\nMany students drop out of online courses because of the lack of teaching support. When students feel isolated or confused and reach out with questions that go unanswered, their motivation to continue begins to fade. Professor Goel decided to do something to remedy this situation and his solution was to create a virtual assistant named Jill Watson, which is based on the IBM Watson platform.\n\nGoel and his team developed several versions of Jill Watson before releasing her to the online forums. At first, the virtual assistant wasn't too great. But Goel and his team sourced the online discussion forum to find all 40,000 questions that had ever been asked since the class was launched. Then they began to feed Jill with the questions and answers. After some adjustments, and sufficient time, Jill was able to answer the students' questions correctly 97% of the time. The virtual assistant became so advanced and realistic that the students didn't know she was a computer. The students, who were studying artificial intelligence, were interacting with the virtual assistant and couldn't tell it apart from a real human being. Goel didn't inform them about Jill's true identity until April 26. The students were actually very positive about the experience.\n\nThe goal of Professor Goel's virtual assistant next year is to take over answering 40% of all the questions posed by students on the online forum. The name Jill Watson will, of course, change to something else next semester. Professor Goel has a much rosier outlook on the future of artificial intelligence than, say, Elon Musk, Stephen Hawking, Bill Gates or Steve Wozniak.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a robot that can answer students' questions."
+        },
+        {
+          "id": "B",
+          "text": "It is a course designed for students to learn online."
+        },
+        {
+          "id": "C",
+          "text": "It is a high-tech device that revolutionizes teaching."
+        },
+        {
+          "id": "D",
+          "text": "It is a computer program that aids student learning."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：It is a course designed for students to learn online.\n关键词检索定位到第 1 段的候选相关句：Professor Ashok Goel of Georgia Tech developed an artificially intelligent teaching assistant to help handle the enormous number of student questions in the online class, Knowledge-Based Artificial Intelligence.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2019-12-1-nonlistening-q47",
+      "canonicalId": "lazynote-cet4-2019-12-1-q47",
+      "number": 47,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What problem did Professor Goel meet with?",
+      "passage": "Professor Ashok Goel of Georgia Tech developed an artificially intelligent teaching assistant to help handle the enormous number of student questions in the online class, Knowledge-Based Artificial Intelligence. This online course is a core requirement of Georgia Tech's online Master of Science in Computer Science program. Professor Goel already had eight teaching assistants, but that wasn't enough to deal with the overwhelming number of daily questions from students.\n\nMany students drop out of online courses because of the lack of teaching support. When students feel isolated or confused and reach out with questions that go unanswered, their motivation to continue begins to fade. Professor Goel decided to do something to remedy this situation and his solution was to create a virtual assistant named Jill Watson, which is based on the IBM Watson platform.\n\nGoel and his team developed several versions of Jill Watson before releasing her to the online forums. At first, the virtual assistant wasn't too great. But Goel and his team sourced the online discussion forum to find all 40,000 questions that had ever been asked since the class was launched. Then they began to feed Jill with the questions and answers. After some adjustments, and sufficient time, Jill was able to answer the students' questions correctly 97% of the time. The virtual assistant became so advanced and realistic that the students didn't know she was a computer. The students, who were studying artificial intelligence, were interacting with the virtual assistant and couldn't tell it apart from a real human being. Goel didn't inform them about Jill's true identity until April 26. The students were actually very positive about the experience.\n\nThe goal of Professor Goel's virtual assistant next year is to take over answering 40% of all the questions posed by students on the online forum. The name Jill Watson will, of course, change to something else next semester. Professor Goel has a much rosier outlook on the future of artificial intelligence than, say, Elon Musk, Stephen Hawking, Bill Gates or Steve Wozniak.",
+      "options": [
+        {
+          "id": "A",
+          "text": "His students were unsatisfied with the assistants."
+        },
+        {
+          "id": "B",
+          "text": "His course was too difficult for the students."
+        },
+        {
+          "id": "C",
+          "text": "Students' questions were too many to handle."
+        },
+        {
+          "id": "D",
+          "text": "Too many students dropped out of his course."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：Students' questions were too many to handle.\n关键词检索定位到第 1 段的候选相关句：Professor Ashok Goel of Georgia Tech developed an artificially intelligent teaching assistant to help handle the enormous number of student questions in the online class, Knowledge-Based Artificial Intelligence.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2019-12-1-nonlistening-q48",
+      "canonicalId": "lazynote-cet4-2019-12-1-q48",
+      "number": 48,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn about Jill Watson?",
+      "passage": "Professor Ashok Goel of Georgia Tech developed an artificially intelligent teaching assistant to help handle the enormous number of student questions in the online class, Knowledge-Based Artificial Intelligence. This online course is a core requirement of Georgia Tech's online Master of Science in Computer Science program. Professor Goel already had eight teaching assistants, but that wasn't enough to deal with the overwhelming number of daily questions from students.\n\nMany students drop out of online courses because of the lack of teaching support. When students feel isolated or confused and reach out with questions that go unanswered, their motivation to continue begins to fade. Professor Goel decided to do something to remedy this situation and his solution was to create a virtual assistant named Jill Watson, which is based on the IBM Watson platform.\n\nGoel and his team developed several versions of Jill Watson before releasing her to the online forums. At first, the virtual assistant wasn't too great. But Goel and his team sourced the online discussion forum to find all 40,000 questions that had ever been asked since the class was launched. Then they began to feed Jill with the questions and answers. After some adjustments, and sufficient time, Jill was able to answer the students' questions correctly 97% of the time. The virtual assistant became so advanced and realistic that the students didn't know she was a computer. The students, who were studying artificial intelligence, were interacting with the virtual assistant and couldn't tell it apart from a real human being. Goel didn't inform them about Jill's true identity until April 26. The students were actually very positive about the experience.\n\nThe goal of Professor Goel's virtual assistant next year is to take over answering 40% of all the questions posed by students on the online forum. The name Jill Watson will, of course, change to something else next semester. Professor Goel has a much rosier outlook on the future of artificial intelligence than, say, Elon Musk, Stephen Hawking, Bill Gates or Steve Wozniak.",
+      "options": [
+        {
+          "id": "A",
+          "text": "She turned out to be a great success."
+        },
+        {
+          "id": "B",
+          "text": "She got along pretty well with students."
+        },
+        {
+          "id": "C",
+          "text": "She was unwelcome to students at first."
+        },
+        {
+          "id": "D",
+          "text": "She was released online as an experiment."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：She turned out to be a great success.\n关键词检索定位到第 2 段的候选相关句：Professor Goel decided to do something to remedy this situation and his solution was to create a virtual assistant named Jill Watson, which is based on the IBM Watson platform.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2019-12-1-nonlistening-q49",
+      "canonicalId": "lazynote-cet4-2019-12-1-q49",
+      "number": 49,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "How did the students feel about Jill Watson?",
+      "passage": "Professor Ashok Goel of Georgia Tech developed an artificially intelligent teaching assistant to help handle the enormous number of student questions in the online class, Knowledge-Based Artificial Intelligence. This online course is a core requirement of Georgia Tech's online Master of Science in Computer Science program. Professor Goel already had eight teaching assistants, but that wasn't enough to deal with the overwhelming number of daily questions from students.\n\nMany students drop out of online courses because of the lack of teaching support. When students feel isolated or confused and reach out with questions that go unanswered, their motivation to continue begins to fade. Professor Goel decided to do something to remedy this situation and his solution was to create a virtual assistant named Jill Watson, which is based on the IBM Watson platform.\n\nGoel and his team developed several versions of Jill Watson before releasing her to the online forums. At first, the virtual assistant wasn't too great. But Goel and his team sourced the online discussion forum to find all 40,000 questions that had ever been asked since the class was launched. Then they began to feed Jill with the questions and answers. After some adjustments, and sufficient time, Jill was able to answer the students' questions correctly 97% of the time. The virtual assistant became so advanced and realistic that the students didn't know she was a computer. The students, who were studying artificial intelligence, were interacting with the virtual assistant and couldn't tell it apart from a real human being. Goel didn't inform them about Jill's true identity until April 26. The students were actually very positive about the experience.\n\nThe goal of Professor Goel's virtual assistant next year is to take over answering 40% of all the questions posed by students on the online forum. The name Jill Watson will, of course, change to something else next semester. Professor Goel has a much rosier outlook on the future of artificial intelligence than, say, Elon Musk, Stephen Hawking, Bill Gates or Steve Wozniak.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They thought she was a bit too artificial."
+        },
+        {
+          "id": "B",
+          "text": "They found her not as capable as expected."
+        },
+        {
+          "id": "C",
+          "text": "They could not but admire her knowledge."
+        },
+        {
+          "id": "D",
+          "text": "They could not tell her from a real person."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：They could not tell her from a real person.\n关键词检索定位到第 3 段的候选相关句：Goel and his team developed several versions of Jill Watson before releasing her to the online forums.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2019-12-1-nonlistening-q50",
+      "canonicalId": "lazynote-cet4-2019-12-1-q50",
+      "number": 50,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does Professor Goel plan to do next with Jill Watson?",
+      "passage": "Professor Ashok Goel of Georgia Tech developed an artificially intelligent teaching assistant to help handle the enormous number of student questions in the online class, Knowledge-Based Artificial Intelligence. This online course is a core requirement of Georgia Tech's online Master of Science in Computer Science program. Professor Goel already had eight teaching assistants, but that wasn't enough to deal with the overwhelming number of daily questions from students.\n\nMany students drop out of online courses because of the lack of teaching support. When students feel isolated or confused and reach out with questions that go unanswered, their motivation to continue begins to fade. Professor Goel decided to do something to remedy this situation and his solution was to create a virtual assistant named Jill Watson, which is based on the IBM Watson platform.\n\nGoel and his team developed several versions of Jill Watson before releasing her to the online forums. At first, the virtual assistant wasn't too great. But Goel and his team sourced the online discussion forum to find all 40,000 questions that had ever been asked since the class was launched. Then they began to feed Jill with the questions and answers. After some adjustments, and sufficient time, Jill was able to answer the students' questions correctly 97% of the time. The virtual assistant became so advanced and realistic that the students didn't know she was a computer. The students, who were studying artificial intelligence, were interacting with the virtual assistant and couldn't tell it apart from a real human being. Goel didn't inform them about Jill's true identity until April 26. The students were actually very positive about the experience.\n\nThe goal of Professor Goel's virtual assistant next year is to take over answering 40% of all the questions posed by students on the online forum. The name Jill Watson will, of course, change to something else next semester. Professor Goel has a much rosier outlook on the future of artificial intelligence than, say, Elon Musk, Stephen Hawking, Bill Gates or Steve Wozniak.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Launch different versions of her online."
+        },
+        {
+          "id": "B",
+          "text": "Feed her with new questions and answers."
+        },
+        {
+          "id": "C",
+          "text": "Assign her to answer more of students' questions."
+        },
+        {
+          "id": "D",
+          "text": "Encourage students to interact with her more freely."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：Assign her to answer more of students' questions.\n关键词检索定位到第 4 段的候选相关句：The goal of Professor Goel's virtual assistant next year is to take over answering 40% of all the questions posed by students on the online forum.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2019-12-1-nonlistening-q51",
+      "canonicalId": "lazynote-cet4-2019-12-1-q51",
+      "number": 51,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn about the scientists trying to raise money online for their projects?",
+      "passage": "Thinking small, being engaging, and having a sense of humor don't hurt. Those are a few of the traits of successful science crowdfunding efforts that emerge from a recent study that examined nearly 400 campaigns. But having a large network and some promotional skills may be more crucial.\n\nCrowdfunding, raising money for a project through online appeals, has taken off in recent years for everything from making movies to producing water-saving gadgets. Scientists have tried to tap Internet donors, too, with mixed success. Some raised more than twice their goals, but others have fallen short of reaching even modest targets.\n\nTo determine what separates science crowdfunding triumphs from failures, a team led by science communications scholar Mike Schafer of the University of Zurich examined the content of the webpages for 371 recent campaigns.\n\nFour traits stood out for those that achieved their goals, the researchers report in Public Understanding of Science. For one, they use a crowdfunding platform that specializes in raising money for science, and not just any kind of project. Although sites like Kickstarter take all comers, platforms such as Experiment.com and Petridish.org only present scientific projects. For another, they present the project with a funny video because good visuals and a sense of humor improved success. Most of them engage with potential donors, since projects that answered questions from interested donors fared better. And they target a small amount of money. The projects included in the study raised $4000 on average, with 30% receiving less than $1000. The more money a project sought, the lower the chance it reached its goal, the researchers found.\n\nOther factors may also significantly influence a project's success, most notably, the size of a scientist's personal and professional networks, and how much a researcher promotes a project on their own. Those two factors are by far more critical than the content on the page. Crowdfunding can be part of researchers' efforts to reach the public, and people give because \"they feel a connection to the person\" who is doing the fundraising—not necessarily to the science.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They did not raise much due to modest targets."
+        },
+        {
+          "id": "B",
+          "text": "They made use of mixed fundraising strategies."
+        },
+        {
+          "id": "C",
+          "text": "Not all of them achieved their anticipated goals."
+        },
+        {
+          "id": "D",
+          "text": "Most of them put movies online for the purpose."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：Not all of them achieved their anticipated goals.\n关键词检索定位到第 2 段的候选相关句：Crowdfunding, raising money for a project through online appeals, has taken off in recent years for everything from making movies to producing water-saving gadgets.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2019-12-1-nonlistening-q52",
+      "canonicalId": "lazynote-cet4-2019-12-1-q52",
+      "number": 52,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What is the purpose of Mike Schafer's research of recent crowdfunding campaigns?",
+      "passage": "Thinking small, being engaging, and having a sense of humor don't hurt. Those are a few of the traits of successful science crowdfunding efforts that emerge from a recent study that examined nearly 400 campaigns. But having a large network and some promotional skills may be more crucial.\n\nCrowdfunding, raising money for a project through online appeals, has taken off in recent years for everything from making movies to producing water-saving gadgets. Scientists have tried to tap Internet donors, too, with mixed success. Some raised more than twice their goals, but others have fallen short of reaching even modest targets.\n\nTo determine what separates science crowdfunding triumphs from failures, a team led by science communications scholar Mike Schafer of the University of Zurich examined the content of the webpages for 371 recent campaigns.\n\nFour traits stood out for those that achieved their goals, the researchers report in Public Understanding of Science. For one, they use a crowdfunding platform that specializes in raising money for science, and not just any kind of project. Although sites like Kickstarter take all comers, platforms such as Experiment.com and Petridish.org only present scientific projects. For another, they present the project with a funny video because good visuals and a sense of humor improved success. Most of them engage with potential donors, since projects that answered questions from interested donors fared better. And they target a small amount of money. The projects included in the study raised $4000 on average, with 30% receiving less than $1000. The more money a project sought, the lower the chance it reached its goal, the researchers found.\n\nOther factors may also significantly influence a project's success, most notably, the size of a scientist's personal and professional networks, and how much a researcher promotes a project on their own. Those two factors are by far more critical than the content on the page. Crowdfunding can be part of researchers' efforts to reach the public, and people give because \"they feel a connection to the person\" who is doing the fundraising—not necessarily to the science.",
+      "options": [
+        {
+          "id": "A",
+          "text": "To create attractive content for science websites."
+        },
+        {
+          "id": "B",
+          "text": "To identify reasons for their different outcomes."
+        },
+        {
+          "id": "C",
+          "text": "To help scientists to launch innovative projects."
+        },
+        {
+          "id": "D",
+          "text": "To separate science projects from general ones."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：To identify reasons for their different outcomes.\n关键词检索定位到第 3 段的候选相关句：To determine what separates science crowdfunding triumphs from failures, a team led by science communications scholar Mike Schafer of the University of Zurich examined the content of the webpages for 371 recent campaigns.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2019-12-1-nonlistening-q53",
+      "canonicalId": "lazynote-cet4-2019-12-1-q53",
+      "number": 53,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What trait contributes to the success of a crowdfunding campaign?",
+      "passage": "Thinking small, being engaging, and having a sense of humor don't hurt. Those are a few of the traits of successful science crowdfunding efforts that emerge from a recent study that examined nearly 400 campaigns. But having a large network and some promotional skills may be more crucial.\n\nCrowdfunding, raising money for a project through online appeals, has taken off in recent years for everything from making movies to producing water-saving gadgets. Scientists have tried to tap Internet donors, too, with mixed success. Some raised more than twice their goals, but others have fallen short of reaching even modest targets.\n\nTo determine what separates science crowdfunding triumphs from failures, a team led by science communications scholar Mike Schafer of the University of Zurich examined the content of the webpages for 371 recent campaigns.\n\nFour traits stood out for those that achieved their goals, the researchers report in Public Understanding of Science. For one, they use a crowdfunding platform that specializes in raising money for science, and not just any kind of project. Although sites like Kickstarter take all comers, platforms such as Experiment.com and Petridish.org only present scientific projects. For another, they present the project with a funny video because good visuals and a sense of humor improved success. Most of them engage with potential donors, since projects that answered questions from interested donors fared better. And they target a small amount of money. The projects included in the study raised $4000 on average, with 30% receiving less than $1000. The more money a project sought, the lower the chance it reached its goal, the researchers found.\n\nOther factors may also significantly influence a project's success, most notably, the size of a scientist's personal and professional networks, and how much a researcher promotes a project on their own. Those two factors are by far more critical than the content on the page. Crowdfunding can be part of researchers' efforts to reach the public, and people give because \"they feel a connection to the person\" who is doing the fundraising—not necessarily to the science.",
+      "options": [
+        {
+          "id": "A",
+          "text": "The potential benefit to future generations."
+        },
+        {
+          "id": "B",
+          "text": "Its interaction with prospective donors."
+        },
+        {
+          "id": "C",
+          "text": "Its originality in addressing financial issues."
+        },
+        {
+          "id": "D",
+          "text": "The value of the proposed project."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：Its interaction with prospective donors.\n关键词检索定位到第 1 段的候选相关句：Those are a few of the traits of successful science crowdfunding efforts that emerge from a recent study that examined nearly 400 campaigns.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2019-12-1-nonlistening-q54",
+      "canonicalId": "lazynote-cet4-2019-12-1-q54",
+      "number": 54,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What did the researchers think of the financial targets of crowdfunding projects?",
+      "passage": "Thinking small, being engaging, and having a sense of humor don't hurt. Those are a few of the traits of successful science crowdfunding efforts that emerge from a recent study that examined nearly 400 campaigns. But having a large network and some promotional skills may be more crucial.\n\nCrowdfunding, raising money for a project through online appeals, has taken off in recent years for everything from making movies to producing water-saving gadgets. Scientists have tried to tap Internet donors, too, with mixed success. Some raised more than twice their goals, but others have fallen short of reaching even modest targets.\n\nTo determine what separates science crowdfunding triumphs from failures, a team led by science communications scholar Mike Schafer of the University of Zurich examined the content of the webpages for 371 recent campaigns.\n\nFour traits stood out for those that achieved their goals, the researchers report in Public Understanding of Science. For one, they use a crowdfunding platform that specializes in raising money for science, and not just any kind of project. Although sites like Kickstarter take all comers, platforms such as Experiment.com and Petridish.org only present scientific projects. For another, they present the project with a funny video because good visuals and a sense of humor improved success. Most of them engage with potential donors, since projects that answered questions from interested donors fared better. And they target a small amount of money. The projects included in the study raised $4000 on average, with 30% receiving less than $1000. The more money a project sought, the lower the chance it reached its goal, the researchers found.\n\nOther factors may also significantly influence a project's success, most notably, the size of a scientist's personal and professional networks, and how much a researcher promotes a project on their own. Those two factors are by far more critical than the content on the page. Crowdfunding can be part of researchers' efforts to reach the public, and people give because \"they feel a connection to the person\" who is doing the fundraising—not necessarily to the science.",
+      "options": [
+        {
+          "id": "A",
+          "text": "They should be small to be successful."
+        },
+        {
+          "id": "B",
+          "text": "They should be based on actual needs."
+        },
+        {
+          "id": "C",
+          "text": "They should be assessed with great care."
+        },
+        {
+          "id": "D",
+          "text": "They should be ambitious to gain notice."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：They should be small to be successful.\n关键词检索定位到第 1 段的候选相关句：Those are a few of the traits of successful science crowdfunding efforts that emerge from a recent study that examined nearly 400 campaigns.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2019-12-1-nonlistening-q55",
+      "canonicalId": "lazynote-cet4-2019-12-1-q55",
+      "number": 55,
+      "level": "CET4",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What motivates people to donate in a crowdfunding campaign?",
+      "passage": "Thinking small, being engaging, and having a sense of humor don't hurt. Those are a few of the traits of successful science crowdfunding efforts that emerge from a recent study that examined nearly 400 campaigns. But having a large network and some promotional skills may be more crucial.\n\nCrowdfunding, raising money for a project through online appeals, has taken off in recent years for everything from making movies to producing water-saving gadgets. Scientists have tried to tap Internet donors, too, with mixed success. Some raised more than twice their goals, but others have fallen short of reaching even modest targets.\n\nTo determine what separates science crowdfunding triumphs from failures, a team led by science communications scholar Mike Schafer of the University of Zurich examined the content of the webpages for 371 recent campaigns.\n\nFour traits stood out for those that achieved their goals, the researchers report in Public Understanding of Science. For one, they use a crowdfunding platform that specializes in raising money for science, and not just any kind of project. Although sites like Kickstarter take all comers, platforms such as Experiment.com and Petridish.org only present scientific projects. For another, they present the project with a funny video because good visuals and a sense of humor improved success. Most of them engage with potential donors, since projects that answered questions from interested donors fared better. And they target a small amount of money. The projects included in the study raised $4000 on average, with 30% receiving less than $1000. The more money a project sought, the lower the chance it reached its goal, the researchers found.\n\nOther factors may also significantly influence a project's success, most notably, the size of a scientist's personal and professional networks, and how much a researcher promotes a project on their own. Those two factors are by far more critical than the content on the page. Crowdfunding can be part of researchers' efforts to reach the public, and people give because \"they feel a connection to the person\" who is doing the fundraising—not necessarily to the science.",
+      "options": [
+        {
+          "id": "A",
+          "text": "The ease of access to the content of the webpage."
+        },
+        {
+          "id": "B",
+          "text": "Their desire to contribute to the cause of science."
+        },
+        {
+          "id": "C",
+          "text": "The significance and influence of the project itself."
+        },
+        {
+          "id": "D",
+          "text": "Their feeling of connection to the scientists themselves."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：Their feeling of connection to the scientists themselves.\n关键词检索定位到第 1 段的候选相关句：Those are a few of the traits of successful science crowdfunding efforts that emerge from a recent study that examined nearly 400 campaigns.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    },
+    {
+      "id": "cet4-2019-12-1-nonlistening-translation",
+      "number": "IV",
+      "level": "CET4",
+      "type": "short_text_self_check",
+      "skill": "translation",
+      "section": "translation",
+      "prompt": "Directions: For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2 .\n\n中国家庭十分重视孩子的教育。许多父母认为应该努力工作，确保孩子受到良好教育。他们不仅非常情愿为孩子的教育投资而且花很多时间督促他们学习。多数家长希望孩子能上名牌大学。由于改革开放，越来越多的家长能送孩子到国外学习或参与国际交流项目，以拓宽其视野。通过这些努力，他们期望孩子健康成长，为国家的发展和繁荣作出贡献。",
+      "options": [],
+      "correctAnswer": "Chinese families attach great importance to their children's education. Many parents believe that they should work hard to ensure that their children receive a good education. They are not only very willing to invest in it but also spend much time urging their children to study. Most parents hope that their children can attend prestigious universities. Since reform and opening up, more parents have been able to send their children abroad to study or join international exchange programs to broaden their horizons. Through these efforts, they expect their children to grow up well and contribute to the country's development and prosperity.",
+      "referenceAnswer": "Chinese families attach great importance to their children's education. Many parents believe that they should work hard to ensure that their children receive a good education. They are not only very willing to invest in it but also spend much time urging their children to study. Most parents hope that their children can attend prestigious universities. Since reform and opening up, more parents have been able to send their children abroad to study or join international exchange programs to broaden their horizons. Through these efforts, they expect their children to grow up well and contribute to the country's development and prosperity.",
+      "hint": "注意重视教育、投资、名牌大学、拓宽视野的搭配。",
+      "explanation": "以下译文为原创参考，可使用其他准确表达。not only…but also连接两种投入；改革开放后的变化用现在完成时更自然；末句须同时保留成长与国家发展。\n\n逐句核对：①attach great importance to their children’s education是重视孩子教育；②ensure that引出良好教育的目标；③not only愿意投资，but also花时间督促，不能遗漏第二种投入；④prestigious universities译名牌大学，不是小学；⑤send…abroad与join international exchange programs是两种途径，to broaden horizons引出目的；⑥grow up well与contribute to development and prosperity保留成长与国家贡献。催促学习用urge…to study，而非督促父母。",
+      "rubric": [
+        "练习自评总分15分：信息准确0–8＋语法0–5＋表达0–2；允许拆句、换同义词，不要求逐字匹配参考译文。",
+        "信息准确0–8分：逐项检查——重视教育；父母努力工作；钱与时间投入；名牌大学；改革开放及海外学习/交流；成长与国家贡献。8分=全部关键信息正确；6–7分=少量次要细节遗漏；3–5分=多处遗漏/数字或关系误译；0–2分=核心人物、动作或逻辑严重错误。",
+        "语法0–5分：5分=时态、单复数、主谓一致、从句和介词基本正确；3–4分=少量错误仍易理解；1–2分=多处错误妨碍理解；0分=主要句子结构不可理解。",
+        "表达0–2分：2分=用词搭配自然、因果转折时间衔接清楚；1分=可理解但有中文式生硬表达；0分=词序/词义造成大面积理解困难。",
+        "修订操作：先在中文原题划出时间、数量、地点和连接词，再在自己的译文逐项找对应；为每处漏译或误译写一句修正。此分数是练习估计，不是官方阅卷或机器评分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet4-2019-12-1-nonlistening"
+    }
+  ]
+}

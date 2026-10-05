@@ -1,0 +1,43 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
+<view class="wardrobe-page" style="{{theme.style}}">
+  <view class="wardrobe-heading"><view><text class="wardrobe-kicker">{{pageCopy.title}}</text><text class="wardrobe-title">伙伴衣橱 {{theme.decoration}}</text></view><view wx:if="{{state === 'ready'}}" class="coin-balance"><text>✦</text><text>{{wardrobe.coins}} 金币</text></view></view>
+  <view wx:if="{{state === 'loading'}}" class="wardrobe-status"><tech-loader/><text>正在打开衣橱…</text></view>
+  <view wx:elif="{{state === 'error'}}" class="wardrobe-status"><text>{{error}}</text><button class="tech-control status-retry" bindtap="loadWardrobe" hover-class="tech-pressed">重新加载</button></view>
+  <block wx:else>
+    <view class="wardrobe-view-tabs"><button class="tech-control {{view === 'shop' ? 'selected' : ''}}" data-view="shop" bindtap="selectView" hover-class="tech-pressed">伙伴换装</button><button class="tech-control {{view === 'rank' ? 'selected' : ''}}" data-view="rank" bindtap="selectView" hover-class="tech-pressed">装扮热力榜</button></view>
+    <block wx:if="{{view === 'shop'}}">
+    <view class="companion-card">
+      <view class="wardrobe-stage"><campus-companion image="{{appearance.image}}" outfit="{{appearance.outfit}}" accessory="{{appearance.accessory}}" shoes="{{appearance.shoes}}" accessory-style="{{appearance.accessoryStyle}}" shoes-style="{{appearance.shoesStyle}}" character="{{appearance.character}}" feeding="{{feeding}}" food="{{foodSymbol}}" expression="{{expression}}" /></view>
+      <view class="companion-copy"><text class="companion-title">我的校园伙伴</text><text class="companion-note">点击伙伴聊一句，换装也会动。</text><text class="companion-heat">✦ 装扮热力 {{wardrobe.heat || 0}}</text><view class="character-options"><button class="tech-control character-option {{appearance.character === 'boy' ? 'selected' : ''}}" data-character="boy" bindtap="selectCharacter" disabled="{{!!busy}}" hover-class="tech-pressed">小男生</button><button class="tech-control character-option {{appearance.character === 'girl' ? 'selected' : ''}}" data-character="girl" bindtap="selectCharacter" disabled="{{!!busy}}" hover-class="tech-pressed">小女生</button></view><button class="earn-coins tech-control" bindtap="goToTasks" hover-class="tech-pressed">每日任务，收集金币 ›</button></view>
+    </view>
+    <scroll-view class="wardrobe-tabs" scroll-x><view class="tab-row"><button wx:for="{{categories}}" wx:key="key" class="tech-control category-tab {{category === item.key ? 'selected' : ''}}" data-key="{{item.key}}" bindtap="selectCategory" hover-class="tech-pressed">{{item.name}}</button></view></scroll-view>
+    <view wx:if="{{category === 'theme'}}" class="theme-settings"><text class="category-note">主题单独应用到你选的页面。</text><scroll-view scroll-x class="theme-module-scroll"><view class="theme-module-row"><button wx:for="{{themeModules}}" wx:key="key" class="tech-control theme-module {{themeModule === item.key ? 'selected' : ''}}" data-key="{{item.key}}" bindtap="selectThemeModule" hover-class="tech-pressed">{{item.name}}</button></view></scroll-view></view>
+    <text wx:elif="{{category === 'outfit'}}" class="category-note">日常套装整套更换，形象可以自由切换。</text>
+    <text wx:elif="{{category === 'food'}}" class="category-note">每次喂食消耗 1 份，看看伙伴的开心反应。</text>
+    <view wx:if="{{!items.length}}" class="wardrobe-status"><text>这里暂时还没有上架的物品</text></view>
+    <view class="item-grid">
+      <view wx:for="{{items}}" wx:key="id" class="item-card">
+        <view class="item-preview {{category === 'outfit' ? 'item-preview--outfit' : ''}}" style="{{category === 'theme' ? item.previewTheme.style : ''}}"><view wx:if="{{category === 'theme'}}" class="theme-sample"><text>{{item.previewTheme.decoration}}</text><view class="theme-sample-line"/><view class="theme-sample-button">校园小站</view></view><view wx:elif="{{item.previewBase}}" class="item-layer-preview"><image src="{{item.previewBase}}" mode="aspectFit"/><image src="{{item.preview}}" mode="aspectFit"/></view><image wx:elif="{{item.preview}}" src="{{item.preview}}" mode="aspectFit" /><text wx:else class="item-symbol">{{item.symbol}}</text><text wx:if="{{item.isEquipped}}" class="equipped-badge">使用中</text></view>
+        <text class="item-name">{{item.name}}</text><text wx:if="{{item.description}}" class="item-description">{{item.description}}</text><text class="item-meta">{{category === 'theme' ? '页面主题' : category === 'food' ? '库存 ' + item.stock + ' 份' : item.characterLabel}}<text wx:if="{{item.heat}}"> · 热力 {{item.heat}}</text></text>
+        <block wx:if="{{category === 'food'}}"><button class="tech-control item-action tech-primary" data-id="{{item.id}}" bindtap="feed" disabled="{{!!busy || feeding || !(item.stock > 0)}}" hover-class="tech-pressed">喂给伙伴</button><button class="tech-control item-action" data-id="{{item.id}}" bindtap="buyItem" disabled="{{!!busy || item.price > wardrobe.coins}}" hover-class="tech-pressed">{{item.price}} 金币 · 买一份</button></block>
+        <button wx:elif="{{!item.owned}}" class="tech-control tech-primary item-action" data-id="{{item.id}}" bindtap="buyItem" disabled="{{!!busy || item.price > wardrobe.coins}}" hover-class="tech-pressed">{{item.price}} 金币 · 购买</button>
+        <button wx:else class="tech-control item-action {{item.isEquipped ? 'selected' : 'tech-primary'}}" data-id="{{item.id}}" bindtap="equipItem" disabled="{{!!busy || item.isEquipped || !item.compatible}}" hover-class="tech-pressed">{{item.isEquipped ? '已装备' : !item.compatible ? '切换形象使用' : '穿戴 / 应用'}}</button>
+      </view>
+    </view>
+    <button wx:if="{{category !== 'food'}}" class="tech-control reset-button" bindtap="resetEquipment" disabled="{{!!busy}}" hover-class="tech-pressed">恢复当前分类的初始装扮</button>
+    <text wx:if="{{busy}}" class="busy-note">正在保存，请稍等…</text>
+    </block>
+    <view wx:else class="wardrobe-ranking">
+      <view class="ranking-intro"><text class="ranking-title">{{pageCopy.title}} ✧</text><text class="ranking-note">{{pageCopy.subtitle}}</text><view class="ranking-mine"><text>我的热力 {{ranking.myHeat || 0}}</text><text>{{ranking.myRank ? '第 ' + ranking.myRank + ' 名' : '穿上装扮即可入榜'}}</text></view></view>
+      <view wx:if="{{rankState === 'loading'}}" class="wardrobe-status"><tech-loader/><text>正在整理装扮热力…</text></view>
+      <view wx:elif="{{rankState === 'error'}}" class="wardrobe-status"><text>{{rankError}}</text><button class="tech-control status-retry" bindtap="loadRanking" hover-class="tech-pressed">重新加载</button></view>
+      <block wx:else>
+        <view wx:if="{{!rankItems.length}}" class="wardrobe-status"><text>第一位闪耀伙伴，会是谁呢？</text><text>完成任务赚金币，购买并穿戴装扮后就能入榜。</text></view>
+        <view wx:for="{{rankItems}}" wx:key="openid" class="wardrobe-rank-row {{item.rank <= 3 ? 'wardrobe-rank-row--top' : ''}}"><view class="rank-position"><text>{{item.crown || item.rank}}</text><text wx:if="{{item.rank <= 3}}" class="rank-position-label">{{item.rank === 1 ? '冠军' : item.rank === 2 ? '亚军' : '季军'}}</text></view><image wx:if="{{item.avatarUrl}}" class="rank-avatar" src="{{item.avatarUrl}}" mode="aspectFill"/><view wx:else class="rank-avatar rank-avatar--empty">{{item.character === 'girl' ? '✿' : '✦'}}</view><view class="rank-person"><text class="rank-name">{{item.nickName}}</text><text class="rank-outfit">{{item.outfitName}} · {{item.title}}</text></view><view class="rank-heat"><text>{{item.heat}}</text><text>热力</text></view></view>
+        <text class="ranking-rule">{{ranking.rule}}</text>
+      </block>
+    </view>
+  </block>
+</view>
+
+</block>

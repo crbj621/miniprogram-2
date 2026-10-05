@@ -1,3 +1,4 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="container">
   <view class="topbar">
     <view class="title">可接单（待配送）</view>
@@ -32,3 +33,5 @@
   </view>
 </view>
 
+
+</block>

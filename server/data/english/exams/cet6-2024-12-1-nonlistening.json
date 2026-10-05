@@ -1,0 +1,2105 @@
+{
+  "schemaVersion": 1,
+  "status": "verified_structured",
+  "source": {
+    "id": "cet6-2024-12-1-nonlistening",
+    "textCollection": "https://english-exam.lazynote.cn",
+    "textUrl": "https://english-exam.lazynote.cn/cet6/paper/2024-12-1/",
+    "textSha256": "551ee33178f885185454d400ea95236209d49ab67ca43ee7ab064236ed33d752",
+    "answerSources": [
+      {
+        "section": "part3-section-a",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2024-12-1/part3-section-a/",
+        "sha256": "a29fed4d8f76b32af080c514e1f57d0c6998e57f58666b10630f52dcaef70a64"
+      },
+      {
+        "section": "part3-section-b",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2024-12-1/part3-section-b/",
+        "sha256": "d0bdfc2ecebb2703d794a462fde036cd6f3a665def6a4350290c98903b5e81d6"
+      },
+      {
+        "section": "part3-section-c-1",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2024-12-1/part3-section-c-1/",
+        "sha256": "5093212c005212edb132610880b0f806c41e13ed8057cf8c01acbc0e690abfc4"
+      },
+      {
+        "section": "part3-section-c-2",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2024-12-1/part3-section-c-2/",
+        "sha256": "6683bac9b373d465c36b33e44d5d3c21fbec9f27bf9d8ed6f86027f6a25f446a"
+      }
+    ],
+    "rightsUrl": "https://english-exam.lazynote.cn",
+    "rights": "Source footer attributes original papers to the National College English Test Committee. Original materials retain their respective rights; no blanket source license is asserted. Commercial explanatory prose is not copied.",
+    "sourceRightsNotice": "© 2026 懒笔记 · 蜀ICP备2024049450号-1 · 川公网安备51019002006323号 · 增值电信业务经营许可证：川B2-20240301 · 真题版权归全国硕士研究生招生考试 / 全国大学英语四六级考试委员会所有 · 隐私政策 · 用户协议",
+    "sourceTermsUrl": "https://english-exam.lazynote.cn/terms/",
+    "reviewedAt": "2026-10-03",
+    "answerStatus": "public_reference_structural_consistency_verified",
+    "explanations": "Project-generated contextual evidence notes. Close-reading locations are keyword-search candidates, not manually verified detailed explanations.",
+    "referenceEssays": "Project-authored full reference examples bound to the original prompts; not official model answers.",
+    "materialSources": [],
+    "corrections": [],
+    "previousReviewedAnswerSources": [],
+    "sourceEdition": "lazynote public original-paper arrangement; set numbering can differ from other collections.",
+    "independentlyConfirmedSharedSource": "",
+    "readingSourceCorrection": null,
+    "sectionSourceReplacement": null,
+    "independentAnswerChecks": [],
+    "sharedSectionSource": {}
+  },
+  "papers": [
+    {
+      "id": "cet6-2024-12-1-nonlistening",
+      "level": "CET6",
+      "year": 2024,
+      "month": 12,
+      "set": 1,
+      "title": "2024年12月英语六级第1套真题（不含听力）",
+      "authenticity": "past_exam",
+      "questionIds": [
+        "cet6-2024-12-1-nonlistening-writing",
+        "cet6-2024-12-1-nonlistening-q26",
+        "cet6-2024-12-1-nonlistening-q27",
+        "cet6-2024-12-1-nonlistening-q28",
+        "cet6-2024-12-1-nonlistening-q29",
+        "cet6-2024-12-1-nonlistening-q30",
+        "cet6-2024-12-1-nonlistening-q31",
+        "cet6-2024-12-1-nonlistening-q32",
+        "cet6-2024-12-1-nonlistening-q33",
+        "cet6-2024-12-1-nonlistening-q34",
+        "cet6-2024-12-1-nonlistening-q35",
+        "cet6-2024-12-1-nonlistening-q36",
+        "cet6-2024-12-1-nonlistening-q37",
+        "cet6-2024-12-1-nonlistening-q38",
+        "cet6-2024-12-1-nonlistening-q39",
+        "cet6-2024-12-1-nonlistening-q40",
+        "cet6-2024-12-1-nonlistening-q41",
+        "cet6-2024-12-1-nonlistening-q42",
+        "cet6-2024-12-1-nonlistening-q43",
+        "cet6-2024-12-1-nonlistening-q44",
+        "cet6-2024-12-1-nonlistening-q45",
+        "cet6-2024-12-1-nonlistening-q46",
+        "cet6-2024-12-1-nonlistening-q47",
+        "cet6-2024-12-1-nonlistening-q48",
+        "cet6-2024-12-1-nonlistening-q49",
+        "cet6-2024-12-1-nonlistening-q50",
+        "cet6-2024-12-1-nonlistening-q51",
+        "cet6-2024-12-1-nonlistening-q52",
+        "cet6-2024-12-1-nonlistening-q53",
+        "cet6-2024-12-1-nonlistening-q54",
+        "cet6-2024-12-1-nonlistening-q55",
+        "cet6-2024-12-1-nonlistening-translation"
+      ],
+      "durationSeconds": 6000,
+      "description": "写作1题、阅读30题、翻译1题，不含听力。客观题答案与题面、选项完成结构一致性核对。",
+      "sourceId": "cet6-2024-12-1-nonlistening",
+      "coverage": {
+        "fullPaper": false,
+        "fullNonListening": true,
+        "listeningExcluded": true,
+        "objectiveNumbers": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "objectiveCount": 30,
+        "subjectiveCount": 2,
+        "sections": [
+          "writing",
+          "reading_word_bank",
+          "reading_matching",
+          "reading_comprehension",
+          "translation"
+        ],
+        "sharedSectionSource": {},
+        "note": "写作1题、阅读30题、翻译1题，不含听力。",
+        "independentlyConfirmedSharedSource": "",
+        "readingSourceCorrection": null,
+        "sectionSourceReplacement": null,
+        "referenceStatus": "project_authored"
+      },
+      "resources": [
+        {
+          "id": "cet6-2024-12-1-nonlistening-source",
+          "type": "web",
+          "title": "原卷来源与题面核对",
+          "url": "https://english-exam.lazynote.cn/cet6/paper/2024-12-1/"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cet6-2024-12-1-nonlistening-writing",
+      "number": "I",
+      "level": "CET6",
+      "type": "short_text_self_check",
+      "skill": "writing",
+      "section": "writing",
+      "prompt": "Directions: For this part, you are allowed 30 minutes to write an essay that begins with the sentence “ To increase the likelihood of success, one should set realistic goals and work persistently towards them. \" You can make comments, cite examples or use your personal experiences to develop your essay. You should write at least 150 words but no more than 200 words. You should copy the sentence given in quotes at the beginning of your essay.",
+      "options": [],
+      "correctAnswer": "To increase the likelihood of success, one should set realistic goals and work persistently towards them. A goal provides direction, but it becomes useful only when it fits our circumstances and is supported by consistent action.\n\nRealistic goals are challenging without depending on impossible assumptions. A student hoping to improve English, for example, may begin with a weekly reading plan and regular speaking practice rather than expect fluency in a few days. Small completed tasks provide evidence of progress and make continued effort easier. Persistence is equally important because improvement rarely follows a perfectly smooth path. When difficulties arise, reviewing the method and adjusting the schedule is more helpful than abandoning the aim immediately. Flexibility in the approach can support persistence instead of contradicting it.\n\nWe should therefore divide larger ambitions into manageable stages and check results regularly. Teachers and friends can offer feedback that helps us recognize both progress and weaknesses. By matching aspiration with practical steps and maintaining steady effort, we improve our chances of achieving worthwhile results and build habits that remain useful beyond a single goal.",
+      "referenceAnswer": "To increase the likelihood of success, one should set realistic goals and work persistently towards them. A goal provides direction, but it becomes useful only when it fits our circumstances and is supported by consistent action.\n\nRealistic goals are challenging without depending on impossible assumptions. A student hoping to improve English, for example, may begin with a weekly reading plan and regular speaking practice rather than expect fluency in a few days. Small completed tasks provide evidence of progress and make continued effort easier. Persistence is equally important because improvement rarely follows a perfectly smooth path. When difficulties arise, reviewing the method and adjusting the schedule is more helpful than abandoning the aim immediately. Flexibility in the approach can support persistence instead of contradicting it.\n\nWe should therefore divide larger ambitions into manageable stages and check results regularly. Teachers and friends can offer feedback that helps us recognize both progress and weaknesses. By matching aspiration with practical steps and maintaining steady effort, we improve our chances of achieving worthwhile results and build habits that remain useful beyond a single goal.",
+      "hint": "照写首句，解释现实目标与持续努力的配合，并说明调整方法不等于放弃。",
+      "explanation": "以下为按本题要求独立写成的原创参考范文，作文没有唯一答案。英语学习例子用每周计划对比不合理时限，说明realistic；遇到困难复盘和调整说明persistently。末段目标分阶段和反馈可操作，避免许诺只要坚持必然成功。likelihood是可能性而非保证。",
+      "rubric": [
+        "任务：照写首句，解释现实目标与持续努力的配合，并说明调整方法不等于放弃。",
+        "论证：明确中心观点，用原因、具体例子或经历展开；结尾回应主题。",
+        "语言：检查主谓一致、时态、搭配和段落衔接；全文控制在150–200词。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2024-12-1-nonlistening-q26",
+      "canonicalId": "lazynote-cet6-2024-12-1-q26",
+      "number": 26,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 26 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "With the rapid progress in the economy, it is natural that people's ideology is bound for change. Being [26] ____ is no longer a virtue to some people, and they are not alone in holding this view. Each might have different viewpoints on how to lead one's lifestyle: some prefer simplicity, some love luxuries, some spend [27] ____ , some accumulate as much as they can like a country mouse. As I was born poor and in the countryside, the simple rural life seldom loses its [28] ____ to me, but as my station changes, I have an opportunity to [29] ____ with the newly rich, an experience which has revolutionized my view of lifestyle.\n\nIt is evil or sinful to spend little and to save much, an idea only recently being revealed to me. Actually the whole world is in a [30] ____ to borrow and to spend, with the USA leading the trend. The USA is still the richest and most powerful country in the world, but the [31] ____ is that they borrow money from us. Though a [32] ____ of economics, at least I know that investing with borrowed money will turn the borrower into the [33] ____ rather than the decent and kind lender. An apparent case is real estate. Those who are [34] ____ and have got loans from the bank become relatively rich by selling their purchased home at a price several folds higher. Even education is not immune from this theory. Many of those poor parents who have the vision to send their children to college have benefited from this investment, even though they have to [35] ____ a living. It is reasonable to conclude that spending is praiseworthy, supposing it is not beyond your means.",
+      "options": [
+        {
+          "id": "A",
+          "text": "appeal"
+        },
+        {
+          "id": "B",
+          "text": "extravagantly"
+        },
+        {
+          "id": "C",
+          "text": "intrinsically"
+        },
+        {
+          "id": "D",
+          "text": "irony"
+        },
+        {
+          "id": "E",
+          "text": "layman"
+        },
+        {
+          "id": "F",
+          "text": "literally"
+        },
+        {
+          "id": "G",
+          "text": "majestic"
+        },
+        {
+          "id": "H",
+          "text": "malicious"
+        },
+        {
+          "id": "I",
+          "text": "meadow"
+        },
+        {
+          "id": "J",
+          "text": "mingle"
+        },
+        {
+          "id": "K",
+          "text": "predator"
+        },
+        {
+          "id": "L",
+          "text": "rage"
+        },
+        {
+          "id": "M",
+          "text": "scrape"
+        },
+        {
+          "id": "N",
+          "text": "shrewd"
+        },
+        {
+          "id": "O",
+          "text": "thrifty"
+        }
+      ],
+      "correctAnswer": "O",
+      "hint": "先看第 26 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 O（thrifty）。本空所在句：Being [26] ____ is no longer a virtue to some people, and they are not alone in holding this view.\n将本空替换为 thrifty 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2024-12-1-nonlistening-q27",
+      "canonicalId": "lazynote-cet6-2024-12-1-q27",
+      "number": 27,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 27 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "With the rapid progress in the economy, it is natural that people's ideology is bound for change. Being [26] ____ is no longer a virtue to some people, and they are not alone in holding this view. Each might have different viewpoints on how to lead one's lifestyle: some prefer simplicity, some love luxuries, some spend [27] ____ , some accumulate as much as they can like a country mouse. As I was born poor and in the countryside, the simple rural life seldom loses its [28] ____ to me, but as my station changes, I have an opportunity to [29] ____ with the newly rich, an experience which has revolutionized my view of lifestyle.\n\nIt is evil or sinful to spend little and to save much, an idea only recently being revealed to me. Actually the whole world is in a [30] ____ to borrow and to spend, with the USA leading the trend. The USA is still the richest and most powerful country in the world, but the [31] ____ is that they borrow money from us. Though a [32] ____ of economics, at least I know that investing with borrowed money will turn the borrower into the [33] ____ rather than the decent and kind lender. An apparent case is real estate. Those who are [34] ____ and have got loans from the bank become relatively rich by selling their purchased home at a price several folds higher. Even education is not immune from this theory. Many of those poor parents who have the vision to send their children to college have benefited from this investment, even though they have to [35] ____ a living. It is reasonable to conclude that spending is praiseworthy, supposing it is not beyond your means.",
+      "options": [
+        {
+          "id": "A",
+          "text": "appeal"
+        },
+        {
+          "id": "B",
+          "text": "extravagantly"
+        },
+        {
+          "id": "C",
+          "text": "intrinsically"
+        },
+        {
+          "id": "D",
+          "text": "irony"
+        },
+        {
+          "id": "E",
+          "text": "layman"
+        },
+        {
+          "id": "F",
+          "text": "literally"
+        },
+        {
+          "id": "G",
+          "text": "majestic"
+        },
+        {
+          "id": "H",
+          "text": "malicious"
+        },
+        {
+          "id": "I",
+          "text": "meadow"
+        },
+        {
+          "id": "J",
+          "text": "mingle"
+        },
+        {
+          "id": "K",
+          "text": "predator"
+        },
+        {
+          "id": "L",
+          "text": "rage"
+        },
+        {
+          "id": "M",
+          "text": "scrape"
+        },
+        {
+          "id": "N",
+          "text": "shrewd"
+        },
+        {
+          "id": "O",
+          "text": "thrifty"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "先看第 27 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 B（extravagantly）。本空所在句：Each might have different viewpoints on how to lead one's lifestyle: some prefer simplicity, some love luxuries, some spend [27] ____ , some accumulate as much as they can like a country mouse.\n将本空替换为 extravagantly 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2024-12-1-nonlistening-q28",
+      "canonicalId": "lazynote-cet6-2024-12-1-q28",
+      "number": 28,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 28 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "With the rapid progress in the economy, it is natural that people's ideology is bound for change. Being [26] ____ is no longer a virtue to some people, and they are not alone in holding this view. Each might have different viewpoints on how to lead one's lifestyle: some prefer simplicity, some love luxuries, some spend [27] ____ , some accumulate as much as they can like a country mouse. As I was born poor and in the countryside, the simple rural life seldom loses its [28] ____ to me, but as my station changes, I have an opportunity to [29] ____ with the newly rich, an experience which has revolutionized my view of lifestyle.\n\nIt is evil or sinful to spend little and to save much, an idea only recently being revealed to me. Actually the whole world is in a [30] ____ to borrow and to spend, with the USA leading the trend. The USA is still the richest and most powerful country in the world, but the [31] ____ is that they borrow money from us. Though a [32] ____ of economics, at least I know that investing with borrowed money will turn the borrower into the [33] ____ rather than the decent and kind lender. An apparent case is real estate. Those who are [34] ____ and have got loans from the bank become relatively rich by selling their purchased home at a price several folds higher. Even education is not immune from this theory. Many of those poor parents who have the vision to send their children to college have benefited from this investment, even though they have to [35] ____ a living. It is reasonable to conclude that spending is praiseworthy, supposing it is not beyond your means.",
+      "options": [
+        {
+          "id": "A",
+          "text": "appeal"
+        },
+        {
+          "id": "B",
+          "text": "extravagantly"
+        },
+        {
+          "id": "C",
+          "text": "intrinsically"
+        },
+        {
+          "id": "D",
+          "text": "irony"
+        },
+        {
+          "id": "E",
+          "text": "layman"
+        },
+        {
+          "id": "F",
+          "text": "literally"
+        },
+        {
+          "id": "G",
+          "text": "majestic"
+        },
+        {
+          "id": "H",
+          "text": "malicious"
+        },
+        {
+          "id": "I",
+          "text": "meadow"
+        },
+        {
+          "id": "J",
+          "text": "mingle"
+        },
+        {
+          "id": "K",
+          "text": "predator"
+        },
+        {
+          "id": "L",
+          "text": "rage"
+        },
+        {
+          "id": "M",
+          "text": "scrape"
+        },
+        {
+          "id": "N",
+          "text": "shrewd"
+        },
+        {
+          "id": "O",
+          "text": "thrifty"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "先看第 28 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 A（appeal）。本空所在句：As I was born poor and in the countryside, the simple rural life seldom loses its [28] ____ to me, but as my station changes, I have an opportunity to [29] ____ with the newly rich, an experience which has revolutionized my view of lifestyle.\n将本空替换为 appeal 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2024-12-1-nonlistening-q29",
+      "canonicalId": "lazynote-cet6-2024-12-1-q29",
+      "number": 29,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 29 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "With the rapid progress in the economy, it is natural that people's ideology is bound for change. Being [26] ____ is no longer a virtue to some people, and they are not alone in holding this view. Each might have different viewpoints on how to lead one's lifestyle: some prefer simplicity, some love luxuries, some spend [27] ____ , some accumulate as much as they can like a country mouse. As I was born poor and in the countryside, the simple rural life seldom loses its [28] ____ to me, but as my station changes, I have an opportunity to [29] ____ with the newly rich, an experience which has revolutionized my view of lifestyle.\n\nIt is evil or sinful to spend little and to save much, an idea only recently being revealed to me. Actually the whole world is in a [30] ____ to borrow and to spend, with the USA leading the trend. The USA is still the richest and most powerful country in the world, but the [31] ____ is that they borrow money from us. Though a [32] ____ of economics, at least I know that investing with borrowed money will turn the borrower into the [33] ____ rather than the decent and kind lender. An apparent case is real estate. Those who are [34] ____ and have got loans from the bank become relatively rich by selling their purchased home at a price several folds higher. Even education is not immune from this theory. Many of those poor parents who have the vision to send their children to college have benefited from this investment, even though they have to [35] ____ a living. It is reasonable to conclude that spending is praiseworthy, supposing it is not beyond your means.",
+      "options": [
+        {
+          "id": "A",
+          "text": "appeal"
+        },
+        {
+          "id": "B",
+          "text": "extravagantly"
+        },
+        {
+          "id": "C",
+          "text": "intrinsically"
+        },
+        {
+          "id": "D",
+          "text": "irony"
+        },
+        {
+          "id": "E",
+          "text": "layman"
+        },
+        {
+          "id": "F",
+          "text": "literally"
+        },
+        {
+          "id": "G",
+          "text": "majestic"
+        },
+        {
+          "id": "H",
+          "text": "malicious"
+        },
+        {
+          "id": "I",
+          "text": "meadow"
+        },
+        {
+          "id": "J",
+          "text": "mingle"
+        },
+        {
+          "id": "K",
+          "text": "predator"
+        },
+        {
+          "id": "L",
+          "text": "rage"
+        },
+        {
+          "id": "M",
+          "text": "scrape"
+        },
+        {
+          "id": "N",
+          "text": "shrewd"
+        },
+        {
+          "id": "O",
+          "text": "thrifty"
+        }
+      ],
+      "correctAnswer": "J",
+      "hint": "先看第 29 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 J（mingle）。本空所在句：As I was born poor and in the countryside, the simple rural life seldom loses its [28] ____ to me, but as my station changes, I have an opportunity to [29] ____ with the newly rich, an experience which has revolutionized my view of lifestyle.\n将本空替换为 mingle 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2024-12-1-nonlistening-q30",
+      "canonicalId": "lazynote-cet6-2024-12-1-q30",
+      "number": 30,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 30 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "With the rapid progress in the economy, it is natural that people's ideology is bound for change. Being [26] ____ is no longer a virtue to some people, and they are not alone in holding this view. Each might have different viewpoints on how to lead one's lifestyle: some prefer simplicity, some love luxuries, some spend [27] ____ , some accumulate as much as they can like a country mouse. As I was born poor and in the countryside, the simple rural life seldom loses its [28] ____ to me, but as my station changes, I have an opportunity to [29] ____ with the newly rich, an experience which has revolutionized my view of lifestyle.\n\nIt is evil or sinful to spend little and to save much, an idea only recently being revealed to me. Actually the whole world is in a [30] ____ to borrow and to spend, with the USA leading the trend. The USA is still the richest and most powerful country in the world, but the [31] ____ is that they borrow money from us. Though a [32] ____ of economics, at least I know that investing with borrowed money will turn the borrower into the [33] ____ rather than the decent and kind lender. An apparent case is real estate. Those who are [34] ____ and have got loans from the bank become relatively rich by selling their purchased home at a price several folds higher. Even education is not immune from this theory. Many of those poor parents who have the vision to send their children to college have benefited from this investment, even though they have to [35] ____ a living. It is reasonable to conclude that spending is praiseworthy, supposing it is not beyond your means.",
+      "options": [
+        {
+          "id": "A",
+          "text": "appeal"
+        },
+        {
+          "id": "B",
+          "text": "extravagantly"
+        },
+        {
+          "id": "C",
+          "text": "intrinsically"
+        },
+        {
+          "id": "D",
+          "text": "irony"
+        },
+        {
+          "id": "E",
+          "text": "layman"
+        },
+        {
+          "id": "F",
+          "text": "literally"
+        },
+        {
+          "id": "G",
+          "text": "majestic"
+        },
+        {
+          "id": "H",
+          "text": "malicious"
+        },
+        {
+          "id": "I",
+          "text": "meadow"
+        },
+        {
+          "id": "J",
+          "text": "mingle"
+        },
+        {
+          "id": "K",
+          "text": "predator"
+        },
+        {
+          "id": "L",
+          "text": "rage"
+        },
+        {
+          "id": "M",
+          "text": "scrape"
+        },
+        {
+          "id": "N",
+          "text": "shrewd"
+        },
+        {
+          "id": "O",
+          "text": "thrifty"
+        }
+      ],
+      "correctAnswer": "L",
+      "hint": "先看第 30 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 L（rage）。本空所在句：Actually the whole world is in a [30] ____ to borrow and to spend, with the USA leading the trend.\n将本空替换为 rage 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2024-12-1-nonlistening-q31",
+      "canonicalId": "lazynote-cet6-2024-12-1-q31",
+      "number": 31,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 31 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "With the rapid progress in the economy, it is natural that people's ideology is bound for change. Being [26] ____ is no longer a virtue to some people, and they are not alone in holding this view. Each might have different viewpoints on how to lead one's lifestyle: some prefer simplicity, some love luxuries, some spend [27] ____ , some accumulate as much as they can like a country mouse. As I was born poor and in the countryside, the simple rural life seldom loses its [28] ____ to me, but as my station changes, I have an opportunity to [29] ____ with the newly rich, an experience which has revolutionized my view of lifestyle.\n\nIt is evil or sinful to spend little and to save much, an idea only recently being revealed to me. Actually the whole world is in a [30] ____ to borrow and to spend, with the USA leading the trend. The USA is still the richest and most powerful country in the world, but the [31] ____ is that they borrow money from us. Though a [32] ____ of economics, at least I know that investing with borrowed money will turn the borrower into the [33] ____ rather than the decent and kind lender. An apparent case is real estate. Those who are [34] ____ and have got loans from the bank become relatively rich by selling their purchased home at a price several folds higher. Even education is not immune from this theory. Many of those poor parents who have the vision to send their children to college have benefited from this investment, even though they have to [35] ____ a living. It is reasonable to conclude that spending is praiseworthy, supposing it is not beyond your means.",
+      "options": [
+        {
+          "id": "A",
+          "text": "appeal"
+        },
+        {
+          "id": "B",
+          "text": "extravagantly"
+        },
+        {
+          "id": "C",
+          "text": "intrinsically"
+        },
+        {
+          "id": "D",
+          "text": "irony"
+        },
+        {
+          "id": "E",
+          "text": "layman"
+        },
+        {
+          "id": "F",
+          "text": "literally"
+        },
+        {
+          "id": "G",
+          "text": "majestic"
+        },
+        {
+          "id": "H",
+          "text": "malicious"
+        },
+        {
+          "id": "I",
+          "text": "meadow"
+        },
+        {
+          "id": "J",
+          "text": "mingle"
+        },
+        {
+          "id": "K",
+          "text": "predator"
+        },
+        {
+          "id": "L",
+          "text": "rage"
+        },
+        {
+          "id": "M",
+          "text": "scrape"
+        },
+        {
+          "id": "N",
+          "text": "shrewd"
+        },
+        {
+          "id": "O",
+          "text": "thrifty"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "先看第 31 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 D（irony）。本空所在句：The USA is still the richest and most powerful country in the world, but the [31] ____ is that they borrow money from us.\n将本空替换为 irony 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2024-12-1-nonlistening-q32",
+      "canonicalId": "lazynote-cet6-2024-12-1-q32",
+      "number": 32,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 32 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "With the rapid progress in the economy, it is natural that people's ideology is bound for change. Being [26] ____ is no longer a virtue to some people, and they are not alone in holding this view. Each might have different viewpoints on how to lead one's lifestyle: some prefer simplicity, some love luxuries, some spend [27] ____ , some accumulate as much as they can like a country mouse. As I was born poor and in the countryside, the simple rural life seldom loses its [28] ____ to me, but as my station changes, I have an opportunity to [29] ____ with the newly rich, an experience which has revolutionized my view of lifestyle.\n\nIt is evil or sinful to spend little and to save much, an idea only recently being revealed to me. Actually the whole world is in a [30] ____ to borrow and to spend, with the USA leading the trend. The USA is still the richest and most powerful country in the world, but the [31] ____ is that they borrow money from us. Though a [32] ____ of economics, at least I know that investing with borrowed money will turn the borrower into the [33] ____ rather than the decent and kind lender. An apparent case is real estate. Those who are [34] ____ and have got loans from the bank become relatively rich by selling their purchased home at a price several folds higher. Even education is not immune from this theory. Many of those poor parents who have the vision to send their children to college have benefited from this investment, even though they have to [35] ____ a living. It is reasonable to conclude that spending is praiseworthy, supposing it is not beyond your means.",
+      "options": [
+        {
+          "id": "A",
+          "text": "appeal"
+        },
+        {
+          "id": "B",
+          "text": "extravagantly"
+        },
+        {
+          "id": "C",
+          "text": "intrinsically"
+        },
+        {
+          "id": "D",
+          "text": "irony"
+        },
+        {
+          "id": "E",
+          "text": "layman"
+        },
+        {
+          "id": "F",
+          "text": "literally"
+        },
+        {
+          "id": "G",
+          "text": "majestic"
+        },
+        {
+          "id": "H",
+          "text": "malicious"
+        },
+        {
+          "id": "I",
+          "text": "meadow"
+        },
+        {
+          "id": "J",
+          "text": "mingle"
+        },
+        {
+          "id": "K",
+          "text": "predator"
+        },
+        {
+          "id": "L",
+          "text": "rage"
+        },
+        {
+          "id": "M",
+          "text": "scrape"
+        },
+        {
+          "id": "N",
+          "text": "shrewd"
+        },
+        {
+          "id": "O",
+          "text": "thrifty"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "先看第 32 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 E（layman）。本空所在句：Though a [32] ____ of economics, at least I know that investing with borrowed money will turn the borrower into the [33] ____ rather than the decent and kind lender.\n将本空替换为 layman 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2024-12-1-nonlistening-q33",
+      "canonicalId": "lazynote-cet6-2024-12-1-q33",
+      "number": 33,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 33 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "With the rapid progress in the economy, it is natural that people's ideology is bound for change. Being [26] ____ is no longer a virtue to some people, and they are not alone in holding this view. Each might have different viewpoints on how to lead one's lifestyle: some prefer simplicity, some love luxuries, some spend [27] ____ , some accumulate as much as they can like a country mouse. As I was born poor and in the countryside, the simple rural life seldom loses its [28] ____ to me, but as my station changes, I have an opportunity to [29] ____ with the newly rich, an experience which has revolutionized my view of lifestyle.\n\nIt is evil or sinful to spend little and to save much, an idea only recently being revealed to me. Actually the whole world is in a [30] ____ to borrow and to spend, with the USA leading the trend. The USA is still the richest and most powerful country in the world, but the [31] ____ is that they borrow money from us. Though a [32] ____ of economics, at least I know that investing with borrowed money will turn the borrower into the [33] ____ rather than the decent and kind lender. An apparent case is real estate. Those who are [34] ____ and have got loans from the bank become relatively rich by selling their purchased home at a price several folds higher. Even education is not immune from this theory. Many of those poor parents who have the vision to send their children to college have benefited from this investment, even though they have to [35] ____ a living. It is reasonable to conclude that spending is praiseworthy, supposing it is not beyond your means.",
+      "options": [
+        {
+          "id": "A",
+          "text": "appeal"
+        },
+        {
+          "id": "B",
+          "text": "extravagantly"
+        },
+        {
+          "id": "C",
+          "text": "intrinsically"
+        },
+        {
+          "id": "D",
+          "text": "irony"
+        },
+        {
+          "id": "E",
+          "text": "layman"
+        },
+        {
+          "id": "F",
+          "text": "literally"
+        },
+        {
+          "id": "G",
+          "text": "majestic"
+        },
+        {
+          "id": "H",
+          "text": "malicious"
+        },
+        {
+          "id": "I",
+          "text": "meadow"
+        },
+        {
+          "id": "J",
+          "text": "mingle"
+        },
+        {
+          "id": "K",
+          "text": "predator"
+        },
+        {
+          "id": "L",
+          "text": "rage"
+        },
+        {
+          "id": "M",
+          "text": "scrape"
+        },
+        {
+          "id": "N",
+          "text": "shrewd"
+        },
+        {
+          "id": "O",
+          "text": "thrifty"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "先看第 33 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 K（predator）。本空所在句：Though a [32] ____ of economics, at least I know that investing with borrowed money will turn the borrower into the [33] ____ rather than the decent and kind lender.\n将本空替换为 predator 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2024-12-1-nonlistening-q34",
+      "canonicalId": "lazynote-cet6-2024-12-1-q34",
+      "number": 34,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 34 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "With the rapid progress in the economy, it is natural that people's ideology is bound for change. Being [26] ____ is no longer a virtue to some people, and they are not alone in holding this view. Each might have different viewpoints on how to lead one's lifestyle: some prefer simplicity, some love luxuries, some spend [27] ____ , some accumulate as much as they can like a country mouse. As I was born poor and in the countryside, the simple rural life seldom loses its [28] ____ to me, but as my station changes, I have an opportunity to [29] ____ with the newly rich, an experience which has revolutionized my view of lifestyle.\n\nIt is evil or sinful to spend little and to save much, an idea only recently being revealed to me. Actually the whole world is in a [30] ____ to borrow and to spend, with the USA leading the trend. The USA is still the richest and most powerful country in the world, but the [31] ____ is that they borrow money from us. Though a [32] ____ of economics, at least I know that investing with borrowed money will turn the borrower into the [33] ____ rather than the decent and kind lender. An apparent case is real estate. Those who are [34] ____ and have got loans from the bank become relatively rich by selling their purchased home at a price several folds higher. Even education is not immune from this theory. Many of those poor parents who have the vision to send their children to college have benefited from this investment, even though they have to [35] ____ a living. It is reasonable to conclude that spending is praiseworthy, supposing it is not beyond your means.",
+      "options": [
+        {
+          "id": "A",
+          "text": "appeal"
+        },
+        {
+          "id": "B",
+          "text": "extravagantly"
+        },
+        {
+          "id": "C",
+          "text": "intrinsically"
+        },
+        {
+          "id": "D",
+          "text": "irony"
+        },
+        {
+          "id": "E",
+          "text": "layman"
+        },
+        {
+          "id": "F",
+          "text": "literally"
+        },
+        {
+          "id": "G",
+          "text": "majestic"
+        },
+        {
+          "id": "H",
+          "text": "malicious"
+        },
+        {
+          "id": "I",
+          "text": "meadow"
+        },
+        {
+          "id": "J",
+          "text": "mingle"
+        },
+        {
+          "id": "K",
+          "text": "predator"
+        },
+        {
+          "id": "L",
+          "text": "rage"
+        },
+        {
+          "id": "M",
+          "text": "scrape"
+        },
+        {
+          "id": "N",
+          "text": "shrewd"
+        },
+        {
+          "id": "O",
+          "text": "thrifty"
+        }
+      ],
+      "correctAnswer": "N",
+      "hint": "先看第 34 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 N（shrewd）。本空所在句：Those who are [34] ____ and have got loans from the bank become relatively rich by selling their purchased home at a price several folds higher.\n将本空替换为 shrewd 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2024-12-1-nonlistening-q35",
+      "canonicalId": "lazynote-cet6-2024-12-1-q35",
+      "number": 35,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 35 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "With the rapid progress in the economy, it is natural that people's ideology is bound for change. Being [26] ____ is no longer a virtue to some people, and they are not alone in holding this view. Each might have different viewpoints on how to lead one's lifestyle: some prefer simplicity, some love luxuries, some spend [27] ____ , some accumulate as much as they can like a country mouse. As I was born poor and in the countryside, the simple rural life seldom loses its [28] ____ to me, but as my station changes, I have an opportunity to [29] ____ with the newly rich, an experience which has revolutionized my view of lifestyle.\n\nIt is evil or sinful to spend little and to save much, an idea only recently being revealed to me. Actually the whole world is in a [30] ____ to borrow and to spend, with the USA leading the trend. The USA is still the richest and most powerful country in the world, but the [31] ____ is that they borrow money from us. Though a [32] ____ of economics, at least I know that investing with borrowed money will turn the borrower into the [33] ____ rather than the decent and kind lender. An apparent case is real estate. Those who are [34] ____ and have got loans from the bank become relatively rich by selling their purchased home at a price several folds higher. Even education is not immune from this theory. Many of those poor parents who have the vision to send their children to college have benefited from this investment, even though they have to [35] ____ a living. It is reasonable to conclude that spending is praiseworthy, supposing it is not beyond your means.",
+      "options": [
+        {
+          "id": "A",
+          "text": "appeal"
+        },
+        {
+          "id": "B",
+          "text": "extravagantly"
+        },
+        {
+          "id": "C",
+          "text": "intrinsically"
+        },
+        {
+          "id": "D",
+          "text": "irony"
+        },
+        {
+          "id": "E",
+          "text": "layman"
+        },
+        {
+          "id": "F",
+          "text": "literally"
+        },
+        {
+          "id": "G",
+          "text": "majestic"
+        },
+        {
+          "id": "H",
+          "text": "malicious"
+        },
+        {
+          "id": "I",
+          "text": "meadow"
+        },
+        {
+          "id": "J",
+          "text": "mingle"
+        },
+        {
+          "id": "K",
+          "text": "predator"
+        },
+        {
+          "id": "L",
+          "text": "rage"
+        },
+        {
+          "id": "M",
+          "text": "scrape"
+        },
+        {
+          "id": "N",
+          "text": "shrewd"
+        },
+        {
+          "id": "O",
+          "text": "thrifty"
+        }
+      ],
+      "correctAnswer": "M",
+      "hint": "先看第 35 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 M（scrape）。本空所在句：Many of those poor parents who have the vision to send their children to college have benefited from this investment, even though they have to [35] ____ a living.\n将本空替换为 scrape 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2024-12-1-nonlistening-q36",
+      "canonicalId": "lazynote-cet6-2024-12-1-q36",
+      "number": 36,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "According to a senior researcher, we will have secure food supply if we rid ourselves of ignorance about native crops.",
+      "passage": "Are Forgotten Crops the Future of Food?\n\nA) On a small fruit farm near the Straits of Malacca, Lim Kok Ann is down to just one tree growing kedondong, a crunchy, sour berry that Malaysians mostly use in pickles(腌菜) and salads. \"It's not very well-known,\" says the 45-year-old, who is instead focusing on longan(龙眼) berries and pineapples, which have bigger markets. \"We have to grow what is profitable,\" he says.\n\nB) But less than an hour away in the Malaysian countryside, inside three giant, silver domes, scientists are trying to change the future of food. They're pushing the boundaries of what humans eat by growing and processing so-called \"alternative\" crops—such as kedondong. At the headquarters of global research centre Crops For the Future (CFF) this particular under-used fruit has been turned into a sugar-free juice, high in vitamin C and getting top marks in sensory evaluations. \"Anything you see here is a forgotten crop,\" says Sayed Azam-Ali of the abundant plants weaving through the gardens of CFF outside Malaysia's capital Kuala Lumpur.\n\nC) Prof Azam-Ali explains that just four crops—wheat, maize, rice and soybean—provide two-thirds of the world's food supply. \"We're dependent on these four,\" he says. \"But actually there're 7,000 crops we've been farming for thousands of years. We ignore all of those.\" Researchers are trying to unlock the potential of these ignored crops—plants they describe as forgotten, under-used or \"alternative\" as they are displaced by increasingly uniform diets fuelled by processed ingredients from the major crops.\n\nD) It's a timely quest. The food sector is already responsible for nearly a third of global greenhouse gas emissions. By 2050 it estimates the world must produce 50% more food to feed the projected global population of 10 billion. Meeting this demand without contributing to climate change calls for urgent solutions.\n\nE) Forgotten crops hold key answers. By investing in neglected local plants, countries can reduce their reliance on imported crops and their carbon-heavy supply chains. Bringing back the variety of crops humans once ate also boosts food security at a time warming climates threaten existing crops. On top of that forgotten crops are among the most climate-resilient(具有气候韧性的) and nutritious, argues Azam-Ali. His summary is plain: \"Dietary diversification is critical to the future of humanity.\"\n\nF) Food security experts agree. \"There is no food insecurity in the world, there is food ignorance,\" says Cecilia Tortajada, a senior research fellow at the Institute of Water Policy at the National University of Singapore. \"Whenever we have native crops we tend to disregard them as if they were not valuable but they are,\" she adds.\n\nG) Azam-Ali knows that scepticism firsthand. He came across alternative crops in the 1980s through the work of women farmers he met in Niger. The then-PhD student remembers marvelling at the crops they grew in their backyards, without the benefits of technology, to feed their families when the big crops failed. He saw a tremendous opportunity to build alternative food systems. But \"the resistance was enormous,\" he recalls.\n\nH) Undeterred, he ploughed on. Project after project helped prove these crops were viable in different environments as alternatives to the staple ones. But the question of whether these crops would be marketable remained. \"That's the critical thing,\" he says. In one of the centre's domes, food technologist Tan Xinlin uses powdered moringa(辣木) leaves in place of some wheat flour to bake a cake lower in gluten(谷胶) and higher in nutrients. Tan's job is to create recipes with these still-unfamiliar ingredients that will appeal to both local and international tastes. In recent years she has used some of the forgotten crops grown at CFF, such as moringa and bambara groundnut, to make everything from instant soup to Indian snacks. \"I try to modernise forgotten crops instead of using old recipes.\" says Tan, who is also a trained chef. It's a strategy to appeal to the world's growing middle classes who are increasingly turning to the fast and processed food industries. It's also a way to help counter perceptions of local crops as \"old or poor people's food\" or as inferior \"women's crops\", adds Tan.\n\nI) The roots of these connotations about local foods can run deep. The bambara groundnut, a protein-rich native crop of sub-Saharan Africa that is also grown in parts of southeast Asia, can trace its marginalisation to colonial rule. \"African women who grew bambara groundnut were actually punished for growing it,\" says Azam-Ali. \"Colonial powers said you can't grow that because there's no oil. We can't get a market for it.\" But today the bambara murukku is one of CFF's best reviewed foods and they are aiming to get it into grocery stores, pointing to the success of crops like quinoa to potential investors. Some 30 years ago, quinoa was virtually unheard of outside its native mountains in Bolivia and Peru. Today the nutritious grain is found on the menus of lavish restaurants across the world.\n\nJ) Measuring crops by nutrition instead of yield is at the heart of the forgotten foods enterprise. Ever since the \"green revolution\" of the 1960s, high-yielding crops have dominated modern agriculture. That was in part a crucial response to devastating famines at a time when the world needed to increase its food supply. Today \"nutrition is becoming a time bomb\", says Azam-Ali, as growing carbon dioxide levels strip crops of their minerals. Instead of bio-fortifying major crops we should be investing in those forgotten crops that are already more nutritious, he asserts.\n\nK) In the bowels of CFF's third dome, lab manager Gomathy Sethuraman opens a window into the centre's \"crown jewels\", revealing vines of winged beans growing under a bright yellow light. It's one of multiple chambers where scientists are studying the impact of higher temperatures and carbon dioxide levels on the nutritional make-up of alternative crops. This research is \"the game changer\", says Azam-Ali, ensuring that \"future crops\" are also the healthiest ones in warmer climates.\n\nL) There is a growing global momentum around forgotten foods, says Danielle Nierenberg, president of Food Tank, a US-based think tank. Other than CFF, which bills itself as the world's first research centre dedicated solely to under-utilised crops, there are other key groups championing agricultural diversity including Crop Trust, Slow Food, Icrisat and Bioversity International. Add to that more middle-income consumers searching for nutritious foods and others eager to try the unprocessed foods their grandparents once ate, she says.\n\nM) But the rising interest in forgotten foods in some quarters is overtaken by the global spread of Western-style diets heavy in sugar, fat and processed foods in others.\n\nN) A key obstacle to promoting fading local crops in Malaysia, for example, is \"the obsession with imported products\", says Jenifer Kuah, co-founder of a restaurant that champions locally-sourced food in an affluent suburb of Kuala Lumpur. Customers at Sitka, regarded as a pioneer in the country's small farm-to-table dining scene, still seek foreign ingredients as a \"status symbol\", she says.\n\nO) The argument for forgotten foods feels intuitive. Some analysts say it is in fact inevitable. \"Climate change is going to mean almost certainly tastes are going to be forced to change,\" says Tim Lang, professor of food policy at City, University of London. We \"have to get used to eating other crops\" as yields of staple crops fall, he says.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 F 段。题干：According to a senior researcher, we will have secure food supply if we rid ourselves of ignorance about native crops.\n核对该段原文：Food security experts agree. \"There is no food insecurity in the world, there is food ignorance,\" says Cecilia Tortajada, a senior research fellow at the Institute of Water Policy at the National University of Singapore. \"Whenever we have native crops we tend to disregard them as if they were not valuable but they are,\" she adds.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2024-12-1-nonlistening-q37",
+      "canonicalId": "lazynote-cet6-2024-12-1-q37",
+      "number": 37,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Most of the world's food supply comes from a tiny number out of thousands of crops that have been grown for centuries.",
+      "passage": "Are Forgotten Crops the Future of Food?\n\nA) On a small fruit farm near the Straits of Malacca, Lim Kok Ann is down to just one tree growing kedondong, a crunchy, sour berry that Malaysians mostly use in pickles(腌菜) and salads. \"It's not very well-known,\" says the 45-year-old, who is instead focusing on longan(龙眼) berries and pineapples, which have bigger markets. \"We have to grow what is profitable,\" he says.\n\nB) But less than an hour away in the Malaysian countryside, inside three giant, silver domes, scientists are trying to change the future of food. They're pushing the boundaries of what humans eat by growing and processing so-called \"alternative\" crops—such as kedondong. At the headquarters of global research centre Crops For the Future (CFF) this particular under-used fruit has been turned into a sugar-free juice, high in vitamin C and getting top marks in sensory evaluations. \"Anything you see here is a forgotten crop,\" says Sayed Azam-Ali of the abundant plants weaving through the gardens of CFF outside Malaysia's capital Kuala Lumpur.\n\nC) Prof Azam-Ali explains that just four crops—wheat, maize, rice and soybean—provide two-thirds of the world's food supply. \"We're dependent on these four,\" he says. \"But actually there're 7,000 crops we've been farming for thousands of years. We ignore all of those.\" Researchers are trying to unlock the potential of these ignored crops—plants they describe as forgotten, under-used or \"alternative\" as they are displaced by increasingly uniform diets fuelled by processed ingredients from the major crops.\n\nD) It's a timely quest. The food sector is already responsible for nearly a third of global greenhouse gas emissions. By 2050 it estimates the world must produce 50% more food to feed the projected global population of 10 billion. Meeting this demand without contributing to climate change calls for urgent solutions.\n\nE) Forgotten crops hold key answers. By investing in neglected local plants, countries can reduce their reliance on imported crops and their carbon-heavy supply chains. Bringing back the variety of crops humans once ate also boosts food security at a time warming climates threaten existing crops. On top of that forgotten crops are among the most climate-resilient(具有气候韧性的) and nutritious, argues Azam-Ali. His summary is plain: \"Dietary diversification is critical to the future of humanity.\"\n\nF) Food security experts agree. \"There is no food insecurity in the world, there is food ignorance,\" says Cecilia Tortajada, a senior research fellow at the Institute of Water Policy at the National University of Singapore. \"Whenever we have native crops we tend to disregard them as if they were not valuable but they are,\" she adds.\n\nG) Azam-Ali knows that scepticism firsthand. He came across alternative crops in the 1980s through the work of women farmers he met in Niger. The then-PhD student remembers marvelling at the crops they grew in their backyards, without the benefits of technology, to feed their families when the big crops failed. He saw a tremendous opportunity to build alternative food systems. But \"the resistance was enormous,\" he recalls.\n\nH) Undeterred, he ploughed on. Project after project helped prove these crops were viable in different environments as alternatives to the staple ones. But the question of whether these crops would be marketable remained. \"That's the critical thing,\" he says. In one of the centre's domes, food technologist Tan Xinlin uses powdered moringa(辣木) leaves in place of some wheat flour to bake a cake lower in gluten(谷胶) and higher in nutrients. Tan's job is to create recipes with these still-unfamiliar ingredients that will appeal to both local and international tastes. In recent years she has used some of the forgotten crops grown at CFF, such as moringa and bambara groundnut, to make everything from instant soup to Indian snacks. \"I try to modernise forgotten crops instead of using old recipes.\" says Tan, who is also a trained chef. It's a strategy to appeal to the world's growing middle classes who are increasingly turning to the fast and processed food industries. It's also a way to help counter perceptions of local crops as \"old or poor people's food\" or as inferior \"women's crops\", adds Tan.\n\nI) The roots of these connotations about local foods can run deep. The bambara groundnut, a protein-rich native crop of sub-Saharan Africa that is also grown in parts of southeast Asia, can trace its marginalisation to colonial rule. \"African women who grew bambara groundnut were actually punished for growing it,\" says Azam-Ali. \"Colonial powers said you can't grow that because there's no oil. We can't get a market for it.\" But today the bambara murukku is one of CFF's best reviewed foods and they are aiming to get it into grocery stores, pointing to the success of crops like quinoa to potential investors. Some 30 years ago, quinoa was virtually unheard of outside its native mountains in Bolivia and Peru. Today the nutritious grain is found on the menus of lavish restaurants across the world.\n\nJ) Measuring crops by nutrition instead of yield is at the heart of the forgotten foods enterprise. Ever since the \"green revolution\" of the 1960s, high-yielding crops have dominated modern agriculture. That was in part a crucial response to devastating famines at a time when the world needed to increase its food supply. Today \"nutrition is becoming a time bomb\", says Azam-Ali, as growing carbon dioxide levels strip crops of their minerals. Instead of bio-fortifying major crops we should be investing in those forgotten crops that are already more nutritious, he asserts.\n\nK) In the bowels of CFF's third dome, lab manager Gomathy Sethuraman opens a window into the centre's \"crown jewels\", revealing vines of winged beans growing under a bright yellow light. It's one of multiple chambers where scientists are studying the impact of higher temperatures and carbon dioxide levels on the nutritional make-up of alternative crops. This research is \"the game changer\", says Azam-Ali, ensuring that \"future crops\" are also the healthiest ones in warmer climates.\n\nL) There is a growing global momentum around forgotten foods, says Danielle Nierenberg, president of Food Tank, a US-based think tank. Other than CFF, which bills itself as the world's first research centre dedicated solely to under-utilised crops, there are other key groups championing agricultural diversity including Crop Trust, Slow Food, Icrisat and Bioversity International. Add to that more middle-income consumers searching for nutritious foods and others eager to try the unprocessed foods their grandparents once ate, she says.\n\nM) But the rising interest in forgotten foods in some quarters is overtaken by the global spread of Western-style diets heavy in sugar, fat and processed foods in others.\n\nN) A key obstacle to promoting fading local crops in Malaysia, for example, is \"the obsession with imported products\", says Jenifer Kuah, co-founder of a restaurant that champions locally-sourced food in an affluent suburb of Kuala Lumpur. Customers at Sitka, regarded as a pioneer in the country's small farm-to-table dining scene, still seek foreign ingredients as a \"status symbol\", she says.\n\nO) The argument for forgotten foods feels intuitive. Some analysts say it is in fact inevitable. \"Climate change is going to mean almost certainly tastes are going to be forced to change,\" says Tim Lang, professor of food policy at City, University of London. We \"have to get used to eating other crops\" as yields of staple crops fall, he says.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 C 段。题干：Most of the world's food supply comes from a tiny number out of thousands of crops that have been grown for centuries.\n核对该段原文：Prof Azam-Ali explains that just four crops—wheat, maize, rice and soybean—provide two-thirds of the world's food supply. \"We're dependent on these four,\" he says. \"But actually there're 7,000 crops we've been farming for thousands of years. We ignore all of those.\" Researchers are trying to unlock the potential of these ignored crops—plants they describe as forgotten, under-used or \"alternative\" as they are displaced by increasingly uniform diets fuelled by processed ingredients from the major crops.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2024-12-1-nonlistening-q38",
+      "canonicalId": "lazynote-cet6-2024-12-1-q38",
+      "number": 38,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "To provide their family with food when the staple crops failed, some African women farmers grew local crops in their backyards.",
+      "passage": "Are Forgotten Crops the Future of Food?\n\nA) On a small fruit farm near the Straits of Malacca, Lim Kok Ann is down to just one tree growing kedondong, a crunchy, sour berry that Malaysians mostly use in pickles(腌菜) and salads. \"It's not very well-known,\" says the 45-year-old, who is instead focusing on longan(龙眼) berries and pineapples, which have bigger markets. \"We have to grow what is profitable,\" he says.\n\nB) But less than an hour away in the Malaysian countryside, inside three giant, silver domes, scientists are trying to change the future of food. They're pushing the boundaries of what humans eat by growing and processing so-called \"alternative\" crops—such as kedondong. At the headquarters of global research centre Crops For the Future (CFF) this particular under-used fruit has been turned into a sugar-free juice, high in vitamin C and getting top marks in sensory evaluations. \"Anything you see here is a forgotten crop,\" says Sayed Azam-Ali of the abundant plants weaving through the gardens of CFF outside Malaysia's capital Kuala Lumpur.\n\nC) Prof Azam-Ali explains that just four crops—wheat, maize, rice and soybean—provide two-thirds of the world's food supply. \"We're dependent on these four,\" he says. \"But actually there're 7,000 crops we've been farming for thousands of years. We ignore all of those.\" Researchers are trying to unlock the potential of these ignored crops—plants they describe as forgotten, under-used or \"alternative\" as they are displaced by increasingly uniform diets fuelled by processed ingredients from the major crops.\n\nD) It's a timely quest. The food sector is already responsible for nearly a third of global greenhouse gas emissions. By 2050 it estimates the world must produce 50% more food to feed the projected global population of 10 billion. Meeting this demand without contributing to climate change calls for urgent solutions.\n\nE) Forgotten crops hold key answers. By investing in neglected local plants, countries can reduce their reliance on imported crops and their carbon-heavy supply chains. Bringing back the variety of crops humans once ate also boosts food security at a time warming climates threaten existing crops. On top of that forgotten crops are among the most climate-resilient(具有气候韧性的) and nutritious, argues Azam-Ali. His summary is plain: \"Dietary diversification is critical to the future of humanity.\"\n\nF) Food security experts agree. \"There is no food insecurity in the world, there is food ignorance,\" says Cecilia Tortajada, a senior research fellow at the Institute of Water Policy at the National University of Singapore. \"Whenever we have native crops we tend to disregard them as if they were not valuable but they are,\" she adds.\n\nG) Azam-Ali knows that scepticism firsthand. He came across alternative crops in the 1980s through the work of women farmers he met in Niger. The then-PhD student remembers marvelling at the crops they grew in their backyards, without the benefits of technology, to feed their families when the big crops failed. He saw a tremendous opportunity to build alternative food systems. But \"the resistance was enormous,\" he recalls.\n\nH) Undeterred, he ploughed on. Project after project helped prove these crops were viable in different environments as alternatives to the staple ones. But the question of whether these crops would be marketable remained. \"That's the critical thing,\" he says. In one of the centre's domes, food technologist Tan Xinlin uses powdered moringa(辣木) leaves in place of some wheat flour to bake a cake lower in gluten(谷胶) and higher in nutrients. Tan's job is to create recipes with these still-unfamiliar ingredients that will appeal to both local and international tastes. In recent years she has used some of the forgotten crops grown at CFF, such as moringa and bambara groundnut, to make everything from instant soup to Indian snacks. \"I try to modernise forgotten crops instead of using old recipes.\" says Tan, who is also a trained chef. It's a strategy to appeal to the world's growing middle classes who are increasingly turning to the fast and processed food industries. It's also a way to help counter perceptions of local crops as \"old or poor people's food\" or as inferior \"women's crops\", adds Tan.\n\nI) The roots of these connotations about local foods can run deep. The bambara groundnut, a protein-rich native crop of sub-Saharan Africa that is also grown in parts of southeast Asia, can trace its marginalisation to colonial rule. \"African women who grew bambara groundnut were actually punished for growing it,\" says Azam-Ali. \"Colonial powers said you can't grow that because there's no oil. We can't get a market for it.\" But today the bambara murukku is one of CFF's best reviewed foods and they are aiming to get it into grocery stores, pointing to the success of crops like quinoa to potential investors. Some 30 years ago, quinoa was virtually unheard of outside its native mountains in Bolivia and Peru. Today the nutritious grain is found on the menus of lavish restaurants across the world.\n\nJ) Measuring crops by nutrition instead of yield is at the heart of the forgotten foods enterprise. Ever since the \"green revolution\" of the 1960s, high-yielding crops have dominated modern agriculture. That was in part a crucial response to devastating famines at a time when the world needed to increase its food supply. Today \"nutrition is becoming a time bomb\", says Azam-Ali, as growing carbon dioxide levels strip crops of their minerals. Instead of bio-fortifying major crops we should be investing in those forgotten crops that are already more nutritious, he asserts.\n\nK) In the bowels of CFF's third dome, lab manager Gomathy Sethuraman opens a window into the centre's \"crown jewels\", revealing vines of winged beans growing under a bright yellow light. It's one of multiple chambers where scientists are studying the impact of higher temperatures and carbon dioxide levels on the nutritional make-up of alternative crops. This research is \"the game changer\", says Azam-Ali, ensuring that \"future crops\" are also the healthiest ones in warmer climates.\n\nL) There is a growing global momentum around forgotten foods, says Danielle Nierenberg, president of Food Tank, a US-based think tank. Other than CFF, which bills itself as the world's first research centre dedicated solely to under-utilised crops, there are other key groups championing agricultural diversity including Crop Trust, Slow Food, Icrisat and Bioversity International. Add to that more middle-income consumers searching for nutritious foods and others eager to try the unprocessed foods their grandparents once ate, she says.\n\nM) But the rising interest in forgotten foods in some quarters is overtaken by the global spread of Western-style diets heavy in sugar, fat and processed foods in others.\n\nN) A key obstacle to promoting fading local crops in Malaysia, for example, is \"the obsession with imported products\", says Jenifer Kuah, co-founder of a restaurant that champions locally-sourced food in an affluent suburb of Kuala Lumpur. Customers at Sitka, regarded as a pioneer in the country's small farm-to-table dining scene, still seek foreign ingredients as a \"status symbol\", she says.\n\nO) The argument for forgotten foods feels intuitive. Some analysts say it is in fact inevitable. \"Climate change is going to mean almost certainly tastes are going to be forced to change,\" says Tim Lang, professor of food policy at City, University of London. We \"have to get used to eating other crops\" as yields of staple crops fall, he says.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 G 段。题干：To provide their family with food when the staple crops failed, some African women farmers grew local crops in their backyards.\n核对该段原文：Azam-Ali knows that scepticism firsthand. He came across alternative crops in the 1980s through the work of women farmers he met in Niger. The then-PhD student remembers marvelling at the crops they grew in their backyards, without the benefits of technology, to feed their families when the big crops failed. He saw a tremendous opportunity to build alternative food systems. But \"the resistance was enormous,\" he recalls.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2024-12-1-nonlistening-q39",
+      "canonicalId": "lazynote-cet6-2024-12-1-q39",
+      "number": 39,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "High-yielding crops have occupied a dominant position in modern agriculture since the green revolution in the last century.",
+      "passage": "Are Forgotten Crops the Future of Food?\n\nA) On a small fruit farm near the Straits of Malacca, Lim Kok Ann is down to just one tree growing kedondong, a crunchy, sour berry that Malaysians mostly use in pickles(腌菜) and salads. \"It's not very well-known,\" says the 45-year-old, who is instead focusing on longan(龙眼) berries and pineapples, which have bigger markets. \"We have to grow what is profitable,\" he says.\n\nB) But less than an hour away in the Malaysian countryside, inside three giant, silver domes, scientists are trying to change the future of food. They're pushing the boundaries of what humans eat by growing and processing so-called \"alternative\" crops—such as kedondong. At the headquarters of global research centre Crops For the Future (CFF) this particular under-used fruit has been turned into a sugar-free juice, high in vitamin C and getting top marks in sensory evaluations. \"Anything you see here is a forgotten crop,\" says Sayed Azam-Ali of the abundant plants weaving through the gardens of CFF outside Malaysia's capital Kuala Lumpur.\n\nC) Prof Azam-Ali explains that just four crops—wheat, maize, rice and soybean—provide two-thirds of the world's food supply. \"We're dependent on these four,\" he says. \"But actually there're 7,000 crops we've been farming for thousands of years. We ignore all of those.\" Researchers are trying to unlock the potential of these ignored crops—plants they describe as forgotten, under-used or \"alternative\" as they are displaced by increasingly uniform diets fuelled by processed ingredients from the major crops.\n\nD) It's a timely quest. The food sector is already responsible for nearly a third of global greenhouse gas emissions. By 2050 it estimates the world must produce 50% more food to feed the projected global population of 10 billion. Meeting this demand without contributing to climate change calls for urgent solutions.\n\nE) Forgotten crops hold key answers. By investing in neglected local plants, countries can reduce their reliance on imported crops and their carbon-heavy supply chains. Bringing back the variety of crops humans once ate also boosts food security at a time warming climates threaten existing crops. On top of that forgotten crops are among the most climate-resilient(具有气候韧性的) and nutritious, argues Azam-Ali. His summary is plain: \"Dietary diversification is critical to the future of humanity.\"\n\nF) Food security experts agree. \"There is no food insecurity in the world, there is food ignorance,\" says Cecilia Tortajada, a senior research fellow at the Institute of Water Policy at the National University of Singapore. \"Whenever we have native crops we tend to disregard them as if they were not valuable but they are,\" she adds.\n\nG) Azam-Ali knows that scepticism firsthand. He came across alternative crops in the 1980s through the work of women farmers he met in Niger. The then-PhD student remembers marvelling at the crops they grew in their backyards, without the benefits of technology, to feed their families when the big crops failed. He saw a tremendous opportunity to build alternative food systems. But \"the resistance was enormous,\" he recalls.\n\nH) Undeterred, he ploughed on. Project after project helped prove these crops were viable in different environments as alternatives to the staple ones. But the question of whether these crops would be marketable remained. \"That's the critical thing,\" he says. In one of the centre's domes, food technologist Tan Xinlin uses powdered moringa(辣木) leaves in place of some wheat flour to bake a cake lower in gluten(谷胶) and higher in nutrients. Tan's job is to create recipes with these still-unfamiliar ingredients that will appeal to both local and international tastes. In recent years she has used some of the forgotten crops grown at CFF, such as moringa and bambara groundnut, to make everything from instant soup to Indian snacks. \"I try to modernise forgotten crops instead of using old recipes.\" says Tan, who is also a trained chef. It's a strategy to appeal to the world's growing middle classes who are increasingly turning to the fast and processed food industries. It's also a way to help counter perceptions of local crops as \"old or poor people's food\" or as inferior \"women's crops\", adds Tan.\n\nI) The roots of these connotations about local foods can run deep. The bambara groundnut, a protein-rich native crop of sub-Saharan Africa that is also grown in parts of southeast Asia, can trace its marginalisation to colonial rule. \"African women who grew bambara groundnut were actually punished for growing it,\" says Azam-Ali. \"Colonial powers said you can't grow that because there's no oil. We can't get a market for it.\" But today the bambara murukku is one of CFF's best reviewed foods and they are aiming to get it into grocery stores, pointing to the success of crops like quinoa to potential investors. Some 30 years ago, quinoa was virtually unheard of outside its native mountains in Bolivia and Peru. Today the nutritious grain is found on the menus of lavish restaurants across the world.\n\nJ) Measuring crops by nutrition instead of yield is at the heart of the forgotten foods enterprise. Ever since the \"green revolution\" of the 1960s, high-yielding crops have dominated modern agriculture. That was in part a crucial response to devastating famines at a time when the world needed to increase its food supply. Today \"nutrition is becoming a time bomb\", says Azam-Ali, as growing carbon dioxide levels strip crops of their minerals. Instead of bio-fortifying major crops we should be investing in those forgotten crops that are already more nutritious, he asserts.\n\nK) In the bowels of CFF's third dome, lab manager Gomathy Sethuraman opens a window into the centre's \"crown jewels\", revealing vines of winged beans growing under a bright yellow light. It's one of multiple chambers where scientists are studying the impact of higher temperatures and carbon dioxide levels on the nutritional make-up of alternative crops. This research is \"the game changer\", says Azam-Ali, ensuring that \"future crops\" are also the healthiest ones in warmer climates.\n\nL) There is a growing global momentum around forgotten foods, says Danielle Nierenberg, president of Food Tank, a US-based think tank. Other than CFF, which bills itself as the world's first research centre dedicated solely to under-utilised crops, there are other key groups championing agricultural diversity including Crop Trust, Slow Food, Icrisat and Bioversity International. Add to that more middle-income consumers searching for nutritious foods and others eager to try the unprocessed foods their grandparents once ate, she says.\n\nM) But the rising interest in forgotten foods in some quarters is overtaken by the global spread of Western-style diets heavy in sugar, fat and processed foods in others.\n\nN) A key obstacle to promoting fading local crops in Malaysia, for example, is \"the obsession with imported products\", says Jenifer Kuah, co-founder of a restaurant that champions locally-sourced food in an affluent suburb of Kuala Lumpur. Customers at Sitka, regarded as a pioneer in the country's small farm-to-table dining scene, still seek foreign ingredients as a \"status symbol\", she says.\n\nO) The argument for forgotten foods feels intuitive. Some analysts say it is in fact inevitable. \"Climate change is going to mean almost certainly tastes are going to be forced to change,\" says Tim Lang, professor of food policy at City, University of London. We \"have to get used to eating other crops\" as yields of staple crops fall, he says.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        }
+      ],
+      "correctAnswer": "J",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 J 段。题干：High-yielding crops have occupied a dominant position in modern agriculture since the green revolution in the last century.\n核对该段原文：Measuring crops by nutrition instead of yield is at the heart of the forgotten foods enterprise. Ever since the \"green revolution\" of the 1960s, high-yielding crops have dominated modern agriculture. That was in part a crucial response to devastating famines at a time when the world needed to increase its food supply. Today \"nutrition is becoming a time bomb\", says Azam-Ali, as growing carbon dioxide levels strip crops of their minerals. Instead of bio-fortifying major crops we should be investing in those forgotten crops that are already more nutritious, he asserts.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2024-12-1-nonlistening-q40",
+      "canonicalId": "lazynote-cet6-2024-12-1-q40",
+      "number": 40,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Growing alternative crops proved feasible in a variety of environments, but the critical question was whether they would be marketable.",
+      "passage": "Are Forgotten Crops the Future of Food?\n\nA) On a small fruit farm near the Straits of Malacca, Lim Kok Ann is down to just one tree growing kedondong, a crunchy, sour berry that Malaysians mostly use in pickles(腌菜) and salads. \"It's not very well-known,\" says the 45-year-old, who is instead focusing on longan(龙眼) berries and pineapples, which have bigger markets. \"We have to grow what is profitable,\" he says.\n\nB) But less than an hour away in the Malaysian countryside, inside three giant, silver domes, scientists are trying to change the future of food. They're pushing the boundaries of what humans eat by growing and processing so-called \"alternative\" crops—such as kedondong. At the headquarters of global research centre Crops For the Future (CFF) this particular under-used fruit has been turned into a sugar-free juice, high in vitamin C and getting top marks in sensory evaluations. \"Anything you see here is a forgotten crop,\" says Sayed Azam-Ali of the abundant plants weaving through the gardens of CFF outside Malaysia's capital Kuala Lumpur.\n\nC) Prof Azam-Ali explains that just four crops—wheat, maize, rice and soybean—provide two-thirds of the world's food supply. \"We're dependent on these four,\" he says. \"But actually there're 7,000 crops we've been farming for thousands of years. We ignore all of those.\" Researchers are trying to unlock the potential of these ignored crops—plants they describe as forgotten, under-used or \"alternative\" as they are displaced by increasingly uniform diets fuelled by processed ingredients from the major crops.\n\nD) It's a timely quest. The food sector is already responsible for nearly a third of global greenhouse gas emissions. By 2050 it estimates the world must produce 50% more food to feed the projected global population of 10 billion. Meeting this demand without contributing to climate change calls for urgent solutions.\n\nE) Forgotten crops hold key answers. By investing in neglected local plants, countries can reduce their reliance on imported crops and their carbon-heavy supply chains. Bringing back the variety of crops humans once ate also boosts food security at a time warming climates threaten existing crops. On top of that forgotten crops are among the most climate-resilient(具有气候韧性的) and nutritious, argues Azam-Ali. His summary is plain: \"Dietary diversification is critical to the future of humanity.\"\n\nF) Food security experts agree. \"There is no food insecurity in the world, there is food ignorance,\" says Cecilia Tortajada, a senior research fellow at the Institute of Water Policy at the National University of Singapore. \"Whenever we have native crops we tend to disregard them as if they were not valuable but they are,\" she adds.\n\nG) Azam-Ali knows that scepticism firsthand. He came across alternative crops in the 1980s through the work of women farmers he met in Niger. The then-PhD student remembers marvelling at the crops they grew in their backyards, without the benefits of technology, to feed their families when the big crops failed. He saw a tremendous opportunity to build alternative food systems. But \"the resistance was enormous,\" he recalls.\n\nH) Undeterred, he ploughed on. Project after project helped prove these crops were viable in different environments as alternatives to the staple ones. But the question of whether these crops would be marketable remained. \"That's the critical thing,\" he says. In one of the centre's domes, food technologist Tan Xinlin uses powdered moringa(辣木) leaves in place of some wheat flour to bake a cake lower in gluten(谷胶) and higher in nutrients. Tan's job is to create recipes with these still-unfamiliar ingredients that will appeal to both local and international tastes. In recent years she has used some of the forgotten crops grown at CFF, such as moringa and bambara groundnut, to make everything from instant soup to Indian snacks. \"I try to modernise forgotten crops instead of using old recipes.\" says Tan, who is also a trained chef. It's a strategy to appeal to the world's growing middle classes who are increasingly turning to the fast and processed food industries. It's also a way to help counter perceptions of local crops as \"old or poor people's food\" or as inferior \"women's crops\", adds Tan.\n\nI) The roots of these connotations about local foods can run deep. The bambara groundnut, a protein-rich native crop of sub-Saharan Africa that is also grown in parts of southeast Asia, can trace its marginalisation to colonial rule. \"African women who grew bambara groundnut were actually punished for growing it,\" says Azam-Ali. \"Colonial powers said you can't grow that because there's no oil. We can't get a market for it.\" But today the bambara murukku is one of CFF's best reviewed foods and they are aiming to get it into grocery stores, pointing to the success of crops like quinoa to potential investors. Some 30 years ago, quinoa was virtually unheard of outside its native mountains in Bolivia and Peru. Today the nutritious grain is found on the menus of lavish restaurants across the world.\n\nJ) Measuring crops by nutrition instead of yield is at the heart of the forgotten foods enterprise. Ever since the \"green revolution\" of the 1960s, high-yielding crops have dominated modern agriculture. That was in part a crucial response to devastating famines at a time when the world needed to increase its food supply. Today \"nutrition is becoming a time bomb\", says Azam-Ali, as growing carbon dioxide levels strip crops of their minerals. Instead of bio-fortifying major crops we should be investing in those forgotten crops that are already more nutritious, he asserts.\n\nK) In the bowels of CFF's third dome, lab manager Gomathy Sethuraman opens a window into the centre's \"crown jewels\", revealing vines of winged beans growing under a bright yellow light. It's one of multiple chambers where scientists are studying the impact of higher temperatures and carbon dioxide levels on the nutritional make-up of alternative crops. This research is \"the game changer\", says Azam-Ali, ensuring that \"future crops\" are also the healthiest ones in warmer climates.\n\nL) There is a growing global momentum around forgotten foods, says Danielle Nierenberg, president of Food Tank, a US-based think tank. Other than CFF, which bills itself as the world's first research centre dedicated solely to under-utilised crops, there are other key groups championing agricultural diversity including Crop Trust, Slow Food, Icrisat and Bioversity International. Add to that more middle-income consumers searching for nutritious foods and others eager to try the unprocessed foods their grandparents once ate, she says.\n\nM) But the rising interest in forgotten foods in some quarters is overtaken by the global spread of Western-style diets heavy in sugar, fat and processed foods in others.\n\nN) A key obstacle to promoting fading local crops in Malaysia, for example, is \"the obsession with imported products\", says Jenifer Kuah, co-founder of a restaurant that champions locally-sourced food in an affluent suburb of Kuala Lumpur. Customers at Sitka, regarded as a pioneer in the country's small farm-to-table dining scene, still seek foreign ingredients as a \"status symbol\", she says.\n\nO) The argument for forgotten foods feels intuitive. Some analysts say it is in fact inevitable. \"Climate change is going to mean almost certainly tastes are going to be forced to change,\" says Tim Lang, professor of food policy at City, University of London. We \"have to get used to eating other crops\" as yields of staple crops fall, he says.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 H 段。题干：Growing alternative crops proved feasible in a variety of environments, but the critical question was whether they would be marketable.\n核对该段原文：Undeterred, he ploughed on. Project after project helped prove these crops were viable in different environments as alternatives to the staple ones. But the question of whether these crops would be marketable remained. \"That's the critical thing,\" he says. In one of the centre's domes, food technologist Tan Xinlin uses powdered moringa(辣木) leaves in place of some wheat flour to bake a cake lower in gluten(谷胶) and higher in nutrients. Tan's job is to create recipes with these still-unfamiliar ingredients that will appeal to both local and international tastes. In recent years she has used some of the forgotten crops grown at CFF, such as moringa and bambara groundnut, to make everything from instant soup to Indian snacks. \"I try to modernise forgotten crops instead of using old recipes.\" says Tan, who is also a trained chef. It's a strategy to appeal to the world's growing middle classes who are increasingly turning to the fast and processed food industries. It's also a way to help counter perceptions of local crops as \"old or poor people's food\" or as inferior \"women's crops\", adds Tan.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2024-12-1-nonlistening-q41",
+      "canonicalId": "lazynote-cet6-2024-12-1-q41",
+      "number": 41,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "According to a professor, when the yields of staple crops fall, we will have to adapt to eating foods from alternative crops.",
+      "passage": "Are Forgotten Crops the Future of Food?\n\nA) On a small fruit farm near the Straits of Malacca, Lim Kok Ann is down to just one tree growing kedondong, a crunchy, sour berry that Malaysians mostly use in pickles(腌菜) and salads. \"It's not very well-known,\" says the 45-year-old, who is instead focusing on longan(龙眼) berries and pineapples, which have bigger markets. \"We have to grow what is profitable,\" he says.\n\nB) But less than an hour away in the Malaysian countryside, inside three giant, silver domes, scientists are trying to change the future of food. They're pushing the boundaries of what humans eat by growing and processing so-called \"alternative\" crops—such as kedondong. At the headquarters of global research centre Crops For the Future (CFF) this particular under-used fruit has been turned into a sugar-free juice, high in vitamin C and getting top marks in sensory evaluations. \"Anything you see here is a forgotten crop,\" says Sayed Azam-Ali of the abundant plants weaving through the gardens of CFF outside Malaysia's capital Kuala Lumpur.\n\nC) Prof Azam-Ali explains that just four crops—wheat, maize, rice and soybean—provide two-thirds of the world's food supply. \"We're dependent on these four,\" he says. \"But actually there're 7,000 crops we've been farming for thousands of years. We ignore all of those.\" Researchers are trying to unlock the potential of these ignored crops—plants they describe as forgotten, under-used or \"alternative\" as they are displaced by increasingly uniform diets fuelled by processed ingredients from the major crops.\n\nD) It's a timely quest. The food sector is already responsible for nearly a third of global greenhouse gas emissions. By 2050 it estimates the world must produce 50% more food to feed the projected global population of 10 billion. Meeting this demand without contributing to climate change calls for urgent solutions.\n\nE) Forgotten crops hold key answers. By investing in neglected local plants, countries can reduce their reliance on imported crops and their carbon-heavy supply chains. Bringing back the variety of crops humans once ate also boosts food security at a time warming climates threaten existing crops. On top of that forgotten crops are among the most climate-resilient(具有气候韧性的) and nutritious, argues Azam-Ali. His summary is plain: \"Dietary diversification is critical to the future of humanity.\"\n\nF) Food security experts agree. \"There is no food insecurity in the world, there is food ignorance,\" says Cecilia Tortajada, a senior research fellow at the Institute of Water Policy at the National University of Singapore. \"Whenever we have native crops we tend to disregard them as if they were not valuable but they are,\" she adds.\n\nG) Azam-Ali knows that scepticism firsthand. He came across alternative crops in the 1980s through the work of women farmers he met in Niger. The then-PhD student remembers marvelling at the crops they grew in their backyards, without the benefits of technology, to feed their families when the big crops failed. He saw a tremendous opportunity to build alternative food systems. But \"the resistance was enormous,\" he recalls.\n\nH) Undeterred, he ploughed on. Project after project helped prove these crops were viable in different environments as alternatives to the staple ones. But the question of whether these crops would be marketable remained. \"That's the critical thing,\" he says. In one of the centre's domes, food technologist Tan Xinlin uses powdered moringa(辣木) leaves in place of some wheat flour to bake a cake lower in gluten(谷胶) and higher in nutrients. Tan's job is to create recipes with these still-unfamiliar ingredients that will appeal to both local and international tastes. In recent years she has used some of the forgotten crops grown at CFF, such as moringa and bambara groundnut, to make everything from instant soup to Indian snacks. \"I try to modernise forgotten crops instead of using old recipes.\" says Tan, who is also a trained chef. It's a strategy to appeal to the world's growing middle classes who are increasingly turning to the fast and processed food industries. It's also a way to help counter perceptions of local crops as \"old or poor people's food\" or as inferior \"women's crops\", adds Tan.\n\nI) The roots of these connotations about local foods can run deep. The bambara groundnut, a protein-rich native crop of sub-Saharan Africa that is also grown in parts of southeast Asia, can trace its marginalisation to colonial rule. \"African women who grew bambara groundnut were actually punished for growing it,\" says Azam-Ali. \"Colonial powers said you can't grow that because there's no oil. We can't get a market for it.\" But today the bambara murukku is one of CFF's best reviewed foods and they are aiming to get it into grocery stores, pointing to the success of crops like quinoa to potential investors. Some 30 years ago, quinoa was virtually unheard of outside its native mountains in Bolivia and Peru. Today the nutritious grain is found on the menus of lavish restaurants across the world.\n\nJ) Measuring crops by nutrition instead of yield is at the heart of the forgotten foods enterprise. Ever since the \"green revolution\" of the 1960s, high-yielding crops have dominated modern agriculture. That was in part a crucial response to devastating famines at a time when the world needed to increase its food supply. Today \"nutrition is becoming a time bomb\", says Azam-Ali, as growing carbon dioxide levels strip crops of their minerals. Instead of bio-fortifying major crops we should be investing in those forgotten crops that are already more nutritious, he asserts.\n\nK) In the bowels of CFF's third dome, lab manager Gomathy Sethuraman opens a window into the centre's \"crown jewels\", revealing vines of winged beans growing under a bright yellow light. It's one of multiple chambers where scientists are studying the impact of higher temperatures and carbon dioxide levels on the nutritional make-up of alternative crops. This research is \"the game changer\", says Azam-Ali, ensuring that \"future crops\" are also the healthiest ones in warmer climates.\n\nL) There is a growing global momentum around forgotten foods, says Danielle Nierenberg, president of Food Tank, a US-based think tank. Other than CFF, which bills itself as the world's first research centre dedicated solely to under-utilised crops, there are other key groups championing agricultural diversity including Crop Trust, Slow Food, Icrisat and Bioversity International. Add to that more middle-income consumers searching for nutritious foods and others eager to try the unprocessed foods their grandparents once ate, she says.\n\nM) But the rising interest in forgotten foods in some quarters is overtaken by the global spread of Western-style diets heavy in sugar, fat and processed foods in others.\n\nN) A key obstacle to promoting fading local crops in Malaysia, for example, is \"the obsession with imported products\", says Jenifer Kuah, co-founder of a restaurant that champions locally-sourced food in an affluent suburb of Kuala Lumpur. Customers at Sitka, regarded as a pioneer in the country's small farm-to-table dining scene, still seek foreign ingredients as a \"status symbol\", she says.\n\nO) The argument for forgotten foods feels intuitive. Some analysts say it is in fact inevitable. \"Climate change is going to mean almost certainly tastes are going to be forced to change,\" says Tim Lang, professor of food policy at City, University of London. We \"have to get used to eating other crops\" as yields of staple crops fall, he says.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        }
+      ],
+      "correctAnswer": "O",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 O 段。题干：According to a professor, when the yields of staple crops fall, we will have to adapt to eating foods from alternative crops.\n核对该段原文：The argument for forgotten foods feels intuitive. Some analysts say it is in fact inevitable. \"Climate change is going to mean almost certainly tastes are going to be forced to change,\" says Tim Lang, professor of food policy at City, University of London. We \"have to get used to eating other crops\" as yields of staple crops fall, he says.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2024-12-1-nonlistening-q42",
+      "canonicalId": "lazynote-cet6-2024-12-1-q42",
+      "number": 42,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Urgent measures have to be taken to provide food for the projected world population without aggravating the climate.",
+      "passage": "Are Forgotten Crops the Future of Food?\n\nA) On a small fruit farm near the Straits of Malacca, Lim Kok Ann is down to just one tree growing kedondong, a crunchy, sour berry that Malaysians mostly use in pickles(腌菜) and salads. \"It's not very well-known,\" says the 45-year-old, who is instead focusing on longan(龙眼) berries and pineapples, which have bigger markets. \"We have to grow what is profitable,\" he says.\n\nB) But less than an hour away in the Malaysian countryside, inside three giant, silver domes, scientists are trying to change the future of food. They're pushing the boundaries of what humans eat by growing and processing so-called \"alternative\" crops—such as kedondong. At the headquarters of global research centre Crops For the Future (CFF) this particular under-used fruit has been turned into a sugar-free juice, high in vitamin C and getting top marks in sensory evaluations. \"Anything you see here is a forgotten crop,\" says Sayed Azam-Ali of the abundant plants weaving through the gardens of CFF outside Malaysia's capital Kuala Lumpur.\n\nC) Prof Azam-Ali explains that just four crops—wheat, maize, rice and soybean—provide two-thirds of the world's food supply. \"We're dependent on these four,\" he says. \"But actually there're 7,000 crops we've been farming for thousands of years. We ignore all of those.\" Researchers are trying to unlock the potential of these ignored crops—plants they describe as forgotten, under-used or \"alternative\" as they are displaced by increasingly uniform diets fuelled by processed ingredients from the major crops.\n\nD) It's a timely quest. The food sector is already responsible for nearly a third of global greenhouse gas emissions. By 2050 it estimates the world must produce 50% more food to feed the projected global population of 10 billion. Meeting this demand without contributing to climate change calls for urgent solutions.\n\nE) Forgotten crops hold key answers. By investing in neglected local plants, countries can reduce their reliance on imported crops and their carbon-heavy supply chains. Bringing back the variety of crops humans once ate also boosts food security at a time warming climates threaten existing crops. On top of that forgotten crops are among the most climate-resilient(具有气候韧性的) and nutritious, argues Azam-Ali. His summary is plain: \"Dietary diversification is critical to the future of humanity.\"\n\nF) Food security experts agree. \"There is no food insecurity in the world, there is food ignorance,\" says Cecilia Tortajada, a senior research fellow at the Institute of Water Policy at the National University of Singapore. \"Whenever we have native crops we tend to disregard them as if they were not valuable but they are,\" she adds.\n\nG) Azam-Ali knows that scepticism firsthand. He came across alternative crops in the 1980s through the work of women farmers he met in Niger. The then-PhD student remembers marvelling at the crops they grew in their backyards, without the benefits of technology, to feed their families when the big crops failed. He saw a tremendous opportunity to build alternative food systems. But \"the resistance was enormous,\" he recalls.\n\nH) Undeterred, he ploughed on. Project after project helped prove these crops were viable in different environments as alternatives to the staple ones. But the question of whether these crops would be marketable remained. \"That's the critical thing,\" he says. In one of the centre's domes, food technologist Tan Xinlin uses powdered moringa(辣木) leaves in place of some wheat flour to bake a cake lower in gluten(谷胶) and higher in nutrients. Tan's job is to create recipes with these still-unfamiliar ingredients that will appeal to both local and international tastes. In recent years she has used some of the forgotten crops grown at CFF, such as moringa and bambara groundnut, to make everything from instant soup to Indian snacks. \"I try to modernise forgotten crops instead of using old recipes.\" says Tan, who is also a trained chef. It's a strategy to appeal to the world's growing middle classes who are increasingly turning to the fast and processed food industries. It's also a way to help counter perceptions of local crops as \"old or poor people's food\" or as inferior \"women's crops\", adds Tan.\n\nI) The roots of these connotations about local foods can run deep. The bambara groundnut, a protein-rich native crop of sub-Saharan Africa that is also grown in parts of southeast Asia, can trace its marginalisation to colonial rule. \"African women who grew bambara groundnut were actually punished for growing it,\" says Azam-Ali. \"Colonial powers said you can't grow that because there's no oil. We can't get a market for it.\" But today the bambara murukku is one of CFF's best reviewed foods and they are aiming to get it into grocery stores, pointing to the success of crops like quinoa to potential investors. Some 30 years ago, quinoa was virtually unheard of outside its native mountains in Bolivia and Peru. Today the nutritious grain is found on the menus of lavish restaurants across the world.\n\nJ) Measuring crops by nutrition instead of yield is at the heart of the forgotten foods enterprise. Ever since the \"green revolution\" of the 1960s, high-yielding crops have dominated modern agriculture. That was in part a crucial response to devastating famines at a time when the world needed to increase its food supply. Today \"nutrition is becoming a time bomb\", says Azam-Ali, as growing carbon dioxide levels strip crops of their minerals. Instead of bio-fortifying major crops we should be investing in those forgotten crops that are already more nutritious, he asserts.\n\nK) In the bowels of CFF's third dome, lab manager Gomathy Sethuraman opens a window into the centre's \"crown jewels\", revealing vines of winged beans growing under a bright yellow light. It's one of multiple chambers where scientists are studying the impact of higher temperatures and carbon dioxide levels on the nutritional make-up of alternative crops. This research is \"the game changer\", says Azam-Ali, ensuring that \"future crops\" are also the healthiest ones in warmer climates.\n\nL) There is a growing global momentum around forgotten foods, says Danielle Nierenberg, president of Food Tank, a US-based think tank. Other than CFF, which bills itself as the world's first research centre dedicated solely to under-utilised crops, there are other key groups championing agricultural diversity including Crop Trust, Slow Food, Icrisat and Bioversity International. Add to that more middle-income consumers searching for nutritious foods and others eager to try the unprocessed foods their grandparents once ate, she says.\n\nM) But the rising interest in forgotten foods in some quarters is overtaken by the global spread of Western-style diets heavy in sugar, fat and processed foods in others.\n\nN) A key obstacle to promoting fading local crops in Malaysia, for example, is \"the obsession with imported products\", says Jenifer Kuah, co-founder of a restaurant that champions locally-sourced food in an affluent suburb of Kuala Lumpur. Customers at Sitka, regarded as a pioneer in the country's small farm-to-table dining scene, still seek foreign ingredients as a \"status symbol\", she says.\n\nO) The argument for forgotten foods feels intuitive. Some analysts say it is in fact inevitable. \"Climate change is going to mean almost certainly tastes are going to be forced to change,\" says Tim Lang, professor of food policy at City, University of London. We \"have to get used to eating other crops\" as yields of staple crops fall, he says.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 D 段。题干：Urgent measures have to be taken to provide food for the projected world population without aggravating the climate.\n核对该段原文：It's a timely quest. The food sector is already responsible for nearly a third of global greenhouse gas emissions. By 2050 it estimates the world must produce 50% more food to feed the projected global population of 10 billion. Meeting this demand without contributing to climate change calls for urgent solutions.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2024-12-1-nonlistening-q43",
+      "canonicalId": "lazynote-cet6-2024-12-1-q43",
+      "number": 43,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Colonial rule marginalised local crops by punishing Africans who grew them.",
+      "passage": "Are Forgotten Crops the Future of Food?\n\nA) On a small fruit farm near the Straits of Malacca, Lim Kok Ann is down to just one tree growing kedondong, a crunchy, sour berry that Malaysians mostly use in pickles(腌菜) and salads. \"It's not very well-known,\" says the 45-year-old, who is instead focusing on longan(龙眼) berries and pineapples, which have bigger markets. \"We have to grow what is profitable,\" he says.\n\nB) But less than an hour away in the Malaysian countryside, inside three giant, silver domes, scientists are trying to change the future of food. They're pushing the boundaries of what humans eat by growing and processing so-called \"alternative\" crops—such as kedondong. At the headquarters of global research centre Crops For the Future (CFF) this particular under-used fruit has been turned into a sugar-free juice, high in vitamin C and getting top marks in sensory evaluations. \"Anything you see here is a forgotten crop,\" says Sayed Azam-Ali of the abundant plants weaving through the gardens of CFF outside Malaysia's capital Kuala Lumpur.\n\nC) Prof Azam-Ali explains that just four crops—wheat, maize, rice and soybean—provide two-thirds of the world's food supply. \"We're dependent on these four,\" he says. \"But actually there're 7,000 crops we've been farming for thousands of years. We ignore all of those.\" Researchers are trying to unlock the potential of these ignored crops—plants they describe as forgotten, under-used or \"alternative\" as they are displaced by increasingly uniform diets fuelled by processed ingredients from the major crops.\n\nD) It's a timely quest. The food sector is already responsible for nearly a third of global greenhouse gas emissions. By 2050 it estimates the world must produce 50% more food to feed the projected global population of 10 billion. Meeting this demand without contributing to climate change calls for urgent solutions.\n\nE) Forgotten crops hold key answers. By investing in neglected local plants, countries can reduce their reliance on imported crops and their carbon-heavy supply chains. Bringing back the variety of crops humans once ate also boosts food security at a time warming climates threaten existing crops. On top of that forgotten crops are among the most climate-resilient(具有气候韧性的) and nutritious, argues Azam-Ali. His summary is plain: \"Dietary diversification is critical to the future of humanity.\"\n\nF) Food security experts agree. \"There is no food insecurity in the world, there is food ignorance,\" says Cecilia Tortajada, a senior research fellow at the Institute of Water Policy at the National University of Singapore. \"Whenever we have native crops we tend to disregard them as if they were not valuable but they are,\" she adds.\n\nG) Azam-Ali knows that scepticism firsthand. He came across alternative crops in the 1980s through the work of women farmers he met in Niger. The then-PhD student remembers marvelling at the crops they grew in their backyards, without the benefits of technology, to feed their families when the big crops failed. He saw a tremendous opportunity to build alternative food systems. But \"the resistance was enormous,\" he recalls.\n\nH) Undeterred, he ploughed on. Project after project helped prove these crops were viable in different environments as alternatives to the staple ones. But the question of whether these crops would be marketable remained. \"That's the critical thing,\" he says. In one of the centre's domes, food technologist Tan Xinlin uses powdered moringa(辣木) leaves in place of some wheat flour to bake a cake lower in gluten(谷胶) and higher in nutrients. Tan's job is to create recipes with these still-unfamiliar ingredients that will appeal to both local and international tastes. In recent years she has used some of the forgotten crops grown at CFF, such as moringa and bambara groundnut, to make everything from instant soup to Indian snacks. \"I try to modernise forgotten crops instead of using old recipes.\" says Tan, who is also a trained chef. It's a strategy to appeal to the world's growing middle classes who are increasingly turning to the fast and processed food industries. It's also a way to help counter perceptions of local crops as \"old or poor people's food\" or as inferior \"women's crops\", adds Tan.\n\nI) The roots of these connotations about local foods can run deep. The bambara groundnut, a protein-rich native crop of sub-Saharan Africa that is also grown in parts of southeast Asia, can trace its marginalisation to colonial rule. \"African women who grew bambara groundnut were actually punished for growing it,\" says Azam-Ali. \"Colonial powers said you can't grow that because there's no oil. We can't get a market for it.\" But today the bambara murukku is one of CFF's best reviewed foods and they are aiming to get it into grocery stores, pointing to the success of crops like quinoa to potential investors. Some 30 years ago, quinoa was virtually unheard of outside its native mountains in Bolivia and Peru. Today the nutritious grain is found on the menus of lavish restaurants across the world.\n\nJ) Measuring crops by nutrition instead of yield is at the heart of the forgotten foods enterprise. Ever since the \"green revolution\" of the 1960s, high-yielding crops have dominated modern agriculture. That was in part a crucial response to devastating famines at a time when the world needed to increase its food supply. Today \"nutrition is becoming a time bomb\", says Azam-Ali, as growing carbon dioxide levels strip crops of their minerals. Instead of bio-fortifying major crops we should be investing in those forgotten crops that are already more nutritious, he asserts.\n\nK) In the bowels of CFF's third dome, lab manager Gomathy Sethuraman opens a window into the centre's \"crown jewels\", revealing vines of winged beans growing under a bright yellow light. It's one of multiple chambers where scientists are studying the impact of higher temperatures and carbon dioxide levels on the nutritional make-up of alternative crops. This research is \"the game changer\", says Azam-Ali, ensuring that \"future crops\" are also the healthiest ones in warmer climates.\n\nL) There is a growing global momentum around forgotten foods, says Danielle Nierenberg, president of Food Tank, a US-based think tank. Other than CFF, which bills itself as the world's first research centre dedicated solely to under-utilised crops, there are other key groups championing agricultural diversity including Crop Trust, Slow Food, Icrisat and Bioversity International. Add to that more middle-income consumers searching for nutritious foods and others eager to try the unprocessed foods their grandparents once ate, she says.\n\nM) But the rising interest in forgotten foods in some quarters is overtaken by the global spread of Western-style diets heavy in sugar, fat and processed foods in others.\n\nN) A key obstacle to promoting fading local crops in Malaysia, for example, is \"the obsession with imported products\", says Jenifer Kuah, co-founder of a restaurant that champions locally-sourced food in an affluent suburb of Kuala Lumpur. Customers at Sitka, regarded as a pioneer in the country's small farm-to-table dining scene, still seek foreign ingredients as a \"status symbol\", she says.\n\nO) The argument for forgotten foods feels intuitive. Some analysts say it is in fact inevitable. \"Climate change is going to mean almost certainly tastes are going to be forced to change,\" says Tim Lang, professor of food policy at City, University of London. We \"have to get used to eating other crops\" as yields of staple crops fall, he says.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        }
+      ],
+      "correctAnswer": "I",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 I 段。题干：Colonial rule marginalised local crops by punishing Africans who grew them.\n核对该段原文：The roots of these connotations about local foods can run deep. The bambara groundnut, a protein-rich native crop of sub-Saharan Africa that is also grown in parts of southeast Asia, can trace its marginalisation to colonial rule. \"African women who grew bambara groundnut were actually punished for growing it,\" says Azam-Ali. \"Colonial powers said you can't grow that because there's no oil. We can't get a market for it.\" But today the bambara murukku is one of CFF's best reviewed foods and they are aiming to get it into grocery stores, pointing to the success of crops like quinoa to potential investors. Some 30 years ago, quinoa was virtually unheard of outside its native mountains in Bolivia and Peru. Today the nutritious grain is found on the menus of lavish restaurants across the world.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2024-12-1-nonlistening-q44",
+      "canonicalId": "lazynote-cet6-2024-12-1-q44",
+      "number": 44,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "As existing crops are endangered by global warming, we can increase food security by bringing back the many forgotten food crops.",
+      "passage": "Are Forgotten Crops the Future of Food?\n\nA) On a small fruit farm near the Straits of Malacca, Lim Kok Ann is down to just one tree growing kedondong, a crunchy, sour berry that Malaysians mostly use in pickles(腌菜) and salads. \"It's not very well-known,\" says the 45-year-old, who is instead focusing on longan(龙眼) berries and pineapples, which have bigger markets. \"We have to grow what is profitable,\" he says.\n\nB) But less than an hour away in the Malaysian countryside, inside three giant, silver domes, scientists are trying to change the future of food. They're pushing the boundaries of what humans eat by growing and processing so-called \"alternative\" crops—such as kedondong. At the headquarters of global research centre Crops For the Future (CFF) this particular under-used fruit has been turned into a sugar-free juice, high in vitamin C and getting top marks in sensory evaluations. \"Anything you see here is a forgotten crop,\" says Sayed Azam-Ali of the abundant plants weaving through the gardens of CFF outside Malaysia's capital Kuala Lumpur.\n\nC) Prof Azam-Ali explains that just four crops—wheat, maize, rice and soybean—provide two-thirds of the world's food supply. \"We're dependent on these four,\" he says. \"But actually there're 7,000 crops we've been farming for thousands of years. We ignore all of those.\" Researchers are trying to unlock the potential of these ignored crops—plants they describe as forgotten, under-used or \"alternative\" as they are displaced by increasingly uniform diets fuelled by processed ingredients from the major crops.\n\nD) It's a timely quest. The food sector is already responsible for nearly a third of global greenhouse gas emissions. By 2050 it estimates the world must produce 50% more food to feed the projected global population of 10 billion. Meeting this demand without contributing to climate change calls for urgent solutions.\n\nE) Forgotten crops hold key answers. By investing in neglected local plants, countries can reduce their reliance on imported crops and their carbon-heavy supply chains. Bringing back the variety of crops humans once ate also boosts food security at a time warming climates threaten existing crops. On top of that forgotten crops are among the most climate-resilient(具有气候韧性的) and nutritious, argues Azam-Ali. His summary is plain: \"Dietary diversification is critical to the future of humanity.\"\n\nF) Food security experts agree. \"There is no food insecurity in the world, there is food ignorance,\" says Cecilia Tortajada, a senior research fellow at the Institute of Water Policy at the National University of Singapore. \"Whenever we have native crops we tend to disregard them as if they were not valuable but they are,\" she adds.\n\nG) Azam-Ali knows that scepticism firsthand. He came across alternative crops in the 1980s through the work of women farmers he met in Niger. The then-PhD student remembers marvelling at the crops they grew in their backyards, without the benefits of technology, to feed their families when the big crops failed. He saw a tremendous opportunity to build alternative food systems. But \"the resistance was enormous,\" he recalls.\n\nH) Undeterred, he ploughed on. Project after project helped prove these crops were viable in different environments as alternatives to the staple ones. But the question of whether these crops would be marketable remained. \"That's the critical thing,\" he says. In one of the centre's domes, food technologist Tan Xinlin uses powdered moringa(辣木) leaves in place of some wheat flour to bake a cake lower in gluten(谷胶) and higher in nutrients. Tan's job is to create recipes with these still-unfamiliar ingredients that will appeal to both local and international tastes. In recent years she has used some of the forgotten crops grown at CFF, such as moringa and bambara groundnut, to make everything from instant soup to Indian snacks. \"I try to modernise forgotten crops instead of using old recipes.\" says Tan, who is also a trained chef. It's a strategy to appeal to the world's growing middle classes who are increasingly turning to the fast and processed food industries. It's also a way to help counter perceptions of local crops as \"old or poor people's food\" or as inferior \"women's crops\", adds Tan.\n\nI) The roots of these connotations about local foods can run deep. The bambara groundnut, a protein-rich native crop of sub-Saharan Africa that is also grown in parts of southeast Asia, can trace its marginalisation to colonial rule. \"African women who grew bambara groundnut were actually punished for growing it,\" says Azam-Ali. \"Colonial powers said you can't grow that because there's no oil. We can't get a market for it.\" But today the bambara murukku is one of CFF's best reviewed foods and they are aiming to get it into grocery stores, pointing to the success of crops like quinoa to potential investors. Some 30 years ago, quinoa was virtually unheard of outside its native mountains in Bolivia and Peru. Today the nutritious grain is found on the menus of lavish restaurants across the world.\n\nJ) Measuring crops by nutrition instead of yield is at the heart of the forgotten foods enterprise. Ever since the \"green revolution\" of the 1960s, high-yielding crops have dominated modern agriculture. That was in part a crucial response to devastating famines at a time when the world needed to increase its food supply. Today \"nutrition is becoming a time bomb\", says Azam-Ali, as growing carbon dioxide levels strip crops of their minerals. Instead of bio-fortifying major crops we should be investing in those forgotten crops that are already more nutritious, he asserts.\n\nK) In the bowels of CFF's third dome, lab manager Gomathy Sethuraman opens a window into the centre's \"crown jewels\", revealing vines of winged beans growing under a bright yellow light. It's one of multiple chambers where scientists are studying the impact of higher temperatures and carbon dioxide levels on the nutritional make-up of alternative crops. This research is \"the game changer\", says Azam-Ali, ensuring that \"future crops\" are also the healthiest ones in warmer climates.\n\nL) There is a growing global momentum around forgotten foods, says Danielle Nierenberg, president of Food Tank, a US-based think tank. Other than CFF, which bills itself as the world's first research centre dedicated solely to under-utilised crops, there are other key groups championing agricultural diversity including Crop Trust, Slow Food, Icrisat and Bioversity International. Add to that more middle-income consumers searching for nutritious foods and others eager to try the unprocessed foods their grandparents once ate, she says.\n\nM) But the rising interest in forgotten foods in some quarters is overtaken by the global spread of Western-style diets heavy in sugar, fat and processed foods in others.\n\nN) A key obstacle to promoting fading local crops in Malaysia, for example, is \"the obsession with imported products\", says Jenifer Kuah, co-founder of a restaurant that champions locally-sourced food in an affluent suburb of Kuala Lumpur. Customers at Sitka, regarded as a pioneer in the country's small farm-to-table dining scene, still seek foreign ingredients as a \"status symbol\", she says.\n\nO) The argument for forgotten foods feels intuitive. Some analysts say it is in fact inevitable. \"Climate change is going to mean almost certainly tastes are going to be forced to change,\" says Tim Lang, professor of food policy at City, University of London. We \"have to get used to eating other crops\" as yields of staple crops fall, he says.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 E 段。题干：As existing crops are endangered by global warming, we can increase food security by bringing back the many forgotten food crops.\n核对该段原文：Forgotten crops hold key answers. By investing in neglected local plants, countries can reduce their reliance on imported crops and their carbon-heavy supply chains. Bringing back the variety of crops humans once ate also boosts food security at a time warming climates threaten existing crops. On top of that forgotten crops are among the most climate-resilient(具有气候韧性的) and nutritious, argues Azam-Ali. His summary is plain: \"Dietary diversification is critical to the future of humanity.\"\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2024-12-1-nonlistening-q45",
+      "canonicalId": "lazynote-cet6-2024-12-1-q45",
+      "number": 45,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Researchers are trying to find out how higher temperatures and CO₂ levels affect the nutritional composition of alternative crops.",
+      "passage": "Are Forgotten Crops the Future of Food?\n\nA) On a small fruit farm near the Straits of Malacca, Lim Kok Ann is down to just one tree growing kedondong, a crunchy, sour berry that Malaysians mostly use in pickles(腌菜) and salads. \"It's not very well-known,\" says the 45-year-old, who is instead focusing on longan(龙眼) berries and pineapples, which have bigger markets. \"We have to grow what is profitable,\" he says.\n\nB) But less than an hour away in the Malaysian countryside, inside three giant, silver domes, scientists are trying to change the future of food. They're pushing the boundaries of what humans eat by growing and processing so-called \"alternative\" crops—such as kedondong. At the headquarters of global research centre Crops For the Future (CFF) this particular under-used fruit has been turned into a sugar-free juice, high in vitamin C and getting top marks in sensory evaluations. \"Anything you see here is a forgotten crop,\" says Sayed Azam-Ali of the abundant plants weaving through the gardens of CFF outside Malaysia's capital Kuala Lumpur.\n\nC) Prof Azam-Ali explains that just four crops—wheat, maize, rice and soybean—provide two-thirds of the world's food supply. \"We're dependent on these four,\" he says. \"But actually there're 7,000 crops we've been farming for thousands of years. We ignore all of those.\" Researchers are trying to unlock the potential of these ignored crops—plants they describe as forgotten, under-used or \"alternative\" as they are displaced by increasingly uniform diets fuelled by processed ingredients from the major crops.\n\nD) It's a timely quest. The food sector is already responsible for nearly a third of global greenhouse gas emissions. By 2050 it estimates the world must produce 50% more food to feed the projected global population of 10 billion. Meeting this demand without contributing to climate change calls for urgent solutions.\n\nE) Forgotten crops hold key answers. By investing in neglected local plants, countries can reduce their reliance on imported crops and their carbon-heavy supply chains. Bringing back the variety of crops humans once ate also boosts food security at a time warming climates threaten existing crops. On top of that forgotten crops are among the most climate-resilient(具有气候韧性的) and nutritious, argues Azam-Ali. His summary is plain: \"Dietary diversification is critical to the future of humanity.\"\n\nF) Food security experts agree. \"There is no food insecurity in the world, there is food ignorance,\" says Cecilia Tortajada, a senior research fellow at the Institute of Water Policy at the National University of Singapore. \"Whenever we have native crops we tend to disregard them as if they were not valuable but they are,\" she adds.\n\nG) Azam-Ali knows that scepticism firsthand. He came across alternative crops in the 1980s through the work of women farmers he met in Niger. The then-PhD student remembers marvelling at the crops they grew in their backyards, without the benefits of technology, to feed their families when the big crops failed. He saw a tremendous opportunity to build alternative food systems. But \"the resistance was enormous,\" he recalls.\n\nH) Undeterred, he ploughed on. Project after project helped prove these crops were viable in different environments as alternatives to the staple ones. But the question of whether these crops would be marketable remained. \"That's the critical thing,\" he says. In one of the centre's domes, food technologist Tan Xinlin uses powdered moringa(辣木) leaves in place of some wheat flour to bake a cake lower in gluten(谷胶) and higher in nutrients. Tan's job is to create recipes with these still-unfamiliar ingredients that will appeal to both local and international tastes. In recent years she has used some of the forgotten crops grown at CFF, such as moringa and bambara groundnut, to make everything from instant soup to Indian snacks. \"I try to modernise forgotten crops instead of using old recipes.\" says Tan, who is also a trained chef. It's a strategy to appeal to the world's growing middle classes who are increasingly turning to the fast and processed food industries. It's also a way to help counter perceptions of local crops as \"old or poor people's food\" or as inferior \"women's crops\", adds Tan.\n\nI) The roots of these connotations about local foods can run deep. The bambara groundnut, a protein-rich native crop of sub-Saharan Africa that is also grown in parts of southeast Asia, can trace its marginalisation to colonial rule. \"African women who grew bambara groundnut were actually punished for growing it,\" says Azam-Ali. \"Colonial powers said you can't grow that because there's no oil. We can't get a market for it.\" But today the bambara murukku is one of CFF's best reviewed foods and they are aiming to get it into grocery stores, pointing to the success of crops like quinoa to potential investors. Some 30 years ago, quinoa was virtually unheard of outside its native mountains in Bolivia and Peru. Today the nutritious grain is found on the menus of lavish restaurants across the world.\n\nJ) Measuring crops by nutrition instead of yield is at the heart of the forgotten foods enterprise. Ever since the \"green revolution\" of the 1960s, high-yielding crops have dominated modern agriculture. That was in part a crucial response to devastating famines at a time when the world needed to increase its food supply. Today \"nutrition is becoming a time bomb\", says Azam-Ali, as growing carbon dioxide levels strip crops of their minerals. Instead of bio-fortifying major crops we should be investing in those forgotten crops that are already more nutritious, he asserts.\n\nK) In the bowels of CFF's third dome, lab manager Gomathy Sethuraman opens a window into the centre's \"crown jewels\", revealing vines of winged beans growing under a bright yellow light. It's one of multiple chambers where scientists are studying the impact of higher temperatures and carbon dioxide levels on the nutritional make-up of alternative crops. This research is \"the game changer\", says Azam-Ali, ensuring that \"future crops\" are also the healthiest ones in warmer climates.\n\nL) There is a growing global momentum around forgotten foods, says Danielle Nierenberg, president of Food Tank, a US-based think tank. Other than CFF, which bills itself as the world's first research centre dedicated solely to under-utilised crops, there are other key groups championing agricultural diversity including Crop Trust, Slow Food, Icrisat and Bioversity International. Add to that more middle-income consumers searching for nutritious foods and others eager to try the unprocessed foods their grandparents once ate, she says.\n\nM) But the rising interest in forgotten foods in some quarters is overtaken by the global spread of Western-style diets heavy in sugar, fat and processed foods in others.\n\nN) A key obstacle to promoting fading local crops in Malaysia, for example, is \"the obsession with imported products\", says Jenifer Kuah, co-founder of a restaurant that champions locally-sourced food in an affluent suburb of Kuala Lumpur. Customers at Sitka, regarded as a pioneer in the country's small farm-to-table dining scene, still seek foreign ingredients as a \"status symbol\", she says.\n\nO) The argument for forgotten foods feels intuitive. Some analysts say it is in fact inevitable. \"Climate change is going to mean almost certainly tastes are going to be forced to change,\" says Tim Lang, professor of food policy at City, University of London. We \"have to get used to eating other crops\" as yields of staple crops fall, he says.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 K 段。题干：Researchers are trying to find out how higher temperatures and CO₂ levels affect the nutritional composition of alternative crops.\n核对该段原文：In the bowels of CFF's third dome, lab manager Gomathy Sethuraman opens a window into the centre's \"crown jewels\", revealing vines of winged beans growing under a bright yellow light. It's one of multiple chambers where scientists are studying the impact of higher temperatures and carbon dioxide levels on the nutritional make-up of alternative crops. This research is \"the game changer\", says Azam-Ali, ensuring that \"future crops\" are also the healthiest ones in warmer climates.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2024-12-1-nonlistening-q46",
+      "canonicalId": "lazynote-cet6-2024-12-1-q46",
+      "number": 46,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "The alien finds the audience in the movie theatre clearly in a state of ______.",
+      "passage": "Imagine you're an alien sent to Earth to document the behaviour of the mammals inhabiting the planet. You stumble into a movie theatre that's showing the latest Hollywood horror film.\n\nSeveral dozen humans are gathered together in a dark, undecorated room. They're all staring at a rectangular area on which patterns of light change rapidly.\n\nThey are clearly in a state of high arousal. Their heart rate is elevated, they occasionally glance around nervously, and they sometimes jump collectively in their seats, and emit high-pitched warning calls.\n\nEventually, the lights come up and the rectangular screen goes black. The humans stand up and leave the room, chatting and laughing, and showing signs of pleasure.\n\nWhy do these humans voluntarily expose themselves to what appears to be a deeply unpleasant experience? And why do they react so strongly to those patterns of light on a screen?\n\nI am fascinated with the paradox of horror—the strange fact that many people seek out scary entertainment.\n\nI think the answer to the puzzle lies in human nature.\n\nMy research suggests that we humans evolved to find pleasure in situations that allow us to experience negative emotions in a safe context. You can see these elements of horror in children's games. Take hide-and-seek for example, which is a simulation of a predator-prey interaction. The kid hides and the adult pretends to be a predator, searching for the child while howling like a dangerous beast.\n\nThis simulation gives the child crucial information about how to avoid becoming prey, and children tend to find that kind of activity deeply satisfying, presumably because it gives them a safe experience of a potentially catastrophic scenario.\n\nThey find it pleasurable, and pleasure is evolution's way of motivating us toward adaptive behaviour.\n\nHorror is pleasurable to many people because it lets us play with negative emotions and develop coping strategies. We learn what it feels like to be truly afraid, and we learn how to handle negative emotion.\n\nHow, then, does horror work? My research suggests that horror works by exploiting an ancient set of biological defence mechanisms—an evolved fear system, which we share with other animals. But humans are uniquely imaginative, and we use our evolved imagination to travel into virtual worlds that are full of danger.\n\nThere are good reasons for watching a horror film, even if you're not a loyal horror fan. If you make it through the film in one piece, you'll probably experience a strong sense of mastery, a sense that you were able to make it through an appalling experience. Anyway, watching a horror film makes you better at handling your own fear, and who knows when that will become critically relevant?",
+      "options": [
+        {
+          "id": "A",
+          "text": "total mindfulness"
+        },
+        {
+          "id": "B",
+          "text": "extreme excitement"
+        },
+        {
+          "id": "C",
+          "text": "spiritual elevation"
+        },
+        {
+          "id": "D",
+          "text": "intense curiosity"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：extreme excitement\n关键词检索定位到第 1 段的候选相关句：You stumble into a movie theatre that's showing the latest Hollywood horror film.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2024-12-1-nonlistening-q47",
+      "canonicalId": "lazynote-cet6-2024-12-1-q47",
+      "number": 47,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "Why do many people seek out scary entertainment, according to the author's research?",
+      "passage": "Imagine you're an alien sent to Earth to document the behaviour of the mammals inhabiting the planet. You stumble into a movie theatre that's showing the latest Hollywood horror film.\n\nSeveral dozen humans are gathered together in a dark, undecorated room. They're all staring at a rectangular area on which patterns of light change rapidly.\n\nThey are clearly in a state of high arousal. Their heart rate is elevated, they occasionally glance around nervously, and they sometimes jump collectively in their seats, and emit high-pitched warning calls.\n\nEventually, the lights come up and the rectangular screen goes black. The humans stand up and leave the room, chatting and laughing, and showing signs of pleasure.\n\nWhy do these humans voluntarily expose themselves to what appears to be a deeply unpleasant experience? And why do they react so strongly to those patterns of light on a screen?\n\nI am fascinated with the paradox of horror—the strange fact that many people seek out scary entertainment.\n\nI think the answer to the puzzle lies in human nature.\n\nMy research suggests that we humans evolved to find pleasure in situations that allow us to experience negative emotions in a safe context. You can see these elements of horror in children's games. Take hide-and-seek for example, which is a simulation of a predator-prey interaction. The kid hides and the adult pretends to be a predator, searching for the child while howling like a dangerous beast.\n\nThis simulation gives the child crucial information about how to avoid becoming prey, and children tend to find that kind of activity deeply satisfying, presumably because it gives them a safe experience of a potentially catastrophic scenario.\n\nThey find it pleasurable, and pleasure is evolution's way of motivating us toward adaptive behaviour.\n\nHorror is pleasurable to many people because it lets us play with negative emotions and develop coping strategies. We learn what it feels like to be truly afraid, and we learn how to handle negative emotion.\n\nHow, then, does horror work? My research suggests that horror works by exploiting an ancient set of biological defence mechanisms—an evolved fear system, which we share with other animals. But humans are uniquely imaginative, and we use our evolved imagination to travel into virtual worlds that are full of danger.\n\nThere are good reasons for watching a horror film, even if you're not a loyal horror fan. If you make it through the film in one piece, you'll probably experience a strong sense of mastery, a sense that you were able to make it through an appalling experience. Anyway, watching a horror film makes you better at handling your own fear, and who knows when that will become critically relevant?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They gain experience in overcoming horror in real life."
+        },
+        {
+          "id": "B",
+          "text": "They find joy in going through simulated horrible experiences."
+        },
+        {
+          "id": "C",
+          "text": "They have learned from hide-and-seek as kids the thrill involved."
+        },
+        {
+          "id": "D",
+          "text": "They have evolved to gain pleasure in escaping life-threatening situations."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：They find joy in going through simulated horrible experiences.\n关键词检索定位到第 6 段的候选相关句：I am fascinated with the paradox of horror—the strange fact that many people seek out scary entertainment.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2024-12-1-nonlistening-q48",
+      "canonicalId": "lazynote-cet6-2024-12-1-q48",
+      "number": 48,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do children learn from hide-and-seek?",
+      "passage": "Imagine you're an alien sent to Earth to document the behaviour of the mammals inhabiting the planet. You stumble into a movie theatre that's showing the latest Hollywood horror film.\n\nSeveral dozen humans are gathered together in a dark, undecorated room. They're all staring at a rectangular area on which patterns of light change rapidly.\n\nThey are clearly in a state of high arousal. Their heart rate is elevated, they occasionally glance around nervously, and they sometimes jump collectively in their seats, and emit high-pitched warning calls.\n\nEventually, the lights come up and the rectangular screen goes black. The humans stand up and leave the room, chatting and laughing, and showing signs of pleasure.\n\nWhy do these humans voluntarily expose themselves to what appears to be a deeply unpleasant experience? And why do they react so strongly to those patterns of light on a screen?\n\nI am fascinated with the paradox of horror—the strange fact that many people seek out scary entertainment.\n\nI think the answer to the puzzle lies in human nature.\n\nMy research suggests that we humans evolved to find pleasure in situations that allow us to experience negative emotions in a safe context. You can see these elements of horror in children's games. Take hide-and-seek for example, which is a simulation of a predator-prey interaction. The kid hides and the adult pretends to be a predator, searching for the child while howling like a dangerous beast.\n\nThis simulation gives the child crucial information about how to avoid becoming prey, and children tend to find that kind of activity deeply satisfying, presumably because it gives them a safe experience of a potentially catastrophic scenario.\n\nThey find it pleasurable, and pleasure is evolution's way of motivating us toward adaptive behaviour.\n\nHorror is pleasurable to many people because it lets us play with negative emotions and develop coping strategies. We learn what it feels like to be truly afraid, and we learn how to handle negative emotion.\n\nHow, then, does horror work? My research suggests that horror works by exploiting an ancient set of biological defence mechanisms—an evolved fear system, which we share with other animals. But humans are uniquely imaginative, and we use our evolved imagination to travel into virtual worlds that are full of danger.\n\nThere are good reasons for watching a horror film, even if you're not a loyal horror fan. If you make it through the film in one piece, you'll probably experience a strong sense of mastery, a sense that you were able to make it through an appalling experience. Anyway, watching a horror film makes you better at handling your own fear, and who knows when that will become critically relevant?",
+      "options": [
+        {
+          "id": "A",
+          "text": "How to avoid falling prey to an attacker."
+        },
+        {
+          "id": "B",
+          "text": "How to simulate a predator-prey interaction."
+        },
+        {
+          "id": "C",
+          "text": "How to keep themselves from catastrophic errors."
+        },
+        {
+          "id": "D",
+          "text": "How to turn a dangerous scenario into a safe one."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：How to avoid falling prey to an attacker.\n关键词检索定位到第 8 段的候选相关句：Take hide-and-seek for example, which is a simulation of a predator-prey interaction.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2024-12-1-nonlistening-q49",
+      "canonicalId": "lazynote-cet6-2024-12-1-q49",
+      "number": 49,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "Why is horror gratifying to many people?",
+      "passage": "Imagine you're an alien sent to Earth to document the behaviour of the mammals inhabiting the planet. You stumble into a movie theatre that's showing the latest Hollywood horror film.\n\nSeveral dozen humans are gathered together in a dark, undecorated room. They're all staring at a rectangular area on which patterns of light change rapidly.\n\nThey are clearly in a state of high arousal. Their heart rate is elevated, they occasionally glance around nervously, and they sometimes jump collectively in their seats, and emit high-pitched warning calls.\n\nEventually, the lights come up and the rectangular screen goes black. The humans stand up and leave the room, chatting and laughing, and showing signs of pleasure.\n\nWhy do these humans voluntarily expose themselves to what appears to be a deeply unpleasant experience? And why do they react so strongly to those patterns of light on a screen?\n\nI am fascinated with the paradox of horror—the strange fact that many people seek out scary entertainment.\n\nI think the answer to the puzzle lies in human nature.\n\nMy research suggests that we humans evolved to find pleasure in situations that allow us to experience negative emotions in a safe context. You can see these elements of horror in children's games. Take hide-and-seek for example, which is a simulation of a predator-prey interaction. The kid hides and the adult pretends to be a predator, searching for the child while howling like a dangerous beast.\n\nThis simulation gives the child crucial information about how to avoid becoming prey, and children tend to find that kind of activity deeply satisfying, presumably because it gives them a safe experience of a potentially catastrophic scenario.\n\nThey find it pleasurable, and pleasure is evolution's way of motivating us toward adaptive behaviour.\n\nHorror is pleasurable to many people because it lets us play with negative emotions and develop coping strategies. We learn what it feels like to be truly afraid, and we learn how to handle negative emotion.\n\nHow, then, does horror work? My research suggests that horror works by exploiting an ancient set of biological defence mechanisms—an evolved fear system, which we share with other animals. But humans are uniquely imaginative, and we use our evolved imagination to travel into virtual worlds that are full of danger.\n\nThere are good reasons for watching a horror film, even if you're not a loyal horror fan. If you make it through the film in one piece, you'll probably experience a strong sense of mastery, a sense that you were able to make it through an appalling experience. Anyway, watching a horror film makes you better at handling your own fear, and who knows when that will become critically relevant?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It reminds them of an ancient set of biological defence mechanisms."
+        },
+        {
+          "id": "B",
+          "text": "It triggers their imagination to travel into dangerous virtual worlds."
+        },
+        {
+          "id": "C",
+          "text": "It allows them to learn what fear feels like and how to tackle it."
+        },
+        {
+          "id": "D",
+          "text": "It activates their evolved fear system and their unique fantasy."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：It allows them to learn what fear feels like and how to tackle it.\n关键词检索定位到第 11 段的候选相关句：We learn what it feels like to be truly afraid, and we learn how to handle negative emotion.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2024-12-1-nonlistening-q50",
+      "canonicalId": "lazynote-cet6-2024-12-1-q50",
+      "number": 50,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What will one experience if they watch a horror film through without being hurt?",
+      "passage": "Imagine you're an alien sent to Earth to document the behaviour of the mammals inhabiting the planet. You stumble into a movie theatre that's showing the latest Hollywood horror film.\n\nSeveral dozen humans are gathered together in a dark, undecorated room. They're all staring at a rectangular area on which patterns of light change rapidly.\n\nThey are clearly in a state of high arousal. Their heart rate is elevated, they occasionally glance around nervously, and they sometimes jump collectively in their seats, and emit high-pitched warning calls.\n\nEventually, the lights come up and the rectangular screen goes black. The humans stand up and leave the room, chatting and laughing, and showing signs of pleasure.\n\nWhy do these humans voluntarily expose themselves to what appears to be a deeply unpleasant experience? And why do they react so strongly to those patterns of light on a screen?\n\nI am fascinated with the paradox of horror—the strange fact that many people seek out scary entertainment.\n\nI think the answer to the puzzle lies in human nature.\n\nMy research suggests that we humans evolved to find pleasure in situations that allow us to experience negative emotions in a safe context. You can see these elements of horror in children's games. Take hide-and-seek for example, which is a simulation of a predator-prey interaction. The kid hides and the adult pretends to be a predator, searching for the child while howling like a dangerous beast.\n\nThis simulation gives the child crucial information about how to avoid becoming prey, and children tend to find that kind of activity deeply satisfying, presumably because it gives them a safe experience of a potentially catastrophic scenario.\n\nThey find it pleasurable, and pleasure is evolution's way of motivating us toward adaptive behaviour.\n\nHorror is pleasurable to many people because it lets us play with negative emotions and develop coping strategies. We learn what it feels like to be truly afraid, and we learn how to handle negative emotion.\n\nHow, then, does horror work? My research suggests that horror works by exploiting an ancient set of biological defence mechanisms—an evolved fear system, which we share with other animals. But humans are uniquely imaginative, and we use our evolved imagination to travel into virtual worlds that are full of danger.\n\nThere are good reasons for watching a horror film, even if you're not a loyal horror fan. If you make it through the film in one piece, you'll probably experience a strong sense of mastery, a sense that you were able to make it through an appalling experience. Anyway, watching a horror film makes you better at handling your own fear, and who knows when that will become critically relevant?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A strong sense of clear relevance."
+        },
+        {
+          "id": "B",
+          "text": "A profound sense of good fortune."
+        },
+        {
+          "id": "C",
+          "text": "A profound sense of intense relief."
+        },
+        {
+          "id": "D",
+          "text": "A strong sense of being in control."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：A strong sense of being in control.\n关键词检索定位到第 13 段的候选相关句：If you make it through the film in one piece, you'll probably experience a strong sense of mastery, a sense that you were able to make it through an appalling experience.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2024-12-1-nonlistening-q51",
+      "canonicalId": "lazynote-cet6-2024-12-1-q51",
+      "number": 51,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn about beauty in the digital arena?",
+      "passage": "An awakening has been taking place in the physical world against the beauty model that has been dictated to us for years. But in the digital arena, social media determines what is considered beautiful.\n\nThe two opposing struggles are taking place in parallel. In the physical world, the struggle goes against the underlying pressure exerted on women to conform to an unrealistic beauty ideal. As part of the struggle, various media outlets have presented women whose bodies don't correspond to the so-called ideal. All those women who had previously been excluded from the covers of magazines, television series and the public agenda, have become \"legitimate\". At the same time, a group of influencers have begun to upload to social media photos of themselves without makeup, and even photos in which they highlight supposed flaws.\n\nTechnology has reshaped our beauty ideal and is doing a great job communicating that message to the masses. One of the bizarre legacies of the past decade is the popularity of the \"cyborg look\", which illustrates what Americans will look like in 2050.\n\nThe cyborg look spread rapidly. Today, however, the Instagram face has become the new beauty ideal.\n\nThe internalization of accepted beauty norms is much more effective when there is active involvement in the learning process. The active involvement of users is reflected in the gamified(游戏化的) interaction offered by the social media platforms—the ability to like, write a comment, compare, share.\n\nOnce the desired beauty ideal has been internalized, users are given tools or features to change their appearance to suit the accepted beauty ideal such as editing the image, choosing the ideal filter, the right background.\n\nA survey conducted in the United States revealed that more than 50% filter the images before posting them. And you will not be surprised to hear that the majority of them are women. One of the significant consequences of obsessive filtering is the emerging tendency to treat oneself as an object to be observed and valued, in the same way another person observes and judges from the side.\n\nThe effect of the filters is already far beyond amiable amusement. The filters and the entire game played on the networks affect the mental health of the users. According to a study, apps like Instagram, Snapchat and FaceTune allow users to achieve a level of perfection that was previously only observed in beauty magazines.\n\nEven though humanity has always cherished beauty, in the last decade our obsession with looks has reached an unprecedented peak. The time spent on social media creates an urge to achieve an impossible beauty ideal so powerful that the only thing that can fix it is not cosmetic intervention, but mental health care.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It dictates the taste of digital media."
+        },
+        {
+          "id": "B",
+          "text": "It has been in the making for years."
+        },
+        {
+          "id": "C",
+          "text": "It has ushered in a new awakening."
+        },
+        {
+          "id": "D",
+          "text": "It is defined by social media."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：It is defined by social media.\n关键词检索定位到第 1 段的候选相关句：But in the digital arena, social media determines what is considered beautiful.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2024-12-1-nonlistening-q52",
+      "canonicalId": "lazynote-cet6-2024-12-1-q52",
+      "number": 52,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the passage say about beauty in the physical world?",
+      "passage": "An awakening has been taking place in the physical world against the beauty model that has been dictated to us for years. But in the digital arena, social media determines what is considered beautiful.\n\nThe two opposing struggles are taking place in parallel. In the physical world, the struggle goes against the underlying pressure exerted on women to conform to an unrealistic beauty ideal. As part of the struggle, various media outlets have presented women whose bodies don't correspond to the so-called ideal. All those women who had previously been excluded from the covers of magazines, television series and the public agenda, have become \"legitimate\". At the same time, a group of influencers have begun to upload to social media photos of themselves without makeup, and even photos in which they highlight supposed flaws.\n\nTechnology has reshaped our beauty ideal and is doing a great job communicating that message to the masses. One of the bizarre legacies of the past decade is the popularity of the \"cyborg look\", which illustrates what Americans will look like in 2050.\n\nThe cyborg look spread rapidly. Today, however, the Instagram face has become the new beauty ideal.\n\nThe internalization of accepted beauty norms is much more effective when there is active involvement in the learning process. The active involvement of users is reflected in the gamified(游戏化的) interaction offered by the social media platforms—the ability to like, write a comment, compare, share.\n\nOnce the desired beauty ideal has been internalized, users are given tools or features to change their appearance to suit the accepted beauty ideal such as editing the image, choosing the ideal filter, the right background.\n\nA survey conducted in the United States revealed that more than 50% filter the images before posting them. And you will not be surprised to hear that the majority of them are women. One of the significant consequences of obsessive filtering is the emerging tendency to treat oneself as an object to be observed and valued, in the same way another person observes and judges from the side.\n\nThe effect of the filters is already far beyond amiable amusement. The filters and the entire game played on the networks affect the mental health of the users. According to a study, apps like Instagram, Snapchat and FaceTune allow users to achieve a level of perfection that was previously only observed in beauty magazines.\n\nEven though humanity has always cherished beauty, in the last decade our obsession with looks has reached an unprecedented peak. The time spent on social media creates an urge to achieve an impossible beauty ideal so powerful that the only thing that can fix it is not cosmetic intervention, but mental health care.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Women are under constant pressure to keep up with beauty models."
+        },
+        {
+          "id": "B",
+          "text": "Women are encouraged to pursue a beauty ideal that has never existed."
+        },
+        {
+          "id": "C",
+          "text": "A fight is going on to remove pressure on women to conform to an absurd beauty ideal."
+        },
+        {
+          "id": "D",
+          "text": "Media outlets have begun to present as beauty models trendy women without any makeup."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：A fight is going on to remove pressure on women to conform to an absurd beauty ideal.\n关键词检索定位到第 2 段的候选相关句：In the physical world, the struggle goes against the underlying pressure exerted on women to conform to an unrealistic beauty ideal.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2024-12-1-nonlistening-q53",
+      "canonicalId": "lazynote-cet6-2024-12-1-q53",
+      "number": 53,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn from the passage about the Instagram face?",
+      "passage": "An awakening has been taking place in the physical world against the beauty model that has been dictated to us for years. But in the digital arena, social media determines what is considered beautiful.\n\nThe two opposing struggles are taking place in parallel. In the physical world, the struggle goes against the underlying pressure exerted on women to conform to an unrealistic beauty ideal. As part of the struggle, various media outlets have presented women whose bodies don't correspond to the so-called ideal. All those women who had previously been excluded from the covers of magazines, television series and the public agenda, have become \"legitimate\". At the same time, a group of influencers have begun to upload to social media photos of themselves without makeup, and even photos in which they highlight supposed flaws.\n\nTechnology has reshaped our beauty ideal and is doing a great job communicating that message to the masses. One of the bizarre legacies of the past decade is the popularity of the \"cyborg look\", which illustrates what Americans will look like in 2050.\n\nThe cyborg look spread rapidly. Today, however, the Instagram face has become the new beauty ideal.\n\nThe internalization of accepted beauty norms is much more effective when there is active involvement in the learning process. The active involvement of users is reflected in the gamified(游戏化的) interaction offered by the social media platforms—the ability to like, write a comment, compare, share.\n\nOnce the desired beauty ideal has been internalized, users are given tools or features to change their appearance to suit the accepted beauty ideal such as editing the image, choosing the ideal filter, the right background.\n\nA survey conducted in the United States revealed that more than 50% filter the images before posting them. And you will not be surprised to hear that the majority of them are women. One of the significant consequences of obsessive filtering is the emerging tendency to treat oneself as an object to be observed and valued, in the same way another person observes and judges from the side.\n\nThe effect of the filters is already far beyond amiable amusement. The filters and the entire game played on the networks affect the mental health of the users. According to a study, apps like Instagram, Snapchat and FaceTune allow users to achieve a level of perfection that was previously only observed in beauty magazines.\n\nEven though humanity has always cherished beauty, in the last decade our obsession with looks has reached an unprecedented peak. The time spent on social media creates an urge to achieve an impossible beauty ideal so powerful that the only thing that can fix it is not cosmetic intervention, but mental health care.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is now regarded as the new beauty ideal."
+        },
+        {
+          "id": "B",
+          "text": "It is what most women will go after in 2050."
+        },
+        {
+          "id": "C",
+          "text": "It is being much talked about on social media."
+        },
+        {
+          "id": "D",
+          "text": "It is a perfect illustration of the ultimate beauty."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：It is now regarded as the new beauty ideal.\n关键词检索定位到第 4 段的候选相关句：Today, however, the Instagram face has become the new beauty ideal.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2024-12-1-nonlistening-q54",
+      "canonicalId": "lazynote-cet6-2024-12-1-q54",
+      "number": 54,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What has obsessive filtering resulted in?",
+      "passage": "An awakening has been taking place in the physical world against the beauty model that has been dictated to us for years. But in the digital arena, social media determines what is considered beautiful.\n\nThe two opposing struggles are taking place in parallel. In the physical world, the struggle goes against the underlying pressure exerted on women to conform to an unrealistic beauty ideal. As part of the struggle, various media outlets have presented women whose bodies don't correspond to the so-called ideal. All those women who had previously been excluded from the covers of magazines, television series and the public agenda, have become \"legitimate\". At the same time, a group of influencers have begun to upload to social media photos of themselves without makeup, and even photos in which they highlight supposed flaws.\n\nTechnology has reshaped our beauty ideal and is doing a great job communicating that message to the masses. One of the bizarre legacies of the past decade is the popularity of the \"cyborg look\", which illustrates what Americans will look like in 2050.\n\nThe cyborg look spread rapidly. Today, however, the Instagram face has become the new beauty ideal.\n\nThe internalization of accepted beauty norms is much more effective when there is active involvement in the learning process. The active involvement of users is reflected in the gamified(游戏化的) interaction offered by the social media platforms—the ability to like, write a comment, compare, share.\n\nOnce the desired beauty ideal has been internalized, users are given tools or features to change their appearance to suit the accepted beauty ideal such as editing the image, choosing the ideal filter, the right background.\n\nA survey conducted in the United States revealed that more than 50% filter the images before posting them. And you will not be surprised to hear that the majority of them are women. One of the significant consequences of obsessive filtering is the emerging tendency to treat oneself as an object to be observed and valued, in the same way another person observes and judges from the side.\n\nThe effect of the filters is already far beyond amiable amusement. The filters and the entire game played on the networks affect the mental health of the users. According to a study, apps like Instagram, Snapchat and FaceTune allow users to achieve a level of perfection that was previously only observed in beauty magazines.\n\nEven though humanity has always cherished beauty, in the last decade our obsession with looks has reached an unprecedented peak. The time spent on social media creates an urge to achieve an impossible beauty ideal so powerful that the only thing that can fix it is not cosmetic intervention, but mental health care.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A good many women striving to reach an impossible level of perfection."
+        },
+        {
+          "id": "B",
+          "text": "An urge to turn the entire game played on the network to one's advantage."
+        },
+        {
+          "id": "C",
+          "text": "A tendency to regard one's body as an object of observation and judgment."
+        },
+        {
+          "id": "D",
+          "text": "An increasing number of women filtering their images before uploading them."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：A tendency to regard one's body as an object of observation and judgment.\n关键词检索定位到第 7 段的候选相关句：One of the significant consequences of obsessive filtering is the emerging tendency to treat oneself as an object to be observed and valued, in the same way another person observes and judges from the side.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2024-12-1-nonlistening-q55",
+      "canonicalId": "lazynote-cet6-2024-12-1-q55",
+      "number": 55,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the author want to emphasize at the end of the passage regarding Americans' obsession with looks?",
+      "passage": "An awakening has been taking place in the physical world against the beauty model that has been dictated to us for years. But in the digital arena, social media determines what is considered beautiful.\n\nThe two opposing struggles are taking place in parallel. In the physical world, the struggle goes against the underlying pressure exerted on women to conform to an unrealistic beauty ideal. As part of the struggle, various media outlets have presented women whose bodies don't correspond to the so-called ideal. All those women who had previously been excluded from the covers of magazines, television series and the public agenda, have become \"legitimate\". At the same time, a group of influencers have begun to upload to social media photos of themselves without makeup, and even photos in which they highlight supposed flaws.\n\nTechnology has reshaped our beauty ideal and is doing a great job communicating that message to the masses. One of the bizarre legacies of the past decade is the popularity of the \"cyborg look\", which illustrates what Americans will look like in 2050.\n\nThe cyborg look spread rapidly. Today, however, the Instagram face has become the new beauty ideal.\n\nThe internalization of accepted beauty norms is much more effective when there is active involvement in the learning process. The active involvement of users is reflected in the gamified(游戏化的) interaction offered by the social media platforms—the ability to like, write a comment, compare, share.\n\nOnce the desired beauty ideal has been internalized, users are given tools or features to change their appearance to suit the accepted beauty ideal such as editing the image, choosing the ideal filter, the right background.\n\nA survey conducted in the United States revealed that more than 50% filter the images before posting them. And you will not be surprised to hear that the majority of them are women. One of the significant consequences of obsessive filtering is the emerging tendency to treat oneself as an object to be observed and valued, in the same way another person observes and judges from the side.\n\nThe effect of the filters is already far beyond amiable amusement. The filters and the entire game played on the networks affect the mental health of the users. According to a study, apps like Instagram, Snapchat and FaceTune allow users to achieve a level of perfection that was previously only observed in beauty magazines.\n\nEven though humanity has always cherished beauty, in the last decade our obsession with looks has reached an unprecedented peak. The time spent on social media creates an urge to achieve an impossible beauty ideal so powerful that the only thing that can fix it is not cosmetic intervention, but mental health care.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cosmetic surgery should be made more accessible to the masses."
+        },
+        {
+          "id": "B",
+          "text": "Psychological intervention should be introduced to alleviate it."
+        },
+        {
+          "id": "C",
+          "text": "Their time spent on social media should be strictly controlled."
+        },
+        {
+          "id": "D",
+          "text": "Its root cause should be meticulously examined and analyzed."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：Psychological intervention should be introduced to alleviate it.\n关键词检索定位到第 3 段的候选相关句：One of the bizarre legacies of the past decade is the popularity of the \"cyborg look\", which illustrates what Americans will look like in 2050.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2024-12-1-nonlistening-translation",
+      "number": "IV",
+      "level": "CET6",
+      "type": "short_text_self_check",
+      "skill": "translation",
+      "section": "translation",
+      "prompt": "Directions : For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2 .\n\n北斗(Beidou)卫星导航系统的成功研制是中国自改革开放以来取得的一项重大科技成就。研发人员经过不懈努力,攻克了一系列技术难题,北斗系统最终实现了全球覆盖和高精度定位,使中国成为世界上少数几个独立拥有全球卫星导航系统的国家之一。北斗系统已广泛应用于交通运输、灾害救援、天气预报、公共安全等诸多领域。北斗系统现在已经在国际上得到广泛认可,开始为越来越多的国家和地区提供优质服务。",
+      "options": [],
+      "correctAnswer": "The successful development of the Beidou satellite navigation system is a major scientific and technological achievement China has made since reform and opening up. Through unremitting efforts, researchers overcame a series of technical difficulties. The system ultimately achieved global coverage and high precision positioning, making China one of the few countries in the world to independently possess a global satellite navigation system. Beidou has been widely used in transport, disaster relief, weather forecasting, public security and many other fields. It has now gained broad international recognition and begun providing high quality services to increasing numbers of countries and regions.",
+      "referenceAnswer": "The successful development of the Beidou satellite navigation system is a major scientific and technological achievement China has made since reform and opening up. Through unremitting efforts, researchers overcame a series of technical difficulties. The system ultimately achieved global coverage and high precision positioning, making China one of the few countries in the world to independently possess a global satellite navigation system. Beidou has been widely used in transport, disaster relief, weather forecasting, public security and many other fields. It has now gained broad international recognition and begun providing high quality services to increasing numbers of countries and regions.",
+      "hint": "全球覆盖与高精度定位、少数独立拥有国家、四类应用及国际服务均译出。",
+      "explanation": "以下为原创参考译文，准确的同义表达也可接受。since reform and opening up限定成就时期；one of the few countries保留少数国家之一。disaster relief与weather forecasting分别是救援和预报；begun providing保留开始提供的时间状态，不添加系统研发年份。",
+      "rubric": [
+        "信息：逐句核对人物、地点、数字、时间、因果和并列信息，避免漏译或增译。",
+        "表达：全球覆盖与高精度定位、少数独立拥有国家、四类应用及国际服务均译出。",
+        "语法：检查时态、语态、主谓一致、冠词与单复数，长句按英语逻辑合理拆分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2024-12-1-nonlistening"
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="container">
   <view class="filter-bar">
     <picker mode="selector" range="{{statusList}}" range-key="name" value="{{statusIndex}}" bindchange="onStatusChange">
@@ -38,3 +39,5 @@
     <view class="empty" wx:if="{{!loading && posts.length === 0}}">暂无动态</view>
   </scroll-view>
 </view>
+
+</block>

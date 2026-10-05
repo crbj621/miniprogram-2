@@ -1,0 +1,2225 @@
+{
+  "schemaVersion": 1,
+  "status": "verified_structured",
+  "source": {
+    "id": "cet6-2020-12-1-nonlistening",
+    "textCollection": "https://english-exam.lazynote.cn",
+    "textUrl": "https://english-exam.lazynote.cn/cet6/paper/2020-12-1/",
+    "textSha256": "38b73f890a185c6e6e87a6803c817e90a64bb7717e0b3d8ff1a2ead567982aa6",
+    "answerSources": [
+      {
+        "section": "part3-section-a",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2020-12-1/part3-section-a/",
+        "sha256": "d56abdb7733017bc728b708f3fa5b2ba5e59c57871e7719d7fbc19bd42a1016f"
+      },
+      {
+        "section": "part3-section-b",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2020-12-1/part3-section-b/",
+        "sha256": "273bc73e33ee9307a39a0aac0de07f18794fb7533806bfe26828e43ecf3b1214"
+      },
+      {
+        "section": "part3-section-c-1",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2020-12-1/part3-section-c-1/",
+        "sha256": "9123aa309b337e5e016230a22eb3abb4365a27388be109984f5e639d4d95c501"
+      },
+      {
+        "section": "part3-section-c-2",
+        "url": "https://english-exam.lazynote.cn/cet6/sections/2020-12-1/part3-section-c-2/",
+        "sha256": "239318df43bdedb0a82306d753734104aeda5d8846558363127433e3ac9297bb"
+      }
+    ],
+    "rightsUrl": "https://english-exam.lazynote.cn",
+    "rights": "Source footer attributes original papers to the National College English Test Committee. Original materials retain their respective rights; no blanket source license is asserted. Commercial explanatory prose is not copied.",
+    "sourceRightsNotice": "© 2026 懒笔记 · 蜀ICP备2024049450号-1 · 川公网安备51019002006323号 · 增值电信业务经营许可证：川B2-20240301 · 真题版权归全国硕士研究生招生考试 / 全国大学英语四六级考试委员会所有 · 隐私政策 · 用户协议",
+    "sourceTermsUrl": "https://english-exam.lazynote.cn/terms/",
+    "reviewedAt": "2026-10-03",
+    "answerStatus": "public_reference_structural_consistency_verified",
+    "explanations": "Project-generated contextual evidence notes. Close-reading locations are keyword-search candidates, not manually verified detailed explanations.",
+    "referenceEssays": "Project-authored full reference examples bound to the original prompts; not official model answers.",
+    "materialSources": [],
+    "corrections": [],
+    "previousReviewedAnswerSources": [],
+    "sourceEdition": "lazynote public original-paper arrangement; set numbering can differ from other collections.",
+    "independentlyConfirmedSharedSource": "",
+    "readingSourceCorrection": null,
+    "sectionSourceReplacement": null,
+    "independentAnswerChecks": [],
+    "sharedSectionSource": {}
+  },
+  "papers": [
+    {
+      "id": "cet6-2020-12-1-nonlistening",
+      "level": "CET6",
+      "year": 2020,
+      "month": 12,
+      "set": 1,
+      "title": "2020年12月英语六级第1套真题（不含听力）",
+      "authenticity": "past_exam",
+      "questionIds": [
+        "cet6-2020-12-1-nonlistening-writing",
+        "cet6-2020-12-1-nonlistening-q26",
+        "cet6-2020-12-1-nonlistening-q27",
+        "cet6-2020-12-1-nonlistening-q28",
+        "cet6-2020-12-1-nonlistening-q29",
+        "cet6-2020-12-1-nonlistening-q30",
+        "cet6-2020-12-1-nonlistening-q31",
+        "cet6-2020-12-1-nonlistening-q32",
+        "cet6-2020-12-1-nonlistening-q33",
+        "cet6-2020-12-1-nonlistening-q34",
+        "cet6-2020-12-1-nonlistening-q35",
+        "cet6-2020-12-1-nonlistening-q36",
+        "cet6-2020-12-1-nonlistening-q37",
+        "cet6-2020-12-1-nonlistening-q38",
+        "cet6-2020-12-1-nonlistening-q39",
+        "cet6-2020-12-1-nonlistening-q40",
+        "cet6-2020-12-1-nonlistening-q41",
+        "cet6-2020-12-1-nonlistening-q42",
+        "cet6-2020-12-1-nonlistening-q43",
+        "cet6-2020-12-1-nonlistening-q44",
+        "cet6-2020-12-1-nonlistening-q45",
+        "cet6-2020-12-1-nonlistening-q46",
+        "cet6-2020-12-1-nonlistening-q47",
+        "cet6-2020-12-1-nonlistening-q48",
+        "cet6-2020-12-1-nonlistening-q49",
+        "cet6-2020-12-1-nonlistening-q50",
+        "cet6-2020-12-1-nonlistening-q51",
+        "cet6-2020-12-1-nonlistening-q52",
+        "cet6-2020-12-1-nonlistening-q53",
+        "cet6-2020-12-1-nonlistening-q54",
+        "cet6-2020-12-1-nonlistening-q55",
+        "cet6-2020-12-1-nonlistening-translation"
+      ],
+      "durationSeconds": 6000,
+      "description": "写作1题、阅读30题、翻译1题，不含听力。客观题答案与题面、选项完成结构一致性核对。",
+      "sourceId": "cet6-2020-12-1-nonlistening",
+      "coverage": {
+        "fullPaper": false,
+        "fullNonListening": true,
+        "listeningExcluded": true,
+        "objectiveNumbers": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "objectiveCount": 30,
+        "subjectiveCount": 2,
+        "sections": [
+          "writing",
+          "reading_word_bank",
+          "reading_matching",
+          "reading_comprehension",
+          "translation"
+        ],
+        "sharedSectionSource": {},
+        "note": "写作1题、阅读30题、翻译1题，不含听力。",
+        "independentlyConfirmedSharedSource": "",
+        "readingSourceCorrection": null,
+        "sectionSourceReplacement": null,
+        "referenceStatus": "project_authored"
+      },
+      "resources": [
+        {
+          "id": "cet6-2020-12-1-nonlistening-source",
+          "type": "web",
+          "title": "原卷来源与题面核对",
+          "url": "https://english-exam.lazynote.cn/cet6/paper/2020-12-1/"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cet6-2020-12-1-nonlistening-writing",
+      "number": "I",
+      "level": "CET6",
+      "type": "short_text_self_check",
+      "skill": "writing",
+      "section": "writing",
+      "prompt": "Directions: For this part, you are allowed 30 minutes to write an essay on why students should be encouraged to develop creativity .You should write at least 150 words but no more than 200 words.",
+      "options": [],
+      "correctAnswer": "Students should be encouraged to develop creativity because education must prepare them to solve problems that do not always have ready answers. Knowledge is essential, but creative thinking enables learners to apply it in new and useful ways.\n\nCreativity begins with questioning familiar assumptions. In a science class, students who ask why an experiment fails may discover a better procedure instead of simply repeating instructions. In everyday life, designing a cheaper tool or a more inclusive campus activity also requires imagination combined with practical judgment. These experiences build confidence and help students become active participants in learning. Encouraging creativity does not mean abandoning accuracy or basic skills. Original ideas need evidence, revision and careful testing before they can become valuable solutions.\n\nSchools can support this process by offering open questions, allowing reasonable experimentation and evaluating how students develop their ideas. Teachers should welcome thoughtful alternatives rather than reward only identical answers. When curiosity is joined with disciplined practice, students gain the ability to adapt existing knowledge and contribute something meaningful to the world.",
+      "referenceAnswer": "Students should be encouraged to develop creativity because education must prepare them to solve problems that do not always have ready answers. Knowledge is essential, but creative thinking enables learners to apply it in new and useful ways.\n\nCreativity begins with questioning familiar assumptions. In a science class, students who ask why an experiment fails may discover a better procedure instead of simply repeating instructions. In everyday life, designing a cheaper tool or a more inclusive campus activity also requires imagination combined with practical judgment. These experiences build confidence and help students become active participants in learning. Encouraging creativity does not mean abandoning accuracy or basic skills. Original ideas need evidence, revision and careful testing before they can become valuable solutions.\n\nSchools can support this process by offering open questions, allowing reasonable experimentation and evaluating how students develop their ideas. Teachers should welcome thoughtful alternatives rather than reward only identical answers. When curiosity is joined with disciplined practice, students gain the ability to adapt existing knowledge and contribute something meaningful to the world.",
+      "hint": "说明创造力如何把知识用于新问题，并提出学校可实施的培养方法。",
+      "explanation": "以下为按本题要求独立写成的原创参考范文，作文没有唯一答案。实验失败与校园设计例子具体化创造力；同时强调证据与检验，避免把创造力等同任意幻想。open questions指允许多种合理解法的问题，disciplined practice表示有计划和标准的练习。",
+      "rubric": [
+        "任务：说明创造力如何把知识用于新问题，并提出学校可实施的培养方法。",
+        "论证：明确中心观点，用原因、具体例子或经历展开；结尾回应主题。",
+        "语言：检查主谓一致、时态、搭配和段落衔接；全文控制在150–200词。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-1-nonlistening-q26",
+      "canonicalId": "lazynote-cet6-2020-12-1-q26",
+      "number": 26,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 26 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The idea of taxing things that are bad for society has a powerful allure. It offers the possibility of a double benefit— [26] ____ harmful activities, while also providing the government with revenue.\n\nTake sin taxes. Taxes on alcohol make it more expensive to get drunk, which reduces excessive drinking and [27] ____ driving. At the same time, they provide state and local governments with billions of dollars of revenue. Tobacco taxes, which generate more than twice as much, have proven [28] ____ in the decline of smoking, which has saved millions of lives.\n\nTaxes can also be an important tool for environmental protection, and many economists say taxing carbon would be the best way to reduce greenhouse gas emissions. Economic theory says that unlike income or sales taxes, carbon taxes can actually increase economic efficiency; because companies that [29] ____ carbon dioxide into the sky don't pay the costs of the climate change they cause, carbon taxes would restore the proper [30] ____ to the market.\n\nIn reality, carbon taxes alone won't be enough to halt global warming, but they would be a useful part of any climate plan. What's more, the revenue from this tax, which would [31] ____ be hundreds of billions of dollars per year, could be handed out to citizens as a [32] ____ or used to fund green infrastructure projects.\n\nSimilarly, a wealth tax has been put forward as a way to reduce inequality while raising revenue. The revenue from this tax, which some experts [33] ____ will be over $4 trillion per decade, would be designated for housing, child care, health care and other government benefits. If you believe, as many do, that wealth inequality is [34] ____ bad, then these taxes improve society while also [35] ____ government coffers(金库).",
+      "options": [
+        {
+          "id": "A",
+          "text": "discouraging"
+        },
+        {
+          "id": "B",
+          "text": "dividend"
+        },
+        {
+          "id": "C",
+          "text": "emotional"
+        },
+        {
+          "id": "D",
+          "text": "fragments"
+        },
+        {
+          "id": "E",
+          "text": "impaired"
+        },
+        {
+          "id": "F",
+          "text": "imprisoned"
+        },
+        {
+          "id": "G",
+          "text": "incentives"
+        },
+        {
+          "id": "H",
+          "text": "inherently"
+        },
+        {
+          "id": "I",
+          "text": "initially"
+        },
+        {
+          "id": "J",
+          "text": "instrumental"
+        },
+        {
+          "id": "K",
+          "text": "merging"
+        },
+        {
+          "id": "L",
+          "text": "predict"
+        },
+        {
+          "id": "M",
+          "text": "probably"
+        },
+        {
+          "id": "N",
+          "text": "pump"
+        },
+        {
+          "id": "O",
+          "text": "swelling"
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "先看第 26 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 A（discouraging）。本空所在句：It offers the possibility of a double benefit— [26] ____ harmful activities, while also providing the government with revenue.\n将本空替换为 discouraging 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-1-nonlistening-q27",
+      "canonicalId": "lazynote-cet6-2020-12-1-q27",
+      "number": 27,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 27 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The idea of taxing things that are bad for society has a powerful allure. It offers the possibility of a double benefit— [26] ____ harmful activities, while also providing the government with revenue.\n\nTake sin taxes. Taxes on alcohol make it more expensive to get drunk, which reduces excessive drinking and [27] ____ driving. At the same time, they provide state and local governments with billions of dollars of revenue. Tobacco taxes, which generate more than twice as much, have proven [28] ____ in the decline of smoking, which has saved millions of lives.\n\nTaxes can also be an important tool for environmental protection, and many economists say taxing carbon would be the best way to reduce greenhouse gas emissions. Economic theory says that unlike income or sales taxes, carbon taxes can actually increase economic efficiency; because companies that [29] ____ carbon dioxide into the sky don't pay the costs of the climate change they cause, carbon taxes would restore the proper [30] ____ to the market.\n\nIn reality, carbon taxes alone won't be enough to halt global warming, but they would be a useful part of any climate plan. What's more, the revenue from this tax, which would [31] ____ be hundreds of billions of dollars per year, could be handed out to citizens as a [32] ____ or used to fund green infrastructure projects.\n\nSimilarly, a wealth tax has been put forward as a way to reduce inequality while raising revenue. The revenue from this tax, which some experts [33] ____ will be over $4 trillion per decade, would be designated for housing, child care, health care and other government benefits. If you believe, as many do, that wealth inequality is [34] ____ bad, then these taxes improve society while also [35] ____ government coffers(金库).",
+      "options": [
+        {
+          "id": "A",
+          "text": "discouraging"
+        },
+        {
+          "id": "B",
+          "text": "dividend"
+        },
+        {
+          "id": "C",
+          "text": "emotional"
+        },
+        {
+          "id": "D",
+          "text": "fragments"
+        },
+        {
+          "id": "E",
+          "text": "impaired"
+        },
+        {
+          "id": "F",
+          "text": "imprisoned"
+        },
+        {
+          "id": "G",
+          "text": "incentives"
+        },
+        {
+          "id": "H",
+          "text": "inherently"
+        },
+        {
+          "id": "I",
+          "text": "initially"
+        },
+        {
+          "id": "J",
+          "text": "instrumental"
+        },
+        {
+          "id": "K",
+          "text": "merging"
+        },
+        {
+          "id": "L",
+          "text": "predict"
+        },
+        {
+          "id": "M",
+          "text": "probably"
+        },
+        {
+          "id": "N",
+          "text": "pump"
+        },
+        {
+          "id": "O",
+          "text": "swelling"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "先看第 27 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 E（impaired）。本空所在句：Taxes on alcohol make it more expensive to get drunk, which reduces excessive drinking and [27] ____ driving.\n将本空替换为 impaired 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-1-nonlistening-q28",
+      "canonicalId": "lazynote-cet6-2020-12-1-q28",
+      "number": 28,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 28 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The idea of taxing things that are bad for society has a powerful allure. It offers the possibility of a double benefit— [26] ____ harmful activities, while also providing the government with revenue.\n\nTake sin taxes. Taxes on alcohol make it more expensive to get drunk, which reduces excessive drinking and [27] ____ driving. At the same time, they provide state and local governments with billions of dollars of revenue. Tobacco taxes, which generate more than twice as much, have proven [28] ____ in the decline of smoking, which has saved millions of lives.\n\nTaxes can also be an important tool for environmental protection, and many economists say taxing carbon would be the best way to reduce greenhouse gas emissions. Economic theory says that unlike income or sales taxes, carbon taxes can actually increase economic efficiency; because companies that [29] ____ carbon dioxide into the sky don't pay the costs of the climate change they cause, carbon taxes would restore the proper [30] ____ to the market.\n\nIn reality, carbon taxes alone won't be enough to halt global warming, but they would be a useful part of any climate plan. What's more, the revenue from this tax, which would [31] ____ be hundreds of billions of dollars per year, could be handed out to citizens as a [32] ____ or used to fund green infrastructure projects.\n\nSimilarly, a wealth tax has been put forward as a way to reduce inequality while raising revenue. The revenue from this tax, which some experts [33] ____ will be over $4 trillion per decade, would be designated for housing, child care, health care and other government benefits. If you believe, as many do, that wealth inequality is [34] ____ bad, then these taxes improve society while also [35] ____ government coffers(金库).",
+      "options": [
+        {
+          "id": "A",
+          "text": "discouraging"
+        },
+        {
+          "id": "B",
+          "text": "dividend"
+        },
+        {
+          "id": "C",
+          "text": "emotional"
+        },
+        {
+          "id": "D",
+          "text": "fragments"
+        },
+        {
+          "id": "E",
+          "text": "impaired"
+        },
+        {
+          "id": "F",
+          "text": "imprisoned"
+        },
+        {
+          "id": "G",
+          "text": "incentives"
+        },
+        {
+          "id": "H",
+          "text": "inherently"
+        },
+        {
+          "id": "I",
+          "text": "initially"
+        },
+        {
+          "id": "J",
+          "text": "instrumental"
+        },
+        {
+          "id": "K",
+          "text": "merging"
+        },
+        {
+          "id": "L",
+          "text": "predict"
+        },
+        {
+          "id": "M",
+          "text": "probably"
+        },
+        {
+          "id": "N",
+          "text": "pump"
+        },
+        {
+          "id": "O",
+          "text": "swelling"
+        }
+      ],
+      "correctAnswer": "J",
+      "hint": "先看第 28 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 J（instrumental）。本空所在句：Tobacco taxes, which generate more than twice as much, have proven [28] ____ in the decline of smoking, which has saved millions of lives.\n将本空替换为 instrumental 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-1-nonlistening-q29",
+      "canonicalId": "lazynote-cet6-2020-12-1-q29",
+      "number": 29,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 29 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The idea of taxing things that are bad for society has a powerful allure. It offers the possibility of a double benefit— [26] ____ harmful activities, while also providing the government with revenue.\n\nTake sin taxes. Taxes on alcohol make it more expensive to get drunk, which reduces excessive drinking and [27] ____ driving. At the same time, they provide state and local governments with billions of dollars of revenue. Tobacco taxes, which generate more than twice as much, have proven [28] ____ in the decline of smoking, which has saved millions of lives.\n\nTaxes can also be an important tool for environmental protection, and many economists say taxing carbon would be the best way to reduce greenhouse gas emissions. Economic theory says that unlike income or sales taxes, carbon taxes can actually increase economic efficiency; because companies that [29] ____ carbon dioxide into the sky don't pay the costs of the climate change they cause, carbon taxes would restore the proper [30] ____ to the market.\n\nIn reality, carbon taxes alone won't be enough to halt global warming, but they would be a useful part of any climate plan. What's more, the revenue from this tax, which would [31] ____ be hundreds of billions of dollars per year, could be handed out to citizens as a [32] ____ or used to fund green infrastructure projects.\n\nSimilarly, a wealth tax has been put forward as a way to reduce inequality while raising revenue. The revenue from this tax, which some experts [33] ____ will be over $4 trillion per decade, would be designated for housing, child care, health care and other government benefits. If you believe, as many do, that wealth inequality is [34] ____ bad, then these taxes improve society while also [35] ____ government coffers(金库).",
+      "options": [
+        {
+          "id": "A",
+          "text": "discouraging"
+        },
+        {
+          "id": "B",
+          "text": "dividend"
+        },
+        {
+          "id": "C",
+          "text": "emotional"
+        },
+        {
+          "id": "D",
+          "text": "fragments"
+        },
+        {
+          "id": "E",
+          "text": "impaired"
+        },
+        {
+          "id": "F",
+          "text": "imprisoned"
+        },
+        {
+          "id": "G",
+          "text": "incentives"
+        },
+        {
+          "id": "H",
+          "text": "inherently"
+        },
+        {
+          "id": "I",
+          "text": "initially"
+        },
+        {
+          "id": "J",
+          "text": "instrumental"
+        },
+        {
+          "id": "K",
+          "text": "merging"
+        },
+        {
+          "id": "L",
+          "text": "predict"
+        },
+        {
+          "id": "M",
+          "text": "probably"
+        },
+        {
+          "id": "N",
+          "text": "pump"
+        },
+        {
+          "id": "O",
+          "text": "swelling"
+        }
+      ],
+      "correctAnswer": "N",
+      "hint": "先看第 29 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 N（pump）。本空所在句：Economic theory says that unlike income or sales taxes, carbon taxes can actually increase economic efficiency; because companies that [29] ____ carbon dioxide into the sky don't pay the costs of the climate change they cause, carbon taxes would restore the proper [30] ____ to the market.\n将本空替换为 pump 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-1-nonlistening-q30",
+      "canonicalId": "lazynote-cet6-2020-12-1-q30",
+      "number": 30,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 30 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The idea of taxing things that are bad for society has a powerful allure. It offers the possibility of a double benefit— [26] ____ harmful activities, while also providing the government with revenue.\n\nTake sin taxes. Taxes on alcohol make it more expensive to get drunk, which reduces excessive drinking and [27] ____ driving. At the same time, they provide state and local governments with billions of dollars of revenue. Tobacco taxes, which generate more than twice as much, have proven [28] ____ in the decline of smoking, which has saved millions of lives.\n\nTaxes can also be an important tool for environmental protection, and many economists say taxing carbon would be the best way to reduce greenhouse gas emissions. Economic theory says that unlike income or sales taxes, carbon taxes can actually increase economic efficiency; because companies that [29] ____ carbon dioxide into the sky don't pay the costs of the climate change they cause, carbon taxes would restore the proper [30] ____ to the market.\n\nIn reality, carbon taxes alone won't be enough to halt global warming, but they would be a useful part of any climate plan. What's more, the revenue from this tax, which would [31] ____ be hundreds of billions of dollars per year, could be handed out to citizens as a [32] ____ or used to fund green infrastructure projects.\n\nSimilarly, a wealth tax has been put forward as a way to reduce inequality while raising revenue. The revenue from this tax, which some experts [33] ____ will be over $4 trillion per decade, would be designated for housing, child care, health care and other government benefits. If you believe, as many do, that wealth inequality is [34] ____ bad, then these taxes improve society while also [35] ____ government coffers(金库).",
+      "options": [
+        {
+          "id": "A",
+          "text": "discouraging"
+        },
+        {
+          "id": "B",
+          "text": "dividend"
+        },
+        {
+          "id": "C",
+          "text": "emotional"
+        },
+        {
+          "id": "D",
+          "text": "fragments"
+        },
+        {
+          "id": "E",
+          "text": "impaired"
+        },
+        {
+          "id": "F",
+          "text": "imprisoned"
+        },
+        {
+          "id": "G",
+          "text": "incentives"
+        },
+        {
+          "id": "H",
+          "text": "inherently"
+        },
+        {
+          "id": "I",
+          "text": "initially"
+        },
+        {
+          "id": "J",
+          "text": "instrumental"
+        },
+        {
+          "id": "K",
+          "text": "merging"
+        },
+        {
+          "id": "L",
+          "text": "predict"
+        },
+        {
+          "id": "M",
+          "text": "probably"
+        },
+        {
+          "id": "N",
+          "text": "pump"
+        },
+        {
+          "id": "O",
+          "text": "swelling"
+        }
+      ],
+      "correctAnswer": "G",
+      "hint": "先看第 30 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 G（incentives）。本空所在句：Economic theory says that unlike income or sales taxes, carbon taxes can actually increase economic efficiency; because companies that [29] ____ carbon dioxide into the sky don't pay the costs of the climate change they cause, carbon taxes would restore the proper [30] ____ to the market.\n将本空替换为 incentives 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-1-nonlistening-q31",
+      "canonicalId": "lazynote-cet6-2020-12-1-q31",
+      "number": 31,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 31 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The idea of taxing things that are bad for society has a powerful allure. It offers the possibility of a double benefit— [26] ____ harmful activities, while also providing the government with revenue.\n\nTake sin taxes. Taxes on alcohol make it more expensive to get drunk, which reduces excessive drinking and [27] ____ driving. At the same time, they provide state and local governments with billions of dollars of revenue. Tobacco taxes, which generate more than twice as much, have proven [28] ____ in the decline of smoking, which has saved millions of lives.\n\nTaxes can also be an important tool for environmental protection, and many economists say taxing carbon would be the best way to reduce greenhouse gas emissions. Economic theory says that unlike income or sales taxes, carbon taxes can actually increase economic efficiency; because companies that [29] ____ carbon dioxide into the sky don't pay the costs of the climate change they cause, carbon taxes would restore the proper [30] ____ to the market.\n\nIn reality, carbon taxes alone won't be enough to halt global warming, but they would be a useful part of any climate plan. What's more, the revenue from this tax, which would [31] ____ be hundreds of billions of dollars per year, could be handed out to citizens as a [32] ____ or used to fund green infrastructure projects.\n\nSimilarly, a wealth tax has been put forward as a way to reduce inequality while raising revenue. The revenue from this tax, which some experts [33] ____ will be over $4 trillion per decade, would be designated for housing, child care, health care and other government benefits. If you believe, as many do, that wealth inequality is [34] ____ bad, then these taxes improve society while also [35] ____ government coffers(金库).",
+      "options": [
+        {
+          "id": "A",
+          "text": "discouraging"
+        },
+        {
+          "id": "B",
+          "text": "dividend"
+        },
+        {
+          "id": "C",
+          "text": "emotional"
+        },
+        {
+          "id": "D",
+          "text": "fragments"
+        },
+        {
+          "id": "E",
+          "text": "impaired"
+        },
+        {
+          "id": "F",
+          "text": "imprisoned"
+        },
+        {
+          "id": "G",
+          "text": "incentives"
+        },
+        {
+          "id": "H",
+          "text": "inherently"
+        },
+        {
+          "id": "I",
+          "text": "initially"
+        },
+        {
+          "id": "J",
+          "text": "instrumental"
+        },
+        {
+          "id": "K",
+          "text": "merging"
+        },
+        {
+          "id": "L",
+          "text": "predict"
+        },
+        {
+          "id": "M",
+          "text": "probably"
+        },
+        {
+          "id": "N",
+          "text": "pump"
+        },
+        {
+          "id": "O",
+          "text": "swelling"
+        }
+      ],
+      "correctAnswer": "M",
+      "hint": "先看第 31 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 M（probably）。本空所在句：What's more, the revenue from this tax, which would [31] ____ be hundreds of billions of dollars per year, could be handed out to citizens as a [32] ____ or used to fund green infrastructure projects.\n将本空替换为 probably 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-1-nonlistening-q32",
+      "canonicalId": "lazynote-cet6-2020-12-1-q32",
+      "number": 32,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 32 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The idea of taxing things that are bad for society has a powerful allure. It offers the possibility of a double benefit— [26] ____ harmful activities, while also providing the government with revenue.\n\nTake sin taxes. Taxes on alcohol make it more expensive to get drunk, which reduces excessive drinking and [27] ____ driving. At the same time, they provide state and local governments with billions of dollars of revenue. Tobacco taxes, which generate more than twice as much, have proven [28] ____ in the decline of smoking, which has saved millions of lives.\n\nTaxes can also be an important tool for environmental protection, and many economists say taxing carbon would be the best way to reduce greenhouse gas emissions. Economic theory says that unlike income or sales taxes, carbon taxes can actually increase economic efficiency; because companies that [29] ____ carbon dioxide into the sky don't pay the costs of the climate change they cause, carbon taxes would restore the proper [30] ____ to the market.\n\nIn reality, carbon taxes alone won't be enough to halt global warming, but they would be a useful part of any climate plan. What's more, the revenue from this tax, which would [31] ____ be hundreds of billions of dollars per year, could be handed out to citizens as a [32] ____ or used to fund green infrastructure projects.\n\nSimilarly, a wealth tax has been put forward as a way to reduce inequality while raising revenue. The revenue from this tax, which some experts [33] ____ will be over $4 trillion per decade, would be designated for housing, child care, health care and other government benefits. If you believe, as many do, that wealth inequality is [34] ____ bad, then these taxes improve society while also [35] ____ government coffers(金库).",
+      "options": [
+        {
+          "id": "A",
+          "text": "discouraging"
+        },
+        {
+          "id": "B",
+          "text": "dividend"
+        },
+        {
+          "id": "C",
+          "text": "emotional"
+        },
+        {
+          "id": "D",
+          "text": "fragments"
+        },
+        {
+          "id": "E",
+          "text": "impaired"
+        },
+        {
+          "id": "F",
+          "text": "imprisoned"
+        },
+        {
+          "id": "G",
+          "text": "incentives"
+        },
+        {
+          "id": "H",
+          "text": "inherently"
+        },
+        {
+          "id": "I",
+          "text": "initially"
+        },
+        {
+          "id": "J",
+          "text": "instrumental"
+        },
+        {
+          "id": "K",
+          "text": "merging"
+        },
+        {
+          "id": "L",
+          "text": "predict"
+        },
+        {
+          "id": "M",
+          "text": "probably"
+        },
+        {
+          "id": "N",
+          "text": "pump"
+        },
+        {
+          "id": "O",
+          "text": "swelling"
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "先看第 32 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 B（dividend）。本空所在句：What's more, the revenue from this tax, which would [31] ____ be hundreds of billions of dollars per year, could be handed out to citizens as a [32] ____ or used to fund green infrastructure projects.\n将本空替换为 dividend 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-1-nonlistening-q33",
+      "canonicalId": "lazynote-cet6-2020-12-1-q33",
+      "number": 33,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 33 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The idea of taxing things that are bad for society has a powerful allure. It offers the possibility of a double benefit— [26] ____ harmful activities, while also providing the government with revenue.\n\nTake sin taxes. Taxes on alcohol make it more expensive to get drunk, which reduces excessive drinking and [27] ____ driving. At the same time, they provide state and local governments with billions of dollars of revenue. Tobacco taxes, which generate more than twice as much, have proven [28] ____ in the decline of smoking, which has saved millions of lives.\n\nTaxes can also be an important tool for environmental protection, and many economists say taxing carbon would be the best way to reduce greenhouse gas emissions. Economic theory says that unlike income or sales taxes, carbon taxes can actually increase economic efficiency; because companies that [29] ____ carbon dioxide into the sky don't pay the costs of the climate change they cause, carbon taxes would restore the proper [30] ____ to the market.\n\nIn reality, carbon taxes alone won't be enough to halt global warming, but they would be a useful part of any climate plan. What's more, the revenue from this tax, which would [31] ____ be hundreds of billions of dollars per year, could be handed out to citizens as a [32] ____ or used to fund green infrastructure projects.\n\nSimilarly, a wealth tax has been put forward as a way to reduce inequality while raising revenue. The revenue from this tax, which some experts [33] ____ will be over $4 trillion per decade, would be designated for housing, child care, health care and other government benefits. If you believe, as many do, that wealth inequality is [34] ____ bad, then these taxes improve society while also [35] ____ government coffers(金库).",
+      "options": [
+        {
+          "id": "A",
+          "text": "discouraging"
+        },
+        {
+          "id": "B",
+          "text": "dividend"
+        },
+        {
+          "id": "C",
+          "text": "emotional"
+        },
+        {
+          "id": "D",
+          "text": "fragments"
+        },
+        {
+          "id": "E",
+          "text": "impaired"
+        },
+        {
+          "id": "F",
+          "text": "imprisoned"
+        },
+        {
+          "id": "G",
+          "text": "incentives"
+        },
+        {
+          "id": "H",
+          "text": "inherently"
+        },
+        {
+          "id": "I",
+          "text": "initially"
+        },
+        {
+          "id": "J",
+          "text": "instrumental"
+        },
+        {
+          "id": "K",
+          "text": "merging"
+        },
+        {
+          "id": "L",
+          "text": "predict"
+        },
+        {
+          "id": "M",
+          "text": "probably"
+        },
+        {
+          "id": "N",
+          "text": "pump"
+        },
+        {
+          "id": "O",
+          "text": "swelling"
+        }
+      ],
+      "correctAnswer": "L",
+      "hint": "先看第 33 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 L（predict）。本空所在句：The revenue from this tax, which some experts [33] ____ will be over $4 trillion per decade, would be designated for housing, child care, health care and other government benefits.\n将本空替换为 predict 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-1-nonlistening-q34",
+      "canonicalId": "lazynote-cet6-2020-12-1-q34",
+      "number": 34,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 34 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The idea of taxing things that are bad for society has a powerful allure. It offers the possibility of a double benefit— [26] ____ harmful activities, while also providing the government with revenue.\n\nTake sin taxes. Taxes on alcohol make it more expensive to get drunk, which reduces excessive drinking and [27] ____ driving. At the same time, they provide state and local governments with billions of dollars of revenue. Tobacco taxes, which generate more than twice as much, have proven [28] ____ in the decline of smoking, which has saved millions of lives.\n\nTaxes can also be an important tool for environmental protection, and many economists say taxing carbon would be the best way to reduce greenhouse gas emissions. Economic theory says that unlike income or sales taxes, carbon taxes can actually increase economic efficiency; because companies that [29] ____ carbon dioxide into the sky don't pay the costs of the climate change they cause, carbon taxes would restore the proper [30] ____ to the market.\n\nIn reality, carbon taxes alone won't be enough to halt global warming, but they would be a useful part of any climate plan. What's more, the revenue from this tax, which would [31] ____ be hundreds of billions of dollars per year, could be handed out to citizens as a [32] ____ or used to fund green infrastructure projects.\n\nSimilarly, a wealth tax has been put forward as a way to reduce inequality while raising revenue. The revenue from this tax, which some experts [33] ____ will be over $4 trillion per decade, would be designated for housing, child care, health care and other government benefits. If you believe, as many do, that wealth inequality is [34] ____ bad, then these taxes improve society while also [35] ____ government coffers(金库).",
+      "options": [
+        {
+          "id": "A",
+          "text": "discouraging"
+        },
+        {
+          "id": "B",
+          "text": "dividend"
+        },
+        {
+          "id": "C",
+          "text": "emotional"
+        },
+        {
+          "id": "D",
+          "text": "fragments"
+        },
+        {
+          "id": "E",
+          "text": "impaired"
+        },
+        {
+          "id": "F",
+          "text": "imprisoned"
+        },
+        {
+          "id": "G",
+          "text": "incentives"
+        },
+        {
+          "id": "H",
+          "text": "inherently"
+        },
+        {
+          "id": "I",
+          "text": "initially"
+        },
+        {
+          "id": "J",
+          "text": "instrumental"
+        },
+        {
+          "id": "K",
+          "text": "merging"
+        },
+        {
+          "id": "L",
+          "text": "predict"
+        },
+        {
+          "id": "M",
+          "text": "probably"
+        },
+        {
+          "id": "N",
+          "text": "pump"
+        },
+        {
+          "id": "O",
+          "text": "swelling"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "先看第 34 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 H（inherently）。本空所在句：If you believe, as many do, that wealth inequality is [34] ____ bad, then these taxes improve society while also [35] ____ government coffers(金库).\n将本空替换为 inherently 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-1-nonlistening-q35",
+      "canonicalId": "lazynote-cet6-2020-12-1-q35",
+      "number": 35,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_word_bank",
+      "prompt": "选词填空：为第 35 空选择合适的单词。每个选项最多使用一次。",
+      "passage": "The idea of taxing things that are bad for society has a powerful allure. It offers the possibility of a double benefit— [26] ____ harmful activities, while also providing the government with revenue.\n\nTake sin taxes. Taxes on alcohol make it more expensive to get drunk, which reduces excessive drinking and [27] ____ driving. At the same time, they provide state and local governments with billions of dollars of revenue. Tobacco taxes, which generate more than twice as much, have proven [28] ____ in the decline of smoking, which has saved millions of lives.\n\nTaxes can also be an important tool for environmental protection, and many economists say taxing carbon would be the best way to reduce greenhouse gas emissions. Economic theory says that unlike income or sales taxes, carbon taxes can actually increase economic efficiency; because companies that [29] ____ carbon dioxide into the sky don't pay the costs of the climate change they cause, carbon taxes would restore the proper [30] ____ to the market.\n\nIn reality, carbon taxes alone won't be enough to halt global warming, but they would be a useful part of any climate plan. What's more, the revenue from this tax, which would [31] ____ be hundreds of billions of dollars per year, could be handed out to citizens as a [32] ____ or used to fund green infrastructure projects.\n\nSimilarly, a wealth tax has been put forward as a way to reduce inequality while raising revenue. The revenue from this tax, which some experts [33] ____ will be over $4 trillion per decade, would be designated for housing, child care, health care and other government benefits. If you believe, as many do, that wealth inequality is [34] ____ bad, then these taxes improve society while also [35] ____ government coffers(金库).",
+      "options": [
+        {
+          "id": "A",
+          "text": "discouraging"
+        },
+        {
+          "id": "B",
+          "text": "dividend"
+        },
+        {
+          "id": "C",
+          "text": "emotional"
+        },
+        {
+          "id": "D",
+          "text": "fragments"
+        },
+        {
+          "id": "E",
+          "text": "impaired"
+        },
+        {
+          "id": "F",
+          "text": "imprisoned"
+        },
+        {
+          "id": "G",
+          "text": "incentives"
+        },
+        {
+          "id": "H",
+          "text": "inherently"
+        },
+        {
+          "id": "I",
+          "text": "initially"
+        },
+        {
+          "id": "J",
+          "text": "instrumental"
+        },
+        {
+          "id": "K",
+          "text": "merging"
+        },
+        {
+          "id": "L",
+          "text": "predict"
+        },
+        {
+          "id": "M",
+          "text": "probably"
+        },
+        {
+          "id": "N",
+          "text": "pump"
+        },
+        {
+          "id": "O",
+          "text": "swelling"
+        }
+      ],
+      "correctAnswer": "O",
+      "hint": "先看第 35 空前后的句子成分，再结合所在段语境；词库中每个词最多使用一次。",
+      "explanation": "来源答案为 O（swelling）。本空所在句：If you believe, as many do, that wealth inequality is [34] ____ bad, then these taxes improve society while also [35] ____ government coffers(金库).\n将本空替换为 swelling 后，检查它与前后主语、谓语、宾语或修饰成分的关系，并与整段论述方向核对。此讲解为自动上下文定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-1-nonlistening-q36",
+      "canonicalId": "lazynote-cet6-2020-12-1-q36",
+      "number": 36,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Farmers will not profit from replanting once they have applied most of the fertilizer and other chemicals to their fields.",
+      "passage": "The Challenges for Artificial Intelligence in Agriculture\n\nA) A group of corn farmers stands huddled around an agronomist(农学家) and his computer on the side of an irrigation machine in central South Africa. The agronomist has just flown over the field with a hybrid unmanned aerial vehicle (UAV) that takes off and lands using propellers yet maintains distance and speed for scanning vast hectares of land through the use of its fixed wings.\n\nB) The UAV is fitted with a four spectral band precision sensor that conducts onboard processing immediately after the flight, allowing farmers and field staff to address, almost immediately, any crop abnormalities that the sensor may have recorded, making the data collection truly real-time.\n\nC) In this instance, the farmers and agronomist are looking to specialized software to give them an accurate plant population count. It's been 10 days since the corn emerged and the farmer wants to determine if there are any parts of the field that require replanting due to a lack of emergence or wind damage, which can be severe in the early stages of the summer rainy season.\n\nD) At this growth stage of the plant's development, the farmer has another 10 days to conduct any replanting before the majority of his fertilizer and chemical applications need to occur. Once these have been applied, it becomes economically unviable to take corrective action, making any further collected data historical and useful only to inform future practices for the season to come.\n\nE) The software completes its processing in under 15 minutes producing a plant population count map. It's difficult to grasp just how impressive this is, without understanding that just over a year ago it would have taken three to five days to process the exact same data set, illustrating the advancements that have been achieved in precision agriculture and remote sensing in recent years. With the software having been developed in the United States on the same variety of crops in seemingly similar conditions, the agronomist feels confident that the software will produce a nearly accurate result.\n\nF) As the map appears on the screen, the agronomist's face begins to drop. Having walked through the planted rows before the flight to gain a physical understanding of the situation on the ground, he knows the instant he sees the data on his screen that the plant count is not correct, and so do the farmers, even with their limited understanding of how to read remote sensing maps.\n\nG) Hypothetically, it is possible for machines to learn to solve any problem on earth relating to the physical interaction of all things within a defined or contained environment by using artificial intelligence and machine learning.\n\nH) Remote sensors enable algorithms(算法) to interpret a field's environment as statistical data that can be understood and useful to farmers for decision-making. Algorithms process the data, adapting and learning based on the data received. The more inputs and statistical information collected, the better the algorithm will be at predicting a range of outcomes. And the aim is that farmers can use this artificial intelligence to achieve their goal of a better harvest through making better decisions in the field.\n\nI) In 2011, IBM, through its R&D Headquarters in Haifa, Israel, launched an agricultural cloud-computing project. The project, in collaboration with a number of specialized IT and agricultural partners, had one goal in mind—to take a variety of academic and physical data sources from an agricultural environment and turn these into automatic predictive solutions for farmers that would assist them in making real-time decisions in the field.\n\nJ) Interviews with some of the IBM project team members at the time revealed that the team believed it was entirely possible to \"algorithm\" agriculture, meaning that algorithms could solve any problem in the world. Earlier that year, IBM's cognitive learning system, Watson, competed in the game Jeopardy against former winners Brad Rutter and Ken Jennings with astonishing results. Several years later, Watson went on to produce ground-breaking achievements in the field of medicine.\n\nK) So why did the project have such success in medicine but not agriculture? Because it is one of the most difficult fields to contain for the purpose of statistical quantification. Even within a single field, conditions are always changing from one section to the next. There's unpredictable weather, changes in soil quality, and the ever-present possibility that pests and diseases may pay a visit. Growers may feel their prospects are good for an upcoming harvest, but until that day arrives, the outcome will always be uncertain.\n\nL) By comparison, our bodies are a contained environment. Agriculture takes place in nature, among ecosystems of interacting organisms and activity, and crop production takes place within that ecosystem environment. But these ecosystems are not contained. They are subject to climatic occurrences such as weather systems, which impact upon hemispheres as a whole, and from continent to continent. Therefore, understanding how to manage an agricultural environment means taking literally many hundreds if not thousands of factors into account.\n\nM) What may occur with the same seed and fertilizer program in the United States' Midwest region is almost certainly unrelated to what may occur with the same seed and fertilizer program in Australia or South Africa. A few factors that could impact on variation would typically include the measurement of rain per unit of a crop planted, soil type, patterns of soil degradation, daylight hours, temperature and so forth.\n\nN) So the problem with deploying machine learning and artificial intelligence in agriculture is not that scientists lack the capacity to develop programs and protocols to begin to address the biggest of growers' concerns; the problem is that in most cases, no two environments will be exactly alike, which makes the testing, validation and successful rollout of such technologies much more laborious than in most other industries.\n\nO) Practically, to say that AI and Machine Learning can be developed to solve all problems related to our physical environment is to basically say that we have a complete understanding of all aspects of the interaction of physical or material activity on the planet. After all, it is only through our understanding of \"the nature of things\" that protocols and processes are designed for the rational capabilities of cognitive systems to take place. And, although AI and Machine Learning are teaching us many things about how to understand our environment, we are still far from being able to predict critical outcomes in fields like agriculture purely through the cognitive ability of machines.\n\nP) Backed by the venture capital community, which is now investing billions of dollars in the sector, most agricultural technology startups today are pushed to complete development as quickly as possible and then encouraged to flood the market as quickly as possible with their products.\n\nQ) This usually results in a failure of a product, which leads to skepticism from the market and delivers a blow to the integrity of Machine Learning technology. In most cases, the problem is not that the technology does not work, the problem is that industry has not taken the time to respect that agriculture is one of the most uncontained environments to manage. For technology to truly make an impact on agriculture, more effort, skills, and funding is needed to test these technologies in farmers' fields.\n\nR) There is huge potential for artificial intelligence and machine learning to revolutionize agriculture by integrating these technologies into critical markets on a global scale. Only then can it make a difference to the grower, where it really counts.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        },
+        {
+          "id": "Q",
+          "text": "Q 段"
+        },
+        {
+          "id": "R",
+          "text": "R 段"
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 D 段。题干：Farmers will not profit from replanting once they have applied most of the fertilizer and other chemicals to their fields.\n核对该段原文：At this growth stage of the plant's development, the farmer has another 10 days to conduct any replanting before the majority of his fertilizer and chemical applications need to occur. Once these have been applied, it becomes economically unviable to take corrective action, making any further collected data historical and useful only to inform future practices for the season to come.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-1-nonlistening-q37",
+      "canonicalId": "lazynote-cet6-2020-12-1-q37",
+      "number": 37,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Agriculture differs from the medical science of the human body in that its environment is not a contained one.",
+      "passage": "The Challenges for Artificial Intelligence in Agriculture\n\nA) A group of corn farmers stands huddled around an agronomist(农学家) and his computer on the side of an irrigation machine in central South Africa. The agronomist has just flown over the field with a hybrid unmanned aerial vehicle (UAV) that takes off and lands using propellers yet maintains distance and speed for scanning vast hectares of land through the use of its fixed wings.\n\nB) The UAV is fitted with a four spectral band precision sensor that conducts onboard processing immediately after the flight, allowing farmers and field staff to address, almost immediately, any crop abnormalities that the sensor may have recorded, making the data collection truly real-time.\n\nC) In this instance, the farmers and agronomist are looking to specialized software to give them an accurate plant population count. It's been 10 days since the corn emerged and the farmer wants to determine if there are any parts of the field that require replanting due to a lack of emergence or wind damage, which can be severe in the early stages of the summer rainy season.\n\nD) At this growth stage of the plant's development, the farmer has another 10 days to conduct any replanting before the majority of his fertilizer and chemical applications need to occur. Once these have been applied, it becomes economically unviable to take corrective action, making any further collected data historical and useful only to inform future practices for the season to come.\n\nE) The software completes its processing in under 15 minutes producing a plant population count map. It's difficult to grasp just how impressive this is, without understanding that just over a year ago it would have taken three to five days to process the exact same data set, illustrating the advancements that have been achieved in precision agriculture and remote sensing in recent years. With the software having been developed in the United States on the same variety of crops in seemingly similar conditions, the agronomist feels confident that the software will produce a nearly accurate result.\n\nF) As the map appears on the screen, the agronomist's face begins to drop. Having walked through the planted rows before the flight to gain a physical understanding of the situation on the ground, he knows the instant he sees the data on his screen that the plant count is not correct, and so do the farmers, even with their limited understanding of how to read remote sensing maps.\n\nG) Hypothetically, it is possible for machines to learn to solve any problem on earth relating to the physical interaction of all things within a defined or contained environment by using artificial intelligence and machine learning.\n\nH) Remote sensors enable algorithms(算法) to interpret a field's environment as statistical data that can be understood and useful to farmers for decision-making. Algorithms process the data, adapting and learning based on the data received. The more inputs and statistical information collected, the better the algorithm will be at predicting a range of outcomes. And the aim is that farmers can use this artificial intelligence to achieve their goal of a better harvest through making better decisions in the field.\n\nI) In 2011, IBM, through its R&D Headquarters in Haifa, Israel, launched an agricultural cloud-computing project. The project, in collaboration with a number of specialized IT and agricultural partners, had one goal in mind—to take a variety of academic and physical data sources from an agricultural environment and turn these into automatic predictive solutions for farmers that would assist them in making real-time decisions in the field.\n\nJ) Interviews with some of the IBM project team members at the time revealed that the team believed it was entirely possible to \"algorithm\" agriculture, meaning that algorithms could solve any problem in the world. Earlier that year, IBM's cognitive learning system, Watson, competed in the game Jeopardy against former winners Brad Rutter and Ken Jennings with astonishing results. Several years later, Watson went on to produce ground-breaking achievements in the field of medicine.\n\nK) So why did the project have such success in medicine but not agriculture? Because it is one of the most difficult fields to contain for the purpose of statistical quantification. Even within a single field, conditions are always changing from one section to the next. There's unpredictable weather, changes in soil quality, and the ever-present possibility that pests and diseases may pay a visit. Growers may feel their prospects are good for an upcoming harvest, but until that day arrives, the outcome will always be uncertain.\n\nL) By comparison, our bodies are a contained environment. Agriculture takes place in nature, among ecosystems of interacting organisms and activity, and crop production takes place within that ecosystem environment. But these ecosystems are not contained. They are subject to climatic occurrences such as weather systems, which impact upon hemispheres as a whole, and from continent to continent. Therefore, understanding how to manage an agricultural environment means taking literally many hundreds if not thousands of factors into account.\n\nM) What may occur with the same seed and fertilizer program in the United States' Midwest region is almost certainly unrelated to what may occur with the same seed and fertilizer program in Australia or South Africa. A few factors that could impact on variation would typically include the measurement of rain per unit of a crop planted, soil type, patterns of soil degradation, daylight hours, temperature and so forth.\n\nN) So the problem with deploying machine learning and artificial intelligence in agriculture is not that scientists lack the capacity to develop programs and protocols to begin to address the biggest of growers' concerns; the problem is that in most cases, no two environments will be exactly alike, which makes the testing, validation and successful rollout of such technologies much more laborious than in most other industries.\n\nO) Practically, to say that AI and Machine Learning can be developed to solve all problems related to our physical environment is to basically say that we have a complete understanding of all aspects of the interaction of physical or material activity on the planet. After all, it is only through our understanding of \"the nature of things\" that protocols and processes are designed for the rational capabilities of cognitive systems to take place. And, although AI and Machine Learning are teaching us many things about how to understand our environment, we are still far from being able to predict critical outcomes in fields like agriculture purely through the cognitive ability of machines.\n\nP) Backed by the venture capital community, which is now investing billions of dollars in the sector, most agricultural technology startups today are pushed to complete development as quickly as possible and then encouraged to flood the market as quickly as possible with their products.\n\nQ) This usually results in a failure of a product, which leads to skepticism from the market and delivers a blow to the integrity of Machine Learning technology. In most cases, the problem is not that the technology does not work, the problem is that industry has not taken the time to respect that agriculture is one of the most uncontained environments to manage. For technology to truly make an impact on agriculture, more effort, skills, and funding is needed to test these technologies in farmers' fields.\n\nR) There is huge potential for artificial intelligence and machine learning to revolutionize agriculture by integrating these technologies into critical markets on a global scale. Only then can it make a difference to the grower, where it really counts.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        },
+        {
+          "id": "Q",
+          "text": "Q 段"
+        },
+        {
+          "id": "R",
+          "text": "R 段"
+        }
+      ],
+      "correctAnswer": "L",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 L 段。题干：Agriculture differs from the medical science of the human body in that its environment is not a contained one.\n核对该段原文：By comparison, our bodies are a contained environment. Agriculture takes place in nature, among ecosystems of interacting organisms and activity, and crop production takes place within that ecosystem environment. But these ecosystems are not contained. They are subject to climatic occurrences such as weather systems, which impact upon hemispheres as a whole, and from continent to continent. Therefore, understanding how to manage an agricultural environment means taking literally many hundreds if not thousands of factors into account.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-1-nonlistening-q38",
+      "canonicalId": "lazynote-cet6-2020-12-1-q38",
+      "number": 38,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The agronomist is sure that he will obtain a nearly accurate count of plant population with his software.",
+      "passage": "The Challenges for Artificial Intelligence in Agriculture\n\nA) A group of corn farmers stands huddled around an agronomist(农学家) and his computer on the side of an irrigation machine in central South Africa. The agronomist has just flown over the field with a hybrid unmanned aerial vehicle (UAV) that takes off and lands using propellers yet maintains distance and speed for scanning vast hectares of land through the use of its fixed wings.\n\nB) The UAV is fitted with a four spectral band precision sensor that conducts onboard processing immediately after the flight, allowing farmers and field staff to address, almost immediately, any crop abnormalities that the sensor may have recorded, making the data collection truly real-time.\n\nC) In this instance, the farmers and agronomist are looking to specialized software to give them an accurate plant population count. It's been 10 days since the corn emerged and the farmer wants to determine if there are any parts of the field that require replanting due to a lack of emergence or wind damage, which can be severe in the early stages of the summer rainy season.\n\nD) At this growth stage of the plant's development, the farmer has another 10 days to conduct any replanting before the majority of his fertilizer and chemical applications need to occur. Once these have been applied, it becomes economically unviable to take corrective action, making any further collected data historical and useful only to inform future practices for the season to come.\n\nE) The software completes its processing in under 15 minutes producing a plant population count map. It's difficult to grasp just how impressive this is, without understanding that just over a year ago it would have taken three to five days to process the exact same data set, illustrating the advancements that have been achieved in precision agriculture and remote sensing in recent years. With the software having been developed in the United States on the same variety of crops in seemingly similar conditions, the agronomist feels confident that the software will produce a nearly accurate result.\n\nF) As the map appears on the screen, the agronomist's face begins to drop. Having walked through the planted rows before the flight to gain a physical understanding of the situation on the ground, he knows the instant he sees the data on his screen that the plant count is not correct, and so do the farmers, even with their limited understanding of how to read remote sensing maps.\n\nG) Hypothetically, it is possible for machines to learn to solve any problem on earth relating to the physical interaction of all things within a defined or contained environment by using artificial intelligence and machine learning.\n\nH) Remote sensors enable algorithms(算法) to interpret a field's environment as statistical data that can be understood and useful to farmers for decision-making. Algorithms process the data, adapting and learning based on the data received. The more inputs and statistical information collected, the better the algorithm will be at predicting a range of outcomes. And the aim is that farmers can use this artificial intelligence to achieve their goal of a better harvest through making better decisions in the field.\n\nI) In 2011, IBM, through its R&D Headquarters in Haifa, Israel, launched an agricultural cloud-computing project. The project, in collaboration with a number of specialized IT and agricultural partners, had one goal in mind—to take a variety of academic and physical data sources from an agricultural environment and turn these into automatic predictive solutions for farmers that would assist them in making real-time decisions in the field.\n\nJ) Interviews with some of the IBM project team members at the time revealed that the team believed it was entirely possible to \"algorithm\" agriculture, meaning that algorithms could solve any problem in the world. Earlier that year, IBM's cognitive learning system, Watson, competed in the game Jeopardy against former winners Brad Rutter and Ken Jennings with astonishing results. Several years later, Watson went on to produce ground-breaking achievements in the field of medicine.\n\nK) So why did the project have such success in medicine but not agriculture? Because it is one of the most difficult fields to contain for the purpose of statistical quantification. Even within a single field, conditions are always changing from one section to the next. There's unpredictable weather, changes in soil quality, and the ever-present possibility that pests and diseases may pay a visit. Growers may feel their prospects are good for an upcoming harvest, but until that day arrives, the outcome will always be uncertain.\n\nL) By comparison, our bodies are a contained environment. Agriculture takes place in nature, among ecosystems of interacting organisms and activity, and crop production takes place within that ecosystem environment. But these ecosystems are not contained. They are subject to climatic occurrences such as weather systems, which impact upon hemispheres as a whole, and from continent to continent. Therefore, understanding how to manage an agricultural environment means taking literally many hundreds if not thousands of factors into account.\n\nM) What may occur with the same seed and fertilizer program in the United States' Midwest region is almost certainly unrelated to what may occur with the same seed and fertilizer program in Australia or South Africa. A few factors that could impact on variation would typically include the measurement of rain per unit of a crop planted, soil type, patterns of soil degradation, daylight hours, temperature and so forth.\n\nN) So the problem with deploying machine learning and artificial intelligence in agriculture is not that scientists lack the capacity to develop programs and protocols to begin to address the biggest of growers' concerns; the problem is that in most cases, no two environments will be exactly alike, which makes the testing, validation and successful rollout of such technologies much more laborious than in most other industries.\n\nO) Practically, to say that AI and Machine Learning can be developed to solve all problems related to our physical environment is to basically say that we have a complete understanding of all aspects of the interaction of physical or material activity on the planet. After all, it is only through our understanding of \"the nature of things\" that protocols and processes are designed for the rational capabilities of cognitive systems to take place. And, although AI and Machine Learning are teaching us many things about how to understand our environment, we are still far from being able to predict critical outcomes in fields like agriculture purely through the cognitive ability of machines.\n\nP) Backed by the venture capital community, which is now investing billions of dollars in the sector, most agricultural technology startups today are pushed to complete development as quickly as possible and then encouraged to flood the market as quickly as possible with their products.\n\nQ) This usually results in a failure of a product, which leads to skepticism from the market and delivers a blow to the integrity of Machine Learning technology. In most cases, the problem is not that the technology does not work, the problem is that industry has not taken the time to respect that agriculture is one of the most uncontained environments to manage. For technology to truly make an impact on agriculture, more effort, skills, and funding is needed to test these technologies in farmers' fields.\n\nR) There is huge potential for artificial intelligence and machine learning to revolutionize agriculture by integrating these technologies into critical markets on a global scale. Only then can it make a difference to the grower, where it really counts.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        },
+        {
+          "id": "Q",
+          "text": "Q 段"
+        },
+        {
+          "id": "R",
+          "text": "R 段"
+        }
+      ],
+      "correctAnswer": "E",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 E 段。题干：The agronomist is sure that he will obtain a nearly accurate count of plant population with his software.\n核对该段原文：The software completes its processing in under 15 minutes producing a plant population count map. It's difficult to grasp just how impressive this is, without understanding that just over a year ago it would have taken three to five days to process the exact same data set, illustrating the advancements that have been achieved in precision agriculture and remote sensing in recent years. With the software having been developed in the United States on the same variety of crops in seemingly similar conditions, the agronomist feels confident that the software will produce a nearly accurate result.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-1-nonlistening-q39",
+      "canonicalId": "lazynote-cet6-2020-12-1-q39",
+      "number": 39,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The application of artificial intelligence to agriculture is much more challenging than to most other industries.",
+      "passage": "The Challenges for Artificial Intelligence in Agriculture\n\nA) A group of corn farmers stands huddled around an agronomist(农学家) and his computer on the side of an irrigation machine in central South Africa. The agronomist has just flown over the field with a hybrid unmanned aerial vehicle (UAV) that takes off and lands using propellers yet maintains distance and speed for scanning vast hectares of land through the use of its fixed wings.\n\nB) The UAV is fitted with a four spectral band precision sensor that conducts onboard processing immediately after the flight, allowing farmers and field staff to address, almost immediately, any crop abnormalities that the sensor may have recorded, making the data collection truly real-time.\n\nC) In this instance, the farmers and agronomist are looking to specialized software to give them an accurate plant population count. It's been 10 days since the corn emerged and the farmer wants to determine if there are any parts of the field that require replanting due to a lack of emergence or wind damage, which can be severe in the early stages of the summer rainy season.\n\nD) At this growth stage of the plant's development, the farmer has another 10 days to conduct any replanting before the majority of his fertilizer and chemical applications need to occur. Once these have been applied, it becomes economically unviable to take corrective action, making any further collected data historical and useful only to inform future practices for the season to come.\n\nE) The software completes its processing in under 15 minutes producing a plant population count map. It's difficult to grasp just how impressive this is, without understanding that just over a year ago it would have taken three to five days to process the exact same data set, illustrating the advancements that have been achieved in precision agriculture and remote sensing in recent years. With the software having been developed in the United States on the same variety of crops in seemingly similar conditions, the agronomist feels confident that the software will produce a nearly accurate result.\n\nF) As the map appears on the screen, the agronomist's face begins to drop. Having walked through the planted rows before the flight to gain a physical understanding of the situation on the ground, he knows the instant he sees the data on his screen that the plant count is not correct, and so do the farmers, even with their limited understanding of how to read remote sensing maps.\n\nG) Hypothetically, it is possible for machines to learn to solve any problem on earth relating to the physical interaction of all things within a defined or contained environment by using artificial intelligence and machine learning.\n\nH) Remote sensors enable algorithms(算法) to interpret a field's environment as statistical data that can be understood and useful to farmers for decision-making. Algorithms process the data, adapting and learning based on the data received. The more inputs and statistical information collected, the better the algorithm will be at predicting a range of outcomes. And the aim is that farmers can use this artificial intelligence to achieve their goal of a better harvest through making better decisions in the field.\n\nI) In 2011, IBM, through its R&D Headquarters in Haifa, Israel, launched an agricultural cloud-computing project. The project, in collaboration with a number of specialized IT and agricultural partners, had one goal in mind—to take a variety of academic and physical data sources from an agricultural environment and turn these into automatic predictive solutions for farmers that would assist them in making real-time decisions in the field.\n\nJ) Interviews with some of the IBM project team members at the time revealed that the team believed it was entirely possible to \"algorithm\" agriculture, meaning that algorithms could solve any problem in the world. Earlier that year, IBM's cognitive learning system, Watson, competed in the game Jeopardy against former winners Brad Rutter and Ken Jennings with astonishing results. Several years later, Watson went on to produce ground-breaking achievements in the field of medicine.\n\nK) So why did the project have such success in medicine but not agriculture? Because it is one of the most difficult fields to contain for the purpose of statistical quantification. Even within a single field, conditions are always changing from one section to the next. There's unpredictable weather, changes in soil quality, and the ever-present possibility that pests and diseases may pay a visit. Growers may feel their prospects are good for an upcoming harvest, but until that day arrives, the outcome will always be uncertain.\n\nL) By comparison, our bodies are a contained environment. Agriculture takes place in nature, among ecosystems of interacting organisms and activity, and crop production takes place within that ecosystem environment. But these ecosystems are not contained. They are subject to climatic occurrences such as weather systems, which impact upon hemispheres as a whole, and from continent to continent. Therefore, understanding how to manage an agricultural environment means taking literally many hundreds if not thousands of factors into account.\n\nM) What may occur with the same seed and fertilizer program in the United States' Midwest region is almost certainly unrelated to what may occur with the same seed and fertilizer program in Australia or South Africa. A few factors that could impact on variation would typically include the measurement of rain per unit of a crop planted, soil type, patterns of soil degradation, daylight hours, temperature and so forth.\n\nN) So the problem with deploying machine learning and artificial intelligence in agriculture is not that scientists lack the capacity to develop programs and protocols to begin to address the biggest of growers' concerns; the problem is that in most cases, no two environments will be exactly alike, which makes the testing, validation and successful rollout of such technologies much more laborious than in most other industries.\n\nO) Practically, to say that AI and Machine Learning can be developed to solve all problems related to our physical environment is to basically say that we have a complete understanding of all aspects of the interaction of physical or material activity on the planet. After all, it is only through our understanding of \"the nature of things\" that protocols and processes are designed for the rational capabilities of cognitive systems to take place. And, although AI and Machine Learning are teaching us many things about how to understand our environment, we are still far from being able to predict critical outcomes in fields like agriculture purely through the cognitive ability of machines.\n\nP) Backed by the venture capital community, which is now investing billions of dollars in the sector, most agricultural technology startups today are pushed to complete development as quickly as possible and then encouraged to flood the market as quickly as possible with their products.\n\nQ) This usually results in a failure of a product, which leads to skepticism from the market and delivers a blow to the integrity of Machine Learning technology. In most cases, the problem is not that the technology does not work, the problem is that industry has not taken the time to respect that agriculture is one of the most uncontained environments to manage. For technology to truly make an impact on agriculture, more effort, skills, and funding is needed to test these technologies in farmers' fields.\n\nR) There is huge potential for artificial intelligence and machine learning to revolutionize agriculture by integrating these technologies into critical markets on a global scale. Only then can it make a difference to the grower, where it really counts.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        },
+        {
+          "id": "Q",
+          "text": "Q 段"
+        },
+        {
+          "id": "R",
+          "text": "R 段"
+        }
+      ],
+      "correctAnswer": "N",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 N 段。题干：The application of artificial intelligence to agriculture is much more challenging than to most other industries.\n核对该段原文：So the problem with deploying machine learning and artificial intelligence in agriculture is not that scientists lack the capacity to develop programs and protocols to begin to address the biggest of growers' concerns; the problem is that in most cases, no two environments will be exactly alike, which makes the testing, validation and successful rollout of such technologies much more laborious than in most other industries.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-1-nonlistening-q40",
+      "canonicalId": "lazynote-cet6-2020-12-1-q40",
+      "number": 40,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Even the farmers know the data provided by the UAV is not correct.",
+      "passage": "The Challenges for Artificial Intelligence in Agriculture\n\nA) A group of corn farmers stands huddled around an agronomist(农学家) and his computer on the side of an irrigation machine in central South Africa. The agronomist has just flown over the field with a hybrid unmanned aerial vehicle (UAV) that takes off and lands using propellers yet maintains distance and speed for scanning vast hectares of land through the use of its fixed wings.\n\nB) The UAV is fitted with a four spectral band precision sensor that conducts onboard processing immediately after the flight, allowing farmers and field staff to address, almost immediately, any crop abnormalities that the sensor may have recorded, making the data collection truly real-time.\n\nC) In this instance, the farmers and agronomist are looking to specialized software to give them an accurate plant population count. It's been 10 days since the corn emerged and the farmer wants to determine if there are any parts of the field that require replanting due to a lack of emergence or wind damage, which can be severe in the early stages of the summer rainy season.\n\nD) At this growth stage of the plant's development, the farmer has another 10 days to conduct any replanting before the majority of his fertilizer and chemical applications need to occur. Once these have been applied, it becomes economically unviable to take corrective action, making any further collected data historical and useful only to inform future practices for the season to come.\n\nE) The software completes its processing in under 15 minutes producing a plant population count map. It's difficult to grasp just how impressive this is, without understanding that just over a year ago it would have taken three to five days to process the exact same data set, illustrating the advancements that have been achieved in precision agriculture and remote sensing in recent years. With the software having been developed in the United States on the same variety of crops in seemingly similar conditions, the agronomist feels confident that the software will produce a nearly accurate result.\n\nF) As the map appears on the screen, the agronomist's face begins to drop. Having walked through the planted rows before the flight to gain a physical understanding of the situation on the ground, he knows the instant he sees the data on his screen that the plant count is not correct, and so do the farmers, even with their limited understanding of how to read remote sensing maps.\n\nG) Hypothetically, it is possible for machines to learn to solve any problem on earth relating to the physical interaction of all things within a defined or contained environment by using artificial intelligence and machine learning.\n\nH) Remote sensors enable algorithms(算法) to interpret a field's environment as statistical data that can be understood and useful to farmers for decision-making. Algorithms process the data, adapting and learning based on the data received. The more inputs and statistical information collected, the better the algorithm will be at predicting a range of outcomes. And the aim is that farmers can use this artificial intelligence to achieve their goal of a better harvest through making better decisions in the field.\n\nI) In 2011, IBM, through its R&D Headquarters in Haifa, Israel, launched an agricultural cloud-computing project. The project, in collaboration with a number of specialized IT and agricultural partners, had one goal in mind—to take a variety of academic and physical data sources from an agricultural environment and turn these into automatic predictive solutions for farmers that would assist them in making real-time decisions in the field.\n\nJ) Interviews with some of the IBM project team members at the time revealed that the team believed it was entirely possible to \"algorithm\" agriculture, meaning that algorithms could solve any problem in the world. Earlier that year, IBM's cognitive learning system, Watson, competed in the game Jeopardy against former winners Brad Rutter and Ken Jennings with astonishing results. Several years later, Watson went on to produce ground-breaking achievements in the field of medicine.\n\nK) So why did the project have such success in medicine but not agriculture? Because it is one of the most difficult fields to contain for the purpose of statistical quantification. Even within a single field, conditions are always changing from one section to the next. There's unpredictable weather, changes in soil quality, and the ever-present possibility that pests and diseases may pay a visit. Growers may feel their prospects are good for an upcoming harvest, but until that day arrives, the outcome will always be uncertain.\n\nL) By comparison, our bodies are a contained environment. Agriculture takes place in nature, among ecosystems of interacting organisms and activity, and crop production takes place within that ecosystem environment. But these ecosystems are not contained. They are subject to climatic occurrences such as weather systems, which impact upon hemispheres as a whole, and from continent to continent. Therefore, understanding how to manage an agricultural environment means taking literally many hundreds if not thousands of factors into account.\n\nM) What may occur with the same seed and fertilizer program in the United States' Midwest region is almost certainly unrelated to what may occur with the same seed and fertilizer program in Australia or South Africa. A few factors that could impact on variation would typically include the measurement of rain per unit of a crop planted, soil type, patterns of soil degradation, daylight hours, temperature and so forth.\n\nN) So the problem with deploying machine learning and artificial intelligence in agriculture is not that scientists lack the capacity to develop programs and protocols to begin to address the biggest of growers' concerns; the problem is that in most cases, no two environments will be exactly alike, which makes the testing, validation and successful rollout of such technologies much more laborious than in most other industries.\n\nO) Practically, to say that AI and Machine Learning can be developed to solve all problems related to our physical environment is to basically say that we have a complete understanding of all aspects of the interaction of physical or material activity on the planet. After all, it is only through our understanding of \"the nature of things\" that protocols and processes are designed for the rational capabilities of cognitive systems to take place. And, although AI and Machine Learning are teaching us many things about how to understand our environment, we are still far from being able to predict critical outcomes in fields like agriculture purely through the cognitive ability of machines.\n\nP) Backed by the venture capital community, which is now investing billions of dollars in the sector, most agricultural technology startups today are pushed to complete development as quickly as possible and then encouraged to flood the market as quickly as possible with their products.\n\nQ) This usually results in a failure of a product, which leads to skepticism from the market and delivers a blow to the integrity of Machine Learning technology. In most cases, the problem is not that the technology does not work, the problem is that industry has not taken the time to respect that agriculture is one of the most uncontained environments to manage. For technology to truly make an impact on agriculture, more effort, skills, and funding is needed to test these technologies in farmers' fields.\n\nR) There is huge potential for artificial intelligence and machine learning to revolutionize agriculture by integrating these technologies into critical markets on a global scale. Only then can it make a difference to the grower, where it really counts.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        },
+        {
+          "id": "Q",
+          "text": "Q 段"
+        },
+        {
+          "id": "R",
+          "text": "R 段"
+        }
+      ],
+      "correctAnswer": "F",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 F 段。题干：Even the farmers know the data provided by the UAV is not correct.\n核对该段原文：As the map appears on the screen, the agronomist's face begins to drop. Having walked through the planted rows before the flight to gain a physical understanding of the situation on the ground, he knows the instant he sees the data on his screen that the plant count is not correct, and so do the farmers, even with their limited understanding of how to read remote sensing maps.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-1-nonlistening-q41",
+      "canonicalId": "lazynote-cet6-2020-12-1-q41",
+      "number": 41,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The pressure for quick results leads to product failure, which, in turn, arouses doubts about the applicability of AI technology to agriculture.",
+      "passage": "The Challenges for Artificial Intelligence in Agriculture\n\nA) A group of corn farmers stands huddled around an agronomist(农学家) and his computer on the side of an irrigation machine in central South Africa. The agronomist has just flown over the field with a hybrid unmanned aerial vehicle (UAV) that takes off and lands using propellers yet maintains distance and speed for scanning vast hectares of land through the use of its fixed wings.\n\nB) The UAV is fitted with a four spectral band precision sensor that conducts onboard processing immediately after the flight, allowing farmers and field staff to address, almost immediately, any crop abnormalities that the sensor may have recorded, making the data collection truly real-time.\n\nC) In this instance, the farmers and agronomist are looking to specialized software to give them an accurate plant population count. It's been 10 days since the corn emerged and the farmer wants to determine if there are any parts of the field that require replanting due to a lack of emergence or wind damage, which can be severe in the early stages of the summer rainy season.\n\nD) At this growth stage of the plant's development, the farmer has another 10 days to conduct any replanting before the majority of his fertilizer and chemical applications need to occur. Once these have been applied, it becomes economically unviable to take corrective action, making any further collected data historical and useful only to inform future practices for the season to come.\n\nE) The software completes its processing in under 15 minutes producing a plant population count map. It's difficult to grasp just how impressive this is, without understanding that just over a year ago it would have taken three to five days to process the exact same data set, illustrating the advancements that have been achieved in precision agriculture and remote sensing in recent years. With the software having been developed in the United States on the same variety of crops in seemingly similar conditions, the agronomist feels confident that the software will produce a nearly accurate result.\n\nF) As the map appears on the screen, the agronomist's face begins to drop. Having walked through the planted rows before the flight to gain a physical understanding of the situation on the ground, he knows the instant he sees the data on his screen that the plant count is not correct, and so do the farmers, even with their limited understanding of how to read remote sensing maps.\n\nG) Hypothetically, it is possible for machines to learn to solve any problem on earth relating to the physical interaction of all things within a defined or contained environment by using artificial intelligence and machine learning.\n\nH) Remote sensors enable algorithms(算法) to interpret a field's environment as statistical data that can be understood and useful to farmers for decision-making. Algorithms process the data, adapting and learning based on the data received. The more inputs and statistical information collected, the better the algorithm will be at predicting a range of outcomes. And the aim is that farmers can use this artificial intelligence to achieve their goal of a better harvest through making better decisions in the field.\n\nI) In 2011, IBM, through its R&D Headquarters in Haifa, Israel, launched an agricultural cloud-computing project. The project, in collaboration with a number of specialized IT and agricultural partners, had one goal in mind—to take a variety of academic and physical data sources from an agricultural environment and turn these into automatic predictive solutions for farmers that would assist them in making real-time decisions in the field.\n\nJ) Interviews with some of the IBM project team members at the time revealed that the team believed it was entirely possible to \"algorithm\" agriculture, meaning that algorithms could solve any problem in the world. Earlier that year, IBM's cognitive learning system, Watson, competed in the game Jeopardy against former winners Brad Rutter and Ken Jennings with astonishing results. Several years later, Watson went on to produce ground-breaking achievements in the field of medicine.\n\nK) So why did the project have such success in medicine but not agriculture? Because it is one of the most difficult fields to contain for the purpose of statistical quantification. Even within a single field, conditions are always changing from one section to the next. There's unpredictable weather, changes in soil quality, and the ever-present possibility that pests and diseases may pay a visit. Growers may feel their prospects are good for an upcoming harvest, but until that day arrives, the outcome will always be uncertain.\n\nL) By comparison, our bodies are a contained environment. Agriculture takes place in nature, among ecosystems of interacting organisms and activity, and crop production takes place within that ecosystem environment. But these ecosystems are not contained. They are subject to climatic occurrences such as weather systems, which impact upon hemispheres as a whole, and from continent to continent. Therefore, understanding how to manage an agricultural environment means taking literally many hundreds if not thousands of factors into account.\n\nM) What may occur with the same seed and fertilizer program in the United States' Midwest region is almost certainly unrelated to what may occur with the same seed and fertilizer program in Australia or South Africa. A few factors that could impact on variation would typically include the measurement of rain per unit of a crop planted, soil type, patterns of soil degradation, daylight hours, temperature and so forth.\n\nN) So the problem with deploying machine learning and artificial intelligence in agriculture is not that scientists lack the capacity to develop programs and protocols to begin to address the biggest of growers' concerns; the problem is that in most cases, no two environments will be exactly alike, which makes the testing, validation and successful rollout of such technologies much more laborious than in most other industries.\n\nO) Practically, to say that AI and Machine Learning can be developed to solve all problems related to our physical environment is to basically say that we have a complete understanding of all aspects of the interaction of physical or material activity on the planet. After all, it is only through our understanding of \"the nature of things\" that protocols and processes are designed for the rational capabilities of cognitive systems to take place. And, although AI and Machine Learning are teaching us many things about how to understand our environment, we are still far from being able to predict critical outcomes in fields like agriculture purely through the cognitive ability of machines.\n\nP) Backed by the venture capital community, which is now investing billions of dollars in the sector, most agricultural technology startups today are pushed to complete development as quickly as possible and then encouraged to flood the market as quickly as possible with their products.\n\nQ) This usually results in a failure of a product, which leads to skepticism from the market and delivers a blow to the integrity of Machine Learning technology. In most cases, the problem is not that the technology does not work, the problem is that industry has not taken the time to respect that agriculture is one of the most uncontained environments to manage. For technology to truly make an impact on agriculture, more effort, skills, and funding is needed to test these technologies in farmers' fields.\n\nR) There is huge potential for artificial intelligence and machine learning to revolutionize agriculture by integrating these technologies into critical markets on a global scale. Only then can it make a difference to the grower, where it really counts.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        },
+        {
+          "id": "Q",
+          "text": "Q 段"
+        },
+        {
+          "id": "R",
+          "text": "R 段"
+        }
+      ],
+      "correctAnswer": "Q",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 Q 段。题干：The pressure for quick results leads to product failure, which, in turn, arouses doubts about the applicability of AI technology to agriculture.\n核对该段原文：This usually results in a failure of a product, which leads to skepticism from the market and delivers a blow to the integrity of Machine Learning technology. In most cases, the problem is not that the technology does not work, the problem is that industry has not taken the time to respect that agriculture is one of the most uncontained environments to manage. For technology to truly make an impact on agriculture, more effort, skills, and funding is needed to test these technologies in farmers' fields.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-1-nonlistening-q42",
+      "canonicalId": "lazynote-cet6-2020-12-1-q42",
+      "number": 42,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Remote sensors are aimed to help farmers improve decision-making to increase yields.",
+      "passage": "The Challenges for Artificial Intelligence in Agriculture\n\nA) A group of corn farmers stands huddled around an agronomist(农学家) and his computer on the side of an irrigation machine in central South Africa. The agronomist has just flown over the field with a hybrid unmanned aerial vehicle (UAV) that takes off and lands using propellers yet maintains distance and speed for scanning vast hectares of land through the use of its fixed wings.\n\nB) The UAV is fitted with a four spectral band precision sensor that conducts onboard processing immediately after the flight, allowing farmers and field staff to address, almost immediately, any crop abnormalities that the sensor may have recorded, making the data collection truly real-time.\n\nC) In this instance, the farmers and agronomist are looking to specialized software to give them an accurate plant population count. It's been 10 days since the corn emerged and the farmer wants to determine if there are any parts of the field that require replanting due to a lack of emergence or wind damage, which can be severe in the early stages of the summer rainy season.\n\nD) At this growth stage of the plant's development, the farmer has another 10 days to conduct any replanting before the majority of his fertilizer and chemical applications need to occur. Once these have been applied, it becomes economically unviable to take corrective action, making any further collected data historical and useful only to inform future practices for the season to come.\n\nE) The software completes its processing in under 15 minutes producing a plant population count map. It's difficult to grasp just how impressive this is, without understanding that just over a year ago it would have taken three to five days to process the exact same data set, illustrating the advancements that have been achieved in precision agriculture and remote sensing in recent years. With the software having been developed in the United States on the same variety of crops in seemingly similar conditions, the agronomist feels confident that the software will produce a nearly accurate result.\n\nF) As the map appears on the screen, the agronomist's face begins to drop. Having walked through the planted rows before the flight to gain a physical understanding of the situation on the ground, he knows the instant he sees the data on his screen that the plant count is not correct, and so do the farmers, even with their limited understanding of how to read remote sensing maps.\n\nG) Hypothetically, it is possible for machines to learn to solve any problem on earth relating to the physical interaction of all things within a defined or contained environment by using artificial intelligence and machine learning.\n\nH) Remote sensors enable algorithms(算法) to interpret a field's environment as statistical data that can be understood and useful to farmers for decision-making. Algorithms process the data, adapting and learning based on the data received. The more inputs and statistical information collected, the better the algorithm will be at predicting a range of outcomes. And the aim is that farmers can use this artificial intelligence to achieve their goal of a better harvest through making better decisions in the field.\n\nI) In 2011, IBM, through its R&D Headquarters in Haifa, Israel, launched an agricultural cloud-computing project. The project, in collaboration with a number of specialized IT and agricultural partners, had one goal in mind—to take a variety of academic and physical data sources from an agricultural environment and turn these into automatic predictive solutions for farmers that would assist them in making real-time decisions in the field.\n\nJ) Interviews with some of the IBM project team members at the time revealed that the team believed it was entirely possible to \"algorithm\" agriculture, meaning that algorithms could solve any problem in the world. Earlier that year, IBM's cognitive learning system, Watson, competed in the game Jeopardy against former winners Brad Rutter and Ken Jennings with astonishing results. Several years later, Watson went on to produce ground-breaking achievements in the field of medicine.\n\nK) So why did the project have such success in medicine but not agriculture? Because it is one of the most difficult fields to contain for the purpose of statistical quantification. Even within a single field, conditions are always changing from one section to the next. There's unpredictable weather, changes in soil quality, and the ever-present possibility that pests and diseases may pay a visit. Growers may feel their prospects are good for an upcoming harvest, but until that day arrives, the outcome will always be uncertain.\n\nL) By comparison, our bodies are a contained environment. Agriculture takes place in nature, among ecosystems of interacting organisms and activity, and crop production takes place within that ecosystem environment. But these ecosystems are not contained. They are subject to climatic occurrences such as weather systems, which impact upon hemispheres as a whole, and from continent to continent. Therefore, understanding how to manage an agricultural environment means taking literally many hundreds if not thousands of factors into account.\n\nM) What may occur with the same seed and fertilizer program in the United States' Midwest region is almost certainly unrelated to what may occur with the same seed and fertilizer program in Australia or South Africa. A few factors that could impact on variation would typically include the measurement of rain per unit of a crop planted, soil type, patterns of soil degradation, daylight hours, temperature and so forth.\n\nN) So the problem with deploying machine learning and artificial intelligence in agriculture is not that scientists lack the capacity to develop programs and protocols to begin to address the biggest of growers' concerns; the problem is that in most cases, no two environments will be exactly alike, which makes the testing, validation and successful rollout of such technologies much more laborious than in most other industries.\n\nO) Practically, to say that AI and Machine Learning can be developed to solve all problems related to our physical environment is to basically say that we have a complete understanding of all aspects of the interaction of physical or material activity on the planet. After all, it is only through our understanding of \"the nature of things\" that protocols and processes are designed for the rational capabilities of cognitive systems to take place. And, although AI and Machine Learning are teaching us many things about how to understand our environment, we are still far from being able to predict critical outcomes in fields like agriculture purely through the cognitive ability of machines.\n\nP) Backed by the venture capital community, which is now investing billions of dollars in the sector, most agricultural technology startups today are pushed to complete development as quickly as possible and then encouraged to flood the market as quickly as possible with their products.\n\nQ) This usually results in a failure of a product, which leads to skepticism from the market and delivers a blow to the integrity of Machine Learning technology. In most cases, the problem is not that the technology does not work, the problem is that industry has not taken the time to respect that agriculture is one of the most uncontained environments to manage. For technology to truly make an impact on agriculture, more effort, skills, and funding is needed to test these technologies in farmers' fields.\n\nR) There is huge potential for artificial intelligence and machine learning to revolutionize agriculture by integrating these technologies into critical markets on a global scale. Only then can it make a difference to the grower, where it really counts.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        },
+        {
+          "id": "Q",
+          "text": "Q 段"
+        },
+        {
+          "id": "R",
+          "text": "R 段"
+        }
+      ],
+      "correctAnswer": "H",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 H 段。题干：Remote sensors are aimed to help farmers improve decision-making to increase yields.\n核对该段原文：Remote sensors enable algorithms(算法) to interpret a field's environment as statistical data that can be understood and useful to farmers for decision-making. Algorithms process the data, adapting and learning based on the data received. The more inputs and statistical information collected, the better the algorithm will be at predicting a range of outcomes. And the aim is that farmers can use this artificial intelligence to achieve their goal of a better harvest through making better decisions in the field.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-1-nonlistening-q43",
+      "canonicalId": "lazynote-cet6-2020-12-1-q43",
+      "number": 43,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The farmer expects the software to tell him whether he will have to replant any parts of his farm fields.",
+      "passage": "The Challenges for Artificial Intelligence in Agriculture\n\nA) A group of corn farmers stands huddled around an agronomist(农学家) and his computer on the side of an irrigation machine in central South Africa. The agronomist has just flown over the field with a hybrid unmanned aerial vehicle (UAV) that takes off and lands using propellers yet maintains distance and speed for scanning vast hectares of land through the use of its fixed wings.\n\nB) The UAV is fitted with a four spectral band precision sensor that conducts onboard processing immediately after the flight, allowing farmers and field staff to address, almost immediately, any crop abnormalities that the sensor may have recorded, making the data collection truly real-time.\n\nC) In this instance, the farmers and agronomist are looking to specialized software to give them an accurate plant population count. It's been 10 days since the corn emerged and the farmer wants to determine if there are any parts of the field that require replanting due to a lack of emergence or wind damage, which can be severe in the early stages of the summer rainy season.\n\nD) At this growth stage of the plant's development, the farmer has another 10 days to conduct any replanting before the majority of his fertilizer and chemical applications need to occur. Once these have been applied, it becomes economically unviable to take corrective action, making any further collected data historical and useful only to inform future practices for the season to come.\n\nE) The software completes its processing in under 15 minutes producing a plant population count map. It's difficult to grasp just how impressive this is, without understanding that just over a year ago it would have taken three to five days to process the exact same data set, illustrating the advancements that have been achieved in precision agriculture and remote sensing in recent years. With the software having been developed in the United States on the same variety of crops in seemingly similar conditions, the agronomist feels confident that the software will produce a nearly accurate result.\n\nF) As the map appears on the screen, the agronomist's face begins to drop. Having walked through the planted rows before the flight to gain a physical understanding of the situation on the ground, he knows the instant he sees the data on his screen that the plant count is not correct, and so do the farmers, even with their limited understanding of how to read remote sensing maps.\n\nG) Hypothetically, it is possible for machines to learn to solve any problem on earth relating to the physical interaction of all things within a defined or contained environment by using artificial intelligence and machine learning.\n\nH) Remote sensors enable algorithms(算法) to interpret a field's environment as statistical data that can be understood and useful to farmers for decision-making. Algorithms process the data, adapting and learning based on the data received. The more inputs and statistical information collected, the better the algorithm will be at predicting a range of outcomes. And the aim is that farmers can use this artificial intelligence to achieve their goal of a better harvest through making better decisions in the field.\n\nI) In 2011, IBM, through its R&D Headquarters in Haifa, Israel, launched an agricultural cloud-computing project. The project, in collaboration with a number of specialized IT and agricultural partners, had one goal in mind—to take a variety of academic and physical data sources from an agricultural environment and turn these into automatic predictive solutions for farmers that would assist them in making real-time decisions in the field.\n\nJ) Interviews with some of the IBM project team members at the time revealed that the team believed it was entirely possible to \"algorithm\" agriculture, meaning that algorithms could solve any problem in the world. Earlier that year, IBM's cognitive learning system, Watson, competed in the game Jeopardy against former winners Brad Rutter and Ken Jennings with astonishing results. Several years later, Watson went on to produce ground-breaking achievements in the field of medicine.\n\nK) So why did the project have such success in medicine but not agriculture? Because it is one of the most difficult fields to contain for the purpose of statistical quantification. Even within a single field, conditions are always changing from one section to the next. There's unpredictable weather, changes in soil quality, and the ever-present possibility that pests and diseases may pay a visit. Growers may feel their prospects are good for an upcoming harvest, but until that day arrives, the outcome will always be uncertain.\n\nL) By comparison, our bodies are a contained environment. Agriculture takes place in nature, among ecosystems of interacting organisms and activity, and crop production takes place within that ecosystem environment. But these ecosystems are not contained. They are subject to climatic occurrences such as weather systems, which impact upon hemispheres as a whole, and from continent to continent. Therefore, understanding how to manage an agricultural environment means taking literally many hundreds if not thousands of factors into account.\n\nM) What may occur with the same seed and fertilizer program in the United States' Midwest region is almost certainly unrelated to what may occur with the same seed and fertilizer program in Australia or South Africa. A few factors that could impact on variation would typically include the measurement of rain per unit of a crop planted, soil type, patterns of soil degradation, daylight hours, temperature and so forth.\n\nN) So the problem with deploying machine learning and artificial intelligence in agriculture is not that scientists lack the capacity to develop programs and protocols to begin to address the biggest of growers' concerns; the problem is that in most cases, no two environments will be exactly alike, which makes the testing, validation and successful rollout of such technologies much more laborious than in most other industries.\n\nO) Practically, to say that AI and Machine Learning can be developed to solve all problems related to our physical environment is to basically say that we have a complete understanding of all aspects of the interaction of physical or material activity on the planet. After all, it is only through our understanding of \"the nature of things\" that protocols and processes are designed for the rational capabilities of cognitive systems to take place. And, although AI and Machine Learning are teaching us many things about how to understand our environment, we are still far from being able to predict critical outcomes in fields like agriculture purely through the cognitive ability of machines.\n\nP) Backed by the venture capital community, which is now investing billions of dollars in the sector, most agricultural technology startups today are pushed to complete development as quickly as possible and then encouraged to flood the market as quickly as possible with their products.\n\nQ) This usually results in a failure of a product, which leads to skepticism from the market and delivers a blow to the integrity of Machine Learning technology. In most cases, the problem is not that the technology does not work, the problem is that industry has not taken the time to respect that agriculture is one of the most uncontained environments to manage. For technology to truly make an impact on agriculture, more effort, skills, and funding is needed to test these technologies in farmers' fields.\n\nR) There is huge potential for artificial intelligence and machine learning to revolutionize agriculture by integrating these technologies into critical markets on a global scale. Only then can it make a difference to the grower, where it really counts.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        },
+        {
+          "id": "Q",
+          "text": "Q 段"
+        },
+        {
+          "id": "R",
+          "text": "R 段"
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 C 段。题干：The farmer expects the software to tell him whether he will have to replant any parts of his farm fields.\n核对该段原文：In this instance, the farmers and agronomist are looking to specialized software to give them an accurate plant population count. It's been 10 days since the corn emerged and the farmer wants to determine if there are any parts of the field that require replanting due to a lack of emergence or wind damage, which can be severe in the early stages of the summer rainy season.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-1-nonlistening-q44",
+      "canonicalId": "lazynote-cet6-2020-12-1-q44",
+      "number": 44,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "Agriculture proves very difficult to quantify because of the constantly changing conditions involved.",
+      "passage": "The Challenges for Artificial Intelligence in Agriculture\n\nA) A group of corn farmers stands huddled around an agronomist(农学家) and his computer on the side of an irrigation machine in central South Africa. The agronomist has just flown over the field with a hybrid unmanned aerial vehicle (UAV) that takes off and lands using propellers yet maintains distance and speed for scanning vast hectares of land through the use of its fixed wings.\n\nB) The UAV is fitted with a four spectral band precision sensor that conducts onboard processing immediately after the flight, allowing farmers and field staff to address, almost immediately, any crop abnormalities that the sensor may have recorded, making the data collection truly real-time.\n\nC) In this instance, the farmers and agronomist are looking to specialized software to give them an accurate plant population count. It's been 10 days since the corn emerged and the farmer wants to determine if there are any parts of the field that require replanting due to a lack of emergence or wind damage, which can be severe in the early stages of the summer rainy season.\n\nD) At this growth stage of the plant's development, the farmer has another 10 days to conduct any replanting before the majority of his fertilizer and chemical applications need to occur. Once these have been applied, it becomes economically unviable to take corrective action, making any further collected data historical and useful only to inform future practices for the season to come.\n\nE) The software completes its processing in under 15 minutes producing a plant population count map. It's difficult to grasp just how impressive this is, without understanding that just over a year ago it would have taken three to five days to process the exact same data set, illustrating the advancements that have been achieved in precision agriculture and remote sensing in recent years. With the software having been developed in the United States on the same variety of crops in seemingly similar conditions, the agronomist feels confident that the software will produce a nearly accurate result.\n\nF) As the map appears on the screen, the agronomist's face begins to drop. Having walked through the planted rows before the flight to gain a physical understanding of the situation on the ground, he knows the instant he sees the data on his screen that the plant count is not correct, and so do the farmers, even with their limited understanding of how to read remote sensing maps.\n\nG) Hypothetically, it is possible for machines to learn to solve any problem on earth relating to the physical interaction of all things within a defined or contained environment by using artificial intelligence and machine learning.\n\nH) Remote sensors enable algorithms(算法) to interpret a field's environment as statistical data that can be understood and useful to farmers for decision-making. Algorithms process the data, adapting and learning based on the data received. The more inputs and statistical information collected, the better the algorithm will be at predicting a range of outcomes. And the aim is that farmers can use this artificial intelligence to achieve their goal of a better harvest through making better decisions in the field.\n\nI) In 2011, IBM, through its R&D Headquarters in Haifa, Israel, launched an agricultural cloud-computing project. The project, in collaboration with a number of specialized IT and agricultural partners, had one goal in mind—to take a variety of academic and physical data sources from an agricultural environment and turn these into automatic predictive solutions for farmers that would assist them in making real-time decisions in the field.\n\nJ) Interviews with some of the IBM project team members at the time revealed that the team believed it was entirely possible to \"algorithm\" agriculture, meaning that algorithms could solve any problem in the world. Earlier that year, IBM's cognitive learning system, Watson, competed in the game Jeopardy against former winners Brad Rutter and Ken Jennings with astonishing results. Several years later, Watson went on to produce ground-breaking achievements in the field of medicine.\n\nK) So why did the project have such success in medicine but not agriculture? Because it is one of the most difficult fields to contain for the purpose of statistical quantification. Even within a single field, conditions are always changing from one section to the next. There's unpredictable weather, changes in soil quality, and the ever-present possibility that pests and diseases may pay a visit. Growers may feel their prospects are good for an upcoming harvest, but until that day arrives, the outcome will always be uncertain.\n\nL) By comparison, our bodies are a contained environment. Agriculture takes place in nature, among ecosystems of interacting organisms and activity, and crop production takes place within that ecosystem environment. But these ecosystems are not contained. They are subject to climatic occurrences such as weather systems, which impact upon hemispheres as a whole, and from continent to continent. Therefore, understanding how to manage an agricultural environment means taking literally many hundreds if not thousands of factors into account.\n\nM) What may occur with the same seed and fertilizer program in the United States' Midwest region is almost certainly unrelated to what may occur with the same seed and fertilizer program in Australia or South Africa. A few factors that could impact on variation would typically include the measurement of rain per unit of a crop planted, soil type, patterns of soil degradation, daylight hours, temperature and so forth.\n\nN) So the problem with deploying machine learning and artificial intelligence in agriculture is not that scientists lack the capacity to develop programs and protocols to begin to address the biggest of growers' concerns; the problem is that in most cases, no two environments will be exactly alike, which makes the testing, validation and successful rollout of such technologies much more laborious than in most other industries.\n\nO) Practically, to say that AI and Machine Learning can be developed to solve all problems related to our physical environment is to basically say that we have a complete understanding of all aspects of the interaction of physical or material activity on the planet. After all, it is only through our understanding of \"the nature of things\" that protocols and processes are designed for the rational capabilities of cognitive systems to take place. And, although AI and Machine Learning are teaching us many things about how to understand our environment, we are still far from being able to predict critical outcomes in fields like agriculture purely through the cognitive ability of machines.\n\nP) Backed by the venture capital community, which is now investing billions of dollars in the sector, most agricultural technology startups today are pushed to complete development as quickly as possible and then encouraged to flood the market as quickly as possible with their products.\n\nQ) This usually results in a failure of a product, which leads to skepticism from the market and delivers a blow to the integrity of Machine Learning technology. In most cases, the problem is not that the technology does not work, the problem is that industry has not taken the time to respect that agriculture is one of the most uncontained environments to manage. For technology to truly make an impact on agriculture, more effort, skills, and funding is needed to test these technologies in farmers' fields.\n\nR) There is huge potential for artificial intelligence and machine learning to revolutionize agriculture by integrating these technologies into critical markets on a global scale. Only then can it make a difference to the grower, where it really counts.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        },
+        {
+          "id": "Q",
+          "text": "Q 段"
+        },
+        {
+          "id": "R",
+          "text": "R 段"
+        }
+      ],
+      "correctAnswer": "K",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 K 段。题干：Agriculture proves very difficult to quantify because of the constantly changing conditions involved.\n核对该段原文：So why did the project have such success in medicine but not agriculture? Because it is one of the most difficult fields to contain for the purpose of statistical quantification. Even within a single field, conditions are always changing from one section to the next. There's unpredictable weather, changes in soil quality, and the ever-present possibility that pests and diseases may pay a visit. Growers may feel their prospects are good for an upcoming harvest, but until that day arrives, the outcome will always be uncertain.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-1-nonlistening-q45",
+      "canonicalId": "lazynote-cet6-2020-12-1-q45",
+      "number": 45,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_matching",
+      "prompt": "The same seed and fertilizer program may yield completely different outcomes in different places.",
+      "passage": "The Challenges for Artificial Intelligence in Agriculture\n\nA) A group of corn farmers stands huddled around an agronomist(农学家) and his computer on the side of an irrigation machine in central South Africa. The agronomist has just flown over the field with a hybrid unmanned aerial vehicle (UAV) that takes off and lands using propellers yet maintains distance and speed for scanning vast hectares of land through the use of its fixed wings.\n\nB) The UAV is fitted with a four spectral band precision sensor that conducts onboard processing immediately after the flight, allowing farmers and field staff to address, almost immediately, any crop abnormalities that the sensor may have recorded, making the data collection truly real-time.\n\nC) In this instance, the farmers and agronomist are looking to specialized software to give them an accurate plant population count. It's been 10 days since the corn emerged and the farmer wants to determine if there are any parts of the field that require replanting due to a lack of emergence or wind damage, which can be severe in the early stages of the summer rainy season.\n\nD) At this growth stage of the plant's development, the farmer has another 10 days to conduct any replanting before the majority of his fertilizer and chemical applications need to occur. Once these have been applied, it becomes economically unviable to take corrective action, making any further collected data historical and useful only to inform future practices for the season to come.\n\nE) The software completes its processing in under 15 minutes producing a plant population count map. It's difficult to grasp just how impressive this is, without understanding that just over a year ago it would have taken three to five days to process the exact same data set, illustrating the advancements that have been achieved in precision agriculture and remote sensing in recent years. With the software having been developed in the United States on the same variety of crops in seemingly similar conditions, the agronomist feels confident that the software will produce a nearly accurate result.\n\nF) As the map appears on the screen, the agronomist's face begins to drop. Having walked through the planted rows before the flight to gain a physical understanding of the situation on the ground, he knows the instant he sees the data on his screen that the plant count is not correct, and so do the farmers, even with their limited understanding of how to read remote sensing maps.\n\nG) Hypothetically, it is possible for machines to learn to solve any problem on earth relating to the physical interaction of all things within a defined or contained environment by using artificial intelligence and machine learning.\n\nH) Remote sensors enable algorithms(算法) to interpret a field's environment as statistical data that can be understood and useful to farmers for decision-making. Algorithms process the data, adapting and learning based on the data received. The more inputs and statistical information collected, the better the algorithm will be at predicting a range of outcomes. And the aim is that farmers can use this artificial intelligence to achieve their goal of a better harvest through making better decisions in the field.\n\nI) In 2011, IBM, through its R&D Headquarters in Haifa, Israel, launched an agricultural cloud-computing project. The project, in collaboration with a number of specialized IT and agricultural partners, had one goal in mind—to take a variety of academic and physical data sources from an agricultural environment and turn these into automatic predictive solutions for farmers that would assist them in making real-time decisions in the field.\n\nJ) Interviews with some of the IBM project team members at the time revealed that the team believed it was entirely possible to \"algorithm\" agriculture, meaning that algorithms could solve any problem in the world. Earlier that year, IBM's cognitive learning system, Watson, competed in the game Jeopardy against former winners Brad Rutter and Ken Jennings with astonishing results. Several years later, Watson went on to produce ground-breaking achievements in the field of medicine.\n\nK) So why did the project have such success in medicine but not agriculture? Because it is one of the most difficult fields to contain for the purpose of statistical quantification. Even within a single field, conditions are always changing from one section to the next. There's unpredictable weather, changes in soil quality, and the ever-present possibility that pests and diseases may pay a visit. Growers may feel their prospects are good for an upcoming harvest, but until that day arrives, the outcome will always be uncertain.\n\nL) By comparison, our bodies are a contained environment. Agriculture takes place in nature, among ecosystems of interacting organisms and activity, and crop production takes place within that ecosystem environment. But these ecosystems are not contained. They are subject to climatic occurrences such as weather systems, which impact upon hemispheres as a whole, and from continent to continent. Therefore, understanding how to manage an agricultural environment means taking literally many hundreds if not thousands of factors into account.\n\nM) What may occur with the same seed and fertilizer program in the United States' Midwest region is almost certainly unrelated to what may occur with the same seed and fertilizer program in Australia or South Africa. A few factors that could impact on variation would typically include the measurement of rain per unit of a crop planted, soil type, patterns of soil degradation, daylight hours, temperature and so forth.\n\nN) So the problem with deploying machine learning and artificial intelligence in agriculture is not that scientists lack the capacity to develop programs and protocols to begin to address the biggest of growers' concerns; the problem is that in most cases, no two environments will be exactly alike, which makes the testing, validation and successful rollout of such technologies much more laborious than in most other industries.\n\nO) Practically, to say that AI and Machine Learning can be developed to solve all problems related to our physical environment is to basically say that we have a complete understanding of all aspects of the interaction of physical or material activity on the planet. After all, it is only through our understanding of \"the nature of things\" that protocols and processes are designed for the rational capabilities of cognitive systems to take place. And, although AI and Machine Learning are teaching us many things about how to understand our environment, we are still far from being able to predict critical outcomes in fields like agriculture purely through the cognitive ability of machines.\n\nP) Backed by the venture capital community, which is now investing billions of dollars in the sector, most agricultural technology startups today are pushed to complete development as quickly as possible and then encouraged to flood the market as quickly as possible with their products.\n\nQ) This usually results in a failure of a product, which leads to skepticism from the market and delivers a blow to the integrity of Machine Learning technology. In most cases, the problem is not that the technology does not work, the problem is that industry has not taken the time to respect that agriculture is one of the most uncontained environments to manage. For technology to truly make an impact on agriculture, more effort, skills, and funding is needed to test these technologies in farmers' fields.\n\nR) There is huge potential for artificial intelligence and machine learning to revolutionize agriculture by integrating these technologies into critical markets on a global scale. Only then can it make a difference to the grower, where it really counts.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 段"
+        },
+        {
+          "id": "B",
+          "text": "B 段"
+        },
+        {
+          "id": "C",
+          "text": "C 段"
+        },
+        {
+          "id": "D",
+          "text": "D 段"
+        },
+        {
+          "id": "E",
+          "text": "E 段"
+        },
+        {
+          "id": "F",
+          "text": "F 段"
+        },
+        {
+          "id": "G",
+          "text": "G 段"
+        },
+        {
+          "id": "H",
+          "text": "H 段"
+        },
+        {
+          "id": "I",
+          "text": "I 段"
+        },
+        {
+          "id": "J",
+          "text": "J 段"
+        },
+        {
+          "id": "K",
+          "text": "K 段"
+        },
+        {
+          "id": "L",
+          "text": "L 段"
+        },
+        {
+          "id": "M",
+          "text": "M 段"
+        },
+        {
+          "id": "N",
+          "text": "N 段"
+        },
+        {
+          "id": "O",
+          "text": "O 段"
+        },
+        {
+          "id": "P",
+          "text": "P 段"
+        },
+        {
+          "id": "Q",
+          "text": "Q 段"
+        },
+        {
+          "id": "R",
+          "text": "R 段"
+        }
+      ],
+      "correctAnswer": "M",
+      "hint": "标出题干中的专名、时间和关键动作，再寻找表达同一事实的段落，注意同义改写。",
+      "explanation": "来源答案对应 M 段。题干：The same seed and fertilizer program may yield completely different outcomes in different places.\n核对该段原文：What may occur with the same seed and fertilizer program in the United States' Midwest region is almost certainly unrelated to what may occur with the same seed and fertilizer program in Australia or South Africa. A few factors that could impact on variation would typically include the measurement of rain per unit of a crop planted, soil type, patterns of soil degradation, daylight hours, temperature and so forth.\n比较题干与段落中的人物、时间、对象和动作是否一致；关键词相似本身不能证明匹配。此讲解为自动段落定位，不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-1-nonlistening-q46",
+      "canonicalId": "lazynote-cet6-2020-12-1-q46",
+      "number": 46,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the scene at the Louvre demonstrate according to the author?",
+      "passage": "What is the place of art in a culture of inattention? Recent visitors to the Louvre report that tourists can now spend only a minute in front of the Mona Lisa before being asked to move on. Much of that time, for some of them, is spent taking photographs not even of the painting but of themselves with the painting in the background.\n\nOne view is that we have democratised tourism and gallery-going so much that we have made it effectively impossible to appreciate what we've travelled to see. In this oversubscribed society, experience becomes a commodity like any other. There are queues to climb Mt. Jolmo Lungma as well as to see famous paintings. Leisure, thus conceived, is hard labour, and returning to work becomes a well-earned break from the ordeal.\n\nWhat gets lost in this industrialised haste is the quality of looking. Consider an extreme example, the late philosopher Richard Wollheim. When he visited the Louvre he could spend as much as four hours sitting before a painting. The first hour, he claimed, was necessary for misperceptions to be eliminated. It was only then that the picture would begin to disclose itself. This seems unthinkable today, but it is still possible to organise. Even in the busiest museums there are many rooms and many pictures worth hours of contemplation which the crowds largely ignore. Sometimes the largest crowds are partly the products of bad management; the Mona Lisa is such a hurried experience today partly because the museum is being reorganised. The Uffizi in Florence, another site of cultural pilgrimage, has cut its entry queues down to seven minutes by clever management. And there are some forms of art, those designed to be spectacles as well as objects of contemplation, which can work perfectly well in the face of huge crowds.\n\nOlafur Eliasson's current Tate Modern show, for instance, might seem nothing more than an entertainment, overrun as it is with kids romping(喧闹地玩耍) in fog rooms and spray mist installations. But it's more than that: where Eliasson is at his most entertaining, he is at his most serious too, and his disorienting installations bring home the reality of the destructive effects we are having on the planet—not least what we are doing to the glaciers of Eliasson's beloved Iceland.\n\nMarcel Proust, another lover of the Louvre, wrote: \"It is only through art that we can escape from ourselves and know how another person sees the universe, whose landscapes would otherwise have remained as unknown as any on the moon.\" If any art remains worth seeing, it must lead us to such escapes. But a minute in front of a painting in a hurried crowd won't do that.",
+      "options": [
+        {
+          "id": "A",
+          "text": "The enormous appeal of a great piece of artistic work to tourists."
+        },
+        {
+          "id": "B",
+          "text": "The near impossibility of appreciating art in an age of mass tourism."
+        },
+        {
+          "id": "C",
+          "text": "The ever-growing commercial value of long-cherished artistic works."
+        },
+        {
+          "id": "D",
+          "text": "The real difficulty in getting a glimpse at a masterpiece amid a crowd."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：The near impossibility of appreciating art in an age of mass tourism.\n关键词检索定位到第 5 段的候选相关句：Marcel Proust, another lover of the Louvre, wrote: \"It is only through art that we can escape from ourselves and know how another person sees the universe, whose landscapes would otherwise have remained as unknown as any on the moon.\" If any art remains worth seeing, it must lead us to such escapes.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-1-nonlistening-q47",
+      "canonicalId": "lazynote-cet6-2020-12-1-q47",
+      "number": 47,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "Why did the late philosopher Richard Wollheim spend four hours before a picture?",
+      "passage": "What is the place of art in a culture of inattention? Recent visitors to the Louvre report that tourists can now spend only a minute in front of the Mona Lisa before being asked to move on. Much of that time, for some of them, is spent taking photographs not even of the painting but of themselves with the painting in the background.\n\nOne view is that we have democratised tourism and gallery-going so much that we have made it effectively impossible to appreciate what we've travelled to see. In this oversubscribed society, experience becomes a commodity like any other. There are queues to climb Mt. Jolmo Lungma as well as to see famous paintings. Leisure, thus conceived, is hard labour, and returning to work becomes a well-earned break from the ordeal.\n\nWhat gets lost in this industrialised haste is the quality of looking. Consider an extreme example, the late philosopher Richard Wollheim. When he visited the Louvre he could spend as much as four hours sitting before a painting. The first hour, he claimed, was necessary for misperceptions to be eliminated. It was only then that the picture would begin to disclose itself. This seems unthinkable today, but it is still possible to organise. Even in the busiest museums there are many rooms and many pictures worth hours of contemplation which the crowds largely ignore. Sometimes the largest crowds are partly the products of bad management; the Mona Lisa is such a hurried experience today partly because the museum is being reorganised. The Uffizi in Florence, another site of cultural pilgrimage, has cut its entry queues down to seven minutes by clever management. And there are some forms of art, those designed to be spectacles as well as objects of contemplation, which can work perfectly well in the face of huge crowds.\n\nOlafur Eliasson's current Tate Modern show, for instance, might seem nothing more than an entertainment, overrun as it is with kids romping(喧闹地玩耍) in fog rooms and spray mist installations. But it's more than that: where Eliasson is at his most entertaining, he is at his most serious too, and his disorienting installations bring home the reality of the destructive effects we are having on the planet—not least what we are doing to the glaciers of Eliasson's beloved Iceland.\n\nMarcel Proust, another lover of the Louvre, wrote: \"It is only through art that we can escape from ourselves and know how another person sees the universe, whose landscapes would otherwise have remained as unknown as any on the moon.\" If any art remains worth seeing, it must lead us to such escapes. But a minute in front of a painting in a hurried crowd won't do that.",
+      "options": [
+        {
+          "id": "A",
+          "text": "It takes time to appreciate a piece of art fully."
+        },
+        {
+          "id": "B",
+          "text": "It is quite common to misinterpret artistic works."
+        },
+        {
+          "id": "C",
+          "text": "The longer people contemplate a picture, the more likely they will enjoy it."
+        },
+        {
+          "id": "D",
+          "text": "The more time one spends before a painting, the more valuable one finds it."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：It takes time to appreciate a piece of art fully.\n关键词检索定位到第 3 段的候选相关句：Consider an extreme example, the late philosopher Richard Wollheim.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-1-nonlistening-q48",
+      "canonicalId": "lazynote-cet6-2020-12-1-q48",
+      "number": 48,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What does the case of the Uffizi in Florence show?",
+      "passage": "What is the place of art in a culture of inattention? Recent visitors to the Louvre report that tourists can now spend only a minute in front of the Mona Lisa before being asked to move on. Much of that time, for some of them, is spent taking photographs not even of the painting but of themselves with the painting in the background.\n\nOne view is that we have democratised tourism and gallery-going so much that we have made it effectively impossible to appreciate what we've travelled to see. In this oversubscribed society, experience becomes a commodity like any other. There are queues to climb Mt. Jolmo Lungma as well as to see famous paintings. Leisure, thus conceived, is hard labour, and returning to work becomes a well-earned break from the ordeal.\n\nWhat gets lost in this industrialised haste is the quality of looking. Consider an extreme example, the late philosopher Richard Wollheim. When he visited the Louvre he could spend as much as four hours sitting before a painting. The first hour, he claimed, was necessary for misperceptions to be eliminated. It was only then that the picture would begin to disclose itself. This seems unthinkable today, but it is still possible to organise. Even in the busiest museums there are many rooms and many pictures worth hours of contemplation which the crowds largely ignore. Sometimes the largest crowds are partly the products of bad management; the Mona Lisa is such a hurried experience today partly because the museum is being reorganised. The Uffizi in Florence, another site of cultural pilgrimage, has cut its entry queues down to seven minutes by clever management. And there are some forms of art, those designed to be spectacles as well as objects of contemplation, which can work perfectly well in the face of huge crowds.\n\nOlafur Eliasson's current Tate Modern show, for instance, might seem nothing more than an entertainment, overrun as it is with kids romping(喧闹地玩耍) in fog rooms and spray mist installations. But it's more than that: where Eliasson is at his most entertaining, he is at his most serious too, and his disorienting installations bring home the reality of the destructive effects we are having on the planet—not least what we are doing to the glaciers of Eliasson's beloved Iceland.\n\nMarcel Proust, another lover of the Louvre, wrote: \"It is only through art that we can escape from ourselves and know how another person sees the universe, whose landscapes would otherwise have remained as unknown as any on the moon.\" If any art remains worth seeing, it must lead us to such escapes. But a minute in front of a painting in a hurried crowd won't do that.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Art works in museums should be better taken care of."
+        },
+        {
+          "id": "B",
+          "text": "Sites of cultural pilgrimage are always flooded with visitors."
+        },
+        {
+          "id": "C",
+          "text": "Good management is key to handling large crowds of visitors."
+        },
+        {
+          "id": "D",
+          "text": "Large crowds of visitors cause management problems for museums."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：Good management is key to handling large crowds of visitors.\n关键词检索定位到第 3 段的候选相关句：The Uffizi in Florence, another site of cultural pilgrimage, has cut its entry queues down to seven minutes by clever management.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-1-nonlistening-q49",
+      "canonicalId": "lazynote-cet6-2020-12-1-q49",
+      "number": 49,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn from Olafur Eliasson's current Tate Modern show?",
+      "passage": "What is the place of art in a culture of inattention? Recent visitors to the Louvre report that tourists can now spend only a minute in front of the Mona Lisa before being asked to move on. Much of that time, for some of them, is spent taking photographs not even of the painting but of themselves with the painting in the background.\n\nOne view is that we have democratised tourism and gallery-going so much that we have made it effectively impossible to appreciate what we've travelled to see. In this oversubscribed society, experience becomes a commodity like any other. There are queues to climb Mt. Jolmo Lungma as well as to see famous paintings. Leisure, thus conceived, is hard labour, and returning to work becomes a well-earned break from the ordeal.\n\nWhat gets lost in this industrialised haste is the quality of looking. Consider an extreme example, the late philosopher Richard Wollheim. When he visited the Louvre he could spend as much as four hours sitting before a painting. The first hour, he claimed, was necessary for misperceptions to be eliminated. It was only then that the picture would begin to disclose itself. This seems unthinkable today, but it is still possible to organise. Even in the busiest museums there are many rooms and many pictures worth hours of contemplation which the crowds largely ignore. Sometimes the largest crowds are partly the products of bad management; the Mona Lisa is such a hurried experience today partly because the museum is being reorganised. The Uffizi in Florence, another site of cultural pilgrimage, has cut its entry queues down to seven minutes by clever management. And there are some forms of art, those designed to be spectacles as well as objects of contemplation, which can work perfectly well in the face of huge crowds.\n\nOlafur Eliasson's current Tate Modern show, for instance, might seem nothing more than an entertainment, overrun as it is with kids romping(喧闹地玩耍) in fog rooms and spray mist installations. But it's more than that: where Eliasson is at his most entertaining, he is at his most serious too, and his disorienting installations bring home the reality of the destructive effects we are having on the planet—not least what we are doing to the glaciers of Eliasson's beloved Iceland.\n\nMarcel Proust, another lover of the Louvre, wrote: \"It is only through art that we can escape from ourselves and know how another person sees the universe, whose landscapes would otherwise have remained as unknown as any on the moon.\" If any art remains worth seeing, it must lead us to such escapes. But a minute in front of a painting in a hurried crowd won't do that.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Children learn to appreciate art works most effectively while they are playing."
+        },
+        {
+          "id": "B",
+          "text": "It is possible to combine entertainment with appreciation of serious art."
+        },
+        {
+          "id": "C",
+          "text": "Art works about the environment appeal most to young children."
+        },
+        {
+          "id": "D",
+          "text": "Some forms of art can accommodate huge crowds of visitors."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：It is possible to combine entertainment with appreciation of serious art.\n关键词检索定位到第 4 段的候选相关句：Olafur Eliasson's current Tate Modern show, for instance, might seem nothing more than an entertainment, overrun as it is with kids romping(喧闹地玩耍) in fog rooms and spray mist installations.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-1-nonlistening-q50",
+      "canonicalId": "lazynote-cet6-2020-12-1-q50",
+      "number": 50,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What can art do according to Marcel Proust?",
+      "passage": "What is the place of art in a culture of inattention? Recent visitors to the Louvre report that tourists can now spend only a minute in front of the Mona Lisa before being asked to move on. Much of that time, for some of them, is spent taking photographs not even of the painting but of themselves with the painting in the background.\n\nOne view is that we have democratised tourism and gallery-going so much that we have made it effectively impossible to appreciate what we've travelled to see. In this oversubscribed society, experience becomes a commodity like any other. There are queues to climb Mt. Jolmo Lungma as well as to see famous paintings. Leisure, thus conceived, is hard labour, and returning to work becomes a well-earned break from the ordeal.\n\nWhat gets lost in this industrialised haste is the quality of looking. Consider an extreme example, the late philosopher Richard Wollheim. When he visited the Louvre he could spend as much as four hours sitting before a painting. The first hour, he claimed, was necessary for misperceptions to be eliminated. It was only then that the picture would begin to disclose itself. This seems unthinkable today, but it is still possible to organise. Even in the busiest museums there are many rooms and many pictures worth hours of contemplation which the crowds largely ignore. Sometimes the largest crowds are partly the products of bad management; the Mona Lisa is such a hurried experience today partly because the museum is being reorganised. The Uffizi in Florence, another site of cultural pilgrimage, has cut its entry queues down to seven minutes by clever management. And there are some forms of art, those designed to be spectacles as well as objects of contemplation, which can work perfectly well in the face of huge crowds.\n\nOlafur Eliasson's current Tate Modern show, for instance, might seem nothing more than an entertainment, overrun as it is with kids romping(喧闹地玩耍) in fog rooms and spray mist installations. But it's more than that: where Eliasson is at his most entertaining, he is at his most serious too, and his disorienting installations bring home the reality of the destructive effects we are having on the planet—not least what we are doing to the glaciers of Eliasson's beloved Iceland.\n\nMarcel Proust, another lover of the Louvre, wrote: \"It is only through art that we can escape from ourselves and know how another person sees the universe, whose landscapes would otherwise have remained as unknown as any on the moon.\" If any art remains worth seeing, it must lead us to such escapes. But a minute in front of a painting in a hurried crowd won't do that.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Enable us to live a much fuller life."
+        },
+        {
+          "id": "B",
+          "text": "Allow us to escape the harsh reality."
+        },
+        {
+          "id": "C",
+          "text": "Help us to see the world from a different perspective."
+        },
+        {
+          "id": "D",
+          "text": "Urge us to explore the unknown domain of the universe."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：Help us to see the world from a different perspective.\n关键词检索定位到第 5 段的候选相关句：Marcel Proust, another lover of the Louvre, wrote: \"It is only through art that we can escape from ourselves and know how another person sees the universe, whose landscapes would otherwise have remained as unknown as any on the moon.\" If any art remains worth seeing, it must lead us to such escapes.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-1-nonlistening-q51",
+      "canonicalId": "lazynote-cet6-2020-12-1-q51",
+      "number": 51,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "Why are some researchers irritated at the USDA's 2016-2020 Dietary Guidelines?",
+      "passage": "Every five years, the government tries to tell Americans what to put in their bellies. Eat more vegetables. Dial back the fats. It's all based on the best available science for leading a healthy life. But the best available science also has a lot to say about what those food choices do to the environment, and some researchers are annoyed that new dietary recommendations of the USDA (United States Department of Agriculture) released yesterday seem to utterly ignore that fact.\n\nBroadly, the 2016–2020 dietary recommendations aim for balance: More vegetables, leaner meats and far less sugar.\n\nBut Americans consume more calories per capita than almost any other country in the world. So the things Americans eat have a huge impact on climate change. Soil tilling releases carbon dioxide, and delivery vehicles emit exhaust. The government's dietary guidelines could have done a lot to lower that climate cost. Not just because of their position of authority: The guidelines drive billions of dollars of food production through federal programs like school lunches and nutrition assistance for the needy.\n\nOn its own, plant and animal agriculture contributes 9 percent of all the country's greenhouse gas emissions. That's not counting the fuel burned in transportation, processing, refrigeration, and other waypoints between farm and belly. Red meats are among the biggest and most notorious emitters, but trucking a salad from California to Minnesota in January also carries a significant burden. And greenhouse gas emissions aren't the whole story. Food production is the largest user of fresh water, largest contributor to the loss of biodiversity, and a major contributor to using up natural resources.\n\nAll of these points and more showed up in the Dietary Guidelines Advisory Committee's scientific report, released last February. Miriam Nelson chaired the subcommittee in charge of sustainability for the report, and is disappointed that eating less meat and buying local food aren't in the final product. \"Especially if you consider that eating less meat, especially red and processed, has health benefits,\" she says.\n\nSo what happened? The official response is that sustainability falls too far outside the guidelines' official scope, which is to provide \"nutritional and dietary information.\"\n\nPossibly the agencies in charge of drafting the decisions are too close to the industries they are supposed to regulate. On one hand, the USDA is compiling dietary advice. On the other, their clients are US agriculture companies.\n\nThe line about keeping the guidelines' scope to nutrition and diet doesn't ring quite right with researchers. David Wallinga, for example, says, \"In previous guidelines, they've always been concerned with things like food security—which is presumably the mission of the USDA. You absolutely need to be worried about climate impacts and future sustainability if you want secure food in the future.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "It ignores the harmful effect of red meat and processed food on health."
+        },
+        {
+          "id": "B",
+          "text": "Too much emphasis is given to eating less meat and buying local food."
+        },
+        {
+          "id": "C",
+          "text": "The dietary recommendations are not based on medical science."
+        },
+        {
+          "id": "D",
+          "text": "It takes no notice of the potential impact on the environment."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：It takes no notice of the potential impact on the environment.\n关键词检索定位到第 1 段的候选相关句：But the best available science also has a lot to say about what those food choices do to the environment, and some researchers are annoyed that new dietary recommendations of the USDA (United States Department of Agriculture) released yesterday seem to utterly ignore that fact.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-1-nonlistening-q52",
+      "canonicalId": "lazynote-cet6-2020-12-1-q52",
+      "number": 52,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "Why does the author say the USDA could have contributed a lot to lowering the climate cost through its dietary guidelines?",
+      "passage": "Every five years, the government tries to tell Americans what to put in their bellies. Eat more vegetables. Dial back the fats. It's all based on the best available science for leading a healthy life. But the best available science also has a lot to say about what those food choices do to the environment, and some researchers are annoyed that new dietary recommendations of the USDA (United States Department of Agriculture) released yesterday seem to utterly ignore that fact.\n\nBroadly, the 2016–2020 dietary recommendations aim for balance: More vegetables, leaner meats and far less sugar.\n\nBut Americans consume more calories per capita than almost any other country in the world. So the things Americans eat have a huge impact on climate change. Soil tilling releases carbon dioxide, and delivery vehicles emit exhaust. The government's dietary guidelines could have done a lot to lower that climate cost. Not just because of their position of authority: The guidelines drive billions of dollars of food production through federal programs like school lunches and nutrition assistance for the needy.\n\nOn its own, plant and animal agriculture contributes 9 percent of all the country's greenhouse gas emissions. That's not counting the fuel burned in transportation, processing, refrigeration, and other waypoints between farm and belly. Red meats are among the biggest and most notorious emitters, but trucking a salad from California to Minnesota in January also carries a significant burden. And greenhouse gas emissions aren't the whole story. Food production is the largest user of fresh water, largest contributor to the loss of biodiversity, and a major contributor to using up natural resources.\n\nAll of these points and more showed up in the Dietary Guidelines Advisory Committee's scientific report, released last February. Miriam Nelson chaired the subcommittee in charge of sustainability for the report, and is disappointed that eating less meat and buying local food aren't in the final product. \"Especially if you consider that eating less meat, especially red and processed, has health benefits,\" she says.\n\nSo what happened? The official response is that sustainability falls too far outside the guidelines' official scope, which is to provide \"nutritional and dietary information.\"\n\nPossibly the agencies in charge of drafting the decisions are too close to the industries they are supposed to regulate. On one hand, the USDA is compiling dietary advice. On the other, their clients are US agriculture companies.\n\nThe line about keeping the guidelines' scope to nutrition and diet doesn't ring quite right with researchers. David Wallinga, for example, says, \"In previous guidelines, they've always been concerned with things like food security—which is presumably the mission of the USDA. You absolutely need to be worried about climate impacts and future sustainability if you want secure food in the future.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "It has the capacity and the financial resources to do so."
+        },
+        {
+          "id": "B",
+          "text": "Its researchers have already submitted relevant proposals."
+        },
+        {
+          "id": "C",
+          "text": "Its agencies in charge of drafting the guidelines have the expertise."
+        },
+        {
+          "id": "D",
+          "text": "It can raise students' environmental awareness through its programs."
+        }
+      ],
+      "correctAnswer": "A",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 A：It has the capacity and the financial resources to do so.\n关键词检索定位到第 3 段的候选相关句：The government's dietary guidelines could have done a lot to lower that climate cost.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-1-nonlistening-q53",
+      "canonicalId": "lazynote-cet6-2020-12-1-q53",
+      "number": 53,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What do we learn from the Dietary Guidelines Advisory Committee's scientific report?",
+      "passage": "Every five years, the government tries to tell Americans what to put in their bellies. Eat more vegetables. Dial back the fats. It's all based on the best available science for leading a healthy life. But the best available science also has a lot to say about what those food choices do to the environment, and some researchers are annoyed that new dietary recommendations of the USDA (United States Department of Agriculture) released yesterday seem to utterly ignore that fact.\n\nBroadly, the 2016–2020 dietary recommendations aim for balance: More vegetables, leaner meats and far less sugar.\n\nBut Americans consume more calories per capita than almost any other country in the world. So the things Americans eat have a huge impact on climate change. Soil tilling releases carbon dioxide, and delivery vehicles emit exhaust. The government's dietary guidelines could have done a lot to lower that climate cost. Not just because of their position of authority: The guidelines drive billions of dollars of food production through federal programs like school lunches and nutrition assistance for the needy.\n\nOn its own, plant and animal agriculture contributes 9 percent of all the country's greenhouse gas emissions. That's not counting the fuel burned in transportation, processing, refrigeration, and other waypoints between farm and belly. Red meats are among the biggest and most notorious emitters, but trucking a salad from California to Minnesota in January also carries a significant burden. And greenhouse gas emissions aren't the whole story. Food production is the largest user of fresh water, largest contributor to the loss of biodiversity, and a major contributor to using up natural resources.\n\nAll of these points and more showed up in the Dietary Guidelines Advisory Committee's scientific report, released last February. Miriam Nelson chaired the subcommittee in charge of sustainability for the report, and is disappointed that eating less meat and buying local food aren't in the final product. \"Especially if you consider that eating less meat, especially red and processed, has health benefits,\" she says.\n\nSo what happened? The official response is that sustainability falls too far outside the guidelines' official scope, which is to provide \"nutritional and dietary information.\"\n\nPossibly the agencies in charge of drafting the decisions are too close to the industries they are supposed to regulate. On one hand, the USDA is compiling dietary advice. On the other, their clients are US agriculture companies.\n\nThe line about keeping the guidelines' scope to nutrition and diet doesn't ring quite right with researchers. David Wallinga, for example, says, \"In previous guidelines, they've always been concerned with things like food security—which is presumably the mission of the USDA. You absolutely need to be worried about climate impacts and future sustainability if you want secure food in the future.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "Food is easily contaminated from farm to belly."
+        },
+        {
+          "id": "B",
+          "text": "Greenhouse effect is an issue still under debate."
+        },
+        {
+          "id": "C",
+          "text": "Modern agriculture has increased food diversity."
+        },
+        {
+          "id": "D",
+          "text": "Farming consumes most of our natural resources."
+        }
+      ],
+      "correctAnswer": "D",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 D：Farming consumes most of our natural resources.\n关键词检索定位到第 5 段的候选相关句：All of these points and more showed up in the Dietary Guidelines Advisory Committee's scientific report, released last February.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-1-nonlistening-q54",
+      "canonicalId": "lazynote-cet6-2020-12-1-q54",
+      "number": 54,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What may account for the neglect of sustainability in the USDA's Dietary Guidelines according to the author?",
+      "passage": "Every five years, the government tries to tell Americans what to put in their bellies. Eat more vegetables. Dial back the fats. It's all based on the best available science for leading a healthy life. But the best available science also has a lot to say about what those food choices do to the environment, and some researchers are annoyed that new dietary recommendations of the USDA (United States Department of Agriculture) released yesterday seem to utterly ignore that fact.\n\nBroadly, the 2016–2020 dietary recommendations aim for balance: More vegetables, leaner meats and far less sugar.\n\nBut Americans consume more calories per capita than almost any other country in the world. So the things Americans eat have a huge impact on climate change. Soil tilling releases carbon dioxide, and delivery vehicles emit exhaust. The government's dietary guidelines could have done a lot to lower that climate cost. Not just because of their position of authority: The guidelines drive billions of dollars of food production through federal programs like school lunches and nutrition assistance for the needy.\n\nOn its own, plant and animal agriculture contributes 9 percent of all the country's greenhouse gas emissions. That's not counting the fuel burned in transportation, processing, refrigeration, and other waypoints between farm and belly. Red meats are among the biggest and most notorious emitters, but trucking a salad from California to Minnesota in January also carries a significant burden. And greenhouse gas emissions aren't the whole story. Food production is the largest user of fresh water, largest contributor to the loss of biodiversity, and a major contributor to using up natural resources.\n\nAll of these points and more showed up in the Dietary Guidelines Advisory Committee's scientific report, released last February. Miriam Nelson chaired the subcommittee in charge of sustainability for the report, and is disappointed that eating less meat and buying local food aren't in the final product. \"Especially if you consider that eating less meat, especially red and processed, has health benefits,\" she says.\n\nSo what happened? The official response is that sustainability falls too far outside the guidelines' official scope, which is to provide \"nutritional and dietary information.\"\n\nPossibly the agencies in charge of drafting the decisions are too close to the industries they are supposed to regulate. On one hand, the USDA is compiling dietary advice. On the other, their clients are US agriculture companies.\n\nThe line about keeping the guidelines' scope to nutrition and diet doesn't ring quite right with researchers. David Wallinga, for example, says, \"In previous guidelines, they've always been concerned with things like food security—which is presumably the mission of the USDA. You absolutely need to be worried about climate impacts and future sustainability if you want secure food in the future.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "Its exclusive concern with Americans' food safety."
+        },
+        {
+          "id": "B",
+          "text": "Its sole responsibility for providing dietary advice."
+        },
+        {
+          "id": "C",
+          "text": "Its close ties with the agriculture companies."
+        },
+        {
+          "id": "D",
+          "text": "Its alleged failure to regulate the industries."
+        }
+      ],
+      "correctAnswer": "C",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 C：Its close ties with the agriculture companies.\n关键词检索定位到第 1 段的候选相关句：But the best available science also has a lot to say about what those food choices do to the environment, and some researchers are annoyed that new dietary recommendations of the USDA (United States Department of Agriculture) released yesterday seem to utterly ignore that fact.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-1-nonlistening-q55",
+      "canonicalId": "lazynote-cet6-2020-12-1-q55",
+      "number": 55,
+      "level": "CET6",
+      "type": "single_choice",
+      "skill": "reading",
+      "section": "reading_comprehension",
+      "prompt": "What should the USDA do to achieve food security according to David Wallinga?",
+      "passage": "Every five years, the government tries to tell Americans what to put in their bellies. Eat more vegetables. Dial back the fats. It's all based on the best available science for leading a healthy life. But the best available science also has a lot to say about what those food choices do to the environment, and some researchers are annoyed that new dietary recommendations of the USDA (United States Department of Agriculture) released yesterday seem to utterly ignore that fact.\n\nBroadly, the 2016–2020 dietary recommendations aim for balance: More vegetables, leaner meats and far less sugar.\n\nBut Americans consume more calories per capita than almost any other country in the world. So the things Americans eat have a huge impact on climate change. Soil tilling releases carbon dioxide, and delivery vehicles emit exhaust. The government's dietary guidelines could have done a lot to lower that climate cost. Not just because of their position of authority: The guidelines drive billions of dollars of food production through federal programs like school lunches and nutrition assistance for the needy.\n\nOn its own, plant and animal agriculture contributes 9 percent of all the country's greenhouse gas emissions. That's not counting the fuel burned in transportation, processing, refrigeration, and other waypoints between farm and belly. Red meats are among the biggest and most notorious emitters, but trucking a salad from California to Minnesota in January also carries a significant burden. And greenhouse gas emissions aren't the whole story. Food production is the largest user of fresh water, largest contributor to the loss of biodiversity, and a major contributor to using up natural resources.\n\nAll of these points and more showed up in the Dietary Guidelines Advisory Committee's scientific report, released last February. Miriam Nelson chaired the subcommittee in charge of sustainability for the report, and is disappointed that eating less meat and buying local food aren't in the final product. \"Especially if you consider that eating less meat, especially red and processed, has health benefits,\" she says.\n\nSo what happened? The official response is that sustainability falls too far outside the guidelines' official scope, which is to provide \"nutritional and dietary information.\"\n\nPossibly the agencies in charge of drafting the decisions are too close to the industries they are supposed to regulate. On one hand, the USDA is compiling dietary advice. On the other, their clients are US agriculture companies.\n\nThe line about keeping the guidelines' scope to nutrition and diet doesn't ring quite right with researchers. David Wallinga, for example, says, \"In previous guidelines, they've always been concerned with things like food security—which is presumably the mission of the USDA. You absolutely need to be worried about climate impacts and future sustainability if you want secure food in the future.\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "Give top priority to things like nutrition and food security."
+        },
+        {
+          "id": "B",
+          "text": "Endeavor to ensure the sustainable development of agriculture."
+        },
+        {
+          "id": "C",
+          "text": "Fulfill its mission by closely cooperating with the industries."
+        },
+        {
+          "id": "D",
+          "text": "Study the long-term impact of climate change on food production."
+        }
+      ],
+      "correctAnswer": "B",
+      "hint": "用题干中的对象和核心动作定位相关段落，再比较四个选项的范围与原文逻辑。",
+      "explanation": "来源答案为 B：Endeavor to ensure the sustainable development of agriculture.\n关键词检索定位到第 8 段的候选相关句：David Wallinga, for example, says, \"In previous guidelines, they've always been concerned with things like food security—which is presumably the mission of the USDA.\n请结合该句前后文核对选项的主体、程度、范围、时间和因果关系；此句为自动检索候选，不能替代整段理解，也不是逐题人工详解。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    },
+    {
+      "id": "cet6-2020-12-1-nonlistening-translation",
+      "number": "IV",
+      "level": "CET6",
+      "type": "short_text_self_check",
+      "skill": "translation",
+      "section": "translation",
+      "prompt": "Directions : For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2 .\n\n青藏铁路是世界上最高最长的高原铁路，全长1 956公里，其中有960公里在海拔4 000多米之上，是连接西藏和中国其他地区的第一条铁路。由于铁路穿越世界上最脆弱的生态系统， 在建设期间和建成后都采取了生态保护措施，以确保其成为一条\"绿色铁路\"。青藏铁路大大缩短了中国内地与西藏之间的旅行时间。更重要的是，它极大地促进了西藏的经济发展，改善了当地居民的生活。铁路开通后，愈来愈多的人选择乘火车前往西藏，这样还有机会欣赏沿线的美景。",
+      "options": [],
+      "correctAnswer": "The Qinghai-Tibet Railway is the world's highest and longest plateau railway. It is 1,956 kilometers long, including 960 kilometers at elevations above 4,000 meters, and is the first railway connecting Tibet with other parts of China. As it passes through one of the world's most fragile ecosystems, ecological protection measures were adopted both during construction and after completion to ensure that it became a \"green railway.\" The railway has greatly shortened travel time between inland China and Tibet. More importantly, it has substantially promoted Tibet's economic development and improved local residents' lives. Since it opened, more and more people have chosen to travel to Tibet by train, also giving them the opportunity to enjoy the beautiful scenery along the route.",
+      "referenceAnswer": "The Qinghai-Tibet Railway is the world's highest and longest plateau railway. It is 1,956 kilometers long, including 960 kilometers at elevations above 4,000 meters, and is the first railway connecting Tibet with other parts of China. As it passes through one of the world's most fragile ecosystems, ecological protection measures were adopted both during construction and after completion to ensure that it became a \"green railway.\" The railway has greatly shortened travel time between inland China and Tibet. More importantly, it has substantially promoted Tibet's economic development and improved local residents' lives. Since it opened, more and more people have chosen to travel to Tibet by train, also giving them the opportunity to enjoy the beautiful scenery along the route.",
+      "hint": "三个数字1956、960、4000分别对应全长、高海拔区段与海拔，不能混淆。",
+      "explanation": "以下为原创参考译文，准确的同义表达也可接受。including引出总长中的部分；at elevations above…表达海拔而非铁路长度。建设期间和建成后两阶段均保留；has shortened与has promoted强调开通至今的影响。题面“世界上最脆弱的生态系统”按类别表达为one of the world's most fragile ecosystems。",
+      "rubric": [
+        "信息：逐句核对人物、地点、数字、时间、因果和并列信息，避免漏译或增译。",
+        "表达：三个数字1956、960、4000分别对应全长、高海拔区段与海拔，不能混淆。",
+        "语法：检查时态、语态、主谓一致、冠词与单复数，长句按英语逻辑合理拆分。"
+      ],
+      "referenceType": "project_authored_reference",
+      "guidance": "项目原创参考范文/译文，不是官方唯一答案；允许准确自然的其他表达。",
+      "authenticity": "past_exam",
+      "sourceId": "cet6-2020-12-1-nonlistening"
+    }
+  ]
+}

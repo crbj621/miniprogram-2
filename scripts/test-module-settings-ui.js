@@ -2,7 +2,7 @@ const assert = require('node:assert/strict')
 const fs = require('node:fs')
 const vm = require('node:vm')
 const ts = require('typescript')
-const flags = { running: true, food: false, canteen: true, forum: false, rider: false }
+const flags = { running: true, food: false, canteen: true, forum: false, rider: false, english: false, gifts: false }
 const settings = { modules: Object.fromEntries(Object.entries(flags).map(([key, enabled]) => [key, { enabled }])) }
 
 async function miniCheck() {
@@ -16,7 +16,7 @@ async function miniCheck() {
   const code = ts.transpileModule(fs.readFileSync('miniprogram/pages/admin/index/index.ts', 'utf8'), {
     compilerOptions: { target: ts.ScriptTarget.ES2020, module: ts.ModuleKind.CommonJS }
   }).outputText
-  vm.runInNewContext(code, { wx, exports: {}, require: () => ({ api: { call: wx.cloud.callFunction } }), Page: value => { page = value } })
+  vm.runInNewContext(code, { wx, exports: {}, require: () => ({ withSharing: value => value, api: { call: wx.cloud.callFunction } }), Page: value => { page = value } })
   page.data.adminInfo = { role: 'super' }
   page.setData = patch => {
     for (const [field, value] of Object.entries(patch)) {
@@ -70,8 +70,10 @@ async function webCheck() {
   vm.runInContext("setModulePreset('reviews')", context)
   await vm.runInContext('saveSettings()', context)
   const saved = calls.at(-1).data.modules
-  assert.deepEqual(Object.fromEntries(Object.keys(flags).map(key => [key, saved[key].enabled])), flags)
+  const managed = Object.keys(flags).filter(key => !['english', 'gifts'].includes(key))
+  assert.deepEqual(Object.fromEntries(managed.map(key => [key, saved[key].enabled])), Object.fromEntries(managed.map(key => [key, flags[key]])))
+  assert.equal(Object.hasOwn(saved, 'english'), false, '旧网页不应覆盖未显示的英语开关')
   assert.equal(Object.hasOwn(saved, 'run'), false)
 }
-Promise.all([miniCheck(), webCheck()]).then(() => console.log('网页和小程序五项开关、快捷设置、失败保存保护：通过'))
+Promise.all([miniCheck(), webCheck()]).then(() => console.log('网页和小程序七项开关、快捷设置、失败保存保护：通过'))
   .catch(error => { console.error(error); process.exitCode = 1 })

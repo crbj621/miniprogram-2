@@ -1,5 +1,6 @@
+import { withSharing } from '../../../utils/page-share'
 import { api } from '../../../utils/api-client'
-Page({
+Page(withSharing({
   data: {
     statusList: [
       { key: '', name: '全部状态' },
@@ -104,4 +105,4 @@ Page({
       }
     })
   }
-})
+}))

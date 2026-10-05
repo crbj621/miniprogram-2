@@ -99,14 +99,18 @@ async function main() {
     check(result.success, '创建菜品')
     dishes.push(result.id); saved.push(['canteen_dishes', result.id])
   }
+  const reviewIds = new Map()
   for (let index = 0; index < dishes.length; index++) {
     for (const [openid, auth, score] of [[userA, studentA, index ? 1 : 5], [userB, studentB, index ? 2 : 5]]) {
-      const reviewId = crypto.createHash('sha256').update(dishes[index] + ':' + openid).digest('hex')
-      saved.push(['canteen_reviews', reviewId])
-      check((await call(auth, 'canteen_reviews', { action: 'saveReview', dishId: dishes[index], score, comment: '回归测试评价' })).success, '提交评分')
+      const review = await call(auth, 'canteen_reviews', { action: 'saveReview', dishId: dishes[index], clientId: prefix + '-initial', score, comment: '回归测试评价' })
+      check(review.success, '提交评分')
+      reviewIds.set(dishes[index] + ':' + openid, review.id)
+      saved.push(['canteen_reviews', review.id], ['canteen_ratings', crypto.createHash('sha256').update(dishes[index] + ':' + openid).digest('hex')])
     }
   }
-  check((await call(studentA, 'canteen_reviews', { action: 'saveReview', dishId: dishes[0], score: 4, comment: '修改自己的评价' })).success, '更新本人评价')
+  const updatedReview = await call(studentA, 'canteen_reviews', { action: 'saveReview', dishId: dishes[0], clientId: prefix + '-updated', score: 4, comment: '更新自己的评分' })
+  check(updatedReview.success, '追加评论并更新本人评分')
+  saved.push(['canteen_reviews', updatedReview.id])
   const catalog = await call(studentA, 'canteen_reviews', { action: 'list' })
   const good = catalog.dishes.find(row => row._id === dishes[0])
   const bad = catalog.dishes.find(row => row._id === dishes[1])
@@ -117,9 +121,9 @@ async function main() {
   const unusual = await call(studentA, 'canteen_reviews', { action: 'random', mode: 'unusual' })
   check(quality.dish && quality.dish.score >= 4 && quality.dish.count >= 2, '优质随机只抽高分菜')
   check(unusual.dish && unusual.dish.score <= 2.5 && unusual.dish.count >= 2, '异食癖随机只抽低分菜')
-  const hiddenId = crypto.createHash('sha256').update(dishes[1] + ':' + userB).digest('hex')
+  const hiddenId = reviewIds.get(dishes[1] + ':' + userB)
   check((await call(adminToken, 'canteen_reviews', { action: 'hideReview', id: hiddenId })).success, '管理员隐藏评价')
-  check(!(await call(studentB, 'canteen_reviews', { action: 'saveReview', dishId: dishes[1], score: 5, comment: '尝试恢复' })).success, '被隐藏评价不能由作者恢复')
+  check(!(await call(studentB, 'canteen_reviews', { action: 'saveReview', dishId: dishes[1], clientId: prefix + '-initial', score: 5, comment: '尝试恢复' })).success, '被隐藏评论不能用原请求恢复')
   await db.collection('global_settings').doc(settingsId).update({ data: { 'modules.canteen.enabled': false } })
   const closed = await request('/api/public/modules', null, null, 'GET')
   check(closed.body.data.modules.canteen === false, '关闭模块即时反映在公开配置')

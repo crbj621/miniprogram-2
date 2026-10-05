@@ -1,0 +1,31 @@
+@import "../../styles/gifts.wxss";
+.view-page { text-align:center; padding-top:90rpx; }
+.gift-seal { font-size:120rpx; margin:40rpx 0 20rpx; animation:gift-float 3s ease-in-out infinite; }
+.recipient { display:block; font-size:29rpx; margin:26rpx 0 40rpx; }
+.letter { text-align:left; animation:gift-open .5s ease both; }
+.letter-message { display:block; white-space:pre-wrap; word-break:break-all; line-height:2; font-size:30rpx; margin:26rpx 0; }
+.sender { display:block; text-align:right; color:#ae8da3; font-size:24rpx; }
+.preview-note { margin-top:36rpx; }
+.guestbook { text-align:left; }
+.guest-note { border-bottom:2rpx dashed #e7d5e4; padding:20rpx 0; }
+.guest-note .card-title { font-size:25rpx; }
+.guestbook textarea { margin-top:20rpx; }
+.home { margin-top:30rpx !important; }
+.background-night { background:linear-gradient(130deg,#e9e5ff,#f7e9fb); }
+.cake { height:270rpx; padding-top:55rpx; margin-bottom:30rpx; position:relative; text-align:center; }
+.cake-top { position:relative; height:50rpx; width:260rpx; border-radius:50%; background:#ffd6d9; margin:auto; z-index:2; border:7rpx solid #fff5e9; }
+.cake-base { height:100rpx; width:260rpx; margin:-25rpx auto 12rpx; border-radius:0 0 45rpx 45rpx; background:linear-gradient(#fff0d8 50%,#efb3ad 50%); }
+.candle { position:absolute; width:16rpx; height:64rpx; background:repeating-linear-gradient(45deg,#fff 0,#fff 10rpx,#c9b4ed 10rpx,#c9b4ed 20rpx); top:20rpx; left:calc(50% - 8rpx); z-index:3; }
+.flame { position:absolute; width:20rpx; height:32rpx; border-radius:60% 60% 45% 45%; background:#ffcb60; top:-34rpx; box-shadow:0 0 25rpx #ffc570; animation:gift-float .7s ease-in-out infinite; }
+@keyframes gift-float { 50% { transform:translateY(-8rpx); } }
+@keyframes gift-open { from { opacity:0; transform:translateY(20rpx); } to { opacity:1; transform:none; } }
+.scenic-view { position:relative; background:#14283d; color:#fff4fa; }
+.view-scene,.view-scene-shade { position:fixed; top:0; left:0; width:100vw; height:100vh; pointer-events:none; }
+.view-scene { z-index:0; }
+.view-scene-shade { z-index:0; background:linear-gradient(#101b3238,transparent 60%,#091b2d55); }
+.scenic-view > text,.scenic-view > button,.scenic-view > .card,.scenic-view > .gift-seal,.scenic-view > .row,.scenic-view > .notice,.scenic-view > .error { position:relative; z-index:1; }
+.scenic-view .gift-kicker,.scenic-view > .muted { color:#e6edfa; text-shadow:0 2rpx 12rpx #0a1738; }
+.scenic-view .gift-title,.scenic-view .recipient { text-shadow:0 2rpx 16rpx #0b1938; }
+.scenic-view .card { color:#675767; }
+.scenic-view.background-clouds3d { color:#355369; }
+.scenic-view.background-clouds3d .gift-title,.scenic-view.background-clouds3d .recipient,.scenic-view.background-clouds3d > .muted,.scenic-view.background-clouds3d .gift-kicker { color:#355369; text-shadow:0 2rpx 12rpx #fff; }

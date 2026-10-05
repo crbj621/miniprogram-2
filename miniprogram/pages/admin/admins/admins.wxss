@@ -120,6 +120,7 @@
   align-items: center;
   justify-content: center;
   padding: 30rpx;
+  box-sizing: border-box;
 }
 
 .modal {
@@ -128,9 +129,13 @@
   background: #fff;
   border-radius: 20rpx;
   overflow: hidden;
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .modal-header {
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -151,6 +156,11 @@
 }
 
 .modal-body {
+  flex: 1;
+  min-height: 0;
+  height: 55vh;
+  max-height: 55vh;
+  box-sizing: border-box;
   padding: 22rpx 24rpx;
 }
 
@@ -165,6 +175,7 @@
 }
 
 .input {
+  width: 100%;
   background: #f7f8fa;
   border-radius: 12rpx;
   padding: 16rpx 16rpx;
@@ -172,10 +183,19 @@
 }
 
 .modal-footer {
+  flex-shrink: 0;
   display: flex;
   gap: 18rpx;
   padding: 18rpx 24rpx 24rpx;
   border-top: 1rpx solid #f0f0f0;
+}
+
+.modal-footer .btn {
+  width: auto;
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+  line-height: 1.4;
 }
 
 

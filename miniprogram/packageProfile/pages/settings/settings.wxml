@@ -1,3 +1,4 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="container">
   <!-- 设置项列表 -->
   <view class="settings-list">
@@ -54,3 +55,4 @@
     </view>
   </view>
 </view>
+</block>

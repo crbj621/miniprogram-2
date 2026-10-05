@@ -1,3 +1,4 @@
+<share-intro wx:if="{{__sharePublic}}" title="{{__shareTitle}}" path="{{__sharePath}}" /><block wx:else>
 <view class="login-container">
   <image class="bg-image" src="/images/login-bg.png" mode="aspectFill"></image>
   <view class="bg-overlay"></view>
@@ -5,7 +6,7 @@
   <view class="login-content">
     <view class="login-logo">
       <text class="logo-text">食堂点餐</text>
-      <text class="slogan">美味直达，轻松点餐</text>
+      <text class="slogan">{{pageCopy.subtitle}}</text>
     </view>
     
     <view class="form-section tech-card">
@@ -19,7 +20,7 @@
       
       <view class="form-item">
         <text class="form-label">昵称</text>
-        <input class="nickname-input tech-input" type="nickname" placeholder="请输入昵称" bindinput="onNicknameInput" bindblur="onNicknameBlur" value="{{userInfo.nickName}}" placeholder-style="color:#8597ad" />
+        <input adjust-position="{{true}}" cursor-spacing="24" class="nickname-input tech-input" type="nickname" placeholder="请输入昵称" bindinput="onNicknameInput" bindblur="onNicknameBlur" value="{{userInfo.nickName}}" placeholder-style="color:#8597ad" />
       </view>
     </view>
     
@@ -32,3 +33,5 @@
     </view>
   </view>
 </view>
+
+</block>

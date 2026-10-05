@@ -1,5 +1,6 @@
+import { withSharing } from '../../../utils/page-share'
 import { api } from '../../../utils/api-client'
-Page({
+Page(withSharing({
   data: {
     hasTeam: false,
     teamInfo: null as any,
@@ -149,6 +150,7 @@ Page({
   },
 
   hideCreateModal() {
+    wx.hideKeyboard()
     this.setData({ createModalVisible: false, newTeamName: '' })
   },
 
@@ -200,6 +202,7 @@ Page({
   },
 
   hideJoinModal() {
+    wx.hideKeyboard()
     this.setData({ joinModalVisible: false, inviteCode: '' })
   },
 
@@ -315,4 +318,4 @@ Page({
       }
     })
   }
-})
+}))

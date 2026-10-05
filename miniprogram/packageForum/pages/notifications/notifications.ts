@@ -1,5 +1,6 @@
+import { withSharing } from '../../../utils/page-share'
 import { api } from '../../../utils/api-client'
-Page({
+Page(withSharing({
   data: {
     notifications: [] as any[],
     loading: false,
@@ -138,4 +139,4 @@ Page({
   goBack() {
     wx.navigateBack()
   }
-})
+}))
