@@ -54,7 +54,7 @@ SSH 配置 C:/Users/Administrator/.ssh/config。Python 维护脚本优先读取�
 
 ## 检查
 
-本机：npm run check、npm test、npm run check:wxml、npm run check:wxss。最新官方preview已成功，见[预览体积](ui-preview/canteen/preview-result.json)；此前跑步／输入／英语记录是历史验证。
+本机：npm run check、npm test、npm run check:wxml、npm run check:wxss。最新官方preview已成功，见[预览体积](ui-preview/package-size/preview-result.json)；此前跑步／输入／英语记录是历史验证。
 
 服务器真实回归需读取运行 env 并在当前 server 下执行 scripts/test-selfhost.js 或对应专项脚本。测试包含数据写入与 finally 清理，不能在活跃运营库盲目反复执行；详见 [业务规则](business-rules.md)。
 
@@ -92,7 +92,7 @@ SSH 配置 C:/Users/Administrator/.ssh/config。Python 维护脚本优先读取�
 
 本机完整npm test、TS／67页结构、76WXML／84WXSS通过；三个食堂本机测试和真实隔离MariaDB29项通过，临时库、账号和解压目录已清理。数据库写入测试只允许campus_test_库，脚本server/scripts/test-canteen-interactions.js，不在生产库运行。10种状态×320／390宽共20个浏览器转换样例通过，展示数据为模拟，不冒充微信原生。
 
-最新官方预览与包体积见[食堂预览](ui-preview/canteen/preview-result.json)，二维码`C:/Users/Administrator/Downloads/campus-canteen-preview-20261005.png`。最新小程序需要开发者工具重新编译／扫码此预览；真实上传、安卓键盘和正式发布仍需客户端验收。改造契约见[食堂模块](canteen.md)。
+本节当时的官方预览与包体积见[食堂预览](ui-preview/canteen/preview-result.json)，二维码`C:/Users/Administrator/Downloads/campus-canteen-preview-20261005.png`。最新包体积以[主包修复记录](ui-preview/package-size/preview-result.json)为准；真实上传、安卓键盘和正式发布仍需客户端验收。改造契约见[食堂模块](canteen.md)。
 
 ### 2026-10-05 主机状态、可折叠装饰卡与规则代理
 

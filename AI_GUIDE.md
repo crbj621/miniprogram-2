@@ -6,6 +6,8 @@ GitHub维护与公开检查见docs/github-guide.md、docs/public-release-audit.m
 
 点餐、商家、骑手和优惠券及关联接口已移除；只保留旧版公开模块food/rider固定关闭标记与旧身份缓存清理，不能恢复相应业务。当前五个模块与46页以app.json和module-policy为准。
 
+2026-10-05主包超限修复：未引用的hyj.png、hyjj.png原件在docs/assets/originals，不能复制回miniprogram/images；学生登录仍用原login-bg.png。官方预览主包677,638字节／总包1,187,616字节，见docs/ui-preview/package-size/preview-result.json。该记录不等于真机调试成功或正式发布。
+
 ## 定位修改
 
 | 需求 | 实际位置 |
@@ -35,7 +37,7 @@ GitHub维护与公开检查见docs/github-guide.md、docs/public-release-audit.m
 
 `npm run check`、`npm test`、`npm run check:wxml`、`npm run check:wxss`；实际预览使用微信官方 CLI，需工具服务端口开启。TS 输出保持 ES2017，ES6 / 增强编译开启；不要让预览包重新保留不兼容的可选链。
 
-当前46页/55WXML/63WXSS检查通过；原67页/76WXML/84WXSS为移除前检查快照，npm test全量回归通过。当前英语内存186项／隔离MariaDB193项，祝福内存214项／隔离MariaDB239项，小程序祝福78项通过。微信原生模拟器此前实际加载2019、2026四级／六级32题整卷，已复核画布和公开分享入口；本次6张风景JPEG及封面13项、本地两种答题音与地图状态7项通过。浏览器8模板、4免费静态插画、2真实视频已验证，英语20场景各两种视口共40个布局样例通过。最新官方预览体积见docs/ui-preview/canteen/preview-result.json；该记录不代表正式发布。安卓实体键盘、真实微信登录、手机发音、GPS／后台运动、真实好友／朋友圈及正式发布仍待真机验证。
+当前46页/55WXML/63WXSS检查通过；原67页/76WXML/84WXSS为移除前检查快照，npm test全量回归通过。当前英语内存186项／隔离MariaDB193项，祝福内存214项／隔离MariaDB239项，小程序祝福78项通过。微信原生模拟器此前实际加载2019、2026四级／六级32题整卷，已复核画布和公开分享入口；本次6张风景JPEG及封面13项、本地两种答题音与地图状态7项通过。浏览器8模板、4免费静态插画、2真实视频已验证，英语20场景各两种视口共40个布局样例通过。最新官方预览体积见docs/ui-preview/package-size/preview-result.json；该记录不代表正式发布。安卓实体键盘、真实微信登录、手机发音、GPS／后台运动、真实好友／朋友圈及正式发布仍待真机验证。
 
 服务使用自建Node.js＋MariaDB，当前源码与20261005-173247部署均19个服务；本次发布点与隔离SQL回归结果以 docs/operations.md 为准，不把本机完成写成已部署。实时模块值、用户和数据库条数必须从接口查询，不把文档快照当作固定状态。英语内容与接口见 docs/english.md；已发布2019年6月至2026年6月104份不含听力目录编排（52份／级），每份作文1＋阅读30＋翻译1，共3328条新记录，加原326条为3654条。12份共享阅读并非104份独立阅读；208道主观题为原创参考，客观新解析为程序生成定位说明，仍有1处参考答案争议。目录优先新nonlistening卷并去重，旧57题卷与阅读专项保留旧记录复盘。资料目录不等同逐题人工详解。不导入旧腾讯云数据；旧云环境未执行停用。
 
@@ -47,7 +49,7 @@ GitHub维护与公开检查见docs/github-guide.md、docs/public-release-audit.m
 
 祝福背景最终分类：草原星夜、森林月夜、晴空花野、极光海岸是免费静态插画，旧ID保留；收费动态区仅video-fire／video-stars的真实循环视频，各6金币。catalog的poster/widePoster/nativePoster/video定位竖横图片与视频，原生编辑与展示页现已实际播放视频，支持暂停、恢复和失败重试；完整网页特效在浏览器。旧WebGL/Starrysky/Vanta动效分支与无引用vendor已外置备份后移出，不能恢复为当前动态分类。素材见docs/gift-landscape-assets.md，生成原PNG／原MP4与处理清单位于Downloads，原小程序背景不换。
 
-首页底部“校园守护站”默认收起，现有女生人物作装饰；展开才显示CPU、整机RAM、主机连续运行时长、根硬盘、网站总占用、有效／公示祝福总数和Google／YouTube状态。不列出现有网站名称与地址，个人主页另保留友情链接。接口/api/public/server-status：主机5秒采样、前端可见时10秒轮询、网站磁盘5分钟、外网1小时；未知不能补成0。网站占用为4个既有网站／服务／图片目录分配空间加业务库表与索引，不含备份；非root服务不得读取数据库私有目录。详见docs/operations.md。最新官方预览见docs/ui-preview/canteen/preview-result.json；折叠／展开4个浏览器转换布局通过，不能当作本次原生或真机验收。
+首页底部“校园守护站”默认收起，现有女生人物作装饰；展开才显示CPU、整机RAM、主机连续运行时长、根硬盘、网站总占用、有效／公示祝福总数和Google／YouTube状态。不列出现有网站名称与地址，个人主页另保留友情链接。接口/api/public/server-status：主机5秒采样、前端可见时10秒轮询、网站磁盘5分钟、外网1小时；未知不能补成0。网站占用为4个既有网站／服务／图片目录分配空间加业务库表与索引，不含备份；非root服务不得读取数据库私有目录。详见docs/operations.md。最新官方预览见docs/ui-preview/package-size/preview-result.json；折叠／展开4个浏览器转换布局通过，不能当作本次原生或真机验收。
 
 代理当前保持Mihomo规则模式、原9263条规则与DNS；原生HTTP provider每6小时更新订阅，URLTest自动组筛选0.1倍节点并以HTTPS测速。当前主选组使用美国自动组，重启保留；国内百度日志确认为DIRECT，Google／YouTube两轮200。节点供应方的名字倍率不由本项目计费；配置与provider缓存明文副本在maintenance/账号与连接，维护脚本scripts/configure-mihomo-subscription.py，不另造订阅定时守护进程。
 

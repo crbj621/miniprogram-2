@@ -1,0 +1,76 @@
+{
+  "size": {
+    "total": 1187616,
+    "packages": [
+      {
+        "name": "TOTAL",
+        "size": 1187616
+      },
+      {
+        "name": "main",
+        "size": 677638
+      },
+      {
+        "name": "/packageCanteen/",
+        "size": 92319
+      },
+      {
+        "name": "/packageEnglish/",
+        "size": 133756
+      },
+      {
+        "name": "/packageForum/",
+        "size": 153054
+      },
+      {
+        "name": "/packageGifts/",
+        "size": 67076
+      },
+      {
+        "name": "/packageProfile/",
+        "size": 63773
+      }
+    ]
+  },
+  "generatedAt": "2026-10-05T12:20:27.767339+00:00",
+  "kind": "official-wechat-cli-preview",
+  "qrPath": "C:/Users/Administrator/Downloads/campus-size-fixed-20261005.png",
+  "comparison": {
+    "reportedRemoteDebugMainKB": 2122,
+    "previewMainBeforeBytes": 1963752,
+    "previewMainAfterBytes": 677638,
+    "removedFromUploadBytes": 1286114,
+    "packageLimitBytes": 2097152
+  },
+  "assets": [
+    {
+      "from": "miniprogram/images/hyj.png",
+      "to": "docs/assets/originals/hyj.png",
+      "bytes": 697969,
+      "sha256": "574be594c3794ea3f25f44defa0f324a673235791f0780eeb8a7a9bbb6cf4c17",
+      "unchanged": true
+    },
+    {
+      "from": "miniprogram/images/hyjj.png",
+      "to": "docs/assets/originals/hyjj.png",
+      "bytes": 588145,
+      "sha256": "243bdd8a7da065ec14eb99ecac45905960546922a94a6f870e984863dd3b77e3",
+      "unchanged": true
+    },
+    {
+      "from": "miniprogram/images/login-bg.png",
+      "to": "miniprogram/images/login-bg.png",
+      "bytes": 329440,
+      "sha256": "874235c325d8dfa2bba0255a834303571c9ed2da5c156bc7766b6bcd391e30b4",
+      "unchanged": true
+    }
+  ],
+  "backup": "C:/Users/Administrator/Downloads/campus-before-package-sizing-20261005-200818",
+  "checks": {
+    "projectPages": 46,
+    "officialWxmlFiles": 55,
+    "officialWxssFiles": 63
+  },
+  "remoteDebugUploadVerified": false,
+  "note": "Official preview succeeded. Old automator connection unavailable; real-device debug upload and phone behavior still need verification. No formal release."
+}

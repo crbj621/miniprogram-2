@@ -25,6 +25,8 @@ docs/assets/README.md,md,最终刷新角色素材与运行地址说明,component
 docs/assets/campus-companions/boy-base.png,png,伙伴素材的原始设计说明与来源，运行版见 server/public/english,docs/english.md；components/campus-companion
 docs/assets/campus-companions/girl-base.png,png,伙伴素材的原始设计说明与来源，运行版见 server/public/english,docs/english.md；components/campus-companion
 docs/assets/mahiro-refresh-v2.png,png,最终刷新角色素材与运行地址说明,components/mahiro-scroll；服务器 uploads
+docs/assets/originals/hyj.png,png,按用户要求保留的未使用原图；内容不变,docs/assets/README.md；位于微信上传目录外，不计主包
+docs/assets/originals/hyjj.png,png,按用户要求保留的未使用原图；内容不变,docs/assets/README.md；位于微信上传目录外，不计主包
 docs/business-rules.md,md,权限、事务、评分、跑步与组队算法规则,
 docs/canteen.md,md,多次评论、最新独立评分、餐次、投稿查重、补图修改和争议评分核查,
 docs/english.md,md,四六级内容来源、学习计划、打卡、挑战、金币、伙伴及完整接口,
@@ -390,6 +392,7 @@ docs/ui-preview/gifts/wall-closed.png,png,当前布局预览 / 编译体积；�
 docs/ui-preview/gifts/wall.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
 docs/ui-preview/login.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
 docs/ui-preview/module-settings.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
+docs/ui-preview/package-size/preview-result.json,json,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
 docs/ui-preview/portal.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
 docs/ui-preview/run-320x568.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
 docs/ui-preview/run.png,png,当前布局预览 / 编译体积；浏览器样例，非真机数据,docs/ui.md
@@ -489,12 +492,10 @@ miniprogram/components/tech-switch/tech-switch.ts,ts,原生组件：tech-switch 
 miniprogram/components/tech-switch/tech-switch.wxml,wxml,原生组件：tech-switch / wxml,页面 JSON usingComponents；同目录结构、样式、逻辑
 miniprogram/components/tech-switch/tech-switch.wxss,wxss,原生组件：tech-switch / wxss,页面 JSON usingComponents；同目录结构、样式、逻辑
 miniprogram/config/api.ts,ts,自建服务器地址与缓存版本,
-miniprogram/images/hyj.png,png,原图片 / 导航图标；按用户要求保留,hyj/hyjj 当前未引用；login-bg 用于两个登录页；图标见 app.json
-miniprogram/images/hyjj.png,png,原图片 / 导航图标；按用户要求保留,hyj/hyjj 当前未引用；login-bg 用于两个登录页；图标见 app.json
-miniprogram/images/login-bg.png,png,原图片 / 导航图标；按用户要求保留,hyj/hyjj 当前未引用；login-bg 用于两个登录页；图标见 app.json
+miniprogram/images/login-bg.png,png,原图片 / 导航图标；按用户要求保留,login-bg 用于学生登录；图标见 app.json；未使用原图在 docs/assets/originals
 miniprogram/images/map-location-dot.png,png,原创32px地图圆点；人物图片下载失败时的本地兜底,pages/index/index.ts 的个人原生map marker
 miniprogram/images/map-location-dot.svg,svg,原创32px地图圆点；人物图片下载失败时的本地兜底,pages/index/index.ts 的个人原生map marker
-miniprogram/images/tab-run.png,png,原图片 / 导航图标；按用户要求保留,hyj/hyjj 当前未引用；login-bg 用于两个登录页；图标见 app.json
+miniprogram/images/tab-run.png,png,原图片 / 导航图标；按用户要求保留,login-bg 用于学生登录；图标见 app.json；未使用原图在 docs/assets/originals
 miniprogram/packageCanteen/pages/admin/admin.json,json,页面配置与组件注册,miniprogram/packageCanteen/pages/admin/admin.*；注册于 miniprogram/app.json
 miniprogram/packageCanteen/pages/admin/admin.ts,ts,页面数据、接口请求与点击逻辑,miniprogram/packageCanteen/pages/admin/admin.*；注册于 miniprogram/app.json
 miniprogram/packageCanteen/pages/admin/admin.wxml,wxml,页面结构、数据绑定与控件事件,miniprogram/packageCanteen/pages/admin/admin.*；注册于 miniprogram/app.json

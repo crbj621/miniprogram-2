@@ -5,3 +5,7 @@ mahiro-refresh-v2.png 是最终透明 Q 版真寻贴纸，按用户选择保留�
 小程序 components/mahiro-scroll 从本服务器读取；PNG 位于微信上传目录之外。蓄力、跳动、成功、失败由 WXSS 实现，不是 GIF。减少动态时关闭循环，加载失败保留文字提示。
 
 修改素材前先查看原图；用户当前要求保留图片，不替换或降低质量。布局截图在 docs/ui-preview，不作为真实运营数据。
+
+## 未使用的原背景
+
+`originals/hyj.png`、`originals/hyjj.png` 是用户要求保留的原图，当前没有页面引用。2026-10-05从`miniprogram/images`移到这里，内容和清晰度不变，共1,286,114字节。`docs`在微信上传目录之外，避免未使用图片占用主包；不要复制回上传目录。学生登录仍使用`miniprogram/images/login-bg.png`。

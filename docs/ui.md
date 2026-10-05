@@ -27,7 +27,15 @@
 | components/campus-sticker / run-tabbar | 原生可爱贴纸、跑步导航 |
 | utils/keyboard-viewport.ts | 聊天与评论可视区域；兼容安卓窗口缩小和键盘覆盖，去重高度事件、离页解除监听 |
 
-[Uiverse 来源与许可](vendor/uiverse/README.md)；[刷新素材](assets/README.md)。原 hyj.png、hyjj.png、login-bg.png 保留在 miniprogram/images，两个登录页仍用本地原背景；前两张目前没有页面引用，但用户明确要求保留。
+[Uiverse 来源与许可](vendor/uiverse/README.md)；[刷新素材与原图](assets/README.md)。未使用的原 hyj.png、hyjj.png 保留在 docs/assets/originals，原文件内容不变，位于微信上传目录外。学生登录仍使用 miniprogram/images/login-bg.png；管理员登录使用现有浅色卡片。
+
+### 主包体积（2026-10-05）
+
+真机调试报主包源码2122KB超过2048KB。定位到两张未引用原图仍在上传目录，官方预览移动前主包1,963,752字节，移动后677,638字节，减少量与两张原图1,286,114字节完全一致；总包1,187,616字节，各分包体积未变。[官方预览记录](ui-preview/package-size/preview-result.json)，二维码在Downloads/campus-size-fixed-20261005.png。46页结构、55WXML、63WXSS检查通过；原图和当前login-bg的SHA256与修改前一致。此次未改变页面路由、界面或业务代码。
+
+调研关键词：`wechat miniprogram subpackages`、`miniprogram-slim unused files packOptions`；候选[微信官方分包示例](https://github.com/wechat-miniprogram/miniprogram-demo/blob/master/miniprogram/app.json)、[官方依赖瘦身工具](https://github.com/wechat-miniprogram/miniprogram-slim/blob/master/docs/deps.md)。后者已归档，且图片不在其完整分析范围内；本次人工核对图片引用并按原生miniprogramRoot边界整理原件，不新增构建框架。当前工具packOptions排除测试未降低体积，最终采用移出上传目录的完整解决方案。
+
+真机调试上传与手机连接仍待用户重新点击“编译 → 真机调试”验证；本机旧版automator连接失败，不能将官方预览当作真机调试上传成功。未上传正式微信版本，前端素材整理无需服务器部署。
 
 文案调研关键词：`Hitokoto sentence API max_length`、`hitokoto-api`。候选为[一言接口](https://developer.hitokoto.cn/sentence/)及[开源服务](https://github.com/hitokoto-osc/hitokoto-api)。官方国内接口限制 2 QPS，完整服务还依赖 Redis；本次短句随机复用已有页面生命周期和原生控件，使用本地原创池，未接第三方 API、未增加网络请求或运行依赖。普通输入和卡片重绘不会触发换文案。
 

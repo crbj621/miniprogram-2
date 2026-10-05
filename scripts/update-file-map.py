@@ -121,7 +121,10 @@ for directory, folders, files in os.walk(root):
                 relation = 'pages/index/index.ts 的个人原生map marker'
             else:
                 purpose = '原图片 / 导航图标；按用户要求保留'
-                relation = 'hyj/hyjj 当前未引用；login-bg 用于两个登录页；图标见 app.json'
+                relation = 'login-bg 用于学生登录；图标见 app.json；未使用原图在 docs/assets/originals'
+        elif relative.startswith('docs/assets/originals/'):
+            purpose = '按用户要求保留的未使用原图；内容不变'
+            relation = 'docs/assets/README.md；位于微信上传目录外，不计主包'
         elif not purpose:
             if relative.startswith('docs/vendor/'):
                 purpose = '实际采用的 UI 原码、来源与许可'
