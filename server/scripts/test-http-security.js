@@ -39,6 +39,12 @@ async function main() {
     return fetch(base + '/api/files/upload', { method: 'POST', headers: { authorization: 'Bearer ' + token }, body: form })
   }
   try {
+    for (const name of ['food_manager', 'coupon_manager', 'rider']) {
+      equal((await post('/api/functions/' + name, { action: 'getShopList' }, true)).status, 404, 'removed ordering service cannot be called')
+    }
+    for (const page of ['orders.html', 'menus.html']) {
+      equal((await fetch(base + '/admin/' + page)).status, 404, 'removed admin page is absent')
+    }
     for (const collection of ['users', 'teams', 'runRecords']) {
       equal((await post('/api/public/database', { collection, operation: 'get' })).status, 404, 'anonymous generic database is absent')
     }

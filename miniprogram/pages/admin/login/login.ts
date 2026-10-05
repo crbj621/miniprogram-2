@@ -34,7 +34,7 @@ Page(withSharing({
     this.setData({ loading: true, error: '' })
 
     try {
-      // 统一走 globalAdmin：避免点餐/动态/跑步等多个后台各自维护账号体系
+      // 统一走 globalAdmin：避免动态/跑步等多个后台各自维护账号体系
       var res = await api.call({
         name: 'globalAdmin',
         data: {

@@ -1,6 +1,6 @@
 type CopyPair = [string, string, string?]
 export type PageCopy = { title: string; subtitle: string; greeting: string }
-export type PageCopyScope = 'login' | 'portal' | 'portalSection' | 'running' | 'runRank' | 'pairRank' | 'food' | 'foodLogin' | 'canteen' | 'forum' | 'english' | 'englishRank' | 'gifts' | 'wardrobe'
+export type PageCopyScope = 'login' | 'portal' | 'portalSection' | 'running' | 'runRank' | 'pairRank' | 'canteen' | 'forum' | 'english' | 'englishRank' | 'gifts' | 'wardrobe'
 
 // 只用于装饰性标题、问候与鼓励；功能、规则和用户内容保持原文。
 const copies: { [key: string]: CopyPair[] } = {
@@ -59,22 +59,6 @@ const copies: { [key: string]: CopyPair[] } = {
     ['冠军席位，等你们来争', '今天的目标，是一起更进一步'],
     ['双人出场，一起闪耀', '你迈一步，我也跟上，一起向前'],
     ['这一程，一起争个漂亮', '和搭子认真开跑，为彼此攒一份骄傲']
-  ],
-  food: [
-    ['今天，也要好好吃饭', '热乎乎的一餐，给忙碌的自己'],
-    ['把好心情端上桌', '挑一份喜欢的，给今天加点滋味'],
-    ['饭点的小快乐来了', '认真吃饭，也是一件幸福的小事'],
-    ['给日常补一点元气', '和朋友一起，把一餐吃得暖暖的'],
-    ['今日快乐从一餐开始', '停下忙碌，照顾一下自己的胃'],
-    ['让这一餐治愈你', '把喜欢的味道，安排进今天']
-  ],
-  foodLogin: [
-    ['饭点的小快乐', '美味直达，轻松点餐'],
-    ['把心情端上桌', '好好吃饭，让今天暖一点'],
-    ['一餐一份小满足', '选喜欢的味道，照顾忙碌的自己'],
-    ['元气补给准备好啦', '热乎乎的校园日常，从这一餐开始'],
-    ['和美味打个招呼', '慢慢挑，让好心情陪你吃饭'],
-    ['给日常加点滋味', '饭点到了，来找一份喜欢的']
   ],
   canteen: [
     ['发现食堂的小宝藏', '把真实评价，变成你的觅食指南'],

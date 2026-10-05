@@ -74,19 +74,19 @@ async function main() {
   const normalToken = token(prefix + '-normal-openid', 'admin')
   check((await request('/api/admin/database', { collection: 'global_settings', operation: 'update', data: { appName: '越权' } }, normalToken)).http === 403, '普通管理员不能改系统配置')
 
-  const moduleFlags = { running: true, food: false, canteen: true, forum: false, rider: false }
+  const moduleFlags = { running: true, canteen: true, forum: false, english: false, gifts: false }
   const moduleSave = await call(adminToken, 'globalAdmin', { action: 'updateGlobalSettings', data: {
     modules: Object.fromEntries(Object.entries(moduleFlags).map(([key, enabled]) => [key, { enabled }]))
   } })
   check(moduleSave.code === 0, '超级管理员保存五项模块开关')
-  assert.deepEqual((await request('/api/public/modules', null, null, 'GET')).body.data.modules, moduleFlags)
+  assert.deepEqual((await request('/api/public/modules', null, null, 'GET')).body.data.modules, { food: false, rider: false, ...moduleFlags })
   passed += 1
   check((await call(adminToken, 'globalAdmin', { action: 'getModuleList' })).data.list.length === 5, '后台完整返回五个模块')
-  check((await call(adminToken, 'globalAdmin', { action: 'updateModuleStatus', data: { module: 'rider', enabled: true } })).code === 0, '骑手开关可以单独开启')
+  check((await call(adminToken, 'globalAdmin', { action: 'updateModuleStatus', data: { module: 'english', enabled: true } })).code === 0, '英语开关可以单独开启')
   const afterToggle = (await request('/api/public/modules', null, null, 'GET')).body.data.modules
-  check(afterToggle.rider === true && afterToggle.food === false, '单项保存不覆盖其他模块')
-  check((await call(normalToken, 'globalAdmin', { action: 'updateGlobalSettings', data: { modules: { food: true } } })).code !== 0, '普通管理员不能通过业务接口改开关')
-  check((await call(adminToken, 'globalAdmin', { action: 'updateModuleStatus', data: { module: 'food', enabled: 'false' } })).code !== 0, '服务器拒绝无效开关值')
+  check(afterToggle.english === true && afterToggle.forum === false, '单项保存不覆盖其他模块')
+  check((await call(normalToken, 'globalAdmin', { action: 'updateGlobalSettings', data: { modules: { english: true } } })).code !== 0, '普通管理员不能通过业务接口改开关')
+  check((await call(adminToken, 'globalAdmin', { action: 'updateModuleStatus', data: { module: 'english', enabled: 'false' } })).code !== 0, '服务器拒绝无效开关值')
   await db.collection('global_settings').doc(settingsId).set({ data: originalSettings })
   await db.collection('global_settings').doc(settingsId).update({ data: { 'modules.canteen.enabled': true } })
 
@@ -145,28 +145,6 @@ async function main() {
   }), /intentional rollback/)
   check((await db.collection('run_stats').doc(atomicId).get()).data.count === 0 &&
     (await db.collection('run_stats').doc(counterId).get()).data.count === 40, '跨文档失败完整回滚')
-
-  const couponId = 'new_user_' + crypto.createHash('sha256').update(userA).digest('hex').slice(0, 32)
-  saved.push(['user_coupons', couponId])
-  const claims = await Promise.all(Array.from({ length: 12 }, () => call(studentA, 'coupon_manager', { action: 'claimNewUserCoupon' })))
-  check(claims.filter(result => result.success).length === 1, '并发领券只成功一次')
-  await db.collection('user_coupons').doc(couponId).update({ data: { used: true } })
-  check(!(await call(studentA, 'coupon_manager', { action: 'claimNewUserCoupon' })).success &&
-    (await db.collection('user_coupons').doc(couponId).get()).data.used === true, '再次领券不能恢复已核销券')
-
-  const shopId = prefix + '-shop', dishId = prefix + '-food'
-  await create('food_shop', shopId, { name: '测试商家', auditStatus: 'approved', status: 'open', minPrice: 0, deliveryFee: 0 })
-  await create('food_dish', dishId, { shopId, name: '测试菜', price: 12, stock: 1, sales: 0, isAvailable: true })
-  const orderData = { shopId, items: [{ _id: dishId, count: 1 }], type: 'pickup', pickupTime: '12:00', phone: '13800000000', useRunDiscount: false }
-  const purchases = await Promise.all([studentA, studentB].map(auth => call(auth, 'food_manager', { action: 'createOrder', data: orderData })))
-  for (const purchase of purchases) if (purchase.orderId) saved.push(['food_order', purchase.orderId])
-  check(purchases.filter(result => result.success).length === 1, '仅剩一份库存并发下单只成功一次')
-  const foodOrders = (await db.collection('food_order').where({ shopId }).get()).data
-  check(foodOrders.length === 1 && (await db.collection('food_dish').doc(dishId).get()).data.stock === 0, '失败下单不残留订单、不超卖')
-  const winner = purchases.findIndex(result => result.success)
-  const cancel = await call([studentA, studentB][winner], 'food_manager', { action: 'updateOrderStatus', data: { orderId: purchases[winner].orderId, status: 'cancelled' } })
-  check(cancel.success && (await db.collection('food_dish').doc(dishId).get()).data.stock === 1, '取消订单完整恢复库存')
-  await db.collection('food_shop_logs').where({ shopId }).remove()
 
   const runs = Array.from({ length: 1001 }, (_, index) => [
     'runRecords', prefix + '-run-' + index,

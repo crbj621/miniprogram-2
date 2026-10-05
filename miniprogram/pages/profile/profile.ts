@@ -6,10 +6,10 @@ import { getSavedCampusTheme } from '../../utils/campus-theme'
 Page(withSharing({
   data: {
     theme: getSavedCampusTheme('profile'),
-    // 个人中心来源：用于决定功能区优先级（running/forum/food）
+    // 个人中心来源：用于决定功能区优先级（running/forum）
     source: 'profile',
     menuGroups: [] as any[],
-    modules: { running: false, food: false, canteen: false, forum: false, rider: false },
+    modules: { running: false, canteen: false, forum: false, rider: false },
     modulesState: 'loading',
     hasOpenModules: false,
 
@@ -123,25 +123,6 @@ Page(withSharing({
       ]
     }
 
-    const foodGroup = {
-      key: 'food',
-      title: '点餐',
-      items: [
-        { id: 'food_orders', icon: '📋', title: '我的点餐订单', desc: '查看点餐订单列表', bg: 'linear-gradient(135deg, #fddb92 0%, #d1fdff 100%)', action: 'foodOrders', needLogin: true },
-        { id: 'food_merchant', icon: '🏪', title: '商家入口', desc: '商家登录与管理', bg: 'linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)', action: 'foodMerchant', needLogin: true }
-      ]
-    }
-
-    const riderGroup = {
-      key: 'rider',
-      title: '骑手兼职',
-      items: [
-        { id: 'rider_hall', icon: '🛵', title: '接单大厅', desc: '查看可接配送单', bg: 'linear-gradient(135deg, #c2ffd8 0%, #465efb 100%)', action: 'riderHall', needLogin: true },
-        { id: 'rider_my', icon: '📦', title: '我的配送订单', desc: '配送状态流转管理', bg: 'linear-gradient(135deg, #b8c6ff 0%, #6f86d6 100%)', action: 'riderMy', needLogin: true },
-        { id: 'rider_reg', icon: '📝', title: '骑手注册/信息', desc: '注册或修改骑手信息', bg: 'linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)', action: 'riderRegister', needLogin: true }
-      ]
-    }
-
     const socialGroup = {
       key: 'social',
       title: '社交',
@@ -161,15 +142,13 @@ Page(withSharing({
       ]
     }
 
-    const map: any = { running: runningGroup, forum: forumGroup, food: foodGroup, rider: riderGroup, social: socialGroup, other: otherGroup }
+    const map: any = { running: runningGroup, forum: forumGroup, social: socialGroup, other: otherGroup }
 
     const source = this.data.source || 'profile'
     const priority: string[] =
-      source === 'running' ? ['running', 'forum', 'food', 'rider', 'social', 'other']
-      : source === 'forum' ? ['forum', 'running', 'food', 'rider', 'social', 'other']
-      : source === 'food' ? ['food', 'running', 'forum', 'rider', 'social', 'other']
-      : source === 'rider' ? ['rider', 'food', 'running', 'forum', 'social', 'other']
-      : ['running', 'forum', 'food', 'rider', 'social', 'other']
+      source === 'running' ? ['running', 'forum', 'social', 'other']
+      : source === 'forum' ? ['forum', 'running', 'social', 'other']
+      : ['running', 'forum', 'social', 'other']
 
     priority.forEach((k) => {
       if (k === 'other' || (k === 'social' ? this.data.modules.running : this.data.modules[k])) groups.push(map[k])
@@ -194,16 +173,6 @@ Page(withSharing({
         return wx.navigateTo({ url: '/packageForum/pages/list/list?tab=collections' })
       case 'forumJob':
         return wx.navigateTo({ url: '/packageForum/pages/list/list?category=job' })
-      case 'foodOrders':
-        return wx.navigateTo({ url: '/packageFood/pages/order_list/order_list' })
-      case 'foodMerchant':
-        return wx.navigateTo({ url: '/packageFood/pages/shop_login/shop_login' })
-      case 'riderHall':
-        return wx.navigateTo({ url: '/packageRider/pages/hall/hall' })
-      case 'riderMy':
-        return wx.navigateTo({ url: '/packageRider/pages/my/my' })
-      case 'riderRegister':
-        return wx.navigateTo({ url: '/packageRider/pages/register/register' })
       case 'friends':
         return this.viewFriendList()
       case 'searchFriend':
@@ -448,15 +417,11 @@ Page(withSharing({
 
   viewRunHistory() { wx.navigateTo({ url: '/packageProfile/pages/history/history' }) },
   viewFriendList() { wx.navigateTo({ url: '/pages/friends/friends' }) },
-  viewFoodOrders() { wx.navigateTo({ url: '/packageFood/pages/order_list/order_list' }) },
   goToRank() { wx.navigateTo({ url: '/pages/rank/rank' }) },
   goToSettings() { wx.navigateTo({ url: '/packageProfile/pages/settings/settings' }) },
   viewTeam() { wx.navigateTo({ url: '/packageProfile/pages/team/team' }) },
   goToRun() { wx.navigateTo({ url: '/pages/index/index' }) },
 
-  goToCoupons() {
-    wx.navigateTo({ url: '/packageProfile/pages/coupons/coupons' })
-  },
 
   goToLogin() {
     const redirect = encodeURIComponent('/pages/profile/profile?source=' + (this.data.source || 'profile'))

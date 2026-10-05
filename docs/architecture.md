@@ -9,7 +9,7 @@
 网页管理后台 admin-web → 同一服务器 API
 ```
 
-小程序入口为根目录 project.config.json；miniprogramRoot 是 miniprogram/。app.json 是唯一实际页面清单。当前 67 页，main + packageFood / packageCanteen / packageForum / packageProfile / packageRider / packageEnglish / packageGifts 分包。
+小程序入口为根目录 project.config.json；miniprogramRoot 是 miniprogram/。app.json 是唯一实际页面清单。当前 46 页，main + packageCanteen / packageForum / packageProfile / packageEnglish / packageGifts 分包。
 
 ## 页面四文件
 
@@ -43,7 +43,6 @@ app.ts 管理启动、登录状态与退出；config/api.ts 维护地址与缓�
 | 登录 / 学生资料 | login、saveUserInfo、getOpenid |
 | 跑步 / 统计 / 排行 | saveRunData、getUserRunStats、getRankList |
 | 好友 / 组队 | addFriend、deleteFriend、getFriends、searchUser、teamManager |
-| 点餐 / 券 / 骑手 | food_manager、coupon_manager、rider |
 | 独立评分 / 多次评论 / 餐次 / 投稿补图 / 争议核查 | canteen_reviews；接口与集合关系见canteen.md |
 | 动态 / 通知 | forum、notification |
 | 管理 / 公告 / 设置 | globalAdmin |
@@ -53,7 +52,7 @@ app.ts 管理启动、登录状态与退出；config/api.ts 维护地址与缓�
 
 这些仍保留在本地，供维护和发布；原微信云函数业务已转为服务器模块，并非无用残留。服务依赖统一由 server/package.json 管理。
 
-2026-10-05本机安全检查移除了未被当前客户端使用的匿名通用/api/public/database。图片上传使用file-type检测真实格式和服务端生成的所有者/随机路径；旧图片URL保留，静态上传文档受CSP sandbox限制。初始管理员只能经本地bootstrap脚本创建，登录/重置服务别名共享限流。代码与验证见public-release-audit.md；尚未部署生产服务器。
+2026-10-05本机安全检查移除了未被当前客户端使用的匿名通用/api/public/database。图片上传使用file-type检测真实格式和服务端生成的所有者/随机路径；旧图片URL保留，静态上传文档受CSP sandbox限制。初始管理员只能经本地bootstrap脚本创建，登录/重置服务别名共享限流。代码与验证见public-release-audit.md；已随20261005-173247点餐移除发布，见operations.md。
 
 ## 数据层
 

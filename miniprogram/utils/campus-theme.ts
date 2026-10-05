@@ -1,6 +1,6 @@
 export const CAMPUS_THEME_MODULES = [
   { key: 'portal', name: '首页' }, { key: 'english', name: '英语学习' },
-  { key: 'running', name: '校园跑' }, { key: 'food', name: '点餐' },
+  { key: 'running', name: '校园跑' },
   { key: 'canteen', name: '食堂评分' }, { key: 'forum', name: '校园动态' },
   { key: 'profile', name: '个人中心' }
 ]

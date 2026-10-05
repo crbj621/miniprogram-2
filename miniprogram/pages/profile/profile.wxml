@@ -83,22 +83,8 @@
     </view>
   </view>
 
-  <!-- 功能分区（按来源动态排序：running/forum/food） -->
-        <view class="menu-section tech-card" wx:if="{{modulesState === 'ready' && modules.food}}">
-          <view class="section-title">我的资产</view>
-          <view class="menu-card">
-            <view class="menu-item" bindtap="goToCoupons" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100">
-              <view class="menu-icon-wrap" style="background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);">
-                <text class="menu-icon">🎟️</text>
-              </view>
-              <view class="menu-content">
-                <text class="menu-title">外卖优惠券</text>
-                <text class="menu-desc">跑步里程兑换的配送费抵扣券</text>
-              </view>
-              <text class="menu-arrow">›</text>
-            </view>
-          </view>
-        </view>
+  <!-- 功能分区（按来源动态排序：running/forum） -->
+
   <view class="menu-section tech-card" wx:if="{{modulesState === 'loading'}}">正在加载校园服务…</view>
   <view class="menu-section tech-card" wx:elif="{{modulesState === 'error'}}">
     <text>校园服务暂时无法加载</text>

@@ -17,8 +17,6 @@
             <nav class="sidebar-nav">
                 <a href="dashboard.html"><i class="fas fa-home"></i> 控制台</a>
                 <a href="posts.html"><i class="fas fa-file-alt"></i> 动态管理</a>
-                <a href="orders.html"><i class="fas fa-shopping-cart"></i> 订单管理</a>
-                <a href="menus.html"><i class="fas fa-utensils"></i> 菜单管理</a>
                 <a href="users.html"><i class="fas fa-users"></i> 用户管理</a>
                 <a href="admins.html"><i class="fas fa-user-shield"></i> 管理员</a>
                 <a href="announcements.html"><i class="fas fa-bullhorn"></i> 公告管理</a>
@@ -98,16 +96,7 @@
                                     <span class="slider"></span>
                                 </label>
                             </div>
-                            <div class="module-item">
-                                <div class="module-info">
-                                    <i class="fas fa-utensils"></i>
-                                    <div><h4>食堂点餐</h4><p>在线点餐、订单管理</p><small id="statusFood">待加载</small></div>
-                                </div>
-                                <label class="switch">
-                                    <input type="checkbox" id="moduleFood" onchange="updateModuleLabels()">
-                                    <span class="slider"></span>
-                                </label>
-                            </div>
+
                             <div class="module-item">
                                 <div class="module-info">
                                     <i class="fas fa-comments"></i>
@@ -118,16 +107,7 @@
                                     <span class="slider"></span>
                                 </label>
                             </div>
-                            <div class="module-item">
-                                <div class="module-info">
-                                    <i class="fas fa-bicycle"></i>
-                                    <div><h4>骑手兼职</h4><p>骑手申请、接单配送</p><small id="statusRider">待加载</small></div>
-                                </div>
-                                <label class="switch">
-                                    <input type="checkbox" id="moduleRider" onchange="updateModuleLabels()">
-                                    <span class="slider"></span>
-                                </label>
-                            </div>
+
                         </div>
                         </fieldset>
                     </div>
@@ -176,13 +156,7 @@
                         <h3><i class="fas fa-bell"></i> 通知设置</h3>
                     </div>
                     <div class="section-content">
-                        <div class="form-group">
-                            <label>新订单通知</label>
-                            <label class="switch">
-                                <input type="checkbox" id="notifyOrder" checked>
-                                <span class="slider"></span>
-                            </label>
-                        </div>
+
                         <div class="form-group">
                             <label>新动态通知</label>
                             <label class="switch">
@@ -291,7 +265,7 @@
         let settingsReady = false;
         let settingsSaving = false;
         let settingsLoading = false;
-        const moduleControls = { running: 'Running', food: 'Food', canteen: 'Canteen', forum: 'Forum', rider: 'Rider' };
+        const moduleControls = { running: 'Running', canteen: 'Canteen', forum: 'Forum' };
         function canEditSettings() {
             return JSON.parse(localStorage.getItem('adminInfo') || '{}').role === 'super';
         }
@@ -376,7 +350,6 @@
             }
             
             if (data.notifications) {
-                document.getElementById('notifyOrder').checked = data.notifications.order !== false;
                 document.getElementById('notifyPost').checked = data.notifications.post !== false;
                 document.getElementById('notifyReport').checked = data.notifications.report !== false;
             }
@@ -431,7 +404,6 @@
                 sensitiveWords: document.getElementById('sensitiveWords').value.split('\n').filter(w => w.trim()),
                 userRegister: document.querySelector('input[name="userRegister"]:checked').value,
                 notifications: {
-                    order: document.getElementById('notifyOrder').checked,
                     post: document.getElementById('notifyPost').checked,
                     report: document.getElementById('notifyReport').checked
                 },
@@ -476,7 +448,6 @@
                 document.querySelector('input[name="postReview"][value="auto"]').checked = true;
                 document.getElementById('sensitiveWords').value = '';
                 document.querySelector('input[name="userRegister"][value="open"]').checked = true;
-                document.getElementById('notifyOrder').checked = true;
                 document.getElementById('notifyPost').checked = true;
                 document.getElementById('notifyReport').checked = true;
                 document.getElementById('autoCleanup').value = '0';

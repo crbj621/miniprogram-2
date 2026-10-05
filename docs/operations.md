@@ -9,7 +9,7 @@
 | 系统 / 运行时 | Ubuntu 22.04 / Node.js 24.21.0 / MariaDB 10.6.23 |
 | 服务 / 本机 API | campus-api / 127.0.0.1:3100 |
 | 源码当前链接 | /opt/campus-api/current |
-| 已部署发布点 | 20261005-121505（以后以服务器 current 为准） |
+| 已部署发布点 | 20261005-173247（以后以服务器 current 为准） |
 | 数据库 / 监听 | campus_app / 127.0.0.1:3306 |
 | 运行配置 / 图片 | /etc/campus-api/app.env / /www/campus-data/uploads |
 
@@ -57,6 +57,20 @@ SSH 配置 C:/Users/Administrator/.ssh/config。Python 维护脚本优先读取�
 本机：npm run check、npm test、npm run check:wxml、npm run check:wxss。最新官方preview已成功，见[预览体积](ui-preview/canteen/preview-result.json)；此前跑步／输入／英语记录是历史验证。
 
 服务器真实回归需读取运行 env 并在当前 server 下执行 scripts/test-selfhost.js 或对应专项脚本。测试包含数据写入与 finally 清理，不能在活跃运营库盲目反复执行；详见 [业务规则](business-rules.md)。
+
+## 2026-10-05 点餐模块已移除
+
+部署点`20261005-173247`，部署前备份`/www/backup/campus-api/20261005-172922`。当前源码46页、19个业务服务；删除packageFood、packageRider、优惠券及对应管理页面、food_manager/coupon_manager/rider服务、globalAdmin点餐动作、后台订单/菜单页面和关联跳转。食堂评价使用独立canteen_*集合，保留评分、评论、投稿及补图。组队跑仍需每人已保存有效里程≥500米才完成；移除点餐券发放，现有每日跑步金币奖励不变。
+
+根因是入口、页面注册、个人中心、管理端、服务器服务与组队发券相互关联，只隐藏首页会留下可调用业务。调研关键词`wechat miniprogram subpackages app.json`，对照[微信官方示例](https://github.com/wechat-miniprogram/miniprogram-demo)与[WeUI小程序](https://github.com/wechat-miniprogram/weui-miniprogram)；本次沿用原生分包和现有Express，不新增依赖。SkillHub检索未发现需要安装的专用移除技能。
+
+公开模块接口为已发布旧版保留固定false的food/rider字段，防止旧版七字段格式校验失败；后台模块列表仅剩running/canteen/forum/english/gifts，移除的模块不能重新开启。前端public-modules只返回当前五项。匿名通用数据库移除及真实图片/管理员限流安全修复也已随本次后端发布。
+
+本机`npm run check`、完整`npm test`、49项真实HTTP安全回归通过；微信官方55个WXML/脚本、63个WXSS编译通过。隔离MariaDB组队19项、管理概览5项通过，临时库和账号在EXIT清理；不在生产库写测试数据。线上健康、模块关闭、删除接口/后台页面404、食堂查询、6份后端源码SHA与本机一致及www原个人网站SHA未改变均通过。
+
+本机完整备份`C:/Users/Administrator/Downloads/campus-before-ordering-removal-20261005-171448/`含working-files.tar.gz、Git历史bundle和移出的文件。发布包仅server/admin-web，270文件、25,126,186字节，SHA256`5c416782a16a504eac75ef9fbba0c8d8de031980ac0bd5ca95b29ae3a0d86049`。历史订单及用户图片没有清空；移除功能不等于删除用户数据或历史备份。
+
+小程序源码已更新，微信正式版本尚未上传/发布；已发布旧版重新进入首页读取到关闭值后隐藏旧点餐入口。真机登录、GPS、分享等不能由本次编译或接口检查替代。下方旧发布点与67页/22服务记录为历史快照，不恢复点餐功能。
 
 ## 本次目录整理恢复
 
@@ -223,7 +237,6 @@ Linux 的 `/` 相当于整个服务器文件系统的起点，路径使用 `/`�
 | 跑步、个人统计、排行榜 | saveRunData、getUserRunStats、getRankList |
 | 好友 | addFriend、getFriends、deleteFriend |
 | 搭子、情侣、组队 | teamManager |
-| 点餐、优惠券、配送 | food_manager、coupon_manager、rider |
 | 食堂评分、菜品、评论、投稿 | canteen_reviews |
 | 英语学习、挑战、金币、衣橱与每日任务 | english_learning |
 | 祝福网站、域名、发布与到期清理 | gift_sites |

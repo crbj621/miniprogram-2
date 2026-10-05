@@ -31,7 +31,7 @@ function escapeRegExp(value) {
   return String(value || '').replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 }
 
-function hashMerchantPassword(password) {
+function hashAdminPassword(password) {
   var salt = crypto.randomBytes(16).toString('hex')
   var digest = crypto.scryptSync(String(password), salt, 32).toString('hex')
   return 'scrypt$' + salt + '$' + digest
@@ -168,28 +168,6 @@ exports.main = async function(event) {
         return await updateAnnouncement(openid, data)
       case 'deleteAnnouncement':
         return await deleteAnnouncement(openid, data)
-      case 'getFoodStatistics':
-        return await getFoodStatistics(openid)
-      case 'getFoodOrders':
-        return await getFoodOrders(openid, data)
-      case 'updateFoodOrder':
-        return await updateFoodOrder(openid, data)
-      case 'getFoodMenus':
-        return await getFoodMenus(openid, data)
-      case 'createFoodMenu':
-        return await createFoodMenu(openid, data)
-      case 'updateFoodMenu':
-        return await updateFoodMenu(openid, data)
-      case 'deleteFoodMenu':
-        return await deleteFoodMenu(openid, data)
-      case 'getFoodCategories':
-        return await getFoodCategories(openid)
-      case 'createFoodCategory':
-        return await createFoodCategory(openid, data)
-      case 'updateFoodCategory':
-        return await updateFoodCategory(openid, data)
-      case 'deleteFoodCategory':
-        return await deleteFoodCategory(openid, data)
       case 'getPosts':
         return await getPosts(openid, data)
       case 'deletePost':
@@ -220,34 +198,6 @@ exports.main = async function(event) {
         return await clearRankRecords(openid, data)
       case 'clearRankData':
         return await clearAllRankRecords(openid)
-      case 'getShopAuditList':
-        return await getShopAuditList(openid, data)
-      case 'auditShop':
-        return await auditShop(openid, data)
-      case 'getShopManageList':
-        return await getShopManageList(openid, data)
-      case 'adminAddShop':
-        return await adminAddShop(openid, data)
-      case 'adminDeleteShop':
-        return await adminDeleteShop(openid, data)
-      case 'adminUpdateShopStatus':
-        return await adminUpdateShopStatus(openid, data)
-      case 'adminUpdateShopInfo':
-        return await adminUpdateShopInfo(openid, data)
-      case 'adminResetShopPassword':
-        return await adminResetShopPassword(openid, data)
-      case 'adminUpdateShopAccount':
-        return await adminUpdateShopAccount(openid, data)
-      case 'initTestData':
-        return await initTestData(openid)
-      case 'getShopLogs':
-        return await getShopLogs(openid, data)
-      case 'getShopDishes':
-        return await getShopDishes(openid, data)
-      case 'getRiderAuditList':
-        return await getRiderAuditList(openid, data)
-      case 'auditRider':
-        return await auditRider(openid, data)
       case 'getReports':
         return await getReports(openid, data)
       case 'handleReport':
@@ -285,8 +235,7 @@ async function initDatabase(openid, data) {
 
   var collections = [
     'global_admin', 'global_settings', 'global_admin_log', 'global_announcement', 'global_module', 'admin_logs',
-    'users', 'friends', 'notifications', 'runRecords', 'run_stats', 'realtimeData', 'teams', 'user_coupons',
-    'food_category', 'food_shop', 'food_shop_user', 'food_dish', 'food_menu', 'food_order', 'food_shop_logs', 'food_rider',
+    'users', 'friends', 'notifications', 'runRecords', 'run_stats', 'realtimeData', 'teams',
     'forum_post', 'forum_comment', 'forum_report', 'forum_admin', 'forum_admin_log',
     'forum_announcement', 'forum_user', 'forum_notification', 'forum_chat',
     'forum_chat_message', 'forum_collect', 'forum_like'
@@ -321,12 +270,12 @@ async function initDatabase(openid, data) {
         _openid: openid,
         loginOpenid: openid,
         account: account,
-        passwordHash: hashMerchantPassword(password),
+        passwordHash: hashAdminPassword(password),
         username: username || '超级管理员',
         role: 'super',
         permissions: ['all'],
         status: 'active',
-        verifyPasswordHash: hashMerchantPassword(String(data.verifyPassword || password)),
+        verifyPasswordHash: hashAdminPassword(String(data.verifyPassword || password)),
         createTime: db.serverDate(),
         lastLoginTime: null
       }
@@ -342,10 +291,8 @@ async function initDatabase(openid, data) {
         logo: '',
         modules: {
           running: { enabled: true, name: '校园跑' },
-          food: { enabled: true, name: '食堂点餐' },
           canteen: { enabled: true, name: '食堂饭菜评价' },
           forum: { enabled: true, name: '校园动态' },
-          rider: { enabled: true, name: '骑手兼职' },
           english: { enabled: true, name: '四六级学习' },
           gifts: { enabled: true, name: '祝福小站' }
         },
@@ -399,7 +346,7 @@ async function adminLogin(data) {
     data: {
       lastLoginTime: db.serverDate(),
       loginOpenid: loginOpenid,
-      passwordHash: admin.passwordHash || hashMerchantPassword(password),
+      passwordHash: admin.passwordHash || hashAdminPassword(password),
       password: cmd.remove()
     }
   })
@@ -468,7 +415,8 @@ async function getGlobalSettings(openid) {
 async function getPublicModules() {
   const result = await db.collection('global_settings').limit(1).get()
   const saved = result.data[0] || {}
-  const modules = {}
+  // 已发布旧版校验这两个字段；仅返回关闭状态，不注册或恢复业务。
+  const modules = { food: false, rider: false }
   for (const [key, value] of Object.entries(normalizeModules(saved.modules))) modules[key] = value.enabled
   return { code: 0, data: { modules } }
 }
@@ -584,7 +532,7 @@ async function createAdmin(openid, data) {
   await db.collection('global_admin').add({
     data: {
       account: account,
-      passwordHash: hashMerchantPassword(password),
+      passwordHash: hashAdminPassword(password),
       username: username,
       role: role,
       permissions: permissions,
@@ -687,7 +635,7 @@ async function resetAdminPassword(openid, data) {
 
   await db.collection('global_admin').doc(adminId).update({
     data: {
-      passwordHash: hashMerchantPassword(newPassword),
+      passwordHash: hashAdminPassword(newPassword),
       password: cmd.remove(),
       updateTime: db.serverDate()
     }
@@ -724,9 +672,9 @@ async function resetPasswordWithVerify(data) {
 
   await db.collection('global_admin').doc(admin._id).update({
     data: {
-      passwordHash: hashMerchantPassword(newPassword),
+      passwordHash: hashAdminPassword(newPassword),
       password: cmd.remove(),
-      verifyPasswordHash: admin.verifyPasswordHash || hashMerchantPassword(verifyPassword),
+      verifyPasswordHash: admin.verifyPasswordHash || hashAdminPassword(verifyPassword),
       verifyPassword: cmd.remove(),
       updateTime: db.serverDate()
     }
@@ -986,356 +934,6 @@ async function deleteAnnouncement(openid, data) {
 
   await addLog(openid, 'system', 'delete', '删除公告', adminName)
   return { code: 0, message: '公告已删除' }
-}
-
-async function getFoodStatistics(openid) {
-  var adminCheck = await checkAdmin(openid)
-  if (!adminCheck.isAdmin) {
-    return { code: -1, message: '无权限' }
-  }
-
-  var today = new Date()
-  today.setHours(0, 0, 0, 0)
-  var todayStart = today.getTime()
-
-  var todayOrders = await db.collection('food_order')
-    .where({ createTime: cmd.gte(new Date(todayStart)) })
-    .count()
-
-  var totalOrders = await db.collection('food_order').count()
-
-  var todayOrdersData = await db.collection('food_order')
-    .where({ createTime: cmd.gte(new Date(todayStart)) })
-    .get()
-
-  var todayRevenue = 0
-  for (var i = 0; i < todayOrdersData.data.length; i++) {
-    todayRevenue += todayOrdersData.data[i].totalPrice || 0
-  }
-
-  var allOrdersData = await db.collection('food_order').get()
-  var totalRevenue = 0
-  for (var j = 0; j < allOrdersData.data.length; j++) {
-    totalRevenue += allOrdersData.data[j].totalPrice || 0
-  }
-
-  var menuCount = await db.collection('food_menu').count()
-  var pendingShops = await db.collection('food_shop').where({ auditStatus: 'pending' }).count()
-  var pendingRiders = await db.collection('food_rider').where({ status: 'pending' }).count()
-  var totalShops = await db.collection('food_shop').where({ auditStatus: 'approved' }).count()
-
-  return {
-    code: 0,
-    data: {
-      todayOrders: todayOrders.total,
-      totalOrders: totalOrders.total,
-      todayRevenue: todayRevenue,
-      totalRevenue: totalRevenue,
-      menuCount: menuCount.total,
-      pendingShops: pendingShops.total,
-      pendingRiders: pendingRiders.total,
-      totalShops: totalShops.total
-    }
-  }
-}
-
-async function getFoodOrders(openid, data) {
-  var adminCheck = await checkAdmin(openid)
-  if (!adminCheck.isAdmin) {
-    return { code: -1, message: '无权限' }
-  }
-
-  var page = data.page || 1
-  var pageSize = data.pageSize || 20
-  var status = data.status
-  var skip = (page - 1) * pageSize
-
-  var query = {}
-  if (status) query.status = status
-
-  var totalRes = await db.collection('food_order').where(query).count()
-  
-  var res = await db.collection('food_order')
-    .where(query)
-    .orderBy('createTime', 'desc')
-    .skip(skip)
-    .limit(pageSize)
-    .get()
-
-  var orders = res.data.map(function(item) {
-    return {
-      _id: item._id,
-      orderNo: item.orderNo,
-      userName: item.userNickName || item.userName || '同学',
-      userPhone: item.phone || item.userPhone || '',
-      totalPrice: item.totalPrice,
-      status: item.status,
-      items: item.items,
-      createTime: item.createTime,
-      pickupTime: item.pickupTime,
-      type: item.type,
-      remark: item.remark
-    }
-  })
-
-  return { code: 0, data: { list: orders, total: totalRes.total } }
-}
-
-async function updateFoodOrder(openid, data) {
-  var adminCheck = await checkAdmin(openid)
-  if (!adminCheck.isAdmin) {
-    return { code: -1, message: '无权限' }
-  }
-
-  var adminName = await getAdminName(openid)
-  var orderId = data.id
-
-  if (!orderId) {
-    return { code: -1, message: '订单ID缺失' }
-  }
-
-  var result = await require('../food_manager').main({ action: 'adminUpdateOrderStatus',
-    data: { orderId, status: data.status, rejectReason: data.rejectReason || '' } })
-  if (!result.success) return { code: -1, message: result.msg || '订单更新失败' }
-
-  await addLog(openid, 'food', 'update', '更新订单：' + orderId, adminName)
-  return { code: 0, message: '订单已更新' }
-}
-
-async function getFoodMenus(openid, data) {
-  var adminCheck = await checkAdmin(openid)
-  if (!adminCheck.isAdmin) {
-    return { code: -1, message: '无权限' }
-  }
-
-  if (data.id) {
-    var singleRes = await db.collection('food_menu').doc(data.id).get()
-    if (singleRes.data) {
-      return { code: 0, data: singleRes.data }
-    }
-    return { code: -1, message: '菜品不存在' }
-  }
-
-  var page = data.page || 1
-  var pageSize = data.pageSize || 20
-  var skip = (page - 1) * pageSize
-
-  var query = {}
-  if (data.categoryId) query.categoryId = data.categoryId
-  if (data.status) query.status = data.status === 'available'
-
-  var totalRes = await db.collection('food_menu').where(query).count()
-  
-  var res = await db.collection('food_menu')
-    .where(query)
-    .orderBy('sort', 'asc')
-    .orderBy('createTime', 'desc')
-    .skip(skip)
-    .limit(pageSize)
-    .get()
-
-  var menus = res.data.map(function(item) {
-    return {
-      _id: item._id,
-      name: item.name,
-      price: item.price,
-      originalPrice: item.originalPrice,
-      categoryId: item.categoryId,
-      image: item.image,
-      description: item.description,
-      status: item.status,
-      stock: item.stock,
-      sales: item.sales || 0,
-      recommend: item.recommend,
-      sort: item.sort || 0,
-      createTime: item.createTime
-    }
-  })
-
-  return { code: 0, data: { list: menus, total: totalRes.total } }
-}
-
-async function createFoodMenu(openid, data) {
-  var adminCheck = await checkAdmin(openid)
-  if (!adminCheck.isAdmin) {
-    return { code: -1, message: '无权限' }
-  }
-
-  var adminName = await getAdminName(openid)
-
-  if (!data.name || !data.price) {
-    return { code: -1, message: '请填写菜品名称和价格' }
-  }
-
-  await db.collection('food_menu').add({
-    data: {
-      name: data.name,
-      price: data.price,
-      originalPrice: data.originalPrice || null,
-      categoryId: data.categoryId || '',
-      image: data.image || '',
-      description: data.description || '',
-      status: data.status !== false,
-      stock: data.stock || 999,
-      sales: 0,
-      recommend: data.recommend === true,
-      sort: data.sort || 0,
-      createTime: db.serverDate()
-    }
-  })
-
-  await addLog(openid, 'food', 'create', '创建菜品：' + data.name, adminName)
-  return { code: 0, message: '菜品创建成功' }
-}
-
-async function updateFoodMenu(openid, data) {
-  var adminCheck = await checkAdmin(openid)
-  if (!adminCheck.isAdmin) {
-    return { code: -1, message: '无权限' }
-  }
-
-  var adminName = await getAdminName(openid)
-  var menuId = data.id
-
-  if (!menuId) {
-    return { code: -1, message: '菜品ID缺失' }
-  }
-
-  var updateData = {}
-  if (data.name) updateData.name = data.name
-  if (data.price !== undefined) updateData.price = data.price
-  if (data.originalPrice !== undefined) updateData.originalPrice = data.originalPrice
-  if (data.categoryId !== undefined) updateData.categoryId = data.categoryId
-  if (data.image !== undefined) updateData.image = data.image
-  if (data.description !== undefined) updateData.description = data.description
-  if (data.status !== undefined) updateData.status = data.status
-  if (data.stock !== undefined) updateData.stock = data.stock
-  if (data.recommend !== undefined) updateData.recommend = data.recommend
-  if (data.sort !== undefined) updateData.sort = data.sort
-  updateData.updateTime = db.serverDate()
-
-  await db.collection('food_menu').doc(menuId).update({
-    data: updateData
-  })
-
-  await addLog(openid, 'food', 'update', '更新菜品：' + menuId, adminName)
-  return { code: 0, message: '菜品已更新' }
-}
-
-async function deleteFoodMenu(openid, data) {
-  var adminCheck = await checkAdmin(openid)
-  if (!adminCheck.isAdmin) {
-    return { code: -1, message: '无权限' }
-  }
-
-  var adminName = await getAdminName(openid)
-  var menuId = data.id
-  if (!menuId) {
-    return { code: -1, message: '菜品ID缺失' }
-  }
-
-  await db.collection('food_menu').doc(menuId).remove()
-
-  await addLog(openid, 'food', 'delete', '删除菜品：' + menuId, adminName)
-  return { code: 0, message: '菜品已删除' }
-}
-
-async function getFoodCategories(openid) {
-  var adminCheck = await checkAdmin(openid)
-  if (!adminCheck.isAdmin) {
-    return { code: -1, message: '无权限' }
-  }
-
-  var res = await db.collection('food_category')
-    .orderBy('sort', 'asc')
-    .get()
-
-  var categories = res.data.map(function(item) {
-    return {
-      _id: item._id,
-      name: item.name,
-      sort: item.sort || 0,
-      status: item.status !== false,
-      count: item.count || 0
-    }
-  })
-
-  return { code: 0, data: categories }
-}
-
-async function createFoodCategory(openid, data) {
-  var adminCheck = await checkAdmin(openid)
-  if (!adminCheck.isAdmin) {
-    return { code: -1, message: '无权限' }
-  }
-
-  var adminName = await getAdminName(openid)
-
-  if (!data.name) {
-    return { code: -1, message: '请输入分类名称' }
-  }
-
-  await db.collection('food_category').add({
-    data: {
-      name: data.name,
-      sort: data.sort || 0,
-      status: data.status !== false,
-      count: 0,
-      createTime: db.serverDate()
-    }
-  })
-
-  await addLog(openid, 'food', 'create', '创建分类：' + data.name, adminName)
-  return { code: 0, message: '分类创建成功' }
-}
-
-async function updateFoodCategory(openid, data) {
-  var adminCheck = await checkAdmin(openid)
-  if (!adminCheck.isAdmin) {
-    return { code: -1, message: '无权限' }
-  }
-
-  var adminName = await getAdminName(openid)
-  var categoryId = data.id
-
-  if (!categoryId) {
-    return { code: -1, message: '分类ID缺失' }
-  }
-
-  var updateData = {}
-  if (data.name) updateData.name = data.name
-  if (data.sort !== undefined) updateData.sort = data.sort
-  if (data.status !== undefined) updateData.status = data.status
-  updateData.updateTime = db.serverDate()
-
-  await db.collection('food_category').doc(categoryId).update({
-    data: updateData
-  })
-
-  await addLog(openid, 'food', 'update', '更新分类：' + categoryId, adminName)
-  return { code: 0, message: '分类已更新' }
-}
-
-async function deleteFoodCategory(openid, data) {
-  var adminCheck = await checkAdmin(openid)
-  if (!adminCheck.isAdmin) {
-    return { code: -1, message: '无权限' }
-  }
-
-  var adminName = await getAdminName(openid)
-  var categoryId = data.id
-  if (!categoryId) {
-    return { code: -1, message: '分类ID缺失' }
-  }
-
-  await db.collection('food_menu').where({ categoryId: categoryId }).update({
-    data: { categoryId: '' }
-  })
-
-  await db.collection('food_category').doc(categoryId).remove()
-
-  await addLog(openid, 'food', 'delete', '删除分类：' + categoryId, adminName)
-  return { code: 0, message: '分类已删除' }
 }
 
 async function getPosts(openid, data) {
@@ -1658,11 +1256,8 @@ async function getDashboardStats(openid) {
 
   var postCount = await db.collection('forum_post').where({ status: cmd.neq('deleted') }).count()
   var userCount = await db.collection('users').count()
-  var orderCount = await db.collection('food_order').count()
   var runCount = await db.collection('runRecords').count()
-  var pendingShops = await db.collection('food_shop').where({ auditStatus: 'pending' }).count()
   var pendingReports = await db.collection('forum_report').where({ status: 'pending' }).count()
-  var pendingRiders = await db.collection('food_rider').where({ status: 'pending' }).count()
   var pendingCanteen = await db.collection('canteen_submissions').where({ status: 'pending' }).count()
   var canteenReports = await db.collection('canteen_report_cases').where({ status: 'pending' }).count()
 
@@ -1673,115 +1268,18 @@ async function getDashboardStats(openid) {
     .where({ createTime: cmd.gte(new Date(todayStart)), status: cmd.neq('deleted') })
     .count()
 
-  var todayOrders = await db.collection('food_order')
-    .where({ createTime: cmd.gte(new Date(todayStart)) })
-    .count()
-
-  var todayOrdersData = await db.collection('food_order')
-    .where({ createTime: cmd.gte(new Date(todayStart)) })
-    .get()
-
-  var todayRevenue = 0
-  for (var i = 0; i < todayOrdersData.data.length; i++) {
-    var order = todayOrdersData.data[i]
-    if (order.status === 'completed') todayRevenue += Math.round(Number(order.totalPrice || 0) * 100)
-  }
-
   return {
     code: 0,
     data: {
       postCount: postCount.total,
       userCount: userCount.total,
-      orderCount: orderCount.total,
       runCount: runCount.total,
-      pendingShops: pendingShops.total,
       pendingReports: pendingReports.total,
-      pendingRiders: pendingRiders.total,
       pendingCanteen: pendingCanteen.total,
       canteenReports: canteenReports.total,
-      todayPosts: todayPosts.total,
-      todayOrders: todayOrders.total,
-      todayRevenue: todayRevenue / 100
+      todayPosts: todayPosts.total
     }
   }
-}
-
-async function getRiderAuditList(openid, data) {
-  var adminCheck = await checkAdmin(openid)
-  if (!adminCheck.isAdmin) {
-    return { code: -1, message: '无权限' }
-  }
-
-  var status = data.status || 'pending'
-  var query = {}
-  if (status !== 'all') query.status = status
-  var result = await db.collection('food_rider')
-    .where(query)
-    .orderBy('createTime', 'desc')
-    .limit(100)
-    .get()
-
-  var list = (result.data || []).map(function(rider) {
-    return {
-      _id: rider._id,
-      realName: rider.realName || rider.name || '',
-      phone: rider.phone || '',
-      studentId: rider.studentId || '',
-      status: rider.status || 'pending',
-      rejectReason: rider.rejectReason || '',
-      createTime: rider.createTime
-    }
-  })
-  return { code: 0, data: { list: list } }
-}
-
-async function auditRider(openid, data) {
-  var adminCheck = await checkAdmin(openid)
-  if (!adminCheck.isAdmin) {
-    return { code: -1, message: '无权限' }
-  }
-
-  var riderId = data.riderId
-  var status = data.status
-  var reason = String(data.reason || '').trim().slice(0, 200)
-  if (!riderId || ['approved', 'rejected'].indexOf(status) === -1) {
-    return { code: -1, message: '审核参数不完整' }
-  }
-  if (status === 'rejected' && !reason) {
-    return { code: -1, message: '请填写拒绝原因' }
-  }
-
-  var riderResult = await db.collection('food_rider').doc(riderId).get()
-  if (!riderResult.data) return { code: -1, message: '骑手申请不存在' }
-  if (riderResult.data.status !== 'pending') {
-    return { code: -1, message: '该申请已经审核，请刷新列表' }
-  }
-
-  var transition = await db.collection('food_rider').where({
-    _id: riderId,
-    status: 'pending'
-  }).update({
-    data: {
-      status: status,
-      isOnline: status === 'approved',
-      rejectReason: status === 'rejected' ? reason : '',
-      auditTime: db.serverDate(),
-      updateTime: db.serverDate()
-    }
-  })
-  if (!transition.stats || transition.stats.updated !== 1) {
-    return { code: -1, message: '审核状态已变化，请刷新后重试' }
-  }
-
-  var adminName = await getAdminName(openid)
-  await addLog(
-    openid,
-    'rider',
-    'audit',
-    (status === 'approved' ? '通过' : '拒绝') + '骑手申请：' + (riderResult.data.realName || riderResult.data.name || riderId),
-    adminName
-  )
-  return { code: 0, message: status === 'approved' ? '已通过骑手申请' : '已拒绝骑手申请' }
 }
 
 async function getRankList(openid, data) {
@@ -1893,512 +1391,6 @@ async function clearAllRankRecords(openid) {
   var adminName = await getAdminName(openid)
   await addLog(openid, 'running', 'delete', '清空排行榜记录：' + deletedCount + '条', adminName)
   return { code: 0, message: '已清空 ' + deletedCount + ' 条排行榜记录' }
-}
-
-async function initTestData(openid) {
-  var adminCheck = await checkSuperAdmin(openid)
-  if (!adminCheck.isSuperAdmin) {
-    return { code: -1, message: '仅超级管理员可生成测试数据' }
-  }
-
-  var shopCount = await db.collection('food_shop').count().catch(function() {
-    return { total: 0 }
-  })
-  var shopName = '校园测试食堂' + String(shopCount.total + 1)
-  var shopResult = await adminAddShop(openid, {
-    shopData: {
-      name: shopName,
-      contact: '测试商家',
-      phone: '13800000000',
-      minPrice: 10,
-      deliveryFee: 2
-    }
-  })
-  if (shopResult.code !== 0) return shopResult
-
-  var shopId = shopResult.data.shopId
-  var username = 'shop_' + Date.now().toString().slice(-6)
-  var password = crypto.randomBytes(6).toString('hex')
-  await db.collection('food_shop_user').add({
-    data: {
-      bindOpenid: '',
-      shopId: shopId,
-      username: username,
-      passwordHash: hashMerchantPassword(password),
-      role: 'admin',
-      approved: true,
-      createTime: db.serverDate(),
-      updateTime: db.serverDate()
-    }
-  })
-
-  var dishes = [
-    { name: '番茄炒蛋', price: 15, category: '家常菜' },
-    { name: '宫保鸡丁', price: 22, category: '热销' },
-    { name: '米饭', price: 2, category: '主食' }
-  ]
-  for (var i = 0; i < dishes.length; i++) {
-    await db.collection('food_dish').add({
-      data: {
-        shopId: shopId,
-        name: dishes[i].name,
-        price: dishes[i].price,
-        category: dishes[i].category,
-        description: '后台生成的测试菜品',
-        stock: 50,
-        sales: 0,
-        image: '',
-        isAvailable: true,
-        createTime: db.serverDate(),
-        updateTime: db.serverDate()
-      }
-    })
-  }
-
-  var adminName = await getAdminName(openid)
-  await addLog(openid, 'system', 'create', '生成测试商家：' + shopName, adminName)
-  return {
-    code: 0,
-    message: '测试数据生成成功',
-    data: {
-      shopId: shopId,
-      shopName: shopName,
-      loginInfo: {
-        username: username,
-        password: password
-      }
-    }
-  }
-}
-
-async function getShopAuditList(openid, data) {
-  var adminCheck = await checkAdmin(openid)
-  if (!adminCheck.isAdmin) {
-    return { code: -1, message: '无权限' }
-  }
-
-  var status = data.status || 'pending'
-  var query = {}
-  if (status && status !== 'all') {
-    query.auditStatus = status
-  }
-  if (data.keyword) {
-    query.name = db.RegExp({
-      regexp: escapeRegExp(String(data.keyword).slice(0, 50)),
-      options: 'i'
-    })
-  }
-
-  var res = await db.collection('food_shop')
-    .where(query)
-    .orderBy('createTime', 'desc')
-    .limit(50)
-    .get()
-
-  var list = res.data.map(function(item) {
-    return {
-      _id: item._id,
-      name: item.name,
-      contact: item.contact,
-      phone: item.phone,
-      logo: item.logo,
-      licenseImage: item.licenseImage,
-      auditStatus: item.auditStatus,
-      rejectReason: item.rejectReason,
-      createTime: item.createTime
-    }
-  })
-
-  return { code: 0, data: { list: list } }
-}
-
-async function auditShop(openid, data) {
-  var adminCheck = await checkAdmin(openid)
-  if (!adminCheck.isAdmin) {
-    return { code: -1, message: '无权限' }
-  }
-
-  var adminName = await getAdminName(openid)
-  var shopId = data.shopId
-  var status = data.status
-  var reason = String(data.reason || '').trim().slice(0, 200)
-
-  if (!shopId || ['approved', 'rejected'].indexOf(status) === -1) {
-    return { code: -1, message: '审核参数不正确' }
-  }
-  if (status === 'rejected' && !reason) {
-    return { code: -1, message: '请填写拒绝原因' }
-  }
-
-  var updateData = {
-    auditStatus: status,
-    status: status === 'approved' ? 'open' : 'closed',
-    updateTime: db.serverDate()
-  }
-  
-  if (status === 'rejected') {
-    updateData.rejectReason = reason
-  }
-
-  await db.collection('food_shop').doc(shopId).update({ data: updateData })
-
-  var temporaryPassword = ''
-  if (status === 'approved') {
-    var shopUser = await db.collection('food_shop_user').where({ shopId: shopId }).limit(1).get()
-    if (shopUser.data.length > 0) {
-      var currentUser = shopUser.data[0]
-      var accountUpdate = {
-        approved: true,
-        updateTime: db.serverDate()
-      }
-      if (!currentUser.username) accountUpdate.username = 'shop_' + Date.now().toString().slice(-6)
-      if (!currentUser.passwordHash && !currentUser.password) {
-        temporaryPassword = crypto.randomBytes(6).toString('hex')
-        accountUpdate.passwordHash = hashMerchantPassword(temporaryPassword)
-      }
-      await db.collection('food_shop_user').doc(shopUser.data[0]._id).update({
-        data: accountUpdate
-      })
-    }
-  }
-
-  await addLog(openid, 'food', 'audit', (status === 'approved' ? '通过' : '拒绝') + '商家审核：' + shopId, adminName)
-  return {
-    code: 0,
-    message: status === 'approved' ? '审核通过' : '已拒绝',
-    data: temporaryPassword ? { temporaryPassword: temporaryPassword } : {}
-  }
-}
-
-async function getShopManageList(openid, data) {
-  var adminCheck = await checkAdmin(openid)
-  if (!adminCheck.isAdmin) {
-    return { code: -1, message: '无权限' }
-  }
-
-  var query = { auditStatus: 'approved' }
-  if (data.keyword) {
-    query.name = db.RegExp({
-      regexp: escapeRegExp(String(data.keyword).slice(0, 50)),
-      options: 'i'
-    })
-  }
-
-  var res = await db.collection('food_shop')
-    .where(query)
-    .orderBy('createTime', 'desc')
-    .get()
-
-  var list = res.data.map(function(item) {
-    return {
-      _id: item._id,
-      name: item.name,
-      contact: item.contact,
-      phone: item.phone,
-      logo: item.logo,
-      status: item.status,
-      rating: item.rating,
-      monthlySales: item.monthlySales || 0,
-      minPrice: Number(item.minPrice || 0),
-      deliveryFee: Number(item.deliveryFee || 0),
-      createTime: item.createTime
-    }
-  })
-
-  return { code: 0, data: { list: list } }
-}
-
-async function adminAddShop(openid, data) {
-  var adminCheck = await checkAdmin(openid)
-  if (!adminCheck.isAdmin) {
-    return { code: -1, message: '无权限' }
-  }
-
-  var shopData = data.shopData || {}
-  var name = String(shopData.name || '').trim()
-  if (!name) {
-    return { code: -1, message: '请输入商家名称' }
-  }
-
-  var result = await db.collection('food_shop').add({
-    data: {
-      name: name,
-      contact: String(shopData.contact || '').trim(),
-      phone: String(shopData.phone || '').trim(),
-      logo: shopData.logo || '',
-      banners: [],
-      status: 'open',
-      auditStatus: 'approved',
-      approved: true,
-      rating: 5,
-      monthlySales: 0,
-      minPrice: Number(shopData.minPrice || 0),
-      deliveryFee: Number(shopData.deliveryFee || 0),
-      createTime: db.serverDate(),
-      updateTime: db.serverDate()
-    }
-  })
-
-  var adminName = await getAdminName(openid)
-  await addLog(openid, 'food', 'create', '新增商家：' + name, adminName)
-  return { code: 0, message: '商家创建成功', data: { shopId: result._id } }
-}
-
-async function adminDeleteShop(openid, data) {
-  var adminCheck = await checkSuperAdmin(openid)
-  if (!adminCheck.isSuperAdmin) {
-    return { code: -1, message: '仅超级管理员可删除商家' }
-  }
-
-  var shopId = data.shopId
-  if (!shopId) {
-    return { code: -1, message: '参数缺失' }
-  }
-
-  var shop = await db.collection('food_shop').doc(shopId).get()
-  if (!shop.data) {
-    return { code: -1, message: '商家不存在' }
-  }
-
-  await db.collection('food_shop').doc(shopId).update({
-    data: {
-      status: 'disabled',
-      auditStatus: 'deleted',
-      approved: false,
-      deleteTime: db.serverDate(),
-      updateTime: db.serverDate()
-    }
-  })
-  await db.collection('food_shop_user').where({ shopId: shopId }).update({
-    data: {
-      approved: false,
-      bindOpenid: '',
-      updateTime: db.serverDate()
-    }
-  })
-
-  var adminName = await getAdminName(openid)
-  await addLog(openid, 'food', 'delete', '停用商家：' + (shop.data.name || shopId), adminName)
-  return { code: 0, message: '商家已停用并从列表移除' }
-}
-
-async function adminUpdateShopStatus(openid, data) {
-  var adminCheck = await checkAdmin(openid)
-  if (!adminCheck.isAdmin) {
-    return { code: -1, message: '无权限' }
-  }
-
-  var adminName = await getAdminName(openid)
-  var shopId = data.shopId
-  var status = data.status
-
-  if (!shopId || !status) {
-    return { code: -1, message: '参数缺失' }
-  }
-
-  await db.collection('food_shop').doc(shopId).update({
-    data: {
-      status: status,
-      updateTime: db.serverDate()
-    }
-  })
-
-  await addLog(openid, 'food', 'update', '更新商家状态：' + shopId + ' -> ' + status, adminName)
-  return { code: 0, message: '状态已更新' }
-}
-
-async function adminUpdateShopInfo(openid, data) {
-  var adminCheck = await checkAdmin(openid)
-  if (!adminCheck.isAdmin) {
-    return { code: -1, message: '无权限' }
-  }
-
-  var adminName = await getAdminName(openid)
-  var shopId = data.shopId
-  var shopData = data.shopData
-
-  if (!shopId) {
-    return { code: -1, message: '参数缺失' }
-  }
-
-  var updateData = {
-    updateTime: db.serverDate()
-  }
-  if (shopData.name) updateData.name = shopData.name
-  if (shopData.contact) updateData.contact = shopData.contact
-  if (shopData.phone) updateData.phone = shopData.phone
-  if (shopData.minPrice !== undefined) updateData.minPrice = Number(shopData.minPrice || 0)
-  if (shopData.deliveryFee !== undefined) updateData.deliveryFee = Number(shopData.deliveryFee || 0)
-
-  await db.collection('food_shop').doc(shopId).update({ data: updateData })
-
-  await addLog(openid, 'food', 'update', '更新商家信息：' + shopId, adminName)
-  return { code: 0, message: '信息已更新' }
-}
-
-async function adminResetShopPassword(openid, data) {
-  var adminCheck = await checkAdmin(openid)
-  if (!adminCheck.isAdmin) {
-    return { code: -1, message: '无权限' }
-  }
-
-  var adminName = await getAdminName(openid)
-  var shopId = data.shopId
-
-  if (!shopId) {
-    return { code: -1, message: '参数缺失' }
-  }
-
-  var shopUser = await db.collection('food_shop_user').where({ shopId: shopId }).limit(1).get()
-  if (shopUser.data.length === 0) {
-    return { code: -1, message: '商家账号不存在' }
-  }
-
-  var temporaryPassword = crypto.randomBytes(6).toString('hex')
-  await db.collection('food_shop_user').doc(shopUser.data[0]._id).update({
-    data: {
-      passwordHash: hashMerchantPassword(temporaryPassword),
-      password: cmd.remove(),
-      updateTime: db.serverDate()
-    }
-  })
-
-  await addLog(openid, 'food', 'update', '重置商家密码：' + shopId, adminName)
-  return {
-    code: 0,
-    message: '密码已重置，请立即交给商家并提醒其修改',
-    data: { temporaryPassword: temporaryPassword }
-  }
-}
-
-async function adminUpdateShopAccount(openid, data) {
-  var adminCheck = await checkAdmin(openid)
-  if (!adminCheck.isAdmin) {
-    return { code: -1, message: '无权限' }
-  }
-
-  var shopId = data.shopId
-  var username = String(data.username || '').trim()
-  var password = String(data.password || '')
-  if (!shopId || (!username && !password)) {
-    return { code: -1, message: '请输入账号或密码' }
-  }
-  if (username && username.length < 4) {
-    return { code: -1, message: '商家账号至少4位' }
-  }
-  if (password && (password.length < 8 || password.length > 128)) {
-    return { code: -1, message: '商家密码应为8至128位' }
-  }
-
-  var shop = await db.collection('food_shop').doc(shopId).get()
-  if (!shop.data) {
-    return { code: -1, message: '商家不存在' }
-  }
-
-  var shopUser = await db.collection('food_shop_user').where({ shopId: shopId }).limit(1).get()
-  if (username) {
-    var sameName = await db.collection('food_shop_user').where({ username: username }).get()
-    var conflict = sameName.data.find(function(item) {
-      return !shopUser.data.length || item._id !== shopUser.data[0]._id
-    })
-    if (conflict) {
-      return { code: -1, message: '该商家账号已被使用' }
-    }
-  }
-
-  if (shopUser.data.length) {
-    var updateData = { updateTime: db.serverDate() }
-    if (username) updateData.username = username
-    if (password) {
-      updateData.passwordHash = hashMerchantPassword(password)
-      updateData.password = cmd.remove()
-    }
-    await db.collection('food_shop_user').doc(shopUser.data[0]._id).update({ data: updateData })
-  } else {
-    if (!username || !password) {
-      return { code: -1, message: '首次设置需同时填写账号和密码' }
-    }
-    await db.collection('food_shop_user').add({
-      data: {
-        bindOpenid: '',
-        shopId: shopId,
-        username: username,
-        passwordHash: hashMerchantPassword(password),
-        role: 'admin',
-        approved: true,
-        createTime: db.serverDate(),
-        updateTime: db.serverDate()
-      }
-    })
-  }
-
-  var adminName = await getAdminName(openid)
-  await addLog(openid, 'food', 'update', '修改商家账号：' + (shop.data.name || shopId), adminName)
-  return { code: 0, message: '商家账号已更新' }
-}
-
-async function getShopLogs(openid, data) {
-  var adminCheck = await checkAdmin(openid)
-  if (!adminCheck.isAdmin) {
-    return { code: -1, message: '无权限' }
-  }
-
-  var shopId = data.shopId
-  if (!shopId) {
-    return { code: -1, message: '参数缺失' }
-  }
-
-  var res = await db.collection('food_shop_logs')
-    .where({ shopId: shopId })
-    .orderBy('createTime', 'desc')
-    .limit(100)
-    .get()
-
-  var list = res.data.map(function(item) {
-    return {
-      _id: item._id,
-      type: item.type,
-      description: item.description,
-      operatorName: item.operatorName,
-      createTime: item.createTime
-    }
-  })
-
-  return { code: 0, data: { list: list } }
-}
-
-async function getShopDishes(openid, data) {
-  var adminCheck = await checkAdmin(openid)
-  if (!adminCheck.isAdmin) {
-    return { code: -1, message: '无权限' }
-  }
-
-  var shopId = data.shopId
-  if (!shopId) {
-    return { code: -1, message: '参数缺失' }
-  }
-
-  var res = await db.collection('food_dish')
-    .where({ shopId: shopId })
-    .orderBy('createTime', 'desc')
-    .get()
-
-  var dishes = res.data.map(function(item) {
-    return {
-      _id: item._id,
-      name: item.name,
-      price: item.price,
-      category: item.category,
-      image: item.image,
-      isAvailable: item.isAvailable,
-      description: item.description || '',
-      stock: item.stock,
-      sales: item.sales || 0,
-      createTime: item.createTime
-    }
-  })
-
-  return { code: 0, data: { dishes: dishes } }
 }
 
 async function getReports(openid, data) {

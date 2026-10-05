@@ -32,7 +32,7 @@ function loadTs(file) {
 
 function pageData(page, overrides = {}) {
   const data = Object.assign({ __sharePublic: false }, loadTs(path.join(mini, page + '.ts')).definition.data, overrides)
-  if (page === 'pages/portal/portal') data.moduleCopy = Object.fromEntries(['running', 'food', 'canteen', 'forum', 'english', 'gifts'].map(scope => [scope, loadTs(path.join(mini, 'utils/page-copy.ts')).exports.getPageCopy(scope)]))
+  if (page === 'pages/portal/portal') data.moduleCopy = Object.fromEntries(['running', 'canteen', 'forum', 'english', 'gifts'].map(scope => [scope, loadTs(path.join(mini, 'utils/page-copy.ts')).exports.getPageCopy(scope)]))
   return data
 }
 
@@ -113,7 +113,7 @@ function studyPreview(feedback = false) {
   })
 }
 const scenarios = [
-  { name: 'portal-mahiro', page: 'pages/portal/portal', data: pageData('pages/portal/portal', { userInfo: { nickName: '小橘同学的超长校园昵称直到这里还没结束', avatarUrl: '' }, isLoggedIn: true, daily: { title: '把日常过成小欢喜', subtitle: '跑一步 · 吃好饭 · 收藏校园时光', color: '#95627d' }, modulesState: 'ready', hasOpenModules: true, modules: { running: true, food: true, canteen: true, forum: true, english: true }, companionState: 'ready', companion: wardrobe('girl', 'food').appearance, theme: theme.getCampusTheme('sakura', 'portal') }) },
+  { name: 'portal-mahiro', page: 'pages/portal/portal', data: pageData('pages/portal/portal', { userInfo: { nickName: '小橘同学的超长校园昵称直到这里还没结束', avatarUrl: '' }, isLoggedIn: true, daily: { title: '把日常过成小欢喜', subtitle: '跑一步 · 吃好饭 · 收藏校园时光', color: '#95627d' }, modulesState: 'ready', hasOpenModules: true, modules: { running: true, canteen: true, forum: true, english: true }, companionState: 'ready', companion: wardrobe('girl', 'food').appearance, theme: theme.getCampusTheme('sakura', 'portal') }) },
   { name: 'wardrobe-boy', page: 'packageProfile/pages/wardrobe/wardrobe', data: wardrobe('boy', 'outfit') },
   { name: 'wardrobe-mahiro-feed', page: 'packageProfile/pages/wardrobe/wardrobe', data: wardrobe('girl', 'food', true) },
   { name: 'wardrobe-girl-ancient', page: 'packageProfile/pages/wardrobe/wardrobe', data: wardrobe('girl', 'outfit', false, 'girl_peach_hanfu') },

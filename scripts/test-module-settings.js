@@ -1,7 +1,7 @@
 const assert = require('node:assert/strict')
 const Module = require('node:module')
 const documents = new Map([
-  ['global_settings', [{ _id: 'settings', appName: '校园服务', contactEmail: 'keep@example.com', modules: { run: false, food: false, canteen: { enabled: true }, forum: { enabled: false } } }]],
+  ['global_settings', [{ _id: 'settings', appName: '校园服务', contactEmail: 'keep@example.com', modules: { run: false, food: true, rider: { enabled: true }, canteen: { enabled: true }, forum: { enabled: false } } }]],
   ['global_admin', [
     { _id: 'super', loginOpenid: 'super', role: 'super', status: 'active' },
     { _id: 'normal', loginOpenid: 'normal', role: 'normal', status: 'active' },
@@ -38,28 +38,31 @@ async function call(action, data) { return service.main({ action, data }) }
 
 async function main() {
   const legacy = await call('getPublicModules')
-  assert.equal(legacy.data.modules.food, false, '旧布尔值 false 必须保持隐藏')
+  assert.equal(legacy.data.modules.food, false, '旧点餐标记固定关闭')
+  assert.equal(legacy.data.modules.rider, false, '旧骑手标记固定关闭')
   assert.equal(legacy.data.modules.running, false, '旧 run 键必须兼容为 running')
   const list = await call('getModuleList')
-  assert.deepEqual(list.data.list.map(row => row.key).sort(), ['running', 'food', 'canteen', 'forum', 'rider', 'english', 'gifts'].sort())
-  const changed = await call('updateGlobalSettings', { modules: { running: { enabled: true }, canteen: { enabled: true }, food: { enabled: false }, forum: { enabled: false }, rider: { enabled: false }, english: { enabled: false }, gifts: { enabled: false } } })
+  assert.deepEqual(list.data.list.map(row => row.key).sort(), ['running', 'canteen', 'forum', 'english', 'gifts'].sort())
+  const changed = await call('updateGlobalSettings', { modules: { running: { enabled: true }, canteen: { enabled: true }, forum: { enabled: false }, english: { enabled: false }, gifts: { enabled: false } } })
   assert.equal(changed.code, 0)
   assert.deepEqual((await call('getPublicModules')).data.modules, { running: true, food: false, canteen: true, forum: false, rider: false, english: false, gifts: false })
   assert.equal(rows('global_settings')[0].contactEmail, 'keep@example.com', '只改模块时保留其他设置')
-  assert.equal((await call('updateModuleStatus', { module: 'rider', enabled: true })).code, 0)
-  assert.equal((await call('getPublicModules')).data.modules.rider, true)
+  assert.equal((await call('updateModuleStatus', { module: 'english', enabled: true })).code, 0)
+  assert.equal((await call('getPublicModules')).data.modules.english, true)
   assert.equal((await call('getPublicModules')).data.modules.food, false)
+  assert.notEqual((await call('updateModuleStatus', { module: 'food', enabled: true })).code, 0)
+  assert.notEqual((await call('updateModuleStatus', { module: 'rider', enabled: true })).code, 0)
   const before = JSON.stringify(rows('global_settings'))
-  for (const data of [{ module: 'missing', enabled: true }, { module: 'food', enabled: 'false' }]) {
+  for (const data of [{ module: 'missing', enabled: true }, { module: 'english', enabled: 'false' }]) {
     assert.notEqual((await call('updateModuleStatus', data)).code, 0)
   }
-  assert.notEqual((await call('updateGlobalSettings', { modules: { food: { enabled: 'false' } } })).code, 0)
+  assert.notEqual((await call('updateGlobalSettings', { modules: { english: { enabled: 'false' } } })).code, 0)
   assert.equal(JSON.stringify(rows('global_settings')), before, '无效输入不能写入数据库')
   for (const identity of ['normal', 'disabled']) {
     openid = identity
     assert.notEqual((await call('updateModuleStatus', { module: 'food', enabled: true })).code, 0)
     assert.notEqual((await call('updateGlobalSettings', { modules: { food: false } })).code, 0)
   }
-  console.log('模块格式兼容、七项开关、部分保存与权限：通过')
+  console.log('模块格式兼容、五项开关及旧版关闭标记、部分保存与权限：通过')
 }
 main().catch(error => { console.error(error.message); process.exitCode = 1 })

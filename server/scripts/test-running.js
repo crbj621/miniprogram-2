@@ -47,7 +47,7 @@ async function main() {
   for (const id of [a, b]) check((await call(team, id, { action: 'markRunning', teamId: activeId })).success, 'member starts')
   for (const id of [a, b]) await call(team, id, { action: 'syncRealtime', teamId: activeId, data: { distance: 900 } })
   await call(team, a, { action: 'finishTeamRun', teamId: activeId })
-  check(!(await call(team, b, { action: 'finishTeamRun', teamId: activeId })).teamFinished, 'realtime only must not generate reward')
+  check(!(await call(team, b, { action: 'finishTeamRun', teamId: activeId })).teamFinished, 'realtime only must not finish team')
   // Old solo distance must never leak into a pair score.
   await fixture('runRecords', prefix + '-solo', { openid: a, distance: 99999, date: '2020-01-01' })
   const payload = { runId: prefix + '-idempotent', teamId: activeId, distance: 600, duration: 300 }
@@ -63,12 +63,8 @@ async function main() {
   check(pair?.distance === 1300, 'pair ranks only this team recorded distance')
   const finished = await Promise.all([a, b].map(id => call(team, id, { action: 'finishTeamRun', teamId: activeId })))
   check(finished.every(row => row.success), 'concurrent finish succeeds')
-  const coupons = await db.collection('user_coupons').where({ teamId: activeId }).get()
-  coupons.data.forEach(row => owned.add('user_coupons:' + row._id))
-  check(coupons.data.length === 2, 'one reward per member')
-  await db.collection('user_coupons').doc(coupons.data[0]._id).update({ data: { used: true } })
-  await call(team, a, { action: 'finishTeamRun', teamId: activeId })
-  check((await db.collection('user_coupons').doc(coupons.data[0]._id).get()).data.used === true, 'retry never restores used coupon')
+  check((await db.collection('teams').doc(activeId).get()).data.status === 'finished', 'team completion remains committed')
+  check(!finished.some(row => row.rewardValue || row.rewardValidDays), 'no retired ordering coupon reward')
   const cancelledId = prefix + '-cancelled'
   await fixture('teams', cancelledId, { leaderOpenid: a, members: [b], status: 'cancelled', runParticipants: [a, b], runningMembers: [], realtimeData: { [a]: { distance: 1000 }, [b]: { distance: 1000 } } })
   check(!(await call(team, a, { action: 'finishTeamRun', teamId: cancelledId })).success, 'cancelled team cannot finish')
@@ -98,7 +94,7 @@ async function main() {
 }
 main().finally(async () => {
   // Include generated rows even when an assertion fails early.
-  for (const name of ['teams', 'runRecords', 'user_coupons']) {
+  for (const name of ['teams', 'runRecords']) {
     const rows = (await db.collection(name).get()).data
     rows.filter(row => String(row._id).startsWith(prefix) || [a, b, c].includes(row.openid || row.leaderOpenid || row._openid) || String(row.teamId || '').startsWith(prefix))
       .forEach(row => owned.add(name + ':' + row._id))

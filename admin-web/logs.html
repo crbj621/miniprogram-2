@@ -17,8 +17,6 @@
             <nav class="sidebar-nav">
                 <a href="dashboard.html"><i class="fas fa-home"></i> 控制台</a>
                 <a href="posts.html"><i class="fas fa-file-alt"></i> 动态管理</a>
-                <a href="orders.html"><i class="fas fa-shopping-cart"></i> 订单管理</a>
-                <a href="menus.html"><i class="fas fa-utensils"></i> 菜单管理</a>
                 <a href="users.html"><i class="fas fa-users"></i> 用户管理</a>
                 <a href="admins.html"><i class="fas fa-user-shield"></i> 管理员</a>
                 <a href="announcements.html"><i class="fas fa-bullhorn"></i> 公告管理</a>
@@ -47,7 +45,6 @@
                         <select id="moduleFilter" onchange="loadLogs()">
                             <option value="">全部模块</option>
                             <option value="forum">校园动态</option>
-                            <option value="food">食堂点餐</option>
                             <option value="run">校园跑</option>
                             <option value="admin">管理员</option>
                             <option value="system">系统</option>
@@ -214,7 +211,6 @@
         function getModuleName(module) {
             const names = {
                 'forum': '校园动态',
-                'food': '食堂点餐',
                 'run': '校园跑',
                 'admin': '管理员',
                 'system': '系统'
@@ -225,7 +221,6 @@
         function getModuleBadgeClass(module) {
             const classes = {
                 'forum': 'info',
-                'food': 'success',
                 'run': 'warning',
                 'admin': 'primary',
                 'system': 'secondary'

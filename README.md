@@ -1,13 +1,15 @@
 # 校园小程序 · 自建服务器版
 
-微信开发者工具打开本目录的 `project.config.json`。页面与分包以 `miniprogram/app.json` 为准，当前 67 页。前端只连接自建服务器，不使用微信云回退。
+微信开发者工具打开本目录的 `project.config.json`。页面与分包以 `miniprogram/app.json` 为准，当前 46 页。前端只连接自建服务器，不使用微信云回退。
+
+点餐、商家、订单、骑手和优惠券功能已移除；独立食堂评分、评论、投稿继续保留。
 
 ## 目录
 
 | 目录 | 用途 |
 | --- | --- |
 | miniprogram/ | 同学端、小程序管理端、页面、组件、图片、请求客户端 |
-| server/ | Express API、22 个业务服务、MariaDB 数据层、部署与回归工具 |
+| server/ | Express API、19 个业务服务、MariaDB 数据层、部署与回归工具 |
 | admin-web/ | 访问同一 API 的网页管理后台 |
 | scripts/ | 本机编译、回归、SSH 与文件清单生成 |
 | typings/ | 微信 TypeScript 类型声明 |

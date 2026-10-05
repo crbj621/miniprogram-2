@@ -36,7 +36,7 @@ Page(withSharing(withPageCopy('portal', {
     daily: getPortalDaily(),
     sectionCopy: { title: '你的校园小站', subtitle: '把日常安排得刚刚好' },
     moduleCopy: {},
-    modules: { running: false, food: false, canteen: false, forum: false, rider: false, english: false, gifts: false },
+    modules: { running: false, canteen: false, forum: false, english: false, gifts: false },
     modulesState: 'loading',
     hasOpenModules: false,
     companion: getCompanionAppearance(null),
@@ -57,7 +57,7 @@ Page(withSharing(withPageCopy('portal', {
     this.setData({
       sectionCopy: getPageCopy('portalSection'),
       moduleCopy: {
-        running: getPageCopy('running'), food: getPageCopy('food'), canteen: getPageCopy('canteen'),
+        running: getPageCopy('running'), canteen: getPageCopy('canteen'),
         forum: getPageCopy('forum'), english: getPageCopy('english'), gifts: getPageCopy('gifts')
       }
     })
@@ -155,7 +155,7 @@ Page(withSharing(withPageCopy('portal', {
     this.setData({ modulesState: 'loading' })
     try {
       const modules = await getPublicModules()
-      this.setData({ modules, modulesState: 'ready', hasOpenModules: modules.running || modules.food || modules.canteen || modules.forum || modules.english || modules.gifts })
+      this.setData({ modules, modulesState: 'ready', hasOpenModules: modules.running || modules.canteen || modules.forum || modules.english || modules.gifts })
       return true
     } catch (error) {
       console.error('读取模块开关失败', error)
@@ -197,11 +197,6 @@ Page(withSharing(withPageCopy('portal', {
     })
   },
 
-  goToFood() {
-    wx.navigateTo({
-      url: '/packageFood/pages/index/index'
-    })
-  },
 
   goToCanteen() {
     wx.navigateTo({ url: '/packageCanteen/pages/index/index' })

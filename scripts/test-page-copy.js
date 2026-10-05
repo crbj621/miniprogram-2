@@ -3,7 +3,7 @@
 const assert = require('node:assert/strict')
 const fs = require('node:fs'), path = require('node:path'), vm = require('node:vm'), ts = require('typescript')
 const root = path.resolve(__dirname, '..')
-const scopes = ['login', 'portal', 'portalSection', 'running', 'runRank', 'pairRank', 'food', 'foodLogin', 'canteen', 'forum', 'english', 'englishRank', 'gifts', 'wardrobe']
+const scopes = ['login', 'portal', 'portalSection', 'running', 'runRank', 'pairRank', 'canteen', 'forum', 'english', 'englishRank', 'gifts', 'wardrobe']
 const serialize = value => JSON.stringify(value)
 
 function load(file, globals = {}) {
@@ -105,7 +105,7 @@ async function checkLifecycle() {
   assert.equal(asyncPage.onLoad(options), pending, 'the exact Promise returned by onLoad is preserved')
   assert.equal(await pending, marker)
   const failed = new Error('business load failed')
-  const failingPage = mount(withPageCopy('food', { data: {}, onLoad() { throw failed } }))
+  const failingPage = mount(withPageCopy('canteen', { data: {}, onLoad() { throw failed } }))
   assert.throws(() => failingPage.onLoad(options), error => error === failed, 'business errors are not swallowed')
   const noLoad = mount(withPageCopy('canteen', { data: { counter: 3 } }))
   assert.equal(noLoad.onLoad(), undefined); assert.equal(noLoad.data.counter, 3)
@@ -168,7 +168,7 @@ function checkPageEntries() {
     page.onLoad({})
     const copiesAtEntry = serialize([page.data.pageCopy, page.data.sectionCopy, page.data.moduleCopy, page.data.pairCopy])
     const entrySelections = selections
-    assert.equal(entrySelections, route.includes('/portal/') ? 8 : 2, route + ': all copy slots select on entry')
+    assert.equal(entrySelections, route.includes('/portal/') ? 7 : 2, route + ': all copy slots select on entry')
     page.onShow(); page.setData({ unrelated: 1 }); page.onShow()
     assert.equal(selections, entrySelections, route + ': shows do not reselect copy slots')
     assert.equal(serialize([page.data.pageCopy, page.data.sectionCopy, page.data.moduleCopy, page.data.pairCopy]), copiesAtEntry)
@@ -181,6 +181,6 @@ function checkPageEntries() {
 
 async function main() {
   checkBanks(); await checkLifecycle(); checkPublicSharing(); checkPageEntries()
-  console.log('随机文案14范围、独立历史、连续去重、对象隔离、生命周期/返回值、首页/榜单多文案与朋友圈公开卡：通过')
+  console.log('随机文案12范围、独立历史、连续去重、对象隔离、生命周期/返回值、首页/榜单多文案与朋友圈公开卡：通过')
 }
 main().catch(error => { console.error(error); process.exitCode = 1 })

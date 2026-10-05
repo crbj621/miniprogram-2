@@ -2,7 +2,7 @@ const assert = require('node:assert/strict')
 const fs = require('node:fs')
 const vm = require('node:vm')
 const ts = require('typescript')
-const flags = { running: true, food: false, canteen: true, forum: false, rider: false, english: false, gifts: false }
+const flags = { running: true, canteen: true, forum: false, english: false, gifts: false }
 const settings = { modules: Object.fromEntries(Object.entries(flags).map(([key, enabled]) => [key, { enabled }])) }
 
 async function miniCheck() {
@@ -66,7 +66,7 @@ async function webCheck() {
   response = { code: 0, data: settings }
   await vm.runInContext('loadSettings()', context)
   assert.equal(nodes.get('saveSettingsButton').disabled, false)
-  assert.equal(nodes.get('moduleFood').checked, false, '关闭值不能误显示为开启')
+  assert.equal(nodes.get('moduleForum').checked, false, '关闭值不能误显示为开启')
   vm.runInContext("setModulePreset('reviews')", context)
   await vm.runInContext('saveSettings()', context)
   const saved = calls.at(-1).data.modules
@@ -75,5 +75,5 @@ async function webCheck() {
   assert.equal(Object.hasOwn(saved, 'english'), false, '旧网页不应覆盖未显示的英语开关')
   assert.equal(Object.hasOwn(saved, 'run'), false)
 }
-Promise.all([miniCheck(), webCheck()]).then(() => console.log('网页和小程序七项开关、快捷设置、失败保存保护：通过'))
+Promise.all([miniCheck(), webCheck()]).then(() => console.log('网页和小程序五项开关、快捷设置、失败保存保护：通过'))
   .catch(error => { console.error(error); process.exitCode = 1 })

@@ -5,8 +5,6 @@ const routes: { [key: string]: { title: string; keys?: string[] } } = {
   '/packageCanteen/pages/index/index': { title: '食堂评分 · 发现值得吃的菜' },
   '/packageCanteen/pages/stall/stall': { title: '一起看看这个食堂档口', keys: ['id'] },
   '/packageCanteen/pages/dish/dish': { title: '这道菜值得吃吗？看看同学的点评', keys: ['id'] },
-  '/packageFood/pages/index/index': { title: '校园点餐 · 好好吃饭' },
-  '/packageFood/pages/shop/shop': { title: '今天在这家吃点什么', keys: ['id'] },
   '/packageForum/pages/index/index': { title: '校园动态 · 分享新鲜事' },
   '/packageForum/pages/list/list': { title: '校园动态 · 遇见同频的朋友', keys: ['category', 'tab'] },
   '/packageForum/pages/detail/detail': { title: '来看看这条校园新鲜事', keys: ['id'] },
@@ -21,7 +19,7 @@ const routes: { [key: string]: { title: string; keys?: string[] } } = {
 }
 function entry(route: string, params: any = {}) {
   let path = route.startsWith('/') ? route : '/' + route
-  if (!routes[path]) path = path.startsWith('/packageEnglish/') ? '/packageEnglish/pages/papers/papers' : path.startsWith('/packageGifts/') ? '/packageGifts/pages/index/index' : path.startsWith('/packageCanteen/') ? '/packageCanteen/pages/index/index' : path.startsWith('/packageForum/') ? '/packageForum/pages/index/index' : path.startsWith('/packageFood/') ? '/packageFood/pages/index/index' : '/pages/portal/portal'
+  if (!routes[path]) path = path.startsWith('/packageEnglish/') ? '/packageEnglish/pages/papers/papers' : path.startsWith('/packageGifts/') ? '/packageGifts/pages/index/index' : path.startsWith('/packageCanteen/') ? '/packageCanteen/pages/index/index' : path.startsWith('/packageForum/') ? '/packageForum/pages/index/index' : '/pages/portal/portal'
   const query = (routes[path].keys || []).filter(key => typeof params[key] === 'string' && /^[a-zA-Z0-9_-]{1,100}$/.test(params[key])).map(key => key + '=' + encodeURIComponent(params[key])).join('&')
   return { title: routes[path].title, path: path + (query ? '?' + query : '') }
 }

@@ -11,12 +11,10 @@ const _ = db.command
 const TEAM_LIMIT = 3
 const INVITE_CODE_TTL = 10 * 60 * 1000
 const COUPLE_INVITE_TTL = 5 * 60 * 1000
-const TEAM_REWARD_VALUE = 0.5
-const TEAM_REWARD_VALID_DAYS = 3
-const TEAM_REWARD_MIN_DISTANCE = 500
+const TEAM_FINISH_MIN_DISTANCE = 500
 
 exports.main = async (event = {}) => {
-  // One database lock covers membership, invite-code allocation, finish and rewards.
+  // One database lock covers membership, invite-code allocation, finish.
   const reads = ['getMyTeamEvents', 'getTeamInfo', 'getUserInfo', 'getTeamRealtimeData']
   if (reads.includes(event.action)) return dispatch(event)
   try { return await db.runTransaction(() => dispatch(event), { lock: 'teams' }) }
@@ -94,38 +92,6 @@ function isTeamMember(team, openid) {
     (team.status === 'pending' && team.invitedMember === openid) ||
     (Array.isArray(team.members) && team.members.indexOf(openid) !== -1)
   )
-}
-
-async function awardTeamCoupons(team, memberOpenids) {
-  for (let i = 0; i < memberOpenids.length; i++) {
-    const memberOpenid = memberOpenids[i]
-    const couponId = 'team_reward_' + crypto.createHash('sha256')
-      .update(String(team._id) + ':' + String(memberOpenid))
-      .digest('hex')
-      .slice(0, 32)
-    const existing = await db.collection('user_coupons').doc(couponId).get()
-    if (existing && existing.data) continue
-    await db.collection('user_coupons').doc(couponId).create({
-      data: {
-        _openid: memberOpenid,
-        name: '组队跑完成奖励券',
-        value: TEAM_REWARD_VALUE,
-        source: 'team_run',
-        teamId: team._id,
-        used: false,
-        expireTime: new Date(Date.now() + TEAM_REWARD_VALID_DAYS * 24 * 60 * 60 * 1000),
-        createTime: db.serverDate()
-      }
-    })
-  }
-}
-
-function getCreateTimeValue(team) {
-  if (!team || !team.createTime) return 0
-  if (team.createTime instanceof Date) return team.createTime.getTime()
-  if (typeof team.createTime.toDate === 'function') return team.createTime.toDate().getTime()
-  const value = new Date(team.createTime).getTime()
-  return Number.isNaN(value) ? 0 : value
 }
 
 async function getOpenTeamsForUser(openid) {
@@ -638,13 +604,13 @@ async function finishTeamRun(openid, teamId) {
   const everyoneParticipated = expectedMembers.length >= 2 && expectedMembers.every(function(memberOpenid) {
     return participants.indexOf(memberOpenid) !== -1
   })
-  // Reward uses committed team run records, never a volatile realtime snapshot.
+  // Team completion uses committed team run records, never a volatile realtime snapshot.
   const savedRuns = await db.collection('runRecords').where({ teamId }).get()
   savedRuns.data = savedRuns.data.filter(eligible)
   const distances = new Map()
   savedRuns.data.forEach(row => distances.set(row.openid, (distances.get(row.openid) || 0) + Number(row.distance || 0)))
   const everyoneQualified = expectedMembers.every(function(memberOpenid) {
-    return (distances.get(memberOpenid) || 0) >= TEAM_REWARD_MIN_DISTANCE
+    return (distances.get(memberOpenid) || 0) >= TEAM_FINISH_MIN_DISTANCE
   })
 
   if (everyoneParticipated && everyoneQualified && remaining.length === 0) {
@@ -660,20 +626,16 @@ async function finishTeamRun(openid, teamId) {
         }
       })
     }
-    await awardTeamCoupons(refreshed, expectedMembers)
     return {
       success: true,
       teamFinished: true,
-      rewardValue: TEAM_REWARD_VALUE,
-      rewardValidDays: TEAM_REWARD_VALID_DAYS,
-      minDistance: TEAM_REWARD_MIN_DISTANCE
+      minDistance: TEAM_FINISH_MIN_DISTANCE
     }
   }
   return {
     success: true,
     teamFinished: false,
-    rewardPending: everyoneParticipated && remaining.length === 0 && !everyoneQualified,
-    minDistance: TEAM_REWARD_MIN_DISTANCE
+    minDistance: TEAM_FINISH_MIN_DISTANCE
   }
 }
 

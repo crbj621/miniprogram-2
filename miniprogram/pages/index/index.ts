@@ -332,7 +332,7 @@ Page(withSharing(withPageCopy('running', {
             if (this.data.isRunning) {
               wx.showModal({
                 title: '提示',
-                content: '本次组队跑已完成，奖励券已经发放到每位队员的优惠券中。',
+                content: '本次组队跑已完成，队员的有效跑步成绩已计入排行榜。',
                 showCancel: false,
                 success: () => {
                   const fusedDistance = this.fusedDistanceCalculation();

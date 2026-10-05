@@ -12,13 +12,7 @@
   </view></view>
   <view class="menu-section tech-card"><view class="menu-item" bindtap="goToEnglishManage" hover-class="tap-feedback tech-pressed"><text class="menu-icon">✦</text><view class="menu-content"><view class="menu-name">四六级学习管理</view><view class="menu-desc">词库 · 题库状态 · 任务赏金</view></view><text class="menu-arrow">›</text></view></view>
   <view class="menu-section tech-card"><view class="menu-item" bindtap="goToGiftsManage" hover-class="tap-feedback tech-pressed"><text class="menu-icon">💌</text><view class="menu-content"><view class="menu-name">祝福网站管理</view><view class="menu-desc">发布与下架 · 选择同学发金币</view></view><text class="menu-arrow">›</text></view></view>
-  <view class="menu-section tech-card"><button class="group-heading tech-control" data-group="food" bindtap="toggleGroup" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"><text>点餐与骑手事务</text><text>{{expandedGroup === 'food' ? '收起 −' : '展开 ＋'}}</text></button><view wx:if="{{expandedGroup === 'food'}}" class="menu-list">
-    <view class="menu-item" bindtap="goToFoodOrders" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"><text class="menu-icon">☷</text><view class="menu-content"><view class="menu-name">订单处理</view><view class="menu-desc">查看订单和制作状态</view></view><text class="menu-arrow">›</text></view>
-    <view class="menu-item" bindtap="goToFoodMenus" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"><text class="menu-icon">♧</text><view class="menu-content"><view class="menu-name">点餐菜品</view><view class="menu-desc">价格、库存与上下架</view></view><text class="menu-arrow">›</text></view>
-    <view class="menu-item" bindtap="goToShopAudit" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"><text class="menu-icon">✓</text><view class="menu-content"><view class="menu-name">商家申请</view></view><text class="menu-badge">{{stats.pendingShops}} 待审</text><text class="menu-arrow">›</text></view>
-    <view class="menu-item" bindtap="goToShopManage" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"><text class="menu-icon">⌂</text><view class="menu-content"><view class="menu-name">商家管理</view></view><text class="menu-arrow">›</text></view>
-    <view class="menu-item" bindtap="goToRiderAudit" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"><text class="menu-icon">↗</text><view class="menu-content"><view class="menu-name">骑手申请</view></view><text class="menu-badge">{{stats.pendingRiders}} 待审</text><text class="menu-arrow">›</text></view>
-  </view></view>
+
   <view class="menu-section tech-card"><button class="group-heading tech-control" data-group="forum" bindtap="toggleGroup" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"><text>社区内容管理</text><text>{{expandedGroup === 'forum' ? '收起 −' : '展开 ＋'}}</text></button><view wx:if="{{expandedGroup === 'forum'}}" class="menu-list">
     <view class="menu-item" bindtap="goToForumPosts" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"><text class="menu-icon">✎</text><view class="menu-content"><view class="menu-name">帖子管理</view><view class="menu-desc">置顶、精选和内容管理</view></view><text class="menu-arrow">›</text></view>
     <view class="menu-item" bindtap="goToForumReports" hover-class="tap-feedback tech-pressed" hover-start-time="0" hover-stay-time="100"><text class="menu-icon">!</text><view class="menu-content"><view class="menu-name">举报处理 · {{stats.pendingReports}} 待审</view></view><text class="menu-arrow">›</text></view>
@@ -50,10 +44,7 @@
             <view class="module-name">校园跑（{{settingsForm.modules.running.enabled ? '开启' : '隐藏'}}）</view>
             <tech-switch checked="{{settingsForm.modules.running.enabled}}" data-key="running" bindchange="toggleModule" disabled="{{settingsSaving}}" />
           </view>
-          <view class="module-row">
-            <view class="module-name">点餐（{{settingsForm.modules.food.enabled ? '开启' : '隐藏'}}）</view>
-            <tech-switch checked="{{settingsForm.modules.food.enabled}}" data-key="food" bindchange="toggleModule" disabled="{{settingsSaving}}" />
-          </view>
+
           <view class="module-row">
             <view class="module-name">食堂饭菜评价（{{settingsForm.modules.canteen.enabled ? '开启' : '隐藏'}}）</view>
             <tech-switch checked="{{settingsForm.modules.canteen.enabled}}" data-key="canteen" bindchange="toggleModule" disabled="{{settingsSaving}}" />
@@ -62,10 +53,7 @@
             <view class="module-name">校园动态（{{settingsForm.modules.forum.enabled ? '开启' : '隐藏'}}）</view>
             <tech-switch checked="{{settingsForm.modules.forum.enabled}}" data-key="forum" bindchange="toggleModule" disabled="{{settingsSaving}}" />
           </view>
-          <view class="module-row">
-            <view class="module-name">骑手（{{settingsForm.modules.rider.enabled ? '开启' : '隐藏'}}）</view>
-            <tech-switch checked="{{settingsForm.modules.rider.enabled}}" data-key="rider" bindchange="toggleModule" disabled="{{settingsSaving}}" />
-          </view>
+
           <view class="module-row">
             <view class="module-name">四六级学习（{{settingsForm.modules.english.enabled ? '开启' : '隐藏'}}）</view>
             <tech-switch checked="{{settingsForm.modules.english.enabled}}" data-key="english" bindchange="toggleModule" disabled="{{settingsSaving}}" />

@@ -9,7 +9,7 @@ const { campusSnapshot, settleCampusRewards, campusTasks } = require('../../src/
 const { wardrobeHeat, buildWardrobeRanking } = require('./companion-ranking')
 const { walletLock, loadWalletProfile } = require('../../src/campus-wallet')
 
-const MODULES = ['portal', 'english', 'running', 'food', 'canteen', 'forum', 'profile']
+const MODULES = ['portal', 'english', 'running', 'canteen', 'forum', 'profile']
 const DEFAULT_SETTINGS = { newReward: 10, reviewReward: 10, challengeReward: 5, challengeDurationSeconds: 180, challengeQuestionCount: 20, revealChallengeAnswersNextDay: true, runningReward: 10, commentReward: 3, photoReward: 2, likeReward: 1, likeDailyCap: 5 }
 const key = (...parts) => crypto.createHash('sha256').update(parts.join('|')).digest('hex')
 const dateOf = date => new Date(date.getTime() + 8 * 3600000).toISOString().slice(0, 10)

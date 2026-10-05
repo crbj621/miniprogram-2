@@ -17,8 +17,6 @@
       <nav class="sidebar-nav">
         <a href="dashboard.html" class="active"><i class="fas fa-home"></i> 控制台</a>
         <a href="posts.html"><i class="fas fa-file-alt"></i> 动态管理</a>
-        <a href="orders.html"><i class="fas fa-shopping-cart"></i> 订单管理</a>
-        <a href="menus.html"><i class="fas fa-utensils"></i> 菜单管理</a>
         <a href="users.html"><i class="fas fa-users"></i> 用户管理</a>
         <a href="admins.html" id="adminLink"><i class="fas fa-user-shield"></i> 管理员</a>
         <a href="announcements.html"><i class="fas fa-bullhorn"></i> 公告管理</a>
@@ -50,15 +48,7 @@
             <span class="stat-label">动态总数</span>
           </div>
         </div>
-        <div class="stat-card">
-          <div class="stat-icon" style="background: #e74c3c;">
-            <i class="fas fa-shopping-cart"></i>
-          </div>
-          <div class="stat-info">
-            <span class="stat-value" id="orderCount">0</span>
-            <span class="stat-label">订单总数</span>
-          </div>
-        </div>
+
         <div class="stat-card">
           <div class="stat-icon" style="background: #2ecc71;">
             <i class="fas fa-users"></i>
@@ -79,27 +69,7 @@
         </div>
       </div>
       
-      <div class="content-card">
-        <div class="card-header">
-          <h3>今日统计</h3>
-        </div>
-        <div class="stats-row">
-          <div class="stat-box">
-            <i class="fas fa-shopping-cart"></i>
-            <div class="stat-content">
-              <span class="stat-value" id="todayOrders">0</span>
-              <span class="stat-label">今日订单</span>
-            </div>
-          </div>
-          <div class="stat-box">
-            <i class="fas fa-yen-sign"></i>
-            <div class="stat-content">
-              <span class="stat-value" id="todayRevenue">¥0</span>
-              <span class="stat-label">今日营收</span>
-            </div>
-          </div>
-        </div>
-      </div>
+
     </main>
   </div>
   <script src="js/config.js"></script>
@@ -136,11 +106,8 @@
         
         if (result.code === 0) {
           document.getElementById('postCount').textContent = result.data.postCount || 0;
-          document.getElementById('orderCount').textContent = result.data.orderCount || 0;
           document.getElementById('userCount').textContent = result.data.userCount || 0;
           document.getElementById('todayPosts').textContent = result.data.todayPosts || 0;
-          document.getElementById('todayOrders').textContent = result.data.todayOrders || 0;
-          document.getElementById('todayRevenue').textContent = '¥' + (result.data.todayRevenue || 0);
         }
       } catch (error) {
         console.error('加载统计失败:', error);

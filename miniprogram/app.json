@@ -9,35 +9,12 @@
     "pages/admin/login/login",
     "pages/admin/index/index",
     "pages/admin/rank/rank",
-    "pages/admin/audit/audit",
-    "pages/admin/shops/shops",
-    "pages/admin/riders/riders",
     "pages/admin/logs/logs",
     "pages/admin/announcements/announcements",
     "pages/admin/admins/admins",
     "pages/admin/oplogs/oplogs"
   ],
   "subpackages": [
-    {
-      "root": "packageFood",
-      "name": "foodPackage",
-      "pages": [
-        "pages/login/login",
-        "pages/index/index",
-        "pages/shop/shop",
-        "pages/order/order",
-        "pages/order_list/order_list",
-        "pages/order_detail/order_detail",
-        "pages/mine/mine",
-        "pages/shop_login/shop_login",
-        "pages/shop_index/shop_index",
-        "pages/shop_dish/shop_dish",
-        "pages/shop_settings/shop_settings",
-        "pages/shop_register/shop_register",
-        "pages/adminOrder/adminOrder",
-        "pages/adminMenu/adminMenu"
-      ]
-    },
     {
       "root": "packageCanteen",
       "name": "canteenReviews",
@@ -56,7 +33,6 @@
         "pages/history/history",
         "pages/settings/settings",
         "pages/team/team",
-        "pages/coupons/coupons",
         "pages/wardrobe/wardrobe",
         "pages/tasks/tasks"
       ]
@@ -77,15 +53,6 @@
         "pages/admin_reports/admin_reports",
         "pages/admin_users/admin_users",
         "pages/admin_logs/admin_logs"
-      ]
-    },
-    {
-      "root": "packageRider",
-      "name": "rider",
-      "pages": [
-        "pages/register/register",
-        "pages/hall/hall",
-        "pages/my/my"
       ]
     },
     {

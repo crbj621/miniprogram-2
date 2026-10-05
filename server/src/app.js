@@ -30,9 +30,8 @@ const rateBuckets = new Map()
 const adminCollections = new Set([
   'global_settings', 'global_admin_log', 'global_announcement',
   'global_module', 'admin_logs', 'users', 'friends', 'notifications',
-  'runRecords', 'run_stats', 'realtimeData', 'teams', 'user_coupons',
-  'food_category', 'food_shop', 'food_shop_user', 'food_dish', 'food_menu',
-  'food_order', 'food_shop_logs', 'food_rider', 'forum_post',
+  'runRecords', 'run_stats', 'realtimeData', 'teams',
+  'forum_post',
   'forum_comment', 'forum_report', 'forum_admin', 'forum_admin_log',
   'forum_announcement', 'forum_user', 'forum_notification', 'forum_chat',
   'forum_chat_message', 'forum_collect', 'forum_like'

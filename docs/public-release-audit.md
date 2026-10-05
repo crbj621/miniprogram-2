@@ -30,7 +30,7 @@
 
 代码位置：server/src/app.js、server/src/image-upload.js、server/package.json和lock。新增server/scripts/test-http-security.js，44项真实本地HTTP回归覆盖匿名查询、普通用户越权、HTTP初始化、伪装/空图片、服务器文件名与真实下载、既有文件沙箱、登录/重置别名限流；祝福上传回归同步使用真实PNG/GIF，215项内存回归通过。
 
-本次修复尚未部署生产服务器。GitHub同步或CI通过不代表线上漏洞已经修复；生产发布仍需服务器备份和隔离SQL验收。
+本次安全修复已随20261005-173247点餐移除发布，备份、隔离SQL和线上只读验证见operations.md。GitHub同步或CI通过本身不代表服务器已部署。
 
 ## 内容与许可要逐类处理
 

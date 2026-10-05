@@ -1,6 +1,6 @@
 # 食堂评价模块
 
-本模块与点餐独立，使用自建Node.js服务和MariaDB。入口与五个页面注册在`miniprogram/app.json`，代码在`miniprogram/packageCanteen`；服务端入口`server/services/canteen_reviews/index.js`，请求由统一`api-client`经`/api/functions/canteen_reviews`发送。
+本模块使用独立档口、菜品及评价集合，点餐功能已移除。使用自建Node.js服务和MariaDB。入口与五个页面注册在`miniprogram/app.json`，代码在`miniprogram/packageCanteen`；服务端入口`server/services/canteen_reviews/index.js`，请求由统一`api-client`经`/api/functions/canteen_reviews`发送。
 
 ## 本次改造根因
 

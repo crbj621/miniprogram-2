@@ -36,19 +36,6 @@ async function main() {
   refresh.lifetimes.detached.call(refresh); const before = refresh.data.state
   pending.resolve(true); await unfinished; assert.equal(refresh.data.state, before, 'destroyed component must not update')
 
-  const shops = [deferred(), deferred(), deferred()]; let shopCall = 0
-  const food = load('miniprogram/packageFood/pages/index/index.ts', { callFoodFunction: () => shops[shopCall++].promise }).value
-  const old = food.loadShops(); food.data.keyword = 'new'; const latest = food.loadShops()
-  shops[1].resolve({ list: [{ _id: 'new' }] }); await latest
-  shops[0].resolve({ list: [{ _id: 'old' }] }); await old
-  assert.equal(food.data.shops[0]._id, 'new')
-  food.data.hasMore = true
-  const pageBefore = food.data.page
-  const failedPage = food.loadShops(true)
-  shops[2].reject(new Error('offline'))
-  await failedPage
-  assert.equal(food.data.page, pageBefore, 'failed pagination must not skip page')
-
   const posts = [deferred(), deferred()]; let postCall = 0
   const forum = load('miniprogram/packageForum/pages/index/index.ts', { api: { call: () => posts[postCall++].promise } }).value
   const oldPost = forum.loadPosts(); forum.data.currentCategory = 'new'; const newPost = forum.loadPosts()

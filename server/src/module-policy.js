@@ -2,10 +2,8 @@
 
 const moduleDefinitions = {
   running: { name: '校园跑', icon: 'running' },
-  food: { name: '食堂点餐', icon: 'utensils' },
   canteen: { name: '食堂饭菜评价', icon: 'star' },
   forum: { name: '校园动态', icon: 'comments' },
-  rider: { name: '骑手兼职', icon: 'bicycle' },
   english: { name: '四六级学习', icon: 'book' },
   gifts: { name: '祝福小站', icon: 'gift' }
 }

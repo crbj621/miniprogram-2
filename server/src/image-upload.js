@@ -4,7 +4,7 @@ const crypto = require('node:crypto')
 
 const namespaces = new Set([
   'avatars', 'forum', 'canteen-submissions', 'canteen-reviews',
-  'delivery', 'food-dishes', 'shops', 'dishes', 'admin', 'regression'
+  'admin', 'regression'
 ])
 const formats = new Set(['image/jpeg', 'image/png', 'image/webp', 'image/gif'])
 

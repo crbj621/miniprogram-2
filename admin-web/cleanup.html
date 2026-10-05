@@ -30,11 +30,7 @@
               <div class="stat-value" id="commentCount">0</div>
               <div class="stat-label">动态评论</div>
             </div>
-            <div class="stat-card">
-              <div class="stat-icon">🛒</div>
-              <div class="stat-value" id="orderCount">0</div>
-              <div class="stat-label">订餐订单</div>
-            </div>
+
             <div class="stat-card">
               <div class="stat-icon">🖼️</div>
               <div class="stat-value" id="imageCount">0</div>
@@ -69,7 +65,6 @@
                 <select id="cleanType">
                   <option value="forum_post">校园动态</option>
                   <option value="forum_comment">动态评论</option>
-                  <option value="food_order">订餐订单</option>
                 </select>
               </div>
               <div class="form-group">
@@ -131,13 +126,7 @@
               </div>
               <button class="btn btn-danger" onclick="clearAllPosts()">清空全部</button>
             </div>
-            <div class="cleanup-item" style="background: #fff2f0;">
-              <div class="info">
-                <h4 style="color: #ff4d4f;">清空所有订单</h4>
-                <p>此操作不可恢复，请谨慎操作！</p>
-              </div>
-              <button class="btn btn-danger" onclick="clearAllOrders()">清空全部</button>
-            </div>
+
           </div>
         </div>
       </div>
@@ -178,16 +167,14 @@
       try {
         showLoading();
         
-        const [posts, comments, orders, deletedPosts] = await Promise.all([
+        const [posts, comments, deletedPosts] = await Promise.all([
           db.collection('forum_post').count(),
           db.collection('forum_comment').count(),
-          db.collection('food_order').count(),
           db.collection('forum_post').where({ status: 'deleted' }).count()
         ]);
 
         document.getElementById('postCount').textContent = posts.total || 0;
         document.getElementById('commentCount').textContent = comments.total || 0;
-        document.getElementById('orderCount').textContent = orders.total || 0;
         document.getElementById('deletedPostCount').textContent = deletedPosts.total || 0;
         
         hideLoading();
@@ -252,7 +239,6 @@
       const typeNames = {
         'forum_post': '动态',
         'forum_comment': '评论',
-        'food_order': '订单'
       };
 
       const confirmed = await showConfirm(`确定要清理 ${days} 天前的${typeNames[type]}吗？此操作不可恢复！`);
@@ -371,38 +357,6 @@
       }
     }
 
-    async function clearAllOrders() {
-      const confirmed = await showConfirm('⚠️ 危险操作！确定要清空所有订单吗？此操作不可恢复！');
-      if (!confirmed) return;
-
-      const doubleConfirm = await showConfirm('再次确认：真的要清空所有订单吗？');
-      if (!doubleConfirm) return;
-
-      try {
-        showLoading();
-        addLog('开始清空所有订单...', 'warning');
-
-        const res = await db.collection('food_order').get();
-        let deleted = 0;
-
-        for (const order of res.data) {
-          try {
-            await db.collection('food_order').doc(order._id).remove();
-            deleted++;
-          } catch (err) {
-            console.error('删除失败:', order._id);
-          }
-        }
-
-        addLog(`清空完成，共删除 ${deleted} 条订单`, 'success');
-        showToast(`成功清空 ${deleted} 条订单`, 'success');
-        await loadStats();
-      } catch (err) {
-        hideLoading();
-        addLog('清空失败: ' + err.message, 'error');
-        showToast('清空失败', 'error');
-      }
-    }
   </script>
 </body>
 </html>

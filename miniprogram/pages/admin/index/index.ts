@@ -7,11 +7,8 @@ Page(withSharing({
     expandedGroup: '',
     statsLoading: false,
     stats: {
-      pendingShops: 0,
-      pendingRiders: 0,
       pendingCanteen: 0,
       pendingReports: 0,
-      orderCount: 0,
       runCount: 0,
       postCount: 0
     },
@@ -28,10 +25,8 @@ Page(withSharing({
       contactPhone: '',
       modules: {
         running: { enabled: true, name: '校园跑' },
-        food: { enabled: true, name: '食堂点餐' },
         canteen: { enabled: true, name: '食堂饭菜评价' },
         forum: { enabled: true, name: '校园动态' },
-        rider: { enabled: true, name: '骑手兼职' },
         english: { enabled: true, name: '四六级学习' },
         gifts: { enabled: true, name: '祝福小站' }
       }
@@ -92,11 +87,8 @@ Page(withSharing({
         const d = res.result.data || {}
         this.setData({
           stats: {
-            pendingShops: d.pendingShops || 0,
-            pendingRiders: d.pendingRiders || 0,
             pendingCanteen: d.pendingCanteen || 0,
             pendingReports: d.pendingReports || 0,
-            orderCount: d.orderCount || 0,
             runCount: d.runCount || 0,
             postCount: d.postCount || 0
           }
@@ -124,35 +116,10 @@ Page(withSharing({
     })
   },
 
-  goToShopAudit() {
-    wx.navigateTo({
-      url: '/pages/admin/audit/audit'
-    })
-  },
 
-  goToShopManage() {
-    wx.navigateTo({
-      url: '/pages/admin/shops/shops'
-    })
-  },
 
-  goToRiderAudit() {
-    wx.navigateTo({
-      url: '/pages/admin/riders/riders'
-    })
-  },
 
-  goToFoodOrders() {
-    wx.navigateTo({
-      url: '/packageFood/pages/adminOrder/adminOrder'
-    })
-  },
 
-  goToFoodMenus() {
-    wx.navigateTo({
-      url: '/packageFood/pages/adminMenu/adminMenu'
-    })
-  },
 
   goToCanteenManage() {
     wx.navigateTo({ url: '/packageCanteen/pages/admin/admin' + (this.data.stats.pendingCanteen ? '?tab=submissions' : '') })

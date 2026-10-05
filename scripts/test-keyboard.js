@@ -96,26 +96,7 @@ async function checkForms() {
   profile.data.searchType = 'id'; profile.data.searchKeyword = 'ab1234'; profile.searchFriend()
   assert.equal(searchRequest.data.keyword, 'AB1234', 'ID 只在提交时标准化')
 
-  const requests = []
-  const shops = loadPage('miniprogram/pages/admin/shops/shops.ts', { call: async request => {
-    requests.push(request); return { result: { code: 0 } }
-  } })
-  shops.loadShops = () => Promise.resolve()
-  shops.loadList = () => Promise.resolve()
-  shops.data.editForm = { name: '测试档口', minPrice: '0', deliveryFee: '0' }
-  const edit = value => shops.onEditInput({ currentTarget: { dataset: { field: 'deliveryFee', type: 'number' } }, detail: { value } })
-  for (const value of ['0', '0.', '0.5', '']) {
-    edit(value)
-    assert.equal(shops.data.editForm.deliveryFee, value, '金额录入保留中间状态')
-  }
-  for (const value of ['-1', 'abc']) {
-    edit(value); await shops.saveEdit()
-    assert.equal(requests.length, 0, '非法金额不提交')
-  }
-  edit('0.5'); await shops.saveEdit()
-  assert.equal(requests[0].data.data.shopData.deliveryFee, 0.5, '提交时转换金额')
-  assert.equal(requests[0].data.data.shopData.minPrice, 0)
 }
 
-checkForms().then(() => console.log('键盘事件顺序、重复通知、候选栏、返回复位、横屏、监听清理、昵称和金额输入：通过'))
+checkForms().then(() => console.log('键盘事件顺序、重复通知、候选栏、返回复位、横屏、监听清理、昵称输入：通过'))
   .catch(error => { console.error(error); process.exitCode = 1 })

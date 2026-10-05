@@ -1,8 +1,10 @@
 # 当前项目代码入口
 
-GitHub维护与公开检查见docs/github-guide.md、docs/public-release-audit.md。2026-10-05新增HTTP安全回归npm run test:security；server/src/image-upload.js按真实格式保存到服务端生成路径，匿名通用public/database已移除，管理员初始化仅服务器本地脚本可执行；小程序管理员登录/重置与专门认证接口共用限流。该次本机修复不代表已发布服务器，不恢复旧HTTP初始化或客户端可指定完整上传路径的逻辑。仓库仍私有，素材与题库许可未全部确认。
+GitHub维护与公开检查见docs/github-guide.md、docs/public-release-audit.md。2026-10-05新增HTTP安全回归npm run test:security；server/src/image-upload.js按真实格式保存到服务端生成路径，匿名通用public/database已移除，管理员初始化仅服务器本地脚本可执行；小程序管理员登录/重置与专门认证接口共用限流。该次安全修复已随20261005-173247点餐移除部署，不恢复旧HTTP初始化或客户端可指定完整上传路径的逻辑。仓库仍私有，素材与题库许可未全部确认。
 
 本文件只描述当前实现；不要从历史备份恢复旧方案。开始先看 [架构](docs/architecture.md)，业务见 [规则](docs/business-rules.md)，界面见 [规范](docs/ui.md)，部署见 [运维](docs/operations.md)。
+
+点餐、商家、骑手和优惠券及关联接口已移除；只保留旧版公开模块food/rider固定关闭标记与旧身份缓存清理，不能恢复相应业务。当前五个模块与46页以app.json和module-policy为准。
 
 ## 定位修改
 
@@ -14,7 +16,6 @@ GitHub维护与公开检查见docs/github-guide.md、docs/public-release-audit.m
 | 首页折叠状态卡 / 主机与硬盘 / 每小时外网检测 | pages/portal、server/src/server-status.js；scripts/test-portal-status.js、server/scripts/test-server-status.js |
 | 跑步 / 排行榜 | pages/index、pages/rank、server/services/saveRunData、getRankList、getUserRunStats |
 | 好友 / 组队 | pages/friends、packageProfile/pages/team、server/services/teamManager 等 |
-| 点餐 / 商家 | packageFood、server/services/food_manager、coupon_manager |
 | 独立食堂评价 / 多次评论 / 餐次 / 投稿补图 / 争议评分 | packageCanteen、server/services/canteen_reviews；docs/canteen.md |
 | 动态 / 私信 / 分区下拉 | packageForum、server/services/forum、notification |
 | 安卓键盘 / 聊天评论输入 | utils/keyboard-viewport.ts、packageForum/pages/chat 和 detail；普通表单保持原生自动避让 |
@@ -28,19 +29,19 @@ GitHub维护与公开检查见docs/github-guide.md、docs/public-release-audit.m
 | HTTP / 权限 / 文件上传 | server/src/app.js |
 | 数据库存储 / 事务 | server/src/data-store/index.js |
 
-上述前端路径相对 miniprogram。修改餐饮时只用 app.json 已注册的下划线目录，不恢复旧路由、wx.cloud 或已移出的页面。
+上述前端路径相对 miniprogram。修改食堂评价时只用 app.json 已注册的 packageCanteen 目录，不恢复旧路由、wx.cloud 或已移出的页面。
 
 ## 验证
 
 `npm run check`、`npm test`、`npm run check:wxml`、`npm run check:wxss`；实际预览使用微信官方 CLI，需工具服务端口开启。TS 输出保持 ES2017，ES6 / 增强编译开启；不要让预览包重新保留不兼容的可选链。
 
-本机67页结构、76个WXML/脚本、84个WXSS检查已通过，npm test全量回归通过。当前英语内存186项／隔离MariaDB193项，祝福内存214项／隔离MariaDB239项，小程序祝福78项通过。微信原生模拟器此前实际加载2019、2026四级／六级32题整卷，已复核画布和公开分享入口；本次6张风景JPEG及封面13项、本地两种答题音与地图状态7项通过。浏览器8模板、4免费静态插画、2真实视频已验证，英语20场景各两种视口共40个布局样例通过。最新官方预览体积见docs/ui-preview/canteen/preview-result.json；该记录不代表正式发布。安卓实体键盘、真实微信登录、手机发音、GPS／后台运动、真实好友／朋友圈及正式发布仍待真机验证。
+当前46页/55WXML/63WXSS检查通过；原67页/76WXML/84WXSS为移除前检查快照，npm test全量回归通过。当前英语内存186项／隔离MariaDB193项，祝福内存214项／隔离MariaDB239项，小程序祝福78项通过。微信原生模拟器此前实际加载2019、2026四级／六级32题整卷，已复核画布和公开分享入口；本次6张风景JPEG及封面13项、本地两种答题音与地图状态7项通过。浏览器8模板、4免费静态插画、2真实视频已验证，英语20场景各两种视口共40个布局样例通过。最新官方预览体积见docs/ui-preview/canteen/preview-result.json；该记录不代表正式发布。安卓实体键盘、真实微信登录、手机发音、GPS／后台运动、真实好友／朋友圈及正式发布仍待真机验证。
 
-服务使用自建Node.js＋MariaDB，当前部署加载22个服务；本次发布点与隔离SQL回归结果以 docs/operations.md 为准，不把本机完成写成已部署。实时模块值、用户和数据库条数必须从接口查询，不把文档快照当作固定状态。英语内容与接口见 docs/english.md；已发布2019年6月至2026年6月104份不含听力目录编排（52份／级），每份作文1＋阅读30＋翻译1，共3328条新记录，加原326条为3654条。12份共享阅读并非104份独立阅读；208道主观题为原创参考，客观新解析为程序生成定位说明，仍有1处参考答案争议。目录优先新nonlistening卷并去重，旧57题卷与阅读专项保留旧记录复盘。资料目录不等同逐题人工详解。不导入旧腾讯云数据；旧云环境未执行停用。
+服务使用自建Node.js＋MariaDB，当前源码与20261005-173247部署均19个服务；本次发布点与隔离SQL回归结果以 docs/operations.md 为准，不把本机完成写成已部署。实时模块值、用户和数据库条数必须从接口查询，不把文档快照当作固定状态。英语内容与接口见 docs/english.md；已发布2019年6月至2026年6月104份不含听力目录编排（52份／级），每份作文1＋阅读30＋翻译1，共3328条新记录，加原326条为3654条。12份共享阅读并非104份独立阅读；208道主观题为原创参考，客观新解析为程序生成定位说明，仍有1处参考答案争议。目录优先新nonlistening卷并去重，旧57题卷与阅读专项保留旧记录复盘。资料目录不等同逐题人工详解。不导入旧腾讯云数据；旧云环境未执行停用。
 
 明文密钥副本在 maintenance/账号与连接，源站运行配置在 /etc/campus-api/app.env。普通 SSH 可用不代表 Codex 内置远程工作环境已连接。
 
-最新服务部署20261005-121505，备份20261005-121359；当前验证见docs/operations.md。此前公网20素材哈希、4视频范围请求和6场景实际播放通过。EO泛域名HTTP回源／原Host已验证，gifts已启用，www原站保留；不要恢复旧隐藏入口描述。免费预览编辑中续期、离开2分钟回收，确认前不扣金币；first2h全效果免费，标准3天／7天／15天／1个月，背景／高级效果仍收费。公示默认关闭，广场只列正式有效的公示网站，任意模板可署名／匿名留言，super管理员可向指定同学发金币。到期内容／上传的并发清理规则与论坛存储边界见docs/gift-sites.md，实时发布／测试与真机边界见docs/operations.md。
+最新服务部署20261005-173247，备份20261005-172922；当前验证见docs/operations.md。此前公网20素材哈希、4视频范围请求和6场景实际播放通过。EO泛域名HTTP回源／原Host已验证，gifts已启用，www原站保留；不要恢复旧隐藏入口描述。免费预览编辑中续期、离开2分钟回收，确认前不扣金币；first2h全效果免费，标准3天／7天／15天／1个月，背景／高级效果仍收费。公示默认关闭，广场只列正式有效的公示网站，任意模板可署名／匿名留言，super管理员可向指定同学发金币。到期内容／上传的并发清理规则与论坛存储边界见docs/gift-sites.md，实时发布／测试与真机边界见docs/operations.md。
 
 食堂正式旧版与未上线新版并存：saveReview不可把clientId设为无条件必填。旧版必须带1–5分，以当前评分关联评论作顺序锚点兼容重试和最新评分；新版显式clientId可只交流。保持同连接事务、canteen:write锁、本人权限和争议限制。对应内存与隔离MariaDB43项回归见docs/canteen.md；后端修复不等于新版微信界面已正式发布。
 

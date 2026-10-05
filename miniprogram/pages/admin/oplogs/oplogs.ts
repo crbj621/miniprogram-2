@@ -8,7 +8,6 @@ Page(withSharing({
       { key: '', name: '全部' },
       { key: 'admin', name: '管理员' },
       { key: 'system', name: '系统' },
-      { key: 'food', name: '点餐' },
       { key: 'forum', name: '校园动态' },
       { key: 'running', name: '校园跑' }
     ],
