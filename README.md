@@ -49,6 +49,8 @@ npm run check:wxss
 
 ## GitHub 维护
 
+私有仓库：[crbj621/miniprogram-2](https://github.com/crbj621/miniprogram-2)，登录有访问权限的GitHub账号后查看。
+
 仓库保存小程序、后端、网页后台、原图片、依赖锁文件、检查脚本和技术文档。`node_modules/`、Python缓存、真实`.env`和`maintenance/账号与连接/`仅保留本机，不提交账号或密钥。
 
 GitHub是源码备份，不包含服务器实时数据库和用户上传图片；这些继续由服务器备份，见[运维说明](docs/operations.md)。换电脑后先安装依赖，运行配置以`server/.env.example`为模板另行填写，本机维护凭证需要自己单独保留。
